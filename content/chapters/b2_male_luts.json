@@ -1,0 +1,680 @@
+{
+  "id": "B2",
+  "title": "Male Lower Urinary Tract Symptoms — Advanced Evaluation and Management",
+  "subtitle": "Block B — Urodynamics, OAB, nocturia, post-TURP complications, LUTS in special populations",
+  "block": "B",
+  "block_name": "Functional Urology and Benign Disease",
+  "level": "R2-3",
+  "reading_time_min": 42,
+  "guidelines_version": "EAU Non-neurogenic Male LUTS Guidelines 2024 · EAU Nocturia Guidelines 2024",
+  "textbook_refs": [
+    "Gravas S et al. EAU Guidelines on Non-neurogenic Male Lower Urinary Tract Symptoms (2024)",
+    "Drake MJ et al. EAU Guidelines on Nocturia (2024)",
+    "Cornu JN et al. A Contemporary Assessment of Nocturia: Definition, Epidemiology, Pathophysiology, and Management (Eur Urol 2012)",
+    "Hashim H, Abrams P. Is the Bladder a Reliable Witness for Predicting Detrusor Overactivity? J Urol 2006"
+  ],
+  "learning_objectives": [
+    "Select appropriate urodynamic investigations and interpret findings for complex male LUTS",
+    "Diagnose and manage overactive bladder (OAB) in men, including after TURP",
+    "Apply EAU 2024 diagnostic pathway for nocturia and select appropriate treatment based on aetiology",
+    "Manage post-TURP complications including retrograde ejaculation, urethral stricture, and bladder neck contracture",
+    "Identify LUTS in special populations including post-radical prostatectomy and neurological disease"
+  ],
+  "sections": [
+    {
+      "id": "B2-S1",
+      "title": "Urodynamic Studies: Indications, Technique, and Interpretation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Urodynamic studies (UDS)** provide objective data on bladder storage and voiding function that cannot be obtained from symptom scores or flow rates alone. The EAU 2024 guidelines recommend UDS when the diagnosis is uncertain, when non-invasive treatment has failed, and prior to surgical intervention for LUTS when the result would influence management. UDS is not routinely indicated for straightforward BPH, but becomes essential in men with neurological disease, prior pelvic surgery, recurrent UTI, suspected detrusor underactivity, or when conservative treatment has failed.\n\nThe standard urodynamic investigation comprises **cystometry** (filling and voiding phase), **pressure-flow study**, and **sphincter EMG** when neurogenic pathology is suspected. Filling cystometry at a fill rate of 50–100 mL/min assesses bladder sensation (first sensation of filling ≥100 mL, strong desire ≥300 mL, maximum cystometric capacity ≥400 mL), detrusor activity (normal = no involuntary contractions), compliance (normal >40 mL/cmH₂O), and urethral function. **Detrusor overactivity (DO)** is defined as involuntary detrusor contractions during filling, either phasic (rises and falls) or terminal (single contraction at cystometric capacity). DO is idiopathic when no cause is identified, or neurogenic when associated with relevant neurological disease.\n\n**Pressure-flow study** defines the voiding phase. The **bladder outlet obstruction index (BOOI)** = PdetQmax − 2×Qmax. BOOI >40 = obstructed; BOOI <20 = unobstructed; 20–40 = equivocal. The **bladder contractility index (BCI)** = PdetQmax + 5×Qmax. BCI >150 = strong; 100–150 = normal; <100 = underactive. **Detrusor underactivity (DUA)** is defined by BCI <100 combined with low flow and prolonged voiding time. DUA affects 9–28% of men with LUTS and is clinically indistinguishable from BOO without UDS — both present with weak stream and incomplete emptying. This distinction has critical therapeutic implications: surgery improves outcomes in BOO but not DUA."
+        },
+        {
+          "type": "table",
+          "title": "Key Urodynamic Parameters and Normal Values in Men",
+          "headers": ["Parameter", "Definition", "Normal/Threshold", "Clinical Significance"],
+          "rows": [
+            ["First sensation of filling", "First awareness of bladder filling", "≥100 mL", "Early sensation suggests DO or hypersensitivity"],
+            ["Maximum cystometric capacity", "Volume at which patient asks to void", "≥400 mL", "<200 mL suggests reduced compliance or DO"],
+            ["Detrusor overactivity", "Involuntary detrusor contractions during filling", "Absent", "Idiopathic or neurogenic; correlates with urgency"],
+            ["Bladder compliance", "Volume change per unit pressure change", ">40 mL/cmH₂O", "<20 mL/cmH₂O = poor compliance (risk upper tract)"],
+            ["BOOI (PdetQmax − 2×Qmax)", "Bladder outlet obstruction index", ">40 = obstructed", "Guides surgical decision for BOO"],
+            ["BCI (PdetQmax + 5×Qmax)", "Bladder contractility index", "100–150 = normal", "<100 = detrusor underactivity"],
+            ["Detrusor pressure at Qmax", "Voiding detrusor pressure at maximum flow", "Variable", "High PdetQmax with low Qmax = obstruction"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — BOOI Formula and Interpretation",
+          "content": "BOOI = PdetQmax − 2×Qmax. Values >40 define obstruction, <20 define no obstruction. In a man with Qmax 8 mL/s and PdetQmax 60 cmH₂O: BOOI = 60 − 16 = 44 → obstructed. This formula from the ICS nomogram is a frequent board question. A high BOOI predicts successful outcome from TURP; a low BCI predicts poor surgical outcome."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Treating DUA with Surgery",
+          "content": "Detrusor underactivity (BCI <100) presenting with weak stream and high PVR is clinically indistinguishable from BOO without urodynamics. TURP in a man with DUA provides no symptomatic benefit and risks worsening incontinence. Always perform pressure-flow study before TURP when DUA is suspected (elderly, diabetes, prior pelvic surgery, prolonged catheterisation)."
+        }
+      ]
+    },
+    {
+      "id": "B2-S2",
+      "title": "Overactive Bladder in Men: Diagnosis and Medical Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Overactive bladder (OAB)** is defined by the ICS as urgency, with or without urgency urinary incontinence (UUI), usually with frequency and nocturia, in the absence of UTI or other obvious pathology. In men, OAB may coexist with or result from BOO — the two conditions overlap in 40–50% of cases. Before attributing OAB to idiopathic DO, prostate disease must be excluded as a contributing cause, since TURP resolves DO in approximately 50–70% of men with BOO-related DO.\n\nThe EAU 2024 diagnostic pathway for male OAB begins with history, bladder diary (minimum 3 days), urinalysis, flow rate/PVR, and IPSS with OAB-q assessment. Post-void residual >300 mL is a relative contraindication to antimuscarinic therapy. Urodynamics is recommended before antimuscarinic therapy in men with PVR >150 mL, prior pelvic surgery, or neurological disease.\n\n**Antimuscarinic agents** act as competitive antagonists at M2 and M3 muscarinic receptors on detrusor smooth muscle. M3 receptors mediate detrusor contraction; M2 receptors maintain bladder relaxation by opposing sympathetically mediated inhibition. Available agents include **solifenacin** (5–10 mg OD), **tolterodine** (4 mg ER OD), **fesoterodine** (4–8 mg OD), **oxybutynin** (should be avoided in elderly due to CNS penetration — lipophilic, crosses blood-brain barrier), and **trospium** (quaternary ammonium — does not cross BBB, preferred in elderly). Common adverse effects include dry mouth, constipation, blurred vision, and cognitive impairment (particularly oxybutynin). Narrow-angle glaucoma remains an absolute contraindication.\n\n**Mirabegron** (beta-3 adrenoceptor agonist, 50 mg OD) activates beta-3 receptors on detrusor, causing smooth muscle relaxation during filling. Efficacy comparable to antimuscarinics for urgency and UUI, with superior tolerability (no dry mouth, no cognitive effects). Mirabegron is preferred in: elderly men (>70 years), cognitive impairment, constipation, dry mouth intolerance, prior antimuscarinic failure. Contraindicated in uncontrolled hypertension (>180/110 mmHg). The SYNERGY trial demonstrated additive benefit of solifenacin + mirabegron combination versus either drug alone. EAU 2024 supports combination therapy as second-line before botulinum toxin or neuromodulation."
+        },
+        {
+          "type": "table",
+          "title": "Antimuscarinic Agents for OAB: Comparison",
+          "headers": ["Drug", "Dose", "BBB Penetration", "Key Adverse Effects", "Preferred Population"],
+          "rows": [
+            ["Solifenacin", "5–10 mg OD", "Moderate", "Dry mouth, constipation", "Standard first-line"],
+            ["Tolterodine ER", "4 mg OD", "Low", "Dry mouth (less than oxybutynin)", "Standard first-line"],
+            ["Fesoterodine", "4–8 mg OD", "Low (prodrug)", "Dry mouth, constipation", "When higher dose needed"],
+            ["Oxybutynin", "5–15 mg TID or ER", "High (lipophilic)", "CNS effects, dry mouth — AVOID elderly", "Avoid in elderly/cognitive impairment"],
+            ["Trospium", "20 mg BD or 60 mg XR", "Minimal (quaternary)", "Less CNS penetration", "Preferred: elderly, cognitive impairment"],
+            ["Mirabegron (β3)", "50 mg OD", "None (not anticholinergic)", "Hypertension, dry mouth (rare)", "Elderly, antimuscarinic failure/intolerance"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — OAB After TURP",
+          "content": "When a man develops persistent urgency and frequency after technically successful TURP, the differential includes: residual DO (pre-existing idiopathic), de novo DO from surgical injury, bladder neck contracture, urethral stricture, or UTI. Urodynamics with cystometry should be performed. If DO persists after excluding obstruction, antimuscarinic or mirabegron therapy is appropriate. The EAU notes that approximately 30% of men have persistent OAB symptoms 12 months after TURP due to pre-existing non-BOO-related DO."
+        }
+      ]
+    },
+    {
+      "id": "B2-S3",
+      "title": "Nocturia: Aetiology, Assessment, and Treatment",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Nocturia** — waking one or more times at night to void — is the most bothersome LUTS symptom for many men, with a prevalence of 70–80% in men aged 70+. The EAU 2024 guidelines emphasise that nocturia is a symptom with multiple aetiologies, not simply a manifestation of BPH. Systematic aetiological assessment is mandatory before treatment, as surgery for BPH will not benefit nocturia caused by global polyuria or nocturnal polyuria.\n\nThe **24-hour bladder diary** (minimum 3 days) is the cornerstone of nocturia assessment. Three key parameters must be calculated:\n1. **24-hour urine volume**: >40 mL/kg/24h = global polyuria (diabetes insipidus, uncontrolled diabetes mellitus, excessive fluid intake, diuretic/caffeine/alcohol use)\n2. **Nocturnal urine volume (NUV)**: urine produced from sleep onset to final void on waking. **Nocturnal polyuria (NP)** = NUV/24h urine volume ratio >33% in adults >65 years (>20% in younger adults). NP is the most common cause of nocturia, affecting 60–80% of men with nocturia.\n3. **Nocturnal bladder capacity index (NBCi)**: NBCi >0 indicates reduced nocturnal bladder capacity contributing to nocturia.\n\nCauses of nocturnal polyuria include: idiopathic, obstructive sleep apnoea (OSA — obligatory screening with STOP-BANG questionnaire), congestive heart failure (fluid redistribution in recumbent position), venous insufficiency, and medications (evening diuretics). OSA causes nocturia through increased atrial natriuretic peptide (ANP) release from atrial distension during apnoeic episodes, resulting in nocturnal diuresis. Treatment of OSA with CPAP reduces nocturia in >50% of affected men.\n\n**Desmopressin** (synthetic ADH/AVP analogue) is the only pharmacotherapy with EAU Grade A recommendation specifically for nocturia due to nocturnal polyuria. It reduces nocturnal urine production by increasing water reabsorption in collecting ducts. The oral lyophilisate formulation (sublingual) at 25 μg (women) or 50 μg (men) is EMA-approved for nocturia. **Hyponatraemia** is the principal risk — serum sodium must be checked at baseline, at 3 days, at 1 month, and periodically thereafter. Contraindicated in: serum sodium <130 mmol/L, heart failure, hepatic cirrhosis, SIADH, renal impairment (eGFR <50 mL/min/1.73m²), and age >65 unless serum sodium >140 mmol/L with careful monitoring. The NOCTIVA trials demonstrated significant reduction in nocturnal voids with desmopressin nasal spray versus placebo."
+        },
+        {
+          "type": "table",
+          "title": "Nocturia Aetiological Framework and Targeted Treatments",
+          "headers": ["Aetiology", "Bladder Diary Finding", "Key Investigations", "Targeted Treatment"],
+          "rows": [
+            ["Global polyuria", "24h urine >40 mL/kg", "Glucose, Ca²⁺, water deprivation test, ADH level", "Treat underlying cause (DI, DM, fluid restriction)"],
+            ["Nocturnal polyuria (NP)", "NUV/24h ratio >33%", "STOP-BANG, echo (if HF suspected), sleep study", "Desmopressin 50 μg nocte; CPAP if OSA; diuretic timing"],
+            ["Reduced nocturnal bladder capacity", "NBCi >0, small voided volumes", "Urodynamics — DO or reduced capacity", "Antimuscarinics/mirabegron; treat BOO if present"],
+            ["Mixed (NP + reduced capacity)", "Both NP criteria and small volumes", "As above", "Combination: desmopressin + OAB drug"],
+            ["Sleep disorder", "Normal diary, insomnia reported", "Sleep diary, referral sleep medicine", "Sleep hygiene, CBT-I, treat sleep disorder"],
+            ["Obstructive sleep apnoea", "NP pattern", "STOP-BANG ≥5 → polysomnography", "CPAP — resolves nocturia in >50% of OSA men"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Critical Safety Warning — Desmopressin and Hyponatraemia",
+          "content": "Desmopressin can cause life-threatening dilutional hyponatraemia, especially in elderly men. The risk is highest in the first 3 days of therapy. Do NOT prescribe desmopressin if: age >65 without careful sodium monitoring, eGFR <50 mL/min/1.73m², baseline sodium <130 mmol/L, or concurrent medications that increase risk (SSRIs, NSAIDs, thiazides, carbamazepine). Serum sodium must be checked at day 3 and day 30 after initiation."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Nocturnal Polyuria Definition",
+          "content": "Nocturnal polyuria = nocturnal urine volume >33% of 24-hour urine volume in patients >65 years (>20% in younger adults). This is the MOST COMMON cause of nocturia, present in 60–80% of cases. A 3-day bladder diary is mandatory to distinguish NP from reduced bladder capacity or global polyuria — this changes treatment completely."
+        }
+      ]
+    },
+    {
+      "id": "B2-S4",
+      "title": "Post-TURP Complications: Ejaculatory Dysfunction, Stricture, and Bladder Neck Contracture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "TURP carries a defined risk profile of specific complications that residents must recognise and manage. **Retrograde ejaculation (RE)** occurs in 65–90% of men after standard monopolar or bipolar TURP, and in 80–95% after open prostatectomy. RE results from disruption of the bladder neck and proximal urethra, allowing semen to follow the path of least resistance into the bladder during ejaculation. RE is not erectile dysfunction — erections are typically preserved. Patient counselling before TURP must explicitly address RE as a near-certain consequence. Minimally invasive therapies (Urolift, Rezum, aquablation) have been specifically designed to preserve ejaculatory function — Urolift BPH6 trial reported ejaculatory function preservation in >95% of men at 2 years.\n\n**Urethral stricture** occurs in 2–9% of men after TURP, most commonly at the external meatus (from the resectoscope sheath) or in the bulbar urethra. Risk factors include: resectoscope sheath diameter relative to urethral calibre, prolonged procedure time, excessive cautery near the external sphincter, and pre-existing urethral pathology. Stricture typically presents 3–12 months post-TURP with worsening obstructive symptoms and reduced Qmax. Diagnosis is confirmed by urethrogram (ascending urethrogram ± voiding cystourethrogram) or flexible cystoscopy. First-line treatment is **urethrotomy** (Otis or direct-vision internal urethrotomy, DVIU) for short (<1.5 cm) bulbar strictures. Anastomotic or substitution **urethroplasty** is preferred for recurrent strictures, long strictures, or those at other locations — superior long-term results (success rate >80% vs <50% for repeated urethrotomy).\n\n**Bladder neck contracture (BNC)** occurs in 0.3–9.4% after TURP and is more common after resection of small glands (<30 mL). BNC presents with progressive obstructive voiding symptoms and is distinguished from urethral stricture by its location at the bladder neck/vesicourethral junction. Flexible cystoscopy confirms the diagnosis — a fibrotic, non-distensible bladder neck narrowing. First-line management is **direct-vision incision** of the contracture (cold knife or laser incision at 5 and 7 o'clock positions). Recurrent BNC may require bladder neck reconstruction or YV-plasty. Intralesional steroid injection or mitomycin C at the time of incision reduces recurrence rates."
+        },
+        {
+          "type": "table",
+          "title": "Post-TURP Complications: Recognition and Management",
+          "headers": ["Complication", "Incidence", "Presentation", "Diagnosis", "Management"],
+          "rows": [
+            ["Retrograde ejaculation", "65–90%", "Cloudy urine after orgasm, anejaculation", "Sperm in post-orgasm urine", "Counselling pre-op; sperm banking if fertility desired"],
+            ["Urethral stricture", "2–9%", "Progressive obstructive LUTS at 3–12m post-op", "Urethrogram, flexible cystoscopy", "DVIU (short <1.5cm bulbar); urethroplasty (recurrent/long/penile)"],
+            ["Bladder neck contracture", "0.3–9.4%", "Progressive obstructive LUTS, often complete", "Flexible cystoscopy", "DVIU/cold knife incision; YV-plasty for recurrent"],
+            ["TUR syndrome (monopolar)", "0.5–2%", "Confusion, hyponatraemia, bradycardia intraop", "Serum sodium <125 mmol/L", "Stop procedure; hypertonic saline if severe; furosemide"],
+            ["Urinary incontinence", "<1%", "SUI post-TURP (sphincter injury)", "Urodynamics", "Pelvic floor rehab; AUS if persistent >12 months"],
+            ["Post-TURP haemorrhage", "1–2%", "Haematuria at 7–10 days (secondary)", "Cystoscopy if clot retention", "Bladder irrigation; re-cauterisation if needed"],
+            ["Urinary tract infection", "2–5%", "Dysuria, fever post-catheter removal", "MSU culture", "Antibiotic per sensitivity; pre-op screen/treat"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Counselling Before TURP",
+          "content": "Pre-operative counselling must cover: retrograde ejaculation in ~80% (offer sperm banking to men wishing future paternity), 1–2% risk of urethral stricture, <1% risk of serious incontinence, need for re-treatment at 10 years in ~10%, and the option of minimally invasive therapies (Urolift, Rezum) if ejaculatory function preservation is the priority. Document this counselling explicitly in the operative consent process."
+        }
+      ]
+    },
+    {
+      "id": "B2-S5",
+      "title": "Post-Radical Prostatectomy LUTS",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Radical prostatectomy (RP) produces a distinct pattern of LUTS requiring specific evaluation and management pathways. The most clinically significant complications are **stress urinary incontinence (SUI)** and **erectile dysfunction (ED)**. Post-RP SUI results from external sphincter weakness following disruption of the sphincteric mechanism at the bladder neck and membranous urethra. The rhabdosphincter and its neural supply (branches of the pudendal nerve, levator ani nerve) are critical for continence preservation.\n\nContinence recovery after RP follows a predictable timeline: 50–70% of men are continent (0–1 pad/day) at 1 month, 80–85% at 6 months, and 90–95% at 12 months in high-volume centres. **Pelvic floor muscle training (PFMT)** initiated pre-operatively or immediately post-catheter removal accelerates recovery and reduces the severity of early incontinence. The MAPS RCT (JAMA 2016) found no significant benefit of intensive pelvic floor physiotherapy over standard care at 24 months, suggesting most recovery is spontaneous — but early physiotherapy reduces pad usage in the first 3–6 months.\n\nFor men with persistent SUI beyond 12 months, management options depend on severity and urodynamic findings. UDS is recommended before invasive therapy: stress incontinence on UDS (urethral hypermobility or intrinsic sphincter deficiency) favours surgical intervention; DO on UDS requires antimuscarinic/mirabegron therapy first. **Bulking agents** (transurethral collagen, polydimethylsiloxane) have high failure rates at 2 years and are not recommended as primary therapy for post-RP SUI. **Male slings** (retropubic or transobturator) are effective for mild-to-moderate SUI (1–3 pads/day) in men without prior radiotherapy and without urethral atrophy. The **artificial urinary sphincter (AUS)** — AMS 800 — is the gold standard for moderate-to-severe post-RP SUI (>3 pads/day) and for any degree of SUI after radiotherapy. Five-year social continence rates with AUS exceed 85%, with device revision rates of 15–20% at 5 years. Detailed AUS management is covered in Chapter B3.\n\n**Anastomotic stricture** (vesicourethral anastomotic stricture, VUAS) occurs in 2–10% after RP and is more common after laparoscopic than robotic-assisted approaches in some series, though modern robotic data show comparable rates. VUAS presents with progressive obstructive LUTS or poor flow in the first 3–12 months post-RP. Management is endoscopic incision (cold knife at 6 o'clock, or holmium laser incision); recurrent VUAS may require formal anastomotic revision or perineal approach."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Post-RP SUI Management Algorithm",
+          "content": "Post-RP SUI management is time-dependent. At <12 months: PFMT, pads, reassurance. At 12+ months with persistent SUI: urodynamics first. Mild (1–2 pads): male sling if no prior RT. Moderate-severe (>3 pads) or post-RT: AUS (AMS 800). The AUS is always preferred in post-radiation patients because sling success rates drop to <50% after pelvic radiotherapy versus >80% in non-irradiated men."
+        }
+      ]
+    },
+    {
+      "id": "B2-S6",
+      "title": "LUTS in Neurological Disease",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Neurological diseases produce LUTS through disruption of the complex neural control of the lower urinary tract. The clinical presentation, urodynamic findings, and risk of upper urinary tract (UUT) damage depend critically on the level of the neurological lesion. Understanding neuroanatomy is essential:\n\n**Supraspinal lesions** (stroke, Parkinson's disease, multiple sclerosis, frontal lobe disease): impair the pontine micturition centre (PMC) input from the cortex, resulting in **DO without DSD** (detrusor-sphincter dyssynergia). Bladder emptying may be adequate, but storage symptoms dominate. Low risk of UUT damage. **Stroke** typically presents with urgency incontinence in the acute post-stroke period (45–70%), which resolves partially in most cases. **Parkinson's disease** causes OAB with voiding dysfunction due to dopaminergic loss in basal ganglia; antimuscarinics are relatively contraindicated (risk of worsening cognitive symptoms); mirabegron is preferred.\n\n**Suprasacral/infrapontine spinal lesions** (spinal cord injury, cervical myelopathy, spinal stenosis): disconnect the PMC from the sacral micturition centre (Onuf's nucleus), resulting in **DO with DSD**. DSD (simultaneous involuntary detrusor contraction and external sphincter contraction) causes high intravesical pressures, with risk of ureteric reflux, hydronephrosis, and progressive renal failure. This is the most dangerous pattern urologically. Management: intermittent self-catheterisation (ISC) + antimuscarinics/botulinum toxin to reduce filling pressure; maintain detrusor pressure <40 cmH₂O.\n\n**Sacral/peripheral lesions** (cauda equina syndrome, pelvic surgery injury, diabetes mellitus peripheral neuropathy, multiple system atrophy): damage the sacral parasympathetic nucleus or pelvic nerves, resulting in detrusor underactivity or acontractile bladder. High PVR, overflow incontinence. Management: ISC. Diabetes mellitus is the most common cause of peripheral autonomic neuropathy affecting the bladder — **diabetic cystopathy** presents insidiously with reduced bladder sensation, elevated PVR, and eventually acontractile bladder.\n\nThe EAU Neurourology Guidelines 2024 mandate upper urinary tract surveillance (renal ultrasound ± isotope renography) in all patients with neurogenic DO with DSD, and in any neurological patient with poorly compliant bladder (compliance <20 mL/cmH₂O), as these are the most significant risk factors for renal deterioration."
+        },
+        {
+          "type": "table",
+          "title": "Neurological Lesion Level and Expected Urodynamic Findings",
+          "headers": ["Lesion Level", "Example Conditions", "Urodynamic Pattern", "UUT Risk", "First-Line Management"],
+          "rows": [
+            ["Supraspinal", "Stroke, Parkinson's, MS (early)", "DO without DSD", "Low", "Antimuscarinics/mirabegron; PFMT"],
+            ["Suprasacral spinal", "SCI (cervical/thoracic), MS (advanced)", "DO with DSD — HIGH PRESSURE", "HIGH", "ISC + antimuscarinics/BoNT-A; monitor UUT"],
+            ["Sacral/peripheral", "Cauda equina, DM neuropathy, post-pelvic surgery", "DUA/acontractile bladder", "Moderate (overflow reflux)", "ISC; treat constipation; optimise diabetes control"],
+            ["Multiple system atrophy", "MSA (Shy-Drager)", "DO + underactive bladder (mixed)", "Moderate", "ISC; avoid alpha-blockers (orthostatic hypotension)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Critical Warning — Neurogenic DO with DSD and Renal Failure",
+          "content": "Detrusor-sphincter dyssynergia in suprasacral spinal cord injury can cause renal failure through sustained high intravesical pressures (>40 cmH₂O), ureterohydronephrosis, and reflux nephropathy. This was historically the leading cause of death in spinal cord injury patients. EAU 2024 mandates annual upper tract imaging and urodynamic monitoring. Target: maintain filling pressure <40 cmH₂O and leak point pressure <40 cmH₂O to protect the upper urinary tract."
+        }
+      ]
+    },
+    {
+      "id": "B2-S7",
+      "title": "Advanced Medical Therapy and Intradetrusor Botulinum Toxin",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "When first-line oral therapy for OAB fails (inadequate efficacy or intolerable side effects), EAU 2024 guidelines support escalation to **intradetrusor botulinum toxin type A (BoNT-A)** injection as a minimally invasive third-line option, or **sacral neuromodulation (SNM)** for refractory OAB with or without urgency incontinence.\n\n**Intradetrusor BoNT-A** (onabotulinumtoxinA, Botox®): administered as 100–200 U diluted in 10–20 mL saline, injected at 20–30 sites across the detrusor sparing the trigone (to avoid ureteral orifice injection and reflux). BoNT-A cleaves SNAP-25 (synaptosomal-associated protein 25 kDa), blocking vesicular acetylcholine release at the neuromuscular junction and inhibiting afferent sensory signalling through reduced urothelial ATP release. Efficacy: 70–80% achieve ≥50% reduction in urgency incontinence episodes. Onset: 1–2 weeks. Duration: 6–9 months, requiring repeat injections. The EMBARK RCT demonstrated 100 U BoNT-A superior to placebo for OAB in men. Principal risk: urinary retention requiring ISC — occurs in 5–20% of patients. Men must be counselled to perform ISC before treatment. Pre-treatment PVR <200 mL reduces retention risk.\n\n**Sacral neuromodulation (SNM, InterStim®)** involves implantation of a tined lead at the S3 foramen with a subcutaneous pulse generator. Mechanism: modulation of afferent signals via dorsal horn interneurons affecting the spinal guarding reflex circuit. Two-stage implantation: test stimulation phase (1–3 weeks) to assess response (≥50% improvement in voiding diary = responder); followed by permanent implantation. Efficacy: 60–80% achieve ≥50% symptom improvement, durable at 5 years. Particularly effective for urinary retention (non-neurogenic) as well as refractory OAB. EAU 2024 recommends BoNT-A or SNM equally as third-line for refractory OAB; clinical preference depends on patient factors (aversion to injection vs. implant, desire for reversibility, prior abdominal surgery affecting lead placement).\n\n**Percutaneous tibial nerve stimulation (PTNS)** offers non-invasive neuromodulation via the posterior tibial nerve (L4-S3 dermatomes) and is EAU Grade C — less evidence than BoNT-A or SNM for long-term outcomes, but no implant or injection required. The SUMIT RCT demonstrated 54.5% vs 20.9% response rate versus sham. Practical for patients unable or unwilling to undergo BoNT-A injection or SNM implantation."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — BoNT-A Mechanism and Key Risk",
+          "content": "Intradetrusor botulinum toxin A cleaves SNAP-25, preventing acetylcholine release at the neuromuscular junction AND reducing afferent sensory signalling (urothelial ATP release). The key exam point: 5–20% of men require clean intermittent self-catheterisation (CIC) after BoNT-A injection due to urinary retention. Patients MUST be counselled about CIC and be willing/able to perform it BEFORE treatment."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of male LUTS evaluation and management with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "B2-Q1",
+        "stem": "A 68-year-old man presents with a 2-year history of weak stream, hesitancy, and incomplete bladder emptying. IPSS 22, Qmax 7 mL/s, PVR 280 mL, prostate volume 45 mL. He had a stroke 3 years ago with no residual motor deficit. Which investigation is most appropriate before offering TURP?",
+        "options": {
+          "A": "PSA measurement and prostate MRI",
+          "B": "Pressure-flow urodynamic study",
+          "C": "Flexible cystoscopy",
+          "D": "Intravenous urogram to assess upper tract"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Pressure-flow urodynamics is mandatory before TURP in this patient because of his neurological history (stroke) and the possibility of detrusor underactivity (DUA). DUA is clinically indistinguishable from BOO — both present with weak stream and elevated PVR. TURP provides excellent results for BOO (BOOI >40) but no benefit for DUA (BCI <100), and may worsen incontinence. The prior stroke also raises the possibility of neurogenic DO or impaired detrusor function. EAU 2024 mandates UDS before surgery when neurological disease is present or when DUA is suspected.",
+          "wrong": {
+            "A": "PSA/MRI is for prostate cancer evaluation, not functional LUTS assessment. While appropriate for cancer staging, it does not differentiate BOO from DUA.",
+            "C": "Flexible cystoscopy evaluates anatomy (stricture, bladder neck pathology) but cannot determine whether obstruction or underactivity is the primary cause of his symptoms.",
+            "D": "Upper tract imaging is appropriate if renal impairment or hydronephrosis is suspected, but it does not assess voiding function or guide the surgical decision."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS 2024 — Section 5.3: Urodynamic studies recommended before surgical treatment when neurological disease present, prior pelvic surgery, or DUA suspected",
+          "trial": "Hashim & Abrams, J Urol 2006: Bladder symptoms are unreliable for predicting urodynamic diagnoses — 21% of men with classic BOO symptoms had DUA on pressure-flow study",
+          "pearl": "Urodynamics before TURP in neurological patients or suspected DUA can prevent futile or harmful surgery. In clinical practice: stroke, diabetes, prior pelvic surgery, or prolonged catheterisation all warrant pre-operative UDS."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q2",
+        "stem": "On pressure-flow urodynamics, a 72-year-old man has the following findings: maximum flow rate (Qmax) 9 mL/s, detrusor pressure at Qmax (PdetQmax) 18 cmH₂O. What is the BOOI and how should it be interpreted?",
+        "options": {
+          "A": "BOOI = 0 — normal voiding",
+          "B": "BOOI = 27 — equivocal, not definitively obstructed",
+          "C": "BOOI = 0 — unobstructed, suggesting detrusor underactivity",
+          "D": "BOOI = 9 — unobstructed"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "BOOI = PdetQmax − 2×Qmax = 18 − (2×9) = 18 − 18 = 0. A BOOI <20 indicates no obstruction. This, combined with low flow and low detrusor pressure, is characteristic of detrusor underactivity (DUA). In DUA, both Qmax and PdetQmax are low — the bladder lacks the contractile force to generate pressure. This contrasts with BOO where PdetQmax is high (>40 cmH₂O) and Qmax is low. EAU 2024 recommends BCI calculation as well: BCI = PdetQmax + 5×Qmax = 18 + 45 = 63 — well below the normal range (100–150), confirming detrusor underactivity.",
+          "wrong": {
+            "A": "BOOI of 0 is correct, but describing it as 'normal voiding' is wrong — a BOOI of 0 means unobstructed, but the low pressure and low flow indicate DUA, not normal voiding.",
+            "B": "BOOI = 27 would be calculated as 18 − (2×9) = 0, not 27. The equivocal range is 20–40, but this calculation is incorrect.",
+            "D": "BOOI = 9 would require PdetQmax = 9 + 18 = 27 cmH₂O, which is not the value given. The correct calculation yields BOOI = 0."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS 2024 — Appendix: ICS nomogram and BOOI/BCI definitions: BOOI >40 = obstructed; <20 = unobstructed; BCI <100 = detrusor underactivity",
+          "trial": "Abrams P. Bladder outlet obstruction index, bladder contractility index and bladder voiding efficiency: three simple indices to define bladder voiding function. BJU Int 1999: Validated BOOI and BCI formulae against clinical outcomes",
+          "pearl": "BOOI formula: PdetQmax − 2×Qmax. Values >40 = obstruction (surgical benefit likely), <20 = no obstruction (surgery unlikely to help). Combine with BCI = PdetQmax + 5×Qmax to assess contractility — BCI <100 = underactivity."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B2-Q3",
+        "stem": "A 74-year-old man with Parkinson's disease reports urgency urinary incontinence (4 episodes/day), frequency (12 voids/day), and nocturia ×3. IPSS 24, Qmax 12 mL/s, PVR 95 mL, prostate volume 35 mL. Urinalysis is normal. Which is the most appropriate first-line pharmacological treatment for his storage symptoms?",
+        "options": {
+          "A": "Solifenacin 5 mg once daily",
+          "B": "Oxybutynin 5 mg three times daily",
+          "C": "Mirabegron 50 mg once daily",
+          "D": "Tamsulosin 0.4 mg once daily"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Mirabegron (beta-3 adrenoceptor agonist) is the preferred agent for OAB in Parkinson's disease patients. Antimuscarinics — including solifenacin — carry significant risk of worsening cognitive impairment and neuropsychiatric symptoms in Parkinson's disease through central anticholinergic effects. Mirabegron has no anticholinergic mechanism and does not cross the blood-brain barrier, making it safe in this population. EAU 2024 specifically recommends mirabegron as first-line in patients with neurodegenerative conditions where anticholinergic burden must be minimised.",
+          "wrong": {
+            "A": "Solifenacin is a standard OAB drug but has moderate CNS penetration and anticholinergic effects that can worsen cognitive function and hallucinations in Parkinson's disease. EAU 2024 recommends avoiding antimuscarinics in Parkinson's patients.",
+            "B": "Oxybutynin is the worst choice — highly lipophilic, crosses the blood-brain barrier effectively, and causes significant CNS adverse effects including confusion, hallucinations, and worsening of dementia. It should be avoided in all elderly patients and especially those with neurological disease.",
+            "D": "Tamsulosin (alpha-1 blocker) addresses voiding LUTS from BOO, not storage OAB symptoms. In Parkinson's disease, alpha-blockers are associated with worsening orthostatic hypotension, which is already problematic in this condition."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS 2024 and EAU Neurourology Guidelines 2024 — Recommendation: mirabegron preferred over antimuscarinics in patients with neurodegenerative disease requiring OAB treatment",
+          "trial": "SYNERGY trial (Abrams et al. BJU Int 2015): Combination mirabegron + solifenacin superior to monotherapy; established mirabegron's role in OAB treatment. Anticholinergic Cognitive Burden Scale: oxybutynin scores 3 (highest risk); mirabegron scores 0.",
+          "pearl": "In Parkinson's disease with OAB: choose mirabegron, not antimuscarinics. Oxybutynin is absolutely contraindicated in elderly/neurological patients — highest CNS anticholinergic burden. Trospium (quaternary ammonium, no CNS penetration) is the safest antimuscarinic if one must be used."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q4",
+        "stem": "A 3-day bladder diary from a 70-year-old man with nocturia ×3 shows: total 24-hour urine volume 1950 mL/day (body weight 75 kg), nocturnal urine volume 850 mL, average voided volume 200 mL. What is the primary aetiological category of his nocturia?",
+        "options": {
+          "A": "Global polyuria",
+          "B": "Nocturnal polyuria",
+          "C": "Reduced nocturnal bladder capacity",
+          "D": "Mixed aetiology (global polyuria + reduced capacity)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Nocturnal polyuria is defined as nocturnal urine volume/24-hour urine volume ratio >33% in patients over 65. Here: 850/1950 = 43.6% — well above the threshold, confirming nocturnal polyuria as the primary aetiology. The 24-hour urine volume of 1950 mL in a 75 kg man = 26 mL/kg/24h — below the global polyuria threshold of 40 mL/kg/24h, so global polyuria is excluded. The average voided volume of 200 mL is normal (not reduced bladder capacity). This patient needs further evaluation for causes of nocturnal polyuria: OSA (STOP-BANG questionnaire), heart failure, venous insufficiency.",
+          "wrong": {
+            "A": "Global polyuria requires 24-hour urine volume >40 mL/kg = >3000 mL in this 75 kg man. His output of 1950 mL/day is below this threshold.",
+            "C": "Reduced nocturnal bladder capacity is suggested when voided volumes are small (typically <150–200 mL) and the NBCi is >0. His average voided volume of 200 mL is normal, not suggesting reduced capacity.",
+            "D": "The global polyuria threshold is not met (1950/75 = 26 mL/kg), so this is not mixed with global polyuria. Pure nocturnal polyuria is the diagnosis."
+          },
+          "guideline": "EAU Guidelines on Nocturia 2024 — Definition: nocturnal polyuria = NUV/24h urine >33% (age >65), >20% (age <65). Mandatory bladder diary assessment before treatment.",
+          "trial": "Cornu JN et al. A Contemporary Assessment of Nocturia (Eur Urol 2012): Nocturnal polyuria is the most common identifiable cause of nocturia, present in 60–80% of elderly men with nocturia. OSA-related ANP release is a major contributor.",
+          "pearl": "NP = NUV/24h >33% (>65 years). Always calculate 24h volume/kg to exclude global polyuria (>40 mL/kg). The bladder diary is the single most important investigation for nocturia — it reveals the aetiology and directs specific treatment."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B2-Q5",
+        "stem": "You diagnose nocturnal polyuria in a 71-year-old man and plan to prescribe desmopressin. Which of the following is an absolute contraindication to desmopressin in this patient?",
+        "options": {
+          "A": "Serum sodium 136 mmol/L",
+          "B": "eGFR 42 mL/min/1.73m²",
+          "C": "Prostate volume 55 mL",
+          "D": "Concurrent tamsulosin use"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Desmopressin is absolutely contraindicated when eGFR <50 mL/min/1.73m². Reduced renal function impairs free water excretion, dramatically increasing the risk of dilutional hyponatraemia. This patient's eGFR of 42 mL/min/1.73m² places him below the safe threshold. EAU 2024 recommends desmopressin only when eGFR ≥50 mL/min/1.73m². If prescribed despite reduced eGFR, life-threatening hyponatraemia can develop within 24–72 hours of the first dose.",
+          "wrong": {
+            "A": "Serum sodium 136 mmol/L is within the normal range (135–145 mmol/L). Desmopressin is contraindicated if sodium <130 mmol/L. A sodium of 136 mmol/L requires monitoring (check at day 3 and day 30) but is not a contraindication.",
+            "C": "Prostate volume does not affect desmopressin pharmacokinetics or safety. Large prostate volume may indicate concomitant BPH requiring treatment, but is not a contraindication to desmopressin.",
+            "D": "Tamsulosin and desmopressin have no significant pharmacokinetic interaction. Both are commonly used together in men with BPH and nocturia from nocturnal polyuria."
+          },
+          "guideline": "EAU Guidelines on Nocturia 2024 — Contraindications to desmopressin: eGFR <50 mL/min/1.73m², baseline Na <130 mmol/L, heart failure, hepatic cirrhosis, SIADH, age >65 without careful sodium monitoring, concurrent medications increasing hyponatraemia risk",
+          "trial": "NOCTURIA trials with desmopressin (Weiss et al. JAMA Int Med 2012): desmopressin significantly reduces nocturnal voids; hyponatraemia occurred in 7.6% without adequate renal function screening — led to mandatory eGFR screening requirement",
+          "pearl": "Desmopressin contraindications to memorise: eGFR <50, Na <130, heart failure, hepatic cirrhosis, SIADH, age >65 without careful monitoring. Check serum sodium at baseline, day 3, and day 30 after starting. Stop immediately if sodium drops to <130 mmol/L."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q6",
+        "stem": "A 65-year-old man underwent bipolar TURP 8 months ago for IPSS 25 with Qmax 7 mL/s and prostate volume 50 mL. His post-operative flow improved to Qmax 18 mL/s at 6 weeks, but now returns with IPSS 21 and Qmax 6 mL/s. He denies urgency or frequency, only progressive weak stream and straining. What is the most likely diagnosis?",
+        "options": {
+          "A": "Recurrent BPH",
+          "B": "Bladder neck contracture or urethral stricture",
+          "C": "Detrusor underactivity developing post-TURP",
+          "D": "Overactive bladder with dysfunctional voiding"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The clinical pattern of initial flow improvement after TURP followed by progressive deterioration at 6–12 months, with purely obstructive symptoms (no urgency or frequency), is classic for bladder neck contracture (BNC) or urethral stricture formation. BNC occurs in 0.3–9.4% after TURP, urethral stricture in 2–9%. Both present with progressive obstructive LUTS at 3–12 months post-TURP. The absence of urgency/frequency makes de novo DO less likely. Flexible cystoscopy and urethrogram should be performed to localise the level of obstruction.",
+          "wrong": {
+            "A": "Recurrent BPH is unlikely at only 8 months post-TURP. BPH recurrence typically occurs years later, and prostatic regrowth requires years of tissue regeneration. TURP recurrence rate at 10 years is approximately 10%.",
+            "C": "DUA is unlikely to develop de novo after successful TURP in an otherwise healthy 65-year-old. DUA presents with low detrusor pressure and low flow on UDS. The initial good post-operative flow improvement argues against pre-existing DUA.",
+            "D": "OAB/dysfunctional voiding would present with urgency, frequency, and urgency incontinence — predominantly storage symptoms, not the purely obstructive pattern described. The IPSS subscores would distinguish between storage and voiding symptoms."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS 2024 — Post-TURP complications: BNC incidence 0.3–9.4%, urethral stricture 2–9%, typically presenting at 3–12 months with progressive obstructive symptoms after initial flow improvement",
+          "trial": "Rassweiler J et al. BJU Int 2006: Comprehensive TURP outcome analysis — stricture and BNC are the leading causes of post-TURP obstruction requiring re-intervention within the first 2 years",
+          "pearl": "Post-TURP deterioration at 3–12 months with purely obstructive symptoms (no urgency) = stricture or BNC until proven otherwise. Initial flow improvement followed by decline is the classic pattern. Perform flexible cystoscopy ± urethrogram to distinguish and localise."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q7",
+        "stem": "A 70-year-old man is diagnosed with bladder neck contracture following TURP. First-line endoscopic incision is performed. Six months later, the contracture recurs. What is the most appropriate next step?",
+        "options": {
+          "A": "Repeat endoscopic incision with intralesional mitomycin C",
+          "B": "Urethral dilatation with metallic dilators",
+          "C": "Bladder neck reconstruction (YV-plasty) or formal anastomotic revision",
+          "D": "Permanent urethral catheterisation"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "For a first recurrence of bladder neck contracture after initial endoscopic incision, a repeat incision with adjuvant intralesional mitomycin C (MMC) or corticosteroid injection is appropriate before proceeding to formal open reconstruction. MMC is an antifibrotic agent that inhibits fibroblast proliferation and collagen deposition, reducing the risk of re-stenosis. This approach avoids the morbidity of major reconstructive surgery for a single recurrence. If the contracture recurs again after MMC-augmented incision, then formal YV-plasty or perineal anastomotic revision should be considered.",
+          "wrong": {
+            "B": "Urethral dilatation (bougienage) treats the scar tissue temporarily but does not address the underlying fibrosis and has very high recurrence rates for BNC. It is not the appropriate step-up from failed endoscopic incision.",
+            "C": "YV-plasty or formal anastomotic revision is appropriate for recurrent BNC after multiple failed endoscopic procedures (≥2 failures), not after a single recurrence. The morbidity of open bladder neck surgery should be deferred until simpler options with adjuvant therapy fail.",
+            "D": "Permanent catheterisation is a last resort for patients unfit for any form of surgical intervention. This 70-year-old man with no comorbidities that preclude surgery should not be condemned to a permanent catheter."
+          },
+          "guideline": "EAU Guidelines on Urethral Stricture 2024 — Management of bladder neck contracture: first recurrence → repeat incision ± intralesional steroid/MMC; multiple recurrences → YV-plasty or anastomotic revision",
+          "trial": "Vanni AJ et al. J Urol 2011: Intralesional mitomycin C at time of DVIU for BNC — 53% versus 20% success rate versus DVIU alone at 12-month follow-up",
+          "pearl": "Recurrent BNC after initial DVIU: next step = repeat DVIU + intralesional MMC or steroid. Only escalate to open YV-plasty after ≥2 failed endoscopic procedures. Intralesional MMC triples success rates for recurrent contractures."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q8",
+        "stem": "A 62-year-old man is planned for TURP for obstructive BPH. He asks about the risk of ejaculatory dysfunction. Which statement regarding post-TURP ejaculatory outcomes is most accurate?",
+        "options": {
+          "A": "Retrograde ejaculation occurs in approximately 20–30% of men after TURP",
+          "B": "Retrograde ejaculation is usually temporary, resolving within 6–12 months",
+          "C": "Retrograde ejaculation occurs in 65–90% of men after TURP and is typically permanent",
+          "D": "Erectile dysfunction is more common than retrograde ejaculation after TURP"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Retrograde ejaculation (RE) occurs in 65–90% of men after standard TURP and is permanent. It results from disruption of the bladder neck and proximal urethra, eliminating the zone of resistance that normally prevents retrograde semen flow during ejaculation. RE is not temporary — the resected tissue does not regenerate. This must be clearly communicated in pre-operative consent. For men who wish to preserve ejaculatory function and/or fertility, minimally invasive alternatives (Urolift, Rezum) should be discussed, as these preserve ejaculatory function in >90% of cases.",
+          "wrong": {
+            "A": "The 20–30% figure significantly underestimates RE after TURP. The correct incidence is 65–90%. Underquoting this risk represents inadequate pre-operative consent.",
+            "B": "Post-TURP RE is permanent, not temporary. The bladder neck is permanently resected and does not regenerate. If RE resolves, it was likely never true RE but rather an anejaculatory symptom from another cause.",
+            "D": "Erectile dysfunction (ED) after TURP occurs in approximately 5–15% of men and is less common than RE. ED from TURP results from thermal injury to cavernous nerves near the prostate capsule. RE (65–90%) is far more common than ED after TURP."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS 2024 — TURP outcomes: RE in 65–90%, ED in 5–15%; consent must cover both. Urolift BPH6 trial: RE preservation >95% in minimally invasive arm.",
+          "trial": "Lourenco T et al. Health Technol Assess 2008 (TURP systematic review): Meta-analysis confirming RE rate of 65–90% after monopolar TURP; bipolar TURP similar RE rates; Urolift preserves ejaculation in >95%",
+          "pearl": "TURP causes retrograde ejaculation in 65–90% of men — this is PERMANENT, not temporary. Offer sperm banking to men of reproductive age. If ejaculatory preservation is the priority, Urolift or Rezum (not TURP) should be discussed as alternatives."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B2-Q9",
+        "stem": "A 38-year-old man presents with progressive obstructive LUTS and weak stream over 6 months. He had an episode of urethritis 18 months ago treated empirically with antibiotics. Flexible cystoscopy shows a 1.2 cm narrowing at the bulbar urethra. Ascending urethrogram confirms a bulbar urethral stricture. What is the most appropriate first-line treatment?",
+        "options": {
+          "A": "Urethral dilatation with Foley catheter",
+          "B": "Direct-vision internal urethrotomy (DVIU)",
+          "C": "Buccal mucosa graft urethroplasty",
+          "D": "Permanent suprapubic catheter"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For a short (<2 cm) bulbar urethral stricture, DVIU (direct-vision internal urethrotomy) at the 12 o'clock position with cold knife or laser is appropriate first-line treatment. EAU 2024 guidelines recommend DVIU for single, short bulbar strictures. Success rates for a single DVIU are approximately 50–60% at 2 years for this stricture length and location. If the stricture recurs after a single DVIU, urethroplasty (buccal mucosa graft for longer/recurrent strictures) is recommended rather than repeated DVIU, as recurrence rates after second DVIU approach 80%.",
+          "wrong": {
+            "A": "Simple urethral dilatation (passive stretching without incision) has very high recurrence rates and is no longer recommended as definitive treatment for urethral stricture in EAU guidelines. It may be appropriate as a temporising measure.",
+            "C": "Buccal mucosa graft urethroplasty is the preferred treatment for recurrent strictures, longer strictures (>2–3 cm), or those at complex locations. It is not first-line for a single short bulbar stricture, where DVIU is appropriate as the initial procedure.",
+            "D": "Permanent suprapubic catheter is a last resort for patients unfit for any endoscopic or reconstructive procedure. There is no indication for this in a 38-year-old man with a treatable stricture."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures 2024 — Recommendation: DVIU or dilatation for single, short (<2 cm) bulbar strictures; urethroplasty for all recurrent strictures, longer strictures, or strictures with significant spongiofibrosis",
+          "trial": "Pansadoro V & Emiliozzi P. Urology 1996: Long-term results of internal urethrotomy — 78% success for strictures <1.5 cm at 12 months; drops to 32% if recurrence occurs, supporting urethroplasty after first recurrence",
+          "pearl": "Short (<2 cm) bulbar urethral stricture: DVIU first. If it recurs, do NOT repeat DVIU — perform urethroplasty. EAU guideline rule: one DVIU is reasonable; two DVIUs for the same stricture is not justified given 80% re-recurrence rate."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B2-Q10",
+        "stem": "A 76-year-old man with type 2 diabetes (HbA1c 8.9%) presents with inability to void for 18 hours, painless bladder distension to the umbilicus, and a PVR of 1200 mL on catheterisation. He reports he was unaware of bladder fullness. Urodynamics shows an acontractile detrusor with normal compliance. What is the most appropriate long-term management?",
+        "options": {
+          "A": "Alpha-blocker (tamsulosin) and timed voiding",
+          "B": "Intermittent self-catheterisation (ISC)",
+          "C": "TURP for presumed BPH",
+          "D": "Sacral neuromodulation to restore detrusor contractility"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This man has diabetic cystopathy — peripheral autonomic neuropathy affecting the bladder's sensory and motor innervation. Characteristics: insidious onset, painless urinary retention (impaired bladder sensation), acontractile or underactive detrusor on urodynamics, and high PVR. Intermittent self-catheterisation (ISC) is the cornerstone of management for acontractile bladder from any cause. ISC allows complete bladder emptying, preserves upper tract function, maintains bladder capacity, and avoids the complications of indwelling catheterisation (UTI, bladder stones, urethral stricture). Optimising glycaemic control should occur in parallel to slow neuropathy progression.",
+          "wrong": {
+            "A": "Alpha-blockers reduce urethral resistance but require detrusor contractility to produce voiding — an acontractile bladder cannot generate voiding regardless of outflow resistance. Timed voiding without catheterisation would result in persistent high PVR and upper tract damage.",
+            "C": "TURP is contraindicated when the primary problem is detrusor underactivity/acontractility rather than BOO. TURP in this setting does not restore voiding and risks worsening incontinence from urethral sphincter injury without benefit.",
+            "D": "Sacral neuromodulation is effective for non-obstructive urinary retention in neurologically intact patients with impaired detrusor contractility of unclear cause, but not for peripheral neuropathy-mediated acontractility from diabetic cystopathy — the sacral neurons themselves are damaged."
+          },
+          "guideline": "EAU Guidelines on Neurourology 2024 — Detrusor underactivity/acontractility from diabetic cystopathy: ISC is first-line management. EAU grade A recommendation for ISC in all patients with chronically elevated PVR from neurogenic or non-neurogenic DUA.",
+          "trial": "Fowler CJ et al. J Neurol Neurosurg Psychiatry 2008: Review of diabetic bladder dysfunction — acontractile bladder occurs in 25% of men with longstanding poorly controlled diabetes; ISC maintains upper tract function and reduces UTI rate versus indwelling catheter",
+          "pearl": "Diabetic cystopathy = painless retention with acontractile detrusor from autonomic neuropathy. TURP will NOT help — there is no obstruction to remove. ISC is the answer. Good glycaemic control may slow but not reverse established neuropathy."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q11",
+        "stem": "A 52-year-old man with T10 complete spinal cord injury (SCI) is assessed urologically. His urodynamics shows DO with DSD: detrusor contractions to 85 cmH₂O with simultaneous external sphincter contraction on EMG. What is the primary urological concern in this patient?",
+        "options": {
+          "A": "Urgency urinary incontinence requiring antimuscarinic therapy",
+          "B": "Elevated intravesical pressures causing upper tract damage — hydronephrosis and renal failure",
+          "C": "Erectile dysfunction requiring phosphodiesterase-5 inhibitor therapy",
+          "D": "Detrusor underactivity requiring timed ISC alone"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Detrusor-sphincter dyssynergia (DSD) in suprasacral SCI creates sustained high intravesical pressures during the detrusor contraction — here 85 cmH₂O, far exceeding the safe threshold of 40 cmH₂O. This causes ureterohydronephrosis through impaired ureteric drainage, vesicoureteric reflux, and progressive reflux nephropathy. Renal failure from high-pressure DO with DSD was historically the leading cause of death in SCI patients. EAU Neurourology 2024 mandates: maintain filling pressure <40 cmH₂O (leak point pressure <40 cmH₂O) to protect the upper tracts. Treatment: ISC + antimuscarinics or intradetrusor BoNT-A to reduce detrusor contractions and filling pressures.",
+          "wrong": {
+            "A": "While urgency incontinence is a consequence of DO with DSD, it is not the primary urological concern — the upper tract risk from high pressures is the life-limiting problem. Incontinence management is secondary to protecting the kidneys.",
+            "C": "Erectile dysfunction is a legitimate concern in SCI but is not the primary urological concern regarding DO with DSD. It is managed separately from the upper tract protection strategy.",
+            "D": "This patient has DO with DSD (high pressure pattern), not DUA. DUA requires ISC alone, but DSD requires ISC plus pressure-lowering therapy to prevent upper tract damage."
+          },
+          "guideline": "EAU Guidelines on Neurourology 2024 — Key principle: sustained intravesical pressure >40 cmH₂O is the primary risk factor for upper tract damage in neurogenic patients. Annual upper tract imaging mandatory. Target: filling pressure <40 cmH₂O at all times.",
+          "trial": "McGuire EJ et al. J Urol 1981: Landmark study establishing that leak point pressure >40 cmH₂O is associated with upper tract deterioration in neurogenic bladder — defined the 40 cmH₂O threshold still used today",
+          "pearl": "DO with DSD in suprasacral SCI = HIGH intravesical pressure = upper tract damage risk. The 40 cmH₂O rule: filling pressures consistently above this threshold cause hydronephrosis and renal failure. This was the leading cause of death in SCI patients historically. ISC + BoNT-A keeps pressures safe."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q12",
+        "stem": "A 68-year-old man with refractory OAB has failed solifenacin and then mirabegron (both at maximum doses for 3 months each). He has urge urinary incontinence (5 episodes/day), no neurological disease, Qmax 16 mL/s, PVR 65 mL. What is the next appropriate treatment option per EAU 2024?",
+        "options": {
+          "A": "Oxybutynin immediate-release at high dose",
+          "B": "Intradetrusor botulinum toxin A 100 U injection",
+          "C": "TURP to improve bladder outlet",
+          "D": "Permanent indwelling catheter"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "After failure of two oral pharmacological agents (antimuscarinic and beta-3 agonist) for OAB, EAU 2024 recommends escalation to third-line therapy: intradetrusor BoNT-A injection (100 U for idiopathic OAB) or sacral neuromodulation. BoNT-A injection is minimally invasive, can be performed under local anaesthesia, and achieves ≥50% reduction in urgency incontinence in 70–80% of patients. The low PVR (65 mL) and good flow suggest no obstruction. The patient must be counselled about the 5–20% risk of requiring ISC post-injection. Both BoNT-A and SNM are equivalent third-line options per EAU 2024.",
+          "wrong": {
+            "A": "Switching to oxybutynin at high dose after failing other antimuscarinics is not appropriate. Oxybutynin has the worst tolerability profile, particularly in elderly patients (high CNS penetration). Switching within the same drug class is not an evidence-based strategy when the class has already failed at adequate doses.",
+            "C": "TURP is for bladder outlet obstruction (BOOI >40). This patient has normal flow (Qmax 16 mL/s), low PVR, and the diagnosis is OAB from DO — not BOO. TURP would be inappropriate and potentially harmful.",
+            "D": "Indwelling catheterisation is a last resort for patients who cannot manage ISC and have no other options. This patient has several viable treatment options remaining and should not be offered a permanent catheter."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS 2024 — Third-line OAB therapy after failure of antimuscarinic + mirabegron: intradetrusor BoNT-A 100 U or sacral neuromodulation. Both equally recommended (Grade A).",
+          "trial": "EMBARK RCT (Nitti et al. J Urol 2013): OnabotulinumtoxinA 100 U vs placebo for idiopathic OAB — significant reduction in urgency incontinence episodes (−2.65 vs −0.87/day, p<0.001); 5.4% required ISC",
+          "pearl": "Third-line OAB: BoNT-A 100 U intradetrusor OR sacral neuromodulation. Both EAU Grade A. BoNT-A is the practical first choice (office-based, no implant), but requires ISC counselling (5–20% retention risk). SNM requires surgical implantation but is durable and reversible."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q13",
+        "stem": "Following intradetrusor botulinum toxin A 100 U injection for refractory idiopathic OAB, a 65-year-old man calls 10 days later reporting inability to void with bladder pain and a PVR of 680 mL on ultrasound. What is the correct management?",
+        "options": {
+          "A": "Oral alpha-blockers to facilitate voiding",
+          "B": "Clean intermittent self-catheterisation (CIC) every 4–6 hours until voiding resumes",
+          "C": "Immediate surgical decompression",
+          "D": "Await spontaneous recovery — this is expected and resolves within 24 hours"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Post-BoNT-A urinary retention (PVR >200–300 mL with inability to void or symptomatic overflow) occurs in 5–20% of men after intradetrusor injection. The correct management is clean intermittent self-catheterisation (CIC) every 4–6 hours until spontaneous voiding resumes. This is why patients must be counselled to be willing and able to perform CIC BEFORE receiving BoNT-A. The urinary retention is self-limiting — the toxin effect wanes over 6–9 months, and most patients recover spontaneous voiding within weeks. CIC during this period prevents overdistension injury and upper tract complications.",
+          "wrong": {
+            "A": "Alpha-blockers reduce urethral resistance but will not restore voiding when detrusor contractility is pharmacologically abolished by BoNT-A. The problem is absent detrusor contractility, not excess outflow resistance.",
+            "C": "Surgical decompression is not indicated. Post-BoNT-A retention is a pharmacological, reversible effect — it does not require surgery. CIC is the appropriate intervention.",
+            "D": "This is NOT expected to resolve within 24 hours. Post-BoNT-A retention typically lasts weeks to months, paralleling the toxin's duration of action. Leaving 680 mL in the bladder without drainage would cause upper tract damage and bladder overdistension injury."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS 2024 — BoNT-A counselling: pre-treatment CIC instruction mandatory; post-injection retention rate 5–20%; CIC until spontaneous voiding resumes. Patient must demonstrate CIC ability before treatment.",
+          "trial": "Chapple C et al. Eur Urol 2013 (OnabotulinumtoxinA systematic review): Post-injection retention requiring CIC in 5.4% at 100 U dose; higher rates with 200 U. All cases resolved spontaneously within treatment duration (6–9 months).",
+          "pearl": "Post-BoNT-A retention = CIC until recovery. This is THE most important pre-treatment assessment: can the patient perform CIC? If not, BoNT-A should not be offered. The ISC requirement lasts weeks to months — not 24 hours."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q14",
+        "stem": "A 79-year-old man reports nocturia ×4 that significantly impairs his quality of life. He uses a CPAP machine for obstructive sleep apnoea. His 3-day bladder diary shows nocturnal urine volume 920 mL, 24-hour urine volume 1800 mL (body weight 72 kg), average nocturnal voided volume 200 mL. Despite 6 months of CPAP compliance, nocturia persists. His serum sodium is 138 mmol/L and eGFR is 62 mL/min/1.73m². Which treatment is most appropriate?",
+        "options": {
+          "A": "Desmopressin 50 μg sublingual at bedtime",
+          "B": "Tamsulosin 0.4 mg once daily",
+          "C": "Furosemide 40 mg in the afternoon",
+          "D": "Solifenacin 5 mg once daily"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "This man has persistent nocturnal polyuria (NUV/24h = 920/1800 = 51%, far above the 33% threshold) despite adequate CPAP therapy. His eGFR is 62 mL/min/1.73m² (above the 50 mL/min contraindication threshold) and serum sodium is normal at 138 mmol/L. Desmopressin 50 μg sublingual at bedtime is the EAU Grade A recommended treatment for nocturia due to nocturnal polyuria when cause-specific treatment (CPAP) has been instituted but nocturia persists. His normal average nocturnal voided volume (200 mL) argues against reduced bladder capacity as a contributor, making desmopressin the correct targeted therapy.",
+          "wrong": {
+            "A": "Actually the correct answer — desmopressin directly targets the nocturnal polyuria mechanism by increasing ADH effect, reducing nocturnal urine production.",
+            "B": "Tamsulosin is for BPH-related voiding LUTS. This patient's nocturia is from nocturnal polyuria, not BOO. Alpha-blockers do not reduce nocturnal urine volume and will not address this aetiology.",
+            "C": "Afternoon furosemide can be used for nocturnal polyuria due to fluid redistribution from venous insufficiency or heart failure (pre-sleeping diuresis reduces nocturnal ANP-mediated diuresis). However, no heart failure or venous insufficiency is described, and desmopressin is the first-line pharmacological choice for idiopathic NP in EAU guidelines.",
+            "D": "Solifenacin targets OAB/DO with reduced bladder capacity. This patient's average nocturnal voided volume is 200 mL (normal), and the primary aetiology is nocturnal polyuria, not reduced capacity. OAB therapy would not address the excess nocturnal urine production."
+          },
+          "guideline": "EAU Guidelines on Nocturia 2024 — Algorithm: after cause-specific treatment (CPAP for OSA), if NP persists with normal eGFR and sodium, desmopressin is Grade A first-line pharmacotherapy for nocturnal polyuria",
+          "trial": "NOCTIVA Phase 3 trials (Weiss JP et al. JAMA 2017): Intranasal desmopressin 0.83 μg vs placebo — 36% vs 24% ≥33% reduction in nocturnal voids (p<0.002); established desmopressin as the only agent with robust evidence for nocturia from NP",
+          "pearl": "Nocturia from nocturnal polyuria (NUV/24h >33%) = desmopressin is the targeted pharmacological treatment. Always check eGFR (must be ≥50) and baseline sodium first. Monitor sodium at day 3 and day 30."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B2-Q15",
+        "stem": "A 55-year-old man underwent open radical prostatectomy for pT3aN0M0 Gleason 4+4 prostate cancer. At 15 months post-surgery he uses 4 pads per day for stress urinary incontinence. Urodynamics confirms stress incontinence with intrinsic sphincter deficiency (abdominal leak point pressure 48 cmH₂O) and no detrusor overactivity. No radiotherapy has been given. What is the most appropriate treatment?",
+        "options": {
+          "A": "Male sling (AdVance XP transobturator sling)",
+          "B": "Artificial urinary sphincter (AMS 800)",
+          "C": "Pelvic floor physiotherapy for a further 12 months",
+          "D": "Periurethral bulking agents (collagen injection)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "At 15 months post-RP with persistent moderate-to-severe SUI (4 pads/day) and intrinsic sphincter deficiency confirmed on urodynamics, the artificial urinary sphincter (AMS 800) is the gold standard treatment. AUS is preferred over male sling when: >3 pads/day (moderate-severe incontinence), low abdominal leak point pressure (<60 cmH₂O indicating poor sphincteric function), prior radiotherapy (though not applicable here), or when urethral atrophy is suspected. Social continence rates with AUS exceed 85% at 5 years. Male sling is appropriate for mild SUI (1–2 pads/day) without sphincteric insufficiency in non-irradiated patients.",
+          "wrong": {
+            "A": "Male slings (AdVance XP) are appropriate for mild post-RP SUI (1–2 pads/day) with moderate sphincteric function. With 4 pads/day and a low abdominal leak point pressure of 48 cmH₂O (indicating poor sphincteric reserve), the male sling has suboptimal success rates (<50% continence). AUS is the correct choice.",
+            "C": "Pelvic floor physiotherapy should have been initiated post-catheter removal. At 15 months post-RP, further physiotherapy alone will not achieve sufficient improvement for moderate-severe SUI with documented ISD. EAU 2024 supports surgical intervention after 12 months if significant SUI persists.",
+            "D": "Periurethral bulking agents have very high failure rates (>70% recurrence at 2 years) and are not recommended as primary therapy for post-RP SUI in EAU guidelines. They may be suitable for mild, non-surgical candidates only."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Post-RP SUI >3 pads/day or ALPP <60 cmH₂O: artificial urinary sphincter (AMS 800) is gold standard. Male sling for mild SUI (<3 pads) in non-irradiated men. After radiation: AUS preferred regardless of pad count.",
+          "trial": "Sandhu JS et al. J Urol 2013 (AUS outcomes systematic review): AUS achieves >85% social continence (0–1 pad) at 5 years; device revision rate 15–20%; superior to sling for moderate-severe post-RP SUI. Chung E et al. World J Urol 2014: Sling success rate drops from 84% to 52% in post-RT patients.",
+          "pearl": "Post-RP SUI decision: mild (1–2 pads, no RT, no atrophy) → male sling. Moderate-severe (≥3 pads) or low ALPP (<60 cmH₂O) or post-radiotherapy → AUS. The AUS is the gold standard for moderate-severe post-RP SUI with 85%+ social continence at 5 years."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B2-Q16",
+        "stem": "A 66-year-old man with multiple sclerosis (MS) presents with urgency incontinence, frequency ×18/day, and nocturia ×5. He has no significant voiding symptoms. MRI shows cervical cord involvement. Urodynamics: DO during filling with maximum DO pressure 52 cmH₂O; voiding phase shows coordinated sphincter relaxation with Qmax 14 mL/s, PVR 45 mL. Which statement about his management is most accurate?",
+        "options": {
+          "A": "DO with coordinated sphincter relaxation in cervical MS indicates no upper tract risk — antimuscarinics are appropriate first-line",
+          "B": "Urinary retention is the primary concern — he should start ISC immediately",
+          "C": "This pattern indicates DSD — sacral deafferentation is required",
+          "D": "BoNT-A is contraindicated in MS patients due to systemic toxin spread risk"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "This MS patient has supraspinal/suprasacral involvement (cervical cord lesion) with DO during filling but COORDINATED sphincter relaxation (no DSD) — confirmed by normal Qmax 14 mL/s and low PVR 45 mL. Coordinated sphincter relaxation means the PMC circuit for external sphincter coordination is preserved, just the supraspinal inhibitory control is lost (causing DO). Without DSD, intravesical pressures during voiding are not dangerously elevated, and upper tract risk is low. First-line management is antimuscarinics or mirabegron (mirabegron preferred due to cognitive considerations). Regular annual upper tract surveillance is still recommended in MS.",
+          "wrong": {
+            "B": "He is voiding efficiently (Qmax 14 mL/s, PVR 45 mL). There is no urinary retention — ISC is not indicated at this time. ISC would be indicated if he developed elevated PVR or urinary retention.",
+            "C": "DSD is characterised by simultaneous detrusor contraction AND external sphincter contraction (causing high voiding pressures, low Qmax, elevated PVR). This patient has coordinated sphincter relaxation and good flow — no DSD. Sacral deafferentation is reserved for complete SCI with refractory DSD and high-pressure neurogenic DO.",
+            "D": "BoNT-A intradetrusor injection is NOT contraindicated in MS — it is a valid third-line option for refractory neurogenic DO in MS as in non-neurogenic OAB. The dose for neurogenic DO is higher (200 U) than idiopathic OAB (100 U). Systemic spread causing generalised weakness is a theoretical risk at very high doses but not a contraindication at standard therapeutic doses."
+          },
+          "guideline": "EAU Guidelines on Neurourology 2024 — MS with supraspinal/suprasacral lesions: DO without DSD → low UUT risk → antimuscarinics/mirabegron first-line. DSD (high pressure, low Qmax, elevated PVR) → UUT risk → ISC + antimuscarinics/BoNT-A.",
+          "trial": "Fowler CJ, Panicker JN. Curr Neurol Neurosci Rep 2009: MS bladder dysfunction patterns — DO without DSD (cervical/suprasacral): 60% of MS patients; DO with DSD (thoracic cord): 25%; DUA (cauda equina/sacral MS): 15%",
+          "pearl": "MS bladder by lesion level: cervical/supraspinal → DO without DSD → low UUT risk → antimuscarinics/mirabegron. Thoracic suprasacral → DO with DSD → HIGH UUT risk → ISC + pressure lowering. Sacral → DUA → ISC. Voiding pattern (Qmax, PVR) distinguishes DSD from coordinated voiding."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B2-Q17",
+        "stem": "An 82-year-old man with recurrent falls, mild cognitive impairment (MMSE 24/30), and OAB currently uses oxybutynin 5 mg TID prescribed by his GP. His daughter reports he has become increasingly confused and has developed new-onset visual hallucinations over the past month. What is the most likely cause and appropriate action?",
+        "options": {
+          "A": "New onset dementia — refer to neurology for assessment",
+          "B": "Oxybutynin anticholinergic CNS toxicity — discontinue and switch to mirabegron",
+          "C": "Oxybutynin-induced hyponatraemia — check serum electrolytes",
+          "D": "Normal progression of cognitive impairment — no change needed"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Oxybutynin is highly lipophilic and readily crosses the blood-brain barrier, producing central anticholinergic syndrome in elderly patients — confusion, agitation, visual hallucinations, disorientation, and worsening cognitive function. Oxybutynin scores the maximum risk (3) on the Anticholinergic Cognitive Burden (ACB) Scale and is explicitly contraindicated in elderly patients with or without pre-existing cognitive impairment. The temporal correlation with oxybutynin initiation, the age, and the specific symptoms (visual hallucinations in an elderly man with baseline cognitive vulnerability) strongly implicates drug toxicity. Discontinue oxybutynin immediately and switch to mirabegron 50 mg (no CNS effects) or trospium (quaternary ammonium, minimal BBB penetration).",
+          "wrong": {
+            "A": "While new dementia is possible, the acute presentation temporally correlated with oxybutynin use strongly suggests drug-induced anticholinergic CNS toxicity. The first step is to remove the offending agent before attributing symptoms to new dementia.",
+            "C": "Oxybutynin does not cause hyponatraemia through direct renal effects. Anticholinergic CNS toxicity — not electrolyte disturbance — explains this clinical picture.",
+            "D": "Visual hallucinations are not a normal or expected progression of mild cognitive impairment (MMSE 24). This is an adverse drug effect that is reversible on drug withdrawal. Continuing oxybutynin is dangerous."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS 2024 — Oxybutynin: avoid in elderly patients (>70 years) due to high CNS anticholinergic burden; ACB score 3. Preferred alternatives: mirabegron (no ACB) or trospium (ACB 1, minimal CNS).",
+          "trial": "Aging et al. J Am Geriatr Soc 2012: Oxybutynin ER vs trospium ER — oxybutynin associated with significantly more cognitive adverse events and falls (OR 3.2) in elderly patients. Anticholinergic Cognitive Burden Scale validated for predicting cognitive impairment from medications.",
+          "pearl": "Oxybutynin = highest anticholinergic CNS burden (ACB score 3). NEVER prescribe to elderly patients. Visual hallucinations + confusion in an elderly patient on oxybutynin = stop the oxybutynin first. Switch to mirabegron (no anticholinergic effects) or trospium (minimal CNS penetration)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B2-Q18",
+        "stem": "A 58-year-old man is assessed with sacral neuromodulation (SNM) for refractory OAB (urgency incontinence 6 episodes/day) after failing antimuscarinics and mirabegron. After the test stimulation phase, his urgency incontinence episodes decrease from 6 to 2 per day (67% reduction). What is the correct next step?",
+        "options": {
+          "A": "The test was unsuccessful — proceed to BoNT-A injection instead",
+          "B": "Proceed to permanent SNM implantation — response criteria met",
+          "C": "Extend the test stimulation period for 3 more months before deciding",
+          "D": "The response is inadequate — switch to sacral deafferentation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The standard definition of a successful SNM test stimulation response is ≥50% improvement in the primary symptom (urgency incontinence episodes). This patient achieved a 67% reduction (from 6 to 2 episodes/day), which exceeds the 50% threshold, defining a positive response. Permanent SNM implantation should proceed. The two-stage approach (test phase 1–3 weeks followed by permanent implant if responsive) ensures that only true responders receive the implant, maximising cost-effectiveness and patient selection.",
+          "wrong": {
+            "A": "A 67% reduction in urgency incontinence is a successful test — this is a clear responder. BoNT-A is an alternative to SNM (both are third-line EAU options), not a rescue after failed SNM test. Here the test was clearly successful.",
+            "C": "The test stimulation period is 1–3 weeks by standard protocol. Extending to 3 months is not standard practice and unnecessarily delays permanent implantation for a clear responder. The assessment window is designed to determine short-term responsiveness to stimulation.",
+            "D": "Sacral deafferentation (posterior rhizotomy) is reserved for complete SCI patients with refractory neurogenic DO with DSD — not for idiopathic OAB. This is not an appropriate option here."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS 2024 — SNM test response definition: ≥50% improvement in primary symptom during test phase → proceed to permanent implant. EAU Grade A recommendation for SNM in refractory OAB.",
+          "trial": "Siegel SW et al. J Urol 2000 (SNM for OAB, InterStim): 71% of test-phase responders achieved ≥50% improvement in urgency incontinence at 6 months post-permanent implant; 61% maintained response at 5 years",
+          "pearl": "SNM test response = ≥50% improvement in primary symptom during test stimulation. If met → permanent implant. The 50% threshold is the key decision point. Both SNM and BoNT-A are EAU Grade A third-line options — choice depends on patient preference (implant vs. injection) and comorbidities."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B2-Q19",
+        "stem": "A 64-year-old man with a 12-year history of type 2 diabetes complains of nocturia ×4 and weak stream. His IPSS storage subscore is 11/15 and voiding subscore is 7/20. Bladder diary shows nocturnal urine volume 1100 mL, 24-hour volume 2800 mL (body weight 80 kg). Urinalysis: glucose 4+, no nitrites. Qmax 11 mL/s, PVR 110 mL, serum HbA1c 11.2%, fasting glucose 18.4 mmol/L. What is the most important initial management step for his nocturia?",
+        "options": {
+          "A": "Prescribe desmopressin 50 μg sublingual at bedtime",
+          "B": "Start tamsulosin 0.4 mg once daily for presumed BPH",
+          "C": "Optimise glycaemic control — his nocturia is driven by global polyuria from uncontrolled diabetes",
+          "D": "Start solifenacin for storage symptoms"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This man has global polyuria: 24-hour urine volume = 2800 mL in an 80 kg man = 35 mL/kg/24h. This approaches but does not exceed the global polyuria threshold of 40 mL/kg/24h; however, his urinalysis shows glucose 4+ with HbA1c 11.2% and fasting glucose 18.4 mmol/L — severe uncontrolled type 2 diabetes causing osmotic diuresis. Glucosuria drives osmotic diuresis, producing massive urine volumes especially at night. The primary intervention is optimisation of glycaemic control (insulin, oral agents, GLP-1 agonist). Improving HbA1c will dramatically reduce glucosuria and nocturnal urine production. Desmopressin is contraindicated here — his 24-hour volume from osmotic diuresis would make hyponatraemia very likely, and it would not address the underlying cause.",
+          "wrong": {
+            "A": "Desmopressin is contraindicated in global polyuria/osmotic diuresis. Adding ADH analogue to a patient with massive osmotic diuresis from uncontrolled diabetes risks dangerous hyponatraemia without effectively reducing urine output. The cause of polyuria must be treated first.",
+            "B": "While this man may have BPH (Qmax 11 mL/s, PVR 110 mL, IPSS voiding subscore elevated), tamsulosin will not address his nocturia, which is driven by excessive urine production from osmotic diuresis — not bladder outlet obstruction.",
+            "D": "Solifenacin targets storage LUTS from DO/reduced bladder capacity. His dominant problem is excessive nocturnal urine production from diabetic polyuria. Antimuscarinics have no effect on urine volume and do not address the aetiology."
+          },
+          "guideline": "EAU Guidelines on Nocturia 2024 — Global polyuria (>40 mL/kg/24h) from diabetes mellitus: treat underlying hyperglycaemia first. EAU emphasises cause-specific treatment before symptomatic therapy for nocturia.",
+          "trial": "Zumrutbas AE et al. Neurourol Urodyn 2014: Glycaemic control in type 2 DM significantly reduces 24-hour urine volumes and nocturia episodes — optimising HbA1c from >9% to <7% reduces nocturnal void frequency by 1.8 episodes on average",
+          "pearl": "Nocturia in uncontrolled diabetes = treat the diabetes first. Osmotic glucosuria causes global polyuria driving nocturia. Never give desmopressin for global polyuria from osmotic diuresis — this is dangerous. A bladder diary distinguishes global polyuria (24h volume >40 mL/kg) from nocturnal polyuria (NUV/24h >33%)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B2-Q20",
+        "stem": "Percutaneous tibial nerve stimulation (PTNS) is being discussed as a treatment for OAB in a 67-year-old man who refuses both oral medication and any surgical/injection procedure. What is the most accurate statement regarding PTNS?",
+        "options": {
+          "A": "PTNS is EAU Grade A recommended therapy equivalent to sacral neuromodulation",
+          "B": "PTNS involves insertion of a needle electrode near the posterior tibial nerve at the ankle; it has demonstrated efficacy superior to sham in the SUMIT RCT",
+          "C": "PTNS directly stimulates the S3 foramen, targeting the sacral micturition centre",
+          "D": "PTNS is contraindicated in patients with diabetes due to peripheral neuropathy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PTNS involves percutaneous insertion of a 34-gauge needle electrode approximately 5 cm above the medial malleolus near the posterior tibial nerve, which contains afferent fibres from L4-S3 dermatomes. Electrical stimulation modulates sacral neural pathways affecting bladder function via spinal interneurons, without direct sacral implant. The SUMIT RCT (Peters et al. J Urol 2010) demonstrated 54.5% vs 20.9% responder rate (≥50% improvement in OAB symptoms) versus sham stimulation. PTNS is EAU Grade C (not Grade A) due to less robust long-term data and no sham-controlled superiority data beyond 12 months.",
+          "wrong": {
+            "A": "PTNS is EAU Grade C, not Grade A. SNM is Grade A. The difference reflects the strength of evidence — PTNS has fewer large RCTs and no long-term controlled data comparable to SNM. PTNS is a valid option but not equivalent to SNM in evidence grade.",
+            "C": "PTNS does NOT directly stimulate the S3 foramen. It stimulates the posterior tibial nerve at the ankle, which shares segmental innervation (L4-S3) with sacral nerves. The modulation occurs indirectly via spinal afferent pathways — this distinguishes it from SNM which directly targets S3.",
+            "D": "Peripheral neuropathy from diabetes may reduce PTNS efficacy (impaired afferent signal transmission), but it is not an absolute contraindication. PTNS can be attempted in diabetic patients, though response rates may be lower. The decision is clinical and patient-specific."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS 2024 — PTNS: Grade C recommendation for refractory OAB; less evidence than SNM (Grade A) or BoNT-A (Grade A); appropriate when patient refuses implant and injection",
+          "trial": "SUMIT RCT (Peters KM et al. J Urol 2010): PTNS 54.5% vs sham 20.9% response rate (p<0.001) for OAB symptoms; established PTNS efficacy versus sham. SUmiT extension study: 77% maintained response at 12 months with ongoing PTNS.",
+          "pearl": "PTNS mechanism: posterior tibial nerve stimulation at ankle → L4-S3 afferent modulation → spinal interneuron effect on micturition reflex. EAU Grade C (not A). SUMIT RCT: 54.5% vs 20.9% sham response. Use when patient refuses both injection (BoNT-A) and implant (SNM)."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

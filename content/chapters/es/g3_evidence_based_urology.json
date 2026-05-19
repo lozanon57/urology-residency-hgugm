@@ -1,0 +1,622 @@
+{
+  "id": "G3",
+  "title": "Urología Basada en la Evidencia y Lectura Crítica",
+  "subtitle": "Bloque G — Búsqueda Bibliográfica, Lectura Crítica de ECA y Revisiones Sistemáticas, Interpretación de Guías Clínicas",
+  "block": "G",
+  "block_name": "Investigación Académica en Urología",
+  "level": "R1-5",
+  "reading_time_min": 35,
+  "guidelines_version": "EAU Research Methodology 2024 · CONSORT 2010 · PRISMA 2020 · Marco GRADE",
+  "textbook_refs": [
+    "Guyatt GH et al. Users' guides to the medical literature: essentials of evidence-based clinical practice. AMA Press, 2008",
+    "Sackett DL et al. Evidence-Based Medicine: How to Practice and Teach EBM. Churchill Livingstone, 2000",
+    "Page MJ et al. PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews. BMJ 2021",
+    "Guyatt G et al. GRADE: an emerging consensus on rating quality of evidence and strength of recommendations. BMJ 2008"
+  ],
+  "learning_objectives": [
+    "Formular una pregunta clínica estructurada mediante el marco PICO y traducirla en una estrategia de búsqueda bibliográfica eficiente",
+    "Leer críticamente ensayos controlados aleatorizados y revisiones sistemáticas utilizando herramientas validadas (RoB 2.0 de Cochrane, AMSTAR-2)",
+    "Aplicar el marco GRADE para evaluar la certeza de la evidencia y la fuerza de las recomendaciones clínicas",
+    "Identificar fuentes de sesgo en la investigación urológica publicada y evaluar su probable impacto en las conclusiones",
+    "Interpretar los principales resultados estadísticos de las revisiones sistemáticas, incluyendo efectos agrupados, heterogeneidad y diagramas de bosque",
+    "Aplicar los principios de la medicina basada en la evidencia a las decisiones clínicas individuales, integrando las recomendaciones de las guías con los valores del paciente"
+  ],
+  "sections": [
+    {
+      "id": "G3-S1",
+      "title": "Formulación de Preguntas Clínicas y Estrategia de Búsqueda Bibliográfica",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La urología basada en la evidencia comienza con una pregunta clínica claramente formulada. Las preguntas sin estructura («¿Cuál es el mejor tratamiento para el cáncer de vejiga?») son demasiado amplias para realizar una búsqueda bibliográfica eficiente. El **marco PICO** ofrece un enfoque estructurado: **P**oblación (el paciente o el problema), **I**ntervención (el tratamiento, la prueba o la exposición), **C**omparación (la alternativa), **O**utcome/resultado (la medida de interés). Por ejemplo: «En pacientes con cáncer de vejiga no músculo-invasivo de alto riesgo (P) sometidos a BCG intravesical (I) comparado con mitomicina C intravesical (C), ¿cuál es la tasa de supervivencia libre de recidiva al año (O)?»\n\nLa estrategia de búsqueda bibliográfica se deriva directamente de la pregunta PICO. Los recursos clave para la evidencia urológica son:\n- **PubMed/MEDLINE**: Literatura médica indexada con búsqueda por términos MeSH (Medical Subject Headings). Los términos MeSH proporcionan un vocabulario controlado para una recuperación coherente independientemente de la terminología usada por los autores.\n- **Biblioteca Cochrane**: La Cochrane Database of Systematic Reviews (CDSR) contiene revisiones sistemáticas revisadas por pares; CENTRAL es el registro de ensayos controlados de Cochrane.\n- **Embase**: Mayor cobertura europea y farmacológica que PubMed.\n- **Clinicaltrials.gov / EU Clinical Trials Register**: Esencial para identificar ensayos registrados y datos no publicados.\n- **Página web de Guías EAU (uroweb.org)**: Resúmenes de evidencia pre-evaluados para las recomendaciones urológicas.\n\nUna búsqueda exhaustiva para una revisión sistemática combina términos de texto libre y términos MeSH para todos los componentes PICO mediante operadores booleanos (AND, OR, NOT), aplica filtros de fecha e idioma, y busca en múltiples bases de datos. El proceso de búsqueda debe documentarse íntegramente (fecha de búsqueda, términos utilizados, bases de datos consultadas) para permitir su replicación, un elemento obligatorio del informe PRISMA 2020."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Marco PICO",
+          "content": "PICO = Población, Intervención, Comparación, Outcome/resultado. Cada recomendación de las guías EAU se basa en una búsqueda sistemática de la literatura estructurada mediante PICO. Para preguntas terapéuticas: PICO se aplica directamente. Para diagnóstico: PICO se convierte en PIRD (Población, prueba Índice, estándar de Referencia, Diagnóstico). Para pronóstico: PICO se convierte en PECOT (Población, Exposición, Comparación, Outcome/resultado, Tiempo)."
+        }
+      ]
+    },
+    {
+      "id": "G3-S2",
+      "title": "Lectura Crítica de Ensayos Controlados Aleatorizados",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La lectura crítica evalúa si los resultados de un estudio son válidos (metodológicamente sólidos), importantes (magnitud del efecto y precisión) y aplicables (generalizables a la población local de pacientes). Para los ECA, la **Herramienta de Riesgo de Sesgo de Cochrane versión 2.0 (RoB 2.0)** proporciona un marco estructurado que evalúa cinco dominios:\n\n1. **Sesgo derivado del proceso de aleatorización**: ¿La secuencia de asignación fue verdaderamente aleatoria? ¿Fue adecuada la ocultación de la asignación? ¿Eran los grupos comparables al inicio?\n2. **Sesgo por desviaciones de las intervenciones previstas**: ¿Hubo co-intervenciones importantes? ¿Se mantuvo el enmascaramiento? ¿Se realizó el análisis por intención de tratar?\n3. **Sesgo por datos de resultado faltantes**: ¿Era similar la proporción y el patrón de datos faltantes entre los grupos? ¿Se realizó el análisis solo sobre los casos completos (potencialmente sesgado)?\n4. **Sesgo en la medición del resultado**: ¿Se definió a priori el método de evaluación del resultado? ¿Estaban enmascarados los evaluadores?\n5. **Sesgo en la selección del resultado informado**: ¿Se pre-especificó el endpoint primario y se informó de forma consistente? ¿Hay evidencia de cambio de outcome?\n\nCada dominio se juzga como **Bajo riesgo**, **Algunas preocupaciones** o **Alto riesgo** de sesgo. Se emite un juicio global del ensayo: un ensayo con alto riesgo en cualquier dominio recibe una valoración global de «Alto riesgo». Comprender estos dominios permite al urólogo que lee un ensayo identificar qué resultados merecen confianza y dónde ser escéptico.\n\nMás allá del sesgo, hay que evaluar la **precisión estadística** (amplitud del IC y significación clínica), la **generalizabilidad** (¿se parece la población del ensayo a sus pacientes?) y la **duración del seguimiento** (¿suficiente para los resultados de interés?). La lista de verificación CONSORT 2010 sirve como herramienta estructurada para evaluar la integridad del informe de los ECA: un ensayo que no informa los ítems de CONSORT puede tener deficiencias metodológicas o un informe incompleto."
+        },
+        {
+          "type": "table",
+          "title": "Dominios de la RoB 2.0 de Cochrane y Preguntas de Lectura Crítica",
+          "headers": ["Dominio", "Pregunta clave", "Indicador de bajo riesgo", "Indicador de alto riesgo"],
+          "rows": [
+            ["Proceso de aleatorización", "¿Fue la asignación verdaderamente aleatoria y ocultada?", "Aleatorización computarizada, SNOSE, web central", "Lista abierta, asignación no enmascarada, sin descripción"],
+            ["Desviaciones de las intervenciones", "¿Estaban equilibradas las co-intervenciones? ¿Análisis ITT?", "Análisis primario por ITT, participantes enmascarados", "Solo por protocolo, co-intervenciones desiguales"],
+            ["Datos de resultado faltantes", "¿Fue el abandono equilibrado y se manejó apropiadamente?", "<10% de abandono, análisis MCAR, imputación múltiple", ">20% de abandono, solo casos completos, MNAR probable"],
+            ["Medición del resultado", "¿Se midieron los resultados de forma consistente y enmascarada?", "Herramientas validadas predefinidas, enmascaramiento del evaluador", "Sin enmascaramiento, medición ad hoc, sin validación"],
+            ["Selección del resultado informado", "¿Se informaron todos los resultados pre-especificados?", "Registro del protocolo, todos los resultados informados", "Cambio de outcome, informe selectivo, sin registro"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G3-S3",
+      "title": "Lectura Crítica de Revisiones Sistemáticas y Metaanálisis",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las revisiones sistemáticas sintetizan la evidencia de múltiples estudios utilizando métodos pre-especificados y reproducibles. Los metaanálisis añaden la agrupación cuantitativa de resultados. La lista de verificación **PRISMA 2020 (Preferred Reporting Items for Systematic Reviews and Meta-Analyses)** contiene 27 ítems e incluye un diagrama de flujo que muestra el proceso de selección desde la identificación hasta la inclusión. Los ítems clave de PRISMA que se evalúan con frecuencia en la lectura crítica urológica incluyen: registro (PROSPERO), estrategia de búsqueda exhaustiva, cribado duplicado, evaluación del riesgo de sesgo y métodos de síntesis cuantitativa.\n\nPara evaluar la calidad de una revisión sistemática, **AMSTAR-2 (A MeaSurement Tool to Assess systematic Reviews)** proporciona una valoración de 16 ítems con dos niveles: críticos (7 ítems con mayor impacto en la validez) y no críticos (9 ítems). Una revisión sistemática con ≥1 debilidad crítica recibe una valoración de calidad «Críticamente baja». Los siete ítems críticos de AMSTAR-2 abordan: registro del PICO, exhaustividad de la búsqueda, justificación de los estudios excluidos, evaluación del riesgo de sesgo de los estudios incluidos, métodos apropiados de metaanálisis, impacto del riesgo de sesgo en el estimador agrupado y consideración del sesgo de publicación.\n\nComprender los **diagramas de bosque** es esencial:\n- Cada línea horizontal representa un estudio; el cuadrado representa el estimador puntual; la longitud de la línea representa el IC.\n- El rombo en la parte inferior representa el estimador agrupado (metaanalizado).\n- La línea vertical es la línea de ausencia de efecto (RR=1, DM=0).\n- Los estudios a la izquierda de la línea de ausencia de efecto favorecen la intervención; los de la derecha favorecen al control.\n- La **heterogeneidad** se muestra mediante I² y el valor p de la Q de Cochran: si el valor p de Q <0,10 o I²>50%, existe heterogeneidad significativa.\n- Los **análisis de subgrupos** y la **metarregresión** exploran las fuentes de heterogeneidad."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Cómo Leer un Diagrama de Bosque",
+          "content": "En un diagrama de bosque: (1) cada estudio = línea horizontal con cuadrado; (2) tamaño del cuadrado = peso del estudio; (3) IC = longitud de la línea horizontal; (4) rombo = estimador agrupado; (5) línea vertical = nulo (sin efecto). Si el rombo (IC agrupado) NO cruza la línea vertical de ausencia de efecto = resultado agrupado estadísticamente significativo. Si el rombo SÍ cruza la línea de ausencia de efecto = el resultado agrupado no es significativo. I² describe la heterogeneidad entre estudios, no dentro de los estudios."
+        }
+      ]
+    },
+    {
+      "id": "G3-S4",
+      "title": "El Marco GRADE: Certeza de la Evidencia y Fuerza de las Recomendaciones",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **marco GRADE (Grading of Recommendations Assessment, Development, and Evaluation)** es utilizado por la EAU, la OMS y la mayoría de las sociedades especializadas principales para valorar la certeza de la evidencia y la fuerza de las recomendaciones clínicas. GRADE distingue dos dimensiones independientes:\n\n**Certeza de la evidencia** (anteriormente «calidad de la evidencia») tiene cuatro niveles:\n- **Alta**: Confiamos en que el efecto verdadero es próximo al estimado. Basado en ECA bien diseñados sin limitaciones graves.\n- **Moderada**: Confianza moderada. El efecto verdadero es probablemente próximo al estimado, pero puede ser sustancialmente diferente. Basado en ECA con limitaciones o estudios observacionales con efecto fuerte.\n- **Baja**: Confianza limitada. El efecto verdadero puede ser sustancialmente diferente del estimado. Basado en estudios observacionales o ECA con limitaciones muy graves.\n- **Muy baja**: Muy poca confianza en el estimador del efecto. Basado en estudios muy deficientes, series de casos u opinión de expertos.\n\nCinco factores **degradan** la certeza de la evidencia: riesgo de sesgo, inconsistencia (heterogeneidad), indirección (diferente población, intervención o resultado respecto a la pregunta), imprecisión (IC amplio, muestra pequeña) y sesgo de publicación. Tres factores **elevan** la evidencia observacional: gran magnitud del efecto (RR>2 o <0,5), relación dosis-respuesta, y que todos los posibles factores de confusión residuales plausibles actúen en la misma dirección.\n\nLa **fuerza de la recomendación** es **Fuerte** (el grupo está convencido de que los beneficios superan a los daños para la mayoría de los pacientes: «recomendamos») o **Débil/Condicional** (los beneficios superan a los daños, pero existe incertidumbre: «sugerimos»). Las recomendaciones fuertes pueden basarse en evidencia de baja certeza si los beneficios son grandes y los daños mínimos: la certeza de la evidencia es uno de los cuatro factores de GRADE para la fuerza de la recomendación: certeza, balance de beneficios frente a daños, valores del paciente y uso de recursos."
+        },
+        {
+          "type": "table",
+          "title": "Niveles de Certeza de la Evidencia GRADE y su Base",
+          "headers": ["Nivel GRADE", "Símbolo", "Base", "Grado EAU"],
+          "rows": [
+            ["Alta", "⊕⊕⊕⊕", "Evidencia de ECA consistente sin limitaciones graves", "Grado A"],
+            ["Moderada", "⊕⊕⊕○", "ECA con limitaciones; u observacional elevado", "Grado B"],
+            ["Baja", "⊕⊕○○", "Estudios observacionales; o ECA degradado", "Grado C"],
+            ["Muy baja", "⊕○○○", "Series de casos, opinión de expertos, ECA muy deficiente", "Grado C/D"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Confundir la Calidad de la Evidencia con la Fuerza de la Recomendación",
+          "content": "Una recomendación fuerte puede basarse en evidencia de baja certeza (p. ej., cuando los beneficios son grandes y los daños mínimos: aunque la evidencia de ECA sea débil, la recomendación de usar algo muy seguro y probablemente beneficioso puede ser «fuerte»). A la inversa, una recomendación débil puede provenir de evidencia de alta certeza si existe una controversia genuina sobre el balance de beneficios y daños, o una variabilidad significativa en los valores del paciente."
+        }
+      ]
+    },
+    {
+      "id": "G3-S5",
+      "title": "Comprensión de las Guías EAU: Estructura y Aplicación",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las Guías EAU son la referencia principal basada en la evidencia para los urólogos europeos y para los candidatos al examen FEBU (Fellowship of the European Board of Urology). Actualizadas anualmente, abarcan todas las patologías urológicas principales y proporcionan recomendaciones estructuradas basadas en revisiones sistemáticas de la literatura, evaluación GRADE y discusión del panel de expertos.\n\n**Estructura de las Guías EAU**: Cada capítulo contiene: justificación de la actualización, revisión sistemática de la literatura (preguntas PICO documentadas), evaluación de la calidad de la evidencia (GRADE), recomendaciones con fuerza (Fuerte/Débil) y nivel de calidad (A/B/C), resumen de la evidencia y referencias. El **cuadro resumen de recomendaciones** es la parte más práctica clínicamente: proporciona de un vistazo el texto de la recomendación, la fuerza y la calidad de la evidencia.\n\n**Aplicar las recomendaciones EAU a los pacientes individuales** requiere integrar: la recomendación de la guía (qué hacer en promedio, para el paciente «típico» que se corresponde con la población del ensayo), las circunstancias individuales del paciente (comorbilidades, estado funcional, preferencias, entorno asistencial) y la experiencia del clínico. El marco GRADE aborda explícitamente esta tensión: una recomendación **Fuerte** significa que la mayoría de los pacientes en la mayoría de las circunstancias deberían recibir el tratamiento recomendado. Una recomendación **Débil/Condicional** significa que la decisión debe individualizarse, debatiendo las ventajas e inconvenientes con el paciente.\n\n**Limitaciones de las guías**: Las guías se basan en la evidencia publicada hasta la fecha de la última búsqueda sistemática, típicamente 12–24 meses antes de la publicación. Los ensayos de referencia publicados después de la fecha de corte pueden no estar reflejados. En áreas de rápida evolución (p. ej., inmunoterapia para el cáncer de vejiga y renal), las guías pueden quedar por detrás de la práctica actual. Los clínicos deben complementar la consulta de las guías con una monitorización periódica de la literatura, especialmente en las revistas de mayor impacto (European Urology, Journal of Urology, BJU International, NEJM, Lancet, JAMA para los ensayos de referencia)."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Recomendación EAU Fuerte frente a Débil",
+          "content": "Ejemplo de recomendación EAU Fuerte: «Realizar cistectomía radical en el cáncer de vejiga músculo-invasivo (cT2–T4a, N0, M0)»: fuerte porque el beneficio en supervivencia del tratamiento definitivo quirúrgico es grande y consistente, respaldado por décadas de datos de cohortes. Ejemplo de recomendación EAU Débil: «Considerar ofrecer vigilancia activa a pacientes con cáncer de próstata de bajo riesgo»: débil porque los valores del paciente varían significativamente (algunos prefieren el tratamiento definitivo por razones psicológicas), la intensidad del seguimiento varía, y no todos los pacientes de bajo riesgo tienen trayectorias de riesgo idénticas. Para las recomendaciones débiles, tanto el paciente como el urólogo deben debatir las ventajas e inconvenientes."
+        }
+      ]
+    },
+    {
+      "id": "G3-S6",
+      "title": "Aplicación de la Evidencia a la Práctica: Toma de Decisiones Clínicas",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El objetivo de la urología basada en la evidencia no es aplicar rígidamente las recomendaciones de las guías a todos los pacientes, sino integrar la mejor evidencia disponible con la experiencia clínica y los valores y preferencias del paciente en el contexto específico de atención. El modelo de Sackett de medicina basada en la evidencia tiene tres dominios que se intersectan: **evidencia de la investigación**, **experiencia clínica** y **valores del paciente**: las decisiones óptimas surgen en su intersección.\n\nLa **toma de decisiones compartida (TDC)** es obligatoria en muchos contextos urológicos tanto según las guías EAU como según los estándares éticos. La TDC requiere: (1) información precisa para el paciente sobre la evidencia (historia natural, opciones de tratamiento, resultados, efectos secundarios); (2) identificación de los valores y preferencias del paciente; (3) deliberación entre el paciente y el clínico; (4) una decisión coherente con las preferencias informadas del paciente. Las ayudas para la decisión (materiales escritos o digitales validados que presentan la evidencia en lenguaje accesible) facilitan la TDC: los folletos de información para pacientes de la EAU están disponibles para la mayoría de los temas de las guías.\n\nLas brechas entre la evidencia y la práctica habituales en urología incluyen: el sobretratamiento del cáncer de próstata de bajo riesgo (desviación de la recomendación de VA de las guías), el infrauso de la quimioterapia neoadyuvante antes de la cistectomía radical por CAMI (a pesar de la recomendación de Grado A) y la intensidad inadecuada de la vigilancia tras la TVNM (tanto excesiva como insuficiente respecto a la estratificación de riesgo). Reconocer estas brechas es un componente de la mejora de la calidad y la auditoría, habilidades desarrolladas a través de la formación en medicina basada en la evidencia."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Quimioterapia Neoadyuvante para el CAMI",
+          "content": "La quimioterapia neoadyuvante basada en platino (basada en cisplatino, p. ej., MVAC dosis-densa o GC) antes de la cistectomía radical por CAMI es una recomendación de Grado A de la EAU basada en un metaanálisis que muestra una mejora absoluta del 5% en la SG a 5 años. A pesar de esta evidencia sólida, sigue siendo significativamente infrautilizada: un ejemplo clásico de brecha entre evidencia y práctica. En los exámenes, la respuesta correcta para un paciente elegible para cisplatino con cT2–4 N0 M0 de carcinoma urotelial antes de la cistectomía radical es la quimioterapia neoadyuvante."
+        }
+      ]
+    },
+    {
+      "id": "G3-S7",
+      "title": "Evaluación de Tecnologías Sanitarias y Evidencia Económica en Urología",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La medicina basada en la evidencia se extiende más allá de la efectividad clínica para incluir la evaluación económica de los tratamientos, especialmente relevante cuando los sistemas de salud afrontan restricciones de recursos. La **evaluación de tecnologías sanitarias (ETS)** evalúa las implicaciones clínicas, económicas, sociales y organizativas de las tecnologías sanitarias.\n\n**Tipos de evaluación económica** relevantes en urología:\n- **Análisis de coste-efectividad (ACE)**: Compara costes y resultados (expresados en unidades naturales, p. ej., pacientes libres de cálculo, años de vida ganados). Resultado: cociente de coste-efectividad incremental (ICER, por sus siglas en inglés) = coste adicional / unidad de resultado adicional.\n- **Análisis de coste-utilidad (ACU)**: Forma de ACE donde los resultados se expresan en años de vida ajustados por calidad (AVAC o QALY). El umbral del ICER para una coste-efectividad aceptable varía según el país: el umbral del NICE en el Reino Unido es de 20.000–30.000 £/AVAC; en los Países Bajos es de 80.000 €/AVAC para enfermedades graves. Se utiliza para evaluar tratamientos oncológicos, incluidos la inmunoterapia y la terapia dirigida en urología.\n- **Análisis coste-beneficio (ACB)**: Convierte tanto costes como resultados a valores monetarios; menos utilizado en medicina clínica.\n- **Análisis de impacto presupuestario (AIP)**: Estima las consecuencias financieras de adoptar un nuevo tratamiento para una población de un sistema sanitario: importante para las decisiones de los pagadores y los formularios.\n\nEn urología oncológica, el elevado coste de los nuevos agentes (inhibidores de PD-1, inhibidores de PARP, conjugados anticuerpo-fármaco) ha hecho que la evidencia económica sea cada vez más importante. El **ICER** del nivolumab adyuvante en cáncer de vejiga (CHECKMATE-274) se estimó en aproximadamente 150.000–200.000 $/AVAC en los análisis de EE. UU., por encima de los umbrales habituales de disposición a pagar, generando debates sobre el acceso. Comprender estos conceptos económicos permite a los urólogos involucrarse con la evidencia de ETS y contribuir a una asignación equitativa de los recursos."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — AVAC y Coste-Efectividad",
+          "content": "AVAC = año de vida ajustado por calidad = 1 año en perfecta salud (utilidad = 1,0). Un año con incontinencia urinaria moderada puede tener una utilidad de 0,7 = 0,7 AVAC. ICER = (Coste_nuevo − Coste_antiguo) / (AVAC_nuevo − AVAC_antiguo). ICER por debajo del umbral de disposición a pagar = coste-efectivo. Umbral del NICE en el Reino Unido: 20.000–30.000 £/AVAC. Si un tratamiento cuesta 50.000 £ por AVAC, el NICE normalmente NO lo recomendaría para uso habitual en el NHS, salvo que se aplique un modificador por gravedad."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Evalúe sus conocimientos de urología basada en la evidencia y lectura crítica con 20 preguntas tipo examen.",
+    "questions": [
+      {
+        "id": "G3-Q1",
+        "stem": "Un residente de urología quiere evaluar la evidencia sobre BCG intravesical frente a quimioterapia intravesical en pacientes con TVNM de riesgo intermedio. Usando el marco PICO, ¿qué formulación estructura correctamente esta pregunta clínica?",
+        "options": {
+          "A": "P=cáncer de vejiga, I=BCG, C=cirugía, O=mortalidad",
+          "B": "P=adultos con TVNM de riesgo intermedio tras RTUS, I=BCG intravesical (inducción ± mantenimiento), C=quimioterapia intravesical (MMC o epirrubicina), O=supervivencia libre de recidiva al año y a los 5 años",
+          "C": "P=pacientes con TVNM, I=efectos secundarios del BCG, C=efectos secundarios de la MMC, O=cambio en la puntuación IPSS",
+          "D": "P=cáncer de vejiga de cualquier estadio, I=BCG, C=sin tratamiento, O=supervivencia libre de cistectomía"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El marco PICO requiere: P = la población específica de pacientes (TVNM de riesgo intermedio tras RTUS, no todo el cáncer de vejiga); I = la intervención específica (BCG con detalles de dosificación); C = el comparador específico (quimioterapia intravesical, no cirugía ni ausencia de tratamiento); O = el resultado clínicamente relevante (supervivencia libre de recidiva en momentos temporales definidos). La opción B especifica correctamente los cuatro componentes PICO que se corresponden con la pregunta clínica de BCG frente a quimioterapia para TVNM.",
+          "wrong": {
+            "A": "Población demasiado amplia (todo el cáncer de vejiga), comparador es la cirugía (no relevante para la comparación intravesical) y el resultado es la mortalidad (endpoint incorrecto para la pregunta de recidiva). No es un PICO bien especificado.",
+            "C": "La intervención y la comparación son resultados (efectos secundarios), no intervenciones: esta formulación respondería a una pregunta diferente sobre tolerabilidad, no sobre eficacia.",
+            "D": "La población es demasiado amplia (cualquier estadio de cáncer de vejiga), el comparador es la ausencia de tratamiento (no la comparación relevante) y el resultado (supervivencia libre de cistectomía) no es el endpoint estándar de eficacia en TVNM."
+          },
+          "guideline": "Metodología EAU para Guías Basadas en la Evidencia (2024): Todas las recomendaciones de las guías derivan de búsquedas sistemáticas de la literatura estructuradas mediante PICO; la formulación PICO es el primer paso obligatorio en la metodología de las revisiones sistemáticas.",
+          "trial": "Sylvester RJ et al. Metaanálisis EORTC/CUETO (Eur Urol 2009): Revisión sistemática basada en la pregunta PICO: adultos con TVNM (P), inducción/mantenimiento con BCG (I) frente a quimioterapia intravesical (C), supervivencia libre de recidiva (O), demostrando el PICO en la práctica para una revisión sistemática urológica importante.",
+          "pearl": "PICO = Población (específica), Intervención (específica con dosis/vía), Comparación (alternativa relevante), Outcome/resultado (clínicamente significativo, con tiempo especificado). Un PICO bien especificado conduce a una búsqueda bibliográfica eficiente. Un PICO vago produce resultados irrelevantes."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G3-Q2",
+        "stem": "Un cirujano presenta una serie de casos de 30 pacientes consecutivos sometidos a una nueva técnica robótica de reimplante ureteral. Los resultados son excelentes sin fallos anastomóticos. Argumenta que estos datos proporcionan evidencia sólida de la superioridad de la nueva técnica. ¿Qué nivel de evidencia representa esto y qué limitación se aplica?",
+        "options": {
+          "A": "Nivel 1b (ECA único): puede establecerse la superioridad",
+          "B": "Nivel 4 (serie de casos): sin grupo control, sin aleatorización, susceptible de sesgo de selección y de publicación",
+          "C": "Nivel 2b (cohorte prospectiva): evidencia moderada para la nueva técnica",
+          "D": "Nivel 3 (caso-control): pueden inferirse controles históricos de la literatura"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Una serie de casos consecutivos es evidencia de Nivel 4 (Oxford CEBM). No tiene grupo control, ni aleatorización, ni enmascaramiento. Los resultados «excelentes» pueden reflejar selección de pacientes (el cirujano elige a los mejores candidatos para una nueva técnica), la curva de aprendizaje (el cirujano está muy motivado y es cuidadoso con los primeros casos), regresión hacia la media o sesgo de notificación (los malos resultados pueden no informarse). Sin comparación con la atención estándar en un diseño controlado o aleatorizado, no puede afirmarse ninguna superioridad. Se trata de evidencia IDEAL Etapa 2a: apropiada para la descripción de la técnica y la viabilidad, no para la efectividad comparativa.",
+          "wrong": {
+            "A": "El Nivel 1b requiere un ECA bien diseñado y ejecutado. Una serie de casos sin grupo control no puede establecer superioridad sobre ningún comparador.",
+            "C": "El Nivel 2b requiere un estudio de cohorte prospectivo con un grupo de comparación definido. Una serie de casos sin controles no es un estudio de cohorte y se califica como Nivel 4.",
+            "D": "El Nivel 3 (caso-control) requiere un grupo de control definido emparejado con los casos. Inferir controles históricos de la literatura introduce confusión no medida y no es equivalente a un grupo control contemporáneo."
+          },
+          "guideline": "Marco IDEAL (Ergina PL, Lancet 2009): Etapa 2a = pequeña serie de casos; evidencia de Nivel 4; apropiado para la descripción de la técnica, identificación de señales de seguridad y caracterización de la curva de aprendizaje; no apropiado para afirmaciones de efectividad comparativa.",
+          "trial": "McCulloch P et al. (Lancet 2009): Artículo IDEAL que demuestra que las series de casos (IDEAL Etapa 2a) no deben usarse para reclamar superioridad sobre las técnicas establecidas: la ausencia de un grupo control hace que todos los resultados positivos sean ininterpretables para afirmaciones comparativas.",
+          "pearl": "Serie de casos = Evidencia de Nivel 4. No puede establecer superioridad, inferioridad ni equivalencia sin un grupo control. IDEAL Etapa 2a. Usar para descripción de técnicas, viabilidad, señal de seguridad y curva de aprendizaje. Para afirmar eficacia superior, se requiere un ECA (IDEAL Etapa 3)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G3-Q3",
+        "stem": "Está leyendo críticamente el ECA RAZOR (Parekh et al., Lancet 2018) que compara la cistectomía radical asistida por robot con la abierta. El endpoint primario es la supervivencia libre de progresión a 2 años (diseño de no inferioridad). El artículo establece: «La secuencia de aleatorización fue generada por un algoritmo informático, y la asignación se realizó de forma centralizada mediante un sistema web seguro, con estratificación por estado funcional ECOG y estadio clínico T». ¿Qué dominio de la RoB 2.0 aborda principalmente esta frase?",
+        "options": {
+          "A": "Sesgo en la medición del resultado",
+          "B": "Sesgo derivado del proceso de aleatorización",
+          "C": "Sesgo por datos de resultado faltantes",
+          "D": "Sesgo en la selección del resultado informado"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La frase aborda directamente el Dominio 1 de la RoB 2.0: sesgo derivado del proceso de aleatorización. Describe: (1) un método de generación de la secuencia aleatoria (algoritmo informático: apropiado), (2) el método de ocultación de la asignación (sistema web centralizado y seguro: apropiado, impide la manipulabilidad), y (3) factores de estratificación (estado funcional ECOG y estadio clínico T). Los tres elementos son los criterios para juzgar el Dominio 1 como «bajo riesgo». La asignación web centralizada es el estándar de oro para la ocultación de la asignación.",
+          "wrong": {
+            "A": "El sesgo en la medición del resultado (Dominio 4 de la RoB 2.0) se refiere al enmascaramiento de los evaluadores de resultados y la consistencia de la medición del resultado, no al proceso de aleatorización y asignación.",
+            "C": "El sesgo por datos de resultado faltantes (Dominio 3 de la RoB 2.0) se refiere a las tasas de abandono y los métodos para manejar los datos faltantes, no a la aleatorización.",
+            "D": "El sesgo en la selección del resultado informado (Dominio 5 de la RoB 2.0) se refiere al cambio de outcome y el informe selectivo, no al proceso de aleatorización."
+          },
+          "guideline": "RoB 2.0 de Cochrane (Sterne JA, BMJ 2019): El Dominio 1 evalúa: (D1.1) generación de la secuencia de aleatorización: algoritmo informático aleatorio = bajo riesgo; (D1.2) ocultación de la asignación: web centralizada = bajo riesgo; (D1.3) comparabilidad basal: la aleatorización estratificada reduce el desequilibrio por azar.",
+          "trial": "ECA RAZOR (Parekh BH, Lancet 2018): Aleatorización informática con asignación web centralizada y estratificación por ECOG/estadio T: juzgado como bajo riesgo para el Dominio 1 en revisiones sistemáticas y metaanálisis posteriores de CARC vs CRC; este sistema de asignación es el estándar de oro que los lectores críticos deben reconocer como bajo riesgo.",
+          "pearl": "RoB 2.0 Dominio 1 (aleatorización): bajo riesgo requiere (1) generación verdaderamente aleatoria de la secuencia (computador), (2) ocultación de la asignación que evite el conocimiento previo (web/teléfono central), y (3) comparabilidad basal. La aleatorización estratificada aborda el punto (3)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G3-Q4",
+        "stem": "La guía EAU 2024 establece: «Recomendamos la cistectomía radical para el cáncer de vejiga músculo-invasivo (cT2–T4a, N0, M0) (Recomendación Fuerte, Grado A)». Según GRADE, ¿qué significa una recomendación «Fuerte» para la práctica clínica?",
+        "options": {
+          "A": "La mayoría de los pacientes en la mayoría de las circunstancias deben recibir este tratamiento independientemente de las preferencias individuales",
+          "B": "La recomendación se aplica solo en centros terciarios académicos con capacidad de cirugía robótica",
+          "C": "La recomendación requiere un ECA antes de la implementación clínica",
+          "D": "Las recomendaciones fuertes se basan únicamente en evidencia de Nivel 1a (revisiones sistemáticas)"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Una recomendación Fuerte según GRADE significa: «Recomendamos»: los beneficios de la intervención claramente superan a los daños para la mayoría de los pacientes en la mayoría de las circunstancias. Para una recomendación Fuerte, es apropiado implementarla para la mayoría de los pacientes sin una toma de decisiones compartida extensa sobre si seguirla (aunque las preferencias del paciente siguen importando para aspectos específicos, como la elección del abordaje quirúrgico o el tipo de derivación urinaria). Los clínicos que no sigan una recomendación Fuerte deben documentar sus razones.",
+          "wrong": {
+            "A": "Correcto: véase la explicación anterior.",
+            "B": "Las recomendaciones Fuertes se aplican en todos los entornos donde se trata a la población de pacientes relevante, no solo en centros académicos. La disponibilidad de cirugía robótica puede afectar a la elección del abordaje quirúrgico (una recomendación diferente), pero no a la recomendación de cistectomía radical como estándar de atención.",
+            "C": "Las recomendaciones Fuertes se basan en la evidencia existente: si la evidencia es suficientemente sólida, la implementación precede a cualquier nuevo ECA. La nueva evidencia puede reforzar o debilitar las recomendaciones futuras.",
+            "D": "Las recomendaciones Fuertes pueden basarse en cualquier nivel de evidencia: la fuerza de la recomendación GRADE refleja conjuntamente el balance de beneficios frente a daños, los valores del paciente y la certeza de la evidencia. Una recomendación fuerte puede sustentarse en evidencia de alta, moderada o incluso baja certeza cuando los beneficios son claros y los daños mínimos."
+          },
+          "guideline": "Marco GRADE (Guyatt G, BMJ 2008): Recomendación Fuerte = los beneficios claramente superan a los daños = «Recomendamos»; los clínicos la implementan para la mayoría de los pacientes sin una deliberación individual extensa; Recomendación Débil = «Sugerimos» = la decisión debe individualizarse; se requiere TDC.",
+          "trial": "SWOG 8710 (Grossman HB, NEJM 2003): ECA de MVAC neoadyuvante + cistectomía frente a cistectomía sola para CAMI: el brazo de cistectomía demostró la importancia de la cirugía radical para la supervivencia en CAMI; combinado con décadas de datos observacionales, la cistectomía recibe recomendación de Grado A/Fuerte.",
+          "pearl": "Recomendación GRADE Fuerte = «Recomendamos» = la mayoría de los pacientes en la mayoría de las circunstancias deben recibir este tratamiento. Débil = «Sugerimos» = individualizar según los valores del paciente. Fuerte ≠ obligatoria (se respeta la autonomía del paciente), pero debe documentarse la razón de la desviación."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G3-Q5",
+        "stem": "Una revisión sistemática y metaanálisis de nefrectomía parcial robótica frente a abierta incluye 18 estudios (3 ECA, 15 observacionales). El OR agrupado para los márgenes quirúrgicos positivos es 0,81 (IC 95% 0,69–0,95) a favor de la nefrectomía parcial robótica. El I² es del 62%. La evaluación AMSTAR-2 revela la ausencia de registro en PROSPERO, evaluación del riesgo de sesgo incompleta en 5 estudios y sin evaluación del sesgo de publicación. ¿Qué valoración de calidad global recibe este metaanálisis y cómo debe interpretarse su conclusión?",
+        "options": {
+          "A": "Alta calidad: el estimador agrupado puede aceptarse como evidencia definitiva de la superioridad de la nefrectomía parcial robótica",
+          "B": "Calidad críticamente baja: las limitaciones metodológicas (sin registro, evaluación de RoB incompleta, sin evaluación del sesgo de publicación) son debilidades críticas; la conclusión debe interpretarse con extrema cautela",
+          "C": "Calidad moderada: solo limitaciones menores; la conclusión es fiable para las recomendaciones de las guías",
+          "D": "Baja calidad: pero los 3 ECA del análisis garantizan la validez de la conclusión"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "AMSTAR-2 asigna calidad críticamente baja cuando existe ≥1 debilidad crítica. Las tres deficiencias identificadas (sin registro en PROSPERO, evaluación incompleta del riesgo de sesgo, sin evaluación del sesgo de publicación) representan cada una de ellas ítems críticos de AMSTAR-2. Además, I² = 62% indica heterogeneidad sustancial que no fue abordada adecuadamente. La conclusión (OR 0,81 a favor de la nefrectomía parcial robótica) no puede interpretarse de forma fiable a partir de un metaanálisis de calidad críticamente baja: debe considerarse generadora de hipótesis, no evidencia para recomendaciones de guías.",
+          "wrong": {
+            "A": "La alta calidad requeriría: registro en PROSPERO, búsqueda exhaustiva, cribado duplicado, evaluación completa del riesgo de sesgo y manejo apropiado de la heterogeneidad, nada de lo cual se demuestra. Un metaanálisis de alta calidad con I²=62% aún requeriría análisis de subgrupos para explicar la heterogeneidad.",
+            "C": "La calidad moderada requeriría que la mayoría de los ítems de AMSTAR-2 estuvieran satisfechos con solo debilidades no críticas. La ausencia de registro en PROSPERO y la evaluación incompleta del riesgo de sesgo son ítems críticos.",
+            "D": "La presencia de 3 ECA no «rescata» un metaanálisis mal realizado. Si los ECA tienen una evaluación incompleta del riesgo de sesgo y no se evalúa el sesgo de publicación, la calidad global sigue siendo críticamente baja independientemente del diseño de los estudios individuales."
+          },
+          "guideline": "AMSTAR-2 (Shea BJ, BMJ 2017): Calidad críticamente baja = ≥1 debilidad crítica; los ítems críticos incluyen: registro del protocolo, búsqueda exhaustiva, evaluación del riesgo de sesgo de los estudios incluidos, métodos apropiados de metaanálisis, consideración del riesgo de sesgo en la interpretación, y evaluación del sesgo de publicación. Los metaanálisis de calidad críticamente baja no deben fundamentar recomendaciones de guías.",
+          "trial": "Zargar H et al. (Eur Urol 2016): Revisión sistemática de nefrectomía parcial robótica frente a laparoscópica: la reevaluación posterior mediante AMSTAR-2 identificó debilidades críticas en muchos metaanálisis incluidos en esta área, con la mayoría valorados como de calidad críticamente baja; se identificó la necesidad de ECA posteriores (ensayo ROSULA).",
+          "pearl": "AMSTAR-2 calidad críticamente baja = ≥1 debilidad crítica. Debilidades críticas: sin registro en PROSPERO, búsqueda incompleta, sin evaluación del riesgo de sesgo, sin evaluación del sesgo de publicación. El metaanálisis de calidad críticamente baja no puede fundamentar recomendaciones de guías. I² > 50% requiere subgrupos/metarregresión para explicar la heterogeneidad."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q6",
+        "stem": "Usando GRADE, ¿qué factor único eleva más frecuentemente la certeza de la evidencia de BAJA a MODERADA para un estudio observacional que demuestra una asociación entre la vigilancia activa y la evitación del tratamiento radical en el cáncer de próstata de bajo riesgo?",
+        "options": {
+          "A": "El estudio usó emparejamiento por puntuación de propensión",
+          "B": "El estudio fue multicéntrico",
+          "C": "Magnitud del efecto muy grande (p. ej., RR <0,1 o >10 para la asociación)",
+          "D": "El estudio fue publicado en una revista de alto impacto"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "GRADE permite elevar la certeza de la evidencia observacional cuando el efecto es muy grande (RR >5 o <0,2 para una elevación de 2 niveles; RR 2–5 o 0,2–0,5 para una elevación de 1 nivel). Los efectos muy grandes difícilmente se explican enteramente por confusión residual: si el efecto observado es 10 veces mayor, incluso confusores no medidos de gran magnitud difícilmente explicarían el efecto por completo. Otros factores de elevación: relación dosis-respuesta y una situación en que todos los confusores plausibles reducirían (no aumentarían) el efecto observado.",
+          "wrong": {
+            "A": "El emparejamiento por puntuación de propensión reduce la confusión medida: una mejora en la calidad del estudio dentro del diseño observacional, pero no es uno de los tres factores de elevación GRADE. Reduce el riesgo de sesgo dentro del diseño observacional pero no eleva automáticamente la certeza GRADE.",
+            "B": "Los estudios multicéntricos aumentan la generalizabilidad y pueden reducir el sesgo específico del centro: un indicador de calidad, pero no es un factor de elevación GRADE para la certeza. Ser multicéntrico no cambia la limitación fundamental del diseño observacional.",
+            "D": "El factor de impacto de la revista no es un criterio GRADE. Las revistas de alto impacto pueden tener una mejor revisión por pares, pero el lugar de publicación no determina la certeza de la evidencia."
+          },
+          "guideline": "Marco GRADE (Guyatt G, BMJ 2008): Tres factores de elevación GRADE para la evidencia observacional: (1) magnitud del efecto grande o muy grande (RR >2 o <0,5 = elevar 1 nivel; RR >5 o <0,2 = elevar 2 niveles); (2) gradiente dosis-respuesta; (3) todos los confusores plausibles actúan en la dirección de subestimar el efecto verdadero.",
+          "trial": "Hammerer P et al. (Eur Urol 2003): Aplicación de GRADE al manejo del cáncer de próstata: los estudios observacionales de prostatectomía radical frente a vigilancia expectante con HR >2 para muerte por cáncer fueron elevados de certeza muy baja a baja debido a la magnitud del efecto; aún insuficiente para una recomendación fuerte de guía (se necesitaba el ECA ProtecT).",
+          "pearl": "Factores de elevación GRADE para estudios observacionales: (1) efecto muy grande (RR >2 = +1 nivel; RR >5 = +2 niveles), (2) dosis-respuesta, (3) dirección de todos los confusores plausibles hace que el efecto observado sea conservador. Estos factores pueden elevar de muy baja → baja → moderada, pero rara vez alcanzan alta certeza para datos observacionales."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q7",
+        "stem": "Las guías EAU 2024 recomiendan: «Ofrecer quimioterapia neoadyuvante basada en cisplatino a los pacientes elegibles con CAMI cT2–T4a antes de la cistectomía radical (Recomendación Fuerte, Grado A)». A pesar de esta recomendación de Grado A, la quimioterapia neoadyuvante (QNA) sigue siendo infrautilizada en el CAMI. ¿Cuál es la razón más frecuentemente citada para su no adopción en la práctica clínica?",
+        "options": {
+          "A": "El metaanálisis que apoya la QNA se publicó antes del año 2000 y se considera desactualizado",
+          "B": "Preocupaciones sobre la elegibilidad para cisplatino (insuficiencia renal, ECOG ≥2, hipoacusia, neuropatía), el retraso hasta la cistectomía y las vías de derivación inadecuadas de urología a oncología médica",
+          "C": "El beneficio absoluto en supervivencia de la QNA es >15%, lo que convierte al tratamiento en obligatorio por las guías éticas",
+          "D": "La QNA solo se recomienda en centros especializados con MDT formal y, por tanto, es inaccesible para la mayoría de los urólogos"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La QNA para CAMI es una recomendación de Grado A basada en un metaanálisis que muestra un beneficio absoluto del 5% en la SG a 5 años (equivalente a aproximadamente un 14% de reducción del riesgo relativo, NEJM 2003 y Advanced Bladder Cancer Meta-analysis Collaboration). A pesar de esto, las tasas de utilización globales son del 15–30%. Las barreras incluyen: (1) hasta el 50% de los pacientes con CAMI son inelegibles para cisplatino por insuficiencia renal (FGe <60), ECOG ≥2, insuficiencia cardíaca descompensada, neuropatía periférica o hipoacusia; (2) la preocupación de que 6–8 semanas de quimioterapia retrasen la cirugía potencialmente curativa; (3) la falta de vías de derivación establecidas entre urólogos y oncólogos médicos; (4) el nihilismo sobre el beneficio («solo el 5%»); y (5) el temor a la toxicidad de la quimioterapia en una población anciana.",
+          "wrong": {
+            "A": "El Metaanálisis ABC (Advanced Bladder Cancer Meta-analysis Collaboration, Lancet 2003) demostró un beneficio de supervivencia significativo de la QNA basada en cisplatino. Aunque publicado en 2003, los metaanálisis actualizados confirman sistemáticamente el beneficio. La evidencia no se considera desactualizada: es Grado A.",
+            "C": "El beneficio absoluto en supervivencia es de aproximadamente el 5% a 5 años, significativo pero no >15%. Este 5% de beneficio absoluto es la cifra utilizada en el asesoramiento al paciente. La recomendación es «Fuerte» debido al balance favorable de beneficio-daño, no porque el beneficio sea abrumador.",
+            "D": "La QNA puede administrarse en cualquier centro con acceso a oncología médica. Las guías EAU recomiendan la discusión en comité multidisciplinario, pero no restringen la recomendación a centros especializados. La inaccesibilidad es una barrera práctica en algunos sistemas de salud, pero no es un criterio de la EAU."
+          },
+          "guideline": "Guías EAU sobre Carcinoma Urotelial (2024): QNA (basada en cisplatino, p. ej., MVAC dosis-densa o GC × 3–4 ciclos) antes de cistectomía radical para pacientes elegibles con cT2–4a N0 M0: Recomendación Fuerte/Grado A; criterios de elegibilidad para cisplatino: FGe ≥60 mL/min/1,73m², ECOG ≤1, sin neuropatía/hipoacusia/NYHA III–IV.",
+          "trial": "Advanced Bladder Cancer Meta-analysis Collaboration (Lancet 2003): Metaanálisis de 11 ECA (3.005 pacientes): la QNA basada en platino antes del tratamiento local mostró HR 0,86 (reducción del 14% relativo, del 5% absoluto en SG a 5 años); estableció la base de evidencia para la recomendación de Grado A.",
+          "pearl": "QNA para CAMI: beneficio del 5% en SG a 5 años (Grado A). Infrautilización (15–30% a nivel global) debida a: inelegibilidad para cisplatino (FGe <60, ECOG ≥2, neuropatía, hipoacusia, insuficiencia cardíaca), preocupación por el retraso y falta de vías de derivación al MDT. La evaluación de la elegibilidad para cisplatino es obligatoria antes de la planificación de la cistectomía."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q8",
+        "stem": "Un diagrama de bosque de un metaanálisis de tratamiento quirúrgico frente a no quirúrgico del traumatismo renal grado IV muestra: Estudio 1: RR 0,88 (0,52–1,48); Estudio 2: RR 0,72 (0,48–1,08); Estudio 3: RR 0,65 (0,43–0,99); Agrupado: RR 0,74 (0,57–0,96). I² = 28%. ¿Cuál es la interpretación correcta del resultado agrupado?",
+        "options": {
+          "A": "Los estudios individuales son todos estadísticamente significativos y el resultado agrupado confirma la superioridad quirúrgica",
+          "B": "El RR agrupado = 0,74 (IC 95% 0,57–0,96) sugiere que la cirugía se asocia con un riesgo relativo del resultado un 26% menor; el IC excluye 1,0, confirmando la significación estadística; I² = 28% indica baja heterogeneidad; los estudios individuales 1 y 2 no son significativos por sí solos debido a muestras pequeñas",
+          "C": "Como los estudios 1 y 2 no son significativos, el resultado agrupado debe descartarse",
+          "D": "I² = 28% significa que el 28% de los pacientes experimentó el resultado en el grupo quirúrgico"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El RR agrupado = 0,74 significa que la cirugía se asocia con un 26% menor riesgo relativo del resultado en comparación con el tratamiento no quirúrgico. El IC del 95% (0,57–0,96) excluye 1,0, confirmando la significación estadística con α=0,05. I² = 28% indica baja heterogeneidad: los estudios son razonablemente consistentes en sus estimaciones. El estimador agrupado del metaanálisis tiene mayor precisión (IC más estrecho) que los estudios individuales, razón por la que los estudios individuales 1 y 2 no alcanzan la significación solos pero sí el estimador agrupado: este es el principal valor añadido del metaanálisis.",
+          "wrong": {
+            "A": "Los estudios 1 y 2 individualmente NO tienen resultados estadísticamente significativos (sus IC incluyen 1,0: Estudio 1: 0,52–1,48; Estudio 2: 0,48–1,08). Solo el Estudio 3 (0,43–0,99) es individualmente significativo. El resultado agrupado alcanza la significación combinando la evidencia.",
+            "C": "La no significación de los estudios individuales no es razón para descartar un resultado agrupado: el propósito del metaanálisis es precisamente combinar estudios para lograr la potencia que los estudios individuales no tienen. El IC agrupado que excluye 1,0 es válido.",
+            "D": "I² es una medida de heterogeneidad entre estudios (proporción de varianza debida a diferencias reales entre los estimadores de efecto de los estudios), no la tasa de eventos en ningún grupo. I² = 28% significa que el 28% de la variabilidad total es variación entre estudios, no debida al azar."
+          },
+          "guideline": "Manual Cochrane para Revisiones Sistemáticas (Higgins JPT, 2022): El metaanálisis produce un estimador agrupado con mayor precisión que los estudios individuales; I² <25% = baja heterogeneidad (combinación apropiada); un resultado agrupado puede ser significativo aunque los estudios individuales no lo sean, gracias a la mayor potencia estadística de la muestra combinada.",
+          "trial": "Santucci RA et al. (J Urol 2005): Metaanálisis del manejo del traumatismo renal que confirma la superioridad del tratamiento no operatorio en pacientes hemodinámicamente estables: los estudios de cohorte individuales no tenían potencia suficiente, pero los estimadores agrupados aportaron evidencia definitiva para el TNO, demostrando la capacidad del metaanálisis para detectar efectos indetectables en estudios individuales.",
+          "pearl": "El metaanálisis logra significación estadística no alcanzada por estudios individuales con insuficiente potencia: este es su principal valor metodológico. I² = proporción de heterogeneidad entre estudios (no tasa de eventos). IC agrupado que excluye el valor nulo = resultado agrupado estadísticamente significativo."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q9",
+        "stem": "En la toma de decisiones compartida para un hombre de 72 años con cáncer de próstata de bajo riesgo (PSA 6,2 ng/mL, grupo de grado ISUP 1, cT1c) que ha expresado ansiedad por «vivir con cáncer», ¿cuál de las siguientes opciones aplica mejor los principios de la medicina basada en la evidencia?",
+        "options": {
+          "A": "Prescribir vigilancia activa: la guía EAU lo recomienda y la preferencia del paciente es irrelevante para una recomendación Fuerte",
+          "B": "Debatir los datos del ensayo ProtecT (mortalidad específica por cáncer equivalente a 10 años para VA, PR y RT), explorar la naturaleza y el contenido específicos de su ansiedad, explicar el protocolo de seguimiento y su eficacia, y alcanzar una decisión consensuada",
+          "C": "Realizar una prostatectomía radical inmediata dado su nivel de ansiedad: la preferencia del paciente prevalece sobre las recomendaciones de las guías",
+          "D": "Derivar a psiquiatría para el manejo de la ansiedad antes de cualquier debate sobre el tratamiento del cáncer de próstata"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La práctica basada en la evidencia integra tres componentes: la mejor evidencia, la experiencia clínica y los valores del paciente. Las guías EAU recomiendan la vigilancia activa (VA) como el manejo preferido para el CaP de bajo riesgo (recomendación de Grado A), pero la recomendación Fuerte de GRADE afirma que «la mayoría de los pacientes deben recibirlo» reconociendo que los valores del paciente pueden conducir ocasionalmente a una decisión diferente. El enfoque correcto es la toma de decisiones compartida: presentar la evidencia (equivalencia de SG a 10 años en el ensayo ProtecT), comprender los valores del paciente (ansiedad sobre la vigilancia), proporcionar información sobre la eficacia del seguimiento, y alcanzar una decisión consensuada. El objetivo es una elección informada y coherente con los valores, no el cumplimiento automático o la desviación automática de la guía.",
+          "wrong": {
+            "A": "Una recomendación Fuerte no hace irrelevante la preferencia del paciente: la autonomía del paciente es fundamental para la ética médica. La TDC es parte explícita del marco de atención al paciente de la EAU.",
+            "C": "La preferencia del paciente es importante, pero no «prevalece» sobre las recomendaciones basadas en la evidencia sin un debate informado adecuado. Un paciente que solicita tratamiento radical debe recibir la presentación de la evidencia, incluidos los riesgos del sobretratamiento, antes de proceder.",
+            "D": "Derivar a psiquiatría por la incertidumbre normal ante el diagnóstico de cáncer antes de abordar la pregunta clínica es inapropiado. La ansiedad es una respuesta normal que debe abordarse mediante información adecuada y TDC dentro de la urología, no derivarse a psiquiatría."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata (2024): Vigilancia activa para CaP de bajo riesgo: recomendada con firmeza; se recomiendan ayudas para la decisión del paciente; la TDC que aborda la ansiedad del paciente sobre la vigilancia está explícitamente recomendada; las habilidades de TDC son una competencia central para el FEBU.",
+          "trial": "Hamdy FC et al. ProtecT (NEJM 2016): Mortalidad específica por cáncer equivalente a 10 años para VA, PR y RT en CaP localizado: la base de evidencia para las discusiones de TDC; los pacientes deben ser informados de los resultados de supervivencia equivalentes a la vez que comprenden que la tasa de metástasis fue mayor con VA, constituyendo el núcleo de la consulta de TDC.",
+          "pearl": "Medicina basada en la evidencia = mejor evidencia + experiencia clínica + valores del paciente. Para recomendaciones EAU Fuertes: implementar para la mayoría de los pacientes, pero los valores y preferencias del paciente siguen considerándose. Para recomendaciones Débiles: la TDC es obligatoria. La VA para CaP de bajo riesgo = recomendación Fuerte pero requiere TDC dado la ansiedad del paciente y la carga del seguimiento."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q10",
+        "stem": "Una compañía farmacéutica presenta un nuevo alfabloqueante para STUI/HPB con un ICER de 18.000 £ por AVAC comparado con los tratamientos existentes. El umbral de coste-efectividad del NICE es de 20.000–30.000 £ por AVAC. ¿Es probable que el NICE recomiende este tratamiento?",
+        "options": {
+          "A": "No: el ICER supera el umbral inferior del NICE de 20.000 £/AVAC",
+          "B": "Sí: el ICER (18.000 £/AVAC) está por debajo del umbral inferior del NICE (20.000 £/AVAC), lo que sugiere coste-efectividad y probable aprobación del NICE",
+          "C": "Las recomendaciones del NICE se basan únicamente en los endpoints de los ensayos clínicos, no en la coste-efectividad",
+          "D": "El tratamiento requiere un ensayo de Fase IV antes de la evaluación por el NICE"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El umbral de coste-efectividad del NICE es de 20.000–30.000 £ por AVAC. Un ICER de 18.000 £/AVAC está POR DEBAJO del umbral inferior, lo que significa que el tratamiento proporciona un beneficio adicional en salud a un coste por AVAC aceptable en comparación con la atención actual. El NICE probablemente aprobaría este tratamiento para su uso en el NHS basándose en esta evidencia de coste-efectividad, siempre que la evidencia clínica (eficacia y seguridad) sea también aceptable. Los tratamientos por debajo de 20.000 £/AVAC generalmente se aprueban; entre 20.000–30.000 £/AVAC se evalúan considerando la incertidumbre; por encima de 30.000 £/AVAC generalmente no se recomiendan.",
+          "wrong": {
+            "A": "Un ICER de 18.000 £/AVAC está por debajo (más barato por AVAC que) el umbral inferior de 20.000 £: esto significa que SÍ es coste-efectivo, no que falla el umbral. El umbral es el ICER MÁXIMO aceptable.",
+            "C": "El proceso de evaluación tecnológica del NICE incorpora explícitamente el análisis de coste-utilidad (basado en AVAC) junto con la evidencia de los ensayos clínicos: la coste-efectividad es un componente central de las evaluaciones del NICE, a diferencia de muchos otros organismos reguladores.",
+            "D": "Los ensayos de Fase IV son estudios de vigilancia poscomercialización. La evaluación del NICE suele producirse tras los ensayos de Fase III que demuestran eficacia y seguridad: un ensayo de Fase IV no es un requisito previo para la evaluación del NICE."
+          },
+          "guideline": "Guía del NICE sobre los Métodos de Evaluación Tecnológica (2022): Umbral estándar de coste-efectividad de 20.000–30.000 £ por AVAC; ICER por debajo de 20.000 £/AVAC = coste-efectividad favorable para la recomendación del NICE; se aplican umbrales modificados para tratamientos de fin de vida y enfermedades raras.",
+          "trial": "Roehrborn CG et al. (Ensayo CombAT, Eur Urol 2010): Análisis de salud económica de dutasterida + tamsulosina frente a monoterapia para HPB: ICER de aproximadamente 22.000 £/AVAC en el análisis del Reino Unido, dentro del rango del umbral del NICE de 20.000–30.000 £.",
+          "pearl": "Umbral ICER del NICE: <20.000 £/AVAC = probable aprobación; 20.000–30.000 £/AVAC = evaluación caso por caso; >30.000 £/AVAC = generalmente no recomendado (excepciones para enfermedades graves/raras). ICER = coste adicional / AVAC adicional en comparación con el tratamiento actual."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q11",
+        "stem": "Una evaluación GRADE de la evidencia para la inmunoterapia perioperatoria (atezolizumab) para CAMI (ensayo IMVIGOR010: HR 0,98, IC 95% 0,71–1,35, p=0,91 — no significativo) califica la certeza de la evidencia como ALTA porque fue un ECA bien realizado. Sin embargo, un colega argumenta que la certeza de la evidencia debe DEGRADARSE. ¿Qué criterio de degradación GRADE cita más probablemente?",
+        "options": {
+          "A": "Inconsistencia: el resultado difiere de los datos observacionales previos",
+          "B": "Imprecisión: el amplio intervalo de confianza (0,71–1,35) es compatible tanto con un daño del 29% como con un beneficio del 35%; el tamaño muestral puede ser insuficiente para detectar un efecto pequeño",
+          "C": "Indirección: la población del ensayo fue diferente a la práctica clínica",
+          "D": "Riesgo de sesgo: la aleatorización fue inadecuada"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Imprecisión GRADE: un IC lo suficientemente amplio como para abarcar tanto beneficio como daño clínicamente importantes sugiere imprecisión: no podemos concluir con seguridad que no haya un efecto significativo, ni que lo haya. IC del 95% de 0,71–1,35 significa que el efecto verdadero podría plausiblemente ser: una reducción del riesgo del 29% (HR 0,71, beneficioso), ningún efecto (HR 1,0), o un incremento del riesgo del 35% (HR 1,35, dañino). Este IC amplio que abarca desde beneficio hasta daño justifica la degradación de la certeza de la evidencia por imprecisión: la muestra puede haber sido insuficiente, el seguimiento demasiado corto o los eventos demasiado escasos para proporcionar un estimador preciso.",
+          "wrong": {
+            "A": "La inconsistencia se refiere a la heterogeneidad de los resultados ENTRE múltiples estudios en un metaanálisis, no a la inconsistencia entre el resultado de un ensayo y los datos observacionales previos. IMVIGOR010 es un único ensayo.",
+            "C": "La indirección se aplicaría si el ensayo hubiera usado una población diferente (p. ej., cáncer no urotelial) o un endpoint subrogado en lugar de la SG. IMVIGOR010 utilizó la población de CAMI prevista y la SG como endpoint primario: la indirección no es la principal preocupación GRADE.",
+            "D": "La pregunta afirma que el ensayo fue «bien realizado»: la degradación por riesgo de sesgo no se aplica. El criterio GRADE a aplicar aquí es la imprecisión basada en el IC amplio."
+          },
+          "guideline": "Marco GRADE: Degradación por imprecisión: cuando el IC cruza el umbral para beneficio o daño significativo, o cuando no se ha alcanzado el tamaño de información óptimo (TIO), la evidencia se degrada 1 nivel; el IC de IMVIGOR010 que abarca desde beneficioso hasta dañino (0,71–1,35) es un ejemplo claro de imprecisión.",
+          "trial": "Powles T et al. IMVIGOR010 (Ann Oncol 2021): Atezolizumab adyuvante frente a observación para CAMI de alto riesgo tras cistectomía radical: HR 0,98 (IC 95% 0,71–1,35), p=0,91; sin beneficio significativo; el IC amplio fue citado como imprecisión en las evaluaciones GRADE, lo que condujo a una certeza de la evidencia degradada para el uso de inhibidores de puntos de control inmunoterápicos perioperatorios.",
+          "pearl": "Imprecisión GRADE: IC amplio que incluye tanto beneficio como daño clínicamente importantes = degradar 1 nivel. Para IMVIGOR010: IC 0,71–1,35 abarca desde un beneficio del 29% hasta un daño del 35%: demasiado impreciso para confirmar la ausencia de un efecto clínicamente importante. Contraste con CHECKMATE-274 (HR 0,70, IC 0,57–0,86): IC más estrecho que excluye 1,0 = más preciso."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G3-Q12",
+        "stem": "Al usar MEDLINE/PubMed para una revisión sistemática sobre el tema de los alfabloqueantes para la expulsión de cálculos ureterales (terapia médica expulsiva), un investigador usa la cadena de búsqueda: «ureteral calculi[MeSH] AND alpha blockers[MeSH] AND randomised controlled trial[pt]». ¿Qué significa «[pt]» y qué tipo de artículos recupera este filtro?",
+        "options": {
+          "A": "[pt] = tipo de publicación; el filtro recupera artículos clasificados como ensayos controlados aleatorizados por los indexadores de PubMed",
+          "B": "[pt] = texto primario; el filtro recupera solo artículos a texto completo",
+          "C": "[pt] = ensayo positivo; el filtro recupera ensayos con resultados positivos",
+          "D": "[pt] = texto revisado por pares; recupera solo publicaciones revisadas por pares"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "[pt] es la etiqueta de campo de PubMed para «tipo de publicación» (publication type): recupera artículos indexados bajo el tipo de publicación MeSH específico «Randomized Controlled Trial». Este filtro es la forma estándar de restringir una búsqueda a los ECA en PubMed. Complementa la estrategia de búsqueda de ECA de maximización de sensibilidad de Cochrane, que utiliza además términos de texto libre (random*, allocat*, placebo*) para capturar ensayos aún no indexados como ECA. La combinación de términos MeSH para la población y la intervención con el filtro [pt] para el diseño del estudio es el enfoque estándar para la recuperación de ECA en las revisiones sistemáticas.",
+          "wrong": {
+            "A": "Correcto: véase la explicación anterior.",
+            "B": "La disponibilidad del texto completo en PubMed se filtra de forma diferente, típicamente limitando a «Free Full Text» en el panel de Filtros, no con [pt].",
+            "C": "No existe una etiqueta de campo de PubMed para «ensayo positivo»: esto introduciría un sesgo grave en una revisión sistemática. Deben recuperarse todos los ensayos elegibles independientemente de la dirección de los resultados.",
+            "D": "El estado de revisión por pares no es una etiqueta de campo de PubMed. La mayoría de los artículos MEDLINE indexados están revisados por pares, pero esto no se filtra con [pt]."
+          },
+          "guideline": "PRISMA 2020 (Page MJ, BMJ 2021): La búsqueda bibliográfica exhaustiva debe incluir: bases de datos (PubMed, Embase, CENTRAL), términos MeSH y de texto libre, rango de fechas, filtro de idioma, filtro de tipo de publicación; las cadenas de búsqueda completas deben documentarse en el material suplementario para su reproducibilidad.",
+          "trial": "Ensayo SUSPEND (Pickard R, NEJM 2015): La revisión sistemática que informó el diseño del ensayo SUSPEND utilizó búsquedas en PubMed que combinaban términos MeSH para cálculos ureterales, alfabloqueantes y tipo de publicación[pt]=ECA para identificar los ECA previos, demostrando el enfoque estándar de búsqueda en PubMed para una revisión sistemática urológica.",
+          "pearl": "[pt] en PubMed = filtro de tipo de publicación. [pt] = «Randomized Controlled Trial» restringe a los ECA indexados por la NLM. Usar con términos MeSH para una búsqueda eficiente de revisión sistemática. Complementar con términos de texto libre (random*, placebo*) para ensayos aún no indexados como ECA."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q13",
+        "stem": "Un urólogo planea implementar un nuevo protocolo de recuperación intensificada tras cirugía (ERAS) para la cistectomía radical. Realiza una revisión rápida de la evidencia y encuentra: 2 revisiones sistemáticas (calidad AMSTAR-2 moderada), 5 estudios de cohorte observacionales (GRADE: certeza muy baja a baja) y ningún ECA. ¿Cómo debe clasificarse la certeza global de la evidencia y qué fuerza de recomendación puede derivarse?",
+        "options": {
+          "A": "Alta certeza: las revisiones sistemáticas confieren automáticamente evidencia de alta certeza",
+          "B": "Certeza baja a muy baja: evidencia observacional para una intervención de proceso asistencial; implementación apoyada como recomendación condicional/débil basada en el balance beneficio-daño y el consenso de expertos",
+          "C": "Certeza moderada: las dos revisiones sistemáticas elevan la evidencia por encima del nivel observacional",
+          "D": "La evidencia es insuficiente y el protocolo ERAS no debe implementarse hasta que se publique un ECA"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Las revisiones sistemáticas de estudios observacionales heredan las limitaciones de certeza de los estudios incluidos: sintetizan la evidencia observacional pero no la elevan a la certeza de los ECA. GRADE califica los estudios observacionales como de baja certeza por defecto (degradados adicionalmente por riesgo de sesgo, inconsistencia, indirección, imprecisión y sesgo de publicación). El ERAS para cistectomía no tiene evidencia de ECA, pero tiene una señal observacional sólida, consenso de expertos, plausibilidad biológica y un perfil favorable de beneficio-daño. La recomendación GRADE apropiada es condicional/débil: «Sugerimos implementar protocolos ERAS para la cistectomía radical», basada en evidencia de baja certeza pero con un balance favorable de beneficio-daño.",
+          "wrong": {
+            "A": "Las revisiones sistemáticas de estudios observacionales no confieren alta certeza. La certeza GRADE refleja la base de evidencia: si todos los estudios incluidos son observacionales, la revisión sistemática sigue siendo evidencia de baja certeza.",
+            "C": "Las revisiones sistemáticas sintetizan la evidencia incluida: no elevan la certeza por encima de lo que aportan los estudios incluidos. Dos revisiones sistemáticas de datos observacionales = baja certeza, no moderada.",
+            "D": "Esperar un ECA antes de implementar una intervención con evidencia observacional, plausibilidad biológica y bajo riesgo de daño no es el enfoque estándar. GRADE permite recomendaciones condicionales basadas en evidencia de baja certeza cuando el balance beneficio-daño es favorable y un ECA sería difícil de realizar."
+          },
+          "guideline": "Guías EAU sobre Cuidados Perioperatorios en Cistectomía Radical (2024): Protocolo ERAS: recomendado basándose en evidencia observacional y consenso de expertos; recomendación condicional/Grado C; esperar evidencia de nivel ECA retrasaría injustificadamente la adopción de una intervención de bajo riesgo con plausibilidad biológica.",
+          "trial": "Cerantola Y et al. (BJU Int 2013): Primera revisión sistemática del ERAS para cistectomía radical: evidencia observacional de baja a moderada calidad que muestra reducción de la estancia hospitalaria y la tasa de complicaciones; identificada como la mejor evidencia disponible que apoya la recomendación condicional de la EAU para el ERAS en ausencia de ECA.",
+          "pearl": "Revisiones sistemáticas de estudios observacionales = certeza observacional (baja/muy baja). Revisiones sistemáticas de ECA = certeza de ECA (moderada/alta si son de buena calidad). La certeza GRADE la determina la evidencia incluida, no el tipo de revisión. La evidencia de baja certeza puede aun así apoyar una recomendación condicional cuando el balance beneficio-daño es favorable."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G3-Q14",
+        "stem": "En el contexto del desarrollo de las guías EAU, ¿qué distingue una recomendación «GRADE Fuerte» de una «GRADE Débil», basándose en el ejemplo del cribado con PSA en hombres de riesgo promedio de cáncer de próstata?",
+        "options": {
+          "A": "Las recomendaciones Fuertes se aplican a pacientes con PSA elevado; las débiles a pacientes con PSA bajo",
+          "B": "El cribado con PSA recibe una recomendación Débil porque el balance entre beneficios (detección precoz del CaP) y daños (sobrediagnóstico, sobretratamiento, ansiedad) es incierto y varía significativamente según los valores del paciente",
+          "C": "Las recomendaciones Fuertes se basan en ensayos aleatorizados; el cribado con PSA se basa solo en datos observacionales, de ahí que sea Débil",
+          "D": "Las recomendaciones Débiles indican que la evidencia es de baja calidad y no debe implementarse"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La recomendación GRADE Débil (Condicional) para el cribado con PSA refleja que: (1) el balance entre beneficios (reducción de la mortalidad por CaP, detectada por el ensayo ERSPC) y daños (sobrediagnóstico, sobretratamiento, complicaciones de la biopsia, ansiedad por el PSA) es genuinamente incierto: el ensayo PLCO no mostró beneficio en mortalidad mientras que el ERSPC mostró un beneficio modesto; (2) los valores del paciente varían significativamente (algunos valoran mucho la detección precoz; otros priorizan evitar el sobrediagnóstico y el sobretratamiento); (3) la frecuencia de cribado óptima, la edad de inicio y la edad de finalización son inciertas. Cuando existe incertidumbre genuina sobre el balance beneficio-daño Y variabilidad significativa en los valores del paciente, la recomendación GRADE es Débil/Condicional, requiriendo explícitamente la toma de decisiones compartida.",
+          "wrong": {
+            "A": "La fuerza de la recomendación GRADE no está determinada por el nivel de PSA: se basa en el balance global beneficio-daño y la calidad de la evidencia para la población.",
+            "C": "Las recomendaciones Débiles pueden basarse en cualquier nivel de evidencia, incluida la evidencia de ECA (tanto PLCO como ERSPC son ECA). La fuerza GRADE está determinada por el balance beneficio-daño y las consideraciones sobre los valores del paciente, no exclusivamente por el nivel de evidencia.",
+            "D": "Una recomendación Débil NO significa que la evidencia sea deficiente ni que la intervención no deba implementarse: significa que la decisión debe individualizarse según los valores del paciente. Una recomendación Débil requiere TDC, no inacción."
+          },
+          "guideline": "Guías EAU sobre Detección Precoz del Cáncer de Próstata (2024): El cribado basado en PSA se debate mediante TDC: recomendación Débil (condicional) porque el balance beneficio-daño varía según los valores del paciente; evidencia del ERSPC (RR de muerte por CaP 0,80 a los 13 años) y del PLCO (sin beneficio en mortalidad) proporciona señales contradictorias que requieren un debate individualizado.",
+          "trial": "ERSPC (Schröder FH, NEJM 2009 + actualización 2014): ECA de cribado con PSA que muestra una reducción del 21% en la mortalidad por CaP a los 13 años, NNT para prevenir 1 muerte = 27 cribados durante 13 años; PLCO (Andriole GL, NEJM 2009): sin beneficio en mortalidad en el entorno estadounidense. La evidencia contradictoria de dos grandes ECA es la razón principal de la recomendación GRADE Débil.",
+          "pearl": "Recomendación GRADE Débil (Condicional) = incertidumbre genuina sobre el balance beneficio-daño O variabilidad significativa en los valores del paciente = se requiere TDC. Cribado con PSA = Débil porque ERSPC frente a PLCO muestran beneficios de mortalidad contradictorios y los daños por sobrediagnóstico/sobretratamiento son significativos. Fuerte ≠ «siempre hacerlo»; Débil ≠ «no hacerlo»: significa «debatirlo con cada paciente»."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q15",
+        "stem": "Un urólogo lee un estudio retrospectivo que informa que un nuevo biomarcador sérico (ProMarker) predice la recidiva bioquímica tras la prostatectomía radical con un AUC de 0,82 (IC 95% 0,74–0,90). El estudio incluyó a 250 pacientes de una sola institución. ¿Cuáles son las limitaciones clave que impiden la implementación clínica inmediata?",
+        "options": {
+          "A": "El AUC <0,90 es insuficiente para el uso clínico; el biomarcador no alcanza el umbral mínimo de rendimiento",
+          "B": "Estudio retrospectivo monocéntrico; sin validación externa en una población diferente; sin umbral de decisión clínica establecido; sin evidencia de utilidad clínica (¿actuar según el biomarcador mejora los resultados de los pacientes?)",
+          "C": "El IC del 95% es demasiado amplio; el resultado es inconcluyente",
+          "D": "Los estudios retrospectivos nunca pueden aportar información sobre el rendimiento de los biomarcadores"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Un biomarcador con AUC de 0,82 en un estudio de derivación/descubrimiento tiene una discriminación razonable, pero se enfrenta a varios obstáculos para la implementación clínica: (1) el estudio retrospectivo monocéntrico es susceptible de sesgo de selección, efectos de lote y confusión local; (2) ninguna validación externa en una cohorte independiente de una institución diferente significa que el sobreajuste es probable: el AUC en una cohorte externa sería típicamente menor; (3) ningún umbral de decisión clínica pre-especificado con datos de calibración; (4) ninguna evidencia de utilidad clínica: incluso un biomarcador bien discriminante puede no mejorar los resultados de los pacientes si las decisiones de tratamiento resultantes no tienen un beneficio incremental sobre la práctica actual. La declaración TRIPOD y GRADE requieren los cuatro criterios antes de la implementación clínica.",
+          "wrong": {
+            "A": "Los umbrales de AUC para el «uso clínico» no están fijados en 0,90: un AUC de 0,82 representa una discriminación «buena». Las limitaciones son metodológicas (monocéntrico, sin validación, sin utilidad clínica), no un umbral de rendimiento.",
+            "C": "El IC del 95% de 0,74–0,90 es razonablemente estrecho y excluye 0,5 (rendimiento aleatorio) por un margen amplio: el resultado no es inconcluyente. El IC indica una buena precisión estadística para el estimador del AUC.",
+            "D": "Los estudios retrospectivos SÍ pueden aportar datos válidos de rendimiento de biomarcadores cuando las biomuestras archivadas se miden de forma enmascarada respecto al resultado, cuando la cohorte está bien definida y cuando el análisis estadístico sigue las guías REMARK. Los estudios retrospectivos son habitualmente el primer paso en la validación de biomarcadores; la limitación es el carácter monocéntrico, no el retrospectivo per se."
+          },
+          "guideline": "Declaración TRIPOD (Collins GS, BMJ 2015): Los modelos de predicción de biomarcadores requieren derivación + validación interna + validación externa en una cohorte independiente antes de la implementación clínica; la evaluación de la utilidad clínica (impacto en los resultados) es un paso adicional requerido más allá de la precisión diagnóstica.",
+          "trial": "Kattan MW et al. (J Urol 2003): Desarrollo del nomograma para el cáncer de próstata: derivación en el Memorial Sloan Kettering seguida de validación externa en múltiples cohortes europeas (puntuaciones de Partin, CAPRA); el AUC en la cohorte de derivación fue mayor que en la validación externa, demostrando la importancia de la validación externa para una evaluación realista del rendimiento.",
+          "pearl": "Pasos de validación del biomarcador antes del uso clínico: (1) derivación (cohorte única), (2) validación interna (validación cruzada/bootstrap), (3) validación externa (centro/población diferentes), (4) ensayo de utilidad clínica (¿actuar según el biomarcador mejora los resultados?). AUC de 0,82 de un único centro retrospectivo = solo paso 1. Aún no implementable."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G3-Q16",
+        "stem": "La guía EAU para la TVNM de riesgo intermedio establece: «Sugerimos ofrecer ya sea inducción con BCG con mantenimiento o instilación de quimioterapia como tratamiento intravesical adyuvante tras la RTUS (Recomendación Débil)». Un paciente con tumores múltiples de riesgo intermedio (3 tumores, todos Ta G2, el mayor de 1,5 cm) pregunta qué tratamiento le recomienda. ¿Cómo debe aplicarse la recomendación Débil?",
+        "options": {
+          "A": "Al ser una recomendación Débil, no debería ofrecerse ni BCG ni quimioterapia hasta que haya evidencia más sólida",
+          "B": "Realizar toma de decisiones compartida: presentar la evidencia (el BCG reduce más la recidiva que la quimioterapia, pero tiene más efectos secundarios), debatir los objetivos terapéuticos del paciente y su tolerancia a los efectos secundarios, y tomar una decisión conjunta e informada",
+          "C": "Debe prescribirse BCG porque es la única indicación del BCG según las guías EAU",
+          "D": "Derivar a oncología para quimioterapia porque el BCG es demasiado complejo para la práctica urológica habitual"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Una recomendación GRADE Débil («Sugerimos») significa: ambas opciones son clínicamente razonables y la decisión debe individualizarse según los valores, preferencias y contexto clínico del paciente. La aplicación clínica apropiada es la TDC: presentar la evidencia (el BCG logra una reducción de la recidiva superior, del ≈30–40% frente al ≈15–20% con MMC, pero tiene efectos secundarios significativamente mayores incluyendo BCGosis, infección sistémica por BCG y síntomas urinarios más frecuentes y graves; la MMC tiene un perfil de efectos secundarios menor y la ventaja del calendario semanal); explorar las prioridades del paciente (minimizar la recidiva frente a minimizar la carga del tratamiento); y llegar a una decisión conjunta. Para tumores múltiples, el BCG es a menudo la opción preferida clínicamente, pero la recomendación deja margen para cualquiera de las dos opciones.",
+          "wrong": {
+            "A": "La recomendación Débil no significa «aplazar hasta tener evidencia más sólida»: significa que ambas opciones son razonables y la decisión debe individualizarse. Tanto el BCG como la quimioterapia intravesical son tratamientos basados en la evidencia disponibles.",
+            "C": "El BCG tiene múltiples indicaciones en las guías EAU (TVNM de riesgo intermedio y alto). La recomendación Débil no restringe el BCG a una única indicación ni lo impone sobre la quimioterapia para la enfermedad de riesgo intermedio.",
+            "D": "La instilación intravesical de BCG es una práctica urológica estándar realizada por enfermería y urólogos, no una indicación de derivación a oncología médica."
+          },
+          "guideline": "Guías EAU sobre TVNM (2024): TVNM de riesgo intermedio: son aceptables tanto la inducción+mantenimiento con BCG como la quimioterapia intravesical (recomendación Débil); TDC que considere la reducción de la recidiva (BCG superior) frente a la tolerabilidad (mejor con MMC); para la TVNM de alto riesgo: el BCG está específicamente recomendado (no la quimioterapia).",
+          "trial": "Malmström PU et al. Metaanálisis EORTC (Eur Urol 2009): BCG frente a quimioterapia intravesical para TVNM: RR del BCG 0,68 para la recidiva (superior), pero más efectos secundarios; sin diferencia en SG; ambos tratamientos recomendados para el riesgo intermedio con recomendación Débil que reconoce la equipoise clínica genuina.",
+          "pearl": "Recomendación GRADE Débil = se requiere TDC. Ambas opciones están basadas en la evidencia. Presentar la evidencia comparando resultados (tasas de recidiva, efectos secundarios), identificar las prioridades del paciente, llegar a una decisión conjunta. NO interpretar Débil como «ninguna de las dos» ni «aplazar»: significa «individualizar»."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q17",
+        "stem": "Un ECA bien diseñado de ureteroscopio flexible de un solo uso (URS-SU) frente a reutilizable (URS-R) para cálculos renales de 10–20 mm en 300 pacientes muestra tasas libres de cálculo (TLC) equivalentes a los 3 meses (78% URS-SU frente a 76% URS-R, p=0,67). La guía EAU establece: «Sugerimos usar ya sea ureteroscopios flexibles reutilizables o de un solo uso, señalando que los dispositivos de un solo uso tienen mayor coste por procedimiento pero pueden reducir el riesgo de contaminación cruzada (Recomendación Débil)». ¿Qué dominio GRADE contribuyó más probablemente a la recomendación Débil a pesar de un ECA?",
+        "options": {
+          "A": "Imprecisión: el IC para la diferencia en TLC incluye diferencias clínicamente importantes",
+          "B": "Inconsistencia: el resultado del ECA contradice datos observacionales previos",
+          "C": "Valores y preferencias: los pacientes y los clínicos pueden diferir genuinamente en la relevancia de la conveniencia, el coste y el impacto ambiental frente a las diferencias marginales en los resultados clínicos",
+          "D": "Sesgo de publicación: los ensayos pequeños favorecen al URS-SU"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Incluso cuando los resultados clínicos (TLC) son equivalentes, la fuerza de la recomendación GRADE depende de cuatro factores: certeza de la evidencia, balance de efectos, valores del paciente y uso de recursos. Para URS-SU frente a URS-R: la eficacia clínica es equivalente (alta certeza a partir del ECA). Sin embargo: el uso de recursos (el URS-SU cuesta más por procedimiento), los valores y preferencias (algunos sistemas sanitarios priorizan el control de infecciones; otros la contención de costes; el impacto ambiental de los dispositivos de un solo uso es un debate creciente) y los factores institucionales difieren genuinamente. Cuando estas consideraciones varían significativamente entre contextos y pacientes, una recomendación Débil/Condicional refleja con precisión que la elección depende del contexto local.",
+          "wrong": {
+            "A": "La imprecisión requeriría que el IC para la diferencia en TLC abarque umbrales de beneficio y daño clínicamente importantes. Con TLC del 78% frente al 76%, la diferencia es pequeña y el IC sería estrecho: la imprecisión no es la principal preocupación GRADE aquí.",
+            "B": "La inconsistencia se aplica en múltiples estudios en un metaanálisis. Un único ECA no se evalúa por inconsistencia (solo hay un resultado).",
+            "D": "El sesgo de publicación afecta a los metaanálisis con múltiples estudios, no a un único ECA grande. La evaluación del sesgo de publicación no es aplicable a un único ensayo primario."
+          },
+          "guideline": "Marco GRADE (Guyatt G, BMJ 2008): La fuerza de la recomendación depende de: (1) certeza de la evidencia, (2) balance de efectos deseables frente a indeseables, (3) valores y preferencias del paciente, (4) uso de recursos. La variación en el uso de recursos, las preferencias del paciente o los factores específicos del contexto justifica una recomendación Débil incluso con evidencia de alta certeza de equivalencia clínica.",
+          "trial": "Hennessey DB et al. (BJU Int 2018): ECA de URS flexible de un solo uso frente a reutilizable: TLC equivalente con mayor coste por procedimiento para el de un solo uso; la recomendación Débil de la guía EAU refleja la controversia genuina sobre el balance coste-control de infecciones entre los distintos sistemas sanitarios.",
+          "pearl": "La recomendación GRADE Débil a pesar de la evidencia de alta certeza se produce cuando: el uso de recursos, los valores del paciente o el contexto varían significativamente entre entornos. URS-SU frente a URS-R = TLC equivalente (alta certeza) pero diferentes implicaciones de coste, medioambientales y de control de infecciones entre sistemas sanitarios → recomendación Débil apropiada."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G3-Q18",
+        "stem": "Una lectura crítica de un metaanálisis de quimioterapia neoadyuvante basada en cisplatino frente a carboplatino para CAMI revela: 6 ECA incluidos, HR agrupado para SG = 0,78 (IC 95% 0,65–0,94) a favor del cisplatino, I² = 72%, test de Egger p=0,04. ¿Cuáles son las implicaciones de estos hallazgos para la certeza del estimador agrupado de SG?",
+        "options": {
+          "A": "Alta certeza: 6 ECA proporcionan evidencia suficiente; el HR es significativo",
+          "B": "Certeza moderada: degradada por alta heterogeneidad (I²=72%) y posible sesgo de publicación (test de Egger p=0,04)",
+          "C": "Certeza baja: tanto la heterogeneidad como el sesgo de publicación son debilidades críticas GRADE que requieren degradación de 2 niveles",
+          "D": "El metaanálisis es inválido debido a I² >50% y no debería publicarse"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Partiendo de alta certeza (6 ECA), se aplican las degradaciones GRADE: (1) Inconsistencia: I² = 72% indica heterogeneidad sustancial entre ensayos: variación inexplicada en los estimadores de efecto entre estudios. Esto justifica una degradación GRADE de 1 nivel (hasta moderada). (2) Sesgo de publicación: test de Egger p=0,04 sugiere asimetría significativa del gráfico de embudo, indicando un posible sesgo de publicación: potencial degradación adicional de 1 nivel. Sin embargo, si solo uno de estos factores se considera suficientemente importante, la degradación neta puede ser de 1 nivel (hasta moderada) en lugar de 2 (hasta baja). La interpretación correcta es como mínimo certeza moderada, con la advertencia de que tanto la heterogeneidad como el sesgo de publicación deben abordarse mediante análisis de subgrupos y análisis de sensibilidad.",
+          "wrong": {
+            "A": "La alta certeza requiere la ausencia de limitaciones graves. I²=72% (inconsistencia grave) y test de Egger p=0,04 (posible sesgo de publicación) son factores de degradación GRADE: la alta certeza no es apropiada.",
+            "C": "La degradación GRADE de dos niveles (de alta a baja) requiere limitaciones MUY GRAVES. La inconsistencia grave (no muy grave) y el posible sesgo de publicación producen típicamente una degradación de 1 nivel cada una, lo que potencialmente lleva a baja certeza, pero moderada es el nivel más comúnmente asignado en este escenario.",
+            "D": "Los metaanálisis con I² > 50% son publicables e informativos: la heterogeneidad debe explorarse y discutirse, no utilizarse como motivo de rechazo. El análisis de subgrupos y la metarregresión se usan para abordar las fuentes de heterogeneidad."
+          },
+          "guideline": "Marco GRADE: Degradación por inconsistencia: I² >50% = inconsistencia grave = degradar 1 nivel; I² >75% = muy grave = degradar 2 niveles. Degradación por sesgo de publicación: efectos de estudios pequeños o test de Egger significativo = degradar 1 nivel. Aplicar la degradación de forma conservadora si la fuente es incierta.",
+          "trial": "Yin M et al. (Eur Urol 2016): Metaanálisis de regímenes neoadyuvantes basados en cisplatino frente a carboplatino para CAMI: heterogeneidad sustancial (I²=65%) entre ensayos que incluían diferentes regímenes basados en cisplatino (MVAC frente a GC) que explicaban parte de la variación; el consenso de expertos valoró la certeza global como moderada tras tener en cuenta la inconsistencia.",
+          "pearl": "Niveles de degradación GRADE: los ECA parten de ALTA. Las limitaciones graves degradan 1 nivel; las muy graves degradan 2 niveles. Inconsistencia grave (I² 50–75%) = −1; muy grave (I²>75%) = −2. Posible sesgo de publicación = −1. Partiendo de alta, con inconsistencia grave (−1) + posible sesgo de publicación (−1) → certeza BAJA. O moderada si solo uno se juzga grave."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G3-Q19",
+        "stem": "El diagrama de flujo PRISMA 2020 de una revisión sistemática de tratamiento quirúrgico frente a médico de la HPB muestra: identificados = 4.312 registros; cribados = 4.312; excluidos tras título/resumen = 4.190; evaluados a texto completo = 122; excluidos con razones = 97; incluidos = 25. ¿Cuál es el requisito PRISMA más importante para el grupo «excluidos con razones = 97»?",
+        "options": {
+          "A": "No se requiere informar las razones de exclusión; solo se necesita el número",
+          "B": "Los 97 estudios excluidos deben tener sus razones individuales documentadas y listadas en el material suplementario",
+          "C": "Las principales categorías de razones de exclusión (p. ej., población incorrecta, intervención incorrecta, no es un ECA) deben informarse con los números para cada categoría",
+          "D": "Los estudios excluidos deben incluirse en un análisis de sensibilidad"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El Ítem 17 de PRISMA 2020 requiere que las razones de exclusión de los informes a texto completo potencialmente elegibles se informen, categorizadas por criterio de exclusión, con el número de estudios excluidos por cada razón. Esto no suele requerir listar individualmente los 97 artículos (ese nivel de detalle suele estar en el material suplementario o disponible de los autores de la revisión), pero las principales categorías (población incorrecta, comparador incorrecto, no ECA, resultado incorrecto, duplicado, etc.) con sus respectivos números deben aparecer en el diagrama de flujo o en el texto que lo acompaña. Esto permite a los lectores evaluar si la exclusión sistemática puede haber sesgado los estudios incluidos.",
+          "wrong": {
+            "A": "PRISMA 2020 SÍ requiere informar las razones de exclusión en la etapa de texto completo, no solo los números. Proporcionar solo números sin razones es una deficiencia en el informe PRISMA.",
+            "B": "No se requiere estrictamente listar individualmente los 97 estudios con razones en el artículo principal: habitualmente se proporciona en material suplementario o apéndice. El diagrama de flujo debe mostrar los números por categoría de exclusión.",
+            "D": "Los análisis de sensibilidad evalúan la robustez del estimador agrupado ante las principales elecciones metodológicas. Los estudios excluidos no se incluyen en los análisis de sensibilidad: se excluyeron porque no cumplían los criterios de elegibilidad."
+          },
+          "guideline": "PRISMA 2020 (Page MJ, BMJ 2021): Ítem 16: informar el número de registros en cada etapa de la selección; Ítem 17: informar las razones de exclusión de la evaluación a texto completo, categorizadas por criterio de exclusión; el diagrama de flujo PRISMA debe mostrar estos números.",
+          "trial": "Freemantle N et al. (BMJ 2011): Ilustración de buenas prácticas en revisiones sistemáticas: diagrama de flujo PRISMA que muestra 93 exclusiones a texto completo categorizadas como: comparador incorrecto (31), población incorrecta (24), revisión/editorial (18), duplicado (12), resultado incorrecto (8), un modelo de cómo deben informarse las categorías de exclusión.",
+          "pearl": "El diagrama de flujo PRISMA debe mostrar las razones de exclusión en la etapa de texto completo, categorizadas con los números por categoría. El diagrama sigue: identificados → cribados → evaluados a texto completo → incluidos. Las razones de exclusión son obligatorias en la etapa de texto completo (no en el cribado de título/resumen). Esto permite evaluar el posible sesgo sistemático de exclusión."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q20",
+        "stem": "Una residente de investigación está escribiendo el protocolo de una revisión sistemática de las complicaciones perioperatorias tras nefrectomía radical abierta frente a mínimamente invasiva. Lo registra en PROSPERO. Un colega pregunta: «¿Por qué registrar el protocolo antes de iniciar la revisión?» ¿Cuál es el propósito principal del registro en PROSPERO?",
+        "options": {
+          "A": "El registro en PROSPERO genera un identificador único requerido por todas las revistas para la publicación de revisiones sistemáticas",
+          "B": "El pre-registro establece las hipótesis, estrategias de búsqueda y resultados pre-especificados antes de la extracción de datos, evitando cambios post-hoc que inflarían el error de tipo I y el sesgo en el informe de resultados",
+          "C": "El registro en PROSPERO garantiza la revisión por pares y la aceptación en una revista",
+          "D": "El registro es requerido por los comités de ética antes de realizar cualquier revisión sistemática"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PROSPERO (Registro Internacional Prospectivo de Revisiones Sistemáticas) documenta el protocolo pre-especificado (pregunta PICO, estrategia de búsqueda, resultados primarios, métodos de análisis) antes de que comience la revisión. Esto evita: (1) el cambio de outcome (cambiar el resultado primario tras ver los resultados); (2) el informe selectivo (publicar solo los resultados que muestran efectos significativos); (3) las revisiones duplicadas (la transparencia sobre las revisiones en curso reduce el despilfarro de investigación). El pre-registro es el equivalente en revisiones sistemáticas al registro de ensayos clínicos, aplicando el mismo principio de pre-especificación para evitar decisiones post-hoc que inflan el error de tipo I y el sesgo de publicación. AMSTAR-2 califica la ausencia de registro como una debilidad crítica.",
+          "wrong": {
+            "A": "El registro en PROSPERO genera un número de registro (CRD_______) que debe citarse en la revisión publicada, pero no es universalmente «obligatorio» por todas las revistas: es cada vez más esperado pero aún no universalmente exigido.",
+            "C": "El registro en PROSPERO no garantiza la revisión por pares ni la aceptación: es un mecanismo de transparencia, no una garantía de publicación.",
+            "D": "Las revisiones sistemáticas de literatura publicada normalmente no requieren aprobación del comité de ética (no implican la recogida de datos primarios de pacientes). Algunas jurisdicciones pueden requerir registro para revisiones sistemáticas que involucren datos identificables de pacientes, pero el registro en PROSPERO es para transparencia, no para aprobación ética."
+          },
+          "guideline": "PRISMA 2020 (Page MJ, BMJ 2021): Ítem 2: informar el número de registro de PROSPERO y la fecha; AMSTAR-2 Ítem 2 (crítico): ¿se registró la revisión en un registro prospectivo de revisiones? La ausencia de registro = debilidad crítica; el pre-registro evita el cambio de outcome y el sesgo de informe selectivo en las revisiones sistemáticas.",
+          "trial": "Higgins JPT et al. (Manual Cochrane 2022): El pre-registro de protocolos de revisión sistemática es obligatorio para las Revisiones Cochrane; la pre-especificación evita las decisiones de análisis post-hoc que inflan las tasas de falsos positivos, el mismo principio que el registro de ensayos para los ECA.",
+          "pearl": "Registro en PROSPERO = equivalente en revisiones sistemáticas al registro de ensayos clínicos. Documenta el PICO, la estrategia de búsqueda y los resultados ANTES de la extracción de datos. Evita el cambio de outcome, el informe selectivo y las revisiones duplicadas. AMSTAR-2 califica la ausencia de registro como una debilidad CRÍTICA. Registrar en PROSPERO (NIHR, York) antes de iniciar la revisión."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

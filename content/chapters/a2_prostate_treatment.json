@@ -1,0 +1,629 @@
+{
+  "id": "A2",
+  "title": "Prostate Cancer — Radical Prostatectomy and Radiation Therapy",
+  "subtitle": "Uro-Oncology — Surgical technique, EBRT, brachytherapy, ADT combinations, active surveillance",
+  "block": "A",
+  "block_name": "Uro-Oncology",
+  "level": "R2-4",
+  "reading_time_min": 48,
+  "guidelines_version": "EAU Guidelines on Prostate Cancer 2024 · NCCN Prostate Cancer v2.2024 · ASTRO/AUA Guideline on External Beam RT 2022",
+  "textbook_refs": [
+    "EAU Guidelines on Prostate Cancer 2024 (Mottet N et al.)",
+    "Campbell-Walsh-Wein Urology, 12th ed. (2021)",
+    "NCCN Clinical Practice Guidelines: Prostate Cancer v2.2024",
+    "Hamdy FC et al. 15-Year Outcomes: PROTECT trial. NEJM Evidence 2023"
+  ],
+  "learning_objectives": [
+    "Describe the anatomical landmarks critical to nerve-sparing radical prostatectomy and continence preservation",
+    "Compare oncological and functional outcomes of open, laparoscopic, and robotic-assisted radical prostatectomy",
+    "Explain the principles of external beam radiotherapy (EBRT) dose escalation and hypofractionation in localised prostate cancer",
+    "Identify the indications and contraindications for brachytherapy (LDR and HDR) in prostate cancer",
+    "Describe the mechanisms and side-effect profiles of androgen deprivation therapy (ADT) and combination intensification regimens",
+    "Outline active surveillance protocols, eligibility criteria, and triggers for reclassification according to EAU 2024"
+  ],
+  "sections": [
+    {
+      "id": "A2-S1",
+      "title": "Active Surveillance — Protocol and Patient Selection",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Active surveillance (AS)** is the preferred management strategy for low-risk prostate cancer (GG1) and is an option in carefully selected intermediate-favourable risk patients (GG2, no adverse features). The intent is to defer radical treatment until there is evidence of disease reclassification, thereby avoiding the side effects of overtreatment (erectile dysfunction, urinary incontinence, bowel toxicity) in men with indolent disease.\n\nThe landmark **ProtecT trial** (15-year update, Hamdy et al., NEJM Evidence 2023) confirmed that prostate cancer-specific mortality remained equivalent across active monitoring, surgery, and radiotherapy at 15 years (~3%), though active monitoring was associated with higher rates of metastatic disease (9.4% vs 4.7% for surgery). This reinforces that patient selection for AS is critical, and that men with adverse pathological features or higher-risk biology should not remain on AS.\n\nEAU 2024 AS eligibility: **Mandatory criteria** — cT1-2, GG1 (or very carefully selected GG2 without adverse features), PSA <10 ng/mL (EAU Low Risk) or PSA 10-20 with GG2 (Intermediate Favourable if no adverse features), life expectancy <10 years for any GG. **Exclusion criteria** — GG ≥3, IDC-P, cribriform Gleason 4, PSA density >0.15 ng/mL/cc (relative), BRCA2 mutation (relative).\n\n**AS monitoring protocol (EAU 2024)**: PSA every 3-6 months for 2 years, then every 6-12 months. DRE annually. Repeat MRI at 1-2 years. Confirmatory biopsy within 6-12 months of enrolment if baseline biopsy was not MRI-targeted; subsequent biopsies at 3-5 years or triggered by PSA/MRI changes. **Reclassification triggers** requiring definitive treatment: upgrade to GG ≥2 with cribriform/IDC-P, PSA doubling time <3 years, new PI-RADS 4-5 lesion, patient preference."
+        },
+        {
+          "type": "table",
+          "title": "Active Surveillance — EAU 2024 Eligibility and Monitoring",
+          "headers": ["Parameter", "Eligibility criteria", "Monitoring frequency", "Reclassification trigger"],
+          "rows": [
+            ["PSA", "<10 ng/mL", "Every 3-6 months (yr 1-2), then 6-12 monthly", "PSA DT <3 years"],
+            ["Grade Group", "GG1 (GG2 very selected)", "Biopsy at 12 months, then 3-5 yearly", "Upgrade to GG ≥3 or GG2 + IDC-P/cribriform"],
+            ["cT stage", "cT1-2", "DRE annually", "New cT3 on DRE"],
+            ["MRI", "Baseline mpMRI before enrolment", "Repeat MRI at 1-2 years", "New or enlarging PI-RADS 4-5 lesion"],
+            ["PSAD", "<0.15 preferred", "Included in PSA assessment", ">0.15 is relative contraindication to enrolment"],
+            ["Genomics", "Optional (Oncotype GPS, Prolaris, Decipher)", "Baseline only", "Adverse genomic score → consider treatment"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Active Surveillance vs Watchful Waiting",
+          "content": "Active surveillance (AS) aims for curative intervention if disease reclassifies — it is NOT the same as watchful waiting (WW). WW is palliative intent for men not fit for curative treatment. AS requires structured monitoring protocols and timely triggers for treatment. Confusing the two on exams or in clinical practice leads to inappropriate management."
+        }
+      ]
+    },
+    {
+      "id": "A2-S2",
+      "title": "Radical Prostatectomy — Technique and Oncological Outcomes",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Radical prostatectomy (RP)** is the definitive surgical treatment for localised prostate cancer. The procedure removes the entire prostate, seminal vesicles, and a cuff of bladder neck, with anastomosis of the bladder neck to the urethra. Three approaches exist: **open retropubic RP (ORP)**, **laparoscopic RP (LRP)**, and **robot-assisted laparoscopic RP (RALP)**. RALP has become dominant worldwide (>80% of RPs in the USA) due to superior visualisation, dexterity of the robotic instruments, and reduced blood loss, though no randomised trial has demonstrated oncological superiority over open RP.\n\nThe **nerve-sparing technique** aims to preserve the neurovascular bundles (NVB) running posterolaterally to the prostate in the fascial planes described by Walsh and Donker (1982). Full nerve-sparing (bilateral NVB preservation) preserves erectile function in 40-80% of pre-operatively potent men at 12-24 months. **Partial nerve-sparing** or **non-nerve-sparing (wide excision)** is performed when tumour threatens the NVB (cT3a, PI-RADS 5 at apex or posterolateral gland). The surgeon must balance positive surgical margin risk against NVB preservation.\n\n**Continence recovery** depends primarily on preservation of the external urethral sphincter, the Denonvilliers fascia, and the puboprostatic ligaments (Retzius-sparing approach preserves the latter). Early continence (1 week) is achieved in 50-70% with Retzius-sparing approaches. At 12 months, 85-90% of men achieve continence (0-1 pad/day) after RALP in high-volume centres.\n\n**Oncological outcomes**: positive surgical margin (PSM) rate is the key quality metric. PSM rates by risk: pT2 ~10-15% (EAU benchmark <10% for pT2); pT3a ~30-40%; pT3b ~50-60%. PSM increases BCR risk but does not necessarily indicate residual disease if PSA becomes undetectable. Biochemical recurrence (BCR) is defined as PSA ≥0.2 ng/mL on two consecutive measurements after RP. BCR occurs in approximately 20-40% of all RP patients within 10 years."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Robot-Assisted vs Open Radical Prostatectomy",
+          "content": "The LoRCA trial (Yaxley JW et al., Lancet 2016) found equivalent 24-month oncological outcomes and urinary function between RALP and ORP, with RALP showing faster recovery of continence. RALP is the standard of care in high-volume centres. The key advantage is technical (visualisation, tremor filtration, articulated instruments) — surgeons should complete structured training pathways (EAU guidelines recommend ≥250 supervised RALP cases) before independent practice."
+        }
+      ]
+    },
+    {
+      "id": "A2-S3",
+      "title": "External Beam Radiotherapy — Dose Escalation and Hypofractionation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**External beam radiotherapy (EBRT)** is an equivalent alternative to RP for localised prostate cancer in most risk categories. Intensity-modulated radiotherapy (IMRT) with image guidance (IGRT) is the current standard, allowing dose escalation while sparing surrounding organs (rectum, bladder, bowel, femoral heads).\n\n**Dose escalation**: Multiple randomised trials (MRC RT01, Dutch CKVO, MD Anderson, Fox Chase) demonstrated that dose escalation from 64-70 Gy to 74-80 Gy in conventional fractionation (1.8-2.0 Gy/fraction) improved biochemical disease-free survival by 10-20% without a OS benefit in low/intermediate risk, but with acceptable toxicity when IMRT is used. EAU 2024 recommends at least 74-78 Gy with IMRT/IGRT for low- to intermediate-risk disease.\n\n**Moderate hypofractionation** (2.4-3.4 Gy/fraction, 60 Gy in 20 fractions or 70 Gy in 28 fractions) has been validated as non-inferior in multiple large RCTs: **CHHiP trial** (Dearnaley et al., Lancet Oncol 2016): 3,216 patients — 60 Gy/20 fractions non-inferior to 74 Gy/37 fractions for 5-year failure-free survival (88.3% vs 90.6%, met non-inferiority). **PROFIT trial** (Catton et al., JCO 2017): 60 Gy/20 fractions non-inferior. Moderate hypofractionation is now the standard RT schedule for localised prostate cancer per EAU 2024.\n\n**Ultra-hypofractionation** (stereotactic body RT, SBRT: 35-40 Gy in 4-5 fractions) exploits the low alpha/beta ratio of prostate cancer (1.4-1.5 Gy). **PACE-B trial** (Brand DH et al., Lancet Oncol 2019): 5-year failure-free survival 95.8% vs 94.6% for SBRT vs moderate hypofractionation (non-inferior). SBRT is now recommended by EAU 2024 as an option for low- and intermediate-risk localised prostate cancer."
+        },
+        {
+          "type": "table",
+          "title": "EBRT Regimens for Prostate Cancer — Comparison",
+          "headers": ["Regimen", "Dose/fractions", "Duration", "Evidence", "EAU 2024 status"],
+          "rows": [
+            ["Conventional", "74-78 Gy / 37-39 fx", "7-8 weeks", "Multiple RCTs", "Acceptable but not preferred"],
+            ["Moderate hypofractionation", "60 Gy / 20 fx", "4 weeks", "CHHiP, PROFIT (Lancet Oncol 2016)", "Recommended standard"],
+            ["Moderate hypofractionation", "70 Gy / 28 fx", "5.5 weeks", "CHHiP arm", "Equivalent option"],
+            ["Ultra-hypofractionation (SBRT)", "36.25 Gy / 5 fx", "1-2 weeks", "PACE-B (Lancet Oncol 2019)", "Recommended option L/I risk"],
+            ["Single fraction SBRT", "24 Gy / 1 fx", "1 day", "Phase II only", "Not standard"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A2-S4",
+      "title": "Brachytherapy — LDR and HDR",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Prostate brachytherapy** delivers radiotherapy from within or adjacent to the prostate, allowing very high doses to the target with rapid dose fall-off. Two techniques are used:\n\n**Low Dose Rate (LDR) brachytherapy** (seed implantation): Permanently implanted radioactive seeds (most commonly Iodine-125 or Palladium-103) are placed transperineally under TRUS/fluoroscopic guidance in a single outpatient procedure. Prescription dose: I-125 at 145 Gy (monotherapy) or 110 Gy (boost). Excellent 10-year PSA relapse-free survival in low-risk disease (90-95%). RTOG 0232 trial confirmed LDR brachytherapy monotherapy equivalent to combination EBRT + LDR boost for intermediate-risk disease. Contraindications: large prostate (>60 mL), prior TURP (poor seed retention, incontinence risk), significant pubic arch interference, active inflammatory bowel disease.\n\n**High Dose Rate (HDR) brachytherapy**: Temporary catheter implants deliver high-dose fractions over 1-3 sessions using Iridium-192. HDR is most commonly used as a **boost** (combined with EBRT) for high-risk localised and locally advanced prostate cancer (EAU recommendation). HDR monotherapy (4 fractions of 9.5 Gy or 2 fractions of 13.5 Gy) has been studied in low/intermediate risk with excellent PSA control rates but is less widely adopted than LDR.\n\nBrachytherapy side effects include irritative LUTS (frequency, urgency — peak at 3-6 months), erectile dysfunction (~30-50% at 5 years), and rectal toxicity (proctitis in <5% with LDR). The risk of urinary incontinence is low with LDR monotherapy (<1%) but increases significantly if prior TURP was performed."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — LDR Brachytherapy After TURP",
+          "content": "Prior TURP is a relative-to-absolute contraindication for LDR brachytherapy. Postoperative TURP defect allows seeds to migrate and results in poor dosimetric coverage of the target. More critically, the combination of seed implantation and a TURP defect significantly increases the risk of urinary incontinence (rates up to 15-25% in some series). If radical treatment is indicated after TURP, EBRT or RP should be preferred over LDR brachytherapy."
+        }
+      ]
+    },
+    {
+      "id": "A2-S5",
+      "title": "Androgen Deprivation Therapy — Mechanisms and Side Effects",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Androgen deprivation therapy (ADT)** reduces testosterone to castrate levels (<50 ng/dL, with a contemporary threshold of <20 ng/dL for optimal castration) and is the cornerstone of systemic prostate cancer management. ADT is used in combination with radical local treatment (for intermediate-high risk localised disease) and as the backbone of metastatic therapy.\n\nMechanisms of ADT: (1) **GnRH agonists** (leuprorelin, goserelin, triptorelin): initial testosterone surge ('flare') followed by down-regulation of pituitary GnRH receptors and profound testosterone suppression. Flare can be clinically significant in patients with bone metastases (pain flare, spinal cord compression) — prevent with anti-androgen cover (bicalutamide 50 mg daily for 2 weeks before and 2 weeks after first GnRH agonist injection). (2) **GnRH antagonists** (degarelix, relugolix): immediate testosterone suppression without flare; no anti-androgen cover needed; relugolix (oral, daily) superior to leuprorelin for cardiovascular outcomes in the HERO trial (Fizazi et al., NEJM 2020). (3) **Bilateral orchidectomy**: permanent surgical castration; immediate testosterone suppression; highly cost-effective; avoids injection compliance issues.\n\n**Side effects of ADT**: hot flushes (80%), sexual dysfunction/loss of libido (90%), fatigue, metabolic syndrome (insulin resistance, dyslipidaemia, increased cardiovascular risk), bone mineral density loss (2-3%/year — prevent with zoledronic acid or denosumab in long-term ADT), anaemia, cognitive effects, depression. EAU 2024 mandates metabolic monitoring (HbA1c, lipid profile, BMI) and DEXA scan at baseline and every 1-2 years in patients on long-term ADT (≥12 months).\n\n**Duration of ADT with RT**: Short-term ADT (4-6 months) for intermediate-risk; long-term ADT (18-36 months) for high-risk. **DART 01/05 trial** (Zapatero et al., Lancet Oncol 2015): 28 months ADT + EBRT superior to 4 months ADT + EBRT for high-risk disease (OS 74% vs 65% at 5 years, p=0.009)."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — GnRH Agonist Flare Prevention",
+          "content": "GnRH agonists cause an initial testosterone surge (flare) of up to 50% above baseline lasting 3-7 days, due to initial LH/FSH stimulation before receptor down-regulation. In patients with bone metastases, cord compression, or urinary obstruction, this flare can be catastrophic. Prevent with 2 weeks of oral anti-androgen (bicalutamide 50 mg daily) starting 2 weeks BEFORE the first GnRH agonist injection and continuing for 2 weeks after. GnRH antagonists have no flare and are preferred in this setting."
+        }
+      ]
+    },
+    {
+      "id": "A2-S6",
+      "title": "Treatment Intensification — ARPIs, Docetaxel, and Combination Regimens",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The standard of care for newly diagnosed metastatic hormone-sensitive prostate cancer (mHSPC) has evolved from ADT monotherapy to ADT combined with intensification agents, based on multiple practice-changing phase III trials.\n\n**Docetaxel**: The **CHAARTED trial** (Sweeney et al., NEJM 2015) randomised 790 men with mHSPC to ADT alone vs ADT + docetaxel. Median OS improved from 44 to 58 months in the high-volume group (HR 0.65). The **STAMPEDE** trial confirmed the OS benefit. Docetaxel 75 mg/m² IV every 3 weeks × 6 cycles + prednisolone 10 mg/day is the regimen.\n\n**Abiraterone acetate** (inhibits CYP17A1, blocks adrenal and intratumoral androgen synthesis): **LATITUDE trial** (Fizazi et al., NEJM 2017): ADT + abiraterone + prednisone vs ADT alone in high-risk mHSPC — OS improved from 34.7 to 53.3 months. **STAMPEDE abiraterone arm** (James ND, NEJM 2017): Failure-free survival HR 0.29. Abiraterone + ADT is now standard first-line for high-risk mHSPC.\n\n**Enzalutamide** (AR antagonist with superior binding affinity vs bicalutamide): **ENZAMET trial** (Davis ID, NEJM 2019): ADT + enzalutamide vs ADT + standard non-steroidal anti-androgen — OS HR 0.67 at 4 years. **ARCHES trial** (Armstrong AJ, JCO 2019): rPFS improved HR 0.39. **Apalutamide** (similar to enzalutamide): **TITAN trial** (Chi KN, NEJM 2019): OS HR 0.67 in all-comers. **Darolutamide**: **ARASENS trial** (Smith MR, NEJM 2022): ADT + docetaxel + darolutamide vs ADT + docetaxel — OS improved HR 0.68.\n\nEAU 2024 recommends **doublet (ADT + ARPI or ADT + docetaxel)** for all fit patients with newly diagnosed mHSPC, and **triplet (ADT + docetaxel + ARPI)** for high-volume mHSPC based on ARASENS and PEACE-1 trials."
+        },
+        {
+          "type": "table",
+          "title": "Phase III Trials — Intensification in mHSPC (Key Data for Boards)",
+          "headers": ["Trial", "Regimen vs control", "Primary endpoint", "Result (OS HR)", "EAU recommendation"],
+          "rows": [
+            ["CHAARTED (NEJM 2015)", "ADT + docetaxel vs ADT", "OS", "HR 0.72 (high-volume: 0.65)", "Doublet in high-volume"],
+            ["LATITUDE (NEJM 2017)", "ADT + abiraterone vs ADT", "OS + rPFS", "HR 0.62", "Doublet for high-risk mHSPC"],
+            ["ENZAMET (NEJM 2019)", "ADT + enzalutamide vs ADT+NSAA", "OS", "HR 0.67", "Doublet for all mHSPC"],
+            ["TITAN (NEJM 2019)", "ADT + apalutamide vs ADT", "OS + rPFS", "HR 0.67", "Doublet for all mHSPC"],
+            ["ARASENS (NEJM 2022)", "ADT + docetaxel + darolutamide vs ADT + doc", "OS", "HR 0.68", "Triplet for high-volume mHSPC"],
+            ["PEACE-1 (Lancet 2022)", "ADT + docetaxel + abiraterone vs control", "OS + rPFS", "OS HR 0.72 (high-volume)", "Triplet considered high-volume"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A2-S7",
+      "title": "Biochemical Recurrence and Salvage Treatment",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Biochemical recurrence (BCR)** after radical prostatectomy is defined as PSA ≥0.2 ng/mL on two consecutive measurements at least 2 weeks apart after achieving an undetectable PSA nadir. After RT, BCR (Phoenix definition) is defined as PSA rise ≥2 ng/mL above nadir. BCR occurs in 20-40% of RP patients within 10 years, though only 30-40% of BCR patients develop clinical metastases and <5% die of prostate cancer within 15 years.\n\nFor BCR after RP: **PSA doubling time (PSADT)** and **time to BCR** are the strongest prognostic factors for metastasis. PSADT <3 months indicates aggressive biology and high risk of metastasis within 3 years. PSADT >12 months can usually be observed. **PSMA-PET/CT** is now the preferred imaging modality at BCR, detecting disease at PSA as low as 0.2-0.5 ng/mL in 50-80% of patients — far superior to conventional CT + bone scan (which rarely detects disease below PSA 10 ng/mL).\n\n**Salvage external beam RT** (sEBRT) to the prostatic fossa ± pelvic nodes should be offered when PSA ≥0.2 ng/mL after RP. Starting sEBRT at PSA <0.5 ng/mL is associated with better BCR-free survival (5-year ~60-70%) than waiting for higher PSA levels. The **GETUG-AFU 16 trial** (Carrie et al., Lancet Oncol 2016) showed that adding 6 months of GnRH agonist to sEBRT improved 5-year progression-free survival (80% vs 62%, p<0.0001). The **RADICALS-HD trial** (Parker CC, Lancet 2020) confirmed this benefit. EAU 2024 recommends sEBRT + short-term ADT (6 months) for most BCR patients after RP.\n\nFor BCR after RT, management depends on PSA kinetics and restaging findings. Options include salvage RP (high morbidity), salvage brachytherapy, cryotherapy, HIFU, ADT initiation, or active monitoring with deferred ADT."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Salvage RT After RP: When to Start",
+          "content": "The RAVES, GETUG-AFU 17, and RADICALS-RT trials all show that early salvage RT (triggered by PSA rise ≥0.2 ng/mL) is non-inferior to immediate adjuvant RT for pT3 pR1 disease at 5-6 years, while avoiding overtreatment in 60% of patients who never recur. However, once BCR is established, sEBRT should be started while PSA remains <0.5 ng/mL for optimal outcomes. Delay beyond PSA 1.0 ng/mL significantly reduces the probability of durable response."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of prostate cancer treatment with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "A2-Q1",
+        "stem": "A 65-year-old man with GG1 prostate cancer (cT1c, PSA 5.8 ng/mL, 2/12 positive cores, 20% core involvement, PSA density 0.10) is enrolled in active surveillance. At 18-month confirmatory biopsy, targeted biopsy of a new PI-RADS 4 lesion shows GG2 (Gleason 3+4=7, no cribriform, no IDC-P) in 2/3 targeted cores, and systematic biopsy shows GG1 in 1/10 cores. What is the most appropriate action?",
+        "options": {
+          "A": "Continue active surveillance with repeat biopsy in 2 years",
+          "B": "Immediate radical prostatectomy given GG2 upgrade",
+          "C": "Discuss reclassification — GG2 upgrade is a trigger; offer radical treatment but acknowledge intermediate favourable may still be observed in selected cases",
+          "D": "Start ADT and refer for EBRT"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "GG2 upgrade on AS confirmatory biopsy is a reclassification event. EAU 2024 states that GG2 without adverse features may remain on AS in highly selected cases (intermediate favourable risk), but this should be discussed with the patient. Given the upgrade occurred at 18 months and there are no adverse features (no cribriform, no IDC-P), the options are: continue AS with very close monitoring and annual biopsy, or proceed to radical treatment. The decision should be patient-driven and MDT-guided. A reclassification to GG3, or any adverse features, would mandate radical treatment immediately.",
+          "wrong": {
+            "A": "Continuing AS for 2 more years after a GG2 upgrade without further action is inadequate — this is a reclassification event requiring at minimum a definitive discussion and MDT review.",
+            "B": "Immediate RP is one option but not mandated by guidelines for GG2 without adverse features — this oversimplifies the decision.",
+            "D": "ADT + EBRT is a treatment for intermediate-unfavourable or higher-risk disease. This patient has GG2 without adverse features — adding ADT is unnecessary at this stage."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 6.1.1.1 — AS reclassification triggers; GG2 on AS: MDT discussion, radical treatment offered",
+          "trial": "ProtecT trial 15-year update (Hamdy FC et al., NEJM Evidence 2023): Active monitoring associated with higher rate of metastasis at 15 years — emphasises importance of reclassification monitoring.",
+          "pearl": "GG2 upgrade on AS biopsy = reclassification event requiring MDT discussion. GG2 without adverse features may still be observed in selected intermediate favourable patients, but this is a shared decision. GG3 upgrade or any IDC-P/cribriform = mandatory radical treatment."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q2",
+        "stem": "The CHHiP trial compared 74 Gy/37 fractions versus 60 Gy/20 fractions versus 57 Gy/19 fractions for localised prostate cancer. Which of the following best describes the primary finding?",
+        "options": {
+          "A": "60 Gy/20 fractions was superior to 74 Gy/37 fractions for 5-year failure-free survival",
+          "B": "60 Gy/20 fractions was non-inferior to 74 Gy/37 fractions for 5-year failure-free survival",
+          "C": "57 Gy/19 fractions was superior to both conventional and moderate hypofractionation schedules",
+          "D": "All three schedules had equivalent late GI and GU toxicity"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The CHHiP trial (Dearnaley et al., Lancet Oncol 2016) randomised 3,216 men with localised prostate cancer to 74 Gy/37 fractions vs 60 Gy/20 fractions vs 57 Gy/19 fractions. The primary endpoint was 5-year failure-free survival. 60 Gy/20 fractions met the non-inferiority criterion vs 74 Gy/37 fractions (88.3% vs 90.6%, HR 1.18, upper CI 1.38 < pre-specified limit 1.41). 57 Gy/19 fractions did not clearly meet non-inferiority. 60 Gy/20 fractions became the preferred schedule per UK and EAU guidelines.",
+          "wrong": {
+            "A": "Non-inferiority, not superiority, was demonstrated for 60 Gy/20 fractions.",
+            "C": "57 Gy/19 fractions was inconclusive for non-inferiority — it is not a recommended schedule.",
+            "D": "Late GI toxicity was similar but the trial was not specifically powered to show toxicity equivalence."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024 — Moderate hypofractionation (60 Gy/20 fx) recommended as standard RT schedule for localised PCa based on CHHiP",
+          "trial": "CHHiP trial (Dearnaley DP et al., Lancet Oncol 2016; 17:1047-1060): RCT, 3,216 patients. 60 Gy/20 fx non-inferior to 74 Gy/37 fx. Primary endpoint: 5-yr failure-free survival.",
+          "pearl": "CHHiP key result: 60 Gy in 20 fractions (4 weeks) is non-inferior to 74 Gy in 37 fractions (7.5 weeks) and is now the preferred RT schedule for localised prostate cancer. 57 Gy/19 fx was not clearly non-inferior."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A2-Q3",
+        "stem": "A 61-year-old man undergoes robotic radical prostatectomy for cT2c GG3 (4+3=7) disease. Final pathology shows pT3a pN0 pR1 (positive margin at right apex, 1 mm length, GG3). PSA at 8 weeks post-op is undetectable (<0.1 ng/mL). PSA at 4 months post-op is 0.15 ng/mL, and at 6 months post-op is 0.22 ng/mL. What is the most appropriate next step?",
+        "options": {
+          "A": "Commence long-term ADT (2-3 years) and refer for salvage radiotherapy",
+          "B": "PSMA-PET/CT for restaging, then offer salvage EBRT to the prostate fossa ± short-term ADT",
+          "C": "Observe with PSA every 3 months; salvage RT only when PSA >1.0 ng/mL",
+          "D": "Repeat radical prostatectomy given positive surgical margin"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "BCR is confirmed (PSA ≥0.2 ng/mL on two consecutive measurements). PSMA-PET/CT should be performed for restaging as it can detect disease at PSA as low as 0.2-0.5 ng/mL. Salvage EBRT to the prostatic fossa should be initiated early (while PSA <0.5 ng/mL ideally) — delay significantly reduces chance of durable remission. GETUG-AFU 16 and RADICALS-HD trials support adding short-term ADT (6 months GnRH agonist) to sEBRT, improving 5-year PFS by approximately 15-18%.",
+          "wrong": {
+            "A": "Long-term ADT (2-3 years) is indicated for high-risk non-metastatic PCa with EBRT, not for early post-RP BCR with PSA 0.22 ng/mL. Short-term ADT (6 months) combined with sEBRT is the EAU recommendation.",
+            "C": "Waiting until PSA >1.0 ng/mL significantly reduces the efficacy of salvage RT. Outcomes are best when sEBRT is started at PSA <0.5 ng/mL.",
+            "D": "Repeat RP is not performed for positive margins or BCR. The surgical intervention is complete; salvage RT is the appropriate next step."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 6.1.5.2 — BCR after RP: PSMA-PET for staging; sEBRT early (PSA <0.5) + short-term ADT 6 months",
+          "trial": "GETUG-AFU 16 (Carrie C et al., Lancet Oncol 2016): sEBRT + GnRH agonist × 6 months vs sEBRT alone — 5-yr PFS 80% vs 62% (HR 0.50).",
+          "pearl": "Start salvage RT when PSA is detectable but <0.5 ng/mL — outcomes deteriorate with delay. Add 6 months of ADT to salvage RT for all patients (GETUG-AFU 16, RADICALS-HD evidence). PSMA-PET/CT before sEBRT guides field design."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q4",
+        "stem": "In the CHAARTED trial, 'high-volume' metastatic prostate cancer was defined as which of the following?",
+        "options": {
+          "A": "PSA >20 ng/mL or Grade Group ≥4",
+          "B": "≥4 bone metastases with ≥1 beyond the vertebral bodies and pelvis, OR visceral metastases",
+          "C": "≥3 bone metastases regardless of location, or any visceral metastases",
+          "D": "Any distant metastasis with PSA doubling time <6 months"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "CHAARTED defined 'high-volume' metastatic prostate cancer as: ≥4 bone metastases with at least 1 beyond the axial skeleton (beyond vertebral bodies and pelvis) OR the presence of visceral (non-nodal) metastases. In high-volume patients, ADT + docetaxel improved median OS from 32.2 to 49.2 months (HR 0.60). In low-volume patients (1-3 bone metastases, axial only, no visceral), OS benefit was smaller and not statistically significant in the original publication (though STAMPEDE showed benefit across all volumes).",
+          "wrong": {
+            "A": "PSA and Grade Group are not the defining criteria for CHAARTED volume definitions.",
+            "C": "The definition is ≥4 metastases with at least one beyond the axial skeleton. Three metastases alone do not qualify as high-volume.",
+            "D": "PSA doubling time is not part of the CHAARTED volume definition."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 7.1 — CHAARTED high-volume definition; doublet therapy recommended for all fit mHSPC patients",
+          "trial": "CHAARTED trial (Sweeney CJ et al., N Engl J Med 2015; 373:737-746): ADT + docetaxel vs ADT — high-volume mHSPC OS 49.2 vs 32.2 months (HR 0.60).",
+          "pearl": "CHAARTED high-volume = ≥4 bone metastases (≥1 beyond axial skeleton) OR visceral metastases. This definition predicts benefit from docetaxel intensification. Low-volume patients also benefit but less dramatically — STAMPEDE supports docetaxel in all volumes."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q5",
+        "stem": "A 68-year-old man with intermediate-unfavourable prostate cancer (GG3, PSA 14, cT2c) is being planned for external beam radiotherapy. According to EAU 2024, what is the appropriate ADT duration to combine with EBRT?",
+        "options": {
+          "A": "No ADT — ADT is only indicated for high-risk disease",
+          "B": "Short-term ADT — 4-6 months (2 months before + during RT)",
+          "C": "Long-term ADT — 18-36 months",
+          "D": "ADT until PSA nadir is achieved, then stop"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "EAU 2024 recommends long-term ADT (18-36 months) combined with dose-escalated EBRT for intermediate-unfavourable risk prostate cancer. The DART 01/05 trial showed 28 months ADT + EBRT was superior to 4 months ADT + EBRT for both high-risk and selected intermediate unfavourable patients (5-year OS 74% vs 65% for high-risk). For true intermediate-favourable risk (GG2, one risk factor), short-term ADT (4-6 months) is appropriate. Intermediate-unfavourable (GG3 or ≥2 intermediate factors) warrants long-term ADT.",
+          "wrong": {
+            "A": "ADT is recommended for intermediate-unfavourable risk disease combined with EBRT. Omitting ADT in this setting compromises outcomes.",
+            "B": "Short-term ADT (4-6 months) is appropriate for intermediate-favourable risk. Intermediate-unfavourable with GG3 requires long-term ADT.",
+            "D": "ADT duration is time-based (18-36 months), not PSA-response guided, in the setting of definitive RT + ADT."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 6.1.3.2 — ADT with EBRT: short-term 4-6 months for intermediate-favourable; long-term 18-36 months for intermediate-unfavourable and high-risk",
+          "trial": "DART 01/05 trial (Zapatero A et al., Lancet Oncol 2015): 28 months ADT + EBRT vs 4 months ADT + EBRT — 5-yr OS 74% vs 65% (HR 0.60) for high-risk; benefit confirmed for intermediate-unfavourable.",
+          "pearl": "ADT duration with EBRT: intermediate-favourable = 4-6 months; intermediate-unfavourable/high-risk = 18-36 months. This is a board-favourite distinction. DART 01/05 is the key trial comparing ADT durations."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A2-Q6",
+        "stem": "Which of the following best describes the mechanism of action of abiraterone acetate in prostate cancer treatment?",
+        "options": {
+          "A": "Competitive antagonist of the androgen receptor, blocking testosterone and DHT binding",
+          "B": "Inhibitor of CYP17A1, blocking adrenal and intratumoral androgen synthesis upstream of testosterone",
+          "C": "GnRH antagonist causing immediate pituitary testosterone suppression without flare",
+          "D": "5-alpha reductase inhibitor reducing conversion of testosterone to dihydrotestosterone"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Abiraterone acetate is a selective irreversible inhibitor of CYP17A1 (17α-hydroxylase/C17,20-lyase), an enzyme in the steroidogenesis pathway required for production of testosterone and dehydroepiandrosterone from cholesterol in the adrenal glands and within the tumour itself. By blocking CYP17A1, abiraterone suppresses androgen production from both adrenal and intratumoral sources, achieving androgen suppression beyond that achieved by GnRH agonists alone (which only suppress testicular testosterone). Abiraterone must always be combined with prednisone/prednisolone to prevent mineralocorticoid excess (hypertension, hypokalaemia) due to upstream cortisol precursor accumulation.",
+          "wrong": {
+            "A": "This describes enzalutamide/apalutamide/darolutamide (AR antagonists). Abiraterone works upstream at the enzyme level, not at the AR.",
+            "C": "This describes GnRH antagonists (degarelix, relugolix). Abiraterone is not a GnRH receptor antagonist.",
+            "D": "5-alpha reductase inhibitors (finasteride, dutasteride) reduce conversion of T to DHT. Abiraterone works on adrenal/intratumoral synthesis, not conversion."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024 — Mechanism of abiraterone and requirement for prednisone co-administration; Section 7.1",
+          "trial": "LATITUDE trial (Fizazi K et al., N Engl J Med 2017): ADT + abiraterone + prednisone vs ADT alone in high-risk mHSPC — OS improved from 34.7 to 53.3 months.",
+          "pearl": "Abiraterone = CYP17A1 inhibitor (upstream androgen synthesis). ALWAYS combine with low-dose prednisone/prednisolone 5-10 mg daily to prevent mineralocorticoid side effects (hypertension, hypokalaemia, oedema). Enzalutamide/apalutamide/darolutamide = AR antagonists — different mechanism."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A2-Q7",
+        "stem": "A 72-year-old man with low-risk prostate cancer (GG1, PSA 6.2, cT1c) has a prostate volume of 42 mL by TRUS, no prior TURP, good urinary flow (IPSS 7), and wishes to avoid surgery and frequent hospital visits. He is considering LDR brachytherapy. Which feature most strongly contraindicates this approach?",
+        "options": {
+          "A": "Age 72",
+          "B": "Prostate volume 42 mL",
+          "C": "Low IPSS score of 7",
+          "D": "PSA 6.2 ng/mL"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Prostate volume >50-60 mL is a relative-to-absolute contraindication for LDR brachytherapy due to pubic arch interference (the gland cannot be visualised adequately via the perineal approach when it extends behind the pubic symphysis) and dosimetric limitations. At 42 mL, this patient is near the upper recommended limit for LDR brachytherapy (most centres use 40-50 mL as the cut-off). However, 42 mL itself is within the acceptable range for most centres, though with higher technical difficulty. More absolute contraindications include prior TURP, prostate volume >60 mL, or significant pubic arch interference on simulation planning.",
+          "wrong": {
+            "A": "Age 72 is not a contraindication to LDR brachytherapy. Life expectancy and comorbidities matter more than age per se.",
+            "C": "Low IPSS (good baseline urinary function) is actually favourable for LDR brachytherapy — men with IPSS >15-20 are at higher risk of urinary retention post-implant.",
+            "D": "PSA 6.2 is well within the appropriate range for LDR brachytherapy (PSA <10 ng/mL is the standard criterion)."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 6.1.2 — LDR brachytherapy contraindications: prior TURP, large prostate volume (>60 mL), pubic arch interference, significant obstructive symptoms",
+          "trial": "RTOG 0232 trial (Prestidge BR et al., JCO 2016): LDR monotherapy vs LDR + EBRT boost for intermediate-risk PCa — equivalent outcomes; confirmed LDR efficacy in appropriate candidates.",
+          "pearl": "LDR brachytherapy contraindications: prior TURP (risk of incontinence and seed migration), prostate volume >50-60 mL (pubic arch interference), IPSS >15-20 (high urinary retention risk), severe obstructive symptoms. Volume 42 mL is near the limit — worth noting in exam MCQs."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q8",
+        "stem": "A 58-year-old man receives a GnRH agonist (leuprorelin) injection for high-risk prostate cancer with multiple bone metastases. Two days later he develops severe back pain and bilateral leg weakness. What is the most likely diagnosis and the primary preventive measure that should have been taken?",
+        "options": {
+          "A": "Pathological vertebral fracture from bone metastases; prevent with zoledronic acid",
+          "B": "ADT-induced osteoporosis leading to fracture; prevent with calcium and vitamin D",
+          "C": "Testosterone flare causing tumour growth and spinal cord compression; prevent with anti-androgen cover before GnRH agonist",
+          "D": "Hypogonadism-related myopathy; prevent with testosterone supplementation"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "GnRH agonists cause an initial testosterone surge (flare) lasting 3-7 days due to initial stimulation of pituitary GnRH receptors before down-regulation. In patients with bone metastases (especially vertebral), this testosterone flare stimulates tumour growth and can precipitate acute spinal cord compression or severe pain crisis. Prevention requires starting a non-steroidal anti-androgen (bicalutamide 50 mg daily) 2 weeks BEFORE the first GnRH agonist injection and continuing for 2 weeks after. Alternatively, GnRH antagonists (degarelix, relugolix) can be used — they cause no flare and are preferred in patients with significant bone metastases.",
+          "wrong": {
+            "A": "Pathological fracture is possible with bone mets but doesn't explain the acute bilateral weakness temporally related to ADT initiation. Zoledronic acid prevents bone loss but doesn't prevent flare.",
+            "B": "ADT-induced osteoporosis develops over months to years, not 2 days. Calcium/vitamin D is chronic supplementation.",
+            "D": "Hypogonadism from ADT causes many effects but not acute bilateral leg weakness. This is not a myopathic presentation."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024 — GnRH agonist flare: mandatory anti-androgen cover 2 weeks before + 2 weeks after first injection in patients with bone metastases. GnRH antagonists preferred in this setting.",
+          "trial": "HERO trial (Fizazi K et al., N Engl J Med 2020): Relugolix (oral GnRH antagonist) vs leuprorelin — equivalent castration rates; significantly lower cardiovascular events with relugolix (major adverse cardiovascular events HR 0.46).",
+          "pearl": "GnRH agonist flare prevention is CRITICAL in patients with bone metastases. Start bicalutamide 50 mg/day 2 weeks BEFORE first injection, continue 2 weeks after. Or use a GnRH antagonist (degarelix, relugolix) which has no flare. Spinal cord compression from flare is a medical emergency."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q9",
+        "stem": "According to the PACE-B trial, what was the primary finding regarding stereotactic body radiotherapy (SBRT) for localised prostate cancer?",
+        "options": {
+          "A": "SBRT was superior to conventional EBRT for 5-year failure-free survival",
+          "B": "SBRT was inferior to moderate hypofractionation due to higher late toxicity",
+          "C": "SBRT (36.25 Gy in 5 fractions) was non-inferior to moderate hypofractionation for 5-year failure-free survival",
+          "D": "SBRT had equivalent efficacy but significantly higher bowel toxicity than conventional RT"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The PACE-B trial (Brand DH et al., Lancet Oncol 2019) randomised 874 men with low- or intermediate-risk prostate cancer to SBRT (36.25 Gy in 5 fractions, 1-2 weeks) vs conventionally fractionated or moderate hypofractionation EBRT. The primary endpoint was 2-year acute GI toxicity, and 5-year efficacy data showed SBRT failure-free survival 95.8% vs 94.6% for conventional RT (meeting non-inferiority). SBRT was not inferior for efficacy and did not have significantly worse late toxicity. EAU 2024 recommends SBRT as an option for low- and intermediate-risk localised prostate cancer.",
+          "wrong": {
+            "A": "Non-inferiority, not superiority, was demonstrated for SBRT.",
+            "B": "SBRT was not inferior — it met the non-inferiority criteria for both efficacy and toxicity.",
+            "D": "SBRT did not have significantly higher bowel toxicity than conventional RT in PACE-B."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 6.1.2 — SBRT recommended option for low- and intermediate-risk localised PCa based on PACE-B",
+          "trial": "PACE-B trial (Brand DH et al., Lancet Oncol 2019; 20:1531-1543): RCT, 874 patients. SBRT 36.25 Gy/5 fx non-inferior to conventional RT. 5-yr FFS 95.8% vs 94.6%.",
+          "pearl": "PACE-B: SBRT (36.25 Gy / 5 fractions over 1-2 weeks) is non-inferior to conventional RT for localised PCa. Key advantage: 5 treatment fractions vs 20-37 fractions — major patient convenience benefit. EAU 2024 endorsed option."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A2-Q10",
+        "stem": "A 66-year-old man undergoes radical prostatectomy. At 6 weeks, PSA is 0.08 ng/mL (just detectable). At 3 months, PSA is 0.14 ng/mL. At 6 months, PSA is 0.25 ng/mL. He had pT2c pN0 pR0 disease (Grade Group 2). What does this represent and what should be done?",
+        "options": {
+          "A": "PSA nadir — wait for spontaneous decline before any intervention",
+          "B": "Biochemical recurrence confirmed — PSMA-PET/CT for staging, then early salvage RT",
+          "C": "Biochemical recurrence — immediate long-term ADT",
+          "D": "Persisting benign prostatic tissue — this PSA level is not clinically significant"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "BCR after RP is defined as PSA ≥0.2 ng/mL on two consecutive measurements. Here PSA at 3 months is 0.14 and at 6 months is 0.25 — this meets the BCR definition. PSMA-PET/CT should be performed for restaging (detects disease at PSA 0.2-0.5 ng/mL in 50-80%). Salvage EBRT should be initiated early while PSA is still <0.5 ng/mL for best outcomes (ideally <0.2-0.3 ng/mL). Adding 6 months of GnRH agonist is also recommended per GETUG-AFU 16 and RADICALS-HD.",
+          "wrong": {
+            "A": "PSA is rising — this is not a nadir. Waiting for spontaneous decline wastes the window for effective salvage RT.",
+            "C": "Immediate long-term ADT alone for early BCR after RP is not the EAU-recommended approach. Salvage RT ± short-term ADT is preferred for local/regional recurrence. Long-term ADT alone delays progression but is not curative.",
+            "D": "PSA 0.25 ng/mL rising after RP is not from benign tissue — the entire prostate was removed. Any detectable PSA after RP represents residual prostate cancer."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 6.1.5.2 — BCR after RP: PSMA-PET staging + early salvage RT (PSA <0.5) + short-term ADT",
+          "trial": "GETUG-AFU 16 (Carrie C, Lancet Oncol 2016): sEBRT + 6 months GnRH agonist vs sEBRT alone — 5-yr PFS 80% vs 62%.",
+          "pearl": "After RP, any rising detectable PSA = BCR. PSMA-PET for staging, then salvage EBRT as early as possible (PSA <0.5 ng/mL preferred) + 6 months ADT. Do not wait for PSA to rise above 1.0 ng/mL."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A2-Q11",
+        "stem": "In the LATITUDE trial, what were the eligibility criteria for 'high-risk' newly diagnosed metastatic prostate cancer and what was the primary outcome?",
+        "options": {
+          "A": "PSA >20 ng/mL or Grade Group ≥4; abiraterone improved 5-year OS from 34% to 50%",
+          "B": "≥2 of: GS ≥8, ≥3 bone metastases, visceral metastases; abiraterone + prednisone + ADT improved OS",
+          "C": "CHAARTED high-volume definition; abiraterone improved OS in high-volume but not low-volume",
+          "D": "All de novo metastatic PCa; abiraterone improved PFS but not OS"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The LATITUDE trial (Fizazi et al., NEJM 2017) enrolled men with newly diagnosed high-risk metastatic prostate cancer defined by ≥2 of three risk factors: Gleason score ≥8 (GG4/5), ≥3 bone metastases, and presence of visceral (non-nodal) metastases. In this population, ADT + abiraterone acetate + prednisone versus ADT + placebo showed: median OS 53.3 vs 34.7 months (HR 0.62, p<0.001) and significantly improved radiographic PFS (HR 0.47). Both co-primary endpoints were met.",
+          "wrong": {
+            "A": "PSA and Grade Group alone do not define LATITUDE high-risk. The definition requires ≥2 of three specific criteria including bone metastasis count and visceral mets.",
+            "C": "LATITUDE used its own high-risk definition, not the CHAARTED volume definition.",
+            "D": "LATITUDE enrolled only high-risk patients (≥2 of 3 factors). OS was improved, not just PFS."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 7.1 — LATITUDE trial key evidence for abiraterone in high-risk mHSPC",
+          "trial": "LATITUDE trial (Fizazi K et al., N Engl J Med 2017; 377:352-360): ADT + abiraterone + prednisone vs ADT — OS 53.3 vs 34.7 months (HR 0.62). High-risk = ≥2 of: GS ≥8, ≥3 bone mets, visceral mets.",
+          "pearl": "LATITUDE eligibility (≥2 of 3): Gleason ≥8, ≥3 bone metastases, visceral metastases. ADT + abiraterone improved median OS by 18.6 months vs ADT alone. Know these criteria — they appear on boards."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q12",
+        "stem": "What is the EAU 2024 recommendation for pelvic lymph node radiotherapy (pelvic nodal irradiation, PNI) combined with dose-escalated EBRT and long-term ADT for high-risk localised prostate cancer?",
+        "options": {
+          "A": "PNI is not recommended — local prostate RT only is sufficient for high-risk disease",
+          "B": "PNI may be offered to patients with high-risk disease based on nomogram-predicted LNI >15%",
+          "C": "PNI is mandatory for all high-risk disease irrespective of LNI risk",
+          "D": "PNI is recommended only if PSMA-PET/CT shows confirmed pelvic nodal metastasis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 recommends that pelvic nodal irradiation (PNI) may be added to prostate-only EBRT in patients with high-risk localised prostate cancer when the Briganti nomogram-predicted LNI risk is >15% (some guidelines use 10-15% as the threshold). Evidence from PIVOTAL (Phillips R et al.) and STAMPEDE pelvic radiotherapy analyses suggests benefit in reducing pelvic nodal recurrence. However, PNI adds bowel and urinary toxicity and remains somewhat controversial without a dedicated phase III RCT specifically for this question in the IMRT era.",
+          "wrong": {
+            "A": "PNI is an option (not ruled out) for high-risk disease — several guidelines endorse it.",
+            "C": "PNI is not mandatory for all high-risk disease. Risk-adapted use based on LNI nomogram is the EAU approach.",
+            "D": "PNI in the RT context is applied electively to cover at-risk nodal regions, even without confirmed nodal disease on imaging. Confirmed N1 disease would change treatment to a different category (cN1M0)."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 6.1.3 — PNI with EBRT: may be offered for high-risk if LNI risk >15% by Briganti nomogram",
+          "trial": "STAMPEDE pelvic RT analysis and PIVOTAL feasibility study inform PNI practice; dedicated RCT evidence remains limited. GETUG-12 (Fizazi et al., Lancet Oncol 2010) — docetaxel + ADT + RT improved EFS in high-risk localised PCa.",
+          "pearl": "Pelvic nodal irradiation threshold: EAU recommends considering PNI when Briganti-predicted LNI >15%. It is not mandatory for all high-risk disease. Benefit is reduction in pelvic recurrence at cost of additional bowel/urinary toxicity."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A2-Q13",
+        "stem": "A patient on long-term ADT for 18 months reports hot flushes, fatigue, and a DEXA scan showing a T-score of -2.6 (osteoporosis). Which intervention is most appropriate?",
+        "options": {
+          "A": "Discontinue ADT — bone loss is irreversible and ADT benefit does not outweigh harm",
+          "B": "Start zoledronic acid 4 mg IV every 3 months",
+          "C": "Start denosumab 60 mg SC every 6 months or zoledronic acid yearly with calcium and vitamin D supplementation",
+          "D": "Start testosterone replacement therapy to reverse bone loss"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "ADT-induced osteoporosis (T-score ≤-2.5 = osteoporosis) requires bone-protective therapy. Denosumab 60 mg SC every 6 months is a RANKL inhibitor that reduces bone turnover and fracture risk in ADT-treated patients (Smith MR et al., NEJM 2009: reduced vertebral fractures by 62%). Zoledronic acid 4-5 mg IV yearly is an alternative bisphosphonate. Both should be combined with calcium 1000-1200 mg/day and vitamin D 800-1000 IU/day supplementation. EAU 2024 mandates DEXA at baseline and every 1-2 years on long-term ADT, and advocates bone-protective agents when T-score ≤-2.5 or fracture risk is high.",
+          "wrong": {
+            "A": "Discontinuing effective ADT due to bone loss is not appropriate. Bone loss is manageable with bone-protective agents.",
+            "B": "Zoledronic acid 4 mg every 3 months is the schedule for prevention of bone metastases in high-risk cancer — not for osteoporosis management. The appropriate schedule for osteoporosis is yearly (or 4 mg every 3-4 months for active bone mets).",
+            "D": "Testosterone replacement is contraindicated in prostate cancer patients on ADT — testosterone stimulates prostate cancer growth."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 5.6.2 — ADT and bone health: DEXA monitoring, denosumab 60 mg q6m or zoledronic acid yearly for osteoporosis; calcium + vitamin D supplementation",
+          "trial": "Smith MR et al. (N Engl J Med 2009): Denosumab 60 mg q6m in men on ADT — reduced vertebral fracture risk by 62% vs placebo over 3 years.",
+          "pearl": "ADT causes 2-3% bone mineral density loss/year. Screen with DEXA at baseline and every 1-2 years. T-score ≤-2.5 = osteoporosis: start denosumab 60 mg q6m or zoledronic acid yearly + calcium + vitamin D. Contraindication: do NOT restart testosterone to reverse bone loss."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q14",
+        "stem": "The HERO trial compared relugolix (oral GnRH antagonist) to leuprorelin (GnRH agonist) in castration-sensitive prostate cancer. Which is the primary clinical advantage demonstrated by relugolix in this trial?",
+        "options": {
+          "A": "Superior castration rate (testosterone <50 ng/dL) compared to leuprorelin",
+          "B": "Significantly lower risk of major adverse cardiovascular events (MACE) compared to leuprorelin",
+          "C": "Better PSA response rate and lower rates of biochemical failure",
+          "D": "Oral formulation was associated with better prostate cancer-specific survival"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The HERO trial (Fizazi K et al., NEJM 2020) randomised 934 men to relugolix vs leuprorelin. Relugolix achieved non-inferior castration rates (96.7% vs 88.8% sustained castration) and showed a significant reduction in major adverse cardiovascular events (MACE: 2.9% vs 6.2%, HR 0.46, p=0.03) — particularly relevant given that ADT is associated with increased cardiovascular risk and many prostate cancer patients have baseline cardiovascular comorbidities. Relugolix is also oral (daily tablet) vs monthly/3-monthly injections for leuprorelin.",
+          "wrong": {
+            "A": "Relugolix was non-inferior, not superior, in castration rates. Leuprorelin also achieves >88% sustained castration.",
+            "C": "HERO was not designed to compare PSA response rates as a primary endpoint in BCR or PCa-specific survival.",
+            "D": "PCa-specific survival was not the primary endpoint of HERO and no survival advantage was demonstrated."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024 — Relugolix preferred over GnRH agonist in men with significant cardiovascular comorbidities; no flare benefit",
+          "trial": "HERO trial (Fizazi K et al., N Engl J Med 2020; 383:2219-2230): Relugolix vs leuprorelin — MACE 2.9% vs 6.2% (HR 0.46). Primary endpoint: sustained castration at 48 weeks.",
+          "pearl": "Relugolix advantages over GnRH agonists: 1) No testosterone flare (GnRH antagonist mechanism); 2) Faster testosterone recovery on discontinuation; 3) Fewer major cardiovascular events (HERO trial). Preferred in patients with significant cardiovascular disease or when rapid castration without flare is needed."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q15",
+        "stem": "A 64-year-old man with pT3a pN0 pR1 (positive margin right apex) Grade Group 4 disease undergoes radical prostatectomy. Post-op PSA is undetectable at 3 months. According to the RAVES, GETUG-AFU 17, and RADICALS-RT trials, what is the current EAU 2024 recommendation regarding adjuvant vs salvage radiotherapy?",
+        "options": {
+          "A": "Immediate adjuvant RT (irrespective of PSA) — reduces risk of BCR in pT3 disease",
+          "B": "Wait for PSA rise ≥0.2 ng/mL (BCR), then early salvage RT — non-inferior to adjuvant RT with less overtreatment",
+          "C": "Long-term ADT alone — avoids RT toxicity in pT3 pR1 disease",
+          "D": "Adjuvant RT plus long-term ADT (36 months) given GG4 disease"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Three contemporaneous RCTs (RAVES, GETUG-AFU 17, RADICALS-RT) all showed that early salvage RT when PSA rises ≥0.2 ng/mL is non-inferior to immediate adjuvant RT for pT3/R1 disease at 5-6 years, while avoiding RT in approximately 60% of patients who never recur biochemically. EAU 2024 recommends this 'wait for BCR, then treat early' strategy (early salvage RT at PSA <0.5 ng/mL) as the preferred approach over universal adjuvant RT. This significantly reduces overtreatment.",
+          "wrong": {
+            "A": "Universal adjuvant RT has been replaced by the early salvage strategy based on three contemporary RCTs.",
+            "C": "ADT alone without RT is not curative for locoregionally recurrent prostate cancer and does not replace sEBRT.",
+            "D": "Adjuvant RT + 36 months ADT is not the EAU 2024 recommended approach for this scenario. Adjuvant RT has been replaced by early salvage; ADT is added to sEBRT (6 months, not 36 months) when BCR occurs."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 6.1.5.2 — Early salvage RT non-inferior to adjuvant RT; saves 60% from overtreatment; initiate at PSA ≥0.2 ng/mL, ideally <0.5 ng/mL",
+          "trial": "RAVES (Pearse M, Lancet Oncol 2019), GETUG-AFU 17 (Sargos P, Lancet Oncol 2020), RADICALS-RT (Parker CC, Lancet 2020): All three show early salvage RT non-inferior to adjuvant RT for pT3/pR1 PCa.",
+          "pearl": "Three RCTs (RAVES, GETUG-AFU 17, RADICALS-RT) = early salvage RT non-inferior to adjuvant RT in pT3/R1 prostate cancer. This is now the EAU standard of care. Board exam favourite — know all three trial names."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A2-Q16",
+        "stem": "Which of the following is the definition of biochemical recurrence (BCR) after radical prostatectomy according to EAU 2024?",
+        "options": {
+          "A": "PSA ≥0.1 ng/mL on any single measurement post-RP",
+          "B": "PSA ≥0.2 ng/mL on two consecutive measurements at least 2 weeks apart after achieving undetectable PSA",
+          "C": "PSA >0.5 ng/mL on any measurement after 12 months post-RP",
+          "D": "PSA rise of ≥2 ng/mL above nadir after any post-RP value"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "BCR after radical prostatectomy is defined as PSA ≥0.2 ng/mL on two consecutive measurements at least 2 weeks apart, after having previously achieved an undetectable PSA nadir. This definition is endorsed by EAU 2024, AUA, and the American Urological Association/American Society for Radiation Oncology. Note: BCR after RT (Phoenix definition) is different — PSA rise ≥2 ng/mL above nadir, irrespective of absolute PSA value.",
+          "wrong": {
+            "A": "A single PSA 0.1 ng/mL may be within assay variability. Two consecutive measurements ≥0.2 ng/mL are required.",
+            "C": "PSA >0.5 ng/mL at 12 months is too high and too late a threshold — BCR at PSA 0.2 ng/mL should already trigger management.",
+            "D": "PSA rise ≥2 ng/mL above nadir is the Phoenix definition of BCR after radiotherapy, not after RP."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 6.1.5.1 — BCR after RP definition: PSA ≥0.2 ng/mL on two consecutive measurements",
+          "trial": "Cookson MS et al. (J Urol 2007): Consensus statement defining BCR after RP; threshold of 0.2 ng/mL on two measurements validated across multiple large cohorts.",
+          "pearl": "BCR after RP = PSA ≥0.2 ng/mL on TWO consecutive measurements (≥2 weeks apart) after undetectable nadir. BCR after RT = PSA rise ≥2 ng/mL above nadir (Phoenix definition). These are different — do not confuse them on boards."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A2-Q17",
+        "stem": "The ARASENS trial tested triplet therapy in metastatic hormone-sensitive prostate cancer. What was the regimen tested and the key outcome?",
+        "options": {
+          "A": "ADT + abiraterone + docetaxel — improved OS vs ADT + docetaxel alone",
+          "B": "ADT + darolutamide + docetaxel — improved OS vs ADT + docetaxel alone",
+          "C": "ADT + enzalutamide + cabazitaxel — improved PFS vs ADT + docetaxel",
+          "D": "ADT + apalutamide + docetaxel — equivalent OS vs ADT + docetaxel alone"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ARASENS (Smith MR et al., NEJM 2022) randomised 1,306 men with metastatic HSPC to ADT + docetaxel + darolutamide vs ADT + docetaxel + placebo. Darolutamide (an AR antagonist) added to ADT + docetaxel improved OS (HR 0.68, p<0.001). Darolutamide advantage: very low CNS penetration minimises seizure risk and drug-drug interactions vs enzalutamide/apalutamide. ARASENS established triplet therapy as a new standard for high-volume/high-risk mHSPC.",
+          "wrong": {
+            "A": "This describes the PEACE-1 regimen (abiraterone + docetaxel + ADT), not ARASENS.",
+            "C": "Cabazitaxel is used for post-docetaxel CRPC, not first-line mHSPC. ARASENS used docetaxel + darolutamide.",
+            "D": "The ARASENS result showed improved OS (not equivalent). Apalutamide + docetaxel was studied in a different trial context."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 7.1 — Triplet therapy (ADT + docetaxel + ARPI) recommended for high-volume mHSPC; ARASENS evidence",
+          "trial": "ARASENS trial (Smith MR et al., N Engl J Med 2022; 386:1132-1142): ADT + docetaxel + darolutamide vs ADT + docetaxel — OS HR 0.68 (p<0.001).",
+          "pearl": "ARASENS = darolutamide + docetaxel + ADT triplet. OS improved vs doublet docetaxel + ADT. Darolutamide has minimal CNS penetration — fewer seizures and drug interactions vs enzalutamide. Triplet therapy is now standard for high-volume mHSPC in fit patients."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A2-Q18",
+        "stem": "Which of the following active surveillance protocols is most appropriate according to EAU 2024 for a patient with GG1 prostate cancer newly enrolled in AS?",
+        "options": {
+          "A": "PSA every 12 months, DRE annually, MRI at 2 years, biopsy at 5 years",
+          "B": "PSA every 3-6 months (yr 1-2) then 6-12 monthly, DRE annually, confirmatory MRI-targeted biopsy within 12 months, repeat biopsy 3-5 yearly",
+          "C": "PSA monthly for 6 months then quarterly, biopsy annually, no MRI monitoring",
+          "D": "PSA 6-monthly, no biopsy unless PSA doubles, MRI every 3 years"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 AS monitoring protocol: PSA every 3-6 months for the first 2 years, then every 6-12 months. DRE annually. If the diagnosis was not based on MRI-targeted biopsy, a confirmatory repeat MRI-targeted biopsy should be performed within 6-12 months of enrolment. Repeat MRI every 1-2 years. Subsequent biopsies every 3-5 years (or triggered by PSA/MRI changes). This protocol ensures timely detection of reclassification while avoiding unnecessary procedures.",
+          "wrong": {
+            "A": "Annual PSA in year 1-2 is too infrequent. Confirmatory biopsy at 5 years is far too delayed (should be within 12 months of enrolment).",
+            "C": "Monthly PSA is excessive. Annual biopsy is too frequent and not evidence-based. MRI is an important monitoring tool and should not be omitted.",
+            "D": "PSA 6-monthly may be appropriate after year 2, but waiting for PSA doubling before biopsy is not the EAU protocol. Routine 3-5 yearly biopsies are recommended regardless of PSA."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 6.1.1.2 — AS monitoring: PSA 3-6 monthly (yr 1-2), then 6-12 monthly; DRE annual; confirmatory biopsy within 12 months; repeat 3-5 yearly",
+          "trial": "PROTECT trial 15-year update (Hamdy FC et al., NEJM Evidence 2023): Active monitoring associated with higher rate of metastases vs treatment — confirms importance of structured monitoring and reclassification.",
+          "pearl": "EAU 2024 AS monitoring: PSA every 3-6 months (first 2 years), then 6-12 monthly. Confirmatory biopsy within 12 months (if initial diagnosis was not MRI-targeted). Repeat biopsy every 3-5 years. MRI every 1-2 years. Reclassification = mandatory MDT discussion."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A2-Q19",
+        "stem": "A patient with de novo high-volume metastatic castration-sensitive prostate cancer (mCSPC) — 8 bone metastases, PSA 520 ng/mL, GG5 — is fit for systemic treatment. What is the most appropriate first-line treatment per EAU 2024?",
+        "options": {
+          "A": "ADT monotherapy with GnRH agonist",
+          "B": "ADT + docetaxel (doublet)",
+          "C": "ADT + ARPI (abiraterone or enzalutamide) — doublet",
+          "D": "ADT + docetaxel + ARPI (triplet) for high-volume disease"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "For high-volume metastatic castration-sensitive prostate cancer (≥4 bone mets or visceral mets per CHAARTED, or ≥4 mets with one beyond axial skeleton), EAU 2024 recommends **triplet therapy** (ADT + docetaxel + ARPI) based on ARASENS (darolutamide) and PEACE-1 (abiraterone) trials in fit patients able to tolerate chemotherapy. Triplet therapy offers superior OS vs doublet ADT + docetaxel or doublet ADT + ARPI. In patients unable to tolerate docetaxel, doublet ADT + ARPI is the alternative.",
+          "wrong": {
+            "A": "ADT monotherapy is no longer standard for any metastatic PCa in fit patients — multiple trials show intensification improves OS.",
+            "B": "ADT + docetaxel doublet is valid but suboptimal vs triplet for high-volume disease in fit patients per 2024 evidence.",
+            "C": "ADT + ARPI doublet is valid but suboptimal vs triplet for high-volume disease. For low-volume or patients unable to tolerate chemotherapy, ADT + ARPI doublet is preferred."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 7.1 — High-volume mCSPC: triplet therapy (ADT + docetaxel + ARPI) preferred in fit patients; based on ARASENS and PEACE-1",
+          "trial": "ARASENS (NEJM 2022) and PEACE-1 (Fizazi K et al., Lancet 2022): Triplet therapy improves OS vs doublet in high-volume mHSPC.",
+          "pearl": "High-volume mHSPC in a fit patient = TRIPLET therapy (ADT + docetaxel + ARPI) per EAU 2024. ARASENS (darolutamide) and PEACE-1 (abiraterone) are the key trials. If unfit for docetaxel = doublet (ADT + ARPI)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A2-Q20",
+        "stem": "A 59-year-old man undergoes radical prostatectomy with bilateral nerve-sparing technique for GG2 (3+4=7) cT2b prostate cancer. Pre-operatively he had normal erectile function (IIEF-EF score 26). At 12 months post-RP, his IIEF-EF is 10. Which statement about erectile function recovery after nerve-sparing RP is most accurate?",
+        "options": {
+          "A": "Full recovery to pre-operative function is expected by 12 months in >80% of cases",
+          "B": "Erectile function rarely recovers to pre-operative levels after RP regardless of nerve-sparing",
+          "C": "Recovery to clinically meaningful erections (IIEF-EF ≥17) occurs in 40-80% of pre-operatively potent men by 24 months after bilateral nerve-sparing RALP",
+          "D": "PDE5 inhibitors (sildenafil, tadalafil) are contraindicated after RP due to anastomotic stress"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Erectile function recovery after bilateral nerve-sparing radical prostatectomy varies widely by centre volume, surgical technique, patient age, and pre-operative erectile function. In high-volume centres performing bilateral nerve-sparing RALP in men with normal pre-operative EF and age <65, recovery to IIEF-EF ≥17 (erectile function sufficient for intercourse) occurs in approximately 40-80% of patients by 24 months. Penile rehabilitation with PDE5 inhibitors (daily low-dose tadalafil or on-demand sildenafil) started early post-RP may improve recovery rates. At 12 months, EF is still typically sub-optimal — full assessment should be deferred to 24 months.",
+          "wrong": {
+            "A": "Full recovery in >80% by 12 months is an overestimate. Recovery continues to 24-36 months and is highly operator-dependent.",
+            "B": "Erectile function does recover meaningfully in 40-80% of appropriately selected patients after bilateral NS RALP in expert hands.",
+            "D": "PDE5 inhibitors are not contraindicated after RP — they are part of penile rehabilitation protocols. Contraindications are nitrate co-administration, severe hypotension, and haemodynamic instability."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 6.1.6 — Erectile function recovery after NS-RP: penile rehabilitation with PDE5 inhibitors; assess at 24 months",
+          "trial": "Ficarra V et al. (Eur Urol 2012) meta-analysis: Bilateral NS RALP — 12-month EF recovery rate 54-90% depending on centre; penile rehabilitation improves recovery.",
+          "pearl": "Erectile function recovery after bilateral NS-RP: 40-80% achieve IIEF-EF ≥17 by 24 months in expert hands. Assess EF outcomes at 24 months, not 12. Start penile rehabilitation early (daily tadalafil) to preserve smooth muscle and erectile tissue during neuropraxia recovery period."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

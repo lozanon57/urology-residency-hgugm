@@ -1,0 +1,675 @@
+{
+  "id": "D2",
+  "title": "Neurogenic Lower Urinary Tract Dysfunction",
+  "subtitle": "Block D — Urogynaecology and Neurourology: Neurogenic Bladder, Upper Tract Protection, and Neuromodulation",
+  "block": "D",
+  "block_name": "Urogynaecology and Neurourology",
+  "level": "R3-5",
+  "reading_time_min": 48,
+  "guidelines_version": "EAU Guidelines on Neuro-Urology 2024 · EAU Guidelines on Urinary Incontinence 2024",
+  "textbook_refs": [
+    "Blok B et al. EAU Guidelines on Neuro-Urology. European Association of Urology 2024",
+    "Stöhrer M et al. EAU Guidelines for a new standard in neuro-urological management of spinal cord injury patients. Eur Urol 2009;56:234–241",
+    "Schurch B et al. Botulinum-A Toxin for Treating Detrusor Hyperreflexia. J Urol 2000;164:692–697",
+    "Ginsberg D et al. Phase 3 Efficacy and Tolerability Study of OnabotulinumtoxinA for Urinary Incontinence from Neurogenic Detrusor Overactivity (DIGNITY). J Urol 2012;187:2131–2139",
+    "Cruz F et al. Efficacy and Safety of OnabotulinumtoxinA in Patients with Urinary Incontinence Due to Neurogenic Detrusor Overactivity. Eur Urol 2011;60:742–750",
+    "Pannek J, Göcking K, Bersch U. Clinical significance of urethral dilatation for patients with spinal cord injury. J Endourol 2009;23:1753",
+    "Weld KJ, Dmochowski RR. Effect of bladder management on urological complications in spinal cord injured patients. J Urol 2000;163:768"
+  ],
+  "learning_objectives": [
+    "Classify neurogenic lower urinary tract dysfunction (NLUTD) based on lesion level (suprapontine, suprasacral, sacral, peripheral) and predict the urodynamic pattern for each",
+    "Identify clinical and urodynamic markers of upper urinary tract risk in neurogenic bladder and implement evidence-based monitoring protocols",
+    "Describe the rationale for clean intermittent catheterisation (CIC) as the preferred bladder management strategy for neurogenic detrusor underactivity",
+    "Apply EAU 2024 evidence-based management algorithm for neurogenic detrusor overactivity including antimuscarinics, beta-3 agonists, and intradetrusor botulinum toxin-A",
+    "Outline the indications, outcomes, and complications of sacral neuromodulation (SNM) and posterior tibial nerve stimulation (PTNS) in neurogenic LUTS",
+    "Describe the surgical options for refractory neurogenic bladder including augmentation cystoplasty, continent catheterisable stoma, and urinary diversion"
+  ],
+  "sections": [
+    {
+      "id": "D2-S1",
+      "title": "Classification of Neurogenic LUTS by Lesion Level",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Neurogenic lower urinary tract dysfunction (NLUTD) results from neurological conditions affecting the neural circuits controlling bladder storage and voiding. The clinical and urodynamic phenotype of NLUTD is primarily determined by the **level of the neurological lesion** relative to the pontine micturition centre and the sacral micturition centre (S2–S4). Understanding the expected urodynamic pattern from each lesion level is foundational to both clinical practice and board examinations.\n\n**Suprapontine lesions** (above the pons — cerebrovascular disease, Parkinson's disease, dementia, brain tumours, cerebral palsy): The pontine micturition centre (PMC) is intact. The PMC normally coordinates bladder contraction with simultaneous urethral relaxation (synergic voiding). Suprapontine lesions remove cortical inhibition of the PMC, resulting in **detrusor overactivity (DO)** with intact PMC coordination — i.e., DO **without** detrusor-sphincter dyssynergia (DSD). Risk to the upper urinary tract (UUT) is LOW in this group.\n\n**Suprasacral spinal cord lesions** (below the pons, above the sacral cord — spinal cord injury, multiple sclerosis, cervical/thoracic myelopathy, transverse myelitis): The PMC is disconnected from the sacral cord. This disrupts the pontine-sacral coordination, producing **detrusor overactivity WITH detrusor-sphincter dyssynergia (DO+DSD)**. DSD = simultaneous involuntary contraction of the external urethral sphincter during a detrusor contraction. This generates very high intravesical pressures (>40 cmH₂O) during voiding attempts, causing ureteral reflux, hydronephrosis, and progressive renal damage. HIGH UUT risk. **Detrusor leak point pressure (DLPP) >40 cmH₂O** is the critical urodynamic threshold identifying UUT risk in this group.\n\n**Sacral lesions** (S2–S4 — cauda equina injury, spinal cord tumour at sacral level, myelomeningocele, lumbosacral disc disease): Lower motor neurone (LMN) pattern. The sacral micturition arc is disrupted: **detrusor underactivity (DUA) or acontractile bladder** + **open, denervated bladder neck** (no smooth muscle tone). Urine retention and overflow incontinence. Clean intermittent catheterisation (CIC) is the primary management. DSD does not occur.\n\n**Peripheral neuropathy** (diabetic cystopathy, pelvic nerve injury post-surgery — radical cystectomy, rectal resection, hysterectomy, aorto-iliac surgery): Gradual sensory loss preceding motor dysfunction. Early: reduced bladder sensation, elevated compliance with large-capacity bladder, infrequent voiding. Late: acontractile bladder with overflow. CIC management."
+        },
+        {
+          "type": "table",
+          "title": "Neurogenic LUTS Classification by Lesion Level — Key Features",
+          "headers": ["Lesion Level", "Examples", "Urodynamic Pattern", "DSD?", "UUT Risk", "Primary Management"],
+          "rows": [
+            ["Suprapontine", "CVA, Parkinson's, dementia, cerebral palsy", "DO without DSD", "No", "Low", "Antimuscarinics/mirabegron; CIC if retention"],
+            ["Suprasacral spinal", "SCI (cervical/thoracic), MS, transverse myelitis", "DO + DSD", "Yes (HIGH risk)", "HIGH (DLPP >40 = UUT danger)", "CIC + antimuscarinics; BoNT-A; augmentation"],
+            ["Sacral (conus/cauda equina)", "Cauda equina, myelomeningocele, sacral SCI", "DUA/acontractile, no DSD", "No", "Low-moderate (overflow)", "CIC mandatory"],
+            ["Peripheral", "Diabetic cystopathy, post-pelvic surgery", "Reduced sensation, large capacity, DUA", "No", "Low (overflow)", "CIC + fluid management"],
+            ["Mixed (MS)", "Multiple sclerosis (variable)", "Variable DO + incomplete emptying", "Sometimes", "Moderate", "Individualised — CIC + pharmacotherapy"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — DSD and Upper Tract Risk",
+          "content": "DO + DSD (suprasacral spinal cord lesion) = HIGH upper urinary tract risk. The simultaneous contraction of detrusor and external sphincter generates intravesical pressures that can exceed 100 cmH₂O, driving ureteral reflux. DLPP >40 cmH₂O is the urodynamic threshold associated with upper tract deterioration. Management goal: keep DLPP <40 cmH₂O with CIC, antimuscarinics, or BoNT-A. Suprapontine lesions = DO without DSD = low UUT risk (PMC coordination intact)."
+        }
+      ]
+    },
+    {
+      "id": "D2-S2",
+      "title": "Upper Urinary Tract Monitoring in Neurogenic Bladder",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Upper urinary tract (UUT) damage — hydronephrosis, vesicoureteral reflux (VUR), pyelonephritis, and progressive renal failure — is the most serious and potentially life-threatening consequence of neurogenic LUTS, particularly in patients with spinal cord injury (SCI), myelomeningocele, and other suprasacral lesions with DO+DSD. Historically, chronic renal failure was the leading cause of death in SCI patients. Contemporary evidence shows that structured urological surveillance with early intervention has dramatically reduced UUT morbidity in this population.\n\nThe EAU 2024 Neuro-Urology Guidelines recommend the following baseline and surveillance investigations for all NLUTD patients: (1) **Urodynamic study** (UDS) — mandatory at baseline in all patients with SCI, multiple sclerosis, myelomeningocele, and after significant neurological change; (2) **Renal ultrasound** — annual surveillance for hydronephrosis and upper tract dilation; (3) **Serum creatinine and eGFR** — annual; (4) **Urine dipstick/culture** — only when symptomatic (routine surveillance culture not recommended — promotes unnecessary antibiotic use in bacteriuric catheterised patients); (5) **Videourodynamics (VUDS)** — gold standard for NLUTD characterisation, combining filling cystometry + pressure-flow study with simultaneous fluoroscopy to detect VUR, trabeculation, and bladder morphology changes.\n\nKey urodynamic parameters and thresholds for UUT risk:\n- **DLPP (detrusor leak point pressure) >40 cmH₂O** — McGuire et al. 1981 seminal paper: DLPP >40 cmH₂O is associated with UUT deterioration in children with myelomeningocele; adopted as the universal threshold. Management goal: maintain DLPP <40 cmH₂O.\n- **Bladder compliance <20 mL/cmH₂O** — reduced compliance indicates fibrotic/poorly distensible bladder; associated with elevated resting intravesical pressures and UUT risk.\n- **VUR on VUDS** — any grade reflux in the context of neurogenic bladder indicates elevated UUT risk; Grade III–IV reflux requires active management.\n\n**Weld and Dmochowski (J Urol 2000)** demonstrated in a prospective study of 316 SCI patients that CIC as the primary bladder management strategy was associated with the lowest rates of UUT complications compared to indwelling catheter and suprapubic catheter methods — establishing CIC as the preferred long-term management approach."
+        },
+        {
+          "type": "table",
+          "title": "UUT Risk Assessment — Key Parameters and Thresholds",
+          "headers": ["Parameter", "High-Risk Threshold", "Clinical Implication", "Reference"],
+          "rows": [
+            ["DLPP", ">40 cmH₂O", "Upper tract deterioration risk — intensify treatment", "McGuire 1981"],
+            ["Bladder compliance", "<20 mL/cmH₂O", "Poor distensibility → elevated pressures → UUT risk", "ICS urodynamic standards"],
+            ["VUR on VUDS", "Any grade (neurogenic)", "Active UUT risk — CIC + antimuscarinics mandatory", "EAU Neuro-Urology 2024"],
+            ["Uretero-hydronephrosis on USS", "Any grade", "Investigate with VUDS; check DLPP and compliance", "EAU 2024 annual USS"],
+            ["eGFR decline >10 mL/min/yr", "Significant decline", "Review bladder management urgently; consider augmentation", "EAU Neuro-Urology 2024"],
+            ["Bladder capacity at safe pressure", "<300 mL (at DLPP <40)", "Insufficient storage capacity — consider BoNT-A or augmentation", "EAU 2024"],
+            ["Recurrent febrile UTI", "≥2 febrile episodes/yr", "Incomplete bladder emptying or reflux — adjust CIC frequency", "EAU Neuro-Urology 2024"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Treating Asymptomatic Bacteriuria in Catheter Users",
+          "content": "Asymptomatic bacteriuria (ASB) in patients performing CIC or using an indwelling catheter does NOT require antibiotic treatment. EAU 2024 and IDSA guidelines both recommend AGAINST treating ASB in catheterised patients. Only symptomatic UTI (fever, new urinary symptoms, increased spasticity, cloudy/offensive urine + systemic signs) warrants antibiotic treatment. Routine urine dipstick surveillance and treatment of ASB in neurogenic bladder patients promotes multidrug-resistant organism colonisation and is one of the most common antibiotic prescribing errors in neuro-urology."
+        }
+      ]
+    },
+    {
+      "id": "D2-S3",
+      "title": "Clean Intermittent Catheterisation (CIC): Technique, Catheter Selection, and Outcomes",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Clean intermittent catheterisation (CIC)** is the gold-standard bladder management strategy for patients with neurogenic bladder requiring regular assisted bladder emptying. Introduced by Lapides et al. in 1972 (J Urol 1972) using a clean (not sterile) technique with reusable catheters, CIC has transformed the management of neurogenic bladder — dramatically reducing the UTI rates, UUT complications, and mortality associated with indwelling urethral and suprapubic catheters. The physiological basis of CIC's superiority: intermittent complete bladder emptying prevents chronic bacterial colonisation, preserves detrusor muscle compliance (avoiding chronic overdistension), maintains urothelial integrity, and allows the patient to manage their own bladder without a permanent foreign body.\n\nCIC should be performed every **4–6 hours** to prevent bladder volume exceeding safe storage capacity (typically 300–400 mL, keeping intravesical pressure below DLPP <40 cmH₂O). Fluid restriction to approximately 2 litres/day helps keep catheterisation volumes predictable. **Bladder diaries** and CIC volume logs are essential for monitoring and adjusting catheterisation frequency.\n\n**Catheter selection**: single-use hydrophilic-coated catheters are preferred over uncoated or reusable catheters in CIC for neurogenic patients — meta-analysis (Moore 2006, BJU Int) showed lower symptomatic UTI rates with hydrophilic catheters compared to uncoated or gel-lubricated catheters. Catheter size: 12–16 Fr for adults; smaller in children. Coude-tipped catheters for men with urethral angulation or strictures. **Self-catheterisation** (CISC) is achievable by most patients with cervical SCI C5–C6 or below (hand function preserved) and by virtually all patients with thoracic and lumbar SCI.\n\nLong-term CIC complications include: urethral stricture (5–15% over 10 years — more common in males), epididymo-orchitis, recurrent UTI, and rarely bladder stones from catheter fragment retention. Regular urethral calibration and urethrography (if symptomatic) monitor for stricture development."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — CIC as Gold-Standard Bladder Management",
+          "content": "Weld and Dmochowski (J Urol 2000) showed CIC has the lowest UUT complication rates compared to indwelling urethral catheter (IDUC) and suprapubic catheter (SPC) in SCI patients. CIC: lowest infection and UUT deterioration. IDUC: highest rates of urethral complications (stricture, false passage, hypospadias in women) and bladder squamous cell carcinoma risk (long-term >10 years). SPC: avoids urethral trauma but has peristomal complications. EAU 2024 Grade A: CIC preferred over indwelling catheter methods for all patients capable of performing it."
+        }
+      ]
+    },
+    {
+      "id": "D2-S4",
+      "title": "Medical Management of Neurogenic Detrusor Overactivity",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Neurogenic detrusor overactivity (NDO)** is defined as detrusor overactivity (involuntary detrusor contractions during the filling phase) occurring in the context of a confirmed neurological condition. The primary management goal in NDO is to reduce intravesical pressure (keeping DLPP <40 cmH₂O), increase functional bladder capacity, and reduce incontinence — thereby protecting the UUT and improving quality of life.\n\n**Antimuscarinics** are first-line pharmacological treatment for NDO (EAU 2024 Grade A). Oxybutynin (immediate-release or extended-release), solifenacin, tolterodine, trospium, and darifenacin are all used. The evidence base for antimuscarinics in NDO is established through multiple RCTs. Key side effects: dry mouth, constipation, blurred vision, cognitive effects (central penetration — oxybutynin highest CNS penetration; trospium and darifenacin/solifenacin lowest). For SCI patients with neurogenic DO+DSD, antimuscarinics in combination with CIC is the standard first-line approach.\n\n**Mirabegron** (beta-3 adrenoceptor agonist) is an alternative or adjunct to antimuscarinics for NDO, with a more favourable side-effect profile. It is particularly useful in patients intolerant of antimuscarinic side effects. Evidence in neurogenic populations is more limited than for idiopathic OAB, but EAU 2024 gives a Grade B recommendation for its use in NDO.\n\n**Intradetrusor botulinum toxin-A (BoNT-A)** — administered as 200 units (for NDO, higher dose than for idiopathic OAB where 100 U is used) injected cystoscopically into the detrusor muscle (sparing the trigone) — is the most effective pharmacological treatment for refractory NDO. The pivotal Phase 3 trials by Cruz et al. (Eur Urol 2011) and Ginsberg et al. (J Urol 2012) — both RCTs in NDO from SCI and multiple sclerosis — demonstrated significant reductions in incontinence episodes, improvement in maximum cystometric capacity, and significant reduction in DLPP compared to placebo. The DIGNITY trial (Ginsberg 2012) enrolled 227 patients with NDO; onabotulinumtoxinA 200 U reduced incontinence episodes by 53.3% vs 18.2% placebo (p<0.001) and increased maximum cystometric capacity by +111 mL vs +14 mL (p<0.001). Key adverse effect: urinary retention requiring CIC — occurs in 30–40% of NDO patients (who are often already on CIC). Duration of effect: 6–9 months; repeat injections are required. FDA and EMA approved for NDO since 2011."
+        },
+        {
+          "type": "table",
+          "title": "Pharmacological Treatments for Neurogenic Detrusor Overactivity — Evidence Summary",
+          "headers": ["Treatment", "Dose", "Level of Evidence", "Key Benefit", "Key Side Effect", "Key Trial"],
+          "rows": [
+            ["Oxybutynin IR", "5 mg TDS", "Grade A (EAU 2024)", "Established efficacy, low cost", "Dry mouth, cognition (highest CNS penetration)", "Multiple RCTs"],
+            ["Oxybutynin XR/PR", "5–15 mg OD", "Grade A", "Reduced side effects vs IR", "Dry mouth, constipation", "Multiple RCTs"],
+            ["Solifenacin", "5–10 mg OD", "Grade A", "High selectivity M3, once daily", "Dry mouth, constipation", "SONIC trial and NDO RCTs"],
+            ["Trospium (chloride)", "20 mg BD", "Grade A", "Quaternary amine — low CNS penetration, preferred in elderly/cognitively impaired", "Dry mouth, constipation", "NDO RCTs"],
+            ["Mirabegron", "25–50 mg OD", "Grade B", "No anticholinergic side effects", "Hypertension, tachycardia", "EAU 2024 Grade B"],
+            ["OnabotulinumtoxinA 200 U (NDO)", "200 U intradetrusor", "Grade A (FDA/EMA approved 2011)", "Reduces DLPP, increases cystometric capacity, reduces UI", "Urinary retention (30–40%) — CIC required", "Cruz Eur Urol 2011; Ginsberg J Urol 2012 (DIGNITY)"],
+            ["Combination antimuscarinic + mirabegron", "Both at standard doses", "Grade B", "Additive efficacy, may improve tolerability", "Combined side effects", "Emerging evidence 2022–2024"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — BoNT-A for NDO in SCI",
+          "content": "A 32-year-old male with T6 complete SCI (AIS A) has DO+DSD on urodynamics with DLPP 68 cmH₂O and maximum cystometric capacity 180 mL on oxybutynin 15 mg/day. He performs CIC ×5/day but has 4 urge incontinence episodes daily. The appropriate next step is cystoscopic intradetrusor onabotulinumtoxinA 200 U (NDO dose). The goal is DLPP <40 cmH₂O and functional bladder capacity ≥300 mL, protecting his upper urinary tract. He should be counselled that he will need repeat injections every 6–9 months and that CIC frequency may need to increase post-injection due to reduced detrusor contractility."
+        }
+      ]
+    },
+    {
+      "id": "D2-S5",
+      "title": "Neuromodulation: Sacral Neuromodulation and Posterior Tibial Nerve Stimulation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Sacral neuromodulation (SNM)** modulates the neural circuits involved in bladder storage and voiding by delivering continuous low-amplitude electrical stimulation to the S3 sacral nerve root via a permanently implanted electrode and pulse generator. The mechanism of SNM is not fully understood but involves modulation of the afferent C-fibre activity from the bladder, with downstream effects on the PMC and spinal cord circuits. SNM is approved by the FDA and EMA for: refractory OAB (DO, urgency, urge UI), non-obstructive urinary retention, and faecal incontinence. For neurogenic patients, the evidence base is more limited — EAU 2024 gives a Grade C recommendation for SNM in carefully selected neurogenic LUTS patients (incomplete spinal cord injuries, multiple sclerosis — AVOID complete SCI and myelomeningocele where evidence is poor).\n\nThe SNM procedure is performed in two stages: **Stage 1** — percutaneous nerve evaluation (PNE) or tined lead placement at S3, external stimulation for 2–4 weeks to assess response; if ≥50% improvement in symptom scores (voiding diary), **Stage 2** — implantation of the pulse generator (IPG/neurostimulator). Key contraindications: MRI incompatibility (older non-conditional devices), bilateral knee/hip replacement, diathermy requirement, pregnancy, severe obesity. Modern MRI-conditional SNM devices (Axonics, Medtronic InterStim II) have significantly reduced the MRI-incompatibility issue.\n\n**Posterior tibial nerve stimulation (PTNS)** delivers transcutaneous or percutaneous electrical stimulation to the posterior tibial nerve at the ankle (S3 reflex arc — shared with pelvic floor innervation). It is the least invasive neuromodulation approach. The landmark **SUMIT RCT** (Peters et al., J Urol 2010) enrolled 220 patients with refractory OAB, demonstrating a 54.5% moderately or markedly improved response with PTNS vs 20.9% with sham stimulation (p<0.001). PTNS requires weekly 30-minute in-clinic sessions for 12 weeks induction, followed by monthly maintenance sessions. It is particularly useful in elderly or frail patients where SNM implantation carries higher surgical risk. For neurogenic bladder, evidence is limited but supports PTNS as an adjunctive/escalation option before SNM implantation in selected neurogenic cases (EAU Grade C)."
+        },
+        {
+          "type": "table",
+          "title": "Neuromodulation Options for Neurogenic LUTS — Comparison",
+          "headers": ["Modality", "Mechanism", "Approved Indications", "Neurogenic Evidence", "Key Limitation"],
+          "rows": [
+            ["SNM (Medtronic/Axonics)", "S3 electrical stimulation via implanted electrode", "Refractory OAB, non-obstructive retention, FI", "Grade C — incomplete SCI, MS only; avoid complete SCI", "Surgery, MRI (older devices), cost"],
+            ["PTNS (UroPad/Urgent-PC)", "Tibial nerve (S3 reflex arc) stimulation", "Refractory OAB (off-label neurogenic)", "Grade C — limited neurogenic RCT data", "Weekly clinic visits; no permanent implant benefit"],
+            ["Intravesical electrostimulation", "Direct bladder wall electrical stimulation", "DUA — restore bladder awareness (paediatric)", "Grade C — experimental", "Very limited RCT evidence"],
+            ["Transcranial magnetic stimulation (TMS)", "Cortical modulation", "OAB secondary to brain injury", "Investigational only", "No clinical approval, research stage"],
+            ["Dorsal penile/clitoral nerve stimulation", "S3 pudendal reflex arc", "Refractory DSD inhibition", "Grade C — very limited evidence", "Research setting only"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — PTNS SUMIT Trial Results",
+          "content": "SUMIT RCT (Peters J Urol 2010): PTNS 54.5% vs sham 20.9% 'moderately or markedly improved' response for refractory OAB (p<0.001). PTNS is the only neuromodulation approach that can be offered in clinic without surgery. Key advantage: no implant, no surgical risk. Key limitation: requires weekly 30-min sessions × 12 weeks (induction) then monthly maintenance. For neurogenic patients, SNM has greater evidence (Grade C) but higher surgical risk; PTNS is the preferred initial neuromodulation option in frail/elderly neurogenic patients."
+        }
+      ]
+    },
+    {
+      "id": "D2-S6",
+      "title": "Surgical Management: Augmentation Cystoplasty, Catheterisable Stoma, and Urinary Diversion",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Surgical management of neurogenic bladder is reserved for patients refractory to pharmacological treatment (antimuscarinics, BoNT-A) who continue to have dangerous DLPP (>40 cmH₂O), unacceptable incontinence, or progressive UUT deterioration. The surgical options represent a spectrum from bladder augmentation (preserving native voiding) to complete urinary diversion.\n\n**Augmentation cystoplasty (clam cystoplasty)** is the gold-standard surgical procedure for refractory neurogenic DO or severely reduced bladder compliance (<10 mL/cmH₂O) not responsive to BoNT-A. A segment of bowel (typically 25–40 cm of detubularised ileum — ileocystoplasty, or sigmoid colon — sigmoidocystoplasty) is sewn into a large incision in the bivalved bladder dome, creating a low-pressure, high-capacity reservoir. This reliably reduces DLPP to <20 cmH₂O and increases capacity to >400 mL in >90% of cases. CIC is mandatory post-operatively (the augmented bladder does not contract effectively). Long-term complications include: mucous production (requiring regular bladder irrigation), metabolic complications (hyperchloraemic metabolic acidosis — ileal segment reabsorbs chloride and secretes bicarbonate — requires long-term alkalinisation with sodium bicarbonate or potassium citrate), bladder stones (mucous + incomplete emptying), vitamin B12 deficiency (ileal segment), and a very small but real risk of malignancy at the bowel-bladder anastomosis (adenocarcinoma at the vesico-enteric anastomosis — 1% at 10 years, requires annual cystoscopic surveillance after 10 years).\n\n**Continent catheterisable stoma (Mitrofanoff principle)** uses the appendix or Yang-Monti ileal tube to create a catheterisable channel from the skin surface (typically umbilical or right iliac fossa) to the bladder. This is particularly valuable in wheelchair-bound patients or those with limited hand function who cannot catheterise urethrally. The appendix is tunnelled into the bladder with an anti-reflux submucosal tunnel to maintain continence — stomal continence is achieved in >85% of cases long-term. Often performed concurrently with augmentation cystoplasty.\n\n**Urinary diversion** (ileal conduit or continent cutaneous diversion) is reserved for patients with irreversibly damaged bladders (fibrotic, non-compliant), upper tract deterioration despite optimised conservative management, recurrent severe infections, or those who cannot be managed with CIC. It represents a major reconstructive procedure with significant metabolic and quality-of-life implications."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Metabolic Complications of Augmentation Cystoplasty",
+          "content": "Ileal augmentation cystoplasty causes hyperchloraemic metabolic acidosis (Type 2/normal anion gap) by reabsorption of urinary chloride and secretion of bicarbonate across the ileal segment. This is particularly dangerous in patients with pre-existing renal impairment (reduced bicarbonate buffering capacity). Symptoms: fatigue, anorexia, nausea, reduced bone density. Routine monitoring: annual serum bicarbonate, creatinine, vitamin B12. Treatment: oral sodium bicarbonate or potassium citrate supplementation long-term. Sigmoidocystoplasty also causes metabolic acidosis but with different electrolyte abnormalities. Always warn patients pre-operatively about lifelong CIC requirement, bladder irrigation, and metabolic monitoring."
+        }
+      ]
+    },
+    {
+      "id": "D2-S7",
+      "title": "Autonomic Dysreflexia: Recognition and Emergency Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Autonomic dysreflexia (AD)** is a potentially life-threatening syndrome occurring in patients with spinal cord injuries at or above T6 (thoracic 6), characterised by sudden, severe hypertension (systolic BP typically 200–300 mmHg in adults, ≥20 mmHg above baseline in SCI) triggered by noxious stimuli below the level of injury. The pathophysiology involves an unopposed sympathetic reflex arc: a noxious stimulus (bladder distension, faecal impaction, urological instrumentation, pressure sore, infected wound, fracture) triggers uncontrolled sympathetic discharge below the level of injury, causing massive vasoconstriction. Above the lesion, parasympathetic reflexes attempt compensation via bradycardia and vasodilation (facial flushing, nasal congestion, diaphoresis above the level) but cannot adequately counteract the hypertensive crisis.\n\nSymptoms include: **severe pounding headache** (most common presenting symptom — from cerebral vasodilation), profuse sweating and flushing above the injury level, pallor and goosebumps below, bradycardia (paradoxical — baroreceptor-mediated), blurred vision, nasal congestion, and anxiety. If untreated, AD can cause hypertensive encephalopathy, intracranial haemorrhage, retinal haemorrhage, myocardial infarction, pulmonary oedema, and death.\n\n**Emergency management**: (1) **SIT THE PATIENT UP** immediately (orthostatic drop in BP from sitting position provides immediate BP reduction); (2) **Identify and remove the triggering stimulus** — check catheter (kinked, blocked, full bag), palpate abdomen for bladder distension, check for faecal impaction (insert anaesthetic lubricant gel into the rectum before digital examination to avoid further stimulation); (3) **Monitor blood pressure continuously**; (4) **Pharmacological treatment** if systolic BP >150 mmHg persists despite removing the stimulus: **glyceryl trinitrate (GTN) spray or paste** (sublingual/topical) provides rapid vasodilation; **nifedipine 10 mg sublingual** (avoid in patients on PDE5 inhibitors — nitrate interaction); alternatively **captopril 25 mg sublingual**. (5) If undergoing urological procedure, **abort the procedure** immediately and decompress the bladder.\n\nPrevention during urological procedures in SCI patients at or above T6: use of **lidocaine gel** for lubrication, slow bladder filling, limiting filling volume, and **spinal anaesthesia** (which eliminates the AD trigger pathway in the lower body) are all effective preventive strategies."
+        },
+        {
+          "type": "table",
+          "title": "Autonomic Dysreflexia — Triggers, Symptoms, and Management",
+          "headers": ["Category", "Details"],
+          "rows": [
+            ["Risk group", "SCI at or above T6 — ALL urological procedures in these patients require AD protocol"],
+            ["Most common trigger (urological)", "Bladder distension (obstructed catheter, full bladder, cystoscopy)"],
+            ["Other triggers", "Faecal impaction, pressure sore, fracture, tight clothing, sexual activity, childbirth"],
+            ["Classic symptoms", "Severe pounding headache, profuse sweating, flushing above level, pallor below, bradycardia"],
+            ["BP threshold (adults)", "≥20 mmHg above individual's baseline SBP; typically 200–300 mmHg in T6+"],
+            ["Immediate action 1", "Sit patient upright (reduces BP via orthostatism)"],
+            ["Immediate action 2", "Remove trigger: unblock catheter, drain bladder, check for faecal impaction"],
+            ["Pharmacological (SBP >150 persistent)", "GTN spray sublingually or nitroglycerin paste; nifedipine 10 mg sublingual; captopril 25 mg sublingual"],
+            ["During procedure", "Abort cystoscopy immediately; drain bladder; lidocaine gel before future procedures"],
+            ["Prevention", "Adequate anaesthesia/analgesia; slow bladder filling; spinal anaesthesia for procedures"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Performing Cystoscopy Without AD Precautions in T6+ SCI",
+          "content": "Any cystoscopic procedure (TURBT, ureteroscopy, urodynamics, catheter change) in a patient with SCI at T6 or above must be preceded by explanation of AD risk to the anaesthetist and patient. Use lidocaine gel for all urethral catheterisations. Perform procedures with continuous BP monitoring. Consider spinal anaesthesia for semi-elective procedures. During an AD episode triggered by instrumentation: STOP immediately, drain the bladder, sit the patient up, and monitor BP. Failure to recognise and manage AD can result in death from intracranial haemorrhage."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of neurogenic lower urinary tract dysfunction with 20 board-style questions covering classification, upper tract monitoring, CIC, pharmacotherapy, neuromodulation, and autonomic dysreflexia.",
+    "questions": [
+      {
+        "id": "D2-Q1",
+        "stem": "A 28-year-old man with a complete T4 spinal cord injury (AIS A) presents for urological evaluation 3 months after injury. He denies any urinary symptoms. Renal ultrasound shows bilateral mild hydronephrosis (Grade 2). What urodynamic finding most directly explains the upper tract dilation?",
+        "options": {
+          "A": "Detrusor underactivity with urinary retention and overflow",
+          "B": "Detrusor overactivity with detrusor-sphincter dyssynergia, DLPP >40 cmH₂O",
+          "C": "Detrusor overactivity without DSD — equivalent to suprapontine pattern",
+          "D": "Low bladder compliance from fibrosis secondary to catheter use"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "T4 SCI is a suprasacral spinal cord lesion — below the pons, above S2-S4 sacral cord. The pontine micturition centre is disconnected from the sacral cord, resulting in detrusor overactivity WITH detrusor-sphincter dyssynergia (DO+DSD). DSD causes simultaneous contraction of the detrusor and external urethral sphincter, generating very high intravesical pressures. DLPP >40 cmH₂O drives ureteral reflux and hydronephrosis — the mechanism underlying bilateral Grade 2 hydronephrosis in this patient. This is the HIGH upper tract risk group.",
+          "wrong": {
+            "A": "Detrusor underactivity (sacral LMN lesion) would cause retention and overflow but typically does NOT generate the high intravesical pressures needed to drive ureteral reflux and hydronephrosis. The T4 lesion is suprasacral — UMN, not LMN.",
+            "C": "Suprapontine lesions (above pons) cause DO WITHOUT DSD — the PMC is intact and coordinates sphincter relaxation with bladder contraction. This produces LOW UUT risk. T4 is BELOW the pons — it is suprasacral, producing DO WITH DSD.",
+            "D": "Low compliance fibrosis from catheter use can develop over time but does not explain acute hydronephrosis at 3 months post-injury. The primary mechanism is DO+DSD generating high-pressure detrusor contractions against a closed sphincter."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Suprasacral SCI: DO+DSD pattern, DLPP >40 cmH₂O threshold for UUT risk, annual renal USS and urodynamics mandatory",
+          "trial": "McGuire EJ et al. Prognostic value of urodynamic testing in myelodysplastic patients. J Urol 1981;126:205: DLPP >40 cmH₂O established as threshold for upper tract deterioration — foundational neuro-urology paper",
+          "pearl": "T4-T12 SCI (suprasacral) = DO + DSD = HIGH UUT risk. DLPP >40 cmH₂O → upper tract damage. T6+ SCI = autonomic dysreflexia risk. Sacral SCI = DUA, no DSD = lower UUT risk. Pontine lesions = DO without DSD = low risk."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q2",
+        "stem": "A 45-year-old woman with relapsing-remitting multiple sclerosis presents with urgency, urge incontinence (8 episodes/day), and incomplete bladder emptying (PVR 180 mL). She has failed oxybutynin 10 mg/day due to intolerable dry mouth. Urodynamics show NDO with maximum cystometric capacity 220 mL, DLPP 62 cmH₂O, and poor compliance (15 mL/cmH₂O). What is the most appropriate next treatment?",
+        "options": {
+          "A": "Trospium chloride 20 mg BD instead of oxybutynin",
+          "B": "Intradetrusor onabotulinumtoxinA 200 U (NDO dose)",
+          "C": "Sacral neuromodulation (SNM) implantation",
+          "D": "Augmentation cystoplasty (ileocystoplasty)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has refractory NDO with dangerous urodynamic parameters (DLPP 62 cmH₂O >40 cmH₂O threshold, poor compliance 15 mL/cmH₂O) and has failed one antimuscarinic. The EAU 2024 Grade A recommendation for refractory NDO is intradetrusor onabotulinumtoxinA 200 U (the approved NDO dose — higher than idiopathic OAB 100 U). The DIGNITY trial (Ginsberg J Urol 2012) and Cruz et al. (Eur Urol 2011) both demonstrated significant DLPP reduction, capacity increase, and incontinence reduction. She should be counselled that CIC may become necessary post-injection (30–40% of patients).",
+          "wrong": {
+            "A": "Switching to another antimuscarinic (trospium) would be appropriate if the current agent caused intolerable side effects and the next-line agent has a better tolerability profile. However, trospium has the same drug class as oxybutynin — antimuscarinic intolerance is a class effect in many patients. More importantly, the dangerous DLPP (62 cmH₂O) with upper tract risk requires a more definitive intervention than an antimuscarinic switch. BoNT-A is the evidence-based escalation.",
+            "C": "SNM is not recommended for NDO from multiple sclerosis with DLPP >40 cmH₂O as first escalation. EAU Grade C gives SNM a limited role in carefully selected MS patients — but BoNT-A (Grade A) is the established evidence-based treatment for refractory NDO in MS, and should be tried before SNM.",
+            "D": "Augmentation cystoplasty is reserved for patients refractory to or unsuitable for BoNT-A — it is not first surgical escalation. It is a major irreversible procedure requiring lifelong CIC, metabolic monitoring, and bladder irrigation. BoNT-A (reversible, repeatable, less invasive) should be tried first."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Refractory NDO: BoNT-A 200 U intradetrusor Grade A after failed antimuscarinic; augmentation reserved for BoNT-A failure",
+          "trial": "Ginsberg D et al. DIGNITY trial. J Urol 2012;187:2131: OnabotulinumtoxinA 200 U vs placebo in NDO — reduced UI episodes 53.3% vs 18.2% (p<0.001), increased cystometric capacity +111 mL (p<0.001)",
+          "pearl": "Refractory NDO (failed antimuscarinic) + DLPP >40 cmH₂O = OnabotulinumtoxinA 200 U intradetrusor (Grade A, EAU 2024). NDO dose = 200 U (NOT 100 U — that is idiopathic OAB dose). CIC required in 30–40% post-injection."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q3",
+        "stem": "Clean intermittent catheterisation (CIC) was first described by which study, and what was the key evidence supporting CIC over indwelling catheter for long-term neurogenic bladder management?",
+        "options": {
+          "A": "Lapides et al. (J Urol 1972) — established clean (non-sterile) self-catheterisation, demonstrated safety and reduced UTI compared to prior fear of infection with non-sterile technique",
+          "B": "Weld and Dmochowski (J Urol 2000) — RCT demonstrating CIC superior to indwelling catheter for long-term UUT outcomes in SCI",
+          "C": "McGuire et al. (J Urol 1981) — showed DLPP >40 cmH₂O is the critical threshold for CIC initiation",
+          "D": "Cruz et al. (Eur Urol 2011) — demonstrated BoNT-A combined with CIC reduces UUT deterioration"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Jack Lapides et al. (J Urol 1972) introduced the concept of clean (non-sterile) intermittent self-catheterisation, demonstrating that a clean technique with a reusable catheter was safe and did not lead to dangerous infection rates. This was revolutionary — prior to Lapides, the dogma was that catheterisation required strict sterile technique, making it impractical for patient self-management. Lapides' work enabled self-management of neurogenic bladder in ambulatory patients, transforming the lives of SCI, myelomeningocele, and MS patients.",
+          "wrong": {
+            "B": "Weld and Dmochowski (J Urol 2000) was a prospective observational study (not RCT) demonstrating that CIC had the lowest UUT complication rates compared to other bladder management methods in 316 SCI patients. It supported CIC superiority but was not the foundational paper introducing CIC.",
+            "C": "McGuire et al. (J Urol 1981) established the DLPP >40 cmH₂O threshold for UUT risk in myelodysplastic patients — a critical paper for understanding when CIC is urgently needed, but not the paper introducing CIC itself.",
+            "D": "Cruz et al. (Eur Urol 2011) was the Phase 3 BoNT-A NDO trial — demonstrating BoNT-A efficacy for NDO, not the paper introducing CIC."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — CIC: Grade A recommendation, founded on Lapides 1972 and subsequent comparative evidence (Weld 2000)",
+          "trial": "Lapides J et al. Clean, intermittent self-catheterization in the treatment of urinary tract disease. J Urol 1972;107:458: foundational paper establishing CIC as safe, practical, and effective for neurogenic bladder management",
+          "pearl": "CIC introduced by Lapides J Urol 1972 — clean (not sterile) technique is safe. Weld J Urol 2000 — CIC has lowest UUT complication rates vs indwelling catheter in SCI. EAU Grade A: CIC preferred over all indwelling catheter methods for capable patients."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D2-Q4",
+        "stem": "A 72-year-old man with Parkinson's disease presents with urgency incontinence (6 episodes/day) and nocturia ×4. He takes levodopa/carbidopa 200/50 mg TDS. Urodynamics show detrusor overactivity with first sensation at 80 mL, maximum cystometric capacity 250 mL, no DSD, and Qmax 14 mL/s with PVR 45 mL. Which pharmacological agent is preferred for his OAB, and why?",
+        "options": {
+          "A": "Oxybutynin IR 5 mg TDS — most effective antimuscarinic",
+          "B": "Mirabegron 50 mg OD — preferred beta-3 agonist avoiding anticholinergic worsening of PD cognitive symptoms",
+          "C": "Trospium chloride 20 mg BD — low CNS penetration antimuscarinic, appropriate for Parkinson's",
+          "D": "Darifenacin 7.5 mg OD — M3-selective antimuscarinic, avoids dopaminergic effects"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In Parkinson's disease, the dopaminergic degeneration of the substantia nigra already impairs cognitive function. Antimuscarinics with CNS penetration (particularly oxybutynin — high CNS penetration, ACB score 3) worsen cognitive function and may precipitate or worsen dementia symptoms. Mirabegron (beta-3 adrenoceptor agonist) acts peripherally on the bladder and has no anticholinergic/cognitive effects — it is the preferred agent for OAB in patients with Parkinson's disease and other cognitive impairment states. EAU 2024 explicitly recommends mirabegron over antimuscarinics in cognitively impaired patients.",
+          "wrong": {
+            "A": "Oxybutynin has the highest CNS penetration of all antimuscarinics (ACB score 3 — high anticholinergic burden). It is the worst choice for a Parkinson's patient and should be avoided in all elderly and cognitively impaired patients.",
+            "C": "Trospium chloride is a quaternary ammonium compound with poor blood-brain barrier penetration — it is the safest antimuscarinic from a CNS perspective. However, in this specific Parkinson's patient context, mirabegron is still preferred because it avoids the anticholinergic drug burden entirely, which is important in Parkinson's where total anticholinergic load management is critical.",
+            "D": "Darifenacin is M3-selective and has moderate CNS penetration (better than oxybutynin but not as low as trospium). It is not the preferred choice for Parkinson's. Mirabegron avoids the anticholinergic class entirely."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Pharmacotherapy for OAB in Parkinson's disease: mirabegron preferred; antimuscarinics with high CNS penetration (oxybutynin) contraindicated",
+          "trial": "Wagg A et al. Pharmacological treatment of the overactive bladder syndrome in older patients. Drugs Aging 2015;32:137: mirabegron recommended as preferred OAB pharmacotherapy in elderly and cognitively impaired patients; oxybutynin highest fall and cognitive risk",
+          "pearl": "Parkinson's disease + OAB = MIRABEGRON (beta-3 agonist, no CNS effects). Avoid oxybutynin (ACB score 3, highest CNS penetration, worsens PD cognition). Trospium = safest antimuscarinic (no BBB penetration) but mirabegron still preferred in PD."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q5",
+        "stem": "The SUMIT RCT (Peters et al., J Urol 2010) evaluated posterior tibial nerve stimulation (PTNS) for refractory OAB. What were the key efficacy findings compared to sham stimulation?",
+        "options": {
+          "A": "PTNS 35% vs sham 30% global response — no significant difference",
+          "B": "PTNS 54.5% vs sham 20.9% 'moderately or markedly improved' response (p<0.001)",
+          "C": "PTNS 75% vs sham 20% — highly significant superiority",
+          "D": "PTNS equivalent to oxybutynin 5 mg BD — demonstrated in a head-to-head comparison"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The SUMIT RCT (Peters et al., J Urol 2010) enrolled 220 patients with refractory OAB randomised to weekly 12-week PTNS (percutaneous tibial nerve stimulation, 30-minute sessions at the ankle) vs sham stimulation. The primary endpoint — 'moderately or markedly improved' on the Global Response Assessment (GRA) — was achieved in 54.5% PTNS vs 20.9% sham (p<0.001), establishing the efficacy of PTNS as a neuromodulation option for refractory OAB.",
+          "wrong": {
+            "A": "A 35% vs 30% response with no significant difference would not support PTNS use. The actual SUMIT result showed a large, highly significant difference (54.5% vs 20.9%).",
+            "C": "75% vs 20% would overstate the PTNS response rate. The actual 54.5% moderately/markedly improved rate is the correct figure from the SUMIT trial.",
+            "D": "SUMIT compared PTNS to SHAM (not to an active pharmacological control like oxybutynin). The OrBIT trial (Sherif L, 2010) compared PTNS to extended-release tolterodine showing equivalent efficacy in OAB — but that is a different trial. SUMIT was PTNS vs sham."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — PTNS for refractory OAB: Grade A evidence based on SUMIT RCT; weekly 30-min sessions × 12 weeks induction then monthly maintenance",
+          "trial": "Peters KM et al. SUMIT RCT. J Urol 2010;183:1438–1443: PTNS 54.5% vs sham 20.9% moderately/markedly improved (p<0.001) — landmark trial establishing PTNS efficacy for refractory OAB",
+          "pearl": "SUMIT RCT (Peters J Urol 2010): PTNS 54.5% vs sham 20.9% response (p<0.001). Protocol: weekly 30-min ankle stimulation sessions × 12 weeks, then monthly maintenance. EAU Grade A for refractory OAB. Preferred over SNM in frail/elderly (no surgery needed)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q6",
+        "stem": "Which of the following is the most common long-term complication of ileal augmentation cystoplasty (ileocystoplasty) from a metabolic standpoint?",
+        "options": {
+          "A": "Hypokalaemic metabolic alkalosis",
+          "B": "Hyperchloraemic metabolic acidosis",
+          "C": "Hyponatraemic metabolic alkalosis",
+          "D": "Hypercalcaemic nephrocalcinosis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Ileal segments in contact with urine reabsorb chloride (and ammonium) and secrete bicarbonate across the ileal mucosa. This results in hyperchloraemic, normal anion gap metabolic acidosis — the most common and clinically significant metabolic complication of ileocystoplasty. It is exacerbated by renal impairment (reduced bicarbonate regeneration), prolonged urine contact time (inadequate CIC frequency), and large bowel segment length. Management: oral sodium bicarbonate or potassium citrate supplementation; annual serum electrolytes and bicarbonate monitoring.",
+          "wrong": {
+            "A": "Hypokalaemic metabolic alkalosis would occur from gastric segment cystoplasty (gastrocystoplasty — rare, historical) where gastric acid secretion by the stomach segment causes metabolic alkalosis. Ileal segments cause ACIDOSIS.",
+            "C": "Hyponatraemic metabolic alkalosis is not a recognised complication of ileocystoplasty. Sodium handling in ileal augmentation does not typically cause hyponatraemia as a metabolic complication.",
+            "D": "Hypercalcaemic nephrocalcinosis is not a specific complication of ileocystoplasty. Vitamin B12 deficiency (from terminal ileal segment) and metabolic acidosis (with secondary effects on bone mineral density) are the recognised metabolic complications."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Augmentation cystoplasty: metabolic monitoring mandatory; hyperchloraemic acidosis annual serum electrolytes, bicarbonate, vitamin B12",
+          "trial": "Hautmann RE. Urinary diversion: ileal conduit to neobladder. J Urol 2003;169:834: comprehensive review of metabolic complications of ileal bowel segments in urinary tract reconstruction",
+          "pearl": "Ileocystoplasty metabolic complication = hyperchloraemic METABOLIC ACIDOSIS (ileal mucosa reabsorbs Cl⁻, secretes HCO₃⁻). Monitor: annual serum HCO₃⁻, creatinine, vitamin B12. Treat: oral sodium bicarbonate or K-citrate. Also monitor for bladder stones (mucus + incomplete emptying)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q7",
+        "stem": "A 35-year-old man with T5 complete SCI (AIS A) is undergoing flexible cystoscopy to investigate haematuria. During the procedure, he complains of a severe pounding headache, and his blood pressure is noted to be 210/115 mmHg (baseline ~100/60 mmHg in SCI patients). What is the diagnosis and correct immediate management?",
+        "options": {
+          "A": "Hypertensive urgency from pre-existing essential hypertension — give oral amlodipine 5 mg",
+          "B": "Autonomic dysreflexia — sit patient upright, stop the procedure, drain the bladder, give sublingual GTN or nifedipine if BP remains elevated",
+          "C": "Anxiety-related hypertension — reassure the patient and monitor",
+          "D": "Drug interaction between the local anaesthetic and antispasticity medication"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This is a classic autonomic dysreflexia (AD) presentation: T5 SCI (above T6 threshold), procedure that distends the bladder, severe pounding headache, and massive BP elevation (>20 mmHg above baseline — in SCI patients, resting BP is often 90–110/60 mmHg, so 210/115 mmHg represents a dangerous AD episode). Immediate management: (1) sit patient upright (orthostatic BP drop), (2) STOP the procedure, (3) drain the bladder immediately, (4) monitor BP continuously, (5) if systolic remains >150 mmHg after draining, give sublingual GTN spray or nifedipine 10 mg sublingual.",
+          "wrong": {
+            "A": "This is not pre-existing hypertension — the clinical context (SCI procedure, headache, baseline BP of ~100/60) is diagnostic of AD. Oral amlodipine has delayed onset (hours) — it is not appropriate for AD emergency management. Continuing the procedure would be dangerous.",
+            "C": "Anxiety does not cause 210/115 mmHg hypertension in the context of a cystoscopic procedure in a T5 SCI patient with a severe headache. This is AD until proven otherwise and requires immediate intervention.",
+            "D": "There is no well-recognised interaction between urethral local anaesthetic gel and antispasticity medication causing hypertensive crisis. The clinical picture is diagnostic of AD."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Autonomic dysreflexia: emergency protocol; all SCI at or above T6 require AD monitoring during urological procedures; immediate BP management algorithm",
+          "trial": "Consortium for Spinal Cord Medicine. Autonomic Dysreflexia: A Medical Emergency in Spinal Cord Injury. J Spinal Cord Med 2002;25:316: evidence-based clinical guidelines for AD recognition and management — definitive AD reference",
+          "pearl": "Autonomic dysreflexia (AD): SCI ≥T6 + noxious stimulus below injury level → massive sympathetic discharge → BP ≥200/115, pounding headache. STOP procedure → sit up → drain bladder → sublingual GTN or nifedipine if SBP >150 persists. LIFE-THREATENING emergency."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q8",
+        "stem": "Videourodynamics (VUDS) is considered the gold standard investigation for characterising neurogenic lower urinary tract dysfunction. Which combination of parameters is uniquely available from VUDS but NOT from standard urodynamics (cystometry alone)?",
+        "options": {
+          "A": "Detrusor leak point pressure and maximum cystometric capacity",
+          "B": "Concurrent visualisation of vesicoureteral reflux, trabeculation, and bladder morphology during filling",
+          "C": "Pressure-flow relationship during voiding (PdetQmax)",
+          "D": "Urethral pressure profile and functional urethral length"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Videourodynamics (VUDS) combines real-time fluoroscopic imaging of the lower and upper urinary tract with simultaneous pressure-flow urodynamic measurements. This allows identification of features not visible on standard urodynamics: vesicoureteral reflux (which occurs at specific intravesical pressures — the reflux pressure can be precisely determined), bladder trabeculation (indicating high-pressure storage), bladder morphology changes (cellsules, diverticula), bladder neck behaviour, urethral activity during voiding (DSD visualisation on fluoroscopy), and synchronous upper tract changes. These structural findings are critical for UUT risk stratification in neurogenic patients.",
+          "wrong": {
+            "A": "DLPP and maximum cystometric capacity are standard urodynamic parameters measurable with conventional multichannel cystometry — they do not require videofluoroscopy.",
+            "C": "Pressure-flow relationship (PdetQmax) during voiding is a standard filling cystometry + uroflowmetry parameter — it does not require simultaneous fluoroscopy.",
+            "D": "Urethral pressure profile (UPP) is measured using urethral pressure profilometry catheter withdrawal — a standard urodynamic accessory technique, not requiring videourodynamics."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — VUDS: gold standard for NLUTD characterisation; uniquely identifies VUR, bladder morphology changes, DSD on fluoroscopy, upper tract changes during filling",
+          "trial": "Stöhrer M et al. EAU guidelines for neuro-urological management of SCI. Eur Urol 2009;56:234: VUDS described as standard investigation for comprehensive neurogenic bladder characterisation including upper tract assessment",
+          "pearl": "VUDS = urodynamics + fluoroscopy simultaneously. Uniquely shows: VUR (at which filling pressure), trabeculation severity, bladder diverticula, DSD on fluoroscopy (sphincter closes during detrusor contraction). Standard UDS alone cannot assess VUR or bladder morphology."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q9",
+        "stem": "A 26-year-old woman with myelomeningocele and sacral spinal cord involvement is found to have an acontractile bladder on urodynamics with maximum cystometric capacity 580 mL, bladder compliance 45 mL/cmH₂O, DLPP 18 cmH₂O, PVR 520 mL, and no detrusor activity throughout filling. What is the primary management recommendation?",
+        "options": {
+          "A": "Anticholinergic therapy to reduce bladder contractions",
+          "B": "Clean intermittent catheterisation (CIC) every 4–6 hours",
+          "C": "Indwelling urethral catheter for continuous drainage",
+          "D": "Bladder augmentation to reduce the risk of high-pressure reflux"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Sacral myelomeningocele involvement causes a LMN pattern — acontractile bladder (no detrusor activity) with a large, compliant, low-pressure bladder and urinary retention. This pattern has low UUT risk (DLPP 18 cmH₂O is well below the 40 cmH₂O threshold) but causes significant urinary retention (PVR 520 mL) with overflow incontinence risk and UTI risk. CIC is the gold-standard management — regular complete bladder emptying prevents UTI, maintains bladder capacity, and preserves upper tract function. Antimuscarinics are for detrusor overactivity — completely inappropriate for acontractile bladder.",
+          "wrong": {
+            "A": "Antimuscarinics reduce detrusor contractility — giving them to a patient with an already acontractile bladder would worsen urinary retention without any therapeutic benefit. This is a dangerous error.",
+            "C": "Indwelling urethral catheter (IDUC) has higher long-term complication rates than CIC (urethral damage, hypospadias, stricture, bladder cancer risk with >10 years use, higher UTI rates). CIC is preferred for all capable patients.",
+            "D": "Bladder augmentation is reserved for high-pressure, low-compliance bladders (DLPP >40 cmH₂O, compliance <20 mL/cmH₂O). This patient has excellent compliance (45 mL/cmH₂O) and low DLPP (18 cmH₂O) — augmentation is not indicated and would be an unnecessary major operation."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Acontractile bladder (sacral/LMN): CIC Grade A first-line; IDUC only when CIC not possible; augmentation only for high-pressure/low-compliance bladder",
+          "trial": "Lapides J et al. J Urol 1972;107:458: CIC for neurogenic DUA/acontractile bladder — foundational evidence for CIC in LMN neurogenic bladder",
+          "pearl": "Acontractile bladder + large PVR = CIC every 4–6 hours. DO NOT give antimuscarinics (worsens retention), DO NOT insert IDUC (higher complications than CIC). Augmentation only if high-pressure low-compliance (DLPP >40, compliance <20 mL/cmH₂O)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D2-Q10",
+        "stem": "For which patient group is sacral neuromodulation (SNM) specifically NOT recommended according to EAU 2024 Neuro-Urology Guidelines?",
+        "options": {
+          "A": "Multiple sclerosis with incomplete lesion and refractory OAB",
+          "B": "Complete spinal cord injury (AIS A) with neurogenic detrusor overactivity",
+          "C": "Parkinson's disease with refractory OAB not responding to antimuscarinics",
+          "D": "Idiopathic overactive bladder refractory to pharmacotherapy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 Neuro-Urology Guidelines specifically note that SNM evidence is poor and results are unpredictable in patients with complete spinal cord injury (AIS A — complete motor and sensory lesion). The mechanism of SNM relies on intact neural circuits (particularly afferent signalling and supraspinal modulation), which are absent in complete SCI. SNM is not recommended for complete SCI. In contrast, incomplete SCI, multiple sclerosis, and Parkinson's disease have sufficient intact neural connectivity for SNM to potentially work.",
+          "wrong": {
+            "A": "Multiple sclerosis with an incomplete lesion and refractory OAB is an appropriate (albeit limited evidence, Grade C) indication for SNM. MS patients with intact sacral reflex arcs may respond to SNM.",
+            "C": "Parkinson's disease with refractory OAB is a potential SNM indication (Grade C EAU). The supraspinal pathways are disrupted but the sacral reflex arc and peripheral afferent pathways are intact in Parkinson's, making SNM potentially effective.",
+            "D": "Idiopathic OAB refractory to pharmacotherapy is the primary approved indication for SNM — Grade A recommendation, FDA-approved. This is the highest-evidence SNM indication."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — SNM contraindicated in complete SCI (AIS A); evidence insufficient for bilateral complete lesions; Grade C for incomplete SCI and MS",
+          "trial": "Blok B et al. EAU Neuro-Urology Guidelines 2024: specific recommendation against SNM in complete SCI based on insufficient evidence and unpredictable outcomes in denervated lower tracts",
+          "pearl": "SNM NOT recommended: complete SCI (AIS A) — no intact neural circuits for modulation. SNM IS recommended: idiopathic OAB (Grade A), incomplete SCI (Grade C), MS incomplete lesion (Grade C), Parkinson's OAB (Grade C)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q11",
+        "stem": "A 30-year-old male with T10 SCI (AIS B) is initiated on CIC. The urologist advises him to perform CIC every 4–6 hours and limit fluid intake to approximately 2 litres/day. What is the maximum acceptable catheterised volume per CIC session to prevent upper tract damage?",
+        "options": {
+          "A": "Any volume is acceptable — CIC frequency is the only determinant",
+          "B": "400–500 mL per session — volumes above 500 mL suggest CIC frequency needs to increase",
+          "C": "200 mL maximum — volumes above 200 mL indicate bladder decompensation",
+          "D": "1000 mL — the bladder can safely store large volumes if CIC is performed regularly"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The target CIC volume is 300–400 mL per catheterisation, with a maximum acceptable volume of approximately 400–500 mL. This corresponds to the bladder capacity at which intravesical pressure remains below DLPP <40 cmH₂O in most neurogenic patients with compliant bladders. Consistently large volumes (>500 mL) indicate that CIC frequency needs to increase, or that fluid intake reduction is needed. High catheterised volumes suggest the bladder has been chronically overdistended between catheterisations, risking high-pressure storage and UUT damage.",
+          "wrong": {
+            "A": "CIC volume is critically important — large volumes between catheterisations indicate the bladder is being overfilled, with intravesical pressure potentially exceeding the DLPP threshold. Both frequency and volume must be monitored.",
+            "C": "200 mL is too restrictive — requiring CIC when volumes are only 200 mL would necessitate 8–10 catheterisations daily, which is impractical and unnecessarily disruptive. 300–500 mL target volumes with 4–6 hourly catheterisation intervals are appropriate.",
+            "D": "Allowing volumes of 1000 mL is dangerous — in neurogenic patients with DO+DSD, volumes >500 mL may generate DLPP >40 cmH₂O with UUT damage risk. Large storage volumes also increase UTI risk due to stagnant urine."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — CIC management: target catheterised volume 300–400 mL; maximum 400–500 mL; fluid restriction to 2 L/day to maintain predictable CIC volumes",
+          "trial": "Weld KJ, Dmochowski RR. J Urol 2000;163:768: CIC frequency and bladder volume management principles for neurogenic bladder — maximum acceptable volumes to maintain safe DLPP",
+          "pearl": "CIC target volume: 300–400 mL per session. Maximum: 400–500 mL. Volumes >500 mL = CIC frequency too low → increase frequency or reduce fluid intake. Fluid restriction to 2 L/day maintains predictable CIC intervals of 4–6 hours."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q12",
+        "stem": "The DIGNITY Phase 3 trial (Ginsberg et al., J Urol 2012) examined onabotulinumtoxinA for neurogenic detrusor overactivity. What dose of onabotulinumtoxinA was used for NDO, and how does this differ from the approved dose for idiopathic OAB?",
+        "options": {
+          "A": "NDO: 100 U; idiopathic OAB: 200 U — lower dose used for neurogenic",
+          "B": "NDO: 200 U; idiopathic OAB: 100 U — higher dose used for neurogenic",
+          "C": "Both conditions: 100 U — same dose regardless of aetiology",
+          "D": "NDO: 300 U; idiopathic OAB: 200 U — dose escalation needed for neurogenic"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The approved and evidence-based dose for NDO is 200 U of onabotulinumtoxinA (BOTOX), compared to 100 U for idiopathic OAB. This higher dose reflects the greater severity of neurogenic detrusor overactivity, higher detrusor muscle mass (often hypertrophied), and more severe urodynamic abnormalities. The DIGNITY trial (Ginsberg 2012) and Cruz et al. (Eur Urol 2011) both used 200 U for NDO and demonstrated significant efficacy. An important consequence of the higher dose: urinary retention requiring CIC occurs in 30–40% of NDO patients (vs ~6% in idiopathic OAB at 100 U).",
+          "wrong": {
+            "A": "This is the reverse of the correct doses. NDO uses the HIGHER dose (200 U), not 100 U. Using 100 U for NDO would be under-dosing for a more severe condition.",
+            "C": "The doses are NOT the same — 200 U for NDO, 100 U for idiopathic OAB. Confusing these doses is a significant clinical error and exam pitfall.",
+            "D": "300 U is not the approved dose for NDO. The FDA/EMA-approved dose for NDO is 200 U; 300 U would be off-label and associated with unacceptably high retention rates."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 and Neuro-Urology 2024 — OnabotulinumtoxinA: NDO 200 U (FDA/EMA approved 2011); idiopathic OAB 100 U (FDA/EMA approved 2013)",
+          "trial": "Ginsberg D et al. DIGNITY trial. J Urol 2012;187:2131: 200 U OnabotulinumtoxinA for NDO — Phase 3 RCT establishing 200 U as the approved dose; Cruz F et al. Eur Urol 2011;60:742 — concurrent Phase 3 confirmatory trial at 200 U",
+          "pearl": "OnabotulinumtoxinA dose: NDO = 200 U (HIGHER); idiopathic OAB = 100 U (LOWER). Confusing these is a classic exam mistake. NDO 200 U: retention requiring CIC in 30–40%. Idiopathic OAB 100 U: retention ~6%."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D2-Q13",
+        "stem": "A 22-year-old man with myelomeningocele and augmentation ileocystoplasty performed at age 14 presents with chronic pelvic pain and haematuria. He has been performing CIC 4–5 times/day. Cystoscopy shows a mass at the vesico-enteric anastomosis. Biopsy confirms adenocarcinoma. What was the most important missed surveillance measure in his post-augmentation follow-up?",
+        "options": {
+          "A": "Annual renal ultrasound",
+          "B": "Annual cystoscopic surveillance starting 10 years post-augmentation",
+          "C": "Annual urine cytology",
+          "D": "Annual serum vitamin B12 levels"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Augmentation cystoplasty carries a small but real long-term risk of adenocarcinoma at the bowel-bladder (vesico-enteric) anastomosis — approximately 1% at 10 years and increasing with time. EAU 2024 guidelines recommend annual cystoscopic surveillance with biopsies of the bowel-bladder anastomosis starting from 10 years post-augmentation. This patient had the augmentation at age 14 and is now 22 — at 8 years post-procedure, the annual cystoscopic surveillance should have begun at year 10 (or earlier if symptomatic, as in this case with haematuria). Haematuria in an augmentation patient should always prompt urgent cystoscopy.",
+          "wrong": {
+            "A": "Annual renal ultrasound is important for UUT surveillance post-augmentation but would not detect a bladder mucosal lesion at the vesico-enteric anastomosis. Cystoscopy is required for direct visualisation.",
+            "C": "Urine cytology has poor sensitivity for adenocarcinoma — it is most useful for transitional cell carcinoma (urothelial cancer). Cystoscopic biopsy is required for definitive diagnosis and is the recommended surveillance modality.",
+            "D": "Annual vitamin B12 is important for detecting terminal ileal segment depletion (impaired B12 absorption) but would not detect malignant transformation at the anastomosis."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Augmentation cystoplasty long-term follow-up: annual cystoscopy with biopsy of vesico-enteric anastomosis starting 10 years post-surgery for adenocarcinoma surveillance",
+          "trial": "Soergel TM et al. Complications of bladder augmentation. J Pediatr Urol 2004;1:91: adenocarcinoma risk ~1% at 10 years post-ileocystoplasty; annual cystoscopic surveillance recommended after 10-year mark",
+          "pearl": "Augmentation cystoplasty → adenocarcinoma risk ~1% at 10yr at the vesico-enteric anastomosis. Annual cystoscopy with biopsies of anastomosis starting 10 years post-op. Any haematuria in an augmented patient = urgent cystoscopy, regardless of time since surgery."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D2-Q14",
+        "stem": "A patient with T6 SCI presents for evaluation and is found to have detrusor overactivity with DSD on urodynamics. DLPP is 72 cmH₂O. After starting oxybutynin 15 mg/day and CIC, a follow-up urodynamic study at 6 months still shows DLPP 55 cmH₂O. What is the next appropriate management step according to EAU 2024?",
+        "options": {
+          "A": "Add mirabegron 50 mg OD to the existing oxybutynin regimen",
+          "B": "Intradetrusor onabotulinumtoxinA 200 U (NDO dose)",
+          "C": "Increase oxybutynin dose to 20 mg/day",
+          "D": "Immediate augmentation cystoplasty"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The patient has failed maximum-dose antimuscarinic therapy (DLPP remains above 40 cmH₂O threshold at 55 cmH₂O on oxybutynin 15 mg/day). The EAU 2024 Grade A evidence-based next step for refractory NDO after failed antimuscarinics is intradetrusor onabotulinumtoxinA 200 U. This step should be taken BEFORE escalating to augmentation cystoplasty, which is reserved for BoNT-A failure or intolerance. The goal remains DLPP <40 cmH₂O to protect the upper urinary tract.",
+          "wrong": {
+            "A": "Adding mirabegron to oxybutynin has some evidence for additive efficacy in idiopathic OAB (BEYOND trial) and is a Grade B EAU option. However, for a patient with dangerous UUT risk (DLPP 55 cmH₂O despite maximum antimuscarinic) and failed oxybutynin at maximum dose, combination pharmacotherapy is unlikely to achieve the DLPP <40 cmH₂O target. BoNT-A (Grade A) is the appropriate next definitive escalation.",
+            "C": "Oxybutynin 20 mg/day exceeds the licensed maximum dose (15 mg/day), would be off-label, and would add significant anticholinergic toxicity without meaningful additional therapeutic benefit. Maximum-dose antimuscarinics have been trialled — escalation should be to BoNT-A.",
+            "D": "Augmentation cystoplasty is reserved for patients who have failed BoNT-A, not as the immediate step after failed antimuscarinics. EAU 2024 escalation pathway: antimuscarinics → BoNT-A → augmentation cystoplasty. Proceeding directly to augmentation cystoplasty bypasses a less invasive, highly effective step."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — NDO management algorithm: (1) antimuscarinics + CIC, (2) BoNT-A 200 U if antimuscarinic failure, (3) augmentation cystoplasty if BoNT-A failure",
+          "trial": "Cruz F et al. Eur Urol 2011;60:742: BoNT-A 200 U for NDO after failed antimuscarinics — significant DLPP reduction and incontinence improvement in Phase 3 RCT — supports escalation to BoNT-A before surgery",
+          "pearl": "NDO management ladder: antimuscarinics + CIC → BoNT-A 200 U → augmentation cystoplasty. Do NOT jump to surgery before BoNT-A. Target DLPP <40 cmH₂O at every step. DLPP >40 cmH₂O despite therapy = escalate."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q15",
+        "stem": "Which of the following patients with neurogenic bladder should have asymptomatic bacteriuria (ASB) treated with antibiotics?",
+        "options": {
+          "A": "A 40-year-old T6 SCI male performing CIC with E. coli >10⁵ CFU/mL on surveillance urine culture, no fever or systemic symptoms",
+          "B": "A 28-year-old woman with myelomeningocele performing CIC who is 12 weeks pregnant, with Klebsiella >10⁵ CFU/mL on routine culture",
+          "C": "A 55-year-old MS patient with indwelling suprapubic catheter and E. coli 10⁴ CFU/mL, no symptoms",
+          "D": "A 65-year-old man with diabetic cystopathy on CIC with mixed culture of enterococcus and E. coli, no fever"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The ONLY indication for treating asymptomatic bacteriuria in catheterised neurogenic patients is PREGNANCY. IDSA and EAU guidelines both recommend treating ASB in pregnant women regardless of catheter use — untreated ASB in pregnancy carries risk of ascending pyelonephritis, preterm labour, and low birth weight. All other scenarios (non-pregnant catheterised patients with ASB, regardless of organism or count) should NOT receive antibiotics for ASB.",
+          "wrong": {
+            "A": "ASB in a CIC patient without symptoms does NOT require treatment. Treatment of ASB in SCI patients promotes MDR organism colonisation. EAU and IDSA explicitly recommend against treating ASB in catheterised patients unless pregnant, undergoing urological procedures with mucosal bleeding risk, or immediately pre-operatively.",
+            "C": "Indwelling catheters invariably cause bacteriuria; treatment of ASB in catheterised patients has been shown to increase antibiotic resistance without clinical benefit. Symptomatic UTI (fever, increased spasticity, cloudy offensive urine) requires treatment — not ASB alone.",
+            "D": "Mixed culture ASB in a CIC patient without fever or systemic symptoms = no treatment required. Mixed cultures often reflect contamination or colonisation. Only treat when there is systemic evidence of infection."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 and IDSA Guidelines on ASB: treat ASB ONLY in pregnancy; DO NOT treat ASB in non-pregnant catheterised neurogenic bladder patients",
+          "trial": "Hooton TM et al. IDSA Clinical Practice Guideline for the Diagnosis and Treatment of Asymptomatic Bacteriuria. Clin Infect Dis 2019;68:e83: ASB treatment recommendations — pregnancy is the key exception for catheterised patients",
+          "pearl": "ASB in neurogenic bladder patients = DO NOT TREAT (except in pregnancy). Routine urine culture surveillance in asymptomatic catheterised patients is NOT recommended — promotes MDR colonisation. Only treat symptomatic UTI (fever, systemic signs, increased spasticity)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D2-Q16",
+        "stem": "The Mitrofanoff principle (continent catheterisable stoma) uses which structure as the primary conduit to create a catheterisable channel from the skin to the bladder?",
+        "options": {
+          "A": "A segment of sigmoid colon",
+          "B": "The vermiform appendix tunnelled submucosally into the bladder",
+          "C": "A de-epithelialised segment of ileum (Yang-Monti tube)",
+          "D": "A segment of the ureter redirected to the skin"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Mitrofanoff principle (Paul Mitrofanoff, 1980) uses the vermiform appendix as the primary conduit — it is tunnelled submucosally into the bladder dome with an anti-reflux tunnel (creating a valve mechanism), and the other end is brought to the skin surface (typically the umbilicus or right iliac fossa). This creates a continent catheterisable channel: when the bladder fills, intravesical pressure compresses the tunnel, maintaining continence at the stoma; when the catheter is inserted, it opens the tunnel for bladder emptying. The Yang-Monti ileal tube is used when the appendix is unavailable (prior appendicectomy or appendix length inadequate).",
+          "wrong": {
+            "A": "A sigmoid colon segment is used for the bowel wall of some diversions (sigmoidocystoplasty, continent sigmoid reservoirs) but not as the primary conduit for the Mitrofanoff principle — it is too bulky.",
+            "C": "The Yang-Monti ileal tube (reconfigured ileal segment) is the alternative when the appendix is unavailable — but the PRIMARY and original Mitrofanoff conduit is the appendix. The Yang-Monti variant is the appendix substitute, not the primary principle.",
+            "D": "A ureter can be used as a catheterisable channel (ureterostomy) in selected cases, but this is not the Mitrofanoff principle, which specifically refers to the appendix (or appendix substitute) tunnelled into the bladder."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Continent catheterisable stoma (Mitrofanoff principle): appendix tunnelled submucosally into bladder dome; Yang-Monti ileal tube when appendix unavailable",
+          "trial": "Mitrofanoff P. Trans-appendicular continent cystostomy in the management of the neurogenic bladder. Chir Pediatr 1980;21:297–305: foundational paper describing the Mitrofanoff continent catheterisable stoma principle",
+          "pearl": "Mitrofanoff principle: APPENDIX tunnelled submucosally into bladder → continent catheterisable stoma → patient CICs through stoma. Continence mechanism = anti-reflux submucosal tunnel (compressed by intravesical pressure). Yang-Monti ileal tube = alternative when appendix unavailable."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q17",
+        "stem": "A 48-year-old woman with progressive multiple sclerosis (EDSS 6.5) has neurogenic DO + incomplete emptying (PVR 180 mL) on urodynamics. She fails oxybutynin and solifenacin due to intolerable constipation. She cannot perform self-catheterisation due to limb spasticity. What is the most appropriate next pharmacological step?",
+        "options": {
+          "A": "Mirabegron 50 mg OD — avoids anticholinergic side effects, does not worsen emptying",
+          "B": "Trospium 20 mg BD — lowest CNS penetration antimuscarinic",
+          "C": "OnabotulinumtoxinA 200 U intradetrusor — despite the CIC requirement",
+          "D": "Duloxetine 40 mg BD — reduces urgency through central serotonin-noradrenaline mechanisms"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Mirabegron (beta-3 agonist) reduces detrusor overactivity without the anticholinergic side effects (constipation, dry mouth, cognitive effects) that caused intolerable adverse effects with oxybutynin and solifenacin. Crucially, mirabegron does not worsen bladder emptying — its mechanism (bladder relaxation during storage phase) does not impair detrusor contractility during voiding. With a PVR of 180 mL and inability to perform self-catheterisation, a treatment that worsens emptying would be dangerous. Mirabegron 50 mg OD is the appropriate next pharmacological step.",
+          "wrong": {
+            "B": "Trospium is an antimuscarinic — it belongs to the same drug class as oxybutynin and solifenacin. While it has lower CNS penetration, it still causes anticholinergic GI side effects (constipation), which is the reason for treatment failure in this patient. Prescribing a third antimuscarinic is inappropriate.",
+            "C": "OnabotulinumtoxinA 200 U for NDO in a patient who CANNOT perform CIC is potentially dangerous — BoNT-A causes urinary retention requiring CIC in 30–40% of NDO patients. Injecting BoNT-A without a CIC plan would risk acute urinary retention requiring emergency catheterisation with no established catheterisation program in place. Before BoNT-A, a CIC plan must be established (even if requiring carer assistance).",
+            "D": "Duloxetine is indicated for stress urinary incontinence (increases urethral sphincter tone via pudendal nerve stimulation) — it has no evidence for neurogenic detrusor overactivity or urgency incontinence in MS. It would not address this patient's NDO."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 and Neuro-Urology 2024 — Mirabegron: Grade B for NDO, appropriate when antimuscarinics fail or are contraindicated; BoNT-A requires CIC plan before administration",
+          "trial": "Abrams P et al. BEYOND study J Urol 2017: mirabegron + solifenacin combination for refractory OAB — basis for mirabegron use in antimuscarinic-intolerant patients; EAU 2024 Grade B for NDO",
+          "pearl": "Antimuscarinic-intolerant NDO + cannot CIC = MIRABEGRON (Grade B, no anticholinergic effects, no worsening of emptying). BoNT-A 200 U requires CIC plan BEFORE injection — unsafe without CIC capability in place (30–40% retention risk)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D2-Q18",
+        "stem": "Detrusor leak point pressure (DLPP) is defined as the intravesical pressure at which urine begins to leak past the urethral sphincter in the absence of detrusor contraction or abdominal straining. At what DLPP threshold is upper urinary tract deterioration associated, and which landmark study established this threshold?",
+        "options": {
+          "A": ">20 cmH₂O — based on ICS urodynamic standards",
+          "B": ">40 cmH₂O — McGuire et al. (J Urol 1981) in myelodysplastic children",
+          "C": ">60 cmH₂O — European multicentre SCI study",
+          "D": ">80 cmH₂O — NICE neurogenic bladder guideline threshold"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "DLPP >40 cmH₂O is the critical threshold associated with upper urinary tract deterioration (hydronephrosis, vesicoureteral reflux, renal damage). This was established by McGuire et al. (J Urol 1981) in a landmark study of myelodysplastic children — those with DLPP >40 cmH₂O had significantly higher rates of UUT deterioration on follow-up compared to those with DLPP <40 cmH₂O. This threshold has been adopted as a universal standard for all neurogenic bladder patients requiring UUT risk stratification.",
+          "wrong": {
+            "A": ">20 cmH₂O is below the evidence-based threshold. While lower pressures may be associated with long-term risk in some studies, the universally accepted clinical threshold for intensive intervention is >40 cmH₂O from the McGuire landmark paper.",
+            "C": ">60 cmH₂O would be dangerously above the treatment threshold — waiting until DLPP reaches 60 cmH₂O before intensifying treatment would allow UUT damage to progress. The intervention threshold is >40 cmH₂O.",
+            "D": ">80 cmH₂O is far above the established threshold. NICE does not set an 80 cmH₂O threshold — McGuire's 40 cmH₂O is the universal standard cited in EAU, AUA, and all major guidelines."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — DLPP threshold for UUT risk: >40 cmH₂O (Grade B), based on McGuire 1981",
+          "trial": "McGuire EJ et al. Prognostic value of urodynamic testing in myelodysplastic patients. J Urol 1981;126:205–209: DLPP >40 cmH₂O associated with UUT deterioration in 68% vs 12% for DLPP <40 cmH₂O — most cited paper in neuro-urology",
+          "pearl": "DLPP >40 cmH₂O = upper tract risk (McGuire J Urol 1981 — myelodysplastic children). This threshold applies to ALL neurogenic patients. Treatment goal: maintain DLPP <40 cmH₂O with CIC + antimuscarinics + BoNT-A. Memorise: 40 cmH₂O."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D2-Q19",
+        "stem": "A 24-year-old woman with a complete T10 SCI 2 years ago is performing regular CIC ×5/day. Routine annual renal ultrasound shows new bilateral Grade 2 hydronephrosis (previously normal at 1 year). Serum creatinine is 98 μmol/L (normal). Urine culture is negative. What is the next diagnostic investigation?",
+        "options": {
+          "A": "CT KUB to look for obstructing stones in the ureters",
+          "B": "Videourodynamics (VUDS) to assess DLPP, bladder compliance, and VUR",
+          "C": "Repeat renal ultrasound in 3 months to confirm progressive change",
+          "D": "DTPA renogram (MAG3 scan) to assess differential renal function"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "New bilateral hydronephrosis on annual surveillance in a T10 SCI patient performing CIC indicates a change in urodynamic parameters — the management (CIC + antimuscarinics) is no longer adequately protecting the UUT. Videourodynamics is the gold-standard next investigation: it will determine whether DLPP has risen above 40 cmH₂O, whether bladder compliance has decreased, whether VUR has developed (visible on fluoroscopy), and at what bladder volume these changes occur. This guides escalation of treatment (increase CIC frequency, add/change antimuscarinics, consider BoNT-A).",
+          "wrong": {
+            "A": "While ureteral stones could theoretically cause bilateral hydronephrosis, bilateral simultaneous stone obstruction is extremely unlikely. In a SCI patient with known neurogenic bladder and previously normal UUT, the most likely cause of new bilateral hydronephrosis is worsening neurogenic bladder urodynamics, not stones.",
+            "C": "Delaying investigation 3 months to repeat ultrasound is inappropriate when UUT changes are already present. EAU 2024 recommends prompt urodynamic evaluation when new hydronephrosis is identified on surveillance — not watchful waiting.",
+            "D": "DTPA/MAG3 renogram assesses differential renal function and drainage — useful if obstructive uropathy is suspected at the PUJ level, but does not characterise the neurogenic bladder urodynamic parameters driving UUT dilatation. VUDS is the correct next step to diagnose the underlying urodynamic cause."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — New hydronephrosis in neurogenic bladder: prompt videourodynamics to reassess DLPP, compliance, and VUR — urodynamic escalation if DLPP >40 cmH₂O",
+          "trial": "Stöhrer M et al. Eur Urol 2009;56:234: annual USS surveillance with VUDS on any change in UUT status — standard neuro-urological follow-up protocol for SCI",
+          "pearl": "New hydronephrosis on surveillance in SCI patient = VUDS next (not CT, not repeat USS). VUDS will show: DLPP rise, VUR, compliance change. These drive treatment escalation: more frequent CIC, BoNT-A, or augmentation cystoplasty."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q20",
+        "stem": "Which of the following management strategies for neurogenic bladder due to diabetic cystopathy is most evidence-based according to EAU 2024?",
+        "options": {
+          "A": "Parasympathomimetic agents (bethanechol) to stimulate acontractile detrusor contractions",
+          "B": "Timed voiding combined with double voiding and CIC for residual volumes >150 mL",
+          "C": "Indwelling suprapubic catheter for all diabetic cystopathy patients",
+          "D": "Alpha-blocker therapy to reduce bladder outlet resistance"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Diabetic cystopathy causes sensory dysfunction first (impaired bladder sensation → large bladder volumes), followed by motor dysfunction (reduced detrusor contractility, DUA). Management is staged: (1) timed voiding (voiding at regular intervals regardless of urge, typically every 3 hours), (2) double voiding (voiding once, relaxing, then immediately voiding again to ensure complete emptying), and (3) CIC when PVR exceeds 150 mL (indicating inadequate emptying by voluntary voiding). This graduated approach preserves remaining bladder function while managing incomplete emptying. Tight glycaemic control to prevent further peripheral neuropathy progression is also essential.",
+          "wrong": {
+            "A": "Bethanechol (parasympathomimetic — muscarinic agonist) was historically used to stimulate acontractile detrusor but has poor evidence of efficacy, significant side effects (diarrhoea, salivation, bradycardia), and is not recommended by EAU 2024 for diabetic cystopathy or neurogenic DUA.",
+            "C": "Indwelling suprapubic catheter is reserved for patients who cannot perform CIC and where other options are unavailable. It carries higher long-term complication rates than CIC and should not be the primary management for early/moderate diabetic cystopathy.",
+            "D": "Alpha-blockers reduce bladder outlet resistance (useful for BOO in BPH), not the primary problem in diabetic cystopathy (which is a hypocontractile/DUA bladder, not obstruction). Alpha-blockers are not evidence-based primary treatment for diabetic cystopathy."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Diabetic cystopathy: timed voiding + double voiding + CIC when PVR >150 mL; bethanechol NOT recommended (insufficient evidence, EAU Grade C against)",
+          "trial": "Vardi Y, Basson R. Diabetic cystopathy — review of management. Isr J Med Sci 1993;29:590: timed voiding and double-voiding manoeuvres as evidence-based conservative approaches; CIC threshold at PVR >150 mL recommended",
+          "pearl": "Diabetic cystopathy = peripheral neuropathy causing sensory → then motor bladder loss. Management: timed voiding → double voiding → CIC (PVR >150 mL). Do NOT prescribe bethanechol (ineffective, poor evidence). Alpha-blockers ineffective (not BOO). Tight glycaemic control essential."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

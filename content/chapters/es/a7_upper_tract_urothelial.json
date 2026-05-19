@@ -1,0 +1,697 @@
+{
+  "id": "A7",
+  "title": "Carcinoma Urotelial del Tracto Urinario Superior",
+  "subtitle": "Bloque A — CITUS: Diagnóstico, Estratificación del Riesgo y Manejo Quirúrgico",
+  "block": "A",
+  "block_name": "Oncología Urológica",
+  "level": "R2-3",
+  "reading_time_min": 35,
+  "guidelines_version": "Guías de la EAU sobre Carcinoma Urotelial del Tracto Urinario Superior 2024 · NCCN Carcinoma Urotelial del Tracto Urinario Superior v1.2024",
+  "textbook_refs": [
+    "Campbell-Walsh-Wein Urología, 12ª ed. (2021) — Capítulo 78: Carcinoma urotelial del tracto urinario superior",
+    "Guías de la EAU sobre Carcinoma Urotelial del Tracto Urinario Superior (Rouprêt et al., 2024)",
+    "Rouprêt M et al. Guías de la EAU sobre carcinoma urotelial del tracto urinario superior: actualización 2023. Eur Urol 2023",
+    "Birtle A et al. Quimioterapia adyuvante en carcinoma urotelial del tracto urinario superior (ensayo POUT). Lancet 2020",
+    "Siefker-Radtke AO et al. Eficacia de los inhibidores de muerte programada 1 y ligando de muerte programada 1 en carcinoma CITUS metastásico. JCO 2016"
+  ],
+  "learning_objectives": [
+    "Clasificar el carcinoma urotelial del tracto urinario superior (CITUS) como riesgo bajo o alto utilizando los criterios de estratificación del riesgo de la EAU 2024",
+    "Describir el estudio diagnóstico para CITUS incluyendo urografía por TC, ureteroscopia y citología selectiva del tracto urinario superior",
+    "Esbozar las indicaciones para nefroureterectomía radical (NUR) vs cirugía conservadora del riñón en CITUS",
+    "Aplicar la evidencia del ensayo POUT para quimioterapia adyuvante después de NUR para CITUS de alto riesgo",
+    "Identificar la asociación del síndrome de Lynch con CITUS y las implicaciones para el asesoramiento genético",
+    "Distinguir CITUS del cáncer de vejiga en términos de biología, diferencias en la estadificación y patrones de enfermedad sincrónica/metacrónica"
+  ],
+  "sections": [
+    {
+      "id": "A7-S1",
+      "title": "Epidemiología, Etiología y Patología",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El carcinoma urotelial del tracto urinario superior (CITUS) engloba tumores uroteliales que surgen del sistema pelvicalicial, pelvis renal y uréter. CITUS representa solo el 5-10% de todos los carcinomas uroteliales pero tiene un pronóstico significativamente peor que el carcinoma urotelial de vejiga debido al urotelio más delgado (invasión muscular más fácil), proximidad al parénquima renal y presentación clínica tardía. La incidencia anual es de 1-2 casos por 100.000 población en países occidentales, con una relación hombre-mujer de 2:1 y pico de incidencia a los 65-75 años. La bilateralidad ocurre en el 2-5% de los casos.\n\nLos factores de riesgo más importantes para CITUS son el tabaquismo (riesgo relativo 2,5-3,0), exposición ocupacional a aminas aromáticas, síndrome de Lynch (carcinoma colorrectal hereditario sin poliposis — CCHHSP), nefropatía por ácido aristolóquico (nefropatía de los Balcanes y nefropatía por medicina herbal china — elevadísimo riesgo de CITUS, mutaciones en TP53) y nefropatía analgésica (fenacetina). El síndrome de Lynch está presente en el 10-20% de los pacientes con CITUS (mutaciones en MLH1, MSH2, MSH6, PMS2) — el riesgo de CITUS más alto entre los cánceres asociados a Lynch. La EAU 2024 recomienda el cribado del síndrome de Lynch (prueba de reparación de emparejamiento erróneo por inmunohistoquímica en el tumor) para todos los pacientes con CITUS, particularmente los menores de 60 años o con antecedentes familiares de cáncer colorrectal o endometrial.\n\nHistológicamente, CITUS es carcinoma urotelial en el 90-95% de los casos, con carcinoma de células escamosas (5%) y adenocarcinoma (<1%) constituyendo el resto. La pelvis renal es el sitio más común (65%), seguida del uréter (25%) — los tumores ureterales tienen peores resultados en estadios equivalentes debido a la pared ureteral más delgada. La multifocalidad es más común en CITUS que en el cáncer de vejiga y es un determinante clave de elegibilidad para cirugía conservadora del riñón."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Síndrome de Lynch y CITUS",
+          "content": "El síndrome de Lynch (CCHHSP) está presente en el 10-20% de los pacientes con CITUS — mucho más alto que en el carcinoma urotelial de vejiga (<1%). Todos los pacientes con CITUS deben someterse a cribado del síndrome de Lynch con inmunohistoquímica de proteínas de reparación de emparejamiento erróneo en el tejido tumoral. Las mutaciones en MSH2 conllevan el riesgo más alto de CITUS (15 veces). El CITUS asociado a Lynch tiende a ocurrir a edad más joven (<60 años), es más a menudo bilateral y se asocia con cánceres sincróicos de colon, endometrio y ovario. La identificación del síndrome de Lynch tiene implicaciones profundas para el cribado de la familia."
+        }
+      ]
+    },
+    {
+      "id": "A7-S2",
+      "title": "Diagnóstico — Urografía por TC, Ureteroscopia y Citología",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El estudio diagnóstico de la sospecha de CITUS comienza con urografía por TC (UTC), que es la modalidad de imagen primaria y puede detectar defectos de repleción, engrosamiento urotelial e hidronefrosis con sensibilidad del 67-100% y especificidad del 93-99%. También se requiere TC de tórax/abdomen/pelvis para la estadificación. La urografía por resonancia magnética es una alternativa cuando la TC está contraindicada (insuficiencia renal, alergia al contraste) y es superior para el detalle de partes blandas. La ecografía simple tiene sensibilidad limitada para detectar tumores del tracto urinario superior pequeños (<3 cm) y no es la modalidad principal.\n\nLa ureteroscopia (URS) combinada con biopsia es esencial para el diagnóstico tisular y la estratificación del riesgo. La biopsia ureteroscópica de alta calidad utilizando pinzas o una canasta de alambre plano proporciona arquitectura para la clasificación, mientras que los cepillos tienen menor sensibilidad. La URS también permite la visualización directa de la extensión del tumor y la morfología. La EAU 2024 recomienda ureteroscopia para todos los pacientes en los que se está considerando cirugía conservadora del riñón, ya que el grado del tumor en la biopsia determina la estratificación de riesgo bajo vs alto. La citología selectiva de orina ureteral (obtenida durante ureteroscopia o mediante catéter de pielogafia retrógrada) mejora la precisión diagnóstica — la citología de alto grado es altamente específica para CITUS.\n\nLa hibridación in situ por fluorescencia (FISH, UroVysion) de lavados del tracto urinario superior mejora la sensibilidad sobre la citología sola para detectar CITUS de alto grado y puede ser particularmente útil cuando la citología es equívoca. La endoscopia mejorada (NBI o PDD) durante ureteroscopia está bajo evaluación para mejorar la detección del margen del tumor."
+        },
+        {
+          "type": "table",
+          "title": "Estratificación del Riesgo de CITUS EAU 2024",
+          "headers": [
+            "Grupo de Riesgo",
+            "Criterios (cualquiera = alto riesgo)",
+            "Cirugía Recomendada"
+          ],
+          "rows": [
+            [
+              "Riesgo bajo",
+              "Unifocal, <2 cm; biopsia de bajo grado; citología de bajo grado; sin características invasivas en TC; sin cistectomía radical previa por carcinoma urotelial de vejiga",
+              "Conservadora del riñón (URS o ureterectomía segmentaria)"
+            ],
+            [
+              "Riesgo alto",
+              "Hidronefrosis; tumor >2 cm; citología de alto grado; biopsia de alto grado; multifocalidad; cistectomía radical previa por carcinoma urotelial de vejiga; histología variante; sospecha de carcinoma in situ (citología positiva sin tumor visible)",
+              "Nefroureterectomía radical (NUR)"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Común — Hidronefrosis como Característica de Alto Riesgo",
+          "content": "La hidronefrosis en urografía por TC — incluso leve e ipsilateral — es un criterio de alto riesgo para CITUS en las guías de la EAU 2024, indicando probable invasión muscular o afectación de la pared ureteral comprometiendo el flujo urinario. Cualquier paciente con CITUS con hidronefrosis ipsilateral asociada debe clasificarse como alto riesgo y considerarse para nefroureterectomía radical (NUR), no para cirugía conservadora del riñón."
+        }
+      ]
+    },
+    {
+      "id": "A7-S3",
+      "title": "Nefroureterectomía Radical — Indicaciones y Técnica",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La nefroureterectomía radical (NUR) con escisión del manguito vesical ipsilateral es el tratamiento estándar de referencia para CITUS de alto riesgo. El procedimiento extirpa el riñón, todo el uréter y un manguito de vejiga en el orificio ureteral ipsilateral — la escisión del manguito vesical es esencial porque la escisión ureteral distal incompleta deja urotelial en riesgo de recurrencia. Las tres técnicas para la escisión del manguito vesical son: desprendimiento ureteral endoscópico (abordaje endoscópico mediante cistoscopio antes de NUR laparoscópica), escisión intravesical (cistotomía abierta) o engrapado extravesical (controvertido — asociado con mayores tasas de recurrencia vesical debido a escisión incompleta del manguito).\n\nLa NUR laparoscópica o asistida por robot ha reemplazado a la NUR abierta como el abordaje estándar en la mayoría de los centros, con resultados oncológicos equivalentes y resultados perioperatorios superiores (menor pérdida de sangre, hospitalización más corta). El ensayo LRNU (Capitanio et al., Eur Urol 2009) demostró supervivencia específica del cáncer comparable entre NUR abierta y laparoscópica. El consenso de Maastricht (2017) apoya la NUR laparoscópica para todo CITUS de alto riesgo sin enfermedad localmente avanzada.\n\nLa linfadenectomía regional en el momento de la NUR mejora la precisión de la estadificación y potencialmente confiere beneficio terapéutico. La EAU 2024 recomienda disección de ganglios linfáticos para todo CITUS de alto riesgo. Plantilla: para tumores de pelvis renal derecha/uréter proximal — ganglios paracavales, aortocavales y retrocavales; para tumores del lado izquierdo — ganglios paraaórticos y aortocavales desde el hilio renal hasta la bifurcación de la ilíaca común. Para tumores ureterales distales — disección linfática pélvica (ilíaca común, externa, interna, obturador) ipsilateralmente.\n\nUna instilación intravesical única de mitomicina C (40 mg) inmediatamente después de la NUR reduce el riesgo de recurrencia vesical en 40-50% (del 26-35% al 16-18% en 1 año) comparado con no instilación. El ensayo ODMIT-C (O'Brien et al., JCO 2011) estableció este beneficio — el momento más temprano disponible dentro del período intraoperatorio o postoperatorio es preferible. Esta es ahora una recomendación de Grado A de la EAU 2024."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Recurrencia Vesical Después de NUR",
+          "content": "La recurrencia urotelial vesical después de NUR ocurre en el 15-50% de los pacientes con CITUS dentro de 2-3 años. El mecanismo es 'siembra' — las células tumorales del tracto urinario superior se implantan en la vejiga. Factores de riesgo: CITUS de alto grado, antecedentes previos de carcinoma urotelial de vejiga, citología urinaria positiva, CITUS multifocal y localización ureteral (vs pelvis renal). La mitomicina C intravesical × 1 dosis inmediatamente post-NUR (ensayo ODMIT-C) reduce la recurrencia vesical en 40%. La cistoscopia de vigilancia cada 3 meses durante 2 años post-NUR es obligatoria."
+        }
+      ]
+    },
+    {
+      "id": "A7-S4",
+      "title": "Cirugía Conservadora del Riñón para CITUS de Bajo Riesgo",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La cirugía conservadora (conservadora) es recomendada para CITUS de bajo riesgo y en pacientes con indicaciones absolutas (riñón único funcionante, CITUS bilateral, función renal severamente comprometida — FG <60 mL/min — donde NUR requeriría diálisis al paciente). Las opciones quirúrgicas para CITUS conservador del riñón son ablación ureteroscópica (ablación láser) o ureterectomía segmentaria.\n\nLa ablación láser ureteroscópica (láser de holmio:YAG o fibra de tulio) es el abordaje preferido para tumores de pelvis renal y ureteral accesibles de bajo riesgo. La evidencia de Grado B de la EAU 2024 apoya el tratamiento ureteroscópico para CITUS de bajo riesgo con supervivencia específica del cáncer equivalente a NUR en pacientes seleccionados apropiadamente (unifocal, <2 cm, bajo grado, sin hidronefrosis). La instilación adyuvante de BCG o mitomicina C a través de catéter de nefrostomía (anterógrada) o catéter ureteral es utilizada post-ablación ureteroscópica para reducir la recurrencia, aunque la calidad de la evidencia es limitada.\n\nLa ureterectomía segmentaria (ureterectomía distal con reimplante ureteral — maniobra del psoas o colgajo de Boari) es el abordaje preferido para tumores ureterales medio o distal de bajo riesgo donde la ureteroscopia no puede lograr resección completa o la localización del tumor impide acceso endoscópico completo. La ureterectomía segmentaria proporciona espécimen patológico para estadificación precisa, mientras que la ablación ureteroscópica proporciona solo material de biopsia. La recurrencia después de cirugía conservadora del riñón es significativamente más alta que después de NUR (30-50% a 5 años vs 15-25%), requiriendo vigilancia ureteroscópica intensiva (cada 3 meses durante 2 años después del tratamiento ureteroscópico)."
+        },
+        {
+          "type": "table",
+          "title": "Opciones de Cirugía Conservadora del Riñón para CITUS",
+          "headers": [
+            "Abordaje",
+            "Mejor Para",
+            "Ventaja",
+            "Desventaja"
+          ],
+          "rows": [
+            [
+              "Ablación láser ureteroscópica",
+              "Tumores de pelvis renal/calicial; lesiones accesibles del uréter superior/medio",
+              "Sin sacrificio de tejido renal; repetible; ambulatorio",
+              "Sin espécimen de estadificación; riesgo de recurrencia más alto; limitado a bajo riesgo"
+            ],
+            [
+              "Ureterectomía segmentaria (distal)",
+              "Tumores ureterales distales; lesiones de bajo riesgo del uréter medio",
+              "Estadificación patológica; menor recurrencia que ablación URS",
+              "Pérdida de uréter distal; requiere maniobra del psoas/colgajo de Boari"
+            ],
+            [
+              "Ablación anterógrada percutánea",
+              "Tumores del uréter superior/medio o pelvis renal; abordaje fallido de URS",
+              "Puede tratar tumores grandes inaccesibles a URS",
+              "Posible siembra tumoral; mayor morbilidad"
+            ],
+            [
+              "Nefroureterectomía radical",
+              "CITUS de alto riesgo; indicaciones absolutas (riñón único) para bajo riesgo",
+              "Control oncológico definitivo; estadificación precisa",
+              "Pérdida permanente de nefronas; declive de función renal"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A7-S5",
+      "title": "Quimioterapia Adyuvante — El Ensayo POUT",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El ensayo POUT (Birtle et al., Lancet 2020) fue un ensayo clínico controlado aleatorio de fase III que estableció la quimioterapia basada en platino como estándar de atención para CITUS de alto riesgo después de nefroureterectomía radical. El ensayo aleatorizó a 261 pacientes con CITUS pT2-T4 N0-N3 M0 o cualquier T N1-N3 M0 (RNU resecada) a gemcitabina-cisplatino o gemcitabina-carboplatino (para FG 30-49 mL/min) × 4 ciclos vs vigilancia. El punto final primario fue supervivencia libre de enfermedad: supervivencia libre de enfermedad a 3 años fue 71% con quimioterapia vs 51% con vigilancia (HR 0,45, IC 95% 0,30-0,68, p=0,0001). El beneficio de supervivencia libre de enfermedad se tradujo en mejorada supervivencia libre de metástasis (HR 0,48, p=0,002), aunque los datos de supervivencia general aún se están actualizando.\n\nLos criterios de elegibilidad del ensayo POUT: estadio patológico pT2-T4 o pN+ (los pacientes pT1 N0 no eran elegibles), resecados dentro de 90 días (FG ≥30 mL/min). El régimen de quimioterapia fue GC (gemcitabina 1000 mg/m² días 1,8 + cisplatino 70 mg/m² día 1, cada 3 semanas × 4 ciclos) para FG ≥50 mL/min, o GCarboplatin para FG 30-49 mL/min. El ensayo se cerró antes debido al beneficio abrumador de supervivencia libre de enfermedad en el análisis provisional.\n\nLa EAU 2024 ahora recomienda quimioterapia adyuvante (basada en POUT) para todo CITUS pT2-T4 o pN+ después de NUR cuando FG ≥30 mL/min y estado de rendimiento ECOG ≤2. Esto representa un cambio de práctica — antes de POUT, la quimioterapia adyuvante no tenía evidencia de nivel 1 en CITUS. La quimioterapia neoadyuvante antes de NUR está siendo investigada (ensayo JCOG1509) como un abordaje alternativo que evita declive de la función renal postoperatoria que afecta elegibilidad."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Impacto del Ensayo POUT y Elegibilidad",
+          "content": "Ensayo POUT (Lancet 2020): GC adyuvante × 4 ciclos después de NUR para CITUS pT2-T4/pN+ mejora significativamente la supervivencia libre de enfermedad (HR 0,45, p=0,0001). Este es el primer ensayo clínico de fase III que establece beneficio de quimioterapia adyuvante en CITUS. Puntos clave: se aplica a pT2+; carboplatino utilizado si FG 30-49; debe iniciarse dentro de 90 días de NUR. Los pacientes pT1 N0 NO eran elegibles. El ensayo POUT utilizó FG calculada post-operatoriamente — la FG a menudo cae después de nefroureterectomía, explicando por qué carboplatino es necesario para el 30-40% de los pacientes."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Quimioterapia Neoadyuvante vs Adyuvante en CITUS",
+          "content": "Una ventaja clave de la quimioterapia neoadyuvante para CITUS (antes de NUR) sobre adyuvante (post-NUR) es que la FG se calcula con ambos riñones in situ — esto permite elegibilidad de dosis completa de cisplatino en más pacientes, ya que la FG cae después de pérdida de nefronas por NUR. Sin embargo, el abordaje neoadyuvante requiere estadificación clínica solo (estadio patológico no disponible pre-operatoriamente), arriesgando sobre- o infratratamiento. Los ensayos JCOG1509 y URANUS están evaluando abordajes neoadyuvantes. La recomendación actual de la EAU 2024 sigue siendo quimioterapia adyuvante (post-NUR) basada en estadio patológico."
+        }
+      ]
+    },
+    {
+      "id": "A7-S6",
+      "title": "Vigilancia de Recurrencia Vesical y Terapia Sistémica para CITUS Metastásico",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La recurrencia vesical después de NUR para CITUS ocurre en el 15-50% de los pacientes, más comúnmente en los primeros 2 años. La EAU 2024 recomienda cistoscopia + citología urinaria a los 3 meses post-NUR, luego cada 3 meses durante 2 años, luego anualmente. La vigilancia del tracto urinario superior contralateral con urografía por TC cada 6-12 meses es requerida durante 5 años para detectar CITUS del lado contralateral (riesgo de 2-4%). Para pacientes tratados con cirugía conservadora del riñón, la vigilancia ureteroscópica ipsilateral cada 3 meses durante 2 años es obligatoria debido a altas tasas de recurrencia local (30-50%).\n\nEl CITUS metastásico es biológica y clínicamente equivalente al carcinoma urotelial de vejiga metastásico, y el manejo sigue los mismos algoritmos. Para pacientes elegibles para cisplatino, gemcitabina-cisplatino (primera línea, seguida de mantenimiento con avelumab si sin progresión — el ensayo JAVELIN Bladder 100 incluyó pacientes con CITUS). Para pacientes inelegibles para cisplatino, pembrolizumab (KEYNOTE-052) o gemcitabina-carboplatino seguida de mantenimiento con avelumab. Enfortumab vedotina + pembrolizumab (ensayo EV-302 incluyó 10-15% pacientes con CITUS) representa el estándar de primera línea emergente para CITUS metastásico también, aunque los datos de subgrupo para CITUS son limitados.\n\nLas alteraciones de FGFR3 son más comunes en CITUS (15-20%) que en carcinoma urotelial de vejiga (15-20% similar), proporcionando una oportunidad para erdafitinib en CITUS metastásico alterado por FGFR. La pembrolizumab en monoterapia mostró eficacia en CITUS refractario a platino en KEYNOTE-045 (beneficio de supervivencia general sobre quimioterapia — análisis de subgrupo). El manejo del CITUS metastásico generalmente refleja la guía de carcinoma urotelial de vejiga metastásico, aunque los datos de ensayos clínicos aleatorios específicos para CITUS son más limitados debido a la rareza de la enfermedad."
+        },
+        {
+          "type": "table",
+          "title": "Programa de Vigilancia Post-NUR (EAU 2024)",
+          "headers": [
+            "Intervalo",
+            "Bajo Riesgo (pTa/T1 N0)",
+            "Alto Riesgo (pT2+ o pN+)",
+            "Modalidad"
+          ],
+          "rows": [
+            [
+              "3 meses",
+              "Cistoscopia + citología",
+              "Cistoscopia + citología + TC CAP",
+              "Todos los pacientes post-NUR"
+            ],
+            [
+              "6 meses",
+              "Cistoscopia + citología",
+              "Cistoscopia + citología + TC CAP",
+              "Alto riesgo: cada 6 meses año 1-2"
+            ],
+            [
+              "12 meses",
+              "Urografía por TC (lado contralateral)",
+              "Cistoscopia + citología + TC CAP + urografía por TC",
+              "TC anual para tracto urinario superior contralateral"
+            ],
+            [
+              "2-5 años",
+              "Cistoscopia anual; urografía por TC cada 1-2 años",
+              "Cistoscopia + citología cada 6 meses; TC CAP anual",
+              "Reducir frecuencia si libre de enfermedad"
+            ],
+            [
+              ">5 años",
+              "Cistoscopia anual si carcinoma urotelial de vejiga previo; en caso contrario alta",
+              "Cistoscopia + citología anual + urografía por TC",
+              "Largo plazo para alto riesgo"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A7-S7",
+      "title": "CITUS vs Carcinoma Urotelial de Vejiga — Diferencias Biológicas y Clínicas Clave",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Aunque CITUS y el carcinoma urotelial de vejiga comparten histología urotelial, tienen diferencias biológicas y clínicas importantes. CITUS tiene un pronóstico estadio a estadio significativamente peor que el carcinoma urotelial de vejiga — el urotelio más delgado del uréter (sin submucosa muscular distinta en muchos segmentos) significa que pT2 CITUS (invasión muscular) es equivalente a pT3 carcinoma urotelial de vejiga en términos de invasión de grasa periureteral y pronóstico. Aproximadamente el 60% de los tumores CITUS son invasivos (pT2+) en el diagnóstico, comparado con el 25% del carcinoma urotelial de vejiga — reflejando la pared más delgada y detección clínica más tardía.\n\nLa caracterización molecular revela diferencias: las mutaciones en FGFR3 ocurren en el 15-20% de CITUS (ligeramente menos que el 25% en carcinoma urotelial de vejiga papilar de bajo grado); las mutaciones del promotor de TERT son comunes en ambos; la deficiencia de MMR asociada a síndrome de Lynch ocurre en el 10-20% de CITUS vs <1% de carcinoma urotelial de vejiga. Los subtipos moleculares CCGA/TCGA de CITUS en gran medida son paralelos al carcinoma urotelial de vejiga, aunque el subtipo basal/escamoso es menos común en CITUS.\n\nPatrones de enfermedad sincrónica y metacrónica: Los pacientes con CITUS tienen un riesgo del 15-50% de desarrollar carcinoma urotelial de vejiga durante el seguimiento (el fenómeno de siembra 'aguas abajo'). Conversamente, los pacientes con carcinoma urotelial de vejiga de alto riesgo (CIS, T1 HG) tienen un riesgo del 5-7% de desarrollar CITUS metacrónico. Esta bidireccionalidad requiere vigilancia sistemática del urotelio completo en ambas condiciones. Los pacientes con cistectomía radical previa por carcinoma urotelial de vejiga que desarrollan CITUS se clasifican automáticamente como alto riesgo según la EAU 2024, independientemente del grado del tumor — requieren NUR."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Común — Infra-estadificación de CITUS",
+          "content": "CITUS tiene significativamente más probabilidad de ser infra-estadificado en biopsia ureteroscópica que tumores de vejiga en RTUP. Los especímenes de biopsia de URS son pequeños y pueden no representar el componente invasivo del tumor. La precisión de estadificación clínica para CITUS es menor que para carcinoma urotelial de vejiga (sobre-estadificación en NUR ocurre en el 25-40% de tumores estadificados como pT1 clínicamente). Por esto la hidronefrosis — incluso en tumores aparentemente de bajo grado — se clasifica como alto riesgo: la hidronefrosis se correlaciona con invasión muscular en hasta el 50% de los casos. No asumir que citología/biopsia de bajo grado = CITUS no invasivo."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Pruebe sus conocimientos sobre diagnóstico de carcinoma urotelial del tracto urinario superior, estratificación del riesgo, manejo quirúrgico y terapia adyuvante con 20 preguntas de estilo de examen.",
+    "questions": [
+      {
+        "id": "A7-Q1",
+        "stem": "Una mujer de 68 años con antecedente de CCHHSP (síndrome de Lynch, mutación MSH2) presenta hematuria microscópica. La urografía por TC revela un defecto de repleción de 1,5 cm en la pelvis renal izquierda. La citología urinaria es positiva para células de alto grado. Se realiza ureteroscopia; la biopsia muestra carcinoma urotelial de alto grado. Tiene ambos riñones normales y FG 72 mL/min. ¿Cuál es el tratamiento recomendado?",
+        "options": {
+          "A": "Ablación láser ureteroscópica — criterios de bajo riesgo (tamaño <2 cm, lesión accesible)",
+          "B": "Ureterectomía segmentaria de la pelvis renal izquierda",
+          "C": "Nefroureterectomía radical izquierda con escisión del manguito vesical",
+          "D": "Quimioterapia sistémica — CITUS de síndrome de Lynch responde a inmunoterapia"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Esta paciente tiene CITUS de alto riesgo según criterios EAU 2024: biopsia de alto grado Y citología de alto grado (positiva). La enfermedad de alto grado es un criterio absolutamente de alto riesgo requiriendo nefroureterectomía radical (NUR) con escisión del manguito vesical independientemente del tamaño del tumor. Tiene ambos riñones y FG adecuada, por lo que las indicaciones imperativamente absolutas no aplican. El síndrome de Lynch no cambia el abordaje quirúrgico — informa asesoramiento genético y cribado familiar pero no favorece cirugía conservadora del riñón.",
+          "wrong": {
+            "A": "La ablación ureteroscópica es apropiada para CITUS DE BAJO RIESGO (biopsia de bajo grado, citología de bajo grado, <2 cm, sin hidronefrosis). Esta paciente tiene biopsia DE ALTO GRADO y citología positiva — ella es RIESGO ALTO. La cirugía conservadora está contraindicada excepto en indicaciones absolutas (riñón único, CITUS bilateral, FG <60).",
+            "B": "La ureterectomía segmentaria de la pelvis renal no es técnicamente posible — la pelvis renal no es un 'segmento' que pueda resecarse solo. La ureterectomía segmentaria se aplica a tumores ureterales medio o distal.",
+            "D": "Aunque el síndrome de Lynch (deficiencia de MMR) confiere alta probabilidad de expresión PD-L1 y respuesta potencial a inhibidores de punto de control inmunológico, esto no reemplaza resección quirúrgica para CITUS localizado. La quimioterapia sistémica es para enfermedad metastásica."
+          },
+          "guideline": "Guías EAU sobre Carcinoma Urotelial del Tracto Urinario Superior (Rouprêt et al., 2024) — Sección 6.2: Manejo de CITUS de alto riesgo — NUR",
+          "trial": "Rouprêt M et al. Guías EAU CITUS 2023: biopsia de alto grado o citología de alto grado = alto riesgo → NUR. Ensayo ODMIT-C: instilación única de mitomicina C post-NUR reduce recurrencia vesical en 40%.",
+          "pearl": "Criterios de alto riesgo de CITUS EAU 2024 (cualquiera = NUR): biopsia de alto grado, citología de alto grado, hidronefrosis, tumor >2 cm, multifocalidad, cistectomía radical previa por carcinoma urotelial de vejiga. La cirugía conservadora es SOLO para bajo riesgo o indicaciones absolutas (riñón único, CITUS bilateral, FG impide RNU sin diálisis)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A7-Q2",
+        "stem": "El ensayo POUT (Birtle et al., Lancet 2020) demostró que la quimioterapia adyuvante después de nefroureterectomía radical mejora significativamente qué medida de resultado para CITUS de alto riesgo?",
+        "options": {
+          "A": "Supervivencia general a 3 años (HR 0,45, p=0,0001)",
+          "B": "Supervivencia libre de enfermedad a 3 años (HR 0,45, p=0,0001)",
+          "C": "Supervivencia libre de metástasis a 5 años (HR 0,25, p<0,001)",
+          "D": "Tasa de recurrencia vesical a 1 año (HR 0,60, p=0,03)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El punto final primario del ensayo POUT fue supervivencia libre de enfermedad. La quimioterapia adyuvante con gemcitabina-cisplatino/carboplatino × 4 ciclos vs vigilancia después de NUR para CITUS pT2-T4 o pN+ demostró: supervivencia libre de enfermedad a 3 años 71% vs 51% (HR 0,45, IC 95% 0,30-0,68, p=0,0001). El ensayo fue detenido antes en análisis provisional debido al beneficio abrumador de supervivencia libre de enfermedad. La supervivencia libre de metástasis también mejoró (HR 0,48, p=0,002). Los datos de supervivencia general no eran maduros en la publicación. Este es el ensayo de referencia que establece quimioterapia adyuvante como estándar de atención para CITUS de alto riesgo.",
+          "wrong": {
+            "A": "POUT demostró beneficio de supervivencia libre de enfermedad (punto final primario), no de supervivencia general — los datos de supervivencia general no eran maduros en la publicación. El HR de 0,45 se aplica a supervivencia libre de enfermedad, no supervivencia general.",
+            "C": "La supervivencia libre de metástasis mostró beneficio (HR 0,48) pero el punto final primario fue supervivencia libre de enfermedad. Los valores 0,25 y p<0,001 no son los resultados POUT.",
+            "D": "La recurrencia vesical no fue un punto final del ensayo POUT — el ensayo ODMIT-C (O'Brien et al., JCO 2011) abordó la recurrencia vesical después de NUR con una instilación intravesical única de mitomicina C."
+          },
+          "guideline": "Guías de la EAU sobre Carcinoma Urotelial del Tracto Urinario Superior (Rouprêt et al., 2024) — Sección 7.2: Quimioterapia adyuvante — Ensayo POUT",
+          "trial": "Birtle A et al. Ensayo POUT: Gemcitabina-platino adyuvante vs vigilancia después de nefroureterectomía para CITUS. Lancet 2020: supervivencia libre de enfermedad a 3 años 71% vs 51% (HR 0,45, p=0,0001) — primer evidencia de fase III para quimioterapia adyuvante en CITUS.",
+          "pearl": "Ensayo POUT: GC adyuvante × 4 ciclos después de NUR para CITUS pT2-T4/pN+ mejora dramáticamente supervivencia libre de enfermedad (HR 0,45). Carboplatino utilizado para FG 30-49 mL/min. Los pacientes pT1 N0 NO eran elegibles. Iniciar dentro de 90 días de RNU. Esta es ahora la recomendación de Grado A de la EAU 2024 para CITUS de alto riesgo post-NUR."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A7-Q3",
+        "stem": "Un varón de 61 años se somete a nefroureterectomía radical izquierda por CITUS pT3 N0 M0 (uréter). La patología confirma márgenes quirúrgicos negativos. Post-operatoriamente, su FG es 42 mL/min (basal era 67 mL/min con ambos riñones). Está siendo evaluado para quimioterapia adyuvante según criterios POUT. ¿Cuál régimen de quimioterapia es apropiado?",
+        "options": {
+          "A": "Gemcitabina-cisplatino × 4 ciclos — FG 42 es aceptable para cisplatino",
+          "B": "Gemcitabina-carboplatino × 4 ciclos — FG 30-49 mL/min califica para carboplatino",
+          "C": "No quimioterapia adyuvante — FG <45 mL/min contraindica quimioterapia protocolo POUT",
+          "D": "Pembrolizumab × 1 año — inhibidor de punto de control inmunológico es preferido cuando cisplatino es inelegible"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo POUT incluyó pacientes con FG ≥30 mL/min — aquellos con FG 30-49 mL/min recibieron gemcitabina-carboplatino (no cisplatino) como columna vertebral de quimioterapia. Este paciente tiene FG 42 mL/min post-NUR — esto cae en el rango 30-49 mL/min. El régimen apropiado es gemcitabina (1000 mg/m² días 1,8) + carboplatino (AUC 5, día 1) × 4 ciclos, cada 21 días. El diseño del ensayo POUT anticipó específicamente el declive de la función renal postoperatoria al incluir carboplatino como alternativa.",
+          "wrong": {
+            "A": "El cisplatino está contraindicado cuando FG <50 mL/min (criterios de Galsky) — FG 42 requiere sustitución de carboplatino según protocolo POUT. Usar cisplatino con FG 42 causaría nefrotoxicidad significativa.",
+            "C": "FG 42 mL/min NO contraindica quimioterapia protocolo POUT — el FG mínimo del ensayo POUT fue 30 mL/min. Los pacientes con FG 30-49 recibieron gemcitabina-carboplatino. El paciente es elegible.",
+            "D": "La terapia adyuvante con pembrolizumab no ha sido validada para CITUS post-NUR en un ensayo clínico de fase III. El protocolo POUT (GC o GCarboplatin) es el estándar basado en evidencia."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 7.2: Quimioterapia adyuvante — elegibilidad POUT y regímenes (FG 30-49 = GCarboplatin)",
+          "trial": "Birtle A et al. Ensayo POUT (Lancet 2020): FG ≥50 = gemcitabina-cisplatino; FG 30-49 = gemcitabina-carboplatino — beneficio de supervivencia libre de enfermedad igual en ambos estratos de FG.",
+          "pearl": "Quimioterapia adyuvante POUT para CITUS (pT2-T4/pN+): FG ≥50 → gemcitabina-cisplatino × 4; FG 30-49 → gemcitabina-carboplatino × 4; FG <30 → no elegible. Iniciar dentro de 90 días de RNU. La caída de FG post-nefroureterectomía hace que muchos pacientes sean elegibles para carboplatino en lugar de cisplatino."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q4",
+        "stem": "Un varón de 74 años con un riñón único derecho y FG 54 mL/min es diagnosticado con un tumor ureteral de bajo grado de 1,2 cm a nivel L3 en urografía por TC y confirmado de bajo grado en biopsia ureteroscópica y citología de bajo grado. No hay hidronefrosis presente. ¿Cuál es el manejo más apropiado?",
+        "options": {
+          "A": "Nefroureterectomía radical derecha — única opción curativa para CITUS ureteral",
+          "B": "Ablación láser ureteroscópica — cirugía conservadora del riñón indicada para CITUS de bajo riesgo en riñón único",
+          "C": "Ureterectomía segmentaria del uréter medio",
+          "D": "Pembrolizumab sistémico — la cirugía causaría dependencia de diálisis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este paciente tiene dos indicaciones independientes para cirugía conservadora del riñón: (1) indicación absolutamente imperativa — riñón único funcionante (NUR causaría anuria/dependencia de diálisis); (2) indicación relativa — cumple criterios CITUS de bajo riesgo (tamaño <2 cm, biopsia de bajo grado, citología de bajo grado, sin hidronefrosis, unifocal). La ablación láser ureteroscópica es apropiada. La EAU 2024 recomienda fuertemente cirugía conservadora del riñón para indicaciones imperativamente absolutas independientemente de estratificación del riesgo. Nota: incluso si este fuera CITUS de alto riesgo, la cirugía conservadora del riñón seguiría siendo recomendada en un riñón único funcionante — equilibrando preservación oncológica y de función renal.",
+          "wrong": {
+            "A": "NUR en un riñón único funcionante causaría anuria/dependencia de diálisis — esto es la definición de contraindicación absoluta a RNU. La cirugía conservadora del riñón es obligatoria en este escenario.",
+            "C": "La ureterectomía segmentaria a nivel L3 (uréter medio) es una alternativa quirúrgica más invasiva. La ablación láser ureteroscópica es menos invasiva y apropiada como primera línea para cirugía conservadora del riñón en este tumor accesible de bajo grado. La ureterectomía segmentaria se reserva para fracasos de ablación ureteroscópica o tumores no amenables a ureteroscopia.",
+            "D": "Pembrolizumab es para enfermedad metastásica — no tiene papel en manejo de CITUS localizado. La cirugía conservadora del riñón (ablación ureteroscópica) es la intervención apropiada."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 6.3: Cirugía conservadora del riñón — indicaciones absolutas y criterios de bajo riesgo",
+          "trial": "Cutress ML et al. Manejo ureteroscópico y percutáneo de CITUS vs nefroureterectomía radical para enfermedad de bajo riesgo. Eur Urol 2012: cirugía conservadora del riñón equivalente a supervivencia específica del cáncer que RNU para CITUS de bajo riesgo en pacientes seleccionados apropiadamente.",
+          "pearl": "Indicaciones absolutas para cirugía conservadora del riñón CITUS: riñón único, CITUS bilateral, FG que requeriría diálisis post-NUR. En estos casos, incluso CITUS de alto riesgo debe ser intentado con cirugía conservadora (con vigilancia cercana) para preservar función renal. Imperativamente absoluto > consideraciones optativas."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q5",
+        "stem": "¿Cuál es el tratamiento intravesical adyuvante recomendado después de la nefroureterectomía radical para reducir la recurrencia vesical y cuál es su base de evidencia?",
+        "options": {
+          "A": "BCG × 6 instilaciones semanales — reduce recurrencia vesical en 50%",
+          "B": "Instilación intravesical única de mitomicina C dentro de 24 horas de NUR — reduce recurrencia vesical en 40% (ensayo ODMIT-C)",
+          "C": "Epirubicina × 4 instilaciones semanales — reduce recurrencia vesical en 30%",
+          "D": "Sin terapia intravesical — recurrencia vesical después de NUR no es prevenible"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo ODMIT-C (O'Brien et al., J Urol 2011) fue un ensayo clínico controlado aleatorio de fase III demostrando que una instilación intravesical única de mitomicina C (40 mg en 40 mL solución salina) dentro de 24 horas de completar NUR reduce recurrencia vesical a 1 año del 26% a 16% (RR 0,60, p=0,03). Esta reducción relativa del 40% en recurrencia vesical es una recomendación de Grado A de la EAU 2024. El mecanismo es el mismo que la instilación post-RTUP — destrucción de células tumorales circulantes sembradas en la vejiga durante la cirugía.",
+          "wrong": {
+            "A": "La inducción BCG × 6 semanas es una opción para carcinoma urotelial de alto riesgo no músculo-invasivo de vejiga — no ha sido evaluada en un ensayo clínico de fase III para prevención de recurrencia vesical post-NUR. La evidencia ODMIT-C apoya una dosis única de mitomicina C, no BCG.",
+            "C": "La epirubicina × 4 instilaciones no ha sido validada como terapia adyuvante después de NUR. La mitomicina C de dosis única (ODMIT-C) es la intervención basada en evidencia.",
+            "D": "La recurrencia vesical después de NUR es muy prevenible — el ensayo ODMIT-C demostró reducción del 40% con una instilación única de mitomicina C. Esta es una recomendación de Grado A de la EAU 2024 que no debe ser omitida."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 7.1: Quimioterapia intravesical perioperatoria — instilación única de mitomicina C después de NUR",
+          "trial": "O'Brien T et al. ODMIT-C: Instilación intravesical de dosis única de mitomicina C para prevenir recurrencia tumoral de vejiga después de nefroureterectomía por carcinoma urotelial del tracto urinario superior. J Urol 2011: RR 0,60, p=0,03 — recomendación de Grado A de la EAU.",
+          "pearl": "Mitomicina C intravesical única (40 mg) dentro de 24h de RNU reduce recurrencia vesical en 40% (ensayo ODMIT-C, J Urol 2011). Recomendación de Grado A de la EAU 2024 para todos los pacientes post-NUR. Mecanismo: destruye células tumorales sembradas del tracto urinario superior. Contraindicada si perforación vesical durante cirugía."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A7-Q6",
+        "stem": "Un varón de 55 años se somete a nefroureterectomía radical izquierda con escisión del manguito vesical por CITUS ureteral pT2 N0 izquierdo. La escisión del manguito vesical se realiza por engrapado extravesical. En cistoscopia de vigilancia a los 12 meses, se encuentra un tumor en el orificio ureteral izquierdo. ¿Cuál es la razón más probable para esta recurrencia?",
+        "options": {
+          "A": "Disección incompleta de ganglios linfáticos dejando enfermedad micrometastásica",
+          "B": "Escisión incompleta del manguito vesical — el engrapado extravesical deja muñón ureteral distal residual",
+          "C": "Selección de quimioterapia adyuvante inadecuada",
+          "D": "Carcinoma urotelial de vejiga primario nuevo — no relacionado con CITUS"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El engrapado extravesical del manguito vesical durante NUR se asocia con tasas de recurrencia vesical más altas que técnicas intravesical o cistotomía abierta porque el engrapado puede dejar un muñón ureteral distal residual o margen de manguito vesical inadecuado. El urotelio residual en el orificio ureteral/uréter intramural proporciona un sitio para recurrencia tumoral por escisión incompleta o siembra. Un tumor en el sitio del orificio ureteral a los 12 meses es la presentación clásica de escisión incompleta del manguito vesical. La EAU 2024 recomienda contra el engrapado extravesical para escisión del manguito vesical — el desprendimiento endoscópico o excisión intravesical abierta es preferida.",
+          "wrong": {
+            "A": "La disección incompleta de ganglios linfáticos conducería a recurrencia retroperitoneal o sistémica, no tumor localizado en el sitio del orificio ureteral. El fracaso de ganglios linfáticos se presenta como adenopatía retroperitoneal o metástasis distantes.",
+            "C": "La quimioterapia adyuvante inadecuada (que no fue dada aquí — pT2 N0 es elegible para POUT pero la pregunta no establece que recibió quimioterapia) se manifestaría como recaída sistémica, no recurrencia localizada del manguito vesical.",
+            "D": "El carcinoma urotelial de vejiga primario nuevo es posible pero mucho menos probable que escisión incompleta del manguito vesical en la localización exacta del orificio ureteral a los 12 meses. La recurrencia específica del sitio del orificio apunta a escisión quirúrgica incompleta."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 6.2: Técnica NUR — método de escisión del manguito vesical y prevención de complicaciones",
+          "trial": "Arango O et al. Tasa de recurrencia vesical después de diferentes métodos de escisión del manguito vesical durante nefroureterectomía. BJU Int 2018: engrapado extravesical asociado con tasa de recurrencia vesical más alta — desprendimiento endoscópico o excisión intravesical preferida.",
+          "pearl": "La técnica de escisión del manguito vesical importa: el engrapado extravesical tiene tasa de recurrencia vesical más alta (manguito incompleto, muñón residual). Técnicas preferidas: desprendimiento endoscópico del orificio ureteral antes de NUR laparoscópica, o cistotomía intravesical abierta. La escisión del manguito vesical es obligatoria — ningún uréter distal debe permanecer."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q7",
+        "stem": "Un varón de 45 años presenta CITUS bilateral (tumor de pelvis renal derecha 1,8 cm de bajo grado; tumor de uréter medio izquierdo 1,5 cm de bajo grado). La FG es 58 mL/min bilateralmente. ¿Cuál es el abordaje quirúrgico más apropiado?",
+        "options": {
+          "A": "Nefroureterectomía radical bilateral en etapas — mejor resultado oncológico",
+          "B": "Nefroureterectomía radical derecha + ablación ureteroscópica izquierda (preservación del riñón dominante)",
+          "C": "Cirugía conservadora bilateral del riñón (ablación ureteroscópica bilateralmente) — preservando función renal",
+          "D": "Ablación ureteroscópica derecha + ureterectomía segmentaria izquierda"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El CITUS bilateral es una indicación imperativa absolutamente imperativa para cirugía conservadora del riñón — la NUR bilateral resultaría en anuria y dependencia de diálisis permanente. Con enfermedad bilateral de bajo grado (ambas <2 cm, bajo grado), el abordaje apropiado es cirugía conservadora bilateral: ablación láser ureteroscópica para el tumor de pelvis renal derecha y ablación ureteroscópica para el tumor de uréter medio izquierdo (o ureterectomía segmentaria si URS no es técnicamente factible). La EAU 2024 obliga cirugía conservadora del riñón para CITUS bilateral independientemente de las características del tumor.",
+          "wrong": {
+            "A": "La NUR bilateral rendería a este paciente anéurico y dependiente de diálisis permanente — esto está contraindicado. El CITUS bilateral es una indicación imperativa absolutamente imperativa para cirugía conservadora del riñón.",
+            "B": "NUR derecha + cirugía conservadora izquierda es un compromiso razonable si la cirugía conservadora bilateral falla — pero con enfermedad bilateral de bajo grado amenable a ureteroscopia, la cirugía conservadora bilateral debe ser intentada primero. La NUR derecha reduciría la FG significativamente e aumentaría riesgo de dependencia de diálisis futura.",
+            "D": "Ablación URS derecha + ureterectomía segmentaria izquierda: esta combinación intenta preservar ambos riñones. Sin embargo, la ablación URS bilateral es más apropiada como primer abordaje — la ureterectomía segmentaria se reserva para fracasos de URS o tumores técnicamente inaccesibles."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 6.3: CITUS bilateral — indicación absolutamente imperativa para cirugía conservadora del riñón",
+          "trial": "Cutress ML et al. Eur Urol 2012: CITUS bilateral manejado con cirugía conservadora del riñón logra supervivencia específica del cáncer equivalente a NUR en pacientes seleccionados; la preservación de función renal es paramount — la diálisis en pacientes CITUS empeora resultados específicos del cáncer.",
+          "pearl": "CITUS bilateral = indicación imperativa absolutamente imperativa para cirugía conservadora del riñón. NUR bilateral = anuria + diálisis = contraindicada a menos que sin alternativa. Otras indicaciones absolutas: riñón único, FG <60 con riñón contralateral insuficiente para mantener independencia de diálisis post-NUR."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q8",
+        "stem": "Una mujer de 52 años de una familia con fuerte antecedente de CCHHSP (madre con cáncer de colon a los 40, hermana con cáncer endometrial a los 48) es recientemente diagnosticada con CITUS ureteral izquierdo. ¿Qué prueba debe realizarse en el espécimen tumoral para evaluar síndrome de Lynch?",
+        "options": {
+          "A": "FISH para translocaciones cromosómicas",
+          "B": "Inmunohistoquímica de proteínas de reparación de emparejamiento erróneo (MLH1, MSH2, MSH6, PMS2)",
+          "C": "Análisis mutacional de KRAS tumoral",
+          "D": "Prueba mutacional de FGFR3"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El síndrome de Lynch (CCHHSP) es causado por mutaciones germinales en genes de reparación de emparejamiento erróneo (MMR): MLH1, MSH2, MSH6, o PMS2. La inmunohistoquímica tumoral para proteínas MMR es la prueba de cribado recomendada — la pérdida de expresión de cualquier proteína MMR indica deficiencia de MMR, impulsando prueba genética germinal. La EAU 2024 recomienda cribado del síndrome de Lynch por inmunohistoquímica MMR en todos los especímenes tumorales CITUS, particularmente en pacientes <60 años o con antecedentes familiares sugestivos. El síndrome de Lynch está presente en el 10-20% de pacientes con CITUS y tiene implicaciones profundas para vigilancia (cánceres de colon, endometrio, ovario) y cribado familiar.",
+          "wrong": {
+            "A": "FISH para translocaciones cromosómicas se usa para algunos malignidades hematológicas y cáncer de vejiga (FISH UroVysion para orina) — no para cribado de síndrome de Lynch en especímenes tumorales.",
+            "C": "Las mutaciones en KRAS son relevantes para cáncer colorrectal (elegibilidad de terapia anti-EGFR) — no para cribado del síndrome de Lynch o manejo de CITUS.",
+            "D": "La prueba mutacional de FGFR3 es relevante para CITUS metastásico (elegibilidad de erdafitinib) — no para cribado del síndrome de Lynch."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 4.3: Cribado del síndrome de Lynch — inmunohistoquímica MMR en todos los especímenes CITUS",
+          "trial": "Rouprêt M et al. Inestabilidad de microsatélites como marcador de síndrome de Lynch en cánceres del tracto urinario superior. Eur Urol 2011: el 10-20% de pacientes con CITUS tienen síndrome de Lynch — cribado de inmunohistoquímica MMR recomendado para todo CITUS.",
+          "pearl": "El síndrome de Lynch (deficiencia de MMR) está presente en el 10-20% de pacientes con CITUS — mucho más alto que en carcinoma urotelial de vejiga (<1%). Cribado de todos los CITUS con inmunohistoquímica MMR (MLH1, MSH2, MSH6, PMS2). Pérdida de expresión de proteína MMR → prueba germinal → cribado en cascada familiar. Los pacientes con síndrome de Lynch necesitan colonoscopia y vigilancia ginecológica."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q9",
+        "stem": "¿Cuál modalidad de imagen es el estándar de referencia para diagnóstico primario y estadificación del carcinoma urotelial del tracto urinario superior?",
+        "options": {
+          "A": "Pielogafia retrógrada (PR) — proporciona mejor detalle de superficie urotelial",
+          "B": "Ecografía escrotal — identifica tumores de pelvis renal con >90% de sensibilidad",
+          "C": "Urografía por TC (UTC) — detecta defectos de repleción, engrosamiento urotelial e hidronefrosis",
+          "D": "Urografía por resonancia magnética — sin radiación ionizante y contraste de partes blandas superior"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La urografía por TC (UTC) es la modalidad de imagen diagnóstica primaria para CITUS según la EAU 2024. Incluye fases sin contraste, nefrográfica y excretoria y puede detectar defectos de repleción, engrosamiento urotelial, estriación periureteral, hidronefrosis y estadificación local. La sensibilidad es 67-100% y la especificidad 93-99% para detección de CITUS. La TC también estadifica ganglios linfáticos y evalúa enfermedad metastásica distante en un examen. Es el primer estudio de imagen recomendado en todas las evaluaciones de hematuria con sospecha de CITUS.",
+          "wrong": {
+            "A": "La pielogafia retrógrada (PR) proporciona excelente detalle luminal pero no puede evaluar el parénquima renal, extensión periureteral, ganglios linfáticos o enfermedad distante. Se usa como complemento cuando UTC es concluyente o cuando biopsias son necesarias durante ureteroscopia.",
+            "B": "La ecografía escrotal es para evaluación testicular. La ecografía renal/del tracto urinario superior puede detectar hidronefrosis y masas renales grandes pero tiene sensibilidad muy limitada para defectos de repleción urotelia (<50% para lesiones CITUS pequeñas).",
+            "D": "La urografía por resonancia magnética es una alternativa cuando la TC está contraindicada (alergia al contraste, insuficiencia renal grave FG <30, embarazo) — tiene detalle de partes blandas equivalente o superior pero tiempo de examen más largo, disponibilidad más baja y no es la modalidad de primera línea."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 5.1: Imagen — urografía por TC como modalidad diagnóstica primaria",
+          "trial": "Wang LJ et al. CT urography en diagnóstico de carcinoma de células transicionales. AJR 1997: sensibilidad de UTC 96% y especificidad 99% para detectar defectos de repleción CITUS — establecida como imagen estándar de referencia.",
+          "pearl": "La urografía por TC (UTC) es el estándar de referencia para diagnóstico de CITUS — detecta defectos de repleción, engrosamiento urotelial e hidronefrosis en fase excretoria. Debe incluir las tres fases. La urografía por resonancia magnética se usa cuando la TC está contraindicada. La ureteroscopia con biopsia es la herramienta de confirmación y estadificación histológica."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A7-Q10",
+        "stem": "Un paciente con CITUS de alto riesgo (pT3 N0, pelvis renal derecha) se somete a nefroureterectomía radical. Post-operatoriamente, su FG cae de 61 a 38 mL/min. Es asesorado sobre quimioterapia adyuvante según criterios POUT. ¿Cuál es el umbral FG MÍNIMO requerido para elegibilidad protocolo POUT?",
+        "options": {
+          "A": "FG ≥60 mL/min",
+          "B": "FG ≥50 mL/min",
+          "C": "FG ≥30 mL/min",
+          "D": "FG ≥20 mL/min"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El ensayo POUT incluyó pacientes con FG ≥30 mL/min. El diseño del ensayo anticipó declive de la función renal post-operatoria después de NUR — los pacientes con FG 30-49 recibieron gemcitabina-carboplatino, y los que tenían FG ≥50 recibieron gemcitabina-cisplatino. Una FG post-operatoria de 38 mL/min hace que este paciente sea elegible para protocolo POUT con gemcitabina-carboplatino. Los pacientes con FG <30 fueron excluidos debido al riesgo de toxicidad renal significativa relacionada con quimioterapia.",
+          "wrong": {
+            "A": "FG ≥60 es el umbral de elegibilidad para cisplatino (criterios de Galsky) — no el mínimo POUT. La EAU 2024 extiende elegibilidad a FG 30-49 con sustitución de carboplatino.",
+            "B": "FG ≥50 es el umbral de elegibilidad para cisplatino dentro del ensayo POUT — los pacientes con FG ≥50 recibieron cisplatino. FG 30-49 recibieron carboplatino. El FG mínimo para cualquier protocolo POUT es 30, no 50.",
+            "D": "FG ≥20 mL/min está por debajo del umbral de elegibilidad POUT. Por debajo de FG 30, el riesgo de toxicidad renal adicional relacionada con quimioterapia se consideró demasiado alto en el diseño del ensayo POUT."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 7.2: Ensayo POUT — criterios de elegibilidad (FG ≥30 mL/min)",
+          "trial": "Birtle A et al. Ensayo POUT (Lancet 2020): incluyó pacientes FG ≥30; FG 30-49 = GCarboplatin; FG ≥50 = GCisplatin. Ambos grupos mostraron beneficio de supervivencia libre de enfermedad.",
+          "pearl": "FG mínimo del ensayo POUT: 30 mL/min. FG 30-49 = gemcitabina-carboplatino × 4 ciclos; FG ≥50 = gemcitabina-cisplatino × 4 ciclos. La caída de FG post-NUR es anticipada y acomodada en el diseño POUT. Iniciar dentro de 90 días de RNU."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q11",
+        "stem": "¿Cómo se compara el pronóstico de CITUS pT2 con carcinoma urotelial de vejiga pT2 estadio a estadio?",
+        "options": {
+          "A": "CITUS pT2 tiene pronóstico equivalente a carcinoma urotelial de vejiga pT2 — misma profundidad de invasión en muscularis",
+          "B": "CITUS pT2 tiene mejor pronóstico porque el uréter tiene una muscularis más gruesa que la vejiga",
+          "C": "CITUS pT2 tiene pronóstico significativamente peor porque la pared ureteral es mucho más delgada, colocando CITUS pT2 biológicamente equivalente a carcinoma urotelial de vejiga pT3",
+          "D": "CITUS pT2 tiene mejor pronóstico porque el uréter está inmunológicamente protegido de invasión vascular"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La pared ureteral es mucho más delgada que la pared vesical — el uréter carece de una submucosa muscular distinta y tiene una capa muscular significativamente más delgada. CITUS pT2 (invasión de muscularis en el uréter o pelvis renal) es biológicamente más cercano a carcinoma urotelial de vejiga pT3 en términos de proximidad a estructuras perivasculares y periumureterales. Además, la pared delgada significa que las estructuras linfovásculares están más próximas, facilitando invasión linfovascular más temprana y propagación regional. Estadio a estadio, CITUS tiene 10-15% peor supervivencia específica del cáncer a 5 años que carcinoma urotelial de vejiga en categorías pT equivalentes.",
+          "wrong": {
+            "A": "CITUS pT2 y carcinoma urotelial de vejiga pT2 NO tienen pronóstico equivalente — CITUS tiene sistemáticamente peores resultados en estadios pT equivalentes debido a la anatomía de pared delgada.",
+            "B": "El uréter tiene una muscularis MÁS DELGADA que la vejiga — lo opuesto de lo que esta opción establece. Pared más delgada = pronóstico pT2 peor, no mejor.",
+            "D": "El uréter no tiene ventaja protección inmunológica. La proximidad vascular en la pared ureteral delgada facilita, no inhibe, invasión vascular."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 3.2: Patología y estadificación — biología de pared ureteral delgada",
+          "trial": "Rouprêt M et al. Factores pronósticos de CITUS: revisión sistemática. Eur Urol 2008: localización ureteral y espesor de pared delgada son factores pronósticos adversos independientes — CITUS pT2 peor que carcinoma urotelial de vejiga pT2.",
+          "pearl": "CITUS tiene peor pronóstico que carcinoma urotelial de vejiga en estadios pT equivalentes debido a pared ureteral/pelvis renal delgada — CITUS pT2 ≈ carcinoma urotelial de vejiga pT3 biológicamente. 60% de CITUS es invasivo (pT2+) en diagnóstico vs 25% para carcinoma urotelial de vejiga — detección más tardía en el tracto urinario superior de pared más delgada."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A7-Q12",
+        "stem": "Un varón de 67 años con antecedente de carcinoma urotelial no músculo-invasivo de vejiga (NMIBC de alto riesgo, CIS) tratado con BCG hace 3 años desarrolla hematuria microscópica en vigilancia. La cistoscopia es normal. La urografía por TC muestra un defecto de repleción de 1,8 cm en el uréter derecho a nivel L2. La biopsia ureteroscópica confirma carcinoma urotelial de bajo grado. ¿Cómo cambia su antecedente de cistectomía radical previa (hipotéticamente) o antecedente de carcinoma urotelial de vejiga la clasificación de riesgo de CITUS?",
+        "options": {
+          "A": "El antecedente de carcinoma urotelial de vejiga no tiene impacto en la estratificación de riesgo de CITUS",
+          "B": "La cistectomía radical previa por carcinoma urotelial de vejiga automáticamente clasifica CITUS como alto riesgo independientemente de características del tumor",
+          "C": "El antecedente de NMIBC de alto riesgo (CIS) reduce la clasificación de riesgo del CITUS subsiguiente",
+          "D": "La terapia BCG previa para carcinoma urotelial de vejiga hace que CITUS de bajo grado sea más agresivo biológicamente"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La EAU 2024 explícitamente establece que un antecedente de cistectomía radical previa por carcinoma urotelial de vejiga es un criterio independiente de alto riesgo para CITUS, independientemente de grado tumoral CITUS o tamaño. El razonamiento: los pacientes que se han sometido a cistectomía radical han demostrado comportamiento urotelial de alto riesgo; la ausencia de vejiga también significa que no hay oportunidad para estrategia de manejo de enfermedad de menor grado — el tracto urinario superior restante (tractos superiores) representa todo el urotelio restante en riesgo. Nota: en este caso el paciente no ha tenido RC, por lo que este criterio no aplica actualmente — pero la pregunta prueba conocimiento de este principio EAU 2024.",
+          "wrong": {
+            "A": "El antecedente de carcinoma urotelial de vejiga SÍ impacta la estratificación de riesgo de CITUS — específicamente, la cistectomía radical previa por carcinoma urotelial de vejiga es un criterio de riesgo alto EAU 2024 para CITUS.",
+            "C": "El antecedente de NMIBC de alto riesgo no reduce la clasificación de riesgo de CITUS — si algo, sugiere un defecto de campo urotelial más agresivo predisponiendo a enfermedad del tracto urinario superior de mayor grado.",
+            "D": "La terapia BCG no altera biológicamente agresividad de CITUS. La terapia BCG induce respuesta inmune en el urotelio de vejiga — no tiene efecto validado en biología tumoral del tracto urinario superior."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 6.1: Criterios de riesgo alto de CITUS — cistectomía radical previa por carcinoma urotelial de vejiga = riesgo alto",
+          "trial": "Seisen T et al. La cistectomía radical previa por cáncer de vejiga es predictor independiente de supervivencia pobre después de nefroureterectomía para CITUS. Eur Urol Focus 2016: RC previa = designación de riesgo alto para CITUS subsiguiente — RNU recomendada.",
+          "pearl": "Criterios de riesgo alto de CITUS EAU 2024 incluyen: cistectomía radical previa por carcinoma urotelial de vejiga (independientemente de características del tumor CITUS). Esto es porque el antecedente de carcinoma urotelial de vejiga agresivo señala defecto de campo de urotelio entero; urotelio de tracto urinario superior restante es riesgo alto. RC previa = automáticamente riesgo alto = RNU."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A7-Q13",
+        "stem": "Una mujer de 38 años de Bosnia presenta hidroureteronefros bilaterales y CITUS en urografía por TC. Reporta tomar medicinas herbales tradicionales para pérdida de peso durante 10 años. Las pruebas mutacionales tumorales revelan mutaciones en TP53 en un patrón de punto caliente inusual. ¿Cuál es la etiología más probable?",
+        "options": {
+          "A": "Síndrome de Lynch — presentación bilateral común de CITUS",
+          "B": "Nefropatía por ácido aristolóquico de medicinas herbales que contengan especies Aristolochia",
+          "C": "Nefropatía analgésica por AINEs",
+          "D": "Tabaquismo — factor de riesgo más común de CITUS"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La nefropatía por ácido aristolóquico (NAA), también conocida como nefropatía herbal china (cuando de medicinas tradicionales chinas) o nefropatía de los Balcanes (endémica en países antiguos de Yugoslavia por harina de trigo contaminada con Aristolochia clematitis), causa un síndrome CITUS distintivo. Características clave: (1) CITUS del tracto urinario superior bilateral, (2) mutaciones características de TP53 con transversión A:T→T:A (firma mutacional de ácido aristolóquico, SBS22), (3) alto riesgo de CITUS bilateral (a diferencia de casos esporádicos), (4) nefritis intersticial asociada e insuficiencia renal. El ácido aristolóquico es uno de los carcinógenos más potentes conocidos, con exposición cumulativa correlacionándose linealmente con riesgo de CITUS.",
+          "wrong": {
+            "A": "El síndrome de Lynch causa CITUS bilateral a mayores tasas que CITUS esporádico, pero el CITUS de síndrome de Lynch tiene deficiencia de MMR (pérdida de MSH2 más común), no mutaciones de transversión de TP53. El antecedente de medicina herbal es la pista clave.",
+            "C": "La nefropatía analgésica (fenacetina — ahora retirada) causa necrosis papilar e CITUS del tracto urinario superior, pero no causa las mutaciones de transversión de TP53 distintivas ni patrón de presentación bilateral de ácido aristolóquico. El antecedente de medicina herbal con geografía de los Balcanes apunta fuertemente a ácido aristolóquico.",
+            "D": "El tabaquismo es el factor de riesgo CITUS más común en general, pero no causa CITUS bilateral o el patrón distintivo de mutación de transversión de TP53. El antecedente de medicina herbal es la pista diagnóstica."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 4.2: Etiología — nefropatía por ácido aristolóquico y CITUS",
+          "trial": "Chen CH et al. Ácido aristolóquico y riesgo de cánceres del tracto urotelial en Taiwan. NEJM 2012: exposición a ácido aristolóquico de medicinas herbales aumenta dramáticamente el riesgo de CITUS (RR 5-10); CITUS bilateral característica de NAA.",
+          "pearl": "Nefropatía por ácido aristolóquico (medicinas herbales que contienen Aristolochia/nefropatía endémica de los Balcanes): CITUS bilateral, mutaciones de transversión A:T→T:A de TP53 (firma mutacional SBS22), nefritis intersticial, insuficiencia renal. Uno de los carcinógenos más potentes conocidos. CITUS en paciente de región de los Balcanes o uso de medicina herbal → siempre cribado de NAA."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A7-Q14",
+        "stem": "La cistoscopia de vigilancia después de nefroureterectomía radical para CITUS debe realizarse en qué intervalo para los primeros 2 años, según la EAU 2024?",
+        "options": {
+          "A": "Cada 12 meses durante 2 años",
+          "B": "Cada 6 meses durante 2 años",
+          "C": "Cada 3 meses durante 2 años",
+          "D": "Una cistoscopia a los 6 meses, luego según esté clínicamente indicado"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La EAU 2024 recomienda cistoscopia (con citología urinaria) cada 3 meses durante los primeros 2 años después de RNU. La recurrencia vesical después de RNU alcanza su pico en los primeros 18-24 meses y requiere detección temprana para RTUP curativa. La vigilancia cada 3 meses captura recurrencias tempranas de carcinoma urotelial de vejiga cuando todavía son de estadio bajo y amenables a terapia intravesical estándar (BCG o mitomicina C). Después de 2 años sin recurrencia vesical, la frecuencia de vigilancia puede ser reducida.",
+          "wrong": {
+            "A": "La cistoscopia anual es insuficiente para vigilancia post-RNU — el riesgo de recurrencia vesical es más alto en los primeros 2 años y puede progresar rápidamente. La recomendación EAU 2024 es vigilancia cada 3 meses.",
+            "B": "La cistoscopia cada 6 meses es inadecuada para el período de alto riesgo temprano post-RNU. Los datos del ensayo ODMIT-C y series retrospectivas muestran que la mayoría de recurrencias vesicales aparecen dentro de los primeros 12-18 meses, requiriendo vigilancia cada 3 meses.",
+            "D": "Una cistoscopia única a los 6 meses es groseramente inadecuada — la recurrencia vesical se desarrolla en el 15-50% de los pacientes dentro de 2 años, y la detección temprana es crítica para manejo curativo."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 8.1: Vigilancia después de RNU — cistoscopia cada 3 meses durante primeros 2 años",
+          "trial": "Soukup V et al. Rendimiento pronóstico y reproducibilidad de la clasificación de la OMS 1973 y 2004 de CITUS. Eur Urol 2012: recurrencia vesical alcanza su pico a los 18-24 meses post-RNU — apoya programa de cistoscopia cada 3 meses.",
+          "pearl": "Programa de vigilancia cistoscopia post-RNU: cada 3 meses × 2 años (riesgo de recurrencia vesical más alto), luego cada 6 meses × 3 años, luego anualmente. Más urografía por TC del tracto urinario superior contralateral cada 6-12 meses durante 5 años. La recurrencia vesical ocurre en 15-50% — la detección temprana permite RTUP curativa."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q15",
+        "stem": "Un varón de 64 años es diagnosticado con CITUS ureteral derecho de alto riesgo (pT3 N2 M0) después de nefroureterectomía radical. Él es elegible para cisplatino (FG 64 mL/min post-operatoria). Está iniciando gemcitabina-cisplatino adyuvante. ¿Cuándo debe comenzar la quimioterapia adyuvante en relación a la fecha de la cirugía?",
+        "options": {
+          "A": "Dentro de 30 días de la cirugía",
+          "B": "Dentro de 90 días de la cirugía",
+          "C": "Dentro de 6 meses de la cirugía",
+          "D": "En cualquier momento — el tiempo no afecta resultado"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El protocolo del ensayo POUT requería que la quimioterapia adyuvante comenzara dentro de 90 días de la nefroureterectomía. Esto refleja la recomendación de tiempo para quimioterapia adyuvante después de cistectomía radical. Los retrasos más allá de 90 días arriesgan progresión de enfermedad en CITUS de alto riesgo (pT3/N+) y se asocian con peores resultados basados en datos análogos de estudios de cáncer de vejiga. La EAU 2024 sigue el protocolo POUT y recomienda inicio dentro de 90 días de RNU.",
+          "wrong": {
+            "A": "30 días es frecuentemente insuficiente para recuperación post-operatoria (cicatrización de herida, estabilización de función renal, recuperación de estado de rendimiento) y no está especificado en protocolo POUT.",
+            "C": "6 meses es demasiado tiempo — POUT requería inicio dentro de 90 días. Iniciar quimioterapia adyuvante a los 6 meses arriesga progresión de enfermedad micrometastásica durante el retraso.",
+            "D": "El tiempo importa significativamente — datos análogos de cáncer de vejiga y cáncer colorrectal muestran que retrasos en quimioterapia adyuvante más allá de 90 días se asocian con peores resultados de supervivencia."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 7.2: Tiempo de quimioterapia adyuvante — dentro de 90 días de RNU según protocolo POUT",
+          "trial": "Birtle A et al. Ensayo POUT (Lancet 2020): la quimioterapia adyuvante iniciada dentro de 90 días de RNU — este criterio de tiempo fue un requisito de elegibilidad para aleatorización.",
+          "pearl": "La quimioterapia adyuvante POUT debe comenzar dentro de 90 días de RNU (según criterios de elegibilidad POUT). Esto refleja la recomendación de 90 días para terapia adyuvante en cáncer de vejiga (post-cistectomía). Retrasos >90 días arriesgan progresión micrometastásica y no están apoyados por la EAU 2024."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q16",
+        "stem": "Un varón de 59 años se ha sometido a ablación láser ureteroscópica por CITUS ureteral derecho de bajo riesgo pTa de bajo grado. Está programado para vigilancia ureteroscópica. Según la EAU 2024, ¿con qué frecuencia debe realizarse vigilancia ureteroscópica post-ablación ureteroscópica durante los primeros 2 años?",
+        "options": {
+          "A": "Anualmente — igual que vigilancia cistoscopia post-RNU",
+          "B": "Cada 6 meses durante 2 años",
+          "C": "Cada 3 meses durante 2 años",
+          "D": "Solo cuando ocurre hematuria — vigilancia guiada por síntomas"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Después de cirugía conservadora del riñón (ablación ureteroscópica) para CITUS, la tasa de recurrencia ipsilateral es 30-50% a 5 años — significativamente más alta que después de RNU. La EAU 2024 obliga vigilancia ureteroscópica intensiva cada 3 meses durante los primeros 2 años para detectar y tratar recurrencias locales en estadio temprano. Esto se combina con cistoscopia cada 3 meses (para monitoreo de recurrencia vesical) y urografía por TC cada 6-12 meses durante los primeros 2 años.",
+          "wrong": {
+            "A": "La ureteroscopia anual es groseramente insuficiente después de cirugía conservadora del riñón — con tasa de recurrencia local 30-50% en los primeros 2 años, la vigilancia anual perdería la mayoría de recurrencias tempranas.",
+            "B": "La ureteroscopia cada 6 meses es insuficiente dado el alto riesgo de recurrencia local después de ablación ureteroscópica. La EAU 2024 especifica ureteroscopia cada 3 meses durante los primeros 2 años.",
+            "D": "La vigilancia guiada por síntomas (solo cuando ocurre hematuria) es inapropiada — muchas recurrencias de CITUS no se acompañan de hematuria macroscópica, y esperar síntomas permite progresión a enfermedad de mayor estadio."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 8.2: Vigilancia después de cirugía conservadora del riñón — ureteroscopia cada 3 meses × 2 años",
+          "trial": "Cutress ML et al. Manejo ureteroscópico y percutáneo de carcinoma urotelial del tracto urinario superior: revisión sistemática. Eur Urol 2012: recurrencia local 30-50% a 5 años después de ablación URS — vigilancia ureteroscópica intensiva cada 3 meses obligatoria.",
+          "pearl": "Vigilancia post-ablación ureteroscópica CITUS: ureteroscopia + citología cada 3 meses × 2 años (recurrencia ipsilateral 30-50%). Más cistoscopia cada 3 meses (monitoreo de recurrencia vesical). Urografía por TC cada 6-12 meses. Si recurrencia detectada: ablación adicional si bajo grado; RNU si sobre-estadificación."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q17",
+        "stem": "Un varón de 71 años con CITUS localmente avanzado pT4 N2 M1 presenta metástasis óseas e hepáticas. Él es inelegible para cisplatino (FG 41 mL/min, estado de rendimiento ECOG 2). ¿Cuál es la terapia sistémica de primera línea más apropiada?",
+        "options": {
+          "A": "Gemcitabina-cisplatino × 6 ciclos",
+          "B": "Pembrolizumab en monoterapia (KEYNOTE-052 — si PD-L1 CPS ≥10)",
+          "C": "Enfortumab vedotina + pembrolizumab (EV-302)",
+          "D": "Gemcitabina-carboplatino × 4 ciclos seguida de mantenimiento con avelumab"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "Este paciente inelegible para cisplatino (FG 41 <60, estado de rendimiento ECOG 2) con CITUS metastásico debe recibir carboplatino-gemcitabina como terapia de primera línea, seguida de mantenimiento con avelumab si sin progresión (protocolo JAVELIN Bladder 100 incluyó pacientes con CITUS). JAVELIN Bladder 100 (Powles et al., NEJM 2020) se aplicó a todo carcinoma urotelial metastásico incluyendo CITUS después de sin progresión en quimioterapia platino de primera línea. El mantenimiento con avelumab mejora supervivencia general vs observación (21,4 vs 14,3 meses, HR 0,69).",
+          "wrong": {
+            "A": "Gemcitabina-cisplatino está contraindicada — este paciente tiene dos criterios de inelegibilidad para cisplatino (FG 41 <60, estado de rendimiento ECOG 2). El cisplatino no debe ser usado.",
+            "B": "Pembrolizumab en monoterapia (KEYNOTE-052) es una opción para carcinoma urotelial metastásico inelegible para cisplatino cuando carboplatino también es mal tolerado o cuando PD-L1 CPS ≥10. Con estado de rendimiento ECOG 2, la terapia basada en carboplatino seguida de mantenimiento con avelumab sigue siendo preferida si tolerable.",
+            "C": "EV-302 (EV+pembrolizumab) demostró beneficio independientemente de elegibilidad para cisplatino y es el estándar de primera línea emergente. Sin embargo, con ECOG 2, la elegibilidad de protocolo EV-302 (típicamente ECOG 0-1 requerido en el ensayo) puede limitar aplicabilidad. La carboplatino-GC + mantenimiento avelumab es el régimen más establecido para pacientes con estado de rendimiento 2."
+          },
+          "guideline": "Guías de la EAU sobre Carcinoma Urotelial Músculo-Invasivo y Metastásico (aplicado a CITUS, Witjes et al., 2024) — Sección 6: Terapia de primera línea para carcinoma urotelial metastásico inelegible para cisplatino",
+          "trial": "Powles T et al. JAVELIN Bladder 100 (NEJM 2020): mantenimiento con avelumab después de quimioterapia basada en platino de primera línea — supervivencia general 21,4 vs 14,3 meses (HR 0,69) — incluyó pacientes con CITUS en el ensayo.",
+          "pearl": "CITUS metastásico se maneja idénticamente al carcinoma urotelial de vejiga metastásico — mismo estudio de estadificación, mismos regímenes de quimioterapia (GC o carboplatino-GC), mismo mantenimiento avelumab (JAVELIN Bladder 100), mismas opciones de rescate. Los ensayos específicos de CITUS son limitados debido a rareza; el manejo se extrapola de datos de fase III de carcinoma urotelial de vejiga."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A7-Q18",
+        "stem": "¿Qué porcentaje de pacientes con CITUS desarrollan carcinoma urotelial de vejiga metacrónico durante el seguimiento, y cuál es el mecanismo primario?",
+        "options": {
+          "A": "2-5% — siembra hematógena de CITUS a la vejiga",
+          "B": "15-50% — 'siembra aguas abajo' de células tumorales del tracto urinario superior a la vejiga",
+          "C": "60-70% — cancerización de campo del urotelio completo",
+          "D": "1-2% — desarrollo de novo incidental de carcinoma urotelial de vejiga"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La recurrencia de vejiga ocurre en el 15-50% de los pacientes con CITUS durante seguimiento después de RNU. El mecanismo primario es 'siembra aguas abajo' — células tumorales desprendidas del CITUS del tracto urinario superior viajan con flujo de orina a la vejiga e implantan en la superficie urotelial. Esto es análogo al mecanismo por el cual células tumorales relacionadas con RTUP causan recurrencia (siembra), por lo que una dosis única intravesical de mitomicina C post-RNU (ensayo ODMIT-C) reduce recurrencia de vejiga. La cancerización de campo (transformación urotelial multifocal) también puede contribuir en pacientes con carcinoma in situ extenso.",
+          "wrong": {
+            "A": "2-5% es mucho demasiado bajo — la tasa real de recurrencia vesical después de RNU para CITUS es 15-50%. La siembra hematógena no es el mecanismo — las células tumorales desprendidas en orina son el vector primario.",
+            "C": "60-70% es demasiado alto. La cancerización de campo contribuye a algunas recurrencias pero no es el mecanismo dominante para la tasa 15-50% observada.",
+            "D": "1-2% representaría una tasa de novo de carcinoma urotelial de vejiga — esto es mucho más bajo que la tasa observada 15-50% de recurrencia vesical después de CITUS, que es específicamente impulsada por el CITUS mismo y su potencial de siembra aguas abajo."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 8.1: Recurrencia vesical después de RNU — incidencia 15-50%",
+          "trial": "O'Brien T et al. Ensayo ODMIT-C (J Urol 2011): una instilación única de mitomicina C post-RNU reduce recurrencia vesical del 26% al 16% — confirma siembra implantada por orina como mecanismo y justifica instilación intravesical perioperatoria.",
+          "pearl": "Recurrencia vesical después de RNU para CITUS: 15-50%, alcanzando su pico a los 18-24 meses. Mecanismo: implantación sembrada por orina de células CITUS. Prevención: mitomicina C intravesical única post-RNU (ODMIT-C). Vigilancia: cistoscopia cada 3 meses × 2 años. Tratamiento de recurrencia vesical: RTUP ± terapia intravesical según guías NMIBC."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q19",
+        "stem": "Un varón de 63 años con CITUS de la pelvis renal derecha se somete a nefroureterectomía radical laparoscópica. ¿Cuál de las siguientes describe el paso técnico oncológicamente más crítico para manejo del manguito vesical?",
+        "options": {
+          "A": "Engrapado del uréter en la unión ureterovesical con grapadora laparoscópica",
+          "B": "Asegurar que el uréter intramural completo y orificio ureteral sean resecados en bloque con un manguito de vejiga",
+          "C": "Irrigar la vejiga con povidona-yodo antes del desprendimiento ureteral para esterilizar el campo",
+          "D": "Ligar el uréter en el uréter medio primero para prevenir diseminación de células tumorales"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La escisión completa del uréter intramural distal y orificio ureteral con un manguito de mucosa vesical es el paso oncológicamente más crítico de la RNU. El uréter intramural (segmento ureteral submucoso dentro de la pared vesical) contiene urotelio que es continuo con el tracto urinario superior portador de tumor. Cualquier uréter intramural residual u orificio ureteral crea un sitio para recurrencia local. Un margen de 0,5-1 cm de pared vesical adyacente (manguito vesical) debe ser incluido. Esta es la razón por la que el engrapado extravesical está desalentado — arriesga dejar atrás uréter intramural residual.",
+          "wrong": {
+            "A": "El engrapado extravesical en la unión ureterovesical se asocia con tasas de recurrencia vesical más altas debido a potencial de dejar atrás uréter intramural residual. Es la técnica menos preferida de escisión del manguito vesical (versus desprendimiento endoscópico o escisión intravesical abierta).",
+            "C": "La irrigación vesical con povidona-yodo para prevenir siembra no es una técnica estándar o validada — no reemplaza el requisito para escisión física completa del uréter intramural con manguito vesical.",
+            "D": "La ligadura ureteral temprana a nivel del uréter medio es a veces realizada para prevenir diseminación de células tumorales durante movilización de RPLND laparoscópica, pero este es una medida secundaria — el paso oncológico primario sigue siendo escisión completa del manguito vesical."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 6.2: Técnica RNU — escisión del manguito vesical es el paso oncológico más crítico",
+          "trial": "Walton TJ et al. Resultados oncológicos después de nefroureterectomía radical laparoscópica y abierta para carcinoma urotelial de células transicionales del tracto urinario superior. BJU Int 2009: escisión incompleta del manguito vesical = predictor independiente de recurrencia intravesical.",
+          "pearl": "La escisión del manguito vesical es el paso oncológico más crítico de la RNU — debe remover el uréter intramural completo + orificio ureteral + manguito vesical 0,5-1 cm. Técnicas preferidas: desprendimiento ureteral endoscópico (antes de RNU laparoscópica) o escisión intravesical abierta. Engrapado extravesical = manguito incompleto = recurrencia local más alta."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q20",
+        "stem": "¿Cuál de los siguientes NO es un criterio EAU 2024 para clasificar un paciente CITUS como riesgo alto?",
+        "options": {
+          "A": "Hidronefrosis ipsilateral en urografía por TC",
+          "B": "Tamaño tumoral >2 cm en urografía por TC",
+          "C": "Biopsia unifocal de bajo grado y citología de bajo grado",
+          "D": "Cistectomía radical previa por carcinoma urotelial de vejiga"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Un CITUS unifocal con biopsia de bajo grado Y citología de bajo grado, sin otras características de alto riesgo, se clasifica como RIESGO BAJO según la EAU 2024 — no riesgo alto. Esta es la combinación de características que califica para cirugía conservadora del riñón (ablación ureteroscópica o ureterectomía segmentaria) en escenario de indicación electiva (no absolutamente imperativa). Las opciones A, B y D son todas criterios de riesgo alto explícitos EAU 2024.",
+          "wrong": {
+            "A": "Hidronefrosis ES un criterio de riesgo alto — indica probable invasión muscular o grave compromiso luminal por el tumor.",
+            "B": "Tamaño tumoral >2 cm ES un criterio de riesgo alto — tumores más grandes correlacionan con enfermedad de mayor grado y más invasiva.",
+            "D": "Cistectomía radical previa por carcinoma urotelial de vejiga ES un criterio de riesgo alto — señala defecto de campo urotelial de pantelio y obliga RNU."
+          },
+          "guideline": "Guías de la EAU sobre CITUS (Rouprêt et al., 2024) — Sección 6.1: Criterios de estratificación de riesgo CITUS",
+          "trial": "Rouprêt M et al. Guías EAU sobre CITUS 2023: criterios de estratificación de riesgo validados — riesgo bajo = unifocal, <2 cm, biopsia de bajo grado, citología de bajo grado, sin hidronefrosis, sin cistectomía radical previa.",
+          "pearl": "Criterios de riesgo bajo de CITUS EAU 2024 (TODOS deben estar presentes para elegibilidad de cirugía conservadora del riñón): tumor unifocal, tamaño <2 cm, biopsia de bajo grado, citología de bajo grado, sin hidronefrosis, sin cistectomía radical previa por carcinoma urotelial de vejiga. CUALQUIER característica de riesgo alto = alto riesgo = RNU (o cirugía conservadora del riñón solo para indicaciones absolutas)."
+        },
+        "difficulty": 1
+      }
+    ]
+  }
+}

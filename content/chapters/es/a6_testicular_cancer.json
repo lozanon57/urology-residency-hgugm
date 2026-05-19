@@ -1,0 +1,646 @@
+{
+  "id": "A6",
+  "title": "Cáncer de Testículo",
+  "subtitle": "Bloque A — Tumores de Células Germinales: Diagnóstico, Estadificación y Tratamiento",
+  "block": "A",
+  "block_name": "Oncología Urológica",
+  "level": "R2-3",
+  "reading_time_min": 38,
+  "guidelines_version": "EAU Guidelines on Testicular Cancer 2024 · ESMO Testicular Cancer Guidelines 2022 · NCCN Testicular Cancer v1.2024",
+  "textbook_refs": [
+    "Campbell-Walsh-Wein Urology, 12th ed. (2021) — Capítulo 85: Tumores testiculares",
+    "EAU Guidelines on Testicular Cancer (Laguna et al., 2024)",
+    "Bosl GJ, Motzer RJ. Testicular germ-cell cancer. NEJM 1997",
+    "De Wit R et al. Equivalence of three or four cycles of bleomycin, etoposide, and cisplatin chemotherapy for good-risk germ cell tumors. JCO 2001",
+    "International Germ Cell Cancer Collaborative Group (IGCCCG). International germ cell consensus classification. JCO 1997"
+  ],
+  "learning_objectives": [
+    "Clasificar los tumores de células germinales (TCG) testiculares (seminoma frente a TCGNS) y describir sus diferentes comportamientos biológicos y enfoques terapéuticos",
+    "Aplicar la clasificación pronóstica IGCCCG (buen/intermedio/mal riesgo) para determinar la intensidad de la quimioterapia en el TCG metastásico",
+    "Describir el estudio de estadificación del TCG testicular recién diagnosticado, incluyendo marcadores tumorales, estadificación por TC y evaluación ganglionar",
+    "Describir el algoritmo de tratamiento del seminoma estadio I (vigilancia frente a carboplatino adyuvante frente a DLRP) y del TCGNS estadio I (vigilancia frente a DLRP frente a BEP × 1)",
+    "Identificar los marcadores tumorales (AFP, hCG, LDH) utilizados en la estadificación del TCG, la evaluación de la respuesta y la vigilancia post-tratamiento",
+    "Explicar el fundamento y las indicaciones de la disección de ganglios linfáticos retroperitoneales post-quimioterapia (DLRP-PQ) en el TCGNS"
+  ],
+  "sections": [
+    {
+      "id": "A6-S1",
+      "title": "Epidemiología, Patología y Diagnóstico",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El cáncer de testículo es la neoplasia sólida maligna más frecuente en varones de 15 a 40 años, representando aproximadamente 9.190 nuevos casos anuales en Estados Unidos (ACS 2024). A pesar de ello, es una de las neoplasias sólidas más curables, con una supervivencia relativa global a 5 años del 95%. Los factores de riesgo incluyen la criptorquidia (riesgo aumentado 4-8 veces, incluso tras la orquidopexia), el síndrome de Klinefelter, el antecedente familiar (4-6 veces en familiares de primer grado) y el antecedente personal de TCG contralateral. La edad de mayor incidencia del seminoma es 35-40 años; para el TCGNS, 25-30 años.\n\nLos tumores de células germinales (TCG) suponen el 95% de todas las neoplasias malignas testiculares. La clasificación patológica distingue dos grupos principales: seminoma (seminoma puro — sin elementos de TCGNS, AFP normal) y tumores de células germinales no seminomatosos (TCGNS — incluye carcinoma embrionario, tumor del seno endodérmico, coriocarcinoma, teratoma y TCG mixtos). El seminoma espermatocítico es una entidad distinta y rara (>50 años, potencial maligno muy bajo, sin riesgo metastásico). Los tumores del estroma de los cordones sexuales (tumor de células de Leydig, tumor de células de Sertoli) suponen el 4-5% restante de las neoplasias testiculares y son generalmente benignos.\n\nEl diagnóstico comienza con la ecografía escrotal, que tiene una sensibilidad >95% para las lesiones intratesticulares y diferencia el TCG (hipoecoico, vascular) de entidades benignas (quiste, hematoma, epididimitis). La orquidectomía radical por abordaje inguinal es a la vez diagnóstica y terapéutica. La incisión escrotal está contraindicada por alteración del drenaje linfático (que potencialmente afectaría a los ganglios inguinales en lugar de los retroperitoneales). La cirugía conservadora del testículo puede considerarse en testículo único o tumores bilaterales <2 cm con función testicular contralateral normal, si la biopsia intraoperatoria por congelación confirma márgenes libres de TCG."
+        },
+        {
+          "type": "table",
+          "title": "Clasificación OMS de los TCG Testiculares y Marcadores Tumorales",
+          "headers": ["Tipo Histológico", "AFP", "hCG", "LDH", "Frecuencia"],
+          "rows": [
+            ["Seminoma puro", "Normal (<7 kU/L)", "Normal o levemente elevada", "Puede estar elevada", "50-55%"],
+            ["Carcinoma embrionario", "Frecuentemente elevada", "Puede estar elevada", "Puede estar elevada", "~20% puro; frecuente en mixtos"],
+            ["Tumor del seno endodérmico (adulto)", "Marcadamente elevada", "Normal", "Variable", "Raro puro; frecuente en mixtos"],
+            ["Coriocarcinoma", "Normal", "Marcadamente elevada", "Puede estar elevada", "Raro puro; peor pronóstico"],
+            ["Teratoma maduro/inmaduro", "Normal", "Normal", "Normal", "~5% puro; frecuente en mixtos"],
+            ["TCGNS mixto", "Frecuentemente elevada", "Frecuentemente elevada", "Puede estar elevada", "~30-40% de los TCG"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — La AFP Elevada Excluye el Seminoma Puro",
+          "content": "Una AFP elevada (>7 kU/L) en un paciente con un tumor testicular excluye el seminoma puro por definición — cualquier elevación de AFP indica la presencia de elementos de TCGNS (más frecuentemente tumor del seno endodérmico), aunque la anatomía patológica informe seminoma puro. Esto es fundamental porque el seminoma y el TCGNS tienen diferentes algoritmos de tratamiento. El diagnóstico patológico debe reclasificarse como TCG mixto o TCGNS cuando la AFP está elevada."
+        }
+      ]
+    },
+    {
+      "id": "A6-S2",
+      "title": "Sistema de Estadificación y Marcadores Tumorales",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La estadificación del TCG testicular utiliza el sistema TNM/AJCC 8ª edición con la adición de una categoría 'S' para los marcadores tumorales séricos (AFP, hCG, LDH). Los niveles post-orquidectomía de los marcadores tumorales (medidos tras la semivida de aclaramiento: semivida de AFP 5-7 días; semivida de hCG 24-36 horas) son obligatorios para una estadificación precisa y se incorporan en la categoría S (S0 = marcadores dentro de la normalidad; S1 = elevación leve; S2 = elevación moderada; S3 = elevación alta). Los marcadores en ascenso o que no descienden tras la orquidectomía indican enfermedad metastásica independientemente de los hallazgos de imagen.\n\nLa estadificación clínica tras la orquidectomía incluye: TC de tórax/abdomen/pelvis (estándar), ecografía testicular del testículo contralateral y RM cerebral si hay síntomas neurológicos o histología de coriocarcinoma (mayor riesgo de metástasis cerebrales). La FDG-PET/TC está específicamente indicada para las masas residuales post-quimioterapia en el seminoma (para diferenciar tumor activo de necrosis/fibrosis) pero tiene una tasa de falsos positivos y requiere interpretación cautelosa. La PET no está recomendada para la estadificación primaria.\n\nEstadio clínico I: tumor confinado al testículo (pT1-4), sin evidencia de afectación ganglionar retroperitoneal ni metástasis a distancia en TC, marcadores normalizados post-orquidectomía. Estadio clínico IIA/IIB: ganglios retroperitoneales ≤2 cm (IIA) o 2-5 cm (IIB). Estadio clínico IIC/III: ganglios retroperitoneales >5 cm, o metástasis a distancia (pulmón, hígado, hueso, cerebro)."
+        },
+        {
+          "type": "table",
+          "title": "Clasificación Pronóstica IGCCCG para TCG Metastásico",
+          "headers": ["Grupo de Riesgo", "Criterios para Seminoma", "Criterios para TCGNS", "SLP a 5 años", "Quimioterapia Estándar"],
+          "rows": [
+            ["Buen riesgo", "Cualquier primario; sin metástasis viscerales no pulmonares; cualquier marcador", "Primario gonadal/retroperitoneal; sin metástasis viscerales no pulmonares; AFP <1000, hCG <5000, LDH <1,5×LSN", "89% (SEM); 89% (TCGNS)", "BEP × 3 ciclos"],
+            ["Riesgo intermedio", "Cualquier primario; metástasis viscerales no pulmonares; cualquier marcador", "Primario gonadal/retroperitoneal; sin metástasis viscerales no pulmonares; AFP 1000-10000, hCG 5000-50000, LDH 1,5-10×LSN", "75% (SEM); 75% (TCGNS)", "BEP × 4 ciclos"],
+            ["Mal riesgo", "No existe categoría de mal riesgo para el seminoma", "Primario mediastínico O metástasis viscerales no pulmonares O AFP >10000 O hCG >50000 O LDH >10×LSN", "N/A", "BEP × 4 ciclos (o VIP)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Cronología de los Marcadores para la Estadificación",
+          "content": "Los marcadores tumorales séricos (AFP, hCG, LDH) para la estadificación deben medirse DESPUÉS del aclaramiento por semivida post-orquidectomía: la AFP necesita al menos 3-4 semanas (semivida 5-7 días × 5); la hCG necesita al menos 7-10 días (semivida 24-36h × 5-7). Medir los marcadores inmediatamente tras la orquidectomía sobrestadifica a los pacientes con marcadores de aclaramiento rápido. Los marcadores que no descienden o ascienden en el punto de aclaramiento esperado confirman enfermedad metastásica."
+        }
+      ]
+    },
+    {
+      "id": "A6-S3",
+      "title": "Tratamiento del Seminoma Estadio I",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El seminoma estadio I (80% de todos los seminomas en el diagnóstico) tiene un pronóstico excelente con SEC a 5 años >99% independientemente de la elección del tratamiento primario. Las tres opciones de tratamiento para el seminoma estadio I son: vigilancia activa, carboplatino adyuvante en ciclo único (AUC 7) o disección de ganglios linfáticos retroperitoneales (DLRP). Las guías EAU 2024 recomiendan la vigilancia activa como opción preferida para todos los pacientes con seminoma estadio I cuando puede asegurarse el cumplimiento — la tasa de recaída a 5 años es del 15-20%, y la recaída es rescatable con quimioterapia o radioterapia en prácticamente todos los casos.\n\nEl fundamento de la preferencia por la vigilancia: el 80-85% de los pacientes que no recaerán en vigilancia se evitan toda la toxicidad del tratamiento adyuvante. Para los pacientes que no pueden o no desean cumplir la vigilancia, un ciclo de carboplatino (AUC 7, basado en la fórmula de Glover: dosis = AUC × [FG + 25]) tiene una prevención de recaídas equivalente a la radioterapia adyuvante (ensayos SWENOTECA VII y MRC TE17/EORTC 30971: tasa de recaída a 5 años del 5-6% frente al 5% para DLRP/RT) con menor toxicidad a largo plazo (sin riesgo excesivo de segunda neoplasia maligna frente al riesgo 1,5-2 veces mayor con radioterapia paraaórtica).\n\nLos factores de riesgo de recaída en el seminoma estadio I incluyen: tamaño tumoral >4 cm e invasión de la rete testis. La presencia de AMBOS factores (alto riesgo: tamaño >4 cm E invasión de la rete testis) aumenta el riesgo de recaída a 5 años a ~32%; la ausencia de ambos factores (bajo riesgo) da un riesgo de recaída de ~12%. Sin embargo, incluso en los pacientes de alto riesgo, la vigilancia sigue siendo la opción preferida según las guías EAU 2024 porque la recaída es siempre rescatable. El carboplatino adyuvante o la DLRP paraaórtica son opciones si el paciente no puede o no desea cumplir el intensivo calendario de vigilancia."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Calendario de Vigilancia para el Seminoma Estadio I",
+          "content": "Vigilancia EAU 2024 para el seminoma estadio I: marcadores tumorales (AFP, hCG, LDH) + exploración física a los 3, 6, 12, 18, 24, 36, 48 y 60 meses. TC abdomen/pelvis a los 3, 12 y 24 meses (luego considerar parar). Radiografía de tórax a los 3 y 12 meses. TC de tórax solo si la radiografía es anormal. La elevada capacidad de rescate del seminoma recaído permite la vigilancia con imagen menos frecuente que el TCGNS — el BEP a dosis completa × 3-4 ciclos rescata >99% de las recaídas del seminoma."
+        }
+      ]
+    },
+    {
+      "id": "A6-S4",
+      "title": "Tratamiento del TCGNS Estadio I",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El tratamiento del TCGNS estadio I (50-60% de los TCGNS en el diagnóstico) se guía por la estratificación de riesgo basada en la presencia o ausencia de invasión linfovascular (ILV) en la pieza de orquidectomía. La ILV es el predictor más importante de micrometástasis retroperitoneales ocultas: el TCGNS estadio I ILV-negativo tiene un riesgo de recaída del 15-20%; el TCGNS estadio I ILV-positivo tiene un riesgo de recaída del 40-50%. La proporción de carcinoma embrionario (CE) en el tumor (>50% de CE = alto riesgo) es un factor de riesgo secundario utilizado en algunos sistemas de clasificación.\n\nPara el TCGNS estadio I ILV-negativo (bajo riesgo), las guías EAU 2024 recomiendan la vigilancia activa como opción preferida (el 80-85% no recaerán; todas las recaídas son rescatables con BEP). Alternativas para pacientes no cumplidores: un ciclo de BEP (reduciendo la recaída a 5 años del 15% a <3%) o DLRP con preservación nerviosa (estadificación patológica; terapéutica para estadio IIA oculto, 10-15%). El ensayo TIGER (en curso) está evaluando vigilancia frente a BEP × 1 frente a DLRP en este grupo.\n\nPara el TCGNS estadio I ILV-positivo (alto riesgo), las guías EAU 2024 ofrecen tres opciones equivalentes: vigilancia activa (aceptando recaída del 40-50% con elevada capacidad de rescate), un ciclo de BEP (reduce la recaída al 3-5%) o DLRP con preservación nerviosa (reseca enfermedad retroperitoneal en ~30% de los pacientes con estadio II patológico). La elección entre estas opciones depende de la preferencia del paciente, el cumplimiento, la experiencia institucional y las consideraciones de fertilidad. BEP × 1 es la opción adyuvante más conveniente y eficaz; la DLRP proporciona información de estadificación patológica y evita la quimioterapia en ~70% de los pacientes."
+        },
+        {
+          "type": "table",
+          "title": "Estratificación de Riesgo del TCGNS Estadio I y Opciones de Tratamiento (EAU 2024)",
+          "headers": ["Grupo de Riesgo", "Criterios", "Riesgo de Recaída", "Opción Preferida", "Alternativas"],
+          "rows": [
+            ["Bajo riesgo", "ILV negativa", "15-20%", "Vigilancia activa", "BEP ×1 ciclo; DLRP"],
+            ["Alto riesgo", "ILV positiva", "40-50%", "BEP ×1 O vigilancia", "DLRP con preservación nerviosa"],
+            ["Muy alto riesgo*", "ILV+ Y >50% CE Y pT2-3", "~50%", "BEP ×1 (preferido)", "DLRP; vigilancia posible"],
+            ["*Nota", "Todas las recaídas estadio I rescatables con BEP", "—", "Vigilancia aceptable para todo estadio I si cumplidor", "—"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — La ILV es el Factor de Riesgo Clave del TCGNS Estadio I",
+          "content": "La invasión linfovascular (ILV) en la pieza de orquidectomía es el predictor más importante de TCGNS estadio II oculto. El TCGNS estadio I ILV-positivo tiene un riesgo de recaída del 40-50% (principalmente retroperitoneal) frente al 15-20% del ILV-negativo. Las guías EAU 2024 establecen que ambos grupos pueden manejarse con vigilancia, BEP × 1 o DLRP — pero BEP × 1 es la opción adyuvante más eficaz para el TCGNS estadio I de alto riesgo (ILV+)."
+        }
+      ]
+    },
+    {
+      "id": "A6-S5",
+      "title": "TCG Avanzado — Quimioterapia con BEP",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Bleomicina, etopósido y cisplatino (BEP) es el esquema de quimioterapia estándar para todos los grupos de riesgo del TCG metastásico. El ensayo De Wit (JCO 2001) estableció la equivalencia de 3 frente a 4 ciclos de BEP para el TCG metastásico de buen riesgo — ambos logran tasas de respuesta completa del 90-95% y SG a 5 años de ~90-94%, pero 3 ciclos tienen un perfil de toxicidad superior. Para la enfermedad de riesgo intermedio, 4 ciclos de BEP son el estándar (sin evidencia para menos ciclos). Para la enfermedad de mal riesgo, 4 ciclos de BEP (o 4 ciclos de VIP — etopósido, ifosfamida, cisplatino) logran respuesta completa en el 45-60% pero la SG sigue siendo del 50-60% a 5 años.\n\nLa toxicidad de la bleomicina es la principal preocupación con el BEP: la neumonitis inducida por bleomicina (NIB) ocurre en el 3-5% de los pacientes tratados con 3 ciclos (9 dosis) y aumenta al 10-15% con 4 ciclos (12 dosis). Los factores de riesgo de NIB incluyen: dosis acumulada >300 UI, edad >50 años, insuficiencia renal (la bleomicina se elimina por vía renal) y exposición a oxígeno suplementario durante la cirugía. Las pruebas de función pulmonar (DLCO, espirometría) antes y durante el tratamiento, y el mantenimiento de FiO₂ ≤25% durante cualquier cirugía hasta 1 año después del BEP, son obligatorias. El BEP se sustituye por EP × 4 ciclos (sin bleomicina) en pacientes con NIB o enfermedad pulmonar previa, aunque el EP tiene tasas de respuesta marginalmente inferiores.\n\nLos regímenes basados en cisplatino logran curación molecular en el 70-80% de todos los pacientes con TCG metastásico. La actualización IGCCCG 2021 (Gillessen et al., JCO 2021) revisó la clasificación original de 1997, confirmando que la supervivencia a 5 años para el buen riesgo es >90%, el riesgo intermedio 75-80% y el mal riesgo 50-60%. Las masas residuales post-quimioterapia requieren un manejo específico según la histología y el estado de los marcadores."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Oxígeno Suplementario tras BEP",
+          "content": "Los pacientes que han recibido bleomicina como parte del BEP están en riesgo de neumonitis inducida por bleomicina por generación de radicales libres de oxígeno. Incluso después de completar la quimioterapia, el oxígeno suplementario (FiO₂ >25%) durante la cirugía — especialmente DLRP laparoscópica o toracotomía — puede desencadenar toxicidad pulmonar aguda por bleomicina. El anestesista DEBE ser informado de la exposición previa a bleomicina para cualquier procedimiento quirúrgico en los 12 meses siguientes a la finalización del BEP. Objetivo de SpO₂ 94-96% (no 100%) para minimizar la FiO₂ inspirada."
+        }
+      ]
+    },
+    {
+      "id": "A6-S6",
+      "title": "Masas Residuales Post-Quimioterapia y DLRP-PQ",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Tras completar la quimioterapia con BEP, las masas retroperitoneales residuales requieren evaluación y decisiones de manejo basadas en la histología (seminoma frente a TCGNS) y el estado de los marcadores. La normalización de los marcadores post-BEP es obligatoria antes de evaluar las masas residuales — los marcadores en ascenso o persistentemente elevados indican enfermedad refractaria que requiere quimioterapia de rescate, no cirugía.\n\nPara las masas residuales de TCGNS post-quimioterapia: la composición histológica es necrosis/fibrosis (45-50%), teratoma maduro (35-40%) o TCG viable (10-15%). La TC no puede predecir de forma fiable la histología — incluso las masas residuales pequeñas (<1 cm) de TCGNS pueden contener TCG viable o teratoma. Las guías EAU 2024 recomiendan DLRP post-quimioterapia (DLRP-PQ) para todas las masas residuales de TCGNS ≥1 cm tras BEP, independientemente del tamaño, siempre que los marcadores hayan normalizado. El teratoma es resistente al BEP (refractario a la quimioterapia) y no puede diferenciarse más ni crecer (síndrome del teratoma creciente) — la escisión quirúrgica es curativa.\n\nPara las masas residuales de seminoma post-quimioterapia: la mayoría (>80%) representan necrosis/fibrosis — el teratoma maduro y el TCG viable son raros en los residuos del seminoma. Para las masas residuales de seminoma <3 cm, se recomienda observación. Para las masas ≥3 cm, la FDG-PET/TC 6 semanas después de completar el BEP se utiliza para diferenciar tumor activo (ávido de FDG, con indicación de tratamiento adicional o resección) de necrosis (FDG-negativa, observación). La sensibilidad de la PET para los residuos de seminoma viable ≥3 cm es ~80%, especificidad ~90% (De Santis et al., JCO 2004). Una PET negativa para una masa residual de seminoma ≥3 cm permite la observación — la DLRP-PQ raramente está indicada en el seminoma."
+        },
+        {
+          "type": "table",
+          "title": "Manejo de las Masas Residuales post-BEP",
+          "headers": ["Histología", "Tamaño de Masa Residual", "Acción", "Fundamento"],
+          "rows": [
+            ["TCGNS", "≥1 cm, marcadores normalizados", "DLRP-PQ", "10-15% TCG viable; 35-40% teratoma — todos requieren resección"],
+            ["TCGNS", "<1 cm, marcadores normalizados", "DLRP-PQ o vigilancia (institucional)", "Bajo riesgo pero posible TCG viable 10-15%"],
+            ["Seminoma", "<3 cm, marcadores normales", "Vigilancia (TC/PET si crece)", ">90% necrosis — intervención raramente necesaria"],
+            ["Seminoma", "≥3 cm, marcadores normales", "FDG-PET/TC a las 6 semanas post-quimio", "PET diferencia tumor activo de necrosis"],
+            ["Seminoma", "≥3 cm, PET-positivo", "Tratamiento adicional (quimio de rescate o DLRP)", "Tumor viable confirmado — intervención requerida"],
+            ["Cualquier histología", "Marcadores en ascenso/persistentes", "Quimioterapia de rescate (TIP/VIP)", "Enfermedad refractaria — cirugía contraindicada hasta normalización de marcadores"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A6-S7",
+      "title": "Quimioterapia de Rescate y Recaída Tardía",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La recaída tras el BEP de primera línea ocurre en el 20-30% de los pacientes de buen riesgo y en el 40-50% de los de mal riesgo. La quimioterapia de segunda línea (rescate) con TIP (paclitaxel, ifosfamida, cisplatino) o VIP (etopósido, ifosfamida, cisplatino) × 4 ciclos logra respuesta completa en el 25-50% de los pacientes que recaen. El ensayo TIGER (consorcio TIGER GCT, en curso) es el mayor ECA de fase III que compara el rescate convencional con TIP frente a la quimioterapia de altas dosis (QAD) con rescate autólogo de células madre (TAMO) en primera recaída tras BEP.\n\nLa quimioterapia de altas dosis (QAD) con TAMO es el tratamiento de segunda línea preferido para la recaída de buen pronóstico en centros con experiencia en QAD, y es la única opción curativa para el TCG refractario. El régimen de QAD típicamente utiliza carboplatino + etopósido × 2 ciclos tándem con soporte de células madre. El ensayo TIGER determinará definitivamente si la QAD es superior al TIP en la primera recaída.\n\nLa recaída tardía (>2 años tras la remisión completa) ocurre en el 2-4% de los pacientes con TCG y conlleva un pronóstico peor que la recaída precoz (predomina la histología de TCG viable frente al teratoma; la quimiorresistencia es frecuente). La recaída tardía debe abordarse con resección quirúrgica agresiva en primer lugar (si es técnicamente factible) seguida de quimioterapia de rescate, porque los tumores de recaída tardía son frecuentemente resistentes a la quimioterapia pero pueden curarse quirúrgicamente si se resecan completamente. La AFP elevada es un marcador crítico de TCG viable en la recaída tardía — el teratoma puro (AFP normal) se maneja únicamente con resección completa.\n\nLos supervivientes del cáncer de testículo tienen mayores riesgos a largo plazo derivados del tratamiento: enfermedad cardiovascular (vasculotoxicidad del cisplatino — riesgo 1,5-2 veces mayor de IAM y accidente cerebrovascular), neuropatía periférica (cisplatino), fenómeno de Raynaud (cisplatino + bleomicina), segundas neoplasias malignas (leucemia inducida por etopósido — dosis acumulada de etopósido >2000 mg/m²; segundos tumores sólidos inducidos por radiación), hipogonadismo e infertilidad. El banco de esperma antes de cualquier terapia sistémica es obligatorio para todos los pacientes en edad reproductiva."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Banco de Esperma y Preservación de la Fertilidad",
+          "content": "A todos los varones en edad reproductiva con cáncer de testículo se les debe ofrecer criopreservación de esperma antes de la orquidectomía (no solo antes de la quimioterapia) — aproximadamente el 25% de los pacientes con TCG tienen oligospermia o azoospermia en el diagnóstico debido al propio tumor, fiebre o disgenesia. El banco de esperma debe realizarse en el momento del diagnóstico, antes de cualquier tratamiento. Tras el BEP, la recuperación de la fertilidad ocurre en el 50-70% de los pacientes a los 2 años. La reproducción asistida con esperma criopreservado está disponible para quienes no recuperan la espermatogénesis."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Pon a prueba tus conocimientos sobre los tumores de células germinales testiculares, incluyendo clasificación patológica, estadificación, interpretación de marcadores y algoritmos de tratamiento con 20 preguntas tipo examen.",
+    "questions": [
+      {
+        "id": "A6-Q1",
+        "stem": "Un varón de 28 años presenta una masa testicular derecha indolora. La ecografía confirma una lesión intratesticular hipoecoica de 2 cm. Los marcadores tumorales pre-orquidectomía son: AFP 2400 ng/mL (normal <7 ng/mL), hCG 150 UI/L (normal <5 UI/L), LDH 1,3× límite superior de la normalidad. Se realiza orquidectomía inguinal derecha. La anatomía patológica informa: seminoma puro. ¿Cuál es la interpretación correcta?",
+        "options": {
+          "A": "El informe patológico es correcto — el seminoma puede producir AFP si es grande",
+          "B": "La AFP elevada reclasifica este caso como TCGNS independientemente del informe histológico",
+          "C": "La leve elevación de la hCG reclasifica este caso como coriocarcinoma",
+          "D": "La elevación de AFP es inespecífica y puede ignorarse si la histología muestra seminoma puro"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El seminoma puro NUNCA produce AFP — la AFP es producida exclusivamente por elementos del tumor del seno endodérmico. Una elevación de AFP en un paciente con diagnóstico patológico de 'seminoma puro' indica que hay elementos de TCGNS (más probablemente tumor del seno endodérmico) presentes pero no detectados en el muestreo. Las guías EAU 2024 son explícitas: una AFP elevada reclasifica cualquier TCG testicular como no seminomatoso, requiriendo los algoritmos de tratamiento del TCGNS (estadificación más intensiva y tratamiento diferente). Esto tiene implicaciones terapéuticas críticas — el paciente debe manejarse como TCGNS.",
+          "wrong": {
+            "A": "El seminoma puro no puede producir AFP a ningún tamaño tumoral. La AFP es sintetizada por células del tumor del seno endodérmico — su elevación es diagnóstica de elementos de TCGNS. Esta afirmación es incorrecta.",
+            "C": "El coriocarcinoma produce hCG (beta-hCG), no AFP. La elevación de hCG aquí podría reflejar células gigantes sincitiotrofoblásticas en el seminoma (que pueden elevar levemente la hCG) — pero la elevación de AFP es el hallazgo reclasificador, no la hCG.",
+            "D": "La elevación de AFP es altamente específica de tumor del seno endodérmico y elementos de TCGNS — nunca es 'inespecífica' en este contexto. AFP >7 ng/mL siempre reclasifica el tumor como TCGNS, independientemente del informe patológico."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 5.1: Clasificación patológica — elevación de AFP reclasifica como TCGNS",
+          "trial": "IGCCCG. International germ cell consensus classification. JCO 1997 — la AFP se utiliza como marcador de estadificación y clasificación: cualquier elevación = TCGNS por definición.",
+          "pearl": "AFP elevada (>7 ng/mL) = TCGNS por definición, independientemente del informe patológico de 'seminoma puro'. El seminoma puro solo produce hCG sincitiotrofoblástica (elevación leve aceptable). La elevación de AFP siempre indica elementos del tumor del seno endodérmico y obliga al manejo como TCGNS."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q2",
+        "stem": "Un varón de 25 años se somete a orquidectomía derecha por TCGNS pT1 (mixto: 30% carcinoma embrionario, 70% teratoma maduro). La histología NO muestra invasión linfovascular. Los marcadores post-orquidectomía se normalizan. La TC TAP no muestra adenopatías retroperitoneales (Estadio IA). ¿Cuál es el manejo preferido según las guías EAU 2024?",
+        "options": {
+          "A": "4 ciclos de quimioterapia BEP para eliminar micrometástasis",
+          "B": "Vigilancia activa",
+          "C": "Disección de ganglios linfáticos retroperitoneales",
+          "D": "Radioterapia adyuvante a los ganglios linfáticos paraaórticos"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este es un TCGNS estadio I ILV-negativo (bajo riesgo) — riesgo de recaída del 15-20%, todas rescatables con BEP. Las guías EAU 2024 recomiendan la vigilancia activa como manejo preferido para el TCGNS estadio I de bajo riesgo. El 80-85% de los pacientes que no recaerán evitan toda la toxicidad del tratamiento. El cumplimiento de la vigilancia es obligatorio. En los pacientes que no pueden cumplirla, un ciclo único de BEP o la DLRP con preservación nerviosa son alternativas aceptables.",
+          "wrong": {
+            "A": "4 ciclos de BEP se utilizan para el estadio IIC o TCG metastásico de buen/intermedio/mal riesgo — es un sobretratamiento sustancial para el TCGNS estadio I de bajo riesgo. Incluso 1 ciclo de BEP reduciría el riesgo de recaída a <3% para este paciente.",
+            "C": "La DLRP es una alternativa para el TCGNS estadio I pero no es la opción preferida para la enfermedad de bajo riesgo (ILV-negativa) según las guías EAU 2024. La vigilancia se prefiere cuando puede asegurarse el cumplimiento.",
+            "D": "La radioterapia a los ganglios paraaórticos se utiliza para el seminoma estadio I (aunque ahora en gran medida reemplazada por el carboplatino), no para el TCGNS. La radioterapia no tiene ningún papel en el manejo del TCGNS estadio I."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 8.1: TCGNS estadio I — manejo de bajo riesgo",
+          "trial": "Albers P et al. EAU guidelines on testicular cancer: 2011 update. Eur Urol 2011: vigilancia para el TCGNS estadio I de bajo riesgo (ILV-) — recaída 15-20%, todas curables; validación del ensayo ESPRESSO.",
+          "pearl": "TCGNS estadio I de bajo riesgo (ILV-negativo): manejo preferido = vigilancia activa (EAU 2024). Tasa de recaída 15-20%, todas curables con BEP. Alto riesgo (ILV+): BEP × 1 ciclo es el adyuvante más eficaz (reduce recaída a <3%). La DLRP proporciona estadificación pero el 70% tienen ganglios negativos."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q3",
+        "stem": "Un varón de 31 años con TCGNS estadio IIC (masa retroperitoneal de 7 cm, marcadores pre-quimio normalizados: AFP 450, hCG 3500, LDH 2,1× LSN) se clasifica por IGCCCG como 'buen riesgo'. ¿Cuál es la quimioterapia estándar de primera línea?",
+        "options": {
+          "A": "BEP × 4 ciclos (bleomicina, etopósido, cisplatino)",
+          "B": "BEP × 3 ciclos",
+          "C": "EP × 4 ciclos (etopósido, cisplatino — sin bleomicina)",
+          "D": "VIP × 4 ciclos (etopósido, ifosfamida, cisplatino)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Para el TCG metastásico de buen riesgo (TCGNS o seminoma que cumpla criterios IGCCCG de buen riesgo), el estándar es BEP × 3 ciclos. El ensayo De Wit (JCO 2001) demostró la equivalencia de 3 frente a 4 ciclos de BEP para el TCG metastásico de buen riesgo — SLP a 3 años 89,4% frente a 86,7% (no inferior) — con un perfil de toxicidad significativamente mejor (menor dosis acumulada de bleomicina, menor toxicidad pulmonar). Este paciente cumple los criterios de buen riesgo para TCGNS: primario gonadal, sin metástasis viscerales no pulmonares, AFP <1000 (450), hCG <5000 (3500).",
+          "wrong": {
+            "A": "BEP × 4 ciclos es el estándar para el TCG metastásico de riesgo intermedio y mal riesgo, no de buen riesgo. Para la enfermedad de buen riesgo, 4 ciclos de BEP añaden toxicidad sin beneficio de eficacia adicional.",
+            "C": "EP × 4 ciclos (sin bleomicina) es una alternativa para los pacientes que no pueden recibir bleomicina (enfermedad pulmonar, NIB) pero tiene tasas de respuesta marginalmente inferiores al BEP. No es la primera elección estándar para los pacientes elegibles.",
+            "D": "VIP (etopósido, ifosfamida, cisplatino) es un régimen de rescate o alternativa para la enfermedad de mal riesgo — no terapia de primera línea para el TCG de buen riesgo."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 9.1: Quimioterapia de primera línea para TCG avanzado — buen riesgo = BEP × 3",
+          "trial": "De Wit R et al. Equivalence of three or four cycles of BEP for good-risk GCT. JCO 2001: SLP a 3 años 89,4% (3 ciclos) vs 86,7% (4 ciclos) — no inferior; se prefieren 3 ciclos para buen riesgo.",
+          "pearl": "TCG metastásico de buen riesgo → BEP × 3 ciclos (ensayo De Wit). Riesgo intermedio/mal riesgo → BEP × 4 ciclos. BEP = bleomicina 30 UI días 2,9,16 + etopósido 100 mg/m² días 1-5 + cisplatino 20 mg/m² días 1-5, cada 21 días."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q4",
+        "stem": "Un varón de 32 años completa 4 ciclos de BEP por TCGNS estadio IIC de buen riesgo (masa retroperitoneal de 8 cm en la línea de base). La TC post-BEP muestra una masa retroperitoneal residual de 3,2 cm. AFP, hCG y LDH han normalizado. ¿Cuál es el manejo recomendado?",
+        "options": {
+          "A": "Observación con TC de repetición en 3 meses — los marcadores son normales, por lo que la masa residual es probablemente necrosis",
+          "B": "FDG-PET/TC para diferenciar tumor viable de necrosis",
+          "C": "Disección de ganglios linfáticos retroperitoneales post-quimioterapia (DLRP-PQ)",
+          "D": "Quimioterapia de rescate con TIP — cualquier masa residual indica fracaso del tratamiento"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Las masas residuales de TCGNS ≥1 cm post-BEP con marcadores normalizados requieren DLRP-PQ (disección de ganglios linfáticos retroperitoneales post-quimioterapia) según las guías EAU 2024. La razón: las masas residuales de TCGNS contienen necrosis/fibrosis (45-50%), teratoma maduro (35-40%) o TCG viable (10-15%). El teratoma es resistente a la quimioterapia y no puede diferenciarse del resto o del TCG viable por TC o PET — se requiere resección quirúrgica completa. Si el teratoma se deja in situ, puede crecer (síndrome del teratoma creciente), diferenciarse en neoplasia maligna somática o comprimir estructuras adyacentes.",
+          "wrong": {
+            "A": "La observación sola para una masa residual de TCGNS de 3,2 cm no es adecuada — el 35-40% de los residuos contienen teratoma maduro y el 10-15% contienen TCG viable. La normalidad de los marcadores no predice la histología en los residuos de TCGNS. La DLRP-PQ es obligatoria para residuos ≥1 cm.",
+            "B": "La FDG-PET/TC NO está recomendada para los residuos de TCGNS. El teratoma y la necrosis tienen patrones similares de captación de FDG y la PET no puede diferenciarlos de forma fiable. La PET se utiliza para los residuos de seminoma ≥3 cm, no del TCGNS.",
+            "D": "La quimioterapia de rescate es para la recaída o progresión con marcadores positivos — no para la enfermedad residual con marcadores normalizados. Proceder a quimioterapia de rescate con marcadores normales sería un sobretratamiento inapropiado y tóxico."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 9.3: Masas residuales post-quimioterapia — TCGNS: DLRP-PQ para residuos ≥1 cm con marcadores normalizados",
+          "trial": "Oldenburg J et al. Retroperitoneal metastases following cisplatin-based chemotherapy for NSGCT. Ann Oncol 2003: 35-40% de teratoma en piezas de DLRP-PQ; todos requieren resección independientemente del tamaño.",
+          "pearl": "Residuos de TCGNS post-BEP ≥1 cm + marcadores normalizados = DLRP-PQ (obligatoria). Contiene: necrosis 45-50%, teratoma 35-40%, TCG viable 10-15%. La TC/PET no puede predecir la histología. El teratoma es quimiorresistente — la escisión quirúrgica es curativa. Nunca observar un residuo de TCGNS ≥1 cm."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q5",
+        "stem": "Un varón de 29 años es diagnosticado de seminoma puro estadio I (pT1, 3,2 cm, con invasión de la rete testis). Los marcadores son normales post-orquidectomía. La TC no muestra adenopatías. Le preocupa la toxicidad a largo plazo y pregunta sobre la opción adyuvante más segura. ¿Cuál es el manejo preferido según las guías EAU 2024 y la base de evidencia más sólida?",
+        "options": {
+          "A": "Radioterapia paraaórtica 20 Gy — patrón oro histórico con mayor tasa de curación",
+          "B": "Vigilancia activa — riesgo de recaída del 15-20%, pero todas las recaídas son rescatables",
+          "C": "Carboplatino adyuvante AUC7 × 1 ciclo — menos tóxico que la RT con prevención de recaídas equivalente",
+          "D": "Disección de ganglios linfáticos retroperitoneales — la estadificación patológica es la más precisa"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Las guías EAU 2024 recomiendan la vigilancia activa como la opción PREFERIDA para el seminoma estadio I independientemente de los factores de riesgo (tamaño >4 cm, invasión de la rete testis), siempre que pueda asegurarse el cumplimiento del paciente. El fundamento: el 80-85% de los pacientes no recaerán y se evitan toda la toxicidad adyuvante; TODAS las recaídas del seminoma estadio I son curables con quimioterapia BEP o RT. Este paciente tiene un factor de riesgo (invasión de la rete testis — el tamaño 3,2 cm es <4 cm, por lo que solo aplica el factor rete testis, con riesgo de recaída ~18-20%) pero aún encaja en la preferencia de vigilancia. Las guías EAU 2024 establecen: 'se recomienda la vigilancia activa para todos los pacientes con seminoma estadio I que sean cumplidores y tengan acceso a imagen de seguimiento'.",
+          "wrong": {
+            "A": "La radioterapia paraaórtica fue el patrón oro histórico pero ya no es el tratamiento preferido debido al mayor riesgo de segundas neoplasias malignas (1,5-2 veces), enfermedad cardiovascular y toxicidad gastrointestinal. Las guías EAU 2024 no incluyen la radioterapia como preferida para el seminoma estadio I.",
+            "C": "El carboplatino adyuvante AUC7 × 1 ciclo es una alternativa equivalente a la RT para el seminoma estadio I (ensayo MRC TE17/EORTC 30971) con menor toxicidad a largo plazo. Sin embargo, aparece como alternativa a la vigilancia para pacientes no cumplidores — la vigilancia sigue siendo la preferida por las guías EAU 2024.",
+            "D": "La DLRP raramente se utiliza para el seminoma estadio I — el seminoma es altamente radiosensible y quimiosensible; la DLRP quirúrgica es técnicamente difícil por la reacción desmoplásica en la enfermedad ganglionar del seminoma y conlleva una morbilidad innecesaria."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 8.3: Seminoma estadio I — vigilancia preferida para todos los pacientes",
+          "trial": "Oliver RT et al. MRC TE17/EORTC 30971: Carboplatino vs radioterapia para el seminoma estadio I. JCO 2011: recaída a 5 años 5,3% vs 4,0% (no inferior para carboplatino) — carboplatino alternativa aceptable a RT.",
+          "pearl": "Manejo preferido del seminoma estadio I: vigilancia activa (EAU 2024). Tasa de recaída 15-20%; TODAS las recaídas son curables. Los factores de riesgo (tamaño >4 cm, invasión de rete testis) aumentan el riesgo de recaída al 32% cuando ambos están presentes, pero no cambian la preferencia de vigilancia. Carboplatino × 1 o DLRP son alternativas para pacientes no cumplidores."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q6",
+        "stem": "Un varón de 35 años tiene una masa residual de seminoma post-BEP de 3,8 cm en el retroperitoneo. Los marcadores (AFP, hCG, LDH) han normalizado. La FDG-PET/TC realizada 6 semanas después de completar el BEP no muestra actividad ávida de FDG en la masa residual. ¿Cuál es el manejo recomendado?",
+        "options": {
+          "A": "DLRP inmediata — los residuos de seminoma siempre requieren escisión quirúrgica",
+          "B": "Radioterapia sobre la masa residual",
+          "C": "Observación — los residuos de seminoma ≥3 cm PET-negativos pueden observarse con seguridad",
+          "D": "BEP adicional × 2 ciclos — la masa residual indica respuesta incompleta"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Para las masas residuales de seminoma ≥3 cm tras BEP, la FDG-PET/TC a las 6 semanas post-quimioterapia es la herramienta de evaluación recomendada. Un resultado PET-negativo (sin captación de FDG) indica necrosis/fibrosis — la observación es segura, ya que la probabilidad de seminoma viable en un residuo PET-negativo es muy baja (valor predictivo negativo 90%). Las masas residuales PET-negativas con marcadores normalizados pueden observarse con seguridad con TC de seguimiento. Si la masa permanece estable o disminuye, no se necesita ninguna intervención adicional. La DLRP-PQ raramente está indicada en los residuos de seminoma.",
+          "wrong": {
+            "A": "La DLRP-PQ raramente está indicada para los residuos de seminoma porque >90% de los residuos representan necrosis/fibrosis y el teratoma es raro en el seminoma puro. La DLRP quirúrgica para el seminoma también conlleva mayor riesgo de complicaciones por la fibrosis desmoplásica del tumor/tratamiento.",
+            "B": "La radioterapia sobre un residuo de seminoma post-BEP no está recomendada — la toxicidad acumulada de quimioterapia + radioterapia aumenta significativamente el riesgo de segunda neoplasia maligna sin mejorar los resultados frente a la observación.",
+            "D": "Ciclos adicionales de BEP para enfermedad residual PET-negativa con marcadores normales representa un sobretratamiento sin evidencia de beneficio y con acumulación significativa de toxicidad."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 9.3: Residuos de seminoma post-BEP — manejo guiado por PET",
+          "trial": "De Santis M et al. 2-[18F]Fluoro-D-deoxyglucose PET in stage II seminoma — the Memorial Sloan-Kettering Cancer Center experience. JCO 2004: sensibilidad PET 80%, especificidad 90% para seminoma viable en residuos ≥3 cm — PET negativa permite observación.",
+          "pearl": "Residuos de seminoma post-BEP: <3 cm = observar; ≥3 cm = FDG-PET a las 6 semanas. PET-negativa: observar. PET-positiva: tratar (quimio de rescate o DLRP). A diferencia del TCGNS, el teratoma maduro es muy raro en los residuos de seminoma — la observación guiada por PET es segura y evita DLRP innecesaria."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q7",
+        "stem": "Un varón de 26 años está recibiendo el ciclo 3 de 3 del BEP por TCGNS estadio IIB de buen riesgo. Tras 9 dosis de bleomicina, desarrolla disnea progresiva de esfuerzo, tos seca y crepitantes bibasales. La DLCO es del 52% del predicho (basal 89%). ¿Cuál es el diagnóstico más probable y la acción inmediata?",
+        "options": {
+          "A": "Neumonitis inducida por bleomicina — suspender bleomicina inmediatamente; continuar como EP (sin bleomicina)",
+          "B": "Neumonía por Pneumocystis jirovecii — iniciar trimetoprim-sulfametoxazol",
+          "C": "Neumopatía intersticial inducida por cisplatino — cambiar a carboplatino",
+          "D": "Hipersensibilidad inducida por etopósido — premedicar con corticoides para el siguiente ciclo"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "La neumonitis inducida por bleomicina (NIB) se presenta con tos seca, disnea, crepitantes bibasales y DLCO en descenso — la caída del 50% en la DLCO desde la basal (89% → 52%) es altamente significativa. La NIB ocurre en el 3-5% de los pacientes que reciben BEP de 3 ciclos (9 dosis, ~270 UI acumuladas) y aumenta al 10-15% con 4 ciclos. Al detectar la NIB, la bleomicina debe suspenderse inmediatamente y los ciclos restantes completarse como EP (etopósido + cisplatino sin bleomicina). Los corticoides (prednisolona 1 mg/kg/día) pueden acelerar la recuperación de la NIB. El riesgo de fibrosis pulmonar fatal con exposición continuada a bleomicina es real.",
+          "wrong": {
+            "A": "Esto es correcto — ver más arriba.",
+            "B": "La PCP ocurre en pacientes gravemente inmunodeprimidos (VIH, trasplante, corticoides a dosis altas). Los pacientes con TCG en tratamiento con BEP no reciben profilaxis rutinaria para PCP a menos que el recuento de linfocitos sea críticamente bajo. La PCP se presenta con hipoxia, infiltrados bilaterales en RX/TC y LDH elevada — la asociación temporal con la bleomicina y los crepitantes bibasales señalan a la NIB.",
+            "C": "El cisplatino no causa neumopatía intersticial. Las toxicidades del cisplatino incluyen nefrotoxicidad, ototoxicidad, neuropatía periférica y trastornos electrolíticos — no infiltrados pulmonares.",
+            "D": "La hipersensibilidad al etopósido es una reacción a la infusión (rubor, broncoespasmo, hipotensión durante la infusión) — no un síndrome pulmonar tardío con DLCO en descenso."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 9.1.3: Monitorización y manejo de la toxicidad de bleomicina",
+          "trial": "Loehrer PJ et al. BEP toxicity: bleomycin pulmonary toxicity in good-risk GCT trials. ECOG/SWOG studies: descenso de DLCO >25% desde basal = umbral de discontinuación de bleomicina.",
+          "pearl": "Neumonitis inducida por bleomicina: tos seca + disnea + crepitantes bibasales + DLCO en descenso. Suspender bleomicina inmediatamente. Completar quimioterapia como EP (sin bleomicina). Factores de riesgo: dosis acumulada >300 UI, edad >50, insuficiencia renal, O₂ suplementario intraoperatoriamente. Monitorizar DLCO antes de cada ciclo de BEP."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q8",
+        "stem": "¿Cuál de los siguientes describe correctamente el abordaje quirúrgico primario de la orquidectomía radical por cáncer testicular?",
+        "options": {
+          "A": "Abordaje trans-escrotal — el acceso más rápido y directo al testículo",
+          "B": "Abordaje laparoscópico transabdominal — minimiza el traumatismo local del tejido",
+          "C": "Abordaje inguinal — evita la alteración del drenaje linfático hacia los ganglios paraaórticos",
+          "D": "Abordaje perineal — el mejor para tumores grandes que afectan la piel escrotal"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La orquidectomía radical DEBE realizarse a través de un abordaje inguinal (no trans-escrotal) para evitar la alteración del drenaje linfático. El drenaje linfático del testículo sigue los vasos gonadales (testiculares) hasta los ganglios retroperitoneales paraaórticos. La orquidectomía o biopsia trans-escrotal altera este drenaje, potencialmente añadiendo afectación de los ganglios inguinales al patrón de diseminación linfática — esto requeriría irradiación o disección de los ganglios inguinales además del tratamiento paraaórtico, complicando significativamente el manejo. El abordaje inguinal también permite el control vascular precoz para prevenir la diseminación hematógena del tumor.",
+          "wrong": {
+            "A": "La orquidectomía trans-escrotal está contraindicada ante la sospecha de tumor testicular — altera el drenaje linfático hacia los ganglios inguinales, cambiando potencialmente la estadificación ganglionar y requiriendo campos de tratamiento adicionales.",
+            "B": "El abordaje laparoscópico transabdominal no se utiliza para la orquidectomía radical de un testículo escrotal.",
+            "D": "El abordaje perineal no es un abordaje reconocido para la orquidectomía. Si la piel escrotal está afectada (enfermedad muy avanzada), puede requerirse orquidectomía inguinal con hemiescrectomía."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 6.1: Orquidectomía radical — abordaje inguinal obligatorio",
+          "trial": "Jones WG et al. Medical Research Council trial on the management of Stage I testicular seminoma: inguinal orchidectomy and surveillance. J Clin Oncol 1993: todos los algoritmos de manejo basados en el correcto abordaje inguinal de la orquidectomía.",
+          "pearl": "Orquidectomía radical = abordaje inguinal obligatorio. La orquidectomía o biopsia trans-escrotal está CONTRAINDICADA — altera el drenaje linfático hacia los ganglios inguinales, potencialmente subescalando al paciente y requiriendo irradiación/disección inguinal adicional. El abordaje inguinal también permite la ligadura precoz del cordón."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q9",
+        "stem": "Según la clasificación IGCCCG, ¿cuál de los siguientes describe correctamente a un paciente con TCGNS de 'mal riesgo'?",
+        "options": {
+          "A": "Primario retroperitoneal; AFP 12.000 ng/mL; sin metástasis viscerales no pulmonares",
+          "B": "Primario gonadal; hCG 60.000 UI/L; solo metástasis pulmonares",
+          "C": "TCGNS primario mediastínico; AFP normal; metástasis hepáticas",
+          "D": "Cualquier histología con metástasis cerebrales puras en la estadificación inicial"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Los criterios IGCCCG de mal riesgo para TCGNS requieren CUALQUIERA de: (1) primario mediastínico (independientemente de los marcadores), (2) metástasis viscerales no pulmonares (hígado, hueso, cerebro), o (3) AFP >10.000 ng/mL O hCG >50.000 UI/L O LDH >10× LSN. La opción C cumple los criterios 1 Y 2 (primario mediastínico + metástasis hepáticas). Nota: NO existe categoría de mal riesgo para el seminoma puro en la clasificación IGCCCG.",
+          "wrong": {
+            "A": "AFP 12.000 ng/mL cumple el umbral de mal riesgo (>10.000), pero este paciente tiene un primario retroperitoneal sin metástasis viscerales no pulmonares. Sin embargo, AFP 12.000 >10.000 = mal riesgo por criterios de marcadores. La opción C es la más claramente de mal riesgo con primario mediastínico + metástasis hepáticas.",
+            "B": "hCG 60.000 UI/L cumple el umbral de mal riesgo (>50.000), primario gonadal con metástasis solo en pulmón. hCG 60.000 > 50.000 = mal riesgo por criterios de marcadores. Sin embargo la opción C es el 'ejemplo de libro de texto' con tanto primario mediastínico como metástasis viscerales no pulmonares.",
+            "D": "Las metástasis cerebrales en la estadificación inicial constituyen metástasis viscerales no pulmonares — esto calificaría como TCGNS de mal riesgo. Sin embargo, es una presentación atípica. La opción C es el ejemplo más claro y clásico de mal riesgo."
+          },
+          "guideline": "IGCCCG. International germ cell cancer collaborative group classification. JCO 1997 — criterios de TCGNS de mal riesgo",
+          "trial": "Actualización IGCCCG 2021 (Gillessen et al., JCO 2021): SG a 5 años del TCGNS de mal riesgo 50-60% — no existe categoría de mal riesgo para el seminoma.",
+          "pearl": "TCGNS de mal riesgo IGCCCG: primario mediastínico O metástasis viscerales no pulmonares (hígado/hueso/cerebro) O AFP >10.000 O hCG >50.000 O LDH >10×LSN. No existe categoría de mal riesgo para el seminoma. Mal riesgo = BEP × 4 ciclos; SG a 5 años 50-60%. Considerar consolidación con QAD en centros especializados."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q10",
+        "stem": "Un varón de 27 años con TCGNS estadio I (ILV-positivo, pT2, 60% carcinoma embrionario) pregunta sobre quimioterapia adyuvante para minimizar el riesgo de recaída. Si recibe un ciclo de BEP, ¿cuál es el riesgo de recaída a 5 años aproximado en comparación con la vigilancia sola?",
+        "options": {
+          "A": "BEP × 1 reduce la recaída del 40-50% a aproximadamente el 2-4%",
+          "B": "BEP × 1 reduce la recaída del 40-50% a aproximadamente el 15-20%",
+          "C": "BEP × 1 no tiene efecto sobre el riesgo de recaída — se necesitan 4 ciclos completos",
+          "D": "BEP × 1 aumenta el riesgo de recaída por selección de clones resistentes"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Múltiples estudios prospectivos han demostrado que el BEP adyuvante × 1 ciclo para el TCGNS estadio I de alto riesgo (ILV-positivo) reduce la tasa de recaída a 5 años del 40-50% (en vigilancia) a aproximadamente el 2-4%. Los datos del MRC/EORTC (Williams et al., JCO 1998; Albers et al., 2008) muestran resultados consistentes: un ciclo de BEP reduce drásticamente las micrometástasis retroperitoneales con toxicidad aguda manejable y excelentes tasas de curación a largo plazo. Esta es la intervención adyuvante única más eficaz disponible para el TCGNS estadio I.",
+          "wrong": {
+            "B": "Una reducción al 15-20% implicaría solo un beneficio modesto — en realidad, BEP × 1 logra una reducción de 10 veces en el riesgo de recaída (del 40-50% al 2-4%).",
+            "C": "BEP × 1 tiene evidencia sustancial de eficacia para el TCGNS estadio I. El principio terapéutico es que el TCG micrometastásico es exquisitamente quimiosensible — incluso un solo ciclo de BEP erradica la gran mayoría de la enfermedad micrometastásica.",
+            "D": "No existe evidencia de que el BEP en ciclo único seleccione clones resistentes en el estadio I. La selección de clones resistentes al cisplatino es una preocupación con el tratamiento inadecuado de la enfermedad establecida (p. ej., abordajes de agente único o dosis reducidas para la enfermedad estadio III voluminosa) — no para el tratamiento adyuvante en ciclo único del estadio I con micrometástasis."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 8.1.2: TCGNS estadio I de alto riesgo — BEP adyuvante × 1",
+          "trial": "Albers P et al. Randomized phase III trial comparing retroperitoneal lymph node dissection with one course of bleomycin-etoposide-cisplatin for clinical stage I NSGCT. JCO 2008: BEP × 1 reduce la recaída al 3% vs 8% con DLRP — prevención de recaída superior.",
+          "pearl": "BEP adyuvante × 1 para el TCGNS estadio I de alto riesgo (ILV+) reduce la recaída del 40-50% al 2-4%. Esta es la estrategia de prevención de recaída más efectiva para el TCGNS estadio I. Comparar: DLRP reduce la recaída a ~8-10% (las micrometástasis sistémicas residuales no se abordan con cirugía)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q11",
+        "stem": "Un varón de 34 años completa BEP × 3 por TCGNS estadio IIB de buen riesgo. La AFP post-tratamiento es 6 ng/mL (era normal pre-tratamiento). La hCG es normal. La TC muestra una masa residual de 1,8 cm. ¿Cuál es la interpretación y el siguiente paso?",
+        "options": {
+          "A": "AFP 6 ng/mL es normal — proceder a DLRP-PQ",
+          "B": "AFP 6 ng/mL está ligeramente elevada — esperar otras 4 semanas y repetir los marcadores antes de decidir",
+          "C": "AFP 6 ng/mL representa TCG viable residual — iniciar quimioterapia de rescate (TIP)",
+          "D": "AFP 6 ng/mL está levemente elevada — esta es enfermedad residual con marcadores positivos; considerar rescate antes de DLRP"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "El rango normal de AFP es típicamente <7-10 ng/mL según el laboratorio (las guías EAU utilizan <7 kU/L). Una AFP de 6 ng/mL está dentro del rango normal — este paciente tiene marcadores normalizados. Con una masa residual de TCGNS de 1,8 cm y marcadores normalizados, la DLRP-PQ es el manejo recomendado. La masa residual debe resecarse para determinar la histología (necrosis, teratoma o TCG viable), orientar el pronóstico y tratar el posible teratoma.",
+          "wrong": {
+            "B": "La espera no es necesaria cuando la AFP ya está dentro del rango normal. La decisión de proceder a la DLRP-PQ no debe retrasarse una vez que los marcadores han normalizado. La semivida de la AFP de 5-7 días significa que han pasado >35 días post-quimioterapia — el valor está verdaderamente normalizado.",
+            "C": "AFP 6 ng/mL está dentro del rango normal — esto no representa estado de marcadores elevados. Iniciar quimioterapia de rescate para enfermedad residual con marcadores normales sería inadecuado y tóxico.",
+            "D": "AFP 6 está dentro del rango de referencia normal del laboratorio (<7 o <10, según el límite específico del laboratorio) — este paciente tiene enfermedad con marcadores normalizados. Proceder a DLRP-PQ es correcto."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 9.3: TCGNS post-BEP — DLRP-PQ para residuos ≥1 cm con marcadores normalizados",
+          "trial": "Steyerberg EW et al. Prediction of histologic subtype of residual retroperitoneal mass after BEP in NSGCT. JCO 1995: sin predicción basada en TC de la histología — DLRP-PQ requerida para todos los residuos ≥1 cm con marcadores normales.",
+          "pearl": "Rango normal de AFP = <7-10 ng/mL (específico del laboratorio). Marcadores normalizados post-BEP + residuo de TCGNS ≥1 cm = DLRP-PQ (obligatoria). La TC no puede predecir si el residuo contiene necrosis, teratoma o TCG viable — la evaluación histológica es la única forma de determinar el pronóstico y orientar el manejo posterior."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q12",
+        "stem": "¿Por qué debe informarse al anestesista sobre la exposición previa a bleomicina cuando un paciente con TCG se somete a DLRP-PQ?",
+        "options": {
+          "A": "La bleomicina causa prolongación del QT que requiere monitorización del ECG y profilaxis antiarrítmica",
+          "B": "La bleomicina sensibiliza el tejido pulmonar a la toxicidad por oxígeno — el O₂ suplementario no debe superar FiO₂ del 25%",
+          "C": "La bleomicina causa coagulopatía grave que requiere plasma fresco congelado preoperatoriamente",
+          "D": "La bleomicina reduce la función hepática CYP3A4, afectando el metabolismo de los fármacos anestésicos"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La bleomicina genera especies reactivas de oxígeno a través de mecanismos de radicales libres, causando daño endotelial pulmonar. El oxígeno suplementario intraoperatoriamente puede amplificar dramáticamente este daño oxidativo en pulmones expuestos a bleomicina, causando toxicidad pulmonar aguda por bleomicina (TPB) — incluso meses después de completar la terapia con bleomicina. Los protocolos anestésicos para los pacientes tratados con BEP tienen como objetivo una SpO₂ del 94-96% (FiO₂ ≈ 25-30%) utilizando terapia de oxígeno dirigida por objetivos, evitando el oxígeno suplementario que supere el 25% de FiO₂ siempre que sea posible. Esta es la práctica estándar hasta 12 meses después de la última dosis de bleomicina.",
+          "wrong": {
+            "A": "La bleomicina no causa prolongación del QT — causa toxicidad pulmonar. La prolongación del QT en los pacientes con TCG se asocia más al cisplatino (alteraciones electrolíticas) o el ondansetrón (antiemético).",
+            "C": "La bleomicina no causa coagulopatía. El BEP puede causar trombocitopenia por mielosupresión, pero esto se monitoriza y maneja por separado.",
+            "D": "La bleomicina no tiene interacciones significativas con el CYP3A4 hepático. El cisplatino y la ifosfamida tienen interacciones renales y hepáticas respectivamente, pero la bleomicina se elimina principalmente por vía renal."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 9.1.3: Toxicidad de bleomicina — manejo perioperatorio del oxígeno",
+          "trial": "Goldiner PL et al. Factors influencing postoperative morbidity and mortality in patients treated with bleomycin. BMJ 1978: FiO₂ >30% durante la cirugía en pacientes tratados con BEP causó toxicidad pulmonar aguda fatal — informe histórico que establece el protocolo de restricción de O₂.",
+          "pearl": "Pacientes tratados con BEP que se someten a cualquier cirugía: informar al anestesista sobre la exposición a bleomicina. Objetivo SpO₂ 94-96% (FiO₂ ≤25%). La FiO₂ alta desencadena toxicidad pulmonar oxidativa por bleomicina — potencialmente fatal. La restricción aplica durante 12 meses tras la última dosis de bleomicina."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q13",
+        "stem": "Un varón de 23 años es recién diagnosticado de masas testiculares bilaterales. Se está considerando una orquidectomía bilateral. ¿Cuál es la recomendación onco-fertilidad antes de cualquier tratamiento?",
+        "options": {
+          "A": "La preservación de la fertilidad no es relevante ya que la quimioterapia raramente causa azoospermia",
+          "B": "La criopreservación de esperma debe realizarse antes de la orquidectomía si es en absoluto posible",
+          "C": "Esperar hasta después de la quimioterapia para evaluar la recuperación de la espermatogénesis antes de hacer el banco",
+          "D": "El banco de esperma solo está indicado si el paciente planea tener hijos en los próximos 2 años"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La criopreservación de esperma debe ofrecerse a TODOS los varones en edad reproductiva con cáncer de testículo antes de CUALQUIER tratamiento — idealmente antes de la orquidectomía, ya que la orquidectomía bilateral resulta en azoospermia por definición. Incluso antes de la orquidectomía unilateral, el 25% de los pacientes con TCG tienen oligospermia o azoospermia preexistente debido al propio tumor (disgenesia, fiebre, alteración hormonal). El banco de esperma antes de la orquidectomía captura cualquier esperma viable antes de que se produzca la infertilidad quirúrgica, por radiación o por quimioterapia. Las guías EAU 2024 exigen el debate sobre la criopreservación de esperma para todos los pacientes — la fertilidad no debe sacrificarse por falta de asesoramiento oportuno.",
+          "wrong": {
+            "A": "La quimioterapia con BEP causa azoospermia en el 30-50% de los pacientes al año; la recuperación de la espermatogénesis ocurre en el 50-70% a los 2 años. Este riesgo es significativo — la preservación de la fertilidad antes del tratamiento es esencial.",
+            "C": "Esperar hasta después de la quimioterapia para hacer el banco de esperma es la secuencia incorrecta — si el paciente se vuelve azoospérmico tras el BEP, no habrá esperma disponible para el banco. El banco debe realizarse ANTES del tratamiento.",
+            "D": "Los planes de fertilidad son impredecibles — los pacientes que actualmente no planean tener hijos pueden cambiar de opinión. El banco de esperma tiene un coste bajo, es seguro y debe ofrecerse a todos los pacientes independientemente de los planes reproductivos inmediatos."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 6.2: Preservación de la fertilidad — asesoramiento y banco obligatorios antes del tratamiento",
+          "trial": "Petersen PM et al. Semen quality and reproductive hormones before and after orchiectomy in men with testicular cancer. JCO 1999: el 25% de los pacientes con TCG tienen oligospermia pre-tratamiento — confirma la importancia del banco pre-orquidectomía.",
+          "pearl": "Criopreservación de esperma antes de CUALQUIER tratamiento (orquidectomía, quimioterapia, radioterapia) es obligatoria para todos los varones en edad reproductiva con TCG. El 25% tienen oligospermia al diagnóstico; el 30-50% desarrollan azoospermia tras BEP. Hacer el banco antes del tratamiento — no esperar a la evaluación de recuperación post-tratamiento."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q14",
+        "stem": "Un varón de 30 años desarrolla una recaída 2,5 años después de lograr remisión completa con BEP × 3 por TCGNS estadio IIB de buen riesgo. Su AFP está levemente elevada (18 ng/mL), hCG normal, LDH normal. La TC muestra una masa retroperitoneal de 4,2 cm. ¿Qué caracteriza este tipo de recaída y qué enfoque terapéutico se prefiere?",
+        "options": {
+          "A": "Recaída precoz (<2 años) — quimioterapia de rescate estándar con BEP × 4 ciclos",
+          "B": "Recaída tardía (>2 años) — la resección quirúrgica primaria se prefiere por la quimiorresistencia",
+          "C": "Enfermedad refractaria a BCG — cambiar a inmunoterapia",
+          "D": "Segundo tumor testicular primario — orquidectomía contralateral requerida"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La recaída tardía (>2 años tras la remisión completa) representa el 2-4% de las recaídas de TCG y conlleva un pronóstico claramente peor que la recaída precoz, principalmente porque los tumores de recaída tardía son frecuentemente resistentes a la quimioterapia. Las guías EAU 2024 recomiendan que la recaída tardía se aborde con resección quirúrgica primaria en primer lugar siempre que sea técnicamente factible — la resección completa del TCG de recaída tardía (que frecuentemente contiene teratoma maduro, teratoma con transformación maligna somática o TCG viable de crecimiento lento) ofrece la mejor oportunidad de curación. La quimioterapia de rescate tiene tasas de respuesta pobres para el TCG de recaída tardía.",
+          "wrong": {
+            "A": "La recaída precoz (<2 años) se trata típicamente con quimioterapia de rescate (TIP o VIP × 4 ciclos) porque retiene cierta quimiosensibilidad. Este paciente tiene una recaída tardía (2,5 años) — el perfil de quimiorresistencia es fundamentalmente diferente.",
+            "C": "El BCG no tiene ningún papel en el manejo del TCG testicular. Esta es una recaída de TCG testicular, no un escenario de cáncer urotelial.",
+            "D": "Una recaída de masa retroperitoneal en un paciente previamente tratado por TCG es muy probablemente una recurrencia retroperitoneal del TCG testicular original — no un segundo tumor testicular primario. La orquidectomía contralateral no está indicada."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 10.3: Recaída tardía — enfoque preferido de resección quirúrgica",
+          "trial": "Baniel J et al. Late relapse of testicular cancer. JCO 1995: recaída tardía del TCG (>2 años) — quimiorresistencia frecuente; la resección quirúrgica completa logra curación en el 50-60% si es posible la resección R0.",
+          "pearl": "Recaída tardía del TCG (>2 años post-RC) es quimiorresistente — la resección quirúrgica primaria es el tratamiento de elección si es técnicamente factible. Frecuentemente contiene teratoma, transformación maligna somática o TCG viable de crecimiento lento. La quimioterapia de rescate tiene tasas de respuesta pobres; la cirugía es el único enfoque potencialmente curativo."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q15",
+        "stem": "Un varón de 31 años con seminoma estadio IIA (ganglio retroperitoneal de 1,8 cm, AFP normal, hCG <5 UI/L) es evaluado tras la orquidectomía. ¿Cuál es el tratamiento preferido para el seminoma estadio IIA?",
+        "options": {
+          "A": "Radioterapia paraaórtica + pélvica ipsilateral 30-36 Gy (campo en perro salchicha)",
+          "B": "BEP × 3 ciclos",
+          "C": "Carboplatino AUC7 × 1 ciclo",
+          "D": "Vigilancia activa — el seminoma estadio IIA se resuelve espontáneamente en el 30% de los casos"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "El seminoma estadio IIA (ganglio retroperitoneal ≤2 cm) es altamente radiosensible. El tratamiento preferido es la radioterapia paraaórtica + pélvica ipsilateral (campo en perro salchicha) a una dosis total de 30-36 Gy. Esto logra una supervivencia libre de recaída a 5 años >95% con toxicidad mínima. Los estadios IIA y IIB del seminoma son los únicos contextos en los que la RT sigue siendo el tratamiento primario preferido en las actuales guías EAU 2024. Alternativamente, BEP × 3 o carboplatino AUC7 × 3 ciclos son alternativas aceptadas para los pacientes que rechazan la RT.",
+          "wrong": {
+            "B": "BEP × 3 es eficaz para el seminoma estadio IIA (control de la enfermedad equivalente a la RT) pero no es el tratamiento preferido — conlleva mayor toxicidad a corto plazo (bleomicina, mielotoxicidad del cisplatino) en comparación con el campo de RT bien tolerado.",
+            "C": "El carboplatino AUC7 único es para la terapia adyuvante del seminoma estadio I — es inadecuado para la enfermedad estadio IIA con metástasis ganglionares establecidas.",
+            "D": "El seminoma estadio IIA no se resuelve espontáneamente. La vigilancia activa se utiliza para el seminoma estadio I, no para el estadio II con metástasis ganglionares documentadas. La observación del estadio IIA sin tratamiento llevaría a la progresión."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 8.4: Seminoma estadio IIA/IIB — radioterapia como tratamiento preferido",
+          "trial": "Classen J et al. Radiotherapy for stages IIA/B testicular seminoma: final report of a prospective multicenter clinical trial. JCO 2003: RT 30-36 Gy campo en perro salchicha logra SLR a 5 años del 95% para el seminoma estadio IIA.",
+          "pearl": "Seminoma estadio IIA/IIB (ganglios ≤2/2-5 cm): tratamiento preferido = RT paraaórtica + pélvica ipsilateral (campo en perro salchicha, 30-36 Gy) — SLR a 5 años >95%. El papel de la RT termina en el estadio IIB; se prefiere quimioterapia para IIC y enfermedad avanzada."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q16",
+        "stem": "A un varón de 29 años se le diagnostica cáncer testicular mediante ecografía escrotal. Su cirujano realiza una biopsia con aguja gruesa trans-escrotal para confirmar el diagnóstico antes de proceder a la orquidectomía. ¿Cuáles son las consecuencias de este abordaje?",
+        "options": {
+          "A": "Ninguna consecuencia — la biopsia es preferible para evitar orquidectomías innecesarias",
+          "B": "Alteración del drenaje linfático — posibilidad de metástasis en ganglios inguinales que requieren disección o inclusión en el campo de radioterapia",
+          "C": "Siembra de la piel escrotal que requiere hemiescrectomía",
+          "D": "Mayor riesgo de diseminación hematógena sistémica durante la biopsia"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La biopsia o la orquidectomía trans-escrotal altera el drenaje linfático natural del testículo (que normalmente drena hacia los ganglios retroperitoneales paraaórticos). El escroto drena hacia los ganglios linfáticos inguinales. Violar la integridad escrotal crea una vía para que las células tumorales drenen hacia los ganglios inguinales, causando potencialmente metástasis ganglionares inguinales. Esto complica el manejo posterior — el campo ganglionar inguinal debe incluirse en la radioterapia o debe realizarse disección de los ganglios inguinales. El abordaje inguinal para la orquidectomía es obligatorio precisamente para evitar esta complicación.",
+          "wrong": {
+            "A": "La biopsia trans-escrotal está explícitamente contraindicada para el tumor testicular sospechoso según las guías EAU 2024. La orquidectomía inguinal es a la vez diagnóstica y terapéutica — la biopsia trans-escrotal nunca está indicada si se sospecha tumor.",
+            "C": "La siembra escrotal por biopsia trans-escrotal es una preocupación teórica pero raramente la consecuencia primaria documentada. La redirección linfática hacia los ganglios inguinales es la consecuencia primaria bien documentada.",
+            "D": "La diseminación hematógena durante la biopsia es una preocupación teórica pero no es la principal consecuencia documentada de la biopsia trans-escrotal. La alteración linfática es el problema principal."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 6.1: La biopsia o orquidectomía trans-escrotal está contraindicada",
+          "trial": "Thompson IM et al. Testicular biopsy via scrotal incision has been documented to cause inguinal nodal involvement requiring modification of radiation fields — historical case series.",
+          "pearl": "Biopsia o orquidectomía trans-escrotal = CONTRAINDICADA para tumor testicular. Consecuencia: alteración del drenaje linfático → posibles metástasis ganglionares inguinales → requiere campo inguinal en RT o PLND inguinal. Siempre usar abordaje inguinal para orquidectomía radical. La biopsia testicular conservadora por incisión inguinal es aceptable en testículo único con masa <2 cm."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q17",
+        "stem": "Un varón de 28 años con masa testicular recién diagnosticada tiene AFP 47.000 ng/mL, hCG 8.200 UI/L, LDH 6,3× LSN. La TC muestra adenopatías retroperitoneales (4 cm) y múltiples nódulos pulmonares bilaterales. ¿Cuál es la clasificación de riesgo IGCCCG?",
+        "options": {
+          "A": "Buen riesgo — las metástasis pulmonares son metástasis viscerales pulmonares, dentro de los criterios de buen riesgo",
+          "B": "Riesgo intermedio — AFP 47.000 está entre 1.000-10.000",
+          "C": "Mal riesgo — AFP >10.000 ng/mL califica como mal riesgo independientemente de otros factores",
+          "D": "Mal riesgo — presencia de metástasis viscerales no pulmonares"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Criterios IGCCCG de mal riesgo para TCGNS: AFP >10.000 ng/mL O hCG >50.000 UI/L O LDH >10× LSN — CUALQUIERA de estos por sí solo confiere estado de mal riesgo independientemente de otros factores. Este paciente tiene AFP 47.000 ng/mL (>>10.000) que por sí sola lo clasifica como mal riesgo. Las metástasis pulmonares (metástasis viscerales pulmonares) no son metástasis viscerales no pulmonares (hígado, hueso, cerebro) — no confieren mal riesgo por sí mismas. La AFP >10.000 es el criterio clasificador aquí.",
+          "wrong": {
+            "A": "Las metástasis pulmonares (de pulmón) solas no confieren estado de mal riesgo — son 'metástasis viscerales pulmonares' que son distintas de las 'metástasis viscerales no pulmonares' (hígado, hueso, cerebro). Pero la AFP de 47.000 (>10.000) hace que este sea de mal riesgo independientemente.",
+            "B": "AFP 47.000 NO está entre 1.000-10.000 — está muy por encima de 10.000 ng/mL. AFP 1.000-10.000 = riesgo intermedio; AFP >10.000 = mal riesgo. AFP 47.000 = mal riesgo.",
+            "D": "Las metástasis viscerales no pulmonares (hígado, hueso, cerebro) son un criterio adicional de mal riesgo, pero no están presentes aquí (los nódulos pulmonares = pulmonares, no no-pulmonares). Sin embargo, la AFP >10.000 ya clasifica a este paciente como mal riesgo."
+          },
+          "guideline": "IGCCCG. International germ cell cancer collaborative group classification. JCO 1997 — mal riesgo para TCGNS: AFP >10.000 o hCG >50.000 o LDH >10×LSN o primario mediastínico o metástasis viscerales no pulmonares",
+          "trial": "Actualización IGCCCG 2021 (Gillessen et al., JCO 2021): SLP a 5 años del TCGNS de mal riesgo 47%, SG a 5 años 54% — valida los umbrales originales de 1997.",
+          "pearl": "Criterios de mal riesgo IGCCCG para TCGNS (cualquiera suficiente): AFP >10.000 ng/mL, hCG >50.000 UI/L, LDH >10×LSN, primario mediastínico, o metástasis viscerales no pulmonares (hígado/hueso/cerebro). Las metástasis pulmonares son pulmonares — NO confieren mal riesgo por sí solas. Memorizar los cinco criterios."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q18",
+        "stem": "¿En qué contexto clínico ocurre el síndrome del teratoma creciente y cuál es su manejo?",
+        "options": {
+          "A": "Masa retroperitoneal creciente con marcadores tumorales en ascenso durante BEP — cambiar a TIP de rescate",
+          "B": "Masa retroperitoneal creciente con marcadores tumorales NORMALIZADOS durante o después del BEP — resección quirúrgica",
+          "C": "Rápido crecimiento de la masa escrotal tras orquidectomía — quimioterapia BEP inmediata",
+          "D": "Crecimiento de la masa pulmonar con AFP normal pero hCG en ascenso — indica coriocarcinoma puro"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El síndrome del teratoma creciente (STC) se define como el crecimiento de una masa retroperitoneal (u otra) durante o después de la quimioterapia con marcadores tumorales NORMALIZADOS. El mecanismo: el cisplatino-etopósido elimina los elementos del TCG viables no teratomatosos, pero el teratoma maduro es resistente al BEP. El teratoma superviviente continúa creciendo, a veces alcanzando un tamaño enorme. El manejo del STC es la resección quirúrgica completa — el teratoma no puede tratarse con más quimioterapia. Si no se trata, el STC puede comprimir las estructuras circundantes (uréteres, vena cava inferior, aorta) o sufrir transformación maligna somática (TCGSMTS).",
+          "wrong": {
+            "A": "La masa creciente con marcadores EN ASCENSO durante el BEP indica TCG viable refractario — esto es enfermedad primariamente refractaria que requiere quimioterapia de rescate. Esto es lo opuesto al STC (STC = marcadores normalizados).",
+            "C": "Los cambios escrotales post-orquidectomía no son STC — el STC se refiere específicamente al crecimiento del sitio retroperitoneal o de metástasis a distancia después de haberse iniciado la quimioterapia.",
+            "D": "La hCG en ascenso con AFP normal durante la terapia es más consistente con la enfermedad residual de un componente de coriocarcinoma — no el STC. El STC requiere AFP y hCG normalizados."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 9.4: Síndrome del teratoma creciente — definición y manejo",
+          "trial": "Logothetis CJ et al. Growing teratoma syndrome. Cancer 1982: primera descripción del STC — masa creciente + marcadores normalizados durante quimioterapia basada en cisplatino; obliga a escisión quirúrgica.",
+          "pearl": "Síndrome del teratoma creciente = masa creciente + marcadores tumorales NORMALIZADOS durante/después del BEP. El teratoma es resistente al BEP y no puede eliminarse con quimioterapia. Tratamiento: resección quirúrgica completa. NO administrar más quimioterapia — resecar. Si no se reseca: compresión ureteral/vascular o transformación maligna somática."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q19",
+        "stem": "Los supervivientes a largo plazo de la quimioterapia basada en cisplatino por TCG testicular tienen mayor riesgo de qué complicación cardiovascular?",
+        "options": {
+          "A": "Miocardiopatía dilatada por cisplatino cardiotóxico",
+          "B": "Aterosclerosis acelerada — riesgo 1,5-2 veces mayor de infarto de miocardio y accidente cerebrovascular",
+          "C": "Bloqueo cardíaco completo que requiere implante de marcapasos",
+          "D": "Hipertensión arterial pulmonar por bleomicina"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los supervivientes a largo plazo de la quimioterapia basada en cisplatino por TCG tienen un riesgo 1,5-2,5 veces mayor de eventos cardiovasculares (infarto de miocardio, accidente cerebrovascular) en comparación con controles de la misma edad. El mecanismo implica daño endotelial inducido por cisplatino, hipomagnesemia (por toxicidad tubular renal), hipertensión, hiperlipidemia y síndrome de Raynaud — un síndrome vasculotóxico multifactorial. El estudio HEIRS (Haugnes et al., Ann Oncol 2012) demostró un riesgo de IAM significativamente elevado en supervivientes de TCG tratados con cisplatino. Se recomienda la evaluación anual del riesgo cardiovascular (PA, lípidos, glucosa) para todos los supervivientes de TCG.",
+          "wrong": {
+            "A": "El cisplatino no es directamente cardiotóxico (a diferencia de las antraciclinas — la doxorrubicina causa miocardiopatía dilatada). La toxicidad cardiovascular del cisplatino se produce a través de la aterosclerosis acelerada, no del daño miocárdico directo.",
+            "C": "El bloqueo cardíaco completo no es una complicación documentada del cisplatino o la bleomicina. La toxicidad primaria de la bleomicina es pulmonar, no de conducción cardíaca.",
+            "D": "La hipertensión arterial pulmonar inducida por bleomicina es una complicación rara y tardía (principalmente fibrosis pulmonar, no HAP). La neumonitis inducida por bleomicina es la toxicidad pulmonar primaria, no la HAP."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Sección 12.1: Supervivencia a largo plazo — riesgo cardiovascular",
+          "trial": "Haugnes HS et al. Cardiovascular risk factors and morbidity in long-term survivors of testicular cancer: a 20-year follow-up study. JCO 2010: los supervivientes de TCG tienen riesgo de IAM/ACV 1,5-2 veces mayor; mecanismo de vasculotoxicidad del cisplatino.",
+          "pearl": "Supervivientes de TCG (BEP basado en cisplatino): riesgo cardiovascular a largo plazo 1,5-2,5 veces mayor (IAM, ACV) por vasculotoxicidad del cisplatino + hipomagnesemia + Raynaud. Evaluación anual de factores de riesgo cardiovascular (PA, lípidos, glucosa) para todos los supervivientes de TCG. También: neuropatía (cisplatino), tinnitus/pérdida auditiva, infertilidad, leucemia secundaria (etopósido >2000 mg/m²)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q20",
+        "stem": "Un varón de 19 años presenta una masa testicular izquierda de 5 cm. La ecografía escrotal confirma un tumor intratesticular heterogéneo. Marcadores pre-orquidectomía: AFP normal, hCG 280.000 UI/L (marcadamente elevada), LDH 3,2× LSN. También tiene nódulos pulmonares bilaterales en la TC y la RM cerebral muestra dos lesiones con realce en anillo. ¿Cuál es la histología más probable y la clasificación de riesgo?",
+        "options": {
+          "A": "Seminoma puro — buen riesgo (el seminoma no tiene criterios de mal riesgo)",
+          "B": "Coriocarcinoma (o TCG mixto con coriocarcinoma predominante) — mal riesgo (metástasis viscerales no pulmonares: cerebro)",
+          "C": "Tumor del seno endodérmico — riesgo intermedio (la AFP estaría elevada si fuera tumor del seno endodérmico)",
+          "D": "Carcinoma embrionario — buen riesgo (sin metástasis viscerales más allá del pulmón)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La hCG marcadamente elevada (280.000 UI/L) con AFP normal es el sello característico del coriocarcinoma (o TCG mixto con coriocarcinoma dominante — las células sincitiotrofoblásticas producen beta-hCG). Las metástasis cerebrales representan metástasis viscerales no pulmonares — este paciente cumple los criterios de mal riesgo IGCCCG (hCG >50.000 UI/L Y metástasis viscerales no pulmonares [cerebro]). El coriocarcinoma es la histología de TCG más agresiva, con mayor propensión a metástasis hematógenas (cerebro, hígado). El manejo es BEP × 4 ciclos inmediato con radioterapia cerebral o consideración neuroquirúrgica.",
+          "wrong": {
+            "A": "El seminoma puro no produce hCG a este nivel marcadamente elevado — la hCG sincitiotrofoblástica en el seminoma solo causa elevación leve (<500 UI/L). Además, la AFP normal en el contexto de una elevación masiva de hCG es consistente con un componente de coriocarcinoma puro. El seminoma a hCG 280.000 es implausible.",
+            "C": "El tumor del seno endodérmico produce AFP, no hCG. Con AFP normal y hCG marcadamente elevada, el tumor del seno endodérmico no es el diagnóstico correcto.",
+            "D": "El carcinoma embrionario puede producir tanto AFP como hCG pero no a este nivel extremo de hCG con metástasis cerebrales. El patrón de elevación masiva de hCG con metástasis cerebrales es clásico del coriocarcinoma."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Secciones 5.1 + 9.1: Histología de coriocarcinoma + clasificación IGCCCG de mal riesgo",
+          "trial": "IGCCCG JCO 1997: hCG >50.000 UI/L = mal riesgo; metástasis cerebrales = metástasis viscerales no pulmonares = mal riesgo. El coriocarcinoma (metástasis hematógenas a cerebro/hígado) es la histología de TCG canónica de mal riesgo.",
+          "pearl": "Coriocarcinoma: hCG marcadamente elevada + AFP normal + metástasis hematógenas (cerebro, hígado — elude los linfáticos retroperitoneales). Criterios de mal riesgo IGCCCG cumplidos por hCG >50.000 Y metástasis cerebrales. RT cerebral + BEP × 4 ciclos. Histología de TCG de mayor riesgo con SG a 5 años del 40-50% en el escenario de mal riesgo."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

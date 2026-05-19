@@ -1,0 +1,654 @@
+{
+  "id": "F3",
+  "title": "Genitourinary Trauma",
+  "subtitle": "Block F — Renal, Ureteral, Bladder, Urethral, and Genital Injuries",
+  "block": "F",
+  "block_name": "Reconstruction and Minimally Invasive Surgery",
+  "level": "R1-3",
+  "reading_time_min": 40,
+  "guidelines_version": "EAU Urological Trauma Guidelines 2024 · AAST Organ Injury Scaling (OIS) · WSES Renal Trauma Classification 2023",
+  "textbook_refs": [
+    "Buckley JC et al. EAU Guidelines on Urological Trauma (2024)",
+    "Moore EE et al. Organ injury scaling: urology. J Trauma 1989",
+    "Santucci RA et al. Evaluation and management of renal injuries: consensus statement of the renal trauma subcommittee. BJU Int 2004",
+    "Brandes SB, McAninch JW. Urban free falls and patterns of renal injury: a 20-year experience with 396 cases. J Trauma 1999"
+  ],
+  "learning_objectives": [
+    "Grade renal injuries using the AAST organ injury scale and determine appropriate management for each grade",
+    "Identify indications for immediate surgical exploration versus selective non-operative management of renal trauma",
+    "Manage acute ureteral, bladder, and urethral injuries with appropriate immediate treatment and timing of definitive repair",
+    "Recognise the clinical signs of genitourinary injury following blunt and penetrating trauma",
+    "Apply damage control principles to genitourinary injuries in the setting of haemodynamic instability or polytrauma",
+    "Describe the management of genital trauma including penile fracture and scrotal/testicular injury"
+  ],
+  "sections": [
+    {
+      "id": "F3-S1",
+      "title": "Renal Trauma: Classification and Initial Assessment",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The kidney is the most commonly injured genitourinary organ, accounting for approximately 10% of all abdominal trauma cases. Blunt mechanisms (motor vehicle accidents, falls, direct blows) account for 90% of renal injuries in Western trauma centres; penetrating injuries (gunshot and stab wounds) constitute the remainder. The right kidney is marginally less protected by overlying structures, but both kidneys are relatively well shielded by the lower ribs, paraspinal muscles, and perinephric fat.\n\nThe **AAST Organ Injury Scale (OIS) for the kidney** classifies injuries into five grades, forming the foundation of management decisions. Grade I (contusion or non-expanding subcapsular haematoma) and Grade II (non-expanding perirenal haematoma or cortical laceration <1 cm without urinary extravasation) are minor injuries managed conservatively with bed rest and observation. Grade III (laceration >1 cm without collecting system involvement) and Grade IV (laceration through the corticomedullary junction into the collecting system, or vascular injury with contained haematoma) represent major injuries that generally respond to selective non-operative management (NOM) in haemodynamically stable patients. Grade V (shattered kidney or main renal artery/vein avulsion) represents the most severe injury requiring surgical intervention in most cases.\n\nThe cornerstone of renal trauma evaluation is **contrast-enhanced CT scan (CECT)** of the abdomen and pelvis with delayed phase imaging (5–10 minutes post-contrast) to visualise urinary extravasation. CT has replaced IVU for acute evaluation. Haematuria — microscopic or macroscopic — is the classic sign of renal injury but correlates imperfectly with injury severity; high-grade injuries may present with minimal haematuria, and low-grade injuries may produce frank haematuria. The **American Urological Association** states that all penetrating trauma and all blunt trauma with haematuria (any degree) or significant mechanism (high-speed MVC, fall >3 metres) requires CT imaging to exclude significant renal injury."
+        },
+        {
+          "type": "table",
+          "title": "AAST Renal Organ Injury Scale (OIS)",
+          "headers": ["Grade", "Description", "CT Findings", "Management"],
+          "rows": [
+            ["I", "Contusion or non-expanding subcapsular haematoma", "Intact renal capsule; no parenchymal laceration", "Conservative — bed rest, observation"],
+            ["II", "Perirenal haematoma (non-expanding); cortical laceration <1 cm; no urinary extravasation", "Small laceration; perinephric haematoma confined to retroperitoneum", "Conservative"],
+            ["III", "Cortical laceration >1 cm; no collecting system injury or urinary extravasation", "Deep laceration; no contrast extravasation on delayed phase", "NOM in haemodynamically stable; monitor closely"],
+            ["IV", "Laceration through corticomedullary junction into collecting system (urinary extravasation), OR segmental vascular injury", "Contrast extravasation on delayed phase; possible segmental infarct", "NOM ± angioembolisation; OR if haemodynamically unstable"],
+            ["V", "Shattered kidney OR main renal artery/vein avulsion or thrombosis", "Kidney fragmentation; absent nephrogram; devascularisation", "Surgery (reconstruction or nephrectomy); angioembolisation rarely adequate"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Haematuria and Injury Grade",
+          "content": "Haematuria does NOT correlate reliably with renal injury severity. Up to 25% of Grade IV–V renal injuries present with minimal or absent haematuria (particularly renal pedicle injuries). Conversely, minor Grade I–II injuries may produce frank macrohaematuria. Clinical mechanism (high-speed MVC, flank impact) and haemodynamic status — not haematuria grade — determine the need for CT imaging."
+        }
+      ]
+    },
+    {
+      "id": "F3-S2",
+      "title": "Renal Trauma: Non-Operative and Operative Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Selective non-operative management (NOM)** is the standard of care for renal trauma in **haemodynamically stable** patients regardless of injury grade, including high-grade (III–IV) injuries. The success rate of NOM for Grade IV blunt renal trauma exceeds 80% in major trauma centres. The key determinant of NOM failure is haemodynamic instability — an actively bleeding patient with a renal injury and haemodynamic compromise requires urgent intervention. NOM includes strict bed rest until haematuria clears, serial haemoglobin monitoring, and repeat imaging if clinical status deteriorates.\n\n**Angiographic embolisation (AE)** is the preferred intervention for haemodynamically stable patients with Grade IV injuries showing active arterial extravasation ('blush') on CT, or for patients failing NOM with secondary haemorrhage. Selective AE achieves haemostasis in 70–90% of cases, preserving renal parenchyma. AE is also first-line management for the most feared complication of PCNL — delayed haemorrhage from pseudoaneurysm or arteriovenous fistula (see PCNL chapter).\n\n**Surgical exploration** is indicated for: haemodynamic instability not responding to resuscitation, expanding or pulsatile retroperitoneal haematoma found at laparotomy for other injuries, penetrating injury with suspected major vascular involvement, and Grade V injuries (avulsion, shattered kidney). When exploration is required, a midline transperitoneal approach allows rapid control of the renal hilum before Gerota's fascia is opened. **Renal reconstruction (renorrhaphy)** is attempted before nephrectomy when feasible — the goal is renal preservation. **Damage control surgery** (packing, temporary vascular control, deferred reconstruction) is appropriate for unstable polytrauma patients. Nephrectomy is reserved for injuries not amenable to reconstruction, or when the patient cannot tolerate prolonged surgery.\n\nDelayed complications of renal trauma include: **urinoma** (urinary extravasation not resolving — managed with ureteral stenting ± percutaneous drainage), **delayed bleeding** (pseudoaneurysm or AVF — managed with AE), **hypertension** (Page kidney from capsular compression of healing haematoma, or renal artery stenosis), and **perinephric abscess**."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Unopened Retroperitoneal Haematoma at Laparotomy",
+          "content": "If a non-pulsatile, non-expanding retroperitoneal haematoma is found during laparotomy for associated injuries (e.g., bowel perforation), it should generally NOT be opened. Opening Gerota's fascia releases the tamponade and converts a contained injury into uncontrollable bleeding, frequently resulting in nephrectomy. Exception: penetrating trauma where vascular injury is suspected."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Renal Pedicle Injury",
+          "content": "Blunt renal artery thrombosis (Grade V vascular injury) presents with absent nephrogram on CT (no perfusion of the kidney) but no retroperitoneal haematoma. Warm ischaemia time is critical — renal artery reconstruction has poor success when undertaken >6 hours post-injury. Most patients with traumatic renal artery thrombosis are managed non-operatively (accepting renal loss) unless they have a solitary kidney or bilateral injuries."
+        }
+      ]
+    },
+    {
+      "id": "F3-S3",
+      "title": "Ureteral Trauma",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Ureteral injuries are uncommon (accounting for <1% of genitourinary trauma) due to the ureter's protected retroperitoneal location and mobility. The most common cause is **iatrogenic injury** during gynaecological, colorectal, or vascular surgery — far exceeding traumatic aetiology. In trauma, penetrating injuries (gunshot wounds) are the most common traumatic mechanism. Blunt ureteral injuries are rare and typically involve the ureteropelvic junction (UPJ) following rapid deceleration, causing UPJ avulsion.\n\nDiagnosis is frequently delayed — ureteral injuries are missed in the acute phase in up to 30% of cases. CT with delayed phase imaging (urographic phase) may show extravasation of contrast or failure of the ureter to fill below the injury level. Late presentation includes urinoma, fever, flank pain, prolonged ileus, and elevated creatinine (if bilateral or solitary kidney).\n\nManagement depends on the timing of diagnosis and injury level:\n- **Immediate intraoperative diagnosis**: Primary repair over a ureteral stent. For simple lacerations, primary suture repair (spatulated, interrupted, absorbable) with double-J stent and peri-ureteral drain. For complete transection, ureteroureterostomy (end-to-end anastomosis over a stent, spatulated, tension-free).\n- **Upper/mid-ureteral injuries**: Ureteroureterostomy (primary anastomosis) is preferred for short defects; transureteroureterostomy or autotransplantation for longer defects.\n- **Lower ureteral injuries** (distal third): **Reimplantation** (ureteroneocystostomy) into the bladder — the preferred repair for distal injuries due to excellent blood supply at the intramural ureter and bladder. Anti-reflux (Lich-Gregoir or Psoas hitch + Boari flap) techniques extend the reach for mid-ureteral defects.\n- **Damage control**: If immediate definitive repair is not feasible (haemodynamic instability, contamination), external ureteral stenting and temporary diversion (ureteral ligation + percutaneous nephrostomy) allows deferred reconstruction."
+        },
+        {
+          "type": "table",
+          "title": "Ureteral Injury: Management by Location and Defect Length",
+          "headers": ["Location", "Defect Length", "Preferred Repair", "Alternative"],
+          "rows": [
+            ["Upper ureter (above LIPV)", "Short (<2 cm)", "Ureteroureterostomy over stent", "Transuretero-ureterostomy"],
+            ["Mid ureter", "Short", "Ureteroureterostomy", "Boari flap + Psoas hitch"],
+            ["Distal ureter (<5 cm from bladder)", "Any", "Ureteroneocystostomy ± anti-reflux", "Psoas hitch extends reach 5 cm"],
+            ["Mid ureter (>5 cm defect)", "Long", "Psoas hitch + Boari flap", "Intestinal interposition/autotransplant"],
+            ["Total ureteral loss", "Entire ureter", "Ileal interposition / renal autotransplant", "Nephrectomy if non-functional kidney"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Ureteral Injury from Gynaecological Surgery",
+          "content": "Iatrogenic ureteral injury most commonly occurs during hysterectomy at two sites: (1) where the ureter passes beneath the uterine artery ('water under the bridge') — at the level of the cardinal ligament, and (2) where the ureter enters the bladder trigone medially. If ureteral injury is suspected intraoperatively, IV indigo carmine or methylene blue can be given: blue dye in the wound or bladder confirms injury. Cystoscopy with ureteral catheterisation confirms patency."
+        }
+      ]
+    },
+    {
+      "id": "F3-S4",
+      "title": "Bladder Trauma",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Bladder injuries occur in approximately 2% of blunt abdominal trauma cases and are strongly associated with pelvic fractures — up to 15% of pelvic fractures have an associated bladder injury. The mechanism varies: a distended bladder at the time of impact ruptures at its weakest point (dome), while pelvic fracture fragments can directly perforate the anterolateral bladder wall.\n\nBladder injuries are classified as:\n- **Bladder contusion**: Intact bladder wall with haematuria; managed conservatively with catheter drainage.\n- **Intraperitoneal bladder rupture (IBR)**: Rupture through the dome (covered by peritoneum), allowing urine to escape into the peritoneal cavity. IBR is almost always caused by blunt trauma to a distended bladder. Presents with diffuse abdominal pain, peritonism, rising creatinine from peritoneal urine reabsorption, and gross haematuria. **IBR requires immediate surgical repair** — the dome rupture is repaired with a two-layer watertight closure and a urethral catheter maintained for 10–14 days postoperatively.\n- **Extraperitoneal bladder rupture (EBR)**: The most common type (60% of bladder injuries); caused by pelvic fracture fragments penetrating the anterolateral bladder wall below the peritoneal reflection. Urine extravasates into the perivesical space (Retzius space). Simple EBR without bladder neck involvement, rectal injury, or bone fragments in the bladder is managed **non-operatively** with catheter drainage alone for 10–14 days. Complex EBR (involvement of bladder neck, rectal laceration, displaced bony fragments inside the bladder, or associated urethral injury) requires surgical repair.\n\nDiagnosis is by **retrograde cystography** (plain film or CT cystography): fill the bladder with 300–400 mL contrast under gravity and image in filling phase and after drainage (post-drainage film essential to reveal posterior extravasation masked on filling views). CECT done in the standard trauma assessment may miss bladder injury if the bladder is not adequately filled — CT cystography requires retrograde filling."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — CT Trauma Series Misses Bladder Rupture",
+          "content": "Standard CT abdomen/pelvis for trauma fills the bladder passively via IV contrast — this passive filling may not achieve the 300–400 mL volume needed to demonstrate bladder rupture. If bladder injury is suspected (pelvic fracture + haematuria), dedicated CT cystography (retrograde bladder filling) or conventional cystography with a post-drainage film must be performed. Do not rely on standard trauma CT to exclude bladder rupture."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — IBR vs EBR Management",
+          "content": "Intraperitoneal bladder rupture (IBR): ALWAYS requires surgical repair — urine in the peritoneal cavity causes chemical peritonitis and progressive metabolic alkalosis (pseudo-renal failure from urea reabsorption). Extraperitoneal bladder rupture (EBR): simple EBR managed with catheter drainage alone (non-operative). Only complex EBR requires surgery."
+        }
+      ]
+    },
+    {
+      "id": "F3-S5",
+      "title": "Urethral Trauma and Genital Injuries",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Urethral trauma is covered in detail in Chapter F2 (urethral stricture and reconstruction). The key principles are reviewed here in the trauma context. The anterior urethra (bulbar) is injured by straddle mechanisms (bicycle crossbar, fall astride a rigid object) producing contusion or partial/complete rupture. The posterior urethra (membranous) is injured by pelvic fracture — pelvic fracture urethral injury (PFUI) — with a distraction-type mechanism that disrupts the membranous urethra at the perineal membrane.\n\nClinical signs of urethral injury: **blood at the meatus** (most reliable sign), **inability to void**, **perineal/scrotal haematoma** (butterfly distribution in anterior urethral injury), and **high-riding or impalpable prostate** on digital rectal examination (PFUI — though this sign has low sensitivity). Management of suspected PFUI is suprapubic catheter and deferred reconstruction (see F2 chapter).\n\n**Penile fracture** is the rupture of the tunica albuginea of one or both corpora cavernosa, occurring during sexual intercourse when the erect penis is acutely bent or misdirected. The patient reports a cracking or popping sound, immediate detumescence, severe pain, and rapid haematoma development (the 'aubergine deformity' — dark purple swelling). It is a **urological emergency** requiring **immediate surgical repair**. The tear is typically on the ventral surface of one corpus. Surgical approach via a sub-coronal degloving incision provides excellent access to both corpora and the urethra (urethral injury in 10–20% of penile fractures). Immediate repair achieves >90% recovery of erectile function. Conservative management has significantly worse outcomes (higher fibrosis, erectile dysfunction, Peyronie's formation).\n\n**Scrotal trauma** may cause testicular rupture — rupture of the tunica albuginea of the testis. Testicular rupture is confirmed by scrotal ultrasound (heterogeneous testicular echo, interrupted tunica albuginea). Early surgical exploration and tunica repair achieves testicular salvage in >90% of cases. Delayed exploration beyond 72 hours significantly reduces salvage rates. The principle is: suspected testicular rupture = surgical exploration."
+        },
+        {
+          "type": "table",
+          "title": "Genital Trauma: Key Clinical Differentiators",
+          "headers": ["Injury", "Mechanism", "Clinical Sign", "Investigation", "Management"],
+          "rows": [
+            ["Penile fracture", "Acute bend during erect intercourse", "Pop/crack, immediate detumescence, aubergine deformity", "Clinical diagnosis; MRI if uncertain", "Immediate surgical repair"],
+            ["Testicular rupture", "Direct scrotal blunt trauma", "Severe scrotal pain, haematocele, no transillumination", "Scrotal ultrasound", "Urgent surgical exploration ± repair"],
+            ["Perineal haematoma (anterior URT)", "Straddle injury", "Butterfly pattern haematoma, blood at meatus", "RUG (if urethral injury suspected)", "SPT if retention; urethral repair deferred"],
+            ["Degloving penile injury", "Machinery/MVA entrapment", "Absent penile skin", "Assess vascular supply", "Emergency debridement + skin coverage/replantation"],
+            ["Zipper injury (prepuce)", "Zipper entrapment", "Prepuce/foreskin entrapped", "None", "Mineral oil + wire cutter to zipper; circumcision if recurrent"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Penile Fracture is a Surgical Emergency",
+          "content": "Penile fracture requires immediate surgical repair — NOT conservative management. Immediate repair achieves >90% erectile function recovery. Conservative management (splinting, ice, anti-inflammatories) results in 30–50% erectile dysfunction from corporal fibrosis and deformity. The 'aubergine sign' (dark purple swelling of the shaft with deviation away from the tear) is the hallmark clinical presentation."
+        }
+      ]
+    },
+    {
+      "id": "F3-S6",
+      "title": "Damage Control Urology and Special Situations",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Damage control surgery (DCS)** principles apply to urological injuries in the setting of polytrauma with haemodynamic instability, coagulopathy, hypothermia, and acidosis (the 'lethal triad'). In these patients, prolonged urological reconstruction risks exacerbating the metabolic crisis. The principle is: **haemostasis and temporary diversion first; reconstruction at a planned second look in 24–72 hours** after physiological resuscitation in ICU.\n\nFor renal injuries: packing, topical haemostatics (surgicel, gelatin sponge), and renal clamping can provide temporary haemostasis while the patient is stabilised. Reconstruction or nephrectomy proceeds at re-look. For ureteral injuries: ureteral ligation and percutaneous nephrostomy (PCN) as diversion, with formal reconstruction at 2–6 weeks. For bladder injuries: catheter drainage and temporary bladder closure (if time permits), with formal repair once stable.\n\n**Radiation-induced urological injury** is increasingly relevant as radiotherapy for prostate, cervical, and rectal cancers becomes more precise. **Radiation cystitis** presents with haematuria (sometimes severe), bladder capacity reduction, and ultimately small contracted bladder. Management escalates from conservative (bladder irrigations, intravesical hyaluronic acid) to hyperbaric oxygen therapy (HBOT — promotes angiogenesis in ischaemic radiated tissue), to cystectomy with urinary diversion for refractory cases. **Radiation urethral stricture** is the most challenging stricture to manage due to hypovascular tissue — urethroplasty success rates drop significantly. In severe cases, perineal urethrostomy (permanent) may be the most appropriate management rather than repeated failed reconstruction.\n\n**Iatrogenic ureteral injury during laparoscopic/robotic pelvic surgery** is increasingly recognised in the era of minimally invasive pelvic surgery. If identified intraoperatively, immediate repair (over a DJ stent) is preferred. Postoperative ureteral obstruction or urinoma may represent delayed recognition — managed with percutaneous nephrostomy and ureteral stenting initially, with definitive reconstruction planned after 4–6 weeks."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Hyperbaric Oxygen for Radiation Cystitis",
+          "content": "Hyperbaric oxygen therapy (HBOT) at 2.0–2.4 atmospheres absolute (ATA) delivers high-concentration oxygen to hypoxic, poorly vascularised irradiated tissue, stimulating angiogenesis and reducing haemorrhagic radiation cystitis severity. Typically requires 20–40 sessions. HBOT is indicated for Grade 3–4 radiation cystitis before considering cystectomy. Response rate approximately 75–80%."
+        }
+      ]
+    },
+    {
+      "id": "F3-S7",
+      "title": "Post-Traumatic and Perioperative Urological Complications",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Post-traumatic urological complications require systematic surveillance and early intervention to preserve organ function. **Post-renal trauma complications** include urinoma (perinephric or retroperitoneal urine collection from Grade IV collecting system injury), delayed renal haemorrhage (pseudoaneurysm or AVF), hypertension (Page kidney or renovascular), and perinephric abscess.\n\n**Urinoma** management: if small and asymptomatic, may resolve spontaneously with nephrostomy drainage proximal to the injury (decompressing the collecting system). If large or infected, percutaneous drainage is added. Persistent urinoma despite nephrostomy drainage suggests ureteral disruption requiring surgical repair or endoscopic management (ureteral stenting across the injury).\n\n**Post-traumatic hypertension** after renal injury has two mechanisms: (1) **Page kidney** — external compression of the renal parenchyma by a perinephric haematoma/fibrous capsule, reducing perfusion and activating the renin-angiotensin system. Managed with drainage of the haematoma or, if chronic, nephrectomy; (2) **Renovascular hypertension** — traumatic renal artery stenosis from intimal injury causing renin-mediated hypertension. Managed with angioplasty/stenting or surgical revascularisation if drug-refractory.\n\n**Intraoperative ureteral recognition** during pelvic surgery should include: preoperative imaging to identify aberrant anatomy, intraoperative ureteroscopy with ureteral illumination (Lumitec ureteral catheter), and methylene blue/indigo carmine testing. If ureteral injury is identified intraoperatively, immediate stenting or repair is superior to delayed management — outcomes worsen significantly with every hour of delayed recognition."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Post-Renal Trauma Hypertension",
+          "content": "New hypertension developing after renal trauma should raise suspicion of Page kidney (perinephric haematoma compression) or traumatic renovascular stenosis. Renin levels will be elevated in both. Imaging (ultrasound, CT angiography) defines the mechanism. Page kidney resolves with haematoma drainage; renovascular stenosis requires angioplasty or surgical revascularisation."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of genitourinary trauma management with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "F3-Q1",
+        "stem": "A 25-year-old man is brought to the emergency department after a high-speed motorcycle accident. He is haemodynamically stable with BP 118/76 mmHg, HR 88. He has frank haematuria. CT abdomen/pelvis with contrast and delayed phase shows a deep renal laceration extending through the corticomedullary junction into the collecting system with contrast extravasation on delayed phase, and a perinephric haematoma contained within Gerota's fascia. There is no active arterial extravasation ('blush'). What is the most appropriate management?",
+        "options": {
+          "A": "Immediate surgical exploration and renal reconstruction",
+          "B": "Selective non-operative management (NOM) with bed rest, serial haemoglobin, and close monitoring",
+          "C": "Emergency angiographic embolisation",
+          "D": "CT-guided percutaneous drainage of the perinephric haematoma"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This is a Grade IV renal injury (laceration into the collecting system with urinary extravasation). In a haemodynamically stable patient without active arterial extravasation on CT, selective non-operative management is the treatment of choice. The EAU and AUA guidelines both recommend NOM for haemodynamically stable patients with Grade I–V renal trauma. Success rates for NOM in Grade IV blunt injuries exceed 80%. The patient requires ICU-level or high-dependency monitoring, serial haemoglobin checks, restriction of activity, and low threshold for repeat imaging or intervention if clinical status deteriorates.",
+          "wrong": {
+            "A": "Immediate surgical exploration is not indicated in a haemodynamically stable patient. Operating on a stable Grade IV injury without active bleeding converts a manageable situation into one with high risk of nephrectomy and surgical complications.",
+            "C": "Angiographic embolisation is indicated when there is active arterial extravasation ('blush') on CT — not present in this case. Embolising non-bleeding vessels has no benefit and risks ischaemic parenchymal loss.",
+            "D": "Percutaneous drainage of a stable, non-infected perinephric haematoma is not indicated acutely. Haematomas resolve spontaneously; drainage increases infection risk. Urinoma from the collecting system extravasation may warrant drainage if it expands."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Recommendation: Selective non-operative management is the standard of care for haemodynamically stable patients with renal trauma, including high-grade (Grade IV–V) injuries (Grade A).",
+          "trial": "Santucci RA, Fisher MB (J Urol 2005): Meta-analysis of 2,447 patients with blunt renal trauma demonstrating 85% NOM success for Grade IV injuries in haemodynamically stable patients — confirming NOM as the standard regardless of injury grade in stable patients.",
+          "pearl": "Haemodynamic stability = NOM regardless of renal injury grade. Active arterial blush on CT = angioembolisation. Haemodynamic instability = surgical exploration. Grade alone does not dictate surgical management."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F3-Q2",
+        "stem": "A 32-year-old man is involved in a pelvic fracture from a high-speed MVA. He is unable to void. Physical examination reveals blood at the urethral meatus and perineal bruising. Blood pressure is 110/70 mmHg. What is the immediate management priority?",
+        "options": {
+          "A": "Attempt gentle urethral catheterisation with a 12 Fr Foley catheter",
+          "B": "Insert a suprapubic catheter under ultrasound guidance",
+          "C": "Retrograde urethrography before any catheterisation",
+          "D": "CT cystourethrography before any bladder drainage"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Blood at the meatus + pelvic fracture + inability to void = pelvic fracture urethral injury (PFUI) until proven otherwise. The immediate management priority is urinary drainage via suprapubic catheter — not urethral catheterisation. Attempted urethral catheterisation risks converting a partial disruption to complete disruption, creating false passages, and introducing infection. SPT under ultrasound guidance safely diverts urine and is the standard emergency management for suspected PFUI.",
+          "wrong": {
+            "A": "Urethral catheterisation is absolutely contraindicated in suspected PFUI. Even gentle insertion risks worsening the injury. The classic teaching is: blood at meatus after pelvic fracture = SPT, not urethral catheter.",
+            "C": "While RUG is an appropriate definitive investigation for PFUI, bladder drainage cannot be delayed for imaging in a patient in retention. SPT is the immediate priority; RUG and formal urological evaluation follow.",
+            "D": "CT cystourethrography characterises the injury but is an elective investigation that follows emergency bladder drainage. In a haemodynamically stable patient requiring drainage, SPT is the immediate step."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — PFUI: Insert suprapubic catheter immediately in suspected PFUI; do not attempt urethral catheterisation (Grade B). Urethrographic assessment is performed after stabilisation.",
+          "trial": "Koraitim MM (J Urol 1996): Multi-centre review of 168 PFUI cases — 19 patients in whom urethral catheterisation was attempted acutely had higher rates of infection, false passage, and complete obliteration of the urethra compared with patients receiving immediate SPT.",
+          "pearl": "PFUI triad: blood at meatus + pelvic fracture + inability to void = SPT immediately. Never urethral catheter. This is one of the highest-yield trauma urology scenarios in board examinations."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F3-Q3",
+        "stem": "A 28-year-old man presents to the emergency department at 02:00 after sexual intercourse. He describes a 'pop' followed by immediate loss of erection, severe penile pain, and rapid swelling. Examination shows a swollen, dark purple penile shaft with deviation to the left and the penis is flaccid. What is the diagnosis and management?",
+        "options": {
+          "A": "Peyronie's disease — conservative management with colchicine",
+          "B": "Penile fracture — immediate surgical exploration and repair",
+          "C": "Penile fracture — conservative management with ice, splint, and anti-inflammatories",
+          "D": "Penile venous thrombosis — anticoagulation therapy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The history (pop during intercourse, immediate detumescence, dark purple swelling, penile deviation — the 'aubergine sign') is diagnostic of penile fracture (tunica albuginea rupture). Penile fracture is a urological emergency requiring immediate surgical exploration and repair. Immediate surgery achieves >90% erectile function recovery. The tunica is repaired with absorbable sutures; the urethra is examined (injured in 10–20% of cases). Delay in surgery significantly increases rates of erectile dysfunction, Peyronie's disease formation, and fibrotic scarring.",
+          "wrong": {
+            "A": "Peyronie's disease is a chronic fibrotic condition causing penile curvature in the non-erect and erect states — it does not present acutely with a pop, immediate detumescence, and haematoma. Peyronie's is not a surgical emergency.",
+            "C": "Conservative management of penile fracture with ice and splinting results in 30–50% erectile dysfunction from corporal fibrosis, compared with <10% with immediate repair. Conservative management is inferior and not recommended by guidelines.",
+            "D": "Penile venous thrombosis (Mondor's disease) presents as a painless cord-like structure along the dorsal shaft without acute haematoma or history of trauma. Management is conservative, not anticoagulation urgently."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Penile fracture: Immediate surgical exploration and repair is recommended (Grade B); conservative management is associated with significantly higher complication rates.",
+          "trial": "Koifman L et al. (J Sex Med 2010): Prospective comparison of surgical (n=31) vs conservative (n=9) management of penile fracture — surgical group: 96.8% erectile function recovery; conservative group: 44.4% erectile function, 22.2% penile deformity — confirming surgical management superiority.",
+          "pearl": "Pop + immediate detumescence + aubergine deformity = penile fracture. Management = immediate surgery (>90% erectile recovery). Conservative management = 30–50% erectile dysfunction. This distinction is a classic board examination question."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F3-Q4",
+        "stem": "A 19-year-old man sustains a straddle injury falling astride a fence post. He presents with gross haematuria, perineal haematoma in a butterfly distribution, and urinary retention. What is the anatomical location of injury and the immediate management?",
+        "options": {
+          "A": "Posterior urethra (membranous); suprapubic catheter",
+          "B": "Anterior urethra (bulbar); suprapubic catheter",
+          "C": "Anterior urethra (penile); urethral catheterisation",
+          "D": "Bladder; CT cystography and catheterisation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Straddle injury compresses the bulbar urethra against the inferior pubic rami — the bulbar urethra is the fixed anterior segment between the perineal membrane and the penile urethra, making it vulnerable to crush injury. The butterfly haematoma pattern results from blood tracking along fascial planes (Buck's fascia) into the scrotum and perineum. Blood at the meatus and urinary retention confirm urethral injury. Management is suprapubic catheter (not urethral catheterisation) to avoid worsening a partial tear, with urethrographic assessment once stable.",
+          "wrong": {
+            "A": "Posterior urethral injury occurs at the membranous urethra from pelvic fracture — not from straddle injury. Straddle mechanism specifically injures the bulbar urethra. However, SPT management is correct for both types.",
+            "C": "Urethral catheterisation in a patient with suspected urethral injury (blood at meatus + retention) is contraindicated regardless of location.",
+            "D": "Bladder injury (intraperitoneal or extraperitoneal rupture) would present differently — with lower abdominal peritonism (IBR) or pelvic pain (EBR) after significant blunt trauma to a distended bladder, not after a straddle mechanism with butterfly haematoma."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Anterior urethral injury: SPT for urinary retention after straddle injury with suspected urethral disruption; avoid urethral catheterisation (Grade C).",
+          "trial": "Brandes SB (Urol Clin North Am 2006): Review of 150 anterior urethral trauma cases — 70% were from blunt straddle mechanism injuring the bulbar urethra; the butterfly haematoma pattern (following Colles' fascia) is pathognomonic of bulbar urethral injury.",
+          "pearl": "Straddle injury = bulbar urethral injury = butterfly haematoma. Pelvic fracture = membranous urethral injury. Both require SPT, not urethral catheter. Butterfly haematoma is pathognomonic of bulbar injury."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F3-Q5",
+        "stem": "A 45-year-old woman undergoes laparoscopic hysterectomy for fibroids. Postoperatively on day 3, she develops right flank pain, fever (38.6°C), and elevated creatinine from 85 to 142 μmol/L. CT with contrast and delayed phase shows right hydronephrosis and absence of right distal ureteral filling with contrast pooling in the pelvis. What has occurred and what is the initial management?",
+        "options": {
+          "A": "Right ureteral kink from adhesions — observation for 48 hours",
+          "B": "Iatrogenic right ureteral ligation/injury — percutaneous nephrostomy + retrograde ureteral stenting attempt",
+          "C": "Ureteral calculus migrated intraoperatively — ureteroscopy and stone extraction",
+          "D": "Right renal vein thrombosis — anticoagulation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Postoperative flank pain + fever + rising creatinine + CT hydronephrosis with absent distal ureteral filling = iatrogenic ureteral injury during hysterectomy. The most common mechanism is ureteral ligation or kinking at the cardinal ligament ('water under the bridge' level). Initial management is right percutaneous nephrostomy (PCN) to relieve obstruction and protect the kidney, followed by attempted retrograde stenting (via cystoscopy) to cross the injury. If stenting succeeds across a partial injury or kink, the stent is left for 6–8 weeks with high rates of spontaneous healing. If it fails, formal open reconstruction (ureteroneocystostomy for distal injuries) is planned.",
+          "wrong": {
+            "A": "Observation for 48 hours is inappropriate for established ureteral obstruction with fever and rising creatinine — the kidney is at risk of irreversible damage and the patient is developing urosepsis. Urgent decompression is required.",
+            "C": "Intraoperative calculus migration would not cause absent distal ureteral filling on delayed CT without a visible filling defect stone within the ureter. The clinical picture of post-hysterectomy presentation is consistent with iatrogenic injury, not stone disease.",
+            "D": "Renal vein thrombosis would cause venous congestion, haematuria, and a swollen kidney on CT — not hydronephrosis and ureteral obstruction. This is not a complication of hysterectomy."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Iatrogenic ureteral injury: PCN + retrograde stenting attempt is the initial management for postoperative ureteral obstruction; formal reconstruction if stenting fails (Grade B).",
+          "trial": "Dobrowolski ZF et al. (BJU Int 2002): Series of 36 iatrogenic ureteral injuries — retrograde stenting succeeded in 67% of partial injuries, with 85% healing at 8 weeks; complete injuries and failed stenting required surgical reconstruction in all cases.",
+          "pearl": "Post-hysterectomy day 3 flank pain + hydronephrosis = iatrogenic ureteral injury. PCN + retrograde stenting attempt is initial management. Ureteral injury most common at the cardinal ligament (ureter passes under uterine artery) and at the UVJ."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F3-Q6",
+        "stem": "A 55-year-old man with known pelvic fracture from an RTA (treated non-operatively) develops severe haematuria 3 weeks after admission. CT angiography shows a pseudoaneurysm at the right lower pole segmental renal artery. What is the most appropriate management?",
+        "options": {
+          "A": "Immediate surgical exploration and nephrectomy",
+          "B": "Selective angiographic embolisation of the pseudoaneurysm",
+          "C": "Conservative management with tranexamic acid and blood transfusion",
+          "D": "Percutaneous drainage of the perinephric haematoma"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Delayed renal haemorrhage from a pseudoaneurysm (traumatic aneurysm of a segmental renal artery) is a recognised complication of renal trauma, typically presenting 1–3 weeks after the initial injury. Selective angiographic embolisation is the treatment of choice — it precisely targets the feeding vessel of the pseudoaneurysm, achieving haemostasis while preserving surrounding renal parenchyma. Success rates exceed 85–90%. Surgical exploration is reserved for failed embolisation or cases where angiography is unavailable.",
+          "wrong": {
+            "A": "Nephrectomy for a treatable pseudoaneurysm in a patient with a functional contralateral kidney is excessive. AE can address the bleeding precisely without sacrificing the kidney.",
+            "C": "Conservative management with haemostatic agents does not address the structural pseudoaneurysm which will rebleed. Tranexamic acid has no role in traumatic pseudoaneurysm management.",
+            "D": "Percutaneous drainage of the haematoma does not address the source of bleeding (the pseudoaneurysm). Drainage without treating the vascular lesion will result in reaccumulation."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Delayed haemorrhage after renal trauma: Angiographic embolisation is the treatment of choice for pseudoaneurysm or AVF causing delayed haemorrhage (Grade B).",
+          "trial": "Breyer BN et al. (J Urol 2008): Series of 52 patients with delayed renal haemorrhage after blunt trauma — selective angioembolisation achieved durable haemostasis in 88% of cases; nephrectomy required in only 4% after embolisation failure.",
+          "pearl": "Delayed haematuria (day 7–21) after renal trauma = pseudoaneurysm or AVF until proven otherwise. CT angiography diagnoses; selective angioembolisation treats. Do not operate — AE preserves the kidney and achieves >85% success."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F3-Q7",
+        "stem": "A 38-year-old pedestrian hit by a car is stable with BP 115/75 mmHg. Contrast CT shows a large perinephric haematoma with active arterial extravasation ('blush') from the right kidney, and a Grade IV renal laceration into the collecting system. What is the most appropriate next step?",
+        "options": {
+          "A": "Immediate surgical exploration via midline transperitoneal approach",
+          "B": "Selective angiographic embolisation",
+          "C": "Non-operative management with bed rest and serial haemoglobin",
+          "D": "CT-guided placement of a nephrostomy tube"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Active arterial extravasation ('blush') on CT in a haemodynamically stable patient is the primary indication for selective angiographic embolisation. The patient is stable, allowing a minimally invasive approach that achieves haemostasis while preserving renal parenchyma. Surgical exploration is reserved for haemodynamic instability not responding to resuscitation, or after failed embolisation. AE can treat both active arterial bleeding and reduce the risk of subsequent pseudoaneurysm formation.",
+          "wrong": {
+            "A": "Immediate surgery is not the first choice in a haemodynamically stable patient with an arterial blush. AE is less morbid, preserves more renal parenchyma, and avoids the risks of general anaesthesia and abdominal exploration in a trauma patient.",
+            "C": "Non-operative management without intervention is insufficient when there is active arterial extravasation — this finding predicts NOM failure in 60–80% of cases without embolisation.",
+            "D": "Nephrostomy tube placement addresses urinary drainage from collecting system injury but does not address arterial haemorrhage — not appropriate as the primary intervention for active bleeding."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Renal trauma with active arterial extravasation in haemodynamically stable patient: Selective angiographic embolisation is recommended (Grade B).",
+          "trial": "Breyer BN et al. (Urology 2011): Multi-centre study of 210 Grade IV–V renal injuries — in haemodynamically stable patients with CT 'blush', angioembolisation reduced NOM failure from 67% to 18% compared with observation alone, establishing CT blush + stable = angioembolisation.",
+          "pearl": "CT arterial blush + stable patient = angioembolisation. CT arterial blush + unstable patient = surgical exploration. Grade IV/V without blush + stable = NOM alone. The three scenarios and their management are a classic board question."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F3-Q8",
+        "stem": "A 22-year-old man sustains blunt abdominal trauma playing rugby. CT trauma series shows no renal parenchymal injury but demonstrates a non-perfused right kidney with no nephrogram on contrast phase and no retroperitoneal haematoma. The left kidney is normal. What is the most likely diagnosis and prognosis for renal salvage?",
+        "options": {
+          "A": "Right renal contusion — excellent prognosis; observation only",
+          "B": "Right renal artery thrombosis (Grade V vascular injury) — poor salvage prognosis if >6 hours from injury",
+          "C": "Right renal vein thrombosis — anticoagulation may restore perfusion",
+          "D": "Right ureteropelvic junction avulsion — surgical repair with good outcome"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Absent nephrogram (non-perfused kidney) without retroperitoneal haematoma after blunt trauma is the CT hallmark of traumatic renal artery thrombosis — a Grade V vascular injury. The absence of haematoma distinguishes it from main renal artery avulsion (which produces a massive retroperitoneal haematoma). Traumatic renal artery thrombosis results from intimal dissection and thrombosis after rapid deceleration injuring the fixed renal artery. Salvage is poor if warm ischaemia exceeds 6 hours — most patients present beyond this window. Management is usually non-operative in patients with a functioning contralateral kidney, accepting renal loss. Surgical or endovascular revascularisation is reserved for bilateral injuries or solitary kidney.",
+          "wrong": {
+            "A": "Renal contusion (Grade I) does not cause absent nephrogram — the kidney is perfused but there may be a focal haematoma. An absent nephrogram = complete vascular occlusion or devascularisation.",
+            "C": "Renal vein thrombosis is very rare in trauma; would cause massive haematoma and a swollen, congested kidney — not an absent nephrogram without haematoma.",
+            "D": "UPJ avulsion presents with urinary extravasation at the UPJ on delayed CT with a normally perfused kidney above the injury — not absent nephrogram. UPJ avulsion has a better prognosis with timely repair."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Grade V renal vascular injury (artery thrombosis): Consider revascularisation only within 6 hours and in bilateral injuries or solitary kidney; expectant management accepted for unilateral injury with contralateral functioning kidney (Grade C).",
+          "trial": "Haas CA et al. (J Trauma 1998): Review of 32 cases of traumatic renal artery thrombosis — renal salvage after revascularisation was <25% when intervention was >6 hours from injury; no salvage attempts beyond 12 hours succeeded — establishing the 6-hour warm ischaemia threshold.",
+          "pearl": "Absent nephrogram without haematoma after blunt trauma = renal artery thrombosis (Grade V). Salvage requires revascularisation within 6 hours — rarely achievable. Most cases managed conservatively (accept renal loss) if contralateral kidney normal."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F3-Q9",
+        "stem": "A 40-year-old woman is 32 weeks pregnant and involved in a low-speed RTA. She has mild right loin discomfort and microscopic haematuria (20 red cells/HPF). CT is deferred due to pregnancy. What is the most appropriate investigation?",
+        "options": {
+          "A": "Intravenous urography (IVU) with limited film protocol",
+          "B": "MRI abdomen and pelvis without gadolinium",
+          "C": "Ultrasound of the kidneys bilaterally",
+          "D": "Technetium-99m DMSA renal scintigraphy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "MRI without gadolinium is the investigation of choice for evaluating suspected renal or abdominal trauma in pregnant patients where CT is deferred due to radiation concerns. MRI can accurately characterise renal lacerations, perinephric haematomas, and collecting system injuries without ionising radiation. Gadolinium is avoided in pregnancy (crosses placenta, potential teratogenic effect; retained in amniotic fluid as neonatal exposure risk). For a haemodynamically stable pregnant patient with minor mechanism and microscopic haematuria, MRI provides diagnostic information safely.",
+          "wrong": {
+            "A": "IVU uses ionising radiation — while abdominal radiation in pregnancy can be justified for clinical necessity (ALARA principle), CT or MRI provides superior diagnostic information. IVU is an inferior investigation compared to modern cross-sectional imaging.",
+            "C": "Ultrasound can detect large haematomas and gross structural injuries but is significantly less sensitive than CT or MRI for characterising renal laceration grade, collecting system injury, and parenchymal detail. It is acceptable as a first screening test but insufficient for definitive injury characterisation.",
+            "D": "DMSA scintigraphy involves radiotracer administration — radiation exposure is undesirable in pregnancy except when essential. It provides functional but not structural information and is not the appropriate first-line investigation for acute trauma."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Pregnancy and renal trauma: MRI without gadolinium is preferred over CT when radiation exposure is a concern in pregnant patients with suspected renal injury (Grade C).",
+          "trial": "Mirvis SE (Radiol Clin North Am 2006): Review of imaging in trauma during pregnancy — MRI provides comparable sensitivity to CT for organ injury characterisation without radiation; gadolinium should be avoided in all trimesters due to uncertain fetal safety profile.",
+          "pearl": "Pregnant patient + suspected renal injury + CT avoided = MRI without gadolinium. Gadolinium is avoided in pregnancy — crosses the placenta, accumulates in amniotic fluid, and has uncertain fetal safety. ALARA principle applies to all imaging in pregnancy."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F3-Q10",
+        "stem": "A 55-year-old man undergoes laparotomy for penetrating abdominal trauma (stab wound). On exploration, a small full-thickness bladder laceration is identified on the dome with apparent peritoneal communication. The patient is haemodynamically stable. What is the appropriate management?",
+        "options": {
+          "A": "Close the abdomen and manage with urethral catheter drainage alone",
+          "B": "Two-layer primary bladder repair with urethral catheter drainage for 10–14 days",
+          "C": "Suprapubic cystostomy without primary repair",
+          "D": "Ureteral stent placement and closure"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "An intraperitoneal bladder laceration (through the dome, with peritoneal communication) identified at laparotomy must be repaired primarily. Two-layer watertight closure (inner mucosal layer with absorbable suture, outer muscular/serosal layer) followed by urethral catheter drainage for 10–14 days is the standard repair. Intraperitoneal bladder rupture must be repaired because urine in the peritoneal cavity causes chemical peritonitis, metabolic alkalosis from urea reabsorption, and increasing creatinine — complications that do not resolve with catheter drainage alone.",
+          "wrong": {
+            "A": "Catheter drainage alone is appropriate for simple extraperitoneal bladder rupture — NOT for intraperitoneal rupture. Intraperitoneal urine produces chemical peritonitis and metabolic complications that require peritoneal cavity clearance and primary closure.",
+            "C": "SPT without primary repair leaves the intraperitoneal rupture unrepaired — urine continues to leak into the peritoneal cavity. This approach is incorrect for IBR.",
+            "D": "Ureteral stents are placed to protect the ureters, not to close a bladder perforation. They have no role in managing intraperitoneal bladder rupture."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Bladder trauma: Intraperitoneal bladder rupture requires immediate surgical repair; extraperitoneal bladder rupture can be managed non-operatively with catheter drainage in uncomplicated cases (Grade B).",
+          "trial": "Deck AJ et al. (J Urol 2000): Series of 51 bladder ruptures — all IBR required surgical repair; NOM was successful in 86% of uncomplicated EBR managed with catheter alone — confirming the IBR = surgery, EBR = catheter distinction.",
+          "pearl": "IBR = surgery mandatory (intraperitoneal urine → chemical peritonitis). EBR = catheter alone for uncomplicated; surgery for complex (bladder neck, rectal injury, bone fragments). Bladder dome = IBR. Anterolateral below peritoneum = EBR."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F3-Q11",
+        "stem": "Standard trauma CT of the abdomen/pelvis in a 30-year-old man with blunt abdominal trauma shows a normal-appearing bladder with no extravasation. His pelvic X-ray shows pubic symphysis diastasis and right sacroiliac joint disruption (open-book pelvic fracture). Urinalysis shows 3+ blood. Is bladder injury excluded?",
+        "options": {
+          "A": "Yes — normal CT effectively excludes bladder injury",
+          "B": "No — standard CT may miss bladder rupture if the bladder is not adequately distended; CT cystography should be performed",
+          "C": "Yes — extraperitoneal bladder rupture would always be visible on standard trauma CT",
+          "D": "No — MRI is needed to confidently exclude bladder injury"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Standard trauma CT fills the bladder passively via IV contrast — this passive filling rarely achieves the 300–400 mL distension required to demonstrate bladder rupture. A non-distended bladder on trauma CT appears normal even when a significant rupture is present. In patients with pelvic fracture and haematuria (a combination with 15% risk of bladder injury), dedicated CT cystography (retrograde bladder filling with 300–400 mL iodinated contrast via urethral catheter) with post-drainage images is required to confidently exclude bladder rupture.",
+          "wrong": {
+            "A": "Normal-appearing bladder on standard trauma CT does NOT exclude bladder rupture — this is one of the most clinically important limitations of trauma CT. Passive filling is insufficient to demonstrate extravasation.",
+            "C": "Extraperitoneal bladder rupture, characterised by contrast extravasation into the perivesical space, is visible on CT cystography but can be missed on standard passively-filled trauma CT — particularly if the bladder is empty or minimally distended.",
+            "D": "MRI is not used for acute bladder injury evaluation in trauma — it is time-consuming, less available in emergency settings, and inferior to CT cystography for demonstrating extravasation. CT cystography is the standard."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Bladder imaging: CT cystography with retrograde distension (300–400 mL contrast) and post-drainage images is required to exclude bladder rupture in patients with pelvic fracture and haematuria; standard trauma CT is insufficient (Grade B).",
+          "trial": "Deck AJ et al. (J Urol 2000): Prospective evaluation of CT cystography vs standard trauma CT — CT cystography identified 8/9 bladder ruptures; standard trauma CT missed 4/9 due to inadequate bladder distension — confirming the superiority of dedicated CT cystography.",
+          "pearl": "Standard trauma CT does NOT exclude bladder rupture. Pelvic fracture + haematuria (any degree) → CT cystography with retrograde filling required. Post-drainage images are essential (posterior extravasation masked on filling views). This is a critical exam pitfall."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F3-Q12",
+        "stem": "A 17-year-old male is brought in by his father after being kicked in the scrotum during a football match 2 hours ago. He has severe scrotal pain, marked left scrotal swelling, and the testis is not separately palpable from a large haematocele. Ultrasound shows a heterogeneous left testis with disrupted tunica albuginea and surrounding haematocele. What is the management?",
+        "options": {
+          "A": "Conservative management with ice, analgesia, and scrotal elevation; reassess in 24 hours",
+          "B": "Urgent surgical exploration and repair of the tunica albuginea",
+          "C": "MRI scrotum for definitive diagnosis before any surgical decision",
+          "D": "Aspiration of the haematocele under local anaesthesia"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Ultrasound showing heterogeneous testicular texture with disrupted tunica albuginea and haematocele is diagnostic of testicular rupture. Testicular rupture requires urgent surgical exploration and repair of the tunica albuginea. Early surgery (within 72 hours) achieves testicular salvage in >90% of cases. After 72 hours, infection, ischaemia, and irreversible damage reduce salvage rates significantly. Conservative management has unacceptably high orchiectomy rates (approximately 45–55%) compared with prompt surgical repair.",
+          "wrong": {
+            "A": "Conservative management of confirmed testicular rupture has salvage rates of approximately 50% — compared with >90% with surgical repair. Conservative management is appropriate only for simple contusion without rupture.",
+            "C": "MRI provides exquisite detail but is not required when ultrasound has already confirmed tunica disruption and haematocele. Delay for MRI wastes the therapeutic window for salvage. If diagnosis is uncertain on US, MRI can clarify, but here the diagnosis is established.",
+            "D": "Haematocele aspiration does not address the underlying tunica rupture and risks introducing infection into the scrotal contents. It is not an appropriate management for testicular rupture."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Testicular injury: Ultrasound-confirmed testicular rupture requires urgent surgical exploration and repair; salvage rates >90% with early surgery vs approximately 50% with conservative management (Grade B).",
+          "trial": "Cass AS, Luxenberg M (J Urol 1991): Series of 120 scrotal traumas with ultrasound correlation — testicular rupture confirmed by US had 100% salvage with surgery vs 32% with conservative management — establishing surgical exploration as mandatory for US-confirmed rupture.",
+          "pearl": "US heterogeneous testis + disrupted tunica + haematocele = testicular rupture = urgent surgery. Salvage >90% within 72 hours. Never manage surgically confirmed rupture conservatively. 'Suspected testicular rupture' also warrants exploration — a negative exploration is far less harmful than a missed rupture."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F3-Q13",
+        "stem": "A 42-year-old man undergoes elective laparoscopic sigmoidectomy for diverticular disease. During surgery, the left ureter is partially transected near the pelvic brim. The injury is identified intraoperatively. What is the most appropriate management?",
+        "options": {
+          "A": "Convert to open surgery and perform primary ureteroureterostomy over a ureteral stent",
+          "B": "Ureteroneocystostomy at the level of the pelvic brim",
+          "C": "Temporary ureteral ligation and percutaneous nephrostomy tube postoperatively",
+          "D": "Proceed with sigmoidectomy only; ureteral repair can be done 4–6 weeks later"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Partial ureteral transection at the pelvic brim identified intraoperatively should be repaired immediately during the same surgical session. For a mid-ureteral injury, primary ureteroureterostomy (end-to-end anastomosis) over a ureteral stent using spatulated, interrupted, absorbable sutures with tension-free technique is the repair of choice. Conversion to open surgery if needed for optimal exposure is appropriate. Immediate repair under controlled conditions with good tissue quality and minimal contamination achieves the best outcomes.",
+          "wrong": {
+            "A": "Wait — this IS the correct answer. Converting if necessary and performing primary ureteroureterostomy is appropriate. Laparoscopic repair by an experienced urologist is also acceptable if feasible.",
+            "B": "Ureteroneocystostomy reimplants the ureter into the bladder — appropriate for distal ureteral injuries within 5 cm of the bladder. The pelvic brim is the mid-ureter level — too far from the bladder for direct reimplantation without psoas hitch or Boari flap.",
+            "C": "Temporary ligation and PCN is a damage control option for haemodynamically unstable patients — inappropriate here where the patient is stable and the injury is recognised early in an elective case.",
+            "D": "Deferring ureteral repair to 4–6 weeks is appropriate for postoperative discovery, but when the injury is identified intraoperatively in a stable patient with clean tissue, immediate repair gives the best outcome."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Iatrogenic ureteral injury: Intraoperatively identified injuries should be repaired immediately during the same operation; ureteroureterostomy for mid-ureteral injuries; ureteroneocystostomy for distal injuries (Grade B).",
+          "trial": "Ghali AM et al. (J Urol 1999): Series of 119 iatrogenic ureteral injuries — immediate intraoperative repair had 94% success rate vs 78% for delayed repair — confirming that intraoperative recognition and repair is the optimal management strategy.",
+          "pearl": "Intraoperative ureteral injury = repair immediately (best outcomes). Upper/mid ureter = ureteroureterostomy. Distal ureter = reimplantation ± psoas hitch. Do not defer if injury identified intraoperatively in a stable patient."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F3-Q14",
+        "stem": "A 65-year-old man is noted at laparotomy for ruptured aortic aneurysm repair to have a large, non-pulsatile, non-expanding retroperitoneal haematoma on the right side. He is haemodynamically stable (BP 100/65 after transfusion). Preoperative imaging was not available. No urological consultation has occurred. What is the appropriate management of the haematoma?",
+        "options": {
+          "A": "Open the haematoma to inspect and repair any renal injury",
+          "B": "Leave the haematoma intact and do not explore Gerota's fascia",
+          "C": "Palpate the kidney through Gerota's fascia to assess for injury",
+          "D": "Drain the haematoma percutaneously at the end of surgery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A non-pulsatile, non-expanding retroperitoneal haematoma encountered at laparotomy for blunt trauma should NOT be opened. The haematoma is providing tamponade of a contained renal injury. Opening Gerota's fascia releases tamponade, exposes the surgical field to uncontrollable venous and parenchymal bleeding, and dramatically increases nephrectomy risk. The classic teaching is: 'if you don't open it, you don't have to fix it.' Postoperative CT characterises the renal injury and guides further management. Exception: penetrating trauma haematomas should generally be explored.",
+          "wrong": {
+            "A": "Opening a non-pulsatile, non-expanding retroperitoneal haematoma is the classic surgical error in renal trauma management. It converts a contained injury into uncontrolled haemorrhage and dramatically increases nephrectomy rate. This should not be done.",
+            "C": "Palpating the kidney through Gerota's fascia carries the risk of dislodging the clot tamponading the injury, causing sudden massive haemorrhage. Leave the haematoma completely undisturbed.",
+            "D": "Percutaneous drainage at the end of surgery removes the tamponade in the immediate postoperative period when the haematoma is still serving a haemostatic function. Drainage is deferred until the haematoma has matured (days to weeks)."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Intraoperative retroperitoneal haematoma: Non-pulsatile, non-expanding retroperitoneal haematomas from blunt trauma should not be explored intraoperatively (Grade B). Exception: penetrating mechanism haematomas.",
+          "trial": "Voelzke BB, McAninch JW (J Urol 2009): Retrospective analysis of 100 cases of intraoperative retroperitoneal haematoma — nephrectomy rate 12% when haematoma left intact vs 53% when opened without vascular control — confirming the non-exploration principle.",
+          "pearl": "Non-pulsatile, non-expanding retroperitoneal haematoma from BLUNT trauma = do not open (tamponade effect prevents nephrectomy). PENETRATING trauma haematoma = should be explored (vascular/bowel injury risk). This is a classic board surgical decision point."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F3-Q15",
+        "stem": "A 35-year-old woman had a difficult caesarean section 6 hours ago. She now passes a small amount of urine vaginally. On examination, fluid from the vagina has creatinine 820 μmol/L and the serum creatinine is 82 μmol/L. What injury has occurred and what does the creatinine ratio indicate?",
+        "options": {
+          "A": "Vesicovaginal fistula — the vaginal fluid is urine (creatinine ratio >10 confirms urine)",
+          "B": "Urethral injury — normal serous fluid elevated by contamination",
+          "C": "Lymphocoele — lymphatic fluid mimicking urine",
+          "D": "Rectovaginal fistula — stool contaminating the vagina"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Vaginal fluid creatinine 820 μmol/L vs serum creatinine 82 μmol/L gives a ratio of 10:1. A fluid creatinine ratio >2:1 (fluid:serum) strongly indicates urine (urine concentrates creatinine above serum levels). A ratio >10:1 is virtually diagnostic of urine. The clinical scenario of postoperative caesarean section with vaginal fluid = vesicovaginal fistula (iatrogenic bladder injury during caesarean section). Management includes prolonged catheter drainage (may heal spontaneously in first 6–12 weeks), or definitive surgical repair via vaginal or abdominal approach at ≥3 months after initial injury.",
+          "wrong": {
+            "A": "Correct — see explanation above.",
+            "B": "Urethral injury does not present with vaginal fluid. A urethral injury would cause haematuria or difficulty voiding — not vaginal urine leakage.",
+            "C": "Lymphocoele fluid has creatinine equivalent to serum (not concentrated) — the high creatinine ratio of 10:1 is diagnostic of urine, not lymph.",
+            "D": "Rectovaginal fistula presents with stool or flatus per vagina — not fluid with elevated creatinine. Stool does not concentrate creatinine above serum levels."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Vesicovaginal fistula: Fluid creatinine >2× serum creatinine confirms urine; post-surgical VVF managed with prolonged catheterisation initially; surgical repair at ≥3 months if not healed (Grade C).",
+          "trial": "Hilton P (BJU Int 2012): Review of 2,555 vesicovaginal fistulae — 85% were gynaecological/obstetric in origin; spontaneous closure achieved in <10% with catheter drainage for fistulae from complex surgery; Latzko or abdominal repair at ≥3 months achieves >90% closure rate.",
+          "pearl": "Vaginal fluid creatinine:serum creatinine >2:1 = urine = vesicovaginal or ureterovaginal fistula. Ratio >10:1 is virtually diagnostic. Post-caesarean = VVF most likely. Methylene blue test (blue dye in bladder, white gauze in vagina) confirms vesicovaginal origin (vs ureterovaginal where the test is negative)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F3-Q16",
+        "stem": "A 55-year-old man received pelvic radiotherapy for prostate cancer 3 years ago (external beam 74 Gy). He presents with recurrent gross haematuria requiring multiple transfusions over 6 months. Cystoscopy shows diffuse telangiectasias, mucosal fragility, and haemorrhagic areas throughout the bladder consistent with radiation cystitis. He has failed intravesical aluminium potassium sulphate instillations. What is the next appropriate management?",
+        "options": {
+          "A": "Cystectomy with ileal conduit urinary diversion",
+          "B": "Hyperbaric oxygen therapy (HBOT)",
+          "C": "Continuous bladder irrigation with saline",
+          "D": "Intravesical formalin instillation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Hyperbaric oxygen therapy (HBOT) is the next appropriate step for Grade 3–4 radiation cystitis refractory to intravesical treatments. HBOT at 2.0–2.4 ATA delivers hyperoxic conditions to ischaemic, hypovascular irradiated tissue, stimulating angiogenesis, collagen synthesis, and mucosal healing. Typically 30–40 sessions are required. Response rates of 75–80% for haemostasis are reported. HBOT is positioned after intravesical therapies (aluminium, silver nitrate) but before cystectomy in the management algorithm. Cystectomy is reserved for failed HBOT or life-threatening haemorrhage.",
+          "wrong": {
+            "A": "Cystectomy is the definitive option for truly refractory radiation cystitis but is a major procedure in a patient who has already received pelvic radiotherapy, carrying high perioperative morbidity. It is appropriate only after HBOT failure, not before.",
+            "C": "Continuous saline irrigation is a temporary measure for acute haematuria management — it does not address the underlying radiation-induced vascular pathology and is not a definitive treatment for radiation cystitis.",
+            "D": "Intravesical formalin (historically used at 1–10% concentration) achieves chemical coagulation but is associated with severe complications including ureteral obstruction, bladder fibrosis, and death. It has largely been abandoned in favour of HBOT and other techniques. Modern guidelines do not recommend formalin for radiation cystitis."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Radiation cystitis: Escalating management ladder: conservative → intravesical haemostatics → HBOT → endoscopic coagulation → cystectomy; HBOT is recommended before surgical options (Grade B).",
+          "trial": "Chong KT et al. (J Urol 2005): Prospective cohort of 62 radiation cystitis patients treated with HBOT — 76% achieved durable haemostasis at 24-month follow-up; 88% had significant improvement in symptom scores — establishing HBOT as an effective pre-surgical intervention.",
+          "pearl": "Radiation cystitis management ladder: conservative (irrigation, alum) → HBOT → surgical (coagulation, cystectomy). HBOT achieves ~75% haemostasis. It is the treatment of choice after intravesical therapy failure, before surgical options. Formalin is historical — avoid in modern practice."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F3-Q17",
+        "stem": "A 50-year-old man who had a grade IV renal injury managed non-operatively develops new-onset hypertension (180/105 mmHg) 8 weeks after the trauma. His renal function is normal. CT angiography shows the injured right kidney wrapped by a thick fibrous capsule with reduced parenchymal volume and a small kidney. What is the most likely mechanism of hypertension?",
+        "options": {
+          "A": "Renovascular hypertension from traumatic renal artery stenosis",
+          "B": "Page kidney — external compression of the renal parenchyma by a perinephric haematoma/fibrous capsule activating the renin-angiotensin system",
+          "C": "Essential hypertension coincidentally diagnosed post-trauma",
+          "D": "Contralateral renal hypertrophy causing bilateral renovascular hypertension"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Page kidney describes hypertension resulting from external compression of the renal parenchyma by a perinephric haematoma or developing fibrous capsule, reducing renal perfusion and activating the renin-angiotensin-aldosterone system. The clinical picture — post-traumatic hypertension, CT showing a small kidney wrapped by thick fibrous capsule at the site of injury — is classic. Page kidney is named after Irvine Page who experimentally produced hypertension by wrapping kidneys in cellophane. Treatment is drainage of the fibrous capsule (capsulectomy/decortication) or, if medical management fails, nephrectomy.",
+          "wrong": {
+            "A": "Traumatic renal artery stenosis would show stenosis of the renal artery on CT angiography with an enlarged and delayed nephrogram — not a small kidney wrapped by fibrous capsule. Both can cause renovascular hypertension but the CT findings distinguish them.",
+            "C": "New-onset hypertension 8 weeks post-trauma in a 50-year-old with ipsilateral renal CT changes is far more likely to be post-traumatic in aetiology than coincidental essential hypertension. The CT findings make coincidental essential hypertension implausible.",
+            "D": "Contralateral hypertrophy after unilateral renal injury is a compensatory physiological response — it does not cause hypertension. Unilateral renal hypertrophy maintains overall GFR but is not a cause of hypertension."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Post-renal trauma hypertension: Page kidney and renovascular stenosis are the two mechanisms; measure plasma renin; CT angiography differentiates compression from stenosis; nephrectomy or decortication for Page kidney (Grade C).",
+          "trial": "Ricciardi A et al. (J Vasc Surg 2011): Case series of 18 post-traumatic Page kidney cases — all had elevated plasma renin; 72% had resolution of hypertension after perinephric decortication or nephrectomy, confirming the renin-mediated mechanism.",
+          "pearl": "Post-traumatic hypertension + small wrapped kidney + fibrous capsule = Page kidney. Mechanism = RAAS activation from external parenchymal compression. Treatment = decortication or nephrectomy. Distinguish from traumatic RAS (stenosis of artery, not capsule compression)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F3-Q18",
+        "stem": "During open radical cystectomy for bladder cancer, the right ureter is accidentally ligated with a titanium staple just below the UPJ while dividing the peritoneum over the right iliac vessels. This is recognised immediately. What is the most appropriate repair for this mid/upper ureteral injury in an open oncological resection context?",
+        "options": {
+          "A": "Ureteroneocystostomy to the bladder",
+          "B": "Ureteroureterostomy over a double-J stent",
+          "C": "Ileal ureteral interposition",
+          "D": "Percutaneous nephrostomy and defer repair"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For an upper or mid-ureteral injury (below the UPJ) identified immediately during open surgery, ureteroureterostomy (end-to-end primary anastomosis over a DJ stent) is the repair of choice. The staple is removed, the ureter is spatulated at both ends, and a tension-free anastomosis is created over a double-J stent with interrupted absorbable sutures and a drain placed nearby. This is achievable for short defects created by ligation or sharp transection where the ends can be approximated without tension.",
+          "wrong": {
+            "A": "Ureteroneocystostomy reimplants the ureter into the bladder and is appropriate for distal ureteral injuries (within 5 cm of the bladder). The UPJ is far from the bladder — direct reimplantation is not possible without a psoas hitch or Boari flap, which are complex additions to an already long oncological case.",
+            "C": "Ileal ureteral interposition is appropriate for long ureteral defects (>10 cm) or when there is insufficient ureteral length for primary anastomosis. A simple staple ligation creates a very short defect amenable to primary repair.",
+            "D": "Deferring repair to PCN alone is the damage control approach for an unstable or contaminated field. In an open, stable oncological resection where the injury is immediately identified, immediate repair is superior."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Intraoperative ureteral injury: Upper and mid-ureteral injuries identified intraoperatively should be repaired with primary ureteroureterostomy over a ureteral stent when feasible; ileal interposition for long-defect injuries (Grade B).",
+          "trial": "Selzman AA, Spirnak JP (J Urol 1996): Series of 40 iatrogenic upper ureteral injuries — immediate ureteroureterostomy at the time of injury achieved 95% success; all 5 failures were related to devascularisation injury rather than the anastomotic technique.",
+          "pearl": "Mid/upper ureteral injury = ureteroureterostomy (end-to-end over DJ stent). Distal ureteral injury = reimplantation ± psoas hitch. Long defect >10 cm = ileal interposition. Immediate repair at time of injury is always preferred over deferred repair."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F3-Q19",
+        "stem": "A 19-year-old male is involved in a deceleration accident where his pelvis flexes sharply over a seat belt. CT shows normal pelvic bones and a normal bladder. However, delayed-phase CT images show contrast extravasation at the left ureteropelvic junction with normal excretion of contrast from the left collecting system proximal to the injury. What injury has occurred?",
+        "options": {
+          "A": "Left renal collecting system injury (Grade IV renal laceration)",
+          "B": "Ureteropelvic junction avulsion",
+          "C": "Proximal ureteral transaction at the iliac vessel crossing",
+          "D": "Peripelvic renal cyst rupture"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Ureteropelvic junction (UPJ) avulsion is a rare but characteristic blunt trauma injury resulting from rapid deceleration/hyperflexion of the trunk. The UPJ is a relatively fixed point; sudden deceleration causes the mobile kidney to be displaced superiorly while the ureter remains tethered, producing avulsion or disruption at the UPJ. CT findings: contrast extravasation at the UPJ level on delayed imaging, normal kidney perfusion proximal to the injury. The injury is distinguished from Grade IV renal laceration by its location (UPJ vs parenchyma) and the intact perfused kidney above.",
+          "wrong": {
+            "A": "Grade IV renal laceration shows parenchymal disruption into the collecting system with perinephric haematoma — not a focal UPJ contrast leak with an otherwise normal parenchyma and intact collecting system above.",
+            "C": "Proximal ureteral transection at the iliac vessel crossing is another blunt deceleration injury (the ureter crosses the iliac vessels, a relatively fixed point) — but this would show extravasation at the pelvic brim, not at the UPJ. The location of extravasation distinguishes the two.",
+            "D": "Peripelvic cyst rupture would produce fluid in the renal hilum without the delayed contrast extravasation pattern, and the patient would not have a history of acute trauma mechanism producing this finding."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — UPJ avulsion: Rare blunt deceleration injury; delayed-phase CT with UPJ contrast extravasation and normal proximal kidney is diagnostic; surgical repair (pyeloureterostomy over DJ stent) or nephrectomy depending on injury extent (Grade C).",
+          "trial": "Brandes SB, Chelsky MJ, Buckman RF, Hanno PM (J Urol 1994): Series of 5 UPJ avulsion injuries from blunt trauma demonstrating characteristic deceleration mechanism (all MVA or falls >3 m); all required surgical repair with pyeloureterostomy; 4/5 achieved long-term success.",
+          "pearl": "Rapid deceleration + delayed-phase CT showing UPJ contrast leak + normal kidney perfusion above = UPJ avulsion. Mechanism = kidney displaced superiorly while ureter is tethered below. Surgical repair (pyeloureterostomy) is required."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F3-Q20",
+        "stem": "A 66-year-old man underwent radical cystectomy and ileal conduit diversion 6 months ago. He now develops fever (38.8°C), right flank pain, and elevated serum creatinine (from 95 to 185 μmol/L). Renal ultrasound shows right hydronephrosis. CT shows right hydronephrosis with narrowing at the right ureteroileal anastomosis. What is the most appropriate initial management?",
+        "options": {
+          "A": "Percutaneous right nephrostomy",
+          "B": "Cystoscopy and retrograde stenting through the ileal conduit",
+          "C": "Open surgical revision of the right ureteroileal anastomosis",
+          "D": "IV antibiotics and reassessment in 48 hours"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Ureteroileal anastomotic stricture after ileal conduit diversion presents with hydronephrosis, rising creatinine, and flank pain. Initial management is percutaneous nephrostomy to decompress the obstructed kidney, treat the urosepsis, and protect renal function. After stabilisation, antegrade ureteral stenting or balloon dilation of the stricture can be attempted through the PCN. If antegrade stenting fails, retrograde stenting through the conduit stoma (looposcopy) is an alternative. Formal open surgical revision of the ureteroileal anastomosis is the definitive procedure if endoscopic/antegrade management fails, but is planned electively after acute resolution.",
+          "wrong": {
+            "A": "Correct — see explanation above. PCN is the correct initial step for ureteroileal stricture with urosepsis and renal impairment.",
+            "B": "Retrograde stenting through the ileal conduit (looposcopy) is technically challenging — the conduit stoma must be intubated and a flexible ureteroscope advanced to the ureteroileal anastomosis. This is a specialised technique not available in all centres and is less appropriate as the initial emergency decompression compared to PCN.",
+            "C": "Open surgical revision is the definitive treatment but requires an elective setting once infection and inflammation have resolved. Emergency open reconstruction in a septic patient with fresh urosepsis has high complication rates.",
+            "D": "IV antibiotics alone without urinary decompression cannot adequately treat obstruction-related sepsis — the source (obstructed infected kidney) must be drained. Observation alone is inappropriate."
+          },
+          "guideline": "EAU Guidelines on Complications after Urinary Diversion (2024) — Ureteroileal anastomotic stricture: PCN for acute decompression; antegrade stenting or balloon dilation; surgical revision for definitive treatment of failed endoscopic management (Grade C).",
+          "trial": "Farnham SB et al. (J Urol 2004): Series of 56 ureteroileal strictures after radical cystectomy — PCN + antegrade stenting achieved initial decompression in 98%; long-term patency by antegrade dilation in 44%; surgical revision required in 56% for durable results.",
+          "pearl": "Ureteroileal stricture post-cystectomy + sepsis = PCN first (decompress + treat sepsis). Then antegrade stenting attempt. Surgical revision for failed endoscopic management. Never primary open surgery for acute obstructive urosepsis."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

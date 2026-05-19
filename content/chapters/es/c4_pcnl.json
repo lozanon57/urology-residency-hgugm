@@ -1,0 +1,1002 @@
+{
+  "id": "C4",
+  "title": "Nefrolitotomía Percutánea (PCNL)",
+  "subtitle": "Bloque C — Urolitiasis y Endourología: Técnicas de Acceso, Litotricia y Resultados",
+  "block": "C",
+  "block_name": "Urolitiasis y Endourología",
+  "level": "R3-5",
+  "reading_time_min": 50,
+  "guidelines_version": "Guías EAU sobre Urolitiasis 2024 · Guía AUA/Sociedad Endourológica sobre PCNL 2016 (reafirmada 2021)",
+  "textbook_refs": [
+    "Türk C et al. EAU Guidelines on Urolithiasis. European Association of Urology 2024",
+    "Assimos D et al. Surgical Management of Stones: AUA/Endourological Society Guideline. J Urol 2016;196:1153",
+    "De la Rosette J et al. CROES PCNL Study Group: Outcomes of Percutaneous Nephrolithotomy (PCNL). J Urol 2011;186:99–104",
+    "Desai M et al. Miniperc and Standard PCNL: A Prospective Comparative Study. BJU Int 2013;112:355–361",
+    "Sabnis RB et al. Mini PCNL v Standard PCNL for Renal Calculi >2 cm. J Endourol 2016;30:Suppl S152",
+    "Ghani KR et al. Evaluating the learning curve for PCNL. J Urol 2014;192:1512",
+    "Seitz C et al. Incidence, Prevention, and Management of Complications Following Percutaneous Nephrolitholapaxy. Eur Urol 2012;61:146–158"
+  ],
+  "learning_objectives": [
+    "Seleccionar la variante de PCNL adecuada (estándar/mini/ultra-mini) en función de la carga de litiasis, la anatomía y los criterios EAU 2024",
+    "Describir la base anatómica del acceso renal percutáneo a través del plano avascular de Brödel y el abordaje calicial posterior",
+    "Comparar el posicionamiento en decúbito prono frente al decúbito supino/modificación Valdivia en cuanto a consideraciones anestésicas y quirúrgicas",
+    "Identificar y clasificar las complicaciones específicas de la PCNL utilizando la clasificación de Clavien-Dindo modificada",
+    "Manejar las complicaciones hemorrágicas incluyendo la fístula arteriovenosa y el pseudoaneurisma que requieren angioembolización",
+    "Aplicar las recomendaciones de Grado A de las guías EAU 2024 para carga litiásica >20 mm, cálculos en coraza y cálculos grandes de polo inferior"
+  ],
+  "sections": [
+    {
+      "id": "C4-S1",
+      "title": "Indicaciones, Selección del Paciente y Evaluación Preoperatoria",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La nefrolitotomía percutánea (PCNL) es el estándar de tratamiento para los cálculos renales de gran tamaño y sigue siendo el procedimiento de limpieza de cálculos en una sola sesión más eficaz. Las guías EAU 2024 asignan **recomendaciones de Grado A** a la PCNL para cálculos renales >20 mm (incluidos los del polo inferior >15 mm), cálculos en coraza completos o parciales, y cálculos refractarios a la LEC o la ureteroscopia. Para cálculos de 10–20 mm en el polo inferior, se prefiere la PCNL o la f-URS frente a la LEC, dada la inferior tasa de ausencia de litiasis de la LEC en esta localización. El estudio CROES Global PCNL Study —un registro multicéntrico prospectivo de 5.803 pacientes en 96 centros de todo el mundo— registró una tasa global de ausencia de litiasis del 75,7% al alta y del 76,3% a los tres meses, estableciendo los valores de referencia para la calidad de la práctica clínica.\n\nLa evaluación preoperatoria es obligatoria e incluye: TC sin contraste (TCSC) para volumen litiásico, distribución, unidades Hounsfield (UH), distancia piel-cálculo (DPC) y anatomía calicial; urocultivo con tratamiento de la bacteriuria al menos 48 horas antes de la PCNL; hemograma completo, coagulación, función renal y prueba cruzada. Los anticoagulantes y antiagregantes deben ser revertidos o sustituidos adecuadamente. Las variantes anatómicas —riñón en herradura, sistema duplex, riñón pélvico, obesidad (IMC >35), esplenomegalia, hepatomegalia, colon retrorenal— requieren una planificación individualizada del acceso, a menudo con planificación del trayecto guiada por TC o acceso guiado por ecografía. Los riñones pélvicos y lumbares pueden requerir un abordaje anterógrado bajo guía fluoroscópica en posiciones alternativas (p. ej., lateral o Galdakao modificado supino). Los antibióticos profilácticos se administran en la inducción; una dosis única de una cefalosporina de segunda generación o un aminoglucósido es adecuada si la orina es estéril en el preoperatorio."
+        },
+        {
+          "type": "table",
+          "title": "EAU 2024 — Indicaciones de PCNL por Carga Litiásica y Localización",
+          "headers": [
+            "Tipo de Cálculo",
+            "Tratamiento de Primera Línea",
+            "Grado EAU",
+            "Comentario"
+          ],
+          "rows": [
+            [
+              "Cálculo renal >20 mm",
+              "PCNL",
+              "A",
+              "PCNL estándar o mini-PCNL ambas aceptables"
+            ],
+            [
+              "Cálculo polo inferior >15 mm",
+              "PCNL o f-URS",
+              "A",
+              "f-URS aceptable si se dispone de experiencia"
+            ],
+            [
+              "Cálculo polo inferior 10–20 mm",
+              "PCNL o f-URS preferidas frente a LEC",
+              "B",
+              "Tasa de ausencia de litiasis inferior con LEC"
+            ],
+            [
+              "En coraza (completo/parcial)",
+              "PCNL ± múltiples trayectos",
+              "A",
+              "Nefrolitotomía anatrófica raramente necesaria"
+            ],
+            [
+              "Cálculos tras LEC fallida ×3",
+              "PCNL o f-URS",
+              "A",
+              "Depende del tamaño/localización del cálculo"
+            ],
+            [
+              "Cálculos de cistina >10 mm",
+              "PCNL o f-URS",
+              "B",
+              "LEC muy ineficaz para la cistina"
+            ],
+            [
+              "Riñón en herradura, >20 mm",
+              "PCNL o f-URS",
+              "B",
+              "Abordaje en flanco o prono, evitar LEC"
+            ],
+            [
+              "Cálculo renal en riñón trasplantado",
+              "f-URS (retrógrada) preferida",
+              "B",
+              "PCNL anterógrada si no hay acceso retrógrado"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Valores de Referencia de Ausencia de Litiasis en PCNL",
+          "content": "El estudio CROES PCNL Global (De la Rosette et al., J Urol 2011) registró una tasa de ausencia de litiasis del 75,7% al alta hospitalaria en una cohorte internacional heterogénea. Para cálculos >30 mm (en coraza), se espera una tasa de ausencia de litiasis en sesión única de aproximadamente el 60–70%; los trayectos múltiples o los procedimientos en etapas mejoran los resultados. Las guías EAU 2024 recomiendan la PCNL como Grado A para todos los cálculos >20 mm."
+        }
+      ]
+    },
+    {
+      "id": "C4-S2",
+      "title": "Posicionamiento del Paciente: Variantes en Decúbito Prono frente a Decúbito Supino",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Históricamente, la PCNL se realiza con el paciente en **decúbito prono**, lo que ofrece acceso directo al cáliz posterior, una visualización fluoroscópica óptima y el mayor ángulo de trabajo para la nefroscopia. El decúbito prono sigue siendo la posición más adoptada a nivel mundial y es la utilizada en la mayoría de los centros del estudio CROES. Sin embargo, el decúbito prono tiene desventajas: mayor tiempo de inducción anestésica y posicionamiento, riesgo de lesión por presión facial, compromiso respiratorio en pacientes obesos e imposibilidad de realizar simultáneamente una ureteroscopia retrógrada.\n\nLa **posición supina de Valdivia** (modificada como posición de Valdivia supina modificada según Galdakao —GMSV—, que combina el tronco en supino con la cadera ipsilateral flexionada) fue desarrollada para abordar estas limitaciones. Entre las ventajas principales se incluyen: facilita la intubación endotraqueal y el manejo de la vía aérea, la posibilidad de realizar un acceso retrógrado simultáneo (permitiendo cistoscopia concurrente, pielografía retrógrada y colocación de catéter doble J), menor compromiso cardiorrespiratorio en pacientes obesos, menor tiempo de preparación del paciente y mayor confort del cirujano en procedimientos prolongados. Las tasas de ausencia de litiasis entre el decúbito prono y el supino son equivalentes en estudios comparativos aleatorizados. Un metaanálisis de Yuan et al. (J Endourol 2016) de 9 ECAs no mostró diferencias estadísticamente significativas en tasa de ausencia de litiasis, tasa de complicaciones ni necesidad de transfusión entre ambas posiciones. La PCNL supina demostró menor tiempo operatorio (diferencia media de −14 minutos) y menor estancia hospitalaria. La elección debe basarse en la experiencia del cirujano, el equipamiento disponible y los factores específicos del paciente."
+        },
+        {
+          "type": "table",
+          "title": "PCNL en Prono frente a Supino — Resumen Comparativo",
+          "headers": [
+            "Parámetro",
+            "Prono",
+            "Supino (GMSV)",
+            "Evidencia"
+          ],
+          "rows": [
+            [
+              "Tasa de ausencia de litiasis",
+              "75–85%",
+              "74–84%",
+              "Equivalente (metaanálisis Yuan 2016)"
+            ],
+            [
+              "Tiempo operatorio",
+              "Mayor (referencia)",
+              "~14 min menor",
+              "Yuan 2016 J Endourol"
+            ],
+            [
+              "Acceso retrógrado simultáneo",
+              "No factible",
+              "Factible (cistoscopia concurrente)",
+              "Ventaja práctica"
+            ],
+            [
+              "Manejo de la vía aérea",
+              "Complejo (cara hacia abajo)",
+              "Intubación supina estándar",
+              "Ventaja anestésica"
+            ],
+            [
+              "Pacientes obesos",
+              "Mayor riesgo",
+              "Preferida",
+              "Consenso de guías"
+            ],
+            [
+              "Acceso al polo inferior",
+              "Abordaje posterior óptimo",
+              "Puede requerir inclinación lateral",
+              "Dependiente de experiencia del cirujano"
+            ],
+            [
+              "Compromiso respiratorio",
+              "Mayor riesgo (prono)",
+              "Menor riesgo",
+              "Especialmente en IMC >35"
+            ],
+            [
+              "Visualización calicial",
+              "Óptima",
+              "Levemente limitada anteriormente",
+              "Dependiente de experiencia"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Posicionamiento en Pacientes de Alto Riesgo Anestésico",
+          "content": "Para un varón de 68 años con IMC 42, SAOS (dependiente de CPAP) y un cálculo en coraza parcial de 35 mm, la posición supina GMSV ofrece ventajas anestésicas significativas: no requiere intubación prolongada en prono, permite el manejo rápido de la vía aérea en caso necesario y facilita el acceso retrógrado simultáneo para guía del trayecto. Discuta la elección del posicionamiento con el anestesiólogo durante la planificación preoperatoria —en este escenario, la PCNL supina con guía retrógrada combinada es el abordaje preferido."
+        }
+      ]
+    },
+    {
+      "id": "C4-S3",
+      "title": "Técnica de Acceso Percutáneo y Anatomía",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El objetivo anatómico para el acceso renal percutáneo es el **cáliz posterior**, abordado a través de la **línea avascular de Brödel** —el plano relativamente exangüe entre las distribuciones arteriales segmentarias anterior y posterior del riñón. Este plano se sitúa aproximadamente a un tercio de la distancia alrededor de la superficie posterior del riñón desde su borde convexo lateral. El acceso a través del fórnix calicial posterior hacia el sistema colector minimiza la hemorragia al evitar los vasos interlobulares. La **punción a través de la papila renal (punción papilar)** —dirigida a la punta de la papila en lugar del fórnix calicial— es actualmente preferida por muchos endourólogos, ya que crea el trayecto más directo hacia el sistema colector con menor riesgo hemorrágico.\n\nLa guía fluoroscópica sigue siendo el método de acceso más utilizado a nivel mundial (estudio CROES: >80% de los casos). El **acceso guiado por ecografía en tiempo real** se adopta cada vez más, especialmente en Europa y en la práctica pediátrica, y evita la exposición a radiación del paciente y el cirujano. El acceso guiado por TC se reserva para anatomías complejas (colon retrorenal, riñón pélvico, riñón en herradura). El **cáliz diana** se selecciona según la localización del cálculo, su distribución y el ángulo de trabajo necesario —generalmente el cáliz posterior medio o inferior proporciona el acceso más directo en línea recta hacia la pelvis renal y el uréter proximal. Para los cálculos en coraza que requieren acceso a múltiples cálices, el trayecto principal generalmente se dirige al cáliz que proporciona la entrada más amplia al sistema colector, con trayectos secundarios planificados para los fragmentos residuales.\n\nLa dilatación del trayecto se realiza sobre una guía superstiff Amplatz. Las opciones incluyen: **dilatadores telescópicos metálicos en serie** (Alken), **dilatadores de balón** (balón de nefrostomía —en un único paso, más rápido pero más costoso) y **dilatadores plásticos secuenciales** (Amplatz). No hay diferencias significativas en las tasas de complicaciones entre los métodos de dilatación. La PCNL estándar utiliza una **vaina de trabajo de 30 Fr** (Amplatz); la mini-PCNL utiliza vainas de 14–22 Fr."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Advertencia — Transgresión de la Arteria Segmentaria Anterior",
+          "content": "El acceso a través del fórnix calicial anterior —en lugar del cáliz posterior correcto o la papila— conlleva riesgo de lesión de las arterias segmentarias anteriores, causando hemorragia intraoperatoria significativa y aumentando el riesgo de fístula arteriovenosa (FAV) o pseudoaneurisma postoperatorio. Siempre confirme la posición calicial posterior con fluoroscopia biplanar (AP + oblicua 30°) antes de dilatar el trayecto. Si la hemorragia obscurece el campo visual inmediatamente después de la colocación del nefroscopio, no continúe —obtenga hemostasia con taponamiento con balón (infle el balón de nefrostomía dentro del trayecto) y considere la angioembolización precoz."
+        },
+        {
+          "type": "table",
+          "title": "Métodos de Dilatación del Trayecto en PCNL — Comparación",
+          "headers": [
+            "Método",
+            "Tamaño de Vaina",
+            "Ventajas",
+            "Desventajas",
+            "Evidencia"
+          ],
+          "rows": [
+            [
+              "Dilatadores metálicos en serie (Alken)",
+              "Estándar 30 Fr",
+              "Coste-efectivo, preciso",
+              "Requiere fluoroscopia en cada paso",
+              "Técnica estándar"
+            ],
+            [
+              "Dilatación con balón (nefrostomía)",
+              "Estándar 30 Fr",
+              "Un solo paso, más rápido, menos trauma pielocalicial",
+              "Caro, riesgo de rotura del balón",
+              "Sin superioridad frente a dilatación en serie"
+            ],
+            [
+              "Dilatadores plásticos Amplatz",
+              "Estándar 30 Fr",
+              "Disponibles, menor coste",
+              "Múltiples pasos, riesgo de acodamiento",
+              "Resultados equivalentes"
+            ],
+            [
+              "Vaina mini-PCNL",
+              "14–22 Fr",
+              "Menor sangrado, posible sin tubo",
+              "Canal de trabajo menor, fragmentación más prolongada",
+              "Desai 2013 BJU Int"
+            ],
+            [
+              "Ultra-mini/Micro PCNL",
+              "4,8–11 Fr",
+              "Uso pediátrico, mínimamente invasivo",
+              "Limitado para gran carga litiásica",
+              "Sabnis 2016 J Endourol"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C4-S4",
+      "title": "Variantes de PCNL: Estándar, Mini y Ultra-Mini PCNL",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El desarrollo de plataformas de PCNL de menor calibre ha ampliado la aplicabilidad de la nefrolitotomía percutánea para diferentes tamaños de cálculos, edades y variantes anatómicas. La **PCNL estándar** (24–30 Fr) sigue siendo el procedimiento más eficaz para volúmenes litiásicos >20 mm, proporcionando el canal de trabajo más amplio para la fragmentación y extracción rápida de cálculos con litotritos combinados ultrasónicos/neumáticos (p. ej., EMS Swiss Lithoclast Master, StoneBreaker). Las tasas de ausencia de litiasis para cálculos >20 mm con PCNL estándar son aproximadamente del 80–90% en centros de alto volumen.\n\nLa **mini-PCNL** (14–22 Fr) fue desarrollada para reducir las complicaciones hemorrágicas manteniendo la eficacia para cálculos de tamaño intermedio (10–20 mm) y casos pediátricos. El estudio comparativo de referencia de Desai et al. (BJU Int 2013) de 100 pacientes aleatorizados a mini-PCNL (14 Fr) frente a PCNL estándar demostró tasas equivalentes de ausencia de litiasis (95% frente a 97%) con una caída de hemoglobina significativamente menor (0,8 frente a 1,8 g/dL), menos transfusiones y menor estancia hospitalaria en el brazo de mini-PCNL. La limitación del canal de trabajo (típicamente instrumentos de 9,8 Fr) reduce la eficiencia de la fragmentación para cálculos muy grandes, pudiendo requerir tiempos operatorios más prolongados. Para cálculos <10–15 mm en niños, la **ultra-mini PCNL** (11 Fr) o la **micro-PCNL** (4,85 Fr) —descritas por Desai et al. y Sabnis et al.— permiten completar el procedimiento sin tubo de nefrostomía con excelentes tasas de ausencia de litiasis y mínima morbilidad.\n\nLa litotricia láser Ho:YAG puede utilizarse con todos los tamaños de trayecto de PCNL, incluidas las variantes mini y ultra-mini. La litotricia combinada ultrasónica y neumática (Swiss Lithoclast) solo es factible a través de vainas estándar de 24–30 Fr debido al diámetro del instrumento, pero ofrece la fragmentación de cálculos más rápida y la capacidad de aspiración simultánea, lo que la hace ideal para grandes cargas litiásicas."
+        },
+        {
+          "type": "table",
+          "title": "Variantes de PCNL — Especificaciones Técnicas y Aplicaciones Clínicas",
+          "headers": [
+            "Variante",
+            "Tamaño de Vaina",
+            "Nefroscopio",
+            "Tamaño Diana del Cálculo",
+            "Ventaja Principal",
+            "Limitación Principal"
+          ],
+          "rows": [
+            [
+              "PCNL estándar",
+              "24–30 Fr",
+              "Rígido 26 Fr",
+              ">20 mm, en coraza",
+              "Limpieza más rápida, US+neumático combinado",
+              "Mayor pérdida de sangre"
+            ],
+            [
+              "Mini-PCNL",
+              "14–22 Fr",
+              "Mini nefroscopio/flexible",
+              "10–20 mm",
+              "Menor hemorragia, posible sin tubo",
+              "Mayor tiempo operatorio para cálculos grandes"
+            ],
+            [
+              "Ultra-mini PCNL",
+              "11 Fr",
+              "Videoscopio 4,85 Fr",
+              "5–15 mm (pediátrico)",
+              "Mínimamente invasivo, posible sin tubo",
+              "Herramientas de fragmentación limitadas"
+            ],
+            [
+              "Micro-PCNL (Viper)",
+              "4,85 Fr",
+              "Monouso 4,85 Fr",
+              "<10 mm (pediátrico)",
+              "Abordaje percutáneo menos invasivo",
+              "Solo fragmentación en polvo fino"
+            ],
+            [
+              "ECIRS (Endo-Combinado)",
+              "Variable",
+              "Rígido + flexible simultáneo",
+              "En coraza, anatomía compleja",
+              "Acceso retrógrado + anterógrado simultáneo",
+              "Requiere dos cirujanos o configuración avanzada"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Equivalencia de la Mini-PCNL con Menor Pérdida de Sangre",
+          "content": "Desai et al. (BJU Int 2013) demostraron tasas equivalentes de ausencia de litiasis entre mini-PCNL (14 Fr) y PCNL estándar (30 Fr) para cálculos de 10–30 mm, con una disminución de hemoglobina significativamente menor (0,8 frente a 1,8 g/dL, p<0,001) y menos transfusiones con mini-PCNL. La mini-PCNL se recomienda actualmente como el abordaje preferido para cálculos de 10–20 mm y en pacientes pediátricos cuando se requiere acceso percutáneo (EAU 2024)."
+        }
+      ]
+    },
+    {
+      "id": "C4-S5",
+      "title": "Litotricia Intraoperatoria y Extracción de Cálculos",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La fragmentación intraoperatoria de cálculos en la PCNL estándar se logra más eficientemente con **litotricia combinada ultrasónica y neumática** utilizando instrumentos como el EMS Swiss Lithoclast Master o el Cyberwand (Olympus). Estos dispositivos de energía dual fragmentan el cálculo con acción neumática mientras aplican simultáneamente aspiración ultrasónica —permitiendo una succ-fragmentación continua que evita la migración de fragmentos al sistema colector y reduce drásticamente el tiempo de limpieza de cálculos. Las tasas de ausencia de litiasis con litotricia combinada en PCNL estándar para cálculos >30 mm (incluidos los en coraza) se aproximan al 85–90% en manos expertas. Para la mini y ultra-mini PCNL, **la litotricia láser Ho:YAG** (2140 nm) es la única opción dadas las limitaciones del canal instrumental, con estrategias de pulverización o fragmentación/extracción ambas aplicables. El recientemente introducido **láser de fibra de Tulio (TFL)** a 1940 nm también está siendo incorporado en los flujos de trabajo de mini-PCNL con prometedores resultados iniciales debido a la superior absorción por el agua y menor retropulsión.\n\nAl finalizar la litotricia, se realiza una inspección exhaustiva de todos los cálices accesibles para identificar fragmentos residuales. La **nefroscopia flexible** a través del trayecto percutáneo establecido (usando un ureteroscopio flexible a través de la vaina de nefrostomía) permite la inspección de cálices no accesibles con el nefroscopio rígido, especialmente el cáliz del polo superior desde un acceso inferior o medio. Este complemento mejora significativamente las tasas de ausencia de litiasis en sesión única para los cálculos en coraza complejos. La fluoroscopia intraoperatoria con nefrostograma de contraste y la TC sin contraste postoperatoria a las 4–6 semanas son estándar para la evaluación de ausencia de litiasis.\n\nLa **PCNL sin tubo** (colocación de un catéter ureteral sin tubo de nefrostomía externo) y la **PCNL totalmente sin tubo** (sin tubo de nefrostomía ni catéter ureteral) son factibles en pacientes cuidadosamente seleccionados tras procedimientos no complicados con sangrado mínimo y sin lesión urotelial. La guía EAU 2024 permite la PCNL sin tubo cuando no hay sangrado significativo, sin lesión urotelial, sin perforación del sistema colector y sin cálculo residual (Grado B). La PCNL totalmente sin tubo reduce el dolor postoperatorio y la estancia hospitalaria, pero no es adecuada después de procedimientos difíciles o prolongados."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Nefroscopia Flexible a través del Trayecto de PCNL",
+          "content": "Una mujer de 52 años se somete a PCNL por un cálculo en coraza de polo inferior de 28 mm mediante acceso calicial posterior inferior. Tras limpiar los fragmentos del polo inferior y la pelvis renal con el nefroscopio rígido y el Swiss Lithoclast, se introduce un ureteroscopio flexible a través de la vaina Amplatz de 30 Fr para inspeccionar el cáliz del polo superior. Se identifica un fragmento residual de 7 mm que se abla con láser Ho:YAG. Esta maniobra de nefroscopia flexible evita un segundo trayecto percutáneo y mejora la tasa de ausencia de litiasis en sesión única de aproximadamente el 65% a >85% para los cálculos en coraza."
+        },
+        {
+          "type": "table",
+          "title": "Dispositivos de Litotricia en PCNL — Características",
+          "headers": [
+            "Dispositivo",
+            "Mecanismo",
+            "Aplicación",
+            "Ventaja Principal",
+            "Limitación"
+          ],
+          "rows": [
+            [
+              "EMS Swiss Lithoclast Master",
+              "Ultrasónico + neumático (combinado)",
+              "PCNL estándar 24–30 Fr",
+              "Fragmentación + aspiración simultáneas, limpieza más rápida",
+              "Requiere canal de trabajo amplio (≥24 Fr)"
+            ],
+            [
+              "Cyberwand (Olympus)",
+              "Doble sonda ultrasónica",
+              "PCNL estándar",
+              "Aspiración de alta frecuencia, rápida limpieza de cálculos",
+              "Caro, requiere canal amplio"
+            ],
+            [
+              "Láser Ho:YAG (2140 nm)",
+              "Fototérmico, todos los tipos de cálculos",
+              "Todos los tamaños de PCNL incluida mini",
+              "Funciona con canales pequeños, flexible",
+              "Limpieza más lenta para cálculos grandes"
+            ],
+            [
+              "Láser de fibra de Tulio (1940 nm)",
+              "Superior absorción por el agua",
+              "Mini y PCNL estándar",
+              "Menor retropulsión, polvo más fino",
+              "Disponibilidad más limitada (2024)"
+            ],
+            [
+              "Neumático (EMS Lithoclast Solo)",
+              "Solo balístico/neumático",
+              "PCNL estándar, URS",
+              "Coste-efectivo",
+              "Retropulsión de fragmentos, sin aspiración"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C4-S6",
+      "title": "Complicaciones: Clasificación, Prevención y Manejo",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La PCNL presenta el perfil de complicaciones más alto de todos los procedimientos endourológicos para litiasis. Seitz et al. (Eur Urol 2012) publicaron una revisión sistemática exhaustiva de las complicaciones de la PCNL utilizando la clasificación de Clavien-Dindo modificada, que estratifica las complicaciones desde el Grado I (menor, sin intervención requerida) hasta el Grado V (muerte). Las tasas globales de complicaciones oscilan entre el 20–83% en las series publicadas, aunque las complicaciones mayores (Clavien ≥III) ocurren en el 7–14% de los casos en centros de alto volumen. El estudio CROES registró una tasa de transfusión del 7,8% y fiebre/sepsis en el 11,7%.\n\nLa **hemorragia** es la complicación clínicamente más significativa de la PCNL. El sangrado intraoperatorio se maneja con taponamiento (balón de nefrostomía), y la mayoría de los casos se resuelven con manejo conservador. La **fístula arteriovenosa (FAV)** y el **pseudoaneurisma** son complicaciones vasculares tardías que se presentan entre 3 y 21 días después de la cirugía con hematuria macroscópica, a menudo tras un período inicial asintomático. El diagnóstico se realiza mediante angio-TC o angiografía renal selectiva. El tratamiento es la **angioembolización transarterial superselectiva**, que tiene éxito en >95% de los casos y preserva el parénquima renal. La nefrectomía raramente es necesaria (<1%). Los predictores de hemorragia post-PCNL incluyen: acceso supracostal (especialmente ≥12ª costilla), trayectos múltiples, tiempo operatorio prolongado, cirugía renal previa y cultivo de orina intraoperatorio positivo.\n\nLa **sepsis/urosepsis** ocurre en el 0,5–4% de los procedimientos de PCNL y es la principal causa de morbilidad grave y mortalidad. Los factores de riesgo incluyen: bacteriuria preoperatoria (el más importante), cálculos en coraza (con colonización por Proteus/Klebsiella), presión intrarrenal elevada prolongada durante la irrigación e inmunosupresión. La prevención requiere esterilización de la orina preoperatoriamente, irrigación a baja presión y reconocimiento precoz. El manejo sigue los protocolos de urosepsis: antibióticos IV (empírico de amplio espectro: pip/tazo o carbapenem si riesgo de MDR), reanimación con líquidos, ingreso en UCI en caso de shock séptico y drenaje precoz con nefrostomía si no está ya colocada.\n\nLa **lesión pleural** ocurre con el acceso supracostal por encima de la 12ª costilla (espacio intercostal 11 o superior), resultando en hidrotórax o neumotórax en el 2–8% de los casos supracostales. Se prefiere el acceso subcostal (por debajo de la 12ª costilla). Si se requiere acceso supracostal (p. ej., cáliz del polo superior para cálculo en coraza completo), debe realizarse por encima de la costilla (no por debajo, para evitar la lesión del paquete neurovascular) y se requiere obligatoriamente una radiografía de tórax postoperatoria. La **lesión del colon** (colon retrorenal) ocurre en <1% de los casos y es más frecuente en pacientes delgados con bajo IMC, estreñimiento y acceso izquierdo. La sospecha de lesión colónica se manifiesta por material fecal a través del tubo de nefrostomía; se confirma con la inyección de contraste a través de la nefrostomía. El manejo depende de si la lesión es intraperitoneal o extraperitoneal: la lesión colónica extraperitoneal a menudo puede tratarse de forma conservadora con colostomía y cierre de la fístula uretero-cólica; las lesiones intraperitoneales requieren exploración quirúrgica."
+        },
+        {
+          "type": "table",
+          "title": "Complicaciones de PCNL — Clasificación de Clavien-Dindo y Manejo",
+          "headers": [
+            "Complicación",
+            "Grado Clavien",
+            "Incidencia",
+            "Manejo"
+          ],
+          "rows": [
+            [
+              "Fiebre/ITU",
+              "I–II",
+              "11–17%",
+              "Antibióticos IV, urocultivo, drenaje con nefrostomía"
+            ],
+            [
+              "Transfusión sanguínea",
+              "II",
+              "5–8% (CROES 7,8%)",
+              "Transfusión, taponamiento con balón de nefrostomía"
+            ],
+            [
+              "Urosepsis/shock séptico",
+              "IVa",
+              "0,5–4%",
+              "Antibióticos IV de amplio espectro, reanimación con líquidos, UCI, descompresión"
+            ],
+            [
+              "Fístula arteriovenosa / pseudoaneurisma",
+              "III–IVa",
+              "1–2% (tardía, 3–21 días)",
+              "Angioembolización selectiva (>95% de éxito)"
+            ],
+            [
+              "Lesión pleural (hidro/neumotórax)",
+              "II–IIIb",
+              "2–8% supracostal",
+              "Drenaje torácico intercostal ± conservador (neumotórax pequeño)"
+            ],
+            [
+              "Lesión del colon",
+              "IIIb–IVa",
+              "<1%",
+              "Preservación de nefrostomía, colostomía ± reparación primaria (intraperitoneal)"
+            ],
+            [
+              "Perforación del sistema colector",
+              "I–II",
+              "2–4%",
+              "Drenaje con nefrostomía, catéter doble J, conservador"
+            ],
+            [
+              "Lesión de órgano adyacente (bazo/hígado)",
+              "IVa",
+              "<0,3%",
+              "Agentes hemostáticos, angioembolización, raramente cirugía"
+            ],
+            [
+              "Muerte",
+              "V",
+              "<0,1%",
+              "Sepsis, hemorragia — la prevención es la estrategia principal"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Advertencia — Hematuria Tardía tras PCNL (FAV/Pseudoaneurisma)",
+          "content": "Un paciente que presenta hematuria macroscópica recurrente entre 5 y 14 días después de una PCNL no complicada debe ser evaluado para fístula arteriovenosa o pseudoaneurisma —NO debe descartarse como sangrado postoperatorio. El período postoperatorio inicial suele ser asintomático. La angio-TC urgente es la modalidad diagnóstica de elección. La angioembolización selectiva de emergencia es curativa en >95% de los casos. El retraso en el diagnóstico y la derivación a radiología intervencionista aumenta el riesgo de compromiso hemodinámico y nefrectomía innecesaria."
+        }
+      ]
+    },
+    {
+      "id": "C4-S7",
+      "title": "Cálculos en Coraza, Resultados de la PCNL y Curva de Aprendizaje",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los **cálculos en coraza** —definidos como cálculos renales ramificados que llenan la pelvis renal y se extienden hacia dos o más cálices— representan la indicación más compleja para la PCNL. El cálculo en coraza completo (que llena todos los cálices) se asocia con un 50% de deterioro renal y un 28% de mortalidad a los 10 años si no se trata. **La PCNL es el tratamiento de referencia para los cálculos en coraza** (EAU 2024 Grado A; AUA 2016 Grado B). La nefrolitotomía anatrófica —anteriormente el estándar de oro para la extirpación completa del cálculo en coraza— raramente está indicada hoy en día, reservándose para abordajes endoscópicos fallidos o no factibles; conlleva mayor morbilidad (tiempo de isquemia caliente, pérdida de sangre) con tasas inferiores de ausencia de litiasis en estudios comparativos contemporáneos. La PCNL para cálculos en coraza completos típicamente requiere múltiples trayectos (2–3) o procedimientos en etapas, con tasas de ausencia de litiasis del 60–78% en una sesión y del 85–95% con nefroscopia flexible secundaria y/o PCNL en etapas.\n\nLa **curva de aprendizaje** de la PCNL ha sido estudiada por Ghani et al. (J Urol 2014) mediante análisis de suma acumulada (CUSUM), identificando una meseta de rendimiento tras aproximadamente **60 casos** para el rendimiento de acceso independiente (en comparación con 30 casos para el rendimiento supervisado bajo tutoría). Las guías EAU y la Urología Académica Joven (YAU) de la EAU recomiendan un mínimo de **30 procedimientos de PCNL supervisados** antes de la práctica independiente, con auditoría continua de las tasas de ausencia de litiasis y complicaciones. Los centros de alto volumen de PCNL (>100 casos/año) demuestran de forma consistente menores tasas de transfusión, menor estancia hospitalaria y mayores tasas de ausencia de litiasis en comparación con los centros de bajo volumen.\n\nEl **seguimiento postoperatorio** tras la PCNL sigue al de otros procedimientos litiásicos: TCSC a las 4–6 semanas para evaluación de ausencia de litiasis; evaluación metabólica (orina de 24 horas, bioquímica sérica) a las 6 semanas para orientar la prevención de cálculos; imagen repetida a los 6–12 meses si se identifican fragmentos residuales o factores de riesgo litiásico. Los **fragmentos residuales clínicamente insignificantes (CIRFs)** <4 mm tras la PCNL ocurren en el 15–30% de los casos —el 20–40% crecerán a los 5 años y el 10–20% requerirán retratamiento; se recomienda vigilancia activa con imagen a intervalos."
+        },
+        {
+          "type": "table",
+          "title": "Tasas de Ausencia de Litiasis en PCNL por Complejidad del Cálculo — Resumen de Evidencia",
+          "headers": [
+            "Tipo de Cálculo",
+            "Tasa de Ausencia de Litiasis (sesión única)",
+            "Notas",
+            "Referencia Clave"
+          ],
+          "rows": [
+            [
+              "Pelvis renal simple >20 mm",
+              "85–92%",
+              "Trayecto único estándar",
+              "CROES, De la Rosette 2011"
+            ],
+            [
+              "Polo inferior >15 mm",
+              "80–88%",
+              "Acceso polo inferior, mini o estándar",
+              "Guía EAU 2024"
+            ],
+            [
+              "En coraza parcial",
+              "70–80%",
+              "Puede requerir 2 trayectos",
+              "Guía AUA 2016"
+            ],
+            [
+              "En coraza completo",
+              "60–75%",
+              "A menudo requiere procedimiento en etapas",
+              "CROES, Seitz 2012"
+            ],
+            [
+              "En coraza completo + nefroscopia flexible",
+              "85–93%",
+              "Nefroscopio flexible a través del trayecto establecido",
+              "Datos de centros de referencia"
+            ],
+            [
+              "Riñón en herradura",
+              "75–84%",
+              "Acceso prono, cáliz posterior",
+              "EAU 2024"
+            ],
+            [
+              "Pediátrico (<16 años), mini-PCNL",
+              "88–96%",
+              "Ultra-mini o mini-PCNL preferidas",
+              "Desai 2013, Sabnis 2016"
+            ],
+            [
+              "Cálculos de cistina >20 mm",
+              "70–80%",
+              "Cálculo duro, a menudo requiere múltiples intentos",
+              "EAU 2024"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Curva de Aprendizaje de PCNL e Indicadores de Calidad",
+          "content": "Ghani et al. (J Urol 2014) demostraron mediante análisis CUSUM que la competencia independiente en PCNL se alcanza tras aproximadamente 60 casos, con competencia supervisada alcanzable tras 30 casos. Los requisitos mínimos EAU YAU son 30 procedimientos de PCNL supervisados. Una tasa de ausencia de litiasis ≥75% y una tasa de transfusión <10% son los indicadores de calidad aceptados para la PCNL estándar (estudio CROES, De la Rosette J Urol 2011). Los cirujanos por debajo de estos indicadores deben buscar tutoría o formación adicional."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Evalúe sus conocimientos sobre nefrolitotomía percutánea con 20 preguntas estilo board que cubren indicaciones, técnica, complicaciones y resultados.",
+    "questions": [
+      {
+        "id": "C4-Q1",
+        "stem": "Un varón de 45 años presenta un cálculo en la pelvis renal derecha de 28 mm y un cálculo en el polo inferior de 12 mm en la TCSC. La densidad del cálculo es de 1100 UH. No presenta coagulopatía, urocultivos estériles tras el tratamiento de una ITU previa por E. coli y función renal normal. De acuerdo con las guías EAU 2024, ¿cuál es la recomendación de tratamiento de primera línea?",
+        "options": {
+          "A": "LEC para ambos cálculos simultáneamente",
+          "B": "Ureteroscopia flexible (f-URS) solo para el cálculo del polo inferior",
+          "C": "PCNL — recomendación Grado A para cálculos renales >20 mm",
+          "D": "Abordaje combinado en etapas: LEC (polo inferior) + PCNL (cálculo pélvico)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Las guías EAU 2024 asignan una recomendación Grado A a la PCNL para cálculos renales >20 mm. El cálculo pélvico de 28 mm supera claramente este umbral. Además, la alta densidad (1100 UH) predice un mal resultado con LEC. Una sola sesión de PCNL a través de un acceso calicial posterior puede abordar simultáneamente los cálculos pélvico y del polo inferior con tasas de ausencia de litiasis del 85–92% para esta carga litiásica.",
+          "wrong": {
+            "A": "La LEC no se recomienda como primera línea para cálculos >20 mm (EAU Grado A en contra). Además, UH >1000 es un predictor de mala fragmentación con LEC. Un cálculo de 28 mm a 1100 UH tiene una tasa de ausencia de litiasis con LEC <50%.",
+            "B": "La f-URS para el cálculo del polo inferior de 12 mm dejaría sin tratar el cálculo pélvico de 28 mm. La f-URS es una alternativa a la PCNL para cálculos del polo inferior de 10–20 mm (EAU Grado A), pero abordar solo uno de los dos cálculos no es un manejo adecuado.",
+            "D": "Un abordaje combinado en etapas no es necesario —se espera que una sola sesión de PCNL aborde ambos componentes litiásicos. El escalonamiento aumenta la morbilidad del paciente, el riesgo anestésico y el coste."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — Tabla 6.2: Cálculos renales >20 mm: PCNL Grado A recomendación de primera línea",
+          "trial": "Estudio CROES PCNL Global (De la Rosette J Urol 2011): tasa de ausencia de litiasis 75,7% al alta en 5803 pacientes, referencia mundial para los resultados de PCNL",
+          "pearl": "EAU 2024 Grado A: PCNL para cálculos renales >20 mm, cálculos del polo inferior >15 mm y todos los cálculos en coraza. UH >1000 es un predictor negativo para LEC independientemente del tamaño del cálculo."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C4-Q2",
+        "stem": "Durante una PCNL en decúbito prono, una mujer de 60 años con un cálculo en pelvis renal de 22 mm presenta hemorragia arterial viva inmediatamente después de la dilatación del trayecto, oscureciendo la visión nefroscópica. El cirujano infla el balón de nefrostomía dentro del trayecto para lograr el taponamiento. ¿Qué estructura fue probablemente lesionada durante el acceso?",
+        "options": {
+          "A": "Arteria arcuata en la corteza renal",
+          "B": "Arteria segmentaria anterior, por acceso al fórnix calicial anterior",
+          "C": "Arteria interlobulillar dentro de la médula renal",
+          "D": "Vena renal, por punción calicial profunda"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El acceso a través del fórnix calicial anterior —en lugar del fórnix posterior correcto o la papila— conlleva riesgo de lesión de las arterias segmentarias anteriores. La línea avascular de Brödel se sitúa entre los territorios arteriales segmentarios anterior y posterior (aproximadamente a un tercio desde el borde convexo posterolateral). La punción anterior transgrede el territorio arterial segmentario anterior, causando hemorragia inmediata significativa. El taponamiento con balón de nefrostomía es el manejo inicial correcto.",
+          "wrong": {
+            "A": "Las arterias arcuatas se sitúan en la unión corticomedular. Si bien pueden lesionarse durante el acceso, típicamente causan hemorragia menos dramática que la lesión directa de la arteria segmentaria anterior por una punción calicial anterior mal colocada.",
+            "C": "Las arterias interlobulillares son vasos más pequeños dentro de las columnas renales. Su lesión aislada típicamente no causaría la hemorragia inmediata dramática descrita —el calibre es demasiado pequeño para el escenario descrito.",
+            "D": "La lesión venosa renal durante el acceso percutáneo es posible pero poco frecuente; la hemorragia venosa típicamente es menos pulsátil y de menor presión que la hemorragia arterial, y las venas renales se sitúan más medialmente en el seno renal."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — Sección sobre técnica de acceso en PCNL y manejo de complicaciones",
+          "trial": "Seitz C et al. Incidencia, Prevención y Manejo de Complicaciones tras Nefrolitotomía Percutánea. Eur Urol 2012;61:146–158: revisión sistemática exhaustiva de los mecanismos y manejo de las complicaciones de PCNL",
+          "pearl": "Plano avascular de Brödel = acceso a través del FÓRNIX calicial POSTERIOR o la papila. El acceso anterior conlleva riesgo de lesión de la arteria segmentaria anterior. La fluoroscopia biplanar (AP + oblicua 30°) confirma la posición calicial posterior antes de la dilatación."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q3",
+        "stem": "Una mujer de 38 años se somete a PCNL por un cálculo en coraza completo de 32 mm en el riñón izquierdo. Diez días después de un procedimiento aparentemente no complicado con un tubo de nefrostomía de 4 Fr, acude al servicio de urgencias con hematuria macroscópica y una tensión arterial de 95/60 mmHg, hemoglobina 7,2 g/dL. ¿Cuál es la exploración complementaria y el tratamiento más adecuados?",
+        "options": {
+          "A": "Cistoscopia urgente para identificar el origen del sangrado",
+          "B": "Angio-TC urgente seguida de angioembolización superselectiva",
+          "C": "Retorno a quirófano para nefroscopia exploradora y fulguración",
+          "D": "Exploración quirúrgica abierta de emergencia y nefrectomía parcial"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La hematuria tardía (días 3–21 post-PCNL) es la presentación clásica de una fístula arteriovenosa (FAV) o pseudoaneurisma —complicaciones vasculares de la PCNL. El compromiso hemodinámico con caída de hemoglobina confirma sangrado significativo. La angio-TC define la anomalía vascular y la anatomía para planificar la intervención. La angioembolización transarterial superselectiva consigue hemostasia en >95% de los casos preservando el parénquima renal. Este es el tratamiento de referencia para las complicaciones vasculares post-PCNL.",
+          "wrong": {
+            "A": "La cistoscopia solo identificaría sangre procedente del meato ureteral, no el lugar de la lesión. No diagnostica ni trata la FAV/pseudoaneurisma y retrasaría el manejo definitivo en un paciente hemodinámicamente comprometido.",
+            "C": "La exploración nefroscópica sería peligrosa en el contexto de hemorragia vascular activa —la fuente de sangrado es un pseudoaneurisma o FAV, no un vaso del sistema colector susceptible de fulguración directa. Este abordaje arriesga empeorar la hemorragia.",
+            "D": "La exploración quirúrgica abierta y la nefrectomía parcial son el último recurso, apropiados solo cuando la angioembolización ha fallado o no está disponible. Proceder directamente a cirugía prescinde del abordaje mínimamente invasivo con >95% de tasa de éxito y arriesga innecesariamente la pérdida de nefrones."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — Manejo de complicaciones de PCNL; algoritmo para complicación vascular Clavien grado III–IVa",
+          "trial": "Seitz C et al. Eur Urol 2012;61:146–158: angioembolización reportada como tratamiento definitivo para FAV/pseudoaneurisma post-PCNL con >95% de éxito técnico y preservación del parénquima renal",
+          "pearl": "Hematuria tardía post-PCNL (días 3–21) = FAV o pseudoaneurisma hasta que se demuestre lo contrario. Angio-TC + embolización superselectiva es la vía correcta —NO realizar cistoscopia ni nefroscopia."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q4",
+        "stem": "Un varón obeso de 55 años (IMC 44) con SAOS conocido y un cálculo pélvico renal derecho de 25 mm requiere PCNL. Está en tratamiento con enoxaparina terapéutica por fibrilación auricular. ¿Cuál es el abordaje anestésico y de posicionamiento más adecuado?",
+        "options": {
+          "A": "Posición prona tras puente de enoxaparina con heparina IV",
+          "B": "Posición supina Valdivia modificada según Galdakao (GMSV) tras reversión adecuada de la anticoagulación",
+          "C": "LEC para evitar los riesgos anestésicos en este paciente",
+          "D": "Ureteroscopia flexible en posición supina bajo anestesia espinal"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La posición supina GMSV es específicamente ventajosa en pacientes obesos con SAOS: permite la intubación y el manejo estándar supino de la vía aérea, evita el compromiso respiratorio del decúbito prono a IMC 44, facilita una intervención rápida de la vía aérea si es necesario y permite el acceso retrógrado simultáneo. La anticoagulación debe revertirse antes de la PCNL —la enoxaparina debe suspenderse al menos 24 horas antes de la cirugía (última dosis terapéutica ≥24h preoperatoria). El metaanálisis de Yuan et al. (J Endourol 2016) confirmó tasas equivalentes de ausencia de litiasis entre la posición supina y la prona con menor tiempo operatorio para la supina.",
+          "wrong": {
+            "A": "El decúbito prono en un paciente con IMC 44 y SAOS conlleva un riesgo respiratorio significativamente elevado. Aunque el puente con heparina IV es el manejo adecuado de la anticoagulación, la posición prona en sí misma es subóptima para este paciente —la GMSV supina es más segura e igualmente eficaz.",
+            "C": "La LEC no es apropiada para un cálculo renal de 25 mm —las guías EAU 2024 Grado A recomiendan la PCNL para cálculos >20 mm. Además, la LEC está contraindicada en pacientes en anticoagulación terapéutica (contraindicación relativa por riesgo de hematoma).",
+            "D": "La f-URS bajo anestesia espinal podría considerarse para cálculos más pequeños, pero no es óptima para un cálculo pélvico de 25 mm —las tasas de ausencia de litiasis son menores y probablemente se requerirían múltiples sesiones. La PCNL sigue siendo la recomendación de primera línea basada en la evidencia (Grado A)."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — Posicionamiento en PCNL y poblaciones especiales; Guías EAU de Tromboprofilaxis",
+          "trial": "Yuan H et al. Metaanálisis de PCNL supina frente a prona. J Endourol 2016;30:1205–1214: tasas equivalentes de ausencia de litiasis, menor tiempo operatorio con posición supina, preferida en pacientes de alto riesgo anestésico",
+          "pearl": "La PCNL supina GMSV se prefiere en pacientes obesos (IMC >35), con SAOS y que requieren acceso retrógrado simultáneo —tasas equivalentes de ausencia de litiasis que la posición prona con perfil de seguridad anestésica superior."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q5",
+        "stem": "¿Cuál de los siguientes NO es un predictor reconocido de mal resultado con LEC que apoyaría la elección de la PCNL como tratamiento de primera línea?",
+        "options": {
+          "A": "Densidad en unidades Hounsfield >1000 en la TCSC",
+          "B": "Distancia piel-cálculo >100 mm",
+          "C": "Ángulo pielocalicellar inferior <70°",
+          "D": "Localización del cálculo en la pelvis renal con orientación infundibular anterior"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "Una orientación infundibular anterior de la pelvis renal no es un predictor validado de mal resultado con LEC en la evidencia publicada. Los predictores negativos establecidos para la LEC son: densidad del cálculo >1000 UH (predice composición dura, mala fragmentación), distancia piel-cálculo >100 mm (atenuación de las ondas acústicas), localización en polo inferior con ángulo pielocalicellar <70° (mal drenaje de fragmentos), tamaño del cálculo >20 mm y composición (cistina, brushita —máximas UH).",
+          "wrong": {
+            "A": "UH >1000 es un predictor negativo validado para la LEC. Los cálculos con UH >1000 tienen tasas de fragmentación significativamente menores debido a su composición más dura (oxalato cálcico monohidratado, brushita, cistina). Este es un factor respaldado por las guías EAU 2024.",
+            "B": "La distancia piel-cálculo >100 mm está validada como predictor negativo —la mayor atenuación acústica a través de los tejidos blandos reduce la energía focal entregada al cálculo. Está incluida en los modelos de predicción de resultados de LEC de las guías EAU 2024.",
+            "C": "El ángulo pielocalicellar (AP) <70° es un predictor negativo clásico para la LEC de cálculos del polo inferior —el aclaramiento de fragmentos por gravedad se deteriora en los polos inferiores de ángulo agudo. Esto fue establecido en estudios comparativos de referencia entre LEC y PCNL para cálculos del polo inferior."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — Sección 6.4.1: Predictores del resultado de la LEC y selección del tratamiento alternativo",
+          "trial": "Obek C et al. Cálculos de polo inferior: LEC vs PCNL. Urology 2001;57:34: ángulo AP <70° predice fuertemente el mal aclaramiento con LEC para cálculos del polo inferior —se recomienda PCNL",
+          "pearl": "Predictores negativos validados de LEC: UH >1000, distancia piel-cálculo >100 mm, localización en polo inferior + ángulo AP <70°, cálculo >20 mm, composición de cistina/brushita. La presencia de estos factores apoya la PCNL frente a la LEC."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q6",
+        "stem": "Un varón de 50 años se somete a PCNL por un cálculo en pelvis renal de 24 mm mediante acceso calicial posterior inferior en decúbito prono. El cirujano utiliza una vaina Amplatz de 30 Fr. ¿Qué sistema de litotricia combinada proporciona el aclaramiento de cálculos más eficiente combinando fragmentación y succión simultánea?",
+        "options": {
+          "A": "Láser Ho:YAG a alta energía de pulso (3 J, 20 Hz)",
+          "B": "EMS Swiss Lithoclast Master (ultrasónico + neumático combinado)",
+          "C": "Láser de fibra de Tulio (1940 nm, 30 W) con modulación Moses",
+          "D": "Lithoclast Solo neumático (sonda balística únicamente)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El EMS Swiss Lithoclast Master combina energía ultrasónica (vibración de alta frecuencia que causa fragmentación por fricción) con neumática (sonda balística) y, de forma crucial, incorpora un canal de succión-aspiración continua que elimina los fragmentos en tiempo real durante la fragmentación. Esta combinación lo convierte en el sistema más eficiente para el rápido aclaramiento de grandes cargas litiásicas en la PCNL estándar de 24–30 Fr. Requiere un canal de trabajo de al menos 24 Fr y no puede utilizarse a través de instrumentos de mini-PCNL más pequeños.",
+          "wrong": {
+            "A": "El láser Ho:YAG a alta energía de pulso es eficaz para todos los tipos de cálculos pero carece de capacidad de aspiración simultánea. Los fragmentos deben recuperarse por separado con pinzas o irrigación/succión, lo que hace que el aclaramiento de grandes cargas litiásicas sea significativamente más lento que con los dispositivos combinados ultrasónico-neumáticos.",
+            "C": "El láser de fibra de Tulio (TFL) es una tecnología emergente con excelente capacidad de pulverización de cálculos y menor retropulsión, pero también carece de aspiración simultánea. El TFL es más aplicable en el contexto de mini-PCNL y f-URS, no es la opción más eficiente para una PCNL estándar de 30 Fr con gran carga litiásica.",
+            "D": "El Lithoclast Solo neumático proporciona únicamente fragmentación balística sin succión. Los fragmentos se acumulan en el sistema colector y requieren recuperación separada. Es significativamente menos eficiente que la litotricia combinada para cálculos grandes y aumenta el riesgo de retropulsión hacia los cálices."
+          },
+          "guideline": "Guía AUA/Sociedad Endourológica sobre PCNL 2016 (reafirmada 2021) — selección del dispositivo de litotricia en PCNL estándar",
+          "trial": "Estudio CROES PCNL Global (De la Rosette J Urol 2011): la litotricia combinada (US+neumático) se utiliza en la mayoría de los procedimientos en centros de alto volumen, asociada con las mayores tasas de ausencia de litiasis",
+          "pearl": "Litotricia combinada ultrasónica + neumática (Swiss Lithoclast Master/Cyberwand) con succión simultánea = aclaramiento de cálculos más rápido en PCNL estándar de 30 Fr. Requiere canal de trabajo ≥24 Fr. Ho:YAG y TFL son preferidos para mini/ultra-mini PCNL."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C4-Q7",
+        "stem": "Se realiza una PCNL mediante acceso supracostal por encima de la 12ª costilla (espacio intercostal 11) para un cálculo en cáliz del polo superior en un cálculo en coraza completo. En el postoperatorio, el paciente desarrolla hipoxia (SpO2 88%) y murmullo vesicular disminuido en el hemitórax izquierdo. La radiografía de tórax muestra embotamiento del ángulo costofrénico izquierdo. ¿Cuál es la complicación más probable y su manejo?",
+        "options": {
+          "A": "Tromboembolismo pulmonar — iniciar anticoagulación IV de inmediato",
+          "B": "Hidrotórax por transgresión pleural — inserción de drenaje torácico intercostal",
+          "C": "Neumonía postoperatoria — antibióticos IV y fisioterapia respiratoria",
+          "D": "Parálisis del nervio frénico — manejo de soporte y monitorización en UCI"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El acceso supracostal en PCNL por encima de la 12ª costilla conlleva riesgo de transgresión del espacio pleural (diafragma y receso costofrénico), resultando en hidrotórax —líquido de irrigación y sangre que penetran en el espacio pleural. La incidencia es del 2–8% con acceso supracostal. La presentación es hipoxia y murmullo vesicular disminuido con embotamiento radiográfico del ángulo costofrénico consistent con derrame pleural. El manejo es la inserción de un drenaje torácico intercostal para drenar el hidrotórax y reexpandir el pulmón. La radiografía de tórax postoperatoria es obligatoria después de cualquier PCNL supracostal.",
+          "wrong": {
+            "A": "El TEP se presenta con dolor pleurítico, taquicardia y elevación del dímero D —no con embotamiento unilateral del ángulo costofrénico en el lado de la cirugía en este contexto postoperatorio inmediato. Para diagnosticar el TEP sería necesaria una angio-TC, y la anticoagulación sería peligrosa en el período inmediato post-PCNL.",
+            "C": "La neumonía postoperatoria es posible pero se presenta en el transcurso de días (no de forma inmediata) con fiebre, esputo purulento y cambios bilaterales en la radiografía de tórax, no con embotamiento unilateral del ángulo costofrénico ipsilateral a la cirugía inmediatamente después del procedimiento.",
+            "D": "La parálisis del nervio frénico causaría elevación del hemidiafragma, no derrame pleural con embotamiento del ángulo costofrénico. La cronología inmediata tras el acceso supracostal apunta directamente a la transgresión pleural más que a una complicación neural."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — Consideraciones del acceso en PCNL: preferir acceso subcostal, radiografía de tórax obligatoria tras acceso supracostal",
+          "trial": "Seitz C et al. Eur Urol 2012;61:146–158: complicaciones pleurales en el 2–8% de los procedimientos de PCNL supracostales; recomendada radiografía de tórax inmediata e inserción de drenaje torácico",
+          "pearl": "El acceso supracostal en PCNL (por encima de la 12ª costilla) conlleva un riesgo del 2–8% de hidrotórax o neumotórax. La radiografía de tórax postoperatoria es obligatoria. El acceso subcostal (por debajo de la 12ª costilla, en el espacio intercostal 12 inferior a la costilla) se prefiere para evitar el receso pleural."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q8",
+        "stem": "Al comparar la mini-PCNL (14 Fr) frente a la PCNL estándar (30 Fr) para cálculos renales de 10–25 mm, según la mejor evidencia disponible de ECAs (Desai et al. BJU Int 2013), ¿qué parámetro de resultado demostró una diferencia estadísticamente significativa a favor de la mini-PCNL?",
+        "options": {
+          "A": "Tasa de ausencia de litiasis al mes",
+          "B": "Tasa de complicaciones (Clavien ≥III)",
+          "C": "Disminución media de hemoglobina y tasa de transfusión sanguínea",
+          "D": "Tiempo operatorio y duración total de la anestesia"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Desai et al. (BJU Int 2013) en un ECA de 100 pacientes que comparaba mini-PCNL (14 Fr) frente a PCNL estándar (30 Fr) para cálculos de 10–30 mm demostró tasas equivalentes de ausencia de litiasis (95% frente a 97%, p=0,38) pero una disminución de hemoglobina significativamente menor (0,8 frente a 1,8 g/dL, p<0,001) y menos transfusiones sanguíneas (0% frente a 6%, p=0,04) en el brazo de mini-PCNL. La estancia hospitalaria también fue significativamente menor con la mini-PCNL. Esto estableció la mini-PCNL como el abordaje preferido para cálculos de tamaño intermedio con eficacia equivalente y menor morbilidad hemorrágica.",
+          "wrong": {
+            "A": "Las tasas de ausencia de litiasis fueron equivalentes entre mini-PCNL y PCNL estándar (95% frente a 97%, p=0,38) en el ECA de Desai 2013. Este era el criterio de valoración principal y no mostró diferencias significativas —la ventaja clave de la mini-PCNL es la seguridad, no la eficacia.",
+            "B": "Las tasas de complicaciones mayores (Clavien ≥III) no fueron significativamente diferentes entre los grupos en Desai 2013, aunque las tasas de transfusión (Clavien II) sí fueron significativamente menores con mini-PCNL. La ventaja de seguridad fue principalmente en la pérdida de sangre, no en las tasas de complicaciones mayores.",
+            "D": "El tiempo operatorio fue en realidad mayor con la mini-PCNL debido al canal instrumental más pequeño que requiere más tiempo de fragmentación. Esta es una desventaja reconocida de la mini-PCNL para cargas litiásicas mayores. El estudio de Desai 2013 mostró un tiempo operatorio medio significativamente mayor con la mini-PCNL (no menor)."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — mini-PCNL como abordaje preferido para cálculos de 10–20 mm y pacientes pediátricos; basado en evidencia Desai 2013",
+          "trial": "Desai M et al. Miniperc y PCNL estándar: estudio comparativo prospectivo. BJU Int 2013;112:355–361: tasas equivalentes de ausencia de litiasis, significativamente menor pérdida de sangre (0,8 frente a 1,8 g/dL, p<0,001) con mini-PCNL",
+          "pearl": "Mini-PCNL (14 Fr) = tasa equivalente de ausencia de litiasis que la PCNL estándar + significativamente menor pérdida de sangre + menor estancia hospitalaria. Compromiso: mayor tiempo operatorio para cálculos muy grandes. Las guías EAU 2024 recomiendan mini-PCNL para cálculos de 10–20 mm."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q9",
+        "stem": "Un varón de 62 años con un cálculo en coraza completo (riñón derecho, llenando la pelvis y los 3 grupos caliciales mayores, volumen estimado del cálculo 8500 mm³) se somete a PCNL mediante un único acceso calicial posterior inferior. Tras eliminar los cálculos del polo inferior y la pelvis con el nefroscopio rígido, se observa en la fluoroscopia litiasis residual significativa en el polo superior. ¿Qué maniobra complementaria mejora la tasa de ausencia de litiasis en sesión única sin establecer un segundo trayecto percutáneo?",
+        "options": {
+          "A": "Inyección de contraste a través del tubo de nefrostomía para identificar los fragmentos residuales",
+          "B": "Nefroscopia flexible a través de la vaina Amplatz de 30 Fr establecida usando un ureteroscopio flexible",
+          "C": "f-URS retrógrada mediante cistoscopia para acceder a los cálices del polo superior",
+          "D": "Segunda PCNL en etapas mediante acceso al polo superior 4–6 semanas después"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La nefroscopia flexible a través del trayecto percutáneo establecido —introduciendo un ureteroscopio flexible a través de la vaina Amplatz de 30 Fr— permite la inspección y ablación con láser de cálices no accesibles con el nefroscopio rígido, especialmente el cáliz del polo superior desde un acceso calicial inferior. Este complemento mejora las tasas de ausencia de litiasis en sesión única del aproximadamente 65–75% al 85–93% para los cálculos en coraza completos sin la morbilidad adicional de un segundo trayecto percutáneo. La litotricia con láser Ho:YAG de los fragmentos residuales se realiza a través del nefroscopio flexible.",
+          "wrong": {
+            "A": "El nefrostograma de contraste identifica la localización de los fragmentos residuales pero no los trata. Si bien es útil para la evaluación postoperatoria, esto no mejora el aclaramiento de cálculos durante el mismo procedimiento.",
+            "C": "La f-URS retrógrada mediante cistoscopia durante una PCNL simultánea (ECIRS —abordaje combinado) es técnicamente factible en posición supina, pero no se realiza habitualmente desde una posición prona. Más importante aún, el abordaje retrógrado no proporcionaría un acceso adecuado para inspeccionar todos los cálices a través del trayecto de nefrostomía y no es el complemento estándar para una PCNL monocirujano en decúbito prono.",
+            "D": "Una segunda PCNL en etapas es apropiada si el paciente requiere un período de recuperación entre procedimientos o si el aclaramiento en la primera sesión es incompleto pero aceptable. Sin embargo, la pregunta solicita un complemento para mejorar el aclaramiento en sesión única —no un abordaje en etapas. La nefroscopia flexible a través del trayecto existente es la respuesta intraoperatoria correcta."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — PCNL para cálculos en coraza: nefroscopia flexible a través del trayecto establecido recomendada para maximizar la tasa de ausencia de litiasis en sesión única",
+          "trial": "Múltiples series prospectivas que demuestran la mejora de las tasas de ausencia de litiasis en coraza del 65–75% al 85–93% con nefroscopia flexible complementaria a través del trayecto de PCNL establecido (referenciado en Türk C EAU 2024, Seitz Eur Urol 2012)",
+          "pearl": "La nefroscopia flexible a través de una vaina Amplatz de 30 Fr de PCNL establecida usando un ureteroscopio flexible es el complemento clave para mejorar las tasas de ausencia de litiasis en sesión única en la PCNL de cálculos en coraza —evita un segundo trayecto mientras accede a cálices de otro modo inaccesibles."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C4-Q10",
+        "stem": "Según el análisis CUSUM de Ghani et al. (J Urol 2014), ¿tras aproximadamente cuántos casos se alcanza la competencia independiente en PCNL —definida como la meseta de rendimiento—?",
+        "options": {
+          "A": "20 casos",
+          "B": "30 casos",
+          "C": "60 casos",
+          "D": "100 casos"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Ghani et al. (J Urol 2014) utilizaron el análisis de suma acumulada (CUSUM) para identificar la curva de aprendizaje de la PCNL, encontrando que la competencia independiente —definida como la meseta de rendimiento para la tasa de éxito de acceso y las tasas de complicaciones— ocurrió tras aproximadamente 60 casos. La competencia supervisada bajo tutoría podría alcanzarse antes (aproximadamente 30 casos). El programa EAU YAU especifica un mínimo de 30 procedimientos de PCNL supervisados antes de la práctica independiente.",
+          "wrong": {
+            "A": "20 casos es insuficiente para la competencia en PCNL. El análisis CUSUM en Ghani 2014 muestra que el rendimiento aún se encuentra en la parte empinada de la curva de aprendizaje a los 20 casos, con tasas de complicaciones más altas y tasas de ausencia de litiasis menores que tras la meseta.",
+            "B": "30 casos representa el requisito mínimo EAU YAU para la práctica supervisada (con tutor) de PCNL antes de la práctica independiente —no el punto de plena competencia independiente del análisis CUSUM, que ocurre en aproximadamente 60 casos.",
+            "D": "100 casos está por encima de la meseta de competencia identificada. Aunque los volúmenes más altos mejoran los resultados de forma incremental, el análisis CUSUM de Ghani 2014 identificó la meseta en aproximadamente 60 casos, no 100."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — Indicadores de calidad y formación: mínimo 30 casos de PCNL supervisados antes de la práctica independiente (recomendación EAU YAU)",
+          "trial": "Ghani KR et al. Evaluación de la curva de aprendizaje para PCNL mediante análisis CUSUM. J Urol 2014;192:1512–1517: meseta de competencia en aproximadamente 60 casos para el rendimiento independiente",
+          "pearl": "Curva de aprendizaje de PCNL (Ghani J Urol 2014): competencia supervisada ~30 casos (mínimo EAU YAU); meseta de competencia independiente ~60 casos por análisis CUSUM. Tasa de ausencia de litiasis ≥75% y tasa de transfusión <10% son indicadores de calidad."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C4-Q11",
+        "stem": "Una mujer de 28 años con cistinuria (mutación homocigótica SLC3A1) tiene un cálculo de cistina de 22 mm en la pelvis renal derecha. Ha fracasado dos ciclos de tratamiento médico (citrato potásico + tiopronina) y tres sesiones de LEC sin resultado libre de litiasis. ¿Cuál es el tratamiento más adecuado a continuación?",
+        "options": {
+          "A": "Cuarta sesión de LEC con ajuste de potencia",
+          "B": "f-URS retrógrada (f-URS) con pulverización con Ho:YAG",
+          "C": "PCNL — indicada para cálculos de cistina >10 mm refractarios a LEC",
+          "D": "Pielolitotomía abierta — estándar de oro para los cálculos de cistina"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Los cálculos de cistina son notoriamente resistentes a la LEC debido a su alta densidad en UH (típicamente >1000) y su estructura cristalina dura. Las guías EAU 2024 especifican que después de tres sesiones de LEC fallidas, no es apropiado continuar con más LEC. La PCNL está recomendada para cálculos de cistina >10 mm que han fracasado con LEC (EAU Grado B). Las tasas de ausencia de litiasis con PCNL para la cistina son del 70–80%, significativamente mejores que con LEC (<30%). La f-URS es una alternativa, pero requiere múltiples sesiones para cálculos de 22 mm; la PCNL se prefiere para este tamaño de cálculo.",
+          "wrong": {
+            "A": "Tres sesiones de LEC es el máximo recomendado para cualquier cálculo (EAU 2024). Una cuarta sesión no mejorará las tasas de ausencia de litiasis para la cistina y añade exposición a radiación y trauma del parénquima renal sin beneficio. Las guías EAU recomiendan explícitamente no realizar más LEC tras tres intentos fallidos.",
+            "B": "La f-URS con pulverización Ho:YAG es una alternativa válida para los cálculos de cistina, pero requiere múltiples sesiones para un cálculo de 22 mm y alcanza tasas de ausencia de litiasis en sesión única menores que la PCNL para este tamaño. Si bien no es un abordaje incorrecto, se prefiere la PCNL para cálculos de cistina >20 mm tras LEC fallida.",
+            "D": "La pielolitotomía abierta no es el estándar de oro para los cálculos de cistina en 2024. La PCNL ha reemplazado a la cirugía abierta en todos los casos salvo los de anatomía más compleja. La cirugía abierta conlleva mayor morbilidad y mayor tiempo de recuperación sin resultados superiores a la PCNL en manos expertas."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — Cálculos de cistina: PCNL o f-URS para >10 mm, LEC contraindicada tras 3 fracasos (Grado B)",
+          "trial": "Múltiples series de PCNL para cálculos de cistina reportan tasas de ausencia de litiasis del 70–80% (referenciadas en guía EAU 2024 sobre urolitiasis). Las tasas de ausencia de litiasis con LEC para cálculos de cistina son consistentemente <30% en todos los ensayos.",
+          "pearl": "Los cálculos de cistina son malos candidatos para LEC (duros, alta UH). Máximo 3 sesiones de LEC, luego escalar a PCNL (>10 mm) o f-URS. El tratamiento médico (citrato potásico + tiopronina) es complementario, no curativo. Tasas de ausencia de litiasis con PCNL del 70–80% para cistina."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q12",
+        "stem": "Tras una PCNL no complicada por un cálculo solitario en el polo inferior de 23 mm (sin fragmentos residuales en la fluoroscopia, sin perforación del sistema colector, irrigación mínima, tiempo del procedimiento 55 minutos), el cirujano considera la PCNL sin tubo. ¿Qué condición debe cumplirse para realizar una PCNL totalmente sin tubo con seguridad?",
+        "options": {
+          "A": "Sin fiebre en las 48 horas previas a la cirugía y urocultivo estéril",
+          "B": "Ausencia de hemorragia, sin lesión del sistema colector, sin cálculo residual y sin edema urotelial significativo",
+          "C": "Tiempo del procedimiento inferior a 60 minutos y volumen total de irrigación inferior a 5 L",
+          "D": "Tasa de ausencia de litiasis confirmada por TCSC postoperatoria inmediata en el quirófano"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los criterios EAU 2024 Grado B para la PCNL sin tubo (y totalmente sin tubo) requieren: (1) sin hemorragia significativa, (2) sin lesión/perforación del sistema colector, (3) aclaramiento completo de cálculos sin fragmentos residuales significativos y (4) sin lesión urotelial significativa ni edema que pueda causar obstrucción ureteral. El caso descrito cumple estos criterios —hemorragia mínima, sin perforación, sin cálculos residuales. La PCNL totalmente sin tubo (sin tubo de nefrostomía ni catéter ureteral) reduce el dolor postoperatorio, el requerimiento de analgésicos y la estancia hospitalaria.",
+          "wrong": {
+            "A": "La orina preoperatoria estéril es necesaria para todos los procedimientos de PCNL, pero no es el criterio específico para la finalización sin tubo. Los criterios descritos anteriormente rigen la toma de decisiones postoperatorias sin tubo; la esterilidad preoperatoria de la orina es un requisito de seguridad de base, no el criterio de selección sin tubo.",
+            "C": "El tiempo del procedimiento <60 minutos y el volumen total de irrigación <5 L no son criterios validados para la finalización sin tubo en las guías EAU 2024. La decisión se basa en los hallazgos intraoperatorios (hemorragia, perforación, cálculo residual), no en umbrales de tiempo o volumen de líquido.",
+            "D": "La TCSC postoperatoria inmediata en quirófano no es práctica estándar y expondría al paciente a radiación adicional significativa. La evaluación de ausencia de litiasis postoperatoria se realiza a las 4–6 semanas con TCSC. La fluoroscopia intraoperatoria con nefrostograma es la evaluación estándar en tiempo real."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — PCNL sin tubo: recomendación Grado B cuando no hay hemorragia significativa, sin perforación del sistema colector, sin cálculo residual",
+          "trial": "Desai MR et al. PCNL totalmente sin tubo. J Endourol 2004;18:647: la PCNL sin tubo reduce el dolor postoperatorio y el uso de analgésicos sin comprometer la seguridad en pacientes seleccionados —evidencia fundacional para la recomendación Grado B actual de la EAU",
+          "pearl": "Criterios de PCNL totalmente sin tubo: sin sangrado significativo + sin lesión del sistema colector + aclaramiento completo de cálculos. Ventajas: menos dolor, menos analgesia, menor estancia hospitalaria. No apropiada tras procedimientos difíciles, trayectos múltiples o aclaramiento incompleto."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q13",
+        "stem": "Un niño de 6 años (22 kg) presenta un cálculo en la pelvis renal derecha de 12 mm. La evaluación metabólica revela hiperoxaluria primaria tipo 1. Los urocultivos son estériles. ¿Qué abordaje de PCNL es más adecuado para este paciente?",
+        "options": {
+          "A": "PCNL estándar de 30 Fr bajo anestesia general",
+          "B": "Mini-PCNL (14–16 Fr) o ultra-mini PCNL (11 Fr) bajo anestesia general",
+          "C": "LEC como primera línea, PCNL reservada para fracaso de LEC",
+          "D": "Manejo conservador con terapia de disolución médica"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Para pacientes pediátricos, la mini-PCNL (14–16 Fr) o la ultra-mini PCNL (11 Fr) es el abordaje adecuado cuando está indicado el acceso percutáneo. La PCNL estándar de 30 Fr conlleva un riesgo excesivo de lesión del parénquima renal y hemorragia en el riñón más pequeño de un niño. Las series de Sabnis et al. y Desai et al. demuestran tasas de ausencia de litiasis del 88–96% con mini-PCNL en pacientes pediátricos con un perfil de complicaciones significativamente reducido en comparación con la PCNL estándar. Se requiere anestesia general. En la hiperoxaluria primaria tipo 1 (HP1), la recurrencia litiásica es inevitable sin trasplante hepático-renal o nuevos tratamientos (lumasiran, nedosiran), por lo que la extracción mínimamente invasiva de cálculos con máxima preservación del parénquima es fundamental.",
+          "wrong": {
+            "A": "La PCNL estándar de 30 Fr en un niño de 22 kg conlleva un trauma del parénquima renal excesivo, hemorragia desproporcionada y es técnicamente desafiante dado el menor tamaño del riñón. El acceso a escala reducida (mini-PCNL o ultra-mini PCNL) es el estándar pediátrico establecido.",
+            "C": "La LEC puede utilizarse para cálculos pediátricos en centros especializados, pero para pacientes con HP1 con cálculos de oxalato cálcico a UH típicamente >800–1000, las tasas de fragmentación con LEC son menores. Las guías EAU 2024 apoyan la PCNL para cálculos >10 mm en niños cuando está indicado el acceso percutáneo —para un cálculo de 12 mm en un niño con HP1 con recurrencia anticipada, el aclaramiento definitivo con PCNL es apropiado.",
+            "D": "La disolución médica no es eficaz para los cálculos de oxalato cálcico (el tipo de cálculo en la HP1). El tratamiento específico de la HP1 está dirigido a reducir la producción de oxalato (terapia con ARNi lumasiran —aprobado en 2022) y/o trasplante de órganos, pero los cálculos establecidos requieren extracción mecánica."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — Urolitiasis pediátrica: mini-PCNL/ultra-mini PCNL preferidas frente a estándar para pacientes pediátricos",
+          "trial": "Sabnis RB et al. Mini PCNL vs PCNL estándar para Cálculos Renales. J Endourol 2016;30:S152: tasas equivalentes de ausencia de litiasis, pérdida de sangre significativamente reducida en mini-PCNL en todos los grupos de edad incluido el pediátrico",
+          "pearl": "PCNL pediátrica = mini o ultra-mini PCNL (11–16 Fr). La PCNL estándar de 30 Fr es desproporcionada para riñones pequeños. Tasas de ausencia de litiasis del 88–96% con mini/ultra-mini PCNL en niños (Sabnis 2016, Desai 2013)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q14",
+        "stem": "Durante una PCNL, el cirujano observa material fecal en el líquido de irrigación de retorno a través de la vaina de nefrostomía. ¿Qué complicación ha ocurrido y cuál es el manejo inmediato más adecuado?",
+        "options": {
+          "A": "Contaminación de orina por un cálculo en coraza infectado — tomar urocultivo y continuar",
+          "B": "Lesión colónica — confirmar con inyección de contraste a través de la nefrostomía, determinar si es extraperitoneal o intraperitoneal, luego manejar en consecuencia",
+          "C": "Gas intestinal de un colon lleno de heces adyacente al riñón — no se requiere ninguna acción",
+          "D": "Laparotomía de emergencia inmediata por presunta lesión intestinal intraperitoneal"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La lesión del colon durante la PCNL ocurre en <1% de los casos, más comúnmente con acceso izquierdo en pacientes delgados con colon retrorenal. La aparición de material fecal en el líquido de irrigación confirma la transgresión colónica. El manejo inmediato es: (1) confirmar la lesión inyectando contraste a través del tubo de nefrostomía (extravasación hacia una estructura tubular = colon), (2) determinar si es extraperitoneal (generalmente puede manejarse de forma conservadora: tubo de nefrostomía dejado en el colon como derivación colónica, catéter ureteral, reposo intestinal, antibióticos IV —permite la cicatrización de la fístula) o intraperitoneal (requiere reparación quirúrgica inmediata con derivación con colostomía).",
+          "wrong": {
+            "A": "El material fecal en el líquido de irrigación no puede descartarse como infección de un cálculo en coraza. La apariencia visual de las heces es distinta de la orina infectada y debe tomarse en serio como una posible lesión colónica que requiere confirmación y manejo inmediatos.",
+            "C": "No existe ningún escenario en el que el material fecal en el líquido de irrigación sea un hallazgo benigno. Este síntoma es patognomónico de perforación de la pared colónica y requiere diagnóstico e investigación inmediatos.",
+            "D": "La laparotomía de emergencia inmediata no es el primer paso —la mayoría de las lesiones del colon durante la PCNL son extraperitoneales (debido al abordaje retroperitoneal) y pueden manejarse de forma conservadora sin cirugía. Primero es obligatoria la inyección urgente de contraste para caracterizar la lesión y evaluar si existe afectación peritoneal."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — Manejo de complicaciones de PCNL: lesión del colon — estudio con contraste para caracterizar extraperitoneal vs intraperitoneal, manejo conservador vs quirúrgico",
+          "trial": "Seitz C et al. Eur Urol 2012;61:146–158: lesión del colon <1% de los casos de PCNL, predominantemente extraperitoneal, >70% manejada de forma conservadora con drenaje con nefrostomía y reposo intestinal",
+          "pearl": "Material fecal en la irrigación de PCNL = lesión del colon hasta que se demuestre lo contrario. El contraste a través de la nefrostomía define si es extraperitoneal (conservador: drenaje con tubo, reposo intestinal, antibióticos) o intraperitoneal (reparación quirúrgica + colostomía)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C4-Q15",
+        "stem": "El estudio CROES Global PCNL (De la Rosette et al., J Urol 2011) incluyó 5.803 pacientes en 96 centros de todo el mundo. ¿Cuáles fueron la tasa global de ausencia de litiasis al alta hospitalaria y la tasa de transfusión sanguínea registradas?",
+        "options": {
+          "A": "Ausencia de litiasis del 90% al alta, tasa de transfusión del 2%",
+          "B": "Ausencia de litiasis del 75,7% al alta, tasa de transfusión del 7,8%",
+          "C": "Ausencia de litiasis del 80% al alta, tasa de transfusión del 15%",
+          "D": "Ausencia de litiasis del 65% al alta, tasa de transfusión del 12%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El estudio CROES (Oficina de Investigación Clínica de la Sociedad Endourológica) Global PCNL de De la Rosette et al. (J Urol 2011) es el mayor registro prospectivo multicéntrico de PCNL del mundo. Registró una tasa global de ausencia de litiasis del 75,7% al alta hospitalaria (76,3% a los 3 meses) y una tasa de transfusión sanguínea del 7,8%. La urosepsis/fiebre se produjo en el 11,7%. Estos datos se citan ampliamente como indicadores de calidad para los programas de PCNL a nivel internacional.",
+          "wrong": {
+            "A": "Una tasa de ausencia de litiasis del 90% al alta representaría los mejores resultados en casos altamente seleccionados y no complicados —no la tasa global en una cohorte internacional heterogénea que incluye cálculos en coraza. El estudio CROES incluyó toda la complejidad litiásica.",
+            "C": "Una tasa de transfusión del 15% excedería el indicador de referencia aceptable. La tasa de transfusión del 7,8% reportada en el estudio CROES se utiliza como objetivo de calidad —los centros con tasas de transfusión >10% deben revisar su técnica y selección de pacientes.",
+            "D": "Una tasa de ausencia de litiasis del 65% al alta está por debajo del indicador de referencia del estudio CROES. Los centros que registran tasas de ausencia de litiasis consistentemente por debajo del 70% deben revisar su técnica de acceso, estrategia de litotricia y selección de pacientes."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — Indicadores de calidad: ausencia de litiasis ≥75% y transfusión <10% para programas de PCNL estándar",
+          "trial": "De la Rosette J et al. Grupo de Estudio CROES PCNL. J Urol 2011;186:99–104: ausencia de litiasis 75,7% al alta, transfusión 7,8%, urosepsis/fiebre 11,7% — indicadores de referencia mundiales de PCNL",
+          "pearl": "Indicadores de referencia CROES PCNL (De la Rosette J Urol 2011): tasa de ausencia de litiasis 75,7% al alta, transfusión 7,8%, sepsis/fiebre 11,7%. Indicadores de calidad para los programas de PCNL. Memorice estos números para las preguntas de examen."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C4-Q16",
+        "stem": "Un varón de 48 años está programado para PCNL por un cálculo en pelvis renal derecha de 30 mm. La TCSC preoperatoria muestra el colon derecho situado posterior al riñón al nivel del acceso planificado. ¿Cuál es la estrategia de manejo más adecuada?",
+        "options": {
+          "A": "Proceder con el acceso fluoroscópico estándar — el colon retrorenal raramente se lesiona durante la PCNL",
+          "B": "Abandonar la PCNL y proceder con f-URS independientemente del tamaño del cálculo",
+          "C": "Planificación del acceso guiada por TC con preparación intestinal y posicionamiento en prono o lateral para desplazar el colon anteriormente",
+          "D": "Colonoscopia preoperatoria para evaluar el grosor de la pared colónica"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El colon retrorenal (el colon situado posterior al riñón —ocurre en el 0,6–10% de la población, más frecuente en el lado izquierdo pero posible en el derecho) eleva significativamente el riesgo de lesión colónica durante el acceso para PCNL. El manejo apropiado incluye: planificación del acceso guiada por TC (con el radiólogo trazando la trayectoria percutánea más segura), posicionamiento en prono (que desplaza el colon retrorenal anteriormente en la mayoría de los casos), preparación intestinal para reducir la carga fecal y descomprimir el colon, y la consideración del acceso en tiempo real guiado por ecografía para visualizar la posición del colon durante la punción. El acceso fluoroscópico estándar sin estas precauciones aumenta significativamente el riesgo de lesión colónica.",
+          "wrong": {
+            "A": "Proceder con el acceso fluoroscópico estándar en presencia de colon retrorenal conocido es inseguro y negligente. Si bien la lesión del colon ocurre en <1% de todos los casos de PCNL, el riesgo está desproporcionadamente elevado en presencia de colon retrorenal. Se requiere planificación preoperatoria para desplazar el colon.",
+            "B": "Abandonar completamente la PCNL no está justificado —un cálculo en pelvis renal de 30 mm tiene una indicación Grado A para PCNL. La f-URS sola requeriría múltiples sesiones con menores tasas de ausencia de litiasis en sesión única. La planificación adecuada del acceso permite una PCNL segura en pacientes con colon retrorenal.",
+            "D": "La colonoscopia preoperatoria evalúa la mucosa colónica pero no proporciona información sobre la relación espacial entre el colon y el riñón durante la PCNL. No modifica el riesgo de lesión colónica durante el acceso percutáneo y no está indicada en este contexto."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — PCNL en anatomía compleja: colon retrorenal, planificación guiada por TC y posicionamiento en prono/lateral recomendados",
+          "trial": "Seitz C et al. Eur Urol 2012;61:146–158: el colon retrorenal es el principal factor de riesgo para la lesión colónica durante la PCNL; el posicionamiento en prono reduce pero no elimina el riesgo; se recomienda planificación TC",
+          "pearl": "Colon retrorenal detectado en TCSC preoperatoria = planificación de acceso guiada por TC obligatoria + posicionamiento en prono (desplaza el colon anteriormente) + preparación intestinal antes de la PCNL. No proceder con acceso fluoroscópico estándar."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C4-Q17",
+        "stem": "Para un paciente con un cálculo de 35 mm en el polo inferior derecho con un ángulo pielocalicellar muy agudo (40°), que requiere PCNL, ¿qué abordaje de acceso proporciona la línea más directa hacia la pelvis renal para el máximo aclaramiento de cálculos?",
+        "options": {
+          "A": "Acceso calicial posterior del polo superior para obtener un ángulo de trabajo descendente hacia el polo inferior",
+          "B": "Acceso calicial anterior del polo inferior para acceso directo al cálculo",
+          "C": "Acceso calicial medio posterior con nefroscopia flexible complementaria para los fragmentos residuales del polo inferior",
+          "D": "Acceso calicial posterior directo del polo inferior — el cáliz que alberga el cálculo es el punto de acceso preferido"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "Para los cálculos del polo inferior, la punción directa del cáliz posterior del polo inferior que contiene o es adyacente al cálculo proporciona el acceso de trabajo más directo y la línea más recta para la extracción del cálculo. Incluso en presencia de un ángulo AP agudo, el acceso directo al polo inferior se prefiere al acceso al polo superior o al cáliz medio, ya que cualquier otra entrada requiere un eje de trabajo angulado que complica la fragmentación y extracción del cálculo. El ángulo AP agudo afecta al drenaje de fragmentos con LEC (aclaramiento de fragmentos), no a la geometría de acceso en la PCNL —el acceso percutáneo establece un trayecto directo independientemente del ángulo AP.",
+          "wrong": {
+            "A": "El acceso al polo superior para un cálculo del polo inferior crea un eje de trabajo largo y curvado con el nefroscopio que complica significativamente la fragmentación y extracción del cálculo. El acceso al polo superior está indicado para cálculos del polo superior o para acceder a la pelvis renal en cálculos en coraza donde el acceso inferior o medio no llegaría a las extensiones caliciales superiores.",
+            "B": "El acceso calicial anterior aumenta el riesgo de lesión de las arterias segmentarias anteriores (violación del plano de Brödel). El acceso en PCNL siempre debe dirigirse al FÓRNIX calicial POSTERIOR o la papila. El acceso calicial anterior es un error técnico fundamental.",
+            "C": "El acceso al cáliz medio con nefroscopia flexible complementaria es un abordaje válido cuando el cáliz del polo inferior es inaccesible o el cálculo se distribuye por el polo inferior y la pelvis. Sin embargo, para un cálculo solitario de 35 mm en el polo inferior, el acceso directo calicial posterior del polo inferior es el abordaje más eficiente."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — Planificación del acceso en PCNL: el cáliz de acceso debe seleccionarse para proporcionar el eje de trabajo más directo al cálculo; solo fórnix/papila posterior",
+          "trial": "Sampaio FJ et al. Base anatómica para la cirugía endoscópica del riñón. J Urol 1992;148:1768: base anatómica del plano avascular de Brödel para el acceso calicial posterior —artículo fundacional para la anatomía de acceso en PCNL",
+          "pearl": "Regla de acceso en PCNL: acceso a través del FÓRNIX/PAPILA calicial POSTERIOR del cáliz más cercano al cálculo. El ángulo AP importa para el drenaje de fragmentos con LEC pero NO para la selección del acceso en PCNL —el acceso posterior directo al polo inferior es siempre preferido para los cálculos del polo inferior."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C4-Q18",
+        "stem": "Un varón de 55 años se somete a PCNL por un cálculo en coraza parcial de 25 mm. El procedimiento no presenta complicaciones con sangrado mínimo. En el postoperatorio se deja un tubo de nefrostomía de 12 Fr. En el segundo día postoperatorio, el paciente desarrolla escalofríos, temperatura 39,8°C, FC 118 lpm, PA 88/55 mmHg, leucocitos 22 ×10⁹/L. El urocultivo preoperatorio era negativo. ¿Cuál es el diagnóstico más probable y la fuente primaria?",
+        "options": {
+          "A": "Tromboembolismo pulmonar — iniciar anticoagulación y solicitar angio-TC urgente",
+          "B": "Urosepsis post-PCNL por colonización no reconocida en la propia matriz del cálculo en coraza",
+          "C": "Infección del trayecto del tubo de nefrostomía",
+          "D": "Neumonía aspirativa por posicionamiento en prono durante la PCNL"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La urosepsis post-PCNL a pesar de urocultivos preoperatorios estériles es una complicación bien reconocida y potencialmente mortal, particularmente con cálculos en coraza. Los cálculos en coraza (a menudo estruvita/cálculos de infección causados por organismos productores de ureasa —Proteus mirabilis, Klebsiella, Pseudomonas) albergan bacterias dentro de la propia matriz del cálculo, que pueden no crecer en el urocultivo preoperatorio estándar. La rotura mecánica durante la PCNL libera bacterias y endotoxinas, causando respuesta inflamatoria sistémica y shock séptico. Manejo: antibióticos IV de amplio espectro (emp. pip/tazo o meropenem si se sospecha MDR), reanimación con líquidos, ingreso en UCI y verificar que el drenaje de nefrostomía no está obstruido.",
+          "wrong": {
+            "A": "El TEP no se presenta típicamente con escalofríos, fiebre y leucocitosis de 22 × 10⁹/L en el segundo día postoperatorio. El TEP se presenta con dolor torácico, disnea, taquicardia y posiblemente hemoptisis —no este cuadro de sepsis.",
+            "C": "La infección del trayecto del tubo de nefrostomía no causa shock séptico en el segundo día postoperatorio. La infección del trayecto es una complicación tardía (días a semanas) que se presenta con signos locales de la herida, no con compromiso hemodinámico.",
+            "D": "La neumonía aspirativa por posicionamiento en prono es posible pero poco frecuente con un manejo anestésico adecuado (tubo endotraqueal con balón inflado). Se presenta con signos respiratorios y consolidación en la radiografía de tórax, no con el cuadro hematológico y hemodinámico de sepsis descrito."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — Prevención y manejo de urosepsis en PCNL: los cálculos en coraza tienen alto riesgo de urosepsis incluso con urocultivos preoperatorios estériles debido a la colonización intrínseca del cálculo",
+          "trial": "Seitz C et al. Eur Urol 2012;61:146–158: urosepsis/fiebre 11,7% en el estudio CROES; los cálculos en coraza, el tiempo operatorio prolongado y la ITU previa son factores de riesgo clave",
+          "pearl": "Urosepsis post-PCNL a pesar de urocultivo preoperatorio estéril = bacterias dentro de la matriz del cálculo en coraza (Proteus, Klebsiella —productores de ureasa). El cultivo del cálculo (del análisis del cálculo en la PCNL) orienta la elección de antibióticos. Antibióticos IV de amplio espectro inmediatos + UCI + drenaje de nefrostomía no obstruido."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q19",
+        "stem": "Una mujer de 44 años se somete a PCNL por un cálculo de 22 mm en el polo inferior derecho. El análisis de composición del cálculo postprocedimiento es brushita (fosfato cálcico monobásico, CaHPO4). ¿Qué significado clínico tiene esta composición litiásica para el manejo continuo y la prevención futura de cálculos?",
+        "options": {
+          "A": "Los cálculos de brushita responden bien al citrato potásico — iniciar de inmediato tras la PCNL",
+          "B": "Los cálculos de brushita se asocian con hiperparatiroidismo primario y composición muy dura — estudio metabólico de PTH/calcio obligatorio y alto riesgo de recurrencia con LEC",
+          "C": "Los cálculos de brushita son cálculos de infección que requieren antibióticos a largo plazo para su prevención",
+          "D": "Los cálculos de brushita se manejan de forma idéntica a los de oxalato cálcico — sin implicaciones específicas"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los cálculos de brushita (fosfato cálcico dihidratado) tienen importancia clínica porque: (1) se asocian con hiperparatiroidismo primario (exceso de calcio urinario por hipercalcemia), acidosis tubular renal distal (ATRd) y otros estados hipercalciúricos —deben medirse la PTH, el calcio sérico y el calcio en orina de 24 horas; (2) la brushita tiene UH muy elevadas (>1200 en TCSC) y dureza extrema, siendo uno de los peores tipos de cálculos para la LEC —las tasas de ausencia de litiasis con LEC son <20% para la brushita; y (3) los cálculos de brushita tienen altas tasas de recurrencia y requieren evaluación metabólica exhaustiva y prevención dirigida (diuréticos tiazídicos para hipercalciuria, no solo citrato potásico). El citrato potásico solo es insuficiente y puede ser contraproducente al elevar el pH de la orina al rango que precipita la brushita.",
+          "wrong": {
+            "A": "El citrato potásico eleva el pH urinario, lo que es apropiado para los cálculos de ácido úrico y los de oxalato cálcico con hipocitraturia. Sin embargo, para la brushita (cálculos de fosfato cálcico), un pH urinario más alto favorece ACTIVAMENTE la precipitación de brushita. El citrato potásico generalmente no es de primera línea para la brushita y puede empeorar el riesgo de recurrencia.",
+            "C": "La brushita NO es un cálculo de infección. La estruvita (fosfato amónico magnésico) es el cálculo de infección asociado con bacterias productoras de ureasa. La brushita se forma en orina estéril en el contexto de trastornos metabólicos. Los antibióticos a largo plazo no están indicados.",
+            "D": "La brushita tiene implicaciones clínicas muy diferentes a las del oxalato cálcico: requiere un estudio metabólico específico (hiperparatiroidismo, ATRd), es extremadamente resistente a la LEC (UH típicamente >1200) y requiere diferentes estrategias de prevención. No puede manejarse de forma idéntica al CaOx."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — Composición del cálculo y estudio metabólico: cálculos de brushita — investigar hiperparatiroidismo primario, ATRd; LEC contraindicada (mala fragmentación); prevención basada en tiazidas",
+          "trial": "Compilación de evidencia de las guías EAU sobre Urolitiasis 2024: tasas de ausencia de litiasis con LEC para brushita <20%; asociaciones metabólicas específicas que requieren investigación dirigida",
+          "pearl": "Cálculos de brushita: (1) LEC contraindicada (UH >1200, tipo de cálculo más duro — incluso peor que la cistina para LEC); (2) estudio metabólico obligatorio para PTH, calcio, ATRd; (3) citrato potásico no es de primera línea (eleva el pH → favorece la brushita). Las tiazidas para hipercalciuria son la prevención primaria."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C4-Q20",
+        "stem": "Tras una PCNL no complicada por un cálculo de 25 mm en la pelvis renal izquierda, la evaluación de ausencia de litiasis a las 4 semanas con TCSC muestra dos fragmentos residuales de 3 mm y 2 mm en el cáliz inferior izquierdo. El paciente está asintomático. ¿Cuál es el manejo recomendado según las guías EAU 2024?",
+        "options": {
+          "A": "Re-PCNL inmediata para alcanzar el estado libre de litiasis completo",
+          "B": "LEC dirigida a ambos fragmentos residuales de forma urgente",
+          "C": "Vigilancia activa con imagen repetida a los 6–12 meses — fragmentos residuales clínicamente insignificantes (CIRFs) <4 mm",
+          "D": "Solo terapia de prevención metabólica de cálculos — no se requiere más imagen"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Los fragmentos residuales clínicamente insignificantes (CIRFs) se definen como fragmentos asintomáticos <4 mm identificados en la imagen postoperatoria tras la cirugía litiásica. Las guías EAU 2024 recomiendan vigilancia activa para los CIRFs: TCSC repetida a los 6–12 meses para monitorizar el crecimiento. Si bien el 20–40% de los CIRFs crecerán durante 5 años y el 10–20% requerirán eventualmente retratamiento, la mayoría permanecen estables o se eliminan espontáneamente. El retratamiento agresivo inmediato de fragmentos de 3 mm y 2 mm no está respaldado por la evidencia y expondría al paciente a morbilidad innecesaria.",
+          "wrong": {
+            "A": "La re-PCNL inmediata para fragmentos residuales asintomáticos de 3 mm y 2 mm conlleva un riesgo del procedimiento desproporcionado a la carga litiásica. Los CIRFs <4 mm tienen tasas de eliminación espontánea y de estabilización significativas —la cirugía inmediata no está justificada.",
+            "B": "La LEC dirigida a fragmentos de 2–3 mm es técnicamente posible pero probablemente no cambie los resultados clínicos. Los fragmentos de este tamaño tienen altas tasas de eliminación espontánea y las tasas de ausencia de litiasis con LEC para este tamaño son variables. La vigilancia activa es más adecuada que la intervención inmediata.",
+            "D": "La terapia de prevención metabólica de cálculos es importante como manejo complementario pero no sustituye la imagen de vigilancia. Sin TCSC repetida, los fragmentos residuales en crecimiento pasarían desapercibidos hasta que causen síntomas u obstrucción. Vigilancia activa + prevención metabólica es el abordaje combinado correcto."
+          },
+          "guideline": "Guías EAU sobre Urolitiasis 2024 — CIRFs: fragmentos residuales asintomáticos <4 mm — vigilancia activa con TCSC repetida a los 6–12 meses; el 20–40% crecen a los 5 años, el 10–20% requieren retratamiento",
+          "trial": "Rebuck DA et al. Seguimiento de fragmentos residuales tras PCNL. J Urol 2011;186:1229: el 20–40% de los CIRFs crecen a los 5 años; se recomienda vigilancia activa en lugar de reintervención inmediata",
+          "pearl": "Definición de CIRFs: fragmentos litiásicos asintomáticos <4 mm tras cirugía de cálculos. Manejo: vigilancia activa con TCSC a los 6–12 meses. El 20–40% crecen a los 5 años; el 10–20% requieren retratamiento. NO reoperar de inmediato — vigilancia primero."
+        },
+        "difficulty": 1
+      }
+    ]
+  }
+}

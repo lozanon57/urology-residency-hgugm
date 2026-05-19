@@ -1,0 +1,626 @@
+{
+  "id": "G4",
+  "title": "Scientific Writing and Publication in Urology",
+  "subtitle": "Block G — IMRAD Structure, Manuscript Preparation, Peer Review, and Research Ethics",
+  "block": "G",
+  "block_name": "Academic Research in Urology",
+  "level": "R2-5",
+  "reading_time_min": 32,
+  "guidelines_version": "ICMJE Recommendations 2023 · COPE Guidelines 2023 · CONSORT 2010 · EQUATOR Network Reporting Guidelines",
+  "textbook_refs": [
+    "ICMJE. Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals (2023). www.icmje.org",
+    "COPE. Guidelines on Good Publication Practice. Committee on Publication Ethics (2023)",
+    "Strunk W, White EB. The Elements of Style. 4th ed. Allyn & Bacon, 2000",
+    "Gasparyan AY et al. A primer on writing for medical journals. Eur J Intern Med 2011"
+  ],
+  "learning_objectives": [
+    "Structure a scientific manuscript using the IMRAD format with appropriate content in each section",
+    "Apply appropriate reporting guidelines (CONSORT, STROBE, PRISMA, STARD) to manuscripts based on study design",
+    "Understand ICMJE authorship criteria and distinguish authorship from acknowledgement",
+    "Navigate the peer review process as both author and reviewer",
+    "Identify and avoid common research ethics violations including plagiarism, data fabrication, and duplicate publication",
+    "Select an appropriate target journal and interpret impact factor, CiteScore, and open access considerations"
+  ],
+  "sections": [
+    {
+      "id": "G4-S1",
+      "title": "The IMRAD Structure and Writing the Scientific Manuscript",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The vast majority of original research articles in urology follow the **IMRAD structure**: Introduction, Methods, Results, And Discussion. This logical sequence reflects the scientific process and allows readers to efficiently locate specific information. Each section has a distinct purpose and content requirement:\n\n**Introduction**: Contextualises the research question. Should move from broad context (the disease, the clinical problem) to specific gap in knowledge, and conclude with a clear statement of the study objective(s) or hypothesis. The Introduction should NOT present results or discuss findings. It should be concise (typically 3–5 paragraphs, 300–500 words in most urology journals). The final sentence of the Introduction typically states: 'The aim of this study was to...' or 'We hypothesised that...'\n\n**Methods**: The most important section for scientific integrity. Must provide sufficient detail for the study to be replicated by an independent researcher. Key elements: study design and setting, population (inclusion/exclusion criteria), intervention/exposure, outcome definitions (primary and secondary), data collection, statistical analysis (all pre-specified). Ethics statement (IRB/ethics committee approval number, Declaration of Helsinki conformance) and patient consent statement are mandatory for most journals. The Methods section should be written in past tense.\n\n**Results**: Reports findings without interpretation. Past tense. Findings are presented in logical order following the Methods. Tables and figures should be self-explanatory with full legends. Text should not repeat table/figure data verbatim — summarise the key findings and direct readers to tables/figures for detail. All pre-specified outcomes must be reported (CONSORT Item 15) regardless of direction of effect.\n\n**Discussion**: Interprets the results in the context of existing evidence. Structure: (1) summary of main findings in 1–2 sentences; (2) comparison with prior literature; (3) mechanistic explanation; (4) clinical implications; (5) strengths of the study; (6) limitations (honest and specific, not generic disclaimers); (7) conclusions. The Discussion must not overstate findings beyond what the data support."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Abstract Structure",
+          "content": "Most urology journals require structured abstracts: Background/Objective, Methods, Results, Conclusions. The abstract is the most-read part of any paper — it must accurately reflect the full paper and include specific numbers (percentages, p-values, CIs). It must not contain information not in the paper, and must not overstate conclusions. Word limit is typically 250–300 words. The structured abstract for an RCT follows CONSORT abstract guidance."
+        }
+      ]
+    },
+    {
+      "id": "G4-S2",
+      "title": "Reporting Guidelines by Study Design",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Reporting guidelines are checklists and flow diagrams that specify what information must be reported in a manuscript depending on the study design. They do NOT prescribe how to conduct the study — they ensure transparent reporting of what was done. All major urology journals now require compliance with the relevant reporting guideline as a condition of submission. The EQUATOR Network (Enhancing the QUAlity and Transparency Of health Research) maintains a comprehensive database of all reporting guidelines at equator-network.org.\n\nKey reporting guidelines relevant to urological research:\n- **CONSORT 2010**: Randomised controlled trials. 25-item checklist + flow diagram. Mandatory for all RCT submissions. Extensions for cluster RCTs, non-inferiority trials, pragmatic trials, pilot trials.\n- **STROBE (Strengthening the Reporting of OBservational studies in Epidemiology)**: Cohort, case-control, and cross-sectional studies. 22-item checklist.\n- **PRISMA 2020**: Systematic reviews and meta-analyses. 27-item checklist + flow diagram. PROSPERO registration number required.\n- **STARD 2015 (Standards for Reporting Diagnostic accuracy Studies)**: Diagnostic accuracy studies. 30-item checklist + flow diagram.\n- **SPIRIT 2013**: Clinical trial protocols. 33-item checklist. Required for protocol publications and grant applications.\n- **TRIPOD**: Prediction model development and validation. 22-item checklist.\n- **CARE (CAse REports)**: Case reports. 13-item checklist.\n- **SQUIRE 2.0**: Quality improvement studies. 18-item checklist.\n- **AGREE II**: Clinical practice guideline reporting. 23-item checklist.\n\nFor urological case series (common in surgical urology), the **PROCESS** guideline (Preferred Reporting Of CasE Series in Surgery) applies. For review articles (non-systematic), narrative review guidelines are less structured but journals typically require a literature search description."
+        },
+        {
+          "type": "table",
+          "title": "Reporting Guidelines for Common Study Designs in Urology",
+          "headers": ["Study Design", "Guideline", "Key Components", "Mandating Journals"],
+          "rows": [
+            ["RCT", "CONSORT 2010", "25-item checklist + flow diagram", "European Urology, BJU Int, J Urol"],
+            ["Cohort study", "STROBE", "22-item checklist", "European Urology, BJU Int"],
+            ["Case-control study", "STROBE", "22-item checklist", "European Urology, BJU Int"],
+            ["Systematic review/meta-analysis", "PRISMA 2020", "27-item checklist + flow diagram + PROSPERO#", "All major urology journals"],
+            ["Diagnostic accuracy", "STARD 2015", "30-item checklist + flow diagram", "European Urology"],
+            ["Case report", "CARE", "13-item checklist + timeline", "Urology Case Reports, BJU Int"],
+            ["Prediction model", "TRIPOD", "22-item checklist", "European Urology, BJU Int"],
+            ["Surgical case series", "PROCESS", "Structured reporting for surgical series", "Annals of Surgery, BJS"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Confusing Reporting Guidelines with Study Design Standards",
+          "content": "Reporting guidelines describe HOW to report a study — they do not describe how to design or conduct it. A poorly designed study reported perfectly according to CONSORT is still a poor study. Conversely, a well-designed study reported without CONSORT compliance will be rejected by most urology journals. Both good conduct AND good reporting are required. CONSORT compliance is assessed by journals as part of the editorial review process."
+        }
+      ]
+    },
+    {
+      "id": "G4-S3",
+      "title": "Authorship, Contributorship, and Acknowledgements",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Authorship carries substantial academic, financial, and reputational implications. It is not merely an honorary distinction — it implies responsibility and accountability for the work. The **ICMJE (International Committee of Medical Journal Editors) authorship criteria** define four requirements, ALL of which must be met for authorship qualification:\n\n1. **Substantial contribution** to conception and design, OR data acquisition, OR analysis and interpretation of data.\n2. **Drafting the article** or critically revising it for important intellectual content.\n3. **Final approval** of the version to be published.\n4. **Agreement to be accountable** for all aspects of the work, including investigating and resolving questions of accuracy or integrity.\n\nAll four criteria must be satisfied. Contributors who meet criterion 1 but not 2–4 should be listed in the **Acknowledgements** section, not as authors. Common examples of those who should be acknowledged but NOT listed as authors: statisticians who only analysed data without intellectual contribution to design or interpretation, laboratory staff who only processed samples, grant funders.\n\n**Ghost authorship** (a person who made substantial intellectual contributions is omitted from the author list) and **honorary/gift authorship** (a person is listed as an author without meeting ICMJE criteria, typically to enhance the manuscript's prestige through an established professor's name) are both ethical violations. The **CRediT (Contributor Roles Taxonomy)** system provides a standardised vocabulary of 14 contributor roles (conceptualisation, methodology, formal analysis, investigation, writing, supervision, funding acquisition, etc.) and is increasingly used by journals to specify each author's exact contribution.\n\nThe **corresponding author** assumes responsibility for communication with the journal, manages peer review correspondence, and is often held accountable for data integrity. In urology, the convention is that the **first author** performs the primary work and writing; the **last author** is typically the senior supervising researcher."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — ICMJE Authorship Criteria",
+          "content": "All four ICMJE criteria must be met for authorship: (1) substantial contribution to conception/design/acquisition/analysis, (2) drafting or critical revision, (3) final approval, (4) accountability. A department head who is listed as last author on every trainee paper without reading or approving the work has not met criteria 2–4 and commits honorary authorship — an ethical violation reportable to COPE."
+        }
+      ]
+    },
+    {
+      "id": "G4-S4",
+      "title": "The Peer Review Process and Journal Selection",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Peer review** is the quality control mechanism of scientific publication. Before accepting a manuscript, journals send it to independent experts (peer reviewers or referees) who assess scientific quality, methodological validity, and contribution to the field. Most urology journals use **double-blind peer review** (both authors and reviewers are anonymous) or **single-blind** (reviewers are anonymous to authors). Open peer review (reviewer identity disclosed) is increasingly used by some journals.\n\nThe standard editorial process: (1) submission → editorial screening (desk rejection for out-of-scope, poor English, or obvious methodological flaws — approximately 50–70% of European Urology submissions are desk-rejected); (2) peer review (typically 2–3 independent reviewers, 4–8 weeks); (3) editorial decision (accept, major revision, minor revision, reject); (4) revision and re-review; (5) final acceptance and production.\n\nWhen submitting, authors should: identify the appropriate journal based on scope and impact; prepare a **cover letter** highlighting the study's novelty and significance; suggest potential reviewers (and exclude competitors); include all required ethical documentation (ethics approval number, ClinicalTrials registration, CONSORT/STROBE checklist); and verify journal formatting requirements.\n\nJournal **impact factor (IF)** is the average number of citations received per paper published in the journal over 2 years. In urology: European Urology IF ≈ 25, Journal of Urology IF ≈ 7, BJU International IF ≈ 6, Urology IF ≈ 3. The **CiteScore** (Elsevier/Scopus) covers a 4-year citation window and provides a complementary metric. **H-index** measures individual researcher impact: the number h such that the researcher has published h papers each cited at least h times. Journal IF should not be the sole selection criterion — scope fit, open access requirements, and time to publication also matter."
+        },
+        {
+          "type": "table",
+          "title": "Top Urology Journals: Key Metrics and Scope",
+          "headers": ["Journal", "IF (approx.)", "Scope", "Open Access Option"],
+          "rows": [
+            ["European Urology", "~25", "All of urology; landmark clinical trials, guidelines", "Yes (optional paid)"],
+            ["European Urology Oncology", "~10", "Urological oncology", "Yes (optional paid)"],
+            ["Journal of Urology (AUA)", "~7", "All of urology; AUA guidelines", "Yes (optional paid)"],
+            ["BJU International", "~6", "All of urology; European/international focus", "Yes (optional paid)"],
+            ["Urology", "~3", "Broad urology; shorter papers", "Yes (optional paid)"],
+            ["Eur Urol Focus", "~5", "Educational; systematic reviews, guidelines interpretation", "Yes (optional paid)"],
+            ["Urol Oncol: Seminars & Original Investigations", "~4", "Urological oncology", "Yes (optional paid)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G4-S5",
+      "title": "Writing the Methods and Results Sections: Common Errors",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **Methods** section is the scientific backbone of the manuscript. Common errors that lead to rejection or post-publication criticism:\n\n1. **Insufficient description of the patient population**: Inclusion and exclusion criteria must be specific. 'Patients with prostate cancer' is insufficient — 'patients with histologically confirmed cT1–cT2 prostate cancer, Gleason score ≤7, PSA ≤20 ng/mL, fit for radical prostatectomy' is appropriate.\n\n2. **Unspecified primary endpoint**: The primary endpoint must be pre-specified, defined (e.g., 'biochemical recurrence was defined as PSA ≥0.2 ng/mL on two consecutive measurements'), and distinguished from secondary endpoints.\n\n3. **Missing statistical analysis plan**: Every statistical test must be pre-specified or described as post-hoc. Software version, significance threshold, correction for multiple comparisons, and methods for missing data handling must all be stated.\n\n4. **Missing ethics statement**: All human subjects research must include: ethics committee/IRB approval (number and institution), conformance with Declaration of Helsinki, and patient consent method (written/verbal/waived). Journals increasingly require ORCID identifiers and data availability statements.\n\nThe **Results** section common errors:\n1. **Interpreting in Results** (save interpretation for Discussion): 'Surprisingly, robotic surgery performed better...' — the word 'surprisingly' is interpretation, not fact.\n2. **Redundancy between text and tables**: The text should summarise key findings; tables provide full data. Repeating every table value in the text wastes words and is redundant.\n3. **Not reporting all pre-specified outcomes**: Selective reporting of only significant results violates CONSORT/STROBE. All outcomes must be reported.\n4. **Inappropriate rounding**: 'PSA was 4.2 ng/mL' when the precision is ±0.1 ng/mL is appropriate; '4.213 ng/mL' implies inappropriate precision."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Writing the Limitations Section",
+          "content": "The limitations section is not a ritual disclaimer — it should identify genuine, specific limitations and their likely impact on the conclusions. Acceptable: 'The retrospective design of this study means that unmeasured confounders, such as surgeon volume and institutional ERAS protocol adherence, may have influenced outcomes. This limits causal inference.' Not acceptable: 'Our study has limitations as it is retrospective and single-centre.' The second example is generic and tells reviewers and readers nothing about the magnitude or direction of potential bias."
+        }
+      ]
+    },
+    {
+      "id": "G4-S6",
+      "title": "Research Ethics: Plagiarism, Data Integrity, and Publication Ethics",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Research misconduct in urology ranges from technical errors to deliberate fraud. The most serious forms are addressed by COPE (Committee on Publication Ethics) guidelines, which provide flowcharts for handling suspected misconduct.\n\n**Plagiarism** is the presentation of others' work or ideas as one's own without appropriate attribution. This includes verbatim copying, mosaic plagiarism (rearranging borrowed phrases), and self-plagiarism (reproducing substantial text from one's own prior publications without citation). All submitted manuscripts are routinely screened with plagiarism detection software (iThenticate, Turnitin) by major journals. Acceptable similarity threshold typically <15–20% overall, with no single source exceeding 5%. Self-plagiarism from the authors' prior publications must be declared.\n\n**Data fabrication and falsification** are the most serious violations: inventing data that were not collected (fabrication) or manipulating existing data to change results (falsification). These warrant retraction of the published article, institutional investigation, and may have career and legal consequences. Even minor undisclosed manipulations of images (adjusting brightness/contrast selectively, duplicating bands in Western blots) constitute falsification.\n\n**Duplicate publication** (submitting the same work to two journals simultaneously, or publishing the same data in a different language without disclosure) is an ICMJE violation. **Salami publication** (dividing one study's data into multiple smaller papers to increase publication count) is ethically problematic. Secondary publications (translated or adapted for a different audience) are acceptable if transparent — the secondary journal must be informed and cite the primary publication.\n\n**Conflict of interest (COI) disclosure** is mandatory. Financial relationships (grants, consulting fees, honoraria, stock ownership) and non-financial interests (professional relationships, academic competition) that could influence study design, results, or interpretation must be declared. Most journals use a standardised COI declaration form (ICMJE form). COI does not automatically disqualify a study — it must be disclosed and readers can make their own judgment."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Predatory Journals",
+          "content": "Predatory journals charge open access publication fees but provide no legitimate peer review, may be indexed in no credible database, and will publish any submitted manuscript. Characteristics: unsolicited email invitations to submit, unrealistically rapid peer review (<2 weeks), impact factor claimed on the journal website but not verifiable via Clarivate JCR or Scopus, name mimicking legitimate journals (e.g., 'International Journal of Urology Research' cloned from a legitimate title). Submitting to predatory journals damages academic credibility. Verify journals using Clarivate JCR or Scopus CiteScore before submission."
+        }
+      ]
+    },
+    {
+      "id": "G4-S7",
+      "title": "Open Access, Preprints, and the Future of Urological Publishing",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The publication landscape is evolving rapidly towards open access — free immediate availability of published research to any reader. Open access models:\n\n- **Gold open access**: Article published immediately open on the journal website under a Creative Commons licence. Funded by an article processing charge (APC) paid by the author or institution. APC at European Urology: approximately €4,500–5,000. Most research funders (NIH, European Research Council, NIHR) now mandate open access within 12 months of publication ('green' or 'gold' routes).\n- **Green open access**: Authors self-archive an accepted manuscript in an institutional or subject repository (e.g., PubMed Central, Europe PMC) after an embargo period (typically 6–12 months). Free to authors.\n- **Diamond open access**: Journals that are free to publish in AND free to read — funded by institutions or learned societies. Less common.\n- **Subscription access** (traditional): Readers (or their institutions) pay for access. Increasingly restricted by funder mandates.\n\n**Preprints** are manuscripts posted on public servers (medRxiv, bioRxiv, SSRN, Research Square) before peer review and formal publication. Advantages: rapid dissemination, community feedback before publication, time-stamped priority claim. Disadvantages: unreviewed content may be misleading or incorrect; has caused public health concerns during COVID-19 when unvalidated results were widely circulated. Most urology journals now accept manuscripts previously posted as preprints, provided the preprint version is clearly labelled and the journal is informed. Preprints of surgical RCTs should be clearly labelled 'NOT PEER REVIEWED' to prevent premature clinical adoption.\n\nAI-assisted writing tools (ChatGPT, Claude, Gemini) are increasingly used by researchers. ICMJE 2023 clarifies that AI tools cannot be listed as authors (they cannot meet ICMJE criteria 3 and 4 — final approval and accountability). Their use must be disclosed in the Methods or Acknowledgements section. AI-generated text that is not fact-checked and revised by the authors constitutes a responsibility breach — authors remain fully accountable for all submitted content."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — ICMJE on AI Authorship",
+          "content": "AI tools (ChatGPT, Claude, etc.) cannot be listed as authors under ICMJE criteria because they cannot: (1) give final approval of a version for publication, (2) be held accountable for the accuracy and integrity of the work, or (3) agree to public disclosure of conflicts of interest. AI use must be disclosed. Authors remain fully accountable for all AI-assisted content — AI hallucinations in manuscript text are the author's responsibility."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of scientific writing and publication ethics in urology with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "G4-Q1",
+        "stem": "A urology trainee has completed a retrospective cohort study comparing long-term outcomes of open versus robotic radical prostatectomy. She is writing the manuscript. In which section of the IMRAD structure should the statement 'Patients with a higher BMI had significantly higher blood transfusion rates in the open surgery group' appear?",
+        "options": {
+          "A": "Introduction",
+          "B": "Methods",
+          "C": "Results",
+          "D": "Discussion"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Reporting a specific finding (higher BMI associated with higher transfusion rates in one group) is a factual result derived from data analysis — it belongs in the Results section. Results present findings without interpretation: specific values, statistical comparisons, and associations observed in the data. The Results section uses past tense and does not include explanatory or interpretive language. This finding would subsequently be discussed in the Discussion section.",
+          "wrong": {
+            "A": "The Introduction provides background and states the research question — it does not report any study findings. Pre-study knowledge about BMI and surgical outcomes could be referenced in the Introduction as context, but the actual study finding belongs in Results.",
+            "B": "The Methods section describes how the study was conducted — patient selection, data collection, statistical analysis. It does not report any findings.",
+            "D": "The Discussion interprets results in the context of existing evidence. While BMI and transfusion findings would be discussed there, the primary reporting of the finding with its statistic belongs in Results. The Discussion would explain why this finding occurred and compare it with prior literature."
+          },
+          "guideline": "ICMJE Recommendations (2023) — IMRAD structure: Results section reports all findings factually without interpretation; Discussion interprets findings in context; common error is placing interpretation in Results ('surprisingly') or findings in Discussion without prior reporting in Results.",
+          "trial": "Gandaglia G et al. (Eur Urol 2014): Propensity-matched comparison of open vs robotic RP — Results section contained specific findings (blood loss, transfusion rates, LOS by group) as factual statements with precise values; Discussion interpreted these findings and compared with prior literature — a model IMRAD structure.",
+          "pearl": "IMRAD: Introduction = context and question; Methods = how the study was done; Results = what was found (factual, no interpretation); Discussion = what it means. A finding with statistics always appears first in Results. Interpretation appears in Discussion. Placing results in Discussion without prior Results reporting is a structural error."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G4-Q2",
+        "stem": "A trainee submits a manuscript to European Urology comparing TVT versus TOT for stress urinary incontinence. The editor rejects the manuscript at desk review and requests CONSORT checklist compliance. Which element is specifically required by the CONSORT 2010 checklist that is most commonly missing in surgical RCTs?",
+        "options": {
+          "A": "Abstract word count <250 words",
+          "B": "CONSORT flow diagram showing numbers screened, eligible, randomised, allocated, lost to follow-up, and analysed in each arm",
+          "C": "Statistical significance threshold declared as p<0.05",
+          "D": "Funding source disclosed in the Acknowledgements"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The CONSORT flow diagram (Item 13b) is one of the most commonly missing or incomplete elements in surgical RCT submissions. It must show the flow of participants through each stage of the trial: assessed for eligibility → excluded (with reasons) → randomised → allocated to intervention (received/did not receive intervention) → lost to follow-up (with reasons) → discontinued intervention → analysed (with reasons for exclusion from analysis). In surgical trials, the numbers who did not receive their allocated treatment (e.g., crossed over from TVT to TOT due to technical reasons) must be documented. This flow diagram allows readers to assess potential attrition bias and the integrity of the intention-to-treat analysis.",
+          "wrong": {
+            "A": "Abstract word count of <250 words is a journal-specific formatting requirement, not a specific CONSORT item. Different journals have different abstract word limits. CONSORT does have an abstract extension (Item 1b) but it concerns structured abstract content, not specific word count.",
+            "C": "Significance threshold declaration (p<0.05 or another level) is required in the statistical analysis section of the Methods (CONSORT Item 12a) — it is commonly present. The flow diagram is the most commonly missing visual element.",
+            "D": "Funding disclosure is required (CONSORT Item 25) but is usually present as journals routinely request it. The flow diagram is more commonly the missing element in surgical RCT submissions."
+          },
+          "guideline": "CONSORT 2010 (Item 13b): Flow diagram depicting numbers of participants at each stage of the trial including reasons for non-participation; European Urology submission requirements specify the CONSORT flow diagram as mandatory for RCT submissions; the most common reason for desk rejection is missing flow diagram or CONSORT checklist.",
+          "trial": "Ward KL, Hilton P. UK and Ireland TVT Trial Group (NEJM 2002): TVT vs colposuspension RCT — included complete CONSORT flow diagram showing 344 screened, 344 eligible, 344 randomised (172/172), follow-up rates, and analysis numbers — a model CONSORT-compliant surgical RCT.",
+          "pearl": "CONSORT flow diagram: mandatory for all RCT manuscripts. Must show: screened → excluded (with reasons) → randomised → allocated per arm → lost to follow-up → analysed. Numbers must be traceable from top to bottom. Missing or incomplete flow diagram is the most common reason for CONSORT non-compliance rejection."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G4-Q3",
+        "stem": "A senior professor is listed as last author on a manuscript from his department. He did not participate in the study design, data collection, analysis, or writing, but he reviewed the final draft and provided minor edits. Does he meet ICMJE authorship criteria?",
+        "options": {
+          "A": "Yes — reviewing the final draft satisfies the authorship requirement",
+          "B": "No — he meets criteria 2 (critical revision), 3 (final approval), and 4 (accountability) but NOT criterion 1 (substantial contribution to conception, design, acquisition, or analysis)",
+          "C": "Yes — as department head, his supervision of the research team constitutes substantial contribution",
+          "D": "Authorship criteria only apply to the first and corresponding authors"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ICMJE authorship requires ALL four criteria to be met. This professor meets criteria 2 (he reviewed and revised the draft), 3 (he approved the final version), and 4 (presumably he accepts accountability). However, he does NOT meet criterion 1 — he made no substantial contribution to conception/design/acquisition/data interpretation. Being a department head or supervisor does not automatically constitute substantial intellectual contribution. This is classic honorary (gift) authorship — an ethical violation under ICMJE and COPE guidelines.",
+          "wrong": {
+            "A": "Reviewing the final draft satisfies criterion 2 (drafting or critical revision) — but all four criteria must be met. Criterion 1 (substantial contribution to the scientific work) is not met.",
+            "C": "Administrative supervision of a research team does not constitute substantial intellectual contribution to a specific study under ICMJE criterion 1. Contributing to laboratory infrastructure, general mentorship, or departmental leadership should be acknowledged — not listed as authorship.",
+            "D": "ICMJE authorship criteria apply to ALL listed authors — not just first and corresponding. All authors must individually meet all four criteria."
+          },
+          "guideline": "ICMJE Recommendations (2023): ALL four criteria required for authorship; contributors who meet criterion 1 but not 2–4 should be acknowledged; those who meet 2–4 but not 1 should be acknowledged; department heads/supervisors who did not substantially contribute to the specific study should not be listed as authors — honorary authorship is an ethical violation reportable to COPE.",
+          "trial": "Wager E, Williams P. COPE (2011): Analysis of authorship disputes in published papers — the most common COPE cases involve honorary authorship (senior faculty added without ICMJE compliance) and ghost authorship (statistical analysts or medical writers omitted); both are violations with COPE flowcharts providing guidance for journals.",
+          "pearl": "ICMJE requires ALL 4 criteria: (1) substantial contribution to conception/design/acquisition/analysis, (2) drafting or critical revision, (3) final approval, (4) accountability. Missing criterion 1 = honorary authorship (violation). Meeting 1 but not 2–4 = acknowledgement, not authorship."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G4-Q4",
+        "stem": "A urology trainee uses ChatGPT to write the first draft of the Introduction and Discussion sections of her manuscript. She edits and substantially revises the AI-generated text, fact-checks all citations, and verifies all factual claims independently. Under ICMJE 2023 guidance, what must she do?",
+        "options": {
+          "A": "List ChatGPT as a co-author for generating text sections",
+          "B": "Disclose the use of ChatGPT in the Methods or Acknowledgements section; she remains fully accountable for all content",
+          "C": "Not use AI assistance — ICMJE prohibits AI in manuscript preparation",
+          "D": "Submit the AI-generated text to a plagiarism detector; if similarity is <15%, no disclosure is required"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ICMJE 2023 guidance on AI: AI tools cannot be listed as authors (they cannot meet criteria 3 and 4 — final approval and accountability). Authors must disclose the use of AI in manuscript preparation (typically in a Methods or Acknowledgements statement such as 'We used ChatGPT-4 (OpenAI, 2023) to generate a first draft of the Introduction and Discussion; the generated text was substantially revised and all factual claims independently verified by the authors'). The authors remain fully accountable for all content including AI-generated portions. Failure to disclose AI use may constitute a transparency violation.",
+          "wrong": {
+            "A": "AI tools cannot be listed as authors under ICMJE 2023 — they cannot give final approval of a version for publication, cannot be held accountable for the accuracy of the work, and cannot disclose conflicts of interest. This is explicitly stated in ICMJE 2023.",
+            "C": "ICMJE does not prohibit AI assistance — it requires disclosure. Using AI to assist with writing is permitted provided it is disclosed and authors take full accountability.",
+            "D": "Plagiarism detection measures similarity to existing text — AI-generated text may have low similarity scores but still requires disclosure. The disclosure requirement is about transparency of the writing process, not about similarity scores."
+          },
+          "guideline": "ICMJE Recommendations (2023 update): AI tools may not be listed as authors; their use must be disclosed in the Methods or Acknowledgements; authors are responsible for the accuracy and integrity of all content, including AI-generated text; undisclosed AI use is a transparency violation.",
+          "trial": "Stokel-Walker C, Van Noorden R (Nature 2023): Analysis of ICMJE 2023 AI policy implementation — journals implementing the policy require disclosure statements specifying the AI tool, version, and how it was used; authors must verify all AI-generated claims independently before submission.",
+          "pearl": "AI writing tools: (1) CANNOT be listed as authors (no accountability, no approval), (2) MUST be disclosed (Methods or Acknowledgements with tool name, version, and usage description), (3) authors remain FULLY ACCOUNTABLE for all content including AI-generated text. Non-disclosure = transparency violation."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G4-Q5",
+        "stem": "A manuscript reports: 'The mean operating time for robotic surgery was 185 minutes (SD 42 minutes) vs 210 minutes for open surgery (SD 38 minutes), p=0.003. This confirms the superiority of robotic surgery.' Which writing error is present in this statement?",
+        "options": {
+          "A": "The wrong statistical test was used; Mann-Whitney U should be used for operating time",
+          "B": "Interpretation ('confirms the superiority') in what should be a Results section statement; Results must report findings factually without interpretive language",
+          "C": "Standard deviations should not be reported for operating time",
+          "D": "The p-value should not be reported without confidence intervals"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The statement contains an interpretive claim ('confirms the superiority of robotic surgery') in what is presumably a Results section finding. The Results section must report findings factually: means, SDs, and p-values are results. Whether this 'confirms superiority' is an interpretive judgment that belongs in the Discussion. Additionally, 'superiority' is a technical term in clinical trials design — using it in a retrospective cohort study comparison requires more nuance (superiority vs significance vs clinical importance). The Results section equivalent would be: 'Mean operating time was 185 min (SD 42 min) for robotic vs 210 min (SD 38 min) for open surgery (p=0.003).'",
+          "wrong": {
+            "A": "Operating time is a continuous variable. If it is approximately normally distributed (common for operating times), a t-test is appropriate. Mann-Whitney U would be used if operating time was clearly non-normally distributed. The statistical test choice is secondary to the interpretive language error.",
+            "C": "Standard deviations are the correct summary statistic for normally distributed continuous data (operating time) — they should be reported.",
+            "D": "Confidence intervals are recommended in addition to p-values (CONSORT Item 17) but are not mandatory to accompany every p-value in all study types. The primary error is the interpretive language in the Results section."
+          },
+          "guideline": "ICMJE Recommendations (2023): Results must be reported objectively without interpretation; interpretation is reserved for the Discussion; STROBE/CONSORT both specify that the Results section reports findings with their statistics; interpretive language ('confirms', 'demonstrates superiority', 'surprisingly') belongs in the Discussion.",
+          "trial": "Gandaglia G et al. (Eur Urol 2014): Comparison of RP techniques — Results section states 'Robotic RP was associated with shorter operating time (median 150 min vs 180 min, p<0.001)' without interpretive language; Discussion section then interprets this difference in the context of prior literature and clinical significance.",
+          "pearl": "Results section: facts and statistics only. No interpretation. No 'surprisingly', 'importantly', 'confirms superiority'. These words belong in the Discussion. A reviewer finding interpretive language in Results will flag it for correction — it is a structural IMRAD violation common in early-career writers."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G4-Q6",
+        "stem": "A researcher conducts a retrospective case series of 45 patients who underwent single-port robotic partial nephrectomy at his institution. He plans to submit to European Urology. What reporting guideline should he apply, and what is the most important limitation to declare?",
+        "options": {
+          "A": "CONSORT 2010 — the lack of comparison group must be addressed by randomisation",
+          "B": "PROCESS guideline for surgical case series — the single-centre retrospective design without a comparison group limits causal inference and generalisability",
+          "C": "STROBE — this is an observational cohort study",
+          "D": "STARD — this is a diagnostic accuracy study"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A case series (consecutive patients undergoing the same procedure at one institution) should be reported according to the PROCESS guideline (Preferred Reporting Of CasE Series in Surgery). The most important limitation is the absence of a comparison group and the single-centre retrospective design — without a control group (e.g., conventional robotic or laparoscopic partial nephrectomy), no conclusions can be drawn about comparative safety or efficacy. The study can describe feasibility, technique, and early outcomes but cannot claim superiority or equivalence to standard approaches.",
+          "wrong": {
+            "A": "CONSORT applies to RCTs — not to case series. A case series has no control group and no randomisation; CONSORT is entirely inappropriate. Randomisation is not a solution to a reporting guideline question.",
+            "C": "STROBE applies to observational studies with defined comparison groups (cohort or case-control). A case series without a control group is not a cohort or case-control study — it is a case series, and PROCESS is more appropriate.",
+            "D": "STARD applies to diagnostic accuracy studies evaluating test performance against a reference standard — completely unrelated to a surgical technique case series."
+          },
+          "guideline": "PROCESS guideline (Agha RA, Int J Surg 2016): Preferred Reporting Of CasE Series in Surgery — 18-item checklist for surgical case series; requires description of patient selection (consecutive vs selected), completeness of follow-up, outcome definitions, and explicit statement that no control group exists; limitations section must acknowledge inability to establish causality.",
+          "trial": "Mottrie A et al. (Eur Urol 2018): Single-arm case series of single-port robotic partial nephrectomy — reported according to PROCESS guidelines; limitations section explicitly noted absence of comparative arm and single-centre design as key limitations; conclusion restricted to feasibility and safety demonstration (IDEAL Stage 2a).",
+          "pearl": "Case series = PROCESS guideline (surgical), CARE (case reports), or TREND (non-randomised interventions). Not CONSORT (RCT) or STROBE (controlled observational). The most important limitation to report in any case series is the absence of a comparison group, which prevents any claim of superiority or equivalence."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q7",
+        "stem": "A researcher submits the same dataset on ureteroscopy outcomes to two different journals simultaneously — one to European Urology in English and one to Actas Urológicas Españolas in Spanish. She does not inform either journal of the dual submission. What ethical violation has occurred?",
+        "options": {
+          "A": "This is acceptable because the two papers are in different languages and serve different readerships",
+          "B": "This constitutes duplicate submission — submitting the same work to two journals simultaneously without disclosure; both journals must be informed; ICMJE prohibits this without prior arrangement",
+          "C": "This is only a violation if both papers are accepted and published simultaneously",
+          "D": "Spanish-language publications are exempt from ICMJE duplicate submission policies"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Duplicate submission — submitting the same manuscript to more than one journal simultaneously without disclosure — violates ICMJE policy regardless of the language of submission. This wastes reviewer time, potentially leads to dual publication (double-counting in systematic reviews), and is an act of deception to both journals (each implicitly receiving the manuscript as an exclusive submission). The correct approach for a legitimate secondary publication in another language is: (1) publish in the primary journal first; (2) disclose to the secondary journal that this is a translated secondary publication; (3) cite the primary publication prominently in the secondary paper; (4) obtain permission from the primary journal. ICMJE explicitly allows secondary publications with full disclosure.",
+          "wrong": {
+            "A": "Different languages do not exempt a paper from duplicate submission policies. ICMJE does permit secondary translations but only with full disclosure, sequential publication, and cross-citation — not simultaneous undisclosed dual submission.",
+            "C": "The ethical violation occurs at submission, not at publication. Submitting to two journals simultaneously without disclosure is the violation — even if one paper is subsequently rejected, the act of dual submission already constitutes the violation.",
+            "D": "ICMJE policies apply universally regardless of language. No national or linguistic exemption exists for duplicate submission policies."
+          },
+          "guideline": "ICMJE Recommendations (2023): Authors must disclose all prior publications of the same or closely related work; simultaneous submission to two journals is prohibited unless prior arrangement has been made (e.g., simultaneous release of a guideline document); legitimate secondary publications in different languages require disclosure, sequential publication, and cross-citation.",
+          "trial": "Wager E, Williams P. COPE Best Practice Guidelines (2011): Duplicate submission case series — COPE flowcharts provide guidance for editors who identify simultaneous submissions; appropriate responses include rejection of one or both papers and notification to institutional research integrity offices.",
+          "pearl": "Duplicate submission = submitting the same work to two journals simultaneously without disclosure. Violation regardless of language. Secondary translation publication is PERMITTED if: (1) primary paper published first, (2) secondary journal informed and consents, (3) secondary paper cites primary paper prominently, (4) primary journal's copyright holder approves."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q8",
+        "stem": "When writing the Discussion section of a manuscript comparing open vs robotic cystectomy, which structure best follows the recommended IMRAD Discussion organisation?",
+        "options": {
+          "A": "List all statistically significant results first, then provide statistical p-values for each",
+          "B": "Begin with a summary of main findings, compare with prior literature, provide mechanistic explanation, discuss clinical implications, state strengths and limitations, and conclude",
+          "C": "Repeat the abstract findings verbatim, then add speculation about future directions",
+          "D": "Begin with limitations, then state the study is definitive, then propose immediate guideline changes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The recommended Discussion structure is: (1) 1–2 sentence summary of main findings (what did we find?); (2) comparison with prior literature (how do these results relate to existing knowledge?); (3) mechanistic explanation (why might these results occur?); (4) clinical implications (what do these findings mean for practice?); (5) study strengths; (6) specific, honest limitations; (7) conclusions aligned with objectives. This structure ensures the Discussion flows logically from findings to meaning to impact to caveats to conclusions.",
+          "wrong": {
+            "A": "Listing p-values in the Discussion repeats Results without adding interpretation. The Discussion should not report statistics not already in the Results section.",
+            "C": "Repeating the abstract verbatim wastes words and violates the purpose of the Discussion (interpretation, not repetition). Future directions can appear at the end of the Discussion but should not dominate it.",
+            "D": "Beginning with limitations undermines the credibility of the findings before they are even interpreted. Limitations belong after interpretation of results. Claiming the study is 'definitive' is overstated — single studies are rarely definitive. Proposing immediate guideline changes based on a single study overstates the evidence."
+          },
+          "guideline": "ICMJE Recommendations (2023): Discussion should interpret (not repeat) results, address study limitations honestly, compare findings with relevant literature, and state conclusions consistent with the study's objectives and evidence; avoid claims that go beyond what the data support.",
+          "trial": "Catto JW et al. iROC (JAMA 2022): Discussion section opened with a 2-sentence summary ('This RCT showed that RARC was not inferior to ORC for 90-day complications...'), followed by comparison with RAZOR and prior observational data, mechanistic discussion of ERAS integration with robotic surgery, clinical implications, limitations (single country, experienced centres), and conclusions — a model Discussion structure for a high-impact urology RCT.",
+          "pearl": "Discussion structure: (1) summary of main findings, (2) comparison with prior literature, (3) mechanisms, (4) clinical implications, (5) strengths, (6) limitations, (7) conclusions. Begin with what you found (briefly). Never repeat abstract verbatim. Limitations come before conclusions — not first."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q9",
+        "stem": "A trainee submits a manuscript about urinary tract infection prevention in spinal cord injury patients. A reviewer returns the manuscript requesting a STROBE checklist completion. Which study design does STROBE apply to?",
+        "options": {
+          "A": "Randomised controlled trials",
+          "B": "Systematic reviews and meta-analyses",
+          "C": "Observational epidemiological studies: cohort, case-control, and cross-sectional studies",
+          "D": "Diagnostic accuracy studies"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "STROBE (Strengthening the Reporting of OBservational studies in Epidemiology) is the reporting guideline for observational epidemiological studies: prospective and retrospective cohort studies, case-control studies, and cross-sectional studies. It contains a 22-item checklist with a core checklist (items applicable to all three designs) and design-specific items. A study of UTI prevention in SCI patients that follows a cohort of patients over time or compares those with and without an intervention observationally would use STROBE.",
+          "wrong": {
+            "A": "RCTs use CONSORT 2010. RCTs involve randomised allocation — STROBE does not apply.",
+            "B": "Systematic reviews use PRISMA 2020. STROBE does not apply to literature synthesis studies.",
+            "D": "Diagnostic accuracy studies use STARD 2015. STROBE does not apply to studies evaluating test performance."
+          },
+          "guideline": "STROBE Statement (von Elm E, Ann Intern Med 2007): 22-item checklist for cohort, case-control, and cross-sectional studies; items 1–12 common to all three designs; items 12–22 have design-specific extensions; EQUATOR Network maintains the full checklist at equator-network.org.",
+          "trial": "Cardenas DD et al. (J Urol 2006): Retrospective cohort study of UTI recurrence in SCI patients — observational design reported with STROBE compliance; the cohort design (patients followed over time without randomisation) correctly uses STROBE rather than CONSORT.",
+          "pearl": "Reporting guideline selection: RCT = CONSORT; observational (cohort/case-control/cross-sectional) = STROBE; systematic review/meta-analysis = PRISMA; diagnostic accuracy = STARD; prediction model = TRIPOD; case series = PROCESS; case report = CARE. Choosing the wrong guideline is a common submission error."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G4-Q10",
+        "stem": "A researcher discovers that a previously published paper from his group contains a figure in which the same microscopy image has been used twice (duplicated) to represent two supposedly different experiments, with different brightness adjustments. What is the appropriate course of action?",
+        "options": {
+          "A": "Ignore the duplication as it was an honest administrative error with no impact on the conclusions",
+          "B": "Contact the journal editor immediately to report the error; the journal may issue a correction (erratum) if the results are otherwise valid, or retract if the integrity of the conclusions is compromised",
+          "C": "Remove the paper from the institution's publication list without informing the journal",
+          "D": "Submit a new version of the paper with corrected images as a new submission to a different journal"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Image duplication — even if inadvertent — constitutes a reporting error that must be disclosed to the journal. The appropriate response is to contact the journal editor, explain the situation, and provide the correct original images. If the duplication was an honest error and the results are otherwise valid, the journal may issue a correction (erratum) without affecting the paper's validity. If the duplication is deliberate falsification or the conclusions depend on the duplicated image, retraction is required. COPE guidelines provide flowcharts for handling suspected image manipulation. Authors are ethically obligated to correct the scientific record.",
+          "wrong": {
+            "A": "Ignoring a known error in the published record violates the researcher's ethical obligation to maintain accuracy of the scientific record. Even 'honest' errors, once discovered, must be reported and corrected through appropriate channels.",
+            "C": "Removing the paper from an institutional publication list does not correct the scientific record — the paper remains published and cited. The journal must be informed to issue a correction or retraction.",
+            "D": "Submitting a corrected version to a different journal without informing the original journal is both a duplicate submission violation and fails to correct the original erroneous publication. The original paper remains incorrect in the scientific literature."
+          },
+          "guideline": "COPE Guidelines on Handling Image Manipulation (2021): Authors must disclose known errors to journals; journals assess whether manipulation is honest error (erratum) or deliberate falsification (retraction); COPE flowcharts guide editors through investigations; authors may not unilaterally retract or replace papers — the process requires journal involvement.",
+          "trial": "Rossner M, Yamada KM (J Cell Biol 2004): Landmark paper demonstrating prevalence of image manipulation in biomedical research — 25% of manuscripts had some image manipulation on initial screening; 1% required rejection for deliberate falsification; establishing journal screening policies for image integrity.",
+          "pearl": "Discovered image duplication: contact the journal editor immediately. Do not ignore, suppress, or work around. COPE flowcharts guide the response. Honest error = erratum; deliberate manipulation = retraction. The researcher's obligation is to maintain the accuracy of the scientific record."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q11",
+        "stem": "A urology trainee's first-author manuscript is under review at European Urology. The peer reviewer requests 'major revision' and specifically asks for a subgroup analysis by tumour stage, which was not pre-specified in the Methods. Should the authors perform this analysis?",
+        "options": {
+          "A": "Yes — peer reviewer requests must always be complied with; add the subgroup analysis to the Results",
+          "B": "The authors should conduct the requested analysis but clearly label it as a post-hoc (exploratory) subgroup analysis in the Results and Discussion, noting it was not pre-specified and is hypothesis-generating, not confirmatory",
+          "C": "Refuse the reviewer's request as it constitutes outcome-switching",
+          "D": "Perform the analysis but do not disclose it was not pre-specified to avoid weakening the paper's credibility"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Post-hoc subgroup analyses requested by peer reviewers are acceptable if clearly labelled as exploratory/hypothesis-generating, not pre-specified. The authors should: (1) perform the requested analysis; (2) clearly state in the Methods (or Results header) that this analysis was not pre-specified and was added at reviewer request; (3) interpret the result with appropriate caution in the Discussion ('this exploratory subgroup analysis suggests... which should be tested in future prospective studies'). This maintains transparency without refusing a reasonable reviewer request. The key is disclosure of post-hoc status.",
+          "wrong": {
+            "A": "Blindly complying with all reviewer requests without disclosing the post-hoc nature would be misleading — readers would assume all analyses were pre-specified. Compliance yes; concealment of post-hoc status no.",
+            "C": "Outcome-switching refers to abandoning a pre-specified primary endpoint and reporting a different one without disclosure. A reviewer requesting an additional exploratory analysis is not the same as outcome-switching — the original primary endpoint remains primary. Performing additional analyses is acceptable.",
+            "D": "Concealing the post-hoc nature of an analysis is a transparency violation. All post-hoc analyses must be clearly labelled as such. CONSORT Item 18 requires specifying which analyses were pre-specified and which were exploratory."
+          },
+          "guideline": "CONSORT 2010 (Item 18): Clearly distinguish pre-specified from post-hoc analyses; post-hoc analyses may be presented as exploratory; ICMJE recommends disclosure of all analyses that were not pre-specified with explicit labelling as hypothesis-generating.",
+          "trial": "Schroder FH et al. ERSPC (NEJM 2014): Updated analysis added pre-planned and post-hoc subgroup analyses by age and screening interval — all clearly labelled as pre-specified or exploratory; post-hoc analyses explicitly noted as requiring confirmation in future prospective studies — model for transparent handling of exploratory analyses.",
+          "pearl": "Post-hoc subgroup analysis: perform if clinically relevant and reviewer-requested, but ALWAYS label as 'post-hoc', 'exploratory', 'not pre-specified', and 'hypothesis-generating'. Interpret with caution: post-hoc analyses can generate hypotheses but cannot confirm them. Concealing post-hoc status = transparency violation."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q12",
+        "stem": "A researcher is selecting a journal for her study comparing two intravesical instillation schedules for NMIBC. Her three top choices are: European Urology (IF ~25, very selective, long review time), European Urology Focus (IF ~5, educational focus, faster), and Urology (IF ~3, broad scope). What is the most rational approach to journal selection?",
+        "options": {
+          "A": "Always submit first to the highest impact factor journal and reject lower-tier alternatives entirely",
+          "B": "Select the most appropriate journal based on: fit with the journal's scope, expected reach to the relevant readership, realistic acceptance probability based on study novelty and quality, open access requirements, and time considerations",
+          "C": "Submit to the lowest impact factor journal first to ensure acceptance, then withdraw and resubmit to higher-tier journals",
+          "D": "Impact factor is the only relevant criterion; all other considerations are secondary"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Journal selection should be based on multiple factors: (1) scope fit — does the journal publish studies of this type (NMIBC intravesical therapy)? All three journals would accept this; (2) study novelty and quality — does it warrant European Urology's high selectivity (<15% acceptance)? A well-designed RCT might; a retrospective series may fit Urology better; (3) open access requirements — funder mandates may require full OA (e.g., NIH, Wellcome) within specified timeframes; (4) time to decision — time-sensitive clinical questions may prefer faster-review journals; (5) realistic assessment of acceptance probability to avoid prolonged sequential rejection. Impact factor matters for career impact but should not be the sole criterion.",
+          "wrong": {
+            "A": "Always submitting to the highest IF journal wastes time and resources if the study is not of a quality/novelty that European Urology typically publishes. Desk rejection delays dissemination without scientific benefit.",
+            "C": "Submitting to a lower-tier journal intending to withdraw and resubmit elsewhere is unethical — it wastes reviewer time at the lower-tier journal and constitutes deceptive submission practices.",
+            "D": "Impact factor alone ignores scope fit, time considerations, open access requirements, and realistic acceptance probability — all of which affect whether the study reaches its intended audience and meets funder requirements."
+          },
+          "guideline": "ICMJE Recommendations (2023): Authors should select journals based on scientific scope, quality standards, and ethical publication practices; simultaneous submission to multiple journals is prohibited; sequential rejection-resubmission is standard practice; authors should not submit to predatory journals.",
+          "trial": "Montironi R et al. (Eur Urol 2022): Editorial on journal selection for urological research — authors should match study quality and novelty to journal tier; NMIBC retrospective single-centre series = appropriate for Urology, Urol Oncol; NMIBC multicentre RCT = appropriate for European Urology, J Urol.",
+          "pearl": "Journal selection criteria: (1) scope fit, (2) study quality/novelty match to journal tier, (3) open access funder requirements, (4) time to decision, (5) realistic acceptance probability. Impact factor is important but not the only criterion. Sequential submission (highest IF first, then lower tiers) is standard practice."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q13",
+        "stem": "An investigator is writing the Methods section of a case series of 30 patients undergoing holmium laser enucleation of the prostate (HoLEP) for BPH. She states: 'All procedures were performed by a single experienced surgeon according to institutional protocol.' A reviewer comments that this is insufficient. What additional information is required?",
+        "options": {
+          "A": "The surgeon's operating theatre number and hospital accreditation status",
+          "B": "Surgeon case volume (number of HoLEP procedures performed before the study), learning curve position, specific laser settings, technique standardisation method, and lobe enucleation sequence",
+          "C": "Patient-reported outcome measures from a validated questionnaire",
+          "D": "Insurance and consent documentation for each patient"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Methods section must provide sufficient detail to allow replication by an independent researcher. For a surgical technique case series, this requires: (1) surgeon volume and experience (how many HoLEP cases before the study began — learning curve position is critical for interpreting results); (2) specific technical parameters (laser wavelength [holmium 2100 nm], energy settings [typically 2.0–3.5 J per pulse at 40–50 Hz], lobe enucleation approach [standard 3-lobe vs 2-lobe technique]); (3) morcellator type; (4) positioning and anaesthesia; (5) postoperative catheterisation protocol. 'Experienced surgeon according to institutional protocol' provides none of this information and makes replication and critical appraisal impossible.",
+          "wrong": {
+            "A": "Operating theatre number and accreditation status are administrative details unrelated to the scientific replicability of the surgical technique. They are not required IMRAD Methods elements.",
+            "C": "Patient-reported outcomes are outcome measures — they belong in the Outcomes sub-section of Methods (specifying which validated questionnaire, administration timing) and the Results section. They are not part of the procedural description.",
+            "D": "Insurance and consent documentation are ethical requirements verifiable by the IRB — not Methods section content for scientific replicability purposes."
+          },
+          "guideline": "PROCESS Guideline (Agha RA, Int J Surg 2016): For surgical case series, Methods must specify: surgeon experience and volume, learning curve position, technical procedure details, setting, anaesthesia, post-operative protocol — sufficient detail for replication; vague descriptions like 'experienced surgeon according to protocol' do not meet PROCESS standards.",
+          "trial": "Herrmann TR et al. (Eur Urol 2020): HoLEP technique standardisation paper — specifying energy settings (3.5 J/50 Hz), lobe enucleation sequence, morcellator type (Karl Storz 26 Fr), and surgeon credentialing criteria (>50 HoLEP before study) — a model for complete surgical technique reporting in the Methods section.",
+          "pearl": "Surgical Methods section must include: surgeon volume/experience (learning curve position), specific technical parameters (energy settings, instrument specifications), patient positioning, anaesthesia type, and postoperative protocol. 'Experienced surgeon per protocol' is unacceptably vague — reviewers will require specific detail."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q14",
+        "stem": "A biostatistician analyses the data, interprets the findings, writes the statistical analysis section, and contributes essential intellectual guidance throughout a urological RCT. According to ICMJE criteria, does this statistician qualify for authorship?",
+        "options": {
+          "A": "No — statisticians are never eligible for authorship; they should always be listed in Acknowledgements",
+          "B": "Yes — if the statistician has made substantial intellectual contributions (criterion 1), participated in critically revising the manuscript (criterion 2), approved the final version (criterion 3), and agrees to be accountable (criterion 4), all four ICMJE criteria are met and authorship is appropriate",
+          "C": "Only if the statistician has a PhD in statistics; MSc-level statisticians should be acknowledged only",
+          "D": "The statistician can be listed as 'statistical author' in a separate authorship category"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ICMJE authorship does not restrict who can be an author based on professional role. If the statistician has: (1) substantially contributed to data analysis and interpretation of results (criterion 1), (2) critically revised the manuscript for intellectual content including the statistical analysis section (criterion 2), (3) approved the final version for publication (criterion 3), and (4) agreed to be accountable for the accuracy of the statistical work (criterion 4), then all four criteria are met and authorship is appropriate and deserved. Statisticians who play an intellectually formative role in a study are authors — those who provide only a service (run specified analyses) without intellectual contribution to design or interpretation should be acknowledged.",
+          "wrong": {
+            "A": "Statisticians CAN and often DO meet ICMJE authorship criteria — particularly when they contribute to study design, analysis method selection, interpretation, and manuscript writing. 'Always Acknowledgements' is incorrect.",
+            "C": "Qualification level (PhD vs MSc) is not relevant to ICMJE authorship criteria — the criteria concern intellectual contribution, not credentials.",
+            "D": "ICMJE does not recognise separate authorship categories ('statistical author'). All authors are listed equally on the author line; their individual contributions may be specified in the CRediT contributorship statement."
+          },
+          "guideline": "ICMJE Recommendations (2023): All four criteria must be met for authorship regardless of professional role; statisticians, methodologists, epidemiologists, and data managers who make substantial intellectual contributions and participate in manuscript preparation qualify for authorship; 'statistical consultants' providing only data processing services should be acknowledged.",
+          "trial": "Schulz KF, Altman DG, Moher D. CONSORT Group (BMJ 2010): The CONSORT 2010 paper listed statisticians as authors when they made substantial contributions to statistical methodology design and manuscript writing; not all statisticians involved in CONSORT member studies were listed — only those meeting ICMJE criteria.",
+          "pearl": "ICMJE authorship = role-agnostic. Statisticians, methodologists, nurses, or any contributor who meets ALL 4 ICMJE criteria qualifies for authorship. Those who provide technical services (lab work, data entry, data analysis only) without intellectual contribution should be acknowledged. Credentials don't determine authorship — contribution does."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q15",
+        "stem": "A researcher has written the Methods section stating: 'Statistical analysis was performed using SPSS version 27 (IBM, Armonk, NY).' A peer reviewer comments that this statement is incomplete. What additional elements are required for a complete statistical analysis section?",
+        "options": {
+          "A": "The SPSS licence number and the names of all operators who ran the analyses",
+          "B": "Pre-specified primary endpoint, statistical tests used for each comparison, significance threshold (alpha), handling of missing data, sample size calculation basis, and whether any analyses were post-hoc",
+          "C": "The version of Windows or macOS on which SPSS was run",
+          "D": "A statement that a professional statistician approved all analyses"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A complete statistical analysis section must include: (1) the pre-specified primary endpoint and the statistical test used to analyse it; (2) tests used for all other comparisons (secondary outcomes) and their rationale (parametric vs non-parametric based on distribution); (3) the significance threshold (e.g., alpha = 0.05, two-sided); (4) how missing data were handled (complete case analysis, multiple imputation, or last observation carried forward — with justification); (5) sample size calculation basis (for prospective studies); (6) any adjustments for multiple comparisons; (7) which analyses were pre-specified vs post-hoc; (8) software with version and manufacturer. The software citation alone provides zero methodological information.",
+          "wrong": {
+            "A": "SPSS licence number and operator names are not required in a Methods section — they are administrative details irrelevant to scientific replication.",
+            "C": "The operating system is not required in a statistical analysis description — SPSS results are platform-independent.",
+            "D": "A statement that 'a statistician approved all analyses' is not a substitute for describing the actual methods used — readers cannot evaluate methodological appropriateness from such a generic statement."
+          },
+          "guideline": "CONSORT 2010 (Item 12): Specify statistical methods used for comparison of primary and secondary outcomes; describe methods for additional analyses (subgroup, adjusted); specify software name and version; STROBE (Item 12): similar requirements for observational studies; both require complete statistical method specification.",
+          "trial": "Antonelli A et al. (Eur Urol 2019): Partial vs radical nephrectomy comparison — statistical analysis section specified: primary endpoint (renal function at 24 months), test (paired t-test after normality testing by Shapiro-Wilk), alpha threshold (0.05, two-sided), multiple regression for adjusted comparison (covariates listed), missing data (complete case with sensitivity analysis), and software (Stata v14, StataCorp, TX) — a model complete statistical analysis section.",
+          "pearl": "Statistical methods section checklist: (1) primary endpoint + test used, (2) secondary endpoints + tests, (3) alpha threshold and two-sided specification, (4) missing data handling, (5) sample size basis, (6) multiple comparison adjustment, (7) pre-specified vs post-hoc analyses, (8) software + version + manufacturer. Software name alone is insufficient."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G4-Q16",
+        "stem": "A letter of rejection from European Urology states: 'Your manuscript was evaluated and found not to meet our standards for novelty and impact. We encourage you to consider resubmission to a more appropriate journal.' This is which type of rejection?",
+        "options": {
+          "A": "Post-peer-review rejection based on statistical errors",
+          "B": "Desk rejection — the manuscript was rejected by an editor without external peer review on the basis of novelty, scope, or format concerns",
+          "C": "Retraction of a previously accepted paper",
+          "D": "Request for major revision"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Desk rejection (or editorial rejection) occurs when the editor rejects a manuscript without sending it for external peer review. This happens when the manuscript does not meet the journal's standards for novelty, scientific impact, scope relevance, minimum reporting standards, or basic quality requirements. European Urology desk-rejects approximately 50–70% of all submissions. The language 'encourage you to consider resubmission to a more appropriate journal' is the characteristic phrasing of a desk rejection, not a post-peer-review decision. Desk rejection allows rapid decisions (typically within 1–2 weeks) and allows authors to resubmit to a more appropriate journal without delay.",
+          "wrong": {
+            "A": "Post-peer-review rejection involves reviewers who identify specific methodological or statistical concerns — the letter would include reviewer comments. Desk rejection typically provides no detailed reviewer feedback.",
+            "C": "Retraction removes a previously published paper from the literature — this is an entirely different process for a manuscript that has already been accepted and published, not one under initial review.",
+            "D": "'Request for major revision' includes specific reviewer comments listing required changes — it is not rejection. The word 'rejection' in the letter confirms this is not a revision request."
+          },
+          "guideline": "ICMJE Recommendations (2023): Editorial rejection ('desk rejection') is a standard journal process; editors may reject without peer review for scope, novelty, or quality concerns; authors should revise and submit to an alternative journal without resubmitting to the same journal unless specifically invited to do so.",
+          "trial": "Hug MJ et al. (Eur Urol 2022): Editorial analysis of European Urology submission patterns — desk rejection rate 55–70%; post-peer-review rejection of remaining manuscripts approximately 60%; overall acceptance rate <15%; demonstrating that desk rejection is the most common editorial outcome at high-impact urology journals.",
+          "pearl": "Desk rejection = editor rejects without peer review = no reviewer comments. Reason: scope, novelty, quality, or format. European Urology desk-rejects ~60% of submissions. After desk rejection: revise and resubmit to a more appropriate journal without delay. Do not resubmit the same manuscript unchanged."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q17",
+        "stem": "A urology resident is asked to peer review a manuscript for the Journal of Urology. The manuscript is from a research group whose work directly competes with her supervisor's research, and her supervisor would benefit if the paper is rejected. What ethical principles apply?",
+        "options": {
+          "A": "Accept the review — competing interests are normal in academic urology",
+          "B": "Decline the review due to conflict of interest, informing the journal editor of the nature of the conflict; do not share the manuscript with the supervisor",
+          "C": "Accept the review but ask her supervisor to co-review the manuscript",
+          "D": "Complete the review but recommend rejection regardless of scientific merit due to the competitive relationship"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Peer reviewers must decline invitations when they have a conflict of interest that could bias their assessment — whether the conflict is personal (competitive professional relationship with authors), financial (consulting relationship), or intellectual (publicly opposing position on the paper's topic). The reviewer should inform the journal editor of the general nature of the conflict (e.g., 'I work in a directly competing research area and my supervisor would benefit from this paper's rejection') and decline. The manuscript content must NOT be shared with anyone, including the supervisor — the manuscript is confidential to the reviewer.",
+          "wrong": {
+            "A": "Competing interests are NOT normal conditions under which to proceed with peer review. COPE guidelines explicitly require declining to review when a conflict of interest could reasonably bias the review — professional competition with direct benefit to the reviewer's supervisor is a clear COI.",
+            "C": "Sharing the manuscript with the supervisor for co-review is a confidentiality breach — the manuscript was sent only to the designated reviewer. It also worsens the conflict of interest by involving the directly competitive party.",
+            "D": "Recommending rejection based on competitive interests rather than scientific merit is a breach of peer reviewer ethics — fraudulent peer review reportable to COPE. All peer review recommendations must be based solely on scientific merit."
+          },
+          "guideline": "COPE Ethical Guidelines for Peer Reviewers (2017): Reviewers must decline invitations when they have conflicts of interest (personal, professional, competitive) that could bias their assessment; maintain confidentiality of manuscript content; base recommendations on scientific merit alone; do not share manuscripts with third parties.",
+          "trial": "Wager E, Kleinert S. COPE (2011): Peer reviewer ethics case studies — a reviewer who shared a manuscript with a supervisor (who subsequently scooped the data) was subject to institutional investigation; the publishing journal retracted the reviewer's access and filed a COPE complaint — illustrating the consequences of peer review ethics violations.",
+          "pearl": "Peer review COI: decline if you have personal, financial, or competitive conflict that could bias your assessment. Inform the editor of the general nature of conflict. Maintain strict manuscript confidentiality. Never share with third parties (including supervisors). Base recommendations solely on scientific merit."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G4-Q18",
+        "stem": "A research group from three institutions publishes a paper in European Urology. The paper includes a line: 'This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.' One author later discloses that he received a personal consultancy fee from the manufacturer of the device being evaluated in the study, which was not declared. What has occurred and what are the appropriate actions?",
+        "options": {
+          "A": "This is a minor omission; the journal should add a footnote in the next issue",
+          "B": "This constitutes failure to disclose a conflict of interest — a serious publication ethics violation; the journal must publish a correction at minimum; institutional research integrity investigation may be appropriate; if the COI affected the study conduct or conclusions, retraction may be required",
+          "C": "The author should correct the COI declaration in their next submission but no action is needed for the published paper",
+          "D": "Only financial conflicts from direct research funding require declaration; personal consultancy fees are exempt"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Failure to disclose a financial conflict of interest (consultancy fee from the device manufacturer being evaluated) is a serious publication ethics violation. It undermines reader trust and creates the appearance (or reality) of biased reporting. The appropriate actions are: (1) the journal must be informed by the author or another party who discovers the omission; (2) the journal issues a formal correction/erratum updating the COI declaration; (3) if the COI is severe (e.g., the author was responsible for primary data collection or analysis in favour of the device) and likely affected conclusions, retraction may be required; (4) institutional research integrity investigation to determine whether the undisclosed COI influenced the study conduct.",
+          "wrong": {
+            "A": "Undisclosed COI is not a 'minor omission' — it is a COPE-classified ethics violation requiring a formal correction at minimum. A journal footnote is insufficient.",
+            "C": "Published papers cannot be corrected by the authors in a future submission — the published record must be formally corrected via a journal-issued correction/erratum linked to the original paper.",
+            "D": "All financial relationships with companies whose products are evaluated in the study — including personal consulting fees, speaking honoraria, stock ownership, and advisory board membership — must be declared. Only direct research funding is not the only category requiring declaration."
+          },
+          "guideline": "ICMJE Recommendations (2023): All financial relationships with entities with a financial interest in the study subject must be disclosed; ICMJE COI form captures: financial (employment, consulting, speakers bureau, stock, expert testimony, patents, grants) and non-financial (personal, political, intellectual, academic) interests within the preceding 36 months; non-disclosure = serious violation requiring correction or retraction.",
+          "trial": "Bekelman JE et al. (JAMA 2003): Meta-analysis demonstrating that industry-sponsored studies are significantly more likely to report positive outcomes for sponsored devices/drugs — establishing the evidence base for why COI declaration is essential for reader interpretation of study results.",
+          "pearl": "All financial conflicts of interest with entities having a financial interest in the study subject must be declared, including personal consulting fees, honoraria, stock, and advisory board membership (not just direct research grants). Failure to declare = ethics violation = formal correction or retraction. COPE flowcharts guide journal response."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G4-Q19",
+        "stem": "A medical writer employed by a pharmaceutical company has written the first draft of a manuscript reporting a clinical trial of a new intravesical agent for NMIBC, based on a clinical study protocol and data provided by the company. The principal investigator (PI) and co-investigators reviewed, revised, and approved the final manuscript. The PI submits the manuscript without disclosing the medical writer's involvement. What is this an example of and what is the correct approach?",
+        "options": {
+          "A": "Acceptable practice — medical writing is a standard service",
+          "B": "Ghost authorship — the medical writer made substantial contributions to the manuscript but is not listed; the medical writer's involvement and the pharmaceutical company's role must be disclosed in the Acknowledgements",
+          "C": "The medical writer should be listed as first author given their contribution",
+          "D": "The publication should be rejected as industry-sponsored trials are inherently biased"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Ghost writing — where a person makes substantial contributions to a manuscript (in this case, writing the entire first draft) but is not listed as an author or acknowledged — is an ethical violation under ICMJE. The medical writer should be acknowledged in the Acknowledgements section with their role and employer specified (e.g., 'Medical writing support was provided by [name], an employee of [company], and was funded by [company]'). This disclosure allows readers to assess potential influence on the manuscript. The medical writer may or may not qualify for authorship depending on whether they meet all four ICMJE criteria — typically medical writers do not meet criteria 1 and 4 fully, so acknowledgement is usually appropriate.",
+          "wrong": {
+            "A": "Professional medical writing is acceptable — but only if properly disclosed. Undisclosed medical writing = ghost writing = ethical violation regardless of industry involvement.",
+            "C": "Medical writers typically do not meet all four ICMJE authorship criteria — specifically, they may not have made substantial intellectual contributions to study design or analysis (criterion 1), and they may not agree to be fully accountable for all aspects of the work (criterion 4). Authorship attribution should follow ICMJE criteria.",
+            "D": "Industry-sponsored trials can be published — the key is full transparency of funding, all authors' conflicts of interest, and medical writing support. Blanket rejection of industry-sponsored trials would eliminate substantial high-quality clinical evidence."
+          },
+          "guideline": "ICMJE Recommendations (2023): Undisclosed medical writing support constitutes ghost writing — an ethics violation; medical writing support must be disclosed in the Acknowledgements with writer's name, employer, and funding source; ghost writing is reportable to COPE.",
+          "trial": "Wislar JS et al. (BMJ 2011): Survey of 630 articles in six high-impact journals — 21.4% had ghost authorship (medical writer not acknowledged); 25.5% had gift authorship (non-contributors listed as authors); both violations are common and ICMJE/COPE continue to emphasise disclosure requirements.",
+          "pearl": "Ghost writing = substantial writing contribution not disclosed. Must be disclosed in Acknowledgements: writer's name + employer + that writing support was funded by the company. Ghost writing without disclosure is an ethics violation. Disclosure of professional medical writing support is ethical and encouraged for transparency."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G4-Q20",
+        "stem": "A urology trainee wishes to submit his first original research paper. He has been advised to use the 'EQUATOR Network' to identify the appropriate reporting checklist. What is the EQUATOR Network and what is its primary purpose?",
+        "options": {
+          "A": "A statistical software package for calculating sample sizes in urological research",
+          "B": "An online library and resource hub that collates and provides access to all health research reporting guidelines and checklists, indexed by study design",
+          "C": "A European database of randomised controlled trials in urology",
+          "D": "A granting body for European urological research"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The EQUATOR Network (Enhancing the QUAlity and Transparency Of health Research) is an international initiative providing a comprehensive library of reporting guidelines for health research at equator-network.org. It indexes >500 reporting guidelines by study design (RCT, observational, systematic review, diagnostic, economic, qualitative, etc.) and provides direct access to checklists, flow diagrams, explanatory papers, and journal policies on reporting requirements. For a first-time submitter: identify study design → find the relevant guideline on EQUATOR → download the checklist → complete it and submit with the manuscript.",
+          "wrong": {
+            "A": "Sample size calculation software includes G*Power, PASS, and various online calculators — none of which is the EQUATOR Network. EQUATOR is about reporting, not power calculation.",
+            "C": "The Cochrane CENTRAL register indexes controlled trials; ClinicalTrials.gov indexes registered trials. EQUATOR is a reporting guidelines library, not a trial database.",
+            "D": "European research funding for urology is provided by the European Research Council (ERC), HORIZON Europe, and the EAU Research Foundation — not the EQUATOR Network. EQUATOR provides methodological tools, not funding."
+          },
+          "guideline": "EQUATOR Network (equator-network.org): The comprehensive indexed library of health research reporting guidelines; provides the original guideline publications, checklists, flow diagrams, and implementation tools; partners with major journals and funders to standardise reporting across all study designs in health research.",
+          "trial": "Glasziou P et al. (Lancet 2014): Audit of reporting quality in 164 trials using EQUATOR guideline compliance scores — trials meeting >80% of CONSORT items had significantly lower rates of trial waste compared with poorly reported trials; EQUATOR implementation by journals associated with improved reporting quality over time.",
+          "pearl": "EQUATOR Network = equator-network.org = comprehensive library of all health research reporting guidelines indexed by study design. First step for any manuscript: identify study design, go to EQUATOR, find the relevant guideline (CONSORT/STROBE/PRISMA etc.), complete the checklist, submit with manuscript. Major urology journals require EQUATOR-listed checklist compliance."
+        },
+        "difficulty": 1
+      }
+    ]
+  }
+}

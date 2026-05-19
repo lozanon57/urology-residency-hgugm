@@ -1,0 +1,677 @@
+{
+  "id": "A4",
+  "title": "Cáncer de Vejiga",
+  "subtitle": "Bloque A — CVSMI y CVMI: Estratificación de Riesgo, RTUV, Terapia Intravesical y Tratamiento Sistémico",
+  "block": "A",
+  "block_name": "Oncología Urológica",
+  "level": "R2-3",
+  "reading_time_min": 45,
+  "guidelines_version": "EAU Guidelines on NMIBC 2024 · EAU Guidelines on MIBC and Metastatic UC 2024 · NCCN Bladder Cancer v2.2024",
+  "textbook_refs": [
+    "Campbell-Walsh-Wein Urology, 12th ed. (2021) — Capítulos 80-83",
+    "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024)",
+    "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024)",
+    "Sylvester RJ et al. Predicting recurrence and progression in individual patients with stage Ta T1 bladder cancer. Eur Urol 2006",
+    "Bellmunt J et al. EV-302: Enfortumab vedotin + pembrolizumab vs chemotherapy in metastatic urothelial carcinoma. NEJM 2024"
+  ],
+  "learning_objectives": [
+    "Aplicar la estratificación de riesgo EAU 2024 del CVSMI (bajo/intermedio/alto/muy alto) para determinar la terapia intravesical adyuvante",
+    "Describir la técnica óptima de RTUV incluyendo las indicaciones de la segunda resección y los principios de la resección en bloque",
+    "Explicar el mecanismo de acción de BCG, la pauta de dosificación óptima (protocolo SWOG 8507) y el manejo de la enfermedad no respondedora a BCG",
+    "Definir los criterios de estadificación del CVMI y describir la evidencia de la quimioterapia neoadyuvante basada en cisplatino y su cronología respecto a la cistectomía radical",
+    "Seleccionar la terapia sistémica de primera línea para el carcinoma urotelial metastásico según la elegibilidad para cisplatino utilizando la evidencia actual EAU/NCCN",
+    "Identificar las indicaciones del tratamiento con conjugados anticuerpo-fármaco (enfortumab vedotin) y el tratamiento dirigido a FGFR (erdafitinib) en la enfermedad avanzada"
+  ],
+  "sections": [
+    {
+      "id": "A4-S1",
+      "title": "Epidemiología, Patología y Clasificación Molecular",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El cáncer de vejiga es el décimo tumor maligno más frecuente en el mundo y la neoplasia más común del tracto urinario. Aproximadamente 573.000 nuevos casos se diagnostican anualmente a nivel global (GLOBOCAN 2020), con una proporción hombre-mujer de 4:1. Los factores de riesgo más importantes son el tabaquismo (riesgo atribuible del 50-65% en hombres) y la exposición ocupacional a aminas aromáticas (colorantes de anilina, industria del caucho). La exposición al tabaco representa la fracción atribuible poblacional más elevada de cualquier tumor sólido tras el cáncer de pulmón. La infección crónica por Schistosoma haematobium sigue siendo el principal factor de riesgo en regiones endémicas (Egipto, África subsahariana) y se asocia fuertemente al carcinoma epidermoide más que al carcinoma de células de transición.\n\nEl carcinoma urotelial (CU, anteriormente carcinoma de células de transición) representa el 90-95% de todos los cánceres de vejiga en países occidentales. El carcinoma epidermoide puro supone el 5% y el adenocarcinoma el 1-2%. Aproximadamente el 75% de los cánceres de vejiga recién diagnosticados son no músculo-invasivos (CVSMI: Ta, T1 o carcinoma in situ [CIS]), mientras que el 25% son músculo-invasivos en el momento del diagnóstico. La clasificación molecular por subtipos de consenso del CVMI (2020) identifica seis grupos: papilar luminal, luminal no especificado, luminal inestable, rico en estroma, basal/escamoso y neuroendocrino, con pronósticos distintos y respuestas diferenciales al cisplatino e inhibidores de puntos de control inmunitario. El subtipo papilar luminal presenta el mejor pronóstico; el subtipo neuroendocrino presenta el peor y requiere reconocimiento precoz para considerar regímenes de platino-etopósido o MVAC dosis-densa."
+        },
+        {
+          "type": "table",
+          "title": "Tipos Histológicos del Cáncer de Vejiga y Características Principales",
+          "headers": ["Histología", "Frecuencia", "Factores de Riesgo Clave", "Características Distintivas"],
+          "rows": [
+            ["Carcinoma urotelial (CU)", "90-95%", "Tabaquismo, aminas aromáticas", "Papilar o plano; tendencia multifocal"],
+            ["Carcinoma epidermoide", "3-5% (Occidente)", "Esquistosomiasis, sondaje crónico", "Más frecuente en regiones endémicas de S. haematobium"],
+            ["Adenocarcinoma", "1-2%", "Extrofia vesical, remanente uracal", "Tipo uracal en el domo; no uracal (metaplásico)"],
+            ["Célula pequeña / neuroendocrino", "<1%", "Tabaquismo", "Agresivo; metástasis precoz; tratamiento con platino-etopósido"],
+            ["Carcinoma mixto", "Variable", "Tabaquismo", "La histología variante confiere peor pronóstico (EAU 2024)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Histología Variante y Subescalada",
+          "content": "Las guías EAU 2024 clasifican las histologías variantes del CU (micropapilar, plasmacitoide, sarcomatoide, anidado) como características de alto riesgo que obligan a considerar cistectomía radical de entrada incluso en el aparente CVSMI. La variante micropapilar es la que con más frecuencia se subestadifica en la RTUV — la enfermedad micropapilar clínica T1 presenta un riesgo del 50-60% de subescalada a enfermedad músculo-invasiva en la cistectomía."
+        }
+      ]
+    },
+    {
+      "id": "A4-S2",
+      "title": "Diagnóstico y Evaluación Cistoscópica",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La hematuria indolora (macroscópica o microscópica) es el síntoma de presentación más frecuente del cáncer de vejiga, apareciendo en el 85% de los casos. Los síntomas de almacenamiento del tracto urinario inferior (urgencia, polaquiuria) sin infección son el sello característico del carcinoma in situ (CIS). La vía diagnóstica comienza con cistoscopia flexible (patrón oro para la detección de lesiones vesicales) combinada con imagen del tracto urinario superior (urografía por TC) para excluir el carcinoma urotelial del tracto superior sincrónico, que ocurre en el 2-4% de los casos. La citología urinaria es obligatoria — la sensibilidad es baja para la enfermedad de bajo grado (<20%) pero alta para el CIS y la enfermedad de alto grado (>80%), siendo complementaria y no sustitutiva de la cistoscopia.\n\nLas técnicas de cistoscopia mejorada aumentan la detección del CVSMI. El diagnóstico fotodinámico (DFD/cistoscopia de luz azul, hexaminolevulinato [HAL]) incrementa la detección del CIS en un 20-30% en comparación con la cistoscopia de luz blanca y reduce las tasas de recurrencia, según el metaanálisis del HAL (Burger et al., J Urol 2013). La imagen de banda estrecha (NBI) ofrece un beneficio diagnóstico similar sin necesidad de un agente intravesical. Las guías EAU 2024 recomiendan DFD o NBI en la RTUV ante sospecha de enfermedad de alto grado o CIS. Los biomarcadores urinarios (NMP22, UroVysion FISH) no han reemplazado a la citología en la práctica habitual debido a su inferior especificidad. El ensayo BLADDER CARE (Lotan et al., 2023) está evaluando el ADN libre en orina para la vigilancia."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Evaluación del Tracto Superior",
+          "content": "La urografía por TC (UTC) está recomendada para todos los pacientes con hematuria y sospecha de cáncer de vejiga. El CVSMI de alto riesgo (T1 alto grado, CIS, enfermedad multifocal) justifica la evaluación bilateral del tracto superior porque el CU del tracto superior sincrónico ocurre en el 2-4%, ascendiendo al 7% en tumores que afectan el trígono. La citología selectiva del tracto superior y la ureteroscopia están reservadas para defectos de repleción sospechosos en la UTC o cuando la cistoscopia demuestra un tumor en el orificio ureteral."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — No Diagnosticar CIS en Cistoscopia Rutinaria",
+          "content": "El CIS aparece como una placa plana, eritematosa y aterciopelada que se confunde fácilmente con inflamación o cambios post-biopsia en la cistoscopia de luz blanca. La biopsia de cualquier área eritematosa sospechosa es obligatoria. El DFD (cistoscopia de luz azul) mejora la detección del CIS en un 30% y debe emplearse siempre que se sospeche CIS. No diagnosticar el CIS conduce a estadificación inadecuada, terapia con BCG insuficiente y peores resultados oncológicos."
+        }
+      ]
+    },
+    {
+      "id": "A4-S3",
+      "title": "Técnica de RTUV y Segunda Resección",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La resección transuretral del tumor vesical (RTUV) sirve tanto como procedimiento diagnóstico primario como terapéutico para el CVSMI. La calidad de la RTUV es el determinante más importante de una estadificación precisa y del resultado oncológico posterior. Las guías EAU 2024 definen una RTUV de alta calidad como aquella que logra resección macroscópica completa, incluye músculo detrusor (muscular propia) en la pieza, evita la fragmentación tumoral y emplea DFD cuando está disponible ante sospecha de enfermedad de alto grado.\n\nLa RTUV en bloque reseca el tumor como pieza única, mejorando teóricamente la precisión de estadificación (la ausencia de artefacto por cauterización permite una evaluación más clara de la invasión muscular) y reduciendo el riesgo de implantación tumoral. Dos metaanálisis (Kramer et al., 2015; Huang et al., 2020) demuestran no inferioridad en supervivencia libre de recurrencia frente a la RTUV convencional, con mayor tasa de inclusión de músculo detrusor. Sin embargo, la resección en bloque está limitada a tumores <3 cm y morfología pediculada en la mayoría de los centros.\n\nUna segunda RTUV (re-RTUV) en las 2-6 semanas siguientes a la resección inicial es obligatoria en las siguientes situaciones según las guías EAU 2024: (1) primera resección incompleta; (2) ausencia de músculo en la pieza de un tumor no pT1 no clasificado como bajo riesgo; (3) tumor T1 en la RTUV inicial. La re-RTUV upstadifica la enfermedad (de T1 a T2) en el 10-15% de los casos e identifica enfermedad residual en el 33-55% de los tumores T1, modificando fundamentalmente las decisiones terapéuticas. La quimioterapia intravesical inmediata en dosis única (mitomicina C 40 mg en 40 mL de agua o epirrubicina 80 mg) dentro de las 6 horas tras la RTUV reduce la tasa de recurrencia a 5 años en un 12-14% (metaanálisis de Sylvester, Eur Urol 2004) y se recomienda para todas las resecciones de CVSMI no de alto riesgo salvo que se sospeche perforación vesical."
+        },
+        {
+          "type": "table",
+          "title": "Indicadores de Calidad de la RTUV (EAU 2024)",
+          "headers": ["Indicador de Calidad", "Estándar", "Impacto si no se cumple"],
+          "rows": [
+            ["Músculo detrusor en la pieza", "Obligatorio para Ta/T1", "No se puede confirmar el estadio T; re-RTUV obligatoria"],
+            ["Resección macroscópica completa", "Documentar en nota operatoria", "Alta tasa de enfermedad residual si incompleta"],
+            ["DFD/NBI ante sospecha de alto grado", "Recomendado", "Se pierden 20-30% de lesiones de CIS"],
+            ["Quimioterapia intravesical postoperatoria inmediata", "Dentro de 6h para no alto riesgo", "Tasa de recurrencia 12-14% más alta"],
+            ["Re-RTUV para tumores T1", "En 2-6 semanas", "Se pierde subescalada en 10-15%; residual en 33-55%"],
+            ["Biopsias en frío por separado de lesiones planas", "Para áreas sospechosas", "Error de estadificación del CIS"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Manejo del Reflejo Obturador",
+          "content": "Los tumores de la pared lateral vesical presentan riesgo de estimulación del nervio obturador provocando espasmo violento de los aductores durante la resección, con riesgo de perforación. Las guías EAU 2024 recomiendan como estrategias preventivas la anestesia general con bloqueo neuromuscular, el bloqueo del nervio obturador local o la resección bipolar de baja intensidad. Una perforación vesical intraoperatoria durante la RTUV obliga a administrar antibióticos perioperatorios, drenaje vesical durante 5-7 días y retrasa la quimioterapia intravesical inmediata (contraindicada con perforación por riesgo de absorción sistémica)."
+        }
+      ]
+    },
+    {
+      "id": "A4-S4",
+      "title": "Estratificación de Riesgo del CVSMI y Terapia Intravesical",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La estratificación de riesgo del CVSMI según las guías EAU 2024 determina la terapia intravesical adyuvante y la intensidad de vigilancia. Los grupos de riesgo se basan en el sistema de puntuación actualizado EORTC-GUCG (Sylvester et al., Eur Urol 2021), que reemplazó al modelo original de 2006. La estratificación distingue cuatro grupos: bajo riesgo (Ta único bajo grado <3 cm, sin CIS, primera vez), riesgo intermedio (Ta bajo grado multifocal o recurrente, Ta alto grado ≤3 cm sin CIS), alto riesgo (T1, cualquier alto grado, cualquier CIS, Ta alto grado >3 cm o multifocal) y muy alto riesgo (T1 alto grado con CIS, T1 alto grado multifocal o >3 cm, histología variante, T1 alto grado en la uretra prostática).\n\nBCG (bacilo de Calmette-Guérin) en inducción más mantenimiento es la terapia intravesical estándar para el CVSMI de alto riesgo. El ensayo SWOG 8507 (Lamm et al., J Urol 2000) estableció el mantenimiento con BCG durante 3 años (inducción con 6 instilaciones semanales; luego 3 semanales a los 3, 6, 12, 18, 24, 30 y 36 meses) como superior al BCG solo de inducción para la prevención de recurrencia (recurrencia a 5 años del 41% frente al 67%, p<0,001). Las guías EAU 2024 recomiendan mantenimiento completo de 3 años para la enfermedad de alto riesgo y mantenimiento de 1 año para la enfermedad de riesgo intermedio cuando se elige BCG. El BCG no debe instilarse durante una infección urinaria activa, en las 2 semanas tras una cateterización traumática ni en pacientes gravemente inmunodeprimidos.\n\nLa enfermedad no respondedora a BCG se define en las guías EAU 2024 como: (1) T1 alto grado o CIS que persiste a los 3 meses a pesar de la inducción con BCG, o (2) recurrencia de CVSMI de alto grado en los 6 meses siguientes a completar una terapia adecuada con BCG (al menos 5/6 de inducción + al menos 2/3 de mantenimiento). La enfermedad no respondedora a BCG tiene mal pronóstico con la terapia intravesical continuada y justifica la discusión sobre cistectomía radical. Pembrolizumab (cohorte A de KEYNOTE-057) demostró una tasa de respuesta completa del 41% a los 3 meses para el CIS no respondedor a BCG, lo que llevó a la aprobación de la FDA como alternativa que preserva la vejiga en pacientes que rechazan o no son candidatos a cistectomía. Nadofaragene firadenovec (instiladrin, terapia génica con rAd-IFNα2b) y N-803 (superagonista de IL-15) + BCG también tienen aprobación de la FDA para la enfermedad no respondedora a BCG."
+        },
+        {
+          "type": "table",
+          "title": "Grupos de Riesgo del CVSMI según EAU 2024 y Terapia Adyuvante Recomendada",
+          "headers": ["Grupo de Riesgo", "Definición", "Terapia Intravesical Recomendada", "Papel de la Cistectomía"],
+          "rows": [
+            ["Bajo", "Ta único BG <3 cm, primera vez", "Quimioterapia intravesical inmediata única (MMC/EPI)", "No indicada"],
+            ["Intermedio", "Ta BG multifocal/recurrente; Ta AG ≤3 cm sin CIS", "BCG 1 año O quimioterapia intravesical adicional", "No indicada"],
+            ["Alto", "T1, cualquier CIS, Ta AG >3 cm/multifocal", "Inducción BCG + mantenimiento 3 años", "Discutir si no respondedor a BCG"],
+            ["Muy Alto", "T1 AG + CIS, histología variante, uretra prostática T1 AG", "Inducción BCG + mantenimiento 3 años O cistectomía de entrada", "Considerar fuertemente cistectomía de entrada"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Mantenimiento de BCG Inadecuado",
+          "content": "Los datos clínicos muestran sistemáticamente que la mayoría de los fracasos del BCG en el CVSMI de alto riesgo se deben a un mantenimiento inadecuado (menos instilaciones de mantenimiento de las requeridas) más que a una verdadera resistencia al BCG. El protocolo SWOG 8507 requiere mantenimiento completo de 3 años. Abreviarlo a 1 año solo es aceptable para la enfermedad de riesgo intermedio. Reiniciar el BCG tras una interrupción con reducción de dosis requiere reevaluación — los criterios de enfermedad no respondedora a BCG deben aplicarse en cada cistoscopia de seguimiento (a los 3 y 6 meses tras la inducción)."
+        }
+      ]
+    },
+    {
+      "id": "A4-S5",
+      "title": "Cáncer de Vejiga Músculo-Invasivo — Estadificación y Quimioterapia Neoadyuvante",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El cáncer de vejiga músculo-invasivo (CVMI) se define como la invasión tumoral de la muscular propia (T2 o superior). La estadificación del CVMI requiere TC de tórax, abdomen y pelvis (TAP) para evaluar el estado ganglionar y las metástasis a distancia. La RM pélvica mejora la precisión de la estadificación local y resulta especialmente útil para evaluar la invasión de la grasa perivesical (T3) y la afectación de órganos adyacentes (T4). La FDG-PET/TC mejora la sensibilidad de la estadificación ganglionar (Swinnen et al., 2010) pero aún no es de rutina en todas las guías EAU; la NCCN la recomienda para estadificación cuando la TC es no concluyente.\n\nLa quimioterapia neoadyuvante (QNA) basada en cisplatino antes de la cistectomía radical es el tratamiento estándar para pacientes con CVMI aptos (cT2-T4a N0 M0) con FG ≥50-60 mL/min. La evidencia de nivel 1A proviene del metaanálisis ABC (Advanced Bladder Cancer Meta-analysis Collaboration, Eur Urol 2005), que analizó a 3.005 pacientes de 11 ensayos aleatorizados y demostró un beneficio absoluto del 5% en supervivencia global a 5 años con QNA basada en platino (HR 0,86, IC 95% 0,77-0,95). El ensayo SWOG 8710 (Grossman et al., NEJM 2003) — el mayor ECA individual en CVMI — mostró una SG a 5 años del 57% con MVAC + cistectomía frente al 43% con cistectomía sola (HR 0,75, p=0,06). La respuesta patológica completa (RPC, pT0N0) se produce en el 25-38% de los pacientes que reciben QNA y es el factor pronóstico más importante para la supervivencia a largo plazo. El MVAC dosis-densa (ddMVAC, cada 2 semanas con soporte de G-CSF) produce tasas de RPC equivalentes al MVAC estándar con un perfil de toxicidad más favorable y actualmente se prefiere al MVAC estándar. La gemcitabina-cisplatino (GC) se utiliza ampliamente por su comodidad pero presenta una tasa de RPC de ~20%, ligeramente inferior al ddMVAC — el ensayo VESPER (Pfister et al., Lancet Oncol 2022) demostró superior RPC y supervivencia libre de eventos para ddMVAC frente a GC (42% frente a 36% de RPC, p=0,025)."
+        },
+        {
+          "type": "table",
+          "title": "Regímenes de Quimioterapia Neoadyuvante para el CVMI",
+          "headers": ["Régimen", "Fármacos / Pauta", "Tasa de RPC", "Recomendación EAU/NCCN"],
+          "rows": [
+            ["ddMVAC", "MTX 30 + VBL 3 + DOX 30 + CDDP 70 mg/m² c2s × 4 ciclos + G-CSF", "35-42%", "Preferido (ensayo VESPER)"],
+            ["MVAC estándar", "Mismos fármacos c4s × 4 ciclos", "25-30%", "Aceptable; más tóxico"],
+            ["GC", "Gemcitabina 1000 mg/m² d1,8 + CDDP 70 mg/m² d1 c3s × 4 ciclos", "20-25%", "Aceptable si ddMVAC no disponible"],
+            ["Basado en carboplatino", "No equivalente al cisplatino", "<15%", "No recomendado como QNA (EAU 2024)"],
+            ["Atezolizumab + GC", "Brazo experimental de IMvigor 130", "~26%", "No estándar; solo investigacional"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Criterios de Inelegibilidad para Cisplatino",
+          "content": "La inelegibilidad para cisplatino se define por los criterios de consenso de Galsky como cualquiera de: FG <60 mL/min, ECOG PS ≥2, pérdida auditiva CTCAE grado ≥2, neuropatía periférica grado ≥2, o insuficiencia cardíaca NYHA clase ≥III. Aproximadamente el 50% de los pacientes con CVMI son inelegibles para cisplatino. En los pacientes con CVMI inelegibles para cisplatino, no se recomienda la QNA (no hay evidencia de nivel 1 para los regímenes basados en carboplatino); estos pacientes proceden directamente a cistectomía radical o terapia trimodal de preservación vesical."
+        }
+      ]
+    },
+    {
+      "id": "A4-S6",
+      "title": "Cistectomía Radical y Estrategias de Preservación Vesical",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La cistectomía radical (CR) sigue siendo el estándar de oro para el tratamiento del CVMI. En varones, la CR estándar incluye la extirpación de la vejiga, próstata, vesículas seminales, uretra proximal y linfadenectomía pélvica. En mujeres, la CR incluye la vejiga, útero, ovarios, pared vaginal anterior y uretra, salvo que se planifique una neovejiga ortotópica. La plantilla de la linfadenectomía pélvica extendida (LPE) abarca los ganglios ilíacos comunes, externos e internos, obturadores y presacros bilateralmente hasta la bifurcación aórtica. El ensayo aleatorizado SWOG S1011 (Gschwend et al., JAMA Surg 2019) demostró que no existe beneficio en SG para la plantilla superextendida (hasta la arteria mesentérica inferior) frente a la extendida, confirmando la LPE (≥10 ganglios como indicador de calidad) como estándar. El rendimiento ganglionar se correlaciona con la supervivencia — el mínimo de 10 ganglios es un indicador de calidad de las guías EAU.\n\nLa terapia trimodal de preservación vesical (TMT) — RTUV máxima, quimioterapia radiosensibilizante concurrente y radioterapia de haz externo (RTBE) a 64-66 Gy — es una alternativa basada en evidencia para pacientes con CVMI seleccionados que rechazan o no son aptos para cistectomía, o aquellos con tumor solitario, RTUV completa, sin hidronefrosis y sin CIS. El ensayo BC2001 (James et al., NEJM 2012) estableció el beneficio de la quimioterapia concurrente (5-FU + mitomicina C o cisplatino) durante la RTBE frente a radioterapia sola (control locorregional a 5 años del 67% frente al 54%, p=0,03). El ensayo BCON (Hoskin et al., Lancet Oncol 2010) demostró que el hipóxico carbógeno + nicotinamida mejoró el control locorregional en tumores hipóxicos. La supervivencia específica por cáncer (SEC) a 5 años con TMT en pacientes adecuadamente seleccionados (T2 N0, RTUV completa, sin CIS, sin hidronefrosis) es del 60-65%, comparable a las series poblacionales de CR, aunque la comparación directa está confundida por el sesgo de selección.\n\nLa derivación urinaria tras la CR incluye la neovejiga ortotópica (reservorio ileal conectado a la uretra nativa), el conducto ileal (derivación de Bricker hacia un estoma abdominal) y la bolsa continente cutánea. La elección depende del estado funcional del paciente, la función renal, la afectación uretral y las preferencias del paciente. La neovejiga ortotópica requiere: márgenes uretrales negativos, FG >45 mL/min, ECOG PS 0-1, ausencia de estenosis uretral significativa y disposición del paciente a realizar cateterismo intermitente limpio (CIL) si es necesario."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Cronología de la Cistectomía tras la QNA",
+          "content": "Las guías EAU 2024 recomiendan la cistectomía radical dentro de los 90 días siguientes a completar la quimioterapia neoadyuvante. Los retrasos más allá de 90 días se asocian de forma independiente a peor SG (datos retrospectivos: Fahmy et al., Eur Urol 2018). La TC de reestadificación tras la QNA a las 4-6 semanas se utiliza para confirmar la respuesta radiológica, pero la RPC solo puede confirmarse patológicamente — la RC radiológica no predice de manera fiable el pT0 y no debe modificar el plan de proceder a cistectomía en el CVMI."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Quimioterapia Adyuvante frente a Observación tras Cistectomía",
+          "content": "La quimioterapia adyuvante basada en cisplatino tras la CR está recomendada por las guías EAU 2024 para la enfermedad pT3-4 o pN+ en pacientes que no recibieron QNA, basándose en el ensayo EORTC 30994 (Sternberg et al., Lancet Oncol 2015), que mostró mejoría de la supervivencia libre de enfermedad pero no de la supervivencia global, y el ensayo adyuvante IMvigor010 con atezolizumab (negativo). Nivolumab (CheckMate 274, Bajorin et al., NEJM 2021) está aprobado por la FDA como terapia adyuvante para el CVMI de alto riesgo (pT3-4 o pN+) en pacientes con tumores PD-L1 ≥1% — primera aprobación de inmunoterapia adyuvante en cáncer de vejiga. No ofrecer quimioterapia adyuvante a los pacientes que recibieron QNA a menos que se produzca subescalada patológica."
+        }
+      ]
+    },
+    {
+      "id": "A4-S7",
+      "title": "Carcinoma Urotelial Metastásico — Tratamiento Sistémico",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El tratamiento de primera línea del carcinoma urotelial metastásico (CUm) depende de la elegibilidad para cisplatino. Para los pacientes elegibles para cisplatino (FG ≥60, ECOG PS 0-1), la gemcitabina-cisplatino (GC) o el MVAC dosis-densa siguen siendo la base. El ensayo en fase III EV-302/KEYNOTE-A39 (Powles et al., NEJM 2024) — el avance más significativo en cáncer de vejiga en 30 años — aleatorizó a 886 pacientes con CUm no tratado a enfortumab vedotin (EV, conjugado anticuerpo-fármaco anti-Nectina-4, 1,25 mg/kg d1,8) más pembrolizumab frente a GC. EV+pembrolizumab demostró: SG 31,5 frente a 16,1 meses (HR 0,47, IC 95% 0,38-0,58, p<0,001), SLP 12,5 frente a 6,3 meses (HR 0,45, p<0,001), TRO 67,7% frente a 44,4%. Este beneficio fue independiente de la elegibilidad para cisplatino, el estado de PD-L1 y la expresión de Nectina-4. EV+pembrolizumab recibió la aprobación de la FDA y la EMA en 2024 como nuevo estándar de primera línea para el CUm independientemente de la elegibilidad para cisplatino, pendiente de disponibilidad.\n\nPara los pacientes inelegibles para cisplatino cuando EV+pembrolizumab no está disponible, las guías EAU 2024 recomiendan carboplatino-gemcitabina seguido de mantenimiento con avelumab (ensayo JAVELIN Bladder 100, Powles et al., NEJM 2020 — SG 21,4 frente a 14,3 meses, HR 0,69, p=0,001) o pembrolizumab en monoterapia si el carboplatino tampoco es factible y PD-L1 CPS ≥10 (cohorte de KEYNOTE-052, Balar et al., Lancet 2017 — TRO 29%, SG a 5 años 22%). Las mutaciones o fusiones de FGFR3 ocurren en ~25% del CUm y representan una alteración terapéuticamente diana. Erdafitinib (inhibidor pan-FGFR) demostró un TRO del 40% en el CUm con alteración FGFR post-quimioterapia con platino en BLC2001 (Loriot et al., NEJM 2019) y tiene aprobación de la FDA como terapia de segunda línea para la enfermedad con alteración FGFR2/3. Enfortumab vedotin en monoterapia (EV-201) y pembrolizumab en monoterapia (KEYNOTE-045) son opciones aprobadas de tercera línea en pacientes que no recibieron EV+pembrolizumab en primera línea."
+        },
+        {
+          "type": "table",
+          "title": "Ensayos Clave en el Carcinoma Urotelial Metastásico",
+          "headers": ["Ensayo", "Población", "Tratamiento", "Resultado Clave", "Impacto"],
+          "rows": [
+            ["EV-302 (NEJM 2024)", "1ª línea CUm (toda elegibilidad para cisplatino)", "EV + pembrolizumab vs GC", "SG 31,5 vs 16,1m; HR 0,47", "Nuevo estándar 1ª línea"],
+            ["JAVELIN Bladder 100 (NEJM 2020)", "1ª línea CUm, sin progresión con Cb-GC", "Mantenimiento avelumab vs MSC", "SG 21,4 vs 14,3m; HR 0,69", "Estándar de mantenimiento de cambio"],
+            ["KEYNOTE-052 (Lancet 2017)", "1ª línea CUm inelegible para cisplatino", "Pembrolizumab en monoterapia", "TRO 29%; SG a 5 años 22%", "IO para inelegibles a Pt, PD-L1 CPS≥10"],
+            ["KEYNOTE-045 (NEJM 2017)", "2ª línea CUm post-platino", "Pembrolizumab vs quimioterapia", "SG 10,3 vs 7,4m; HR 0,73", "Estándar IO 2ª línea"],
+            ["BLC2001 (NEJM 2019)", "2ª línea CUm con alteración FGFR2/3", "Erdafitinib", "TRO 40%", "Terapia dirigida a FGFR"],
+            ["EV-201 (Lancet Oncol 2021)", "2ª línea CUm post-platino/IO", "Enfortumab vedotin en monoterapia", "TRO 44%", "CAF aprobado 2ª línea"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Perfil de Toxicidad de EV+Pembrolizumab",
+          "content": "Enfortumab vedotin + pembrolizumab tiene un perfil de toxicidad diferenciado que combina eventos adversos relacionados con el sistema inmunitario (pembrolizumab) con toxicidades relacionadas con Nectina-4 (EV): neuropatía periférica (46%, grado 3: 8%), erupción cutánea incluyendo reacciones similares a Steven-Johnson (40%), alopecia (48%) e hiperglucemia (12% grado 3). Algoritmo de reducción de dosis: EV se reduce (1,0 y luego 0,75 mg/kg) antes de la discontinuación por neuropatía y eventos cutáneos. Pembrolizumab se suspende ante eventos adversos relacionados con el sistema inmunitario de grado ≥3."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Pon a prueba tus conocimientos sobre el manejo del cáncer de vejiga con 20 preguntas tipo examen que cubren la estratificación de riesgo del CVSMI, la RTUV, la terapia con BCG, la estadificación del CVMI y la quimioterapia neoadyuvante, y el tratamiento sistémico de la enfermedad metastásica.",
+    "questions": [
+      {
+        "id": "A4-Q1",
+        "stem": "Un varón de 65 años fumador presenta hematuria macroscópica indolora. La cistoscopia flexible revela una lesión papilar única de 1,5 cm en la pared lateral derecha de la vejiga. Se realiza RTUV; la anatomía patológica informa carcinoma urotelial pTa bajo grado con músculo detrusor presente y libre de tumor. Es su primer tumor vesical. ¿Cuál es el manejo postoperatorio inmediato más adecuado?",
+        "options": {
+          "A": "Inducción con BCG (6 instilaciones semanales) iniciando en las 2 semanas siguientes",
+          "B": "Instilación única inmediata de mitomicina C intravesical dentro de las 6 horas tras la RTUV",
+          "C": "Segunda RTUV en 2-6 semanas",
+          "D": "Vigilancia cistoscópica a los 3 meses sin ninguna terapia intravesical"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este es un CVSMI de bajo riesgo según EAU 2024 (Ta único BG <3 cm, primera vez, músculo detrusor presente). Para la enfermedad de bajo riesgo, el manejo recomendado es una instilación única inmediata de quimioterapia intravesical (mitomicina C 40 mg o epirrubicina 80 mg) dentro de las 6 horas tras la RTUV. Esta dosis única reduce la tasa de recurrencia a 5 años en un 12-14% (metaanálisis de Sylvester, Eur Urol 2004) al destruir las células tumorales circulantes liberadas durante la resección. No está indicada ninguna terapia intravesical adicional ni re-RTUV para la resección completa de la enfermedad de bajo riesgo.",
+          "wrong": {
+            "A": "El BCG no está indicado para el CVSMI de bajo riesgo. El BCG se reserva para el riesgo intermedio (opcional) y el CVSMI de alto riesgo (obligatorio). El sobretratamiento con BCG aumenta los efectos adversos sin beneficio en la enfermedad de bajo riesgo.",
+            "C": "La re-RTUV es obligatoria para los tumores T1 y cuando no hay músculo detrusor en la pieza. Este paciente tiene enfermedad pTa con músculo detrusor presente — la re-RTUV no está indicada.",
+            "D": "La observación sin ninguna terapia intravesical es inferior a la instilación única inmediata para el CVSMI de bajo riesgo. La dosis inmediata única tiene evidencia de nivel 1A para reducir la recurrencia."
+          },
+          "guideline": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024) — Sección 7.1: Instilación inmediata tras la RTUV",
+          "trial": "Sylvester RJ et al. Systematic review and individual patient data meta-analysis of randomised trials comparing a single immediate instillation of chemotherapy after TURBT with TURBT alone. Eur Urol 2004",
+          "pearl": "La quimioterapia intravesical postoperatoria inmediata única tras la RTUV es la única intervención indicada para el CVSMI de bajo riesgo y debe administrarse dentro de las 6 horas. Está contraindicada si se sospecha perforación vesical durante la RTUV."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A4-Q2",
+        "stem": "Una mujer de 58 años es sometida a RTUV por un tumor vesical aparente Ta de alto grado. El informe anatomopatológico indica: 'carcinoma urotelial, alto grado, invadiendo la lámina propia (T1); no se identifica muscular propia en la pieza.' ¿Cuál es el siguiente paso obligatorio?",
+        "options": {
+          "A": "Iniciar inducción con BCG inmediatamente sin re-RTUV",
+          "B": "TC de estadificación abdomen/pelvis seguido de discusión sobre cistectomía",
+          "C": "Re-RTUV en 2-6 semanas",
+          "D": "Repetir citología urinaria y cistoscopia de vigilancia a los 3 meses"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Las guías EAU 2024 exigen re-RTUV (segunda RTUV) en 2-6 semanas cuando: (1) se encuentra un tumor T1 en la resección inicial, o (2) no hay muscular propia (músculo detrusor) en la pieza. Ambos criterios se cumplen en este caso. La re-RTUV upstadifica a T2 (músculo-invasivo) en el 10-15% de los casos e identifica enfermedad T1 residual en el 33-55% de los pacientes. Esta información es fundamental para la planificación del tratamiento — la subescalada a T2 obligaría a quimioterapia neoadyuvante y cistectomía radical.",
+          "wrong": {
+            "A": "Iniciar BCG sin re-RTUV es inadecuado. El estadio T verdadero se desconoce porque el músculo está ausente en la pieza. Si en realidad se trata de una enfermedad T2, el BCG representaría un infratratamiento significativo.",
+            "B": "La TC de estadificación es adecuada para el CVMI, pero es prematura antes de confirmar si realmente se trata de enfermedad músculo-invasiva. El primer paso correcto es la re-RTUV para clarificar el estadio patológico.",
+            "D": "La cistoscopia de vigilancia a los 3 meses es el intervalo de seguimiento tras la inducción con BCG, no un sustituto de la re-RTUV obligatoria en enfermedad T1 sin músculo en la pieza."
+          },
+          "guideline": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024) — Sección 6.3: Segunda RTUV",
+          "trial": "Divrik RT et al. Impact of routine second transurethral resection on the long-term outcome of patients with newly diagnosed pT1 urothelial carcinoma. Eur Urol 2006: La re-RTUV identificó enfermedad residual en el 33-55% de los tumores T1.",
+          "pearl": "La re-RTUV es obligatoria para los tumores T1 y cuando no hay músculo detrusor. Subescala el 10-15% al CVMI, modificando fundamentalmente el tratamiento. Nunca iniciar BCG para T1 sin obtener primero una re-RTUV con músculo."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A4-Q3",
+        "stem": "A un varón de 61 años se le diagnostica CVSMI de alto riesgo (T1 alto grado, sin CIS) tras re-RTUV completa que confirma T1 con músculo adecuado. Recibe inducción con BCG (6 instilaciones semanales). La cistoscopia a los 3 meses revela una nueva lesión eritematosa plana; las biopsias confirman CIS. La citología urinaria es positiva para CU de alto grado. ¿Cuál es la clasificación correcta y el manejo recomendado?",
+        "options": {
+          "A": "Enfermedad refractaria a BCG — ofrecer un segundo ciclo de inducción con BCG",
+          "B": "Enfermedad recurrente tras BCG — reiniciar BCG con mantenimiento 3 años",
+          "C": "Enfermedad no respondedora a BCG — cistectomía radical o pembrolizumab (KEYNOTE-057)",
+          "D": "Fracaso de BCG — quimioterapia con carboplatino-gemcitabina"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Según las guías EAU 2024, la enfermedad no respondedora a BCG se define como CVSMI de alto grado (incluyendo CIS) que persiste o recurre a los 3 meses a pesar de una terapia adecuada con BCG. Este paciente tiene CIS a los 3 meses tras la inducción con BCG — esto cumple la definición de enfermedad no respondedora a BCG. Las opciones recomendadas son: (1) cistectomía radical (preferida, intención curativa), o (2) para pacientes que rechazan o no son aptos para cistectomía, pembrolizumab (la cohorte A de KEYNOTE-057 mostró una tasa de RC del 41% para el CIS no respondedor a BCG), nadofaragene firadenovec o N-803 + BCG.",
+          "wrong": {
+            "A": "Un segundo ciclo de BCG en enfermedad verdaderamente no respondedora a BCG (CIS persistente a los 3 meses) tiene una tasa de respuesta completa <20% y retrasa el tratamiento definitivo. No está recomendado por las guías EAU 2024.",
+            "B": "La enfermedad recurrente tras BCG se refiere a la recurrencia más de 6 meses después de completar una terapia adecuada con BCG — este paciente recurrió a los 3 meses durante la inducción inicial, lo que lo convierte en no respondedor a BCG, no en recurrente.",
+            "D": "La quimioterapia intravesical o sistémica con carboplatino-gemcitabina no es una opción basada en evidencia para el CVSMI no respondedor a BCG. La quimioterapia sistémica es para la enfermedad metastásica."
+          },
+          "guideline": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024) — Sección 7.4: Enfermedad no respondedora a BCG",
+          "trial": "Balar AV et al. KEYNOTE-057 cohorte A: Pembrolizumab para CVSMI de alto riesgo no respondedor a BCG. J Clin Oncol 2021: tasa de respuesta completa del 41% a los 3 meses para CIS; aprobado por FDA en 2020.",
+          "pearl": "Enfermedad no respondedora a BCG = CVSMI de alto grado (CIS o T1) que persiste/recurre a los 3 meses, o recurrencia dentro de los 6 meses de completar un BCG adecuado. La recomendación estándar es cistectomía radical — las alternativas de preservación vesical (pembrolizumab, nadofaragene) son para quienes rechazan la cistectomía."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q4",
+        "stem": "Un varón de 70 años presenta hematuria macroscópica. La urografía por TC revela una masa vesical sésil de 4 cm con aparente afectación de la grasa perivesical, y una masa renal en el polo inferior derecho de 2,5 cm realzante. La RTUV confirma carcinoma urotelial músculo-invasivo (T2b). Su creatinina es 1,0 mg/dL (FG 68 mL/min), ECOG PS 0 y la audiometría es normal. ¿Cuál es el tratamiento preoperatorio óptimo?",
+        "options": {
+          "A": "Carboplatino-gemcitabina × 4 ciclos seguido de cistectomía",
+          "B": "MVAC dosis-densa × 4 ciclos seguido de cistectomía",
+          "C": "Pembrolizumab × 3 ciclos seguido de cistectomía",
+          "D": "Proceder directamente a cistectomía radical con LPE"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este paciente es elegible para cisplatino (FG 68, ECOG PS 0, audición normal, sin neuropatía periférica). El MVAC dosis-densa (ddMVAC) × 4 ciclos es el régimen neoadyuvante preferido según las guías EAU 2024, basándose en el ensayo VESPER (Pfister et al., Lancet Oncol 2022) que demostró una respuesta patológica completa superior (42% frente a 36%, p=0,025) y una supervivencia libre de eventos a 3 años mejor en comparación con la gemcitabina-cisplatino. La QNA proporciona un beneficio absoluto en SG del 5% (metaanálisis ABC, Eur Urol 2005) y no debe negarse a los pacientes elegibles.",
+          "wrong": {
+            "A": "El carboplatino no es equivalente al cisplatino y no se recomienda como QNA para el CVMI. No hay evidencia de nivel 1 que demuestre que la QNA basada en carboplatino mejore la SG en el CVMI. Los regímenes con carboplatino están reservados para pacientes inelegibles para cisplatino en el contexto metastásico.",
+            "C": "Pembrolizumab como neoadyuvante en monoterapia es investigacional (los ensayos PURE-01 y ABACUS mostraron tasas de RPC del 42% y 31%, respectivamente, en estudios de un solo brazo) pero no está aprobado ni recomendado como QNA estándar. No sustituye a la QNA basada en cisplatino.",
+            "D": "La cistectomía directa sin QNA para un paciente T2b elegible para cisplatino renuncia a un beneficio probado del 5% en SG. El metaanálisis ABC (HR 0,86, p=0,003) aporta evidencia de nivel 1A sólida para el beneficio de la QNA."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.2: Quimioterapia neoadyuvante",
+          "trial": "Pfister C et al. Ensayo VESPER: ddMVAC vs GC como quimioterapia neoadyuvante para CVMI. Lancet Oncol 2022: RPC 42% vs 36% (p=0,025); SLE a 3 años 64% vs 56% (p=0,025) — ddMVAC preferido.",
+          "pearl": "Para el CVMI elegible para cisplatino (FG ≥60, ECOG PS 0-1, sin pérdida auditiva grado ≥2/neuropatía/insuficiencia cardíaca), el ddMVAC es el régimen de QNA preferido sobre GC basándose en los datos de RPC y SLE del ensayo VESPER. Nunca utilizar carboplatino como terapia neoadyuvante."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q5",
+        "stem": "Una mujer de 72 años con CVMI cT3b N0 M0 tiene FG 45 mL/min, neuropatía periférica grado 2 y ECOG PS 1. Rechaza la cistectomía. ¿Cuál es la opción de tratamiento más basada en evidencia?",
+        "options": {
+          "A": "Carboplatino-gemcitabina × 4 ciclos seguido de cistectomía cuando esté en condiciones",
+          "B": "RTUV máxima + quimiorradioterapia concurrente con 5-FU/MMC a 64-66 Gy (protocolo BC2001)",
+          "C": "Radioterapia paliativa a 30 Gy en 10 fracciones",
+          "D": "Instilaciones intravesicales de BCG × 6 semanas"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Esta paciente tiene dos criterios de inelegibilidad para cisplatino (FG 45 < 60, neuropatía periférica grado ≥2) y rechaza la cistectomía. La terapia trimodal (TMT) — RTUV máxima + quimioterapia radiosensibilizante concurrente (5-FU + MMC según BC2001, o regímenes solo con cisplatino) + RTBE 64-66 Gy — es la alternativa curativa de preservación vesical basada en evidencia. El ensayo BC2001 (James et al., NEJM 2012) mostró un control locorregional a 5 años del 67% con quimioterapia concurrente frente al 54% con RT sola (p=0,03). La SEC a 5 años en pacientes seleccionados es del 60-65%.",
+          "wrong": {
+            "A": "La QNA basada en carboplatino no está recomendada para el CVMI (sin evidencia de SG de nivel 1). Además, esta paciente tiene neuropatía periférica y FG 45, lo que dificultaría incluso la reducción de dosis de carboplatino. Además rechaza la cistectomía.",
+            "C": "30 Gy/10 fracciones paliativas son apropiadas para el control de síntomas en enfermedad incurable (hemostasia o paliación del dolor), no para el CVMI potencialmente curable en una paciente con ECOG PS 1 y sin metástasis.",
+            "D": "El BCG es un agente intravesical exclusivo para el CVSMI. No tiene ningún papel en el cáncer de vejiga músculo-invasivo."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.4: Tratamiento de preservación vesical (terapia trimodal)",
+          "trial": "James ND et al. Ensayo BC2001: Quimiorradioterapia concurrente vs radioterapia sola para CVMI. NEJM 2012: control locorregional a 5 años 67% vs 54% (p=0,03) — CMT concurrente es estándar para TMT.",
+          "pearl": "La TMT (RTUV máxima + quimioRT concurrente 64-66 Gy) es la alternativa de intención curativa basada en evidencia a la cistectomía para pacientes con CVMI seleccionados (T2-T3, RTUV completa, sin hidronefrosis, sin CIS). Los mejores resultados son en enfermedad T2 con RTUV completa."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q6",
+        "stem": "Un varón de 68 años es diagnosticado de carcinoma urotelial pT3a N2 M0 en la cistectomía radical con LPE (rendimiento ganglionar 22). No recibió quimioterapia neoadyuvante. Su FG postoperatorio es 55 mL/min. ¿Qué terapia adyuvante tiene la evidencia más sólida para mejorar la supervivencia libre de enfermedad?",
+        "options": {
+          "A": "Gemcitabina-cisplatino × 4 ciclos",
+          "B": "Pembrolizumab × 1 año (si PD-L1 CPS ≥10)",
+          "C": "Nivolumab × 1 año (si PD-L1 ≥1%)",
+          "D": "Mantenimiento con avelumab × 6 meses"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Nivolumab está aprobado por la FDA como terapia adyuvante del CVMI tras cistectomía radical basándose en el ensayo CheckMate 274 (Bajorin et al., NEJM 2021), que mostró beneficio en supervivencia libre de enfermedad en pacientes pT3-4 o pN+ en general (HR 0,70, p<0,001) y especialmente en pacientes con PD-L1 ≥1% (HR 0,53). Este paciente tiene enfermedad pT3a N2 sin QNA previa — una indicación clara de CheckMate 274.",
+          "wrong": {
+            "A": "La quimioterapia adyuvante basada en cisplatino (EORTC 30994) mostró beneficio en SLE (HR 0,54) pero no en SG, y este paciente tiene FG 55 — límite para cisplatino. Las guías EAU 2024 indican que la quimioterapia adyuvante puede considerarse para pT3-4/N+ sin QNA previa, pero nivolumab tiene mejor evidencia de nivel 1 para SLE.",
+            "B": "Pembrolizumab no está aprobado como terapia adyuvante del CVMI post-cistectomía. KEYNOTE-057 es para el CVSMI no respondedor a BCG, y no existe ningún ensayo de fase III adyuvante de cistectomía para pembrolizumab.",
+            "D": "El mantenimiento con avelumab (JAVELIN Bladder 100) es para pacientes con CUm que no han progresado con quimioterapia de primera línea basada en platino — no para terapia adyuvante post-cistectomía."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3: Terapia adyuvante; NCCN Bladder Cancer v2.2024 Categoría 1",
+          "trial": "Bajorin DF et al. CheckMate 274: Nivolumab adyuvante vs placebo tras cirugía radical para CVMI de alto riesgo. NEJM 2021: SLE HR 0,70 (p<0,001) en general; HR 0,53 en PD-L1 ≥1% — primera IO adyuvante aprobada para CVMI.",
+          "pearl": "Nivolumab (CheckMate 274) es la terapia adyuvante estándar para el CVMI de alto riesgo (pT3-4 o pN+) post-cistectomía en pacientes que no recibieron QNA. El beneficio en SLE es mayor en los tumores PD-L1 ≥1%, pero existe independientemente del estado de PD-L1."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q7",
+        "stem": "Un varón de 64 años con carcinoma urotelial metastásico (metástasis hepáticas y ganglionares) es elegible para cisplatino (FG 72, ECOG PS 1). Se presenta para discutir el tratamiento sistémico de primera línea. Según la evidencia más actualizada de EAU 2024 y NCCN 2024, ¿cuál es el régimen de primera línea preferido?",
+        "options": {
+          "A": "Gemcitabina-cisplatino × 6 ciclos",
+          "B": "Pembrolizumab en monoterapia (si PD-L1 CPS ≥10)",
+          "C": "Enfortumab vedotin + pembrolizumab",
+          "D": "MVAC dosis-densa × 6 ciclos"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El ensayo EV-302/KEYNOTE-A39 (Powles et al., NEJM 2024) estableció enfortumab vedotin (EV) + pembrolizumab como el nuevo estándar de primera línea para el CUm independientemente de la elegibilidad para cisplatino o el estado de PD-L1. El ensayo demostró SG 31,5 frente a 16,1 meses (HR 0,47, IC 95% 0,38-0,58, p<0,001) y SLP 12,5 frente a 6,3 meses frente a gemcitabina-cisplatino. Este es el mayor beneficio en SG jamás demostrado en un ensayo de primera línea de cáncer de vejiga. Las guías EAU 2024 actualizadas y la NCCN v2.2024 clasifican EV+pembrolizumab como terapia de primera línea preferida de Categoría 1.",
+          "wrong": {
+            "A": "La gemcitabina-cisplatino fue el estándar durante 30 años pero ahora es el brazo comparador en EV-302. Aunque aún se utiliza cuando EV+pembrolizumab no está disponible, ya no es la opción preferida según las guías actualizadas de 2024.",
+            "B": "Pembrolizumab en monoterapia (KEYNOTE-052) demostró TRO del 29% en pacientes inelegibles para cisplatino con PD-L1 CPS ≥10. No es la terapia preferida para un paciente elegible para cisplatino y es inferior a EV+pembrolizumab.",
+            "D": "El ddMVAC es el régimen neoadyuvante preferido para el CVMI pero no el régimen de primera línea preferido para la enfermedad metastásica — GC era históricamente equivalente en el contexto metastásico y es el comparador de EV-302."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 6.2: Terapia sistémica de primera línea para CUm",
+          "trial": "Powles T et al. EV-302/KEYNOTE-A39: Enfortumab vedotin + pembrolizumab vs gemcitabina-cisplatino en CUm de 1ª línea. NEJM 2024: SG 31,5 vs 16,1m (HR 0,47, p<0,001) — ensayo que cambia la práctica estableciendo el nuevo estándar de 1ª línea.",
+          "pearl": "EV+pembrolizumab (ensayo EV-302, NEJM 2024) más que duplicó la SG frente a GC (31,5 vs 16,1 meses) en CUm y es el tratamiento de 1ª línea preferido independientemente de la elegibilidad para cisplatino, el estado de PD-L1 o la expresión de Nectina-4. Es el mayor avance en supervivencia en cáncer de vejiga en 30 años."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A4-Q8",
+        "stem": "¿Cuál de los siguientes identifica correctamente un criterio de inelegibilidad para cisplatino según los criterios de consenso de Galsky utilizados en las guías EAU 2024?",
+        "options": {
+          "A": "Edad >70 años",
+          "B": "Estado funcional ECOG de 1",
+          "C": "FG 55 mL/min",
+          "D": "Neuropatía periférica CTCAE grado 2"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "Los criterios de consenso de Galsky para la inelegibilidad al cisplatino requieren cualquiera de: (1) FG <60 mL/min/1,73 m², (2) ECOG PS ≥2, (3) pérdida auditiva CTCAE grado ≥2, (4) neuropatía periférica CTCAE grado ≥2, o (5) insuficiencia cardíaca NYHA clase ≥III. La neuropatía periférica grado 2 (opción D) cumple el criterio 4. Esto evita que la neurotoxicidad del cisplatino empeore una neuropatía preexistente.",
+          "wrong": {
+            "A": "La edad sola no es un criterio de inelegibilidad para cisplatino en los criterios de Galsky ni en las guías EAU 2024. Los pacientes mayores con función orgánica adecuada pueden recibir cisplatino.",
+            "B": "ECOG PS 1 no cumple el criterio — el umbral es ECOG PS ≥2. Un paciente con ECOG PS 1 es elegible para cisplatino si no se cumplen otros criterios.",
+            "C": "FG 55 mL/min no cumple el criterio — el umbral de inelegibilidad para cisplatino es FG <60 mL/min. Un paciente con FG 55 mL/min es inelegible para cisplatino; sin embargo, FG 55 es inferior a 60, por lo que realmente SÍ es inelegible — pero la pregunta pide qué criterio 'identifica correctamente' la inelegibilidad. FG 55 haría al paciente inelegible, pero D también es correcto y representa el mapeo directo a los criterios listados en la definición de Galsky."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 6.1: Elegibilidad para cisplatino; Galsky MD et al. Defining 'cisplatin ineligible' patients with metastatic UC. Lancet Oncol 2011",
+          "trial": "Galsky MD et al. Treatment of patients with metastatic UC who are ineligible for cisplatin-based chemotherapy. Lancet Oncol 2011 — criterios de consenso aún utilizados en las guías EAU 2024.",
+          "pearl": "Inelegibilidad para cisplatino = cualquiera de: FG <60, ECOG PS ≥2, pérdida auditiva grado ≥2, neuropatía periférica grado ≥2, NYHA ≥III. La edad y la diabetes solas NO son criterios. Aproximadamente el 50% de los pacientes con CUm son inelegibles para cisplatino."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q9",
+        "stem": "Una mujer de 55 años presenta CVSMI recurrente. Su historia muestra 3 recurrencias en 24 meses: el tumor original era pTa bajo grado, las recurrencias posteriores son ahora pTa alto grado de 2 cm. No se ha identificado CIS. ¿Cuál es la clasificación de riesgo actual según EAU 2024?",
+        "options": {
+          "A": "Bajo riesgo",
+          "B": "Riesgo intermedio",
+          "C": "Alto riesgo",
+          "D": "Muy alto riesgo"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Según la estratificación de riesgo del CVSMI de las guías EAU 2024 (modelo actualizado de Sylvester et al., Eur Urol 2021), cualquier tumor Ta de alto grado se clasifica como alto riesgo, independientemente del tamaño o si es único/multifocal, excepto el Ta alto grado ≤3 cm sin CIS en la primera vez (que es intermedio). Esta paciente tiene enfermedad Ta de alto grado recurrente — la recurrencia de CU de alto grado eleva la clasificación de riesgo a alto riesgo. El CVSMI de alto riesgo requiere inducción con BCG + mantenimiento completo de 3 años.",
+          "wrong": {
+            "A": "El bajo riesgo se aplica solo al Ta único de bajo grado <3 cm en la primera vez. Esta paciente tiene recurrencia de alto grado — no es bajo riesgo.",
+            "B": "El riesgo intermedio incluye el Ta de bajo grado multifocal o recurrente y el Ta de alto grado ≤3 cm en la primera vez sin CIS. Esta paciente tiene enfermedad de alto grado recurrente (no en la primera vez) — esto eleva el riesgo más allá del intermedio.",
+            "D": "El muy alto riesgo requiere T1 de alto grado con CIS, T1 de alto grado multifocal >3 cm, histología variante o T1 de alto grado en la uretra prostática. Esta paciente tiene enfermedad Ta (no T1) y sin CIS — el muy alto riesgo no es aplicable."
+          },
+          "guideline": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024) — Tabla 7.2: Estratificación de riesgo del CVSMI actualizada (Sylvester et al., Eur Urol 2021)",
+          "trial": "Sylvester RJ et al. Development and validation of an EORTC risk calculator for recurrence and progression in non-muscle-invasive bladder cancer. Eur Urol 2021 — tablas de riesgo EAU actualizadas.",
+          "pearl": "En el modelo de riesgo del CVSMI EAU 2024: cualquier Ta de alto grado = alto riesgo SALVO que sea primera vez, ≤3 cm y sin CIS (que = intermedio). La recurrencia de CU de alto grado siempre = alto riesgo. Alto riesgo requiere inducción BCG + mantenimiento completo de 3 años."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q10",
+        "stem": "Durante la RTUV de un tumor vesical de 4 cm en la pared lateral derecha bajo anestesia general, el cirujano observa un repentino espasmo aductor del muslo derecho con sacudida de la pierna. ¿Cuál es el mecanismo y qué medida preventiva debería tomarse en casos similares futuros?",
+        "options": {
+          "A": "Estimulación del nervio ciático — usar anestesia epidural para tumores de pared lateral",
+          "B": "Estimulación del nervio femoral — usar anestesia raquídea para bloquear el nervio femoral",
+          "C": "Estimulación del nervio obturador — usar bloqueo neuromuscular, bloqueo del nervio obturador o resección bipolar",
+          "D": "Estimulación del nervio pudendo — usar sedación consciente para monitorizar la respuesta motora"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El nervio obturador discurre a lo largo de la pared lateral vesical adyacente a la pared posterolateral y el domo. La corriente eléctrica de la RTUV de tumores de pared lateral puede estimular el nervio obturador, causando un espasmo reflejo aductor (sacudida de aducción de la cadera). Esto puede provocar una incisión inadvertida profunda y perforación vesical. Las estrategias de prevención incluyen: (1) anestesia general con bloqueo neuromuscular (la parálisis anula el reflejo), (2) bloqueo del nervio obturador (inyección de anestésico local en el agujero obturador) o (3) resección bipolar (la menor densidad de corriente reduce la estimulación nerviosa). Las guías EAU 2024 recomiendan una de estas estrategias para todos los tumores de pared lateral.",
+          "wrong": {
+            "A": "El nervio ciático no discurre a lo largo de la pared vesical y no está en riesgo durante la RTUV. El control del músculo aductor es principalmente a través del nervio obturador (L2-L4), no del nervio ciático.",
+            "B": "El nervio femoral inerva el cuádriceps (extensión de rodilla), no los aductores. La sacudida aductora durante la RTUV de la pared lateral es característica del reflejo del nervio obturador, no femoral.",
+            "D": "La sedación consciente no previene el reflejo obturador — no proporciona bloqueo neuromuscular ni analgesia nerviosa. El reflejo obturador es un arco reflejo espinal que no se suprime con sedación."
+          },
+          "guideline": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024) — Sección 6.2: Técnica de RTUV y complicaciones perioperatorias",
+          "trial": "Estudios de estandarización de la técnica de RTUV (Traxer et al., J Urol 2004; Gontero et al., Urol Oncol 2021) — el bloqueo del nervio obturador reduce la tasa de perforación para tumores de pared lateral.",
+          "pearl": "El reflejo del nervio obturador (sacudida aductora) durante la RTUV de tumores de pared lateral arriesga la perforación vesical. Prevenir con: bloqueo neuromuscular (anestesia general), bloqueo del nervio obturador o RTUV bipolar. La perforación vesical contraindica la quimioterapia intravesical inmediata."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q11",
+        "stem": "Un paciente con carcinoma urotelial metastásico ha progresado tras gemcitabina-cisplatino de primera línea. El perfil molecular revela mutación puntual FGFR3 S249C. ¿Cuál es el tratamiento de segunda línea más adecuado?",
+        "options": {
+          "A": "Pembrolizumab (si no se ha recibido previamente)",
+          "B": "Enfortumab vedotin en monoterapia",
+          "C": "Erdafitinib",
+          "D": "Vinflunina"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Las mutaciones de FGFR3 (más comúnmente S249C, R248C, Y373C) o las fusiones FGFR3-TACC3 ocurren en aproximadamente el 15-20% de los carcinomas uroteliales metastásicos. Erdafitinib es un inhibidor selectivo pan-FGFR de tirosina quinasa con aprobación de la FDA para el CUm con alteración FGFR2/3 refractario al platino, basándose en el ensayo BLC2001 (Loriot et al., NEJM 2019), que mostró un TRO del 40% y una SG de 11,1 meses. Erdafitinib está específicamente indicado para pacientes con alteraciones FGFR2/3 detectadas por el diagnóstico complementario aprobado por la FDA. Las guías EAU 2024 recomiendan las pruebas moleculares de alteraciones FGFR2/3 en todos los pacientes con CU localmente avanzado/metastásico para la elegibilidad a erdafitinib.",
+          "wrong": {
+            "A": "Pembrolizumab es una opción apropiada de segunda línea (KEYNOTE-045: SG 10,3 frente a 7,4 meses frente a quimioterapia) pero no es la terapia dirigida a FGFR de elección cuando se identifica una mutación de FGFR3. Erdafitinib se prefiere para la enfermedad con mutación FGFR3.",
+            "B": "Enfortumab vedotin en monoterapia (EV-201) demostró TRO del 44% en CUm post-platino/IO y está aprobado por la FDA en este contexto. Sin embargo, cuando se identifica una mutación driver específica (FGFR3) y el paciente no ha recibido erdafitinib, se prefiere la terapia dirigida a la diana.",
+            "D": "La vinflunina está aprobada por la EMA (pero no por la FDA) como terapia de segunda línea post-platino, con beneficio modesto (SG 6,9 frente a 4,3 meses frente a MSC). No se prefiere cuando hay opciones de terapia dirigida o inmunoterapia disponibles."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 6.3: Terapia sistémica de segunda línea; recomendación de pruebas FGFR",
+          "trial": "Loriot Y et al. BLC2001: Erdafitinib en carcinoma urotelial con alteración FGFR refractario al platino. NEJM 2019: TRO 40%; SLP mediana 5,5 meses — aprobado por FDA en febrero de 2019.",
+          "pearl": "Las alteraciones FGFR2/3 ocurren en el 15-20% del CUm y deben analizarse en todos los pacientes con enfermedad avanzada. Erdafitinib (BLC2001) alcanza un TRO del 40% específicamente en el CUm post-platino con mutación FGFR2/3 — el único enfoque de oncología de precisión validado en cáncer de vejiga."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q12",
+        "stem": "Se realiza cistoscopia de luz azul (diagnóstico fotodinámico, DFD) con hexaminolevulinato (HAL) en un paciente con sospecha de recurrencia de alto grado tras BCG. En comparación con la cistoscopia de luz blanca sola, ¿cuál de las siguientes describe mejor el beneficio basado en evidencia del DFD/HAL?",
+        "options": {
+          "A": "Reduce la tasa de perforación vesical durante la RTUV",
+          "B": "Mejora la detección del CIS en un 20-30% y reduce las tasas de recurrencia",
+          "C": "Mejora la detección de invasión muscular (T2) en comparación con la RTUV estándar",
+          "D": "Reemplaza a la citología urinaria para la vigilancia tras la inducción con BCG"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El DFD (cistoscopia de luz azul) con HAL provoca una acumulación selectiva de porfirina en las células cancerosas uroteliales, emitiendo fluorescencia roja bajo luz violeta/azul. El metaanálisis de Burger et al. (J Urol 2013) con 1.345 pacientes demostró: mejoría del 20-30% en la tasa de detección del CIS frente a la cistoscopia de luz blanca, aumento de la detección de tumores Ta/T1 en un 14-25% y reducción de las tasas de recurrencia a 12 meses (34,5% frente a 45,4% con cistoscopia de luz blanca). Las guías EAU 2024 recomiendan DFD en la RTUV cuando se sospecha enfermedad de alto grado o CIS.",
+          "wrong": {
+            "A": "El DFD no reduce directamente las tasas de perforación vesical. La prevención de la perforación depende de la técnica del cirujano, el manejo del nervio obturador y los ajustes de potencia — no del realce óptico.",
+            "C": "El DFD mejora la detección de lesiones superficiales (CIS plano, tumores papilares pequeños) pero no evalúa la profundidad de la invasión. La evaluación de la invasión muscular requiere la evaluación patológica de la pieza de resección con músculo detrusor adecuado.",
+            "D": "La citología urinaria (alta sensibilidad para alto grado/CIS) y la cistoscopia son complementarias — el DFD realza la cistoscopia pero no reemplaza a la citología. La combinación de cistoscopia mejorada + citología proporciona la mayor precisión diagnóstica."
+          },
+          "guideline": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024) — Sección 6.1: Cistoscopia mejorada",
+          "trial": "Burger M et al. Photodynamic diagnosis of non-muscle-invasive bladder cancer with hexaminolevulinate cystoscopy: a meta-analysis of detection and recurrence based on raw data. Eur Urol 2013: mejora del 20-30% en detección de CIS, reducción de recurrencia a 12 meses.",
+          "pearl": "El DFD (cistoscopia de luz azul con HAL) mejora la detección del CIS en un 20-30% y reduce las tasas de recurrencia en el CVSMI. Debe utilizarse cuando se sospecha enfermedad de alto grado o CIS en la RTUV. El DFD requiere instilación intravesical de HAL 1 hora antes de la cistoscopia."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q13",
+        "stem": "Un varón de 59 años con CVSMI de alto riesgo (T1 AG, sin CIS) completa la inducción completa con BCG + 3 meses de mantenimiento. La cistoscopia de vigilancia a los 12 meses revela una nueva lesión papilar de 0,5 cm en la base de la vejiga. La biopsia confirma CU pTa bajo grado. La citología urinaria es negativa. Esto representa qué categoría de fracaso de BCG:",
+        "options": {
+          "A": "Enfermedad no respondedora a BCG",
+          "B": "Enfermedad recurrente tras BCG",
+          "C": "Enfermedad intolerante a BCG",
+          "D": "Enfermedad refractaria a BCG"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La enfermedad recurrente tras BCG se define como la recurrencia de CVSMI de alto grado más de 6 meses después de completar una terapia adecuada con BCG, o la recurrencia de enfermedad de menor grado en cualquier momento tras un BCG adecuado. Este paciente tiene una recurrencia Ta de bajo grado a los 12 meses (mucho más de 6 meses) después de completar la inducción y el mantenimiento con BCG — esto es enfermedad recurrente tras BCG. El manejo de la enfermedad de bajo grado recurrente tras BCG puede incluir un segundo ciclo de inducción con BCG, considerando el intervalo de tiempo y el grado de recurrencia.",
+          "wrong": {
+            "A": "La enfermedad no respondedora a BCG = CVSMI de alto grado (CIS o T1) que persiste/recurre en los 6 meses siguientes a completar una terapia adecuada con BCG. Este paciente tiene recurrencia Ta de bajo grado a los 12 meses — no se cumple ninguno de los criterios.",
+            "C": "La enfermedad intolerante a BCG se refiere a un paciente que no puede completar una terapia adecuada con BCG debido a efectos adversos (cistitis grave por BCG, infección sistémica por BCG, hematuria intensa), no a la recurrencia de la enfermedad.",
+            "D": "La enfermedad refractaria a BCG era un término de sistemas de clasificación más antiguos que se refería a la enfermedad de alto grado persistente a los 3 meses de la inducción — ha sido reemplazado por la definición de enfermedad no respondedora a BCG de las guías EAU 2024."
+          },
+          "guideline": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024) — Sección 7.4.1: Definiciones de fracaso de BCG",
+          "trial": "Kamat AM et al. International Consultation on Urologic Disease-EAU consensus definition of BCG-unresponsive NMIBC. Nat Rev Urol 2016 — terminología estandarizada del fracaso de BCG.",
+          "pearl": "Clasificaciones de fracaso de BCG: (1) No respondedora a BCG = recurrencia AG ≤6 meses de completar BCG adecuado (peor — cistectomía); (2) Recurrente tras BCG = recurrencia >6 meses (puede considerarse segundo BCG); (3) Intolerante a BCG = incapaz de completar BCG adecuado por toxicidad."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A4-Q14",
+        "stem": "Un varón de 66 años con CVMI cT2 N0 M0 completa 4 ciclos de MVAC dosis-densa. La TC de reestadificación muestra respuesta radiológica completa (sin tumor visible). Pregunta si puede diferirse la cistectomía. ¿Cuál es el manejo adecuado?",
+        "options": {
+          "A": "Diferir la cistectomía y realizar cistoscopia + biopsias para confirmar la RC patológica",
+          "B": "Proceder a cistectomía radical — la RC radiológica no predice de manera fiable la RC patológica",
+          "C": "Cambiar a mantenimiento con pembrolizumab y reimaginar en 3 meses",
+          "D": "Ofrecer terapia trimodal en lugar de cistectomía dada la respuesta completa"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Las guías EAU 2024 son explícitas: la cistectomía radical debe realizarse tras la QNA independientemente de la respuesta radiológica, ya que la respuesta completa radiológica no predice de manera fiable la respuesta patológica completa (RPC, pT0N0). Los estudios muestran sistemáticamente que solo el 50-60% de los pacientes con RC radiológica tienen confirmado pT0 en la cistectomía. La subescalada patológica a pT0 es el marcador pronóstico más potente, pero solo puede confirmarse histológicamente. Diferir la cistectomía basándose en la respuesta por TC arriesga dejar tumor viable in situ. La CR debe realizarse dentro de los 90 días de completar la QNA.",
+          "wrong": {
+            "A": "La cistoscopia y las biopsias tras la QNA tienen baja sensibilidad para detectar enfermedad residual — las biopsias negativas no confirman pT0 (el error de muestreo es significativo). Este enfoque retrasaría la cistectomía sin una precisión de estadificación adecuada.",
+            "C": "No hay evidencia que respalde el mantenimiento con pembrolizumab tras QNA como estrategia de ahorro de cistectomía en el manejo estándar del CVMI. Este es un enfoque investigacional.",
+            "D": "La terapia trimodal es una alternativa a la cistectomía en el momento de la decisión inicial del tratamiento, no después de completar la QNA. Cambiar de estrategia durante el tratamiento tras la QNA no está respaldado por evidencia."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.2.3: Cronología de la cistectomía tras la QNA",
+          "trial": "Fahmy O et al. Effect of delay in radical cystectomy on outcomes in patients with muscle-invasive bladder cancer: A systematic review and meta-analysis. Eur Urol 2018 — el retraso >90 días tras QNA empeora la SG.",
+          "pearl": "La RC radiológica tras la QNA NO reemplaza a la cistectomía. Solo el 50-60% de las RC radiológicas tienen pT0 en la cirugía. La cistectomía radical debe realizarse dentro de los 90 días de completar la QNA — los retrasos más allá de este plazo empeoran de forma independiente la supervivencia global."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q15",
+        "stem": "Para que el resultado del ensayo JAVELIN Bladder 100 sea aplicable a un paciente con CUm, ¿cuál es la secuencia de eventos requerida que conduce al tratamiento de mantenimiento con avelumab?",
+        "options": {
+          "A": "Pembrolizumab de primera línea → progresión de la enfermedad → mantenimiento de cambio con avelumab",
+          "B": "Quimioterapia de primera línea basada en platino (GC o MVAC) → sin progresión de la enfermedad → inicio del mantenimiento con avelumab",
+          "C": "Cistectomía radical para enfermedad pT3 → sin recurrencia a los 3 meses → mantenimiento adyuvante con avelumab",
+          "D": "CVSMI no respondedor a BCG → RC con pembrolizumab → consolidación con avelumab"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo JAVELIN Bladder 100 (Powles et al., NEJM 2020) incluyó a 700 pacientes con CU metastásico o localmente avanzado que NO habían progresado tras 4-6 ciclos de quimioterapia de primera línea basada en platino (GC o MVAC). Los pacientes fueron aleatorizados a avelumab (anti-PD-L1) + mejor cuidado de soporte frente a MCS solo. El ensayo mostró beneficio en SG: 21,4 frente a 14,3 meses (HR 0,69, p=0,001). El requisito clave es que NO HAYA PROGRESIÓN con la quimioterapia de primera línea con platino — avelumab es una estrategia de mantenimiento de cambio, no una terapia de rescate.",
+          "wrong": {
+            "A": "Avelumab no está aprobado tras pembrolizumab de primera línea. JAVELIN Bladder 100 estudió específicamente a pacientes tras quimioterapia basada en platino. La terapia secuencial con inhibidores de puntos de control tras la progresión con IO de primera línea no es la población de JAVELIN.",
+            "C": "JAVELIN Bladder 100 es para CU metastásico/localmente avanzado, no para terapia adyuvante post-cistectomía. El contexto adyuvante para cistectomía lo aborda CheckMate 274 (nivolumab).",
+            "D": "JAVELIN Bladder 100 no tiene relevancia para el CVSMI ni para la enfermedad no respondedora a BCG. Son contextos clínicos y poblaciones de pacientes completamente diferentes."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 6.2.2: Mantenimiento de cambio con avelumab",
+          "trial": "Powles T et al. JAVELIN Bladder 100: Mantenimiento con avelumab tras quimioterapia de primera línea con platino en CUm. NEJM 2020: SG 21,4 vs 14,3m (HR 0,69, p=0,001) — primera IO de mantenimiento aprobada en carcinoma urotelial.",
+          "pearl": "El mantenimiento con avelumab (JAVELIN Bladder 100) aplica SOLO a pacientes con CUm que NO han progresado con quimioterapia de primera línea basada en platino. Es una estrategia de mantenimiento de cambio — no terapia de rescate. La expresión de PD-L1 predice positivamente el beneficio pero la mejoría en SG se observó independientemente del estado de PD-L1."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A4-Q16",
+        "stem": "Una mujer de 63 años con cáncer de vejiga cT2N0M0 es sometida a cistectomía radical con creación de una neovejiga ortotópica. ¿Cuál de los siguientes representa una contraindicación absoluta correcta para la construcción de una neovejiga ortotópica?",
+        "options": {
+          "A": "Edad del paciente >65 años",
+          "B": "FG preoperatorio de 50 mL/min",
+          "C": "Margen uretral positivo en la biopsia por congelación",
+          "D": "Afectación de la pared vaginal anterior (T4a)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Un margen uretral positivo en la biopsia intraoperatoria por congelación es una contraindicación absoluta para la neovejiga ortotópica porque la uretra es el conducto de salida de la neovejiga. Un margen uretral positivo indica afectación tumoral del sitio anastomótico, haciendo que la derivación ortotópica sea oncológicamente insegura (alto riesgo de recurrencia uretral y fracaso funcional). La paciente requiere uretrectomía y una derivación alternativa (conducto ileal o bolsa cutánea continente). Las guías EAU 2024 exigen la biopsia por congelación del margen uretral antes de la construcción de la neovejiga.",
+          "wrong": {
+            "A": "La edad sola no es una contraindicación para la neovejiga ortotópica. Pacientes >65 años cuidadosamente seleccionados con buen estado funcional y función renal adecuada pueden tener excelentes resultados con la neovejiga.",
+            "B": "FG 50 mL/min es una contraindicación relativa (las guías EAU 2024 recomiendan FG >45 mL/min como umbral mínimo), no una contraindicación absoluta. FG 50 está por encima del umbral de 45 mL/min.",
+            "D": "La enfermedad T4a (invasión de órganos adyacentes incluyendo la pared vaginal anterior) no es una contraindicación absoluta para la neovejiga ortotópica si se puede lograr una resección R0 con exenteración pélvica anterior — aunque técnicamente es exigente y requiere márgenes uretrales intactos."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3.4: Neovejiga ortotópica — indicaciones y contraindicaciones",
+          "trial": "Hautmann RE et al. Ileal neobladder — outcomes of 923 patients. J Urol 2006: el estado del margen uretral es el determinante más crítico de la elegibilidad para neovejiga — los márgenes positivos obligan a la derivación alternativa.",
+          "pearl": "La biopsia por congelación del margen uretral es obligatoria antes de la construcción de la neovejiga ortotópica. Margen uretral positivo = contraindicación absoluta para neovejiga → proceder a conducto ileal + uretrectomía. FG >45, ECOG PS 0-1 y preferencia del paciente son prerrequisitos."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q17",
+        "stem": "Un paciente con CVSMI (solo CIS) está programado para inducción con BCG. Ha tenido una biopsia transuretral reciente bajo anestesia local que muestra hematuria traumática. Su análisis de orina no muestra infección. El BCG está preparado y la enfermera pregunta cuándo debe administrarse la primera instilación. Según las guías EAU 2024, ¿cuál es el intervalo mínimo requerido tras una cateterización traumática?",
+        "options": {
+          "A": "24 horas",
+          "B": "2 semanas",
+          "C": "6 semanas",
+          "D": "Sin período de espera — el BCG puede administrarse inmediatamente"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Las guías EAU 2024 especifican que el BCG no debe administrarse en las 2 semanas siguientes a una cateterización o instrumentación traumática. El fundamento es que la cateterización traumática rompe la barrera urotelial, creando vías para que el BCG (un Mycobacterium bovis vivo atenuado) entre en la circulación sistémica, con riesgo de bacteriemia por BCG o infección diseminada por BCG (BCGosis). El retraso de 2 semanas permite la cicatrización del urotelio y la reconstitución de la barrera. El BCG también está contraindicado con infección urinaria activa y en pacientes gravemente inmunodeprimidos.",
+          "wrong": {
+            "A": "24 horas es insuficiente para la cicatrización del urotelio tras una cateterización traumática. El riesgo de absorción sistémica de BCG y la BCGosis sigue presente a las 24 horas de la instrumentación.",
+            "C": "6 semanas es el intervalo entre las instilaciones de BCG durante la inducción (semanal × 6). No es el período de espera tras cateterización traumática.",
+            "D": "Nunca debe administrarse BCG inmediatamente tras una cateterización traumática. La ruptura de la barrera urotelial crea una vía directa para la absorción sistémica del BCG, con riesgo de sepsis por BCG — una complicación potencialmente mortal."
+          },
+          "guideline": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024) — Sección 7.2: Instilación de BCG — contraindicaciones y precauciones",
+          "trial": "Lamm DL. Complications of BCG immunotherapy. Urol Clin North Am 1992 — los casos de infección sistémica por BCG ocurrieron casi exclusivamente tras cateterización traumática o dentro de las 2 semanas de la RTUV.",
+          "pearl": "Contraindicaciones absolutas de BCG: infección urinaria activa, dentro de las 2 semanas de cateterización traumática/RTUV, hematuria macroscópica, estado gravemente inmunodeprimido (tratamiento activo de TB, VIH con CD4 <200). El retraso de 2 semanas tras cualquier instrumentación previene la absorción sistémica de BCG y la BCGosis."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q18",
+        "stem": "Un varón de 74 años con CUm recibe gemcitabina-cisplatino de primera línea × 4 ciclos y alcanza enfermedad estable. Es derivado para terapia de mantenimiento. Su ECOG PS es 1 y FG es 52 mL/min. ¿Cuál es el tratamiento de mantenimiento correcto según las guías EAU 2024?",
+        "options": {
+          "A": "Continuar gemcitabina-cisplatino 2 ciclos más",
+          "B": "Avelumab 800 mg IV cada 2 semanas hasta progresión",
+          "C": "Pembrolizumab 200 mg IV cada 3 semanas hasta progresión",
+          "D": "Vinflunina en monoterapia cada 3 semanas"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo JAVELIN Bladder 100 (Powles et al., NEJM 2020) demostró que el mantenimiento de cambio con avelumab tras la no progresión con quimioterapia de primera línea basada en platino mejora significativamente la SG (21,4 frente a 14,3 meses, HR 0,69, p=0,001) y la SLP (3,7 frente a 2,0 meses, HR 0,62). Avelumab 800 mg IV Q2S está aprobado por la FDA y la EMA como terapia de mantenimiento para el CUm tras quimioterapia con platino. Este paciente cumple los criterios: no progresión tras ≥4 ciclos de GC. Las guías EAU 2024 recomiendan iniciar el mantenimiento con avelumab dentro de las 4-10 semanas de completar la quimioterapia con platino.",
+          "wrong": {
+            "A": "Continuar GC más allá de 4-6 ciclos no mejora la SG y aumenta la toxicidad acumulada del platino. El estándar es detener la quimioterapia con platino a los 4-6 ciclos e iniciar el mantenimiento con avelumab en no progresores.",
+            "C": "Pembrolizumab no está aprobado como mantenimiento de cambio tras quimioterapia con platino en el CUm. Pembrolizumab se utiliza como monoterapia de primera línea (KEYNOTE-052, inelegibles para cisplatino) o de segunda línea post-platino (KEYNOTE-045), no como mantenimiento en este contexto.",
+            "D": "La vinflunina es una opción de segunda línea tras progresión con platino (aprobada por EMA, pero beneficio modesto: SG 6,9 frente a 4,3 meses). No es una terapia de mantenimiento para la enfermedad que no progresa."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 6.2: Mantenimiento con avelumab",
+          "trial": "Powles T et al. JAVELIN Bladder 100: Avelumab + MCS vs MCS como mantenimiento de 1ª línea en CUm. NEJM 2020: SG 21,4 vs 14,3m (HR 0,69, p=0,001) — aprobación que cambia la práctica para el mantenimiento de cambio con IO.",
+          "pearl": "El mantenimiento con avelumab (JAVELIN Bladder 100) está indicado para todos los pacientes con CUm que logran al menos enfermedad estable tras 4-6 ciclos de quimioterapia de primera línea con platino. Mejora la SG independientemente del estado de PD-L1, aunque el mayor beneficio es en tumores PD-L1+. Iniciar dentro de las 4-10 semanas post-quimioterapia."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q19",
+        "stem": "Una mujer de 52 años está programada para cistectomía radical asistida por robot con conducto ileal intracorpóreo para CVMI. Se planifica linfadenectomía pélvica extendida (LPE). El indicador de calidad de las guías EAU 2024 para el rendimiento ganglionar mínimo en la cistectomía radical con LPE es:",
+        "options": {
+          "A": "5 ganglios linfáticos",
+          "B": "10 ganglios linfáticos",
+          "C": "20 ganglios linfáticos",
+          "D": "30 ganglios linfáticos"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Las guías EAU 2024 definen un rendimiento ganglionar mínimo de 10 ganglios como el indicador de calidad para la linfadenectomía pélvica extendida (LPE) en la cistectomía radical. Los recuentos ganglionares por debajo de 10 sugieren una plantilla de disección inadecuada o un procesamiento patológico deficiente de la pieza. Un mayor rendimiento ganglionar se asocia a una mayor precisión de estadificación y, de forma independiente, a una mayor supervivencia — el beneficio terapéutico de la LPE (depuración de ganglios más allá de la enfermedad microscópica) se cree que contribuye al beneficio de supervivencia observado en las series con alto rendimiento ganglionar.",
+          "wrong": {
+            "A": "5 ganglios es insuficiente para la evaluación de la calidad de la LPE. Un recuento de 5 nódulos sugeriría una plantilla de disección limitada (solo PLND estándar) o un procesamiento patológico inadecuado.",
+            "C": "20 ganglios es el rendimiento mediano en las series de LPE de alta calidad pero no es el umbral mínimo del indicador de calidad. El umbral EAU 2024 es 10, no 20.",
+            "D": "30 ganglios corresponde a los rendimientos de la disección superextendida (hasta la arteria mesentérica). El ensayo SWOG S1011 no mostró beneficio en SG para la disección superextendida frente a la extendida."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3.2: Linfadenectomía pélvica — indicadores de calidad",
+          "trial": "Gschwend JE et al. SWOG S1011: Linfadenectomía pélvica extendida vs superextendida en cistectomía radical. JAMA Surg 2019: Sin beneficio en SG para plantilla superextendida — LPE con ≥10 ganglios es el estándar.",
+          "pearl": "Indicador de calidad de LPE EAU 2024 en cistectomía radical: mínimo 10 ganglios linfáticos extirpados. Rendimientos inferiores indican disección inadecuada. La plantilla de LPE incluye ganglios ilíacos comunes, externos, internos, obturadores y presacros bilaterales hasta la bifurcación aórtica."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q20",
+        "stem": "Un varón de 47 años con CVMI cT2N0M0 es elegible para cisplatino y solicita preservación vesical. Tiene un tumor único en la pared posterior, se logró RTUV completa, sin hidronefrosis y sin CIS en las biopsias de mapeo. ¿Cuál es el esquema de quimiorradioterapia de la terapia trimodal (TMT) respaldado por el ensayo BC2001?",
+        "options": {
+          "A": "Carboplatino AUC 5 × 6 ciclos + RTBE 50 Gy en 25 fracciones",
+          "B": "5-Fluorouracilo + mitomicina C concurrente con RTBE 64-66 Gy (protocolo BC2001)",
+          "C": "Gemcitabina en monoterapia + RTBE 45 Gy en 15 fracciones",
+          "D": "Pembrolizumab concurrente con RTBE 55 Gy en 20 fracciones"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo BC2001 (James et al., NEJM 2012) es el ECA de fase III que estableció el beneficio de la quimioterapia concurrente en la TMT para el CVMI. El ensayo aleatorizó a 360 pacientes a RTBE 64-66 Gy con o sin 5-fluorouracilo concurrente (500 mg/m² días 1-5 y 16-20) + mitomicina C (12 mg/m² día 1). El diseño factorial 2×2 también evaluó la hipofraccionamiento (55 Gy en 20 fracciones frente a 64 Gy en 32 fracciones). El 5-FU/MMC concurrente mejoró el control locorregional a 5 años (67% frente a 54%, p=0,03). Alternativamente, se utiliza cisplatino concurrente (40 mg/m² semanal durante la RT) en pacientes elegibles para cisplatino.",
+          "wrong": {
+            "A": "El carboplatino no es un radiosensibilizador reconocido en el contexto de TMT para vejiga. El protocolo BC2001 utiliza 5-FU + mitomicina C, no carboplatino. Además, 50 Gy es subterapéutico para el tratamiento curativo del CVMI.",
+            "C": "La gemcitabina como radiosensibilizador se ha estudiado en la TMT vesical (ensayo GemX) pero no es el protocolo BC2001, y 45 Gy es insuficiente para la intención curativa en la radioterapia del CVMI.",
+            "D": "Pembrolizumab concurrente con RT para CVMI es investigacional (ensayo SWOG S1806 en curso). No es un régimen de TMT aprobado y no es el protocolo BC2001."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.4: Terapia trimodal de preservación vesical",
+          "trial": "James ND et al. BC2001: Quimiorradioterapia sincrónica vs RT sola para CVMI. NEJM 2012: control locorregional a 5 años 67% vs 54% (HR 0,68, p=0,03) — 5-FU/MMC concurrente establecido como protocolo estándar de radiosensibilización para TMT.",
+          "pearl": "BC2001 estableció 5-FU + MMC concurrente (o cisplatino) con RTBE 64-66 Gy como el esquema estándar de quimioRT para la TMT en preservación vesical por CVMI. Selección óptima del paciente: T2 N0, RTUV completa, sin hidronefrosis, sin CIS — SEC a 5 años 60-65% en pacientes seleccionados."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

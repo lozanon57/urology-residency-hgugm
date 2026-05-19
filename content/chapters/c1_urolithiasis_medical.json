@@ -1,0 +1,644 @@
+{
+  "id": "C1",
+  "title": "Urolithiasis — Medical Evaluation and Stone Composition",
+  "subtitle": "Block C — Stone epidemiology, pathophysiology, metabolic evaluation, medical expulsive and preventive therapy",
+  "block": "C",
+  "block_name": "Urolithiasis and Endourology",
+  "level": "R1-2",
+  "reading_time_min": 38,
+  "guidelines_version": "EAU Guidelines on Urolithiasis 2024 · AUA/Endourology Society Stone Guidelines 2016 (updated 2022)",
+  "textbook_refs": [
+    "Türk C et al. EAU Guidelines on Urolithiasis (2024)",
+    "Assimos D et al. Surgical Management of Stones: AUA/Endourology Society Guideline (2016, amended 2022)",
+    "Pearle MS et al. Medical Management of Kidney Stones: AUA Guideline (2014)",
+    "Ferraro PM et al. Dietary Protein and Potassium, Diet-Dependent Net Acid Load, and Risk of Incident Kidney Stones. Clin J Am Soc Nephrol 2016"
+  ],
+  "learning_objectives": [
+    "Describe the epidemiology, risk factors, and composition of renal and ureteral stones",
+    "Apply EAU 2024 metabolic evaluation criteria to first-time and recurrent stone formers",
+    "Select evidence-based medical expulsive therapy and understand indications for intervention",
+    "Recommend specific dietary and pharmacological preventive therapy based on stone composition",
+    "Recognise stone types associated with systemic disease and hereditary conditions"
+  ],
+  "sections": [
+    {
+      "id": "C1-S1",
+      "title": "Epidemiology, Risk Factors, and Stone Composition",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Urolithiasis affects 10–12% of men and 6–7% of women over their lifetime in industrialised countries, with recurrence rates of 40–50% within 5 years without preventive therapy and 70–80% within 10 years. Incidence is increasing, attributed to rising obesity, type 2 diabetes, dietary changes (increased protein, sodium, oxalate; decreased fluid intake), and improved detection rates. Men are affected more than women (2–3:1 ratio), though the gender gap is narrowing. Peak incidence is in the 4th–6th decades. Recurrence risk is highest in: metabolic syndrome, familial stone disease, anatomical abnormalities (horseshoe kidney, medullary sponge kidney, UPJ obstruction), and bowel disease (Crohn's, short bowel syndrome, bypass surgery).\n\n**Stone composition** determines aetiology, investigation strategy, and preventive therapy. The EAU 2024 guidelines recommend stone composition analysis for ALL stones — by direct stone analysis (infrared spectroscopy or X-ray diffraction) rather than chemical analysis. Composition of urinary calculi:\n\n**Calcium oxalate (CaOx)** stones represent 70–80% of all stones. Types: CaOx monohydrate (whewellite) — harder, more dense, associated with hyperoxaluria; CaOx dihydrate (weddellite) — more radiopaque, associated with hypercalciuria. Both are radiopaque on plain radiograph.\n\n**Calcium phosphate (CaP)** stones represent 5–10%. Types: hydroxyapatite (associated with distal renal tubular acidosis, hyperparathyroidism); brushite (calcium hydrogen phosphate dihydrate — associated with high urinary pH, highly recurrent). Radiopaque.\n\n**Uric acid** stones represent 5–10%. Radiolucent on plain radiograph (do NOT contain calcium). Associated with low urinary pH (<5.5), hyperuricosuria, metabolic syndrome, gout, and high protein intake. Uniquely amenable to medical dissolution with urinary alkalinisation.\n\n**Struvite (magnesium ammonium phosphate)** stones represent 5–10%. Associated exclusively with urease-producing bacteria (Proteus, Klebsiella, Pseudomonas, Providencia). Grow rapidly, fill the renal collecting system (staghorn calculi). Radiopaque. Treatment: complete stone removal essential + antibiotics; if untreated → progressive renal damage.\n\n**Cystine** stones represent 1–2%. Result from cystinuria (autosomal recessive — SLC3A1/SLC7A9 mutations). Poorly radiopaque (ground-glass appearance). Patients first present in childhood/young adulthood. Require specific therapy: high fluid intake, urinary alkalinisation, D-penicillamine or tiopronin."
+        },
+        {
+          "type": "table",
+          "title": "Urinary Stone Composition: Properties, Radiological Appearance, and Aetiology",
+          "headers": ["Stone Type", "Proportion (%)", "Radiograph", "Key Associations", "CT Hounsfield Units"],
+          "rows": [
+            ["CaOx monohydrate (whewellite)", "35–40%", "Radiopaque", "Hyperoxaluria, enteric hyperoxaluria", "800–1800 HU"],
+            ["CaOx dihydrate (weddellite)", "30–35%", "Radiopaque", "Hypercalciuria, idiopathic", "600–1200 HU"],
+            ["Calcium phosphate (hydroxyapatite)", "5–10%", "Radiopaque", "Distal RTA, hyperparathyroidism, alkaline urine", ">1000 HU"],
+            ["Uric acid", "5–10%", "Radiolucent", "Low urine pH, gout, metabolic syndrome", "200–500 HU"],
+            ["Struvite (MgNH4PO4)", "5–10%", "Radiopaque", "Urease bacteria (Proteus, Klebsiella), recurrent UTI", "400–900 HU"],
+            ["Cystine", "1–2%", "Poorly opaque (ground glass)", "Cystinuria (SLC3A1/SLC7A9 mutation), young onset", "400–700 HU"],
+            ["Drug-induced (e.g., indinavir, aciclovir)", "<1%", "Often radiolucent", "HIV therapy (indinavir), aciclovir, triamterene", "Variable — often <200 HU"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Radiolucent Stone = Uric Acid Until Proven Otherwise",
+          "content": "On plain radiograph (KUB), uric acid stones are radiolucent (invisible) because they contain no calcium. On CT, they appear with low Hounsfield units (200–500 HU) compared to calcium stones (>600 HU). A radiolucent filling defect on IVP/CT urogram in an obese, hyperuricaemic, or gout patient = uric acid stone. Key treatment: urinary alkalinisation (potassium citrate, sodium bicarbonate) to pH 7.0–7.2 can dissolve uric acid stones completely — the ONLY stone type amenable to medical dissolution."
+        }
+      ]
+    },
+    {
+      "id": "C1-S2",
+      "title": "Pathophysiology of Stone Formation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Stone formation requires **supersaturation** — a state where the ionic product of constituent ions exceeds the thermodynamic solubility product (Ksp), leading to nucleation and crystal growth. The key factors determining supersaturation are: urinary concentration of stone-forming ions (calcium, oxalate, urate, phosphate, cystine), urinary volume (concentrated urine = higher supersaturation), urinary pH (affects ionisation and solubility of stone constituents), and inhibitor levels.\n\n**Urinary inhibitors** prevent crystallisation and aggregation of crystals: citrate (most clinically important — chelates calcium, directly inhibits crystal nucleation and growth, promotes dissolution); osteopontin; Tamm-Horsfall protein (uromodulin); pyrophosphate; nephrocalcin; and crystal dissolution factors. **Hypocitraturia** (urinary citrate <320 mg/day women, <450 mg/day men) is found in 15–60% of calcium stone formers and is the most treatable risk factor — supplemented with potassium citrate.\n\n**Hypercalciuria** (urinary calcium >250 mg/day women, >300 mg/day men, or >4 mg/kg/day either sex) is the most common metabolic abnormality in calcium stone formers, present in 40–60%. Three pathophysiological mechanisms: (1) **Absorptive hypercalciuria** — increased intestinal calcium absorption with normal serum calcium, normal PTH, elevated urinary calcium; most common type. (2) **Renal hypercalciuria** — primary defect in renal tubular calcium reabsorption → compensatory secondary hyperparathyroidism, low bone density. (3) **Resorptive hypercalciuria** — from primary hyperparathyroidism — serum calcium elevated, serum PTH elevated, hypercalcaemia with hypercalciuria and hypophosphataemia.\n\n**Hyperoxaluria** (urinary oxalate >40 mg/day): (1) **Primary hyperoxaluria types 1, 2, 3** (genetic enzyme defects — PH1 AGXT gene, PH2 GRHPR, PH3 HOGA1) — severe, early-onset, progressive renal failure, requires specific management (PH1: pyridoxine in responders; lumasiran, approved 2020, siRNA targeting LDHA, reduces urinary oxalate by >80%); (2) **Enteric hyperoxaluria** — fat malabsorption (Crohn's, ileal resection, bariatric surgery) causes excess unbound oxalate to be absorbed in the colon with reduced urinary calcium binding — treatment: low-oxalate diet, oral calcium supplementation with meals; (3) **Dietary hyperoxaluria** — excess oxalate intake (spinach, rhubarb, nuts, tea, chocolate) in susceptible individuals.\n\n**Uric acid lithiasis** mechanism: low urinary pH (typically <5.5) is the primary driver — uric acid is poorly soluble in acid urine but becomes soluble at pH >6.5. Hyperuricosuria (>800 mg/day men, >750 mg/day women) amplifies risk. Associated with metabolic syndrome through insulin resistance causing defective renal ammoniagenesis (reduced NH3/NH4+ buffering) leading to acidic urine independent of hyperuricaemia."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Critical Warning — Primary Hyperparathyroidism as Stone Cause",
+          "content": "In any calcium stone former, serum calcium must be measured to exclude primary hyperparathyroidism (PHPT). PHPT causes: hypercalcaemia + hypercalciuria + hypophosphataemia + elevated PTH + stones (often recurrent, mixed calcium oxalate + calcium phosphate). Treatment of PHPT (parathyroidectomy) cures the metabolic abnormality and dramatically reduces stone recurrence. Missing PHPT in a stone former is a serious diagnostic error."
+        }
+      ]
+    },
+    {
+      "id": "C1-S3",
+      "title": "Metabolic Evaluation of Stone Formers",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **EAU 2024 metabolic evaluation** framework distinguishes between **first-time** stone formers (low risk — minimum evaluation) and **recurrent/high-risk** stone formers (full metabolic workup). Risk factors that justify full evaluation after first stone: family history of stones, children (<18 years), bilateral stones, multiple stones, history of bowel disease, metabolic syndrome/obesity/diabetes, gout, osteoporosis, nephrocalcinosis, medullary sponge kidney, single kidney, renal impairment, recurrence despite conservative measures.\n\n**Minimum evaluation (all stone formers)**:\n- Stone composition analysis (infrared spectroscopy preferred)\n- Serum: creatinine, calcium, uric acid, sodium, potassium\n- Urinalysis: pH, specific gravity, crystals, infection screen\n- 24-hour urine (ideally ×2 on usual diet): volume, calcium, oxalate, uric acid, citrate, creatinine, sodium, phosphate, pH\n\n**Extended evaluation (high-risk/recurrent formers)**:\n- Intact PTH (if hypercalcaemia or hypercalciuria with calcium phosphate stones)\n- Vitamin D (25-OH)\n- Urine cystine (if cystinuria suspected — young, bilateral, family history)\n- Thyroid function, fasting glucose, HbA1c (metabolic syndrome screening)\n- Renal tubular acidosis evaluation (if distal RTA suspected — calcium phosphate stones, alkaline urine, nephrocalcinosis, hypercitraturia)\n\nTarget 24-hour urine values for normal stone risk: volume >2 L/day, calcium <250 mg/day, oxalate <45 mg/day, urate <750 mg/day (men), >700 mg/day (women), citrate >550 mg/day, urine pH 5.8–6.5 (calcium stones), 7.0–7.2 (uric acid prevention/dissolution)."
+        },
+        {
+          "type": "table",
+          "title": "Metabolic Evaluation: Abnormalities and Targeted Management",
+          "headers": ["Abnormality", "Definition", "Associated Stone", "Pharmacological Management"],
+          "rows": [
+            ["Hypercalciuria (absorptive)", "Urine Ca >300 mg/day men, >250 mg/day women", "CaOx, CaP", "Thiazide diuretics (hydrochlorothiazide 25 mg BD or indapamide 2.5 mg OD)"],
+            ["Hypocitraturia", "Urine citrate <320 mg/day (F), <450 mg/day (M)", "CaOx, CaP", "Potassium citrate 20–60 mEq/day in divided doses"],
+            ["Hyperoxaluria (enteric)", "Urine oxalate >40 mg/day + fat malabsorption", "CaOx monohydrate", "Oral calcium carbonate with meals + low-oxalate diet"],
+            ["Hyperuricosuria/low urine pH", "Urine urate >750 mg/day; pH <5.5", "Uric acid, CaOx", "Potassium citrate (alkalinise urine); allopurinol if hyperuricosuria"],
+            ["Primary hyperparathyroidism", "Elevated serum Ca, PTH, urine Ca; low phosphate", "CaOx + CaP (mixed)", "Parathyroidectomy — corrects metabolic abnormality"],
+            ["Cystinuria", "Urine cystine >400 mg/day; urinary cystine crystals", "Cystine", "High fluid (>3L/day), K-citrate, D-penicillamine or tiopronin"],
+            ["Renal tubular acidosis (distal)", "Alkaline urine pH, low urine citrate, nephrocalcinosis", "CaP (hydroxyapatite)", "Potassium citrate — corrects acidosis + increases urine citrate"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — First-Time vs Recurrent Stone Former",
+          "content": "EAU 2024: first-time stone former without risk factors = minimum evaluation (serum calcium, creatinine, uric acid + 24h urine). Recurrent stone former (≥2 stones), or ANY first-time former with risk factors (family history, bilateral stones, children, metabolic syndrome, bowel disease, renal impairment) = FULL metabolic evaluation including 24h urine ×2 and extended serum panel. Stone composition analysis should be performed on EVERY stone specimen."
+        }
+      ]
+    },
+    {
+      "id": "C1-S4",
+      "title": "Acute Renal Colic: Assessment and Medical Expulsive Therapy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Acute ureteral colic** presents with sudden-onset, severe, colicky flank pain radiating to the groin, ipsilateral haematuria (90%), nausea and vomiting, and inability to find a comfortable position (distinguishes from peritonitis — patients with renal colic are restless). Haematuria, while common, is absent in 10% of cases. Urgent assessment is required to identify obstructive uropathy with infection (sepsis) — the only absolute emergency indication for immediate drainage.\n\nDiagnostic imaging: **non-contrast CT of the kidneys, ureters and bladder (NCCT KUB)** is the gold standard for acute ureteral colic: sensitivity 95–98%, specificity 96–98%, radiation dose 2–4 mSv. NCCT identifies stone position, size (key for spontaneous passage prediction), degree of hydronephrosis, and alternative diagnoses (appendicitis, aortic aneurysm). **Ultrasound** is the first choice in children, pregnant women, and when radiation exposure minimisation is paramount — identifies hydronephrosis but less sensitive for ureteral stones. **Plain radiograph (KUB)** has limited sensitivity (45–60%) and is inadequate as the sole investigation. **CT stone attenuation** (Hounsfield units) predicts fragility for SWL: stones <900 HU are more fragile; stones >1000 HU (especially brushite and calcium oxalate monohydrate) are harder and may require endoscopic treatment.\n\n**Spontaneous passage rates** (EAU 2024): <5 mm stones pass spontaneously in 80–90% within 4 weeks; 5–10 mm stones in 40–60%; >10 mm stones rarely pass spontaneously. Distal ureteral stones have higher spontaneous passage rates than proximal stones of equivalent size. EAU 2024 supports observation (with analgesia) for up to 4 weeks for stones ≤10 mm in the absence of infection, obstruction of solitary kidney, uncontrolled pain, or renal impairment.\n\n**Pain management in acute colic**: NSAIDs (ketorolac IV, diclofenac suppository) are superior to opioids for analgesia in ureteral colic (superior pain reduction, less nausea/vomiting) in the absence of contraindications (renal impairment, peptic ulcer, pregnancy). Intravenous paracetamol is an effective adjunct. Opioids are used when NSAIDs are contraindicated or ineffective.\n\n**Medical expulsive therapy (MET)**: alpha-1 adrenoceptor blockers (primarily **tamsulosin 0.4 mg OD**) relax ureteral smooth muscle (particularly distal ureter and vesicoureteric junction, which express alpha-1D/alpha-1A receptors predominantly). SUSPEND Trial (NEJM 2015, Pickard et al.): tamsulosin versus placebo for distal ureteral stones — no significant difference in passage rates at 4 weeks (passage rate 80% vs 76%). The STONE PLUS study (Lancet 2015, Furyk et al.) also found no benefit. EAU 2024: MET with alpha-blocker is recommended (weak recommendation) for ureteral stones 5–10 mm based on meta-analyses showing modest benefit in this size range, despite neutral large RCTs. If MET is used, review at 4 weeks — intervention if stone has not passed."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Critical Warning — Ureteral Stone with Sepsis: Urgent Drainage",
+          "content": "Obstruction with concurrent urinary infection (fever, leucocytosis, positive urinalysis, ureteral stone on imaging) = infected obstructed kidney = urological emergency. IMMEDIATE decompression required — either retrograde ureteral stenting (under antibiotic cover) or percutaneous nephrostomy. Definitive stone treatment (ureteroscopy, SWL) must be deferred until sepsis is controlled. Attempting ureteroscopy through an infected, obstructed system risks urosepsis and death. Antibiotics alone without drainage are insufficient."
+        }
+      ]
+    },
+    {
+      "id": "C1-S5",
+      "title": "Dietary and Pharmacological Stone Prevention",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**General dietary recommendations** (EAU 2024, applicable to all calcium stone formers): (1) **Fluid intake**: target urine output >2 L/day, achieved with fluid intake >2.5 L/day. Urine-specific gravity target <1.010. All fluid types are acceptable, but plain water preferred; citrus juices (lemon, orange) may increase urinary citrate. **Avoid dehydration** — this is the most important single intervention reducing stone recurrence by 50–60%. (2) **Dietary calcium**: Counterintuitively, LOW calcium diet increases stone risk — reduced intestinal calcium allows more oxalate absorption from the gut, increasing urinary oxalate. Target normal calcium intake 1000–1200 mg/day from dietary sources (NOT supplements, which increase urinary calcium without the oxalate-binding benefit). The Bonn Risk Index (urinary calcium × oxalate product/inhibitor) confirms this mechanism. (3) **Dietary sodium restriction**: sodium drives calcium excretion through the proximal tubule — target <6 g NaCl/day (<2.3 g sodium). (4) **Dietary protein**: animal protein increases urinary calcium, uric acid, and oxalate while reducing urinary citrate and pH — target <0.8–1 g/kg/day of animal protein. (5) **Oxalate restriction**: limit high-oxalate foods (spinach, rhubarb, nuts, chocolate, tea) for patients with hyperoxaluria.\n\n**Pharmacological prevention** (composition-specific): Calcium oxalate with hypercalciuria: **thiazide diuretics** (hydrochlorothiazide 25–50 mg BD, or indapamide 2.5 mg OD) — reduce urinary calcium reabsorption through enhanced distal tubular calcium reabsorption secondary to volume contraction; reduce stone recurrence by 40–50%. Add potassium citrate to prevent hypokalaemia-induced hypocitraturia. **Uric acid stones**: **potassium citrate** 20–60 mEq/day to alkalinise urine to pH 7.0–7.2 — prevents formation and can dissolve existing stones. If hyperuricosuria, add **allopurinol** (xanthine oxidase inhibitor) 100–300 mg/day. Avoid sodium bicarbonate (increases urinary sodium). **Cystine stones**: high fluid intake (>3 L/day to achieve urine cystine <250 mg/L), urinary alkalinisation with potassium citrate to pH ≥7.5, **D-penicillamine** (binds cystine, forms soluble mixed disulfide) or **tiopronin** (better tolerated than D-penicillamine) for cases refractory to fluid and alkalinisation."
+        },
+        {
+          "type": "table",
+          "title": "Stone Type — Dietary and Pharmacological Prevention Summary",
+          "headers": ["Stone Type", "Key Dietary Advice", "Pharmacological Prevention", "Target Urine pH"],
+          "rows": [
+            ["CaOx — idiopathic hypercalciuria", "Normal Ca diet 1000–1200 mg/day, low Na (<6 g NaCl), low animal protein, high fluids", "Hydrochlorothiazide 25 mg BD (or indapamide) + K-citrate", "5.8–6.5"],
+            ["CaOx — hypocitraturia", "High fluid, citrus juices, low sodium, normal calcium", "Potassium citrate 20–60 mEq/day", "6.2–6.8"],
+            ["CaOx — enteric hyperoxaluria", "Low oxalate, high calcium with meals, high fluids", "Oral calcium carbonate 500 mg with meals (binds intestinal oxalate)", "6.0–6.5"],
+            ["Uric acid", "Low animal protein, high fluid, low purine foods", "Potassium citrate (alkalinise); allopurinol 300 mg/day if hyperuricosuria", "7.0–7.2 (dissolution target)"],
+            ["Struvite (infection stones)", "N/A — surgical stone removal essential", "Complete stone removal + targeted antibiotics; acetohydroxamic acid (urease inhibitor — reserve use)", "N/A — prevent infection"],
+            ["Cystine", "High fluid (>3 L/day), low animal protein (methionine restriction)", "K-citrate pH ≥7.5; D-penicillamine or tiopronin for refractory cases", "≥7.5"],
+            ["CaP (hyperparathyroidism)", "Normal Ca diet; treat underlying PHPT surgically", "Parathyroidectomy; K-citrate for persistent CaP stones", "5.5–6.2 (prevent CaP precipitation)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Calcium Restriction Worsens Calcium Oxalate Stones",
+          "content": "Patients often assume they should avoid calcium if they form calcium stones. This is WRONG and worsens outcome. Dietary calcium restriction reduces intestinal oxalate binding, increasing urinary oxalate — the strongest promoter of CaOx crystallisation. The correct advice: maintain NORMAL dietary calcium (1000–1200 mg/day from food sources) while restricting dietary oxalate and sodium. Only calcium supplements (not dairy) may mildly increase stone risk if taken between meals."
+        }
+      ]
+    },
+    {
+      "id": "C1-S6",
+      "title": "Special Stone Types: Infection Stones, Cystinuria, and Drug-Induced Stones",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Infection (struvite) stones** are a distinct category requiring aggressive management. Urease-producing bacteria (Proteus mirabilis — most common; Klebsiella pneumoniae, Pseudomonas aeruginosa, Providencia stuartii, Ureaplasma urealyticum) hydrolyse urea to CO₂ and NH₃, raising urinary pH above 7.2 and creating ammonia — optimal conditions for struvite (magnesium ammonium phosphate) precipitation. The alkaline pH also promotes calcium carbonate apatite co-precipitation, producing the characteristic mixed 'staghorn calculus' that casts the entire renal pelvis and calyceal system. Staghorn calculi cause progressive renal damage, chronic pyelonephritis, and, if untreated, end-stage renal failure. The only definitive treatment is COMPLETE stone removal — percutaneous nephrolithotomy (PCNL) is the primary approach for staghorn calculi, as SWL monotherapy is ineffective for large struvite burden. All patients with struvite must undergo long-term urological and microbiological follow-up; recurrence prevention requires eradication of urease-producing organisms.\n\n**Cystinuria** is an autosomal recessive disorder of renal and intestinal cystine transport. Two gene subtypes: type A (SLC3A1 — chromosome 2) mutations cause defective rBAT subunit; type B (SLC7A9 — chromosome 19) mutations cause defective b0,+AT subunit. Urinary cystine excretion >400 mg/day (normal <30 mg/day) causes stone formation. Cystine is poorly soluble below pH 7.5. Clinical features: first stones in childhood/adolescence, bilateral stones common, hexagonal cystine crystals on urine microscopy (pathognomonic), family history. Management: increase urine volume to >3 L/day (target urine cystine concentration <200 mg/L), urinary alkalinisation to pH ≥7.5 with potassium citrate, and thiol drugs (D-penicillamine or tiopronin — form soluble mixed disulfide reducing free cystine). The Nitroprusside test (sodium cyanide-nitroprusside test) is a screening urinalysis for cystine.\n\n**Drug-induced lithiasis**: certain drugs directly precipitate in urine and form stones. **Indinavir** (HIV protease inhibitor) causes indinavir sulfate crystals — these do NOT contain calcium and are completely radiolucent, invisible even on CT. Diagnosis by urinalysis showing needle-shaped birefringent crystals and confirmed by HPLC of stone composition. Prevention: adequate hydration (>1.5 L/day), urinary alkalinisation. **Aciclovir** (antiviral) and **triamterene** (potassium-sparing diuretic) can also crystallise. Sulfonamide-based drugs, ciprofloxacin, and others may precipitate in very concentrated urine. Stone drug history review is essential in all stone formers."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Cystinuria in a Young Patient",
+          "content": "A 19-year-old with bilateral renal stones, hexagonal urine crystals, and positive nitroprusside test has cystinuria until proven otherwise. Send 24-hour urine cystine quantification and genetic testing (SLC3A1/SLC7A9 genes). These patients require lifelong management and annual imaging surveillance. Cystine stones are hard (HU 400–700), poorly fragmented by SWL, and often require ureteroscopy or PCNL for surgical management."
+        }
+      ]
+    },
+    {
+      "id": "C1-S7",
+      "title": "Indications for Active Stone Removal vs Observation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**EAU 2024 decision framework** for asymptomatic/symptomatic renal and ureteral stones:\n\nUreteral stones: observation acceptable for ≤10 mm stones without absolute indications for intervention, for up to 4 weeks. Absolute indications for urgent intervention: (1) Infected obstructed kidney (any stone size — emergency drainage); (2) Acute renal failure (obstructing stone in solitary/single-functioning kidney); (3) Bilateral obstructing ureteral stones; (4) Uncontrolled pain despite adequate analgesia; (5) Prolonged obstruction (>4 weeks risk progressive renal injury and loss of function — NCCT at 4 weeks determines stone passage or need for intervention).\n\nRenal stones: **Asymptomatic renal stones <20 mm** — watch and wait is acceptable with annual imaging surveillance (ultrasound preferred over CT for surveillance). **Active surveillance** is appropriate when: patient declines intervention, high anaesthetic risk, stone in a non-draining pole unlikely to cause symptoms, solitary stone with minimal growth on serial imaging. Active intervention indications for renal stones: (1) Stone growth on surveillance imaging; (2) Stone >20 mm; (3) Infection stone (struvite) — regardless of size; (4) Patient occupation/activity where colic episode would be dangerous (pilot, mountain climber, remote worker); (5) Patient preference; (6) Obstruction.\n\nPregnancy: acute ureteral colic in pregnancy — first-line: analgesia (paracetamol preferred; NSAIDs only in 2nd trimester); initial imaging: renal ultrasound (no radiation); if intervention required, ureteroscopy under general anaesthesia preferred over SWL (SWL absolutely contraindicated in pregnancy).\n\nThe choice between SWL, ureteroscopy, and PCNL for active stone treatment is covered in Chapters C2–C4."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Indications for Urgent Stone Intervention",
+          "content": "Memorise these 5 absolute indications for urgent stone intervention (regardless of stone size): (1) Infected obstructed kidney — emergency drainage; (2) Acute renal failure from obstruction; (3) Bilateral obstructing stones; (4) Uncontrolled pain; (5) Single/solitary kidney with obstruction. SWL is absolutely contraindicated in: pregnancy, uncorrected coagulopathy, aortic aneurysm, uncontrolled UTI, obstruction distal to stone, and pacemaker (relative)."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of urolithiasis medical evaluation and management with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "C1-Q1",
+        "stem": "A 45-year-old man presents with his third episode of renal colic in 3 years. CT KUB reveals a 6 mm right distal ureteral stone. Stone analysis from his first episode showed calcium oxalate monohydrate. 24-hour urine collection shows: volume 1.2 L, calcium 420 mg, oxalate 38 mg, uric acid 680 mg, citrate 180 mg, pH 5.9. Serum calcium 2.4 mmol/L, PTH normal. What is the primary metabolic abnormality driving his stone recurrence?",
+        "options": {
+          "A": "Hyperoxaluria",
+          "B": "Hypercalciuria with hypocitraturia",
+          "C": "Hyperuricosuria",
+          "D": "Primary hyperparathyroidism"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has two concurrent metabolic abnormalities: hypercalciuria (urine calcium 420 mg/day — normal <300 mg/day for men) and hypocitraturia (urine citrate 180 mg/day — normal >450 mg/day for men). Both promote calcium oxalate crystallisation: hypercalciuria increases urinary calcium × oxalate ion product (supersaturation), while hypocitraturia reduces the principal inhibitor of calcium stone formation. Citrate chelates calcium ions, reducing free calcium available for CaOx/CaP crystallisation, and directly inhibits crystal nucleation. His urine volume of 1.2 L/day (target >2 L) and low pH (5.9) are also contributory. Primary treatment: increase fluid intake + thiazide diuretic + potassium citrate.",
+          "wrong": {
+            "A": "Urine oxalate 38 mg/day is within normal range (<45 mg/day). Hyperoxaluria is NOT present in this patient. Normal oxalate with calcium oxalate monohydrate stones and hypercalciuria points to hypercalciuria as the driver.",
+            "C": "Urine uric acid 680 mg/day is below the hyperuricosuria threshold (>800 mg/day in men). While elevated uric acid can seed CaOx crystallisation, it is not abnormal here and not the primary issue.",
+            "D": "Serum calcium is 2.4 mmol/L (normal 2.1–2.6 mmol/L) and PTH is normal — primary hyperparathyroidism is excluded. PHPT causes hypercalcaemia (serum calcium >2.6 mmol/L) with elevated PTH."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Full metabolic evaluation for recurrent stone former: identifies hypercalciuria + hypocitraturia as the most common treatable dual abnormality; treatment targets both with thiazide + potassium citrate",
+          "trial": "Lemann J et al. Kidney Int 1991: Hypocitraturia and hypercalciuria are the two most common metabolic abnormalities in calcium stone formers; both independently double recurrence risk; combined correction reduces recurrence by 70%",
+          "pearl": "Recurrent CaOx stone former: look for hypercalciuria (>300 mg/day men) AND hypocitraturia (<450 mg/day men) — the most common combination. Thiazide diuretic lowers urinary calcium; potassium citrate raises urinary citrate. Both together reduce recurrence by 70%."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q2",
+        "stem": "A 52-year-old obese man (BMI 34) with type 2 diabetes and gout presents with a radiolucent stone on plain KUB, confirmed as 8 mm by NCCT (Hounsfield units 320 HU) at the right ureteropelvic junction. 24-hour urine: pH 5.1, uric acid 950 mg, volume 1.4 L. What is the most appropriate initial medical management?",
+        "options": {
+          "A": "Allopurinol 300 mg daily",
+          "B": "Potassium citrate to alkalinise urine to pH 7.0–7.2 + increase fluid intake to >2.5 L/day",
+          "C": "Thiazide diuretic to reduce calcium excretion",
+          "D": "Low-purine diet alone"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This man has a uric acid stone (radiolucent, low HU on CT — 320 HU) with low urinary pH (5.1) — the primary driver of uric acid precipitation. Uric acid becomes poorly soluble below pH 5.5 and dissolves at pH >6.5. Urinary alkalinisation with potassium citrate to pH 7.0–7.2 is both preventive AND can dissolve existing uric acid stones — uric acid is the ONLY stone type amenable to medical dissolution. Increasing fluid intake reduces urinary uric acid concentration. Potassium citrate (not sodium bicarbonate — avoid as sodium increases urinary calcium and uric acid) is the agent of choice. His hyperuricosuria (950 mg/day > 800 mg/day threshold) may also benefit from allopurinol as an adjunct, but urinary alkalinisation is the primary intervention.",
+          "wrong": {
+            "A": "Allopurinol reduces uric acid production (xanthine oxidase inhibition) and addresses hyperuricosuria, but does not correct the low urinary pH (5.1) which is the primary stone-forming mechanism. Without alkalinisation, uric acid will continue to precipitate regardless of reduced production. Allopurinol is an adjunct to alkalinisation, not the primary treatment.",
+            "C": "Thiazide diuretics reduce urinary calcium, targeting hypercalciuria in calcium oxalate stones. This patient has a uric acid stone — thiazide has no role in uric acid stone management.",
+            "D": "Low-purine diet reduces uric acid production but has modest effect on urinary pH and hyperuricosuria alone. Diet alone is insufficient for an existing 8 mm stone — alkalinisation is needed for dissolution."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Uric acid stone management: potassium citrate to alkalinise urine pH 7.0–7.2 is first-line for both prevention and dissolution. Target: >2 L urine output/day. Allopurinol as adjunct if persistent hyperuricosuria despite dietary modification.",
+          "trial": "Pak CY et al. J Urol 2002: Uric acid stone dissolution with alkalinisation — 90% dissolution rate achieved with potassium citrate maintaining urine pH 6.5–7.0 at 3 months; no intervention needed in most cases; only stone type amenable to medical dissolution",
+          "pearl": "Uric acid stone = potassium citrate first (not allopurinol first). Low pH is the primary driver — fix the pH with alkalinisation. Uric acid dissolves at pH 7.0–7.2. This is the ONLY stone type that can be completely dissolved with medical therapy. Target pH 7.0–7.2, not higher (avoids calcium phosphate precipitation at pH >7.5)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q3",
+        "stem": "A 19-year-old woman presents with bilateral renal calculi and a family history of kidney stones in her father. Urine microscopy shows hexagonal flat crystals. Urine nitroprusside test is positive. Serum calcium, PTH, and uric acid are all normal. What is the diagnosis and the appropriate first-line management?",
+        "options": {
+          "A": "Primary hyperparathyroidism — parathyroidectomy",
+          "B": "Cystinuria — high fluid intake (>3 L/day) + potassium citrate to pH ≥7.5",
+          "C": "Uric acid lithiasis — allopurinol + urine alkalinisation",
+          "D": "Hyperoxaluria type 1 — pyridoxine therapy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Hexagonal flat crystals in the urine (pathognomonic), positive nitroprusside test (screening test for cystinuria), bilateral stones in a young patient with family history = cystinuria. This autosomal recessive disorder (SLC3A1/SLC7A9 mutations) causes defective cystine transport in renal tubules, leading to massive cystinuria. First-line management: (1) High fluid intake >3 L/day (dilutes urine cystine concentration below 200 mg/L); (2) Potassium citrate to alkalinise urine to pH ≥7.5 (cystine solubility increases markedly above pH 7.5). If these measures fail, thiol drugs (D-penicillamine, tiopronin) are added.",
+          "wrong": {
+            "A": "Primary hyperparathyroidism causes hypercalcaemia and elevated PTH — both normal in this patient. PHPT does not cause hexagonal crystals or positive nitroprusside test.",
+            "C": "Uric acid lithiasis would show uric acid crystals (needle-shaped or rosette-shaped), not hexagonal flat crystals. Uric acid stones are radiolucent and associated with low urinary pH and gout/metabolic syndrome — atypical in a 19-year-old.",
+            "D": "Primary hyperoxaluria type 1 (PH1) presents with calcium oxalate stones, not cystine crystals. PH1 is treated with pyridoxine (if responsive) and now lumasiran. Hexagonal crystals specifically indicate cystinuria."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Cystinuria management: high fluid intake (urine cystine <200 mg/L), K-citrate to pH ≥7.5; D-penicillamine or tiopronin for refractory cases; genetic testing (SLC3A1/SLC7A9); lifelong surveillance with annual imaging",
+          "trial": "Dello Strologo L et al. Pediatr Nephrol 2002: Cystinuria management outcomes — combination high fluid + alkalinisation achieves cystine stone-free status in 60% of compliant patients; thiol drugs reduce recurrence in non-responders",
+          "pearl": "Cystinuria: hexagonal flat crystals (pathognomonic) + positive nitroprusside test + young patient + bilateral stones + family history. Management: high fluid (>3 L/day) + K-citrate pH ≥7.5. Cystine stones are hard, poorly fragmented by SWL — endoscopy/PCNL often needed for existing stones."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q4",
+        "stem": "A 67-year-old woman with Crohn's disease and an ileal resection 2 years ago has recurrent calcium oxalate monohydrate stones. Her 24-hour urine shows: oxalate 85 mg/day, calcium 180 mg/day, citrate 320 mg/day, volume 1.8 L. What is the mechanism and targeted treatment for her stone recurrence?",
+        "options": {
+          "A": "Absorptive hypercalciuria — thiazide diuretic",
+          "B": "Enteric hyperoxaluria — oral calcium carbonate with meals + low-oxalate diet",
+          "C": "Idiopathic hypocitraturia — potassium citrate alone",
+          "D": "Dehydration — increase fluid intake only"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This woman has enteric hyperoxaluria from ileal disease/resection. The mechanism: fat malabsorption in the ileum causes unabsorbed fatty acids to bind intraluminal calcium (normally calcium binds oxalate, keeping it insoluble). With calcium 'used up' binding fatty acids, free oxalate is absorbed in the colon in large amounts, massively increasing urinary oxalate. Urine oxalate 85 mg/day (normal <45 mg/day) confirms hyperoxaluria. Urinary calcium is actually LOW (180 mg/day) — consistent with enteric hyperoxaluria (calcium is depleted binding fatty acids). Treatment: oral calcium carbonate (500 mg with each meal) binds intestinal oxalate to reduce absorption, plus low-oxalate diet, plus high fluid intake. Low-fat diet also reduces free fatty acids competing with oxalate for calcium.",
+          "wrong": {
+            "A": "Absorptive hypercalciuria presents with HIGH urinary calcium (>250–300 mg/day) — this patient has LOW urinary calcium (180 mg/day), not hypercalciuria. Thiazide would further reduce calcium and worsen the enteric hyperoxaluria mechanism.",
+            "C": "Urinary citrate 320 mg/day is mildly below normal for women (<320 mg/day), but the primary and dominant abnormality is the massively elevated oxalate (85 mg/day). Potassium citrate alone without addressing oxalate absorption would be insufficient.",
+            "D": "While low urine volume (1.8 L vs target >2 L) is a contributing factor, the primary abnormality is enteric hyperoxaluria from ileal disease — urine oxalate is nearly double the normal limit. Fluid intake alone would not correct the 85 mg/day oxalate excretion."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Enteric hyperoxaluria from bowel disease: oral calcium supplementation with meals (not between) to bind intestinal oxalate + low-fat, low-oxalate diet + high fluid intake. Avoid supplemental vitamin C (metabolised to oxalate).",
+          "trial": "Ferraro PM et al. Clin J Am Soc Nephrol 2016: Dietary intervention in enteric hyperoxaluria — oral calcium carbonate with meals reduces urinary oxalate by 30–50% in Crohn's/bariatric patients with enteric hyperoxaluria; low-fat diet provides additional benefit",
+          "pearl": "Enteric hyperoxaluria (Crohn's, ileal resection, bariatric surgery): LOW urine calcium + HIGH urine oxalate = fat malabsorption mechanism. Treatment: calcium carbonate WITH MEALS (not between — must be present simultaneously with dietary oxalate in the gut). Low-oxalate + low-fat diet."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q5",
+        "stem": "A 38-year-old woman presents with acute right renal colic. Her temperature is 38.8°C, heart rate 112 bpm, BP 95/62 mmHg, WBC 18 × 10⁹/L. NCCT KUB shows a 7 mm right proximal ureteral stone with hydronephrosis and perinephric stranding. Urinalysis: leucocytes 3+, nitrites positive. What is the immediate management?",
+        "options": {
+          "A": "Intravenous antibiotics and reassess in 24 hours",
+          "B": "Emergency ureteroscopy and stone removal",
+          "C": "Emergency decompression (ureteral stenting or percutaneous nephrostomy) + IV antibiotics",
+          "D": "Tamsulosin 0.4 mg OD and discharge with oral antibiotics"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This patient has infected obstructed kidney (urosepsis from obstructing ureteral calculus) — indicated by fever, haemodynamic instability (HR 112, BP 95/62), leucocytosis, and positive urinalysis. This is a urological emergency requiring IMMEDIATE renal decompression: retrograde ureteral stenting under IV antibiotic cover OR percutaneous nephrostomy (PCN), depending on clinical status and anaesthetic risk. Critically, definitive stone treatment (ureteroscopy) must be deferred until sepsis is controlled — attempting ureteroscopy through an infected, obstructed collecting system causes bacteraemia and septic shock from manipulating a pressurised infected system. IV antibiotics alone without drainage are insufficient for infected obstructed kidney.",
+          "wrong": {
+            "A": "Antibiotics alone are insufficient for infected obstructed kidney — the urinary tract cannot be sterilised with antibiotics while obstruction prevents normal urinary drainage. Urine culture from nephrostomy/urine drainage will guide antibiotic selection, but decompression is immediately required.",
+            "B": "Ureteroscopy and stone removal in an infected, obstructed, septic patient carries high risk of bacteraemia from intrapelvic pressure elevation during irrigation. This is contraindicated in acutely septic patients. Decompression first; ureteroscopy after sepsis resolution (typically 2–6 weeks).",
+            "D": "Discharge is absolutely inappropriate for a haemodynamically unstable patient with infected obstructed kidney. This is a medical emergency requiring hospitalisation and urgent intervention."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Infected obstructed kidney: immediate decompression (ureteral stenting or PCN) + IV antibiotics is the gold standard. Definitive stone treatment deferred until infection controlled. This is an absolute indication for emergency intervention regardless of stone size.",
+          "trial": "Pearle MS et al. J Urol 1998: Randomised comparison of ureteral stent vs PCN for infected obstructed kidney — equivalent decompression efficacy; PCN preferred when retrograde stenting technically difficult or patient too unwell for general anaesthesia; both achieve rapid temperature resolution",
+          "pearl": "Infected obstructed kidney = EMERGENCY. Immediate decompression (stent or PCN) + IV antibiotics. Do NOT attempt ureteroscopy or SWL until sepsis resolved. The infected, high-pressure collecting system causes bacteraemia on any manipulation — decompression first, stone treatment later (2–6 weeks)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q6",
+        "stem": "A first-time stone former passes a 4 mm stone spontaneously. Stone analysis shows calcium oxalate dihydrate. Serum calcium 2.3 mmol/L, creatinine normal. He is otherwise well. According to EAU 2024, which is the minimum appropriate metabolic evaluation for this patient?",
+        "options": {
+          "A": "No investigation required for a first episode",
+          "B": "Stone composition analysis (already done) + serum calcium, creatinine, uric acid + 24-hour urine ×2",
+          "C": "Full metabolic workup including PTH, vitamin D, 24-hour urine ×2, and genetic testing for hyperoxaluria",
+          "D": "24-hour urine × 2 only — serum tests are not necessary for first stone"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 minimum evaluation for all stone formers (including first-time, low-risk): stone composition analysis (done), serum creatinine, calcium, uric acid, sodium, potassium, and 24-hour urine (ideally ×2 on usual diet) measuring volume, calcium, oxalate, uric acid, citrate, creatinine, sodium, phosphate, and pH. This minimum evaluation applies to all patients — even first-time stone formers. The full/extended evaluation (PTH, vitamin D, genetic tests) is reserved for high-risk or recurrent stone formers. A first-time stone former without risk factors still requires the minimum evaluation to identify correctable metabolic abnormalities.",
+          "wrong": {
+            "A": "EAU 2024 explicitly recommends metabolic evaluation for ALL stone formers, not just recurrent ones. Even a first stone warrants minimum evaluation to identify treatable metabolic causes and counsel on prevention.",
+            "C": "PTH, vitamin D, and genetic testing are part of the extended evaluation reserved for high-risk or recurrent stone formers. For a first-time low-risk stone former, this level of investigation is excessive.",
+            "D": "Serum tests are an essential component of the minimum evaluation — serum calcium identifies hyperparathyroidism, serum uric acid identifies hyperuricaemia, serum creatinine assesses renal function. 24-hour urine alone is insufficient."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Minimum metabolic evaluation (all stone formers): stone analysis + serum Ca, Cr, uric acid, Na, K + 24h urine ×2. Extended evaluation: recurrent formers + first-time with risk factors (family history, bilateral, children, metabolic syndrome, bowel disease).",
+          "trial": "Pearle MS et al. AUA Stone Clinical Guideline 2014 (updated 2022): Metabolic evaluation recommended for all stone formers; first-time solitary stone former in good health warrants minimum evaluation; recurrent or high-risk → complete panel. Identifies correctable abnormality in 75% of stone formers.",
+          "pearl": "All stone formers — even first-time — require minimum metabolic evaluation: stone composition + serum panel + 24h urine ×2. Full evaluation (PTH, vit D, genetic) = recurrent/high-risk only. Metabolic evaluation identifies correctable abnormality in ~75% of calcium stone formers."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q7",
+        "stem": "A 55-year-old woman with recurrent calcium oxalate stones has hypercalciuria (urine calcium 350 mg/day) and normal serum calcium and PTH. She is started on hydrochlorothiazide 25 mg BD. Three months later, her 24-hour urine shows calcium now 180 mg/day but citrate has fallen to 120 mg/day. What is the explanation and appropriate additional treatment?",
+        "options": {
+          "A": "The thiazide is causing renal tubular acidosis — stop thiazide and switch to potassium citrate alone",
+          "B": "Thiazide-induced hypokalaemia causes intracellular acidosis, reducing urinary citrate — add potassium citrate 20–60 mEq/day",
+          "C": "Hypocitraturia is unrelated to thiazide therapy — start allopurinol",
+          "D": "This degree of hypocitraturia is acceptable — no further action required"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Thiazide diuretics reduce urinary calcium effectively but cause hypokalaemia (through enhanced urinary potassium excretion). Hypokalaemia causes intracellular acidosis — cells take up K+ in exchange for H+, reducing intracellular pH. This impairs renal tubular citrate reabsorption reversal, causing hypocitraturia. Reduced urinary citrate removes the principal crystal growth inhibitor, partially negating the benefit of reduced calcium. The solution is potassium citrate supplementation, which simultaneously: (1) corrects hypokalaemia; (2) provides alkaline load to increase urinary citrate. This is why potassium citrate is routinely co-prescribed with thiazides for calcium stone prevention.",
+          "wrong": {
+            "A": "Thiazide does not cause renal tubular acidosis — it causes hypokalaemia-related secondary hypocitraturia through intracellular acidosis. The correct intervention is to add potassium citrate, not stop the thiazide (which is effectively lowering urinary calcium from 350 to 180 mg/day).",
+            "C": "The hypocitraturia is directly caused by thiazide-induced hypokalaemia — this is a well-recognised mechanism. Allopurinol has no role in calcium stone management without hyperuricosuria.",
+            "D": "Urinary citrate 120 mg/day is severely reduced (normal >320 mg/day women). This degree of hypocitraturia is a major risk factor for calcium stone recurrence and requires correction with potassium citrate supplementation."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Thiazide therapy for hypercalciuria: co-prescribe potassium citrate to prevent thiazide-induced hypokalaemia and secondary hypocitraturia. Combination (thiazide + K-citrate) reduces stone recurrence by >50% in randomised trials.",
+          "trial": "Laerum E & Larsen S. Lancet 1984: Thiazide monotherapy vs thiazide + potassium citrate for calcium stones — combination superior to monotherapy due to prevention of thiazide-induced hypocitraturia; established standard of combination prescribing",
+          "pearl": "Thiazide causes hypokalaemia → intracellular acidosis → hypocitraturia. ALWAYS co-prescribe potassium citrate with thiazide for stone prevention. The combination: reduces calcium (thiazide) + restores citrate (K-citrate) = synergistic 50–70% recurrence reduction."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C1-Q8",
+        "stem": "A 62-year-old man is diagnosed with a 25 mm right renal pelvic stone on ultrasound. He has no fever, normal WBC, no haematuria, creatinine 82 μmol/L, normal contralateral kidney. He is entirely asymptomatic. What stone type is MOST LIKELY given the size and need to determine management?",
+        "options": {
+          "A": "Calcium oxalate — managed conservatively with annual surveillance",
+          "B": "Struvite (infection stone) — requires stone composition analysis and if confirmed, complete removal by PCNL",
+          "C": "Uric acid — medical dissolution with alkalinisation before any surgery",
+          "D": "Cystine — high fluid + tiopronin before surgical intervention"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "A 25 mm renal pelvic stone in an asymptomatic 62-year-old man warrants stone composition analysis (if available from prior stones) and imaging characterisation. Before assuming surgical intervention, uric acid stone should be actively excluded — uric acid stones can be entirely dissolved with oral potassium citrate alkalinisation (target pH 7.0–7.2). A CT KUB showing low Hounsfield units (<500 HU) and radiolucency on plain KUB suggests uric acid composition. If uric acid stone is confirmed, a 2–3 month trial of medical dissolution (potassium citrate ± allopurinol) is appropriate before surgery, potentially avoiding PCNL entirely for a large stone. This is unique to uric acid stones.",
+          "wrong": {
+            "A": "A 25 mm renal stone is above the EAU 2024 surveillance threshold (>20 mm = active intervention recommended). Observation alone is not appropriate for a stone this size, regardless of current asymptomatic state — risk of obstruction, infection, and progressive renal injury.",
+            "B": "Struvite stones are associated with recurrent UTIs, urease-producing bacteria, alkaline urine, and staghorn configuration. While struvite should be in the differential for a large stone, this man has no infection history, normal WBC, and no mention of UTI history. Uric acid should be excluded before assuming struvite and planning major surgery (PCNL).",
+            "D": "Cystine stones typically present in young patients with family history and hexagonal urinary crystals. A 62-year-old first-time presenter is very atypical for cystinuria. While possible, uric acid (common in older men with metabolic syndrome) is much more likely."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Large renal stone (>20 mm): active treatment recommended. Uric acid stone: trial of medical dissolution before PCNL (Grade A). CT HU assessment and/or clinical context (metabolic syndrome, gout) determines probability of uric acid composition.",
+          "trial": "Pak CY et al. J Urol 2002: Medical dissolution of uric acid stones with potassium citrate — 90% complete dissolution at pH 6.5–7.0 maintained for 3 months; even large (>20 mm) uric acid stones can be dissolved, avoiding invasive surgery",
+          "pearl": "Large renal stone: first rule out URIC ACID (radiolucent, low HU, metabolic syndrome/gout history). If uric acid suspected, trial dissolution with potassium citrate before PCNL. Dissolving a 25 mm stone medically avoids the risks of PCNL entirely. Always check CT HU before planning surgery for large renal stones."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q9",
+        "stem": "Which of the following is the most important single lifestyle modification for preventing recurrence of calcium oxalate renal stones in a patient with no identifiable metabolic abnormality other than consistently low urine volume?",
+        "options": {
+          "A": "Restricting dietary calcium to <500 mg/day",
+          "B": "Eliminating all oxalate-containing foods from the diet",
+          "C": "Increasing fluid intake to achieve urine output >2 L/day",
+          "D": "Starting a low-protein vegetarian diet"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Increasing fluid intake to produce >2 L urine output per day is the single most important and evidence-based preventive measure for all stone types, including calcium oxalate. This directly reduces urinary supersaturation of all stone-forming ions. The landmark Prevention of Recurrence of Monocalcic Stones trial (Borghi et al. NEJM 1996) demonstrated that increased fluid intake alone (achieving urine output >2 L/day) reduced 5-year stone recurrence from 27% to 12% versus matched controls. This is EAU Grade A evidence for first-line stone prevention.",
+          "wrong": {
+            "A": "Restricting dietary calcium WORSENS calcium oxalate stone risk — reduced intestinal calcium allows more oxalate absorption, increasing urinary oxalate (the stronger promoter of CaOx crystallisation). Normal calcium intake (1000–1200 mg/day from diet) is recommended.",
+            "B": "Eliminating ALL oxalate-containing foods is impractical and unnecessary. Dietary oxalate contributes only ~10–15% of urinary oxalate (the rest is endogenously produced). Only high-oxalate foods (spinach, rhubarb, peanuts) should be moderated in hyperoxaluric patients.",
+            "D": "Low-protein diet reduces urinary calcium, uric acid, and oxalate — beneficial, but not the single most important measure. Fluid intake has the strongest evidence base and broadest applicability."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Grade A: increase fluid intake to produce >2 L urine/day as primary prevention for all stone types. Single most effective lifestyle intervention. Target urine specific gravity <1.010.",
+          "trial": "Borghi L et al. NEJM 1996: 199 first-time stone formers randomised to high fluid intake (>2 L urine/day) vs low fluid — 12% vs 27% 5-year recurrence (p=0.008); established high fluid intake as Grade A preventive measure for calcium stones",
+          "pearl": "The most important stone prevention advice: drink enough to produce >2 L of urine per day. This is EAU Grade A evidence, applies to ALL stone types, and the landmark Borghi NEJM 1996 trial demonstrated 55% relative recurrence reduction. Tell every stone former this at every visit."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q10",
+        "stem": "A 48-year-old woman has her third calcium phosphate (hydroxyapatite) stone in 5 years. Her 24-hour urine shows: pH 6.8, calcium 280 mg, citrate 95 mg, volume 1.9 L. Serum calcium 2.7 mmol/L, PTH 95 pg/mL (normal 10–65 pg/mL). What is the most likely diagnosis?",
+        "options": {
+          "A": "Distal renal tubular acidosis",
+          "B": "Primary hyperparathyroidism",
+          "C": "Absorptive hypercalciuria",
+          "D": "Medullary sponge kidney"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Primary hyperparathyroidism (PHPT): serum calcium 2.7 mmol/L (elevated, normal 2.1–2.6 mmol/L), PTH 95 pg/mL (elevated — should be suppressed when calcium is high). Elevated PTH with elevated calcium defines PHPT. PHPT causes: hypercalcaemia, hypercalciuria (280 mg/day — borderline), hypophosphataemia, and calcium phosphate/calcium oxalate stone formation. Treatment is parathyroidectomy — this is the ONLY treatment that addresses the underlying metabolic abnormality and substantially reduces stone recurrence. Medical management of stones is not appropriate as primary treatment when PHPT is the cause.",
+          "wrong": {
+            "A": "Distal RTA causes: hyperchloraemic metabolic acidosis, alkaline urine (pH >5.5 consistently), hypocitraturia, nephrocalcinosis, and calcium phosphate stones — but SERUM CALCIUM AND PTH SHOULD BE NORMAL. This patient has hypercalcaemia with elevated PTH, not the normal values expected in dRTA.",
+            "C": "Absorptive hypercalciuria: urinary calcium elevated, serum calcium NORMAL, serum PTH NORMAL. This patient has elevated serum calcium (2.7 mmol/L) — absorptive hypercalciuria does not cause hypercalcaemia.",
+            "D": "Medullary sponge kidney causes recurrent calcium stones from urinary stasis in dilated collecting tubules and often hypercalciuria, but does not cause hypercalcaemia or elevated PTH."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Serum calcium must be measured in ALL calcium stone formers to exclude PHPT. PHPT (elevated calcium + elevated PTH) = surgical cure with parathyroidectomy. This investigation cannot be omitted.",
+          "trial": "Silverberg SJ et al. J Bone Miner Res 2009: Primary hyperparathyroidism natural history — nephrolithiasis in 15–20% of PHPT patients; parathyroidectomy reduces stone recurrence from 50%/5yr to <5%/5yr",
+          "pearl": "Calcium stones + hypercalcaemia + elevated PTH = primary hyperparathyroidism. Treatment is parathyroidectomy, not thiazides or K-citrate. ALWAYS check serum calcium in stone formers. PHPT is the most important surgically curable cause of calcium stone disease."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q11",
+        "stem": "A 35-year-old man presents with a 9 mm distal ureteral stone and moderate right hydronephrosis. He has mild pain controlled with NSAIDs, no fever, WBC 7.2 × 10⁹/L, creatinine 85 μmol/L, contralateral kidney normal. He asks about the chance of spontaneous stone passage. What is the most accurate response?",
+        "options": {
+          "A": "5–10 mm distal ureteral stones: ~40–60% spontaneous passage within 4 weeks",
+          "B": "All stones >5 mm require immediate surgical intervention",
+          "C": "A 9 mm stone has >90% chance of passing without intervention within 2 weeks",
+          "D": "Spontaneous passage is impossible for stones >7 mm"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "For 5–10 mm ureteral stones, EAU 2024 reports spontaneous passage rates of approximately 40–60% within 4 weeks, dependent on stone size, position, and patient factors. Distal ureteral stones pass more readily than proximal (larger calibre at VUJ versus PUJ). Observation with analgesia for up to 4 weeks is appropriate if there are no absolute indications for intervention (no infection, no obstruction of solitary kidney, no renal failure, no uncontrolled pain). A 9 mm stone has a lower spontaneous passage rate than smaller stones but has a realistic chance of passing — observation is reasonable as an initial strategy in this well patient.",
+          "wrong": {
+            "B": "EAU 2024 supports expectant management for stones ≤10 mm without absolute indications for intervention, for up to 4 weeks. Immediate intervention for all stones >5 mm is not evidence-based practice.",
+            "C": "A 9 mm stone does NOT have >90% spontaneous passage rate. The 90% figure applies to stones <5 mm. At 5–10 mm, rates are 40–60%. At >10 mm, spontaneous passage is rarely achieved.",
+            "D": "Stones up to 10 mm can pass spontaneously, particularly in the distal ureter. While a 9 mm stone is near the upper limit, it is not impossible — 40–60% of 5–10 mm stones pass. The threshold is typically >10 mm for routine intervention without attempting observation."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Spontaneous passage rates: <5 mm = 80–90%; 5–10 mm = 40–60%; >10 mm = rarely spontaneous. Observation with analgesia up to 4 weeks for ≤10 mm stones without absolute indications for intervention.",
+          "trial": "Pickard R et al. SUSPEND Trial (NEJM 2015): UK multicentre RCT — 1167 patients with 5–10 mm ureteral stones; spontaneous passage 80% in 4 weeks; no significant benefit from tamsulosin vs placebo for passage rate",
+          "pearl": "Spontaneous passage rates: <5mm = 80–90%; 5–10mm = 40–60%; >10mm = rare. Observe for up to 4 weeks if no absolute intervention indications. SUSPEND and STONE PLUS trials challenged MET (tamsulosin), but EAU still provides a weak recommendation for MET in 5–10 mm stones based on meta-analyses showing modest benefit."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q12",
+        "stem": "A 32-year-old pregnant woman (28 weeks gestation) presents with left flank pain and haematuria. Renal ultrasound shows moderate left hydronephrosis but no stone visualised. Urinalysis: RBC 3+, WBC 1+, nitrites negative. Temperature 36.8°C. What is the most appropriate initial management?",
+        "options": {
+          "A": "Non-contrast CT KUB to confirm ureteral stone",
+          "B": "Paracetamol (acetaminophen) for analgesia + reassess with MRI urography if symptoms persist",
+          "C": "Intravenous ketorolac (NSAID) for pain relief",
+          "D": "Extracorporeal shock wave lithotripsy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Management of ureteral colic in pregnancy must minimise fetal radiation exposure. Renal ultrasound is the first-line imaging modality (already performed). If further imaging is needed, **MRI urography** is preferred over CT — no ionising radiation, good sensitivity for ureteral stones and hydronephrosis. Non-contrast CT should be avoided in pregnancy if possible (ionising radiation risk), though low-dose CT with abdominal shielding may be acceptable in the second/third trimester when diagnosis is critical. Analgesia: paracetamol is safe in all trimesters. NSAIDs should be avoided after 30 weeks (premature closure of ductus arteriosus) and used with caution in the second trimester only. Opioids may be used for severe pain with appropriate monitoring.",
+          "wrong": {
+            "A": "Non-contrast CT delivers significant radiation to the fetus and should be avoided in pregnancy unless essential for diagnosis when MRI is unavailable or inadequate. Renal ultrasound is first-line; MRI is second-line.",
+            "C": "IV ketorolac (NSAID) should be avoided in the third trimester (risk of premature ductus arteriosus closure, oligohydramnios) and used with great caution in the second trimester. At 28 weeks, ketorolac is contraindicated. Paracetamol is the safe analgesic.",
+            "D": "SWL (extracorporeal shock wave lithotripsy) is absolutely contraindicated in pregnancy — shock waves cause direct fetal tissue injury. This is one of the absolute contraindications to SWL regardless of gestational age."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Pregnancy and stones: imaging = ultrasound first, MRI second, CT only if essential. Analgesia = paracetamol (all trimesters); NSAIDs avoided >30 weeks. SWL absolutely contraindicated. If intervention needed: ureteroscopy under GA preferred.",
+          "trial": "White WM et al. J Urol 2007: Ureteroscopy in pregnancy for symptomatic ureteral stones — safe in all trimesters; MRI superior to CT for diagnosis in pregnant patients; SWL universally contraindicated",
+          "pearl": "Pregnancy + renal colic: imaging = ultrasound → MRI (no CT). Analgesia = paracetamol (NSAIDs avoided third trimester). SWL = ABSOLUTELY CONTRAINDICATED in pregnancy (fetal tissue injury). If surgery needed: ureteroscopy under general anaesthesia preferred over ureteral stenting, which requires frequent changes."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q13",
+        "stem": "A 58-year-old man with recurrent calcium phosphate stones, alkaline urine pH consistently 6.9–7.1, low urinary citrate (110 mg/day), normal serum calcium, and nephrocalcinosis on imaging. Serum electrolytes: sodium 141, potassium 3.4, chloride 112, bicarbonate 16 mmol/L. What is the most likely diagnosis?",
+        "options": {
+          "A": "Primary hyperparathyroidism",
+          "B": "Distal (type 1) renal tubular acidosis",
+          "C": "Proximal (type 2) renal tubular acidosis",
+          "D": "Absorptive hypercalciuria"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Distal (type 1) renal tubular acidosis (dRTA): hyperchloraemic metabolic acidosis (Cl 112, HCO3 16 = normal anion gap acidosis; anion gap = 141−112−16 = 13, normal), persistently alkaline urine (pH >5.5 even with systemic acidosis — the hallmark), hypocitraturia (metabolic acidosis depletes citrate buffer), nephrocalcinosis (calcium phosphate deposition in alkaline urine), and calcium phosphate stones. Normal serum calcium excludes PHPT. The combination of: normal anion gap metabolic acidosis + alkaline urine that cannot be acidified + hypocitraturia + calcium phosphate stones + nephrocalcinosis = dRTA. Treatment: potassium citrate corrects acidosis and hypocitraturia simultaneously.",
+          "wrong": {
+            "A": "PHPT causes elevated serum calcium and elevated PTH. Normal serum calcium in this patient excludes PHPT.",
+            "C": "Proximal (type 2) RTA affects proximal tubular bicarbonate reabsorption — the urine CAN be acidified (urine pH <5.5 when plasma bicarbonate is very low). Proximal RTA rarely causes nephrocalcinosis and does not cause alkaline urine at normal plasma bicarbonate levels. Proximal RTA is associated with Fanconi syndrome, not isolated stone disease.",
+            "D": "Absorptive hypercalciuria presents with elevated urinary calcium, normal serum calcium, NORMAL acid-base status, normal urine pH (not alkaline), and no nephrocalcinosis. This patient has metabolic acidosis and alkaline urine inconsistent with absorptive hypercalciuria."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Distal RTA in stone formers: hyperchloraemic normal-anion-gap metabolic acidosis + alkaline urine pH (>5.5) + low urine citrate + nephrocalcinosis + calcium phosphate stones. Treatment: potassium citrate (corrects acidosis + increases citrate).",
+          "trial": "Sebastian A et al. NEJM 1971: Classic description of distal RTA — urinary acidification defect, hypocitraturia, nephrocalcinosis. Potassium citrate treatment corrects all metabolic abnormalities and reduces stone formation by >80% in patients with dRTA",
+          "pearl": "Distal RTA (type 1) = normal anion gap metabolic acidosis + urine pH >5.5 even with systemic acidosis + hypocitraturia + nephrocalcinosis + calcium phosphate stones. The key test: urine pH >5.5 despite serum bicarbonate <18 mmol/L. Treatment: potassium citrate."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C1-Q14",
+        "stem": "A 44-year-old HIV-positive man on highly active antiretroviral therapy (HAART) including indinavir presents with acute flank pain. NCCT KUB shows mild right hydronephrosis but no radiopaque stone visible. Urine microscopy shows needle-shaped birefringent crystals. What is the most likely stone composition and specific management?",
+        "options": {
+          "A": "Uric acid stone — potassium citrate alkalinisation",
+          "B": "Indinavir crystal nephropathy — stop indinavir, aggressive hydration",
+          "C": "Calcium oxalate — increase fluid intake and low-oxalate diet",
+          "D": "Cystine stone — tiopronin therapy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Indinavir (HIV protease inhibitor) crystallises in the urine at normal body temperature when urine is concentrated. Indinavir stones are completely radiolucent — invisible on CT — because they do not contain calcium and have very low density. NCCT shows hydronephrosis without a visible stone. Urine microscopy shows characteristic needle-shaped birefringent crystals. Stone composition analysis (if recovered) shows indinavir sulfate. Management: discontinue indinavir (switch to alternative antiretroviral), aggressive hydration to dissolve crystals. Prevention requires intake of >1.5 L fluid/day with indinavir. This is distinct from uric acid (also radiolucent) by clinical context and urine crystal morphology.",
+          "wrong": {
+            "A": "Uric acid is also radiolucent but would show uric acid crystals (not needle-shaped birefringent indinavir crystals) and would typically present in a patient with gout/metabolic syndrome. The HIV antiretroviral history and specific crystal morphology point to indinavir.",
+            "C": "Calcium oxalate stones are radiopaque and would be visible on CT. The absence of a CT-visible stone combined with birefringent needle crystals does not fit CaOx.",
+            "D": "Cystine stones are only partially radiolucent (ground glass) and would show hexagonal flat crystals. Needle-shaped birefringent crystals in an HIV patient on indinavir = indinavir crystalluria."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Drug-induced lithiasis: indinavir (HIV protease inhibitor) — completely radiolucent, CT HU often <100; management: stop indinavir, replace with alternative ARV, aggressive hydration. Review all medications in stone formers.",
+          "trial": "Kohan AD et al. J Urol 1999: Indinavir-associated nephrolithiasis series — 7.4% incidence of indinavir crystal nephropathy; all cases resolved with drug discontinuation and hydration; established the characteristic CT appearance (invisible stone with hydronephrosis) and urine microscopy findings",
+          "pearl": "Radiolucent stone (CT invisible or very low HU) on HAART including indinavir = indinavir crystalluria. Needle-shaped birefringent crystals on urine microscopy. Manage: stop indinavir + hydration. Always take a drug history in stone formers — indinavir, aciclovir, triamterene, and sulfonamides all cause radiolucent drug stones."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C1-Q15",
+        "stem": "Medical expulsive therapy (MET) with tamsulosin for ureteral colic is recommended in EAU 2024 guidelines. However, two large RCTs (SUSPEND, NEJM 2015 and STONE PLUS, Lancet 2015) found no significant benefit. What does the EAU 2024 currently recommend regarding MET for ureteral stones?",
+        "options": {
+          "A": "MET with alpha-blockers is no longer recommended — both RCTs showed no benefit",
+          "B": "MET with alpha-blockers is Grade A recommended for all ureteral stone sizes",
+          "C": "MET with alpha-blockers (tamsulosin) carries a weak recommendation for 5–10 mm distal ureteral stones based on meta-analyses showing modest benefit, despite neutral large RCTs",
+          "D": "MET with calcium channel blockers (nifedipine) is recommended over alpha-blockers"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Despite the SUSPEND and STONE PLUS RCTs showing no statistically significant benefit for tamsulosin over placebo for distal ureteral stone passage, EAU 2024 retains a weak recommendation for MET with alpha-blockers for stones 5–10 mm based on: (1) multiple meta-analyses (including a Cochrane review) showing a modest ~30% relative improvement in passage rates; (2) the biological plausibility of alpha-blocker effects on ureteral smooth muscle; (3) the low cost and low adverse effect profile of tamsulosin; (4) potential benefit in stones >5 mm where spontaneous passage rates are lower. The key point: EAU 2024 gives a WEAK recommendation, acknowledging the uncertainty and recommending a 4-week observation period if MET is used.",
+          "wrong": {
+            "A": "EAU 2024 retained MET as a weak recommendation despite the negative RCTs, based on meta-analysis evidence and biological plausibility. The guidelines did not fully withdraw the recommendation.",
+            "B": "Grade A recommendation for ALL stone sizes is incorrect. The recommendation is weak and specifically for 5–10 mm distal ureteral stones. For <5 mm stones, spontaneous passage rates are already very high (>80%) without MET.",
+            "D": "Calcium channel blockers (nifedipine) are no longer recommended for MET by EAU 2024 — evidence is insufficient compared to alpha-blockers. Alpha-blockers (tamsulosin) are the only drugs with retained MET recommendation."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — MET: weak recommendation for tamsulosin in 5–10 mm ureteral stones; acknowledge the SUSPEND and STONE PLUS RCT data; 4-week observation period recommended; calcium channel blockers not recommended",
+          "trial": "Pickard R et al. SUSPEND Trial (NEJM 2015): 1167 patients — tamsulosin vs nifedipine vs placebo for ureteral stones; no significant difference in stone passage; EAU retained weak recommendation based on Cochrane meta-analysis (Hollingsworth JM, Lancet 2006) showing 30% relative benefit in 5–10 mm stones",
+          "pearl": "MET controversy: SUSPEND/STONE PLUS = no benefit (large RCTs). Cochrane meta-analysis = modest benefit. EAU 2024 = WEAK recommendation for tamsulosin for 5–10 mm stones. This is a classic example of conflicting evidence — large high-quality RCTs vs meta-analysis pooling smaller studies. Know both sides of this debate."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q16",
+        "stem": "A 50-year-old man has a right staghorn calculus completely filling the renal pelvis and all major calyces. He has recurrent UTIs with Proteus mirabilis. Serum creatinine 128 μmol/L. Stone composition analysis from a passed fragment shows struvite (MgNH4PO4). What is the primary treatment and goal?",
+        "options": {
+          "A": "Long-term antibiotics to eradicate Proteus and allow stone dissolution",
+          "B": "Extracorporeal shock wave lithotripsy (SWL) monotherapy",
+          "C": "Percutaneous nephrolithotomy (PCNL) targeting complete stone clearance + perioperative antibiotics",
+          "D": "Conservative management — struvite staghorn stones do not require active intervention"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Struvite (infection) staghorn calculi require COMPLETE stone removal because: (1) residual struvite fragments harbour bacteria within the stone matrix, maintaining a persistent infection focus that prevents antibiotic eradication; (2) untreated staghorn calculi cause progressive renal damage, chronic pyelonephritis, and end-stage renal failure; (3) pyonephrosis and sepsis risk. PCNL is the primary treatment for staghorn calculi — it provides direct access to the renal collecting system for complete stone clearance in one or multiple procedures. Perioperative antibiotics are essential. SWL monotherapy is inadequate for large struvite burden due to stone volume and the inability to remove stone fragments. Post-treatment, long-term antibiotics may be used to reduce recurrence after confirmed stone clearance.",
+          "wrong": {
+            "A": "Long-term antibiotics cannot eradicate infection within stone matrix — the bacterial biofilm is protected within the stone structure. Antibiotics treat the urine infection but cannot clear the stone. Only complete stone removal followed by antibiotics eliminates the infection.",
+            "B": "SWL is contraindicated or ineffective for staghorn calculi: (1) stone volume too large for effective fragmentation; (2) fragments cannot be expelled from multiple calyces; (3) stone matrix (biofilm, organic material) reduces fragmentation efficiency. EAU 2024 recommends PCNL as first-line for staghorn calculi.",
+            "D": "Untreated struvite staghorn calculi lead to progressive renal loss and death from urosepsis. The Blandy-Wickham natural history study (1979) showed 28% mortality at 10 years without treatment for struvite staghorn calculi. Active removal is mandatory."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Struvite staghorn calculi: PCNL with complete stone clearance is the treatment of choice. SWL monotherapy not recommended. Complete removal essential — residual fragments = treatment failure. Grade A recommendation for PCNL as first-line.",
+          "trial": "Preminger GM et al. AUA Nephrolithiasis Guideline 2005 (updated): Struvite staghorn calculi — PCNL achieves complete clearance in 60–75% of primary procedures; incomplete clearance associated with persistent infection and recurrence; antibiotic therapy without surgery insufficient",
+          "pearl": "Struvite staghorn = PCNL + complete stone clearance + antibiotics. SWL is NOT appropriate. Residual struvite = persistent bacteria = recurrence. The goal is COMPLETE clearance — partial treatment provides false reassurance. Antibiotics after complete clearance may reduce recurrence."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q17",
+        "stem": "A 40-year-old woman with a history of two calcium oxalate renal stones is counselled about dietary modification. Which advice about dietary calcium is most correct?",
+        "options": {
+          "A": "Restrict dietary calcium to <500 mg/day to reduce urinary calcium",
+          "B": "Avoid all dairy products as they increase urinary calcium and stone risk",
+          "C": "Maintain normal dietary calcium intake (1000–1200 mg/day from food) while reducing dietary sodium and protein",
+          "D": "Calcium supplements are safer than dietary calcium for stone-forming patients"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Normal dietary calcium intake (1000–1200 mg/day from food sources) is recommended for calcium stone formers. Dietary calcium binds intestinal oxalate, reducing its absorption and urinary excretion — the main promoter of CaOx crystallisation. The landmark Curhan et al. study (NEJM 1993) showed that higher dietary calcium intake was associated with LOWER stone risk (not higher). Calcium restriction paradoxically increases urinary oxalate and stone risk. Concurrent restriction of dietary sodium (reduces urinary calcium excretion) and animal protein (reduces urinary calcium, uric acid; increases urinary citrate) is recommended.",
+          "wrong": {
+            "A": "Calcium restriction to <500 mg/day increases oxalate absorption and urinary oxalate, worsening stone risk. This is one of the most important misconceptions to correct in stone management.",
+            "B": "Dairy products are an excellent dietary calcium source. They should not be avoided — they bind intestinal oxalate and reduce net oxalate absorption. The calcium in dairy is beneficial for stone formers when consumed with meals.",
+            "D": "Calcium supplements (tablets taken between meals) do NOT bind intestinal oxalate (they are absorbed without concurrent oxalate) and may slightly increase urinary calcium, potentially increasing stone risk. Dietary calcium from food sources (consumed with meals) is preferable because it is present in the intestine simultaneously with dietary oxalate."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 and DASH dietary recommendations — Normal dietary calcium (1000–1200 mg/day from food) for calcium stone formers: Grade A recommendation. Calcium supplements between meals may increase stone risk. Concurrent sodium and protein restriction.",
+          "trial": "Borghi L et al. NEJM 2002: Low-animal-protein, low-sodium, normal-calcium diet vs low-calcium diet for calcium oxalate stone prevention — 5-year recurrence 20% vs 38% (p=0.03); confirmed that normal dietary calcium reduces recurrence compared to low-calcium diet",
+          "pearl": "Dietary calcium rule for stone formers: DO NOT restrict calcium. Normal intake (1000–1200 mg/day from dairy/food) REDUCES stone risk by binding intestinal oxalate. Calcium supplements (not with meals) are different — these may increase stone risk. Borghi NEJM 2002: normal calcium diet reduces recurrence vs low calcium diet."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q18",
+        "stem": "A 72-year-old woman with recurrent calcium phosphate stones associated with alkaline urine pH and nephrocalcinosis is started on potassium citrate 30 mEq/day. What is the primary mechanism by which potassium citrate prevents calcium phosphate stone formation?",
+        "options": {
+          "A": "Directly inhibits calcium absorption in the intestine",
+          "B": "Reduces urinary calcium by increasing proximal tubular calcium reabsorption",
+          "C": "Increases urinary citrate (which chelates calcium and inhibits crystal nucleation) and corrects intracellular acidosis to increase citrate excretion",
+          "D": "Lowers urinary pH, reducing calcium phosphate supersaturation"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Potassium citrate works by multiple complementary mechanisms for calcium stone prevention: (1) Increases urinary citrate — citrate is a powerful inhibitor of calcium crystal nucleation, growth, and aggregation; it chelates calcium ions (reducing free calcium available for crystallisation) and directly inhibits crystal surface growth; (2) Corrects intracellular acidosis (from K+ provision) — intracellular acidosis impairs citrate transport into the tubular lumen, so K+ supplementation corrects the intracellular pH and increases citrate excretion; (3) Provides an alkaline load — increases urinary pH, which is beneficial for uric acid prevention but must be monitored in calcium phosphate stone formers (too alkaline >6.8 increases CaP supersaturation). For calcium phosphate stones with dRTA, correcting the acidosis reduces hypercalciuria and hypocitraturia.",
+          "wrong": {
+            "A": "Potassium citrate does not directly inhibit intestinal calcium absorption — that is the mechanism of thiazide diuretics (on the renal tubule) and dietary modification. Citrate works primarily on urinary crystal inhibition.",
+            "B": "Increasing proximal tubular calcium reabsorption is the mechanism of thiazide diuretics — they work via volume contraction stimulating sodium (and calcium) reabsorption in the proximal tubule. Potassium citrate does not increase tubular calcium reabsorption.",
+            "D": "Potassium citrate RAISES urinary pH (alkaline load), not lowers it. A lower pH would be beneficial for uric acid stones (no — uric acid needs HIGHER pH). For calcium phosphate stones, raising pH too high is actually counterproductive (CaP precipitates more at alkaline pH). The benefit in dRTA is correction of systemic acidosis, not further lowering of pH."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Potassium citrate mechanism: increases urinary citrate (crystal inhibitor + calcium chelation); corrects metabolic acidosis; target urine citrate >550 mg/day. Used for: hypocitraturia, dRTA, uric acid stones, cystinuria.",
+          "trial": "Pak CY et al. J Urol 1985: Potassium citrate for calcium stone prevention — urinary citrate increased from 140 to 530 mg/day; 5-year stone recurrence reduced from 1.1 to 0.1 episodes/year; established citrate supplementation as key preventive treatment",
+          "pearl": "Potassium citrate: raises urinary citrate (inhibitor of crystallisation) + chelates urinary calcium + raises urine pH. Triple mechanism for calcium stone prevention. For dRTA: corrects systemic acidosis → normalises urinary citrate. For uric acid: raises pH to 7.0–7.2 (dissolution target)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C1-Q19",
+        "stem": "Which stone type is uniquely amenable to complete medical dissolution with oral pharmacological therapy alone?",
+        "options": {
+          "A": "Calcium oxalate stones with thiazide + potassium citrate",
+          "B": "Uric acid stones with potassium citrate (urinary alkalinisation to pH 7.0–7.2)",
+          "C": "Struvite stones with acetohydroxamic acid (urease inhibitor)",
+          "D": "Calcium phosphate stones with parathyroidectomy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Uric acid stones are the ONLY stone type that can be completely dissolved by medical therapy alone. Uric acid becomes soluble at urinary pH >6.5, and at pH 7.0–7.2, previously formed stones dissolve over weeks to months. Potassium citrate alkalinises the urine to the target pH range. Complete dissolution of even large (>20 mm) uric acid stones has been demonstrated. This is a unique and clinically important property — before planning invasive procedures (SWL, ureteroscopy, PCNL) for any stone, consider whether the stone might be uric acid (radiolucent on KUB, low HU on CT, appropriate clinical context) and whether a dissolution trial is appropriate.",
+          "wrong": {
+            "A": "Thiazide + potassium citrate reduces calcium and increases citrate to prevent NEW calcium oxalate stone formation — they do not dissolve existing calcium oxalate stones.",
+            "C": "Acetohydroxamic acid (AHA) is a urease inhibitor that reduces struvite stone growth rate but does not dissolve existing struvite stones. Complete surgical removal remains necessary for struvite. AHA has significant adverse effects (teratogenic — contraindicated in women of childbearing age) and is used only as an adjunct, not primary treatment.",
+            "D": "Parathyroidectomy corrects the metabolic abnormality (PHPT) driving calcium stone formation and significantly reduces recurrence — but it does not dissolve existing calcium phosphate stones."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Uric acid stone dissolution: Grade A recommendation for potassium citrate alkalinisation to pH 7.0–7.2 for dissolution of existing uric acid stones. Only stone type amenable to complete dissolution with pharmacotherapy. Target: pH 7.0–7.2 (above 7.5 risks calcium phosphate precipitation).",
+          "trial": "Pak CY et al. J Urol 2002: Uric acid stone dissolution — 90% complete dissolution within 3 months at maintained urine pH 6.5–7.0; even large stones (>20 mm) dissolve; avoids need for surgical intervention in the majority of uric acid stone patients",
+          "pearl": "Only ONE stone type dissolves medically: URIC ACID with potassium citrate to pH 7.0–7.2. All other stone types require intervention for removal — pharmacotherapy only prevents new formation. Before PCNL/URS for any stone, check: radiolucent? Low CT HU (<500)? If yes, trial dissolution."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C1-Q20",
+        "stem": "A 15-year-old boy is referred with bilateral renal calculi. His father and paternal uncle also had renal stones from childhood. Infrared spectroscopy of a passed stone shows 100% cystine composition. Serum creatinine 110 μmol/L. 24-hour urine cystine: 820 mg/day. Despite high fluid intake (3.5 L/day) and potassium citrate (pH maintained at 7.5–7.8), he continues to form new stones annually. What is the next most appropriate pharmacological treatment?",
+        "options": {
+          "A": "Allopurinol 300 mg daily",
+          "B": "Tiopronin (alpha-mercaptopropionylglycine) — thiol drug to reduce urinary cystine",
+          "C": "Thiazide diuretic to reduce urinary supersaturation",
+          "D": "Intravenous bisphosphonate to reduce cystine stone density"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has severe cystinuria (820 mg/day cystine) refractory to first-line treatment (high fluid + alkalinisation). The next step is a thiol drug — either D-penicillamine or tiopronin (preferred over D-penicillamine due to better tolerability profile). Tiopronin (alpha-mercaptopropionylglycine) undergoes thiol-disulfide exchange with cystine, forming a mixed tiopronin-cysteine disulfide that is 50× more soluble than cystine. This reduces free urinary cystine below the solubility threshold (<200 mg/L). Tiopronin is continued long-term with regular monitoring for adverse effects (proteinuria, thrombocytopenia, taste disturbance).",
+          "wrong": {
+            "A": "Allopurinol reduces uric acid production — it has no mechanism of action relevant to cystinuria. Cystine is an amino acid, not a purine metabolite.",
+            "C": "Thiazide diuretics reduce urinary calcium excretion — they have no effect on cystine transport or urinary cystine concentration. Thiazides are for calcium stone management, not cystinuria.",
+            "D": "Bisphosphonates inhibit bone resorption and have no role in urinary stone management or cystine stone treatment. This is not a recognised treatment for any stone type."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Cystinuria management escalation: first-line = high fluid + K-citrate pH ≥7.5. If stones persist despite first-line: add thiol drug (tiopronin preferred; D-penicillamine as alternative). Thiol drugs indicated when urine cystine >300 mg/day despite conservative measures.",
+          "trial": "Lindell A et al. Scand J Urol Nephrol 1995: Tiopronin vs D-penicillamine for cystinuria — equivalent efficacy; tiopronin significantly better tolerated (adverse event discontinuation 50% vs 20%); established tiopronin as preferred thiol drug for cystinuria",
+          "pearl": "Cystinuria refractory to high fluid + K-citrate = add TIOPRONIN (preferred thiol drug over D-penicillamine — better tolerated). Tiopronin forms a soluble mixed disulfide with cystine, reducing free cystine in urine. Monitor for: proteinuria, thrombocytopenia, hepatotoxicity. This is the escalation step after first-line failure."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

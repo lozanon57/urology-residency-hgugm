@@ -1,0 +1,645 @@
+{
+  "id": "B3",
+  "title": "Urinary Incontinence — Male and Female",
+  "subtitle": "Block B — Stress incontinence, urgency incontinence, AUS, male slings, female incontinence surgery",
+  "block": "B",
+  "block_name": "Functional Urology and Benign Disease",
+  "level": "R2-3",
+  "reading_time_min": 40,
+  "guidelines_version": "EAU Guidelines on Urinary Incontinence 2024 · ICS Terminology Report 2010",
+  "textbook_refs": [
+    "Burkhard FC et al. EAU Guidelines on Urinary Incontinence (2024)",
+    "Abrams P et al. The Standardisation of Terminology of Lower Urinary Tract Function: Report from the Standardisation Sub-Committee of the ICS. Neurourol Urodyn 2002",
+    "Chapple CR et al. Artificial Urinary Sphincter: A Systematic Review. Eur Urol 2017",
+    "Fusco F et al. Updated Systematic Review and Meta-Analysis of Incontinence Rate After Robot-Assisted Radical Prostatectomy. Eur Urol 2018"
+  ],
+  "learning_objectives": [
+    "Apply ICS 2010 definitions and classify urinary incontinence by mechanism and clinical type",
+    "Construct and interpret a basic incontinence assessment including ICIQ-UI SF, bladder diary, and urodynamics indications",
+    "Select appropriate surgical treatment for male stress urinary incontinence based on severity and prior radiotherapy",
+    "Describe the components, function, mechanism, and complications of the AMS 800 artificial urinary sphincter",
+    "Outline the evidence base and patient selection for male slings and mid-urethral slings in women"
+  ],
+  "sections": [
+    {
+      "id": "B3-S1",
+      "title": "Classification and Assessment of Urinary Incontinence",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Urinary incontinence (UI)** is defined by the ICS (2010) as any complaint of involuntary loss of urine. UI is classified by mechanism into: **stress urinary incontinence (SUI)** — involuntary loss of urine on effort, exertion, sneezing, or coughing; **urgency urinary incontinence (UUI)** — involuntary loss of urine associated with urgency; and **mixed urinary incontinence (MUI)** — complaint of both SUI and UUI. Additionally, **overflow incontinence** (chronic urinary retention with involuntary leakage), **functional incontinence** (inability to reach the toilet due to physical/cognitive impairment despite normal lower urinary tract function), and **continuous incontinence** (from fistula or ectopic ureter) are recognised.\n\nThe **initial assessment** of UI follows the EAU 2024 minimum dataset: symptom history including type, duration, severity, trigger factors, fluid intake, bowel habits, obstetric/gynaecological history; validated symptom questionnaire (**ICIQ-UI SF** — International Consultation on Incontinence Questionnaire, Short Form: scores 0–21, moderate ≥6); 3-day **bladder diary** (frequency, voided volumes, incontinence episodes, pad weight); **urinalysis** and culture; **physical examination** including neurological assessment and pelvic/perineal examination; **uroflowmetry and post-void residual**.\n\nUrodynamic assessment is NOT routinely required before first-line conservative management. UDS is indicated before surgery, when diagnosis is uncertain after non-invasive assessment, when prior treatment has failed, when neurological disease is suspected, and when the planned treatment has significant morbidity risks. The urodynamic diagnosis most relevant to surgical planning is the distinction between genuine stress incontinence (urethral hypermobility ± intrinsic sphincter deficiency) and detrusor overactivity (which may masquerade as SUI).\n\n**Abdominal leak point pressure (ALPP)** is the intravesical pressure at which leakage occurs without detrusor contraction during incremental bladder filling with gradually increasing abdominal pressure. ALPP <60 cmH₂O indicates intrinsic sphincter deficiency (ISD); >90 cmH₂O suggests urethral hypermobility rather than ISD. In clinical practice, ALPP measured by Valsalva manoeuvre or cough testing guides the choice between male sling (higher ALPP, less severe ISD) and AUS (lower ALPP, more severe ISD)."
+        },
+        {
+          "type": "table",
+          "title": "Classification of Urinary Incontinence: Types, Mechanisms, and Assessment",
+          "headers": ["Type", "ICS Definition", "Urodynamic Correlate", "Common Causes", "First-Line Treatment"],
+          "rows": [
+            ["Stress UI (SUI)", "Involuntary leakage on effort/exertion/cough/sneeze", "Urethral pressure drops below intravesical pressure; no DO", "RP in men; childbirth/menopause in women; pelvic floor weakness", "PFMT; surgery if persistent"],
+            ["Urgency UI (UUI)", "Involuntary leakage associated with urgency", "Detrusor overactivity on urodynamics", "Idiopathic DO; neurogenic DO; BOO", "Antimuscarinics/mirabegron; BoNT-A; SNM"],
+            ["Mixed UI (MUI)", "Both SUI and UUI complaints", "Mixed — SUI + DO features", "Common in women; post-prostatectomy", "Treat dominant complaint first"],
+            ["Overflow incontinence", "Involuntary leakage from chronically distended bladder", "Detrusor underactivity or outlet obstruction", "BPH, DUA, neuropathy, medications", "ISC or relieve obstruction"],
+            ["Functional incontinence", "Leakage from inability to reach toilet", "Normal UDS — physical/cognitive barrier", "Dementia, severe mobility impairment", "Timed voiding; behavioural; carer assistance"],
+            ["Continuous incontinence", "Continuous leakage day and night", "Normal UDS — structural defect", "Vesicovaginal fistula; ectopic ureter", "Surgical repair"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — ICIQ-UI SF Scoring",
+          "content": "The ICIQ-UI SF (0–21 points) is the validated patient-reported outcome tool for urinary incontinence in EAU guidelines. It assesses: frequency of leakage (0–5), amount of leakage (0–6), impact on quality of life (0–10). Score ≥6 = moderate incontinence warranting active treatment. Score ≥13 = severe. Use this in clinical trials and to measure treatment response."
+        }
+      ]
+    },
+    {
+      "id": "B3-S2",
+      "title": "Conservative Management of Urinary Incontinence",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Conservative management is first-line for all types of urinary incontinence in EAU 2024. **Pelvic floor muscle training (PFMT)** is the cornerstone of SUI treatment in both women and post-prostatectomy men. Effective PFMT requires correct muscle identification, adequate contraction strength and duration, and sustained adherence over minimum 3 months. Supervised PFMT (physiotherapist-guided) is significantly superior to unsupervised exercises — a Cochrane review (Hay-Smith et al. 2008) demonstrated that supervised PFMT achieved complete cure in 15–57% of women versus minimal benefit with unsupervised exercises alone.\n\nFor SUI specifically: PFMT minimum 3 months before considering surgery; **vaginal cones** and **biofeedback** can supplement PFMT in women; **electrostimulation** (transcutaneous or vaginal) may help women who cannot voluntarily contract pelvic floor muscles. In post-prostatectomy men, PFMT initiated immediately post-catheter removal accelerates early continence recovery — EAU 2024 recommendation: strong evidence for PFMT, though benefit primarily affects early recovery (<6 months) rather than final continence rates.\n\nFor UUI: **bladder training** (timed voiding with progressive prolongation of voiding intervals, minimum 6 weeks) combined with **urge suppression techniques** and **fluid management** (target 1.5–2 L/day; caffeine reduction). Bladder training achieves clinically meaningful improvement in 50–60% of women with UUI. **Lifestyle modifications** applicable to all UI types: weight loss (NICE 2019: sustained 5–10% weight loss reduces SUI by 30–50% in obese women), smoking cessation (chronic cough worsens SUI), constipation management, and elimination of aggravating medications (diuretics, alpha-blockers in women).\n\n**Absorbent products** (pads, incontinence briefs) are an adjunct, not a treatment. They must not be prescribed as a long-term substitute for active management in fit patients. Indwelling catheterisation for UI should be reserved for intractable cases in patients unfit for any active treatment."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — PFMT in Post-Prostatectomy Men",
+          "content": "PFMT after radical prostatectomy: start immediately after catheter removal. Target: 3 sets of 10 contractions per day, each held for 10 seconds, with complete relaxation between contractions. Patient education: correct muscle identification (stopping mid-stream urination sensation), not gluteal or abdominal contraction. The physiotherapist should confirm correct technique with palpation or biofeedback. After 12 months, surgical treatment becomes appropriate for persistent SUI. Do not wait longer — contracture and further sphincteric atrophy reduce surgical success over time."
+        }
+      ]
+    },
+    {
+      "id": "B3-S3",
+      "title": "Artificial Urinary Sphincter (AUS): Device, Implantation, and Outcomes",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **AMS 800 artificial urinary sphincter** is the gold standard surgical treatment for moderate-to-severe stress urinary incontinence in men, with the greatest evidence base for post-radical prostatectomy SUI. The device comprises three components: (1) an **occlusive cuff** placed around the bulbar urethra (most common site, 4.0–4.5 cm in circumference) or bladder neck, which maintains urethral occlusion at a pressure exceeding resting bladder pressure; (2) a **pressure-regulating balloon (PRB)** placed in the prevesical (Retzius) space, maintaining a defined fluid pressure (typically 61–70 cmH₂O — higher pressures for post-radiation, 71–80 cmH₂O); and (3) a **pump mechanism** placed in the scrotum, which when squeezed transfers fluid from the cuff to the PRB, opening the urethra for voiding. After voiding, the device automatically cycles back to the closed position (typically 3–5 minutes for fluid to return from balloon to cuff).\n\nImplantation technique: perineal/scrotal approach for bulbar urethral cuff. The urethra is dissected circumferentially at the bulbar level. A sizer determines the cuff size (4.0–4.5 cm typical). Components are connected with tubing and filled with isotonic contrast. Device activation is delayed **4–6 weeks post-implantation** to allow wound healing and reduce urethral cuff pressure-related ischaemia.\n\n**Outcomes**: Social continence (0–1 pad/day) is achieved in 80–90% of patients. Long-term device survival at 5 years: ~80% functioning without revision. Revision rates at 5 years: 15–20% (for erosion, mechanical failure, or infection). Infection/erosion rates: 3–5% in non-irradiated patients, 10–15% in post-radiation patients.\n\n**Specific complications**: (1) **Urethral cuff erosion**: presents as new or worsening incontinence, urethral discharge, haematuria, or pain. Risk factors: prior radiation, cuff too tight, urethral atrophy. Management: immediate device explantation to prevent urethrosepsis; delayed reimplantation after urethral healing (minimum 3–6 months). (2) **Mechanical failure**: pump, tubing, or connector dysfunction — requires device revision. (3) **Urethral atrophy**: gradual reduction in urethral tissue bulk under the cuff, causing leakage despite intact mechanical function — managed by downgrading pressure balloon or cuff repositioning. (4) **Infection**: device removal and intravenous antibiotics — gram-negative organisms most common."
+        },
+        {
+          "type": "table",
+          "title": "AMS 800 AUS: Key Specifications and Troubleshooting",
+          "headers": ["Component", "Location", "Standard Size/Pressure", "Complication", "Management"],
+          "rows": [
+            ["Occlusive cuff", "Bulbar urethra (perineal)", "4.0–4.5 cm circumference", "Erosion: new incontinence + haematuria", "Explant immediately; reimplant after 3–6 months"],
+            ["Pressure-regulating balloon", "Prevesical (Retzius) space", "61–70 cmH₂O (non-RT); 71–80 cmH₂O (post-RT)", "Balloon rupture: mechanical failure", "Device replacement"],
+            ["Pump mechanism", "Scrotum (ipsilateral to dominant hand)", "Manual squeeze transfers fluid cuff → balloon", "Pump migration", "Revision surgery — fixation"],
+            ["Tubing/connectors", "Subcutaneous", "Isotonic contrast fills system", "Kink/leak/disconnection", "Re-exploration and replacement"],
+            ["Complete device", "All components", "Activate 4–6 weeks post-op", "Infection", "Explant entire device + antibiotics; reimplant ≥3 months later"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Critical Warning — AUS Cuff Erosion Management",
+          "content": "Urethral cuff erosion is a urological emergency. Presenting signs: new onset incontinence, haematuria, urethral discharge, perineal/scrotal pain, visible cuff through the skin. If suspected, perform urethroscopy to confirm. Management: IMMEDIATE device explantation — do NOT leave an eroding cuff in situ as this causes sepsis, urethral necrosis, and fistula. Reimplantation should be delayed ≥3–6 months. Inform anaesthetics teams that patients with AUS must have the device DEACTIVATED before urethral catheterisation."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — AUS Deactivation for Catheterisation",
+          "content": "Before any urethral catheterisation in a patient with AUS, the device MUST be deactivated by holding the pump in the squeezed position until the fluid transfers to the balloon (cuff opens). Failing to deactivate before catheter passage causes cuff erosion and device damage. All patients with AUS should carry a medical alert card stating they have an AUS."
+        }
+      ]
+    },
+    {
+      "id": "B3-S4",
+      "title": "Male Slings for Post-Prostatectomy Stress Incontinence",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Male slings** provide an alternative to the AUS for men with mild-to-moderate post-prostatectomy SUI who are not suited for or prefer not to have an AUS. The most widely used device is the **AdVance XP transobturator male sling** (American Medical Systems), which repositions the proximal urethra by creating tension on the bulbar urethra. Unlike AUS, male slings do not create an occlusive mechanism — they work by relocating and supporting the urethrosphincteric complex.\n\nPatient selection is critical to success. Indications for male sling (EAU 2024): mild post-RP SUI (1–2 pads/day or 24-hour pad weight 100–400 g), ALPP >60 cmH₂O (indicating functional sphincteric reserve), no prior pelvic radiotherapy, no prior urethral surgery at the site, no urethral stricture at the bulbar level. Contraindications: prior pelvic radiotherapy (reduces success to <50%); moderate-severe SUI (>3 pads); AUS failure with urethral atrophy; active urinary tract infection.\n\nTechnique: transobturator approach with two tunnels passing through the obturator foramen bilaterally. A polypropylene mesh sling is placed under the bulbar urethra. The sling is tensioned to achieve urethral compression without obstruction (cystoscopic guidance).\n\nOutcomes: success (0–1 pad/day) in 60–80% at 12 months for mild SUI in correctly selected non-irradiated patients. The MASTER RCT (Abdel-Fattah et al. BMJ 2021) compared male sling vs AUS in post-RP SUI: at 24 months, AUS achieved 59% continence (0 pads) versus 32% with male sling; however, patient satisfaction was comparable for mild SUI. For moderate-severe SUI, AUS was clearly superior. Retropubic slings (bone-anchored) are less used now due to higher complication rates versus transobturator approach.\n\nComplications: urinary retention (10–15%, usually temporary — treat with ISC); perineal pain (resolves in most within 6 weeks); urethral injury intraoperatively (rare); mesh erosion (2–3% with transobturator — lower than retropubic). Re-do sling or conversion to AUS is appropriate for sling failure."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Sling vs AUS Patient Selection",
+          "content": "Key decision rule: mild SUI (1–2 pads/day) + ALPP >60 cmH₂O + no prior RT = male sling (AdVance XP). Moderate-severe SUI (≥3 pads/day) OR ALPP <60 cmH₂O OR prior pelvic radiotherapy = AUS (AMS 800). After radiotherapy, both sling failure rate and AUS complication rate increase — AUS remains the preferred option but patients must be counselled about higher complication rates (10–15% vs 3–5%)."
+        }
+      ]
+    },
+    {
+      "id": "B3-S5",
+      "title": "Female Stress Urinary Incontinence: Colposuspension, Mid-Urethral Slings, and Bulking Agents",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Female SUI is caused by urethral hypermobility (failure of the pubourethral ligaments and levator ani to maintain urethral support) and/or intrinsic sphincter deficiency (ISD — impaired urethral mucosal coaptation and sphincteric function). Clinically, both mechanisms may coexist and cannot be reliably distinguished by examination alone — urodynamics (ALPP and urethral closure pressure) helps when ISD is suspected.\n\n**Conservative management**: PFMT for minimum 3 months before surgery. Supervised PFMT achieves cure in 15–57% of women with SUI. **Duloxetine** (SNRI — increases sphincter tone via pudendal motor neurone stimulation in Onuf's nucleus) achieves modest reductions in SUI episodes (50% reduction in ~50% of women) but has high discontinuation rates from adverse effects (nausea, insomnia). EAU 2024 recommends duloxetine only when patient declines surgery but wants pharmacological supplement to PFMT, not as primary alternative to surgery in suitable candidates.\n\n**Mid-urethral slings (MUS)**: currently the most widely performed surgical procedure for female SUI globally. MUS restore the 'hammock' support of the mid-urethra. Two approaches: (1) **retropubic (tension-free vaginal tape, TVT — Ulmsten 1996)**: transvaginal polypropylene tape passed retropubicly. Cystoscopy mandatory after TVT to exclude bladder injury (5–7% bladder perforation rate). (2) **transobturator (TOT/TVT-O — de Leval 2003)**: tape passed through the obturator foramen, avoiding retropubic space. Lower risk of bladder injury (<1%), but slightly higher rates of groin pain and less support for ISD. Both achieve comparable objective cure rates (~80–85% at 5 years). EAU 2024: both approaches are equally recommended; transobturator preferred when bladder injury risk is high (prior retropubic surgery); retropubic preferred when ISD is suspected.\n\n**Note on mesh complications and regulatory context**: Following the NICE 2019 review and NHS England's pause on mesh implants (2018), synthetic mesh MUS continue under strict governance in the UK — patients must be counselled about mesh-specific complications (erosion 2–5%, chronic pain, voiding dysfunction). Single-incision mini-slings (e.g., Altis) offer a third option with similar short-term efficacy in some studies but less long-term data.\n\n**Burch colposuspension** (open or laparoscopic): elevates the bladder neck by attaching paravaginal fascia to Cooper's ligament. Historically gold standard, now second-line after MUS. Equal cure rates to TVT at 5 years, but longer hospital stay, more voiding dysfunction (10%), and higher rate of subsequent pelvic organ prolapse. Preferred when concomitant laparotomy is being performed or mesh is refused.\n\n**Periurethral bulking agents** (transurethral or periurethral injection of polyacrylamide hydrogel — PAHG/Bulkamid, or other agents): indicated for women with SUI who are poor surgical candidates or refuse surgery, particularly those with ISD. Success rates are lower (50–60% cure at 12 months) with high re-treatment rates, but the procedure is minimally invasive and repeatable."
+        },
+        {
+          "type": "table",
+          "title": "Surgical Options for Female SUI: Comparison",
+          "headers": ["Procedure", "Mechanism", "Objective Cure (5yr)", "Key Complications", "EAU 2024 Position"],
+          "rows": [
+            ["TVT (retropubic MUS)", "Mid-urethral support — hammock hypothesis", "~80–85%", "Bladder perforation 5–7% (check with cystoscopy), voiding dysfunction 5–10%", "First-line surgical option"],
+            ["TOT/TVT-O (transobturator MUS)", "Mid-urethral support via obturator route", "~80–85%", "Groin/thigh pain 5–10%, lower bladder injury risk", "First-line surgical option — preferred if prior retropubic surgery"],
+            ["Burch colposuspension", "Bladder neck elevation to Cooper's ligament", "~80–85%", "Voiding dysfunction 10%, OAB 10–15%, subsequent prolapse", "Second-line; preferred if mesh refused or concomitant laparotomy"],
+            ["Bulking agents (Bulkamid)", "Periurethral volume increase — urethral coaptation", "~50–60% at 12m", "Temporary retention, UTI, requires repeat injection", "For poor surgical candidates or ISD with mesh refusal"],
+            ["AUS (bladder neck cuff)", "Occlusive — for ISD/neurogenic SUI in women", "~75–85%", "Erosion, mechanical failure, infection", "Selected cases of ISD/neurogenic SUI in women not suitable for MUS"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Critical Warning — Mandatory Cystoscopy After TVT",
+          "content": "Cystoscopy MUST be performed immediately after TVT (retropubic mid-urethral sling) to exclude bladder and urethral perforation by the trocars. The bladder perforation rate with retropubic TVT is 5–7%. Unrecognised bladder perforation results in mesh erosion, chronic UTI, and voiding dysfunction. If perforation is found: remove and repass the trocar; confirm resolution with cystoscopy before closing. Transobturator TOT has <1% bladder injury rate and cystoscopy is optional but recommended."
+        }
+      ]
+    },
+    {
+      "id": "B3-S6",
+      "title": "Urgency Urinary Incontinence: Pharmacological Escalation and Refractory Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Urgency urinary incontinence (UUI) results from detrusor overactivity (DO) with insufficient time for voluntary sphincteric closure before leakage occurs. Management follows a stepwise escalation: lifestyle modifications → bladder training → pharmacotherapy (antimuscarinic/mirabegron) → third-line invasive therapy.\n\nThe pharmacological framework for UUI is covered in detail in Chapter B2 (OAB). Key additions specific to female UUI and mixed UI: in women with MUI, the dominant symptom dictates initial treatment — if SUI dominates, PFMT and surgical correction first (treating SUI may reveal or worsen OAB in some women); if UUI dominates, antimuscarinics first before surgery.\n\nFor refractory UUI after two pharmacological agents, **EAU 2024** provides equivalent Grade A recommendations for:\n1. **Intradetrusor botulinum toxin A** (100 U for idiopathic; 200 U for neurogenic): 70–80% ≥50% reduction in UUI; requires ISC counselling; repeatable every 6–9 months\n2. **Sacral neuromodulation (SNM)**: 60–80% ≥50% improvement; durable at 5 years; appropriate for both UUI and non-obstructive urinary retention\n3. **Percutaneous tibial nerve stimulation (PTNS)**: Grade C; 12-week course of weekly 30-minute sessions; no implant required\n\n**Augmentation cystoplasty** (ileocystoplasty — enlarging bladder with detubularised ileal segment) is reserved for refractory neurogenic DO with poor compliance when all less invasive options fail. Major surgery with significant morbidity: mucous production requiring bladder irrigation, metabolic acidosis, malabsorption, bladder rupture risk (1–3%), requirement for lifelong ISC. EAU 2024: Grade C, only when other options exhausted.\n\n**Urinary diversion** (ileal conduit) is the absolute last resort for intractable neurogenic incontinence — reserved for the most complex neurological patients with untreatable urinary complications."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Mixed Incontinence Treatment Strategy",
+          "content": "In women with mixed UI, ask: which component is more bothersome? If SUI is dominant: treat SUI first (PFMT or MUS) — OAB often improves after successful SUI treatment as 'cough-triggered' urgency resolves. If UUI is dominant: treat with antimuscarinics/mirabegron first — then reassess SUI. Performing MUS for SUI in a woman with severe DO may worsen voiding dysfunction if post-operative DO increases."
+        }
+      ]
+    },
+    {
+      "id": "B3-S7",
+      "title": "Incontinence in Special Populations: Post-Radiotherapy and Neurogenic",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Post-radiotherapy incontinence** in men occurs after external beam radiotherapy (EBRT), brachytherapy, or salvage radiotherapy following radical prostatectomy. The mechanisms are multifactorial: radiation-induced sphincteric fibrosis and atrophy, bladder wall fibrosis reducing compliance, radiation proctitis causing urgency, and neurovascular injury. Assessment is more complex than post-RP SUI alone — urodynamics is essential to document the relative contributions of sphincteric deficiency, DO, and reduced compliance.\n\nThe AUS (AMS 800) is the gold standard for post-radiation SUI, but outcomes are significantly worse than in non-irradiated men: social continence 60–80% vs 85–90%; complication rates markedly higher — erosion/infection 10–15% vs 3–5%. Cuff placement in post-radiation fields requires careful dissection of irradiated, fragile tissue. Tandem cuff placement (double cuff) may be required for very severe or recurrent post-radiation SUI.\n\n**Male sling is generally contraindicated after pelvic radiotherapy** — success rates fall below 50% and mesh erosion rates are higher in irradiated tissue. The MASTER trial confirmed AUS superiority over sling in all groups, with the gap widest in post-radiation patients.\n\n**Neurogenic incontinence**: covered in part in Chapter B2. Key surgical consideration: before any continence surgery in neurological patients, ensure adequate bladder capacity and safe bladder pressures are confirmed on urodynamics. AUS placement in a small, poorly compliant bladder without addressing bladder pressure will result in upper tract damage. Bladder augmentation or BoNT-A may be required before or concurrent with AUS in selected neurological patients.\n\n**Paediatric considerations** are beyond the scope of this chapter but include epispadias, bladder exstrophy, and myelomeningocele as common causes of congenital neurogenic incontinence requiring bladder neck reconstruction and/or AUS in older children.\n\n**Female post-radiation SUI**: less common than in men, but occurs after pelvic radiotherapy for cervical, rectal, or bladder cancer. Treatment options include AUS (bladder neck placement preferred), autologous pubovaginal sling, or bulking agents depending on severity. Mesh MUS in post-radiation tissue carries very high erosion risk and is contraindicated."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — AUS in Post-Radiotherapy Patients",
+          "content": "Post-radiation SUI: AUS is still the gold standard but expect higher complication rates — erosion/infection 10–15% vs 3–5% in non-irradiated men. Male sling is generally contraindicated after radiation. Use higher pressure balloon (71–80 cmH₂O) as radiated urethra atrophies faster. Counsel patients about higher revision probability (25–35% at 5 years vs 15–20% in non-irradiated men)."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of urinary incontinence assessment and management with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "B3-Q1",
+        "stem": "A 45-year-old woman complains of leakage with coughing, sneezing, and exercise since her second vaginal delivery 3 years ago. She uses 2–3 pads per day. She has no urgency or frequency. ICIQ-UI SF score is 14. PVR is 25 mL, Qmax 22 mL/s, urinalysis normal. What is the correct ICS classification of her incontinence?",
+        "options": {
+          "A": "Urgency urinary incontinence",
+          "B": "Mixed urinary incontinence",
+          "C": "Stress urinary incontinence",
+          "D": "Overflow incontinence"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Stress urinary incontinence (SUI) is defined by the ICS as involuntary leakage on effort, exertion, sneezing, or coughing — all present in this patient. There are no urgency symptoms (no UUI component), no elevated PVR (no overflow). The history of two vaginal deliveries, onset after childbirth, and purely exertional leakage pattern is classic for pelvic floor SUI from levator ani damage and pubourethral ligament laxity. ICIQ-UI SF score of 14/21 = severe SUI, warranting active management.",
+          "wrong": {
+            "A": "Urgency UI requires urgency (sudden compelling desire to void that is difficult to defer) as the precipitant of leakage — not effort or coughing. She has no urgency symptoms.",
+            "B": "Mixed UI requires BOTH SUI and UUI components. She has no urgency, frequency, or urgency-provoked leakage — pure exertional leakage = pure SUI.",
+            "D": "Overflow incontinence occurs with urinary retention and high PVR. Her PVR is 25 mL (normal) and Qmax 22 mL/s (normal) — no evidence of urinary retention."
+          },
+          "guideline": "ICS Standardisation of Terminology (Abrams et al. Neurourol Urodyn 2002) — SUI: 'Complaint of involuntary loss of urine on effort or physical exertion including sporting activities, or on sneezing or coughing.' EAU Guidelines on UI 2024 — Classification and assessment pathway.",
+          "trial": "Hay-Smith EJ et al. Cochrane Database 2012 (PFMT for UI in women): Defined SUI as a distinct entity from UUI with different conservative management pathways — PFMT achieves cure in 15–57% of women with SUI",
+          "pearl": "ICS definitions: SUI = leakage on effort/cough/sneeze; UUI = leakage with urgency; MUI = both. Master these three definitions — every incontinence board question starts with correct classification."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B3-Q2",
+        "stem": "A 52-year-old woman with SUI ICIQ-UI SF score 16 has completed 6 months of supervised pelvic floor physiotherapy without adequate improvement. She is keen on surgical treatment. Urodynamics confirms genuine SUI with urethral hypermobility (ALPP 85 cmH₂O), no detrusor overactivity, PVR <30 mL. She had a previous Pfannenstiel incision (Caesarean section). Which surgical procedure is most appropriate?",
+        "options": {
+          "A": "Retropubic mid-urethral sling (TVT)",
+          "B": "Transobturator mid-urethral sling (TOT/TVT-O)",
+          "C": "Bulking agent injection (Bulkamid)",
+          "D": "Burch colposuspension via laparotomy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Transobturator MUS (TOT) is preferred when there is prior retropubic surgery (Caesarean section via Pfannenstiel incision). The retropubic space in this patient may have scarring and adhesions from the Caesarean section, significantly increasing the risk of bladder injury, vascular injury, and bowel injury if the TVT (retropubic) approach is used. The transobturator route avoids the retropubic space entirely, reducing these risks. Her ALPP of 85 cmH₂O indicates urethral hypermobility (not severe ISD), and TOT achieves equivalent continence rates to TVT in this setting.",
+          "wrong": {
+            "A": "TVT (retropubic) would require passing trocars through the retropubic space previously scarred by Caesarean section. This significantly increases bladder perforation and vascular injury risk. EAU 2024 recommends transobturator approach when prior retropubic surgery has been performed.",
+            "C": "Bulking agents achieve only 50–60% cure at 12 months and require repeat injections. They are appropriate for poor surgical candidates or those who refuse surgery, not for a 52-year-old fit woman with significant SUI after failed PFMT who is keen on surgery.",
+            "D": "Burch colposuspension via laparotomy (also retropubic) has the same problem as TVT in this patient — accessing a previously scarred Pfannenstiel/retropubic space. The laparoscopic Burch also avoids but shares the same risk profile. MUS (TOT) achieves equivalent continence with lower morbidity."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — MUS both approaches equivalent first-line; transobturator preferred when prior retropubic surgery present due to reduced bladder injury risk. ALPP >60 cmH₂O: both sling types appropriate; ALPP <60 cmH₂O (ISD): retropubic TVT or AUS preferred.",
+          "trial": "Ogah J et al. Cochrane Database 2011 (Retropubic vs transobturator MUS): Equivalent cure rates (~80%) at 1 year; TOT with lower rates of bladder perforation (0.9% vs 5.5%) and voiding dysfunction — TVT with slightly higher efficacy for ISD",
+          "pearl": "Prior retropubic surgery = choose transobturator MUS (TOT) over TVT. Scarred retropubic space → high bladder perforation risk with TVT. ALPP <60 cmH₂O (ISD) = prefer retropubic TVT or AUS — better support for severe ISD."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q3",
+        "stem": "During a retropubic mid-urethral sling (TVT) procedure for SUI, the surgeon notes haematuria in the catheter bag after trocar passage on the right side. Cystoscopy confirms a full-thickness defect at the right posterolateral bladder wall. What is the correct management?",
+        "options": {
+          "A": "Complete the procedure and treat with antibiotics post-operatively",
+          "B": "Remove the right trocar and repass it in a more lateral position under cystoscopic guidance; confirm resolution before completing",
+          "C": "Convert to open Burch colposuspension",
+          "D": "Abandon the procedure and schedule pelvic CT scan"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Bladder perforation during TVT trocar passage is managed by withdrawing the trocar, repositioning, and repassing under cystoscopic guidance. The trocar should be redirected more laterally (closer to the pubic bone) to avoid the bladder. After repassing, cystoscopy must confirm no further bladder perforation before completing the sling. Post-operatively, urethral catheterisation for 24–48 hours allows the bladder wall defect to heal. The procedure does not need to be abandoned — completion with correct positioning and confirmed resolution is standard practice.",
+          "wrong": {
+            "A": "Completing the procedure with the trocar through the bladder wall would result in sling mesh within the bladder, causing chronic haematuria, bladder stones, recurrent UTI, and sling erosion into the bladder. This is a recognised catastrophic complication. The trocar must be removed and repositioned.",
+            "C": "Conversion to Burch colposuspension is not indicated for a simple bladder perforation that is correctable by repositioning the trocar. Abandoning MUS and converting to a different procedure unnecessarily increases morbidity.",
+            "D": "Abandoning the procedure for CT scan is excessive. Bladder perforation during TVT is a known complication that is correctable intraoperatively. CT scanning is appropriate only if vascular injury or bowel injury is suspected."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — TVT technique: mandatory intraoperative cystoscopy after trocar passage to detect bladder injury (5–7% incidence); if detected, remove trocar, repass, confirm resolution before completing sling.",
+          "trial": "Karram MM et al. Obstet Gynecol 2003: TVT safety data — bladder perforations in 5.7% of cases; all managed intraoperatively by trocar repositioning with good outcomes; no perforation required conversion to open surgery",
+          "pearl": "TVT bladder perforation: withdraw trocar, repass more laterally under cystoscopic guidance, confirm resolution, complete procedure. Post-op catheter 24–48 hours. This is why cystoscopy is MANDATORY after TVT — missing an unrecognised bladder injury causes sling erosion into the bladder."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q4",
+        "stem": "A 71-year-old man underwent retropubic radical prostatectomy 18 months ago. He uses 5 pads per day for stress incontinence with ICIQ-UI SF score 19. He received no adjuvant radiotherapy. Urodynamics: genuine stress incontinence, ALPP 38 cmH₂O (ISD), no DO. What is the most appropriate surgical management?",
+        "options": {
+          "A": "AdVance XP transobturator male sling",
+          "B": "Periurethral collagen bulking injections",
+          "C": "AMS 800 artificial urinary sphincter",
+          "D": "Sacral neuromodulation"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This man has severe post-RP SUI (5 pads/day, ICIQ 19) with ALPP 38 cmH₂O — well below the 60 cmH₂O threshold indicating significant intrinsic sphincter deficiency (ISD). AMS 800 AUS is the gold standard for moderate-severe post-RP SUI and is especially indicated when ALPP <60 cmH₂O. Expected social continence (0–1 pad) in 85–90% at 5 years in non-irradiated patients. No prior radiotherapy means the lower complication rate profile applies (erosion 3–5%, not 10–15%).",
+          "wrong": {
+            "A": "Male sling (AdVance XP) is indicated for mild SUI (1–2 pads/day) with ALPP >60 cmH₂O (adequate sphincteric reserve). This patient has severe SUI (5 pads) and ALPP 38 cmH₂O (ISD) — male sling achieves <30% success rates in this setting. AUS is clearly superior.",
+            "B": "Bulking agents achieve 50–60% short-term cure and require repeat injections. They are not appropriate for severe post-RP SUI with ISD in an otherwise surgical candidate.",
+            "D": "SNM is effective for UUI/urgency and non-obstructive retention. It has no efficacy for SUI from sphincteric deficiency — the mechanism does not address intrinsic urethral weakness."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Post-RP SUI: AUS for moderate-severe (≥3 pads) or ALPP <60 cmH₂O or post-radiotherapy. Male sling for mild (1–2 pads) with adequate sphincteric function (ALPP >60 cmH₂O) in non-irradiated patients.",
+          "trial": "MASTER RCT (Abdel-Fattah M et al. BMJ 2021): AUS vs male sling for post-RP SUI — AUS achieved 59% complete continence vs 32% sling at 24 months; AUS superior for moderate-severe SUI; no significant difference in patient satisfaction for mild SUI",
+          "pearl": "AUS (AMS 800) indications: SUI ≥3 pads/day, OR ALPP <60 cmH₂O (ISD), OR post-pelvic radiotherapy. The ALPP threshold is the critical urodynamic cutoff — below 60 cmH₂O means ISD, and only AUS provides reliable occlusion for this level of sphincteric deficiency."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B3-Q5",
+        "stem": "A patient with an AMS 800 artificial urinary sphincter implanted 3 years ago presents with sudden-onset urinary incontinence (0 to 5 pads per day change). On examination, the pump is non-tender and appears intact in the scrotum. Urethroscopy reveals the cuff circumferentially visible inside the bulbar urethra. What is the diagnosis and correct management?",
+        "options": {
+          "A": "Mechanical pump failure — reprogramme device in clinic",
+          "B": "Urethral cuff erosion — immediate device explantation",
+          "C": "Pressure-regulating balloon failure — replace balloon component only",
+          "D": "Device infection — oral antibiotics and close monitoring"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Urethroscopy showing the cuff visible within the bulbar urethral lumen confirms cuff erosion — the cuff has eroded through the urethral wall and is now within the urethral lumen. This is a urological emergency. Management: immediate COMPLETE device explantation (all three components: cuff, balloon, pump). Leaving an eroding device in situ causes urethrosepsis, urethral necrosis, and fistula. After explantation and urethral repair, reimplantation should be delayed minimum 3–6 months to allow full healing. Intravenous antibiotics are required perioperatively.",
+          "wrong": {
+            "A": "Mechanical pump failure would cause retention (cuff remains closed, cannot be opened) or persistent leakage (cuff remains open), not erosion. Erosion is a structural complication — no reprogramming is possible or appropriate.",
+            "C": "Replacing only the balloon is not appropriate management for cuff erosion. The entire device must be explanted as the eroded cuff is the primary problem and leaves the urethra at risk. Partial device replacement leaves contaminated components in a potentially infected field.",
+            "D": "Oral antibiotics alone are inadequate for device erosion. Cuff erosion causes progressive tissue necrosis and leads to sepsis, urethral fistula, and systemic infection if not treated surgically. Delay in explantation worsens outcomes."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 and AUS consensus guidelines — Cuff erosion management: immediate total device explantation; IV antibiotics; urethral catheter; reimplantation after 3–6 months minimum healing time",
+          "trial": "Raj GV et al. J Urol 2005: AUS outcomes series — cuff erosion in 4.5% of non-irradiated men; all required explantation; successful reimplantation in 82% of cases after 6+ months; complications worse when explantation delayed >48 hours",
+          "pearl": "AUS cuff erosion = urological emergency = IMMEDIATE total explantation. Signs: new incontinence + haematuria/discharge + urethroscopy showing cuff in lumen. Do NOT leave an eroding cuff in situ. Reimplant after ≥3–6 months of urethral healing."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q6",
+        "stem": "An 83-year-old woman with severe OAB and UUI (8 episodes/day) has failed both solifenacin and mirabegron. She has multiple comorbidities (COPD, atrial fibrillation on apixaban, osteoporosis) and fragile health. ALPP >100 cmH₂O, no SUI. What is the most appropriate next management step?",
+        "options": {
+          "A": "Intradetrusor botulinum toxin A 100 U",
+          "B": "Sacral neuromodulation (SNM)",
+          "C": "Augmentation cystoplasty (ileocystoplasty)",
+          "D": "Bladder training with strict fluid restriction to <1 litre/day"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Intradetrusor botulinum toxin A (BoNT-A) 100 U is the preferred third-line intervention in this elderly frail woman. It can be performed under local anaesthesia as a day-case procedure, avoiding general/spinal anaesthesia risks in an 83-year-old with COPD and cardiac disease. BoNT-A achieves 70–80% ≥50% UUI reduction. Anticoagulation (apixaban) should be managed perioperatively — most centres hold apixaban for 24–48 hours for this low-risk procedure. She must be able and willing to perform ISC if retention occurs, but this is assessable prior to treatment.",
+          "wrong": {
+            "B": "SNM requires surgical implantation under general or spinal anaesthesia, which is higher risk in an 83-year-old with COPD and cardiac disease. Both BoNT-A and SNM are equivalent third-line options in fit patients — in this frail patient, the minimally invasive BoNT-A injection is preferred.",
+            "C": "Augmentation cystoplasty is major abdominal surgery requiring general anaesthesia and carrying significant morbidity. This is the absolute last resort for refractory neurogenic DO, not for idiopathic OAB in an elderly frail patient who has only failed two medications. It is not appropriate here.",
+            "D": "Fluid restriction to <1 litre/day is harmful — dehydration causes concentrated urine that further irritates the bladder and increases UTI risk. EAU 2024 recommends 1.5–2 L/day fluid intake for OAB, not restriction. This patient needs escalation, not conservative measures alone."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Third-line OAB after two pharmacological agents: BoNT-A or SNM (both Grade A); BoNT-A preferred in frail elderly patients due to minimally invasive nature and no general anaesthesia requirement",
+          "trial": "Cruz F et al. Eur Urol 2011 (BoNT-A for idiopathic OAB): 100 U onabotulinumtoxinA safe and effective in elderly patients including those >75 years; no increase in serious adverse events vs younger cohort; ISC required in 6.5% of patients",
+          "pearl": "Frail elderly patient with refractory OAB needing third-line therapy: choose BoNT-A over SNM — no general anaesthesia, day-case procedure, equally effective. SNM requires surgery and implant. Both are Grade A, but procedure risk determines choice in frail patients."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q7",
+        "stem": "A 48-year-old woman reports a strong desire to void that she cannot defer, followed by leakage before she reaches the toilet (3 episodes/day). She also leaks with coughing (2 episodes/day). ICIQ-UI SF score is 17. Which symptom should be treated first according to EAU 2024 guidelines?",
+        "options": {
+          "A": "SUI — proceed to transobturator mid-urethral sling",
+          "B": "UUI — treat with antimuscarinics/mirabegron first",
+          "C": "Both should be treated simultaneously with combination therapy",
+          "D": "The dominant symptom (UUI, 3 episodes vs SUI, 2 episodes) should be treated first"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "EAU 2024 recommends treating the dominant (more bothersome) complaint first in mixed UI. Here, UUI (3 episodes/day, inability to defer urgency) is marginally more dominant than SUI (2 episodes/day with cough). UUI should be treated first with antimuscarinics or mirabegron. After UUI treatment response is assessed, residual SUI should be addressed. Additionally, treating SUI alone (MUS) may worsen voiding dysfunction and unmask DO; treating UUI first establishes bladder stability before adding outflow support.",
+          "wrong": {
+            "A": "Proceeding directly to MUS without treating the UUI component may: fail to improve UUI (which may persist or worsen with obstruction effect of sling), worsen voiding dysfunction from DO plus sling compression. EAU 2024 recommends treating dominant symptom first.",
+            "B": "Antimuscarinics first would be correct IF UUI was the dominant component. The key point is to identify which is dominant — here UUI (3 episodes) is identified as dominant, making D the correct framing (treat dominant = UUI first).",
+            "C": "Simultaneous combination therapy (sling + antimuscarinic) is not recommended as first-line for mixed UI in EAU guidelines — sequential treatment allows assessment of each component's response and avoids combining risks of both interventions without evidence of necessity."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Mixed UI algorithm: identify dominant symptom → treat dominant first → reassess → treat residual component. Urgency predominant mixed UI: conservative management + pharmacotherapy before surgery.",
+          "trial": "Brubaker L et al. NEJM 2006 (SISTER Trial — Burch vs. fascial sling): Women with mixed UI had significantly better outcomes when UUI was treated concurrently with SUI surgery — but this required careful pre-operative selection and UDS, not blanket simultaneous treatment",
+          "pearl": "Mixed UI management rule: treat the DOMINANT (most bothersome) symptom first. If UUI dominant: antimuscarinics/mirabegron first. If SUI dominant: PFMT/surgery first. Sequential management allows response assessment and avoids compounding risks."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q8",
+        "stem": "A 65-year-old man with post-RP SUI (3 pads/day) also had adjuvant pelvic radiotherapy 18 months ago for pT3bN0M0 disease. He now wishes definitive surgical treatment for incontinence. What is the most important difference in his management compared to a non-irradiated man with equivalent SUI severity?",
+        "options": {
+          "A": "AUS is contraindicated after pelvic radiotherapy — bulking agents should be used instead",
+          "B": "Male sling (AdVance XP) is preferred after radiotherapy as it avoids a cuff around irradiated tissue",
+          "C": "AUS remains the gold standard but with higher complication rates (erosion/infection 10–15% vs 3–5%); sling is generally avoided",
+          "D": "The management is identical — radiation does not affect surgical outcomes for urinary incontinence"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "AUS remains the gold standard for post-RP SUI after pelvic radiotherapy, but radiation significantly increases complication rates: erosion and infection occur in 10–15% of irradiated patients versus 3–5% in non-irradiated. This is due to irradiated tissue's impaired healing, reduced vascularity, and susceptibility to infection. Patient counselling must reflect this higher risk. A higher pressure balloon (71–80 cmH₂O) is typically selected for irradiated patients to compensate for progressive urethral atrophy. Male sling is generally avoided after radiotherapy as mesh erosion rates in irradiated tissue are unacceptably high and success rates fall below 50%.",
+          "wrong": {
+            "A": "AUS is NOT contraindicated after radiotherapy — it is still the preferred treatment. It is used with caution and higher complication counselling, but remains the gold standard and achieves social continence in 60–80% of irradiated patients.",
+            "B": "Male sling is generally CONTRAINDICATED after radiotherapy due to high erosion rates and low success rates (<50%) in irradiated tissue. AUS, not sling, is the preferred option in post-radiation patients.",
+            "D": "Prior pelvic radiotherapy significantly alters surgical outcomes for urinary incontinence — this is one of the most important factors in pre-surgical counselling and device/procedure selection."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Post-radiotherapy SUI: AUS gold standard; higher complication rates (erosion/infection 10–15%, revision 25–35% at 5 years); male sling generally avoided; use 71–80 cmH₂O balloon",
+          "trial": "Chung E et al. World J Urol 2014: Meta-analysis AUS vs male sling in post-RP SUI — AUS 80% continence in non-irradiated, 62% post-RT; male sling 82% non-irradiated vs 45% post-RT; AUS superior in all groups especially post-RT",
+          "pearl": "Post-RT SUI: AUS is still the answer, but WARN about higher complications. Never choose male sling after pelvic radiotherapy (mesh + irradiated tissue = very high erosion risk). Use higher pressure balloon (71–80 cmH₂O). Counsel about 25–35% revision rate at 5 years."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q9",
+        "stem": "A 59-year-old woman complains of SUI ICIQ-UI SF 15. She is offered TVT and asks about the expected success rate and the most important intraoperative safety measure. Which statement is correct?",
+        "options": {
+          "A": "TVT achieves ~50% cure at 5 years; pre-operative urodynamics is the most important safety measure",
+          "B": "TVT achieves ~80–85% objective cure at 5 years; intraoperative cystoscopy is mandatory to detect bladder perforation",
+          "C": "TVT achieves ~95% cure but causes DE novo urgency in 30% of women",
+          "D": "TVT is no longer recommended by EAU 2024 following the mesh safety review"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "TVT achieves approximately 80–85% objective cure (no leakage on standardised testing) at 5 years. Intraoperative cystoscopy after trocar passage is MANDATORY for TVT — bladder perforation occurs in 5–7% of cases and must be detected and managed intraoperatively. Undetected bladder perforation results in mesh inside the bladder with subsequent mesh erosion, chronic UTI, and bladder stones. This is the single most important intraoperative safety measure for TVT specifically.",
+          "wrong": {
+            "A": "TVT cure rates are ~80–85%, not 50%. Pre-operative urodynamics is important for diagnosis confirmation but is not the most important intraoperative safety measure — cystoscopy (detecting bladder perforation during the procedure) is the critical intraoperative step.",
+            "C": "TVT cure rates are 80–85%, not 95%. De novo urgency occurs in 5–15%, not 30%. A 30% rate would make TVT an unacceptable procedure.",
+            "D": "TVT (retropubic MUS) continues to be recommended by EAU 2024 for female SUI. The mesh safety review led to stricter governance and informed consent requirements, but did not result in EAU withdrawal of the recommendation. Transobturator and retropubic MUS remain first-line surgical options."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — TVT: Grade A evidence, first-line surgical option for female SUI; ~80–85% objective cure at 5 years; mandatory intraoperative cystoscopy to detect bladder perforation (5–7% incidence)",
+          "trial": "Ward KL, Hilton P. BMJ 2004 (TVT vs Burch colposuspension): TVT 63% vs Burch 51% objective cure at 2 years; long-term equivalent at 5 years; TVT associated with 5.5% bladder perforation rate — all detected by mandatory intraoperative cystoscopy",
+          "pearl": "TVT: ~80–85% cure at 5 years + mandatory intraoperative cystoscopy (bladder perforation 5–7%). These two facts are the core TVT board points. TOT: equivalent cure rates, <1% bladder perforation (cystoscopy recommended but less critical)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B3-Q10",
+        "stem": "A patient with an AMS 800 AUS presents to the emergency department with acute urinary retention. The emergency physician wants to pass a urethral catheter. What instruction must be given regarding the AUS?",
+        "options": {
+          "A": "The AUS cuff must be deactivated by squeezing and holding the pump before catheter passage",
+          "B": "AUS prevents catheterisation — a suprapubic catheter is mandatory",
+          "C": "The AUS automatically deactivates when a catheter contacts the cuff",
+          "D": "A smaller (12 Fr) catheter can be passed without deactivating the device"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Before passing a urethral catheter in a patient with AMS 800, the cuff must be manually deactivated by squeezing and holding the pump (in the scrotum) until fluid transfers to the pressure-regulating balloon, opening the cuff. This allows catheter passage without damaging the cuff. Passing a catheter through a closed AUS cuff causes cuff erosion and device damage. All patients with AUS should carry a medical alert card and inform all healthcare providers of their device.",
+          "wrong": {
+            "B": "Suprapubic catheterisation is not mandatory for routine catheterisation with an AUS. The cuff can be safely deactivated to allow urethral catheterisation. Suprapubic catheter may be necessary if the AUS cannot be deactivated (device malfunction) or if urethral anatomy is compromised.",
+            "C": "The AUS does not automatically deactivate — it is a purely mechanical device with no electronic sensing. Manual deactivation by pump squeezing is required.",
+            "D": "Catheter size does not resolve the problem — even a 12 Fr catheter will damage a closed AUS cuff. The issue is the occlusive pressure of the closed cuff against any catheter, regardless of size."
+          },
+          "guideline": "AMS 800 device instructions and EAU Guidelines on Urinary Incontinence 2024 — Patient education requirement: all AUS patients must carry medical alert card; catheterisation protocol requires cuff deactivation before urethral catheter passage",
+          "trial": "Raj GV et al. J Urol 2005: AUS complications analysis — urethral erosion following catheterisation without deactivation is a preventable device complication; emphasis on patient education and medical alert cards",
+          "pearl": "AUS + catheterisation = DEACTIVATE FIRST. Squeeze and hold the pump to transfer fluid from cuff to balloon (cuff opens), then pass catheter. Teach this to every patient with AUS. Failure to deactivate causes cuff erosion — a preventable complication."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B3-Q11",
+        "stem": "A 67-year-old man received an AdVance XP male sling 10 months ago for mild post-RP SUI (2 pads/day). He initially improved to 0–1 pads/day for 3 months but now uses 4 pads/day again. Uroflowmetry: Qmax 8 mL/s, PVR 380 mL. What is the most likely cause of his deterioration?",
+        "options": {
+          "A": "Sling failure from insufficient initial tensioning",
+          "B": "Urinary obstruction from over-tight sling with secondary voiding dysfunction",
+          "C": "New-onset detrusor overactivity developing post-sling",
+          "D": "Recurrence of prostate cancer causing urethral compression"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The clinical pattern of initial improvement followed by progressive deterioration combined with low Qmax (8 mL/s) and significantly elevated PVR (380 mL) is characteristic of urethral obstruction from sling over-tension. The AdVance XP works by repositioning the urethrosphincteric junction — if tensioned too tightly, it causes bladder outlet obstruction rather than just support. This can cause voiding dysfunction, high PVR, and paradoxically more incontinence through overflow. Flexible cystoscopy and urodynamics will confirm obstruction. Management: sling release (incision of sling arms) or adjustment.",
+          "wrong": {
+            "A": "Insufficient initial tensioning would cause immediate sling failure (no improvement), not initial improvement followed by decline. The 3-month improvement period confirms the sling was functioning — obstruction from over-tension causing progressive voiding dysfunction is more consistent.",
+            "C": "De novo DO after male sling can occur, but would present with urgency/frequency as the primary symptoms, not the elevated PVR (380 mL) and reduced Qmax suggesting outlet obstruction.",
+            "D": "Prostate cancer recurrence causing urethral compression could mimic obstruction, but this requires PSA measurement and imaging. The much more common iatrogenic cause (over-tightened sling) should be investigated first."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Male sling complications: over-tension causing BOO in 10–15% of cases presenting as voiding dysfunction/high PVR; management: sling incision/release; UDS to confirm obstruction before intervention",
+          "trial": "Bauer RM et al. Eur Urol 2011 (AdVance male sling outcomes): 15% of patients developed de novo voiding dysfunction (Qmax <10 mL/s, PVR >100 mL) attributable to sling obstruction; sling incision resolved obstruction in 85% of cases",
+          "pearl": "Male sling complication: new low Qmax + high PVR after initial improvement = sling over-tension causing obstruction. This is distinct from sling failure (immediate, no improvement) and de novo OAB (urgency/frequency, normal flow). Manage with sling incision."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B3-Q12",
+        "stem": "A 54-year-old woman with SUI is counselled about MUS but refuses any synthetic mesh implant due to concerns about long-term complications. She has completed 6 months of supervised PFMT without adequate benefit. ICIQ-UI SF score is 14. What is the most appropriate surgical alternative?",
+        "options": {
+          "A": "Autologous rectus fascial pubovaginal sling",
+          "B": "Duloxetine 40 mg twice daily",
+          "C": "Periurethral bulking agent (Bulkamid) injection",
+          "D": "Burch colposuspension (laparoscopic or open)"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "Burch colposuspension (open or laparoscopic) is the recommended non-mesh surgical alternative for female SUI with equivalent long-term continence rates to MUS (~80% at 5 years). It uses the patient's own tissues (paravaginal fascia elevated to Cooper's ligament) without synthetic mesh. EAU 2024 recommends colposuspension as the preferred surgical option when mesh is declined. Laparoscopic Burch is as effective as open but with faster recovery.",
+          "wrong": {
+            "A": "Autologous rectus fascial pubovaginal sling uses the patient's own fascia (no synthetic mesh) and is a valid alternative, particularly for ISD. However, it is more complex surgery with longer recovery (harvest site morbidity) than Burch colposuspension. Burch is simpler and EAU 2024 recommends it as first-choice non-mesh alternative.",
+            "B": "Duloxetine is a weak pharmacological option achieving ~50% reduction in SUI episodes. It has high discontinuation rates from nausea. After 6 months of failed PFMT with ICIQ 14 (severe SUI), this patient needs surgical management — duloxetine is not appropriate as an alternative to surgery.",
+            "C": "Bulking agents achieve only 50–60% short-term cure and are appropriate for poor surgical candidates. This 54-year-old woman is a surgical candidate and should receive an effective surgical procedure, not a temporising minimally invasive treatment."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — When mesh refused for female SUI: Burch colposuspension (open or laparoscopic) is the primary recommendation; autologous fascial sling as alternative especially for ISD. Both achieve ~80% cure at 5 years.",
+          "trial": "Albo ME et al. NEJM 2007 (SISTEr Trial): Pubovaginal fascial sling vs Burch colposuspension — fascial sling 47% vs Burch 38% cure at 24 months in women with mixed/severe SUI; Burch generally adequate for urethral hypermobility SUI",
+          "pearl": "Mesh refused for female SUI = Burch colposuspension (laparoscopic preferred). Equivalent long-term cure rates to MUS (~80% at 5 years), no synthetic mesh, uses native tissues. Autologous fascial sling is the alternative, especially if ISD is present."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q13",
+        "stem": "A 76-year-old woman in a care home has UUI with incontinence 5 times/day. She has moderate dementia (MMSE 16/30), bilateral knee osteoarthritis limiting mobility, and cannot manage timed voiding independently. She is not a candidate for any pharmacotherapy due to polypharmacy and anticholinergic burden concerns. What is the most appropriate management?",
+        "options": {
+          "A": "Sacral neuromodulation",
+          "B": "Prompted/assisted voiding programme managed by care staff",
+          "C": "Intradetrusor botulinum toxin A 100 U",
+          "D": "Long-term indwelling urethral catheter"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Prompted voiding (carer-initiated regular trips to the toilet every 2–3 hours) combined with positive reinforcement is the standard conservative management for UI in cognitively impaired, mobility-limited elderly residents. This is a nursing/care intervention that does not require patient-initiated compliance. Evidence from multiple RCTs (including Schnelle et al.) demonstrates reduction in incontinence episodes with prompted voiding in care home residents. It is appropriate, safe, non-pharmacological, and feasible with adequate staff training.",
+          "wrong": {
+            "A": "SNM requires surgical implantation (spinal/general anaesthesia) and regular patient interaction with the device (remote programming, follow-up). This is inappropriate for a 76-year-old with moderate dementia and significant comorbidity. She cannot interact with the device settings.",
+            "C": "BoNT-A injection requires patient cooperation for the procedure and, critically, the ability to perform ISC if retention occurs. A patient with moderate dementia who cannot manage self-care would be unable to perform ISC — BoNT-A is not appropriate here.",
+            "D": "Long-term indwelling catheterisation is associated with significant morbidity: UTI (bacteriuria universal, symptomatic UTI in 30–40%/year), bladder spasm, urethral erosion, urosepsis, and reduced quality of life. It should be a last resort when non-invasive methods have failed, not first-line management."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 and NICE Incontinence guideline 2019 — Prompted voiding for cognitively impaired patients in care settings: evidence-based, care staff-delivered, reduces incontinence episodes without pharmacological risk",
+          "trial": "Schnelle JF et al. J Am Geriatr Soc 1989: Prompted voiding in nursing home residents — 26% reduction in incontinence episodes with 2-hourly prompted voiding programme; subsequent Cochrane reviews confirm efficacy in residential care settings",
+          "pearl": "Cognitively impaired elderly with UI in care home = prompted voiding programme. Not catheter, not BoNT-A (ISC needed), not SNM (too invasive). Prompted voiding is the EAU-recommended non-pharmacological care intervention for this specific population."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q14",
+        "stem": "A 42-year-old woman has severe stress urinary incontinence ICIQ-UI SF 19. Urodynamics shows ALPP 35 cmH₂O (intrinsic sphincter deficiency), no urethral hypermobility, no DO. Previous TVT 2 years ago with persistent SUI. She requires further surgical intervention. What is the most appropriate treatment?",
+        "options": {
+          "A": "Repeat TVT insertion",
+          "B": "Transobturator sling (TOT) as an alternative approach",
+          "C": "Artificial urinary sphincter (bladder neck cuff placement in women)",
+          "D": "Duloxetine 40 mg BD as pharmacological management"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This woman has severe SUI (ICIQ 19) with ALPP 35 cmH₂O indicating severe ISD and has failed a previous MUS (TVT). For failed MUS in women with ISD, the AMS 800 AUS with bladder neck cuff placement is the appropriate next step. AUS in women with refractory SUI from ISD achieves social continence in 75–85%. Bladder neck (not bulbar urethral) cuff placement is used in women. Repeat MUS has lower success rates after prior failed MUS (especially with ISD) and should not be performed before ruling out ISD as the primary mechanism.",
+          "wrong": {
+            "A": "Repeat TVT after failed TVT is generally ineffective when ISD is confirmed — the MUS mechanism provides urethral support but inadequate occlusion for severe ISD. A second mesh implant in the same field also risks adhesion, erosion, and voiding dysfunction.",
+            "B": "Transobturator sling (TOT) provides even less support force for ISD than TVT. In ISD with ALPP <60 cmH₂O, TOT has the lowest success rates of any MUS approach.",
+            "D": "Duloxetine provides modest benefit (30–50% reduction in SUI episodes) through pudendal nerve stimulation of the rhabdosphincter. After failed surgery with ALPP 35 cmH₂O (severe ISD), duloxetine is inadequate — the sphincter lacks sufficient innervated tissue to respond. Surgical correction is required."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Refractory female SUI with ISD and failed MUS: AUS (bladder neck cuff) or autologous pubovaginal sling. AUS preferred for severe ISD (ALPP <60 cmH₂O). AUS in women: bladder neck cuff (not bulbar urethral).",
+          "trial": "Petero VG & Diokno AC. J Urol 2006: AUS in women with refractory SUI — 86% social continence at 3 years; device survival 92% at 5 years; bladder neck cuff placement standard in female AUS",
+          "pearl": "Failed MUS + severe ISD (ALPP <60 cmH₂O) in women = AUS with bladder neck cuff. In men: AUS at bulbar urethra. In women: AUS at bladder neck. Never place repeat MUS for ISD-dominant SUI — mechanism insufficient for sphincteric deficiency."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B3-Q15",
+        "stem": "A 34-year-old woman who had a difficult third vaginal delivery presents with SUI ICIQ-UI SF 12. She declines surgery as she plans further pregnancies. What is the most appropriate management?",
+        "options": {
+          "A": "TVT (retropubic mid-urethral sling) now, to be revised after further pregnancies if needed",
+          "B": "Pelvic floor muscle training (PFMT) for minimum 3 months; defer surgery until childbearing is complete",
+          "C": "Burch colposuspension (more durable than MUS for young women of reproductive age)",
+          "D": "Duloxetine 40 mg BD until she completes her family"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Surgery for SUI should be deferred until childbearing is complete. Further pregnancy after MUS insertion significantly increases the risk of sling failure (from pelvic floor disruption during delivery), de novo urgency, sling complications (erosion, voiding dysfunction), and the need for revision surgery. EAU 2024 recommends conservative management (PFMT) for women who may have further pregnancies. PFMT should be continued supervised for minimum 3 months with reassessment — many women with post-partum SUI improve significantly with PFMT, with progressive improvement to 12 months.",
+          "wrong": {
+            "A": "MUS insertion in a woman planning further pregnancies is inappropriate — subsequent vaginal delivery damages the sling's supporting mechanism and is associated with significantly higher failure rates, requiring further surgery. Surgical risk exposure is unnecessary when the patient plans further pregnancies.",
+            "C": "Burch colposuspension, like MUS, is affected by subsequent pregnancies. Both surgical options should be deferred until the family is complete. Burch is not more durable than MUS post-pregnancy.",
+            "D": "Duloxetine is a reasonable short-term adjunct to PFMT but has significant side effects (nausea in 30–40%, insomnia), is not indicated long-term, and does not replace PFMT as the primary management. It is appropriate as supplementary treatment for PFMT non-responders who decline surgery."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Recommendation: surgery for SUI should be deferred until childbearing is complete due to high risk of surgical failure with subsequent vaginal delivery; PFMT for minimum 3 months is first-line",
+          "trial": "Nilsson CG et al. Int Urogynecol J 2013 (17-year TVT follow-up): Women who had subsequent pregnancy after TVT — significantly higher failure rates and mesh-related complications; strongly supports deferral of surgery until family complete",
+          "pearl": "SUI + plans for further pregnancy = PFMT first, defer surgery until childbearing is complete. Subsequent vaginal delivery after MUS significantly increases failure rates and complication rates. This is one of the clearest contraindications to early surgical intervention for SUI."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B3-Q16",
+        "stem": "A 78-year-old man with AMS 800 AUS implanted 6 years ago is brought to the emergency department confused and febrile (38.9°C). He has scrotal swelling with erythema and fluctuance around the pump site. Blood cultures grow Staphylococcus epidermidis. What is the correct management?",
+        "options": {
+          "A": "Intravenous antibiotics for 6 weeks with device preservation",
+          "B": "Irrigation of the wound and antiseptic wash of device components",
+          "C": "Complete device explantation plus IV antibiotics; delayed reimplantation ≥3 months later",
+          "D": "Remove only the pump and replace with a new pump component"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "AUS infection requires complete device explantation — all three components (cuff, balloon, pump) must be removed. Biofilm formation on prosthetic implants (particularly coagulase-negative staphylococci like S. epidermidis) renders antibiotic therapy alone ineffective for device salvage in established infections. Partial explantation (removing only the pump) leaves contaminated components in situ. Intravenous antibiotics are required perioperatively. Reimplantation can be planned ≥3 months after confirmed infection resolution with negative wound cultures.",
+          "wrong": {
+            "A": "IV antibiotics alone cannot eradicate biofilm on prosthetic implants. Device salvage with antibiotics only fails in virtually all cases of established AUS infection — the biofilm protects bacteria from antibiotic penetration. Device removal is mandatory.",
+            "B": "Wound irrigation and antiseptic washing is inadequate for prosthetic device infection. The infection involves the entire device (biofilm on all components), not just the wound surface.",
+            "D": "Replacing only the infected pump while leaving the cuff and balloon (which are also contaminated in a device infection) results in persistent infection. Complete explantation of all components is required."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 and AMS 800 infection management protocols — Device infection: complete explantation of all three components required; IV antibiotics; delayed reimplantation after confirmed infection resolution (minimum 3 months)",
+          "trial": "Licht MR et al. J Urol 1995: AUS infection management outcomes — device salvage with antibiotics alone: 0% success; complete explantation + delayed reimplantation: 82% successful second implantation with no recurrent infection",
+          "pearl": "AUS infection = complete device explantation (all components). Biofilm on prosthetics is impenetrable to antibiotics — device salvage never works. Remove everything, IV antibiotics, reimplant after ≥3 months. S. epidermidis is the most common infecting organism."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q17",
+        "stem": "A 70-year-old woman has persistent UUI after failing solifenacin and mirabegron. She is otherwise fit. Urodynamics confirms idiopathic DO. Cystoscopy is normal. She is offered intradetrusor BoNT-A 100 U. What is the single most important factor to establish before proceeding with BoNT-A injection?",
+        "options": {
+          "A": "Confirm she is not on anticoagulants",
+          "B": "Confirm her baseline serum sodium is ≥135 mmol/L",
+          "C": "Confirm she is willing and able to perform clean intermittent self-catheterisation",
+          "D": "Confirm she has no prior history of botulism exposure"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The single most important prerequisite for BoNT-A treatment of OAB is confirming the patient is willing and able to perform clean intermittent self-catheterisation (CIC). Urinary retention requiring CIC occurs in 5–20% of patients after intradetrusor BoNT-A. If the patient cannot or will not perform CIC, and retention occurs, it would require emergency attendance, indwelling catheterisation, or suprapubic catheter — all undesirable complications. This absolute requirement must be assessed and confirmed BEFORE treatment, not after.",
+          "wrong": {
+            "A": "Anticoagulation management is important but is not a contraindication to BoNT-A injection. Most centres hold anticoagulants for 24–48 hours for this low-bleeding-risk procedure. Anticoagulants do not prevent BoNT-A injection.",
+            "B": "Serum sodium is relevant for desmopressin (risk of hyponatraemia), not BoNT-A. BoNT-A has no effect on serum sodium. This is a distractor.",
+            "D": "Prior history of botulism exposure is not a contraindication to intradetrusor BoNT-A. Natural botulism involves systemic toxin absorption — intradetrusor injection delivers localised therapeutic doses with negligible systemic absorption at standard doses."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS and Urinary Incontinence 2024 — BoNT-A pre-treatment requirement: patients MUST be willing and able to perform CIC before treatment initiation; failure to confirm this is a patient safety issue",
+          "trial": "Chapple C et al. Eur Urol 2013: Systematic review of BoNT-A for OAB — 5.4% CIC requirement at 100 U dose; absolute requirement for CIC capability before treatment; patients unable to perform CIC had significantly worse outcomes when retention occurred",
+          "pearl": "BoNT-A pre-treatment checklist: confirm ABILITY and WILLINGNESS to perform CIC. This is the #1 safety requirement. 5–20% of patients need CIC post-injection — without pre-treatment confirmation of CIC capability, you cannot safely give BoNT-A."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B3-Q18",
+        "stem": "A 55-year-old obese woman (BMI 38 kg/m²) has moderate SUI ICIQ-UI SF 13 and urgency incontinence (UUI 2 episodes/day). She has tried PFMT for 4 months without benefit. Her urodynamics shows genuine SUI with urethral hypermobility (ALPP 78 cmH₂O), no DO. Which initial treatment is most appropriate before surgical intervention?",
+        "options": {
+          "A": "Proceed to transobturator MUS — she has failed PFMT and has confirmed SUI on UDS",
+          "B": "Weight loss programme (target 10% weight reduction) before considering surgery",
+          "C": "Antimuscarinics for her mixed component before surgery",
+          "D": "Duloxetine 40 mg BD as a bridge to surgery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Weight loss is strongly recommended by EAU 2024 and NICE 2019 for obese women with SUI before surgical intervention. A sustained 5–10% weight reduction reduces SUI frequency by 30–60% (WEIGHT trial, Subak et al. NEJM 2009). Obesity significantly increases surgical failure rates for MUS and increases complication rates (wound infections, voiding dysfunction). BMI 38 kg/m² is a significant risk factor that should be addressed before surgery. The EAU explicitly recommends attempting meaningful weight loss before MUS in obese patients.",
+          "wrong": {
+            "A": "Proceeding directly to MUS without weight loss in a BMI 38 patient ignores a modifiable risk factor that independently impairs surgical outcomes. The WEIGHT trial demonstrated clinically significant SUI reduction from weight loss alone. Surgery should be deferred until weight loss is achieved.",
+            "C": "Her UDS shows NO detrusor overactivity — her UUI is likely functional urgency from SUI or coincidental. Antimuscarinics are for DO-related UUI, not for urgency without DO on UDS. Adding antimuscarinics for 2 UUI episodes/day is not appropriate as primary next step.",
+            "D": "Duloxetine is a weak option that does not address obesity as a risk factor. It should be considered only if weight loss and further PFMT are declined — not as a substitute for addressing obesity before surgery."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 and NICE UI guideline 2019 — Obesity management before UI surgery: sustained weight loss recommended in obese women (BMI >30); reduces SUI frequency by 30–60% and improves surgical outcomes",
+          "trial": "Subak LL et al. NEJM 2009 (WEIGHT Trial): 338 overweight/obese women randomised to intensive weight loss vs control — 47% vs 28% ≥70% reduction in incontinence episodes with 8% mean weight loss; strongly supports weight loss as primary intervention before surgery in obese women",
+          "pearl": "Obese woman with SUI (BMI >30): prescribe weight loss before MUS. WEIGHT trial: 8% weight loss → 47% ≥70% reduction in incontinence. Obesity also increases MUS failure rates. EAU and NICE both recommend weight management before surgical intervention in obese women."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B3-Q19",
+        "stem": "A 62-year-old man is 14 months post-retropubic radical prostatectomy with pelvic lymph node dissection. He uses 2 pads/day for SUI and has ICIQ-UI SF score 11. Urodynamics: ALPP 72 cmH₂O (adequate sphincteric reserve), no DO, PVR 40 mL. He received no radiotherapy. Which treatment is most appropriate?",
+        "options": {
+          "A": "Artificial urinary sphincter (AMS 800)",
+          "B": "AdVance XP transobturator male sling",
+          "C": "Continue pelvic floor muscle training for a further 12 months",
+          "D": "Periurethral bulking injection (Bulkamid)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This man meets the ideal criteria for AdVance XP transobturator male sling: mild post-RP SUI (2 pads/day), ALPP >60 cmH₂O (adequate sphincteric reserve indicating urethral repositioning will be effective), no prior radiotherapy, adequate PVR and flow. Expected success rate (0–1 pad/day) with male sling in this setting: 60–80% at 12–24 months. AUS is not wrong but is excessive for mild SUI with adequate sphincteric function in a non-irradiated patient — the sling is appropriate first-line surgical choice.",
+          "wrong": {
+            "A": "AUS is the gold standard for moderate-severe SUI (≥3 pads/day) or ALPP <60 cmH₂O (ISD). With only 2 pads/day and ALPP 72 cmH₂O (adequate sphincteric reserve), male sling is the appropriate less invasive first choice. AUS is not wrong but should be reserved for cases where sling criteria are not met.",
+            "C": "PFMT for 14+ months has reached the time limit where further physiotherapy alone is unlikely to provide meaningful additional benefit. EAU 2024 supports surgical intervention for persistent SUI after 12 months in men with documented sphincteric function. Further PFMT delay is not appropriate.",
+            "D": "Bulking agents (Bulkamid) achieve only 50–60% short-term cure with high re-treatment rates. They are for poor surgical candidates or those who refuse more invasive intervention. A 62-year-old surgical candidate with mild SUI should receive an effective surgical procedure."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Male sling indications: mild post-RP SUI (1–3 pads/day), ALPP >60 cmH₂O, no prior RT, no urethral atrophy. Success rate 60–80% in ideal candidates. AUS for moderate-severe SUI, ALPP <60, or post-RT.",
+          "trial": "Bauer RM et al. Eur Urol 2011 (AdVance male sling): 52.5% complete continence (0 pads), 27.5% improvement (1 pad) at 12 months; best results in mild SUI (1–2 pads) with adequate sphincteric function (ALPP >60 cmH₂O)",
+          "pearl": "Male sling ideal candidate: mild SUI (1–3 pads), ALPP >60 cmH₂O, NO prior RT. Success 60–80%. AUS for: ≥3 pads OR ALPP <60 cmH₂O OR prior RT. ALPP is the key urodynamic discriminator — below 60 cmH₂O means inadequate sphincter for sling to work."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B3-Q20",
+        "stem": "A 69-year-old woman presents with a complaint of continuous urinary leakage day and night, even when lying still. She underwent radical hysterectomy for cervical cancer 4 months ago followed by pelvic radiotherapy. Urinalysis: pH 6.5, leukocytes 3+. Urodynamics shows normal filling cystometry with no urethral pressure loss during Valsalva. What is the most likely diagnosis and initial investigation?",
+        "options": {
+          "A": "Overactive bladder with UUI — treat with antimuscarinics",
+          "B": "Post-radiation radiation cystitis causing continuous leakage — CT abdomen/pelvis",
+          "C": "Vesicovaginal fistula — MRI pelvis and cystoscopy",
+          "D": "Overflow incontinence from post-radiation DUA — ISC"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Continuous leakage (day and night, including at rest) after radical hysterectomy and pelvic radiotherapy is the classic presentation of vesicovaginal fistula (VVF). The urodynamics is normal (no DO, no urethral pressure loss during Valsalva) because the incontinence bypasses the sphincteric mechanism entirely through the fistula tract. This is the typical urodynamic finding in fistula — normal studies with clinically obvious continuous leakage. MRI pelvis precisely localises the fistula and assesses tissue quality/radiation damage. Cystoscopy confirms the fistula opening. Post-surgical + post-radiation VVF have a higher complexity and worse repair outcomes than simple obstetric fistulae.",
+          "wrong": {
+            "A": "OAB/UUI causes urgency-provoked episodic leakage, not continuous day-and-night leakage at rest. Urodynamics showing normal cystometry makes DO very unlikely as the cause.",
+            "B": "Radiation cystitis causes frequency, urgency, haematuria, and bladder pain — not continuous urinary leakage. CT would show bladder wall thickening but not explain the leakage mechanism.",
+            "D": "Overflow incontinence from DUA would show elevated PVR and abnormal urodynamics. Normal urodynamics excludes DUA as the cause of continuous leakage."
+          },
+          "guideline": "EAU Guidelines on Urinary Fistulae 2024 — Vesicovaginal fistula after pelvic surgery/radiotherapy: continuous leakage + normal UDS = fistula until proven otherwise. Investigate with MRI pelvis and cystoscopy. Management: surgical repair after 3–6 months (tissue healing/maturation).",
+          "trial": "Hilton P. Vesicovaginal fistulas in developing countries. Int J Gynaecol Obstet 2003: Classic clinical triad of VVF — continuous urinary leakage, no urge or stress component, normal urodynamics. Post-radiotherapy VVF has higher recurrence after repair than non-irradiated VVF.",
+          "pearl": "Continuous leakage (day + night, at rest) = fistula until proven otherwise. Normal urodynamics despite continuous leakage is the diagnostic clue — leakage bypasses the sphincter through the fistula. MRI + cystoscopy are the investigations. After radical hysterectomy/RT, VVF is the most common fistula type."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

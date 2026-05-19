@@ -1,0 +1,703 @@
+{
+  "id": "C4",
+  "title": "Percutaneous Nephrolithotomy (PCNL)",
+  "subtitle": "Block C — Urolithiasis and Endourology: Access Techniques, Lithotripsy, and Outcomes",
+  "block": "C",
+  "block_name": "Urolithiasis and Endourology",
+  "level": "R3-5",
+  "reading_time_min": 50,
+  "guidelines_version": "EAU Guidelines on Urolithiasis 2024 · AUA/Endourological Society PCNL Guideline 2016 (reaffirmed 2021)",
+  "textbook_refs": [
+    "Türk C et al. EAU Guidelines on Urolithiasis. European Association of Urology 2024",
+    "Assimos D et al. Surgical Management of Stones: AUA/Endourological Society Guideline. J Urol 2016;196:1153",
+    "De la Rosette J et al. CROES PCNL Study Group: Outcomes of Percutaneous Nephrolithotomy (PCNL). J Urol 2011;186:99–104",
+    "Desai M et al. Miniperc and Standard PCNL: A Prospective Comparative Study. BJU Int 2013;112:355–361",
+    "Sabnis RB et al. Mini PCNL v Standard PCNL for Renal Calculi >2 cm. J Endourol 2016;30:Suppl S152",
+    "Ghani KR et al. Evaluating the learning curve for PCNL. J Urol 2014;192:1512",
+    "Seitz C et al. Incidence, Prevention, and Management of Complications Following Percutaneous Nephrolitholapaxy. Eur Urol 2012;61:146–158"
+  ],
+  "learning_objectives": [
+    "Select the appropriate PCNL variant (standard/mini/ultra-mini) based on stone burden, anatomy, and EAU 2024 criteria",
+    "Describe the anatomical basis of percutaneous renal access via Brödel's avascular plane and the posterior calyceal approach",
+    "Compare prone versus supine/Valdivia-modified positioning with regard to anaesthetic and surgical considerations",
+    "Identify and grade PCNL-specific complications using the modified Clavien-Dindo classification",
+    "Manage haemorrhagic complications including arteriovenous fistula and pseudoaneurysm requiring angioembolisation",
+    "Apply EAU 2024 Grade A recommendations for stone burden >20 mm, staghorn calculi, and lower-pole large stones"
+  ],
+  "sections": [
+    {
+      "id": "C4-S1",
+      "title": "Indications, Patient Selection, and Pre-operative Evaluation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Percutaneous nephrolithotomy (PCNL) is the standard of care for large renal calculi and remains the most effective single-session stone-clearance procedure. The EAU 2024 Guidelines assign **Grade A recommendations** to PCNL for renal stones >20 mm (including lower-pole stones >15 mm), complete or partial staghorn calculi, and stones refractory to SWL or ureteroscopy. For stones 10–20 mm in the lower pole, PCNL or f-URS is preferred over SWL given inferior SWL stone-free rates in this location. The CROES Global PCNL Study — a prospective multicentre registry of 5,803 patients across 96 centres worldwide — reported an overall stone-free rate of 75.7% at discharge and 76.3% at three months, establishing benchmarks for practice quality.\n\nPre-operative evaluation is mandatory and should include: non-contrast CT (NCCT) for stone volume, distribution, stone HU, skin-to-stone distance (SSD), and calyceal anatomy; urine culture with treatment of bacteriuria at least 48 hours before PCNL; full blood count, coagulation screen, renal function, and cross-match. Anticoagulants and antiplatelets must be appropriately bridged or reversed. Anatomical variants — horseshoe kidney, duplex system, pelvic kidney, obesity (BMI >35), splenomegaly, hepatomegaly, retrorenal colon — require individualised access planning often with pre-operative CT-guided tract planning or ultrasound-guided access. Pelvic and lumbar kidneys may require an antegrade approach under fluoroscopic guidance through alternative positions (e.g., lateral or Galdakao-modified supine). Prophylactic antibiotics are administered at induction; a single dose of a second-generation cephalosporin or aminoglycoside is appropriate if urine is sterile pre-operatively."
+        },
+        {
+          "type": "table",
+          "title": "EAU 2024 — PCNL Indications by Stone Burden and Location",
+          "headers": ["Stone Type", "First-Line Treatment", "EAU Grade", "Comment"],
+          "rows": [
+            ["Renal stone >20 mm", "PCNL", "A", "Standard or mini-PCNL both acceptable"],
+            ["Lower-pole stone >15 mm", "PCNL or f-URS", "A", "f-URS acceptable if expertise available"],
+            ["Lower-pole stone 10–20 mm", "PCNL or f-URS preferred over SWL", "B", "SWL inferior stone-free rate"],
+            ["Staghorn (complete/partial)", "PCNL ± multiple tracts", "A", "Anatrophic nephrolithotomy rarely needed"],
+            ["Stones after failed SWL ×3", "PCNL or f-URS", "A", "Depends on stone size/location"],
+            ["Cystine stones >10 mm", "PCNL or f-URS", "B", "SWL very poor for cystine"],
+            ["Horseshoe kidney, >20 mm", "PCNL or f-URS", "B", "Flank or prone approach, avoid SWL"],
+            ["Renal stone in transplant kidney", "f-URS (retrograde) preferred", "B", "Antegrade PCNL if no retrograde access"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — PCNL Stone-Free Benchmarks",
+          "content": "The CROES PCNL Global Study (De la Rosette et al., J Urol 2011) reported a stone-free rate of 75.7% at hospital discharge for a heterogeneous international cohort. For stones >30 mm (staghorn), a single-session stone-free rate of approximately 60–70% is expected; multiple tracts or staged procedures improve outcomes. EAU 2024 recommends PCNL as Grade A for all stones >20 mm."
+        }
+      ]
+    },
+    {
+      "id": "C4-S2",
+      "title": "Patient Positioning: Prone versus Supine Variants",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Historically, PCNL is performed with the patient in the **prone position**, which affords direct posterior calyceal access, optimal fluoroscopic visualisation, and the widest working angle for nephroscopy. The prone position remains the most widely adopted globally and is the position used in the majority of CROES study centres. However, prone positioning has disadvantages: longer anaesthetic induction and positioning time, risk of facial pressure injury, respiratory compromise in obese patients, and inability to perform simultaneous retrograde ureteroscopy.\n\nThe **supine Valdivia position** (modified as the Galdakao-modified supine Valdivia — GMSV position, which combines supine trunk with flexed ipsilateral hip) was developed to address these limitations. Key advantages include: facilitated endotracheal intubation and airway management, ability to simultaneously perform retrograde access (allowing concurrent cystoscopy, retrograde pyelography, and DJ stent placement), reduced cardiorespiratory compromise in obese patients, faster patient preparation, and improved surgeon comfort in extended procedures. Stone-free rates between prone and supine are equivalent in randomised comparative studies. A meta-analysis by Yuan et al. (J Endourol 2016) of 9 RCTs showed no statistically significant difference in stone-free rate, complication rate, or blood transfusion requirement between the two positions. Supine PCNL demonstrated shorter operative time (mean difference −14 minutes) and shorter hospital stay. The choice should be based on surgeon expertise, available equipment, and patient-specific factors."
+        },
+        {
+          "type": "table",
+          "title": "Prone versus Supine PCNL — Comparative Summary",
+          "headers": ["Parameter", "Prone", "Supine (GMSV)", "Evidence"],
+          "rows": [
+            ["Stone-free rate", "75–85%", "74–84%", "Equivalent (Yuan 2016 meta-analysis)"],
+            ["Operative time", "Longer (baseline)", "~14 min shorter", "Yuan 2016 J Endourol"],
+            ["Simultaneous retrograde", "Not feasible", "Feasible (concurrent cystoscopy)", "Practical advantage"],
+            ["Airway management", "Complex (face-down)", "Standard supine intubation", "Anaesthetic advantage"],
+            ["Obese patients", "Higher risk", "Preferred", "Guidelines consensus"],
+            ["Lower-pole access", "Optimal posterior approach", "May require flank tilt", "Surgeon experience dependent"],
+            ["Respiratory compromise", "Higher risk (prone)", "Lower risk", "Especially in BMI >35"],
+            ["Calyceal visualisation", "Optimal", "Slightly limited anterior", "Experience-dependent"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Positioning for High-Risk Anaesthetic Patients",
+          "content": "For a 68-year-old male with BMI 42, OSA (CPAP-dependent), and a 35 mm partial staghorn calculus, the GMSV supine position offers significant anaesthetic advantages: no prolonged prone intubation, ability to manage the airway rapidly if needed, and concurrent retrograde access for tract guidance. Discuss positioning choice with the anaesthetist during pre-operative planning — in this scenario, supine PCNL with combined retrograde guidance is the preferred approach."
+        }
+      ]
+    },
+    {
+      "id": "C4-S3",
+      "title": "Percutaneous Access Technique and Anatomy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The anatomical target for percutaneous renal access is the **posterior calyx**, approached through **Brödel's avascular line** — the relatively bloodless plane between the anterior and posterior segmental arterial distributions of the kidney. This plane lies approximately one-third of the way around the posterior surface of the kidney from its lateral convex border. Access through the posterior calyceal fornix into the collecting system minimises haemorrhage by avoiding the interlobar vessels. **Access through the renal papilla (papillary puncture)** — targeting the tip of the papilla rather than the calyceal fornix — is now favoured by many endourologists as it creates the most direct tract into the collecting system with lower haemorrhage risk.\n\nFluoroscopic guidance remains the most widely used access method globally (CROES study: >80% of cases). Real-time **ultrasound-guided access** is increasingly adopted, particularly in Europe and paediatric practice, and avoids radiation exposure to patient and surgeon. CT-guided access is reserved for complex anatomies (retrorenal colon, pelvic kidney, horseshoe kidney). The **target calyx** is selected based on stone location, stone distribution, and required working angle — typically the posterior middle or lower calyx provides the best straight-line access to the renal pelvis and upper ureter. For staghorn calculi requiring multiple-calyx access, the primary tract typically targets the calyx providing the widest collecting system entry, with secondary tracts planned for residual fragments.\n\nTract dilation is performed over an amplatz super-stiff guidewire. Options include: **serial metal telescoping dilators** (Alken), **balloon dilators** (nephrostomy balloon — single step, faster but more expensive), and **sequential plastic dilators** (Amplatz). There is no significant difference in complication rates between dilation methods. Standard PCNL uses a **30 Fr working sheath** (Amplatz); mini-PCNL uses 14–22 Fr sheaths."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Transgressing the Anterior Segmental Artery",
+          "content": "Access through the anterior calyceal fornix rather than the posterior calyx risks injury to the anterior segmental arteries, causing significant intraoperative haemorrhage and increasing the risk of post-operative arteriovenous fistula (AVF) or pseudoaneurysm. Always confirm posterior calyceal position with biplanar fluoroscopy (AP + 30° oblique) before dilating the tract. If bleeding obscures the view immediately after nephroscope placement, do not proceed — obtain haemostasis with balloon tamponade (inflate nephrostomy balloon within the tract) and consider early angioembolisation."
+        },
+        {
+          "type": "table",
+          "title": "PCNL Tract Dilation Methods — Comparison",
+          "headers": ["Method", "Sheath Size", "Advantages", "Disadvantages", "Evidence"],
+          "rows": [
+            ["Serial metal dilators (Alken)", "Standard 30 Fr", "Cost-effective, precise", "Requires fluoroscopy at each step", "Standard technique"],
+            ["Balloon dilation (nephrostomy)", "Standard 30 Fr", "Single step, faster, less pelviceal trauma", "Expensive, risk of balloon rupture", "No superiority vs serial"],
+            ["Amplatz plastic dilators", "Standard 30 Fr", "Available, lower cost", "Multiple steps, risk of kinking", "Equivalent outcomes"],
+            ["Mini-PCNL sheath", "14–22 Fr", "Less bleeding, tubeless feasible", "Smaller operating channel, longer fragmentation", "Desai 2013 BJU Int"],
+            ["Ultra-mini/Micro PCNL", "4.8–11 Fr", "Paediatric use, minimal invasive", "Limited for large stone burden", "Sabnis 2016 J Endourol"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C4-S4",
+      "title": "PCNL Variants: Standard, Mini, and Ultra-Mini PCNL",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The development of smaller-calibre PCNL platforms has expanded the applicability of percutaneous nephrolithotomy across stone sizes, patient ages, and anatomical variants. **Standard PCNL** (24–30 Fr) remains the most effective procedure for stone volumes >20 mm, providing the largest working channel for rapid stone fragmentation and extraction with ultrasonic/pneumatic combined lithotripters (e.g., EMS Swiss Lithoclast Master, StoneBreaker). Stone-free rates for stones >20 mm with standard PCNL are approximately 80–90% in high-volume centres.\n\n**Mini-PCNL** (14–22 Fr) was developed to reduce haemorrhagic complications while maintaining efficacy for intermediate-sized stones (10–20 mm) and paediatric cases. The landmark comparative study by Desai et al. (BJU Int 2013) of 100 patients randomised to mini-PCNL (14 Fr) versus standard PCNL showed equivalent stone-free rates (95% vs 97%) with significantly less haemoglobin drop (0.8 vs 1.8 g/dL), fewer blood transfusions, and shorter hospital stay in the mini-PCNL arm. The working channel limitation (typically 9.8 Fr instruments) reduces fragmentation efficiency for very large stones, potentially requiring longer operative times. For stones <10–15 mm in children, **ultra-mini PCNL** (11 Fr) or **micro-PCNL** (4.85 Fr) — as described by Desai et al. and Sabnis et al. — allow tubeless procedure completion with excellent stone-free rates and minimal morbidity.\n\nHolmium:YAG laser lithotripsy can be used through all PCNL tract sizes including mini and ultra-mini variants. Combined ultrasonic and pneumatic lithotripsy (Swiss Lithoclast) is only feasible through standard 24–30 Fr sheaths due to instrument diameter but offers the fastest stone fragmentation and simultaneous aspiration capability, making it ideal for large stone burdens."
+        },
+        {
+          "type": "table",
+          "title": "PCNL Variants — Technical Specifications and Clinical Applications",
+          "headers": ["Variant", "Sheath Size", "Nephroscope", "Stone Size Target", "Key Advantage", "Key Limitation"],
+          "rows": [
+            ["Standard PCNL", "24–30 Fr", "Rigid 26 Fr", ">20 mm, staghorn", "Fastest stone clearance, combined US+pneumatic", "Highest blood loss"],
+            ["Mini-PCNL", "14–22 Fr", "Mini nephroscope/flexible", "10–20 mm", "Less haemorrhage, tubeless feasible", "Longer operative time for large stones"],
+            ["Ultra-mini PCNL", "11 Fr", "4.85 Fr videoscope", "5–15 mm (paediatric)", "Minimal invasive, tubeless", "Limited fragmentation tools"],
+            ["Micro-PCNL (Viper)", "4.85 Fr", "4.85 Fr single-use", "<10 mm (paediatric)", "Least invasive percutaneous approach", "Only fine dust fragmentation"],
+            ["ECIRS (Endo-Combined)", "Variable", "Rigid + flexible simultaneously", "Staghorn, complex anatomy", "Simultaneous retrograde + antegrade", "Requires two surgeons or advanced setup"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Mini-PCNL Equivalence with Less Blood Loss",
+          "content": "Desai et al. (BJU Int 2013) demonstrated equivalent stone-free rates between mini-PCNL (14 Fr) and standard PCNL (30 Fr) for stones 10–30 mm, with significantly lower haemoglobin decrease (0.8 vs 1.8 g/dL, p<0.001) and fewer blood transfusions with mini-PCNL. Mini-PCNL is now recommended as the preferred approach for stones 10–20 mm and in paediatric patients when percutaneous access is required (EAU 2024)."
+        }
+      ]
+    },
+    {
+      "id": "C4-S5",
+      "title": "Intraoperative Lithotripsy and Stone Extraction",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Intraoperative stone fragmentation in standard PCNL is most efficiently achieved with **combined ultrasonic and pneumatic lithotripsy** using instruments such as the EMS Swiss Lithoclast Master or the Cyberwand (Olympus). These dual-energy devices fragment stone with pneumatic action while simultaneously applying ultrasonic aspiration — enabling continuous suction-fragmentation that prevents fragment migration into the collecting system and dramatically reduces stone-clearance time. Stone-free rates for combined lithotripsy in standard PCNL for stones >30 mm (including staghorn) approach 85–90% in experienced hands. For mini and ultra-mini PCNL, **Ho:YAG laser lithotripsy** (2140 nm) is the only option given instrument-channel limitations, with dusting or fragmentation/extraction strategies both applicable. The recently introduced **Thulium fibre laser (TFL)** at 1940 nm is also being introduced into mini-PCNL workflows with promising early results due to superior water absorption and lower retropulsion.\n\nAt the conclusion of lithotripsy, a thorough inspection of all accessible calyces is performed to identify residual fragments. **Flexible nephroscopy** through the established percutaneous tract (using a flexible ureteroscope via the nephrostomy sheath) allows inspection of calyces not accessible with the rigid scope, particularly the upper-pole calyx from a lower or middle access. This adjunct significantly improves single-session stone-free rates for complex staghorn calculi. Intraoperative fluoroscopy with contrast nephrostogram and post-operative NCCT at 4–6 weeks are standard for stone-free assessment.\n\n**Tubeless PCNL** (placement of a ureteral stent without external nephrostomy tube) and **totally tubeless PCNL** (neither nephrostomy tube nor ureteral stent) are feasible in carefully selected patients after uncomplicated procedures with minimal bleeding and no urothelial injury. The EAU 2024 guideline allows tubeless PCNL when there is no significant bleeding, no urothelial injury, no collecting system perforation, and no residual stone (Grade B). Totally tubeless PCNL reduces post-operative pain and hospital stay but is not appropriate after difficult or prolonged procedures."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Flexible Nephroscopy through PCNL Tract",
+          "content": "A 52-year-old woman undergoes PCNL for a 28 mm lower-pole staghorn calculus via a posterior lower-calyceal access. After clearing the lower pole and renal pelvis fragments with the rigid nephroscope and Swiss Lithoclast, a flexible ureteroscope is passed through the 30 Fr Amplatz sheath to inspect the upper-pole calyx. A 7 mm residual fragment is identified and ablated with a Ho:YAG laser. This flex-nephroscopy manoeuvre avoids a second percutaneous tract and improves the single-session stone-free rate from approximately 65% to >85% for staghorn calculi."
+        },
+        {
+          "type": "table",
+          "title": "PCNL Lithotripsy Devices — Characteristics",
+          "headers": ["Device", "Mechanism", "Application", "Key Advantage", "Limitation"],
+          "rows": [
+            ["EMS Swiss Lithoclast Master", "Ultrasonic + pneumatic (combined)", "Standard PCNL 24-30 Fr", "Simultaneous fragmentation + aspiration, fastest clearance", "Requires large working channel (≥24 Fr)"],
+            ["Cyberwand (Olympus)", "Dual ultrasonic probes", "Standard PCNL", "High-frequency aspiration, rapid stone clearance", "Expensive, large channel required"],
+            ["Ho:YAG laser (2140 nm)", "Photothermal, all stone types", "All PCNL sizes incl mini", "Works through small channels, flexible", "Slower clearance for large stones"],
+            ["Thulium fibre laser (1940 nm)", "Superior water absorption", "Mini and standard PCNL", "Less retropulsion, finer dust", "Less widespread availability (2024)"],
+            ["Pneumatic (EMS Lithoclast Solo)", "Ballistic/pneumatic only", "Standard PCNL, URS", "Cost-effective", "Fragment retropulsion, no aspiration"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C4-S6",
+      "title": "Complications: Classification, Prevention, and Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "PCNL carries the highest complication profile of all endourological stone procedures. Seitz et al. (Eur Urol 2012) published a comprehensive systematic review of PCNL complications using the modified Clavien-Dindo classification, which stratifies complications from Grade I (minor, no intervention required) to Grade V (death). Overall complication rates range from 20–83% in published series, though major complications (Clavien ≥III) occur in 7–14% of cases in high-volume centres. The CROES study reported a transfusion rate of 7.8% and fever/sepsis in 11.7%.\n\n**Haemorrhage** is the most clinically significant complication of PCNL. Intraoperative bleeding is managed with tamponade (balloon nephrostomy), and most cases settle with conservative management. **Arteriovenous fistula (AVF)** and **pseudoaneurysm** are delayed vascular complications presenting 3–21 days post-operatively with gross haematuria, often following an initial symptom-free period. Diagnosis is by CT angiography or selective renal angiography. Treatment is **superselective transarterial angioembolisation**, which is successful in >95% of cases and preserves renal parenchyma. Nephrectomy is rarely required (<1%). Predictors of post-PCNL haemorrhage include: supracostal access (especially ≥12th rib), multiple tracts, prolonged operative time, prior renal surgery, and positive intraoperative urine culture.\n\n**Sepsis/urosepsis** occurs in 0.5–4% of PCNL procedures and is the leading cause of serious morbidity and mortality. Risk factors include pre-operative bacteriuria (most important), staghorn calculi (harbouring Proteus/Klebsiella), prolonged high intrarenal pressure during irrigation, and immunocompromise. Prevention requires sterilisation of urine pre-operatively, low-pressure irrigation, and early recognition. Management follows urosepsis protocols: IV antibiotics (empirical broad-spectrum: pip/tazo or carbapenem if MDR risk), fluid resuscitation, ICU admission if septic shock, and early nephrostomy drainage if not already in place.\n\n**Pleural injury** occurs with supracostal access above the 12th rib (intercostal space 11 or above), resulting in hydrothorax or pneumothorax in 2–8% of supracostal cases. Subcostal access (below 12th rib) is preferred. If supracostal access is necessary (e.g., upper-pole calyx for complete staghorn), it should be performed above the rib (not below, to avoid neurovascular bundle injury) and a post-operative chest X-ray is mandatory. **Colon injury** (retrorenal colon) occurs in <1% of cases and is more common in thin patients with a low BMI, constipation, and left-sided access. Suspected colonic injury manifests as faecal material through the nephrostomy tube; confirmed with contrast injection through nephrostomy. Management depends on intraperitoneal vs. extraperitoneal: extraperitoneal colonic injury can often be managed conservatively with colostomy and uretero-colic fistula closure; intraperitoneal injuries require surgical exploration."
+        },
+        {
+          "type": "table",
+          "title": "PCNL Complications — Clavien-Dindo Classification and Management",
+          "headers": ["Complication", "Clavien Grade", "Incidence", "Management"],
+          "rows": [
+            ["Fever/UTI", "I–II", "11–17%", "IV antibiotics, urine culture, nephrostomy drainage"],
+            ["Blood transfusion", "II", "5–8% (CROES 7.8%)", "Transfusion, nephrostomy balloon tamponade"],
+            ["Urosepsis/septic shock", "IVa", "0.5–4%", "IV broad-spectrum antibiotics, fluid resuscitation, ICU, decompression"],
+            ["Arteriovenous fistula / pseudoaneurysm", "III–IVa", "1–2% (delayed, 3–21 days)", "Selective angioembolisation (>95% success)"],
+            ["Pleural injury (hydro/pneumothorax)", "II–IIIb", "2–8% supracostal", "Intercostal drain ± conservative (small pneumothorax)"],
+            ["Colonic injury", "IIIb–IVa", "<1%", "Nephrostomy preservation, colostomy ± primary repair (intraperitoneal)"],
+            ["Collecting system perforation", "I–II", "2–4%", "Nephrostomy drainage, DJ stent, conservative"],
+            ["Adjacent organ injury (spleen/liver)", "IVa", "<0.3%", "Haemostatic agents, angioembolisation, rarely surgery"],
+            ["Death", "V", "<0.1%", "Sepsis, haemorrhage — prevention is primary strategy"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Delayed Haematuria after PCNL (AVF/Pseudoaneurysm)",
+          "content": "A patient who presents with recurrent gross haematuria 5–14 days after an uncomplicated PCNL should be evaluated for arteriovenous fistula or pseudoaneurysm — NOT dismissed as post-operative bleeding. The initial post-operative period is often symptom-free. Urgent CT angiography is the diagnostic modality of choice. Emergency selective angioembolisation is curative in >95% of cases. Delay in diagnosis and referral to interventional radiology increases the risk of haemodynamic compromise and unnecessary nephrectomy."
+        }
+      ]
+    },
+    {
+      "id": "C4-S7",
+      "title": "Staghorn Calculi, PCNL Outcomes, and Learning Curve",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Staghorn calculi** — defined as branching renal stones filling the renal pelvis and extending into two or more calyces — represent the most complex indication for PCNL. Complete staghorn (filling all calyces) is associated with 50% renal deterioration and 28% mortality at 10 years if untreated. **PCNL is the gold-standard treatment for staghorn calculi** (EAU 2024 Grade A; AUA 2016 Grade B). Anatrophic nephrolithotomy — previously the gold standard for complete staghorn removal — is now rarely indicated, reserved for failed or unfeasible endoscopic approaches; it carries higher morbidity (warm ischaemia time, blood loss) with inferior stone-free rates in contemporary comparative studies. PCNL for complete staghorn typically requires multiple tracts (2–3) or staged procedures, with stone-free rates of 60–78% in a single session and 85–95% with secondary flexible nephroscopy and/or staged PCNL.\n\nThe **learning curve** for PCNL has been studied by Ghani et al. (J Urol 2014) using cumulative sum (CUSUM) analysis, identifying a performance plateau after approximately **60 cases** for independent access performance (compared to 30 cases for supervised performance under mentorship). The EAU Guidelines and EAU Young Academic Urologists (YAU) recommend a minimum of **30 proctored PCNL procedures** before independent practice, with ongoing audit of stone-free and complication rates. High-volume PCNL centres (>100 cases/year) consistently demonstrate lower transfusion rates, shorter hospital stays, and higher stone-free rates compared to low-volume centres.\n\n**Post-operative follow-up** after PCNL mirrors that for other stone procedures: NCCT at 4–6 weeks for stone-free assessment; metabolic evaluation (24-hour urine, serum biochemistry) at 6 weeks to guide stone prevention; repeat imaging at 6–12 months if residual fragments or stone-risk factors are identified. **Clinically insignificant residual fragments (CIRFs)** <4 mm after PCNL occur in 15–30% of cases — 20–40% will grow at 5 years and 10–20% will require re-treatment; active surveillance with interval imaging is recommended."
+        },
+        {
+          "type": "table",
+          "title": "PCNL Stone-Free Rates by Stone Complexity — Evidence Summary",
+          "headers": ["Stone Type", "Stone-Free Rate (single session)", "Notes", "Key Reference"],
+          "rows": [
+            ["Simple renal pelvis >20 mm", "85–92%", "Single tract standard", "CROES, De la Rosette 2011"],
+            ["Lower-pole >15 mm", "80–88%", "Lower-pole access, mini or standard", "EAU Guideline 2024"],
+            ["Partial staghorn", "70–80%", "May require 2 tracts", "AUA Guideline 2016"],
+            ["Complete staghorn", "60–75%", "Often requires staged procedure", "CROES, Seitz 2012"],
+            ["Complete staghorn + flex nephroscopy", "85–93%", "Flex scope through established tract", "Expert centre data"],
+            ["Horseshoe kidney", "75–84%", "Prone, posterior calyx access", "EAU 2024"],
+            ["Paediatric (<16 yr), mini-PCNL", "88–96%", "Ultra-mini or mini-PCNL preferred", "Desai 2013, Sabnis 2016"],
+            ["Cystine stones >20 mm", "70–80%", "Hard stone, often requires multiple attempts", "EAU 2024"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — PCNL Learning Curve and Quality Metrics",
+          "content": "Ghani et al. (J Urol 2014) demonstrated via CUSUM analysis that independent PCNL competency is achieved after approximately 60 cases, with supervised competency achievable after 30 cases. EAU YAU minimum requirements are 30 supervised PCNL procedures. Stone-free rate ≥75% and blood transfusion rate <10% are accepted quality benchmarks for standard PCNL (CROES study, De la Rosette J Urol 2011). Surgeons below these benchmarks should seek mentorship or further training."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of percutaneous nephrolithotomy with 20 board-style questions covering indications, technique, complications, and outcomes.",
+    "questions": [
+      {
+        "id": "C4-Q1",
+        "stem": "A 45-year-old male presents with a 28 mm right renal pelvis stone and a 12 mm lower-pole stone on NCCT. Stone HU is 1100. He has no coagulopathy, sterile urine cultures after treatment of a previous E. coli UTI, and normal renal function. According to EAU 2024 Guidelines, what is the first-line treatment recommendation?",
+        "options": {
+          "A": "SWL for both stones simultaneously",
+          "B": "Flexible ureteroscopy (f-URS) for the lower-pole stone only",
+          "C": "PCNL — Grade A recommendation for renal stones >20 mm",
+          "D": "Combined SWL (lower-pole) + PCNL (pelvic stone) staged approach"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "EAU 2024 Guidelines assign a Grade A recommendation to PCNL for renal stones >20 mm. The 28 mm pelvic stone clearly meets this threshold. Additionally, the high HU (1100) predicts poor SWL outcome. A single PCNL session through a posterior calyceal access can address both the pelvic and lower-pole stones simultaneously with stone-free rates of 85–92% for this stone burden.",
+          "wrong": {
+            "A": "SWL is not recommended as first-line for stones >20 mm (EAU Grade A against). Additionally, HU >1000 is a predictor of poor SWL fragmentation. A 28 mm stone at HU 1100 has <50% SWL stone-free rate.",
+            "B": "f-URS for the 12 mm lower-pole stone alone would leave the 28 mm pelvic stone untreated. f-URS is an alternative to PCNL for lower-pole stones 10–20 mm (EAU Grade A), but addressing only one of two stones is not appropriate management.",
+            "D": "A staged combination approach is not necessary — a single PCNL session is expected to address both stone components. Staging increases patient morbidity, anaesthetic risk, and cost."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Table 6.2: Renal stones >20 mm: PCNL Grade A first-line recommendation",
+          "trial": "CROES PCNL Global Study (De la Rosette J Urol 2011): stone-free rate 75.7% at discharge across 5803 patients, benchmark for PCNL outcomes worldwide",
+          "pearl": "EAU 2024 Grade A: PCNL for renal stones >20 mm, lower-pole stones >15 mm, and all staghorn calculi. HU >1000 is a negative predictor for SWL independent of stone size."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C4-Q2",
+        "stem": "During a PCNL procedure in prone position, a 60-year-old female with a 22 mm renal pelvis stone develops brisk arterial haemorrhage immediately after tract dilation, obscuring the nephroscopic view. The surgeon inflates the nephrostomy balloon within the tract to achieve tamponade. Which structure was most likely injured during access?",
+        "options": {
+          "A": "Arcuate artery at the renal cortex",
+          "B": "Anterior segmental artery, due to anterior calyceal fornix access",
+          "C": "Interlobular artery within the renal medulla",
+          "D": "Renal vein, due to deep calyceal puncture"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Access through the anterior calyceal fornix — rather than the correct posterior fornix or papilla — risks injury to the anterior segmental arteries. Brödel's avascular line lies between the anterior and posterior segmental arterial territories (approximately one-third from the posterior lateral convex border). Anterior puncture transgresses the anterior segmental arterial territory, causing immediate significant haemorrhage. Balloon nephrostomy tamponade is the correct initial management.",
+          "wrong": {
+            "A": "Arcuate arteries lie at the corticomedullary junction. While they can be injured during access, they typically cause less dramatic haemorrhage than direct anterior segmental artery injury from a misplaced anterior calyceal puncture.",
+            "C": "Interlobular arteries are smaller vessels within the renal columns. Their injury alone would not typically cause the dramatic immediate haemorrhage described — the calibre is too small for the scenario described.",
+            "D": "Renal venous injury during percutaneous access is possible but rare; venous haemorrhage is typically less pulsatile and lower pressure than arterial haemorrhage, and renal veins lie more medially in the renal sinus."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Section on PCNL access technique and complication management",
+          "trial": "Seitz C et al. Incidence, Prevention, and Management of Complications Following Percutaneous Nephrolitholapaxy. Eur Urol 2012;61:146–158: comprehensive systematic review of PCNL complication mechanisms and management",
+          "pearl": "Brödel's avascular plane = access through the POSTERIOR calyceal fornix or papilla. Anterior access risks anterior segmental artery injury. Biplanar fluoroscopy (AP + 30° oblique) confirms posterior calyceal position before dilation."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q3",
+        "stem": "A 38-year-old woman undergoes PCNL for a 32 mm complete staghorn calculus in the left kidney. Ten days after an apparently uncomplicated procedure with a 4 Fr nephrostomy tube, she presents to the emergency department with macroscopic haematuria and a blood pressure of 95/60 mmHg, haemoglobin 7.2 g/dL. What is the most appropriate next investigation and treatment?",
+        "options": {
+          "A": "Urgent cystoscopy to identify the bleeding source",
+          "B": "Urgent CT angiography followed by selective superselective angioembolisation",
+          "C": "Return to theatre for exploratory nephroscopy and fulguration",
+          "D": "Emergency open surgical exploration and partial nephrectomy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Delayed haematuria (days 3–21 post-PCNL) is the classic presentation of arteriovenous fistula (AVF) or pseudoaneurysm — vascular complications of PCNL. Haemodynamic compromise with a haemoglobin drop confirms significant bleeding. CT angiography defines the vascular abnormality and anatomy for intervention planning. Superselective transarterial angioembolisation achieves haemostasis in >95% of cases while preserving renal parenchyma. This is the gold-standard treatment for post-PCNL vascular complications.",
+          "wrong": {
+            "A": "Cystoscopy would only identify blood coming from the ureteral orifice, not the site of injury. It does not diagnose or treat the AVF/pseudoaneurysm and would delay definitive management in a haemodynamically compromised patient.",
+            "C": "Nephroscopic exploration would be dangerous in the setting of active vascular haemorrhage — the bleeding source is a pseudoaneurysm or AVF, not a collecting system vessel amenable to direct fulguration. This approach risks worsening haemorrhage.",
+            "D": "Emergency open surgical exploration and partial nephrectomy is a last resort, appropriate only when angioembolisation has failed or is not available. Proceeding directly to surgery bypasses the minimally invasive approach with >95% success rate and unnecessarily risks nephron loss."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — PCNL complication management; Clavien grade III–IVa vascular complication algorithm",
+          "trial": "Seitz C et al. Eur Urol 2012;61:146–158: Angioembolisation reported as definitive treatment for AVF/pseudoaneurysm post-PCNL with >95% technical success and renal parenchymal preservation",
+          "pearl": "Post-PCNL delayed haematuria (days 3–21) = AVF or pseudoaneurysm until proven otherwise. CT angiography + superselective embolisation is the correct pathway — do NOT perform cystoscopy or nephroscopy."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q4",
+        "stem": "A 55-year-old obese male (BMI 44) with known OSAS and a 25 mm right renal pelvic stone requires PCNL. He is on therapeutic enoxaparin for atrial fibrillation. What is the most appropriate anaesthetic and surgical positioning approach?",
+        "options": {
+          "A": "Prone position after bridging enoxaparin with IV heparin",
+          "B": "Supine Galdakao-modified Valdivia (GMSV) position after appropriate anticoagulation reversal",
+          "C": "SWL to avoid anaesthetic risks in this patient",
+          "D": "Flexible ureteroscopy in supine position under spinal anaesthesia"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The GMSV supine position is specifically advantageous in obese patients with OSA: it allows standard supine intubation and airway management, avoids the respiratory compromise of prone positioning at BMI 44, facilitates rapid airway intervention if needed, and permits simultaneous retrograde access. Anticoagulation must be reversed before PCNL — enoxaparin should be stopped at least 24 hours before surgery (last therapeutic dose ≥24h pre-op). Yuan et al. meta-analysis (J Endourol 2016) confirmed equivalent stone-free rates between supine and prone with shorter operative time for supine.",
+          "wrong": {
+            "A": "Prone positioning in a BMI 44 patient with OSAS carries significantly elevated respiratory risk. While IV heparin bridging is appropriate anticoagulation management, the prone position itself is suboptimal for this patient — GMSV supine is safer and equally effective.",
+            "C": "SWL is not appropriate for a 25 mm renal stone — EAU 2024 Grade A recommends PCNL for stones >20 mm. Moreover, SWL is contraindicated in patients on therapeutic anticoagulation (relative contraindication due to haematoma risk).",
+            "D": "Flexible URS under spinal anaesthesia could be considered for smaller stones but is not optimal for a 25 mm pelvic stone — stone-free rates are lower and multiple sessions would likely be required. PCNL remains the evidence-based first-line recommendation (Grade A)."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — PCNL positioning and special populations; EAU Thromboprophylaxis Guidelines",
+          "trial": "Yuan H et al. Meta-analysis of supine versus prone PCNL. J Endourol 2016;30:1205–1214: equivalent stone-free rates, shorter operative time with supine, preferred in high-anaesthetic-risk patients",
+          "pearl": "GMSV supine PCNL is preferred in obese patients (BMI >35), patients with OSAS, and patients requiring simultaneous retrograde access — equivalent stone-free rates to prone with superior anaesthetic safety profile."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q5",
+        "stem": "Which of the following is NOT a recognised predictor of poor SWL outcome that would support choosing PCNL as first-line treatment?",
+        "options": {
+          "A": "Hounsfield unit density >1000 on NCCT",
+          "B": "Skin-to-stone distance >100 mm",
+          "C": "Inferior pelvicalyceal angle <70°",
+          "D": "Stone location in the renal pelvis with an anterior infundibular orientation"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "An anterior infundibular orientation of the renal pelvis is not a validated predictor of poor SWL outcome in published evidence. The established negative predictors for SWL are: stone density >1000 HU (predicts hard composition, poor fragmentation), skin-to-stone distance >100 mm (attenuation of acoustic waves), lower-pole location with infundibulo-pelvic angle <70° (poor fragment drainage), stone size >20 mm, and composition (cystine, brushite — maximum HU).",
+          "wrong": {
+            "A": "HU >1000 is a well-validated negative SWL predictor. Stones with HU >1000 have significantly lower fragmentation rates due to harder composition (calcium oxalate monohydrate, brushite, cystine). This is an established EAU 2024-endorsed factor.",
+            "B": "Skin-to-stone distance >100 mm is validated as a negative predictor — greater acoustic attenuation through soft tissue reduces focal energy delivered to the stone. This is included in EAU 2024 SWL outcome prediction models.",
+            "C": "Infundibulo-pelvic (IP) angle <70° is a classic negative predictor for lower-pole stone SWL — gravity-dependent fragment clearance is impaired in acute-angle lower poles. This was established in landmark comparative studies of lower-pole SWL vs PCNL."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Section 6.4.1: Predictors of SWL outcome and alternative treatment selection",
+          "trial": "Obek C et al. Lower pole stones: SWL vs PCNL. Urology 2001;57:34: IP angle <70° strongly predicts poor SWL clearance for lower-pole stones — PCNL recommended",
+          "pearl": "Validated negative SWL predictors: HU >1000, skin-to-stone distance >100 mm, lower-pole location + IP angle <70°, stone >20 mm, cystine/brushite composition. Presence of these factors supports PCNL over SWL."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q6",
+        "stem": "A 50-year-old male is undergoing PCNL for a 24 mm renal pelvis stone via a posterior lower-calyceal access in the prone position. The surgeon uses a 30 Fr Amplatz sheath. Which combined lithotripsy system provides the most efficient stone clearance by combining fragmentation and simultaneous suction?",
+        "options": {
+          "A": "Ho:YAG laser at high-pulse energy (3 J, 20 Hz)",
+          "B": "EMS Swiss Lithoclast Master (combined ultrasonic + pneumatic)",
+          "C": "Thulium fibre laser (1940 nm, 30 W) with Moses modulation",
+          "D": "Pneumatic Lithoclast Solo (ballistic probe only)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The EMS Swiss Lithoclast Master combines ultrasonic (high-frequency vibration causing friction-based fragmentation) with pneumatic (ballistic probe) energy, and crucially incorporates a continuous suction-aspiration channel that removes fragments in real time during fragmentation. This combination makes it the most efficient system for rapid clearance of large stone burdens in standard 24–30 Fr PCNL. It requires a working channel of at least 24 Fr and cannot be used through smaller mini-PCNL instruments.",
+          "wrong": {
+            "A": "Ho:YAG laser at high-pulse energy is effective for all stone types but lacks simultaneous aspiration capability. Stone fragments must be retrieved separately with forceps or irrigation/suction, making clearance of large stone burdens significantly slower than combined ultrasonic-pneumatic devices.",
+            "C": "Thulium fibre laser (TFL) is an emerging technology with excellent stone dusting capability and reduced retropulsion, but it also lacks simultaneous aspiration. TFL is most applicable to mini-PCNL and flexible URS contexts, not the most efficient choice for standard 30 Fr PCNL with large stone burden.",
+            "D": "Pneumatic Lithoclast Solo provides only ballistic fragmentation without suction. Fragments accumulate in the collecting system and require separate retrieval. It is significantly less efficient than combined lithotripsy for large stones and increases the risk of retropulsion into calyces."
+          },
+          "guideline": "AUA/Endourological Society PCNL Guideline 2016 (reaffirmed 2021) — lithotripsy device selection in standard PCNL",
+          "trial": "CROES PCNL Global Study (De la Rosette J Urol 2011): combined lithotripsy (US+pneumatic) used in majority of procedures in high-volume centres, associated with highest stone-free rates",
+          "pearl": "Combined ultrasonic + pneumatic lithotripsy (Swiss Lithoclast Master/Cyberwand) with simultaneous suction = fastest stone clearance in standard 30 Fr PCNL. Requires ≥24 Fr working channel. Ho:YAG and TFL are preferred for mini/ultra-mini PCNL."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C4-Q7",
+        "stem": "A PCNL is performed via a supracostal access above the 12th rib (intercostal space 11) for an upper-pole calyx stone in a complete staghorn. Post-operatively, the patient develops hypoxia (SpO2 88%) and reduced breath sounds on the left. Chest X-ray shows blunting of the left costophrenic angle. What is the most likely complication and management?",
+        "options": {
+          "A": "Pulmonary embolism — start IV anticoagulation immediately",
+          "B": "Hydrothorax from pleural transgression — intercostal chest drain insertion",
+          "C": "Post-operative pneumonia — IV antibiotics and chest physiotherapy",
+          "D": "Phrenic nerve palsy — supportive management and ICU monitoring"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Supracostal PCNL access above the 12th rib risks transgression of the pleural space (diaphragm and costophrenic recess), resulting in hydrothorax — irrigation fluid and blood entering the pleural space. Incidence is 2–8% with supracostal access. Presentation is hypoxia and reduced breath sounds with radiographic costophrenic angle blunting consistent with pleural effusion. Management is intercostal chest drain (ICD) insertion to drain the hydrothorax and re-expand the lung. A post-operative chest X-ray is mandatory after any supracostal PCNL.",
+          "wrong": {
+            "A": "Pulmonary embolism presents with pleuritic chest pain, tachycardia, and D-dimer elevation — not with unilateral blunting of the costophrenic angle on the side of surgery in this immediate post-operative context. CT-PA would be required to diagnose PE, and anticoagulation would be hazardous in the immediate post-PCNL setting.",
+            "C": "Post-operative pneumonia is possible but presents over days (not immediately) with fever, purulent sputum, and bilateral changes on CXR, not unilateral costophrenic blunting ipsilateral to surgery immediately post-operatively.",
+            "D": "Phrenic nerve palsy would cause elevated hemidiaphragm, not pleural effusion with costophrenic blunting. The immediate timing after supracostal access points directly to pleural transgression rather than a neural complication."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — PCNL access considerations: subcostal preferred, mandatory CXR after supracostal access",
+          "trial": "Seitz C et al. Eur Urol 2012;61:146–158: pleural complications in 2–8% of supracostal PCNL procedures; immediate CXR and chest drain insertion recommended",
+          "pearl": "Supracostal PCNL access (above 12th rib) carries 2–8% risk of hydrothorax or pneumothorax. Post-operative CXR is mandatory. Subcostal access (below 12th rib, in the 12th intercostal space inferior to the rib) is preferred to avoid the pleural recess."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q8",
+        "stem": "Comparing mini-PCNL (14 Fr) versus standard PCNL (30 Fr) for renal stones 10–25 mm, based on the best available RCT evidence (Desai et al. BJU Int 2013), which outcome parameter demonstrated a statistically significant difference favouring mini-PCNL?",
+        "options": {
+          "A": "Stone-free rate at 1 month",
+          "B": "Complication rate (Clavien ≥III)",
+          "C": "Mean haemoglobin decrease and blood transfusion rate",
+          "D": "Operative time and total anaesthetic duration"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Desai et al. (BJU Int 2013) in a RCT of 100 patients comparing mini-PCNL (14 Fr) versus standard PCNL (30 Fr) for stones 10–30 mm demonstrated equivalent stone-free rates (95% vs 97%, p=0.38) but significantly lower haemoglobin decrease (0.8 vs 1.8 g/dL, p<0.001) and fewer blood transfusions (0% vs 6%, p=0.04) in the mini-PCNL arm. Hospital stay was also significantly shorter with mini-PCNL. This established mini-PCNL as the preferred approach for intermediate-sized stones with equivalent efficacy and reduced haemorrhagic morbidity.",
+          "wrong": {
+            "A": "Stone-free rates were equivalent between mini-PCNL and standard PCNL (95% vs 97%, p=0.38) in the Desai 2013 RCT. This was the primary endpoint and showed no significant difference — the key advantage of mini-PCNL is safety, not efficacy.",
+            "B": "Major complication rates (Clavien ≥III) were not significantly different between groups in Desai 2013, though transfusion rates (Clavien II) were significantly lower with mini-PCNL. The safety advantage was primarily in blood loss rather than major complication rates.",
+            "D": "Operative time was actually longer with mini-PCNL due to the smaller instrument channel requiring more fragmentation time. This is a recognised disadvantage of mini-PCNL for larger stone burdens. The Desai 2013 study showed significantly longer mean operative time with mini-PCNL (not shorter)."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — mini-PCNL as preferred approach for 10–20 mm stones and paediatric patients; based on Desai 2013 evidence",
+          "trial": "Desai M et al. Miniperc and Standard PCNL: A Prospective Comparative Study. BJU Int 2013;112:355–361: equivalent stone-free rates, significantly less blood loss (0.8 vs 1.8 g/dL, p<0.001) with mini-PCNL",
+          "pearl": "Mini-PCNL (14 Fr) = equivalent stone-free rate to standard PCNL + significantly less blood loss + shorter hospital stay. Trade-off: longer operative time for very large stones. EAU 2024 recommends mini-PCNL for stones 10–20 mm."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q9",
+        "stem": "A 62-year-old male with a complete staghorn calculus (right kidney, filling pelvis and all 3 major calyceal groups, estimated stone volume 8500 mm³) undergoes PCNL via a single posterior lower-calyceal access. After clearing the lower-pole and pelvic stones with the rigid nephroscope, significant upper-pole stone residue is visible on fluoroscopy. What adjunct manoeuvre improves single-session stone-free rate without establishing a second percutaneous tract?",
+        "options": {
+          "A": "Injection of contrast through the nephrostomy tube to identify residual fragments",
+          "B": "Flexible nephroscopy through the established 30 Fr Amplatz sheath using a flexible ureteroscope",
+          "C": "Retrograde flexible URS via cystoscopy to access upper-pole calyces",
+          "D": "Staged second-look PCNL via upper-pole access 4–6 weeks later"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Flexible nephroscopy through the established percutaneous tract — inserting a flexible ureteroscope through the 30 Fr Amplatz sheath — allows inspection and laser ablation of calyces not accessible with the rigid nephroscope, particularly the upper-pole calyx from a lower-calyceal access. This adjunct improves single-session stone-free rates from approximately 65–75% to 85–93% for complete staghorn calculi without the additional morbidity of a second percutaneous tract. Ho:YAG laser lithotripsy of residual fragments is performed via the flexible scope.",
+          "wrong": {
+            "A": "Contrast nephrostogram identifies residual stone location but does not treat residual fragments. While useful for post-operative assessment, this does not improve stone clearance during the same procedure.",
+            "C": "Retrograde flexible URS via cystoscopy during simultaneous PCNL (ECIRS — combined approach) is technically feasible in the supine position but is not typically done from a prone position. More importantly, the retrograde approach would not provide adequate access to inspect all calyces through the nephrostomy tract and is not the standard adjunct for a single-surgeon PCNL in prone position.",
+            "D": "A staged second PCNL is appropriate if the patient requires an interval recovery period or if first-session clearance is incomplete but acceptable. However, the question asks for an adjunct to improve the current single-session clearance — not a staged approach. Flexible nephroscopy through the existing tract is the correct intraoperative answer."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — PCNL for staghorn calculi: flex nephroscopy through established tract recommended to maximise single-session stone-free rate",
+          "trial": "Multiple prospective series demonstrating improvement of staghorn stone-free rates from 65–75% to 85–93% with adjunct flexible nephroscopy through established PCNL tract (referenced in Türk C EAU 2024, Seitz Eur Urol 2012)",
+          "pearl": "Flexible nephroscopy through an established 30 Fr Amplatz PCNL sheath using a flexible ureteroscope is the key adjunct for improving single-session stone-free rates in staghorn PCNL — avoids a second tract while accessing otherwise unreachable calyces."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C4-Q10",
+        "stem": "According to CUSUM analysis by Ghani et al. (J Urol 2014), at what approximately number of cases does independent PCNL competency — defined as plateau of performance — occur?",
+        "options": {
+          "A": "20 cases",
+          "B": "30 cases",
+          "C": "60 cases",
+          "D": "100 cases"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Ghani et al. (J Urol 2014) used cumulative sum (CUSUM) analysis to identify the PCNL learning curve, finding that independent competency — defined as performance plateau for access success rate and complication rates — occurred after approximately 60 cases. Supervised competency under proctorship could be achieved earlier (approximately 30 cases). The EAU YAU programme specifies a minimum of 30 proctored PCNL procedures before independent practice.",
+          "wrong": {
+            "A": "20 cases is insufficient for PCNL competency. CUSUM analysis in Ghani 2014 shows performance is still on the steep part of the learning curve at 20 cases, with higher complication rates and lower stone-free rates than after plateau.",
+            "B": "30 cases represents the EAU YAU minimum requirement for supervised (proctored) PCNL before independent practice — not the point of full independent competency from the CUSUM analysis, which occurs at approximately 60 cases.",
+            "D": "100 cases is above the identified competency plateau. While higher volumes improve outcomes incrementally, the Ghani 2014 CUSUM analysis identified plateau at approximately 60 cases, not 100."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Quality metrics and training: minimum 30 supervised PCNL cases before independent practice (EAU YAU recommendation)",
+          "trial": "Ghani KR et al. Evaluating the learning curve for PCNL using CUSUM analysis. J Urol 2014;192:1512–1517: competency plateau at approximately 60 cases for independent performance",
+          "pearl": "PCNL learning curve (Ghani J Urol 2014): supervised competency ~30 cases (EAU YAU minimum); independent competency plateau ~60 cases by CUSUM analysis. Stone-free rate ≥75% and transfusion rate <10% are quality benchmarks."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C4-Q11",
+        "stem": "A 28-year-old woman with cystinuria (homozygous SLC3A1 mutation) has a 22 mm cystine stone in the right renal pelvis. She has failed two courses of medical therapy (potassium citrate + tiopronin) and three SWL sessions without stone-free outcome. What is the next most appropriate treatment?",
+        "options": {
+          "A": "Fourth SWL session with increased power settings",
+          "B": "Retrograde flexible URS (f-URS) with Ho:YAG dusting",
+          "C": "PCNL — indicated for cystine stones >10 mm refractory to SWL",
+          "D": "Open pyelolithotomy — gold standard for cystine stones"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Cystine stones are notoriously resistant to SWL due to their high HU (typically >1000) and hard crystalline structure. EAU 2024 Guidelines specify that after three failed SWL sessions, further SWL is not appropriate. PCNL is recommended for cystine stones >10 mm that have failed SWL (EAU Grade B). Stone-free rates with PCNL for cystine are 70–80%, significantly better than SWL (<30%). f-URS is an alternative but requires multiple sessions for 22 mm stones; PCNL is preferred for this stone size.",
+          "wrong": {
+            "A": "Three SWL sessions is the maximum recommended for any stone (EAU 2024). A fourth session will not improve stone-free rates for cystine and adds radiation exposure and renal parenchymal trauma without benefit. EAU explicitly recommends against further SWL after three failed attempts.",
+            "B": "f-URS with Ho:YAG dusting is a valid alternative for cystine stones but requires multiple sessions for a 22 mm stone and achieves lower single-session stone-free rates than PCNL for this size. While not wrong as an approach, PCNL is preferred for cystine stones >20 mm after failed SWL.",
+            "D": "Open pyelolithotomy is not the gold standard for cystine stones in 2024. PCNL has replaced open surgery for all but the most complex anatomical cases. Open surgery carries greater morbidity and longer recovery without superior outcomes to PCNL in skilled hands."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Cystine stones: PCNL or f-URS for >10 mm stones, SWL contraindicated after 3 failures (Grade B)",
+          "trial": "Multiple series of PCNL for cystine stones report 70–80% stone-free rates (referenced in EAU 2024 urolithiasis guideline). SWL stone-free rates for cystine stones are consistently <30% across trials.",
+          "pearl": "Cystine stones = poor SWL candidates (hard, high HU). Maximum 3 SWL sessions then escalate to PCNL (>10 mm) or f-URS. Medical therapy (K-citrate + tiopronin) is adjunctive, not curative. PCNL stone-free rates 70–80% for cystine."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q12",
+        "stem": "After an uncomplicated PCNL for a solitary 23 mm lower-pole stone (no residual fragments on fluoroscopy, no collecting system perforation, minimal irrigation, procedure time 55 minutes), the surgeon considers tubeless PCNL. What condition must be met to safely perform totally tubeless PCNL?",
+        "options": {
+          "A": "No fever in the 48 hours before surgery and sterile urine culture",
+          "B": "Absence of haemorrhage, no collecting system injury, no residual stone, and no significant urothelial oedema",
+          "C": "Procedure time less than 60 minutes and total irrigation fluid less than 5 L",
+          "D": "Stone-free rate confirmed by immediate post-operative NCCT in the operating theatre"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 Grade B criteria for tubeless (and totally tubeless) PCNL require: (1) no significant haemorrhage, (2) no collecting system injury/perforation, (3) complete stone clearance with no significant residual fragments, and (4) no significant urothelial injury or oedema that might cause ureteral obstruction. The case described meets these criteria — minimal haemorrhage, no perforation, no residual stones. Totally tubeless PCNL (no nephrostomy tube, no ureteral stent) reduces post-operative pain, analgesic requirement, and hospital stay.",
+          "wrong": {
+            "A": "Pre-operative sterile urine is required for all PCNL procedures, but it is not the specific criterion for tubeless completion. The described criteria above govern post-operative tubeless decision-making; pre-operative urine sterility is a baseline safety requirement, not the tubeless selection criterion.",
+            "C": "Procedure time <60 minutes and total irrigation volume <5 L are not validated criteria for tubeless PCNL completion in EAU 2024 guidelines. The decision is based on intraoperative findings (haemorrhage, perforation, residual stone), not time or fluid volume thresholds.",
+            "D": "Immediate post-operative NCCT in theatre is not standard practice and would expose the patient to significant additional radiation. Post-operative stone-free assessment is performed at 4–6 weeks with NCCT. Intraoperative fluoroscopy with nephrostogram is the standard real-time assessment."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Tubeless PCNL: Grade B recommendation when no significant haemorrhage, no collecting system perforation, no residual stone",
+          "trial": "Desai MR et al. Totally tubeless PCNL. J Endourol 2004;18:647: tubeless PCNL reduces post-operative pain and analgesic use without compromising safety in selected patients — foundational evidence for current EAU Grade B recommendation",
+          "pearl": "Totally tubeless PCNL criteria: no significant bleeding + no collecting system injury + complete stone clearance. Advantages: less pain, less analgesia, shorter hospital stay. Inappropriate after difficult procedures, multiple tracts, or incomplete clearance."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q13",
+        "stem": "A 6-year-old child (22 kg) presents with a 12 mm right renal pelvis stone. Metabolic evaluation reveals primary hyperoxaluria type 1. Urine cultures are sterile. Which PCNL approach is most appropriate for this patient?",
+        "options": {
+          "A": "Standard PCNL 30 Fr under general anaesthesia",
+          "B": "Mini-PCNL (14–16 Fr) or ultra-mini PCNL (11 Fr) under general anaesthesia",
+          "C": "SWL as first-line, PCNL reserved for SWL failure",
+          "D": "Conservative management with medical dissolution therapy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For paediatric patients, mini-PCNL (14–16 Fr) or ultra-mini PCNL (11 Fr) is the appropriate approach when percutaneous access is indicated. Standard 30 Fr PCNL carries excessive risk of renal parenchymal injury and haemorrhage in a child's smaller kidney. The Sabnis et al. and Desai et al. series demonstrate stone-free rates of 88–96% with mini-PCNL in paediatric patients with a significantly reduced complication profile compared to standard PCNL. General anaesthesia is required. In primary hyperoxaluria type 1 (PH1), stone recurrence is invariable without liver-kidney transplantation or novel treatments (lumasiran, nedosiran), so minimally invasive stone removal with maximal parenchymal preservation is critical.",
+          "wrong": {
+            "A": "Standard 30 Fr PCNL in a 22 kg child risks excessive renal parenchymal trauma, disproportionate haemorrhage, and is technically challenging given the smaller kidney size. Scaled-down access (mini-PCNL or ultra-mini PCNL) is the established paediatric standard.",
+            "C": "SWL can be used for paediatric stones in specialist centres, but for PH1 patients with calcium oxalate stones at HU typically >800–1000, SWL fragmentation rates are lower. EAU 2024 supports PCNL for stones >10 mm in children when percutaneous access is indicated — for a 12 mm stone in a PH1 child with anticipated recurrence, definitive PCNL clearance is appropriate.",
+            "D": "Medical dissolution is not effective for calcium oxalate stones (the stone type in PH1). Specific therapy for PH1 is directed at reducing oxalate production (lumasiran siRNA therapy — approved 2022) and/or organ transplantation, but established stones require mechanical removal."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Paediatric urolithiasis: mini-PCNL/ultra-mini PCNL preferred over standard for paediatric patients",
+          "trial": "Sabnis RB et al. Mini PCNL v Standard PCNL for Renal Calculi. J Endourol 2016;30:S152: equivalent stone-free rates, significantly reduced blood loss in mini-PCNL across all age groups including paediatric",
+          "pearl": "Paediatric PCNL = mini or ultra-mini PCNL (11–16 Fr). Standard 30 Fr PCNL is disproportionate for small kidneys. Stone-free rates 88–96% with mini/ultra-mini PCNL in children (Sabnis 2016, Desai 2013)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q14",
+        "stem": "During PCNL, a surgeon notes faecal material in the irrigation return fluid through the nephrostomy sheath. What complication has occurred and what is the most appropriate immediate management?",
+        "options": {
+          "A": "Urine contamination from an infected staghorn stone — take urine culture and continue",
+          "B": "Colonic injury — confirm with contrast injection through nephrostomy, determine extraperitoneal vs intraperitoneal, then manage accordingly",
+          "C": "Bowel gas from a large colon filled with faeces adjacent to the kidney — no action required",
+          "D": "Immediate emergency laparotomy for presumed intraperitoneal bowel injury"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Colonic injury during PCNL occurs in <1% of cases, more commonly with left-sided access in thin patients with retrorenal colon. The appearance of faecal material in the irrigation return confirms colonic transgression. Immediate management is: (1) confirm injury by injecting contrast through the nephrostomy tube (extravasation into a tubular structure = colon), (2) determine whether extraperitoneal (can usually be managed conservatively: nephrostomy tube left in colon as colonic diversion, ureteral stent, bowel rest, IV antibiotics — allows fistula to heal) vs intraperitoneal (requires immediate surgical repair with colostomy diversion).",
+          "wrong": {
+            "A": "Faecal material in irrigation return cannot be dismissed as infection from a staghorn stone. The visual appearance of faeces is distinct from infected urine and must be taken seriously as a potential colonic injury requiring immediate confirmation and management.",
+            "C": "There is no scenario in which faecal material in the irrigation return is a benign finding. This symptom is pathognomonic of colonic wall perforation and requires immediate diagnostic workup.",
+            "D": "Immediate emergency laparotomy is not the first step — the majority of colonic injuries during PCNL are extraperitoneal (due to the retroperitoneal approach) and can be managed conservatively without surgery. Urgent contrast injection to characterise the injury and assess for peritoneal involvement must come first."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — PCNL complication management: colonic injury — contrast study to characterise extraperitoneal vs intraperitoneal, conservative vs surgical management",
+          "trial": "Seitz C et al. Eur Urol 2012;61:146–158: colonic injury <1% of PCNL cases, predominantly extraperitoneal, >70% managed conservatively with nephrostomy drainage and bowel rest",
+          "pearl": "Faecal material in PCNL irrigation = colonic injury until proven otherwise. Contrast through nephrostomy defines extraperitoneal (conservative: tube drainage, bowel rest, antibiotics) vs intraperitoneal (surgical repair + colostomy)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C4-Q15",
+        "stem": "The CROES Global PCNL Study (De la Rosette et al., J Urol 2011) enrolled 5,803 patients across 96 centres worldwide. What overall stone-free rate was reported at hospital discharge, and what was the blood transfusion rate?",
+        "options": {
+          "A": "Stone-free 90% at discharge, transfusion rate 2%",
+          "B": "Stone-free 75.7% at discharge, transfusion rate 7.8%",
+          "C": "Stone-free 80% at discharge, transfusion rate 15%",
+          "D": "Stone-free 65% at discharge, transfusion rate 12%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The CROES (Clinical Research Office of the Endourological Society) Global PCNL Study by De la Rosette et al. (J Urol 2011) is the largest prospective multicentre PCNL registry worldwide. It reported an overall stone-free rate of 75.7% at hospital discharge (76.3% at 3 months) and a blood transfusion rate of 7.8%. Urosepsis/fever occurred in 11.7%. These figures are widely cited as quality benchmarks for PCNL programmes internationally.",
+          "wrong": {
+            "A": "A 90% stone-free rate at discharge would represent best-case results in highly selected, uncomplicated cases — not the overall rate across a heterogeneous international cohort including staghorn calculi. The CROES study included all stone complexities.",
+            "C": "A 15% transfusion rate would exceed the acceptable benchmark. The CROES-reported 7.8% transfusion rate is used as a quality target — centres with >10% transfusion rates should review their technique and patient selection.",
+            "D": "A 65% stone-free rate at discharge is below the CROES benchmark. Centres reporting stone-free rates consistently below 70% should review access technique, lithotripsy strategy, and patient selection."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Quality benchmarks: stone-free ≥75% and transfusion <10% for standard PCNL programmes",
+          "trial": "De la Rosette J et al. CROES PCNL Study Group. J Urol 2011;186:99–104: stone-free 75.7% at discharge, transfusion 7.8%, urosepsis/fever 11.7% — global PCNL benchmarks",
+          "pearl": "CROES PCNL benchmarks (De la Rosette J Urol 2011): stone-free rate 75.7% at discharge, transfusion 7.8%, sepsis/fever 11.7%. Quality indicators for PCNL programmes. Memorise these numbers for exam questions."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C4-Q16",
+        "stem": "A 48-year-old male is scheduled for PCNL for a 30 mm right renal pelvis stone. Pre-operative NCCT shows the right colon lying posterior to the kidney at the level of the planned access. What is the most appropriate management strategy?",
+        "options": {
+          "A": "Proceed with standard fluoroscopic access — retrorenal colon is rarely injured during PCNL",
+          "B": "Abandon PCNL and proceed with flexible URS (f-URS) regardless of stone size",
+          "C": "CT-guided access planning with bowel preparation and prone or lateral positioning to displace the colon anteriorly",
+          "D": "Pre-operative colonoscopy to assess colonic wall thickness"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Retrorenal colon (the colon lying posterior to the kidney — occurs in 0.6–10% of the population, more common on the left but possible on the right) significantly elevates the risk of colonic injury during PCNL access. The appropriate management includes: CT-guided access planning (with the radiologist mapping the safest percutaneous trajectory), prone positioning (which displaces the retrorenal colon anteriorly in the majority of cases), bowel preparation to reduce faecal load and decompress the colon, and consideration of ultrasound-guided real-time access to visualise the colon position during puncture. Standard fluoroscopic access without these precautions significantly increases colonic injury risk.",
+          "wrong": {
+            "A": "Proceeding with standard fluoroscopic access in the presence of known retrorenal colon is unsafe and negligent. While colonic injury occurs in <1% of all PCNL cases, the risk is disproportionately elevated in the presence of retrorenal colon. Pre-operative planning to displace the colon is required.",
+            "B": "Abandoning PCNL entirely is not warranted — a 30 mm renal pelvis stone has a Grade A indication for PCNL. f-URS alone would require multiple sessions with lower single-session stone-free rates. Appropriate access planning allows safe PCNL in patients with retrorenal colon.",
+            "D": "Pre-operative colonoscopy assesses the colonic mucosa but provides no information about the spatial relationship between the colon and kidney during PCNL. It does not alter the risk of colonic injury during percutaneous access and is not indicated in this context."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — PCNL in complex anatomy: retrorenal colon, CT-guided planning and prone/lateral positioning recommended",
+          "trial": "Seitz C et al. Eur Urol 2012;61:146–158: retrorenal colon is the primary risk factor for colonic injury during PCNL; prone positioning reduces but does not eliminate risk; CT planning recommended",
+          "pearl": "Retrorenal colon detected on pre-operative NCCT = mandatory CT-guided access planning + prone positioning (displaces colon anteriorly) + bowel preparation before PCNL. Do not proceed with standard fluoroscopic access."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C4-Q17",
+        "stem": "For a patient with a 35 mm right lower-pole stone with a very acute infundibulo-pelvic angle (40°), who requires PCNL, which access approach provides the most direct line to the renal pelvis for maximum stone clearance?",
+        "options": {
+          "A": "Upper-pole posterior calyceal access to gain a downward working angle toward the lower pole",
+          "B": "Anterior lower-pole calyceal access for direct access to the stone",
+          "C": "Posterior middle-calyceal access with flexible nephroscopy adjunct for residual lower-pole fragments",
+          "D": "Direct lower-pole posterior calyceal access — the calyx harbouring the stone is the preferred access point"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "For lower-pole stones, direct puncture of the posterior lower-pole calyx that houses or is adjacent to the stone provides the most direct working access and the straightest line for stone extraction. Even in the presence of an acute IP angle, direct lower-pole access is preferred over upper-pole or middle-calyceal access, as any other entry requires an angulated working axis that complicates stone extraction. The acute IP angle affects SWL drainage (fragment clearance), not PCNL access geometry — percutaneous access establishes a direct tract regardless of the IP angle.",
+          "wrong": {
+            "A": "Upper-pole access for a lower-pole stone creates a long, curved working axis with the nephroscope that significantly complicates stone fragmentation and extraction. Upper-pole access is indicated for upper-pole stones or for gaining access to the renal pelvis for staghorn where lower or middle access would not reach the upper calyceal extensions.",
+            "B": "Anterior calyceal access increases the risk of injury to anterior segmental arteries (Brödel's plane violation). PCNL access should always target the POSTERIOR calyceal fornix or papilla. Anterior calyceal access is a fundamental technical error.",
+            "C": "Middle-calyceal access with flexible nephroscopy adjunct is a valid approach when the lower-pole calyx is inaccessible or the stone is distributed across the lower pole and pelvis. However, for a solitary 35 mm lower-pole stone, direct lower-pole posterior calyceal access is the most efficient approach."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — PCNL access planning: access calyx should be selected to provide most direct working axis to stone; posterior fornix/papilla only",
+          "trial": "Sampaio FJ et al. Anatomical basis for endoscopic surgery of the kidney. J Urol 1992;148:1768: Brödel's avascular plane anatomical basis for posterior calyceal access — foundational paper for PCNL access anatomy",
+          "pearl": "PCNL access rule: access through the POSTERIOR calyceal fornix/papilla of the calyx closest to the stone. The IP angle matters for SWL fragment drainage but NOT for PCNL access selection — direct posterior lower-pole access is always preferred for lower-pole stones."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C4-Q18",
+        "stem": "A 55-year-old male undergoes PCNL for a 25 mm partial staghorn calculus. The procedure is uncomplicated with minimal bleeding. Post-operatively a 12 Fr nephrostomy tube is left in place. On post-operative day 2, the patient develops shaking chills, temperature 39.8°C, HR 118 bpm, BP 88/55 mmHg, WCC 22 ×10⁹/L. Pre-operative urine culture was negative. What is the most likely diagnosis and primary source?",
+        "options": {
+          "A": "Pulmonary embolism — start anticoagulation and urgent CTPA",
+          "B": "Post-PCNL urosepsis from unrecognised colonisation within the staghorn calculus itself",
+          "C": "Wound infection from the nephrostomy tube track",
+          "D": "Aspiration pneumonia from prone positioning during PCNL"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Post-PCNL urosepsis after apparently sterile pre-operative urine cultures is a well-recognised and potentially life-threatening complication, particularly with staghorn calculi. Staghorn stones (often struvite/infection stones caused by urease-producing organisms — Proteus mirabilis, Klebsiella, Pseudomonas) harbour bacteria within the stone matrix itself, which may not grow on standard pre-operative urine culture. Mechanical disruption during PCNL releases bacteria and endotoxins, causing systemic inflammatory response and septic shock. Management: broad-spectrum IV antibiotics (empirical pip/tazo or meropenem if MDR suspected), fluid resuscitation, ICU admission, and ensure nephrostomy drainage is unobstructed.",
+          "wrong": {
+            "A": "Pulmonary embolism does not typically present with shaking chills, fever, and leucocytosis at 22 × 10⁹/L on post-operative day 2. PE presents with chest pain, dyspnoea, tachycardia, and possibly haemoptysis — not this sepsis picture.",
+            "C": "Nephrostomy tube track infection does not cause septic shock on post-operative day 2. Track infection is a later complication (days to weeks) presenting with localised wound signs, not haemodynamic compromise.",
+            "D": "Aspiration pneumonia from prone positioning is possible but rare with appropriate anaesthetic management (cuffed endotracheal tube). It presents with respiratory signs and consolidation on CXR, not the haematological and haemodynamic sepsis picture described."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — PCNL urosepsis prevention and management: staghorn calculi have high urosepsis risk even with sterile pre-op cultures due to intrinsic stone colonisation",
+          "trial": "Seitz C et al. Eur Urol 2012;61:146–158: urosepsis/fever 11.7% in CROES study; staghorn calculi, prolonged operative time, and prior UTI are key risk factors",
+          "pearl": "Urosepsis post-PCNL despite sterile pre-op urine culture = bacteria within the staghorn stone matrix (Proteus, Klebsiella — urease producers). Stone culture (from stone analysis at PCNL) guides antibiotic choice. Immediate broad-spectrum IV antibiotics + ICU + unobstructed nephrostomy drainage."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C4-Q19",
+        "stem": "A 44-year-old woman undergoes PCNL for a 22 mm right lower-pole stone. Stone composition on post-procedure analysis is brushite (calcium hydrogen phosphate, CaHPO4). What clinical significance does this stone composition have for ongoing management and future stone prevention?",
+        "options": {
+          "A": "Brushite stones respond well to potassium citrate therapy — start immediately post-PCNL",
+          "B": "Brushite stones are associated with primary hyperparathyroidism and very hard composition — metabolic workup for PTH/calcium mandatory, and high SWL recurrence risk",
+          "C": "Brushite stones are infection stones requiring long-term antibiotics for prevention",
+          "D": "Brushite stones are managed identically to calcium oxalate stones — no specific implications"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Brushite (calcium hydrogen phosphate dihydrate) stones are clinically significant because: (1) they are associated with primary hyperparathyroidism (hypercalcaemia-driven urinary calcium excess), distal renal tubular acidosis (dRTA), and other hypercalciuric states — PTH, serum calcium, and 24-hour urine calcium must be measured; (2) brushite has very high HU (>1200 on NCCT) and extreme hardness, making it one of the worst stone types for SWL — stone-free rates with SWL are <20% for brushite; and (3) brushite stones have high recurrence rates and require aggressive metabolic evaluation and targeted prevention (thiazide diuretics for hypercalciuria, not just K-citrate). Potassium citrate alone is insufficient and may be counterproductive by raising urine pH into the range that precipitates brushite.",
+          "wrong": {
+            "A": "Potassium citrate raises urinary pH, which is appropriate for uric acid and calcium oxalate stones with hypocitraturia. However, for brushite (calcium phosphate stones), higher urine pH actually PROMOTES brushite precipitation. K-citrate is generally not first-line for brushite and may worsen recurrence risk.",
+            "C": "Brushite is NOT an infection stone. Struvite (magnesium ammonium phosphate) is the infection stone associated with urease-producing bacteria. Brushite forms in sterile urine in the context of metabolic disorders. Long-term antibiotics are not indicated.",
+            "D": "Brushite has very different clinical implications from calcium oxalate: it requires specific metabolic workup (hyperparathyroidism, dRTA), is extremely resistant to SWL (HU typically >1200), and requires different prevention strategies. It cannot be managed identically to CaOx."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Stone composition and metabolic workup: brushite stones — investigate for primary hyperparathyroidism, dRTA; SWL contraindicated (poor fragmentation); thiazide-based prevention",
+          "trial": "EAU Urolithiasis Guideline 2024 evidence compilation: brushite SWL stone-free rates <20%; specific metabolic associations requiring targeted investigation",
+          "pearl": "Brushite stones: (1) SWL contraindicated (HU >1200, hardest stone type — even worse than cystine for SWL); (2) mandatory metabolic workup for PTH, calcium, dRTA; (3) potassium citrate not first-line (raises pH → promotes brushite). Thiazide for hypercalciuria is primary prevention."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C4-Q20",
+        "stem": "After an uncomplicated PCNL for a 25 mm left renal pelvis stone, stone-free assessment at 4 weeks with NCCT shows two residual fragments measuring 3 mm and 2 mm in the left lower-pole calyx. The patient is asymptomatic. What is the recommended management according to EAU 2024 Guidelines?",
+        "options": {
+          "A": "Immediate re-do PCNL to achieve complete stone-free status",
+          "B": "SWL targeting both residual fragments urgently",
+          "C": "Active surveillance with repeat imaging at 6–12 months — clinically insignificant residual fragments (CIRFs) <4 mm",
+          "D": "Metabolic stone prevention therapy only — no further imaging required"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Clinically insignificant residual fragments (CIRFs) are defined as asymptomatic fragments <4 mm identified on post-operative imaging after stone surgery. EAU 2024 recommends active surveillance for CIRFs: repeat NCCT at 6–12 months to monitor for growth. While 20–40% of CIRFs will grow over 5 years and 10–20% will eventually require re-treatment, the majority remain stable or pass spontaneously. Immediate aggressive re-treatment of 3 mm and 2 mm fragments is not supported by evidence and would expose the patient to unnecessary morbidity.",
+          "wrong": {
+            "A": "Immediate re-do PCNL for 3 mm and 2 mm asymptomatic residual fragments carries procedural risk disproportionate to the stone burden. CIRFs <4 mm have significant spontaneous passage and stable rates — immediate surgery is not warranted.",
+            "B": "SWL targeting 2–3 mm fragments is technically possible but unlikely to change clinical outcomes. Fragments of this size have high spontaneous passage rates, and SWL at this size has variable stone-free rates. Active surveillance is more appropriate than immediate intervention.",
+            "D": "Metabolic stone prevention therapy is important as adjunctive management but is not a substitute for surveillance imaging. Without repeat NCCT, growing residual fragments would go undetected until they cause symptoms or obstruction. Active surveillance + metabolic prevention is the correct combined approach."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — CIRFs: <4 mm asymptomatic residual fragments — active surveillance with repeat NCCT at 6–12 months; 20–40% grow at 5 years, 10–20% require re-treatment",
+          "trial": "Rebuck DA et al. Follow-up of residual fragments after PCNL. J Urol 2011;186:1229: 20–40% of CIRFs grow at 5 years; active surveillance recommended rather than immediate re-intervention",
+          "pearl": "CIRFs definition: asymptomatic stone fragments <4 mm post stone surgery. Management: active surveillance with NCCT at 6–12 months. 20–40% grow at 5 years; 10–20% require re-treatment. Do NOT re-operate immediately — surveillance first."
+        },
+        "difficulty": 1
+      }
+    ]
+  }
+}

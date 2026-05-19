@@ -1,0 +1,439 @@
+{
+  "pearls": [
+    {
+      "text": "The ISUP grading system replaces Gleason in all contemporary guidelines: Group 1 (Gleason 6), Group 2 (3+4=7), Group 3 (4+3=7), Group 4 (Gleason 8), Group 5 (Gleason 9–10). EAU 2024 risk stratification uses ISUP groups, not Gleason score.",
+      "source": "A1 · Prostate Cancer",
+      "tags": ["prostate", "grading", "pathology", "oncology"]
+    },
+    {
+      "text": "Neoadjuvant cisplatin-based chemotherapy (dose-dense MVAC or GC × 3–4 cycles) before radical cystectomy for MIBC is a Grade A EAU recommendation providing a 5% absolute 5-year survival benefit. Cisplatin eligibility: eGFR ≥60, ECOG ≤1, no neuropathy or hearing loss.",
+      "source": "A2 · Bladder Cancer",
+      "tags": ["bladder", "chemotherapy", "cystectomy", "neoadjuvant"]
+    },
+    {
+      "text": "BCG maintenance therapy is superior to BCG induction alone for preventing NMIBC recurrence and progression. The EAU recommends full-dose BCG maintenance (3+3+3 instillations) for 1–3 years in intermediate and high-risk NMIBC.",
+      "source": "A2 · Bladder Cancer",
+      "tags": ["NMIBC", "BCG", "bladder", "intravesical"]
+    },
+    {
+      "text": "Clear cell RCC: first-line systemic treatment for IMDC intermediate/poor risk is nivolumab + ipilimumab (CheckMate 214 — OS HR 0.66) or pembrolizumab + axitinib (KEYNOTE-426). For favourable risk: sunitinib or pazopanib remain options, but IO-TKI combinations (pembrolizumab + axitinib) are now preferred.",
+      "source": "A3 · Renal Cell Carcinoma",
+      "tags": ["renal", "immunotherapy", "systemic", "oncology"]
+    },
+    {
+      "text": "Partial nephrectomy (PN) is preferred over radical nephrectomy for T1 renal masses (≤7 cm) with comparable oncological outcomes and better preservation of renal function. EAU Grade A recommendation. Warm ischaemia time target: <25 minutes.",
+      "source": "A3 · Renal Cell Carcinoma",
+      "tags": ["renal", "partial nephrectomy", "surgery", "function"]
+    },
+    {
+      "text": "Testicular germ cell tumours (GCTs): pure seminoma is highly radiosensitive; non-seminomatous GCTs (NSGCTs) are less radiosensitive but chemosensitive (BEP). Tumour markers: AFP elevated only in NSGCT (never in pure seminoma); beta-hCG and LDH elevated in both. Rising AFP after orchiectomy for 'pure seminoma' means NSGCT — treat accordingly.",
+      "source": "A4 · Testicular Cancer",
+      "tags": ["testicular", "markers", "seminoma", "NSGCT"]
+    },
+    {
+      "text": "Penile cancer: squamous cell carcinoma 95% of cases. HPV association with ~50%. Circumcision not recommended as primary prevention but is associated with lower risk. For N0 clinically negative groin: inguinal sentinel node biopsy (dynamic sentinel node biopsy — DSNB) is recommended for T1G2 and above to detect occult nodal metastasis.",
+      "source": "A5 · Penile Cancer",
+      "tags": ["penile", "HPV", "lymph nodes", "sentinel node"]
+    },
+    {
+      "text": "Adrenal incidentaloma: primary concern is functionality (pheochromocytoma — urine/plasma metanephrines) and malignancy risk (size >4 cm, irregular border, Hounsfield units >10 on non-contrast CT, washout <50%). All patients need biochemical evaluation. Surgery for functional tumours and non-functional tumours >4 cm.",
+      "source": "A6 · Adrenal Tumours",
+      "tags": ["adrenal", "incidentaloma", "pheochromocytoma", "surgery"]
+    },
+    {
+      "text": "Pheochromocytoma: alpha-blockade (phenoxybenzamine non-selective or doxazosin selective) must precede beta-blockade. Giving beta-blocker first causes unopposed alpha stimulation → hypertensive crisis. Alpha first, then beta to control reflex tachycardia.",
+      "source": "A6 · Adrenal Tumours",
+      "tags": ["pheochromocytoma", "alpha blocker", "crisis", "perioperative"]
+    },
+    {
+      "text": "CASTRATION-RESISTANT PROSTATE CANCER (CRPC): defined as PSA progression or radiological progression despite castrate testosterone levels (<50 ng/dL). Not the same as treatment failure. Treatment options: abiraterone, enzalutamide, darolutamide + docetaxel, docetaxel, cabazitaxel (post-docetaxel), radium-223 (bone-only metastases, no visceral), 177Lu-PSMA-617.",
+      "source": "A7 · Advanced Prostate Cancer",
+      "tags": ["prostate", "CRPC", "systemic", "hormones"]
+    },
+    {
+      "text": "BPH / LUTS: pharmacotherapy first-line. Alpha-1 blockers (tamsulosin, alfuzosin) work fastest (days). 5-alpha-reductase inhibitors (finasteride, dutasteride) reduce prostate volume by 20–30% and decrease AUR/surgery risk — effective only in prostates >30–40 mL. Combination therapy (CombAT trial) superior for large prostates.",
+      "source": "B1 · BPH and LUTS",
+      "tags": ["BPH", "LUTS", "alpha blockers", "5ARI"]
+    },
+    {
+      "text": "TURP is the gold-standard surgical treatment for BPH. HoLEP (holmium laser enucleation) is size-independent (can treat glands >100 mL), has lower blood loss and shorter catheterisation time, and is now the preferred technique for very large prostates. EAU 2024: HoLEP recommended for any prostate size.",
+      "source": "B1 · BPH and LUTS",
+      "tags": ["BPH", "TURP", "HoLEP", "laser"]
+    },
+    {
+      "text": "Overactive bladder (OAB): first-line = lifestyle modifications + bladder training. Second-line = antimuscarinics (oxybutynin, solifenacin, tolterodine) or beta-3 agonists (mirabegron). Antimuscarinics cause dry mouth, constipation, urinary retention (caution with BOO). Mirabegron: minimal anticholinergic effects, avoid if uncontrolled hypertension.",
+      "source": "B2 · OAB and Urge Incontinence",
+      "tags": ["OAB", "antimuscarinic", "mirabegron", "incontinence"]
+    },
+    {
+      "text": "Botulinum toxin A (BoNT-A) doses: 100 U for idiopathic OAB; 200 U for neurogenic detrusor overactivity (NDO). The DIGNITY trial established 200 U for NDO. This distinction is a classic exam question — using 100 U for NDO is under-treatment.",
+      "source": "D2 · Neurogenic Bladder",
+      "tags": ["botulinum", "OAB", "neurogenic", "NDO"]
+    },
+    {
+      "text": "Stress urinary incontinence (SUI): mid-urethral sling (TVT/TOT) is the gold standard surgical treatment with ~85% cure rates. TVT: retropubic approach, risk of bladder injury (1–3%). TOT: transobturator, risk of groin pain. EAU recommends both as equivalent for uncomplicated SUI (Ward-Hilton NEJM 2002).",
+      "source": "D1 · Female Pelvic Floor",
+      "tags": ["SUI", "TVT", "TOT", "incontinence"]
+    },
+    {
+      "text": "Lichen sclerosus (LS) affecting the urethra is an absolute contraindication to using penile or scrotal skin for urethroplasty. LS will progress into any genital skin used as graft material. Buccal mucosa graft (BMG) is the only appropriate tissue for reconstruction in LS patients.",
+      "source": "F2 · Urethral Stricture",
+      "tags": ["lichen sclerosus", "urethroplasty", "BMG", "reconstruction"]
+    },
+    {
+      "text": "DVIU (direct vision internal urethrotomy) recurrence: ~50% at 12 months for bulbar strictures. After 2 DVIU failures, the EAU 2024 guideline (Grade B) recommends offering urethroplasty. Excision and primary anastomosis (EPA) for short (≤2 cm) bulbar strictures achieves >90% success at 5 years.",
+      "source": "F2 · Urethral Stricture",
+      "tags": ["urethrotomy", "urethroplasty", "stricture", "DVIU"]
+    },
+    {
+      "text": "Pelvic fracture urethral injury (PFUI): blood at meatus + pelvic fracture + inability to void = PFUI until proven otherwise. Management = suprapubic catheter immediately, NEVER urethral catheter. Delayed anastomotic urethroplasty (Webster procedure) ≥3 months achieves 85–95% success.",
+      "source": "F2 · Urethral Stricture",
+      "tags": ["PFUI", "trauma", "urethra", "suprapubic"]
+    },
+    {
+      "text": "Penile fracture: pop + immediate detumescence + aubergine deformity = tunica albuginea rupture. Urological emergency. Immediate surgical repair achieves >90% erectile function recovery. Conservative management = 30–50% erectile dysfunction from corporal fibrosis.",
+      "source": "F3 · Genitourinary Trauma",
+      "tags": ["penile fracture", "emergency", "erectile", "surgery"]
+    },
+    {
+      "text": "Renal trauma: haemodynamic stability determines management, NOT injury grade. Stable patient with Grade IV injury = selective NOM. Stable with active arterial 'blush' on CT = angioembolisation. Haemodynamically unstable = surgical exploration. Expanding retroperitoneal haematoma at laparotomy (blunt trauma) = do NOT open Gerota's fascia.",
+      "source": "F3 · Genitourinary Trauma",
+      "tags": ["renal trauma", "NOM", "embolisation", "haematoma"]
+    },
+    {
+      "text": "Intraperitoneal bladder rupture (IBR) = always requires surgical repair. Extraperitoneal bladder rupture (EBR) = catheter drainage alone for uncomplicated cases. Standard trauma CT may miss bladder rupture if the bladder is not adequately filled — requires dedicated CT cystography with retrograde filling (300–400 mL).",
+      "source": "F3 · Genitourinary Trauma",
+      "tags": ["bladder trauma", "cystography", "rupture", "surgery"]
+    },
+    {
+      "text": "Robotic surgery (da Vinci): 7 degrees of freedom EndoWrist, 3D HD vision ×10, tremor filtration. Critically: NO haptic (force) feedback. Surgeons must rely entirely on visual cues for tissue tension assessment.",
+      "source": "F1 · Laparoscopic and Robotic Surgery",
+      "tags": ["robotic", "da Vinci", "laparoscopy", "haptics"]
+    },
+    {
+      "text": "RAZOR RCT (Parekh, Lancet 2018): robot-assisted vs open radical cystectomy — 2-year PFS 72.3% vs 71.6% (non-inferior). iROC RCT (Catto, JAMA 2022): 90-day complication rate equivalent, shorter hospital stay with RARC. Both trials established RARC as oncologically equivalent to open.",
+      "source": "F1 · Laparoscopic and Robotic Surgery",
+      "tags": ["RARC", "cystectomy", "robotic", "RCT"]
+    },
+    {
+      "text": "Oliguria during laparoscopy (CO₂ pneumoperitoneum): physiological response to increased intra-abdominal pressure reducing renal perfusion and activating ADH. NOT acute kidney injury. Resolves after desufflation. Do not over-administer fluids intraoperatively — it will not improve laparoscopic oliguria.",
+      "source": "F1 · Laparoscopic and Robotic Surgery",
+      "tags": ["laparoscopy", "oliguria", "physiological", "renal"]
+    },
+    {
+      "text": "Urinary tract infection treatment: uncomplicated cystitis first-line = nitrofurantoin 100 mg BD × 5 days or fosfomycin 3 g single dose. Fluoroquinolones are NOT first-line for uncomplicated cystitis (resistance stewardship). Pyelonephritis: fluoroquinolones ARE first-line (ciprofloxacin 500 mg BD × 7 days). Nitrofurantoin contraindicated in pyelonephritis (no tissue penetration).",
+      "source": "E1 · Urinary Tract Infections",
+      "tags": ["UTI", "antibiotics", "cystitis", "pyelonephritis"]
+    },
+    {
+      "text": "Asymptomatic bacteriuria (ASB): treat ONLY in pregnancy (risk of pyelonephritis) and before urological procedures involving mucosal breach. Do NOT treat ASB in catheterised patients, diabetics, elderly patients, or immunocompromised patients — no clinical benefit, promotes resistance.",
+      "source": "E1 · Urinary Tract Infections",
+      "tags": ["ASB", "bacteriuria", "treatment", "pregnancy"]
+    },
+    {
+      "text": "Sepsis-3 definitions: Sepsis = life-threatening organ dysfunction (SOFA ≥2) from infection. Septic shock = vasopressors required for MAP ≥65 mmHg + lactate >2 mmol/L despite adequate resuscitation. SSC 2021 one-hour bundle: blood cultures + antibiotics + 30 mL/kg crystalloid + lactate measurement.",
+      "source": "E1 · Urinary Tract Infections",
+      "tags": ["sepsis", "SOFA", "septic shock", "urosepsis"]
+    },
+    {
+      "text": "NIH prostatitis classification: Cat I = acute bacterial (fever, LUTS, tender prostate); Cat II = chronic bacterial (recurrent UTIs, positive 4-glass test → fluoroquinolone × 4–6 weeks); Cat IIIa = CPPS inflammatory (WBC in EPS, treat empirically); Cat IIIb = CPPS non-inflammatory (NO antibiotics); Cat IV = asymptomatic.",
+      "source": "E1 · Urinary Tract Infections",
+      "tags": ["prostatitis", "NIH classification", "antibiotics", "CPPS"]
+    },
+    {
+      "text": "Male infertility: WHO 2021 (6th edition) reference values: concentration ≥16 × 10⁶/mL, progressive motility ≥30%, morphology ≥4%, volume ≥1.4 mL. These are lower than WHO 2010 (5th edition) values — do not apply old reference ranges in modern practice.",
+      "source": "E2 · Male Infertility",
+      "tags": ["infertility", "semen analysis", "WHO", "parameters"]
+    },
+    {
+      "text": "Y-chromosome microdeletion sperm retrieval prognosis: AZFa = complete Sertoli cell-only syndrome = zero sperm retrieval. AZFb = maturation arrest = zero sperm retrieval. AZFc = variable spermatogenesis = ~50% success with micro-TESE. AZFbc (combined deletion) = zero retrieval.",
+      "source": "E2 · Male Infertility",
+      "tags": ["Y deletion", "AZF", "micro-TESE", "infertility"]
+    },
+    {
+      "text": "Congenital bilateral absence of vas deferens (CBAVD): >95% associated with CFTR mutations (cystic fibrosis gene). CFTR testing mandatory for patient AND partner before ICSI. If both carry CFTR mutations, 25% risk of child with cystic fibrosis — genetic counselling mandatory.",
+      "source": "E2 · Male Infertility",
+      "tags": ["CBAVD", "CFTR", "cystic fibrosis", "genetic"]
+    },
+    {
+      "text": "PCNL stone-free rates: EAU Grade A recommendation for stones >20 mm and complex staghorn calculi. CROES global study: SFR 75.7%, transfusion 7.8%. Brödel's avascular plane = posterior 1/3 of kidney — access through this plane reduces vascular injury.",
+      "source": "C4 · PCNL",
+      "tags": ["PCNL", "stone", "access", "SFR"]
+    },
+    {
+      "text": "PCNL delayed haemorrhage (day 3–21): bright red haematuria with clot retention after initial clear urine → pseudoaneurysm or arteriovenous fistula. Management = CT angiography + selective embolisation (not re-exploration). Do not clamp the nephrostomy tube as the primary intervention.",
+      "source": "C4 · PCNL",
+      "tags": ["PCNL", "haemorrhage", "pseudoaneurysm", "embolisation"]
+    },
+    {
+      "text": "Shock wave lithotripsy (SWL) optimal conditions: renal and proximal ureteral stones <20 mm, soft stones, normal collecting system anatomy, no obstruction distal to stone, no coagulopathy. Contraindications: pregnancy, uncorrected coagulopathy, untreated UTI, distal obstruction, aortic aneurysm in shockwave path.",
+      "source": "C1 · Urolithiasis",
+      "tags": ["SWL", "lithotripsy", "contraindications", "stones"]
+    },
+    {
+      "text": "Ureteral stones <5 mm: 68–98% pass spontaneously within 4 weeks. Stones 5–10 mm: ~50% pass. Stones >10 mm: surgical intervention usually required. Medical expulsive therapy (tamsulosin): SUSPEND trial showed no benefit for ureteral stones in the primary analysis — routine use not recommended.",
+      "source": "C2 · Ureteral Stones",
+      "tags": ["ureteral stones", "spontaneous passage", "tamsulosin", "MET"]
+    },
+    {
+      "text": "Metabolic evaluation for recurrent stone-formers: 24-hour urine collection (twice, on usual diet) for calcium, oxalate, urate, citrate, phosphate, sodium, creatinine, and total volume. Most common abnormality: hypercalciuria. High urinary volume (>2.5 L/day) is the most evidence-based prevention strategy for all stone types.",
+      "source": "C3 · Metabolic Evaluation",
+      "tags": ["stones", "metabolic", "prevention", "24-hour urine"]
+    },
+    {
+      "text": "Testicular torsion: 6-hour window for successful detorsion and orchidopexy. Pain onset to surgical exploration <6 hours = 90–100% salvage rate. Delay 6–12 hours = 50% salvage. >24 hours = <10% salvage. Bilateral orchidopexy at same operation as the torted side.",
+      "source": "B3 · Scrotal Emergencies",
+      "tags": ["testicular torsion", "orchidopexy", "emergency", "salvage"]
+    },
+    {
+      "text": "Neurogenic lower urinary tract dysfunction (NLUTD) classification by lesion level: suprapontine (DO, no DSD, low UUT risk), suprasacral/spinal (DO + DSD, HIGH UUT risk — most dangerous), sacral (DUA, no DSD), peripheral (DUA). Detrusor leak point pressure (DLPP) >40 cmH₂O = upper urinary tract risk threshold (McGuire 1981).",
+      "source": "D2 · Neurogenic Bladder",
+      "tags": ["neurogenic bladder", "DLPP", "DSD", "classification"]
+    },
+    {
+      "text": "Autonomic dysreflexia: spinal cord injury ≥T6 + noxious stimulus below level → severe hypertension (BP ≥200/115 mmHg), bradycardia, sweating above level. Medical emergency. Sit patient up (reduces BP), drain bladder/bowel (remove stimulus), GTN spray sublingual or nifedipine if BP persists.",
+      "source": "D2 · Neurogenic Bladder",
+      "tags": ["autonomic dysreflexia", "SCI", "hypertension", "emergency"]
+    },
+    {
+      "text": "Pelvic organ prolapse (POP): staged using POP-Q system. Stage II (leading edge at ±1 cm of hymen) = most common stage at which symptoms begin. Stage III–IV = beyond the hymen. Pessary is first-line for symptomatic prolapse in women who want conservative management; surgery for those who fail or decline pessary.",
+      "source": "D1 · Female Pelvic Floor",
+      "tags": ["POP", "POP-Q", "pessary", "prolapse"]
+    },
+    {
+      "text": "mpMRI before prostate biopsy: EAU recommendation for biopsy-naive patients. PROMIS trial: sensitivity 93%, specificity 41% for ISUP ≥2 PCa. PIRADS ≥3 = suspicious. PIRADS 1–2 = consider deferring biopsy. Negative mpMRI (PIRADS 1–2) significantly reduces probability of significant cancer but does not exclude it.",
+      "source": "A1 · Prostate Cancer",
+      "tags": ["mpMRI", "PIRADS", "biopsy", "prostate"]
+    },
+    {
+      "text": "Active surveillance (AS) criteria for prostate cancer: EAU 2024 recommends AS for all low-risk and selected favourable intermediate-risk PCa. ProtecT trial: equivalent 10-year cancer-specific mortality for AS vs RP vs RT (each ~1%). Monitoring: PSA every 3–6 months, rebiopsy at 1 year, mpMRI if PSA doubling time <3 years.",
+      "source": "A1 · Prostate Cancer",
+      "tags": ["active surveillance", "prostate", "ProtecT", "monitoring"]
+    },
+    {
+      "text": "Bladder cancer risk stratification: NMIBC EAU risk groups. Low-risk: solitary Ta low-grade ≤3 cm, no CIS. High-risk: T1, high-grade, CIS, multiple or recurrent Ta high-grade, stage at first recurrence within 1 year. Intermediate-risk: all other cases. Treatment follows risk group.",
+      "source": "A2 · Bladder Cancer",
+      "tags": ["NMIBC", "risk stratification", "bladder", "EAU"]
+    },
+    {
+      "text": "IPSS (International Prostate Symptom Score): 7 questions (3 voiding, 3 storage, 1 nocturia) + 1 QoL question. Scoring: mild 0–7, moderate 8–19, severe 20–35. IPSS change of 3 points = minimum clinically important difference (MCID). Used as the primary endpoint in most BPH/LUTS clinical trials.",
+      "source": "B1 · BPH and LUTS",
+      "tags": ["IPSS", "BPH", "LUTS", "scoring"]
+    },
+    {
+      "text": "Cystine stones: exclusively occur in cystinuria (autosomal recessive defect in cystine transport). Radio-opaque (but less than calcium stones). Stone hexagonal crystals on urine microscopy. Treatment: high fluid intake (>3 L/day), urinary alkalinisation (pH >7.5 with potassium citrate), d-penicillamine or tiopronin for refractory cases.",
+      "source": "C3 · Metabolic Evaluation",
+      "tags": ["cystine", "stones", "cystinuria", "metabolic"]
+    },
+    {
+      "text": "Uric acid stones: radiolucent on plain X-ray (not visible), visible on CT (density ~350–450 HU). Only stone type dissolvable non-invasively with oral alkalinisation (urinary pH >6.5 with potassium citrate). 50% success rate with chemolysis. Associated with gout, myeloproliferative disease, and metabolic syndrome.",
+      "source": "C3 · Metabolic Evaluation",
+      "tags": ["uric acid", "radiolucent", "chemolysis", "alkalinisation"]
+    },
+    {
+      "text": "ESWL contraindications in pregnancy: shockwaves damage fetal tissue. Pregnancy is an absolute contraindication to ESWL. For symptomatic ureteral stones in pregnancy: initial conservative management; ureteroscopy (URS) is safe in all trimesters under expert guidance if intervention is required.",
+      "source": "C2 · Ureteral Stones",
+      "tags": ["pregnancy", "ESWL", "ureteroscopy", "stones"]
+    },
+    {
+      "text": "Oxford CEBM Levels: 1a = SR/meta-analysis of RCTs; 1b = single well-designed RCT; 2b = prospective cohort; 3 = case-control; 4 = case series; 5 = expert opinion. EAU Grade A = Level 1 evidence. Understanding evidence levels is required for FEBU examination and guideline interpretation.",
+      "source": "G3 · Evidence-Based Urology",
+      "tags": ["evidence", "CEBM", "EAU", "grading"]
+    },
+    {
+      "text": "GRADE framework for recommendation strength: Strong = 'We recommend' (benefits clearly outweigh harms, most patients should receive it). Weak/Conditional = 'We suggest' (genuine uncertainty about benefit-harm balance or significant patient value variability — shared decision-making required).",
+      "source": "G3 · Evidence-Based Urology",
+      "tags": ["GRADE", "recommendation", "evidence", "guidelines"]
+    },
+    {
+      "text": "Survival analysis: Kaplan-Meier estimates survival function accounting for censored observations. Log-rank test compares survival curves between groups (assumes proportional hazards). Cox regression models hazard ratios adjusting for covariates. Hazard ratio (HR) = instantaneous relative event risk at any time point.",
+      "source": "G2 · Biostatistics",
+      "tags": ["survival", "Kaplan-Meier", "Cox", "hazard ratio"]
+    },
+    {
+      "text": "Diagnostic test evaluation: Sensitivity = true positive rate (high sensitivity rules OUT disease — SnNout). Specificity = true negative rate (high specificity rules IN disease — SpPin). PPV and NPV depend on disease prevalence. Likelihood ratio+ = sensitivity/(1-specificity); LR+ >10 produces large probability shift.",
+      "source": "G2 · Biostatistics",
+      "tags": ["sensitivity", "specificity", "PPV", "LR"]
+    },
+    {
+      "text": "CONSORT 2010 flow diagram is mandatory for all RCT submissions to major urology journals. It must show: screened → excluded with reasons → randomised → allocated (received/did not receive intervention) → lost to follow-up with reasons → analysed. Missing flow diagram = most common CONSORT non-compliance rejection.",
+      "source": "G1 · Clinical Trial Design",
+      "tags": ["CONSORT", "RCT", "flow diagram", "reporting"]
+    },
+    {
+      "text": "ICMJE authorship: ALL four criteria required. (1) Substantial contribution to conception/design/acquisition/analysis, (2) drafting or critical revision, (3) final approval, (4) accountability. Ghost authorship (contributor not listed) and honorary authorship (non-contributor listed) are COPE-reportable ethics violations.",
+      "source": "G4 · Scientific Writing",
+      "tags": ["authorship", "ICMJE", "ethics", "publication"]
+    },
+    {
+      "text": "NNT (number needed to treat) = 1/ARR (absolute risk reduction). For BCG vs chemotherapy in NMIBC: RR 0.68, control risk 48%, ARR = 15.4%, NNT ≈ 7. Seven patients must receive BCG instead of chemotherapy to prevent one additional recurrence per year.",
+      "source": "G2 · Biostatistics",
+      "tags": ["NNT", "ARR", "BCG", "NMIBC"]
+    },
+    {
+      "text": "Non-inferiority trial interpretation: a non-inferiority result means the new treatment is NOT WORSE than the reference by more than the pre-specified margin. It does NOT mean equivalence or superiority. RAZOR RCT: RARC non-inferior to ORC (PFS 72.3% vs 71.6%) — RARC can be adopted but is not proven superior.",
+      "source": "G1 · Clinical Trial Design",
+      "tags": ["non-inferiority", "RAZOR", "cystectomy", "trials"]
+    },
+    {
+      "text": "Retzius-sparing robot-assisted radical prostatectomy (Bocciardi approach): preserves Retzius space, earlier return of urinary continence, but higher positive surgical margin (PSM) rates for anterior tumours. Standard RARP via Retzius space entry is preferred for anterior-located prostate cancer.",
+      "source": "F1 · Laparoscopic and Robotic Surgery",
+      "tags": ["RARP", "Retzius-sparing", "continence", "margins"]
+    },
+    {
+      "text": "Bladder neck contracture (BNC) after TURP: management ladder — (1) cold-knife incision → if recurrence → (2) aggressive 360° 'cut for the light' resection → if recurrence → (3) open Y-V plasty. Do not jump to Y-V plasty after single endoscopic failure.",
+      "source": "F2 · Urethral Stricture",
+      "tags": ["BNC", "TURP", "bladder neck", "incision"]
+    },
+    {
+      "text": "Post-traumatic renal hypertension: two mechanisms. (1) Page kidney = external compression of kidney by perinephric haematoma/fibrous capsule → RAAS activation → hypertension. (2) Renovascular hypertension = traumatic renal artery stenosis. CT angiography distinguishes the two. Page kidney = decortication or nephrectomy.",
+      "source": "F3 · Genitourinary Trauma",
+      "tags": ["Page kidney", "hypertension", "renal trauma", "RAAS"]
+    },
+    {
+      "text": "Varicocele: affects 15% of general male population and 35–40% of infertile men. Clinical grading I–III (only clinical grades I–III warrant treatment; subclinical not treated). Microsurgical subinguinal varicocelectomy (Marmar) is the gold standard — lowest recurrence and hydrocele formation rates.",
+      "source": "E2 · Male Infertility",
+      "tags": ["varicocele", "infertility", "microsurgery", "treatment"]
+    },
+    {
+      "text": "Micro-TESE (microsurgical testicular sperm extraction, Schlegel 1997): gold standard for sperm retrieval in non-obstructive azoospermia (NOA). Success rate 42–63% vs 25–35% for conventional TESE. Requires magnification ×25 to identify larger, white, opaque tubules more likely to contain spermatogenesis.",
+      "source": "E2 · Male Infertility",
+      "tags": ["micro-TESE", "NOA", "azoospermia", "sperm retrieval"]
+    },
+    {
+      "text": "Klinefelter syndrome (47,XXY): most common genetic cause of male hypogonadism and NOA. Testosterone replacement should be deferred until after micro-TESE for sperm retrieval — exogenous testosterone suppresses the HPG axis and reduces residual spermatogenesis. Retrieve first, then start testosterone.",
+      "source": "E2 · Male Infertility",
+      "tags": ["Klinefelter", "47XXY", "testosterone", "micro-TESE"]
+    },
+    {
+      "text": "Testicular torsion surgical approach: scrotal exploration, detorison, assessment of viability (pink after 10 min of warming = viable), orchidopexy with non-absorbable sutures at 3 points. Bilateral orchidopexy at same sitting. If non-viable: orchiectomy. Prosthesis can be inserted at the same time.",
+      "source": "B3 · Scrotal Emergencies",
+      "tags": ["testicular torsion", "orchidopexy", "orchiectomy", "scrotal"]
+    },
+    {
+      "text": "Fournier's gangrene: polymicrobial necrotising fasciitis of the perineum. Classic triad: scrotal pain, swelling, and crepitus. Treatment: emergency wide debridement + broad-spectrum antibiotics (carbapenem + metronidazole). ICU management. Multiple debridements required. Mortality 20–40% even with treatment.",
+      "source": "B3 · Scrotal Emergencies",
+      "tags": ["Fournier", "gangrene", "necrotising", "emergency"]
+    },
+    {
+      "text": "Upper urinary tract urothelial carcinoma (UTUC): nephroureterectomy with bladder cuff excision is the standard. Kidney-sparing (ureteroscopy/laser) for: low-grade biopsy-confirmed, <1 cm, imperative indications (solitary kidney, bilateral). Cisplatin-based adjuvant chemotherapy (POUT trial) recommended for pT2–pT4 or N+ disease.",
+      "source": "A2 · Bladder Cancer",
+      "tags": ["UTUC", "nephroureterectomy", "adjuvant", "upper tract"]
+    },
+    {
+      "text": "Retroperitoneal lymph node dissection (RPLND) for testicular cancer: template depends on histology and stage. Low-stage NSGCT post-chemotherapy: bilateral template. Low-stage clinical Stage I pure seminoma: surveillance preferred; RPLND rarely needed. Always preserve sympathetic chains L3–L5 to maintain antegrade ejaculation.",
+      "source": "A4 · Testicular Cancer",
+      "tags": ["RPLND", "testicular", "sympathetic", "ejaculation"]
+    },
+    {
+      "text": "Hyperbaric oxygen therapy (HBOT) for radiation cystitis: 2.0–2.4 ATA, 30–40 sessions. Promotes angiogenesis in ischaemic irradiated tissue. Success rate ~75% for haemostasis. Indicated for Grade 3–4 radiation cystitis refractory to intravesical treatments (alum). Positioned before surgical options (cystectomy).",
+      "source": "F3 · Genitourinary Trauma",
+      "tags": ["HBOT", "radiation cystitis", "haematuria", "treatment"]
+    },
+    {
+      "text": "Ureteral injury during gynaecological surgery: most common sites — (1) cardinal ligament level where ureter passes under uterine artery ('water under the bridge'), (2) ureterovesical junction. Intraoperatively: IV indigo carmine → blue dye in wound confirms injury. Immediate repair = best outcomes.",
+      "source": "F3 · Genitourinary Trauma",
+      "tags": ["ureteral injury", "hysterectomy", "iatrogenic", "repair"]
+    },
+    {
+      "text": "Post-urethroplasty surveillance: annual uroflowmetry + symptom review. Investigate with retrograde urethrography if Qmax <15 mL/s or symptoms return. Lifelong follow-up recommended — 5–10% late recurrences beyond 5 years, especially with BMG augmentation and LS-associated repairs.",
+      "source": "F2 · Urethral Stricture",
+      "tags": ["urethroplasty", "surveillance", "Qmax", "follow-up"]
+    },
+    {
+      "text": "PICO framework: P = Population, I = Intervention, C = Comparison, O = Outcome. Every EAU guideline recommendation derives from PICO-structured systematic literature searches. For diagnosis questions: PIRD (Population, Index test, Reference standard, Diagnosis). Essential for constructing systematic review search strategies.",
+      "source": "G3 · Evidence-Based Urology",
+      "tags": ["PICO", "systematic review", "EAU", "methodology"]
+    },
+    {
+      "text": "I² statistic in meta-analysis: measures proportion of between-study variance due to true heterogeneity. <25% = low (pool freely); 25–75% = moderate (explore sources); >75% = high (pooled estimate unreliable). I² is NOT the event rate in either group. High I² requires subgroup analysis or meta-regression.",
+      "source": "G2 · Biostatistics",
+      "tags": ["I-squared", "heterogeneity", "meta-analysis", "statistics"]
+    },
+    {
+      "text": "IDEAL Framework stages for surgical innovation: Stage 1 = first in-human; Stage 2a = small series (technique refinement); Stage 2b = multicentre prospective; Stage 3 = RCT; Stage 4 = long-term registry. A 5-case surgical series is IDEAL Stage 2a — appropriate for feasibility, not comparative effectiveness claims.",
+      "source": "G1 · Clinical Trial Design",
+      "tags": ["IDEAL", "surgical innovation", "RCT", "stages"]
+    },
+    {
+      "text": "EQUATOR Network (equator-network.org): comprehensive library of all health research reporting guidelines indexed by study design. First step when writing any manuscript: identify study design, find the relevant guideline on EQUATOR (CONSORT/STROBE/PRISMA/STARD/CARE etc.), complete the checklist, submit with manuscript.",
+      "source": "G4 · Scientific Writing",
+      "tags": ["EQUATOR", "reporting guidelines", "CONSORT", "STROBE"]
+    },
+    {
+      "text": "Prostate-specific antigen (PSA): not prostate cancer-specific. PSA elevated in BPH, prostatitis, UTI, urethral instrumentation, and ejaculation (wait 48 hours after ejaculation). PSA velocity >0.75 ng/mL/year and PSA doubling time <3 years are associated with higher PCa risk. Free/total PSA ratio <15% associated with higher PCa probability.",
+      "source": "A1 · Prostate Cancer",
+      "tags": ["PSA", "prostate cancer", "screening", "interpretation"]
+    },
+    {
+      "text": "Androgen deprivation therapy (ADT) side effects: hot flushes (most common), sexual dysfunction, osteoporosis (DEXA scan at baseline for >12 months ADT), metabolic syndrome, anaemia, cognitive changes, mood disturbance. LHRH agonists cause initial testosterone flare — use anti-androgen for first 3–4 weeks to prevent tumour flare.",
+      "source": "A7 · Advanced Prostate Cancer",
+      "tags": ["ADT", "side effects", "testosterone", "osteoporosis"]
+    },
+    {
+      "text": "Penile cancer lymph nodes: palpable inguinal nodes after antibiotic treatment (4–6 weeks) = presumed malignant until proven otherwise. Fixed, ulcerated inguinal nodes = unresectable (cT4 regional). Modified radical inguinal lymphadenectomy achieves 5-year survival 50–80% in N1–N2 disease. Iliac dissection for ≥3 inguinal nodes or extranodal extension.",
+      "source": "A5 · Penile Cancer",
+      "tags": ["penile cancer", "lymph nodes", "inguinal", "surgery"]
+    },
+    {
+      "text": "Clean intermittent catheterisation (CIC): gold standard for neurogenic bladder management (Lapides 1972). Self-CIC 4–6× daily, catheter volume 400–500 mL. Prevents UTI better than indwelling catheter by avoiding biofilm. Hydrophilic-coated catheters reduce urethral trauma. Contraindication: patient with insufficient hand dexterity.",
+      "source": "D2 · Neurogenic Bladder",
+      "tags": ["CIC", "neurogenic", "catheter", "bladder"]
+    },
+    {
+      "text": "Augmentation cystoplasty metabolic complication: ileal segment causes hyperchloraemic metabolic acidosis (ileum absorbs chloride and secretes bicarbonate). Annual cystoscopy required ≥10 years post-augmentation for adenocarcinoma surveillance (risk ~2%). Contraindicated in patients with Crohn's disease or short bowel syndrome.",
+      "source": "D2 · Neurogenic Bladder",
+      "tags": ["augmentation", "cystoplasty", "acidosis", "cancer risk"]
+    },
+    {
+      "text": "Urethral stricture BMG bilateral cheek harvest: yields approximately 10–12 cm total. Single cheek = 4–6 cm. For strictures >12 cm: consider additional lingual mucosa graft or staged reconstruction. Donor site complications: trismus (~5%), numbness (~8%) — usually self-limiting within 6 weeks.",
+      "source": "F2 · Urethral Stricture",
+      "tags": ["BMG", "buccal mucosa", "harvest", "donor site"]
+    },
+    {
+      "text": "Allocation concealment (prevents selection bias BEFORE randomisation) ≠ blinding (prevents performance/detection bias AFTER randomisation). Both are critical but address different bias sources. A trial can have adequate allocation concealment but poor blinding, or vice versa. Specify BOTH when critically appraising an RCT.",
+      "source": "G1 · Clinical Trial Design",
+      "tags": ["allocation concealment", "blinding", "bias", "RCT"]
+    },
+    {
+      "text": "Vesicovaginal fistula diagnosis: vaginal fluid creatinine:serum creatinine ratio >2:1 = urine. Ratio >10:1 = virtually diagnostic. Methylene blue test (blue dye in bladder, white gauze in vagina) distinguishes VVF (blue gauze) from ureterovaginal fistula (negative methylene blue test, positive IV indigo carmine test).",
+      "source": "F3 · Genitourinary Trauma",
+      "tags": ["VVF", "fistula", "creatinine ratio", "diagnosis"]
+    },
+    {
+      "text": "Sperm retrieval techniques: PESA/MESA (obstructive azoospermia, epididymal sperm), TESA (obstructive azoospermia, testicular aspiration), conventional TESE (multiple testicular biopsies), micro-TESE (NOA — highest success rate 42–63% vs 25–35% conventional). MESA preferred for CBAVD/CBAVS (yields most sperm for cryopreservation).",
+      "source": "E2 · Male Infertility",
+      "tags": ["sperm retrieval", "TESE", "MESA", "azoospermia"]
+    },
+    {
+      "text": "CARE trial (Brubaker NEJM 2006): prophylactic Burch colposuspension at time of sacrocolpopexy significantly reduced post-operative stress urinary incontinence (SUI) in continent women undergoing prolapse repair. 44% of women without prophylactic Burch developed SUI vs 23% with Burch — supports concomitant anti-incontinence procedure at prolapse surgery in selected patients.",
+      "source": "D1 · Female Pelvic Floor",
+      "tags": ["CARE trial", "Burch", "sacrocolpopexy", "SUI"]
+    },
+    {
+      "text": "Renal calculi dietary prevention: increase fluid intake to urine output >2.5 L/day (most important for all stone types); reduce sodium intake (<5 g/day) to decrease calciuria; maintain normal calcium intake (800–1200 mg/day) — low calcium diet INCREASES oxalate absorption and stone risk; reduce animal protein; reduce oxalate-rich foods (spinach, nuts, bran).",
+      "source": "C3 · Metabolic Evaluation",
+      "tags": ["kidney stones", "diet", "prevention", "fluid"]
+    },
+    {
+      "text": "Post-renal transplant urology: ureteral strictures are the most common urological complication (2–5%). Initial management: percutaneous nephrostomy + antegrade stenting. Formal open or laparoscopic ureteroneocystostomy for failed endoscopic management. Vesicoureteral reflux occurs in ~30% (non-anti-reflux technique); significant VUR treated with subureteral injection or reimplantation.",
+      "source": "B4 · Transplant Urology",
+      "tags": ["transplant", "ureter", "stricture", "VUR"]
+    },
+    {
+      "text": "177Lu-PSMA-617 for mCRPC (VISION trial, Sartor NEJM 2021): radiotherapy-linked PSMA-targeted therapy. 40% reduction in risk of radiological progression or death (HR 0.60). Eligible: PSMA-positive on PSMA-PET, prior novel hormonal agent + taxane chemotherapy. Side effects: dry mouth (37%), fatigue, haematological toxicity.",
+      "source": "A7 · Advanced Prostate Cancer",
+      "tags": ["PSMA", "lutetium", "mCRPC", "VISION trial"]
+    },
+    {
+      "text": "Erdafitinib for FGFR-altered bladder cancer: first FDA/EMA-approved targeted therapy for urothelial carcinoma with FGFR2/3 alterations. Used in platinum-refractory mUC. Biomarker testing (FGFR2/3 mutation or fusion) is mandatory before prescribing. ~40% objective response rate in FGFR-altered tumours.",
+      "source": "A2 · Bladder Cancer",
+      "tags": ["FGFR", "erdafitinib", "bladder cancer", "targeted therapy"]
+    },
+    {
+      "text": "IMRAD structure: Introduction (context + question), Methods (how), Results (what was found — factual, no interpretation), Discussion (what it means). The Results section contains only facts and statistics. Interpretive language ('surprisingly', 'importantly', 'confirms superiority') belongs exclusively in the Discussion.",
+      "source": "G4 · Scientific Writing",
+      "tags": ["IMRAD", "writing", "Results", "Discussion"]
+    }
+  ]
+}

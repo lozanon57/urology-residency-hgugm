@@ -1,0 +1,622 @@
+{
+  "id": "G3",
+  "title": "Evidence-Based Urology and Critical Appraisal",
+  "subtitle": "Block G — Literature Search, Critical Appraisal of RCTs and Systematic Reviews, Clinical Guideline Interpretation",
+  "block": "G",
+  "block_name": "Academic Research in Urology",
+  "level": "R1-5",
+  "reading_time_min": 35,
+  "guidelines_version": "EAU Research Methodology 2024 · CONSORT 2010 · PRISMA 2020 · GRADE Framework",
+  "textbook_refs": [
+    "Guyatt GH et al. Users' guides to the medical literature: essentials of evidence-based clinical practice. AMA Press, 2008",
+    "Sackett DL et al. Evidence-Based Medicine: How to Practice and Teach EBM. Churchill Livingstone, 2000",
+    "Page MJ et al. PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews. BMJ 2021",
+    "Guyatt G et al. GRADE: an emerging consensus on rating quality of evidence and strength of recommendations. BMJ 2008"
+  ],
+  "learning_objectives": [
+    "Formulate a structured clinical question using the PICO framework and translate it into an efficient literature search strategy",
+    "Critically appraise randomised controlled trials and systematic reviews using validated tools (Cochrane RoB 2.0, AMSTAR-2)",
+    "Apply the GRADE framework to assess the certainty of evidence and the strength of clinical recommendations",
+    "Identify sources of bias in published urological research and assess their likely impact on conclusions",
+    "Interpret key statistical outputs from systematic reviews including pooled effects, heterogeneity, and forest plots",
+    "Apply evidence-based principles to individual patient clinical decisions, integrating guideline recommendations with patient values"
+  ],
+  "sections": [
+    {
+      "id": "G3-S1",
+      "title": "Formulating Clinical Questions and Literature Search Strategy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Evidence-based urology begins with a clearly formulated clinical question. Unstructured questions ('What is the best treatment for bladder cancer?') are too broad for efficient literature searching. The **PICO framework** provides a structured approach: **P**opulation (the patient or problem), **I**ntervention (the treatment, test, or exposure), **C**omparison (the alternative), **O**utcome (the measure of interest). For example: 'In patients with high-risk non-muscle-invasive bladder cancer (P) undergoing intravesical BCG (I) compared with intravesical mitomycin C (C), what is the 1-year recurrence-free survival rate (O)?'\n\nLiterature search strategy derives directly from the PICO question. The key resources for urological evidence are:\n- **PubMed/MEDLINE**: Indexed medical literature with MeSH (Medical Subject Headings) term searching. MeSH provides controlled vocabulary for consistent retrieval across different author terminology.\n- **Cochrane Library**: Cochrane Database of Systematic Reviews (CDSR) contains peer-reviewed systematic reviews; CENTRAL is the Cochrane controlled trials register.\n- **Embase**: Stronger European and pharmacological coverage than PubMed.\n- **Clinicaltrials.gov / EU Clinical Trials Register**: Essential for identifying registered trials and unpublished data.\n- **EAU Guidelines website (uroweb.org)**: Pre-appraised evidence summaries for urological recommendations.\n\nA comprehensive systematic review search combines free-text and MeSH terms for all PICO components using Boolean operators (AND, OR, NOT), applies date and language filters, and searches multiple databases. The search process must be documented in full (date searched, terms used, databases searched) to allow replication — a mandatory element of PRISMA 2020 reporting."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — PICO Framework",
+          "content": "PICO = Population, Intervention, Comparison, Outcome. Every EAU guideline recommendation is based on a PICO-structured systematic literature search. For therapy questions: PICO applies directly. For diagnosis: PICO becomes PIRD (Population, Index test, Reference standard, Diagnosis). For prognosis: PICO becomes PECOT (Population, Exposure, Comparison, Outcome, Time)."
+        }
+      ]
+    },
+    {
+      "id": "G3-S2",
+      "title": "Critical Appraisal of Randomised Controlled Trials",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Critical appraisal assesses whether a study's results are valid (methodologically sound), important (effect size and precision), and applicable (generalisable to the local patient population). For RCTs, the **Cochrane Risk of Bias Tool version 2.0 (RoB 2.0)** provides a structured framework evaluating five domains:\n\n1. **Bias from the randomisation process**: Was the allocation sequence truly random? Was allocation concealment adequate? Were groups comparable at baseline?\n2. **Bias due to deviations from intended interventions**: Were there important co-interventions? Was blinding maintained? Was the analysis intention-to-treat?\n3. **Bias due to missing outcome data**: Was the proportion and pattern of missing data similar between groups? Was analysis performed on complete cases only (potentially biased)?\n4. **Bias in measurement of the outcome**: Was the outcome assessment method defined a priori? Were assessors blinded?\n5. **Bias in selection of the reported result**: Was the primary endpoint pre-specified and consistently reported? Is there evidence of outcome-switching?\n\nEach domain is judged as **Low risk**, **Some concerns**, or **High risk** of bias. An overall trial judgment is made: a trial with high risk in any domain receives an overall 'High risk' rating. Understanding these domains allows a urologist reading a trial to identify which results can be trusted and where to exercise scepticism.\n\nBeyond bias, assess **statistical precision** (CI width and clinical significance), **generalisability** (did the trial population resemble your patients?), and **follow-up duration** (sufficient for the outcomes of interest?). The CONSORT 2010 checklist serves as a structured tool for evaluating RCT reporting completeness — a trial that does not report CONSORT items may have methodological deficiencies or incomplete reporting."
+        },
+        {
+          "type": "table",
+          "title": "Cochrane RoB 2.0 Domains and Critical Appraisal Questions",
+          "headers": ["Domain", "Key Question", "Low Risk Indicator", "High Risk Indicator"],
+          "rows": [
+            ["Randomisation process", "Was allocation truly random and concealed?", "Computer randomisation, SNOSE, central web", "Open list, unblinded allocation, no description"],
+            ["Deviations from interventions", "Were co-interventions balanced? ITT analysis?", "ITT primary analysis, blinded participants", "Per-protocol only, unequal co-interventions"],
+            ["Missing outcome data", "Was dropout balanced and handled appropriately?", "<10% dropout, MCAR analysis, multiple imputation", ">20% dropout, complete-case only, MNAR likely"],
+            ["Outcome measurement", "Were outcomes measured consistently and blindly?", "Predefined validated tools, assessor blinding", "No blinding, ad hoc measurement, no validation"],
+            ["Selection of reported result", "Were all pre-specified outcomes reported?", "Protocol registration, all outcomes reported", "Outcome-switching, selective reporting, no registration"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G3-S3",
+      "title": "Critical Appraisal of Systematic Reviews and Meta-Analyses",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Systematic reviews synthesise evidence from multiple studies using pre-specified, reproducible methods. Meta-analyses add quantitative pooling of results. The **PRISMA 2020 (Preferred Reporting Items for Systematic Reviews and Meta-Analyses)** checklist contains 27 items and includes a flow diagram showing the selection process from identification to inclusion. Key PRISMA items frequently assessed in urological critical appraisal include: registration (PROSPERO), comprehensive search strategy, duplicate screening, risk of bias assessment, and quantitative synthesis methods.\n\nFor assessing systematic review quality, **AMSTAR-2 (A MeaSurement Tool to Assess systematic Reviews)** provides a 16-item rating with two levels: critical (7 items with greatest impact on validity) and non-critical (9 items). A systematic review with ≥1 critical weakness receives 'Critically low' quality rating. The seven critical AMSTAR-2 items address: PICO registration, search comprehensiveness, justification for excluded studies, risk of bias assessment of included studies, appropriate meta-analysis methods, risk of bias impact on pooled estimate, and consideration of publication bias.\n\nUnderstanding **forest plots** is essential:\n- Each horizontal line represents one study; the square represents the point estimate; the line width represents the CI.\n- The diamond at the bottom represents the pooled (meta-analysed) estimate.\n- The vertical line is the line of no effect (RR=1, MD=0).\n- Studies to the left of the line of no effect favour the intervention; studies to the right favour control.\n- **Heterogeneity** is shown by I² and the Cochran Q p-value: if Q p<0.10 or I²>50%, significant heterogeneity is present.\n- **Subgroup analyses** and **meta-regression** explore sources of heterogeneity."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Reading a Forest Plot",
+          "content": "In a forest plot: (1) each study = horizontal line with square; (2) square size = study weight; (3) CI = horizontal line length; (4) diamond = pooled estimate; (5) vertical line = null (no effect). If the diamond (pooled CI) does NOT cross the vertical no-effect line = statistically significant pooled result. If the diamond DOES cross the no-effect line = pooled result is non-significant. I² describes heterogeneity between studies, not within studies."
+        }
+      ]
+    },
+    {
+      "id": "G3-S4",
+      "title": "The GRADE Framework: Evidence Certainty and Recommendation Strength",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **GRADE (Grading of Recommendations Assessment, Development, and Evaluation) framework** is used by the EAU, WHO, and most major specialty societies to rate the certainty of evidence and the strength of clinical recommendations. GRADE distinguishes two separate dimensions:\n\n**Certainty of evidence** (previously 'quality of evidence') has four levels:\n- **High**: We are very confident the true effect is close to the estimate. Based on well-designed RCTs without serious limitations.\n- **Moderate**: We are moderately confident. The true effect is likely close to the estimate but may be substantially different. Based on RCTs with limitations or observational studies with strong effect.\n- **Low**: Our confidence is limited. The true effect may be substantially different from the estimate. Based on observational studies or RCTs with very serious limitations.\n- **Very low**: We have very little confidence in the effect estimate. Based on very flawed studies, case series, or expert opinion.\n\nFive factors **downgrade** evidence certainty: risk of bias, inconsistency (heterogeneity), indirectness (different population, intervention, outcome from the question), imprecision (wide CI, small sample), and publication bias. Three factors **upgrade** observational evidence: large effect size (RR>2 or <0.5), dose-response relationship, and large magnitude of plausible residual confounders all acting in one direction.\n\n**Strength of recommendation** is either **Strong** (the panel is confident that benefits outweigh harms for most patients — 'we recommend') or **Weak/Conditional** (benefits outweigh harms but there is uncertainty — 'we suggest'). Strong recommendations can be based on low certainty evidence if the benefits are large and harms minimal — certainty of evidence is one of four GRADE factors for recommendation strength: certainty, balance of benefits vs harms, patient values, and resource use."
+        },
+        {
+          "type": "table",
+          "title": "GRADE Evidence Certainty Levels and Their Basis",
+          "headers": ["GRADE Level", "Symbol", "Basis", "EAU Grade"],
+          "rows": [
+            ["High", "⊕⊕⊕⊕", "Consistent RCT evidence without serious limitations", "Grade A"],
+            ["Moderate", "⊕⊕⊕○", "RCT with limitations; or upgraded observational", "Grade B"],
+            ["Low", "⊕⊕○○", "Observational studies; or downgraded RCT", "Grade C"],
+            ["Very low", "⊕○○○", "Case series, expert opinion, very flawed RCT", "Grade C/D"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Confusing Evidence Quality with Recommendation Strength",
+          "content": "A strong recommendation can be based on low certainty evidence (e.g., when benefits are large and harms minimal — even if the RCT evidence is weak, the recommendation to use something very safe and likely beneficial may be 'strong'). Conversely, a weak recommendation may come from high certainty evidence if there is genuine controversy about the balance of benefits and harms, or significant variability in patient values."
+        }
+      ]
+    },
+    {
+      "id": "G3-S5",
+      "title": "Understanding EAU Guidelines: Structure and Application",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The EAU Guidelines are the primary evidence-based reference for European urologists and for FEBU (Fellowship of the European Board of Urology) examination candidates. Updated annually, they cover all major urological conditions and provide structured recommendations based on systematic literature reviews, GRADE assessment, and expert panel discussion.\n\n**Structure of EAU Guidelines**: Each guideline chapter contains: rationale for the update, systematic literature review (documented PICO questions), evidence quality assessment (GRADE), recommendations with strength (Strong/Weak) and quality level (A/B/C), summary of evidence, and references. The **summary of recommendations table** is the most clinically practical part — it provides the recommendation text, strength rating, and evidence quality at a glance.\n\n**Applying EAU recommendations to individual patients** requires integrating: the guideline recommendation (what to do on average, for the 'typical' patient matching the trial population), the individual patient's circumstances (comorbidities, functional status, preferences, healthcare setting), and the clinician's expertise. The GRADE framework explicitly addresses this tension: a **Strong** recommendation means that most patients in most circumstances should receive the recommended treatment. A **Weak/Conditional** recommendation means that the decision should be individualised, discussing trade-offs with the patient.\n\n**Limitations of guidelines**: Guidelines are based on evidence published to the date of the last systematic search — typically 12–24 months before publication. Landmark trials published after the cutoff date may not be reflected. In rapidly evolving areas (e.g., immunotherapy for bladder and renal cancer), guidelines may lag behind current practice. Clinicians should supplement guideline review with regular literature monitoring, particularly for high-impact journals (European Urology, Journal of Urology, BJU International, NEJM, Lancet, JAMA for landmark trials)."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Strong vs Weak EAU Recommendation",
+          "content": "EAU Strong recommendation example: 'Perform radical cystectomy in muscle-invasive bladder cancer (cT2–T4a, N0, M0)' — strong because the survival benefit of definitive surgical treatment is large and consistent, supported by decades of cohort data. EAU Weak recommendation example: 'Consider offering active surveillance in patients with low-risk prostate cancer' — weak because patient values vary significantly (some prefer definitive treatment for psychological reasons), follow-up intensity varies, and not all low-risk patients have identical risk trajectories. Both patients and urologists must discuss trade-offs for weak recommendations."
+        }
+      ]
+    },
+    {
+      "id": "G3-S6",
+      "title": "Applying Evidence to Practice: Clinical Decision-Making",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The goal of evidence-based urology is not to apply guideline recommendations rigidly to all patients but to integrate the best available evidence with clinical expertise and patient values and preferences in the specific context of care. The Sackett model of evidence-based medicine has three intersecting domains: **research evidence**, **clinical expertise**, and **patient values** — optimal decisions arise at their intersection.\n\n**Shared decision-making (SDM)** is mandated in many urological contexts by both EAU guidelines and ethical standards. SDM requires: (1) accurate patient information about the evidence (natural history, treatment options, outcomes, side effects); (2) elicitation of patient values and preferences; (3) deliberation between patient and clinician; (4) a decision consistent with the patient's informed preferences. Decision aids (validated written or digital materials presenting evidence in accessible language) facilitate SDM — EAU patient information leaflets are available for most guideline topics.\n\nCommon evidence-to-practice gaps in urology include: over-treatment of low-risk prostate cancer (deviation from AS guideline recommendation), underuse of neoadjuvant chemotherapy before radical cystectomy for MIBC (despite Grade A recommendation), and inappropriate surveillance intensity after NMIBC (both over- and under-surveillance relative to risk stratification). Recognising these gaps is a component of quality improvement and audit — skills developed from evidence-based training."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Neoadjuvant Chemotherapy for MIBC",
+          "content": "Platinum-based neoadjuvant chemotherapy (cisplatin-based, e.g., dose-dense MVAC or GC) before radical cystectomy for MIBC is a Grade A EAU recommendation based on a meta-analysis showing a 5% absolute improvement in 5-year overall survival. Despite this strong evidence, it remains significantly underutilised — a classic example of evidence-to-practice gap. In board examinations, the correct answer for a cisplatin-eligible patient with cT2–4 N0 M0 urothelial carcinoma prior to radical cystectomy is neoadjuvant chemotherapy."
+        }
+      ]
+    },
+    {
+      "id": "G3-S7",
+      "title": "Health Technology Assessment and Economic Evidence in Urology",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Evidence-based medicine extends beyond clinical effectiveness to include economic evaluation of treatments, particularly relevant as healthcare systems face resource constraints. **Health technology assessment (HTA)** evaluates the clinical, economic, social, and organisational implications of healthcare technologies.\n\n**Economic evaluation types** relevant to urology:\n- **Cost-effectiveness analysis (CEA)**: Compares costs and outcomes (expressed in natural units — e.g., stone-free patients, life-years gained). Outcome: incremental cost-effectiveness ratio (ICER) = additional cost / additional outcome unit.\n- **Cost-utility analysis (CUA)**: A form of CEA where outcomes are expressed in quality-adjusted life-years (QALYs). The ICER threshold for acceptable cost-effectiveness varies by country: UK NICE threshold is £20,000–£30,000/QALY; Netherlands is €80,000/QALY for severe disease. Used to evaluate oncology treatments including immunotherapy and targeted therapy in urology.\n- **Cost-benefit analysis (CBA)**: Converts both costs and outcomes to monetary values — less commonly used in clinical medicine.\n- **Budget impact analysis (BIA)**: Estimates the financial consequences of adopting a new treatment across a healthcare system population — important for payer/formulary decisions.\n\nIn urological oncology, the high cost of novel agents (PD-1 inhibitors, PARP inhibitors, antibody-drug conjugates) has made economic evidence increasingly important. The **ICER** for adjuvant nivolumab in bladder cancer (CHECKMATE-274) was estimated at approximately $150,000–$200,000/QALY in US analyses — above typical willingness-to-pay thresholds — creating access debates. Understanding these economic concepts allows urologists to engage with HTA evidence and contribute to equitable resource allocation."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — QALY and Cost-Effectiveness",
+          "content": "QALY = quality-adjusted life year = 1 year in perfect health (utility = 1.0). One year with moderate urinary incontinence may have utility 0.7 = 0.7 QALY. ICER = (Cost_new − Cost_old) / (QALY_new − QALY_old). ICER below the willingness-to-pay threshold = cost-effective. UK NICE threshold: £20,000–30,000/QALY. If a treatment costs £50,000 per QALY, NICE would typically NOT recommend it for routine NHS use — unless severity modifier applies."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of evidence-based urology and critical appraisal with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "G3-Q1",
+        "stem": "A urology trainee wants to assess the evidence for intravesical BCG versus intravesical chemotherapy in patients with intermediate-risk NMIBC. Using the PICO framework, which formulation correctly structures this clinical question?",
+        "options": {
+          "A": "P=bladder cancer, I=BCG, C=surgery, O=mortality",
+          "B": "P=adults with intermediate-risk NMIBC after TURBT, I=intravesical BCG (induction ± maintenance), C=intravesical chemotherapy (MMC or epirubicin), O=1-year and 5-year recurrence-free survival",
+          "C": "P=NMIBC patients, I=BCG side effects, C=MMC side effects, O=IPSS score change",
+          "D": "P=bladder cancer of any stage, I=BCG, C=no treatment, O=cystectomy-free survival"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The PICO framework requires: P = the specific patient population (intermediate-risk NMIBC after TURBT — not all bladder cancer); I = the specific intervention (BCG with dosing details); C = the specific comparator (intravesical chemotherapy — not surgery or no treatment); O = the clinically relevant outcome (recurrence-free survival at defined time points). Option B correctly specifies all four PICO components matching the clinical question of BCG vs chemotherapy for NMIBC.",
+          "wrong": {
+            "A": "Population too broad (all bladder cancer), comparator is surgery (not relevant for intravesical comparison), and outcome is mortality (wrong endpoint for the recurrence question). This is not a well-specified PICO.",
+            "C": "Intervention and comparison are outcomes (side effects) not interventions — this formulation would answer a different question about tolerability, not efficacy.",
+            "D": "Population is too broad (any stage bladder cancer), comparator is no treatment (not the relevant comparison), and the outcome (cystectomy-free survival) is not the standard NMIBC efficacy endpoint."
+          },
+          "guideline": "EAU Methodology for Evidence-Based Guidelines (2024): All guideline recommendations derive from PICO-structured systematic literature searches; PICO formulation is the mandatory first step in systematic review methodology.",
+          "trial": "Sylvester RJ et al. EORTC/CUETO meta-analysis (Eur Urol 2009): Systematic review based on the PICO question: adults with NMIBC (P), BCG induction/maintenance (I), vs intravesical chemotherapy (C), recurrence-free survival (O) — demonstrating PICO in practice for a major urological systematic review.",
+          "pearl": "PICO = Population (specific), Intervention (specific with dose/route), Comparison (relevant alternative), Outcome (clinically meaningful, time-specified). A well-specified PICO leads to efficient literature searching. Vague PICO leads to irrelevant results."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G3-Q2",
+        "stem": "A surgeon presents a case series of 30 consecutive patients undergoing a novel robotic technique for ureteral reimplantation. The outcomes are excellent with no anastomotic failures. She argues that this data provides strong evidence for the superiority of the new technique. What level of evidence does this represent, and what limitation applies?",
+        "options": {
+          "A": "Level 1b (single RCT) — superiority can be established",
+          "B": "Level 4 (case series) — no control group, no randomisation, susceptible to selection bias and publication bias",
+          "C": "Level 2b (prospective cohort) — moderate evidence for the new technique",
+          "D": "Level 3 (case-control) — historical controls can be inferred from the literature"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A consecutive case series is Level 4 evidence (Oxford CEBM). It has no control group, no randomisation, and no blinding. The 'excellent' outcomes may reflect patient selection (surgeon chooses the best candidates for a new technique), the learning curve (surgeon is highly motivated and careful with early cases), regression to the mean, or reporting bias (poor outcomes may not be reported). Without comparison to standard care in a controlled or randomised design, no superiority claim is valid. This is IDEAL Stage 2a evidence — appropriate for technique description and feasibility, not for comparative effectiveness.",
+          "wrong": {
+            "A": "Level 1b requires a properly designed and conducted RCT. A case series without a control group cannot establish superiority over any comparator.",
+            "C": "Level 2b requires a prospective cohort study with a defined comparison group. A case series without controls is not a cohort study and is rated Level 4.",
+            "D": "Level 3 (case-control) requires a defined control group matched to the cases. Inferring historical controls from the literature introduces unmeasured confounding and is not equivalent to a contemporary control group."
+          },
+          "guideline": "IDEAL Framework (Ergina PL, Lancet 2009): Stage 2a = small case series; Level 4 evidence; appropriate for technique description, safety signal identification, and learning curve characterisation; not appropriate for comparative effectiveness claims.",
+          "trial": "McCulloch P et al. (Lancet 2009): IDEAL paper demonstrating that case series (IDEAL Stage 2a) should not be used to claim superiority over established techniques — the absence of a control group means all positive results are uninterpretable for comparative claims.",
+          "pearl": "Case series = Level 4 evidence. Cannot establish superiority, inferiority, or equivalence without a control group. IDEAL Stage 2a. Use for technique description, feasibility, safety signal, and learning curve. To claim efficacy superiority, require an RCT (IDEAL Stage 3)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G3-Q3",
+        "stem": "You are appraising the RAZOR RCT (Parekh et al., Lancet 2018) comparing robot-assisted to open radical cystectomy. The primary endpoint is 2-year progression-free survival (non-inferiority design). The paper states: 'The randomisation sequence was generated by a computer algorithm, and allocation was performed centrally via a secure web-based system, with stratification by ECOG performance status and clinical T-stage.' Which RoB 2.0 domain does this sentence primarily address?",
+        "options": {
+          "A": "Bias in measurement of the outcome",
+          "B": "Bias arising from the randomisation process",
+          "C": "Bias due to missing outcome data",
+          "D": "Bias in selection of the reported result"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The sentence directly addresses the RoB 2.0 Domain 1: bias arising from the randomisation process. It describes: (1) a random sequence generation method (computer algorithm — appropriate), (2) allocation concealment method (centralised secure web-based system — appropriate, prevents manipulability), and (3) stratification factors (ECOG performance status and clinical T-stage). All three elements are the criteria for judging Domain 1 as 'low risk'. Central web-based allocation is the gold standard for allocation concealment.",
+          "wrong": {
+            "A": "Bias in measurement of outcome (RoB 2.0 Domain 4) concerns blinding of outcome assessors and consistency of outcome measurement — not the randomisation and allocation process.",
+            "C": "Bias from missing outcome data (RoB 2.0 Domain 3) concerns dropout rates and methods for handling missing data — not randomisation.",
+            "D": "Bias in selection of the reported result (RoB 2.0 Domain 5) concerns outcome-switching and selective reporting — not the randomisation process."
+          },
+          "guideline": "Cochrane RoB 2.0 (Sterne JA, BMJ 2019): Domain 1 assesses: (D1.1) randomisation sequence generation — computer random algorithm = low risk; (D1.2) allocation concealment — centralised web-based = low risk; (D1.3) baseline comparability — stratified randomisation reduces chance imbalance.",
+          "trial": "RAZOR RCT (Parekh BH, Lancet 2018): Computer randomisation with central web-based allocation and ECOG/T-stage stratification — judged low risk for Domain 1 in subsequent systematic reviews and meta-analyses of RARC vs ORC; this allocation system is the gold standard that critical appraisers should recognise as low risk.",
+          "pearl": "RoB 2.0 Domain 1 (randomisation): low risk requires (1) truly random sequence generation (computer), (2) allocation concealment preventing foreknowledge (central web/telephone), and (3) baseline comparability. Stratified randomisation addresses (3)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G3-Q4",
+        "stem": "The EAU 2024 guideline states: 'We recommend radical cystectomy for muscle-invasive bladder cancer (cT2–T4a, N0, M0) (Strong recommendation, Grade A).' According to GRADE, what does a 'Strong' recommendation mean for clinical practice?",
+        "options": {
+          "A": "Most patients in most circumstances should receive this treatment regardless of individual preferences",
+          "B": "The recommendation applies only to academic tertiary centres with robotic surgery capability",
+          "C": "The recommendation requires an RCT before clinical implementation",
+          "D": "Strong recommendations are based only on Level 1a evidence (systematic reviews)"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "GRADE Strong recommendation means: 'We recommend' — the benefits of the intervention clearly outweigh the harms for most patients in most circumstances. For a Strong recommendation, it is appropriate to implement the recommendation for most patients without extensive shared decision-making about whether to follow it (though patient preferences still matter for specific aspects such as surgical approach, urinary diversion choice). Clinicians who do not follow a Strong recommendation should document their reasons.",
+          "wrong": {
+            "A": "Correct — see explanation above.",
+            "B": "Strong recommendations apply to all settings where the relevant patient population is treated — not restricted to academic centres. Availability of robotic surgery may affect surgical approach choice (a different recommendation) but not the recommendation for radical cystectomy as the standard of care.",
+            "C": "Strong recommendations are based on existing evidence — if the evidence is strong enough, implementation precedes any new RCT. New evidence may strengthen or weaken future recommendations.",
+            "D": "Strong recommendations can be based on any level of evidence — the GRADE strength of recommendation reflects the balance of benefits vs harms, patient values, and certainty of evidence together. A strong recommendation can rest on high, moderate, or even low certainty evidence when benefits are clear and harms minimal."
+          },
+          "guideline": "GRADE Framework (Guyatt G, BMJ 2008): Strong recommendation = benefits clearly outweigh harms = 'We recommend'; clinicians implement for most patients without extended individual deliberation; Weak recommendation = 'We suggest' = decision should be individualised, SDM required.",
+          "trial": "SWOG 8710 (Grossman HB, NEJM 2003): RCT of neoadjuvant MVAC + cystectomy vs cystectomy alone for MIBC — cystectomy arm demonstrated importance of radical surgery for MIBC survival; combined with decades of observational data, cystectomy receives Grade A/Strong recommendation.",
+          "pearl": "GRADE Strong recommendation = 'We recommend' = most patients in most circumstances should receive this treatment. Weak recommendation = 'We suggest' = individualise based on patient values. Strong ≠ mandatory (patient autonomy still respected), but there should be a documented reason for deviation."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G3-Q5",
+        "stem": "A systematic review and meta-analysis of robotic vs open partial nephrectomy includes 18 studies (3 RCTs, 15 observational). The pooled OR for positive surgical margins is 0.81 (95% CI 0.69–0.95) favouring robotic PN. The I² is 62%. AMSTAR-2 assessment reveals no PROSPERO registration, missing risk of bias assessment in 5 studies, and no assessment of publication bias. What overall quality rating does this meta-analysis receive, and how should its conclusion be interpreted?",
+        "options": {
+          "A": "High quality — the pooled estimate can be accepted as definitive evidence of robotic PN superiority",
+          "B": "Critically low quality — the methodological limitations (no registration, missing RoB, no publication bias assessment) are critical weaknesses; the conclusion should be interpreted with extreme caution",
+          "C": "Moderate quality — only minor limitations; the conclusion is reliable for guideline recommendations",
+          "D": "Low quality — but the 3 RCTs in the analysis ensure the conclusion is valid"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "AMSTAR-2 critically low quality is assigned when there is ≥1 critical weakness. The three deficiencies identified (no PROSPERO registration, incomplete risk of bias assessment, no publication bias assessment) each represent critical AMSTAR-2 items. Additionally, I² = 62% indicates substantial heterogeneity that was not adequately addressed. The conclusion (OR 0.81 favouring robotic PN) cannot be reliably interpreted from a critically low quality meta-analysis — it should be considered hypothesis-generating, not evidence for guideline recommendations.",
+          "wrong": {
+            "A": "High quality would require: PROSPERO registration, comprehensive search, duplicate screening, complete RoB assessment, and appropriate handling of heterogeneity — none of which is demonstrated. High quality meta-analysis with I²=62% would still require subgroup analysis to explain heterogeneity.",
+            "C": "Moderate quality would require most AMSTAR-2 items satisfied with only non-critical weaknesses. Missing PROSPERO registration and incomplete RoB assessment are critical items.",
+            "D": "The presence of 3 RCTs does not rescue a poorly conducted meta-analysis. If the RCTs have incomplete RoB assessment and publication bias is not evaluated, the overall quality remains critically low regardless of individual study designs."
+          },
+          "guideline": "AMSTAR-2 (Shea BJ, BMJ 2017): Critically low quality = ≥1 critical weakness; critical items include: protocol registration, comprehensive search, risk of bias assessment of included studies, appropriate meta-analysis methods, risk of bias consideration in interpretation, and assessment of publication bias. Critically low quality meta-analyses should not inform guideline recommendations.",
+          "trial": "Zargar H et al. (Eur Urol 2016): Systematic review of robotic vs laparoscopic partial nephrectomy — subsequent re-appraisal using AMSTAR-2 identified critical weaknesses in many included meta-analyses in this area, with most rated critically low quality; subsequent RCTs (ROSULA trial) were identified as needed.",
+          "pearl": "AMSTAR-2 critically low quality = ≥1 critical weakness. Critical weaknesses: no PROSPERO registration, incomplete search, no RoB assessment, no publication bias assessment. Critically low quality meta-analysis cannot support guideline recommendations. I² > 50% requires subgroup/meta-regression to explain heterogeneity."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q6",
+        "stem": "Using GRADE, what single factor most commonly UPGRADES the certainty of evidence from LOW to MODERATE for an observational study demonstrating an association between active surveillance and avoidance of radical treatment for low-risk prostate cancer?",
+        "options": {
+          "A": "The study used propensity score matching",
+          "B": "The study was multicentre",
+          "C": "Very large magnitude of effect (e.g., RR <0.1 or >10 for the association)",
+          "D": "The study was published in a high-impact journal"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "GRADE allows upgrading observational evidence certainty when the effect is very large (RR >5 or <0.2 for a 2-level upgrade; RR 2–5 or 0.2–0.5 for a 1-level upgrade). Very large effects are unlikely to be entirely explained by residual confounding — if the observed effect is 10-fold, even large unmeasured confounders would be unlikely to fully explain it. Other upgrading factors: dose-response relationship and a situation where all plausible confounders would reduce (not increase) the observed effect.",
+          "wrong": {
+            "A": "Propensity score matching reduces measured confounding — an improvement in study quality within the observational design, but not one of the three GRADE upgrading factors. It reduces the risk of bias within the observational design but does not automatically upgrade GRADE certainty.",
+            "B": "Multicentre studies increase generalisability and may reduce centre-specific bias — a quality indicator, but not a GRADE upgrading factor for certainty. Being multicentre does not change the fundamental observational design limitation.",
+            "D": "Journal impact factor is not a GRADE criterion. High-impact journals may have better peer review, but publication venue does not determine evidence certainty."
+          },
+          "guideline": "GRADE Framework (Guyatt G, BMJ 2008): Three GRADE upgrading factors for observational evidence: (1) large or very large effect size (RR >2 or <0.5 = upgrade 1 level; RR >5 or <0.2 = upgrade 2 levels); (2) dose-response gradient; (3) all plausible confounders act in the direction of underestimating the true effect.",
+          "trial": "Hammerer P et al. (Eur Urol 2003): GRADE application to prostate cancer management — observational studies of radical prostatectomy vs watchful waiting showing HR >2 for cancer death upgraded from very low to low certainty due to magnitude of effect; still insufficient for strong guideline recommendation (ProtecT RCT needed).",
+          "pearl": "GRADE upgrading factors for observational studies: (1) very large effect (RR >2 = +1 level; RR >5 = +2 levels), (2) dose-response, (3) direction of all plausible confounders makes observed effect conservative. These factors can upgrade from very low → low → moderate but rarely reach high certainty for observational data."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q7",
+        "stem": "The EAU 2024 guidelines recommend: 'Offer neoadjuvant cisplatin-based combination chemotherapy to eligible patients with cT2–T4a MIBC before radical cystectomy (Strong recommendation, Grade A).' Despite this Grade A recommendation, neoadjuvant chemotherapy (NAC) remains underutilised in MIBC. What is the most commonly cited reason for non-adoption in clinical practice?",
+        "options": {
+          "A": "The meta-analysis supporting NAC was published before 2000 and is considered outdated",
+          "B": "Concerns about cisplatin eligibility (renal impairment, ECOG ≥2, hearing loss, neuropathy), delay to cystectomy, and inadequate referral pathways from urology to medical oncology",
+          "C": "The absolute survival benefit of NAC is >15%, making the treatment mandatory by ethics guidelines",
+          "D": "NAC is only recommended in specialist centres with formal MDT and is therefore inaccessible to most urologists"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "NAC for MIBC is a Grade A recommendation based on meta-analysis showing a 5% absolute 5-year OS benefit (equivalent to approximately 14% relative risk reduction, NEJM 2003 and Advanced Bladder Cancer Meta-analysis Collaboration). Despite this, global utilisation rates are 15–30%. Barriers include: (1) up to 50% of MIBC patients are cisplatin-ineligible due to renal impairment (eGFR <60), ECOG ≥2, uncompensated heart failure, peripheral neuropathy, or hearing loss; (2) concern that 6–8 weeks of chemotherapy delays potentially curative surgery; (3) lack of established referral pathways between urologists and medical oncologists; (4) nihilism about benefit ('only 5%'); and (5) fear of chemotherapy toxicity in an elderly population.",
+          "wrong": {
+            "A": "The ABC Meta-analysis (Advanced Bladder Cancer Meta-analysis Collaboration, Lancet 2003) demonstrated a significant survival benefit for cisplatin-based NAC. While published in 2003, updated meta-analyses consistently confirm the benefit. The evidence is not considered outdated — it is Grade A.",
+            "C": "The absolute survival benefit is approximately 5% at 5 years — significant but not >15%. This 5% absolute benefit is the figure used in patient counselling. The recommendation is 'Strong' because of the favourable benefit-harm balance, not because the benefit is overwhelming.",
+            "D": "NAC can be delivered in any centre with medical oncology access. EAU guidelines recommend MDT discussion but do not restrict the recommendation to specialist centres. Inaccessibility is a practical barrier in some health systems but is not an EAU criterion."
+          },
+          "guideline": "EAU Guidelines on Urothelial Carcinoma (2024): NAC (cisplatin-based, e.g., dose-dense MVAC or GC × 3–4 cycles) before radical cystectomy for eligible cT2–4a N0 M0 patients — Strong/Grade A recommendation; cisplatin eligibility criteria: eGFR ≥60 mL/min/1.73m², ECOG ≤1, no neuropathy/hearing loss/NYHA III–IV.",
+          "trial": "Advanced Bladder Cancer Meta-analysis Collaboration (Lancet 2003): Meta-analysis of 11 RCTs (3,005 patients) — platinum-based NAC before local treatment showed HR 0.86 (14% relative, 5% absolute OS benefit at 5 years); established the evidence base for the Grade A recommendation.",
+          "pearl": "NAC for MIBC: 5% absolute 5-year OS benefit (Grade A). Underutilisation (15–30% globally) due to: cisplatin ineligibility (eGFR <60, ECOG ≥2, neuropathy, hearing loss, cardiac failure), delay concern, and lack of MDT referral pathways. Cisplatin eligibility assessment is mandatory before cystectomy planning."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q8",
+        "stem": "A forest plot from a meta-analysis of surgical vs non-surgical management of Grade IV renal trauma shows: Study 1: RR 0.88 (0.52–1.48); Study 2: RR 0.72 (0.48–1.08); Study 3: RR 0.65 (0.43–0.99); Pooled: RR 0.74 (0.57–0.96). I² = 28%. What is the correct interpretation of the pooled result?",
+        "options": {
+          "A": "The individual studies are all statistically significant and the pooled result confirms surgical superiority",
+          "B": "The pooled RR = 0.74 (95% CI 0.57–0.96) suggests that surgery is associated with a 26% lower relative risk of the outcome; the CI excludes 1.0 confirming statistical significance; I² = 28% indicates low heterogeneity; individual studies 1 and 2 are not significant alone due to small samples",
+          "C": "Because studies 1 and 2 are non-significant, the pooled result should be discarded",
+          "D": "I² = 28% means that 28% of patients experienced the outcome in the surgical group"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The pooled RR = 0.74 means surgery is associated with 26% lower relative risk of the outcome compared with non-surgical management. The 95% CI (0.57–0.96) excludes 1.0, confirming statistical significance at α=0.05. I² = 28% indicates low heterogeneity — the studies are reasonably consistent in their estimates. The pooled estimate from meta-analysis has greater precision (narrower CI) than individual studies, which is why individual studies 1 and 2 do not reach significance alone but the pooled estimate does — this is the key value added by meta-analysis.",
+          "wrong": {
+            "A": "Studies 1 and 2 individually do NOT have statistically significant results (their CIs include 1.0: Study 1: 0.52–1.48; Study 2: 0.48–1.08). Only Study 3 (0.43–0.99) is individually significant. The pooled result achieves significance by combining the evidence.",
+            "C": "Individual study non-significance is not a reason to discard a pooled result — the purpose of meta-analysis is precisely to combine studies to achieve the power that individual studies lack. The pooled CI excluding 1.0 is valid.",
+            "D": "I² is a measure of between-study heterogeneity (proportion of variance due to true differences between study effect estimates) — not the event rate in any group. I² = 28% means 28% of total variability is between-study variation, not chance."
+          },
+          "guideline": "Cochrane Handbook for Systematic Reviews (Higgins JPT, 2022): Meta-analysis produces a pooled estimate with greater precision than individual studies; I² <25% = low heterogeneity (pooling appropriate); a pooled result can be significant even when individual studies are not due to increased statistical power of the combined sample.",
+          "trial": "Santucci RA et al. (J Urol 2005): Meta-analysis of renal trauma management confirming NOM superiority for haemodynamically stable patients — individual cohort studies were underpowered but pooled estimates provided definitive evidence for NOM, demonstrating the power of meta-analysis to detect effects undetectable in individual studies.",
+          "pearl": "Meta-analysis achieves statistical significance not reached by underpowered individual studies — this is its primary methodological value. I² = proportion of between-study heterogeneity (not event rate). Pooled CI excluding null value = statistically significant pooled result."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q9",
+        "stem": "In shared decision-making for a 72-year-old man with low-risk prostate cancer (PSA 6.2 ng/mL, ISUP grade group 1, cT1c) who has expressed anxiety about 'living with cancer', which of the following best applies evidence-based principles?",
+        "options": {
+          "A": "Prescribe active surveillance — the EAU guideline recommends this and the patient's preference is irrelevant to a Strong recommendation",
+          "B": "Discuss the ProtecT trial data (equivalent 10-year cancer-specific mortality for AS, RP, and RT), explore the specific nature and content of his anxiety, explain the monitoring protocol and its effectiveness, and reach a jointly agreed decision",
+          "C": "Perform immediate radical prostatectomy given his anxiety — patient preference overrides guideline recommendations",
+          "D": "Refer to a psychiatrist for anxiety management before any prostate cancer management discussion"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Evidence-based practice integrates three components: best evidence, clinical expertise, and patient values. The EAU guidelines recommend active surveillance (AS) as the preferred management for low-risk PCa (Grade A recommendation) — but the GRADE Strong recommendation states 'most patients should receive this' while still acknowledging that patient values may occasionally lead to a different decision. The correct approach is shared decision-making: present the evidence (ProtecT 10-year OS equivalence), understand the patient's values (anxiety about surveillance), provide information about monitoring effectiveness, and reach a jointly agreed decision. The goal is an informed, value-consistent choice — not automatic compliance with or automatic deviation from the guideline.",
+          "wrong": {
+            "A": "A Strong recommendation does not make patient preference irrelevant — patient autonomy is fundamental to medical ethics. SDM is explicitly part of the EAU patient care framework.",
+            "C": "Patient preference is important but does not 'override' evidence-based recommendations without proper informed discussion. A patient who requests radical treatment should have the evidence presented, including risks of over-treatment, before proceeding.",
+            "D": "Referring to psychiatry for normal uncertainty about a cancer diagnosis before addressing the clinical question is inappropriate. The anxiety is a normal response that should be addressed through adequate information and SDM within urology, not deferred to psychiatry."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer (2024) — Active surveillance for low-risk PCa: strongly recommended; patient decision-aids recommended; shared decision-making addressing patient anxiety about surveillance is explicitly recommended; SDM skills are a core competency for FEBU.",
+          "trial": "Hamdy FC et al. ProtecT (NEJM 2016): 10-year cancer-specific mortality equivalent for AS, RP, RT in localised PCa — the evidence base for SDM discussions; patients should be informed of the equivalent survival outcomes while understanding that the metastasis rate was higher with AS, forming the core of the SDM consultation.",
+          "pearl": "Evidence-based medicine = best evidence + clinical expertise + patient values. For EAU Strong recommendations: implement for most patients, but patient values and preferences are still considered. For Weak recommendations: SDM is mandated. Active surveillance for low-risk PCa = Strong recommendation but requires SDM given patient anxiety and monitoring burden."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q10",
+        "stem": "A pharmaceutical company presents a new alpha-blocker for LUTS/BPH with an ICER of £18,000 per QALY compared with existing treatments. NICE's cost-effectiveness threshold is £20,000–30,000 per QALY. Is this treatment likely to be recommended by NICE?",
+        "options": {
+          "A": "No — the ICER exceeds the NICE lower threshold of £20,000/QALY",
+          "B": "Yes — the ICER (£18,000/QALY) is below the NICE lower threshold (£20,000/QALY), suggesting cost-effectiveness and likely NICE approval",
+          "C": "NICE recommendations are based solely on clinical trial endpoints, not cost-effectiveness",
+          "D": "The treatment requires a Phase IV trial before NICE assessment"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The NICE cost-effectiveness threshold is £20,000–30,000 per QALY. An ICER of £18,000/QALY is BELOW the lower threshold, meaning the treatment provides additional health benefit at an acceptable cost per QALY compared with current care. NICE would likely approve this treatment for NHS use based on this cost-effectiveness evidence, provided the clinical evidence (efficacy and safety) is also acceptable. Treatments below £20,000/QALY are generally approved; between £20,000–30,000/QALY are assessed with consideration of uncertainty; above £30,000/QALY are generally not recommended.",
+          "wrong": {
+            "A": "ICER of £18,000/QALY is below (cheaper per QALY than) the £20,000 lower threshold — this means it IS cost-effective, not that it fails the threshold. The threshold is the MAXIMUM acceptable ICER.",
+            "C": "NICE HTA process explicitly incorporates cost-utility analysis (QALY-based cost-effectiveness) alongside clinical trial evidence — cost-effectiveness is a core component of NICE assessments, unlike many other regulatory bodies.",
+            "D": "Phase IV trials are post-marketing surveillance trials. NICE assessment typically occurs after Phase III trials demonstrate efficacy and safety — a Phase IV trial is not a prerequisite for NICE assessment."
+          },
+          "guideline": "NICE Guide to the Methods of Technology Appraisal (2022): Standard cost-effectiveness threshold £20,000–£30,000 per QALY; ICER below £20,000/QALY = favourable cost-effectiveness for NICE recommendation; modified thresholds apply for end-of-life treatments and treatments for rare diseases.",
+          "trial": "Roehrborn CG et al. (CombAT Trial, Eur Urol 2010): Combination dutasteride + tamsulosin vs monotherapy for BPH — health economic analysis demonstrated ICER of approximately £22,000/QALY in UK analysis, qualifying for NICE assessment consideration at the £20,000–30,000 threshold.",
+          "pearl": "NICE ICER threshold: <£20,000/QALY = likely approved; £20,000–30,000/QALY = case-by-case assessment; >£30,000/QALY = generally not recommended (exceptions for severe/rare disease). ICER = additional cost / additional QALY compared with current treatment."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q11",
+        "stem": "A GRADE assessment of the evidence for perioperative immunotherapy (atezolizumab) for MIBC (IMVIGOR010 trial: HR 0.98, 95% CI 0.71–1.35, p=0.91 — non-significant) rates the evidence certainty as HIGH because it was a well-conducted RCT. However, a colleague argues the evidence certainty should be DOWNGRADED. What GRADE downgrading criterion does he most likely cite?",
+        "options": {
+          "A": "Inconsistency — the result is different from prior observational data",
+          "B": "Imprecision — the wide confidence interval (0.71–1.35) is consistent with both a 29% harm and a 35% benefit; the sample size may be insufficient to detect a small effect",
+          "C": "Indirectness — the trial population was different from clinical practice",
+          "D": "Risk of bias — the randomisation was inadequate"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "GRADE imprecision: a CI that is wide enough to encompass both clinically important benefit and clinically important harm suggests imprecision — we cannot confidently conclude that there is no meaningful effect, nor that there is. HR 95% CI 0.71–1.35 means the true effect could plausibly be: a 29% risk reduction (HR 0.71, beneficial), no effect (HR 1.0), or a 35% risk increase (HR 1.35, harmful). This wide CI spanning harm to benefit justifies downgrading evidence certainty for imprecision — the sample may have been insufficient, follow-up too short, or events too few to provide a precise estimate.",
+          "wrong": {
+            "A": "Inconsistency refers to heterogeneity of results ACROSS multiple studies in a meta-analysis — not inconsistency between a trial result and prior observational data. IMVIGOR010 is a single trial.",
+            "C": "Indirectness would apply if the trial used a different population (e.g., non-urothelial cancer) or a surrogate endpoint rather than OS. IMVIGOR010 used the intended MIBC population and OS as the primary endpoint — indirectness is not the primary GRADE concern.",
+            "D": "The question states the trial was 'well-conducted' — risk of bias downgrading does not apply. The GRADE criterion to apply here is imprecision based on the wide CI."
+          },
+          "guideline": "GRADE Framework — Downgrading for imprecision: when the CI crosses the threshold for meaningful benefit or harm, or when the optimal information size (OIS) has not been reached, evidence is downgraded 1 level; IMVIGOR010 CI spanning beneficial to harmful territory (0.71–1.35) is a clear example of imprecision.",
+          "trial": "Powles T et al. IMVIGOR010 (Ann Oncol 2021): Adjuvant atezolizumab vs observation for high-risk MIBC after radical cystectomy — HR 0.98 (95% CI 0.71–1.35), p=0.91; no significant benefit; the wide CI was cited as imprecision in GRADE assessments, leading to downgraded evidence certainty for perioperative checkpoint inhibitor use.",
+          "pearl": "GRADE imprecision: wide CI including both clinically important benefit and harm = downgrade 1 level. For IMVIGOR010: CI 0.71–1.35 spans 29% benefit to 35% harm — too imprecise to confirm absence of clinically important effect. Contrast with CHECKMATE-274 (HR 0.70, CI 0.57–0.86) = narrower CI excluding 1.0 = more precise."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G3-Q12",
+        "stem": "When using MEDLINE/PubMed for a systematic review on the topic of alpha-blockers for ureteral stone expulsion (medical expulsive therapy), a researcher uses the search string: 'ureteral calculi[MeSH] AND alpha blockers[MeSH] AND randomised controlled trial[pt]'. What does '[pt]' mean and what type of articles does this filter retrieve?",
+        "options": {
+          "A": "[pt] = publication type; the filter retrieves articles classified as randomised controlled trials by PubMed indexers",
+          "B": "[pt] = primary text; the filter retrieves full-text articles only",
+          "C": "[pt] = positive trial; the filter retrieves trials with positive results",
+          "D": "[pt] = peer-reviewed text; retrieves only peer-reviewed publications"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "[pt] is the PubMed field tag for 'publication type' — it retrieves articles indexed under the specific MeSH publication type 'Randomized Controlled Trial'. This filter is the standard way to restrict a search to RCTs in PubMed. It complements the Cochrane sensitivity-maximising search strategy for RCTs, which additionally uses free-text terms (random*, allocat*, placebo*) to capture trials not yet indexed as RCTs. The combination of MeSH terms for the population and intervention with the [pt] filter for study design is the standard approach for RCT retrieval in systematic reviews.",
+          "wrong": {
+            "A": "Correct — see explanation above.",
+            "B": "Full-text availability in PubMed is filtered differently — typically by limiting to 'Free Full Text' in the Filters panel, not with [pt].",
+            "C": "There is no PubMed field tag for 'positive trial' — this would introduce serious selection bias in a systematic review. All eligible trials should be retrieved regardless of results direction.",
+            "D": "Peer-review status is not a PubMed field tag. Most indexed MEDLINE articles are peer-reviewed, but this is not filtered by [pt]."
+          },
+          "guideline": "PRISMA 2020 (Page MJ, BMJ 2021): Comprehensive literature search must include: databases (PubMed, Embase, CENTRAL), MeSH terms and free-text, date range, language filter, publication type filter; full search strings must be documented in supplementary material for reproducibility.",
+          "trial": "SUSPEND Trial (Pickard R, NEJM 2015): The systematic review informing the SUSPEND trial design used PubMed searches combining MeSH terms for ureteral calculi, alpha-blockers, and publication type[pt]=RCT to identify prior RCTs — demonstrating the standard PubMed search approach for a urological systematic review.",
+          "pearl": "[pt] in PubMed = publication type filter. [pt] = 'Randomized Controlled Trial' restricts to RCTs indexed by NLM. Use with MeSH terms for efficient systematic review search. Supplement with free-text terms (random*, placebo*) for trials not yet indexed as RCTs."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q13",
+        "stem": "A urologist is planning to implement a new enhanced recovery after surgery (ERAS) protocol for radical cystectomy. She conducts a rapid evidence review and finds: 2 systematic reviews (AMSTAR-2 moderate quality), 5 observational cohort studies (GRADE: very low to low certainty), and no RCTs. How should she classify the overall evidence certainty and what recommendation strength can be derived?",
+        "options": {
+          "A": "High certainty — systematic reviews automatically confer high certainty evidence",
+          "B": "Low to very low certainty — observational evidence for a process-of-care intervention; implementation supported as conditional/weak recommendation based on benefit-harm balance and expert consensus",
+          "C": "Moderate certainty — two systematic reviews elevate the evidence above observational level",
+          "D": "The evidence is insufficient and the ERAS protocol should not be implemented until an RCT is published"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Systematic reviews of observational studies inherit the certainty limitations of the included studies — they synthesise observational evidence but do not upgrade it to RCT-level certainty. GRADE rates observational studies as low certainty by default (further downgraded for risk of bias, inconsistency, indirectness, imprecision, publication bias). ERAS for cystectomy has no RCT evidence but strong observational signal, expert consensus, biological plausibility, and a favourable benefit-harm profile. The appropriate GRADE recommendation is conditional/weak — 'We suggest implementing ERAS protocols for radical cystectomy' — based on low certainty evidence but a favourable benefit-harm balance.",
+          "wrong": {
+            "A": "Systematic reviews of observational studies do not confer high certainty. GRADE certainty reflects the evidence base — if all included studies are observational, the systematic review remains low certainty evidence.",
+            "C": "Systematic reviews synthesise the included evidence — they do not upgrade certainty above what the included studies provide. Two systematic reviews of observational data = low certainty, not moderate.",
+            "D": "Waiting for an RCT before implementing an intervention with observational evidence, biological plausibility, and low harm risk is not the standard approach. GRADE allows conditional recommendations based on low certainty evidence when the benefit-harm balance is favourable and an RCT would be difficult to conduct."
+          },
+          "guideline": "EAU Guidelines on Perioperative Care for Radical Cystectomy (2024) — ERAS protocol: recommended based on observational evidence and expert consensus; conditional/Grade C recommendation; waiting for RCT level evidence would unjustifiably delay adoption of a low-risk intervention with biological plausibility.",
+          "trial": "Cerantola Y et al. (BJU Int 2013): First systematic review of ERAS for radical cystectomy — low to moderate quality observational evidence showing reduced length of stay and complication rates; identified as the best available evidence supporting EAU conditional ERAS recommendation in the absence of RCTs.",
+          "pearl": "Systematic reviews of observational studies = observational certainty (low/very low). Systematic reviews of RCTs = RCT certainty (moderate/high if well-done). GRADE certainty is determined by the included evidence, not by the review type. Low certainty evidence can still support a conditional recommendation when benefit-harm balance is favourable."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G3-Q14",
+        "stem": "In the context of EAU guideline development, what distinguishes a 'GRADE Strong' from a 'GRADE Weak' recommendation, based on the example of PSA screening in men at average risk of prostate cancer?",
+        "options": {
+          "A": "Strong recommendations apply to patients with high PSA; weak recommendations apply to patients with low PSA",
+          "B": "PSA screening gets a Weak recommendation because the balance of benefits (early PCa detection) vs harms (overdiagnosis, overtreatment, anxiety) is uncertain and varies significantly by patient values",
+          "C": "Strong recommendations are based on randomised trials; PSA screening is based on observational data only, hence Weak",
+          "D": "Weak recommendations indicate the evidence is low quality and should not be implemented"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "GRADE Weak (Conditional) recommendation for PSA screening reflects that: (1) the balance of benefits (reduced PCa mortality, detected by ERSPC trial) vs harms (overdiagnosis, overtreatment, biopsy complications, PSA anxiety) is genuinely uncertain — PLCO trial showed no mortality benefit while ERSPC showed modest benefit; (2) patient values vary significantly (some value early detection strongly; others prioritise avoiding over-diagnosis and over-treatment); (3) the optimal screening frequency, start age, and stop age are uncertain. When there is genuine uncertainty about the benefit-harm balance AND significant patient value variability, the GRADE recommendation is Weak/Conditional, explicitly requiring shared decision-making.",
+          "wrong": {
+            "A": "GRADE recommendation strength is not determined by PSA level — it is based on the overall benefit-harm balance and evidence quality for the population.",
+            "C": "Weak recommendations can be based on any level of evidence — including RCT evidence (both PLCO and ERSPC are RCTs). GRADE strength is determined by benefit-harm balance and patient value considerations, not exclusively by evidence level.",
+            "D": "Weak recommendation does NOT mean the evidence is poor or the intervention should not be implemented — it means the decision should be individualised based on patient values. A Weak recommendation requires SDM, not inaction."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer Early Detection (2024): PSA-based screening discussed via SDM — Weak recommendation (conditional) because benefit-harm balance varies by patient values; evidence from ERSPC (RR for PCa death 0.80 at 13 years) and PLCO (no mortality benefit) provides conflicting signals requiring individualised discussion.",
+          "trial": "ERSPC (Schröder FH, NEJM 2009 + 2014 update): PSA screening RCT showing 21% reduction in PCa mortality at 13 years, NNT to prevent 1 death = 27 screened for 13 years; PLCO (Andriole GL, NEJM 2009): no mortality benefit in US setting. The conflicting evidence from two major RCTs is the primary reason for the GRADE Weak recommendation.",
+          "pearl": "GRADE Weak (Conditional) recommendation = genuine uncertainty about benefit-harm balance OR significant patient value variability = SDM required. PSA screening = Weak because ERSPC vs PLCO show conflicting mortality benefits and overdiagnosis/overtreatment harms are significant. Strong ≠ 'always do it'; Weak ≠ 'don't do it' — it means 'discuss with each patient'."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q15",
+        "stem": "A urologist reads a retrospective study reporting that a new serum biomarker (ProMarker) predicts biochemical recurrence after radical prostatectomy with an AUC of 0.82 (95% CI 0.74–0.90). The study enrolled 250 patients from a single institution. What are the key limitations that prevent immediate clinical implementation?",
+        "options": {
+          "A": "AUC <0.90 is insufficient for clinical use; the biomarker fails the minimum performance threshold",
+          "B": "Retrospective single-centre study; no external validation in a different population; no established clinical decision threshold; no evidence of clinical utility (does acting on the biomarker improve patient outcomes?)",
+          "C": "The 95% CI is too wide; the result is inconclusive",
+          "D": "Retrospective studies can never provide information about biomarker performance"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A biomarker with AUC 0.82 in a discovery/derivation study has reasonable discrimination but faces several barriers to clinical implementation: (1) single-centre retrospective study is susceptible to selection bias, batch effects, and local confounding; (2) no external validation in an independent cohort from a different institution means overfitting is likely — AUC in an external cohort would typically be lower; (3) no pre-specified clinical decision threshold with calibration data; (4) no evidence of clinical utility — even a well-discriminating biomarker may not improve patient outcomes if the resulting treatment decisions do not have incremental benefit over current practice. The TRIPOD statement and GRADE require all four criteria before clinical implementation.",
+          "wrong": {
+            "A": "AUC thresholds for 'clinical use' are not fixed at 0.90 — AUC 0.82 represents 'good' discrimination. The limitations are methodological (single centre, no validation, no clinical utility), not a performance floor.",
+            "C": "95% CI of 0.74–0.90 is reasonably narrow and excludes 0.5 (random performance) by a wide margin — the result is not inconclusive. The CI indicates good statistical precision for the AUC estimate.",
+            "D": "Retrospective studies CAN provide valid biomarker performance data when archival biosamples are measured blinded to outcome, when the cohort is well-defined, and when statistical analysis follows REMARK guidelines. Retrospective studies are commonly the first step in biomarker validation; the limitation is single-centre, not retrospective per se."
+          },
+          "guideline": "TRIPOD Statement (Collins GS, BMJ 2015): Biomarker prediction models require derivation + internal validation + external validation in independent cohort before clinical implementation; clinical utility assessment (impact on outcomes) is a further required step beyond diagnostic accuracy.",
+          "trial": "Kattan MW et al. (J Urol 2003): Prostate cancer nomogram development — derivation at Memorial Sloan Kettering followed by external validation in multiple European cohorts (Partin, CAPRA scores); AUC in derivation cohort was higher than in external validation — demonstrating the importance of external validation for realistic performance assessment.",
+          "pearl": "Biomarker validation steps before clinical use: (1) derivation (single cohort), (2) internal validation (cross-validation/bootstrap), (3) external validation (different centre/population), (4) clinical utility trial (does acting on biomarker improve outcomes?). AUC 0.82 from one retrospective centre = step 1 only. Not yet implementable."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G3-Q16",
+        "stem": "The EAU guideline for intermediate-risk NMIBC states: 'We suggest offering either BCG induction with maintenance or instillation of chemotherapy as adjuvant intravesical treatment after TURBT (Weak recommendation).' A patient with multiple intermediate-risk tumours (3 tumours, all Ta G2, largest 1.5 cm) asks which treatment you recommend. How should the Weak recommendation be applied?",
+        "options": {
+          "A": "As it is a Weak recommendation, neither BCG nor chemotherapy should be offered until stronger evidence is available",
+          "B": "Conduct shared decision-making: present the evidence (BCG reduces recurrence more than chemotherapy but has higher side effects), discuss the patient's treatment goals and tolerance for side effects, and make a jointly informed decision",
+          "C": "BCG should be prescribed as it is BCG's only indication according to EAU guidelines",
+          "D": "Refer to oncology for chemotherapy as BCG is too complex for routine urological practice"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A GRADE Weak recommendation ('We suggest') means: both options are clinically reasonable and the decision should be individualised based on patient values, preferences, and clinical context. The appropriate clinical application is SDM: present the evidence (BCG achieves superior recurrence reduction — ~30–40% vs ~15–20% for MMC — but has significantly higher side effects including BCGosis, systemic BCG infection, and more frequent and severe urinary symptoms; MMC has lower side effect profile and weekly schedule advantage); explore the patient's priorities (minimising recurrence vs minimising treatment burden); and reach a jointly agreed decision. For multiple tumours, BCG is often preferred clinically, but the recommendation leaves room for either choice.",
+          "wrong": {
+            "A": "Weak recommendation does not mean 'defer until stronger evidence' — it means both options are reasonable and the decision should be individualised. Both BCG and intravesical chemotherapy are available evidence-based treatments.",
+            "C": "BCG has multiple indications in EAU guidelines (intermediate and high-risk NMIBC). The Weak recommendation does not restrict BCG to a single indication, nor does it mandate BCG over chemotherapy for intermediate-risk disease.",
+            "D": "Intravesical BCG instillation is standard urological practice performed by urology nurses and urologists — not a referral indication for medical oncology."
+          },
+          "guideline": "EAU Guidelines on NMIBC (2024): Intermediate-risk NMIBC: either BCG induction+maintenance or intravesical chemotherapy acceptable (Weak recommendation); SDM considering recurrence reduction (BCG superior) vs tolerability (MMC better); for high-risk NMIBC: BCG is specifically recommended (not chemotherapy).",
+          "trial": "Malmström PU et al. EORTC meta-analysis (Eur Urol 2009): BCG vs intravesical chemotherapy for NMIBC — BCG RR 0.68 for recurrence (superior) but higher side effects; no OS difference; both treatments recommended for intermediate risk with Weak recommendation acknowledging genuine clinical equipoise.",
+          "pearl": "GRADE Weak recommendation = SDM required. Both options are evidence-based. Present evidence comparing outcomes (recurrence rates, side effects), elicit patient priorities, reach a jointly agreed decision. Do NOT interpret Weak as 'neither' or 'defer' — it means 'individualise'."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q17",
+        "stem": "A well-designed RCT of single-use flexible ureteroscope (sURS) vs reusable flexible ureteroscope (rURS) for 10–20 mm renal stones in 300 patients shows equivalent stone-free rates (SFR) at 3 months (78% sURS vs 76% rURS, p=0.67). The EAU guideline states: 'We suggest using either reusable or single-use flexible ureteroscopes, noting that single-use devices have higher per-procedure cost but may reduce cross-contamination risk (Weak recommendation).' Which GRADE domain most likely contributed to the Weak recommendation despite an RCT?",
+        "options": {
+          "A": "Imprecision — the CI for SFR difference includes clinically important differences",
+          "B": "Inconsistency — the RCT result conflicts with prior observational data",
+          "C": "Values and preferences — patients and clinicians may genuinely differ on the relevance of convenience, cost, and environmental impact vs marginal differences in clinical outcomes",
+          "D": "Publication bias — small trials favour sURS"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Even when clinical outcomes (SFR) are equivalent, GRADE recommendation strength depends on four factors: certainty of evidence, balance of effects, patient values, and resource use. For sURS vs rURS: clinical efficacy is equivalent (high certainty from the RCT). However: resource use (sURS costs more per procedure), values and preferences (some healthcare systems prioritise infection control; others prioritise cost containment; environmental impact of single-use devices is increasingly debated), and institutional factors genuinely differ. When these considerations vary significantly across contexts and patients, a Weak/Conditional recommendation accurately reflects that the choice depends on local context.",
+          "wrong": {
+            "A": "Imprecision would require the CI for the SFR difference to span clinically important benefit and harm thresholds. With SFR 78% vs 76%, the difference is small and the CI would be narrow — imprecision is not the primary GRADE concern here.",
+            "B": "Inconsistency applies across multiple studies in a meta-analysis. A single RCT is not assessed for inconsistency (there is only one result).",
+            "D": "Publication bias affects meta-analyses with multiple studies — not a single large RCT. Publication bias assessment is not applicable to a single primary trial."
+          },
+          "guideline": "GRADE Framework (Guyatt G, BMJ 2008): Recommendation strength depends on: (1) certainty of evidence, (2) balance of desirable vs undesirable effects, (3) patient values and preferences, (4) resource use. Variation in resource use, patient preferences, or context-specific factors justifies Weak recommendation even with high-certainty evidence of clinical equivalence.",
+          "trial": "Hennessey DB et al. (BJU Int 2018): RCT of single-use vs reusable fURS — equivalent SFR with higher per-procedure cost for single-use; EAU guideline Weak recommendation reflects genuine controversy about cost vs infection control trade-off across different healthcare systems.",
+          "pearl": "GRADE Weak recommendation despite high-certainty evidence occurs when: resource use, patient values, or context vary significantly between settings. sURS vs rURS = equivalent SFR (high certainty) but different cost, environmental, and infection control implications across health systems → Weak recommendation appropriate."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G3-Q18",
+        "stem": "A critical appraisal of a meta-analysis of cisplatin vs carboplatin-based neoadjuvant chemotherapy for MIBC reveals: 6 RCTs included, pooled HR for OS = 0.78 (95% CI 0.65–0.94) favouring cisplatin, I² = 72%, Egger's test p=0.04. What are the implications of these findings for the certainty of the pooled OS estimate?",
+        "options": {
+          "A": "High certainty — 6 RCTs provide sufficient evidence; HR is significant",
+          "B": "Moderate certainty — downgraded for high heterogeneity (I²=72%) and possible publication bias (Egger's test p=0.04)",
+          "C": "Low certainty — both heterogeneity and publication bias are GRADE critical weaknesses requiring 2-level downgrade",
+          "D": "The meta-analysis is invalid due to I² >50% and should not be published"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Starting at high certainty (6 RCTs), GRADE downgrading applies: (1) Inconsistency: I² = 72% indicates substantial heterogeneity between trials — unexplained variation in effect estimates across studies. This warrants GRADE downgrade of 1 level (to moderate). (2) Publication bias: Egger's test p=0.04 suggests significant funnel plot asymmetry, indicating possible publication bias — potential for another 1-level downgrade. However, if only one of these factors is considered sufficiently important, the net downgrade may be 1 level (to moderate) rather than 2 (to low). The correct interpretation is at minimum moderate certainty, with the caveat that both heterogeneity and publication bias must be addressed through subgroup analysis and sensitivity analysis.",
+          "wrong": {
+            "A": "High certainty requires absence of serious limitations. I²=72% (serious inconsistency) and Egger's test p=0.04 (possible publication bias) are GRADE downgrading factors — high certainty is not appropriate.",
+            "C": "Two-level GRADE downgrade (from high to low) requires VERY SERIOUS limitations. Serious (not very serious) inconsistency and potential publication bias typically produce a 1-level downgrade each — potentially reaching low certainty, but moderate is the more commonly assigned level for this scenario.",
+            "D": "Meta-analyses with I² > 50% are publishable and informative — heterogeneity should be explored and discussed, not used as grounds for rejection. Subgroup analysis and meta-regression are used to address sources of heterogeneity."
+          },
+          "guideline": "GRADE Framework — Downgrading for inconsistency: I² >50% = serious inconsistency = downgrade 1 level; I² >75% = very serious = downgrade 2 levels. Downgrading for publication bias: small study effects or significant Egger's test = downgrade 1 level. Apply downgrading conservatively if the source is uncertain.",
+          "trial": "Yin M et al. (Eur Urol 2016): Meta-analysis of cisplatin vs carboplatin neoadjuvant regimens for MIBC — substantial heterogeneity (I²=65%) between trials including different cisplatin-based regimens (MVAC vs GC) explaining some variation; expert consensus rated overall certainty as moderate after accounting for inconsistency.",
+          "pearl": "GRADE downgrading levels: RCTs start at HIGH. Serious limitations downgrade 1 level; very serious downgrade 2 levels. Serious inconsistency (I² 50–75%) = −1; very serious (I²>75%) = −2. Possible publication bias = −1. Starting at high, with serious inconsistency (−1) + possible publication bias (−1) → LOW certainty. Or moderate if only one is judged serious."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G3-Q19",
+        "stem": "The PRISMA 2020 flow diagram for a systematic review of surgical vs medical management of BPH shows: identified = 4,312 records; screened = 4,312; excluded after title/abstract = 4,190; full-text assessed = 122; excluded with reasons = 97; included = 25. What is the most important PRISMA requirement for the 'excluded with reasons = 97' group?",
+        "options": {
+          "A": "The reasons for exclusion are not required to be reported; only the number is needed",
+          "B": "All 97 excluded studies must have their individual reasons documented and listed in supplementary material",
+          "C": "The main categories of exclusion reasons (e.g., wrong population, wrong intervention, not an RCT) must be reported with numbers for each category",
+          "D": "The excluded studies should be included in a sensitivity analysis"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "PRISMA 2020 Item 17 requires that reasons for excluding potentially eligible full-text reports are reported, categorised by exclusion criterion, with the number of studies excluded for each reason. This does not typically require listing all 97 papers individually (that level of detail is usually in supplementary material or available from the review authors), but the main categories (wrong population, wrong comparator, not RCT, wrong outcome, duplicate, etc.) with their respective numbers must appear in the flow diagram or accompanying text. This allows readers to assess whether systematic exclusion may have biased the included studies.",
+          "wrong": {
+            "A": "PRISMA 2020 does require reporting reasons for exclusion at full-text stage — not just numbers. Providing only numbers without reasons is a PRISMA reporting deficiency.",
+            "B": "Individual listing of all 97 studies with reasons is not strictly required in the main article — it is usually provided in supplementary material or appendix. The flow diagram must show numbers per exclusion category.",
+            "D": "Sensitivity analyses test the robustness of the pooled estimate to key methodological choices (e.g., including grey literature, different risk of bias thresholds). Excluded studies are not included in sensitivity analyses — they were excluded because they did not meet eligibility criteria."
+          },
+          "guideline": "PRISMA 2020 (Page MJ, BMJ 2021): Item 16 — report numbers of records at each stage of selection; Item 17 — report reasons for exclusion from full-text assessment, categorised by exclusion criterion; the PRISMA flow diagram must display these numbers.",
+          "trial": "Freemantle N et al. (BMJ 2011): Systematic review best practices illustration — PRISMA flow diagram showing 93 full-text exclusions categorised as: wrong comparator (31), wrong population (24), review/editorial (18), duplicate (12), wrong outcome (8) — model for how exclusion categories should be reported.",
+          "pearl": "PRISMA flow diagram must show exclusion reasons at full-text stage, categorised with numbers per category. The diagram tracks: identified → screened → full-text assessed → included. Exclusion reasons are mandatory at the full-text stage (not title/abstract screening). This allows assessment of potential systematic exclusion bias."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G3-Q20",
+        "stem": "A research trainee is writing a protocol for a systematic review of perioperative complications after open vs minimally invasive radical nephrectomy. She registers it on PROSPERO. A colleague asks: 'Why register the protocol before starting the review?' What is the primary purpose of PROSPERO registration?",
+        "options": {
+          "A": "PROSPERO registration generates a unique identifier required by all journals for publication of systematic reviews",
+          "B": "Pre-registration establishes pre-specified hypotheses, search strategies, and outcomes before data extraction, preventing post-hoc changes that would inflate Type I error and outcome reporting bias",
+          "C": "PROSPERO registration guarantees peer review and journal acceptance",
+          "D": "Registration is required by ethics committees before any systematic review is conducted"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PROSPERO (International Prospective Register of Systematic Reviews) pre-registration documents the pre-specified protocol (PICO question, search strategy, primary outcomes, analysis methods) before the review begins. This prevents: (1) outcome-switching (changing the primary outcome after seeing results); (2) selective reporting (only publishing outcomes showing significant effects); (3) duplicate reviews (transparency about ongoing reviews reduces research waste). Pre-registration is the systematic review equivalent of clinical trial registration, applying the same principle of pre-specification to prevent post-hoc decision-making that inflates Type I error and publication bias. AMSTAR-2 rates non-registration as a critical weakness.",
+          "wrong": {
+            "A": "PROSPERO registration generates a registration number (CRD_______) that should be cited in the published review, but it is not universally 'required' by all journals — it is increasingly expected but not yet universally mandated.",
+            "C": "PROSPERO registration does not guarantee peer review or acceptance — it is a transparency mechanism, not a publication guarantee.",
+            "D": "Systematic reviews of published literature typically do not require ethics committee approval (they involve no primary data collection from patients). Some jurisdictions may require registration for systematic reviews involving patient-identifiable data, but PROSPERO registration is for transparency, not ethics approval."
+          },
+          "guideline": "PRISMA 2020 (Page MJ, BMJ 2021): Item 2 — report PROSPERO registration number and date; AMSTAR-2 Item 2 (critical): was the review registered in a prospective review register? — non-registration = critical weakness; pre-registration prevents outcome-switching and selective reporting bias in systematic reviews.",
+          "trial": "Higgins JPT et al. (Cochrane Handbook 2022): Pre-registration of systematic review protocols is mandated for Cochrane Reviews; pre-specification prevents post-hoc analysis decisions that inflate false positive rates — the same principle as trial registration for RCTs.",
+          "pearl": "PROSPERO pre-registration = systematic review equivalent of clinical trial registration. Documents PICO, search strategy, and outcomes BEFORE data extraction. Prevents outcome-switching, selective reporting, and duplicate reviews. AMSTAR-2 rates non-registration as a CRITICAL weakness. Register on PROSPERO (NIHR, York) before starting the review."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

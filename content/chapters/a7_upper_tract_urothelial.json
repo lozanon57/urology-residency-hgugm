@@ -1,0 +1,630 @@
+{
+  "id": "A7",
+  "title": "Upper Tract Urothelial Carcinoma",
+  "subtitle": "Block A — UTUC: Diagnosis, Risk Stratification, and Surgical Management",
+  "block": "A",
+  "block_name": "Urological Oncology",
+  "level": "R2-3",
+  "reading_time_min": 35,
+  "guidelines_version": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma 2024 · NCCN Upper Tract Urothelial Carcinoma v1.2024",
+  "textbook_refs": [
+    "Campbell-Walsh-Wein Urology, 12th ed. (2021) — Chapter 78: Upper urinary tract urothelial carcinoma",
+    "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma (Rouprêt et al., 2024)",
+    "Rouprêt M et al. EAU guidelines on upper urinary tract urothelial carcinoma: 2023 update. Eur Urol 2023",
+    "Birtle A et al. Adjuvant chemotherapy in upper tract urothelial carcinoma (POUT trial). Lancet 2020",
+    "Siefker-Radtke AO et al. Efficacy of programmed death-1 and programmed death-ligand 1 inhibitors in metastatic UTUC. JCO 2016"
+  ],
+  "learning_objectives": [
+    "Classify upper tract urothelial carcinoma (UTUC) risk as low or high risk using EAU 2024 stratification criteria",
+    "Describe the diagnostic workup for UTUC including CT urography, ureteroscopy, and selective upper tract cytology",
+    "Outline the indications for radical nephroureterectomy (RNU) vs kidney-sparing surgery for UTUC",
+    "Apply the POUT trial evidence for adjuvant chemotherapy after RNU for high-risk UTUC",
+    "Identify Lynch syndrome association with UTUC and the implications for genetic counselling",
+    "Distinguish UTUC from bladder cancer in terms of biology, staging differences, and synchronous/metachronous disease patterns"
+  ],
+  "sections": [
+    {
+      "id": "A7-S1",
+      "title": "Epidemiology, Aetiology, and Pathology",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Upper tract urothelial carcinoma (UTUC) encompasses urothelial tumours arising from the pelvicalyceal system, renal pelvis, and ureter. UTUC accounts for only 5-10% of all urothelial carcinomas but has a significantly worse prognosis than bladder UC due to the thinner urothelial wall (easier muscle invasion), proximity to the renal parenchyma, and later clinical presentation. The annual incidence is 1-2 cases per 100,000 population in Western countries, with a male-to-female ratio of 2:1 and peak incidence at age 65-75 years. Bilaterality occurs in 2-5% of cases.\n\nThe most important risk factors for UTUC are tobacco smoking (relative risk 2.5-3.0), occupational aromatic amine exposure, Lynch syndrome (hereditary non-polyposis colorectal cancer — HNPCC), aristolochic acid nephropathy (Balkan nephropathy and Chinese herbal nephropathy — dramatically elevated UTUC risk, mutations in TP53), and analgesic nephropathy (phenacetin). Lynch syndrome is present in 10-20% of UTUC patients (MLH1, MSH2, MSH6, PMS2 mutations) — the highest UTUC risk among Lynch-associated cancers. EAU 2024 recommends Lynch syndrome screening (mismatch repair testing by IHC on tumour) for all UTUC patients, particularly those <60 years or with family history of colorectal/endometrial cancer.\n\nHistologically, UTUC is urothelial carcinoma in 90-95% of cases, with squamous cell carcinoma (5%) and adenocarcinoma (<1%) comprising the remainder. The renal pelvis is the most common site (65%), followed by the ureter (25%) — ureteral tumours have worse outcomes at equivalent stages due to the thinner ureteral wall. Multifocality is more common in UTUC than in bladder cancer and is a key determinant of kidney-sparing eligibility."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Lynch Syndrome and UTUC",
+          "content": "Lynch syndrome (HNPCC) is present in 10-20% of UTUC patients — far higher than in bladder UC (<1%). All UTUC patients should undergo Lynch syndrome screening with mismatch repair protein IHC on tumour tissue. MSH2 mutations carry the highest UTUC risk (15-fold). Lynch-associated UTUC tends to occur at younger age (<60 years), is more often bilateral, and is associated with synchronous colorectal, endometrial, and ovarian cancers. Identification of Lynch syndrome has profound implications for family screening."
+        }
+      ]
+    },
+    {
+      "id": "A7-S2",
+      "title": "Diagnosis — CT Urography, Ureteroscopy, and Cytology",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The diagnostic workup for suspected UTUC begins with CT urography (CTU), which is the primary imaging modality and can detect filling defects, urothelial thickening, and hydronephrosis with sensitivity of 67-100% and specificity of 93-99%. CT chest/abdomen/pelvis is also required for staging. MRI urography is an alternative when CT is contraindicated (renal impairment, contrast allergy) and is superior for soft-tissue detail. Plain ultrasound has limited sensitivity for detecting small upper tract tumours (<3 cm) and is not the primary modality.\n\nUreteroscopy (URS) combined with biopsy is essential for tissue diagnosis and risk stratification. High-quality ureteroscopic biopsy using cup forceps or a flat wire basket provides architecture for grading, while brushings have lower sensitivity. URS also allows direct visualisation of tumour extent and morphology. EAU 2024 recommends ureteroscopy for all patients in whom kidney-sparing surgery is being considered, as tumour grade on biopsy determines low vs high risk stratification. Selective ureteral urine cytology (obtained during ureteroscopy or via retrograde pyelography catheter) improves diagnostic accuracy — high-grade cytology is highly specific for UTUC.\n\nFluorescence in-situ hybridisation (FISH, UroVysion) of upper tract washings improves sensitivity over cytology alone for detecting high-grade UTUC and may be particularly useful when cytology is equivocal. Enhanced endoscopy (NBI or PDD) during ureteroscopy is under evaluation for improving tumour margin detection."
+        },
+        {
+          "type": "table",
+          "title": "EAU 2024 UTUC Risk Stratification",
+          "headers": ["Risk Group", "Criteria (any one = high risk)", "Recommended Surgery"],
+          "rows": [
+            ["Low risk", "Unifocal, <2 cm; low-grade biopsy; low-grade cytology; no invasive features on CT; no prior radical cystectomy for bladder UC", "Kidney-sparing (URS or segmental ureterectomy)"],
+            ["High risk", "Hydronephrosis; tumour >2 cm; high-grade cytology; high-grade biopsy; multifocality; prior radical cystectomy for bladder UC; variant histology; suspicion of carcinoma in situ (positive cytology without visible tumour)", "Radical nephroureterectomy (RNU)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Hydronephrosis as a High-Risk Feature",
+          "content": "Hydronephrosis on CT urography — even mild unilateral hydronephrosis — is a high-risk criterion for UTUC in the EAU 2024 guidelines, indicating likely muscle invasion or involvement of the ureteral wall compromising the urinary outflow. Any UTUC patient with associated ipsilateral hydronephrosis should be classified as high risk and discussed for radical nephroureterectomy (RNU), not kidney-sparing surgery."
+        }
+      ]
+    },
+    {
+      "id": "A7-S3",
+      "title": "Radical Nephroureterectomy — Indications and Technique",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Radical nephroureterectomy (RNU) with excision of the ipsilateral bladder cuff is the gold standard treatment for high-risk UTUC. The procedure removes the kidney, entire ureter, and a cuff of bladder at the ipsilateral ureteral orifice — the bladder cuff excision is essential because incomplete distal ureteral excision leaves urothelium at risk for recurrence. The three techniques for bladder cuff excision are: endoscopic ureteral detachment (endoscopic approach via cystoscope before laparoscopic RNU), intravesical excision (open cystotomy), or extravesical stapling (controversial — associated with higher bladder recurrence rates due to incomplete cuff excision).\n\nLaparoscopic or robot-assisted RNU has replaced open RNU as the standard approach at most centres, with equivalent oncological outcomes and superior peri-operative outcomes (reduced blood loss, shorter hospitalisation). The LRNU trial (Capitanio et al., Eur Urol 2009) demonstrated comparable cancer-specific survival between open and laparoscopic RNU. The Maastricht consensus (2017) supports laparoscopic RNU for all high-risk UTUC without locally advanced disease.\n\nRegional lymphadenectomy at the time of RNU improves staging accuracy and potentially confers therapeutic benefit. EAU 2024 recommends lymph node dissection for all high-risk UTUC. Template: for right renal pelvis/proximal ureter tumours — paracaval, aorto-caval, and retrocaval nodes; for left-sided tumours — para-aortic and aorto-caval nodes from the renal hilum to the common iliac bifurcation. For distal ureteral tumours — pelvic PLND (common, external, internal iliac, obturator) ipsilaterally.\n\nA single intravesical instillation of mitomycin C (40 mg) immediately after RNU reduces the risk of bladder recurrence by 40-50% (from 26-35% to 16-18% at 1 year) compared to no instillation. The ODMIT-C trial (O'Brien et al., JCO 2011) established this benefit — the earliest available timing within intra-operative or post-operative period is preferred. This is now an EAU 2024 Grade A recommendation."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Bladder Recurrence After RNU",
+          "content": "Bladder urothelial recurrence after RNU occurs in 15-50% of UTUC patients within 2-3 years. The mechanism is 'seeding' — tumour cells from the upper tract implant in the bladder. Risk factors: high-grade UTUC, prior bladder UC history, positive urinary cytology, multifocal UTUC, and ureteral (vs renal pelvis) location. Intravesical MMC × 1 dose immediately post-RNU (ODMIT-C trial) reduces bladder recurrence by 40%. Cystoscopy surveillance every 3 months for 2 years post-RNU is mandatory."
+        }
+      ]
+    },
+    {
+      "id": "A7-S4",
+      "title": "Kidney-Sparing Surgery for Low-Risk UTUC",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Kidney-sparing (conservative) surgery is recommended for low-risk UTUC and in patients with absolute indications (solitary functioning kidney, bilateral UTUC, severely compromised renal function — GFR <60 mL/min — where RNU would render the patient dialysis-dependent). The surgical options for kidney-sparing UTUC are ureteroscopic ablation (laser ablation) or segmental ureterectomy.\n\nUreteroscopic laser ablation (holmium:YAG or thulium fibre laser) is the preferred approach for accessible low-risk renal pelvis and ureteral tumours. EAU 2024 Grade B evidence supports ureteroscopic treatment for low-risk UTUC with equivalent cancer-specific survival to RNU in appropriately selected patients (unifocal, <2 cm, low-grade, no hydronephrosis). Adjuvant BCG or mitomycin C instillation via nephrostomy tube (antegrade) or ureteral catheter is used post-ureteroscopic ablation to reduce recurrence, though evidence quality is limited.\n\nSegmental ureterectomy (distal ureterectomy with ureteral reimplantation — psoas hitch or Boari flap) is the preferred approach for low-risk mid or distal ureteral tumours where ureteroscopy cannot achieve complete resection or tumour location prevents full endoscopic access. Segmental ureterectomy provides pathological specimen for accurate staging, whereas ureteroscopic ablation provides only biopsy material. Recurrence after kidney-sparing surgery is significantly higher than after RNU (30-50% at 5 years vs 15-25%), mandating intensive ureteroscopic surveillance (every 3 months for 2 years after ureteroscopic treatment)."
+        },
+        {
+          "type": "table",
+          "title": "Kidney-Sparing Surgery Options for UTUC",
+          "headers": ["Approach", "Best For", "Advantage", "Disadvantage"],
+          "rows": [
+            ["Ureteroscopic laser ablation", "Renal pelvis/calyceal tumours; upper/mid ureter accessible lesions", "No renal tissue sacrifice; repeatable; day-case", "No staging specimen; highest recurrence risk; limited to low-risk"],
+            ["Segmental ureterectomy (distal)", "Distal ureteral tumours; mid-ureteral low-risk lesions", "Pathological staging; lower recurrence than URS ablation", "Loss of distal ureter; requires psoas hitch/Boari flap"],
+            ["Percutaneous antegrade ablation", "Upper/mid ureteral or renal pelvis tumours; failed URS approach", "Can treat large tumours inaccessible to URS", "Potential tumour seeding; higher morbidity"],
+            ["Radical nephroureterectomy", "High-risk UTUC; absolute indications (solitary kidney) for low-risk", "Definitive oncological control; accurate staging", "Permanent nephron loss; renal function decline"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A7-S5",
+      "title": "Adjuvant Chemotherapy — The POUT Trial",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The POUT trial (Birtle et al., Lancet 2020) was a landmark phase III RCT that established adjuvant platinum-based chemotherapy as standard of care for high-risk UTUC after radical nephroureterectomy. The trial randomised 261 patients with pT2-T4 N0-N3 M0 or any T N1-N3 M0 UTUC (resected RNU) to adjuvant gemcitabine-cisplatin or gemcitabine-carboplatin (for GFR 30-49 mL/min) × 4 cycles vs surveillance. The primary endpoint was disease-free survival: 3-year DFS was 71% with chemotherapy vs 51% with surveillance (HR 0.45, 95% CI 0.30-0.68, p=0.0001). The DFS benefit translated to improved metastasis-free survival (HR 0.48, p=0.002), though OS data are still maturing.\n\nPOUT trial eligibility criteria: pathological Stage pT2-T4 or pN+ (pT1 N0 patients were not eligible), resected within 90 days (GFR ≥30 mL/min). The chemotherapy regimen was GC (gemcitabine 1000 mg/m² days 1,8 + cisplatin 70 mg/m² day 1, q3w × 4 cycles) for GFR ≥50 mL/min, or GCarboplatin for GFR 30-49 mL/min. The trial closed early due to overwhelming DFS benefit at interim analysis.\n\nEAU 2024 now recommends adjuvant chemotherapy (based on POUT) for all pT2-T4 or pN+ UTUC after RNU when GFR ≥30 mL/min and ECOG PS ≤2. This represents a practice-changing shift — prior to POUT, adjuvant chemotherapy had no level 1 evidence in UTUC. Neoadjuvant chemotherapy before RNU is under investigation (JCOG1509 trial) as an alternative approach that avoids post-operative renal function decline affecting eligibility."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — POUT Trial Impact and Eligibility",
+          "content": "POUT trial (Lancet 2020): adjuvant GC × 4 cycles after RNU for pT2-T4/pN+ UTUC significantly improves DFS (HR 0.45, p=0.0001). This is the first phase III RCT establishing adjuvant chemotherapy benefit in UTUC. Key points: applies to pT2+; carboplatin used if GFR 30-49; must start within 90 days of RNU. pT1 N0 patients were NOT eligible. The POUT trial used GFR calculated post-operatively — GFR often drops after nephroureterectomy, explaining why carboplatin is needed for 30-40% of patients."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Neoadjuvant vs Adjuvant Chemotherapy in UTUC",
+          "content": "A key advantage of neoadjuvant chemotherapy for UTUC (before RNU) over adjuvant (post-RNU) is that GFR is calculated with both kidneys in situ — this allows full-dose cisplatin eligibility in more patients, as GFR drops after nephron loss from RNU. However, neoadjuvant approach requires clinical staging only (pathological stage unavailable pre-operatively), risking over- or under-treatment. The JCOG1509 and URANUS trials are evaluating neoadjuvant approaches. Current EAU 2024 recommendation remains adjuvant (post-RNU) chemotherapy based on pathological stage."
+        }
+      ]
+    },
+    {
+      "id": "A7-S6",
+      "title": "Bladder Recurrence Surveillance and Systemic Therapy for Metastatic UTUC",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Bladder recurrence after RNU for UTUC occurs in 15-50% of patients, most commonly in the first 2 years. EAU 2024 recommends cystoscopy + urine cytology at 3 months post-RNU, then every 3 months for 2 years, then annually. Contralateral upper tract surveillance with CT urography every 6-12 months is required for 5 years to detect contralateral UTUC (2-4% risk). For patients treated with kidney-sparing surgery, ipsilateral ureteroscopic surveillance every 3 months for 2 years is mandatory due to high local recurrence rates (30-50%).\n\nMetastatic UTUC is biologically and clinically equivalent to metastatic bladder UC, and management follows the same algorithms. For cisplatin-eligible patients, gemcitabine-cisplatin (first-line, followed by avelumab maintenance if no progression — JAVELIN Bladder 100 trial included UTUC patients). For cisplatin-ineligible patients, pembrolizumab (KEYNOTE-052) or carboplatin-gemcitabine followed by avelumab maintenance. Enfortumab vedotin + pembrolizumab (EV-302 trial included 10-15% UTUC patients) represents the emerging first-line standard for metastatic UTUC as well, though subgroup data for UTUC are limited.\n\nFGFR3 alterations are more common in UTUC (15-20%) than in bladder UC (15-20% similar), providing an opportunity for erdafitinib in FGFR-altered metastatic UTUC. Pembrolizumab monotherapy showed efficacy in platinum-refractory UTUC in KEYNOTE-045 (OS benefit over chemotherapy — subgroup analysis). The management of metastatic UTUC generally mirrors metastatic bladder UC guidance, though UTUC-specific RCT data are more limited due to the rarity of the disease."
+        },
+        {
+          "type": "table",
+          "title": "Post-RNU Surveillance Schedule (EAU 2024)",
+          "headers": ["Interval", "Low-risk (pTa/T1 N0)", "High-risk (pT2+ or pN+)", "Modality"],
+          "rows": [
+            ["3 months", "Cystoscopy + cytology", "Cystoscopy + cytology + CT CAP", "All post-RNU patients"],
+            ["6 months", "Cystoscopy + cytology", "Cystoscopy + cytology + CT CAP", "High-risk: every 6 months year 1-2"],
+            ["12 months", "CT urography (contralateral)", "Cystoscopy + cytology + CT CAP + CT urography", "Annual CT for contralateral upper tract"],
+            ["2-5 years", "Cystoscopy annually; CT urography every 1-2 years", "Cystoscopy + cytology every 6 months; CT CAP annually", "Reduce frequency if disease-free"],
+            [">5 years", "Annual cystoscopy if prior bladder UC; otherwise discharge", "Annual cystoscopy + CT urography", "Long-term for high-risk"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A7-S7",
+      "title": "UTUC vs Bladder UC — Key Biological and Clinical Differences",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Although UTUC and bladder UC share urothelial histology, they have important biological and clinical differences. UTUC has a significantly worse stage-for-stage prognosis than bladder UC — the thinner urothelial wall of the ureter (no distinct muscularis mucosa in many segments) means that pT2 UTUC (muscle invasion) is equivalent to pT3 bladder UC in terms of periureteral fat invasion and prognosis. Approximately 60% of UTUC tumours are invasive (pT2+) at diagnosis, compared to 25% of bladder UC — reflecting the thinner wall and later clinical detection.\n\nMolecular profiling reveals differences: FGFR3 mutations occur in 15-20% of UTUC (slightly less than the 25% in low-grade bladder papillary UC); TERT promoter mutations are common in both; Lynch syndrome-associated MMR deficiency occurs in 10-20% of UTUC vs <1% of bladder UC. The CCGA/TCGA molecular subtypes of UTUC largely parallel bladder UC, though the basal/squamous subtype is less common in UTUC.\n\nSynchronous and metachronous disease patterns: Patients with UTUC have a 15-50% risk of developing bladder UC during follow-up (the 'upstream to downstream' seeding phenomenon). Conversely, patients with high-risk bladder UC (CIS, T1 HG) have a 5-7% risk of developing metachronous UTUC. This bidirectionality requires systematic surveillance of the entire urothelium in both conditions. Patients with prior radical cystectomy for bladder UC who develop UTUC are automatically classified as high-risk per EAU 2024, regardless of tumour grade — they require RNU."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Under-staging UTUC",
+          "content": "UTUC is significantly more likely to be understaged on ureteroscopic biopsy than bladder tumours at TURBT. Biopsy specimens from URS are small and may not represent the invasive component of the tumour. Clinical staging accuracy for UTUC is lower than for bladder UC (upstaging at RNU occurs in 25-40% of tumours staged as pT1 clinically). This is why hydronephrosis — even in apparently low-grade tumours — is classified as high-risk: hydronephrosis correlates with muscle invasion in up to 50% of cases. Do not assume low-grade cytology/biopsy equals non-invasive UTUC."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of upper tract urothelial carcinoma diagnosis, risk stratification, surgical management, and adjuvant therapy with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "A7-Q1",
+        "stem": "A 68-year-old female with a history of HNPCC (Lynch syndrome, MSH2 mutation) presents with microscopic haematuria. CT urography reveals a 1.5 cm filling defect in the left renal pelvis. Urine cytology is positive for high-grade cells. Ureteroscopy is performed; biopsy shows high-grade urothelial carcinoma. She has bilateral normal kidneys and GFR 72 mL/min. What is the recommended treatment?",
+        "options": {
+          "A": "Ureteroscopic laser ablation — low-risk criteria (size <2 cm, accessible lesion)",
+          "B": "Segmental ureterectomy of the left renal pelvis",
+          "C": "Left radical nephroureterectomy with bladder cuff excision",
+          "D": "Systemic chemotherapy — Lynch syndrome UTUC responds to immunotherapy"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This patient has high-risk UTUC by EAU 2024 criteria: high-grade biopsy AND high-grade cytology (positive). High-grade disease is an absolute high-risk criterion mandating radical nephroureterectomy (RNU) with bladder cuff excision regardless of tumour size. She has bilateral kidneys and adequate GFR, so imperative (absolute) kidney-sparing indications do not apply. Lynch syndrome does not change the surgical approach — it informs genetic counselling and family screening but does not favour kidney-sparing surgery.",
+          "wrong": {
+            "A": "Ureteroscopic ablation is appropriate for LOW-risk UTUC (low-grade biopsy, low-grade cytology, <2 cm, no hydronephrosis). This patient has HIGH-GRADE biopsy and positive cytology — she is HIGH risk. Kidney-sparing is contraindicated except in absolute indications (solitary kidney, bilateral UTUC, GFR <60).",
+            "B": "Segmental ureterectomy of the renal pelvis is not technically possible — the renal pelvis is not a 'segment' that can be resected alone. Segmental ureterectomy applies to mid or distal ureteral tumours.",
+            "D": "While Lynch syndrome (MMR deficiency) confers high likelihood of PD-L1 expression and potential response to immune checkpoint inhibitors, this does not replace surgical resection for localised UTUC. Systemic chemotherapy is for metastatic disease."
+          },
+          "guideline": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma (Rouprêt et al., 2024) — Section 6.2: High-risk UTUC management — RNU",
+          "trial": "Rouprêt M et al. EAU guidelines UTUC 2023: high-grade biopsy or cytology = high risk → RNU. ODMIT-C trial: single MMC instillation post-RNU reduces bladder recurrence by 40%.",
+          "pearl": "EAU 2024 UTUC high-risk criteria (any one = RNU): high-grade biopsy, high-grade cytology, hydronephrosis, tumour >2 cm, multifocality, prior radical cystectomy for bladder UC. Kidney-sparing is ONLY for low-risk or absolute indications (solitary kidney, bilateral UTUC, GFR prevents RNU without dialysis)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A7-Q2",
+        "stem": "The POUT trial (Birtle et al., Lancet 2020) demonstrated that adjuvant chemotherapy after radical nephroureterectomy significantly improves which outcome measure for high-risk UTUC?",
+        "options": {
+          "A": "Overall survival at 3 years (HR 0.45, p=0.0001)",
+          "B": "Disease-free survival at 3 years (HR 0.45, p=0.0001)",
+          "C": "Metastasis-free survival at 5 years (HR 0.25, p<0.001)",
+          "D": "Bladder recurrence rate at 1 year (HR 0.60, p=0.03)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The POUT trial primary endpoint was disease-free survival. Adjuvant gemcitabine-cisplatin/carboplatin × 4 cycles vs surveillance after RNU for pT2-T4 or pN+ UTUC demonstrated: 3-year DFS 71% vs 51% (HR 0.45, 95% CI 0.30-0.68, p=0.0001). The trial was stopped early at interim analysis due to overwhelming DFS benefit. Metastasis-free survival also improved (HR 0.48, p=0.002). OS data were not mature at publication. This is the landmark trial establishing adjuvant chemotherapy as standard of care for high-risk UTUC.",
+          "wrong": {
+            "A": "POUT demonstrated DFS benefit (primary endpoint), not OS — OS data were not mature at the time of publication. The HR of 0.45 applies to DFS, not OS.",
+            "C": "Metastasis-free survival did show a benefit (HR 0.48) but the primary endpoint was DFS. The values 0.25 and p<0.001 are not the POUT results.",
+            "D": "Bladder recurrence was not an endpoint of the POUT trial — the ODMIT-C trial (O'Brien et al., JCO 2011) addressed bladder recurrence after RNU with a single intravesical MMC instillation."
+          },
+          "guideline": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma (Rouprêt et al., 2024) — Section 7.2: Adjuvant chemotherapy — POUT trial",
+          "trial": "Birtle A et al. POUT trial: Adjuvant gemcitabine-platinum vs surveillance after nephroureterectomy for UTUC. Lancet 2020: 3-yr DFS 71% vs 51% (HR 0.45, p=0.0001) — first phase III evidence for adjuvant chemo in UTUC.",
+          "pearl": "POUT trial: adjuvant GC × 4 cycles after RNU for pT2-T4/pN+ UTUC dramatically improves DFS (HR 0.45). Carboplatin used for GFR 30-49 mL/min. pT1 N0 patients were NOT eligible. Start within 90 days of RNU. This is now EAU 2024 Grade A recommendation for high-risk UTUC post-RNU."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A7-Q3",
+        "stem": "A 61-year-old male undergoes left radical nephroureterectomy for pT3 N0 M0 UTUC (ureter). Pathology confirms negative surgical margins. Post-operatively, his GFR is 42 mL/min (baseline was 67 mL/min with both kidneys). He is being evaluated for adjuvant chemotherapy per POUT criteria. What chemotherapy regimen is appropriate?",
+        "options": {
+          "A": "Gemcitabine-cisplatin × 4 cycles — GFR 42 is acceptable for cisplatin",
+          "B": "Gemcitabine-carboplatin × 4 cycles — GFR 30-49 mL/min qualifies for carboplatin",
+          "C": "No adjuvant chemotherapy — GFR <45 mL/min contraindicates POUT-protocol chemotherapy",
+          "D": "Pembrolizumab × 1 year — immune checkpoint inhibitor is preferred when cisplatin-ineligible"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The POUT trial included patients with GFR ≥30 mL/min — those with GFR 30-49 mL/min received gemcitabine-carboplatin (not cisplatin) as the chemotherapy backbone. This patient has GFR 42 mL/min post-RNU — this falls in the 30-49 mL/min range. The appropriate regimen is gemcitabine (1000 mg/m² days 1,8) + carboplatin (AUC 5, day 1) × 4 cycles, q21 days. The POUT trial design specifically anticipated post-operative renal function decline by including carboplatin as an alternative.",
+          "wrong": {
+            "A": "Cisplatin is contraindicated when GFR <50 mL/min (Galsky criteria) — GFR 42 requires carboplatin substitution per POUT protocol. Using cisplatin at GFR 42 would cause significant nephrotoxicity.",
+            "C": "GFR 42 mL/min does NOT contraindicate POUT-protocol chemotherapy — the POUT trial minimum GFR was 30 mL/min. Patients with GFR 30-49 received gemcitabine-carboplatin. The patient is eligible.",
+            "D": "Pembrolizumab adjuvant therapy has not been validated for UTUC post-RNU in a phase III RCT. The POUT protocol (GC or GCarboplatin) is the evidence-based standard."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 7.2: Adjuvant chemotherapy — POUT eligibility and regimens (GFR 30-49 = GCarboplatin)",
+          "trial": "Birtle A et al. POUT trial (Lancet 2020): GFR ≥50 = gemcitabine-cisplatin; GFR 30-49 = gemcitabine-carboplatin — equal DFS benefit in both GFR strata.",
+          "pearl": "POUT trial adjuvant chemotherapy for UTUC (pT2-T4/pN+): GFR ≥50 → gemcitabine-cisplatin × 4; GFR 30-49 → gemcitabine-carboplatin × 4; GFR <30 → not eligible. Start within 90 days of RNU. Post-nephroureterectomy GFR drop makes many patients eligible for carboplatin rather than cisplatin."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q4",
+        "stem": "A 74-year-old male with a solitary right kidney and GFR 54 mL/min is diagnosed with a 1.2 cm low-grade ureteral tumour at the level of L3 on CT urography and confirmed low-grade on ureteroscopic biopsy and low-grade cytology. No hydronephrosis is present. What is the most appropriate management?",
+        "options": {
+          "A": "Right radical nephroureterectomy — only curative option for ureteral UTUC",
+          "B": "Ureteroscopic laser ablation — kidney-sparing indicated for low-risk UTUC in solitary kidney",
+          "C": "Segmental ureterectomy of the mid-ureter",
+          "D": "Systemic pembrolizumab — surgery would cause dialysis dependency"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient meets two independent indications for kidney-sparing surgery: (1) absolute indication — solitary functioning kidney (RNU would render him anephric/dialysis-dependent); (2) relative indication — meets low-risk UTUC criteria (size <2 cm, low-grade biopsy, low-grade cytology, no hydronephrosis, unifocal). Ureteroscopic laser ablation is appropriate. EAU 2024 strongly recommends kidney-sparing for imperative (absolute) indications regardless of risk stratification. Note: even if this were high-risk UTUC, kidney-sparing would still be recommended in a solitary functioning kidney — balancing oncological and renal function preservation.",
+          "wrong": {
+            "A": "RNU in a solitary functioning kidney would cause anuria/dialysis dependency — this is the definition of an absolute contraindication to RNU. Kidney-sparing surgery is mandatory in this setting.",
+            "C": "Segmental ureterectomy at L3 (mid-ureter) is a more invasive surgical alternative. Ureteroscopic laser ablation is less invasive and appropriate as first-line kidney-sparing for this accessible low-grade tumour. Segmental ureterectomy is reserved for failures of ureteroscopic ablation or tumours not amenable to ureteroscopy.",
+            "D": "Pembrolizumab is for metastatic disease — it has no role in localised UTUC management. Kidney-sparing surgery (ureteroscopic ablation) is the appropriate intervention."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 6.3: Kidney-sparing surgery — absolute indications and low-risk criteria",
+          "trial": "Cutress ML et al. Ureteroscopic and percutaneous management of UTUC vs radical nephroureterectomy for low-risk disease. Eur Urol 2012: kidney-sparing equivalent CSS to RNU for low-risk UTUC in appropriately selected patients.",
+          "pearl": "Absolute indications for kidney-sparing UTUC surgery: solitary kidney, bilateral UTUC, GFR that would require dialysis post-RNU. In these cases, even high-risk UTUC should be attempted with kidney-sparing (with close surveillance) to preserve renal function. Imperative > elective considerations."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q5",
+        "stem": "What is the recommended adjuvant intravesical treatment after radical nephroureterectomy to reduce bladder recurrence, and what is its evidence base?",
+        "options": {
+          "A": "BCG × 6 weekly instillations — reduces bladder recurrence by 50%",
+          "B": "Single intravesical mitomycin C within 24 hours of RNU — reduces bladder recurrence by 40% (ODMIT-C trial)",
+          "C": "Epirubicin × 4 weekly instillations — reduces bladder recurrence by 30%",
+          "D": "No intravesical therapy — bladder recurrence after RNU is not preventable"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The ODMIT-C trial (O'Brien et al., J Urol 2011) was a phase III RCT demonstrating that a single intravesical instillation of mitomycin C (40 mg in 40 mL saline) within 24 hours of completing RNU reduces 1-year bladder recurrence from 26% to 16% (RR 0.60, p=0.03). This 40% relative reduction in bladder recurrence is an EAU 2024 Grade A recommendation. The mechanism is the same as post-TURBT instillation — destruction of circulating tumour cells seeded into the bladder during surgery.",
+          "wrong": {
+            "A": "BCG induction × 6 weeks is an option for high-risk NMIBC bladder cancer — it has not been evaluated in a phase III RCT for post-RNU bladder recurrence prevention. The ODMIT-C evidence supports single-dose MMC, not BCG.",
+            "C": "Epirubicin × 4 instillations has not been validated as adjuvant therapy after RNU. Single-dose MMC (ODMIT-C) is the evidence-based intervention.",
+            "D": "Bladder recurrence after RNU is very preventable — the ODMIT-C trial demonstrated 40% reduction with a single MMC instillation. This is an EAU 2024 Grade A recommendation that should not be omitted."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 7.1: Perioperative intravesical chemotherapy — single MMC instillation after RNU",
+          "trial": "O'Brien T et al. ODMIT-C: Single-dose intravesical mitomycin C to prevent bladder tumour recurrence after nephroureterectomy for upper tract urothelial carcinoma. J Urol 2011: RR 0.60, p=0.03 — EAU Grade A recommendation.",
+          "pearl": "Single intravesical MMC (40 mg) within 24h of RNU reduces bladder recurrence by 40% (ODMIT-C trial, J Urol 2011). EAU 2024 Grade A recommendation for all patients post-RNU. Mechanism: destroys seeded tumour cells from upper tract. Contraindicated if bladder perforation at surgery."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A7-Q6",
+        "stem": "A 55-year-old male undergoes left radical nephroureterectomy with bladder cuff excision for pT2 N0 left ureteral UTUC. The bladder cuff excision is performed by extravesical stapling. At 12 months surveillance cystoscopy, a tumour is found at the left ureteral orifice. What is the most likely reason for this recurrence?",
+        "options": {
+          "A": "Incomplete lymph node dissection leaving micrometastatic disease",
+          "B": "Incomplete bladder cuff excision — extravesical stapling leaves residual distal ureteral stump",
+          "C": "Inadequate adjuvant chemotherapy selection",
+          "D": "New primary bladder UC — unrelated to the UTUC"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Extravesical stapling of the bladder cuff during RNU is associated with higher bladder recurrence rates than intravesical or open cystotomy techniques because stapling can leave a residual distal ureteral stump or inadequate bladder cuff margin. The residual urothelium at the ureteral orifice/intramural ureter provides a site for tumour recurrence from incomplete excision or seeding. A tumour at the ureteral orifice site at 12 months is the classic presentation of incomplete bladder cuff excision. EAU 2024 recommends against extravesical stapling for bladder cuff excision — endoscopic detachment or open intravesical excision is preferred.",
+          "wrong": {
+            "A": "Incomplete lymph node dissection would lead to retroperitoneal or systemic recurrence, not a localised tumour at the ureteral orifice site. Lymph node failure presents as retroperitoneal adenopathy or distant metastases.",
+            "C": "Inadequate adjuvant chemotherapy (which was not given here — pT2 N0 is eligible for POUT but the question does not state he received chemotherapy) would manifest as systemic relapse, not a localised bladder cuff recurrence.",
+            "D": "New primary bladder UC is possible but much less likely than incomplete bladder cuff excision at the exact location of the ureteral orifice at 12 months. The site-specific recurrence at the orifice points to incomplete surgical excision."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 6.2: RNU technique — bladder cuff excision method and complication avoidance",
+          "trial": "Arango O et al. Bladder recurrence rate after different methods of bladder cuff excision during nephroureterectomy. BJU Int 2018: extravesical stapling associated with highest bladder recurrence rate — endoscopic or intravesical excision preferred.",
+          "pearl": "Bladder cuff excision technique matters: extravesical stapling has highest bladder recurrence rate (incomplete cuff, residual stump). Preferred techniques: endoscopic detachment of the ureteral orifice before laparoscopic RNU, or open intravesical cystotomy. Bladder cuff excision is mandatory — no distal ureter should remain."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q7",
+        "stem": "A 45-year-old male presents with bilateral UTUC (right renal pelvis tumour 1.8 cm low-grade; left mid-ureteral tumour 1.5 cm low-grade). GFR is 58 mL/min bilaterally. What is the most appropriate surgical approach?",
+        "options": {
+          "A": "Bilateral staged radical nephroureterectomy — best oncological outcome",
+          "B": "Right radical nephroureterectomy + left ureteroscopic ablation (dominant kidney preservation)",
+          "C": "Bilateral kidney-sparing surgery (ureteroscopic ablation bilaterally) — preserving renal function",
+          "D": "Right ureteroscopic ablation + left segmental ureterectomy"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Bilateral UTUC is an absolute imperative indication for kidney-sparing surgery — bilateral RNU would result in anuria and permanent dialysis dependency. With low-grade bilateral disease (both <2 cm, low-grade), the appropriate approach is bilateral kidney-sparing: ureteroscopic laser ablation for the right renal pelvis tumour and ureteroscopic ablation for the left mid-ureteral tumour (or segmental ureterectomy if URS is technically not feasible). EAU 2024 mandates kidney-sparing for bilateral UTUC regardless of tumour characteristics.",
+          "wrong": {
+            "A": "Bilateral RNU would render this patient anephric and dialysis-dependent — this is contraindicated. Bilateral UTUC is an absolute imperative indication for kidney-sparing surgery.",
+            "B": "Right RNU + left kidney-sparing is a reasonable compromise if bilateral kidney-sparing fails — but with bilateral low-grade disease amenable to ureteroscopy, bilateral kidney-sparing should be attempted first. Right RNU would reduce GFR significantly and increase risk of future dialysis dependency.",
+            "D": "Right URS ablation + left segmental ureterectomy: this combination tries to spare both kidneys. However, bilateral URS ablation is more appropriate as a first approach — segmental ureterectomy is reserved for URS failures or technically inaccessible tumours."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 6.3: Bilateral UTUC — absolute indication for kidney-sparing surgery",
+          "trial": "Cutress ML et al. Eur Urol 2012: bilateral UTUC managed with kidney-sparing achieves equivalent CSS to RNU in select patients; preservation of renal function is paramount — dialysis in UTUC patients worsens cancer-specific outcomes.",
+          "pearl": "Bilateral UTUC = absolute imperative indication for kidney-sparing surgery. Bilateral RNU = anuria + dialysis = contraindicated unless no alternative. Other absolute indications: solitary kidney, GFR <60 with contralateral kidney insufficient to maintain independence from dialysis post-RNU."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q8",
+        "stem": "A 52-year-old female from a family with strong HNPCC history (mother with colon cancer at 40, sister with endometrial cancer at 48) is newly diagnosed with left ureteral UTUC. Which test should be performed on the tumour specimen to evaluate for Lynch syndrome?",
+        "options": {
+          "A": "FISH for chromosomal translocations",
+          "B": "Mismatch repair protein immunohistochemistry (MLH1, MSH2, MSH6, PMS2)",
+          "C": "Tumour KRAS mutational analysis",
+          "D": "FGFR3 mutational testing"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Lynch syndrome (HNPCC) is caused by germline mutations in mismatch repair (MMR) genes: MLH1, MSH2, MSH6, or PMS2. Tumour IHC for MMR proteins is the recommended screening test — loss of expression of any MMR protein indicates MMR deficiency, prompting germline genetic testing. EAU 2024 recommends Lynch syndrome screening by MMR-IHC on all UTUC tumour specimens, particularly in patients <60 years or with suggestive family history. Lynch syndrome is present in 10-20% of UTUC patients and has profound implications for surveillance (colorectal, endometrial, ovarian cancers) and family screening.",
+          "wrong": {
+            "A": "FISH for chromosomal translocations is used for some haematological malignancies and bladder cancer (UroVysion FISH for urine) — not for Lynch syndrome screening in tumour specimens.",
+            "C": "KRAS mutations are relevant for colorectal cancer (anti-EGFR therapy eligibility) — not for Lynch syndrome screening or UTUC management.",
+            "D": "FGFR3 mutation testing is relevant for metastatic UTUC (erdafitinib eligibility) — not for Lynch syndrome screening."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 4.3: Lynch syndrome screening — MMR-IHC on all UTUC specimens",
+          "trial": "Rouprêt M et al. Microsatellite instability as a marker of Lynch syndrome in upper urinary tract cancers. Eur Urol 2011: 10-20% of UTUC patients have Lynch syndrome — MMR-IHC screening recommended for all UTUC.",
+          "pearl": "Lynch syndrome (MMR deficiency) is present in 10-20% of UTUC patients — far higher than in bladder UC (<1%). Screen all UTUC with MMR-IHC (MLH1, MSH2, MSH6, PMS2). Loss of MMR protein expression → germline testing → family cascade screening. Lynch syndrome patients need colonoscopy and gynaecological surveillance."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q9",
+        "stem": "Which imaging modality is the gold standard for primary diagnosis and staging of upper tract urothelial carcinoma?",
+        "options": {
+          "A": "Retrograde pyelogram (RPG) — provides best urothelial surface detail",
+          "B": "Scrotal ultrasound — identifies renal pelvic tumours with >90% sensitivity",
+          "C": "CT urography (CTU) — detects filling defects, urothelial thickening, and hydronephrosis",
+          "D": "MRI urography — no ionising radiation and superior soft tissue contrast"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "CT urography (CTU) is the primary diagnostic imaging modality for UTUC per EAU 2024. It includes non-contrast, nephrographic, and excretory phases and can detect filling defects, urothelial thickening, perureteral stranding, hydronephrosis, and local staging. Sensitivity is 67-100% and specificity 93-99% for UTUC detection. CT also stages lymph nodes and assesses for distant metastases in one examination. It is the recommended first-line imaging in all haematuria evaluations with UTUC suspicion.",
+          "wrong": {
+            "A": "Retrograde pyelography (RPG) provides excellent luminal detail but cannot assess the renal parenchyma, perureteral extension, lymph nodes, or distant disease. It is used as an adjunct when CTU is inconclusive or when biopsies are needed during ureteroscopy.",
+            "B": "Scrotal ultrasound is for testicular assessment. Renal/upper tract ultrasound can detect hydronephrosis and large renal masses but has very limited sensitivity for urothelial filling defects (<50% for small UTUC lesions).",
+            "D": "MRI urography is an alternative when CT is contraindicated (contrast allergy, severe renal impairment GFR <30, pregnancy) — it has equivalent or superior soft-tissue detail but longer examination time, lower availability, and is not the first-line modality."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 5.1: Imaging — CT urography as primary diagnostic modality",
+          "trial": "Wang LJ et al. CT urography in diagnosis of transitional cell carcinoma. AJR 1997: CTU sensitivity 96% and specificity 99% for detecting UTUC filling defects — established as gold standard imaging.",
+          "pearl": "CT urography (CTU) is the gold standard for UTUC diagnosis — detects filling defects, urothelial thickening, and hydronephrosis on excretory phase. Must include all three phases. MRI urography is used when CT is contraindicated. Ureteroscopy with biopsy is the confirmatory and histological staging tool."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A7-Q10",
+        "stem": "A patient with high-risk UTUC (pT3 N0, right renal pelvis) undergoes radical nephroureterectomy. Post-operatively, his GFR drops from 61 to 38 mL/min. He is counselled about adjuvant chemotherapy per POUT criteria. What is the MINIMUM GFR threshold required for POUT-protocol eligibility?",
+        "options": {
+          "A": "GFR ≥60 mL/min",
+          "B": "GFR ≥50 mL/min",
+          "C": "GFR ≥30 mL/min",
+          "D": "GFR ≥20 mL/min"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The POUT trial enrolled patients with GFR ≥30 mL/min. The trial design anticipated post-operative renal function decline after RNU — patients with GFR 30-49 received gemcitabine-carboplatin, and those with GFR ≥50 received gemcitabine-cisplatin. A post-operative GFR of 38 mL/min makes this patient eligible for POUT protocol with gemcitabine-carboplatin. Patients with GFR <30 were excluded due to risk of significant renal toxicity.",
+          "wrong": {
+            "A": "GFR ≥60 is the cisplatin-eligibility threshold (Galsky criteria) — not the POUT eligibility minimum. POUT extended eligibility to GFR 30-49 with carboplatin substitution.",
+            "B": "GFR ≥50 is the cisplatin-eligibility threshold within the POUT trial — patients with GFR ≥50 received cisplatin. GFR 30-49 received carboplatin. The minimum GFR for any POUT protocol is 30, not 50.",
+            "D": "GFR ≥20 mL/min is below the POUT eligibility threshold. Below GFR 30, the risk of further chemotherapy-related renal toxicity was deemed too high in the POUT trial design."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 7.2: POUT trial — eligibility criteria (GFR ≥30 mL/min)",
+          "trial": "Birtle A et al. POUT trial (Lancet 2020): enrolled patients GFR ≥30; GFR 30-49 = GCarboplatin; GFR ≥50 = GCisplatin. Both groups showed DFS benefit.",
+          "pearl": "POUT trial minimum GFR: 30 mL/min. GFR 30-49 = gemcitabine-carboplatin × 4 cycles; GFR ≥50 = gemcitabine-cisplatin × 4 cycles. Post-RNU GFR drop is anticipated and accommodated in the POUT design. Start within 90 days of RNU."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q11",
+        "stem": "How does the prognosis of pT2 UTUC compare to pT2 bladder cancer stage-for-stage?",
+        "options": {
+          "A": "pT2 UTUC has equivalent prognosis to pT2 bladder UC — same depth of invasion into muscularis",
+          "B": "pT2 UTUC has better prognosis because the ureter has a thicker muscularis than the bladder",
+          "C": "pT2 UTUC has significantly worse prognosis because the ureteral wall is much thinner, placing pT2 UTUC biologically equivalent to pT3 bladder UC",
+          "D": "pT2 UTUC has better prognosis because the ureter is immunologically protected from vascular invasion"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The ureteral wall is much thinner than the bladder wall — the ureter lacks a distinct muscularis mucosa and has a significantly thinner muscle layer. pT2 UTUC (invasion of muscularis in the ureter or renal pelvis) is biologically closer to pT3 bladder UC in terms of proximity to the perivascular and periureteral adventitia. Additionally, the thin wall means lymphovascular structures are in closer proximity, facilitating earlier lymphovascular invasion and regional spread. Stage-for-stage, UTUC has a 10-15% worse 5-year CSS than bladder UC at equivalent pT categories.",
+          "wrong": {
+            "A": "pT2 UTUC and pT2 bladder UC do not have equivalent prognosis — UTUC has systematically worse outcomes at equivalent pT stages due to thin wall anatomy.",
+            "B": "The ureter has a THINNER muscularis than the bladder — the opposite of what this option states. Thinner wall = worse pT2 prognosis, not better.",
+            "D": "The ureter has no immunological protection advantage. Vascular proximity in the thin ureteral wall facilitates, not inhibits, vascular invasion."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 3.2: Pathology and staging — thin ureteral wall biology",
+          "trial": "Rouprêt M et al. Prognostic factors of UTUC: systematic review. Eur Urol 2008: ureteral location and thin wall thickness are independent adverse prognostic factors — pT2 UTUC worse than pT2 bladder UC.",
+          "pearl": "UTUC has worse prognosis than bladder UC at equivalent pT stages due to thin ureteral/renal pelvis wall — pT2 UTUC ≈ pT3 bladder UC biologically. 60% of UTUC is invasive (pT2+) at diagnosis vs 25% for bladder UC — later detection in the thinner-walled upper tract."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A7-Q12",
+        "stem": "A 67-year-old male with a history of non-muscle-invasive bladder cancer (high-risk NMIBC, CIS) treated with BCG 3 years ago develops microscopic haematuria at surveillance. Cystoscopy is normal. CT urography shows a 1.8 cm filling defect in the right ureter at L2 level. Ureteroscopic biopsy confirms low-grade urothelial carcinoma. How does his history of prior radical cystectomy (hypothetically) or prior bladder UC change the UTUC risk classification?",
+        "options": {
+          "A": "Prior bladder UC history has no impact on UTUC risk stratification",
+          "B": "Prior radical cystectomy for bladder UC automatically classifies UTUC as high-risk regardless of tumour characteristics",
+          "C": "Prior high-risk NMIBC (CIS) reduces the risk classification of subsequent UTUC",
+          "D": "Prior BCG therapy for bladder UC makes low-grade UTUC more aggressive biologically"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 explicitly states that a history of prior radical cystectomy for bladder UC is an independent high-risk criterion for UTUC, regardless of UTUC tumour grade or size. The rationale: patients who have undergone radical cystectomy have demonstrated high-risk urothelial behaviour; the absence of a bladder also means there is no opportunity for lower-grade disease management strategy — the remaining urinary tract (upper tracts) represents the entire remaining urothelium at risk. Note: in this case the patient has not had RC, so this criterion doesn't actually apply yet — but the question tests knowledge of this EAU 2024 principle.",
+          "wrong": {
+            "A": "Prior bladder UC history DOES impact UTUC risk stratification — specifically, prior radical cystectomy for bladder UC is an EAU 2024 high-risk criterion for UTUC.",
+            "C": "Prior high-risk NMIBC does not reduce UTUC risk classification — if anything, it suggests a more aggressive urothelial field defect predisposing to higher-grade upper tract disease.",
+            "D": "BCG therapy does not biologically alter UTUC aggressiveness. BCG induces immune response in the bladder urothelium — it does not have any validated effect on upper tract tumour biology."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 6.1: High-risk UTUC criteria — prior radical cystectomy for bladder UC = high risk",
+          "trial": "Seisen T et al. Prior radical cystectomy for bladder cancer is an independent predictor of poor survival after nephroureterectomy for UTUC. Eur Urol Focus 2016: prior RC = high-risk designation for subsequent UTUC — RNU recommended.",
+          "pearl": "EAU 2024 UTUC high-risk criteria include: prior radical cystectomy for bladder UC (regardless of UTUC tumour characteristics). This is because the history of aggressive bladder UC signals pan-urothelial field defect; remaining upper tract urothelium is high risk. Prior RC = automatically high risk = RNU."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A7-Q13",
+        "stem": "A 38-year-old woman from Bosnia presents with bilateral hydroureteronephrosis and UTUC on CT urography. She reports taking traditional herbal medicines for weight loss for 10 years. Tumour mutational testing reveals TP53 mutations in an unusual hotspot pattern. What is the most likely aetiology?",
+        "options": {
+          "A": "Lynch syndrome — common bilateral UTUC presentation",
+          "B": "Aristolochic acid nephropathy from herbal medicines containing Aristolochia species",
+          "C": "Analgesic nephropathy from NSAIDs",
+          "D": "Tobacco smoking — most common UTUC risk factor"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Aristolochic acid nephropathy (AAN), also known as Chinese herbal nephropathy (when from traditional Chinese medicines) or Balkan nephropathy (endemic in former Yugoslav countries from contaminated wheat flour with Aristolochia clematitis), causes a distinctive UTUC syndrome. Key features: (1) bilateral upper tract UC, (2) characteristic TP53 A:T→T:A transversion mutations (aristolochic acid mutational signature, SBS22), (3) high risk of bilateral UTUC (unlike sporadic cases), (4) associated interstitial nephritis and renal failure. Aristolochic acid is one of the most potent carcinogens known, with cumulative exposure linearly correlating with UTUC risk.",
+          "wrong": {
+            "A": "Lynch syndrome does cause bilateral UTUC at higher rates than sporadic UTUC, but Lynch syndrome UTUC has MMR deficiency (MSH2 loss most common), not TP53 transversion mutations. The herbal medicine history is the key clue.",
+            "C": "Analgesic nephropathy (phenacetin — now withdrawn) causes papillary necrosis and upper tract UC, but it does not cause the distinctive TP53 transversion mutations or bilateral presentation pattern of aristolochic acid.",
+            "D": "Tobacco smoking is the most common UTUC risk factor overall, but does not cause bilateral UTUC or the specific TP53 transversion mutation pattern. The herbal medicine history with Balkan geography strongly points to aristolochic acid."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 4.2: Aetiology — aristolochic acid nephropathy and UTUC",
+          "trial": "Chen CH et al. Aristolochic acid and the risk of urothelial tract cancers in Taiwan. NEJM 2012: aristolochic acid exposure from herbal medicines dramatically increases UTUC risk (RR 5-10); bilateral UTUC characteristic of AAN.",
+          "pearl": "Aristolochic acid nephropathy (Aristolochia-containing herbal medicines/Balkan endemic nephropathy): bilateral UTUC, TP53 A:T→T:A transversion mutations (mutational signature SBS22), interstitial nephritis, renal failure. One of the most potent known carcinogens. UTUC in a patient from Balkan region or herbal medicine use → always screen for AAN."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A7-Q14",
+        "stem": "Surveillance cystoscopy after radical nephroureterectomy for UTUC should be performed at what interval for the first 2 years, according to EAU 2024?",
+        "options": {
+          "A": "Every 12 months for 2 years",
+          "B": "Every 6 months for 2 years",
+          "C": "Every 3 months for 2 years",
+          "D": "One cystoscopy at 6 months, then as clinically indicated"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "EAU 2024 recommends cystoscopy (with urine cytology) every 3 months for the first 2 years after RNU. Bladder recurrence after RNU peaks in the first 18-24 months and requires early detection for curative TURBT. Three-monthly surveillance captures early bladder UC recurrences when they are still low-stage and amenable to standard intravesical therapy (BCG or MMC). After 2 years without bladder recurrence, surveillance frequency can be reduced.",
+          "wrong": {
+            "A": "Annual cystoscopy is insufficient for post-RNU surveillance — bladder recurrence risk is highest in the first 2 years and can progress rapidly. 3-monthly surveillance is the EAU 2024 recommendation.",
+            "B": "6-monthly cystoscopy is inadequate for the high-risk early post-RNU period. The ODMIT-C trial data and retrospective series show the majority of bladder recurrences appear within the first 12-18 months, mandating 3-monthly surveillance.",
+            "D": "Single cystoscopy at 6 months is grossly inadequate — bladder recurrence develops in 15-50% of patients within 2 years, and early detection is critical for curative management."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 8.1: Surveillance after RNU — cystoscopy every 3 months for first 2 years",
+          "trial": "Soukup V et al. Prognostic performance and reproducibility of the 1973 and 2004 WHO classification of UTUC. Eur Urol 2012: bladder recurrence peaks at 18-24 months post-RNU — supports 3-monthly cystoscopy schedule.",
+          "pearl": "Post-RNU surveillance cystoscopy schedule: every 3 months × 2 years (highest bladder recurrence risk), then every 6 months × 3 years, then annually. Plus contralateral upper tract CT urography every 6-12 months for 5 years. Bladder recurrence occurs in 15-50% — early detection enables curative TURBT."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q15",
+        "stem": "A 64-year-old male is diagnosed with high-risk right ureteral UTUC (pT3 N2 M0) after radical nephroureterectomy. He is cisplatin-eligible (GFR 64 mL/min post-op). He is starting adjuvant gemcitabine-cisplatin. When must adjuvant chemotherapy begin relative to the surgery date?",
+        "options": {
+          "A": "Within 30 days of surgery",
+          "B": "Within 90 days of surgery",
+          "C": "Within 6 months of surgery",
+          "D": "Any time — timing does not affect outcome"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The POUT trial protocol required adjuvant chemotherapy to begin within 90 days of nephroureterectomy. This mirrors the timing recommendation for adjuvant chemotherapy after radical cystectomy. Delays beyond 90 days risk disease progression in high-risk UTUC (pT3/N+) and are associated with worse outcomes based on analogous data from bladder cancer studies. EAU 2024 follows the POUT protocol and recommends initiation within 90 days of RNU.",
+          "wrong": {
+            "A": "30 days is often insufficient for post-operative recovery (wound healing, renal function stabilisation, performance status recovery) and is not specified in the POUT protocol.",
+            "C": "6 months is too long — POUT required initiation within 90 days. Starting adjuvant chemotherapy at 6 months risks progression of micrometastatic disease during the delay.",
+            "D": "Timing matters significantly — analogous data from bladder cancer and colorectal cancer show that delays in adjuvant chemotherapy beyond 90 days are associated with worse survival outcomes."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 7.2: Adjuvant chemotherapy timing — within 90 days of RNU per POUT protocol",
+          "trial": "Birtle A et al. POUT trial (Lancet 2020): adjuvant chemotherapy initiated within 90 days of RNU — this timing criterion was an eligibility requirement for randomisation.",
+          "pearl": "POUT adjuvant chemotherapy must start within 90 days of RNU (per POUT eligibility criteria). This matches the 90-day recommendation for adjuvant therapy in bladder cancer (post-cystectomy). Delays >90 days risk micrometastatic progression and are not supported by EAU 2024."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q16",
+        "stem": "A 59-year-old male has undergone ureteroscopic laser ablation for low-risk pTa low-grade right ureteral UTUC. He is scheduled for surveillance ureteroscopy. According to EAU 2024, how frequently should post-ureteroscopic ablation ureteroscopy surveillance be performed for the first 2 years?",
+        "options": {
+          "A": "Annually — same as post-RNU cystoscopy surveillance",
+          "B": "Every 6 months for 2 years",
+          "C": "Every 3 months for 2 years",
+          "D": "Only when haematuria recurs — symptom-driven surveillance"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "After kidney-sparing surgery (ureteroscopic ablation) for UTUC, the ipsilateral recurrence rate is 30-50% at 5 years — significantly higher than after RNU. EAU 2024 mandates intensive ureteroscopic surveillance every 3 months for the first 2 years to detect and treat local recurrences at an early stage. This is combined with cystoscopy every 3 months (for bladder recurrence monitoring) and CT urography every 6-12 months for the first 2 years.",
+          "wrong": {
+            "A": "Annual ureteroscopy is grossly insufficient after kidney-sparing surgery — with a 30-50% local recurrence rate in the first 2 years, annual surveillance would miss the majority of early recurrences.",
+            "B": "6-monthly ureteroscopy is insufficient given the high local recurrence risk after ureteroscopic ablation. EAU 2024 specifies 3-monthly ureteroscopy for the first 2 years.",
+            "D": "Symptom-driven surveillance (only when haematuria occurs) is inappropriate — many UTUC recurrences are not accompanied by gross haematuria, and waiting for symptoms allows progression to higher-stage disease."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 8.2: Surveillance after kidney-sparing surgery — ureteroscopy every 3 months × 2 years",
+          "trial": "Cutress ML et al. Ureteroscopic and percutaneous management of upper urinary tract UC: systematic review. Eur Urol 2012: local recurrence 30-50% at 5 years after URS ablation — intensive 3-monthly ureteroscopic surveillance mandatory.",
+          "pearl": "Post-ureteroscopic ablation UTUC surveillance: ureteroscopy + cytology every 3 months × 2 years (ipsilateral recurrence 30-50%). Plus cystoscopy every 3 months (bladder recurrence monitoring). CT urography every 6-12 months. If recurrence detected: further ablation if low-grade; RNU if upstaging."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q17",
+        "stem": "A 71-year-old male with locally advanced pT4 N2 M1 UTUC presents with bone and liver metastases. He is cisplatin-ineligible (GFR 41 mL/min, ECOG PS 2). What is the most appropriate first-line systemic therapy?",
+        "options": {
+          "A": "Gemcitabine-cisplatin × 6 cycles",
+          "B": "Pembrolizumab monotherapy (KEYNOTE-052 — if PD-L1 CPS ≥10)",
+          "C": "Enfortumab vedotin + pembrolizumab (EV-302)",
+          "D": "Carboplatin-gemcitabine × 4 cycles followed by avelumab maintenance"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "This cisplatin-ineligible patient (GFR 41 < 60, ECOG PS 2) with metastatic UTUC should receive carboplatin-gemcitabine as first-line therapy, followed by avelumab maintenance if no progression (JAVELIN Bladder 100 protocol included UTUC patients). JAVELIN Bladder 100 (Powles et al., NEJM 2020) applied to all metastatic urothelial carcinoma including UTUC after non-progression on first-line platinum chemotherapy. Avelumab maintenance improves OS vs observation (21.4 vs 14.3 months, HR 0.69).",
+          "wrong": {
+            "A": "Gemcitabine-cisplatin is contraindicated — this patient has two cisplatin-ineligibility criteria (GFR 41 <60, ECOG PS 2). Cisplatin must not be used.",
+            "B": "Pembrolizumab monotherapy (KEYNOTE-052) is an option for cisplatin-ineligible first-line metastatic UC when carboplatin is also poorly tolerated or when PD-L1 CPS ≥10. With ECOG PS 2, carboplatin-based therapy followed by avelumab maintenance is still preferred if tolerable.",
+            "C": "EV-302 (EV+pembrolizumab) demonstrated benefit regardless of cisplatin eligibility and is the emerging first-line standard. However, with ECOG PS 2, the EV-302 protocol eligibility (ECOG PS 0-1 typically required in the trial) may limit applicability. Carboplatin-GC + avelumab maintenance is the more established regimen for PS 2 patients."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic UC (applied to UTUC, Witjes et al., 2024) — Section 6: First-line therapy for cisplatin-ineligible metastatic UC",
+          "trial": "Powles T et al. JAVELIN Bladder 100 (NEJM 2020): avelumab maintenance after platinum-based 1L chemotherapy — OS 21.4 vs 14.3 months (HR 0.69) — included UTUC patients in the trial.",
+          "pearl": "Metastatic UTUC is managed identically to metastatic bladder UC — same staging workup, same chemotherapy regimens (GC or carboplatin-GC), same maintenance avelumab (JAVELIN Bladder 100), same salvage options. UTUC-specific trials are limited due to rarity; management extrapolated from bladder UC phase III data."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A7-Q18",
+        "stem": "What percentage of patients with UTUC develop metachronous bladder urothelial carcinoma during follow-up, and what is the primary mechanism?",
+        "options": {
+          "A": "2-5% — haematogenous seeding from UTUC to the bladder",
+          "B": "15-50% — 'downstream seeding' of tumour cells from upper tract to bladder",
+          "C": "60-70% — field cancerisation of the entire urothelium",
+          "D": "1-2% — incidental de novo bladder UC development"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Bladder recurrence occurs in 15-50% of UTUC patients during follow-up after RNU. The primary mechanism is 'downstream seeding' — tumour cells shed from the upper tract UTUC travel with urine flow to the bladder and implant on the urothelial surface. This is analogous to the mechanism by which TURBT-related tumour cells cause recurrence (seeding), which is why a single intravesical MMC dose post-RNU (ODMIT-C trial) reduces bladder recurrence. Field cancerisation (multifocal urothelial transformation) may also contribute in patients with extensive carcinoma in situ.",
+          "wrong": {
+            "A": "2-5% is far too low — the actual bladder recurrence rate after RNU for UTUC is 15-50%. Haematogenous seeding is not the mechanism — shed tumour cells in urine are the primary vector.",
+            "C": "60-70% is too high. Field cancerisation contributes to some recurrences but is not the dominant mechanism for the 15-50% observed rate.",
+            "D": "1-2% would represent a de novo bladder UC rate — this is far lower than the observed 15-50% bladder recurrence rate after UTUC, which is specifically driven by the UTUC itself and its downstream seeding potential."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 8.1: Bladder recurrence after RNU — 15-50% incidence",
+          "trial": "O'Brien T et al. ODMIT-C trial (J Urol 2011): single MMC instillation post-RNU reduces bladder recurrence from 26% to 16% — confirms downstream seeding as the mechanism and justifies perioperative intravesical instillation.",
+          "pearl": "Bladder recurrence after RNU for UTUC: 15-50%, peaking at 18-24 months. Mechanism: downstream urine-seeded implantation of UTUC cells. Prevention: single intravesical MMC post-RNU (ODMIT-C). Surveillance: cystoscopy every 3 months × 2 years. Treatment of bladder recurrence: TURBT ± intravesical therapy as per NMIBC guidelines."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q19",
+        "stem": "A 63-year-old male with right renal pelvis UTUC undergoes laparoscopic radical nephroureterectomy. Which of the following describes the most oncologically critical technical step for bladder cuff management?",
+        "options": {
+          "A": "Stapling the ureter at the ureterovesical junction with a laparoscopic stapler",
+          "B": "Ensuring the entire intramural ureter and ureteral orifice is resected en-bloc with a cuff of bladder",
+          "C": "Irrigating the bladder with povidone-iodine before ureteral detachment to sterilise the field",
+          "D": "Ligating the ureter at the mid-ureter first to prevent tumour cell dissemination"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Complete excision of the distal intramural ureter and ureteral orifice with a cuff of bladder mucosa is the most oncologically critical step of RNU. The intramural ureter (submucosal ureteral segment within the bladder wall) contains urothelium that is contiguous with the tumour-bearing upper tract. Any residual intramural ureter or ureteral orifice creates a site for local recurrence. A margin of 0.5-1 cm of adjacent bladder wall (bladder cuff) must be included. This is why extravesical stapling is discouraged — it risks leaving behind residual intramural ureter.",
+          "wrong": {
+            "A": "Extravesical stapling at the ureterovesical junction is associated with higher bladder recurrence rates due to potential for leaving residual intramural ureter. It is the least preferred bladder cuff technique (versus endoscopic detachment or open intravesical excision).",
+            "C": "Povidone-iodine bladder irrigation to prevent seeding is not a standard or validated technique — it does not replace the requirement for complete physical excision of the intramural ureter with bladder cuff.",
+            "D": "Early ureteral ligation at the mid-ureter is sometimes done to prevent tumour cell dissemination during laparoscopic RPLND mobilisation, but this is a secondary measure — the primary oncological step remains complete bladder cuff excision."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 6.2: RNU technique — bladder cuff excision is the most critical oncological step",
+          "trial": "Walton TJ et al. Oncological outcomes after laparoscopic and open RNU for upper tract transitional cell carcinoma. BJU Int 2009: incomplete bladder cuff excision = independent predictor of intravesical recurrence.",
+          "pearl": "Bladder cuff excision is the most oncologically critical step of RNU — must remove the complete intramural ureter + ureteral orifice + 0.5-1 cm bladder cuff. Preferred techniques: endoscopic ureteral detachment (before laparoscopic RNU) or open intravesical excision. Extravesical stapling = incomplete cuff = higher local recurrence."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A7-Q20",
+        "stem": "Which of the following is NOT an EAU 2024 criterion for classifying a UTUC patient as high risk?",
+        "options": {
+          "A": "Ipsilateral hydronephrosis on CT urography",
+          "B": "Tumour size >2 cm on CT urography",
+          "C": "Unifocal low-grade biopsy and low-grade cytology",
+          "D": "Prior radical cystectomy for bladder urothelial carcinoma"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "A unifocal UTUC with low-grade biopsy AND low-grade cytology, without any other high-risk features, is classified as LOW RISK per EAU 2024 — not high risk. This is the combination of features that qualifies for kidney-sparing surgery (ureteroscopic ablation or segmental ureterectomy) in an elective (non-absolute indication) setting. Options A, B, and D are all explicit EAU 2024 high-risk criteria.",
+          "wrong": {
+            "A": "Hydronephrosis IS a high-risk criterion — it indicates likely muscle invasion or severe luminal compromise by the tumour.",
+            "B": "Tumour size >2 cm IS a high-risk criterion — larger tumours correlate with higher-grade and more invasive disease.",
+            "D": "Prior radical cystectomy for bladder UC IS a high-risk criterion — it signals pan-urothelial field defect and mandates RNU."
+          },
+          "guideline": "EAU Guidelines on UTUC (Rouprêt et al., 2024) — Section 6.1: UTUC risk stratification criteria",
+          "trial": "Rouprêt M et al. EAU guidelines on UTUC 2023: validated risk stratification criteria — low risk = unifocal, <2 cm, low-grade biopsy, low-grade cytology, no hydronephrosis, no prior RC.",
+          "pearl": "EAU 2024 UTUC low-risk criteria (ALL must be present for kidney-sparing eligibility): unifocal tumour, size <2 cm, low-grade biopsy, low-grade cytology, no hydronephrosis, no prior radical cystectomy for bladder UC. ANY ONE high-risk feature = high risk = RNU (or kidney-sparing only for absolute indications)."
+        },
+        "difficulty": 1
+      }
+    ]
+  }
+}

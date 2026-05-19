@@ -1,0 +1,882 @@
+{
+  "id": "A1",
+  "title": "Cáncer de Próstata — Diagnóstico y Estadificación",
+  "subtitle": "Uro-Oncología — PSA, RMN multiparamétrica, biopsia sistemática y dirigida, TNM 2024",
+  "block": "A",
+  "block_name": "Uro-Oncología",
+  "level": "R2-3",
+  "reading_time_min": 45,
+  "guidelines_version": "Guías EAU sobre Cáncer de Próstata 2024 · NCCN Cáncer de Próstata v2.2024",
+  "textbook_refs": [
+    "Guías EAU sobre Cáncer de Próstata 2024 (Mottet N et al.)",
+    "Campbell-Walsh-Wein Urología, 12ª ed. (2021), Cap. 152-158",
+    "Guías de Práctica Clínica NCCN en Oncología: Cáncer de Próstata v2.2024",
+    "Hamdy FC et al. 10-Year Outcomes after Monitoring, Surgery, or Radiotherapy for Prostate Cancer. N Engl J Med 2016"
+  ],
+  "learning_objectives": [
+    "Interpretar la cinética del PSA (velocidad, densidad, tiempo de duplicación) para estratificar adecuadamente el riesgo en el cribado del cáncer de próstata",
+    "Describir el sistema de puntuación PI-RADS v2.1 y sus implicaciones clínicas para la toma de decisiones sobre biopsia",
+    "Aplicar el sistema de estratificación de riesgo EAU 2024 al cáncer de próstata localizado de nuevo diagnóstico",
+    "Seleccionar la estrategia de biopsia apropiada (sistemática TRUS, sistemática transperineal o dirigida por fusión RMN) basándose en el contexto clínico",
+    "Estadificar con precisión el cáncer de próstata utilizando la clasificación TNM/AJCC 2024 incluyendo descriptores cT, cN y cM",
+    "Identificar indicaciones para pruebas de imagen de estadificación (gammagrafía ósea, PSMA-PET/TC) basándose en la categoría de riesgo"
+  ],
+  "sections": [
+    {
+      "id": "A1-S1",
+      "title": "Biología del PSA y Estrategias de Cribado",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **antígeno prostático específico (PSA)** es una serina proteasa producida por el epitelio prostático tanto normal como maligno, codificada por el gen KLK3 en el cromosoma 19q13.4. Funciona fisiológicamente para licuar el fluido seminal. Aunque el PSA es órgano-específico, no es cáncer-específico: el PSA sérico elevado puede resultar de hiperplasia prostática benigna (HPB), prostatitis, retención urinaria, instrumentación prostática o ejercicio vigoroso y actividad sexual. El rango de referencia de <4,0 ng/mL se derivó de estudios transversales y es imperfecto: aproximadamente el 15% de los hombres con PSA <4 ng/mL albergan cáncer de próstata, y el 15% de éstos tienen enfermedad de alto grado (Gleason 7+).\n\nEl ensayo de referencia **ERSPC (European Randomised Study of Screening for Prostate Cancer)** demostró una reducción del 20% en la mortalidad por cáncer de próstata a los 13 años con cribado basado en PSA en comparación con ningún cribado, aunque al costo de sobrediagnóstico significativo. El ensayo estadounidense **PLCO** no mostró beneficio en la mortalidad, probablemente debido a contaminación (>50% del brazo de control recibió prueba de PSA). El ensayo **PROTECT** (Hamdy et al., N Engl J Med 2016) aleatorizó 1.643 hombres con cáncer de próstata localizado a monitoreo activo, cirugía o radioterapia y encontró mortalidad equivalente por cáncer de próstata a los 10 años (~1%) en todos los brazos, destacando la importancia de la estratificación de riesgo sobre el tratamiento uniforme.\n\nLas guías contemporáneas EAU 2024 recomiendan **PSA basal a los 45 años** en hombres con expectativa de vida >10 años, con el intervalo de prueba determinado por el nivel de PSA basal: hombres con PSA <1 ng/mL pueden ser reexaminados cada 4 años; aquellos con PSA 1-2 ng/mL cada 2 años; aquellos con PSA >2 ng/mL anualmente. Un marco de toma de decisiones compartida es obligatorio. Las guías no recomiendan cribado poblacional pero apoyan la detección temprana adaptada al riesgo en hombres informados.\n\nRefinamientos del PSA incluyen: **densidad de PSA** (PSA/volumen prostático por TRUS o RMN; >0,15 ng/mL/cc aumenta la sospecha), **velocidad del PSA** (aumento >0,75 ng/mL/año durante ≥18 meses es sospechoso; aunque esta métrica añade poco valor independiente sobre el PSA absoluto), **tiempo de duplicación del PSA** (particularmente relevante en monitoreo de recurrencia bioquímica), y **ratio PSA libre/total** (%PSA libre; <10-15% está asociado con mayor riesgo de cáncer en la 'zona gris' PSA 4-10 ng/mL). El **Índice de Salud Prostática (PHI)** y **4Kscore** son biomarcadores validados que refinan decisiones de biopsia cuando el PSA está elevado pero el riesgo de biopsia es incierto, principalmente al reducir la detección de enfermedad de Grupo de Grado 1 indolente."
+        },
+        {
+          "type": "table",
+          "title": "Refinamientos del PSA — Utilidad Clínica y Umbrales",
+          "headers": [
+            "Marcador",
+            "Cálculo / Umbral",
+            "Uso clínico",
+            "Limitación"
+          ],
+          "rows": [
+            [
+              "Densidad de PSA",
+              "PSA ÷ volumen prostático; >0,15 ng/mL/cc sospechoso",
+              "Diferenciar HPB de CaP en zona gris",
+              "Requiere medición precisa de volumen"
+            ],
+            [
+              "PSA libre/total",
+              "%PSA libre <10-15% aumenta riesgo de CaP",
+              "Zona gris (4-10 ng/mL)",
+              "Menos útil en PSA >10 ng/mL"
+            ],
+            [
+              "Velocidad del PSA",
+              ">0,75 ng/mL/año durante ≥18 meses",
+              "Monitoreo en serie",
+              "Baja especificidad; añade poco sobre PSA"
+            ],
+            [
+              "Tiempo de duplicación del PSA",
+              "<3 meses = recurrencia agresiva",
+              "Monitoreo post-tratamiento",
+              "Requiere mediciones en serie"
+            ],
+            [
+              "PHI",
+              "[(-2)proPSA / PSA libre] × √PSA; >35 aumenta riesgo",
+              "Refinar decisión de biopsia PSA 2-10",
+              "No universalmente disponible"
+            ],
+            [
+              "4Kscore",
+              "Algoritmo: PSA total, PSA libre, PSA intacto, hK2 + edad/DRE",
+              "Predecir Grupo de Grado ≥2",
+              "Propietario; requiere venipunción"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Zona Gris del PSA",
+          "content": "En la 'zona gris' PSA 4-10 ng/mL, aproximadamente el 25% de los hombres tienen cáncer de próstata en biopsia sistemática. Un ratio PSA libre/total <10% aumenta la probabilidad de cáncer a ~56%; un ratio >25% la disminuye a ~8%. Este ratio es más útil para tomar decisiones sobre biopsia repetida después de una primera biopsia negativa."
+        }
+      ]
+    },
+    {
+      "id": "A1-S2",
+      "title": "RMN Multiparamétrica e Índice PI-RADS v2.1",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **RMN multiparamétrica (mpRMN)** de la próstata combina imagen ponderada en T2 (T2WI), imagen ponderada en difusión (DWI) con mapeo del coeficiente de difusión aparente (ADC) e imagen de realce dinámico (DCE). La clasificación **PI-RADS (Prostate Imaging Reporting and Data System) v2.1**, publicada por ACR y ESUR en 2019, estandariza la presentación de informes y asigna a cada lesión una puntuación de 1 (probabilidad muy baja de cáncer clinicamente significativo) a 5 (probabilidad muy alta). El cáncer de próstata clinicamente significativo (csPCa) se define como Grupo de Grado ≥2 (puntuación de Gleason ≥3+4=7).\n\nPara la **zona periférica** (PZ), DWI/ADC es la secuencia dominante. PI-RADS 3 en la PZ denota hallazgos equívocos (hipointensidad focal leve en ADC); PI-RADS 4 denota hipointensidad focal marcada en ADC ≤0,6 cm en mayor dimensión; PI-RADS 5 denota hipointensidad focal marcada >1,5 cm o extensión extracapsular definitiva. Para la **zona de transición** (TZ), T2WI es dominante. Las lesiones lenticulares/no circunscritas homogéneas con señal baja en T2 que obliteran la pseudocápsula quirúrgica son PI-RADS 4-5.\n\nEl ensayo de referencia **PRECISION** (Kasivisvanathan et al., N Engl J Med 2018) aleatorizó 500 hombres sin biopsia previa a biopsia dirigida por RMN versus biopsia sistemática de 10-12 núcleos por TRUS. La biopsia dirigida por RMN detectó más cánceres de Grupo de Grado ≥2 (38% vs 26%, p<0,001) y menos cánceres de Grupo de Grado 1 (9% vs 22%). El ensayo **PROMIS** (Ahmed et al., Lancet 2017) demostró que mpRMN tenía 93% de sensibilidad para csPCa y podría evitar biopsia en 27% de los hombres mientras se perdía solo 5% de csPCa. Basándose en estos datos, EAU 2024 recomienda **mpRMN antes de biopsia en hombres sin biopsia previa** como estándar de atención.\n\nPara lesiones PI-RADS 1-2, la biopsia puede diferirse u omitirse si la sospecha clínica es baja. Para PI-RADS 3, la decisión debe incorporar densidad de PSA, antecedentes de biopsia previa y factores de riesgo del paciente. PI-RADS 4-5 requiere biopsia obligatoria. La **biopsia dirigida por RMN** sola, sin núcleos sistemáticos, es aceptable en configuraciones de biopsia repetida después de una biopsia sistemática previa negativa; en hombres sin biopsia previa, se recomienda biopsia combinada dirigida + sistemática para evitar perder cánceres de lesiones no dirigidas."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Trampa Común — Omitir RMN Antes de Primera Biopsia",
+          "content": "Realizar biopsia sistemática por TRUS sin RMN multiparamétrica previa pierde aproximadamente 12% de los cánceres de próstata clinicamente significativos que son invisibles para muestreo sistemático (tumores anteriores, tumores de zona de transición) y sobrediagnostica cánceres de Grupo de Grado 1 (indolentes). EAU 2024 requiere mpRMN antes de biopsia en hombres sin biopsia previa como camino preferido. Si la RMN no está disponible, documente la razón y note la limitación."
+        },
+        {
+          "type": "table",
+          "title": "PI-RADS v2.1 — Resumen y Acción Clínica",
+          "headers": [
+            "Puntuación PI-RADS",
+            "Probabilidad de csPCa",
+            "DWI (dominante en PZ)",
+            "T2WI (dominante en TZ)",
+            "Acción clínica"
+          ],
+          "rows": [
+            [
+              "1",
+              "Muy baja (<10%)",
+              "Sin anormalidad",
+              "Nódulo HPB homogéneo",
+              "Sin biopsia si no hay otros factores de riesgo"
+            ],
+            [
+              "2",
+              "Baja (10-20%)",
+              "ADC hiperintenso lineal/difuso",
+              "Nódulo con señal baja en T2 circunscrito",
+              "Sin biopsia en la mayoría de casos"
+            ],
+            [
+              "3",
+              "Equívoca (30%)",
+              "Hipointensidad focal leve en ADC",
+              "Señal heterogénea",
+              "Individualizar — densidad PSA, biopsia previa"
+            ],
+            [
+              "4",
+              "Alta (>60%)",
+              "Hipointensidad focal marcada ADC ≤0,6 cm",
+              "Lenticular no circunscrita",
+              "Biopsia dirigida + sistemática"
+            ],
+            [
+              "5",
+              "Muy alta (>80%)",
+              "Hipointensidad focal marcada ADC >1,5 cm o EEC",
+              "Disrumpe pseudocápsula, EEC",
+              "Biopsia dirigida + sistemática; estadificación"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A1-S3",
+      "title": "Biopsia de Próstata — Técnicas y Abordajes Sistemáticos",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La biopsia de próstata puede realizarse por vía **transrectal** (guiada por TRUS) o **transperineal** (TP). La biopsia por TRUS ha sido históricamente el estándar pero conlleva riesgo de sepsis del 1-3% y hematuria/hemospermia en hasta 50% de los casos. El abordaje transperineal, que evita la flora rectal, tiene tasa de sepsis <0,5% y ahora es preferido por muchos centros. EAU 2024 reconoce ambas vías como aceptables pero señala la ventaja de sepsis del abordaje TP.\n\nLa **biopsia sistemática** toma 10-12 núcleos en patrón de sextantes (ápex, medio, base bilateralmente) más núcleos de zona periférica lateral. La **biopsia dirigida (fusión)** utiliza datos de mpRMN preacquiridos coregistrados con imagen TRUS en tiempo real (fusión por software, fusión cognitiva o biopsia guiada por RMN in-bore) para dirigir núcleos a lesiones PI-RADS 3-5. La fusión cognitiva (radiología mental mapea objetivo RMN a TRUS) es dependiente del operador; la fusión por software proporciona reproducibilidad superior. La biopsia guiada por RMN in-bore es la más precisa pero menos disponible.\n\nPara **biopsia repetida** después de una biopsia sistemática negativa con lesión PI-RADS 4-5 persistente en RMN, biopsia dirigida sola puede ser suficiente. La **biopsia de saturación** (>20 núcleos) o **biopsia de mapeo transperineal con plantilla** está indicada en casos seleccionados (p.ej., biopsia dirigida previa negativa, sospecha de cáncer anterior/TZ, reclasificación de vigilancia activa).\n\nLos parámetros patológicos clave reportados de biopsia de próstata incluyen: número de núcleos positivos, porcentaje de afección de núcleos, patrón y grupo de Gleason en cada núcleo positivo, presencia de invasión perineural, carcinoma intraductal de próstata (IDC-P) y patrón cribiforme — los dos últimos están asociados con biología agresiva y características patológicas adversas en prostatectomía radical."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Biopsia Transperineal vs Transrectal",
+          "content": "Muchos centros del Reino Unido y Europa han pasado completamente a biopsia transperineal (TP) bajo anestesia local o sedación para reducir complicaciones infecciosas. Un metanálisis de 2021 (Xue J et al.) mostró que la biopsia TP tuvo tasa de sepsis 0,1% vs 2,2% para TRUS. Para planificación de servicios en HGUGM, se justifica revisión de la vía local. La diferencia logística clave es necesidad de acceso perineal y frecuentemente una plantilla de cuadrícula, que requiere entrenamiento de operador experto."
+        }
+      ]
+    },
+    {
+      "id": "A1-S4",
+      "title": "Calificación de Gleason y Grupos de Grado",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **sistema de calificación de Gleason**, originalmente descrito en 1966, asigna grados 1-5 a los dos patrones de crecimiento más predominantes; la puntuación combinada (3+4=7, 4+3=7, etc.) se reporta. El consenso **International Society of Urological Pathology (ISUP) 2014** actualizó la calificación de Gleason e introdujo el **sistema de Grupo de Grado (GG)** para mejorar la claridad y reducir la subestadificación. Los Grupos de Grado ahora son el marco de reporte estándar respaldado por EAU, ISUP y NCCN.\n\nEl Grupo de Grado 1 (GG1) corresponde a puntuación de Gleason 3+3=6: patrón de túbulos/glándulas puro, pronóstico excelente, bajo potencial metastásico. GG2 (3+4=7): glándulas predominantemente bien formadas con <50% glándulas mal formadas/fusionadas/cribriformes, pronóstico intermedio. GG3 (4+3=7): >50% mal formadas/fusionadas/cribriformes, riesgo intermedio-alto. GG4 (4+4=8 o 3+5=8 o 5+3=8): glándulas cribriformes, fusionadas o glomeruloides, riesgo alto. GG5 (4+5=9/10, 5+4=9, 5+5=10): predominantemente sin diferenciación glandular, riesgo muy alto.\n\nCaracterísticas patológicas clave que suben riesgo más allá del Grupo de Grado incluyen: **carcinoma intraductal de próstata (IDC-P)** — patrón de cáncer llenando luces ductales-acinares, asociado con mutaciones BRCA2 y resistencia a castración; **patrón cribiforme** (subtipo Gleason 4) — asociado con metástasis de ganglios linfáticos y metástasis ósea incluso en enfermedad localizada; e **invasión perineural** — asociada con EEC y recurrencia bioquímica después de RP. Estas características deben reportarse explícitamente e influir en planificación del tratamiento."
+        },
+        {
+          "type": "table",
+          "title": "Sistema ISUP Grupo de Grado — Conversión Gleason a Grupo de Grado",
+          "headers": [
+            "Grupo de Grado",
+            "Puntuación de Gleason",
+            "Supervivencia libre de RBQ 10 años (RP)",
+            "Categoría de riesgo (EAU)",
+            "Manejo recomendado"
+          ],
+          "rows": [
+            [
+              "GG1",
+              "3+3=6",
+              "~95%",
+              "Riesgo bajo",
+              "Vigilancia activa (preferida)"
+            ],
+            [
+              "GG2",
+              "3+4=7",
+              "~85%",
+              "Intermedio favorable",
+              "VA o tratamiento radical"
+            ],
+            [
+              "GG3",
+              "4+3=7",
+              "~70%",
+              "Intermedio desfavorable",
+              "Tratamiento radical"
+            ],
+            [
+              "GG4",
+              "4+4=8 o 3+5/5+3=8",
+              "~60%",
+              "Riesgo alto",
+              "Tratamiento radical ± TDA"
+            ],
+            [
+              "GG5",
+              "9-10",
+              "~40%",
+              "Muy alto / localmente avanzado",
+              "Tratamiento radical + TDA o docetaxel"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — IDC-P y Patrón Cribiforme",
+          "content": "El carcinoma intraductal de próstata (IDC-P) y el Gleason 4 cribiforme están asociados con riesgo 3-5x mayor de metástasis y muerte por cáncer en comparación con enfermedad GG2 no cribiforme. Su presencia contraindicada vigilancia activa incluso en enfermedad GG2. NCCN 2024 específicamente enumera IDC-P como característica adversa que requiere tratamiento radical inmediato."
+        }
+      ]
+    },
+    {
+      "id": "A1-S5",
+      "title": "Estratificación de Riesgo — Sistemas EAU y NCCN",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Múltiples sistemas de estratificación de riesgo existen para cáncer de próstata localizado; EAU 2024 y NCCN v2.2024 son los más ampliamente utilizados. Ambos incorporan nivel de PSA, Grupo de Grado y etapa clínica T como variables primarias. EAU 2024 clasifica cáncer de próstata localizado y localmente avanzado en cuatro grupos de riesgo basándose en estos parámetros más densidad de PSA y número de núcleos de biopsia positivos.\n\n**Riesgo Bajo EAU**: PSA <10 ng/mL Y GG1 Y cT1-2a. Estos pacientes son candidatos para vigilancia activa. **Riesgo Intermedio EAU** (dividido en favorable [IF] y desfavorable [IU]): uno de PSA 10-20 ng/mL, o GG2, o cT2b-c (IF = solo un factor de riesgo, sin características adversas adicionales; IU = GG3 o dos o tres criterios IF). **Riesgo Alto EAU**: PSA >20 ng/mL O GG4-5 O cT3a. **Localmente Avanzado EAU**: cT3b-T4 o cN+. **Riesgo Muy Alto**: ≥2 criterios de riesgo alto, o GG5, o cT3b-T4.\n\nNCCN utiliza un sistema similar de 6 categorías añadiendo distinción entre 'Muy Bajo' (cT1c, GG1, PSA <10, <3 núcleos positivos, <50% cáncer por núcleo, densidad PSA <0,15) y riesgo 'Bajo', y separando 'Intermedio Desfavorable' de 'Intermedio Favorable'. La **puntuación CAPRA** (UCSF) proporciona puntuación continua 0-10 puntos incorporando PSA, Grupo de Grado, etapa T, % núcleos positivos y edad, y ha sido validada externamente para predicción de RBQ y metástasis después de prostatectomía radical y radioterapia.\n\nCríticamente, ningún sistema único de estratificación de riesgo predice perfectamente resultados para pacientes individuales. Los clasificadores genómicos (**Prolaris**, **Decipher**, **Oncotype DX GPS**) proporcionan información pronóstica incremental más allá de variables clínicas y son particularmente útiles en enfermedad intermedia para distinguir pacientes que se benefician de TDA adyuvante versus de rescate, e para guiar elegibilidad de vigilancia activa."
+        },
+        {
+          "type": "table",
+          "title": "Estratificación de Riesgo EAU 2024 — CaP Localizado y Localmente Avanzado",
+          "headers": [
+            "Grupo de riesgo",
+            "PSA (ng/mL)",
+            "Grupo de Grado",
+            "Etapa cT",
+            "Estrategia primaria recomendada"
+          ],
+          "rows": [
+            [
+              "Bajo",
+              "<10",
+              "GG1",
+              "cT1-2a",
+              "Vigilancia activa"
+            ],
+            [
+              "Intermedio favorable",
+              "10-20 O GG2 O cT2b (1 factor)",
+              "GG2",
+              "cT2b-c",
+              "VA o tratamiento radical"
+            ],
+            [
+              "Intermedio desfavorable",
+              "10-20 + GG3 o ≥2 factores",
+              "GG3",
+              "cT2c",
+              "Tratamiento radical"
+            ],
+            [
+              "Alto",
+              ">20 O GG4-5 O cT3a",
+              "GG4-5",
+              "cT3a",
+              "Tratamiento radical + TDA largo"
+            ],
+            [
+              "Localmente avanzado",
+              "Cualquiera",
+              "Cualquiera",
+              "cT3b-T4 o cN1",
+              "RTPE + TDA largo ± docetaxel"
+            ],
+            [
+              "Muy alto / M1",
+              "Cualquiera",
+              "Cualquiera",
+              "cN1/M1",
+              "Sistémico ± tratamiento local"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A1-S6",
+      "title": "Investigaciones de Estadificación — Nomogramas e Imagen",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La estadificación precisa determina intención de tratamiento y modalidad. Además de mpRMN de próstata (estadificación local), se requiere **estadificación nodal y sistémica** en enfermedad intermedia-alta y de alto riesgo. Recomendaciones EAU 2024:\n\n**Gammagrafía ósea**: indicada si PSA >20 ng/mL, GG4-5, cT3-4 o síntomas óseos. Ha sido ampliamente superada por PSMA-PET/TC en entornos de alto recurso. La especificidad es pobre — enfermedad degenerativa causa falsos positivos; \"fenómeno de destello\" después de iniciar TDA puede simular progresión.\n\n**TC convencional (abdomen/pelvis)**: indicada para estadificación nodal en enfermedad de alto riesgo. La sensibilidad para metástasis de ganglios linfáticos es ~40% (criterio de tamaño ≥8 mm eje corto); pierde rutinariamente enfermedad micrometastásica.\n\n**PSMA-PET/TC** (ligandos de PSMA marcados con galio-68 o flúor-18): el ensayo de referencia **ProPSMA** (Hofman et al., Lancet 2020) aleatorizó 302 hombres con CaP de alto riesgo a PSMA-PET/TC vs estadificación convencional (TC + gammagrafía ósea). PSMA-PET/TC logró 92% de precisión vs 65% para imagen convencional (p<0,001) y cambió manejo en 28% de pacientes. EAU 2024 ahora recomienda **PSMA-PET/TC como modalidad de estadificación preferida** en CaP localizado de riesgo alto y muy alto, y para estadificación de recurrencia bioquímica (reemplazando imagen convencional en niveles PSA tan bajos como 0,2 ng/mL).\n\n**Nomogramas** (tablas Partin, Memorial Sloan Kettering, nomograma Briganti) utilizan variables clínicas para predecir etapa patológica (EEC, invasión de vesículas seminales, afectación de ganglios linfáticos). El **nomograma Briganti** es la herramienta recomendada por EAU para predecir afectación de ganglios linfáticos y guía la decisión de realizar disección de ganglios linfáticos pélvicos (DGLP): si riesgo de GN predicho por nomograma >5%, se recomienda DGLP. La DGLP extendida (incluyendo regiones ilíaca externa, obturador e ilíaca interna) detecta más ganglios positivos que DGLP limitada."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — ProPSMA y PSMA-PET/TC",
+          "content": "El ensayo ProPSMA (Hofman et al., Lancet 2020) es el ensayo clínico aleatorio de referencia estableciendo superioridad de PSMA-PET/TC sobre imagen convencional para estadificación primaria en cáncer de próstata de alto riesgo. PSMA-PET/TC cambió manejo en 1 de 4 pacientes comparado con TC + gammagrafía ósea. EAU 2024 recomienda PSMA-PET/TC como modalidad de estadificación preferida en enfermedad localizada de alto riesgo donde esté disponible. Limitación clave: no universalmente reembolsado en España a 2024."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Trampa Común — Sobreestadificación en Gammagrafía Ósea",
+          "content": "Enfermedad articular degenerativa, enfermedad de Paget y fracturas todas causan captación focal aumentada en gammagrafía ósea. No diagnostique metástasis ósea basándose únicamente en gammagrafía ósea en ausencia de TC o RMN correlacional. Una lesión costal única en gammagrafía ósea tiene solo 50% de valor predictivo positivo para metástasis. Confirme con radiografía simple, TC o RMN antes de cambiar intención de tratamiento."
+        }
+      ]
+    },
+    {
+      "id": "A1-S7",
+      "title": "Estadificación TNM 2024 y Documentación Clínica",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **9ª edición TNM AJCC/UICC (2024)** proporciona el marco estándar de estadificación. Para cáncer de próstata, el descriptor T se basa en examen digital del recto (DRE) e hallazgos de imagen para estadificación clínica, y en examen patológico del espécimen de prostatectomía para estadificación patológica.\n\n**Estadificación T clínica (cT)**: cT1a — hallazgo incidental en <5% de tejido de TURP; cT1b — hallazgo incidental en >5% de tejido TURP; cT1c — identificado por biopsia de aguja (detectado por PSA); cT2a — tumor involucra ≤50% de un lóbulo; cT2b — tumor involucra >50% de un lóbulo pero no ambos; cT2c — tumor involucra ambos lóbulos; cT3a — extensión extracapsular (unilateral o bilateral); cT3b — invasión de vesículas seminales; cT4 — tumor fijo o invade estructuras adyacentes distintas de vesículas seminales (esfínter externo, recto, músculos elevadores, pared pélvica).\n\n**Estadificación cN**: cN0 — sin metástasis de ganglios linfáticos regionales; cN1 — metástasis de ganglios linfáticos regionales (ganglios pélvicos: obturador, ilíaco interno/externo, sacro, presacro). **Estadificación cM**: cM0; cM1a — ganglios linfáticos no regionales; cM1b — hueso; cM1c — otros sitios. PSA y Grupo de Grado están integrados en agrupaciones de etapa TNM en la 9ª edición, resultando en agrupamiento de etapa pronóstica que mejor refleja resultados clínicos.\n\nPara documentación de estadificación clínica, cada caso debe registrar: PSA al diagnóstico, Grupo de Grado y puntuaciones de Gleason de biopsia, número y porcentaje de núcleos positivos, etapa cT por DRE y RMN, etapa cN por imagen, etapa cM por gammagrafía ósea/PSMA-PET, grupo de riesgo y resultado de cualquier clasificador genómico. Esta información forma la base para discusión de junta de tumores multidisciplinaria y toma de decisiones compartida con el paciente."
+        },
+        {
+          "type": "table",
+          "title": "TNM 2024 (AJCC 9ª ed.) — Grupos de Etapa Cáncer de Próstata",
+          "headers": [
+            "Etapa",
+            "T",
+            "N",
+            "M",
+            "PSA / Grupo de Grado",
+            "Supervivencia cáncer-específica 5 años"
+          ],
+          "rows": [
+            [
+              "I",
+              "cT1-2a",
+              "N0",
+              "M0",
+              "PSA<10, GG1",
+              ">98%"
+            ],
+            [
+              "IIA",
+              "cT1-2",
+              "N0",
+              "M0",
+              "PSA 10-20 o GG2",
+              ">95%"
+            ],
+            [
+              "IIB",
+              "cT2b-c",
+              "N0",
+              "M0",
+              "PSA <20, GG1-2",
+              ">92%"
+            ],
+            [
+              "IIC",
+              "cT1-2",
+              "N0",
+              "M0",
+              "PSA cualquiera, GG3-4",
+              "~85%"
+            ],
+            [
+              "IIIA",
+              "cT1-2",
+              "N0",
+              "M0",
+              "PSA ≥20 o GG1-4",
+              "~80%"
+            ],
+            [
+              "IIIB",
+              "cT3-4",
+              "N0",
+              "M0",
+              "PSA cualquiera/GG cualquiera",
+              "~70%"
+            ],
+            [
+              "IIIC",
+              "Cualquier T",
+              "N0",
+              "M0",
+              "GG5",
+              "~65%"
+            ],
+            [
+              "IVA",
+              "Cualquier T",
+              "N1",
+              "M0",
+              "Cualquiera",
+              "~50%"
+            ],
+            [
+              "IVB",
+              "Cualquier T",
+              "Cualquier N",
+              "M1",
+              "Cualquiera",
+              "<30%"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Prue su conocimiento del diagnóstico y estadificación del cáncer de próstata con 20 preguntas estilo examen.",
+    "questions": [
+      {
+        "id": "A1-Q1",
+        "stem": "Un hombre de 58 años acude a cribado de cáncer de próstata. Su PSA es 3,2 ng/mL, DRE es normal y volumen prostático en TRUS es 28 mL. Su densidad de PSA es 0,114 ng/mL/cc. Su padre fue diagnosticado de cáncer de próstata a los 65 años. ¿Cuál es el siguiente paso más apropiado según guías EAU 2024?",
+        "options": {
+          "A": "Realizar biopsia sistemática de 12 núcleos por TRUS inmediatamente",
+          "B": "Solicitar RMN multiparamétrica de próstata antes de cualquier biopsia",
+          "C": "Tranquilizar y verificar PSA nuevamente en 2 años dado PSA <4 ng/mL",
+          "D": "Medir ratio PSA libre/total y proceder a biopsia si <10%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 requiere mpRMN antes de biopsia en hombres sin biopsia previa. Aunque PSA está por debajo del umbral tradicional de 4 ng/mL, la densidad de PSA de 0,114 (aproximándose a 0,15) combinada con historia familiar positiva coloca a este hombre en categoría de riesgo superior para albergar cáncer clinicamente significativo. La estratificación RMN-primero mejora detección de cáncer de Grupo de Grado ≥2 mientras reduce biopsia innecesaria y sobrediagnóstico de enfermedad de Grupo de Grado 1 (ensayo PRECISION, NEJM 2018).",
+          "wrong": {
+            "A": "Biopsia sistemática por TRUS sin RMN previa ya no es estándar de atención en hombres sin biopsia previa per EAU 2024. Pierde tumores anteriores y de zona de transición y sobrediagnostica enfermedad GG1 indolente.",
+            "C": "Una verificación de PSA a 2 años es apropiada para hombres con PSA <1 ng/mL. PSA 1-2 ng/mL → intervalo 2 años; PSA >2 ng/mL → anual. En PSA 3,2 ng/mL con historia familiar, monitoreo anual o RMN inmediata es apropiado, no aplazamiento de 2 años.",
+            "D": "Refinamientos de PSA libre/total son útiles en zona gris PSA 4-10. En PSA 3,2 ng/mL, mpRMN es el siguiente paso preferido per guías actuales, no marcadores de refinamiento bioquímico."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata 2024, Sección 5.2.4 — RMN antes de biopsia: recomendada en hombres sin biopsia previa",
+          "trial": "Ensayo PRECISION (Kasivisvanathan V et al., N Engl J Med 2018): Biopsia dirigida por RMN detectó más cánceres GG≥2 (38% vs 26%) y menos cánceres GG1 vs biopsia sistemática en hombres sin biopsia previa.",
+          "pearl": "RMN antes de biopsia es ahora la investigación estándar primera línea en hombres sin biopsia previa con PSA elevado. Esto reduce sobrediagnóstico de cáncer indolente y mejora detección de enfermedad clinicamente significativa."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q2",
+        "stem": "Un hombre de 63 años se somete a mpRMN mostrando lesión de 1,8 cm en zona periférica izquierda puntuada PI-RADS 5. PSA es 9,4 ng/mL. Biopsia dirigida de lesión muestra Gleason 4+3=7 (Grupo de Grado 3) en 4/4 núcleos, con 80% afección de núcleo y presencia de carcinoma intraductal. Biopsia sistemática muestra Gleason 3+3=6 en 1/10 núcleos. ¿En qué categoría de riesgo cae este hombre según EAU 2024?",
+        "options": {
+          "A": "Riesgo intermedio favorable",
+          "B": "Riesgo intermedio desfavorable",
+          "C": "Riesgo alto",
+          "D": "Riesgo bajo"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Este paciente tiene enfermedad GG3 (Gleason 4+3=7) con presencia de carcinoma intraductal (IDC-P), afección extensa de núcleo (80%) y lesión PI-RADS 5. PSA 9,4 ng/mL es <10 y etapa cT es cT2 (confinado en órgano en RMN). Sin embargo, EAU 2024 clasifica GG3 como mínimo intermedio desfavorable; la presencia de IDC-P sube riesgo a alto, ya que IDC-P está asociado con patología adversa y biología agresiva. NCCN específicamente señala IDC-P como característica adversa.",
+          "wrong": {
+            "A": "Intermedio favorable se aplica a GG2 con solo una característica adversa. Este paciente tiene enfermedad GG3 e IDC-P — ambas adversas.",
+            "B": "Aunque GG3 solo podría clasificarse como intermedio desfavorable, presencia de IDC-P y afección de núcleo extensa empujan esto a territorio de riesgo alto per evidencia actual y guía NCCN 2024.",
+            "D": "Riesgo bajo requiere GG1, PSA <10 y cT1-2a. Este paciente tiene enfermedad GG3."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata 2024, Tabla 6.2 — Estratificación de riesgo; NCCN CaP v2.2024 — IDC-P como característica adversa",
+          "trial": "Kir G et al. (2020) Mod Pathol: IDC-P está asociado con actualización de Grupo de Grado en RP y supervivencia libre de RBQ reducida — apoya clasificación como característica de riesgo alto.",
+          "pearl": "IDC-P y Gleason 4 cribiforme son características patológicas adversas que actualizan categoría de riesgo clínico más allá del Grupo de Grado solo. Su presencia contraindicada vigilancia activa y debería indicar clasificación como mínimo riesgo alto."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q3",
+        "stem": "Según el ensayo PRECISION, ¿cuál de los siguientes describe mejor el resultado de biopsia dirigida por RMN versus biopsia sistemática estándar por TRUS en hombres sin biopsia previa con sospecha de cáncer de próstata?",
+        "options": {
+          "A": "Biopsia dirigida por RMN detectó más cáncer clinicamente significativo y más cáncer clinicamente insignificante",
+          "B": "Biopsia dirigida por RMN detectó menos cánceres clinicamente significativos pero tuvo menos complicaciones infecciosas",
+          "C": "Biopsia dirigida por RMN detectó más cánceres de Grupo de Grado ≥2 y menos cánceres de Grupo de Grado 1",
+          "D": "Ambas estrategias detectaron cantidades equivalentes de cáncer clinicamente significativo"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El ensayo PRECISION (Kasivisvanathan et al., NEJM 2018) aleatorizó 500 hombres sin biopsia previa. Biopsia dirigida por RMN detectó cáncer de Grupo de Grado ≥2 (clinicamente significativo) en 38% versus 26% para biopsia sistemática (p<0,001), y cáncer de Grupo de Grado 1 (clinicamente insignificante) en 9% versus 22%. Este beneficio dual — detectar más cáncer significativo mientras se evita a pacientes de sobrediagnóstico de enfermedad indolente — es la base de evidencia clave para la estrategia RMN-primero.",
+          "wrong": {
+            "A": "Incorrecto. Biopsia dirigida por RMN específicamente redujo detección de cáncer de Grupo de Grado 1 (insignificante), que es la preocupación de sobrediagnóstico.",
+            "B": "Complicaciones infecciosas no fueron punto final primario. El hallazgo clave fue detección diferencial por grado.",
+            "D": "Incorrecto. Hubo diferencia estadística significativa de 12% absoluta en detección de cáncer GG≥2."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata 2024, Sección 5.2.4 — Evidencia del ensayo PRECISION fundamenta recomendación RMN-antes-de-biopsia",
+          "trial": "Ensayo PRECISION (Kasivisvanathan V et al., N Engl J Med 2018; 378:341-352): Biopsia dirigida por RMN vs biopsia sistemática en 500 hombres sin biopsia previa; punto final primario detección de csPCa (GG≥2).",
+          "pearl": "PRECISION es el ensayo clínico aleatorio de referencia estableciendo biopsia dirigida por RMN como superior a biopsia sistemática por TRUS en hombres sin biopsia previa. Conozca los números clave: 38% vs 26% para GG≥2, y 9% vs 22% para GG1."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q4",
+        "stem": "Un hombre de 71 años tiene PSA 42 ng/mL, DRE muestra masa dura fija extendiéndose más allá del lóbulo derecho (cT3a) y biopsia muestra Gleason 4+5=9 (GG5) en 8/10 núcleos sistemáticos y en ambos núcleos dirigidos. Estadificación PSMA-PET/TC muestra dos ganglios linfáticos pélvicos de 1,2 cm con captación PSMA aumentada, y sin metástasis ósea o visceral. ¿Cuál es su etapa clínica según TNM 2024?",
+        "options": {
+          "A": "cT3a N0 M0 — Etapa IIIA",
+          "B": "cT3a N1 M0 — Etapa IVA",
+          "C": "cT4 N0 M0 — Etapa IIIB",
+          "D": "cT3a N1 M1b — Etapa IVB"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La masa se extiende más allá de la cápsula prostática sin invasión de vesícula seminal o estructura adyacente, haciendo esto cT3a. PSMA-PET/TC muestra dos ganglios linfáticos pélvicos con captación PSMA — estos son ganglios linfáticos regionales (pélvicos), así que N1. No hay metástasis sistémica — sin lesiones óseas, sin M1. cT3a N1 M0 = Etapa IVA según estadificación TNM 2024. El cáncer de próstata Etapa IVA se trata con intención curativa usando RTPE combinada + TDA largo (2-3 años) ± docetaxel en pacientes seleccionados.",
+          "wrong": {
+            "A": "Clasificación N0 requeriría ausencia de afectación de ganglios linfáticos. PSMA-PET demuestra enfermedad nodal.",
+            "C": "cT4 requiere invasión de estructuras adyacentes (recto, esfínter, pared pélvica, elevador). Extensión más allá de cápsula sola es cT3a.",
+            "D": "M1b indica metástasis ósea. PSMA-PET no muestra lesiones óseas; los ganglios linfáticos son regionales (pélvicos), clasificados como N1 no M1a."
+          },
+          "guideline": "Clasificación TNM AJCC 9ª edición 2024, Capítulo Cáncer de Próstata; Guías EAU 2024 Sección 6.4 — Tratamiento Etapa IVA: RTPE + TDA largo",
+          "trial": "Ensayo STAMPEDE (James ND et al., Lancet 2016): Adición de docetaxel a TDA largo mejoró supervivencia general en cáncer de próstata de riesgo alto no metastásico y metastásico.",
+          "pearl": "Metástasis de ganglios linfáticos regionales (pélvicos) = N1, no M1a. M1a es metástasis de ganglios linfáticos no regionales (p.ej., paraaórtica, mediastínica, supraclavicular). La estadificación cT3a N1 M0 coloca al paciente en Etapa IVA, que aún es potencialmente curable con tratamiento locoregional agresivo."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q5",
+        "stem": "Un hombre de 55 años se somete a cribado de PSA. PSA es 6,2 ng/mL. mpRMN muestra lesión PI-RADS 2 en zona de transición derecha. Volumen prostático es 55 mL (densidad PSA 0,11 ng/mL/cc). Está ansioso y solicita biopsia. ¿Cuál es la recomendación más apropiada?",
+        "options": {
+          "A": "Proceder a biopsia dirigida + sistemática dado PSA elevado",
+          "B": "Diferir biopsia; repetir PSA y RMN en 12 meses dado PI-RADS 2",
+          "C": "Realizar biopsia sistemática solo ya que PI-RADS 2 no tiene objetivo para biopsia",
+          "D": "Solicitar PSA libre/total y biopsia solo si <15%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Lesiones PI-RADS 2 tienen baja probabilidad de cáncer de próstata clinicamente significativo (10-20%). Densidad de PSA de 0,11 está por debajo del umbral 0,15. La orientación EAU 2024 apoya evitar biopsia cuando PI-RADS ≤2 y densidad PSA <0,15. Vigilancia activa de imagen (repetir RMN en 6-12 meses) se recomienda. Este abordaje evita complicaciones de biopsia innecesaria y sobrediagnóstico de enfermedad indolente. El ensayo PROMIS mostró mpRMN podría permitir con seguridad evitar biopsia en aproximadamente 27% de hombres.",
+          "wrong": {
+            "A": "PSA elevado solo no debería desencadenar biopsia cuando RMN es tranquilizadora (PI-RADS 1-2). La evaluación clínica combinada (RMN + densidad PSA) guía la decisión, no PSA aislado.",
+            "C": "Biopsia sistemática sin objetivo visible en RMN en el contexto de PI-RADS 2 probablemente solo detectaría enfermedad de bajo grado clinicamente insignificante — que es exactamente lo que deseamos evitar.",
+            "D": "Refinamiento de PSA libre/total es útil en zona gris 4-10, pero cuando RMN ya ha sido realizada y muestra PI-RADS 2, prueba bioquímica adicional no añade información accionable en este contexto."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata 2024, Sección 5.2.4 — Cuando RMN es PI-RADS ≤2 y densidad PSA <0,15: biopsia puede diferirse con seguridad",
+          "trial": "Ensayo PROMIS (Ahmed HU et al., Lancet 2017): mpRMN tuvo 93% sensibilidad para csPCa y podría permitir evitar biopsia en 27% de hombres mientras se perdía solo 5% de csPCa.",
+          "pearl": "PI-RADS 1-2 combinado con densidad PSA <0,15 permite diferimiento seguro de biopsia y vigilancia activa de imagen en la mayoría de hombres. Solo proceder con biopsia si PSA sube significativamente o RMN cambia en seguimiento."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q6",
+        "stem": "¿Cuál de los siguientes describe mejor el hallazgo del ensayo ProPSMA que cambió guías de estadificación de cáncer de próstata?",
+        "options": {
+          "A": "PSMA-PET/TC fue más preciso que gammagrafía ósea sola pero equivalente a TC + gammagrafía ósea combinada",
+          "B": "PSMA-PET/TC logró 92% precisión versus 65% para estadificación convencional y cambió manejo en 28% de pacientes",
+          "C": "PSMA-PET/TC redujo detección de metástasis de ganglios linfáticos pélvicos comparado con DGLP extendida",
+          "D": "PSMA-PET/TC mejoró supervivencia cáncer-específica 5 años en pacientes de riesgo alto"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo ProPSMA (Hofman et al., Lancet 2020) aleatorizó 302 hombres con cáncer de próstata de riesgo alto a PSMA-PET/TC versus estadificación convencional (TC + gammagrafía ósea). PSMA-PET/TC tuvo 92% de precisión comparado con 65% para imagen convencional (p<0,001, diferencia absoluta 27%). Manejo fue cambiado en 28% de pacientes asignados a PSMA-PET. Basándose en esta evidencia, EAU 2024 recomienda PSMA-PET/TC como modalidad de estadificación preferida en cáncer de próstata localizado de alto riesgo.",
+          "wrong": {
+            "A": "PSMA-PET/TC fue superior a la combinación de TC + gammagrafía ósea (estadificación convencional), no solo a gammagrafía ósea sola.",
+            "C": "DGLP permanece como estándar de referencia de oro para estadificación nodal patológica. PSMA-PET detecta enfermedad nodal no invasivamente pero no puede reemplazar DGLP en cirugía de intención curativa.",
+            "D": "ProPSMA no midió resultados de supervivencia — fue ensayo de precisión de imagen cruzada con cambio de manejo como punto final primario."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata 2024, Sección 5.3 — PSMA-PET/TC recomendado como modalidad de estadificación preferida en CaP de riesgo alto basado en ProPSMA",
+          "trial": "Ensayo ProPSMA (Hofman MT et al., Lancet 2020; 395:1208-1216): Ensayo clínico aleatorio de 302 pacientes CaP alto riesgo. Precisión PSMA-PET/TC 92% vs 65% convencional. Cambio de manejo en 28% vs 15%.",
+          "pearl": "Conozca números ProPSMA: 92% vs 65% precisión; cambio de manejo en 28% vs 15%. PSMA-PET/TC es ahora modalidad de estadificación preferida en guías EAU 2024 para cáncer de próstata localizado de riesgo alto."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q7",
+        "stem": "Un hombre de 61 años tiene PSA 7,8 ng/mL y cáncer de próstata de Grupo de Grado 2 (Gleason 3+4=7) confirmado en biopsia dirigida + sistemática. RMN muestra enfermedad cT2c. Sin metástasis de ganglios linfáticos ni óseas en PSMA-PET/TC. Los núcleos de biopsia dirigida muestran patrón cribiforme de Gleason 4. ¿Qué categoría de riesgo se aplica e implicación clínica inmediata?",
+        "options": {
+          "A": "Intermedio favorable — elegible para vigilancia activa dado PSA <10",
+          "B": "Intermedio desfavorable — tratamiento radical recomendado; patrón cribiforme contraindicada vigilancia activa",
+          "C": "Riesgo bajo — PSA <10 y enfermedad confinada en órgano apoyan vigilancia activa",
+          "D": "Riesgo alto — patrón cribiforme solo coloca esto en categoría riesgo alto EAU"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "cT2c (afectación bilateral de lóbulos), GG2, PSA 7,8 — múltiples características de riesgo intermedio ya colocan esto en intermedio desfavorable. Adicionalmente, Gleason 4 cribiforme es característica adversa asociada con metástasis de ganglios linfáticos y supervivencia libre de RBQ reducida incluso en enfermedad GG2. Las guías NCCN 2024 y EAU explícitamente establecen que patrón cribiforme e IDC-P son contraindicaciones a vigilancia activa. Prostatectomía radical o radioterapia es abordaje recomendado.",
+          "wrong": {
+            "A": "Vigilancia activa contraindicada en riesgo intermedio desfavorable, especialmente con patrón cribiforme. Incluso verdadera enfermedad GG2 intermedia favorable sin características adversas requiere discusión cuidadosa sobre VA versus tratamiento.",
+            "C": "cT2c (ambos lóbulos) con GG2 cribiforme no es enfermedad riesgo bajo.",
+            "D": "Patrón cribiforme GG2 solo no automáticamente coloca paciente en categoría EAU riesgo alto (que requiere PSA >20, GG4-5 o cT3a). Sí, sin embargo, actualiza recomendación de manejo clínico de VA a tratamiento radical."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata 2024, Sección 6.1.1 — Patrón cribiforme e IDC-P: contraindicaciones a VA; NCCN CaP v2.2024 — características adversas",
+          "trial": "Kweldam CF et al. (Eur Urol 2016): Gleason 4 cribiforme asociado con ratio de peligro 6,7x para metástasis distante comparado con enfermedad GG2 no cribiforme en cohorte RP.",
+          "pearl": "Gleason 4 cribiforme e IDC-P son características patológicas adversas favoritas de examen. Su presencia en enfermedad GG2 contraindicada vigilancia activa y requiere reclasificación como intermedio desfavorable requiriendo tratamiento radical."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q8",
+        "stem": "Un hombre de 66 años tiene PSA 15,4 ng/mL. Biopsia muestra Grupo de Grado 4 (Gleason 4+4=8) cáncer. RMN muestra enfermedad cT2a, sin invasión de vesícula seminal. PSMA-PET/TC muestra sin metástasis. Usando nomograma Briganti, riesgo predicho de afectación de ganglios linfáticos es 12%. ¿Cuál es recomendación de estadificación quirúrgica apropiada?",
+        "options": {
+          "A": "Sin disección de ganglios linfáticos — enfermedad cT2a está confinada en órgano",
+          "B": "Disección de ganglios linfáticos pélvicos limitada (fosa obturador solo)",
+          "C": "Disección de ganglios linfáticos pélvicos extendida (ilíaca ext + obturador + ilíaca int)",
+          "D": "Diferir cirugía — referir para radioterapia con TDA dado riesgo GN alto"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "EAU 2024 recomienda realizar disección de ganglios linfáticos pélvicos extendida (ePLND) cuando riesgo predicho por nomograma Briganti de invasión de ganglios linfáticos (LNI) excede 5%. Este paciente tiene 12% LNI predicho, bien por encima del umbral. DGLP extendida incluye ganglios ilíaco externo, fosa obturador e ilíaco interno y detecta aproximadamente 2x más ganglios positivos que DGLP limitada. DGLP también proporciona información de estadificación que guía decisiones de tratamiento adyuvante.",
+          "wrong": {
+            "A": "Omitir DGLP cuando riesgo GN >5% subestadifica al paciente y pierde enfermedad nodal micrometastásica. La etapa clínica T sola no determina indicación DGLP.",
+            "B": "DGLP limitada (obturador solo) detecta solo 40-50% de ganglios positivos encontrados por ePLND. EAU recomienda ePLND cuando DGLP se realiza.",
+            "D": "Mientras radioterapia + TDA es alternativa, la pregunta pregunta sobre recomendación de estadificación quirúrgica. Si cirugía es planeada, ePLND es obligatoria en este nivel de riesgo."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata 2024, Sección 6.1.5 — ePLND recomendado cuando riesgo LNI nomograma Briganti >5%",
+          "trial": "Fossati N et al. (Eur Urol 2017): ePLND vs DGLP limitada en RP — ePLND detectó 2x más ganglios positivos; asociado con supervivencia libre de RBQ mejorada en pacientes pN+.",
+          "pearl": "Riesgo LNI nomograma Briganti >5% = indicación para ePLND en prostatectomía radical. DGLP extendida incluye ganglios ilíaco externo, obturador e ilíaco interno. DGLP obturador-solo (limitada) pierde 50-60% de ganglios positivos."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q9",
+        "stem": "La densidad de PSA se calcula como:",
+        "options": {
+          "A": "PSA (ng/mL) dividido por volumen prostático (mL) — umbral para riesgo cáncer aumentado: >0,15 ng/mL/cc",
+          "B": "PSA total dividido por PSA libre — umbral: <0,15",
+          "C": "Velocidad del PSA dividida por PSA basal — umbral: >10%/año",
+          "D": "Cambio anual PSA dividido por volumen prostático — sin umbral establecido"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Densidad de PSA (DPSA) = PSA sérico (ng/mL) / volumen prostático (mL), medido por volumetría TRUS o RMN. DPSA >0,15 ng/mL/cc está asociado con probabilidad significativamente mayor de cáncer de próstata clinicamente significativo, particularmente en zona gris PSA (4-10 ng/mL). También se utiliza como criterio de elegibilidad y parámetro de monitoreo de vigilancia activa (DPSA >0,15 está asociado con reclasificación adversa en VA).",
+          "wrong": {
+            "B": "PSA total / PSA libre es inverso del ratio PSA libre/total — esto no es densidad de PSA.",
+            "C": "Esto describe forma de índice de velocidad de PSA, no densidad de PSA.",
+            "D": "La densidad de PSA tiene umbral bien establecido de 0,15 ng/mL/cc."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata 2024, Sección 5.2.2 — Densidad PSA: >0,15 ng/mL/cc asociado con csPCa; utilizado en algoritmos decisión biopsia",
+          "trial": "Benson MC et al. (J Urol 1992) — descripción original de densidad PSA y umbral 0,15 ng/mL/cc. Validado en múltiples estudios de cohorte subsecuentes.",
+          "pearl": "Densidad PSA >0,15 ng/mL/cc aumenta probabilidad de cáncer de próstata clinicamente significativo en zona gris y en vigilancia activa. Se calcula de volumen prostático en TRUS o RMN — no de ratio PSA libre/total."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q10",
+        "stem": "Un hombre de 68 años con PSA 55 ng/mL, Gleason 4+5=9 (GG5) y cT3b (invasión de vesícula seminal en RMN) se somete a PSMA-PET/TC mostrando tres ganglios linfáticos paraaórticos con captación PSMA y sin metástasis ósea. ¿Cuál es etapa M correcta y grupo de etapa clínica?",
+        "options": {
+          "A": "M0 — ganglios linfáticos regionales, Etapa IVA",
+          "B": "M1a — ganglios linfáticos no regionales, Etapa IVB",
+          "C": "M1b — metástasis ósea, Etapa IVB",
+          "D": "M0 — estadificación N1, Etapa IIIB"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los ganglios linfáticos paraaórticos son **ganglios linfáticos no regionales** para cáncer de próstata (regionales = pélvicos: obturador, ilíaco externo/interno, sacro, presacro). Metástasis de ganglios linfáticos no regional = M1a por TNM 2024. Por lo tanto la etapa correcta es cT3b N0 (ganglios pélvicos claros) M1a = Etapa IVB. Enfermedad M1a se trata como cáncer de próstata metastásico con terapia sistémica (TDA + intensificación con docetaxel o ARPI), aunque radioterapia de consolidación local puede considerarse en casos seleccionados.",
+          "wrong": {
+            "A": "Ganglios paraaórticos son no regionales. Los ganglios linfáticos regionales (pélvicos) = N1. Los ganglios linfáticos no regionales = M1a, no N1.",
+            "C": "M1b indica metástasis ósea. PSMA-PET muestra sin lesiones óseas.",
+            "D": "Clasificación M0 requiere ausencia de metástasis sistémica. Afectación de ganglios paraaórticos = M1a."
+          },
+          "guideline": "AJCC TNM 9ª edición 2024 — Ganglios linfáticos regionales para cáncer de próstata: ganglios pélvicos (obturador, ilíaco interno/externo, sacro). No regionales: paraaórtica, mediastínica = M1a",
+          "trial": "Ensayo STAMPEDE (James ND et al., Lancet 2016): Docetaxel + TDA vs TDA solo en CaP metastásico alto volumen. También estableció evidencia para radioterapia a primario en enfermedad M1 con bajo volumen metastásico.",
+          "pearl": "Ganglios linfáticos paraaórticos, mediastínicos y supraclaviculares son M1a (no regionales) en cáncer de próstata. Solo ganglios pélvicos son regionales (N1). Esta distinción determina si paciente es Etapa IVA (N1M0) o IVB (M1a/b/c)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q11",
+        "stem": "Un hombre de 52 años con fuerte historia familiar de cáncer de próstata y mama (portador mutación BRCA2) se presenta a cribado de cáncer de próstata. PSA es 2,8 ng/mL. ¿Qué modificación al algoritmo de cribado EAU estándar es apropiada?",
+        "options": {
+          "A": "Sin modificación — PSA 2,8 no justifica biopsia independientemente de historia familiar",
+          "B": "Inicio de cribado más temprano y umbral inferior para mpRMN y biopsia; PSA anual desde edad 40",
+          "C": "Biopsia sistemática inmediata de 12 núcleos dado estatus BRCA2 independientemente de PSA",
+          "D": "PSMA-PET/TC para estadificación antes de cualquier biopsia dado estatus BRCA2"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los portadores de mutación BRCA2 tienen riesgo de por vida 5-8x mayor de cáncer de próstata y desarrollan enfermedad más agresiva de inicio más temprano. IDC-P está fuertemente asociado con mutaciones BRCA2. EAU 2024 recomienda que hombres con mutaciones BRCA2 (y en menor medida BRCA1) inicien cribado de PSA a edad 40 y someterse a consideración más temprana de biopsia incluso en umbrales de PSA inferiores. Prueba genética germinal (BRCA1/2, ATM, CHEK2, MLH1, MSH2, MSH6, CDH1) ahora se recomienda en todos los hombres con cáncer de próstata de riesgo alto, muy alto, localmente avanzado o metastásico.",
+          "wrong": {
+            "A": "Historia familiar de BRCA2 y cáncer de mama/próstata modifica el algoritmo de cribado. Estos no son pacientes de riesgo promedio.",
+            "C": "Biopsia sistemática inmediata sin RMN previa pasaría por estándar de cuidado RMN-primero e no se recomienda incluso en portadores BRCA2. mpRMN debería realizarse aún.",
+            "D": "PSMA-PET/TC es herramienta de estadificación para cánceres conocidos de riesgo alto/intermedio, no herramienta de cribado o decisión biopsia en ausencia de cáncer diagnosticado."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata 2024, Sección 5.1.3 — BRCA2: cribado más temprano desde edad 40; umbral inferior para biopsia. Indicaciones prueba germinal.",
+          "trial": "Estudio IMPACT (Bancroft EK et al., Eur Urol 2021): Los portadores de mutación BRCA2 tenían 3x mayor prevalencia de CaP riesgo intermedio/alto en biopsia comparado con portadores BRCA1 y controles.",
+          "pearl": "Los portadores de mutación BRCA2 deben iniciar cribado de cáncer de próstata a edad 40 (vs 45 para hombres riesgo promedio) y tienen umbral inferior para mpRMN y biopsia. BRCA2 está asociado con enfermedad agresiva incluyendo IDC-P y cáncer de próstata resistente a castración."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q12",
+        "stem": "¿Cuál Grupo de Grado ISUP corresponde a Gleason 4+3=7, y cuáles son sus implicaciones pronósticas clave?",
+        "options": {
+          "A": "GG2 — pronóstico equivalente a GG3",
+          "B": "GG3 — supervivencia libre de RBQ 10 años ~70%; clasificado como riesgo intermedio desfavorable",
+          "C": "GG4 — equivalente a enfermedad Gleason 8; riesgo alto",
+          "D": "GG2 — equivalente a Gleason 3+4=7; mismo manejo que GG2"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Gleason 4+3=7 = Grupo de Grado 3. El patrón primario es Gleason 4 (glándulas mal formadas/fusionadas), con Gleason 3 secundario. Esto es categóricamente diferente de GG2 (3+4=7) donde Gleason 3 predomina. GG3 conlleva supervivencia libre de RBQ 10 años de aproximadamente 70% después de RP, comparado con ~85% para GG2. EAU 2024 clasifica GG3 como riesgo intermedio desfavorable, requiriendo tratamiento radical (no vigilancia activa).",
+          "wrong": {
+            "A": "GG2 (3+4=7) y GG3 (4+3=7) tienen pronósticos significativamente diferentes. GG3 tiene ~15% peor supervivencia libre de RBQ que GG2.",
+            "C": "GG4 corresponde a Gleason 4+4=8 o 3+5/5+3=8. GG3 no es equivalente a GG4.",
+            "D": "GG2 es Gleason 3+4=7 (Gleason 3 predominante). GG3 es Gleason 4+3=7 (Gleason 4 predominante). Son grupos de grado diferentes con pronósticos diferentes."
+          },
+          "guideline": "Consenso ISUP 2014 sobre Calificación (Epstein JI et al., Eur Urol 2016); Sección EAU 2024 6.1 — GG3 = intermedio desfavorable; tratamiento radical recomendado",
+          "trial": "Epstein JI et al. Eur Urol 2016: Validación de sistema Grupo de Grado en cohorte RP multiinstitucional; supervivencia libre de RBQ 10 años GG3 71% vs GG2 85%.",
+          "pearl": "Gleason 4+3=7 (GG3) ≠ Gleason 3+4=7 (GG2). El patrón Gleason primario determina el grupo de grado. GG3 tiene pronóstico peor, está clasificado como intermedio desfavorable y requiere tratamiento radical."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q13",
+        "stem": "Un hombre de 70 años con cT1c, Gleason 3+3=6 (GG1), PSA 4,5 ng/mL, 2/12 núcleos positivos, máximo 15% afección de núcleo y densidad PSA 0,09 ng/mL/cc está considerando vigilancia activa. ¿Qué característica CONTRAINDICARÍA MÁS FUERTEMENTE vigilancia activa per EAU 2024?",
+        "options": {
+          "A": "Edad 70",
+          "B": "Presencia de carcinoma intraductal en espécimen biopsia",
+          "C": "Densidad PSA 0,09 ng/mL/cc",
+          "D": "2/12 núcleos positivos con 15% afección"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El carcinoma intraductal de próstata (IDC-P) es contraindicación absoluta a vigilancia activa per guías EAU 2024 y NCCN 2024, independientemente del Grupo de Grado. IDC-P indica biología tumoral agresiva, está asociado con mutaciones BRCA2, cáncer de alto grado en núcleos adyacentes y supervivencia libre de RBQ significativamente peor después de RP. Su presencia en incluso espécimen GG1 requiere re-biopsia o tratamiento radical.",
+          "wrong": {
+            "A": "Edad 70 no es contraindicación a VA — VA es apropiada para hombres de cualquier edad que cumplan criterios de elegibilidad, particularmente si comorbilidades limitan expectativa de vida.",
+            "C": "Densidad PSA 0,09 está por debajo del umbral 0,15 y realmente apoya elegibilidad de VA (no contraindicación).",
+            "D": "2/12 núcleos positivos con 15% afección está bien dentro de criterios estándar de elegibilidad VA (la mayoría de protocolos permiten ≤3 núcleos positivos y ≤50% por núcleo)."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata 2024, Sección 6.1.1.1 — IDC-P y patrón cribiforme: contraindicaciones absolutas a vigilancia activa",
+          "trial": "Varma M et al. (2019) Histopathology: IDC-P en biopsias GG1 asociado con cáncer GG≥3 en RP subsecuente en 78% de casos.",
+          "pearl": "IDC-P es contraindicación absoluta a vigilancia activa independientemente de grado de Gleason. Siempre busque reportaje de IDC-P en patología antes de recomendar VA."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q14",
+        "stem": "Durante prostatectomía radical, patólogo confirma márgenes quirúrgicos positivos en ápex y enfermedad de Grupo de Grado 5 (Gleason 5+4=9) en espécimen resecado. La estadificación preoperatoria fue cT2c N0 M0. La estadificación posoperatoria se convierte en pT3a pN0 pR1. ¿Qué investigación adicional está más urgentemente indicada posoperatoriamente?",
+        "options": {
+          "A": "Biopsia de próstata repetida para confirmar enfermedad residual",
+          "B": "PSA posoperatorio a 6 semanas para establecer un nuevo nivel mínimo",
+          "C": "RTPE adyuvante inmediata sin esperar nivel mínimo PSA",
+          "D": "PSMA-PET/TC de cuerpo completo para excluir enfermedad metastásica oculta"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Después de prostatectomía radical, PSA debe medirse en 6-8 semanas posoperatorias para establecer el nivel mínimo. En enfermedad pT3a pR1, PSA debería ser indetectable (<0,1 ng/mL). Si PSA permanece detectable o sube por encima de 0,1-0,2 ng/mL, esto representa recurrencia bioquímica y desencadena evaluación para radioterapia adyuvante o de rescate. Los ensayos RAVES y GETUG-AFU 17 mostraron que RT de rescate con TDA fue no inferior a RT adyuvante inmediata para enfermedad pT3 pR1, apoyando abordaje de espera-y-observación.",
+          "wrong": {
+            "A": "Re-biopsia del lecho prostático no es rutina posoperatoria. Si recurrencia bioquímica se confirma, biopsia de rescate ocasionalmente se realiza antes de re-irradiación.",
+            "C": "RT adyuvante inmediata sin esperar PSA ha sido superada por estrategia 'rescate-cuando-PSA-sube' per ensayos RAVES, GETUG-AFU 17 y RADICALS-RT.",
+            "D": "PSMA-PET/TC está indicado cuando recurrencia de PSA se detecta (típicamente PSA ≥0,2 ng/mL). PSMA-PET/TC posoperatoria inmediata en todos pacientes pR1 no está guía-recomendada en esta etapa."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata 2024, Sección 6.1.5.2 — Seguimiento post-RP: PSA en 6-8 semanas; estrategia RT de rescate para enfermedad BCR pR1",
+          "trial": "Ensayo RAVES (Pearse M et al., Lancet Oncol 2019): RT adyuvante vs RT de rescate temprana en CaP pT3/R1 — RT de rescate no inferior; reduce sobreratamiento con RT en hasta 60% pacientes pT3R1 que nunca recidivarían.",
+          "pearl": "Después de RP, establezca nivel mínimo PSA en 6-8 semanas antes de considerar tratamiento adyuvante. Tres ensayos clínicos aleatorios contemporáneos (RAVES, GETUG-AFU 17, RADICALS-RT) apoyan RT de rescate cuando PSA sube sobre RT adyuvante inmediata, evitando sobreratamiento en hasta 60% pacientes pT3R1 que nunca recidivarían."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q15",
+        "stem": "La mpRMN de un hombre muestra PI-RADS 4 en zona periférica derecha. Biopsia dirigida es positiva (GG2, 3/3 núcleos) pero todos 12 núcleos sistemáticos son negativos. DRE es normal (cT1c). PSA 8,9 ng/mL. ¿Cuál es la etapa clínica T?",
+        "options": {
+          "A": "cT1c — tumor identificado por biopsia de aguja, no palpable",
+          "B": "cT2a — tumor involucra ≤50% de lóbulo derecho por RMN",
+          "C": "cT2b — tumor involucra >50% de un lóbulo",
+          "D": "cT3a — extensión extracapsular sugerida en RMN"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "La estadificación clínica T en cáncer de próstata se basa en DRE, no en imagen, per convención TNM tradicional. Un tumor no palpable identificado por biopsia de aguja (provocado por PSA elevado) es cT1c, independientemente de extensión en RMN. Algunas guías contemporáneas (incluyendo comentario EAU 2024 y AJCC 9ª ed.) reconocen que RMN puede modificar etapa en contextos de investigación, pero cT1c permanece estándar para enfermedad detectada-por-PSA DRE-normal en estadificación clínica rutinaria.",
+          "wrong": {
+            "B": "cT2a requiere que tumor sea palpable en DRE e involucre ≤50% de un lóbulo. DRE es normal aquí.",
+            "C": "cT2b requiere tumor palpable involucrando >50% de un lóbulo. DRE es normal.",
+            "D": "cT3a requiere evidencia DRE o imagen de extensión extracapsular. RMN muestra lesión PI-RADS 4 (sospechosa) pero no describe EEC."
+          },
+          "guideline": "AJCC TNM 9ª edición 2024 — cT1c: no palpable, cáncer de próstata detectado por biopsia en población cribada por PSA",
+          "trial": "Ensayo PROTECT (Hamdy FC et al., N Engl J Med 2016): La mayoría de pacientes inscritos tenían enfermedad cT1c — cáncer de próstata detectado por PSA no palpable mostrando mortalidad cáncer-específica equivalente entre estrategias de manejo.",
+          "pearl": "cT1c es etapa clínica T más común en cáncer de próstata detectado por PSA. Significa no palpable (DRE normal), identificado por biopsia de aguja. Extensión lesión RMN no cambia etapa clínica T en documentación TNM estándar (aunque etapa patológica T después de RP puede diferir)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q16",
+        "stem": "Un hombre de 64 años con PSA 12 ng/mL, Grupo de Grado 2, enfermedad cT2b está siendo evaluado. La lesión PI-RADS 4 en RMN es 1,4 cm. Según orientación nomograma EAU 2024, ¿qué porcentaje de riesgo de afectación de ganglios linfáticos predicho por nomograma Briganti debe ser superado antes disección de ganglios linfáticos pélvicos extendida es recomendada en prostatectomía radical?",
+        "options": {
+          "A": ">2%",
+          "B": ">5%",
+          "C": ">10%",
+          "D": ">15%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Las Guías EAU 2024 recomiendan realizar disección de ganglios linfáticos pélvicos extendida (ePLND) cuando riesgo predicho de invasión de ganglios linfáticos (LNI) por nomograma Briganti excede 5%. Para este paciente (PSA 12, GG2, cT2b), nomograma Briganti calcularía probabilidad específica LNI — si ≥5%, ePLND se recomienda. Por debajo 5%, DGLP puede omitirse sin comprometer significativamente precisión de estadificación.",
+          "wrong": {
+            "A": "Umbral >2% resultaría en tasas muy altas de DGLP por beneficio mínimo. EAU utiliza umbral 5%.",
+            "C": ">10% es umbral demasiado alto — pasaría proporción significativa de pacientes con enfermedad nodal que serían detectados con política umbral 5%.",
+            "D": ">15% pasaría aproximadamente 40% de pacientes LN-positivos que serían detectados con política umbral 5%."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata 2024, Sección 6.1.5 — ePLND indicada cuando LNI nomograma Briganti >5% en prostatectomía radical",
+          "trial": "Briganti A et al. (Eur Urol 2012): Validación de nomograma Briganti actualizado para predecir LNI; umbral 5% optimiza intercambio sensibilidad/especificidad para decisión DGLP.",
+          "pearl": "Riesgo LNI nomograma Briganti >5% = realizar DGLP extendida. DGLP extendida = ilíaca externa + obturador + ilíaca interna. Umbral 5% es estándar EAU para camino RP."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q17",
+        "stem": "¿Cuál de los siguientes es el enunciado más preciso respecto hallazgos del ensayo PROTECT relevante a vigilancia activa para cáncer de próstata localizado?",
+        "options": {
+          "A": "Monitoreo activo fue asociado con mortalidad cáncer-próstata significativamente más alta en 10 años comparado con cirugía o radioterapia",
+          "B": "Todas tres estrategias de manejo tenían mortalidad cáncer-próstata equivalente en 10 años (~1%)",
+          "C": "Monitoreo activo llevó a tasas metástasis significativamente más altas pero no muerte por cáncer de próstata en 10 años",
+          "D": "Prostatectomía radical tuvo tasa fracaso bioquímico más baja en 10 años pero monitoreo activo fue equivalente para supervivencia cáncer-específica"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo PROTECT (Hamdy FC et al., NEJM 2016) aleatorizó 1.643 hombres con cáncer de próstata detectado-por-PSA localizado a monitoreo activo, prostatectomía radical o radioterapia. En 10 años, mortalidad cáncer-próstata específica fue aproximadamente 1% en todos tres grupos — equivalente entre brazos. Esto validó que para cáncer de próstata localizado apropiadamente seleccionado, vigilancia activa no lleva a supervivencia cáncer-específica significativamente peor en 10 años. Sin embargo, monitoreo activo fue asociado con más metástasis y uso TDA en 10 años vs cirugía/RT.",
+          "wrong": {
+            "A": "Monitoreo activo no llevó a mortalidad cáncer-próstata más alta en 10 años. SCS fue equivalente.",
+            "C": "Monitoreo activo fue asociado con más metástasis (6,3 por 1.000 persona-años vs 2,4 para cirugía y 3,0 para RT), pero no mortalidad cáncer-específica más alta en 10 años.",
+            "D": "Cirugía tuvo tasa fracaso bioquímico más baja, pero SCS fue equivalente entre brazos — esto hace opción D parcialmente correcta pero incompleta/engañosa."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata 2024 — Ensayo PROTECT apoya vigilancia activa en CaP riesgo bajo; Sección 6.1.1",
+          "trial": "Ensayo PROTECT (Hamdy FC et al., N Engl J Med 2016; 375:1415-1424): 1.643 hombres, mortalidad cáncer-próstata específica ~1% en 10 años entre monitoreo, cirugía y RT. Datos 15 años actualizados (2023): Mortalidad cáncer-próstata aún equivalente.",
+          "pearl": "Hecho clave ensayo PROTECT: mortalidad cáncer-próstata específica ~1% en 10 años entre todas tres estrategias de manejo, validando vigilancia activa para cáncer de próstata localizado riesgo bajo. Nota: monitoreo activo fue asociado con más metástasis pero no más muertes por cáncer en 10 años."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q18",
+        "stem": "Un hombre de 57 años con PSA 9,2 ng/mL y mpRMN mostrando lesión PI-RADS 5 (2,2 cm, PZ izquierda, sin EEC) se somete a biopsia dirigida (3 núcleos) y sistemática (12 núcleos) combinada. Los núcleos dirigidos muestran Gleason 4+5=9 (GG5) en 3/3 núcleos con 90% afección. Biopsia sistemática muestra Gleason 3+3=6 en 2/12 núcleos en lado derecho. ¿Cuál es asignación Grupo de Grado general?",
+        "options": {
+          "A": "GG2 — basado en hallazgos biopsia sistemática",
+          "B": "GG5 — basado en grado más alto en cualquier núcleo",
+          "C": "GG3 — promedio núcleos dirigidos y sistemáticos",
+          "D": "GG4 — núcleos dirigidos dominan pero promediados con sistemáticos"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La asignación Grupo de Grado general se determina por el grado MÁS ALTO encontrado en cualquier núcleo de biopsia. Las guías consenso ISUP 2014 establecen que cuando biopsia dirigida y sistemática combinada se realiza, el hallazgo más agresivo (grado más alto) en cualquier núcleo determina el grado general. Por lo tanto GG5 de los núcleos dirigidos es el grado asignado, independientemente de hallazgos GG1 en núcleos sistemáticos. Esta información guía decisiones de tratamiento — enfermedad GG5 requiere tratamiento radical, no vigilancia activa.",
+          "wrong": {
+            "A": "Los hallazgos de biopsia sistemática (GG1) no sobrepasan el GG5 en núcleos dirigidos. La calificación usa grado más alto.",
+            "C": "El promediado de grupos de grado a través de núcleos de biopsia es práctica ISUP incorrecta.",
+            "D": "GG4 no resulta de promediado hallazgos biopsia dirigida y sistemática. El GG5 de biopsia dirigida predomina."
+          },
+          "guideline": "Guías Consenso ISUP 2014 (Epstein JI et al., Eur Urol 2016) — Grado general de biopsia = grado más alto en cualquier núcleo positivo. Reglas calificación para sesiones biopsia combinada. Guías EAU 2024 apoyan calificación ISUP.",
+          "trial": "Epstein JI et al. (Eur Urol 2016): Consenso calificación ISUP — validación sistema Grupo de Grado; reglas calificación para sesiones biopsia combinadas.",
+          "pearl": "Cuando biopsia dirigida y sistemática combinada se realiza, el Grupo de Grado MÁS ALTO en cualquier núcleo determina asignación general. Nunca promediado Grupos de Grado a través de núcleos o sesiones."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q19",
+        "stem": "Un hombre de 74 años con cáncer de próstata alto riesgo (PSA 38, GG4, cT3a) se somete a PSMA-PET/TC mostrando lesión ósea única en vértebra L3 con captación PSMA. Gammagrafía ósea confirma esta lesión. RMN columna muestra sin compresión de médula. No tiene síntomas neurológicos. ¿Cuál etapa M y abordaje de tratamiento es más apropiado?",
+        "options": {
+          "A": "M1b (metástasis ósea única) — TDA sistémica + ARPI; considerar radioterapia a primario y metástasis",
+          "B": "M1b — TDA sistémica solo dado lesión ósea única",
+          "C": "M0 — lesión ósea única insuficiente confirmar M1b; repetir imagen en 3 meses",
+          "D": "M1b — quimioterapia inmediata (docetaxel) sin TDA dado enfermedad GG4"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Una metástasis ósea única confirmada en tanto PSMA-PET/TC como gammagrafía ósea representa enfermedad M1b. Cáncer de próstata metastásico bajo volumen (definición EAU/CHAARTED: <4 metástasis óseas, sin metástasis visceral) se beneficia de intensificación TDA + ARPI (abiraterona, enzalutamida, apalutamida o darolutamida basado en ensayos fase III recientes — TITAN, ARCHES, ENZAMET, ARASENS). Adicionalmente, ensayo STAMPEDE brazo (Parker CC et al., Lancet 2018) mostró que radioterapia al tumor prostático primario en pacientes M1 con bajo volumen metastásico mejoró supervivencia libre de fallo y supervivencia general. Radioterapia ablativa estereotáctica (SABR) a sitio oligometastásico también está siendo evaluada (ensayos STOMP, ORIOLE).",
+          "wrong": {
+            "B": "TDA solo es insuficiente para cáncer de próstata M1 en era moderna. Múltiples ensayos demuestran OS mejorada con combinación TDA + ARPI. Monoterapia TDA ya no es estándar para CaP metastásico recién diagnosticado.",
+            "C": "Una lesión ósea confirmada en dos modalidades imagen independientes (PSMA-PET y gammagrafía ósea) debería clasificarse como M1b. Esperar 3 meses retrasaría tratamiento para enfermedad metastásica confirmada.",
+            "D": "Docetaxel es agente intensificación alternativo a ARPI pero debería usarse con TDA, no en lugar de. Enfermedad GG4 sola no determina selección quimioterapia."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata 2024, Sección 7.1 — M1 bajo volumen: TDA + ARPI; consideración RT primaria (STAMPEDE) y SABR a oligomets",
+          "trial": "STAMPEDE (Parker CC et al., Lancet 2018): RT a primario en M1 bajo volumen CaP mejoró supervivencia libre de fallo (HR 0,64). TITAN (Chi KN et al., NEJM 2019): Apalutamida + TDA vs placebo + TDA en M1 — OS mejorada y rPFS mejorada.",
+          "pearl": "Cáncer de próstata M1 bajo volumen (oligometastásico): tratar con TDA + ARPI (no TDA solo) + considerar RT a próstata primaria (datos STAMPEDE) y SABR a sitios metastásicos. Intensificación combinada ha venido siendo estándar de atención."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A1-Q20",
+        "stem": "¿Cuál enunciado sobre ratio PSA libre/total (%PSA libre) es correcto?",
+        "options": {
+          "A": "Un %PSA libre más alto (>25%) está asociado con riesgo aumentado de cáncer de próstata",
+          "B": "Un %PSA libre más bajo (<10-15%) está asociado con riesgo aumentado de cáncer de próstata en zona gris PSA",
+          "C": "%PSA libre es más útil en discriminar cáncer de próstata en niveles PSA >20 ng/mL",
+          "D": "%PSA libre ha reemplazado densidad de PSA como herramienta refinamiento primaria en guías EAU 2024"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ratio PSA libre/total (%PSA libre) refleja la proporción de PSA en forma no ligada (libre). Las células cáncer de próstata producen PSA más complejo-ligado (ligado a alfa-1-antiQuimotripsina) relativo a PSA libre que tejido HPB. Por lo tanto, %PSA libre más bajo (<10-15%) está asociado con probabilidad cáncer superior, mientras %PSA libre más alto (>25%) está asociado con HPB y probabilidad cáncer inferior. %PSA libre es más útil en zona gris PSA (4-10 ng/mL) para refinar decisiones biopsia.",
+          "wrong": {
+            "A": "Un %PSA libre MÁS ALTO está asociado con riesgo cáncer MÁS BAJO (más PSA libre = más tipo HPB). %PSA libre más BAJO = riesgo cáncer superior.",
+            "C": "%PSA libre pierde valor discriminatorio en PSA >10 ng/mL donde casi todo PSA elevado justifica biopsia independientemente de ratio. Es más útil en zona gris 4-10 ng/mL.",
+            "D": "EAU 2024 recomienda mpRMN como herramienta refinamiento primaria antes de biopsia. Densidad de PSA y %PSA libre son herramientas suplementarias; ninguno ha reemplazado RMN."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata 2024, Sección 5.2.2 — %PSA libre: valores menores (<10-15%) asociado con probabilidad cáncer superior en zona gris PSA 4-10 ng/mL",
+          "trial": "Catalona WJ et al. (NEJM 1998): %PSA libre <10% tenía 56% probabilidad cáncer vs 8% para %PSA libre >25% en zona gris PSA 4-10 — estudio de referencia estableciendo utilidad clínica %PSA libre.",
+          "pearl": "Ratio PSA libre/total más bajo = riesgo cáncer superior. Umbral es 10-15% (debajo = preocupante, encima 25% = tranquilizador). Útil en zona gris PSA 4-10. Ha sido ampliamente suplementado por mpRMN en práctica actual pero permanece relevante para toma de decisiones biopsia repetida."
+        },
+        "difficulty": 1
+      }
+    ]
+  }
+}

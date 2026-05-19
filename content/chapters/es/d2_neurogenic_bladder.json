@@ -1,0 +1,882 @@
+{
+  "id": "D2",
+  "title": "Disfunción Neurógena del Tracto Urinario Inferior",
+  "subtitle": "Bloque D — Uroginecología y Neurourología: Vejiga Neurógena, Protección del Tracto Urinario Superior y Neuromodulación",
+  "block": "D",
+  "block_name": "Uroginecología y Neurourología",
+  "level": "R3-5",
+  "reading_time_min": 48,
+  "guidelines_version": "EAU Guidelines on Neuro-Urology 2024 · EAU Guidelines on Urinary Incontinence 2024",
+  "textbook_refs": [
+    "Blok B et al. EAU Guidelines on Neuro-Urology. European Association of Urology 2024",
+    "Stöhrer M et al. EAU Guidelines for a new standard in neuro-urological management of spinal cord injury patients. Eur Urol 2009;56:234–241",
+    "Schurch B et al. Botulinum-A Toxin for Treating Detrusor Hyperreflexia. J Urol 2000;164:692–697",
+    "Ginsberg D et al. Phase 3 Efficacy and Tolerability Study of OnabotulinumtoxinA for Urinary Incontinence from Neurogenic Detrusor Overactivity (DIGNITY). J Urol 2012;187:2131–2139",
+    "Cruz F et al. Efficacy and Safety of OnabotulinumtoxinA in Patients with Urinary Incontinence Due to Neurogenic Detrusor Overactivity. Eur Urol 2011;60:742–750",
+    "Pannek J, Göcking K, Bersch U. Clinical significance of urethral dilatation for patients with spinal cord injury. J Endourol 2009;23:1753",
+    "Weld KJ, Dmochowski RR. Effect of bladder management on urological complications in spinal cord injured patients. J Urol 2000;163:768"
+  ],
+  "learning_objectives": [
+    "Clasificar la disfunción neurógena del tracto urinario inferior (DNTUI) según el nivel de la lesión (suprapontina, suprasacra, sacra, periférica) y predecir el patrón urodinámico correspondiente",
+    "Identificar marcadores clínicos y urodinámicos de riesgo para el tracto urinario superior en vejiga neurógena e implementar protocolos de seguimiento basados en evidencia",
+    "Describir el fundamento del cateterismo intermitente limpio (CIL) como estrategia preferida de manejo vesical en la hipoactividad detrusoriana neurógena",
+    "Aplicar el algoritmo de manejo basado en evidencia EAU 2024 para la hiperactividad detrusoriana neurógena, incluyendo antimuscarínicos, agonistas beta-3 y toxina botulínica-A intradetrusoriana",
+    "Describir las indicaciones, resultados y complicaciones de la neuromodulación sacra (NMS) y la estimulación del nervio tibial posterior (ENTP) en STUI neurógenas",
+    "Describir las opciones quirúrgicas para vejiga neurógena refractaria: cistoplastia de ampliación, estoma cateterizable continente y derivación urinaria"
+  ],
+  "sections": [
+    {
+      "id": "D2-S1",
+      "title": "Clasificación de las STUI Neurógenas según Nivel de Lesión",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La disfunción neurógena del tracto urinario inferior (DNTUI) resulta de condiciones neurológicas que afectan los circuitos neurales que controlan el almacenamiento y vaciado vesical. El fenotipo clínico y urodinámico de la DNTUI está determinado principalmente por el **nivel de la lesión neurológica** respecto al centro pontino de la micción y el centro sacro de la micción (S2–S4). Comprender el patrón urodinámico esperado para cada nivel de lesión es fundamental para la práctica clínica y los exámenes.\n\n**Lesiones suprapontinas** (por encima del puente — enfermedad cerebrovascular, enfermedad de Parkinson, demencia, tumores cerebrales, parálisis cerebral): El centro pontino de la micción (CPM) está intacto. El CPM coordina normalmente la contracción vesical con la relajación uretral simultánea (vaciado sinérgico). Las lesiones suprapontinas eliminan la inhibición cortical del CPM, resultando en **hiperactividad del detrusor (HD)** con coordinación pontina intacta — es decir, HD **sin** disinergia detrusor-esfínter (DDE). El riesgo para el tracto urinario superior (TUS) es BAJO en este grupo.\n\n**Lesiones medulares suprasacras** (por debajo del puente, por encima de la médula sacra — lesión medular, esclerosis múltiple, mielopatía cervical/torácica, mielitis transversa): El CPM queda desconectado de la médula sacra. Esto altera la coordinación pontino-sacra, produciendo **hiperactividad del detrusor CON disinergia detrusor-esfínter (HD+DDE)**. DDE = contracción involuntaria simultánea del esfínter uretral externo durante una contracción del detrusor. Esto genera presiones intravesicales muy elevadas (>40 cmH₂O) durante los intentos de vaciado, causando reflujo ureteral, hidronefrosis y daño renal progresivo. ALTO riesgo TUS. La **presión de fuga del detrusor (DLPP) >40 cmH₂O** es el umbral urodinámico crítico para identificar riesgo de TUS en este grupo.\n\n**Lesiones sacras** (S2–S4 — lesión de cola de caballo, tumor medular sacro, mielomeningocele, hernia discal lumbosacra): Patrón de motoneurona inferior (MNI). El arco reflejo sacro de la micción está interrumpido: **hipoactividad del detrusor (DUA) o vejiga acontráctil** + **cuello vesical abierto, denervado** (sin tono del músculo liso). Retención urinaria e incontinencia por rebosamiento. El CIL es el tratamiento principal. La DDE no ocurre.\n\n**Neuropatía periférica** (cistopatía diabética, lesión del nervio pélvico postquirúrgica — cistectomía radical, resección rectal, histerectomía, cirugía aortoilíaca): Pérdida sensorial gradual que precede a la disfunción motora. Inicial: sensación vesical reducida, compliance elevada con vejiga de gran capacidad, vaciados infrecuentes. Tardía: vejiga acontráctil con rebosamiento. Manejo con CIL."
+        },
+        {
+          "type": "table",
+          "title": "Clasificación de STUI Neurógenas por Nivel de Lesión — Características Clave",
+          "headers": [
+            "Nivel de Lesión",
+            "Ejemplos",
+            "Patrón Urodinámico",
+            "DDE?",
+            "Riesgo TUS",
+            "Tratamiento Principal"
+          ],
+          "rows": [
+            [
+              "Suprapontino",
+              "ACV, Parkinson, demencia, parálisis cerebral",
+              "HD sin DDE",
+              "No",
+              "Bajo",
+              "Antimuscarínicos/mirabegrón; CIL si retención"
+            ],
+            [
+              "Medular suprasacro",
+              "LM (cervical/torácica), EM, mielitis transversa",
+              "HD + DDE",
+              "Sí (ALTO riesgo)",
+              "ALTO (DLPP >40 = peligro TUS)",
+              "CIL + antimuscarínicos; BoNT-A; ampliación"
+            ],
+            [
+              "Sacro (cono/cola de caballo)",
+              "Cola de caballo, mielomeningocele, LM sacra",
+              "DUA/acontráctil, sin DDE",
+              "No",
+              "Bajo-moderado (rebosamiento)",
+              "CIL obligatorio"
+            ],
+            [
+              "Periférico",
+              "Cistopatía diabética, cirugía pélvica previa",
+              "Sensación reducida, gran capacidad, DUA",
+              "No",
+              "Bajo (rebosamiento)",
+              "CIL + control de líquidos"
+            ],
+            [
+              "Mixto (EM)",
+              "Esclerosis múltiple (variable)",
+              "HD variable + vaciado incompleto",
+              "A veces",
+              "Moderado",
+              "Individualizado — CIL + farmacoterapia"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — DDE y Riesgo del Tracto Superior",
+          "content": "HD + DDE (lesión medular suprasacra) = ALTO riesgo del tracto urinario superior. La contracción simultánea del detrusor y el esfínter externo genera presiones intravesicales que pueden superar los 100 cmH₂O, impulsando el reflujo ureteral. DLPP >40 cmH₂O es el umbral urodinámico asociado con deterioro del tracto superior. Objetivo terapéutico: mantener DLPP <40 cmH₂O con CIL, antimuscarínicos o BoNT-A. Lesiones suprapontinas = HD sin DDE = bajo riesgo TUS (coordinación CPM intacta)."
+        }
+      ]
+    },
+    {
+      "id": "D2-S2",
+      "title": "Monitorización del Tracto Urinario Superior en Vejiga Neurógena",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El daño del tracto urinario superior (TUS) — hidronefrosis, reflujo vesicoureteral (RVU), pielonefritis y insuficiencia renal progresiva — es la consecuencia más grave y potencialmente mortal de las STUI neurógenas, especialmente en pacientes con lesión medular (LM), mielomeningocele y otras lesiones suprasacras con HD+DDE. Históricamente, la insuficiencia renal crónica era la principal causa de muerte en pacientes con LM. La evidencia contemporánea demuestra que la vigilancia urológica estructurada con intervención precoz ha reducido drásticamente la morbilidad del TUS en esta población.\n\nLas Guías EAU 2024 de Neurourología recomiendan las siguientes exploraciones basales y de seguimiento para todos los pacientes con DNTUI: (1) **Estudio urodinámico (EUD)** — obligatorio en la valoración basal de todos los pacientes con LM, esclerosis múltiple, mielomeningocele y tras cambios neurológicos significativos; (2) **Ecografía renal** — vigilancia anual de hidronefrosis y dilatación del tracto superior; (3) **Creatinina sérica y TFGe** — anual; (4) **Tira reactiva/urocultivo** — solo cuando hay síntomas (no se recomienda la vigilancia rutinaria en pacientes cateterizados asintomáticos — favorece el uso innecesario de antibióticos); (5) **Videourodinámica (VUD)** — patrón oro para caracterizar la DNTUI, combinando cistometría de llenado + estudio presión-flujo con fluoroscopia simultánea para detectar RVU, trabeculación y cambios morfológicos vesicales.\n\nParámetros urodinámicos clave y umbrales de riesgo para TUS:\n- **DLPP (presión de fuga del detrusor) >40 cmH₂O** — artículo seminal de McGuire et al. 1981: DLPP >40 cmH₂O se asocia con deterioro del TUS en niños con mielomeningocele; adoptado como umbral universal. Objetivo terapéutico: mantener DLPP <40 cmH₂O.\n- **Compliance vesical <20 mL/cmH₂O** — compliance reducida indica vejiga fibrótica/poco distensible; asociada con presiones intravesicales elevadas en reposo y riesgo TUS.\n- **RVU en VUD** — cualquier grado de reflujo en el contexto de vejiga neurógena indica riesgo elevado de TUS; el reflujo de grado III-IV requiere manejo activo.\n\n**Weld y Dmochowski (J Urol 2000)** demostraron en un estudio prospectivo de 316 pacientes con LM que el CIL como estrategia principal de manejo vesical se asoció con las tasas más bajas de complicaciones del TUS comparado con el catéter uretral permanente y el catéter suprapúbico — estableciendo el CIL como el enfoque preferido a largo plazo."
+        },
+        {
+          "type": "table",
+          "title": "Evaluación del Riesgo del TUS — Parámetros y Umbrales Clave",
+          "headers": [
+            "Parámetro",
+            "Umbral de Alto Riesgo",
+            "Implicación Clínica",
+            "Referencia"
+          ],
+          "rows": [
+            [
+              "DLPP",
+              ">40 cmH₂O",
+              "Riesgo de deterioro del tracto superior — intensificar tratamiento",
+              "McGuire 1981"
+            ],
+            [
+              "Compliance vesical",
+              "<20 mL/cmH₂O",
+              "Escasa distensibilidad → presiones elevadas → riesgo TUS",
+              "Estándares urodinámicos ICS"
+            ],
+            [
+              "RVU en VUD",
+              "Cualquier grado (neurógeno)",
+              "Riesgo activo TUS — CIL + antimuscarínicos obligatorios",
+              "EAU Neurourología 2024"
+            ],
+            [
+              "Ureterohidronefrosis en ecografía",
+              "Cualquier grado",
+              "Investigar con VUD; verificar DLPP y compliance",
+              "Ecografía anual EAU 2024"
+            ],
+            [
+              "Descenso TFGe >10 mL/min/año",
+              "Descenso significativo",
+              "Revisar manejo vesical urgentemente; considerar ampliación",
+              "EAU Neurourología 2024"
+            ],
+            [
+              "Capacidad vesical a presión segura",
+              "<300 mL (con DLPP <40)",
+              "Capacidad de almacenamiento insuficiente — considerar BoNT-A o ampliación",
+              "EAU 2024"
+            ],
+            [
+              "ITU febril recurrente",
+              "≥2 episodios febriles/año",
+              "Vaciado vesical incompleto o reflujo — ajustar frecuencia de CIL",
+              "EAU Neurourología 2024"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Tratar la Bacteriuria Asintomática en Usuarios de Catéter",
+          "content": "La bacteriuria asintomática (BA) en pacientes que realizan CIL o usan catéter permanente NO requiere tratamiento antibiótico. Las guías EAU 2024 e IDSA recomiendan NO tratar la BA en pacientes cateterizados. Solo la ITU sintomática (fiebre, nuevos síntomas urinarios, aumento de la espasticidad, orina turbia/maloliente con signos sistémicos) justifica tratamiento antibiótico. La vigilancia rutinaria con tira reactiva urinaria y el tratamiento de la BA en pacientes con vejiga neurógena promueven la colonización por organismos multirresistentes y es uno de los errores más frecuentes de prescripción antibiótica en neurourología."
+        }
+      ]
+    },
+    {
+      "id": "D2-S3",
+      "title": "Cateterismo Intermitente Limpio (CIL): Técnica, Selección del Catéter y Resultados",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **cateterismo intermitente limpio (CIL)** es la estrategia de referencia para el manejo vesical en pacientes con vejiga neurógena que requieren vaciado vesical asistido regular. Introducido por Lapides et al. en 1972 (J Urol 1972) con una técnica limpia (no estéril) y catéteres reutilizables, el CIL ha transformado el manejo de la vejiga neurógena — reduciendo drásticamente las tasas de ITU, las complicaciones del TUS y la mortalidad asociadas con los catéteres uretrales permanentes y suprapúbicos. La base fisiológica de la superioridad del CIL: el vaciado vesical completo intermitente previene la colonización bacteriana crónica, preserva la compliance del músculo detrusor (evitando la sobredistensión crónica), mantiene la integridad urotelial y permite al paciente gestionar su propia vejiga sin un cuerpo extraño permanente.\n\nEl CIL debe realizarse cada **4–6 horas** para evitar que el volumen vesical supere la capacidad de almacenamiento segura (típicamente 300–400 mL, manteniendo la presión intravesical por debajo del DLPP <40 cmH₂O). La restricción de líquidos a aproximadamente 2 litros/día ayuda a mantener volúmenes de cateterismo predecibles. Los **diarios vesicales** y registros de volumen del CIL son esenciales para monitorizar y ajustar la frecuencia.\n\n**Selección del catéter**: Los catéteres de un solo uso con revestimiento hidrofílico son preferibles a los sin revestimiento o reutilizables en el CIL para pacientes neurógenos — un metaanálisis (Moore 2006, BJU Int) mostró tasas más bajas de ITU sintomática con catéteres hidrofílicos comparados con los sin revestimiento o con lubricante en gel. Tamaño del catéter: 12–16 Fr para adultos; menor en niños. Catéteres acodados para hombres con angulación uretral o estenosis. El **autocateterismo** (CIL propio) es factible para la mayoría de pacientes con LM cervical C5–C6 o inferior (función manual preservada) y prácticamente todos los pacientes con LM torácica y lumbar.\n\nComplicaciones a largo plazo del CIL: estenosis uretral (5–15% a los 10 años — más frecuente en varones), epididimo-orquitis, ITU recurrente y raramente litiasis vesical por retención de fragmentos del catéter. La calibración uretral regular y la uretrografía (si sintomático) permiten monitorizar el desarrollo de estenosis."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — El CIL como Estrategia de Referencia",
+          "content": "Weld y Dmochowski (J Urol 2000) demostraron que el CIL tiene las tasas más bajas de complicaciones del TUS comparado con el catéter uretral permanente (CUP) y el catéter suprapúbico (CSP) en pacientes con LM. CIL: menor infección y deterioro del TUS. CUP: tasas más altas de complicaciones uretrales (estenosis, falsa vía, hipospadias en mujeres) y riesgo de carcinoma escamoso de vejiga (largo plazo >10 años). CSP: evita el trauma uretral pero tiene complicaciones periestomales. EAU 2024 Grado A: CIL preferido sobre métodos de catéter permanente para todos los pacientes capaces de realizarlo."
+        }
+      ]
+    },
+    {
+      "id": "D2-S4",
+      "title": "Tratamiento Farmacológico de la Hiperactividad Detrusoriana Neurógena",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **hiperactividad detrusoriana neurógena (HDN)** se define como hiperactividad del detrusor (contracciones involuntarias del detrusor durante la fase de llenado) en el contexto de una condición neurológica confirmada. El objetivo primario del tratamiento de la HDN es reducir la presión intravesical (manteniendo DLPP <40 cmH₂O), aumentar la capacidad vesical funcional y reducir la incontinencia — protegiendo así el TUS y mejorando la calidad de vida.\n\nLos **antimuscarínicos** son el tratamiento farmacológico de primera línea para la HDN (EAU 2024 Grado A). Se utilizan oxibutinina (liberación inmediata o prolongada), solifenacina, tolterodina, trospio y darifenacina. La base de evidencia para los antimuscarínicos en HDN está establecida mediante múltiples ECA. Efectos secundarios clave: sequedad de boca, estreñimiento, visión borrosa, efectos cognitivos (penetración central — oxibutinina con mayor penetración SNC; trospio y darifenacina/solifenacina con menor). Para pacientes con LM con HD+DDE neurógenas, los antimuscarínicos combinados con CIL son el enfoque estándar de primera línea.\n\nEl **mirabegrón** (agonista del adrenoceptor beta-3) es una alternativa o complemento a los antimuscarínicos para la HDN, con un perfil de efectos secundarios más favorable. Es especialmente útil en pacientes intolerantes a los efectos secundarios antimuscarínicos. La evidencia en poblaciones neurógenas es más limitada que para la VHA idiopática, pero EAU 2024 otorga una recomendación de Grado B para su uso en HDN.\n\nLa **toxina botulínica-A intradetrusoriana (BoNT-A)** — administrada como 200 unidades (para HDN, dosis mayor que para VHA idiopática donde se usan 100 U) inyectadas cistoscópicamente en el músculo detrusor (respetando el trígono) — es el tratamiento farmacológico más eficaz para la HDN refractaria. Los ensayos pivotales de Fase 3 de Cruz et al. (Eur Urol 2011) y Ginsberg et al. (J Urol 2012) — ambos ECA en HDN por LM y esclerosis múltiple — demostraron reducciones significativas en episodios de incontinencia, mejora de la capacidad cistométrica máxima y reducción significativa del DLPP comparado con placebo. El ensayo DIGNITY (Ginsberg 2012) incluyó 227 pacientes con HDN; onabotulinumtoxinA 200 U redujo los episodios de incontinencia en un 53,3% vs 18,2% con placebo (p<0,001) y aumentó la capacidad cistométrica máxima en +111 mL vs +14 mL (p<0,001). Efecto adverso clave: retención urinaria que requiere CIL — ocurre en el 30–40% de los pacientes con HDN (que a menudo ya realizan CIL). Duración del efecto: 6–9 meses; se requieren reinyecciones. Aprobado por FDA y EMA para HDN desde 2011."
+        },
+        {
+          "type": "table",
+          "title": "Tratamientos Farmacológicos para la Hiperactividad Detrusoriana Neurógena — Resumen de Evidencia",
+          "headers": [
+            "Tratamiento",
+            "Dosis",
+            "Nivel de Evidencia",
+            "Beneficio Principal",
+            "Efecto Adverso Principal",
+            "Ensayo Clave"
+          ],
+          "rows": [
+            [
+              "Oxibutinina LI",
+              "5 mg/8 h",
+              "Grado A (EAU 2024)",
+              "Eficacia establecida, bajo coste",
+              "Sequedad de boca, cognición (mayor penetración SNC)",
+              "Múltiples ECA"
+            ],
+            [
+              "Oxibutinina LP/PR",
+              "5–15 mg/día",
+              "Grado A",
+              "Menos efectos secundarios que LI",
+              "Sequedad de boca, estreñimiento",
+              "Múltiples ECA"
+            ],
+            [
+              "Solifenacina",
+              "5–10 mg/día",
+              "Grado A",
+              "Alta selectividad M3, una vez al día",
+              "Sequedad de boca, estreñimiento",
+              "Ensayo SONIC y ECA en HDN"
+            ],
+            [
+              "Trospio (cloruro)",
+              "20 mg/12 h",
+              "Grado A",
+              "Amina cuaternaria — baja penetración SNC, preferido en ancianos/deterioro cognitivo",
+              "Sequedad de boca, estreñimiento",
+              "ECA en HDN"
+            ],
+            [
+              "Mirabegrón",
+              "25–50 mg/día",
+              "Grado B",
+              "Sin efectos secundarios anticolinérgicos",
+              "Hipertensión, taquicardia",
+              "EAU 2024 Grado B"
+            ],
+            [
+              "OnabotulinumtoxinA 200 U (HDN)",
+              "200 U intradetrusoriana",
+              "Grado A (FDA/EMA aprobado 2011)",
+              "Reduce DLPP, aumenta capacidad cistométrica, reduce IU",
+              "Retención urinaria (30–40%) — requiere CIL",
+              "Cruz Eur Urol 2011; Ginsberg J Urol 2012 (DIGNITY)"
+            ],
+            [
+              "Combinación antimuscarínico + mirabegrón",
+              "Ambos a dosis estándar",
+              "Grado B",
+              "Eficacia aditiva, puede mejorar tolerabilidad",
+              "Efectos secundarios combinados",
+              "Evidencia emergente 2022–2024"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — BoNT-A para HDN en LM",
+          "content": "Un varón de 32 años con LM torácica T6 completa (AIS A) presenta HD+DDE en urodinámica con DLPP 68 cmH₂O y capacidad cistométrica máxima de 180 mL con oxibutinina 15 mg/día. Realiza CIL ×5/día pero tiene 4 episodios de incontinencia de urgencia diarios. El siguiente paso apropiado es la inyección cistoscópica intradetrusoriana de onabotulinumtoxinA 200 U (dosis HDN). El objetivo es DLPP <40 cmH₂O y capacidad vesical funcional ≥300 mL, protegiendo el tracto urinario superior. Se debe informar al paciente de que necesitará reinyecciones cada 6–9 meses y que la frecuencia del CIL puede necesitar aumentar tras la inyección debido a la contractilidad detrusoriana reducida."
+        }
+      ]
+    },
+    {
+      "id": "D2-S5",
+      "title": "Neuromodulación: Neuromodulación Sacra y Estimulación del Nervio Tibial Posterior",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **neuromodulación sacra (NMS)** modula los circuitos neurales implicados en el almacenamiento y vaciado vesical mediante la administración de estimulación eléctrica continua de baja amplitud en la raíz nerviosa sacra S3 a través de un electrodo implantado permanentemente y un generador de impulsos. El mecanismo de la NMS no se comprende completamente, pero implica la modulación de la actividad de las fibras C aferentes de la vejiga, con efectos secundarios sobre el CPM y los circuitos medulares. La NMS está aprobada por FDA y EMA para: VHA refractaria (HD, urgencia, IUU), retención urinaria no obstructiva e incontinencia fecal. Para pacientes neurógenos, la base de evidencia es más limitada — EAU 2024 otorga una recomendación de Grado C para la NMS en pacientes neurógenos seleccionados (lesiones medulares incompletas, esclerosis múltiple — EVITAR LM completa y mielomeningocele donde la evidencia es escasa).\n\nEl procedimiento de NMS se realiza en dos etapas: **Etapa 1** — evaluación nerviosa percutánea (ENP) o colocación de electrodo de aletas en S3, estimulación externa durante 2–4 semanas para evaluar respuesta; si ≥50% de mejoría en las puntuaciones de síntomas (diario miccional), **Etapa 2** — implantación del generador de impulsos (GI/neuroestimulador). Contraindicaciones principales: incompatibilidad con RMN (dispositivos más antiguos no condicionales), prótesis bilateral de rodilla/cadera, necesidad de diatermia, embarazo, obesidad mórbida. Los dispositivos de NMS modernos condicionales para RMN (Axonics, Medtronic InterStim II) han reducido significativamente el problema de incompatibilidad.\n\nLa **estimulación del nervio tibial posterior (ENTP)** administra estimulación eléctrica transcutánea o percutánea en el nervio tibial posterior en el tobillo (arco reflejo S3 — compartido con la inervación del suelo pélvico). Es el enfoque de neuromodulación menos invasivo. El histórico **ECA SUMIT** (Peters et al., J Urol 2010) incluyó 220 pacientes con VHA refractaria, demostrando una respuesta 'moderada o marcadamente mejorada' del 54,5% con ENTP vs 20,9% con estimulación simulada (p<0,001). La ENTP requiere sesiones semanales de 30 minutos en consulta durante 12 semanas de inducción, seguidas de sesiones de mantenimiento mensuales. Es especialmente útil en pacientes ancianos o frágiles donde la implantación de NMS conlleva mayor riesgo quirúrgico. Para vejiga neurógena, la evidencia es limitada pero apoya la ENTP como opción de escalada adyuvante/alternativa antes de la implantación de NMS en casos neurógenos seleccionados (EAU Grado C)."
+        },
+        {
+          "type": "table",
+          "title": "Opciones de Neuromodulación para STUI Neurógenas — Comparación",
+          "headers": [
+            "Modalidad",
+            "Mecanismo",
+            "Indicaciones Aprobadas",
+            "Evidencia Neurógena",
+            "Limitación Principal"
+          ],
+          "rows": [
+            [
+              "NMS (Medtronic/Axonics)",
+              "Estimulación eléctrica S3 mediante electrodo implantado",
+              "VHA refractaria, retención no obstructiva, IF",
+              "Grado C — LM incompleta, EM solo; evitar LM completa",
+              "Cirugía, RMN (dispositivos antiguos), coste"
+            ],
+            [
+              "ENTP (UroPad/Urgent-PC)",
+              "Estimulación del nervio tibial (arco reflejo S3)",
+              "VHA refractaria (uso extraoficial neurógeno)",
+              "Grado C — datos ECA neurógenos limitados",
+              "Visitas semanales a consulta; sin beneficio de implante permanente"
+            ],
+            [
+              "Electroestimulación intravesical",
+              "Estimulación eléctrica directa de la pared vesical",
+              "DUA — restaurar conciencia vesical (pediátrico)",
+              "Grado C — experimental",
+              "Evidencia ECA muy limitada"
+            ],
+            [
+              "Estimulación magnética transcraneal (EMT)",
+              "Modulación cortical",
+              "VHA secundaria a lesión cerebral",
+              "Solo investigacional",
+              "Sin aprobación clínica, fase de investigación"
+            ],
+            [
+              "Estimulación dorsal del nervio peneal/clitorídeo",
+              "Arco reflejo pudendo S3",
+              "Inhibición refractaria de DDE",
+              "Grado C — evidencia muy limitada",
+              "Solo en entorno de investigación"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Resultados del Ensayo SUMIT (ENTP)",
+          "content": "ECA SUMIT (Peters J Urol 2010): ENTP 54,5% vs estimulación simulada 20,9% de respuesta 'moderada o marcadamente mejorada' para VHA refractaria (p<0,001). La ENTP es el único enfoque de neuromodulación que puede ofrecerse en consulta sin cirugía. Ventaja clave: sin implante, sin riesgo quirúrgico. Limitación clave: requiere sesiones semanales de 30 min × 12 semanas (inducción) y mantenimiento mensual. Para pacientes neurógenos, la NMS tiene mayor evidencia (Grado C) pero mayor riesgo quirúrgico; la ENTP es la opción inicial de neuromodulación preferida en pacientes neurógenos ancianos/frágiles."
+        }
+      ]
+    },
+    {
+      "id": "D2-S6",
+      "title": "Tratamiento Quirúrgico: Cistoplastia de Ampliación, Estoma Cateterizable y Derivación Urinaria",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El tratamiento quirúrgico de la vejiga neurógena se reserva para pacientes refractarios al tratamiento farmacológico (antimuscarínicos, BoNT-A) que continúan con DLPP peligroso (>40 cmH₂O), incontinencia inaceptable o deterioro progresivo del TUS. Las opciones quirúrgicas representan un espectro desde la ampliación vesical (preservando el vaciado nativo) hasta la derivación urinaria completa.\n\nLa **cistoplastia de ampliación (cistoplastia en almeja)** es el procedimiento quirúrgico de referencia para la HD neurógena refractaria o la compliance vesical gravemente reducida (<10 mL/cmH₂O) sin respuesta a BoNT-A. Un segmento de intestino (típicamente 25–40 cm de íleon detuburalizado — ileocistoplastia, o sigma — sigmoidocistoplastia) se sutura en una gran incisión en el domo vesical bivalvado, creando un reservorio de baja presión y alta capacidad. Esto reduce de forma fiable el DLPP a <20 cmH₂O y aumenta la capacidad a >400 mL en >90% de los casos. El CIL es obligatorio en el postoperatorio (la vejiga ampliada no se contrae eficazmente). Las complicaciones a largo plazo incluyen: producción de moco (requiriendo irrigación vesical regular), complicaciones metabólicas (acidosis metabólica hiperclorémica — el segmento ileal reabsorbe cloruro y secreta bicarbonato — requiere alcalinización a largo plazo con bicarbonato sódico o citrato potásico), litiasis vesical (moco + vaciado incompleto), déficit de vitamina B12 (segmento ileal) y un riesgo pequeño pero real de malignidad en la anastomosis intestino-vejiga (adenocarcinoma en la anastomosis vesicointestinal — 1% a los 10 años, requiere vigilancia cistoscópica anual tras 10 años).\n\nEl **estoma cateterizable continente (principio de Mitrofanoff)** utiliza el apéndice o el tubo ileal de Yang-Monti para crear un canal cateterizable desde la superficie cutánea (típicamente umbilical o en la fosa ilíaca derecha) hasta la vejiga. Esto es especialmente valioso en pacientes en silla de ruedas o con función manual limitada que no pueden cateterizarse por vía uretral. El apéndice se tuneliza en la vejiga con un túnel submucoso antirreflujo para mantener la continencia — la continencia del estoma se consigue en >85% de los casos a largo plazo. Con frecuencia se realiza conjuntamente con cistoplastia de ampliación.\n\nLa **derivación urinaria** (conducto ileal o derivación cutánea continente) se reserva para pacientes con vejigas irreversiblemente dañadas (fibróticas, sin compliance), deterioro del tracto superior a pesar de un manejo conservador optimizado, infecciones graves recurrentes o aquellos que no pueden manejarse con CIL. Representa un procedimiento reconstructivo mayor con importantes implicaciones metabólicas y para la calidad de vida."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Complicaciones Metabólicas de la Cistoplastia de Ampliación",
+          "content": "La cistoplastia de ampliación ileal causa acidosis metabólica hiperclorémica (Tipo 2/anión gap normal) por reabsorción de cloruro urinario y secreción de bicarbonato a través del segmento ileal. Esto es especialmente peligroso en pacientes con insuficiencia renal preexistente (capacidad reducida de regenerar bicarbonato). Síntomas: fatiga, anorexia, náuseas, densidad ósea reducida. Monitorización rutinaria: bicarbonato sérico anual, creatinina, vitamina B12. Tratamiento: suplementación a largo plazo con bicarbonato sódico oral o citrato potásico. La sigmoidocistoplastia también causa acidosis metabólica pero con alteraciones electrolíticas diferentes. Informar siempre al paciente preoperatoriamente sobre el CIL obligatorio de por vida, la irrigación vesical y el seguimiento metabólico."
+        }
+      ]
+    },
+    {
+      "id": "D2-S7",
+      "title": "Disreflexia Autonómica: Reconocimiento y Manejo de Urgencia",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **disreflexia autonómica (DA)** es un síndrome potencialmente mortal que ocurre en pacientes con lesiones medulares a nivel T6 o superior, caracterizado por hipertensión súbita y grave (TA sistólica típicamente 200–300 mmHg en adultos, ≥20 mmHg por encima de la basal en LM) desencadenada por estímulos nocivos por debajo del nivel de la lesión. La fisiopatología implica un arco reflejo simpático sin oposición: un estímulo nocivo (distensión vesical, impactación fecal, instrumentación urológica, úlcera por presión, herida infectada, fractura) desencadena una descarga simpática incontrolada por debajo del nivel de la lesión, causando vasoconstricción masiva. Por encima de la lesión, los reflejos parasimpáticos intentan compensar mediante bradicardia y vasodilatación (rubor facial, congestión nasal, diaforesis por encima del nivel) pero no pueden contrarrestar adecuadamente la crisis hipertensiva.\n\nLos síntomas incluyen: **cefalea pulsátil intensa** (síntoma de presentación más frecuente — por vasodilatación cerebral), diaforesis profusa y rubor por encima del nivel de la lesión, palidez y piloerección por debajo, bradicardia (paradójica — mediada por barorreceptores), visión borrosa, congestión nasal y ansiedad. Sin tratamiento, la DA puede causar encefalopatía hipertensiva, hemorragia intracraneal, hemorragia retiniana, infarto de miocardio, edema pulmonar y muerte.\n\n**Manejo de urgencia**: (1) **SENTAR AL PACIENTE** inmediatamente (la caída ortostática de la TA en posición sentada proporciona reducción inmediata de la TA); (2) **Identificar y eliminar el estímulo desencadenante** — verificar el catéter (acodado, obstruido, bolsa llena), palpar el abdomen en busca de distensión vesical, revisar impactación fecal (insertar gel lubricante anestésico en el recto antes del tacto rectal para evitar estimulación adicional); (3) **Monitorizar la tensión arterial continuamente**; (4) **Tratamiento farmacológico** si la TAS >150 mmHg persiste tras eliminar el estímulo: **spray o parche de nitroglicerina (NTG)** (sublingual/tópico) proporciona vasodilatación rápida; **nifedipino 10 mg sublingual** (evitar en pacientes con inhibidores de PDE5 — interacción con nitratos); alternativamente **captopril 25 mg sublingual**. (5) Si se está realizando un procedimiento urológico, **interrumpir el procedimiento** inmediatamente y descomprimir la vejiga.\n\nPrevención durante procedimientos urológicos en pacientes con LM a nivel T6 o superior: uso de **gel de lidocaína** para lubricación, llenado vesical lento, limitación del volumen de llenado y **anestesia raquídea** (que elimina la vía desencadenante de la DA en la parte inferior del cuerpo) son estrategias preventivas eficaces."
+        },
+        {
+          "type": "table",
+          "title": "Disreflexia Autonómica — Desencadenantes, Síntomas y Manejo",
+          "headers": [
+            "Categoría",
+            "Detalles"
+          ],
+          "rows": [
+            [
+              "Grupo de riesgo",
+              "LM a nivel T6 o superior — TODOS los procedimientos urológicos en estos pacientes requieren protocolo de DA"
+            ],
+            [
+              "Desencadenante más frecuente (urológico)",
+              "Distensión vesical (catéter obstruido, vejiga llena, cistoscopia)"
+            ],
+            [
+              "Otros desencadenantes",
+              "Impactación fecal, úlcera por presión, fractura, ropa ajustada, actividad sexual, parto"
+            ],
+            [
+              "Síntomas clásicos",
+              "Cefalea pulsátil intensa, diaforesis profusa, rubor por encima del nivel, palidez por debajo, bradicardia"
+            ],
+            [
+              "Umbral de TA (adultos)",
+              "≥20 mmHg por encima de la TAS basal individual; típicamente 200–300 mmHg en T6+"
+            ],
+            [
+              "Acción inmediata 1",
+              "Sentar al paciente erguido (reduce TA por ortostatismo)"
+            ],
+            [
+              "Acción inmediata 2",
+              "Eliminar desencadenante: desbloquear catéter, vaciar vejiga, revisar impactación fecal"
+            ],
+            [
+              "Farmacológico (TAS >150 persistente)",
+              "Spray NTG sublingual o parche de nitroglicerina; nifedipino 10 mg sublingual; captopril 25 mg sublingual"
+            ],
+            [
+              "Durante el procedimiento",
+              "Interrumpir la cistoscopia inmediatamente; vaciar vejiga; usar gel de lidocaína en futuros procedimientos"
+            ],
+            [
+              "Prevención",
+              "Anestesia/analgesia adecuada; llenado vesical lento; anestesia raquídea para procedimientos"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Realizar Cistoscopia sin Precauciones de DA en LM T6+",
+          "content": "Cualquier procedimiento cistoscópico (RTUTV, ureterorrenoscopia, urodinámica, cambio de catéter) en un paciente con LM a nivel T6 o superior debe ir precedido de la explicación del riesgo de DA al anestesista y al paciente. Usar gel de lidocaína para todas las cateterizaciones uretrales. Realizar los procedimientos con monitorización continua de la TA. Considerar anestesia raquídea para procedimientos semiprogramados. Durante un episodio de DA desencadenado por la instrumentación: DETENER inmediatamente, vaciar la vejiga, sentar al paciente y monitorizar la TA. No reconocer y tratar la DA puede provocar la muerte por hemorragia intracraneal."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Comprueba tus conocimientos sobre la disfunción neurógena del tracto urinario inferior con 20 preguntas tipo examen que cubren clasificación, monitorización del tracto superior, CIL, farmacoterapia, neuromodulación y disreflexia autonómica.",
+    "questions": [
+      {
+        "id": "D2-Q1",
+        "stem": "Un varón de 28 años con lesión medular torácica T4 completa (AIS A) acude para evaluación urológica 3 meses tras la lesión. Niega síntomas urinarios. La ecografía renal muestra hidronefrosis bilateral leve (Grado 2). ¿Qué hallazgo urodinámico explica más directamente la dilatación del tracto superior?",
+        "options": {
+          "A": "Hipoactividad detrusoriana con retención urinaria y rebosamiento",
+          "B": "Hiperactividad detrusoriana con disinergia detrusor-esfínter, DLPP >40 cmH₂O",
+          "C": "Hiperactividad detrusoriana sin DDE — equivalente al patrón suprapontino",
+          "D": "Baja compliance vesical por fibrosis secundaria al uso de catéter"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La LM T4 es una lesión medular suprasacra — por debajo del puente, por encima de la médula sacra S2-S4. El centro pontino de la micción queda desconectado de la médula sacra, resultando en hiperactividad detrusoriana CON disinergia detrusor-esfínter (HD+DDE). La DDE causa la contracción simultánea del detrusor y del esfínter uretral externo, generando presiones intravesicales muy elevadas. DLPP >40 cmH₂O impulsa el reflujo ureteral e hidronefrosis — el mecanismo subyacente a la hidronefrosis bilateral Grado 2 en este paciente. Este es el grupo de ALTO riesgo para el tracto urinario superior.",
+          "wrong": {
+            "A": "La hipoactividad detrusoriana (lesión sacra MNI) causaría retención y rebosamiento pero típicamente NO genera las altas presiones intravesicales necesarias para impulsar reflujo ureteral e hidronefrosis. La lesión T4 es suprasacra — MNS, no MNI.",
+            "C": "Las lesiones suprapontinas (por encima del puente) causan HD SIN DDE — el CPM está intacto y coordina la relajación esfinteriana con la contracción vesical. Esto produce BAJO riesgo TUS. T4 está POR DEBAJO del puente — es suprasacra, produciendo HD CON DDE.",
+            "D": "La fibrosis de baja compliance derivada del uso de catéter puede desarrollarse con el tiempo pero no explica la hidronefrosis aguda a los 3 meses tras la lesión. El mecanismo primario es la HD+DDE que genera contracciones detrusorianas de alta presión contra un esfínter cerrado."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — LM suprasacra: patrón HD+DDE, umbral DLPP >40 cmH₂O para riesgo TUS, ecografía renal anual y urodinámica obligatorias",
+          "trial": "McGuire EJ et al. Prognostic value of urodynamic testing in myelodysplastic patients. J Urol 1981;126:205: DLPP >40 cmH₂O establecido como umbral para deterioro del tracto superior — artículo fundacional en neurourología",
+          "pearl": "LM T4-T12 (suprasacra) = HD + DDE = ALTO riesgo TUS. DLPP >40 cmH₂O → daño en tracto superior. LM T6+ = riesgo de disreflexia autonómica. LM sacra = DUA, sin DDE = menor riesgo TUS. Lesiones pontinas = HD sin DDE = bajo riesgo."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q2",
+        "stem": "Una mujer de 45 años con esclerosis múltiple remitente-recurrente presenta urgencia, incontinencia de urgencia (8 episodios/día) y vaciado vesical incompleto (RPM 180 mL). Ha fracasado con oxibutinina 10 mg/día por sequedad de boca intolerable. La urodinámica muestra HDN con capacidad cistométrica máxima de 220 mL, DLPP 62 cmH₂O y mala compliance (15 mL/cmH₂O). ¿Cuál es el tratamiento más adecuado?",
+        "options": {
+          "A": "Trospio cloruro 20 mg/12 h en lugar de oxibutinina",
+          "B": "Onabotulinumtoxina A intradetrusoriana 200 U (dosis HDN)",
+          "C": "Implantación de neuromodulación sacra (NMS)",
+          "D": "Cistoplastia de ampliación (ileocistoplastia)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Esta paciente tiene HDN refractaria con parámetros urodinámicos peligrosos (DLPP 62 cmH₂O >umbral 40 cmH₂O, mala compliance 15 mL/cmH₂O) y ha fracasado con un antimuscarínico. La recomendación EAU 2024 Grado A para HDN refractaria es onabotulinumtoxinA intradetrusoriana 200 U (la dosis aprobada para HDN — mayor que para VHA idiopática 100 U). El ensayo DIGNITY (Ginsberg J Urol 2012) y Cruz et al. (Eur Urol 2011) demostraron reducción significativa del DLPP, aumento de la capacidad e incontinencia reducida. Se debe informar a la paciente de que el CIL puede ser necesario tras la inyección (30–40% de los pacientes).",
+          "wrong": {
+            "A": "Cambiar a otro antimuscarínico (trospio) sería apropiado si el agente actual causara efectos secundarios intolerables y el siguiente tuviera mejor tolerabilidad. Sin embargo, el trospio pertenece a la misma clase farmacológica que la oxibutinina — la intolerancia antimuscarínica es frecuentemente un efecto de clase. Más importante, el DLPP peligroso (62 cmH₂O) con riesgo para el tracto superior requiere una intervención más definitiva que un cambio de antimuscarínico. La BoNT-A es la escalada basada en evidencia.",
+            "C": "La NMS no se recomienda para HDN por esclerosis múltiple con DLPP >40 cmH₂O como primera escalada. EAU Grado C otorga a la NMS un papel limitado en pacientes con EM seleccionados — pero la BoNT-A (Grado A) es el tratamiento establecido basado en evidencia para HDN refractaria en EM, y debe ensayarse antes de la NMS.",
+            "D": "La cistoplastia de ampliación se reserva para pacientes refractarios o no candidatos a BoNT-A — no es la primera escalada quirúrgica. Es un procedimiento mayor irreversible que requiere CIL de por vida, seguimiento metabólico e irrigación vesical. La BoNT-A (reversible, repetible, menos invasiva) debe ensayarse primero."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — HDN refractaria: BoNT-A 200 U intradetrusoriana Grado A tras fracaso antimuscarínico; ampliación reservada para fracaso de BoNT-A",
+          "trial": "Ginsberg D et al. Ensayo DIGNITY. J Urol 2012;187:2131: OnabotulinumtoxinA 200 U vs placebo en HDN — redujo episodios de IU 53,3% vs 18,2% (p<0,001), aumentó capacidad cistométrica +111 mL (p<0,001)",
+          "pearl": "HDN refractaria (fracaso antimuscarínico) + DLPP >40 cmH₂O = OnabotulinumtoxinA 200 U intradetrusoriana (Grado A, EAU 2024). Dosis HDN = 200 U (NO 100 U — esa es la dosis para VHA idiopática). CIL requerido en 30–40% tras la inyección."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q3",
+        "stem": "El cateterismo intermitente limpio (CIL) fue descrito por primera vez por qué estudio, y ¿cuál fue la evidencia clave que apoyó el CIL frente al catéter permanente para el manejo a largo plazo de la vejiga neurógena?",
+        "options": {
+          "A": "Lapides et al. (J Urol 1972) — estableció el autocateterismo limpio (no estéril), demostró seguridad y menor tasa de ITU comparado con el miedo previo a la infección con técnica no estéril",
+          "B": "Weld y Dmochowski (J Urol 2000) — ECA que demostró la superioridad del CIL sobre el catéter permanente para resultados del TUS a largo plazo en LM",
+          "C": "McGuire et al. (J Urol 1981) — demostraron que DLPP >40 cmH₂O es el umbral crítico para iniciar CIL",
+          "D": "Cruz et al. (Eur Urol 2011) — demostraron que la BoNT-A combinada con CIL reduce el deterioro del TUS"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Jack Lapides et al. (J Urol 1972) introdujeron el concepto del autocateterismo intermitente limpio (no estéril), demostrando que una técnica limpia con un catéter reutilizable era segura y no conducía a tasas peligrosas de infección. Esto fue revolucionario — antes de Lapides, el dogma exigía técnica estéril para el cateterismo, lo que hacía inviable el automanejo. El trabajo de Lapides permitió el automanejo de la vejiga neurógena en pacientes ambulatorios, transformando la vida de los pacientes con LM, mielomeningocele y EM.",
+          "wrong": {
+            "B": "Weld y Dmochowski (J Urol 2000) fue un estudio observacional prospectivo (no ECA) que demostró que el CIL tenía las tasas más bajas de complicaciones del TUS comparado con otros métodos de manejo vesical en 316 pacientes con LM. Apoyó la superioridad del CIL pero no fue el artículo fundacional que introdujo el CIL.",
+            "C": "McGuire et al. (J Urol 1981) estableció el umbral DLPP >40 cmH₂O para riesgo del TUS en pacientes con mielodisplasia — un artículo crítico para entender cuándo el CIL es urgentemente necesario, pero no el artículo que introdujo el CIL.",
+            "D": "Cruz et al. (Eur Urol 2011) fue el ensayo de Fase 3 de BoNT-A para HDN — demostrando la eficacia de BoNT-A para HDN, no el artículo que introdujo el CIL."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — CIL: recomendación Grado A, basada en Lapides 1972 y evidencia comparativa posterior (Weld 2000)",
+          "trial": "Lapides J et al. Clean, intermittent self-catheterization in the treatment of urinary tract disease. J Urol 1972;107:458: artículo fundacional que establece el CIL como seguro, práctico y eficaz para el manejo de la vejiga neurógena",
+          "pearl": "CIL introducido por Lapides J Urol 1972 — técnica limpia (no estéril) es segura. Weld J Urol 2000 — CIL tiene las tasas más bajas de complicaciones del TUS vs catéter permanente en LM. EAU Grado A: CIL preferido sobre todos los métodos de catéter permanente para pacientes capaces."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D2-Q4",
+        "stem": "Un varón de 72 años con enfermedad de Parkinson presenta incontinencia de urgencia (6 episodios/día) y nocturia ×4. Toma levodopa/carbidopa 200/50 mg/8 h. La urodinámica muestra hiperactividad detrusoriana con primera sensación a 80 mL, capacidad cistométrica máxima 250 mL, sin DDE, y Qmax 14 mL/s con RPM 45 mL. ¿Qué agente farmacológico es preferido para su VHA, y por qué?",
+        "options": {
+          "A": "Oxibutinina LI 5 mg/8 h — antimuscarínico más eficaz",
+          "B": "Mirabegrón 50 mg/día — agonista beta-3 preferido que evita el empeoramiento cognitivo anticolinérgico en la EP",
+          "C": "Trospio cloruro 20 mg/12 h — antimuscarínico con baja penetración SNC, apropiado en Parkinson",
+          "D": "Darifenacina 7,5 mg/día — antimuscarínico selectivo M3, evita efectos dopaminérgicos"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "En la enfermedad de Parkinson, la degeneración dopaminérgica de la sustancia negra ya deteriora la función cognitiva. Los antimuscarínicos con penetración SNC (especialmente oxibutinina — alta penetración SNC, puntuación ACB 3) empeoran la función cognitiva y pueden precipitar o agravar síntomas de demencia. El mirabegrón (agonista del adrenoceptor beta-3) actúa periféricamente en la vejiga y no tiene efectos anticolinérgicos/cognitivos — es el agente preferido para la VHA en pacientes con enfermedad de Parkinson y otros estados de deterioro cognitivo. EAU 2024 recomienda explícitamente el mirabegrón sobre los antimuscarínicos en pacientes con deterioro cognitivo.",
+          "wrong": {
+            "A": "La oxibutinina tiene la mayor penetración SNC de todos los antimuscarínicos (puntuación ACB 3 — alta carga anticolinérgica). Es la peor elección para un paciente con Parkinson y debe evitarse en todos los pacientes ancianos y con deterioro cognitivo.",
+            "C": "El trospio cloruro es un compuesto de amonio cuaternario con escasa penetración de la barrera hematoencefálica — es el antimuscarínico más seguro desde la perspectiva del SNC. Sin embargo, en este contexto específico de un paciente con Parkinson, el mirabegrón es igualmente preferido porque evita completamente la carga farmacológica anticolinérgica, importante en Parkinson donde el manejo de la carga anticolinérgica total es crítico.",
+            "D": "La darifenacina es selectiva M3 y tiene penetración SNC moderada (mejor que oxibutinina pero no tan baja como trospio). No es la elección preferida para Parkinson. El mirabegrón evita la clase anticolinérgica por completo."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Farmacoterapia para VHA en enfermedad de Parkinson: mirabegrón preferido; antimuscarínicos con alta penetración SNC (oxibutinina) contraindicados",
+          "trial": "Wagg A et al. Pharmacological treatment of the overactive bladder syndrome in older patients. Drugs Aging 2015;32:137: mirabegrón recomendado como farmacoterapia preferida para VHA en ancianos y pacientes con deterioro cognitivo; oxibutinina con mayor riesgo de caídas y cognitivo",
+          "pearl": "Parkinson + VHA = MIRABEGRÓN (agonista beta-3, sin efectos SNC). Evitar oxibutinina (puntuación ACB 3, mayor penetración SNC, empeora cognición en EP). Trospio = antimuscarínico más seguro (sin penetración BHE) pero mirabegrón aún preferido en EP."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q5",
+        "stem": "El ECA SUMIT (Peters et al., J Urol 2010) evaluó la estimulación del nervio tibial posterior (ENTP) para VHA refractaria. ¿Cuáles fueron los hallazgos de eficacia clave comparados con la estimulación simulada?",
+        "options": {
+          "A": "ENTP 35% vs simulada 30% de respuesta global — sin diferencia significativa",
+          "B": "ENTP 54,5% vs simulada 20,9% de respuesta 'moderada o marcadamente mejorada' (p<0,001)",
+          "C": "ENTP 75% vs simulada 20% — superioridad muy significativa",
+          "D": "ENTP equivalente a oxibutinina 5 mg/12 h — demostrado en comparación directa"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ECA SUMIT (Peters et al., J Urol 2010) incluyó 220 pacientes con VHA refractaria aleatorizados a ENTP semanal durante 12 semanas (sesiones percutáneas de 30 min en el tobillo) vs estimulación simulada. El criterio de valoración principal — 'moderada o marcadamente mejorada' en la Evaluación de Respuesta Global (GRA) — se alcanzó en el 54,5% con ENTP vs el 20,9% con simulación (p<0,001), estableciendo la eficacia de la ENTP como opción de neuromodulación para VHA refractaria.",
+          "wrong": {
+            "A": "Una respuesta del 35% vs 30% sin diferencia significativa no apoyaría el uso de la ENTP. El resultado real del SUMIT mostró una diferencia grande y muy significativa (54,5% vs 20,9%).",
+            "C": "El 75% vs 20% sobreestimaría la tasa de respuesta de la ENTP. La tasa real del 54,5% de 'moderada o marcadamente mejorada' es la cifra correcta del ensayo SUMIT.",
+            "D": "SUMIT comparó ENTP con estimulación SIMULADA (no con un control farmacológico activo como oxibutinina). El ensayo OrBIT (Sherif L, 2010) comparó ENTP con tolterodina de liberación prolongada mostrando eficacia equivalente en VHA — pero ese es un ensayo diferente. SUMIT fue ENTP vs simulado."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — ENTP para VHA refractaria: evidencia Grado A basada en ECA SUMIT; sesiones semanales de 30 min × 12 semanas de inducción y mantenimiento mensual",
+          "trial": "Peters KM et al. ECA SUMIT. J Urol 2010;183:1438–1443: ENTP 54,5% vs simulado 20,9% moderada/marcadamente mejorado (p<0,001) — ensayo histórico que establece la eficacia de la ENTP para VHA refractaria",
+          "pearl": "ECA SUMIT (Peters J Urol 2010): ENTP 54,5% vs simulado 20,9% de respuesta (p<0,001). Protocolo: sesiones semanales de 30 min en tobillo × 12 semanas, luego mantenimiento mensual. EAU Grado A para VHA refractaria. Preferida sobre NMS en pacientes frágiles/ancianos (sin cirugía)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q6",
+        "stem": "¿Cuál es la complicación a largo plazo más frecuente de la cistoplastia de ampliación ileal (ileocistoplastia) desde el punto de vista metabólico?",
+        "options": {
+          "A": "Alcalosis metabólica hipopotasémica",
+          "B": "Acidosis metabólica hiperclorémica",
+          "C": "Alcalosis metabólica hiponatrémica",
+          "D": "Nefrocalcinosis hipercalcémica"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los segmentos ileales en contacto con la orina reabsorben cloruro (y amonio) y secretan bicarbonato a través de la mucosa ileal. Esto produce acidosis metabólica hiperclorémica con anión gap normal — la complicación metabólica más frecuente y clínicamente significativa de la ileocistoplastia. Se agrava con la insuficiencia renal (menor regeneración de bicarbonato), el tiempo prolongado de contacto con la orina (frecuencia insuficiente de CIL) y la longitud del segmento intestinal. Tratamiento: suplementación oral con bicarbonato sódico o citrato potásico; monitorización anual de electrolitos y bicarbonato sérico.",
+          "wrong": {
+            "A": "La alcalosis metabólica hipopotasémica ocurriría con la gastrocistoplastia (cistoplastia gástrica — rara, histórica) donde la secreción de ácido gástrico por el segmento estomacal causa alcalosis metabólica. Los segmentos ileales causan ACIDOSIS.",
+            "C": "La alcalosis metabólica hiponatrémica no es una complicación reconocida de la ileocistoplastia. El manejo del sodio en la ampliación ileal no suele causar hiponatremia como complicación metabólica.",
+            "D": "La nefrocalcinosis hipercalcémica no es una complicación específica de la ileocistoplastia. El déficit de vitamina B12 (por el segmento ileal terminal) y la acidosis metabólica (con efectos secundarios sobre la densidad mineral ósea) son las complicaciones metabólicas reconocidas."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Cistoplastia de ampliación: monitorización metabólica obligatoria; acidosis hiperclorémica: electrolitos séricos anuales, bicarbonato, vitamina B12",
+          "trial": "Hautmann RE. Urinary diversion: ileal conduit to neobladder. J Urol 2003;169:834: revisión exhaustiva de las complicaciones metabólicas de los segmentos intestinales ileales en la reconstrucción del tracto urinario",
+          "pearl": "Complicación metabólica de ileocistoplastia = ACIDOSIS METABÓLICA hiperclorémica (la mucosa ileal reabsorbe Cl⁻, secreta HCO₃⁻). Monitorización: HCO₃⁻ sérico anual, creatinina, vitamina B12. Tratamiento: bicarbonato sódico oral o K-citrato. También monitorizar litiasis vesical (moco + vaciado incompleto)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q7",
+        "stem": "Un varón de 35 años con LM torácica T5 completa (AIS A) se somete a cistoscopia flexible para investigar hematuria. Durante el procedimiento, refiere cefalea pulsátil intensa y se detecta una tensión arterial de 210/115 mmHg (basal ~100/60 mmHg en pacientes con LM). ¿Cuál es el diagnóstico y el manejo inmediato correcto?",
+        "options": {
+          "A": "Urgencia hipertensiva por hipertensión esencial preexistente — administrar amlodipino oral 5 mg",
+          "B": "Disreflexia autonómica — sentar al paciente erguido, detener el procedimiento, vaciar la vejiga, administrar NTG sublingual o nifedipino si la TA permanece elevada",
+          "C": "Hipertensión relacionada con ansiedad — tranquilizar al paciente y monitorizar",
+          "D": "Interacción farmacológica entre el anestésico local y la medicación antiespástica"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Esta es una presentación clásica de disreflexia autonómica (DA): LM T5 (por encima del umbral T6), procedimiento que distiende la vejiga, cefalea pulsátil intensa y elevación masiva de la TA (>20 mmHg por encima de la basal — en pacientes con LM, la TA en reposo es frecuentemente 90–110/60 mmHg, por lo que 210/115 mmHg representa un episodio de DA peligroso). Manejo inmediato: (1) sentar al paciente erguido (caída ortostática de la TA), (2) DETENER el procedimiento, (3) vaciar inmediatamente la vejiga, (4) monitorizar la TA continuamente, (5) si la sistólica permanece >150 mmHg tras el vaciado, administrar spray de NTG sublingual o nifedipino 10 mg sublingual.",
+          "wrong": {
+            "A": "Esto no es hipertensión preexistente — el contexto clínico (procedimiento en LM, cefalea, TA basal de ~100/60) es diagnóstico de DA. El amlodipino oral tiene inicio de acción retardado (horas) — no es apropiado para el tratamiento de urgencia de la DA. Continuar el procedimiento sería peligroso.",
+            "C": "La ansiedad no causa 210/115 mmHg de hipertensión en el contexto de un procedimiento cistoscópico en un paciente con LM T5 con cefalea intensa. Se trata de DA hasta que se demuestre lo contrario y requiere intervención inmediata.",
+            "D": "No existe ninguna interacción bien reconocida entre el gel lubricante anestésico uretral y la medicación antiespástica que cause crisis hipertensiva. El cuadro clínico es diagnóstico de DA."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Disreflexia autonómica: protocolo de urgencia; toda LM a nivel T6 o superior requiere monitorización de DA durante procedimientos urológicos; algoritmo de manejo inmediato de la TA",
+          "trial": "Consortium for Spinal Cord Medicine. Autonomic Dysreflexia: A Medical Emergency in Spinal Cord Injury. J Spinal Cord Med 2002;25:316: guías clínicas basadas en evidencia para el reconocimiento y manejo de la DA — referencia definitiva de DA",
+          "pearl": "Disreflexia autonómica (DA): LM ≥T6 + estímulo nocivo por debajo del nivel de lesión → descarga simpática masiva → TA ≥200/115, cefalea pulsátil. DETENER procedimiento → sentar → vaciar vejiga → NTG o nifedipino sublingual si TAS >150 persiste. EMERGENCIA POTENCIALMENTE MORTAL."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q8",
+        "stem": "La videourodinámica (VUD) se considera la exploración de referencia para caracterizar la disfunción neurógena del tracto urinario inferior. ¿Qué combinación de parámetros está disponible únicamente en la VUD pero NO en la urodinámica estándar (cistometría sola)?",
+        "options": {
+          "A": "Presión de fuga del detrusor y capacidad cistométrica máxima",
+          "B": "Visualización simultánea del reflujo vesicoureteral, trabeculación y morfología vesical durante el llenado",
+          "C": "Relación presión-flujo durante el vaciado (PdetQmax)",
+          "D": "Perfil de presión uretral y longitud funcional uretral"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La videourodinámica (VUD) combina imagen fluoroscópica en tiempo real del tracto urinario inferior y superior con mediciones simultáneas de presión-flujo urodinámico. Esto permite identificar características no visibles en la urodinámica estándar: reflujo vesicoureteral (que ocurre a presiones intravesicales específicas — la presión de reflujo puede determinarse con precisión), trabeculación vesical (que indica almacenamiento de alta presión), cambios morfológicos vesicales (celdillas, divertículos), comportamiento del cuello vesical, actividad uretral durante el vaciado (visualización de DDE en fluoroscopia) y cambios sincrónicos del tracto superior. Estos hallazgos estructurales son críticos para la estratificación del riesgo del TUS en pacientes neurógenos.",
+          "wrong": {
+            "A": "El DLPP y la capacidad cistométrica máxima son parámetros urodinámicos estándar medibles con cistometría multicanal convencional — no requieren videofluoroscopia.",
+            "C": "La relación presión-flujo (PdetQmax) durante el vaciado es un parámetro estándar de cistometría de llenado + flujometría urinaria — no requiere fluoroscopia simultánea.",
+            "D": "El perfil de presión uretral (PPU) se mide mediante retirada del catéter de perfilometría uretral — una técnica urodinámica accesoria estándar, que no requiere videourodinámica."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — VUD: patrón oro para caracterización de DNTUI; identifica de forma única RVU, cambios morfológicos vesicales, DDE en fluoroscopia, cambios del tracto superior durante el llenado",
+          "trial": "Stöhrer M et al. EAU guidelines for neuro-urological management of SCI. Eur Urol 2009;56:234: VUD descrita como exploración estándar para la caracterización integral de la vejiga neurógena incluyendo valoración del tracto superior",
+          "pearl": "VUD = urodinámica + fluoroscopia simultáneamente. Muestra de forma única: RVU (a qué presión de llenado), severidad de trabeculación, divertículos vesicales, DDE en fluoroscopia (el esfínter se cierra durante la contracción del detrusor). La UDS estándar sola no puede valorar RVU ni morfología vesical."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q9",
+        "stem": "Una mujer de 26 años con mielomeningocele e implicación medular sacra presenta en la urodinámica una vejiga acontráctil con capacidad cistométrica máxima de 580 mL, compliance vesical de 45 mL/cmH₂O, DLPP 18 cmH₂O, RPM 520 mL y sin actividad detrusoriana durante el llenado. ¿Cuál es la recomendación principal de tratamiento?",
+        "options": {
+          "A": "Tratamiento anticolinérgico para reducir las contracciones vesicales",
+          "B": "Cateterismo intermitente limpio (CIL) cada 4–6 horas",
+          "C": "Catéter uretral permanente para drenaje continuo",
+          "D": "Ampliación vesical para reducir el riesgo de reflujo de alta presión"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El mielomeningocele sacro causa un patrón de MNI — vejiga acontráctil (sin actividad detrusoriana) con una vejiga grande, distensible, de baja presión y retención urinaria. Este patrón tiene bajo riesgo para el TUS (DLPP 18 cmH₂O muy por debajo del umbral de 40 cmH₂O) pero causa retención urinaria significativa (RPM 520 mL) con riesgo de incontinencia por rebosamiento e ITU. El CIL es el tratamiento de referencia — el vaciado vesical completo regular previene la ITU, mantiene la capacidad vesical y preserva la función del tracto superior. Los antimuscarínicos son para la hiperactividad detrusoriana — completamente inapropiados para una vejiga acontráctil.",
+          "wrong": {
+            "A": "Los antimuscarínicos reducen la contractilidad detrusoriana — administrarlos a una paciente con una vejiga ya acontráctil empeoraría la retención urinaria sin ningún beneficio terapéutico. Es un error peligroso.",
+            "C": "El catéter uretral permanente (CUP) tiene tasas de complicaciones a largo plazo más altas que el CIL (daño uretral, hipospadias, estenosis, riesgo de cáncer de vejiga con >10 años de uso, tasas más altas de ITU). El CIL es preferido para todos los pacientes capaces.",
+            "D": "La cistoplastia de ampliación se reserva para vejigas de alta presión y baja compliance (DLPP >40 cmH₂O, compliance <20 mL/cmH₂O). Esta paciente tiene excelente compliance (45 mL/cmH₂O) y DLPP bajo (18 cmH₂O) — la ampliación no está indicada y sería una operación mayor innecesaria."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Vejiga acontráctil (sacra/MNI): CIL Grado A primera línea; CUP solo cuando el CIL no es posible; ampliación solo para vejiga de alta presión/baja compliance",
+          "trial": "Lapides J et al. J Urol 1972;107:458: CIL para DUA/vejiga acontráctil neurógena — evidencia fundacional del CIL en vejiga neurógena por MNI",
+          "pearl": "Vejiga acontráctil + RPM elevado = CIL cada 4–6 horas. NO prescribir antimuscarínicos (empeoran la retención), NO insertar CUP (más complicaciones que CIL). Ampliación solo si alta presión y baja compliance (DLPP >40, compliance <20 mL/cmH₂O)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D2-Q10",
+        "stem": "¿En qué grupo de pacientes no se recomienda específicamente la neuromodulación sacra (NMS) según las Guías EAU 2024 de Neurourología?",
+        "options": {
+          "A": "Esclerosis múltiple con lesión incompleta y VHA refractaria",
+          "B": "Lesión medular completa (AIS A) con hiperactividad detrusoriana neurógena",
+          "C": "Enfermedad de Parkinson con VHA refractaria sin respuesta a antimuscarínicos",
+          "D": "Vejiga hiperactiva idiopática refractaria a farmacoterapia"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Las Guías EAU 2024 de Neurourología señalan específicamente que la evidencia de la NMS es escasa y los resultados son impredecibles en pacientes con lesión medular completa (AIS A — lesión motora y sensorial completa). El mecanismo de la NMS se basa en circuitos neurales intactos (especialmente la señalización aferente y la modulación supraespinal), que están ausentes en la LM completa. La NMS no se recomienda para LM completa. En cambio, LM incompleta, esclerosis múltiple y enfermedad de Parkinson tienen suficiente conectividad neural intacta para que la NMS pueda funcionar.",
+          "wrong": {
+            "A": "La esclerosis múltiple con lesión incompleta y VHA refractaria es una indicación apropiada (aunque con evidencia limitada, Grado C) para la NMS. Los pacientes con EM con arcos reflejos sacros intactos pueden responder a la NMS.",
+            "C": "La enfermedad de Parkinson con VHA refractaria es una posible indicación de NMS (Grado C EAU). Las vías supraespinales están alteradas pero el arco reflejo sacro y las vías aferentes periféricas están intactas en Parkinson, haciendo que la NMS sea potencialmente eficaz.",
+            "D": "La VHA idiopática refractaria a farmacoterapia es la indicación primaria aprobada para la NMS — recomendación Grado A, aprobada por FDA. Es la indicación de NMS con mayor nivel de evidencia."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — NMS contraindicada en LM completa (AIS A); evidencia insuficiente para lesiones bilaterales completas; Grado C para LM incompleta y EM",
+          "trial": "Blok B et al. EAU Neuro-Urology Guidelines 2024: recomendación específica contra NMS en LM completa basada en evidencia insuficiente y resultados impredecibles en tractos inferiores denervados",
+          "pearl": "NMS NO recomendada: LM completa (AIS A) — sin circuitos neurales intactos para modulación. NMS SÍ recomendada: VHA idiopática (Grado A), LM incompleta (Grado C), EM con lesión incompleta (Grado C), VHA en Parkinson (Grado C)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q11",
+        "stem": "Un varón de 30 años con LM torácica T10 (AIS B) inicia CIL. El urólogo le aconseja realizar CIL cada 4–6 horas y limitar la ingesta de líquidos a aproximadamente 2 litros/día. ¿Cuál es el volumen máximo aceptable cateterizado por sesión de CIL para prevenir daño en el tracto superior?",
+        "options": {
+          "A": "Cualquier volumen es aceptable — la frecuencia del CIL es el único determinante",
+          "B": "400–500 mL por sesión — volúmenes superiores a 500 mL sugieren que la frecuencia del CIL debe aumentar",
+          "C": "200 mL máximo — volúmenes superiores a 200 mL indican descompensación vesical",
+          "D": "1000 mL — la vejiga puede almacenar grandes volúmenes con seguridad si el CIL se realiza regularmente"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El volumen objetivo del CIL es 300–400 mL por cateterización, con un volumen máximo aceptable de aproximadamente 400–500 mL. Esto corresponde a la capacidad vesical en la que la presión intravesical permanece por debajo del DLPP <40 cmH₂O en la mayoría de los pacientes neurógenos con vejigas distensibles. Volúmenes consistentemente elevados (>500 mL) indican que la frecuencia del CIL debe aumentar, o que es necesaria una reducción de la ingesta de líquidos. Los grandes volúmenes cateterizados sugieren que la vejiga ha sido sobredistendida crónicamente entre cateterizaciones, con riesgo de almacenamiento de alta presión y daño en el TUS.",
+          "wrong": {
+            "A": "El volumen del CIL es críticamente importante — los grandes volúmenes entre cateterizaciones indican que la vejiga está sobrellena, con la presión intravesical potencialmente superando el umbral DLPP. Tanto la frecuencia como el volumen deben monitorizarse.",
+            "C": "200 mL es demasiado restrictivo — exigir CIL cuando los volúmenes son solo 200 mL requeriría 8–10 cateterizaciones diarias, lo que es impracticable e innecesariamente disruptivo. Los volúmenes objetivo de 300–500 mL con intervalos de 4–6 horas son apropiados.",
+            "D": "Permitir volúmenes de 1000 mL es peligroso — en pacientes neurógenos con HD+DDE, los volúmenes >500 mL pueden generar DLPP >40 cmH₂O con riesgo de daño en el TUS. Los grandes volúmenes de almacenamiento también aumentan el riesgo de ITU por orina estancada."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Manejo del CIL: volumen objetivo cateterizado 300–400 mL; máximo 400–500 mL; restricción de líquidos a 2 L/día para mantener volúmenes de CIL predecibles",
+          "trial": "Weld KJ, Dmochowski RR. J Urol 2000;163:768: principios de manejo de la frecuencia y el volumen vesical del CIL en vejiga neurógena — volúmenes máximos aceptables para mantener DLPP seguro",
+          "pearl": "Volumen objetivo del CIL: 300–400 mL por sesión. Máximo: 400–500 mL. Volúmenes >500 mL = frecuencia del CIL demasiado baja → aumentar frecuencia o reducir ingesta de líquidos. Restricción de líquidos a 2 L/día mantiene intervalos predecibles de CIL de 4–6 horas."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q12",
+        "stem": "El ensayo DIGNITY de Fase 3 (Ginsberg et al., J Urol 2012) examinó la onabotulinumtoxinA para la hiperactividad detrusoriana neurógena. ¿Qué dosis de onabotulinumtoxinA se utilizó para HDN y en qué difiere de la dosis aprobada para VHA idiopática?",
+        "options": {
+          "A": "HDN: 100 U; VHA idiopática: 200 U — dosis menor para neurógena",
+          "B": "HDN: 200 U; VHA idiopática: 100 U — dosis mayor para neurógena",
+          "C": "Ambas condiciones: 100 U — misma dosis independientemente de la etiología",
+          "D": "HDN: 300 U; VHA idiopática: 200 U — escalada de dosis necesaria para neurógena"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La dosis aprobada y basada en evidencia para HDN es 200 U de onabotulinumtoxinA (BOTOX), comparado con 100 U para VHA idiopática. Esta dosis mayor refleja la mayor gravedad de la hiperactividad detrusoriana neurógena, la mayor masa del músculo detrusor (frecuentemente hipertrofiado) y las anormalidades urodinámicas más graves. El ensayo DIGNITY (Ginsberg 2012) y Cruz et al. (Eur Urol 2011) ambos utilizaron 200 U para HDN y demostraron eficacia significativa. Una consecuencia importante de la dosis mayor: la retención urinaria que requiere CIL ocurre en el 30–40% de los pacientes con HDN (vs ~6% en VHA idiopática con 100 U).",
+          "wrong": {
+            "A": "Esto es lo inverso de las dosis correctas. HDN usa la dosis MAYOR (200 U), no 100 U. Usar 100 U para HDN sería una infradosificación para una condición más grave.",
+            "C": "Las dosis NO son las mismas — 200 U para HDN, 100 U para VHA idiopática. Confundir estas dosis es un error clínico significativo y una trampa frecuente en los exámenes.",
+            "D": "300 U no es la dosis aprobada para HDN. La dosis aprobada por FDA/EMA para HDN es 200 U; 300 U sería uso extraoficial y se asociaría con tasas de retención inaceptablemente altas."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 y Neuro-Urology 2024 — OnabotulinumtoxinA: HDN 200 U (FDA/EMA aprobado 2011); VHA idiopática 100 U (FDA/EMA aprobado 2013)",
+          "trial": "Ginsberg D et al. Ensayo DIGNITY. J Urol 2012;187:2131: 200 U OnabotulinumtoxinA para HDN — ECA de Fase 3 que establece 200 U como dosis aprobada; Cruz F et al. Eur Urol 2011;60:742 — ensayo confirmatorio de Fase 3 simultáneo con 200 U",
+          "pearl": "Dosis de OnabotulinumtoxinA: HDN = 200 U (MAYOR); VHA idiopática = 100 U (MENOR). Confundirlas es un error clásico de examen. HDN 200 U: retención que requiere CIL en 30–40%. VHA idiopática 100 U: retención ~6%."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D2-Q13",
+        "stem": "Un varón de 22 años con mielomeningocele y ileocistoplastia de ampliación realizada a los 14 años presenta dolor pélvico crónico y hematuria. Ha realizado CIL 4–5 veces/día. La cistoscopia muestra una masa en la anastomosis vesicointestinal. La biopsia confirma adenocarcinoma. ¿Cuál fue la medida de vigilancia más importante que se omitió en su seguimiento postampliación?",
+        "options": {
+          "A": "Ecografía renal anual",
+          "B": "Vigilancia cistoscópica anual comenzando 10 años después de la ampliación",
+          "C": "Citología urinaria anual",
+          "D": "Vitamina B12 sérica anual"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La cistoplastia de ampliación conlleva un riesgo pequeño pero real de adenocarcinoma a largo plazo en la anastomosis intestino-vejiga (vesicointestinal) — aproximadamente 1% a los 10 años, aumentando con el tiempo. Las guías EAU 2024 recomiendan vigilancia cistoscópica anual con biopsias de la anastomosis intestino-vejiga comenzando desde los 10 años tras la ampliación. Este paciente tuvo la ampliación a los 14 años y ahora tiene 22 — a los 8 años del procedimiento, la vigilancia cistoscópica anual debería haber comenzado en el año 10 (o antes si hubiera síntomas, como en este caso con hematuria). La hematuria en un paciente con ampliación siempre debe motivar una cistoscopia urgente.",
+          "wrong": {
+            "A": "La ecografía renal anual es importante para la vigilancia del TUS postampliación pero no detectaría una lesión mucosa vesical en la anastomosis vesicointestinal. Se requiere cistoscopia para visualización directa.",
+            "C": "La citología urinaria tiene escasa sensibilidad para el adenocarcinoma — es más útil para el carcinoma de células transicionales (cáncer urotelial). La biopsia cistoscópica es necesaria para el diagnóstico definitivo y es la modalidad de vigilancia recomendada.",
+            "D": "La vitamina B12 anual es importante para detectar el agotamiento del segmento ileal terminal (absorción deteriorada de B12) pero no detectaría la transformación maligna en la anastomosis."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Seguimiento a largo plazo de cistoplastia de ampliación: cistoscopia anual con biopsia de anastomosis vesicointestinal a partir de los 10 años de la cirugía para vigilancia de adenocarcinoma",
+          "trial": "Soergel TM et al. Complications of bladder augmentation. J Pediatr Urol 2004;1:91: riesgo de adenocarcinoma ~1% a los 10 años postileocistoplastia; vigilancia cistoscópica anual recomendada tras los 10 años",
+          "pearl": "Cistoplastia de ampliación → riesgo de adenocarcinoma ~1% a los 10 años en la anastomosis vesicointestinal. Cistoscopia anual con biopsias de anastomosis a partir de los 10 años postcirugía. Cualquier hematuria en un paciente ampliado = cistoscopia urgente, independientemente del tiempo transcurrido desde la cirugía."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D2-Q14",
+        "stem": "Un paciente con LM torácica T6 presenta hiperactividad detrusoriana con DDE en urodinámica. El DLPP es de 72 cmH₂O. Tras iniciar oxibutinina 15 mg/día y CIL, un estudio urodinámico de seguimiento a los 6 meses muestra DLPP 55 cmH₂O. ¿Cuál es el siguiente paso de manejo apropiado según EAU 2024?",
+        "options": {
+          "A": "Añadir mirabegrón 50 mg/día al régimen de oxibutinina existente",
+          "B": "Onabotulinumtoxina A intradetrusoriana 200 U (dosis HDN)",
+          "C": "Aumentar la dosis de oxibutinina a 20 mg/día",
+          "D": "Cistoplastia de ampliación inmediata"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El paciente ha fracasado con el tratamiento antimuscarínico a dosis máxima (DLPP permanece por encima del umbral de 40 cmH₂O a 55 cmH₂O con oxibutinina 15 mg/día). El siguiente paso basado en evidencia Grado A de EAU 2024 para HDN refractaria tras fracaso antimuscarínico es onabotulinumtoxinA intradetrusoriana 200 U. Este paso debe realizarse ANTES de escalar a cistoplastia de ampliación, que se reserva para el fracaso de BoNT-A. El objetivo sigue siendo DLPP <40 cmH₂O para proteger el tracto urinario superior.",
+          "wrong": {
+            "A": "Añadir mirabegrón a oxibutinina tiene alguna evidencia de eficacia aditiva en VHA idiopática (ensayo BEYOND) y es una opción EAU Grado B. Sin embargo, para un paciente con riesgo peligroso del TUS (DLPP 55 cmH₂O a pesar de antimuscarínico a dosis máxima) y fracaso de oxibutinina a dosis máxima, es poco probable que la farmacoterapia combinada alcance el objetivo DLPP <40 cmH₂O. La BoNT-A (Grado A) es la siguiente escalada definitiva apropiada.",
+            "C": "La oxibutinina a 20 mg/día supera la dosis máxima autorizada (15 mg/día), sería uso extraoficial y añadiría toxicidad anticolinérgica significativa sin beneficio terapéutico adicional significativo. Se han ensayado antimuscarínicos a dosis máxima — la escalada debe ser a BoNT-A.",
+            "D": "La cistoplastia de ampliación se reserva para pacientes que han fracasado con BoNT-A, no como paso inmediato tras fracaso antimuscarínico. La escala de tratamiento EAU 2024: antimuscarínicos → BoNT-A → cistoplastia de ampliación. Proceder directamente a cistoplastia de ampliación omitiría un paso menos invasivo y muy eficaz."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Algoritmo de manejo de HDN: (1) antimuscarínicos + CIL, (2) BoNT-A 200 U si fracaso antimuscarínico, (3) cistoplastia de ampliación si fracaso de BoNT-A",
+          "trial": "Cruz F et al. Eur Urol 2011;60:742: BoNT-A 200 U para HDN tras fracaso antimuscarínico — reducción significativa del DLPP y mejora de la incontinencia en ECA de Fase 3 — apoya la escalada a BoNT-A antes de cirugía",
+          "pearl": "Escala de manejo de HDN: antimuscarínicos + CIL → BoNT-A 200 U → cistoplastia de ampliación. NO saltar a cirugía antes de BoNT-A. Objetivo DLPP <40 cmH₂O en cada paso. DLPP >40 cmH₂O a pesar del tratamiento = escalar."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q15",
+        "stem": "¿Cuál de los siguientes pacientes con vejiga neurógena debe recibir tratamiento antibiótico para la bacteriuria asintomática (BA)?",
+        "options": {
+          "A": "Varón de 40 años con LM T6 que realiza CIL con E. coli >10⁵ UFC/mL en urocultivo de vigilancia, sin fiebre ni síntomas sistémicos",
+          "B": "Mujer de 28 años con mielomeningocele que realiza CIL y está embarazada de 12 semanas, con Klebsiella >10⁵ UFC/mL en cultivo rutinario",
+          "C": "Paciente de 55 años con EM con catéter suprapúbico permanente y E. coli 10⁴ UFC/mL, sin síntomas",
+          "D": "Varón de 65 años con cistopatía diabética en CIL con cultivo mixto de enterococo y E. coli, sin fiebre"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La ÚNICA indicación para tratar la bacteriuria asintomática en pacientes cateterizados neurógenos es el EMBARAZO. Las guías IDSA y EAU recomiendan tratar la BA en mujeres embarazadas independientemente del uso de catéter — la BA no tratada en el embarazo conlleva riesgo de pielonefritis ascendente, parto prematuro y bajo peso al nacer. Todos los demás escenarios (pacientes cateterizados no embarazadas con BA, independientemente del organismo o recuento) NO deben recibir antibióticos para BA.",
+          "wrong": {
+            "A": "La BA en un paciente en CIL sin síntomas NO requiere tratamiento. El tratamiento de la BA en pacientes con LM promueve la colonización por organismos multirresistentes. EAU e IDSA recomiendan explícitamente no tratar la BA en pacientes cateterizados salvo en embarazo, procedimientos urológicos con riesgo de sangrado mucoso o inmediatamente antes de cirugía.",
+            "C": "Los catéteres permanentes invariablemente causan bacteriuria; el tratamiento de la BA en pacientes cateterizados ha demostrado aumentar la resistencia antibiótica sin beneficio clínico. La ITU sintomática (fiebre, aumento de la espasticidad, orina turbia maloliente) requiere tratamiento — no la BA sola.",
+            "D": "La BA con cultivo mixto en un paciente en CIL sin fiebre ni síntomas sistémicos = no requiere tratamiento. Los cultivos mixtos frecuentemente reflejan contaminación o colonización. Solo tratar cuando hay evidencia sistémica de infección."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 e IDSA Guidelines on ASB: tratar BA SOLO en embarazo; NO tratar BA en pacientes cateterizados neurógenos no embarazadas",
+          "trial": "Hooton TM et al. IDSA Clinical Practice Guideline for the Diagnosis and Treatment of Asymptomatic Bacteriuria. Clin Infect Dis 2019;68:e83: recomendaciones de tratamiento de BA — el embarazo es la excepción clave para pacientes cateterizados",
+          "pearl": "BA en pacientes con vejiga neurógena = NO TRATAR (excepto en embarazo). El urocultivo de vigilancia rutinario en pacientes cateterizados asintomáticos NO está recomendado — promueve colonización por organismos multirresistentes. Solo tratar ITU sintomática (fiebre, signos sistémicos, aumento de espasticidad)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D2-Q16",
+        "stem": "El principio de Mitrofanoff (estoma cateterizable continente) utiliza qué estructura como conducto principal para crear un canal cateterizable desde la piel hasta la vejiga?",
+        "options": {
+          "A": "Un segmento de sigma",
+          "B": "El apéndice vermiforme tunelizado submucosamente en la vejiga",
+          "C": "Un segmento ileal desepitelializado (tubo de Yang-Monti)",
+          "D": "Un segmento ureteral redirigido a la piel"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El principio de Mitrofanoff (Paul Mitrofanoff, 1980) utiliza el apéndice vermiforme como conducto principal — se tuneliza submucosamente en el domo vesical con un túnel antirreflujo (creando un mecanismo valvular) y el otro extremo se lleva a la superficie cutánea (típicamente el ombligo o la fosa ilíaca derecha). Esto crea un canal cateterizable continente: cuando la vejiga se llena, la presión intravesical comprime el túnel, manteniendo la continencia en el estoma; cuando se inserta el catéter, abre el túnel para el vaciado vesical. El tubo ileal de Yang-Monti se utiliza cuando el apéndice no está disponible (apendicectomía previa o longitud del apéndice inadecuada).",
+          "wrong": {
+            "A": "Un segmento de sigma se utiliza para la pared intestinal de algunas derivaciones (sigmoidocistoplastia, reservorios sigmoideos continentes) pero no como conducto principal del principio de Mitrofanoff — es demasiado voluminoso.",
+            "C": "El tubo ileal de Yang-Monti (segmento ileal reconfigurado) es la alternativa cuando el apéndice no está disponible — pero el conducto PRINCIPAL y original de Mitrofanoff es el apéndice. La variante de Yang-Monti es el sustituto del apéndice, no el principio principal.",
+            "D": "Un uréter puede utilizarse como canal cateterizable (ureterostomía) en casos seleccionados, pero esto no es el principio de Mitrofanoff, que se refiere específicamente al apéndice (o sustituto del apéndice) tunelizado en la vejiga."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Estoma cateterizable continente (principio de Mitrofanoff): apéndice tunelizado submucosamente en el domo vesical; tubo ileal de Yang-Monti cuando el apéndice no está disponible",
+          "trial": "Mitrofanoff P. Trans-appendicular continent cystostomy in the management of the neurogenic bladder. Chir Pediatr 1980;21:297–305: artículo fundacional que describe el principio del estoma cateterizable continente de Mitrofanoff",
+          "pearl": "Principio de Mitrofanoff: APÉNDICE tunelizado submucosamente en la vejiga → estoma cateterizable continente → el paciente realiza CIL a través del estoma. Mecanismo de continencia = túnel submucoso antirreflujo (comprimido por la presión intravesical). Tubo ileal de Yang-Monti = alternativa cuando el apéndice no está disponible."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q17",
+        "stem": "Una mujer de 48 años con esclerosis múltiple progresiva (EDSS 6,5) presenta HD neurógena + vaciado incompleto (RPM 180 mL) en urodinámica. Fracasa con oxibutinina y solifenacina por estreñimiento intolerable. No puede realizar autocateterismo por espasticidad en extremidades. ¿Cuál es el siguiente paso farmacológico más apropiado?",
+        "options": {
+          "A": "Mirabegrón 50 mg/día — evita efectos secundarios anticolinérgicos, no empeora el vaciado",
+          "B": "Trospio 20 mg/12 h — antimuscarínico con menor penetración SNC",
+          "C": "OnabotulinumtoxinA 200 U intradetrusoriana — a pesar del requisito de CIL",
+          "D": "Duloxetina 40 mg/12 h — reduce la urgencia a través de mecanismos serotoninérgicos-noradrenérgicos centrales"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "El mirabegrón (agonista beta-3) reduce la hiperactividad detrusoriana sin los efectos secundarios anticolinérgicos (estreñimiento, sequedad de boca, efectos cognitivos) que causaron efectos adversos intolerables con oxibutinina y solifenacina. De forma fundamental, el mirabegrón no empeora el vaciado vesical — su mecanismo (relajación vesical durante la fase de almacenamiento) no deteriora la contractilidad detrusoriana durante el vaciado. Con un RPM de 180 mL e incapacidad para el autocateterismo, un tratamiento que empeorara el vaciado sería peligroso. Mirabegrón 50 mg/día es el siguiente paso farmacológico apropiado.",
+          "wrong": {
+            "B": "El trospio es un antimuscarínico — pertenece a la misma clase farmacológica que la oxibutinina y la solifenacina. Aunque tiene menor penetración SNC, aún causa efectos secundarios gastrointestinales anticolinérgicos (estreñimiento), que es la razón del fracaso terapéutico en esta paciente. Prescribir un tercer antimuscarínico es inapropiado.",
+            "C": "OnabotulinumtoxinA 200 U para HDN en una paciente que NO puede realizar CIL es potencialmente peligrosa — BoNT-A causa retención urinaria que requiere CIL en el 30–40% de los pacientes con HDN. Inyectar BoNT-A sin un plan de CIL arriesgaría retención urinaria aguda que requeriría cateterización de urgencia sin un programa de cateterización establecido. Antes de BoNT-A, debe establecerse un plan de CIL (incluso si requiere asistencia de un cuidador).",
+            "D": "La duloxetina está indicada para la incontinencia urinaria de esfuerzo (aumenta el tono del esfínter uretral a través de la estimulación del nervio pudendo) — no tiene evidencia para la hiperactividad detrusoriana neurógena o la incontinencia de urgencia en EM. No abordaría la HDN de esta paciente."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 y Neuro-Urology 2024 — Mirabegrón: Grado B para HDN, apropiado cuando los antimuscarínicos fracasan o están contraindicados; BoNT-A requiere plan de CIL ANTES de la administración",
+          "trial": "Abrams P et al. Estudio BEYOND J Urol 2017: combinación mirabegrón + solifenacina para VHA refractaria — base para el uso de mirabegrón en pacientes intolerantes a antimuscarínicos; EAU 2024 Grado B para HDN",
+          "pearl": "HDN intolerante a antimuscarínicos + no puede realizar CIL = MIRABEGRÓN (Grado B, sin efectos anticolinérgicos, no empeora el vaciado). BoNT-A 200 U requiere plan de CIL ANTES de la inyección — inseguro sin capacidad de CIL (riesgo de retención del 30–40%)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D2-Q18",
+        "stem": "La presión de fuga del detrusor (DLPP) se define como la presión intravesical a la que la orina comienza a escapar por el esfínter uretral en ausencia de contracción del detrusor o de esfuerzo abdominal. ¿A qué umbral de DLPP se asocia el deterioro del tracto urinario superior, y qué estudio histórico estableció este umbral?",
+        "options": {
+          "A": ">20 cmH₂O — basado en los estándares urodinámicos ICS",
+          "B": ">40 cmH₂O — McGuire et al. (J Urol 1981) en niños con mielodisplasia",
+          "C": ">60 cmH₂O — estudio multicéntrico europeo de LM",
+          "D": ">80 cmH₂O — umbral de la guía NICE de vejiga neurógena"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "DLPP >40 cmH₂O es el umbral crítico asociado con el deterioro del tracto urinario superior (hidronefrosis, reflujo vesicoureteral, daño renal). Esto fue establecido por McGuire et al. (J Urol 1981) en un estudio histórico sobre niños con mielodisplasia — aquellos con DLPP >40 cmH₂O presentaron tasas significativamente más altas de deterioro del TUS en el seguimiento comparado con los que tenían DLPP <40 cmH₂O. Este umbral ha sido adoptado como estándar universal para la estratificación del riesgo del TUS en todos los pacientes con vejiga neurógena.",
+          "wrong": {
+            "A": ">20 cmH₂O está por debajo del umbral basado en evidencia. Aunque presiones más bajas pueden asociarse con riesgo a largo plazo en algunos estudios, el umbral clínico universalmente aceptado para intervención intensiva es >40 cmH₂O del artículo histórico de McGuire.",
+            "C": ">60 cmH₂O estaría peligrosamente por encima del umbral de tratamiento — esperar hasta que el DLPP alcance 60 cmH₂O antes de intensificar el tratamiento permitiría que el daño del TUS progresara. El umbral de intervención es >40 cmH₂O.",
+            "D": ">80 cmH₂O está muy por encima del umbral establecido. NICE no establece un umbral de 80 cmH₂O — los 40 cmH₂O de McGuire son el estándar universal citado en EAU, AUA y todas las guías principales."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Umbral DLPP para riesgo TUS: >40 cmH₂O (Grado B), basado en McGuire 1981",
+          "trial": "McGuire EJ et al. Prognostic value of urodynamic testing in myelodysplastic patients. J Urol 1981;126:205–209: DLPP >40 cmH₂O asociado con deterioro del TUS en el 68% vs 12% con DLPP <40 cmH₂O — artículo más citado en neurourología",
+          "pearl": "DLPP >40 cmH₂O = riesgo del tracto superior (McGuire J Urol 1981 — niños con mielodisplasia). Este umbral se aplica a TODOS los pacientes neurógenos. Objetivo terapéutico: mantener DLPP <40 cmH₂O con CIL + antimuscarínicos + BoNT-A. Memorizar: 40 cmH₂O."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D2-Q19",
+        "stem": "Una mujer de 24 años con LM torácica T10 completa de hace 2 años realiza CIL regular ×5/día. La ecografía renal anual de rutina muestra nueva hidronefrosis bilateral de Grado 2 (previamente normal al año). La creatinina sérica es de 98 μmol/L (normal). El urocultivo es negativo. ¿Cuál es la siguiente exploración diagnóstica?",
+        "options": {
+          "A": "TC KUB para buscar cálculos obstructivos en los uréteres",
+          "B": "Videourodinámica (VUD) para valorar DLPP, compliance vesical y RVU",
+          "C": "Repetir la ecografía renal en 3 meses para confirmar el cambio progresivo",
+          "D": "Renograma con DTPA (gammagrafía MAG3) para valorar la función renal diferencial"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La nueva hidronefrosis bilateral en la vigilancia anual de una paciente con LM T10 que realiza CIL indica un cambio en los parámetros urodinámicos — el manejo (CIL + antimuscarínicos) ya no está protegiendo adecuadamente el TUS. La videourodinámica es la siguiente exploración de referencia: determinará si el DLPP ha superado los 40 cmH₂O, si la compliance vesical ha disminuido, si ha aparecido RVU (visible en fluoroscopia) y a qué volumen vesical ocurren estos cambios. Esto orienta la escalada del tratamiento (aumentar la frecuencia del CIL, cambiar/añadir antimuscarínicos, considerar BoNT-A).",
+          "wrong": {
+            "A": "Aunque los cálculos ureterales podrían teóricamente causar hidronefrosis bilateral, la obstrucción bilateral simultánea es extremadamente improbable. En una paciente con LM con vejiga neurógena conocida y TUS previamente normal, la causa más probable de nueva hidronefrosis bilateral es el empeoramiento de los parámetros urodinámicos de la vejiga neurógena, no cálculos.",
+            "C": "Retrasar la investigación 3 meses para repetir la ecografía es inapropiado cuando ya hay cambios en el TUS. EAU 2024 recomienda evaluación urodinámica urgente cuando se identifica nueva hidronefrosis en la vigilancia — no vigilancia expectante.",
+            "D": "El renograma con DTPA/MAG3 evalúa la función renal diferencial y el drenaje — útil si se sospecha uropatía obstructiva a nivel de la UPU, pero no caracteriza los parámetros urodinámicos de la vejiga neurógena que están causando la dilatación del TUS. La VUD es el siguiente paso correcto para diagnosticar la causa urodinámica subyacente."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Nueva hidronefrosis en vejiga neurógena: videourodinámica urgente para reevaluar DLPP, compliance y RVU — escalada urodinámica si DLPP >40 cmH₂O",
+          "trial": "Stöhrer M et al. Eur Urol 2009;56:234: vigilancia anual con ecografía y VUD ante cualquier cambio en el estado del TUS — protocolo estándar de seguimiento neurourológico para LM",
+          "pearl": "Nueva hidronefrosis en vigilancia en paciente con LM = VUD a continuación (no TC, no repetir ecografía). La VUD mostrará: elevación del DLPP, RVU, cambio de compliance. Estos orientan la escalada del tratamiento: CIL más frecuente, BoNT-A o cistoplastia de ampliación."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D2-Q20",
+        "stem": "¿Cuál de las siguientes estrategias de manejo para la vejiga neurógena debida a cistopatía diabética está más respaldada por la evidencia según EAU 2024?",
+        "options": {
+          "A": "Agentes parasimpaticomiméticos (betanecol) para estimular contracciones del detrusor acontráctil",
+          "B": "Micciones programadas combinadas con doble micción y CIL para residuos >150 mL",
+          "C": "Catéter suprapúbico permanente para todos los pacientes con cistopatía diabética",
+          "D": "Tratamiento con alfa-bloqueantes para reducir la resistencia de la salida vesical"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La cistopatía diabética causa primero disfunción sensorial (sensación vesical deteriorada → grandes volúmenes vesicales), seguida de disfunción motora (contractilidad detrusoriana reducida, DUA). El manejo es escalonado: (1) micciones programadas (micción a intervalos regulares independientemente del deseo, típicamente cada 3 horas), (2) doble micción (micción, relajación, y micción inmediata nuevamente para asegurar el vaciado completo) y (3) CIL cuando el RPM supera los 150 mL (lo que indica vaciado inadecuado por micción voluntaria). Este enfoque gradual preserva la función vesical residual mientras maneja el vaciado incompleto. El control glucémico estricto para prevenir la progresión adicional de la neuropatía periférica también es esencial.",
+          "wrong": {
+            "A": "El betanecol (parasimpaticomimético — agonista muscarínico) fue utilizado históricamente para estimular el detrusor acontráctil pero tiene escasa evidencia de eficacia, efectos secundarios significativos (diarrea, salivación, bradicardia) y no está recomendado por EAU 2024 para cistopatía diabética o DUA neurógena.",
+            "C": "El catéter suprapúbico permanente se reserva para pacientes que no pueden realizar CIL y donde otras opciones no son disponibles. Conlleva tasas de complicaciones a largo plazo más altas que el CIL y no debe ser el tratamiento principal para la cistopatía diabética inicial/moderada.",
+            "D": "Los alfa-bloqueantes reducen la resistencia de la salida vesical (útil para la obstrucción del tracto urinario inferior en HBP), no el problema principal en la cistopatía diabética (que es una vejiga hipocontráctil/DUA, no una obstrucción). Los alfa-bloqueantes no son el tratamiento primario basado en evidencia para la cistopatía diabética."
+          },
+          "guideline": "EAU Guidelines on Neuro-Urology 2024 — Cistopatía diabética: micciones programadas + doble micción + CIL cuando RPM >150 mL; betanecol NO recomendado (evidencia insuficiente, EAU Grado C en contra)",
+          "trial": "Vardi Y, Basson R. Diabetic cystopathy — review of management. Isr J Med Sci 1993;29:590: micciones programadas y maniobras de doble micción como enfoques conservadores basados en evidencia; umbral de CIL en RPM >150 mL recomendado",
+          "pearl": "Cistopatía diabética = neuropatía periférica que causa pérdida sensorial → luego motora de la vejiga. Manejo: micciones programadas → doble micción → CIL (RPM >150 mL). NO prescribir betanecol (ineficaz, escasa evidencia). Alfa-bloqueantes ineficaces (no es OBV). Control glucémico estricto esencial."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

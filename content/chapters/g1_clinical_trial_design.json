@@ -1,0 +1,633 @@
+{
+  "id": "G1",
+  "title": "Clinical Trial Design in Urology",
+  "subtitle": "Block G — Study Design, Randomisation, Endpoints, and Trial Conduct",
+  "block": "G",
+  "block_name": "Academic Research in Urology",
+  "level": "R2-5",
+  "reading_time_min": 38,
+  "guidelines_version": "CONSORT 2010 · SPIRIT 2013 · ICH E9(R1) 2019 · EAU Research Methodology Guidelines 2024",
+  "textbook_refs": [
+    "Moher D et al. CONSORT 2010 Statement: Updated Guidelines for Reporting Parallel Group Randomised Trials. BMJ 2010",
+    "Chan AW et al. SPIRIT 2013 Statement: Defining Standard Protocol Items for Clinical Trials. Ann Intern Med 2013",
+    "Schulz KF, Grimes DA. The Lancet Handbook of Essential Concepts in Clinical Research. Elsevier, 2006",
+    "Mottet N et al. EAU Guidelines on the Principles of Clinical Research in Urology (2024)"
+  ],
+  "learning_objectives": [
+    "Classify study designs on the hierarchy of evidence and identify the appropriate design for a given research question",
+    "Explain the principles of randomisation, allocation concealment, and blinding and their impact on internal validity",
+    "Define primary and secondary endpoints for urological trials, including patient-reported outcomes and surrogate endpoints",
+    "Calculate sample size requirements using power analysis principles",
+    "Identify sources of bias in clinical trials and explain how study design elements mitigate them",
+    "Interpret intention-to-treat versus per-protocol analyses and their clinical implications"
+  ],
+  "sections": [
+    {
+      "id": "G1-S1",
+      "title": "The Evidence Hierarchy and Study Design Classification",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Clinical research underpins every guideline recommendation in urology. Understanding study design is essential not only for conducting research but for critically evaluating the evidence base on which clinical decisions are made. The **hierarchy of evidence** places different study designs according to their ability to establish causality and minimise bias, with systematic reviews and meta-analyses of RCTs at the apex and expert opinion at the base.\n\nStudy designs are broadly classified as **experimental** (researcher allocates the intervention) and **observational** (researcher observes without intervening). Within experimental designs, the **randomised controlled trial (RCT)** is the gold standard for comparing interventions because randomisation, when properly executed, distributes both known and unknown confounders equally between groups, allowing causal inference. Observational designs — cohort studies, case-control studies, cross-sectional studies — cannot establish causation but are valuable when RCTs are not feasible (ethical constraints, rare outcomes, long natural history).\n\nIn urology, certain questions are particularly amenable to RCTs: comparing surgical techniques (RAZOR, iROC), comparing medical vs surgical management (STUDD, SUSPEND), or evaluating systemic therapy in oncology. Others — such as the value of a learning curve, the natural history of lichen sclerosus, or the impact of surgeon volume — are better addressed through registry-based observational research. Recognising which design fits which question is the first step of research methodology."
+        },
+        {
+          "type": "table",
+          "title": "Evidence Hierarchy: Study Designs and Characteristics",
+          "headers": ["Level", "Design", "Causality", "Key Strength", "Key Limitation"],
+          "rows": [
+            ["1a", "Systematic review / meta-analysis of RCTs", "High", "Combines evidence, increases power", "Quality limited by included trials; heterogeneity"],
+            ["1b", "Individual RCT (well-designed)", "High", "Randomisation controls confounding", "Cost, feasibility, applicability"],
+            ["2a", "Systematic review of cohort studies", "Moderate", "Larger samples, broader outcomes", "Confounding, selection bias"],
+            ["2b", "Individual prospective cohort study", "Moderate", "Follows patients over time", "Cannot randomise; residual confounding"],
+            ["3", "Case-control study", "Low-moderate", "Good for rare outcomes", "Recall bias; temporal uncertainty"],
+            ["4", "Case series / cross-sectional", "Low", "Hypothesis-generating", "No control group; cannot establish causality"],
+            ["5", "Expert opinion / editorial", "None", "Rapid, low cost", "Susceptible to bias and preference"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Oxford CEBM Levels",
+          "content": "The Oxford Centre for Evidence-Based Medicine (CEBM) levels are the standard framework used in EAU guidelines. When the EAU states 'Grade A recommendation', it is based on Level 1 evidence (systematic review or well-designed RCT). 'Grade B' corresponds to Level 2 evidence (prospective cohort or lower-quality RCT). 'Grade C/D' corresponds to observational data or expert opinion."
+        }
+      ]
+    },
+    {
+      "id": "G1-S2",
+      "title": "Randomisation: Principles, Methods, and Allocation Concealment",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Randomisation** is the process by which participants are allocated to intervention or control groups by chance, not by investigator or participant choice. Its purpose is to distribute both known and unknown confounders equally across groups, removing systematic allocation bias. Randomisation alone does not guarantee balance in small trials — statistical tests of baseline characteristics should be reported to demonstrate comparability.\n\nTypes of randomisation:\n- **Simple (unrestricted) randomisation**: Each participant independently assigned by a coin flip or random number table. Prone to imbalance in small trials (equal numbers not guaranteed).\n- **Block randomisation**: Participants allocated in blocks (e.g., blocks of 4 or 6) to ensure equal group sizes at regular intervals. Prevents temporal imbalance (e.g., if sicker patients enrolled later).\n- **Stratified randomisation**: Pre-specified prognostic factors (e.g., PSA level, disease stage) are used to create strata, within which block randomisation is applied. Ensures balance of important prognostic variables.\n- **Minimisation**: Adaptive method that assigns each new participant to minimise imbalance in multiple prognostic factors simultaneously — particularly useful in small trials.\n\n**Allocation concealment** is distinct from blinding and is critically important. It ensures that the allocation sequence is unknown to the person recruiting participants until the moment of randomisation, preventing subconscious or deliberate selection bias. Methods include central randomisation (telephone or web-based), sequentially numbered opaque sealed envelopes (SNOSE), and coded drug packaging. Inadequate allocation concealment consistently produces inflated treatment effects in trials. A trial may be 'randomised' but still biased if allocation can be predicted or manipulated."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Allocation Concealment vs Blinding",
+          "content": "Allocation concealment prevents selection bias BEFORE randomisation (the recruiter cannot predict the next allocation). Blinding prevents performance and detection bias AFTER randomisation (participants, clinicians, or assessors do not know which treatment was received). Both are essential and address different sources of bias. A trial can have poor allocation concealment even if it is double-blind."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Open Envelopes and Selection Bias",
+          "content": "Simply using sealed envelopes does not guarantee allocation concealment if envelopes can be held to light, opened and resealed, or if the randomisation sequence is known in advance. CONSORT 2010 requires a description of the allocation concealment mechanism — if a paper simply states 'envelopes' without specifying SNOSE methodology, concealment must be considered suboptimal and the trial susceptible to selection bias."
+        }
+      ]
+    },
+    {
+      "id": "G1-S3",
+      "title": "Blinding, Endpoints, and Outcome Measures",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Blinding** (masking) prevents those involved in the trial from knowing the treatment allocation, reducing performance bias (differential care based on allocation) and detection bias (differential outcome assessment). The vocabulary has evolved: rather than 'single-blind', 'double-blind', 'triple-blind', CONSORT 2010 recommends specifying **who is blinded**: participants, care providers, outcome assessors, data analysts.\n\nIn surgical trials, blinding participants and surgeons to the allocated operation is often impossible. However, **assessor blinding** (the person measuring the primary outcome does not know allocation) remains achievable and prevents detection bias even when surgical blinding is not feasible. Sham-controlled surgical trials (where the control group undergoes an identical procedure without the active element) are controversial ethically but have been conducted (TURP sham trial, renal denervation SYMPLICITY HTN-3).\n\n**Endpoints** define what the trial measures:\n- **Primary endpoint**: The single pre-specified outcome on which the trial is powered. It must be clinically meaningful, reliably measured, and appropriate to the research question.\n- **Secondary endpoints**: Additional outcomes providing supplementary information — hypothesis-generating, not powered.\n- **Surrogate endpoints**: Biological markers or measurements that substitute for clinical outcomes (e.g., PSA decline as a surrogate for prostate cancer survival). Surrogates are faster and cheaper to measure but must be validated as reliably predicting the clinical outcome of interest.\n- **Patient-reported outcomes (PROs)**: Outcomes reported directly by patients (symptom scores, quality of life, sexual function) using validated instruments (IPSS, IIEF, EORTC QLQ-C30). Increasingly recognised as co-primary or primary endpoints in urology trials.\n\nIn oncological urology trials: **overall survival (OS)** is the gold standard endpoint; **progression-free survival (PFS)**, **metastasis-free survival (MFS)**, and **biochemical recurrence-free survival** are common surrogate endpoints. The EAU accepts these surrogates in the guideline evidence base when OS data are not yet mature."
+        },
+        {
+          "type": "table",
+          "title": "Key Endpoints in Urological Oncology Trials",
+          "headers": ["Endpoint", "Definition", "Surrogate Validity", "Example Trial"],
+          "rows": [
+            ["Overall survival (OS)", "Time from randomisation to death from any cause", "Gold standard — not a surrogate", "CHECKMATE-274"],
+            ["Cancer-specific survival (CSS)", "Death from the cancer under study", "High — but requires cause of death adjudication", "TA302 (atezolizumab, bladder)"],
+            ["Progression-free survival (PFS)", "Time to objective progression or death", "Moderate — validated in some, not all cancers", "KEYNOTE-052 (pembrolizumab)"],
+            ["Biochemical recurrence-free survival", "Time to PSA rise after RP/RT", "Moderate for prostate cancer", "RAVES (adjuvant RT for prostate)"],
+            ["Metastasis-free survival (MFS)", "Time to distant metastasis or death", "Validated in non-metastatic CRPC", "SPARTAN, PROSPER, ARAMIS"],
+            ["IPSS score change", "International Prostate Symptom Score change", "Validated surrogate for BPH symptom relief", "Multiple LUTS/BPH trials"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G1-S4",
+      "title": "Sample Size Calculation and Statistical Power",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Sample size calculation is a critical pre-specified element of any clinical trial. An underpowered trial is unethical — it exposes participants to the risks and burdens of trial participation without adequate likelihood of obtaining a meaningful answer. An overpowered trial wastes resources and may detect statistically significant differences that are not clinically meaningful.\n\nThe key inputs to a sample size calculation are:\n1. **Type I error (α)**: The acceptable probability of falsely rejecting the null hypothesis (false positive). Conventionally set at 0.05 (5%).\n2. **Type II error (β)**: The acceptable probability of failing to reject a false null hypothesis (false negative). Conventionally set at 0.20 (20%), meaning the trial has **80% power** to detect the specified difference.\n3. **Effect size**: The minimum clinically important difference (MCID) the trial is designed to detect. This must be pre-specified based on clinical judgement, not statistical convenience.\n4. **Variability**: The expected standard deviation (for continuous outcomes) or event rate (for binary/time-to-event outcomes) in the control group.\n5. **Two-sided vs one-sided testing**: Two-sided tests (detecting difference in either direction) are standard; one-sided testing requires strong pre-specified justification.\n\nIn superiority trials, a larger effect size is easier to detect (requires fewer participants). In **non-inferiority trials** — increasingly common in urology (RAZOR RCT, iROC RCT comparing robotic to open cystectomy) — the question is whether a new treatment is 'not worse' by more than a pre-specified **non-inferiority margin (δ)**. The margin must be set to preserve a clinically important fraction of the comparator's established benefit. Incorrectly wide non-inferiority margins can lead to approval of inferior treatments."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Type I and Type II Errors",
+          "content": "Type I error (α = 0.05): falsely conclude treatment works when it does not (false positive). Type II error (β = 0.20): fail to detect a real treatment effect (false negative). Power = 1 − β = 0.80. If a trial is underpowered and shows 'no significant difference', this is a negative result that may reflect lack of power rather than true equivalence — a distinction critical to interpreting 'negative' urological trials."
+        }
+      ]
+    },
+    {
+      "id": "G1-S5",
+      "title": "Bias, Confounding, and Internal Validity",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Bias is any systematic error in the design, conduct, analysis, or reporting of a study that results in a distorted estimate of the true treatment effect. Unlike random error (which reduces precision but not accuracy), bias is directional — it consistently inflates or deflates the observed effect. Key biases in urological trials:\n\n**Selection bias**: Occurs when participants in comparison groups differ systematically in prognostic characteristics. Randomisation prevents selection bias; observational studies require statistical adjustment. In retrospective cohort studies comparing open versus robotic surgery, healthier patients may be selected for the laparoscopic approach (spectrum/work-up bias), confounding the outcome comparison.\n\n**Performance bias**: Differential care provided to participants based on knowledge of group allocation. Blinding prevents performance bias. In surgical trials where blinding is impossible, standardisation of co-interventions (e.g., perioperative care pathways) minimises performance bias.\n\n**Detection bias (ascertainment bias)**: Outcomes are assessed differently based on knowledge of allocation. Assessor blinding is the primary mitigation. In prostate cancer trials assessing biochemical recurrence, if the treating physician knows the patient received experimental therapy, they may test PSA more or less frequently.\n\n**Attrition bias**: Differential loss-to-follow-up between groups that is related to the treatment and/or outcome. The **intention-to-treat (ITT) analysis** mitigates attrition bias by analysing all randomised participants in their assigned groups regardless of actual treatment received or dropout. A **per-protocol (PP) analysis** includes only participants who completed the protocol — susceptible to attrition bias but useful for estimating biological efficacy.\n\n**Confounding**: A variable associated with both the exposure and the outcome, distorting the apparent relationship. In observational urology research (e.g., comparing PSA screening strategies), age, comorbidity, and socioeconomic status are major confounders requiring adjustment by multivariable regression, propensity score matching, or other methods."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Per-Protocol Analysis Over-Estimates Treatment Benefit",
+          "content": "Per-protocol analysis excludes participants who did not adhere to their allocated treatment. If non-adherence is related to side effects or lack of efficacy (i.e., sicker patients drop out from the treatment arm), per-protocol analysis selectively retains healthier responders, inflating the apparent treatment benefit. ITT analysis is the primary efficacy analysis in RCTs. PP analysis is supportive only."
+        }
+      ]
+    },
+    {
+      "id": "G1-S6",
+      "title": "Surgical Trials: Specific Challenges and the IDEAL Framework",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Surgical trials face unique methodological challenges not encountered in drug trials. These include the **learning curve** (a surgeon performing a new operation improves with experience, meaning early and late results in a trial may not be comparable), **technical variability** (the 'same' operation varies between surgeons and centres), **inability to blind participants and surgeons to the allocated procedure**, and **ethical constraints** (performing a sham operation in the control group may not be acceptable).\n\nThe **IDEAL (Idea, Development, Exploration, Assessment, Long-term study) framework** provides a structured pathway for evaluating surgical innovations from first-in-human to population-level evidence. Stage 1 (Idea): first case reports with innovative technique. Stage 2a (Development): small case series with iterative technique refinement. Stage 2b (Exploration): prospective multi-centre studies with standardised technique. Stage 3 (Assessment): RCT comparing the innovation to standard of care. Stage 4 (Long-term): registry-based surveillance for long-term outcomes and rare complications. Most urological surgical innovations are evaluated at IDEAL Stage 2–3, with few reaching Stage 3 RCT evidence.\n\nExamples of IDEAL framework progression in urology: robot-assisted radical prostatectomy (RARP) progressed from 2001 first reports (Stage 1) through single-centre case series (Stage 2a/b) to comparative effectiveness studies (Stage 2b) without a definitive Stage 3 RCT comparing to open RP (ProtecT trial enrolled but limited RARP arms). Robot-assisted radical cystectomy (RARC) achieved Stage 3 evidence with the RAZOR RCT (Parekh Lancet 2018) and iROC RCT (Catto JAMA 2022).\n\n**Cluster RCTs** randomise groups (hospitals, surgical units) rather than individuals — useful when individual randomisation is impractical (e.g., comparing enhanced recovery protocols between hospitals). Unit of analysis must account for clustering (intra-cluster correlation coefficient, ICC)."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Learning Curve in Surgical RCTs",
+          "content": "Incorporating learning curve effects into surgical RCTs requires credentialing criteria (minimum case volume before surgeons can enrol patients), proctored early cases, and sometimes a run-in period excluded from analysis. The RAZOR RCT required surgeons to have performed ≥30 RAR cystectomies before enrolment — credentialing that strengthened the trial's internal validity but limits generalisability to all robotic centres."
+        }
+      ]
+    },
+    {
+      "id": "G1-S7",
+      "title": "Reporting Standards and Trial Registration",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Transparent reporting of clinical trials is a mandatory ethical and scientific obligation. Selective reporting of outcomes — reporting only positive outcomes while suppressing non-significant results — is a major source of publication bias that distorts the evidence base and potentially harms patients.\n\n**CONSORT 2010 (Consolidated Standards of Reporting Trials)** provides a 25-item checklist for reporting parallel-group RCTs, covering: title/abstract, introduction, methods (participants, interventions, outcomes, randomisation, blinding, sample size), results (participant flow — the CONSORT flow diagram, recruitment, baseline data, outcomes), and discussion. All major urology journals (European Urology, BJU International, Journal of Urology) require CONSORT-compliant reporting for RCTs. Extensions exist for cluster RCTs (CONSORT-Cluster), non-inferiority/equivalence trials (CONSORT-NI), and pragmatic trials (CONSORT-PRCT).\n\n**Trial registration** in a public registry (ClinicalTrials.gov, ISRCTN, EU Clinical Trials Register) before the first participant is enrolled is mandatory for publication in ICMJE-member journals and is required by most regulatory authorities. Registration documents pre-specified primary endpoints, preventing outcome-switching after results are known. The **SPIRIT 2013 (Standard Protocol Items: Recommendations for Interventional Trials)** provides a parallel checklist for the trial protocol document, ensuring pre-specified procedures are documented before the trial begins.\n\n**Publication bias** — the tendency for positive trials to be published more readily than negative trials — inflates the apparent efficacy of interventions in systematic reviews and meta-analyses. Prospective trial registration and mandatory result reporting requirements (EU mandate since 2012) aim to combat this, but substantial non-publication of negative trial results persists in surgical urology research."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — CONSORT Flow Diagram",
+          "content": "The CONSORT flow diagram is a mandatory element of RCT reporting (CONSORT item 13). It must show: the number screened, excluded (with reasons), randomised, allocated to each arm, lost to follow-up (with reasons), discontinued intervention (with reasons), and analysed (per arm). Any published RCT without a CONSORT flow diagram fails minimum reporting standards."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of clinical trial design in urology with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "G1-Q1",
+        "stem": "A urology department plans a trial comparing robot-assisted radical prostatectomy (RARP) with open radical prostatectomy (ORP) for localised prostate cancer. They randomly assign 300 patients to each group. However, the surgeon performing RARP has completed 200 cases while the surgeon performing ORP has completed 1,000 cases. Which type of bias is most likely to affect this trial?",
+        "options": {
+          "A": "Detection bias from unblinded outcome assessment",
+          "B": "Selection bias from inadequate allocation concealment",
+          "C": "Performance bias from differential surgeon experience (learning curve confounding)",
+          "D": "Attrition bias from differential loss-to-follow-up"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The learning curve confounds surgical trials when the two comparison surgeons have very different levels of experience with their respective techniques. The RARP surgeon at 200 cases is still on the learning curve (ERUS consensus suggests proficiency plateau at 150–250 cases), while the ORP surgeon at 1,000 cases operates at full proficiency. Any observed differences may reflect surgeon experience rather than the techniques themselves — a form of performance bias. Surgical RCTs must credential surgeons to minimum experience thresholds before enrolment to mitigate this.",
+          "wrong": {
+            "A": "Detection bias requires that outcome assessment differs by group allocation. Randomisation and allocation are not described as flawed here — the problem is surgeon experience, not outcome measurement.",
+            "B": "Selection bias from inadequate allocation concealment would mean that the allocation was predictable, allowing selection of healthier or sicker patients for one arm. Randomisation is described as properly conducted here.",
+            "D": "Attrition bias requires differential dropout between groups — not described in this scenario. The primary concern is the pre-existing experience imbalance between surgeons."
+          },
+          "guideline": "IDEAL Framework (Ergina PL, BJU Int 2009) — Stage 3 RCT requirements: surgeons must be credentialed (minimum case volume) and have passed their individual learning curve before participating in a surgical RCT; differential experience between arms creates performance bias.",
+          "trial": "RAZOR RCT (Parekh et al., Lancet 2018): Required minimum 30 robot-assisted radical cystectomies per surgeon before participation — demonstrating the credentialing principle that mitigates learning curve confounding in surgical trials.",
+          "pearl": "Surgical trial learning curve = performance bias if surgeon experience differs between arms. IDEAL framework Stage 3 RCT requires credentialing criteria. RAZOR RCT required ≥30 RARC cases per participating surgeon."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G1-Q2",
+        "stem": "A multicentre RCT reports that a new alpha-1 blocker reduces IPSS score by 4.2 points compared with placebo (95% CI 3.1–5.3, p<0.001). The minimum clinically important difference (MCID) for IPSS in BPH is 3 points. A statistician notes that the trial was powered at 95% with 2,000 participants. What conclusion is most accurate?",
+        "options": {
+          "A": "The result is statistically significant but may not be clinically meaningful because the CI lower bound (3.1) barely exceeds the MCID",
+          "B": "The result is both statistically significant and clinically meaningful; the drug should be recommended",
+          "C": "The 95% CI is too narrow, suggesting publication bias",
+          "D": "The trial is overpowered; a trial of 500 patients would have been sufficient and more ethical"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The result is statistically significant (p<0.001) and the entire 95% CI (3.1–5.3 points) exceeds the pre-specified MCID of 3 points, meaning that the worst plausible true effect (3.1 points at the CI lower bound) is still above the threshold for clinical meaningfulness. This constitutes both statistical and clinical significance. The drug has a robust case for clinical recommendation. Option A would be correct if the CI lower bound fell below the MCID.",
+          "wrong": {
+            "A": "This would be a valid concern if the CI lower bound (3.1) were below the MCID (3 points). Since 3.1 > 3.0, the entire CI exceeds the MCID — the drug meets both statistical and clinical significance thresholds.",
+            "C": "A narrow CI reflects large sample size (2,000 participants), providing high precision — not publication bias. Publication bias affects the literature, not individual CI width.",
+            "D": "Ethical considerations in sample size require that the trial be adequately powered (not underpowered) — 95% power is higher than the conventional 80%, which means a larger sample. Whether this represents 'overpowering' depends on the precision required and the cost of participants, but it is not inherently unethical to use 95% power."
+          },
+          "guideline": "ICH E9 Statistical Principles for Clinical Trials (1998, updated E9(R1) 2019) — A result is clinically meaningful when the estimated effect and its confidence interval both exceed the pre-specified MCID; statistical significance alone is insufficient without clinical significance assessment.",
+          "trial": "MTOPS Trial (McConnell JW, NEJM 2003): BPH trial that used IPSS change as a primary endpoint — demonstrating the MCID concept in urology practice; an IPSS reduction of 3 points is considered the minimum clinically detectable improvement by patients.",
+          "pearl": "Statistical significance (p<0.05) ≠ clinical significance. Clinical significance requires the confidence interval lower bound to exceed the MCID. For IPSS in BPH, MCID = 3 points. A large trial with small p-value may detect trivial differences that are not clinically meaningful."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G1-Q3",
+        "stem": "In the RAZOR RCT (Parekh et al. Lancet 2018) comparing robot-assisted radical cystectomy (RARC) to open radical cystectomy (ORC) for bladder cancer, the primary endpoint was 2-year progression-free survival (PFS). The trial reported 72.3% PFS for RARC vs 71.6% for ORC. This was a non-inferiority trial. What does this result mean?",
+        "options": {
+          "A": "RARC is significantly superior to ORC in 2-year PFS",
+          "B": "RARC is non-inferior to ORC — i.e., RARC does not substantially worsen 2-year PFS compared to ORC",
+          "C": "The trial is inconclusive because the PFS rates are nearly identical",
+          "D": "ORC should be abandoned in favour of RARC based on this result"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "RAZOR was a non-inferiority trial: the research question was whether RARC is 'not substantially worse' than ORC for oncological outcomes (PFS), allowing it to be adopted on the basis of other benefits (reduced blood loss, shorter hospital stay). A non-inferiority result does not mean superiority — it means the new treatment stays within the pre-specified non-inferiority margin of the established treatment. The PFS of 72.3% vs 71.6% falls within the margin, supporting non-inferiority. This allows RARC to be adopted on the basis of equivalent oncological control.",
+          "wrong": {
+            "A": "RARC is NOT significantly superior — a 0.7% difference in PFS with no statistical superiority. Non-inferiority trials do not conclude superiority unless a formal superiority test is also conducted and met.",
+            "C": "Near-identical results are exactly what a successful non-inferiority trial should show — the new treatment performs as well as the established one. This is not inconclusive; it is the intended result.",
+            "D": "Non-inferiority means RARC can be offered to patients with equivalent oncological outcomes; it does not mean ORC should be abandoned. Patient selection, surgeon expertise, and institutional factors still determine choice."
+          },
+          "guideline": "CONSORT Extension for Non-inferiority Trials (Piaggio G, JAMA 2006) — In non-inferiority trials, the null hypothesis is that the new treatment is inferior by more than the margin δ. Rejection of this null = non-inferiority demonstrated. Does not imply superiority.",
+          "trial": "RAZOR RCT (Parekh BH et al., Lancet 2018): 350 patients randomised RARC vs ORC — 2-year PFS 72.3% vs 71.6% (non-inferiority achieved); lower blood loss and transfusion with RARC — establishing RARC as a non-inferior oncological option.",
+          "pearl": "Non-inferiority trial result means: the new treatment is not substantially worse (within the margin) — not that it is equivalent or better. RAZOR confirmed RARC is non-inferior to ORC oncologically. Non-inferiority ≠ superiority."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G1-Q4",
+        "stem": "A researcher reports a trial in which patients with bladder outlet obstruction from BPH were randomised to TURP vs medical therapy. The primary endpoint was symptom score reduction at 12 months. The trial shows a statistically significant benefit for TURP (p=0.02). However, patients in the TURP arm had a mean age of 64 years, while patients in the medical therapy arm had a mean age of 71 years — a difference arising by chance despite randomisation. This is an example of which phenomenon?",
+        "options": {
+          "A": "Confounding by indication",
+          "B": "Chance imbalance in a baseline characteristic — addressable by multivariable analysis or stratified randomisation in future trials",
+          "C": "Selection bias from inadequate allocation concealment",
+          "D": "Detection bias from unblinded outcome assessors"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Even with proper randomisation, chance imbalance in baseline characteristics can occur — particularly in small trials. This is not bias (which is systematic) but rather random error. In this case, the TURP arm happened to randomise younger patients, who may have better symptom responses. The appropriate approach is to adjust for age in a multivariable regression analysis (covariate adjustment) to estimate the treatment effect independent of the age imbalance. Future trials can prevent this with age-stratified randomisation.",
+          "wrong": {
+            "A": "Confounding by indication occurs in observational studies where treatment selection is influenced by the indication (e.g., sicker patients receive more intensive therapy). In an RCT, allocation is not driven by indication. The imbalance here is chance, not systematic confounding.",
+            "C": "Selection bias from inadequate allocation concealment would produce systematic differences (recruiter preferentially allocating younger patients to TURP). Chance imbalance despite proper randomisation is a different mechanism.",
+            "D": "Detection bias concerns outcome measurement, not baseline characteristics. Age imbalance at baseline is unrelated to how outcomes are measured."
+          },
+          "guideline": "CONSORT 2010 (Item 15): Report baseline characteristics by group in a table — allows readers to identify chance imbalances. CONSORT (Item 16): Adjust for baseline imbalances in analysis if they are likely to affect outcomes (covariate adjustment).",
+          "trial": "SUSPEND Trial (Pickard R, NEJM 2015): Alpha-1 blocker for ureteral stent symptoms — despite randomisation, some baseline imbalances occurred; authors conducted pre-specified sensitivity analyses adjusting for stone size and stent laterality, demonstrating how chance imbalance is handled appropriately.",
+          "pearl": "Chance imbalance ≠ bias. Bias is systematic; chance imbalance is random. Chance imbalances in small RCTs should be addressed in the analysis by multivariable adjustment. Future trials use stratified randomisation to prevent key prognostic imbalances."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q5",
+        "stem": "A urological oncology RCT reports that a new checkpoint inhibitor improves progression-free survival (PFS) by 4 months compared with standard chemotherapy (HR 0.68, 95% CI 0.55–0.83, p=0.001). However, the overall survival data are immature at the time of reporting (median follow-up 18 months). A reviewer argues that PFS is an inadequate surrogate for OS. What criteria must a surrogate endpoint meet to be considered valid for regulatory approval?",
+        "options": {
+          "A": "The surrogate must be biologically plausible, strongly correlated with the true endpoint, and trials showing benefit on the surrogate must consistently produce benefit on the true endpoint (Prentice criteria)",
+          "B": "The surrogate must be measurable at 12 months and show p<0.05 in the primary analysis",
+          "C": "The surrogate must be endorsed by at least two major oncology societies",
+          "D": "The surrogate is valid as long as the confidence interval excludes 1.0 for hazard ratio"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Surrogate endpoint validity rests on the Prentice criteria (Prentice RL, Statistics in Medicine 1989): (1) the surrogate is itself prognostically associated with the true endpoint; (2) the treatment effect on the surrogate fully captures the treatment effect on the true endpoint (statistical test of surrogacy). In practice, surrogates are evaluated by meta-regression across multiple trials, assessing the correlation between treatment effects on the surrogate and the true endpoint (Buyse method). PFS as a surrogate for OS is validated in some cancer types (colorectal) but has weaker surrogacy evidence in others (bladder, prostate). Regulatory agencies (EMA, FDA) evaluate surrogacy evidence on a case-by-case basis.",
+          "wrong": {
+            "A": "Correct — see explanation above.",
+            "B": "Measurability at 12 months and statistical significance on the surrogate do not constitute validity — they are features of the design, not of surrogacy validation. A surrogate can show p<0.05 without being a valid predictor of OS.",
+            "C": "Society endorsement is relevant for clinical guideline recommendations but is not a validated surrogate definition criterion. Regulatory approval requires statistical surrogate validation, not just professional consensus.",
+            "D": "Hazard ratio 95% CI excluding 1.0 means statistical significance for the surrogate endpoint itself — it says nothing about whether the surrogate reliably predicts the true endpoint."
+          },
+          "guideline": "EMA Guideline on the Evaluation of Anticancer Medicinal Products (2012, updated 2023) — Surrogate endpoint validation criteria: strong statistical association with OS, mechanism plausibility, and consistent cross-trial evidence; PFS accepted for conditional approval when OS data are immature.",
+          "trial": "Prentice RL (Statistics in Medicine 1989): Original formal criteria for surrogate endpoint validation — providing the statistical framework for assessing whether treatment effects on surrogates reliably capture treatment effects on true clinical endpoints, now used across regulatory science.",
+          "pearl": "Surrogate endpoint validity requires: (1) biological plausibility, (2) statistical correlation with true endpoint, (3) consistent treatment effect across trials (Prentice criteria). PFS as surrogate for OS is context-dependent — validated in some cancers, not others. This is fundamental oncology trial methodology."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q6",
+        "stem": "A cohort study compares patients treated with active surveillance (AS) vs radical prostatectomy (RP) for low-risk prostate cancer. Men choosing RP had younger age, higher educational attainment, and fewer comorbidities than men choosing AS. After adjustment for these variables, RP still shows better cancer-specific survival. Which analytical technique can further adjust for unmeasured confounders in this observational data?",
+        "options": {
+          "A": "Propensity score matching or weighting",
+          "B": "Kaplan-Meier survival analysis",
+          "C": "Logistic regression adjusting for PSA level only",
+          "D": "Intention-to-treat analysis"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Propensity score methods balance measured confounders between treatment groups in observational studies. The propensity score is the probability of receiving a treatment given observed covariates. By matching or weighting patients with similar propensity scores, observed confounders are balanced — mimicking, to the extent possible, a randomised experiment. However, propensity score methods cannot account for unmeasured confounders — this is a fundamental limitation of all observational study designs. The answer is best understood as: propensity score balances MEASURED confounders more comprehensively than multivariable regression in highly imbalanced settings.",
+          "wrong": {
+            "A": "Correct — see explanation above.",
+            "B": "Kaplan-Meier analysis is a method for estimating and displaying time-to-event outcomes — it does not adjust for confounders.",
+            "C": "Logistic regression adjusting for PSA only partially addresses confounding — it ignores age, comorbidities, and other measured confounders. Propensity score methods incorporate all available covariates simultaneously.",
+            "D": "Intention-to-treat analysis is a concept from RCTs (analysing patients in their allocated groups regardless of what they received). It does not apply to observational studies where there is no randomisation."
+          },
+          "guideline": "STROBE Statement (von Elm E, Lancet 2007) — Reporting of observational studies: propensity score methods should be described and implemented when non-randomised groups have substantial baseline differences; residual confounding from unmeasured variables must be acknowledged.",
+          "trial": "Hamdy FC et al. ProtecT Trial (NEJM 2016): RCT comparing AS, RP, and RT for localised prostate cancer — this was possible as an RCT precisely because the alternative observational approach would be heavily confounded by selection (younger, fitter patients choosing RP) — illustrating why RCTs are essential for establishing causal treatment comparisons.",
+          "pearl": "Propensity score methods balance MEASURED confounders in observational studies — but cannot eliminate unmeasured confounding. This is why observational studies can never fully replace RCTs for causal inference about treatment effects."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q7",
+        "stem": "A researcher conducts a trial of transperineal vs transrectal prostate biopsy for prostate cancer diagnosis. The primary endpoint is cancer detection rate. Patients are aware of their allocation, but pathologists reviewing biopsy cores are blinded to the biopsy route. Which bias is MOST effectively mitigated by this design?",
+        "options": {
+          "A": "Selection bias",
+          "B": "Performance bias",
+          "C": "Detection bias (ascertainment bias)",
+          "D": "Reporting bias"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Pathologist blinding to biopsy route prevents the pathologist's knowledge of the technique from influencing core interpretation (detection bias). If a pathologist knew that a core was from a transperineal biopsy, they might interpret borderline cores more generously (or conservatively) than if they knew it was transrectal. Blinding the pathologist (outcome assessor) is specifically designed to prevent detection bias — differential assessment based on known treatment allocation.",
+          "wrong": {
+            "A": "Selection bias concerns participant recruitment and allocation, not outcome assessment. It is prevented by randomisation and allocation concealment — not by blinding pathologists.",
+            "B": "Performance bias occurs when differential care is provided based on allocation knowledge — it is prevented by blinding care providers. The pathologist is an outcome assessor, not a care provider in this context. Blinding pathologists does not prevent care performance bias.",
+            "D": "Reporting bias is publication-level bias (selective reporting of outcomes) — prevented by trial registration and complete outcome reporting, not by assessor blinding."
+          },
+          "guideline": "CONSORT 2010 (Item 11a): Specify who is blinded and the method of blinding; assessor blinding for the primary endpoint is particularly critical for subjective outcomes such as pathology interpretation.",
+          "trial": "PROMIS Trial (Ahmed HU, Lancet 2017): UK multicentre trial evaluating mpMRI before prostate biopsy — pathology review was centralised and pathologists were blinded to imaging results to prevent ascertainment bias in cancer detection and grade reporting — exemplifying assessor blinding in urology trials.",
+          "pearl": "Blinding the outcome assessor (e.g., pathologist, radiologist, symptom scorer) prevents detection bias. In surgical trials where blinding participants and surgeons is impossible, assessor blinding remains achievable and is critical for primary endpoints. Specify WHO is blinded — not just whether the trial is 'blinded'."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q8",
+        "stem": "A researcher is planning a phase III RCT to test a new adjuvant treatment for high-risk bladder cancer after radical cystectomy. The target difference in 5-year disease-free survival is 10% (expected 50% control, 60% treatment). Alpha = 0.05, power = 80%, two-sided test. Roughly how many patients per arm are needed?",
+        "options": {
+          "A": "50 per arm",
+          "B": "150 per arm",
+          "C": "approximately 200–250 per arm",
+          "D": "Over 1,000 per arm"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "For a two-sided test comparing two proportions (50% vs 60%), alpha = 0.05, power = 80%, the standard sample size formula for two-proportion comparison yields approximately 200–250 patients per arm. Using the arcsine transformation or standard proportion formula: n ≈ 2 × (Z_α/2 + Z_β)² × p(1-p) / (p1-p2)². With Z_0.025 = 1.96, Z_0.20 = 0.84, and pooled variance, the result falls in the 200–250 range per arm. This is the most common estimation range for trials seeking to detect a 10% absolute difference in binary outcomes with standard parameters.",
+          "wrong": {
+            "A": "50 per arm would be grossly underpowered for detecting a 10% difference in 5-year DFS — it would provide <20% power for this effect size.",
+            "B": "150 per arm is closer but slightly underpowered for the specified parameters; the true requirement with standard assumptions falls around 200–250 per arm.",
+            "D": "Over 1,000 per arm would be required for detecting very small differences (1–2%) or for achieving very high power (>95%) — not for a 10% difference at 80% power."
+          },
+          "guideline": "ICH E9 Statistical Principles for Clinical Trials (1998): Sample size must be pre-specified based on a clinically important effect size, acceptable error rates, and outcome variability; underpowered trials are scientifically uninformative and ethically problematic.",
+          "trial": "CHECKMATE-274 (Bajorin DF, NEJM 2021): Adjuvant nivolumab after radical cystectomy for bladder cancer — enrolled 709 patients (354/355 per arm) to detect a 10.6% difference in DFS at 6 months, demonstrating the typical sample size of 300–400 per arm for this type of adjuvant bladder cancer RCT.",
+          "pearl": "Sample size for detecting 10% absolute difference in binary outcome (50% vs 60%), alpha=0.05, power=80% ≈ 200–250 per arm (400–500 total). Smaller difference (5%) or higher power (90%) require dramatically more participants. Sample size calculations are always pre-specified."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q9",
+        "stem": "In the ProtecT trial (Hamdy FC et al., NEJM 2016) comparing active surveillance (AS), radical prostatectomy (RP), and external beam radiotherapy (RT) for localised prostate cancer, 1,643 men were randomised. At 10 years, prostate cancer-specific mortality was 1.5% for AS, 0.9% for RP, and 0.7% for RT — no significant difference. However, metastasis was higher in the AS group (6.3% vs 2.4% RP, 3.0% RT). What is the correct interpretation?",
+        "options": {
+          "A": "RP and RT are superior to AS and should be recommended to all low-risk patients",
+          "B": "At 10 years, prostate cancer-specific mortality does not differ significantly between treatments; AS carries higher metastasis risk, requiring longer follow-up to determine if mortality will diverge",
+          "C": "The trial is underpowered because only 1,643 men were enrolled",
+          "D": "Metastasis is an unreliable endpoint and the ProtecT result confirms AS as equivalent to curative treatment"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ProtecT at 10-year follow-up showed no significant difference in prostate cancer-specific mortality across the three arms (each approximately 1%). However, the AS arm had significantly more metastases. Because prostate cancer death may take 15–20 years from metastasis, the 10-year follow-up may be insufficient to detect a mortality difference that the metastasis data predict will emerge later. The 15-year follow-up data (published 2023) confirmed that mortality began to diverge, with AS showing higher rates. The correct interpretation is nuanced: no mortality difference at 10 years, but higher metastasis risk in AS suggesting longer follow-up is needed.",
+          "wrong": {
+            "A": "At 10 years, there was no statistically significant survival advantage for RP or RT vs AS. Recommending universal active treatment based on metastasis rates alone, without mortality difference, overstates the current evidence.",
+            "C": "ProtecT enrolled 1,643 men — a well-powered RCT. The lack of mortality difference at 10 years is the true result, not a power issue. The trial had >80% power to detect a clinically meaningful survival difference.",
+            "D": "Metastasis is a valid, pre-specified secondary endpoint. Dismissing it as 'unreliable' ignores important prognostic information. The discordance between metastasis and mortality at 10 years reflects follow-up duration, not endpoint invalidity."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer (2024) — Active surveillance: appropriate for low-risk and favourable intermediate-risk PCa; ProtecT trial supports AS as a management option with equivalent 10-year cancer-specific mortality; longer follow-up required for definitive conclusions.",
+          "trial": "Hamdy FC et al., ProtecT (NEJM 2016): 10-year prostate cancer-specific mortality 1.5% AS, 0.9% RP, 0.7% RT (no significant difference p=0.48); metastasis 6.3% AS, 2.4% RP, 3.0% RT (p=0.004) — landmark trial for management of localised prostate cancer.",
+          "pearl": "ProtecT at 10 years: prostate cancer mortality equivalent across AS/RP/RT. AS has more metastases. Implication: low-risk PCa can be managed with AS without compromising 10-year cancer-specific survival. Longer follow-up needed to determine if metastasis difference translates to mortality difference."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G1-Q10",
+        "stem": "An RCT comparing two antibiotic regimens for uncomplicated urinary tract infections reports results per intention-to-treat (ITT) analysis (n=400 per arm) and per-protocol (PP) analysis (n=310 per arm for regimen A, n=340 per arm for regimen B). The ITT analysis shows 72% vs 68% clinical cure (p=0.10, non-significant). The PP analysis shows 80% vs 71% clinical cure (p=0.02, significant). How should this discordance be interpreted?",
+        "options": {
+          "A": "The PP analysis is the definitive result because it includes only adherent patients",
+          "B": "The ITT analysis is the primary efficacy result; the PP analysis is supportive; the discordance may indicate differential non-adherence or dropout between groups that should be investigated",
+          "C": "The ITT analysis underestimates the true treatment effect because it includes non-adherent patients",
+          "D": "Both analyses are equivalent; the p=0.02 PP result confirms the drug's efficacy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ITT is the primary efficacy analysis in RCTs (CONSORT and ICH E9 standard). The PP analysis is supportive. Discordance between ITT and PP can indicate: differential dropout between arms (more patients dropping out of one arm, possibly due to side effects or lack of efficacy), which selectively removes certain participants from the PP analysis and biases it. When the PP analysis shows a significant result while ITT does not, the PP result may be inflated by selection of adherent responders. The appropriate response is to investigate the reasons for dropout and report both analyses transparently.",
+          "wrong": {
+            "A": "PP analysis is susceptible to attrition bias — including only adherent patients creates a selected population that may not represent all randomised patients. PP is supportive, not definitive.",
+            "C": "While true that ITT is conservative (includes non-adherent patients who may not fully benefit), this is intentional — ITT reflects real-world effectiveness where not all patients are fully adherent. ITT estimates the pragmatic effect; PP estimates the biological efficacy under ideal adherence.",
+            "D": "The two analyses are not equivalent — they address different questions (effectiveness vs efficacy) and are susceptible to different biases. A significant PP result cannot simply confirm efficacy when the ITT result is non-significant."
+          },
+          "guideline": "ICH E9 Statistical Principles for Clinical Trials (1998): ITT is the pre-specified primary efficacy analysis; PP analysis is secondary; discordance between the two should be explained and reported transparently.",
+          "trial": "STUDD Trial (Pickard R, NEJM 2015 — uncomplicated UTI antibiotic trial): Used ITT as primary analysis; PP analysis was supportive; discordance explained by differential adherence to assigned antibiotic regimen — illustrating the ITT/PP interpretation in a urology antibiotic trial context.",
+          "pearl": "ITT = all randomised patients in their allocated groups = primary analysis. PP = only adherent patients = supportive analysis. When ITT is negative and PP is positive, the PP result may be inflated by selection of adherent responders. Investigate differential dropout to explain discordance."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q11",
+        "stem": "A researcher at a urology conference presents an analysis of a prospective registry of 2,500 radical cystectomy patients. She reports that minimally invasive (laparoscopic/robotic) cystectomy is associated with lower 90-day readmission rates (18% vs 24%, p=0.002) compared with open cystectomy, after propensity score matching for age, ASA score, and pT stage. A colleague challenges this by stating that 'the result is likely explained by unmeasured confounding'. What does this mean?",
+        "options": {
+          "A": "The propensity score model was incorrectly specified and should include more variables",
+          "B": "Even after adjusting for measured variables, variables not included in the propensity score model (such as surgeon volume, functional status, or comorbidity indices) may still explain the association",
+          "C": "Readmission rate is a biased endpoint that favours minimally invasive surgery",
+          "D": "The sample size is insufficient to draw conclusions"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Unmeasured confounding is the fundamental limitation of all observational studies, regardless of how sophisticated the statistical adjustment. Even after propensity score matching for age, ASA, and pT stage, variables not captured in the registry (surgeon volume, functional status, social support, nutritional status, specialised ERAS protocols) may differ between open and minimally invasive patients and independently affect readmission rates. Randomised trials are the only design that accounts for both measured AND unmeasured confounders through allocation by chance.",
+          "wrong": {
+            "A": "While a more comprehensive propensity score model with additional variables might reduce measured confounding, it cannot eliminate unmeasured confounding by definition — unmeasured variables are not in the model. The colleague's concern is specifically about unmeasured variables.",
+            "C": "Readmission rate is a valid, objective endpoint. Minimally invasive surgery may genuinely reduce readmission through less wound complications, faster recovery. The concern is not about endpoint bias but about confounding.",
+            "D": "2,500 patients is a large sample providing substantial statistical power. The concern is about internal validity (confounding), not statistical power."
+          },
+          "guideline": "STROBE Statement (von Elm E, Ann Intern Med 2007): Observational studies must acknowledge residual confounding and the possibility that unmeasured variables explain observed associations; only RCTs can control for unmeasured confounders.",
+          "trial": "iROC RCT (Catto JW, JAMA 2022): Comparing RARC vs ORC in a properly randomised setting — achieved better control of both measured and unmeasured confounders than prior registry studies, demonstrating why RCTs are needed to confirm associations observed in observational data.",
+          "pearl": "Propensity score balances MEASURED confounders only. Unmeasured confounders (not in the registry) remain unbalanced and can explain observational associations. Only RCTs balance both measured and unmeasured confounders. This is why RCTs remain essential despite sophisticated observational methods."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q12",
+        "stem": "A researcher plans an RCT with 90% power to detect a 15% absolute difference in stone-free rate (SFR) at 3 months after ureteroscopy vs shock wave lithotripsy for 10–15 mm ureteral stones. The expected SFR is 70% for ureteroscopy and 55% for SWL. Type I error alpha = 0.05 (two-sided). The recruiter proposes enrolling participants on a 2:1 ratio (ureteroscopy:SWL) to avoid patients refusing SWL. What is the consequence of unequal allocation for statistical efficiency?",
+        "options": {
+          "A": "Unequal allocation increases statistical power for the same total sample size",
+          "B": "Unequal allocation reduces statistical efficiency compared with 1:1 allocation; a larger total sample is required for the same power",
+          "C": "Unequal allocation eliminates selection bias because more patients receive the preferred treatment",
+          "D": "Unequal allocation has no effect on power; only the smaller arm's size matters"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Equal allocation (1:1) is statistically optimal — it maximises power for a given total sample size. Unequal allocation (2:1) reduces statistical efficiency, requiring a larger total sample to maintain the same power. The statistical loss can be calculated: for a 2:1 ratio, the effective total sample to maintain 90% power is increased by a factor of (r+1)²/(4r) where r is the allocation ratio — resulting in approximately 12.5% more participants needed compared with 1:1. Unequal allocation may be chosen for pragmatic reasons (treatment preference, cost, feasibility) but always at the cost of statistical efficiency.",
+          "wrong": {
+            "A": "Unequal allocation REDUCES, not increases, statistical efficiency. The 1:1 allocation minimises the required total sample for any given power level.",
+            "C": "Unequal allocation does not eliminate selection bias — it changes the ratio of assignments but does not change the randomisation mechanism. Allocation concealment prevents selection bias regardless of ratio.",
+            "D": "Both arms' sizes contribute to statistical power. Unequal allocation reduces the contribution of the smaller arm more than proportionally, reducing overall efficiency."
+          },
+          "guideline": "ICH E9 Statistical Principles for Clinical Trials (1998): Unequal randomisation ratios should be pre-specified with justification; they reduce statistical efficiency and require larger total samples; 1:1 allocation is the most efficient design.",
+          "trial": "SUSPEND Trial (Pickard R, NEJM 2015): Used 1:1:1 allocation across three arms (alpha-blocker A, alpha-blocker B, placebo) to optimise statistical efficiency for detecting differences in stone passage rates — demonstrating equal allocation as the default for parallel-group trials.",
+          "pearl": "1:1 allocation = maximum statistical efficiency. Unequal allocation reduces power for the same total sample, or requires more participants to maintain power. Unequal allocation is sometimes justified pragmatically (participant preference, cost) but should be pre-specified with justification."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G1-Q13",
+        "stem": "The IDEAL framework for evaluating surgical innovations has five stages. A urologist has developed a novel technique for single-anastomosis stoma-sparing rectal repair using robotic assistance. He has performed 5 cases and is preparing his first publication. At what IDEAL stage is this work?",
+        "options": {
+          "A": "Stage 3 (Assessment — RCT)",
+          "B": "Stage 2a (Development — small case series with iterative technique refinement)",
+          "C": "Stage 4 (Long-term surveillance registry)",
+          "D": "Stage 2b (Exploration — prospective multicentre cohort)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The IDEAL Stage 2a (Development) corresponds to early case series where a surgeon is actively learning and refining the technique based on immediate outcomes. Key features: small numbers (typically <30 cases), technique variations described and refined between cases, outcomes are preliminary and descriptive. Stage 2a publications are case series or small case cohorts describing the technique, learning curve, and early feasibility — appropriate for the first 5-case series described here.",
+          "wrong": {
+            "A": "Stage 3 (Assessment) requires a formal RCT comparing the innovation to standard of care. This requires the technique to be standardised, multiple surgeons to be trained, and sufficient preliminary data to power a randomised study — far beyond a 5-case experience.",
+            "C": "Stage 4 (Long-term) involves population-level registry surveillance for rare complications and long-term outcomes in a mature innovation. It follows a Stage 3 RCT and represents established techniques.",
+            "D": "Stage 2b (Exploration) involves prospective multi-centre studies with standardised technique across multiple sites — requiring multiple surgeons, standardisation of the technique, and larger numbers (typically 50–200 cases). This exceeds a 5-case experience."
+          },
+          "guideline": "IDEAL Framework (Ergina PL et al., Lancet 2009): Stage 1 = first in-human; Stage 2a = development (small series, technique refinement); Stage 2b = exploration (multicentre, standardised); Stage 3 = assessment (RCT); Stage 4 = long-term (registry, surveillance). Guides appropriate study design at each innovation stage.",
+          "trial": "McCulloch P et al., IDEAL Collaboration (Lancet 2009): Introduction of the IDEAL framework to surgical research — providing structured guidance for reporting surgical innovations that acknowledges the staged nature of surgical technique development, now widely referenced in urological surgical research.",
+          "pearl": "IDEAL stages: 1=first case, 2a=small series (technique refinement), 2b=multicentre prospective, 3=RCT, 4=registry long-term. A 5-case first experience = IDEAL Stage 2a. Matching the study design to the innovation stage prevents premature evaluation or indefinite avoidance of rigorous assessment."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q14",
+        "stem": "A multi-centre RCT of renal denervation for resistant hypertension — SYMPLICITY HTN-3 (Bhatt DL, NEJM 2014) — showed no significant difference in ambulatory systolic BP reduction between renal denervation and sham procedure (−14.1 mmHg vs −11.7 mmHg; p=0.26). The sham procedure involved femoral artery puncture and renal angiography without denervation. What was the methodological innovation of including a sham arm, and what did this trial demonstrate?",
+        "options": {
+          "A": "Sham procedures provide an additional control for the placebo effect; SYMPLICITY HTN-3 showed that prior uncontrolled studies overestimated the benefit of renal denervation due to the placebo effect",
+          "B": "Sham procedures are unethical and should not be used in surgical research",
+          "C": "The sham arm controlled for confounding by indication only",
+          "D": "SYMPLICITY HTN-3 confirmed that renal denervation is superior to medical therapy"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "SYMPLICITY HTN-3 introduced a sham-controlled design (sham = femoral artery puncture + angiography without ablation) to blind participants and clinicians to the actual treatment, controlling for the placebo effect. Prior uncontrolled studies (SYMPLICITY HTN-1 and HTN-2) showed large BP reductions but lacked sham controls, leaving the contribution of placebo, regression to the mean, and Hawthorne effect unmeasured. HTN-3 revealed that when these biases were controlled, there was no significant benefit from renal denervation over sham. This landmark negative trial demonstrated that unblinded surgical procedures are highly susceptible to non-specific effects and that sham controls, when ethically justified, are necessary for valid evaluation.",
+          "wrong": {
+            "A": "Correct — see explanation above.",
+            "B": "Sham procedures are ethically controversial but not categorically unethical — they must be justified by the clinical need for blinding and must be associated with minimal additional risk. SYMPLICITY HTN-3 underwent IRB/ethics approval. Many sham-controlled surgical trials have been conducted ethically.",
+            "C": "Confounding by indication is an observational study problem relating to non-random treatment selection — not relevant in a randomised trial. The sham arm controls for placebo/non-specific effects, not confounding by indication.",
+            "D": "SYMPLICITY HTN-3 found NO significant benefit of renal denervation over sham — it was a landmark NEGATIVE trial, not a confirmation of superiority."
+          },
+          "guideline": "EAU Research Methodology Guidelines (2024) — Sham-controlled surgical trials: justified when placebo effect is large, blinding of participants is important for primary outcome integrity, and additional sham procedure risk is minimal; SYMPLICITY HTN-3 is cited as an example of methodological rigour in surgical/procedural trials.",
+          "trial": "Bhatt DL et al., SYMPLICITY HTN-3 (NEJM 2014): 535 patients randomised 2:1 renal denervation vs sham — primary endpoint (ambulatory systolic BP at 6 months) showed −14.1 vs −11.7 mmHg, p=0.26 — negative result overturning previously promising uncontrolled data; established sham-controlled trials as the gold standard for procedural interventions.",
+          "pearl": "SYMPLICITY HTN-3 = landmark negative sham-controlled surgical trial. Prior uncontrolled positive data was inflated by placebo effect. Lesson: procedural/surgical trials require sham controls (when ethical) to separate true procedural effect from non-specific effects. Unblinded surgical trials are susceptible to large placebo effects."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G1-Q15",
+        "stem": "In a meta-analysis of 10 RCTs comparing intravesical Bacillus Calmette-Guérin (BCG) to intravesical chemotherapy for non-muscle-invasive bladder cancer, significant statistical heterogeneity is detected (I² = 68%). What does I² = 68% mean and how should it affect interpretation?",
+        "options": {
+          "A": "68% of studies showed a significant benefit for BCG — the meta-analysis is reliable",
+          "B": "68% of the variance in effect estimates between trials is due to true heterogeneity (variation in treatment effects) rather than chance — this is high heterogeneity and limits the reliability of a pooled estimate",
+          "C": "68% of patients in the meta-analysis received BCG — indicating allocation imbalance",
+          "D": "I² is a measure of publication bias; I² = 68% indicates significant publication bias affecting the meta-analysis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "I² (I-squared) quantifies the proportion of variability in effect estimates across studies that is attributable to true heterogeneity rather than sampling error. I² values: <25% = low, 25–75% = moderate, >75% = high. I² = 68% indicates substantial true heterogeneity — the trials are likely measuring meaningfully different treatment effects due to differences in patient populations, BCG strain, dosing regimens, risk groups, or outcome definitions. A pooled summary estimate from highly heterogeneous studies may obscure important subgroup differences. Interpretation should explore sources of heterogeneity through meta-regression or subgroup analyses.",
+          "wrong": {
+            "A": "I² does not count the proportion of studies showing a significant result — it is a statistical measure of variance decomposition across studies. 68% studies showing benefit would be a different calculation.",
+            "C": "I² has nothing to do with allocation ratios or patient numbers. It is a variance-based statistic measuring between-study consistency of effect estimates.",
+            "D": "Publication bias is assessed by funnel plot asymmetry, Egger's test, or Begg's test — not by I². I² measures heterogeneity, not publication bias."
+          },
+          "guideline": "Cochrane Handbook for Systematic Reviews of Interventions (Higgins JPT, 2022) — I² interpretation: <25% = low heterogeneity (pooling appropriate); 25–75% = moderate (explore sources); >75% = high (pooled estimate unreliable, subgroup analysis essential); I² = 68% = moderate-high, requiring exploration of heterogeneity sources.",
+          "trial": "Malmström PU et al. EORTC/CUETO meta-analysis (Eur Urol 2009): Meta-analysis of BCG vs intravesical chemotherapy for NMIBC — significant heterogeneity across trials due to varying BCG strains, risk groups, and maintenance schedules; pooled analysis showed BCG superiority for intermediate/high-risk NMIBC while low-risk showed no advantage — demonstrating how heterogeneity analysis reveals clinically important subgroup differences.",
+          "pearl": "I² measures heterogeneity between studies in a meta-analysis. I² <25% = low (pool freely), 25–75% = moderate (explore sources), >75% = high (pooled estimate unreliable). I² ≠ publication bias (assessed by funnel plot). When I² is high, explore sources of heterogeneity by meta-regression."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G1-Q16",
+        "stem": "A randomised trial of enhanced recovery after surgery (ERAS) versus standard care after radical cystectomy enrolls hospitals rather than individual patients. Eight hospitals are randomised to ERAS (4 hospitals, 120 patients total) or standard care (4 hospitals, 115 patients total). What study design is this, and what is the main analytical concern?",
+        "options": {
+          "A": "Crossover RCT — patients serve as their own controls",
+          "B": "Cluster RCT — the unit of randomisation is the hospital; analysis must account for clustering of patients within hospitals (intra-cluster correlation)",
+          "C": "Adaptive RCT — sample size changes based on interim analysis",
+          "D": "Stepped-wedge RCT — hospitals transition to ERAS at different time points"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In this cluster RCT, the hospital (not the individual patient) is the unit of randomisation. All patients within a given hospital receive the same intervention, meaning outcomes of patients within the same cluster are not independent — they are correlated by shared care processes, surgeon skill, and institutional culture. The intra-cluster correlation coefficient (ICC) quantifies this correlation. Standard statistical methods that assume patient-level independence will underestimate the true variance, producing falsely narrow confidence intervals and inflated Type I error. Analysis must use multilevel modelling, generalised estimating equations (GEE), or adjusted sample sizes accounting for the design effect.",
+          "wrong": {
+            "A": "Crossover RCTs assign each patient to both treatments at different times — not applicable here where each hospital receives only one intervention.",
+            "C": "Adaptive RCTs modify the protocol (sample size, allocation ratio, or treatment arms) based on interim data — not described here. This trial uses a fixed design.",
+            "D": "Stepped-wedge RCTs have all clusters receive the intervention in a staggered sequence over time — useful for evaluating service-level interventions but more complex than the simple parallel cluster design described here."
+          },
+          "guideline": "CONSORT Extension for Cluster Randomised Trials (Campbell MK, BMJ 2004): Cluster RCTs must report the unit of randomisation, ICC, and use cluster-level or multilevel analyses; failing to account for clustering produces false precision and inflated Type I error.",
+          "trial": "ENRICH Trial (ERAS for radical cystectomy, Cerantola Y, BJU Int 2013): Multi-centre ERAS implementation study — while not a cluster RCT itself, it illustrates the challenges of implementing and evaluating pathway-level interventions across centres, supporting the relevance of cluster RCT design for ERAS evaluation in urology.",
+          "pearl": "Cluster RCT = hospitals/clinics randomised, not patients. Main concern = intra-cluster correlation (patients within same cluster share care processes → non-independent). Must account for ICC in sample size and analysis using multilevel models or GEE. Ignoring clustering inflates Type I error."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G1-Q17",
+        "stem": "An investigator discovers mid-trial that the primary endpoint (stone-free rate at 3 months on plain X-ray) for her ureteroscopy vs SWL trial may have been assessed differently at different centres — some used CT, others used plain X-ray. What type of reporting requirement would have prevented this problem and what bias is now threatened?",
+        "options": {
+          "A": "Sample size calculation; selection bias",
+          "B": "Pre-specified standardised outcome assessment procedures in the trial protocol; detection bias",
+          "C": "Power calculation; attrition bias",
+          "D": "Allocation concealment documentation; performance bias"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Pre-specification of standardised outcome assessment procedures in the trial protocol (SPIRIT 2013 compliant) would have defined exactly how the primary endpoint (stone-free rate) is assessed — specifying the imaging modality (CT vs X-ray), timing, and interpretation criteria at all centres. Without this, differential outcome assessment between centres (CT is more sensitive than X-ray for detecting residual fragments) creates differential detection: centres using CT will detect more residual fragments and report lower SFR. This is detection bias (ascertainment bias) — outcomes are measured differently depending on the centre/assessor, distorting the true treatment comparison.",
+          "wrong": {
+            "A": "Sample size calculation determines the number of participants needed — it does not specify outcome assessment procedures. Selection bias concerns participant recruitment.",
+            "C": "Power calculation is related to sample size. Attrition bias concerns differential dropout between groups — not outcome measurement methodology.",
+            "D": "Allocation concealment prevents selection bias at the point of randomisation. Performance bias occurs when care differs by allocation. Neither prevents differential outcome assessment across centres."
+          },
+          "guideline": "SPIRIT 2013 (Chan AW, Ann Intern Med 2013): Item 18 — clearly define all outcomes, measurement instruments, measurement timepoints, and assessment procedures; standardise outcome assessment across all trial centres to prevent differential detection bias.",
+          "trial": "STONE EUREKA Trial (Daels F, JAMA Surg 2019): Multi-centre trial comparing different stone treatment modalities — pre-specified CT assessment as the primary stone-free outcome measure at all centres to prevent the differential detection issue that has plagued prior SWL vs URS trials using less standardised imaging.",
+          "pearl": "Pre-specification of outcome assessment in the protocol (SPIRIT) prevents detection bias from differential measurement across centres. For stone-free rate, standardise imaging modality (CT vs X-ray), timing, and reporting criteria across all sites. Inconsistent assessment = detection bias."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q18",
+        "stem": "A urologist completes an RCT of semi-rigid ureteroscopy vs flexible ureteroscopy for 10–15 mm proximal ureteral stones. The trial is registered on ClinicalTrials.gov. The pre-specified primary endpoint was stone-free rate at 1 month. The study shows no significant difference in SFR. However, the manuscript reports complication rate and procedure time as the primary outcomes, showing significant differences favouring flexible URS. What reporting violation has occurred?",
+        "options": {
+          "A": "Selection bias from inadequate randomisation",
+          "B": "Outcome-switching (outcome reporting bias) — the pre-registered primary endpoint was abandoned and non-registered secondary outcomes were reported as primary results",
+          "C": "Allocation concealment failure",
+          "D": "Publication bias — the negative SFR result was not published"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Outcome-switching (also called selective outcome reporting or outcome reporting bias) occurs when the pre-specified primary endpoint is abandoned and a more favourable outcome is reported as the primary result. Trial registration creates a public pre-specification record; any departure from the registered primary endpoint must be transparently disclosed. Outcome-switching is a serious violation of research integrity, inflates Type I error (effectively performing multiple tests without correction), and misleads readers and guideline developers. CONSORT 2010 Item 6a requires reporting all pre-specified outcomes.",
+          "wrong": {
+            "A": "Selection bias concerns participant recruitment and randomisation — not outcome reporting after the trial is complete.",
+            "C": "Allocation concealment failure concerns the randomisation process — unrelated to the post-hoc change of reported outcomes.",
+            "D": "Publication bias concerns the suppression of entire trials or manuscripts, typically negative ones. This trial IS being published — it is the internal switching of outcomes within the manuscript that constitutes outcome-switching bias, not failure to publish."
+          },
+          "guideline": "CONSORT 2010 (Item 6a): Report all pre-specified primary and secondary outcomes as registered; disclose any deviations from the registered protocol; outcome-switching is a major integrity violation and grounds for retraction in ICMJE-member journals.",
+          "trial": "Dwan K et al. (BMJ 2008): Systematic review demonstrating outcome-switching in 40–62% of published trials when compared with their registered protocols — major source of overestimation of treatment effects in systematic reviews; CONSORT implementation and prospective registration are the primary countermeasures.",
+          "pearl": "Outcome-switching = abandoning the pre-registered primary endpoint and reporting a different outcome as primary. This is a research integrity violation detectable by comparing the published manuscript with the trial registry. CONSORT Item 6a requires reporting all pre-specified outcomes regardless of direction of effect."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q19",
+        "stem": "A funnel plot in a meta-analysis of trials comparing minimally invasive vs open nephrectomy for renal cell carcinoma shows marked asymmetry — small trials at the top of the inverted funnel cluster on the side showing benefit for minimally invasive surgery, while large trials cluster near the centre. What is the most likely interpretation?",
+        "options": {
+          "A": "Large trials are more biased than small trials in surgical research",
+          "B": "Publication bias — small trials showing benefit for minimally invasive surgery are more likely to be published, while small negative trials are not, creating asymmetry in the funnel plot",
+          "C": "The pooled result overestimates the benefit of open surgery",
+          "D": "The funnel plot asymmetry indicates significant heterogeneity requiring subgroup analysis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Funnel plot asymmetry — where small trials cluster asymmetrically at one side — is classically interpreted as evidence of publication bias. Small trials showing positive results (benefit for the new treatment — minimally invasive surgery) are published preferentially; small negative trials remain in file drawers. Large trials, with sufficient power to detect or refute effects definitively, plot near the centre regardless of direction. This creates a plot where the left side (positive results for new treatment) is populated by small trials, producing asymmetry. The pooled estimate from an asymmetric funnel plot likely overestimates the true treatment effect of the new treatment.",
+          "wrong": {
+            "A": "Large trials are generally less susceptible to publication bias and chance imbalance because they are better powered. Asymmetry from large trials clustering on one side is not the interpretation of the classic funnel plot asymmetry pattern.",
+            "C": "Funnel asymmetry with small trials on the positive side for minimally invasive surgery would mean the pooled estimate overestimates benefit for MINIMALLY INVASIVE surgery (not open surgery) — the small positive trials inflate the pooled estimate toward the new treatment.",
+            "D": "Heterogeneity is assessed by I² and Q test — not primarily by funnel plot shape. Funnel asymmetry specifically assesses publication bias (Egger's test, Begg's test quantify the asymmetry statistically)."
+          },
+          "guideline": "Cochrane Handbook for Systematic Reviews (Higgins JPT, 2022) — Funnel plot asymmetry: interpreted as publication bias when small studies cluster asymmetrically; assess with Egger's or Begg's statistical test; may also reflect true small-study effects (smaller, less rigorous trials produce larger effects).",
+          "trial": "Guyot P et al. (BMC Med Res Methodol 2011): Demonstration that funnel plot asymmetry in surgical RCT meta-analyses commonly reflects publication bias — positive minimally invasive surgery results from small series being published while equivalent negative results are not submitted, inflating pooled effect estimates.",
+          "pearl": "Funnel plot: each trial plotted by effect size (x-axis) vs sample size or precision (y-axis). Asymmetry (small trials clustering on one side) = publication bias. Egger's test quantifies asymmetry statistically. Publication bias inflates pooled treatment effect estimates in meta-analysis."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G1-Q20",
+        "stem": "The EAU guideline assigns Grade A recommendation with Level 1b evidence to the use of BCG maintenance therapy for high-risk non-muscle-invasive bladder cancer (NMIBC). According to the Oxford CEBM levels, what does Level 1b correspond to, and what would Level 1a require?",
+        "options": {
+          "A": "Level 1b = expert opinion; Level 1a = single RCT",
+          "B": "Level 1b = a single well-designed RCT; Level 1a = systematic review with meta-analysis of multiple RCTs",
+          "C": "Level 1b = prospective cohort study; Level 1a = case-control study",
+          "D": "Level 1b = systematic review of RCTs; Level 1a = unpublished data"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Oxford CEBM levels: Level 1a = systematic review (with homogeneity) of RCTs; Level 1b = individual RCT with narrow confidence interval; Level 1c = all-or-none studies. Level 2a = systematic review of cohort studies; Level 2b = individual prospective cohort study. EAU Grade A recommendations are based on Level 1 evidence (either 1a or 1b). For BCG maintenance in high-risk NMIBC, the evidence derives from multiple RCTs (including the CUETO and EORTC randomised trials of BCG maintenance vs induction-only), supporting Level 1b or higher.",
+          "wrong": {
+            "A": "Expert opinion is the lowest level (Level 5), not Level 1b. A single RCT is Level 1b — correct description, but the labels are reversed in this option.",
+            "C": "Prospective cohort is Level 2b; case-control is Level 3. Neither represents Level 1 evidence.",
+            "D": "Systematic review of RCTs is Level 1a (correct for the second part), but Level 1b is a single RCT — not a systematic review. Unpublished data is not a recognised evidence level."
+          },
+          "guideline": "Oxford Centre for Evidence-Based Medicine (CEBM) Levels of Evidence (2011 update): 1a = SR of RCTs; 1b = individual RCT; 2a = SR of cohort studies; 2b = individual cohort; 3 = case-control; 4 = case series; 5 = expert opinion. EAU Grade A = Level 1 evidence.",
+          "trial": "Sylvester RJ et al. EORTC meta-analysis (J Urol 2002): Systematic review and meta-analysis of BCG maintenance vs no maintenance for NMIBC — demonstrated 44% reduction in tumour recurrence with BCG maintenance; this meta-analysis of RCTs (Level 1a) forms the basis of the Grade A EAU recommendation.",
+          "pearl": "Oxford CEBM: 1a = SR of RCTs (highest), 1b = single RCT, 2b = cohort, 3 = case-control, 4 = case series, 5 = expert opinion (lowest). EAU Grade A = Level 1 evidence (1a or 1b). Knowing this grading system is essential for interpreting guideline strength."
+        },
+        "difficulty": 1
+      }
+    ]
+  }
+}

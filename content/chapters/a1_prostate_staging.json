@@ -1,0 +1,663 @@
+{
+  "id": "A1",
+  "title": "Prostate Cancer — Diagnosis and Staging",
+  "subtitle": "Uro-Oncology — PSA, multiparametric MRI, systematic and targeted biopsy, TNM 2024",
+  "block": "A",
+  "block_name": "Uro-Oncology",
+  "level": "R2-3",
+  "reading_time_min": 45,
+  "guidelines_version": "EAU Guidelines on Prostate Cancer 2024 · NCCN Prostate Cancer v2.2024",
+  "textbook_refs": [
+    "EAU Guidelines on Prostate Cancer 2024 (Mottet N et al.)",
+    "Campbell-Walsh-Wein Urology, 12th ed. (2021), Ch. 152-158",
+    "NCCN Clinical Practice Guidelines in Oncology: Prostate Cancer v2.2024",
+    "Hamdy FC et al. 10-Year Outcomes after Monitoring, Surgery, or Radiotherapy for Prostate Cancer. N Engl J Med 2016"
+  ],
+  "learning_objectives": [
+    "Interpret PSA kinetics (velocity, density, doubling time) to risk-stratify prostate cancer screening appropriately",
+    "Describe the PI-RADS v2.1 scoring system and its clinical implications for biopsy decision-making",
+    "Apply the EAU 2024 risk stratification system to newly diagnosed localised prostate cancer",
+    "Select the appropriate biopsy strategy (systematic TRUS, systematic transperineal, or targeted MRI-fusion) based on clinical context",
+    "Stage prostate cancer accurately using the 2024 AJCC/TNM classification including cT, cN and cM descriptors",
+    "Identify indications for staging imaging (bone scan, PSMA-PET/CT) based on risk category"
+  ],
+  "sections": [
+    {
+      "id": "A1-S1",
+      "title": "PSA Biology and Screening Strategies",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Prostate-specific antigen (PSA)** is a serine protease produced by both normal and malignant prostate epithelium, encoded by the KLK3 gene on chromosome 19q13.4. It functions physiologically to liquefy seminal fluid. While PSA is organ-specific, it is not cancer-specific: elevated serum PSA can result from benign prostatic hyperplasia (BPH), prostatitis, urinary retention, prostatic instrumentation, or vigorous cycling and sexual activity. The reference range of <4.0 ng/mL was derived from cross-sectional studies and is imperfect — approximately 15% of men with PSA <4 ng/mL harbour prostate cancer, and 15% of those have high-grade disease (Gleason 7+).\n\nThe landmark **ERSPC (European Randomised Study of Screening for Prostate Cancer)** trial demonstrated a 20% reduction in prostate cancer mortality at 13 years with PSA-based screening compared to no screening, though at the cost of significant overdiagnosis. The US **PLCO trial** showed no mortality benefit, likely due to contamination (>50% of control arm received PSA testing). The **PROTECT trial** (Hamdy et al., N Engl J Med 2016) randomised 1,643 men with localised prostate cancer to active monitoring, surgery, or radiotherapy and found equivalent 10-year prostate-cancer-specific mortality (~1%) across all arms, highlighting the importance of risk stratification over uniform treatment.\n\nContemporary EAU 2024 guidelines recommend **baseline PSA at age 45** in men with a life expectancy >10 years, with the testing interval determined by baseline PSA level: men with PSA <1 ng/mL may be rescreened every 4 years; those with PSA 1–2 ng/mL every 2 years; those with PSA >2 ng/mL annually. A shared decision-making framework is mandatory. The guidelines do not recommend population-based screening but endorse risk-adapted early detection in informed men.\n\nPSA refinements include: **PSA density** (PSA/prostate volume by TRUS or MRI; >0.15 ng/mL/cc increases suspicion), **PSA velocity** (rise >0.75 ng/mL/year over ≥18 months is suspicious; though this metric adds little independent value over absolute PSA), **PSA doubling time** (particularly relevant in biochemical recurrence monitoring), and **free-to-total PSA ratio** (%fPSA; <10-15% is associated with higher cancer risk in the PSA 4-10 ng/mL 'grey zone'). The **Prostate Health Index (PHI)** and **4Kscore** are validated biomarkers that refine biopsy decisions when PSA is elevated but biopsy risk is uncertain, primarily by reducing detection of indolent Grade Group 1 disease."
+        },
+        {
+          "type": "table",
+          "title": "PSA Refinements — Clinical Utility and Thresholds",
+          "headers": ["Marker", "Calculation / Threshold", "Clinical use", "Limitation"],
+          "rows": [
+            ["PSA density", "PSA ÷ prostate volume; >0.15 ng/mL/cc suspicious", "Differentiate BPH from PCa in grey zone", "Requires accurate volume measurement"],
+            ["Free/total PSA", "%fPSA <10-15% increases PCa risk", "Grey zone (4-10 ng/mL)", "Less useful at PSA >10 ng/mL"],
+            ["PSA velocity", ">0.75 ng/mL/year over ≥18 months", "Serial monitoring", "Poor specificity; adds little over PSA"],
+            ["PSA doubling time", "<3 months = aggressive recurrence", "Post-treatment monitoring", "Requires serial measurements"],
+            ["PHI", "[(-2)proPSA / fPSA] × √PSA; >35 increases risk", "Refine biopsy decision PSA 2-10", "Not universally available"],
+            ["4Kscore", "Algorithm: total PSA, free PSA, intact PSA, hK2 + age/DRE", "Predict Grade Group ≥2 cancer", "Proprietary; needs venipuncture"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — PSA Grey Zone",
+          "content": "In the PSA 4-10 ng/mL 'grey zone', approximately 25% of men have prostate cancer on systematic biopsy. A free/total PSA ratio <10% increases likelihood of cancer to ~56%; a ratio >25% decreases it to ~8%. This ratio is most useful for decision-making about repeat biopsy after a negative first biopsy."
+        }
+      ]
+    },
+    {
+      "id": "A1-S2",
+      "title": "Multiparametric MRI and PI-RADS v2.1",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Multiparametric MRI (mpMRI)** of the prostate combines T2-weighted imaging (T2WI), diffusion-weighted imaging (DWI) with apparent diffusion coefficient (ADC) mapping, and dynamic contrast-enhanced (DCE) imaging. The **PI-RADS (Prostate Imaging Reporting and Data System) v2.1** classification, published by the ACR and ESUR in 2019, standardises reporting and assigns each lesion a score from 1 (very low probability of clinically significant cancer) to 5 (very high probability). Clinically significant prostate cancer (csPCa) is defined as Grade Group ≥2 (Gleason score ≥3+4=7).\n\nFor the **peripheral zone** (PZ), DWI/ADC is the dominant sequence. PI-RADS 3 in the PZ denotes equivocal findings (focal mild hypointensity on ADC); PI-RADS 4 denotes focal marked hypointensity on ADC ≤0.6 cm in greatest dimension; PI-RADS 5 denotes focal marked hypointensity >1.5 cm or definite extracapsular extension. For the **transition zone** (TZ), T2WI is dominant. Lenticular/non-circumscribed homogeneous lesions with low T2 signal that obliterate the surgical pseudocapsule are PI-RADS 4-5.\n\nThe landmark **PRECISION trial** (Kasivisvanathan et al., N Engl J Med 2018) randomised 500 men with no prior biopsy to MRI-targeted biopsy versus standard 10-12 core TRUS biopsy. MRI-targeted biopsy detected more Grade Group ≥2 cancers (38% vs 26%, p<0.001) and fewer Grade Group 1 cancers (9% vs 22%). The **PROMIS trial** (Ahmed et al., Lancet 2017) demonstrated that mpMRI had 93% sensitivity for csPCa and could avoid biopsy in 27% of men while missing only 5% of csPCa. Based on these data, EAU 2024 recommends **mpMRI before biopsy in biopsy-naive men** as a standard of care.\n\nFor PI-RADS 1-2 lesions, biopsy may be deferred or omitted if clinical suspicion is low. For PI-RADS 3, the decision should incorporate PSA density, prior biopsy history, and patient risk factors. PI-RADS 4-5 mandates biopsy. **MRI-targeted biopsy** alone, without systematic cores, is acceptable in repeat biopsy settings after a previous negative systematic biopsy; in biopsy-naive men, combined targeted + systematic biopsy is recommended to avoid missing non-target lesion cancers."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Skipping MRI Before First Biopsy",
+          "content": "Performing systematic TRUS biopsy without prior mpMRI misses approximately 12% of clinically significant prostate cancers that are invisible to systematic sampling (anterior tumours, transition zone tumours) and over-diagnoses Grade Group 1 (indolent) cancers. EAU 2024 mandates mpMRI before biopsy in biopsy-naive men as the preferred pathway. If MRI is unavailable, document the reason and note the limitation."
+        },
+        {
+          "type": "table",
+          "title": "PI-RADS v2.1 — Summary and Clinical Action",
+          "headers": ["PI-RADS Score", "Probability of csPCa", "DWI (PZ dominant)", "T2WI (TZ dominant)", "Clinical action"],
+          "rows": [
+            ["1", "Very low (<10%)", "No abnormality", "Homogeneous BPH nodule", "No biopsy if no other risk factors"],
+            ["2", "Low (10-20%)", "Linear/diffuse hyperintense ADC", "Circumscribed T2 low-signal nodule", "No biopsy in most cases"],
+            ["3", "Equivocal (30%)", "Focal mild ADC hypointensity", "Heterogeneous signal", "Individualise — PSA density, prior biopsy"],
+            ["4", "High (>60%)", "Focal marked ADC ≤0.6 cm", "Lenticular non-circumscribed", "Targeted + systematic biopsy"],
+            ["5", "Very high (>80%)", "Focal marked ADC >1.5 cm or EPE", "Disrupts pseudocapsule, EPE", "Targeted + systematic biopsy; staging"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A1-S3",
+      "title": "Prostate Biopsy — Techniques and Systematic Approaches",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Prostate biopsy can be performed via **transrectal** (TRUS-guided) or **transperineal** (TP) routes. TRUS biopsy has historically been the standard but carries a risk of sepsis of 1-3% and haematuria/haematospermia in up to 50% of cases. The transperineal approach, which avoids the rectal flora, has a sepsis rate of <0.5% and is now preferred by many centres. EAU 2024 acknowledges both routes as acceptable but notes the sepsis advantage of the TP approach.\n\n**Systematic biopsy** samples 10-12 cores in a sextant pattern (apex, mid, base bilaterally) plus lateral peripheral zone cores. **Targeted (fusion) biopsy** uses pre-acquired mpMRI data co-registered with real-time TRUS imaging (software fusion, cognitive fusion, or in-bore MRI-guided biopsy) to direct cores to PI-RADS 3-5 lesions. Cognitive fusion (radiologist mentally maps MRI target to TRUS) is operator-dependent; software fusion provides superior reproducibility. In-bore MRI-guided biopsy is the most accurate but least available.\n\nFor **repeat biopsy** after a negative systematic biopsy with a persistent PI-RADS 4-5 lesion on MRI, targeted biopsy alone may be sufficient. **Saturation biopsy** (>20 cores) or **template transperineal mapping biopsy** is indicated in selected cases (e.g., prior negative targeted biopsy, suspicion of anterior/TZ cancer, active surveillance reclassification).\n\nKey pathological parameters reported from prostate biopsy include: number of positive cores, percentage of core involvement, Gleason pattern and grade group in each positive core, presence of perineural invasion, intraductal carcinoma of the prostate (IDC-P), and cribriform pattern — the latter two are associated with aggressive biology and adverse pathological features at radical prostatectomy."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Transperineal vs Transrectal Biopsy",
+          "content": "Many UK and European centres have transitioned entirely to transperineal (TP) biopsy under local anaesthetic or sedation to reduce infective complications. A 2021 meta-analysis (Xue J et al.) showed TP biopsy had 0.1% sepsis rate vs 2.2% for TRUS. For service planning at HGUGM, local pathway review is warranted. The key logistic difference is requirement for perineal access and often a template grid, which requires skilled operator training."
+        }
+      ]
+    },
+    {
+      "id": "A1-S4",
+      "title": "Gleason Grading and Grade Groups",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **Gleason grading system**, originally described in 1966, assigns grades 1-5 to the two most predominant growth patterns; the combined score (3+4=7, 4+3=7, etc.) is reported. The 2014 **International Society of Urological Pathology (ISUP) consensus** updated Gleason grading and introduced the **Grade Group (GG) system** to improve clarity and reduce under-staging. Grade Groups are now the standard reporting framework endorsed by EAU, ISUP, and NCCN.\n\nGrade Group 1 (GG1) corresponds to Gleason score 3+3=6: pure tubular/glandular pattern, excellent prognosis, low metastatic potential. GG2 (3+4=7): predominantly well-formed glands with <50% poorly formed/fused/cribriform glands, intermediate prognosis. GG3 (4+3=7): >50% poorly formed/fused/cribriform, intermediate-high risk. GG4 (4+4=8 or 3+5=8 or 5+3=8): cribriform, fused or glomeruloid glands, high risk. GG5 (4+5=9/10, 5+4=9, 5+5=10): predominantly no glandular differentiation, very high risk.\n\nKey pathological features that upgrade risk beyond Grade Group include: **intraductal carcinoma of the prostate (IDC-P)** — a pattern of cancer filling ductal-acinar lumina, associated with BRCA2 mutations and castration resistance; **cribriform pattern** (Gleason 4 subtype) — associated with lymph node metastasis and bone metastasis even in localised disease; and **perineural invasion** — associated with EPE and biochemical recurrence after RP. These features should be explicitly reported and factor into treatment planning."
+        },
+        {
+          "type": "table",
+          "title": "ISUP Grade Group System — Gleason to Grade Group Conversion",
+          "headers": ["Grade Group", "Gleason Score", "10-yr BCR-free survival (RP)", "Risk category (EAU)", "Recommended management"],
+          "rows": [
+            ["GG1", "3+3=6", "~95%", "Low risk", "Active surveillance (preferred)"],
+            ["GG2", "3+4=7", "~85%", "Intermediate favourable", "AS or radical treatment"],
+            ["GG3", "4+3=7", "~70%", "Intermediate unfavourable", "Radical treatment"],
+            ["GG4", "4+4=8 or 3+5/5+3=8", "~60%", "High risk", "Radical treatment ± ADT"],
+            ["GG5", "9-10", "~40%", "Very high / locally advanced", "Radical treatment + ADT or docetaxel"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — IDC-P and Cribriform Pattern",
+          "content": "Intraductal carcinoma of the prostate (IDC-P) and cribriform Gleason 4 are associated with a 3-5x higher risk of metastasis and cancer-specific death compared to non-cribriform GG2 disease. Their presence contraindicates active surveillance even in GG2 disease. NCCN 2024 specifically lists IDC-P as an adverse feature warranting upfront radical treatment."
+        }
+      ]
+    },
+    {
+      "id": "A1-S5",
+      "title": "Risk Stratification — EAU and NCCN Systems",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Multiple risk stratification systems exist for localised prostate cancer; EAU 2024 and NCCN v2.2024 are the most widely used. Both incorporate PSA level, Grade Group, and clinical T stage as the primary variables. EAU 2024 classifies localised and locally advanced prostate cancer into four risk groups based on these parameters plus PSA density and number of positive biopsy cores.\n\n**EAU Low Risk**: PSA <10 ng/mL AND GG1 AND cT1-2a. These patients are candidates for active surveillance. **EAU Intermediate Risk** (further divided into favourable [IF] and unfavourable [IU]): one of PSA 10-20 ng/mL, or GG2, or cT2b-c (IF = only one risk factor, no additional adverse features; IU = GG3 or two or three IF criteria). **EAU High Risk**: PSA >20 ng/mL OR GG4-5 OR cT3a. **EAU Locally Advanced**: cT3b-T4 or cN+. **Very High Risk**: ≥2 high-risk criteria, or GG5, or cT3b-T4.\n\nNCCN uses a similar 6-category system adding a distinction between 'Very Low' (cT1c, GG1, PSA <10, <3 positive cores, <50% cancer per core, PSA density <0.15) and 'Low' risk, and separating 'Unfavourable Intermediate' from 'Favourable Intermediate'. The **CAPRA score** (UCSF) provides a continuous 0-10 point score incorporating PSA, Grade Group, T stage, % positive cores, and age, and has been externally validated for prediction of BCR and metastasis after radical prostatectomy and radiotherapy.\n\nCritically, no single risk stratification system perfectly predicts outcomes for individual patients. Genomic classifiers (**Prolaris**, **Decipher**, **Oncotype DX GPS**) provide incremental prognostic information beyond clinical variables and are particularly useful in intermediate-risk disease to distinguish patients who benefit from adjuvant versus salvage ADT, and to guide active surveillance eligibility."
+        },
+        {
+          "type": "table",
+          "title": "EAU 2024 Risk Stratification — Localised and Locally Advanced PCa",
+          "headers": ["Risk group", "PSA (ng/mL)", "Grade Group", "cT stage", "Recommended primary strategy"],
+          "rows": [
+            ["Low", "<10", "GG1", "cT1-2a", "Active surveillance"],
+            ["Intermediate favourable", "10-20 OR GG2 OR cT2b (1 factor)", "GG2", "cT2b-c", "AS or radical treatment"],
+            ["Intermediate unfavourable", "10-20 + GG3 or ≥2 factors", "GG3", "cT2c", "Radical treatment"],
+            ["High", ">20 OR GG4-5 OR cT3a", "GG4-5", "cT3a", "Radical treatment + long ADT"],
+            ["Locally advanced", "Any", "Any", "cT3b-T4 or cN1", "EBRT + long-term ADT ± docetaxel"],
+            ["Very high / M1", "Any", "Any", "cN1/M1", "Systemic ± local treatment"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A1-S6",
+      "title": "Staging Investigations — Imaging and Nomograms",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Accurate staging determines treatment intent and modality. In addition to mpMRI of the prostate (local staging), **nodal and distant staging** is required in intermediate-high and high-risk disease. EAU 2024 recommendations:\n\n**Bone scintigraphy**: indicated if PSA >20 ng/mL, GG4-5, cT3-4, or bone symptoms. Has been largely superseded by PSMA-PET/CT in high-resource settings. Specificity is poor — degenerative disease causes false positives; 'flare phenomenon' after initiating ADT can simulate progression.\n\n**Conventional CT (abdomen/pelvis)**: indicated for nodal staging in high-risk disease. Sensitivity for lymph node metastasis is ~40% (size criterion ≥8 mm short axis); misses micrometastatic disease routinely.\n\n**PSMA PET/CT** (gallium-68 or fluorine-18 labelled PSMA ligands): the landmark **ProPSMA trial** (Hofman et al., Lancet 2020) randomised 302 men with high-risk PCa to PSMA PET/CT vs conventional staging (CT + bone scan). PSMA PET/CT achieved 92% accuracy vs 65% for conventional imaging (p<0.001) and changed management in 28% of patients. EAU 2024 now recommends PSMA PET/CT **as preferred staging modality** in high-risk and very high-risk localised PCa, and for biochemical recurrence staging (replacing conventional imaging at PSA levels as low as 0.2 ng/mL).\n\n**Nomograms** (Partin tables, Memorial Sloan Kettering, Briganti nomogram) use clinical variables to predict pathological stage (EPE, seminal vesicle invasion, lymph node involvement). The **Briganti nomogram** is the EAU-recommended tool for predicting lymph node involvement and guides the decision to perform pelvic lymph node dissection (PLND): if nomogram-predicted LN risk >5%, PLND is recommended. Extended PLND (including external iliac, obturator, and internal iliac regions) detects more positive nodes than limited PLND."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — ProPSMA and PSMA-PET/CT",
+          "content": "The ProPSMA trial (Hofman et al., Lancet 2020) is the landmark RCT establishing PSMA-PET/CT superiority over conventional imaging for primary staging in high-risk prostate cancer. PSMA-PET/CT changed management in 1-in-4 patients compared to CT + bone scan. EAU 2024 recommends PSMA-PET/CT as the preferred staging modality in high-risk localised disease where available. Key limitation: not universally reimbursed in Spain as of 2024."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Overstaging on Bone Scintigraphy",
+          "content": "Degenerative joint disease, Paget's disease, and fractures all cause focal increased uptake on bone scan. Do not diagnose bone metastasis based on bone scan alone in the absence of correlating CT or MRI. A solitary rib lesion on bone scan has only 50% positive predictive value for metastasis. Confirm with plain radiograph, CT, or MRI before changing treatment intent."
+        }
+      ]
+    },
+    {
+      "id": "A1-S7",
+      "title": "TNM Staging 2024 and Clinical Documentation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **AJCC/UICC TNM 9th edition (2024)** provides the standard staging framework. For prostate cancer, the T descriptor is based on digital rectal examination (DRE) and imaging findings for clinical staging, and on pathological examination of the prostatectomy specimen for pathological staging.\n\n**Clinical T (cT) staging**: cT1a — incidental finding in <5% of TURP tissue; cT1b — incidental in >5% of TURP tissue; cT1c — identified by needle biopsy (PSA-detected); cT2a — tumour involves ≤50% of one lobe; cT2b — tumour involves >50% of one lobe but not both; cT2c — tumour involves both lobes; cT3a — extracapsular extension (unilateral or bilateral); cT3b — seminal vesicle invasion; cT4 — tumour is fixed or invades adjacent structures other than seminal vesicles (external sphincter, rectum, levator muscles, pelvic wall).\n\n**cN staging**: cN0 — no regional lymph node metastasis; cN1 — regional lymph node metastasis (pelvic nodes: obturator, internal/external iliac, sacral, presacral). **cM staging**: cM0; cM1a — non-regional lymph nodes; cM1b — bone; cM1c — other sites. PSA and Grade Group are integrated into the TNM stage groupings in the 9th edition, resulting in a prognostic stage grouping that better reflects clinical outcomes.\n\nFor clinical staging documentation, each case should record: PSA at diagnosis, Grade Group and Gleason scores from biopsy, number and percentage of positive cores, cT stage by DRE and MRI, cN stage by imaging, cM stage by bone scan/PSMA-PET, risk group, and any genomic classifier result. This information forms the basis for multidisciplinary tumour board discussion and shared decision-making with the patient."
+        },
+        {
+          "type": "table",
+          "title": "TNM 2024 (AJCC 9th ed.) — Prostate Cancer Stage Groups",
+          "headers": ["Stage", "T", "N", "M", "PSA / Grade Group", "5-yr CSS"],
+          "rows": [
+            ["I", "cT1-2a", "N0", "M0", "PSA<10, GG1", ">98%"],
+            ["IIA", "cT1-2", "N0", "M0", "PSA 10-20 or GG2", ">95%"],
+            ["IIB", "cT2b-c", "N0", "M0", "PSA <20, GG1-2", ">92%"],
+            ["IIC", "cT1-2", "N0", "M0", "PSA any, GG3-4", "~85%"],
+            ["IIIA", "cT1-2", "N0", "M0", "PSA ≥20 or GG1-4", "~80%"],
+            ["IIIB", "cT3-4", "N0", "M0", "Any PSA/GG", "~70%"],
+            ["IIIC", "Any T", "N0", "M0", "GG5", "~65%"],
+            ["IVA", "Any T", "N1", "M0", "Any", "~50%"],
+            ["IVB", "Any T", "Any N", "M1", "Any", "<30%"]
+          ]
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of prostate cancer diagnosis and staging with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "A1-Q1",
+        "stem": "A 58-year-old man presents for prostate cancer screening. His PSA is 3.2 ng/mL, DRE is normal, and prostate volume on TRUS is 28 mL. His PSA density is 0.114 ng/mL/cc. His father was diagnosed with prostate cancer at age 65. What is the most appropriate next step according to EAU 2024 guidelines?",
+        "options": {
+          "A": "Perform 12-core systematic TRUS biopsy immediately",
+          "B": "Order multiparametric MRI of the prostate before any biopsy",
+          "C": "Reassure and recheck PSA in 2 years given PSA <4 ng/mL",
+          "D": "Measure free/total PSA ratio and proceed to biopsy if <10%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 mandates mpMRI before biopsy in biopsy-naive men. Even though PSA is below the traditional threshold of 4 ng/mL, the PSA density of 0.114 (approaching 0.15) combined with a positive family history places this man in a higher-risk category for harbouring clinically significant cancer. MRI-first stratification improves detection of Grade Group ≥2 cancer while reducing unnecessary biopsy and overdetection of Grade Group 1 disease (PRECISION trial, NEJM 2018).",
+          "wrong": {
+            "A": "Systematic TRUS biopsy without prior MRI is no longer the standard of care in biopsy-naive men per EAU 2024. It misses anterior and TZ tumours and over-detects indolent GG1 disease.",
+            "C": "A 2-year recheck is appropriate for men with PSA <1 ng/mL. PSA 1-2 ng/mL → 2-year interval; PSA >2 ng/mL → annual. At 3.2 ng/mL with a family history, annual monitoring or immediate MRI is appropriate, not 2-year deferral.",
+            "D": "Free/total PSA refinements are useful in the PSA 4-10 grey zone. At PSA 3.2 ng/mL, mpMRI is the preferred next step per current guidelines, not biochemical refinement markers."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 5.2.4 — MRI before biopsy: recommended in biopsy-naive men",
+          "trial": "PRECISION trial (Kasivisvanathan V et al., N Engl J Med 2018): MRI-targeted biopsy detected more GG≥2 cancers (38% vs 26%) and fewer GG1 cancers vs systematic biopsy in biopsy-naive men.",
+          "pearl": "MRI before biopsy is now the standard first-line investigation in biopsy-naive men with elevated PSA. This reduces overdetection of indolent cancer and improves detection of clinically significant disease."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q2",
+        "stem": "A 63-year-old man undergoes mpMRI showing a 1.8 cm lesion in the left peripheral zone scored PI-RADS 5. PSA is 9.4 ng/mL. Targeted biopsy of the lesion shows Gleason 4+3=7 (Grade Group 3) in 4/4 cores, with 80% core involvement and presence of intraductal carcinoma. Systematic biopsy shows Gleason 3+3=6 in 1/10 cores. What risk category does this man fall into per EAU 2024?",
+        "options": {
+          "A": "Intermediate favourable risk",
+          "B": "Intermediate unfavourable risk",
+          "C": "High risk",
+          "D": "Low risk"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This patient has GG3 (Gleason 4+3=7) disease with presence of intraductal carcinoma (IDC-P), extensive core involvement (80%), and a PI-RADS 5 lesion. PSA 9.4 ng/mL is <10, and cT stage is cT2 (organ confined on MRI). However, EAU 2024 classifies GG3 as intermediate unfavourable at minimum; the presence of IDC-P upgrades risk to high, as IDC-P is associated with adverse pathology and aggressive biology. NCCN specifically flags IDC-P as an adverse feature.",
+          "wrong": {
+            "A": "Intermediate favourable applies to GG2 with only one adverse feature. This patient has GG3 and IDC-P — both adverse.",
+            "B": "While GG3 alone could classify as intermediate unfavourable, IDC-P presence and extensive core involvement push this into high-risk territory per current evidence and NCCN 2024 guidance.",
+            "D": "Low risk requires GG1, PSA <10, and cT1-2a. This patient has GG3 disease."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Table 6.2 — Risk stratification; NCCN PCa v2.2024 — IDC-P as adverse feature",
+          "trial": "Kir G et al. (2020) Mod Pathol: IDC-P is associated with Grade Group upgrading at RP and reduced biochemical recurrence-free survival — supports classification as high-risk feature.",
+          "pearl": "IDC-P and cribriform Gleason 4 are adverse pathological features that upgrade clinical risk category beyond the Grade Group alone. Their presence contraindicates active surveillance and should prompt classification as at least high risk."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q3",
+        "stem": "According to the PRECISION trial, which of the following best describes the outcome of MRI-targeted biopsy versus standard systematic TRUS biopsy in biopsy-naive men with suspicion of prostate cancer?",
+        "options": {
+          "A": "MRI-targeted biopsy detected more clinically significant cancer and more clinically insignificant cancer",
+          "B": "MRI-targeted biopsy detected fewer clinically significant cancers but had fewer infectious complications",
+          "C": "MRI-targeted biopsy detected more Grade Group ≥2 cancers and fewer Grade Group 1 cancers",
+          "D": "Both strategies detected equivalent amounts of clinically significant cancer"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The PRECISION trial (Kasivisvanathan et al., NEJM 2018) randomised 500 biopsy-naive men. MRI-targeted biopsy detected Grade Group ≥2 (clinically significant) cancer in 38% versus 26% for systematic biopsy (p<0.001), and Grade Group 1 (clinically insignificant) cancer in 9% versus 22%. This dual benefit — detecting more significant cancer while sparing patients from overdiagnosis of indolent disease — is the key evidence base for the MRI-first strategy.",
+          "wrong": {
+            "A": "Incorrect. MRI-targeted biopsy specifically reduced detection of Grade Group 1 (insignificant) cancer, which is the overdiagnosis concern.",
+            "B": "Infectious complications were not the primary endpoint. The key finding was differential detection by grade.",
+            "D": "Incorrect. There was a statistically significant absolute difference of 12% in detection of GG≥2 cancer."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 5.2.4 — Evidence from PRECISION trial underpins MRI-before-biopsy recommendation",
+          "trial": "PRECISION trial (Kasivisvanathan V et al., N Engl J Med 2018; 378:341-352): MRI-targeted biopsy vs systematic biopsy in 500 biopsy-naive men; primary endpoint detection of csPCa (GG≥2).",
+          "pearl": "PRECISION is the landmark RCT establishing MRI-targeted biopsy as superior to systematic TRUS biopsy in biopsy-naive men. Know the key numbers: 38% vs 26% for GG≥2, and 9% vs 22% for GG1."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q4",
+        "stem": "A 71-year-old man has PSA 42 ng/mL, DRE shows a hard fixed mass extending beyond the right lobe (cT3a), and biopsy shows Gleason 4+5=9 (GG5) in 8/10 systematic cores and in both targeted cores. Staging PSMA-PET/CT shows two pelvic lymph nodes 1.2 cm with increased PSMA uptake, and no bone or visceral metastases. What is his clinical stage according to TNM 2024?",
+        "options": {
+          "A": "cT3a N0 M0 — Stage IIIA",
+          "B": "cT3a N1 M0 — Stage IVA",
+          "C": "cT4 N0 M0 — Stage IIIB",
+          "D": "cT3a N1 M1b — Stage IVB"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The mass extends beyond the prostate capsule without seminal vesicle or adjacent structure invasion, making this cT3a. PSMA-PET/CT shows two pelvic lymph nodes with PSMA uptake — these are regional (pelvic) lymph nodes, so N1. There is no distant metastasis — no bone lesions, no M1. cT3a N1 M0 = Stage IVA by TNM 2024 staging. Stage IVA prostate cancer is treated with curative intent using combined EBRT + long-term ADT (2-3 years) ± docetaxel in selected patients.",
+          "wrong": {
+            "A": "N0 staging would require no lymph node involvement. PSMA-PET demonstrates nodal disease.",
+            "C": "cT4 requires invasion of adjacent structures (rectum, sphincter, pelvic wall, levator). Extension beyond the capsule alone is cT3a.",
+            "D": "M1b indicates bone metastases. The PSMA-PET shows no bone lesions; the lymph nodes are regional (pelvic), classified as N1 not M1a."
+          },
+          "guideline": "AJCC TNM 9th edition 2024, Prostate Cancer Chapter; EAU 2024 Section 6.4 — Stage IVA treatment: EBRT + long-term ADT",
+          "trial": "STAMPEDE trial (James ND et al., Lancet 2016): Addition of docetaxel to long-term ADT improved overall survival in high-risk non-metastatic and metastatic prostate cancer.",
+          "pearl": "Regional (pelvic) lymph node metastasis = N1, not M1a. M1a is non-regional lymph node metastasis (e.g., para-aortic, mediastinal, supraclavicular). The cT3a N1 M0 staging places the patient in Stage IVA, which is still potentially curable with aggressive locoregional treatment."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q5",
+        "stem": "A 55-year-old man undergoes PSA screening. PSA is 6.2 ng/mL. mpMRI shows a PI-RADS 2 lesion in the right TZ. Prostate volume is 55 mL (PSA density 0.11 ng/mL/cc). He is anxious and requests a biopsy. What is the most appropriate recommendation?",
+        "options": {
+          "A": "Proceed to targeted + systematic biopsy given elevated PSA",
+          "B": "Defer biopsy; repeat PSA and MRI in 12 months given PI-RADS 2",
+          "C": "Perform systematic biopsy only since PI-RADS 2 has no target to biopsy",
+          "D": "Order free/total PSA and biopsy only if <15%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PI-RADS 2 lesions have a low probability of clinically significant prostate cancer (10-20%). PSA density of 0.11 is below the 0.15 threshold. EAU 2024 guidance supports avoiding biopsy when PI-RADS ≤2 and PSA density <0.15. Active surveillance imaging (repeat MRI at 6-12 months) is recommended. This approach avoids unnecessary biopsy complications and overdiagnosis of indolent disease. The PROMIS trial showed mpMRI could safely allow biopsy avoidance in approximately 27% of men.",
+          "wrong": {
+            "A": "Elevated PSA alone should not trigger biopsy when MRI is reassuring (PI-RADS 1-2). The combined clinical assessment (MRI + PSA density) guides the decision, not PSA in isolation.",
+            "C": "Systematic biopsy without an MRI-visible target in the setting of PI-RADS 2 would likely only detect low-grade, clinically insignificant disease — which is exactly what we wish to avoid.",
+            "D": "Free/total PSA refinement is useful in the 4-10 grey zone, but when MRI has already been performed and shows PI-RADS 2, further biochemical testing adds no actionable information in this context."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 5.2.4 — When MRI is PI-RADS ≤2 and PSA density <0.15: biopsy may be safely deferred",
+          "trial": "PROMIS trial (Ahmed HU et al., Lancet 2017): mpMRI had 93% sensitivity for csPCa and could enable biopsy avoidance in 27% of men while missing only 5% of csPCa.",
+          "pearl": "PI-RADS 1-2 combined with PSA density <0.15 allows safe biopsy deferral and active surveillance imaging in most men. Only proceed with biopsy if PSA rises significantly or MRI changes on follow-up."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q6",
+        "stem": "Which of the following best describes the ProPSMA trial finding that changed prostate cancer staging guidelines?",
+        "options": {
+          "A": "PSMA-PET/CT was more accurate than bone scan alone but equivalent to CT + bone scan combined",
+          "B": "PSMA-PET/CT achieved 92% accuracy versus 65% for conventional staging and changed management in 28% of patients",
+          "C": "PSMA-PET/CT reduced detection of pelvic lymph node metastases compared to extended PLND",
+          "D": "PSMA-PET/CT improved 5-year cancer-specific survival in high-risk patients"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The ProPSMA trial (Hofman et al., Lancet 2020) randomised 302 men with high-risk prostate cancer to PSMA-PET/CT versus conventional staging (CT + bone scan). PSMA-PET/CT had 92% accuracy compared to 65% for conventional imaging (p<0.001, absolute difference 27%). Management was changed in 28% of patients assigned to PSMA-PET. Based on this evidence, EAU 2024 recommends PSMA-PET/CT as the preferred staging modality in high-risk localised prostate cancer.",
+          "wrong": {
+            "A": "PSMA-PET/CT was superior to the combination of CT + bone scan (conventional staging), not just bone scan alone.",
+            "C": "PLND remains the reference standard for nodal staging pathologically. PSMA-PET detects nodal disease non-invasively but cannot replace PLND in curative-intent surgery.",
+            "D": "ProPSMA did not measure survival outcomes — it was a cross-over imaging accuracy trial with management change as the primary endpoint."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 5.3 — PSMA PET/CT recommended as preferred staging modality in high-risk PCa based on ProPSMA",
+          "trial": "ProPSMA trial (Hofman MT et al., Lancet 2020; 395:1208-1216): RCT of 302 high-risk PCa patients. PSMA-PET/CT accuracy 92% vs 65% conventional. Management changed in 28% vs 15%.",
+          "pearl": "Know the ProPSMA numbers: 92% vs 65% accuracy; management change in 28% vs 15%. PSMA-PET/CT is now the preferred staging modality in EAU 2024 for high-risk localised prostate cancer."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q7",
+        "stem": "A 61-year-old man has PSA 7.8 ng/mL and Grade Group 2 (Gleason 3+4=7) prostate cancer confirmed on targeted + systematic biopsy. MRI shows cT2c disease. No lymph node or bone metastases on PSMA-PET/CT. The targeted biopsy cores show cribriform Gleason 4 pattern. Which risk category applies and what is the immediate clinical implication?",
+        "options": {
+          "A": "Intermediate favourable — eligible for active surveillance given PSA <10",
+          "B": "Intermediate unfavourable — radical treatment recommended; cribriform GG2 contraindicates active surveillance",
+          "C": "Low risk — PSA <10 and organ-confined disease support active surveillance",
+          "D": "High risk — cribriform pattern alone places this in the EAU high-risk category"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "cT2c (bilateral lobe involvement), GG2, PSA 7.8 — multiple intermediate risk features already place this in intermediate unfavourable. Additionally, cribriform Gleason 4 is an adverse feature associated with lymph node metastasis and reduced BCR-free survival even in GG2 disease. NCCN 2024 and EAU guidance explicitly state that cribriform pattern and IDC-P are contraindications to active surveillance. Radical prostatectomy or radiation therapy is the recommended approach.",
+          "wrong": {
+            "A": "Active surveillance is contraindicated in intermediate unfavourable risk, especially with cribriform pattern. Even true intermediate favourable GG2 disease without adverse features requires careful discussion about AS vs treatment.",
+            "C": "cT2c (both lobes) with cribriform GG2 is not low-risk disease.",
+            "D": "Cribriform GG2 alone does not automatically place the patient in EAU high-risk (which requires PSA >20, GG4-5, or cT3a). It does, however, upgrade the clinical management recommendation from AS to radical treatment."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 6.1.1 — Cribriform pattern and IDC-P: contraindications to AS; NCCN PCa v2.2024 — adverse features",
+          "trial": "Kweldam CF et al. (Eur Urol 2016): Cribriform Gleason 4 associated with 6.7x hazard ratio for distant metastasis compared to non-cribriform GG2 disease in RP cohort.",
+          "pearl": "Cribriform Gleason 4 and IDC-P are board-favourite adverse pathological features. Their presence in GG2 disease contraindicates active surveillance and requires reclassification as intermediate unfavourable requiring radical treatment."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q8",
+        "stem": "A 66-year-old man has PSA 15.4 ng/mL. Biopsy shows Grade Group 4 (Gleason 4+4=8) cancer. MRI shows cT2a disease, no seminal vesicle invasion. PSMA-PET/CT shows no metastases. Using the Briganti nomogram, his predicted risk of lymph node involvement is 12%. What is the appropriate surgical staging recommendation?",
+        "options": {
+          "A": "No lymph node dissection — cT2a disease is organ confined",
+          "B": "Limited pelvic lymph node dissection (obturator fossa only)",
+          "C": "Extended pelvic lymph node dissection (ext. iliac + obturator + int. iliac)",
+          "D": "Defer surgery — refer for radiation therapy with ADT given high LN risk"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "EAU 2024 recommends performing extended pelvic lymph node dissection (ePLND) when the Briganti nomogram-predicted risk of lymph node invasion (LNI) exceeds 5%. This patient has 12% predicted LNI, well above the threshold. Extended PLND includes external iliac, obturator fossa, and internal iliac lymph nodes and detects approximately 2x more positive nodes than limited PLND. PLND also provides staging information that guides adjuvant treatment decisions.",
+          "wrong": {
+            "A": "Omitting PLND when LN risk >5% understages the patient and misses micrometastatic nodal disease. Clinical T stage alone does not determine PLND indication.",
+            "B": "Limited PLND (obturator only) detects only 40-50% of the positive nodes found by ePLND. EAU recommends ePLND when PLND is performed.",
+            "D": "While radiation + ADT is an alternative, the question asks about surgical staging recommendation. If surgery is planned, ePLND is mandatory at this risk level."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 6.1.5 — Extended PLND recommended when Briganti nomogram LNI risk >5%",
+          "trial": "Fossati N et al. (Eur Urol 2017): ePLND vs limited PLND at RP — ePLND detected 2x more positive nodes; associated with improved BCR-free survival in pN+ patients.",
+          "pearl": "Briganti nomogram LNI risk >5% = indication for ePLND at radical prostatectomy. Extended PLND includes external iliac, obturator, and internal iliac regions. Obturator-only (limited) PLND misses 50-60% of positive nodes."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q9",
+        "stem": "PSA density is calculated as:",
+        "options": {
+          "A": "PSA (ng/mL) divided by prostate volume (mL) — threshold for increased cancer risk: >0.15 ng/mL/cc",
+          "B": "Total PSA divided by free PSA — threshold: <0.15",
+          "C": "PSA velocity divided by baseline PSA — threshold: >10%/year",
+          "D": "Annual PSA change divided by prostate volume — no established threshold"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "PSA density (PSAD) = serum PSA (ng/mL) / prostate volume (mL), measured by TRUS or MRI volumetry. A PSAD >0.15 ng/mL/cc is associated with a significantly higher probability of clinically significant prostate cancer, particularly in the PSA grey zone (4-10 ng/mL). It is also used as an eligibility criterion and active surveillance monitoring parameter (PSAD >0.15 is associated with adverse reclassification on AS).",
+          "wrong": {
+            "B": "Total PSA / free PSA is the inverse of the free/total PSA ratio — this is not PSA density.",
+            "C": "This describes a form of PSA velocity index, not PSA density.",
+            "D": "PSA density has a well-established threshold of 0.15 ng/mL/cc."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 5.2.2 — PSA density: >0.15 ng/mL/cc associated with csPCa; used in biopsy decision algorithms",
+          "trial": "Benson MC et al. (J Urol 1992) — original description of PSA density and 0.15 ng/mL/cc threshold. Validated in multiple subsequent cohort studies.",
+          "pearl": "PSA density >0.15 ng/mL/cc increases the probability of clinically significant prostate cancer in the grey zone and on active surveillance. It is calculated from prostate volume on TRUS or MRI — not from free/total PSA ratio."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q10",
+        "stem": "A 68-year-old man with PSA 55 ng/mL, Gleason 4+5=9 (GG5), and cT3b (seminal vesicle invasion on MRI) undergoes PSMA-PET/CT showing three para-aortic lymph nodes with PSMA uptake and no bone metastases. What is the correct M stage and clinical stage group?",
+        "options": {
+          "A": "M0 — regional lymph nodes, Stage IVA",
+          "B": "M1a — non-regional lymph nodes, Stage IVB",
+          "C": "M1b — bone metastases, Stage IVB",
+          "D": "M0 — N1 staging, Stage IIIB"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Para-aortic lymph nodes are **non-regional** lymph nodes for prostate cancer (regional = pelvic: obturator, external/internal iliac, sacral, presacral). Non-regional lymph node metastasis = M1a by TNM 2024. Therefore the correct stage is cT3b N0 (pelvic nodes clear) M1a = Stage IVB. M1a disease is treated as metastatic prostate cancer with systemic therapy (ADT + intensification with docetaxel or ARPI), though local consolidative radiotherapy may be considered in selected cases.",
+          "wrong": {
+            "A": "Para-aortic nodes are non-regional. Regional lymph nodes (pelvic) = N1. Non-regional lymph nodes = M1a, not N1.",
+            "C": "M1b indicates bone metastases. PSMA-PET shows no bone lesions.",
+            "D": "M0 staging requires absence of distant metastasis. Para-aortic node involvement = M1a."
+          },
+          "guideline": "AJCC TNM 9th edition 2024 — Regional lymph nodes for prostate cancer: pelvic nodes (obturator, internal/external iliac, sacral). Non-regional: para-aortic, mediastinal = M1a",
+          "trial": "STAMPEDE trial (James ND et al., Lancet 2016): Docetaxel + ADT vs ADT alone in high-volume metastatic PCa. Also established evidence for radiotherapy to primary in M1 disease with low metastatic burden.",
+          "pearl": "Para-aortic, mediastinal, and supraclavicular lymph nodes are M1a (non-regional) in prostate cancer. Only pelvic lymph nodes are regional (N1). This distinction determines whether the patient is Stage IVA (N1M0) or IVB (M1a/b/c)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q11",
+        "stem": "A 52-year-old man with strong family history of prostate and breast cancer (BRCA2 mutation carrier) presents for prostate cancer screening. PSA is 2.8 ng/mL. What modification to the standard EAU screening algorithm is appropriate?",
+        "options": {
+          "A": "No modification — PSA 2.8 does not warrant biopsy regardless of family history",
+          "B": "Earlier screening initiation and lower threshold for mpMRI and biopsy; annual PSA from age 40",
+          "C": "Immediate 12-core biopsy given BRCA2 status regardless of PSA",
+          "D": "PSMA-PET/CT for staging before any biopsy given BRCA2 status"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "BRCA2 mutation carriers have a 5-8x higher lifetime risk of prostate cancer and develop more aggressive, earlier-onset disease. IDC-P is strongly associated with BRCA2 mutations. EAU 2024 recommends that men with BRCA2 mutations (and to a lesser extent BRCA1) initiate PSA screening at age 40 and undergo earlier consideration of biopsy even at lower PSA thresholds. Germline genetic testing (BRCA1/2, ATM, CHEK2, MLH1, MSH2, MSH6, CDH1) is now recommended in all men with high-risk, very high-risk, locally advanced, or metastatic prostate cancer.",
+          "wrong": {
+            "A": "Family history of BRCA2 and breast/prostate cancer modifies the screening algorithm. These are not average-risk patients.",
+            "C": "Immediate systematic biopsy without prior MRI would bypass the MRI-first standard of care and is not recommended even in BRCA2 carriers. mpMRI should still be performed.",
+            "D": "PSMA-PET/CT is a staging tool for known high-risk/intermediate-risk cancers, not a screening or biopsy-decision tool in the absence of diagnosed cancer."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 5.1.3 — BRCA2: earlier screening from age 40; lower threshold for biopsy. Germline testing indications.",
+          "trial": "IMPACT study (Bancroft EK et al., Eur Urol 2021): BRCA2 mutation carriers had 3x higher prevalence of intermediate/high-risk PCa on biopsy compared to BRCA1 carriers and controls.",
+          "pearl": "BRCA2 mutation carriers should start prostate cancer screening at age 40 (vs 45 for average-risk men) and have a lower threshold for mpMRI and biopsy. BRCA2 is associated with aggressive disease including IDC-P and castration-resistant prostate cancer."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q12",
+        "stem": "Which ISUP Grade Group corresponds to Gleason 4+3=7, and what are its key prognostic implications?",
+        "options": {
+          "A": "GG2 — equivalent prognosis to GG3",
+          "B": "GG3 — 10-year BCR-free survival ~70%; classified as intermediate unfavourable risk",
+          "C": "GG4 — equivalent to Gleason 8 disease; high risk",
+          "D": "GG2 — equivalent to Gleason 3+4=7; same management as GG2"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Gleason 4+3=7 = Grade Group 3. The primary pattern is Gleason 4 (poorly formed/fused glands), with secondary Gleason 3. This is categorically different from GG2 (3+4=7) where Gleason 3 predominates. GG3 carries a 10-year BCR-free survival of approximately 70% after RP, compared to ~85% for GG2. EAU 2024 classifies GG3 as intermediate unfavourable risk, mandating radical treatment (not active surveillance).",
+          "wrong": {
+            "A": "GG2 (3+4=7) and GG3 (4+3=7) have significantly different prognoses. GG3 has ~15% worse BCR-free survival than GG2.",
+            "C": "GG4 corresponds to Gleason 4+4=8 or 3+5/5+3=8. GG3 is not equivalent to GG4.",
+            "D": "GG2 is Gleason 3+4=7 (Gleason 3 predominant). GG3 is Gleason 4+3=7 (Gleason 4 predominant). They are different grade groups with different prognoses."
+          },
+          "guideline": "ISUP 2014 Consensus on Grading (Epstein JI et al., Eur Urol 2016); EAU 2024 Section 6.1 — GG3 = intermediate unfavourable; radical treatment recommended",
+          "trial": "Epstein JI et al. Eur Urol 2016: Validation of Grade Group system in multi-institutional RP cohort; GG3 10-yr BCR-free survival 71% vs GG2 85%.",
+          "pearl": "Gleason 4+3=7 (GG3) ≠ Gleason 3+4=7 (GG2). The primary Gleason pattern determines the grade group. GG3 has worse prognosis, is classified as intermediate unfavourable, and requires radical treatment."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q13",
+        "stem": "A 70-year-old man with cT1c, Gleason 3+3=6 (GG1), PSA 4.5 ng/mL, 2/12 positive cores, maximum 15% core involvement, and PSA density 0.09 ng/mL/cc is considering active surveillance. Which feature would MOST strongly contraindicate active surveillance per EAU 2024?",
+        "options": {
+          "A": "Age 70",
+          "B": "Presence of intraductal carcinoma on biopsy specimen",
+          "C": "PSA density 0.09 ng/mL/cc",
+          "D": "2/12 positive cores with 15% involvement"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Intraductal carcinoma of the prostate (IDC-P) is an absolute contraindication to active surveillance per EAU 2024 and NCCN 2024, regardless of Grade Group. IDC-P indicates aggressive tumour biology, is associated with BRCA2 mutations, high-grade cancer in adjacent cores, and significantly worse BCR-free survival after RP. Its presence in even a GG1 specimen mandates re-biopsy or radical treatment.",
+          "wrong": {
+            "A": "Age 70 is not a contraindication to AS — AS is appropriate for men of any age meeting eligibility criteria, particularly if comorbidities limit life expectancy.",
+            "C": "PSA density 0.09 is below the 0.15 threshold and actually supports AS eligibility (not a contraindication).",
+            "D": "2/12 positive cores with 15% involvement is well within standard AS eligibility criteria (most protocols allow ≤3 positive cores and ≤50% per core)."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 6.1.1.1 — IDC-P and cribriform pattern: absolute contraindications to active surveillance",
+          "trial": "Varma M et al. (2019) Histopathology: IDC-P in GG1 biopsies associated with GG≥3 cancer at subsequent RP in 78% of cases.",
+          "pearl": "IDC-P is an absolute contraindication to active surveillance regardless of Gleason grade. Always look for IDC-P reporting in pathology before recommending AS."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q14",
+        "stem": "During radical prostatectomy, the pathologist confirms positive surgical margins at the apex and Grade Group 5 disease (Gleason 5+4=9) in the resected specimen. Pre-op staging was cT2c N0 M0. Post-op staging becomes pT3a pN0 pR1. What additional investigation is most urgently indicated post-operatively?",
+        "options": {
+          "A": "Repeat prostate biopsy to confirm residual disease",
+          "B": "Post-operative PSA at 6 weeks to establish a new nadir",
+          "C": "Immediate adjuvant EBRT without waiting for PSA nadir",
+          "D": "Whole-body PSMA-PET/CT to exclude occult metastatic disease"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "After radical prostatectomy, PSA should be measured at 6-8 weeks post-operatively to establish the nadir. In pT3a pR1 disease, PSA should be undetectable (<0.1 ng/mL). If PSA remains detectable or rises above 0.1-0.2 ng/mL, this represents biochemical recurrence and triggers evaluation for adjuvant or salvage radiotherapy. The RAVES and GETUG-AFU 17 trials showed salvage RT with ADT was non-inferior to immediate adjuvant RT for pT3 pR1 disease, supporting a wait-and-see approach.",
+          "wrong": {
+            "A": "Repeat biopsy of the prostate bed is not routine post-RP. If BCR is confirmed, salvage biopsy is occasionally performed before re-irradiation.",
+            "C": "Immediate adjuvant RT without waiting for PSA has been superseded by the 'salvage-when-PSA-rises' strategy per RAVES, GETUG-AFU 17, and RADICALS-RT trials.",
+            "D": "PSMA-PET/CT is indicated when PSA recurrence is detected (typically PSA ≥0.2 ng/mL). Immediate post-op PSMA-PET in all pR1 patients is not guideline-recommended at this stage."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 6.1.5.2 — Post-RP follow-up: PSA at 6-8 weeks; salvage RT strategy for BCR pR1 disease",
+          "trial": "RAVES trial (Pearse M et al., Lancet Oncol 2019): Adjuvant RT vs early salvage RT in pT3/R1 PCa — salvage RT non-inferior; reduces RT overtreatment.",
+          "pearl": "After RP, establish PSA nadir at 6-8 weeks before considering adjuvant treatment. Three contemporary RCTs (RAVES, GETUG-AFU 17, RADICALS-RT) support salvage RT when PSA rises over immediate adjuvant RT, avoiding overtreatment in up to 60% of pT3R1 patients who would never recur."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q15",
+        "stem": "A 59-year-old man's mpMRI shows PI-RADS 4 in the right peripheral zone. Targeted biopsy is positive (GG2, 3/3 cores) but all 12 systematic cores are negative. DRE is normal (cT1c). PSA 8.9 ng/mL. What is the clinical T stage?",
+        "options": {
+          "A": "cT1c — tumour identified by needle biopsy, not palpable",
+          "B": "cT2a — tumour involves ≤50% of right lobe by MRI",
+          "C": "cT2b — tumour involves >50% of one lobe",
+          "D": "cT3a — extracapsular extension suggested on MRI"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Clinical T staging in prostate cancer is based on DRE, not imaging, per traditional TNM convention. A non-palpable tumour identified by needle biopsy (prompted by elevated PSA) is cT1c, regardless of MRI extent. Some contemporary guidelines (including EAU 2024 and AJCC 9th ed. commentary) acknowledge that MRI may modify staging in research contexts, but cT1c remains the standard for PSA-detected, DRE-normal disease in routine clinical staging.",
+          "wrong": {
+            "B": "cT2a requires that the tumour is palpable on DRE and involves ≤50% of one lobe. DRE is normal here.",
+            "C": "cT2b requires palpable tumour involving >50% of one lobe. DRE is normal.",
+            "D": "cT3a requires DRE or imaging evidence of extracapsular extension. MRI shows PI-RADS 4 (suspicious lesion) but no EPE is described."
+          },
+          "guideline": "AJCC TNM 9th edition 2024 — cT1c: non-palpable, biopsy-detected prostate cancer in PSA-screened population",
+          "trial": "PROTECT trial (Hamdy FC et al., N Engl J Med 2016): Majority of enrolled patients had cT1c disease — PSA-detected, non-palpable prostate cancer showing equivalent 10-year CSS across management strategies.",
+          "pearl": "cT1c is the most common clinical T stage in PSA-detected prostate cancer. It means non-palpable (DRE normal), identified by needle biopsy. MRI lesion extent does not change the clinical T stage in standard TNM documentation (though pathological T after RP may differ)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q16",
+        "stem": "A 64-year-old man with PSA 12 ng/mL, Grade Group 2, cT2b disease is being evaluated. The PI-RADS 4 lesion on MRI is 1.4 cm. According to the EAU 2024 nomogram guidance, what percentage of lymph node involvement must be predicted by the Briganti nomogram before extended pelvic lymph node dissection is recommended at radical prostatectomy?",
+        "options": {
+          "A": ">2%",
+          "B": ">5%",
+          "C": ">10%",
+          "D": ">15%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 Guidelines recommend performing extended pelvic lymph node dissection (ePLND) when the Briganti nomogram-predicted lymph node invasion (LNI) risk exceeds 5%. For this patient (PSA 12, GG2, cT2b), the Briganti nomogram would calculate a specific LNI probability — if ≥5%, ePLND is recommended. Below 5%, PLND can be omitted without significantly compromising staging accuracy.",
+          "wrong": {
+            "A": "A threshold of >2% would result in very high rates of PLND for minimal benefit. EAU uses the 5% threshold.",
+            "C": ">10% is too high a threshold — it would miss a significant proportion of patients with nodal disease.",
+            "D": ">15% would miss approximately 40% of the LN-positive patients who would be detected with the 5% threshold policy."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 6.1.5 — ePLND indicated when Briganti nomogram LNI >5% at radical prostatectomy",
+          "trial": "Briganti A et al. (Eur Urol 2012): Validation of the updated Briganti nomogram for predicting LNI; 5% threshold optimises sensitivity/specificity trade-off for PLND decision.",
+          "pearl": "Briganti nomogram LNI >5% = perform extended PLND. Extended PLND = external iliac + obturator + internal iliac. The 5% threshold is the EAU standard for the RP pathway."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q17",
+        "stem": "Which of the following is the most accurate statement regarding the PROTECT trial findings relevant to active surveillance for localised prostate cancer?",
+        "options": {
+          "A": "Active monitoring was associated with significantly higher prostate cancer-specific mortality at 10 years compared to surgery or radiotherapy",
+          "B": "All three management strategies had equivalent prostate cancer-specific mortality at 10 years (~1%)",
+          "C": "Active monitoring led to significantly higher rates of metastases but not prostate cancer death at 10 years",
+          "D": "Radical prostatectomy had the lowest rate of biochemical failure at 10 years but active monitoring was equivalent for CSS"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The PROTECT trial (Hamdy FC et al., NEJM 2016) randomised 1,643 men with PSA-detected localised prostate cancer to active monitoring, radical prostatectomy, or radiotherapy. At 10 years, prostate cancer-specific mortality was approximately 1% in all three groups — equivalent across arms. This validated that for appropriately selected localised prostate cancer, active surveillance does not lead to significantly worse cancer-specific survival at 10 years. However, active monitoring was associated with more metastases and ADT use at 10 years vs surgery/RT.",
+          "wrong": {
+            "A": "Active monitoring did not lead to higher prostate cancer-specific mortality at 10 years. The CSS was equivalent.",
+            "C": "Active monitoring was associated with more metastases (6.3 per 1000 person-years vs 2.4 for surgery and 3.0 for RT), but not higher cancer-specific mortality at 10 years.",
+            "D": "Surgery had the lowest biochemical failure rate, but CSS was equivalent across arms — this makes option D partially correct but incomplete/misleading."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024 — PROTECT trial supports active surveillance in low-risk PCa; Section 6.1.1",
+          "trial": "PROTECT trial (Hamdy FC et al., N Engl J Med 2016; 375:1415-1424): 1,643 men, PCa-specific mortality ~1% at 10 years across monitoring, surgery, and RT. Updated 15-year data (2023): PCa-specific mortality still equivalent.",
+          "pearl": "PROTECT trial key fact: prostate cancer-specific mortality was ~1% at 10 years across all three management strategies, validating active surveillance for low-risk localised prostate cancer. Note: active monitoring was associated with more metastases but not more cancer deaths at 10 years."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A1-Q18",
+        "stem": "A 57-year-old man with PSA 9.2 ng/mL and mpMRI showing PI-RADS 5 lesion (2.2 cm, left PZ, no EPE) undergoes combined targeted (3 cores) and systematic (12 cores) biopsy. Targeted cores show Gleason 4+5=9 (GG5) in 3/3 cores with 90% involvement. Systematic biopsy shows Gleason 3+3=6 in 2/12 cores on the right. What is his overall Grade Group assignment?",
+        "options": {
+          "A": "GG2 — based on systematic biopsy findings",
+          "B": "GG5 — based on highest grade in any core",
+          "C": "GG3 — average of targeted and systematic findings",
+          "D": "GG4 — targeted cores dominate but averaged with systematic"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The overall Grade Group assignment is determined by the HIGHEST grade found in any biopsy core. ISUP 2014 consensus guidelines state that when combined targeted and systematic biopsy is performed, the most aggressive (highest grade) finding in any core determines the overall grade. Therefore GG5 from the targeted cores is the assigned grade, regardless of the GG1 findings in systematic cores. This guides treatment decisions — GG5 disease requires radical treatment, not active surveillance.",
+          "wrong": {
+            "A": "Systematic biopsy findings (GG1) do not override the GG5 in targeted cores. Grading uses the highest grade.",
+            "C": "Averaging grade groups across biopsy cores is incorrect ISUP practice.",
+            "D": "GG4 does not result from averaging targeted and systematic findings. The GG5 from targeted biopsy dominates."
+          },
+          "guideline": "ISUP 2014 Consensus Guidelines (Epstein JI et al., Eur Urol 2016) — Overall grade from biopsy = highest grade in any positive core. EAU 2024 endorses ISUP grading.",
+          "trial": "Epstein JI et al. (Eur Urol 2016): ISUP grading consensus — validation of Grade Group system; grading rules for combined biopsy sessions.",
+          "pearl": "When combined targeted and systematic biopsy is performed, the HIGHEST Grade Group in any core determines the overall assignment. Never average Grade Groups across cores or sessions."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A1-Q19",
+        "stem": "A 74-year-old man with high-risk prostate cancer (PSA 38, GG4, cT3a) undergoes PSMA-PET/CT showing a single bone lesion in L3 vertebra with PSMA uptake. Bone scan confirms this lesion. MRI spine shows no cord compression. He has no neurological symptoms. What M stage and treatment approach is most appropriate?",
+        "options": {
+          "A": "M1b (single bone metastasis) — systemic ADT + ARPI; consider radiotherapy to primary and metastasis",
+          "B": "M1b — systemic ADT alone given single bone lesion",
+          "C": "M0 — single bone lesion insufficient to confirm M1b; repeat imaging in 3 months",
+          "D": "M1b — immediate chemotherapy (docetaxel) without ADT given GG4 disease"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "A single bone metastasis confirmed on both PSMA-PET/CT and bone scan represents M1b disease. Low-volume metastatic prostate cancer (EAU/CHAARTED definition: <4 bone metastases, no visceral metastases) benefits from ADT + ARPI intensification (abiraterone, enzalutamide, apalutamide, or darolutamide based on recent phase III trials — TITAN, ARCHES, ENZAMET, ARASENS). Additionally, the STAMPEDE trial arm (Parker CC et al., Lancet 2018) showed that radiotherapy to the primary prostate tumour in M1 patients with low metastatic burden improved failure-free and overall survival. Stereotactic ablative radiotherapy (SABR) to the oligometastatic site is also being evaluated (STOMP, ORIOLE trials).",
+          "wrong": {
+            "B": "ADT alone is insufficient for M1 prostate cancer in the modern era. Multiple trials demonstrate improved OS with ADT + ARPI combination. Monotherapy ADT is no longer standard for newly diagnosed metastatic PCa.",
+            "C": "A bone lesion confirmed on two independent imaging modalities (PSMA-PET and bone scan) should be classified as M1b. Waiting 3 months would delay treatment for confirmed metastatic disease.",
+            "D": "Docetaxel is an alternative intensification agent to ARPI but should be used with ADT, not instead of it. GG4 alone does not determine chemotherapy choice."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 7.1 — M1 low-volume: ADT + ARPI; consideration of primary RT (STAMPEDE) and SABR to oligomets",
+          "trial": "STAMPEDE (Parker CC et al., Lancet 2018): RT to primary in M1 low-burden PCa improved failure-free survival (HR 0.64). TITAN (Chi KN et al., NEJM 2019): Apalutamide + ADT vs placebo + ADT in M1 — improved OS and rPFS.",
+          "pearl": "M1 low-volume (oligometastatic) prostate cancer: treat with ADT + ARPI (not ADT alone) + consider RT to prostate primary (STAMPEDE data) and SABR to metastatic sites. Combination intensification has become standard of care."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A1-Q20",
+        "stem": "Which statement about the free-to-total PSA ratio (%fPSA) is correct?",
+        "options": {
+          "A": "A higher %fPSA (>25%) is associated with increased risk of prostate cancer",
+          "B": "A lower %fPSA (<10-15%) is associated with increased risk of prostate cancer in the PSA grey zone",
+          "C": "%fPSA is most useful in discriminating prostate cancer at PSA levels >20 ng/mL",
+          "D": "%fPSA has replaced PSA density as the primary refinement tool in EAU 2024 guidelines"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The free-to-total PSA ratio (%fPSA) reflects the proportion of PSA in the unbound (free) form. Prostate cancer cells produce more complex-bound PSA (bound to alpha-1-antichymotrypsin) relative to free PSA than BPH tissue. Therefore, a lower %fPSA (<10-15%) is associated with higher cancer probability, while a higher %fPSA (>25%) is associated with BPH and lower cancer probability. %fPSA is most useful in the PSA grey zone (4-10 ng/mL) to refine biopsy decisions.",
+          "wrong": {
+            "A": "A HIGHER %fPSA is associated with LOWER cancer risk (more free PSA = more BPH-like). Lower %fPSA = higher cancer risk.",
+            "C": "%fPSA loses discriminatory value at PSA >10 ng/mL where almost all elevated PSA warrants biopsy regardless of ratio. It is most useful in the 4-10 ng/mL grey zone.",
+            "D": "EAU 2024 recommends mpMRI as the primary refinement tool before biopsy. PSA density and %fPSA are supplementary tools; neither has replaced MRI."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024, Section 5.2.2 — %fPSA: lower values (<10-15%) associated with higher PCa probability in PSA 4-10 ng/mL grey zone",
+          "trial": "Catalona WJ et al. (NEJM 1998): %fPSA <10% had 56% cancer probability vs 8% for %fPSA >25% in PSA 4-10 grey zone — landmark study establishing %fPSA clinical utility.",
+          "pearl": "Lower free/total PSA ratio = higher cancer risk. The threshold is 10-15% (below = worrying, above 25% = reassuring). Useful in the PSA 4-10 grey zone. Has been largely supplemented by mpMRI in current practice but remains relevant for repeat biopsy decision-making."
+        },
+        "difficulty": 1
+      }
+    ]
+  }
+}

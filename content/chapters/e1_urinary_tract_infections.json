@@ -1,0 +1,679 @@
+{
+  "id": "E1",
+  "title": "Urinary Tract Infections in Urology",
+  "subtitle": "Block E — Infections and Male Infertility: UTI Classification, Complicated UTI, Urosepsis, and Antimicrobial Stewardship",
+  "block": "E",
+  "block_name": "Infections and Male Infertility",
+  "level": "R1-3",
+  "reading_time_min": 42,
+  "guidelines_version": "EAU Guidelines on Urological Infections 2024 · IDSA Clinical Practice Guidelines for Uncomplicated UTI 2011 (updated 2022 draft) · Surviving Sepsis Campaign 2021",
+  "textbook_refs": [
+    "Bonkat G et al. EAU Guidelines on Urological Infections. European Association of Urology 2024",
+    "Gupta K et al. International Clinical Practice Guidelines for the Treatment of Acute Uncomplicated Cystitis and Pyelonephritis in Women: A 2010 Update. Clin Infect Dis 2011;52:e103–e120",
+    "Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Intensive Care Med 2021;47:1181–1247",
+    "Naber KG et al. Urinary Tract Infections in Older Men. Eur Urol 2022;81:499",
+    "Scholes D et al. Risk factors for recurrent urinary tract infection in young women. J Infect Dis 2000;182:1177",
+    "Foxman B. Urinary Tract Infection Syndromes. Dis Mon 2003;49:53"
+  ],
+  "learning_objectives": [
+    "Classify urinary tract infections by clinical syndrome (cystitis, pyelonephritis, urosepsis) and by patient category (uncomplicated, complicated, catheter-associated)",
+    "Apply the EAU 2024 diagnostic criteria for UTI and differentiate UTI from asymptomatic bacteriuria",
+    "Select evidence-based first-line antibiotic regimens for uncomplicated cystitis, pyelonephritis, and complicated UTI according to local resistance patterns",
+    "Recognise and manage urosepsis using the Sepsis-3 definitions and Surviving Sepsis Campaign 2021 bundle approach",
+    "Implement antimicrobial stewardship principles including appropriate culture use, de-escalation, and prophylaxis strategies for recurrent UTI",
+    "Identify and manage catheter-associated UTI (CAUTI) with evidence-based prevention and treatment approaches"
+  ],
+  "sections": [
+    {
+      "id": "E1-S1",
+      "title": "Classification and Definitions of Urological Infections",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Urinary tract infections (UTIs) are the most common bacterial infections worldwide, accounting for approximately 8–10 million physician visits annually. The EAU 2024 Urological Infections Guidelines use a classification based on anatomical location, host factors, and severity that underpins all management decisions.\n\n**By anatomical location**: Lower UTI — cystitis (bladder), urethritis; Upper UTI — pyelonephritis (renal parenchyma), perinephric abscess. **By host factors**: Uncomplicated UTI — occurs in premenopausal, non-pregnant, healthy women with no known urological abnormality, without systemic signs. Complicated UTI — all UTIs in men, pregnant women, patients with structural or functional urological abnormality (obstruction, neurogenic bladder, catheter), renal transplant, diabetes, immunosuppression, recent urological intervention, or resistant organisms.\n\n**By severity**: Sporadic UTI (single episode), recurrent UTI (≥2 proven UTIs in 6 months, or ≥3 in 12 months), **urosepsis** — life-threatening organ dysfunction caused by the host's dysregulated response to a urological infection source.\n\n**Asymptomatic bacteriuria (ASB)**: ≥10⁵ CFU/mL of a single uropathogen on two consecutive midstream urine cultures (or one catheter specimen) in an asymptomatic patient. ASB should NOT be treated with antibiotics except in pregnancy (ALL trimesters — risk of pyelonephritis, preterm labour) and immediately pre-operatively before procedures involving mucosal bleeding of the urinary tract (e.g., TURP, PCNL, cystoscopy with biopsy). The IDSA 2019 ASB guideline explicitly advises AGAINST treatment of ASB in diabetics, elderly patients, catheterised patients, and SCI patients — treating ASB in these groups increases multidrug-resistant colonisation without clinical benefit.\n\n**Microbiological thresholds**: For symptomatic UTI: ≥10³ CFU/mL is sufficient for diagnosis; the traditional ≥10⁵ threshold was derived from ASB studies and should not be applied to symptomatic patients. For catheter-associated UTI (CAUTI): ≥10³ CFU/mL from a midstream specimen from a freshly changed catheter, with symptoms."
+        },
+        {
+          "type": "table",
+          "title": "EAU 2024 UTI Classification System — Key Categories",
+          "headers": ["Category", "Definition", "Key Examples", "Treatment Threshold"],
+          "rows": [
+            ["Uncomplicated cystitis", "Lower UTI in healthy, pre-menopausal, non-pregnant woman without urological abnormality", "Acute cystitis in young woman", "Empirical antibiotics without culture required"],
+            ["Complicated UTI", "All UTIs in men, pregnancy, structural/functional abnormality, catheter, DM, immunosuppression", "Pyelonephritis in a man with BPH; febrile UTI in pregnancy", "Culture mandatory before treatment"],
+            ["Recurrent UTI", "≥2 UTIs in 6 months or ≥3 in 12 months, all microbiologically confirmed", "Young woman with recurrent E. coli cystitis", "Culture each episode; investigate for structural cause; consider prophylaxis"],
+            ["Urosepsis", "Life-threatening organ dysfunction from UTI source (Sepsis-3: SOFA ≥2 from baseline)", "Pyelonephritis with BP 85/50, SpO2 90%, oliguria", "Emergency: IV antibiotics within 1 hour, blood cultures, source control"],
+            ["ASB", "≥10⁵ CFU/mL uropathogens in asymptomatic patient", "Incidental bacteriuria on pre-operative culture", "Do NOT treat (except pregnancy, pre-urological procedure)"],
+            ["CAUTI", "≥10³ CFU/mL from freshly changed catheter + UTI symptoms", "Febrile patient with long-term indwelling catheter", "Culture + antibiotics; catheter change"],
+            ["Hospital-acquired UTI", "UTI developing ≥48h after hospital admission or within 30 days of hospital discharge", "Post-operative febrile UTI after TURP", "Broad-spectrum cover, consider MDR; culture-guided"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — When to Treat Asymptomatic Bacteriuria",
+          "content": "Treat ASB ONLY in: (1) pregnancy (all trimesters — prevents pyelonephritis, preterm labour), (2) before urological procedures with mucosal bleeding risk (TURP, PCNL, cystoscopy + biopsy). Do NOT treat ASB in: diabetics, elderly, catheterised patients, SCI patients, transplant recipients (unless pre-procedure). Treating ASB in these groups is one of the most common antibiotic prescribing errors in urology — it increases MDR colonisation with no clinical benefit."
+        }
+      ]
+    },
+    {
+      "id": "E1-S2",
+      "title": "Uncomplicated UTI: Diagnosis and Antibiotic Selection",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The diagnosis of uncomplicated cystitis in women is primarily **clinical** — the combination of dysuria, frequency, and urgency without vaginal discharge (which suggests STI) has a positive predictive value of >80% for UTI without requiring a urine culture in most guidelines. **Dipstick urinalysis** (nitrite + leucocyte esterase) improves diagnostic confidence: sensitivity 75%, specificity 82% for UTI; a positive nitrite test (from nitrate reduction by gram-negative uropathogens — Enterobacteriaceae) is highly specific for UTI (specificity 95%). A negative dipstick with a low pre-test probability of UTI effectively rules out UTI (NPV 96%). Urine microscopy (≥10 WBC/mm³ pyuria) adds little diagnostic precision over dipstick in routine practice.\n\nUrine **culture** is NOT required for uncomplicated cystitis in non-pregnant premenopausal women (IDSA 2011, EAU 2024 Grade A). Culture should be performed for: complicated UTI (all men, pregnancy, structural abnormality), recurrent UTI (to confirm each episode), pyelonephritis, urosepsis, UTI in diabetics or immunocompromised, treatment failure, and hospital-acquired UTI.\n\n**Antibiotic selection** for uncomplicated cystitis must be guided by local resistance patterns. The IDSA 2011 guideline (reaffirmed EAU 2024) recommends:\n- **Nitrofurantoin macrocrystals 100 mg BD × 5 days** — preferred first-line; achieves high urinary concentrations; minimal resistance induction; avoid if eGFR <30 mL/min (ineffective) or pyelonephritis (poor tissue penetration)\n- **Trimethoprim-sulfamethoxazole (co-trimoxazole) 160/800 mg BD × 3 days** — use only when local E. coli resistance <20%; excellent cure rates when resistant not an issue\n- **Fosfomycin trometamol 3 g single dose** — single-dose convenience; effective against ESBL-producing E. coli; preferred in patients at risk of multidrug-resistant organisms\n- **Pivmecillinam 400 mg TDS × 3–7 days** (where available) — useful for uncomplicated cystitis, low resistance induction\n- **Fluoroquinolones (ciprofloxacin, norfloxacin) — NOT first-line** for uncomplicated cystitis (EAU 2024 Grade A against); reserved for complicated UTI and pyelonephritis due to collateral damage (microbiome disruption, resistance selection, tendinopathy, C. difficile risk)"
+        },
+        {
+          "type": "table",
+          "title": "First-Line Antibiotic Regimens for Uncomplicated Cystitis — EAU 2024",
+          "headers": ["Antibiotic", "Dose and Duration", "EAU Grade", "Key Advantage", "Key Limitation"],
+          "rows": [
+            ["Nitrofurantoin macrocrystals", "100 mg BD × 5 days", "Grade A first-line", "Low resistance, bladder-specific", "Avoid eGFR <30; NOT for pyelonephritis"],
+            ["Fosfomycin trometamol", "3 g single dose", "Grade A first-line", "Single dose, ESBL-active", "No tissue penetration; not for upper UTI"],
+            ["Trimethoprim-sulfamethoxazole", "160/800 mg BD × 3 days", "Grade A (if resistance <20%)", "High cure rate, low cost", "Resistance common (>20% in many areas)"],
+            ["Pivmecillinam", "400 mg TDS × 3–7 days", "Grade A (where available)", "Low resistance induction", "Not universally available"],
+            ["Ciprofloxacin", "500 mg BD × 3 days", "NOT first-line for cystitis", "High efficacy (but resistance selection)", "Reserve for complicated UTI/pyelonephritis"],
+            ["Trimethoprim alone", "200 mg BD × 7 days", "Grade B (if sulfa not tolerated)", "Well-tolerated, low cost", "Higher failure rate than co-trimoxazole in some data"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Using Fluoroquinolones for Uncomplicated Cystitis",
+          "content": "Fluoroquinolones (ciprofloxacin, levofloxacin, norfloxacin) are NOT recommended as first-line treatment for uncomplicated cystitis (EAU 2024 Grade A against). They are reserved for complicated UTI, pyelonephritis requiring oral outpatient treatment, and MDR organisms. Using fluoroquinolones for simple cystitis constitutes inappropriate prescribing under antimicrobial stewardship principles — it selects for fluoroquinolone-resistant E. coli, disrupts the gut microbiome, increases C. difficile risk, and wastes a critically important drug class."
+        }
+      ]
+    },
+    {
+      "id": "E1-S3",
+      "title": "Acute Pyelonephritis: Diagnosis, Risk Stratification, and Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Acute pyelonephritis (APN) presents with upper urinary tract symptoms: fever (≥38°C), unilateral costovertebral angle tenderness/loin pain, with or without lower urinary tract symptoms (dysuria, frequency). Bacteraemia is present in 20–30% of APN episodes. The diagnosis is clinical and microbiological — **blood cultures and urine cultures are mandatory** before initiating antibiotics in all cases of pyelonephritis (EAU Grade A).\n\n**Imaging** is not required for straightforward APN but is indicated when: (1) no clinical improvement after 48–72 hours of appropriate antibiotics, (2) suspected complication (renal abscess, emphysematous pyelonephritis), (3) recurrent APN, (4) single kidney or transplant kidney, (5) suspected obstruction. **Contrast-enhanced CT** (CECT) is the preferred imaging modality — it detects focal parenchymal inflammation (wedge-shaped cortical defects), renal abscess formation, emphysematous changes, and obstructing stones.\n\n**Risk stratification** determines outpatient vs. inpatient management:\n- **Outpatient (mild APN)**: Well-appearing, tolerating oral intake, no sepsis signs, reliable follow-up → oral antibiotic therapy\n- **Inpatient (moderate-severe APN)**: Systemic toxicity (fever, rigors), vomiting precluding oral therapy, sepsis, pregnancy, immunosuppression, diabetes, structural abnormality, failure of outpatient treatment, suspected obstruction → IV antibiotics + monitoring\n\n**Antibiotic selection** for APN:\n- **Outpatient oral**: Ciprofloxacin 500 mg BD × 7 days OR ciprofloxacin 1000 mg XR OD × 7 days (EAU Grade A) — fluoroquinolones ARE first-line for APN (unlike uncomplicated cystitis). Alternative: co-trimoxazole 160/800 mg BD × 14 days (if susceptibility known). Nitrofurantoin and fosfomycin are NOT appropriate for APN (insufficient tissue/parenchymal penetration).\n- **Inpatient IV**: Ceftriaxone 1–2 g OD IV ± gentamicin (single daily dose), or co-amoxiclav IV if susceptible. For ESBL-suspected: ertapenem 1 g OD IV or meropenem 1 g TDS IV. Duration: IV until 24–48h afebrilé then step-down to oral for 7–14 days total."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Emphysematous Pyelonephritis",
+          "content": "A 62-year-old diabetic woman presents with 4 days of left loin pain, fever 39.5°C, and confusion (GCS 14). She appears septic. CT shows left renal parenchymal gas with extensive perirenal spread (Class 3B emphysematous pyelonephritis — Huang/Tseng classification). This is a urological emergency: IV meropenem + urgent nephrostomy tube placement for drainage. Emphysematous pyelonephritis has 21% mortality with percutaneous drainage; emergency nephrectomy may be required for Class 4 (bilateral or solitary kidney with parenchymal gas extending to renal fascia). Know the Huang-Tseng CT classification: Class 1 (gas in collecting system only), 2 (gas in parenchyma only), 3A (extension to perinephric space), 3B (extension to parirenal space), 4 (bilateral/single kidney)."
+        },
+        {
+          "type": "table",
+          "title": "Renal Abscess — Diagnosis and Management",
+          "headers": ["Size", "Presentation", "Microbiology", "Management"],
+          "rows": [
+            ["<3 cm", "Often incidental on CT for non-responding APN", "E. coli (gram-negative most common)", "IV antibiotics alone (4–6 weeks) — no drainage required in most cases"],
+            ["3–5 cm", "Persistent fever, flank pain, clinical toxicity", "E. coli, K. pneumoniae, S. aureus (haematogenous)", "IV antibiotics + CT/US-guided aspiration"],
+            [">5 cm", "Sepsis, haemodynamic instability", "Mixed including anaerobes in some", "IV antibiotics + CT-guided percutaneous drain ± surgical drainage if loculated"],
+            ["Perinephric abscess", "Extension beyond Gerota's fascia, 72h no improvement", "Often polymicrobial", "Surgical drainage (percutaneous or open) + IV antibiotics"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E1-S4",
+      "title": "Urosepsis: Sepsis-3 Definitions and Emergency Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Urosepsis** is defined using the **Sepsis-3 consensus definitions** (Singer et al., JAMA 2016): **Sepsis** = life-threatening organ dysfunction caused by a dysregulated host response to infection, defined clinically as a change in **SOFA score ≥2 from baseline** caused by the infection. **Septic shock** = a subset of sepsis with circulatory and cellular/metabolic abnormality sufficient to substantially increase mortality (clinical criteria: persistent hypotension requiring vasopressors to maintain MAP ≥65 mmHg AND serum lactate >2 mmol/L despite adequate fluid resuscitation — 28-day mortality ~40%).\n\nIn the urological setting, urosepsis most commonly follows: obstructing renal/ureteral stones (infected hydronephrosis — urinary sepsis), post-procedural infection (TURP, PCNL, URS, cystoscopy), complicated UTI with systemic spread, and infected perinephric/renal abscess.\n\n**Quick SOFA (qSOFA)** can be used as a bedside screening tool: ≥2 of {altered mental status, RR ≥22/min, SBP ≤100 mmHg} identifies high-risk patients. However, qSOFA should not replace full SOFA scoring for diagnosis.\n\nThe **Surviving Sepsis Campaign (SSC) 2021 one-hour bundle** for sepsis (Evans et al., Intensive Care Med 2021):\n1. Measure lactate — if initial >2 mmol/L, re-measure within 2 hours; if >4 mmol/L, treat as septic shock\n2. Obtain blood cultures (≥2 sets) **before** antibiotics are administered\n3. Administer **broad-spectrum IV antibiotics within 1 hour** of sepsis recognition\n4. **30 mL/kg crystalloid IV bolus** if hypotension (MAP <65 mmHg) or lactate ≥4 mmol/L\n5. **Vasopressors** (noradrenaline — first choice) if MAP remains <65 mmHg after fluid resuscitation\n\nFor urosepsis specifically: **source control is paramount** — obstructed infected hydronephrosis requires **emergency nephrostomy tube or retrograde ureteral stent** within 6–12 hours of recognition; this is the urological source control intervention that distinguishes urosepsis management from other sepsis aetiologies. Delay in decompression is associated with significantly higher mortality."
+        },
+        {
+          "type": "table",
+          "title": "Urosepsis Emergency Management Protocol",
+          "headers": ["Time Target", "Action", "Detail"],
+          "rows": [
+            ["0–15 min", "Recognise and trigger sepsis response", "qSOFA ≥2 + UTI source → activate sepsis pathway"],
+            ["0–60 min", "Blood cultures × 2 sets", "Before antibiotics — DO NOT delay antibiotics to get cultures if >60 min wait"],
+            ["0–60 min", "IV antibiotics (1 hour bundle)", "Meropenem 1g TDS IV or pip/tazo 4.5g TDS IV ± amikacin if MDR risk"],
+            ["0–60 min", "Lactate measurement", "If >4 mmol/L: septic shock; if 2–4 mmol/L: re-measure in 2h"],
+            ["0–60 min", "IV crystalloid 30 mL/kg bolus", "If MAP <65 mmHg or lactate ≥4 mmol/L"],
+            ["0–60 min", "Vasopressors", "Noradrenaline if MAP <65 after fluid; target MAP ≥65 mmHg"],
+            ["6–12 h (source control)", "Emergency urinary tract decompression", "Obstructed ureter (stone) → retrograde DJ stent or percutaneous nephrostomy"],
+            ["Ongoing", "De-escalation antibiotics", "Review cultures at 48–72h; de-escalate to narrow-spectrum based on sensitivity"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Delaying Antibiotics to Wait for Culture Results in Urosepsis",
+          "content": "Blood cultures should be drawn BEFORE antibiotics are given, but antibiotics must be administered within 1 hour of urosepsis recognition — not delayed while waiting for cultures to process. If drawing cultures takes >15 minutes or delays treatment, start antibiotics immediately. Every hour of antibiotic delay in septic shock increases mortality by 7–10% (Kumar et al., Crit Care Med 2006). Antibiotics first, culture results later for de-escalation."
+        }
+      ]
+    },
+    {
+      "id": "E1-S5",
+      "title": "Recurrent UTI: Prevention and Prophylaxis Strategies",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Recurrent UTI (rUTI) is defined as ≥2 microbiologically proven UTIs in 6 months or ≥3 in 12 months. It affects 20–30% of women who have had a first UTI. Predisposing factors include sexual intercourse (most important risk factor in young women — Scholes et al., J Infect Dis 2000: RR 5.8 for intercourse ≥9 times/month), diaphragm use with spermicide, post-menopausal state (loss of oestrogenic urogenital epithelium protection, vaginal pH change), anatomical factors (short urethra, incomplete bladder emptying), vesicoureteral reflux, urological structural abnormality, and genetic factors (blood group P1 antigen expression on uroepithelium facilitates E. coli adhesion).\n\n**Investigation of rUTI**: Culture each symptomatic episode to confirm diagnosis and identify causative organism and susceptibility pattern. Structural investigation (renal and bladder ultrasound, post-void residual, flexible cystoscopy) is indicated for: rUTI in men (all), rUTI with haematuria, suspected structural abnormality, rUTI despite appropriate prophylaxis.\n\n**Non-antibiotic prevention strategies** (should be offered to all women with rUTI as first-line):\n- **Behavioural modifications**: post-coital voiding, increased fluid intake (Hooton et al., JAMA Int Med 2018 RCT — increasing daily fluid intake by 1.5 L reduced UTI incidence by 48%), avoid spermicide-containing contraception\n- **Topical vaginal oestrogen** (postmenopausal women) — reduces lactobacillus depletion, restores acidic vaginal pH, reduces E. coli colonisation; Cochrane evidence supports significant reduction in rUTI with topical oestrogen\n- **D-Mannose** — non-antibiotic, competes with FimH type 1 pili (E. coli adhesin) for uroepithelial binding; Kranjcec et al. (World J Urol 2014) RCT showed D-mannose 2g OD non-inferior to nitrofurantoin prophylaxis for preventing rUTI (recurrence 14.6% vs 20.5% vs 61% in untreated group)\n- **Cranberry products** — some evidence for prevention (proanthocyanidins inhibit E. coli type 1 pili adhesion); Cochrane 2023 review shows modest benefit in premenopausal women; EAU Grade C\n- **Probiotics** (Lactobacillus rhamnosus, L. reuteri) — restore vaginal microbiome; limited high-quality evidence; EAU Grade C\n\n**Antibiotic prophylaxis** (second-line after non-antibiotic strategies fail):\n- Continuous low-dose prophylaxis: nitrofurantoin 50 mg nocte, or trimethoprim 100 mg nocte, or co-trimoxazole 480 mg nocte — for 6–12 months\n- Post-coital single dose: cefalexin 250 mg, nitrofurantoin 50–100 mg, or co-trimoxazole 480 mg (for women with clear coital trigger)\n- Self-diagnosis/self-treatment: patient initiates short course antibiotics at symptom onset (written action plan); appropriate for motivated, reliable women with clear symptom patterns"
+        },
+        {
+          "type": "table",
+          "title": "Recurrent UTI Prevention Options — Evidence Summary",
+          "headers": ["Strategy", "Evidence Level", "Efficacy", "Key Reference/Trial"],
+          "rows": [
+            ["Increased fluid intake (+1.5 L/day)", "Grade A (RCT)", "48% reduction in UTI incidence", "Hooton JAMA Int Med 2018"],
+            ["Topical vaginal oestrogen (postmenopausal)", "Grade A (Cochrane)", "Significant reduction in rUTI vs systemic oestrogen", "Cochrane Review, Raz 1993"],
+            ["D-Mannose 2g OD", "Grade B (RCT)", "Non-inferior to nitrofurantoin prophylaxis", "Kranjcec World J Urol 2014"],
+            ["Cranberry products", "Grade C", "Modest benefit in premenopausal women", "Cochrane Review 2023"],
+            ["Probiotics (Lactobacillus)", "Grade C", "Limited RCT evidence", "EAU 2024 review"],
+            ["Continuous low-dose antibiotics", "Grade A", "80–90% reduction in rUTI during prophylaxis", "Multiple RCTs; IDSA/EAU endorsed"],
+            ["Post-coital antibiotics", "Grade A", "Equivalent to continuous prophylaxis for coital-related rUTI", "Scholes J Infect Dis 2000"],
+            ["Self-diagnosis/treatment plan", "Grade A", "Safe and cost-effective with appropriate patient selection", "IDSA 2011, EAU 2024"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E1-S6",
+      "title": "Prostatitis Syndromes: NIH Classification and Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Prostatitis syndromes are classified using the **NIH/NIDDK classification** (1999), which defines four categories:\n\n**Category I — Acute bacterial prostatitis (ABP)**: Sudden-onset febrile illness with perineal/pelvic pain, urinary symptoms (dysuria, urinary retention), and systemic signs. Urine culture (and blood cultures if febrile) confirm gram-negative bacteraemia in 20–30%. Causative organisms: E. coli (70–80%), Klebsiella, Proteus, Pseudomonas. Rectal examination: tender, boggy prostate — **do not massage prostate** (risk of bacteraemia). PSA is markedly elevated (transient) — do not draw PSA during acute prostatitis. Treatment: IV fluoroquinolone (ciprofloxacin 400 mg BD IV) or IV co-amoxiclav ± aminoglycoside × 14 days IV then switch to oral for total 4–6 weeks. Urinary retention: suprapubic catheter preferred over urethral catheter (passes through inflamed urethra). Resolution of fever/symptoms then oral ciprofloxacin 500 mg BD for 4–6 weeks total.\n\n**Category II — Chronic bacterial prostatitis (CBP)**: Recurrent symptomatic UTIs from the same organism (confirmed by NIH-CPSI symptom score + 2-glass or 4-glass test). Treatment: fluoroquinolone × 4–6 weeks (ciprofloxacin 500 mg BD or levofloxacin 500 mg OD) — long course due to poor drug penetration into prostatic tissue; only fluoroquinolones and trimethoprim achieve therapeutic intra-prostatic concentrations. Recurrence rate: 20–40% at 5 years.\n\n**Category III — Chronic prostatitis/Chronic pelvic pain syndrome (CP/CPPS)**: Most common prostatitis syndrome (90% of prostatitis cases). No demonstrable infection. Subdivided into IIIa (inflammatory — WBC in expressed prostatic secretions EPS or semen) and IIIb (non-inflammatory). Multi-modal management: alpha-blockers (tamsulosin — REDUCE symptoms in recent-onset CP/CPPS, SWOG 9030 trial), physiotherapy (pelvic floor relaxation), cognitive-behavioural therapy, neuromodulation. Antibiotics are NOT recommended for established CP/CPPS (EAU Grade A against routine antibiotics).\n\n**Category IV — Asymptomatic inflammatory prostatitis (AIP)**: Incidental WBC in prostate biopsy or semen analysis; no symptoms. No treatment required."
+        },
+        {
+          "type": "table",
+          "title": "NIH Prostatitis Classification — Summary",
+          "headers": ["Category", "Name", "Key Features", "Treatment", "Duration"],
+          "rows": [
+            ["I", "Acute bacterial prostatitis", "Fever, pelvic pain, systemic toxicity; boggy prostate; urine culture positive", "IV fluoroquinolone → oral total 4–6 weeks; SPC for retention", "4–6 weeks"],
+            ["II", "Chronic bacterial prostatitis", "Recurrent UTIs same organism; confirmed by 2-glass test; positive EPS culture", "Fluoroquinolone or trimethoprim; only drugs with adequate prostatic penetration", "4–6 weeks (oral)"],
+            ["IIIa", "Chronic prostatitis/CPPS (inflammatory)", "Pelvic pain >3 months; WBC in EPS/semen; no bacteria", "Alpha-blockers, physiotherapy; limited antibiotic trial × 4–6 weeks (one course only)", "Multimodal, chronic"],
+            ["IIIb", "Chronic prostatitis/CPPS (non-inflammatory)", "Pelvic pain >3 months; no WBC, no bacteria in EPS", "Alpha-blockers, physiotherapy, CBT; NO antibiotics (Grade A against)", "Multimodal, chronic"],
+            ["IV", "Asymptomatic inflammatory prostatitis", "WBC in prostate biopsy or semen; no symptoms", "No treatment required", "None"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Antibiotic Prostatic Penetration",
+          "content": "Only fluoroquinolones (ciprofloxacin, levofloxacin) and trimethoprim achieve therapeutic intra-prostatic concentrations sufficient for chronic bacterial prostatitis. Beta-lactams, nitrofurantoin, and aminoglycosides do NOT achieve adequate prostatic tissue levels. This is why ciprofloxacin 500 mg BD × 4–6 weeks is the standard treatment for Category II (chronic bacterial prostatitis) — not the shorter courses used for cystitis or pyelonephritis."
+        }
+      ]
+    },
+    {
+      "id": "E1-S7",
+      "title": "Catheter-Associated UTI and Antimicrobial Stewardship in Urology",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Catheter-associated UTI (CAUTI)** is the most common hospital-acquired infection, accounting for 30–40% of all nosocomial infections. Risk of bacteriuria increases by approximately 5% per day of catheterisation — after 30 days, virtually all patients with indwelling urethral catheters have significant bacteriuria. CAUTI definition (CDC NHSN criteria): patient with urinary catheter in place for >2 consecutive days on day of infection, with ≥10³ CFU/mL of recognised uropathogens on catheter specimen urine culture AND ≥1 of: fever >38°C, suprapubic tenderness, costovertebral angle pain, urinary urgency/frequency/dysuria (in catheterised patients, non-specific signs such as altered mental status or increased spasticity in SCI patients may be the only symptoms).\n\n**CAUTI prevention** (EAU 2024 Grade A):\n1. **Remove catheters as soon as clinically possible** — the single most effective CAUTI prevention strategy\n2. **Aseptic insertion technique** with sterile equipment\n3. **Closed drainage system** — do not break the closed loop\n4. **Secure the catheter** to prevent movement and urethral trauma\n5. **Maintain gravity drainage** — bag always below bladder level\n6. **Hydrophilic-coated catheters** for intermittent catheterisation — lower CAUTI rates than uncoated\n7. **Antibiotic-impregnated catheters** (silver alloy, nitrofurantoin-coated) — modest evidence for short-term reduction in bacteriuria; not recommended for routine use (EAU Grade B)\n8. **Bladder irrigation** with antiseptics — NOT recommended (EAU Grade A against)\n\n**Antimicrobial stewardship** in urology requires: (1) culture before antibiotics in complicated UTI; (2) de-escalate to narrowest-spectrum effective antibiotic at 48–72h based on culture results; (3) avoid treating ASB; (4) reserve fluoroquinolones for complicated UTI and pyelonephritis; (5) prescribe the shortest effective duration (EAU 2024 minimum durations: uncomplicated cystitis 3–5 days, pyelonephritis 7–14 days, complicated UTI 7–14 days, prostatitis 4–6 weeks); (6) avoid carbapenem use as first-line except for documented ESBL or carbapenem-only susceptibility; (7) obtain urine culture from sterile field (catheter specimen — not bag drainage urine) for accurate bacteriology."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — De-escalation in Urosepsis",
+          "content": "A 68-year-old man admitted with urosepsis from an obstructing right ureteral stone was treated with meropenem 1g TDS IV empirically. Blood cultures at 72 hours grow E. coli susceptible to ceftriaxone (MIC 0.25 mg/L). Urinary tract has been decompressed with a percutaneous nephrostomy tube. The patient is afebrile and haemodynamically stable. Antimicrobial stewardship dictates: de-escalate from meropenem to ceftriaxone 2g OD IV — narrower spectrum, equally effective, preserves carbapenems as last-resort agents. Total antibiotic course: 10–14 days for complicated UTI/pyelonephritis with source control."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of urological infections with 20 board-style questions covering UTI classification, diagnosis, antibiotic selection, urosepsis, prostatitis, and CAUTI.",
+    "questions": [
+      {
+        "id": "E1-Q1",
+        "stem": "A 26-year-old healthy non-pregnant woman presents with 2 days of dysuria and urinary frequency. She has no fever, no costovertebral angle tenderness, and no vaginal discharge. Dipstick urinalysis shows nitrites positive, leucocytes 2+. What is the most appropriate management according to EAU 2024 guidelines?",
+        "options": {
+          "A": "Send urine culture; await results before starting antibiotics",
+          "B": "Treat empirically with nitrofurantoin 100 mg BD × 5 days without requiring a urine culture",
+          "C": "Start ciprofloxacin 500 mg BD × 3 days — first-line for cystitis",
+          "D": "Refer for cystoscopy to exclude interstitial cystitis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This is uncomplicated cystitis in a healthy premenopausal woman (no fever, no upper tract symptoms, no structural abnormality). EAU 2024 Grade A: urine culture is NOT required before empirical treatment for uncomplicated cystitis. Nitrofurantoin macrocrystals 100 mg BD × 5 days is the Grade A first-line antibiotic for uncomplicated cystitis. No cystoscopy is required for a first episode of uncomplicated cystitis.",
+          "wrong": {
+            "A": "Delaying treatment to await culture results for uncomplicated cystitis is not recommended — culture is not required for uncomplicated cystitis, and delaying treatment prolongs patient symptoms unnecessarily. Empirical treatment based on clinical diagnosis is EAU Grade A.",
+            "C": "Ciprofloxacin is NOT first-line for uncomplicated cystitis (EAU 2024 Grade A against fluoroquinolones for uncomplicated cystitis). Fluoroquinolones are reserved for complicated UTI and pyelonephritis. Using ciprofloxacin for simple cystitis is inappropriate antimicrobial stewardship.",
+            "D": "Cystoscopy is completely inappropriate for a first episode of uncomplicated cystitis with a classical presentation in a young woman. Cystoscopy in this context would expose the patient to unnecessary risk, discomfort, and cost with zero diagnostic yield."
+          },
+          "guideline": "EAU Guidelines on Urological Infections 2024 — Uncomplicated cystitis: Grade A: nitrofurantoin 100 mg BD × 5 days first-line; culture not required; fluoroquinolones not first-line",
+          "trial": "Gupta K et al. IDSA Clinical Practice Guidelines for UTI Treatment. Clin Infect Dis 2011;52:e103: evidence-based framework establishing nitrofurantoin, fosfomycin, and co-trimoxazole as first-line agents; fluoroquinolones as second-line for uncomplicated cystitis",
+          "pearl": "Uncomplicated cystitis in healthy young woman: nitrofurantoin 100 mg BD × 5 days (or fosfomycin 3 g single dose). NO culture needed. NO ciprofloxacin (not first-line). NO cystoscopy for first episode."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E1-Q2",
+        "stem": "The Sepsis-3 definition (Singer et al., JAMA 2016) defines septic shock with which set of clinical criteria?",
+        "options": {
+          "A": "Temperature >38°C + WBC >12 × 10⁹/L + heart rate >90 bpm + respiratory rate >20/min (SIRS criteria)",
+          "B": "SOFA score ≥2 + suspected infection",
+          "C": "Hypotension requiring vasopressors to maintain MAP ≥65 mmHg AND serum lactate >2 mmol/L despite adequate fluid resuscitation",
+          "D": "qSOFA score ≥2 (altered mental status + RR ≥22 + SBP ≤100)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Sepsis-3 (Singer JAMA 2016) defines septic shock as: circulatory, cellular, and metabolic abnormalities sufficient to substantially increase mortality — specifically: (1) persistent hypotension requiring vasopressors to maintain MAP ≥65 mmHg AND (2) serum lactate >2 mmol/L DESPITE adequate fluid resuscitation. In-hospital mortality for septic shock meeting these criteria is approximately 40%. The Sepsis-3 definition replaced the older SIRS-based definition.",
+          "wrong": {
+            "A": "These are the old SIRS (systemic inflammatory response syndrome) criteria — temperature, WBC, HR, RR. SIRS criteria are no longer used to define sepsis in the Sepsis-3 framework (Singer 2016) as they lack specificity.",
+            "B": "SOFA ≥2 + suspected infection defines SEPSIS (not septic shock). Septic shock is a more severe subset of sepsis requiring vasopressors and elevated lactate despite fluids.",
+            "D": "qSOFA ≥2 is a bedside screening tool for identifying high-risk patients — it is NOT the definition of septic shock. qSOFA (altered mental status + RR ≥22 + SBP ≤100) identifies patients who need SOFA scoring, not the septic shock diagnostic criteria."
+          },
+          "guideline": "Surviving Sepsis Campaign Guidelines 2021 (Evans et al., Intensive Care Med 2021) — adopts Sepsis-3 definitions: sepsis = SOFA ≥2; septic shock = vasopressors for MAP ≥65 + lactate >2 mmol/L",
+          "trial": "Singer M et al. The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA 2016;315:801: replaced SIRS criteria with SOFA-based definition — fundamental paradigm shift in sepsis diagnosis",
+          "pearl": "Septic shock (Sepsis-3): vasopressors needed to maintain MAP ≥65 mmHg + lactate >2 mmol/L despite adequate fluids = ~40% mortality. Sepsis = SOFA ≥2 + infection. qSOFA = screening tool (not diagnostic). SIRS = obsolete."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E1-Q3",
+        "stem": "A 55-year-old man with a known ureteral calculus obstructing the right kidney presents with fever 39.5°C, rigors, and right flank pain. Blood pressure is 95/60 mmHg. Urine culture shows E. coli >10⁵ CFU/mL. Blood cultures are obtained and broad-spectrum IV antibiotics are started immediately. What is the critical additional intervention required for source control?",
+        "options": {
+          "A": "Immediate emergency ureteroscopy and stone extraction",
+          "B": "Urgent retrograde DJ stent insertion or percutaneous nephrostomy for urinary decompression",
+          "C": "High-dose oral ciprofloxacin and close outpatient monitoring",
+          "D": "CT urogram to confirm the stone position before any intervention"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Obstructed infected hydronephrosis is a urological emergency. The infected urine proximal to the obstructing stone creates a closed-space infection that cannot be controlled by antibiotics alone — urinary decompression (source control) is mandatory. The choice between retrograde DJ stent (ureteral stent, placed cystoscopically under fluoroscopy) and percutaneous nephrostomy (PCN) depends on expertise and patient factors — both are equally effective for decompression; in haemodynamically unstable septic patients, PCN under local anaesthesia is often faster and safer. Emergency decompression should be performed within 6–12 hours of sepsis recognition. Stone removal should be deferred to a separate elective procedure once the infection has resolved.",
+          "wrong": {
+            "A": "Immediate ureteroscopy and stone extraction in a septic patient is dangerous — general anaesthesia is high-risk in haemodynamic compromise, and ureteroscopic stone manipulation in an infected system risks showering infected material into the bloodstream (worsening sepsis). Stone removal should be deferred until sepsis resolves.",
+            "C": "Oral ciprofloxacin with outpatient monitoring is completely inappropriate for septic shock — this patient needs ICU-level care, IV broad-spectrum antibiotics, vasopressor support, and emergency decompression.",
+            "D": "CT urogram is not the immediate priority — the obstruction is already confirmed clinically and microbiologically. The priority is IV antibiotics + urinary decompression. CT can be performed if the stone position is genuinely unclear, but should not delay decompression."
+          },
+          "guideline": "EAU Guidelines on Urological Infections 2024 — Obstructed infected hydronephrosis: urological emergency; decompression (DJ stent or PCN) mandatory within 6–12h; defer stone removal",
+          "trial": "Surviving Sepsis Campaign 2021 (Evans Intensive Care Med 2021): source control within 6–12 hours of recognition — for urosepsis from obstruction, this means urinary decompression",
+          "pearl": "Obstructed kidney + fever/sepsis = EMERGENCY DECOMPRESSION (DJ stent or PCN). Antibiotics alone will NOT control the infection in an obstructed system. Stone removal = elective, AFTER sepsis resolves. Decompression within 6–12 hours."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E1-Q4",
+        "stem": "A 34-year-old woman presents with her third episode of E. coli cystitis in 8 months, each confirmed by urine culture. She does not use spermicide. She is premenopausal and has no structural urological abnormality on imaging. She exercises regularly, drinks approximately 1.0 L of fluid/day, and has an active sexual life. Which of the following evidence-based interventions is most appropriate as first-line prevention before antibiotic prophylaxis?",
+        "options": {
+          "A": "Low-dose nitrofurantoin 50 mg nocte × 6 months (continuous prophylaxis)",
+          "B": "Increasing daily fluid intake by 1.5 L/day",
+          "C": "Ciprofloxacin 500 mg as self-treatment at symptom onset",
+          "D": "Oestrogen vaginal cream to restore lactobacillus flora"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Hooton et al. RCT (JAMA Internal Medicine 2018) randomised 140 premenopausal women with recurrent UTI (≥3/year) to increase fluid intake by 1.5 L/day versus normal intake. The intervention group had a 48% reduction in annual UTI incidence (mean 1.7 vs 3.2 UTIs/year, p<0.001) — equivalent to antibiotic prophylaxis but without antibiotic use or selection pressure. This is the first Grade A non-antibiotic preventive intervention for rUTI. It is the most appropriate initial intervention before considering antibiotic prophylaxis for a woman drinking only 1.0 L/day.",
+          "wrong": {
+            "A": "Continuous antibiotic prophylaxis (nitrofurantoin 50 mg nocte) is effective (Grade A) but should be offered AFTER non-antibiotic preventive strategies have been tried. The EAU 2024 guidance specifically recommends non-antibiotic strategies as first-line before antibiotic prophylaxis.",
+            "C": "Self-treatment with ciprofloxacin is a valid strategy for self-diagnosed rUTI episodes but does not PREVENT UTIs — it treats them once they occur. The question asks for first-line prevention. Additionally, fluoroquinolones should not be used as first-line treatment for uncomplicated cystitis.",
+            "D": "Vaginal oestrogen cream is appropriate for postmenopausal women with rUTI due to urogenital atrophy. This woman is premenopausal — vaginal oestrogen is not indicated for premenopausal rUTI. The intervention is correct for the wrong age group."
+          },
+          "guideline": "EAU Guidelines on Urological Infections 2024 — rUTI prevention: non-antibiotic strategies first-line; increased fluid intake Grade A (Hooton 2018 RCT); antibiotic prophylaxis if non-antibiotic strategies fail",
+          "trial": "Hooton TM et al. Effect of increased daily water intake in premenopausal women with recurrent urinary tract infections. JAMA Intern Med 2018;178:1509: RCT — +1.5 L/day water intake reduced UTI incidence by 48% vs control group",
+          "pearl": "Recurrent UTI prevention — first-line: INCREASE FLUID INTAKE (Hooton JAMA Int Med 2018: +1.5 L/day → 48% UTI reduction). THEN: D-mannose, cranberry. THEN: antibiotic prophylaxis. Vaginal oestrogen for POSTMENOPAUSAL women only."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q5",
+        "stem": "Which of the following is a correct indication for treating asymptomatic bacteriuria (ASB) according to EAU 2024 and IDSA 2019 guidelines?",
+        "options": {
+          "A": "Elderly care home resident with E. coli >10⁵ CFU/mL on routine surveillance — treat to prevent urosepsis",
+          "B": "20-week pregnant woman with Klebsiella pneumoniae >10⁵ CFU/mL on routine antenatal culture, no symptoms",
+          "C": "T6 SCI patient performing CIC with E. coli >10⁵ CFU/mL on quarterly urine surveillance, no fever or increased spasticity",
+          "D": "Type 2 diabetic patient with Candida >10⁴ CFU/mL on midstream urine, no symptoms"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Pregnancy is the primary indication for treating asymptomatic bacteriuria in a catheterised or non-catheterised patient. Untreated ASB in pregnancy carries a 20–30% risk of ascending pyelonephritis, which is associated with preterm labour, low birth weight, and maternal sepsis. All pregnant women should be screened for ASB at the first antenatal visit and at 28 weeks. Treatment with amoxicillin, nitrofurantoin (avoid near term — neonatal haemolysis risk), or cefalexin for 5–7 days is recommended.",
+          "wrong": {
+            "A": "Treating ASB in elderly care home residents is EXPLICITLY NOT recommended (IDSA 2019, EAU 2024). Studies have shown no reduction in symptomatic UTI or hospitalisation from treating ASB in the elderly, while increasing antibiotic-resistant organisms. This is one of the most commonly cited inappropriate antibiotic prescribing targets.",
+            "C": "ASB in CIC-dependent SCI patients should NOT be treated (EAU Neuro-Urology 2024, IDSA 2019). SCI patients are invariably bacteriuric; treating ASB promotes MDR colonisation without clinical benefit. Only treat when there are systemic signs of infection.",
+            "D": "Candiduria (Candida ASB) in diabetics should NOT be treated unless the patient is symptomatic, immunocompromised, or undergoing urological procedures. IDSA 2016 Candida guidelines recommend against treating asymptomatic candiduria except in immunocompromised patients and before urological procedures."
+          },
+          "guideline": "IDSA Clinical Practice Guideline for ASB 2019 (Hooton TM et al., Clin Infect Dis 2019;68:e83): treat ASB only in pregnancy and pre-urological procedure; do NOT treat in elderly, diabetics, catheterised patients, or SCI patients",
+          "trial": "Romero R et al. Meta-analysis linking untreated ASB in pregnancy to pyelonephritis risk: 20–40% develop pyelonephritis without treatment; antibiotics reduce this to <3% — foundational evidence for pregnancy ASB treatment",
+          "pearl": "Treat ASB ONLY: (1) pregnancy (all trimesters), (2) pre-urological procedure with mucosal bleeding (TURP, PCNL). Do NOT treat ASB in: elderly, diabetics, catheterised patients, SCI patients, renal transplant (unless pre-procedure). Memorise these exceptions."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q6",
+        "stem": "A 47-year-old man presents with 3-month history of pelvic/perineal pain, urinary urgency, and weak stream. He has had two episodes of E. coli bacteriuria over the past 2 years (same strain) treated with short courses of ciprofloxacin. His NIH-CPSI score is 22. The four-glass test (Meares-Stamey localisation) shows >10 WBC/hpf in expressed prostatic secretion (EPS) and E. coli 10⁴ CFU/mL in EPS culture. Which NIH prostatitis category is this, and what is the recommended treatment?",
+        "options": {
+          "A": "Category IIIa (CPPS inflammatory) — physiotherapy + alpha-blockers; no antibiotics",
+          "B": "Category I (acute bacterial prostatitis) — IV ciprofloxacin 400 mg BD for 14 days",
+          "C": "Category II (chronic bacterial prostatitis) — oral ciprofloxacin 500 mg BD × 4–6 weeks",
+          "D": "Category IV (asymptomatic inflammatory prostatitis) — no treatment required"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Recurrent symptomatic UTIs from the same organism (same E. coli strain × 2 years), with EPS showing WBC AND positive EPS culture (E. coli 10⁴ CFU/mL) = NIH Category II — Chronic Bacterial Prostatitis. The 4-glass Meares-Stamey localisation test confirms prostatic focus of infection. Treatment: oral ciprofloxacin 500 mg BD × 4–6 weeks OR levofloxacin 500 mg OD × 4–6 weeks. Fluoroquinolones are the only class that achieves adequate intra-prostatic concentrations. The long duration is required due to poor prostate drug penetration.",
+          "wrong": {
+            "A": "Category IIIa CPPS has WBC in EPS but NO bacteria on culture. This patient has both WBC AND positive E. coli culture in EPS — this distinguishes Category II (bacterial) from IIIa (inflammatory but no bacteria). The distinction is critical: Category II requires antibiotics; IIIa does not.",
+            "B": "Category I is ACUTE bacterial prostatitis — sudden-onset febrile illness with severe systemic toxicity, boggy tender prostate on examination, not a 3-month history of chronic symptoms. This patient has chronic symptoms over 3 months = not acute.",
+            "D": "Category IV is incidental WBC in prostate biopsy/semen without symptoms. This patient has significant symptoms (NIH-CPSI 22) and positive culture — not asymptomatic."
+          },
+          "guideline": "EAU Guidelines on Urological Infections 2024 — NIH Category II chronic bacterial prostatitis: ciprofloxacin or levofloxacin × 4–6 weeks; only fluoroquinolones and trimethoprim achieve therapeutic prostatic concentrations",
+          "trial": "Naber KG et al. Levofloxacin vs ciprofloxacin for CBP. Eur Urol 2008;53:105: equivalent efficacy for chronic bacterial prostatitis — both fluoroquinolones achieve adequate prostatic concentrations; 4–6 weeks required",
+          "pearl": "Chronic bacterial prostatitis (NIH Cat II): POSITIVE bacteria in EPS/urine culture + symptoms. Treat: ciprofloxacin 500 mg BD × 4–6 weeks. Why fluoroquinolone? Only class achieving therapeutic intra-prostatic tissue concentrations. Beta-lactams and nitrofurantoin do NOT penetrate prostate adequately."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q7",
+        "stem": "A 70-year-old man with BPH presents with acute onset fever 39°C, perineal pain, difficulty voiding (acute retention), and rigors. He underwent flexible cystoscopy 3 days ago. Rectal examination reveals an exquisitely tender, warm, indurated prostate. Blood cultures are drawn. What is the most appropriate immediate management?",
+        "options": {
+          "A": "Immediate transrectal ultrasound-guided prostate biopsy to confirm diagnosis",
+          "B": "Urethral catheter insertion + IV co-trimoxazole",
+          "C": "Suprapubic catheter for urinary drainage + IV ciprofloxacin or aminoglycoside + IV amoxicillin",
+          "D": "Oral ciprofloxacin 500 mg BD × 14 days and refer to urology outpatients"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This is acute bacterial prostatitis (NIH Category I). Management requires: (1) suprapubic catheter (SPC) for urinary drainage — urethral catheter through the inflamed, painful urethra/prostate is more painful, risks disrupting the inflamed tissue, and may promote bacteraemia; SPC is preferred; (2) IV antibiotics — ciprofloxacin 400 mg BD IV + aminoglycoside (gentamicin) or IV co-amoxiclav as broad-spectrum empirical cover — IV until 24–48h afebrile then switch to oral fluoroquinolone for total 4–6 weeks. IMPORTANT: Do NOT massage the prostate during digital rectal examination (risk of bacteraemia).",
+          "wrong": {
+            "A": "Transrectal prostate biopsy during acute bacterial prostatitis is absolutely contraindicated — it would introduce bacteria into a highly vascularised inflamed gland, causing severe bacteraemia and potentially fatal septic shock. This is a critically dangerous error.",
+            "B": "Urethral catheter through a severely inflamed prostate in acute prostatitis is more painful, technically more difficult, risks disrupting inflamed tissue, and increases bacteraemia risk. SPC is the preferred drainage route. Also, IV co-trimoxazole has poor prostatic penetration compared to fluoroquinolones — it is not first-line IV choice.",
+            "D": "Oral antibiotics and outpatient management are inappropriate for a patient with rigors, high fever, acute retention, and post-procedural exposure — this is hospital-level acute bacterial prostatitis requiring IV antibiotics and inpatient monitoring."
+          },
+          "guideline": "EAU Guidelines on Urological Infections 2024 — Acute bacterial prostatitis: IV fluoroquinolone or aminoglycoside; SPC for retention (not urethral catheter); no DRE massage; 4–6 weeks total treatment",
+          "trial": "Wagenlehner FM et al. Prostatitis. Lancet 2013;382:1103: systematic review confirming IV fluoroquinolones and SPC management for acute bacterial prostatitis; contraindication of prostate massage in Category I",
+          "pearl": "Acute bacterial prostatitis: SPC (NOT urethral catheter) for retention + IV ciprofloxacin/aminoglycoside. DO NOT massage prostate (bacteraemia risk). PSA elevated — do NOT draw during infection. Total treatment: 4–6 weeks (IV then oral fluoroquinolone)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q8",
+        "stem": "Which antibiotic is NOT appropriate for treating uncomplicated pyelonephritis on an outpatient basis (oral therapy) according to EAU 2024?",
+        "options": {
+          "A": "Ciprofloxacin 500 mg BD × 7 days",
+          "B": "Co-trimoxazole 160/800 mg BD × 14 days (if susceptibility known)",
+          "C": "Nitrofurantoin macrocrystals 100 mg BD × 7 days",
+          "D": "Levofloxacin 750 mg OD × 5 days"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Nitrofurantoin achieves high concentrations in the urine but does NOT achieve adequate tissue/parenchymal concentrations in the renal medulla — it is therefore NOT appropriate for pyelonephritis, which requires tissue penetration to treat the renal parenchymal infection. Nitrofurantoin is contraindicated for pyelonephritis in EAU 2024 and IDSA guidelines. It is only appropriate for lower UTI (cystitis/bladder infections). This is one of the most commonly tested distinctions in urology/infection examinations.",
+          "wrong": {
+            "A": "Ciprofloxacin 500 mg BD × 7 days is the Grade A first-line oral treatment for uncomplicated pyelonephritis (fluoroquinolones ARE first-line for APN, unlike uncomplicated cystitis). High tissue penetration makes it effective for parenchymal renal infection.",
+            "B": "Co-trimoxazole 160/800 mg BD × 14 days is a Grade A second-line option for APN when susceptibility is known — good tissue penetration and excellent renal parenchymal concentrations. Use only when local E. coli resistance is <20%.",
+            "D": "Levofloxacin 750 mg OD × 5 days is an EAU-endorsed short-course oral fluoroquinolone regimen for uncomplicated APN — high-dose short-course fluoroquinolone achieves equivalent outcomes to standard-dose longer courses."
+          },
+          "guideline": "EAU Guidelines on Urological Infections 2024 — Pyelonephritis treatment: ciprofloxacin/levofloxacin first-line; co-trimoxazole if susceptible; nitrofurantoin CONTRAINDICATED (no tissue penetration)",
+          "trial": "Gupta K et al. IDSA UTI Guidelines. Clin Infect Dis 2011;52:e103: nitrofurantoin explicitly excluded from pyelonephritis treatment — poor renal parenchymal concentrations; fluoroquinolones Grade A for APN",
+          "pearl": "Nitrofurantoin = CYSTITIS ONLY (high urinary, low tissue concentrations). NEVER use for pyelonephritis. Pyelonephritis requires tissue-penetrating antibiotics: ciprofloxacin, levofloxacin, co-trimoxazole, ceftriaxone. This distinction is a classic exam trap."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q9",
+        "stem": "A 32-year-old woman has had 5 culture-confirmed E. coli UTIs in the past 12 months, all occurring within 48 hours of sexual intercourse. She uses oral contraception. All E. coli isolates have been sensitive to nitrofurantoin and resistant to co-trimoxazole. Which is the most appropriate recurrent UTI prophylaxis strategy for this patient?",
+        "options": {
+          "A": "Continuous low-dose nitrofurantoin 50 mg nocte × 12 months",
+          "B": "Post-coital single dose nitrofurantoin 50–100 mg after each episode of intercourse",
+          "C": "D-Mannose 2 g OD continuously",
+          "D": "Switch contraception from oral to barrier method"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has a clear post-coital trigger for rUTI — all 5 UTIs occurred within 48 hours of sexual intercourse. Post-coital single-dose antibiotic prophylaxis is the most targeted strategy for patients with a clear coital trigger: nitrofurantoin 50–100 mg (or cefalexin 250 mg, or co-trimoxazole 480 mg if sensitive) taken immediately after intercourse achieves equivalent reduction in UTI incidence to continuous nightly prophylaxis but uses far fewer antibiotic doses. EAU 2024 Grade A: post-coital prophylaxis for coitally-related rUTI. Since her isolates are nitrofurantoin-sensitive, nitrofurantoin post-coital is appropriate.",
+          "wrong": {
+            "A": "Continuous nightly prophylaxis (nitrofurantoin 50 mg nocte) is effective (Grade A) but exposes the patient to daily antibiotic use when a post-coital dosing strategy would achieve equivalent benefit with far fewer total antibiotic doses — better antibiotic stewardship practice.",
+            "C": "D-Mannose 2 g OD is a reasonable non-antibiotic preventive option (Kranjcec World J Urol 2014) but has shown non-inferiority to prophylactic nitrofurantoin — not superiority. Given that this patient has a clear coital trigger, post-coital antibiotics are the most targeted and evidence-based approach.",
+            "D": "Oral contraceptives (combined oestrogen/progestogen pill) are not a significant risk factor for rUTI (diaphragm + spermicide IS a risk factor). Switching contraception is not indicated. The coital pattern is the driver, not the contraceptive method."
+          },
+          "guideline": "EAU Guidelines on Urological Infections 2024 — Post-coital antibiotic prophylaxis: Grade A for coitally-triggered rUTI; equivalent to continuous nightly prophylaxis with fewer total antibiotic doses",
+          "trial": "Scholes D et al. Risk factors for recurrent UTI in young women. J Infect Dis 2000;182:1177: sexual intercourse frequency strongest modifiable risk factor; post-coital prophylaxis shown to reduce UTI incidence equivalently to continuous prophylaxis",
+          "pearl": "Clear coital trigger for rUTI = POST-COITAL single dose antibiotic (nitrofurantoin 50–100 mg or cefalexin 250 mg after intercourse). Same efficacy as nightly continuous prophylaxis with far fewer total doses = better stewardship. Diaphragm+spermicide = risk factor (not oral OCP)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q10",
+        "stem": "Fosfomycin trometamol is increasingly recommended for uncomplicated cystitis caused by ESBL-producing E. coli. What is the standard single-dose regimen and what unique mechanism does ESBL resistance NOT affect for fosfomycin?",
+        "options": {
+          "A": "3 g single dose; fosfomycin targets the UDP-N-acetylglucosamine enolpyruvyl transferase enzyme (MurA) — a completely different target from beta-lactamases",
+          "B": "1 g single dose; fosfomycin is a fluoroquinolone analogue unaffected by ESBL plasmids",
+          "C": "3 g single dose; fosfomycin is a carbapenem-derivative not hydrolysed by ESBLs",
+          "D": "6 g over 3 days; fosfomycin inhibits cell wall peptidoglycan synthesis through a penicillin-binding protein mechanism"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Fosfomycin trometamol 3 g single oral dose is the standard regimen for uncomplicated cystitis and ESBL UTI. Fosfomycin's mechanism — irreversible inhibition of MurA (UDP-N-acetylglucosamine-3-enolpyruvyl transferase), the first committed step in bacterial cell wall peptidoglycan synthesis — is completely unrelated to beta-lactamase activity. ESBLs hydrolyse the beta-lactam ring of penicillins and cephalosporins — they have no effect on fosfomycin, which does not contain a beta-lactam structure. This makes fosfomycin uniquely effective against ESBL-producing Enterobacteriaceae.",
+          "wrong": {
+            "B": "Fosfomycin is not a fluoroquinolone analogue — it is a phosphonic acid antibiotic with an entirely different chemical structure and mechanism. The dose is 3 g (not 1 g) for uncomplicated cystitis.",
+            "C": "Fosfomycin is not a carbapenem derivative — it is a phosphonic acid compound, not a beta-lactam of any class. Carbapenems ARE hydrolysed by metallo-beta-lactamases (carbapenemases); fosfomycin is not hydrolysed by any beta-lactamase.",
+            "D": "Fosfomycin does NOT work through penicillin-binding proteins (PBPs) — that is the mechanism of beta-lactam antibiotics. Fosfomycin works through MurA inhibition (pre-PBP step in cell wall synthesis). The 6 g / 3-day regimen is used for complicated UTI in some protocols, not for uncomplicated cystitis (which is 3 g single dose)."
+          },
+          "guideline": "EAU Guidelines on Urological Infections 2024 — Fosfomycin trometamol 3 g single dose: Grade A for uncomplicated cystitis, including ESBL producers; mechanism: MurA inhibition",
+          "trial": "Gupta K et al. IDSA 2011 UTI guidelines: fosfomycin 3 g single dose endorsed as first-line for uncomplicated cystitis; effective against ESBL-producing E. coli — basis for EAU Grade A recommendation",
+          "pearl": "Fosfomycin: 3 g single dose for uncomplicated cystitis (including ESBL). Mechanism: MurA inhibitor (NOT beta-lactam, NOT fluoroquinolone). ESBLs cannot hydrolyse fosfomycin — use it for ESBL-E. coli UTI. Cannot use for pyelonephritis (poor tissue penetration, like nitrofurantoin)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E1-Q11",
+        "stem": "A 28-year-old pregnant woman (18 weeks gestation) has E. coli 10⁵ CFU/mL on a routine antenatal urine culture. She is completely asymptomatic. What is the most appropriate management?",
+        "options": {
+          "A": "Reassure — asymptomatic bacteriuria in pregnancy does not require treatment",
+          "B": "Treat with nitrofurantoin 100 mg BD × 5 days",
+          "C": "Treat with cefalexin 500 mg BD × 7 days",
+          "D": "Await a second culture in 1 week to confirm before deciding on treatment"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "ASB in pregnancy MUST be treated regardless of symptoms (EAU 2024 Grade A, IDSA 2019 Grade A). Untreated ASB in pregnancy carries a 20–30% risk of progressing to pyelonephritis. Antibiotic selection at 18 weeks: cefalexin 500 mg BD × 7 days is safe in the second trimester. Alternative: amoxicillin/clavulanate if susceptible. Nitrofurantoin is an option in the second trimester (18 weeks is safe) but is avoided in the third trimester (≥35 weeks — risk of neonatal haemolytic anaemia due to immature red blood cell G6PD). Fluoroquinolones are CONTRAINDICATED in pregnancy (cartilage damage risk in neonates).",
+          "wrong": {
+            "A": "ASB in pregnancy is one of the two absolute indications for treatment (the other being pre-urological procedure). Failure to treat ASB in pregnancy risks pyelonephritis, preterm labour, and low birth weight.",
+            "B": "Nitrofurantoin is generally safe in the first and second trimesters but is avoided in the third trimester (≥35 weeks) due to neonatal haemolytic anaemia risk from immature G6PD enzyme. At 18 weeks it would be acceptable, but cefalexin is more commonly recommended as the standard-of-care option across all trimesters (except first trimester where amoxicillin-clavulanate is also used). The key point is that treatment is mandatory, and nitrofurantoin is the most tempting wrong answer here.",
+            "D": "A second culture before treatment is not recommended for ASB in pregnancy — a single positive culture from a properly collected midstream specimen is sufficient to initiate treatment. Delaying treatment risks ascending infection."
+          },
+          "guideline": "EAU Guidelines on Urological Infections 2024 — ASB in pregnancy: treat immediately with safe antibiotics (cefalexin, amoxicillin, nitrofurantoin in T2); avoid fluoroquinolones; re-culture to confirm clearance 1 week after treatment",
+          "trial": "Romero R et al. Meta-analysis — treatment of ASB in pregnancy reduces pyelonephritis by 77% and preterm delivery by 34% — foundational evidence for mandatory ASB treatment in pregnancy",
+          "pearl": "ASB in pregnancy = ALWAYS TREAT. Safe antibiotics: cefalexin, amoxicillin, nitrofurantoin (avoid in T3 ≥35 wks). NEVER fluoroquinolones in pregnancy. Re-culture 1 week post-treatment to confirm clearance. Untreated ASB → 20–30% pyelonephritis risk."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q12",
+        "stem": "The Surviving Sepsis Campaign 2021 'one-hour bundle' for sepsis mandates which of the following as part of the initial resuscitation?",
+        "options": {
+          "A": "Immediate blood cultures, then IV antibiotics within 3 hours, and CT imaging to confirm source",
+          "B": "Measure lactate; obtain blood cultures; administer IV antibiotics within 1 hour; give 30 mL/kg IV crystalloid for hypotension; apply vasopressors for MAP <65",
+          "C": "Oral antibiotics within 4 hours; bladder scan to assess PVR; chest X-ray to exclude pneumonia",
+          "D": "Urinary catheter insertion; hourly urine output monitoring; prophylactic anticoagulation for DVT"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Surviving Sepsis Campaign 2021 one-hour bundle (Evans et al., Intensive Care Med 2021) mandates: (1) measure lactate — if >2 mmol/L re-measure within 2 hours; if >4 mmol/L = septic shock; (2) obtain blood cultures (≥2 sets) BEFORE antibiotics; (3) administer broad-spectrum IV antibiotics within 1 hour; (4) give 30 mL/kg IV crystalloid bolus if hypotensive (MAP <65) or lactate ≥4 mmol/L; (5) vasopressors (noradrenaline first choice) if MAP remains <65 after fluids.",
+          "wrong": {
+            "A": "IV antibiotics within 3 hours (not 1 hour) violates the one-hour bundle target. CT imaging before antibiotics is NOT part of the one-hour bundle and would critically delay treatment. Blood cultures before antibiotics is correct, but the 3-hour antibiotic window is wrong.",
+            "C": "Oral antibiotics are inappropriate for sepsis (poor absorption in shocked patient, inadequate serum concentrations). 4-hour antibiotic delay is unacceptable in sepsis — every hour of delay increases mortality. Chest X-ray and bladder scan are not part of the mandatory one-hour bundle.",
+            "D": "Urinary catheter, urine output monitoring, and DVT prophylaxis are important supportive measures in sepsis management but are NOT components of the Surviving Sepsis Campaign one-hour bundle. The bundle focuses on antibiotics, cultures, fluids, and vasopressors."
+          },
+          "guideline": "Surviving Sepsis Campaign 2021 (Evans et al., Intensive Care Med 2021) — One-hour bundle: lactate + blood cultures + IV antibiotics within 1 hour + 30 mL/kg crystalloid + vasopressors for MAP <65",
+          "trial": "Evans L et al. Surviving Sepsis Campaign 2021 International Guidelines. Intensive Care Med 2021;47:1181: one-hour bundle endorsed based on evidence that each element reduces sepsis mortality; IV antibiotics within 1 hour Grade 1 (strong recommendation)",
+          "pearl": "SSC 2021 one-hour bundle: (1) Lactate, (2) Blood cultures × 2 before antibiotics, (3) IV antibiotics within 1 HOUR, (4) 30 mL/kg IV crystalloid if MAP <65 or lactate ≥4, (5) Vasopressors if MAP <65 after fluids. Memorise ALL five elements."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E1-Q13",
+        "stem": "A 58-year-old woman with type 2 diabetes presents with right flank pain, fever 39°C, nausea, and vomiting for 24 hours. She cannot tolerate oral fluids. BP 100/65 mmHg, HR 108 bpm, temperature 39.2°C. Blood cultures show no growth at 12 hours. Urine culture: E. coli >10⁵ CFU/mL, sensitive to ceftriaxone and ciprofloxacin. She improves on IV ceftriaxone 2g OD. She is now afebrile at 48 hours, tolerating oral intake, and BP 125/80 mmHg. What is the appropriate antibiotic step-down?",
+        "options": {
+          "A": "Continue IV ceftriaxone for 14 days — IV completion mandatory for pyelonephritis in diabetics",
+          "B": "Switch to oral ciprofloxacin 500 mg BD to complete 7–14 days total antibiotic duration",
+          "C": "Switch to oral nitrofurantoin 100 mg BD for 7 more days",
+          "D": "Stop antibiotics — afebrile for 48h is sufficient treatment duration"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "IV-to-oral step-down is appropriate once the patient is afebrile for 24–48 hours, haemodynamically stable, and tolerating oral intake. This is a key antimicrobial stewardship principle — unnecessarily prolonging IV antibiotics increases line-associated infection risk, hospital stay, and cost. Oral ciprofloxacin (fluoroquinolone with excellent oral bioavailability and tissue penetration) achieves equivalent serum and tissue concentrations to IV in patients who can absorb oral medications. Total treatment duration for complicated pyelonephritis: 7–14 days.",
+          "wrong": {
+            "A": "IV completion for 14 days is not required for pyelonephritis — step-down to oral antibiotics once clinically stable is EAU-endorsed antimicrobial stewardship (Grade A). Prolonged IV therapy without clinical indication increases line complications and cost.",
+            "C": "Nitrofurantoin is contraindicated for pyelonephritis — it does not achieve therapeutic renal parenchymal concentrations. Switching to nitrofurantoin for pyelonephritis is a critical prescribing error that would result in treatment failure and potential relapse.",
+            "D": "48 hours of afebrile status is insufficient to stop antibiotics for complicated pyelonephritis in a diabetic patient. EAU 2024 recommends 7–14 days total antibiotic duration for complicated pyelonephritis."
+          },
+          "guideline": "EAU Guidelines on Urological Infections 2024 — APN IV-to-oral step-down: switch to oral when afebrile 24–48h + tolerating oral intake; total duration 7–14 days for complicated APN",
+          "trial": "Gupta K et al. IDSA 2011 UTI Guidelines: IV-to-oral switch for APN endorsed as equivalent to full IV course for clinical outcomes; fluoroquinolone oral bioavailability enables equivalent tissue concentrations to IV",
+          "pearl": "APN step-down: IV → oral when afebrile 24–48h + tolerating oral. Use ciprofloxacin or levofloxacin (high oral bioavailability). Total duration: 7–14 days. Nitrofurantoin = NEVER for pyelonephritis (no tissue penetration). IV completion not required for clinical stability."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q14",
+        "stem": "Which of the following is the most important single intervention to prevent catheter-associated UTI (CAUTI) in hospitalised patients according to EAU 2024 and CDC guidelines?",
+        "options": {
+          "A": "Bladder irrigation with antiseptic solution daily",
+          "B": "Antibiotic-impregnated (silver alloy) urinary catheter for all patients",
+          "C": "Remove the urinary catheter as soon as it is no longer clinically required",
+          "D": "Routine urine culture surveillance for catheterised patients twice weekly"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Early catheter removal is the single most effective strategy for CAUTI prevention — bacteriuria develops in approximately 5% of catheterised patients per day, reaching virtually universal colonisation by 30 days. The EAU 2024 Grade A recommendation: review catheter necessity daily and remove as soon as clinically possible. Catheter removal eliminates the primary foreign-body source of infection. Implementing catheter-day reduction protocols (nurse-initiated catheter removal orders, daily necessity checklists) has been shown to reduce CAUTI rates by 30–50% in quality improvement studies.",
+          "wrong": {
+            "A": "Bladder irrigation with antiseptics (chlorhexidine, povidone-iodine) is explicitly NOT recommended for CAUTI prevention (EAU 2024 Grade A against). Antiseptic irrigation breaks the closed drainage system, increases infection risk, and causes urothelial toxicity without reducing CAUTI rates.",
+            "B": "Antibiotic-impregnated (silver alloy) catheters have modest evidence for reducing bacteriuria in short-term catheterisation (<7 days) but are not recommended for routine use in all patients (EAU Grade B, selective use). The cost-effectiveness is limited and they do not substitute for early removal.",
+            "D": "Routine urine culture surveillance in catheterised asymptomatic patients is NOT recommended — it identifies ASB (which should not be treated) and drives inappropriate antibiotic use without preventing CAUTI. Cultures should only be obtained when there are clinical signs of CAUTI."
+          },
+          "guideline": "EAU Guidelines on Urological Infections 2024 — CAUTI prevention: Grade A: remove catheter as soon as possible; Grade A against: bladder irrigation; review catheter necessity daily",
+          "trial": "Saint S et al. Preventing hospital-acquired urinary tract infection in the United States: a national study. Clin Infect Dis 2008;46:243: daily catheter necessity review reduces CAUTI rates significantly; catheter removal is the primary prevention strategy",
+          "pearl": "CAUTI prevention #1: REMOVE catheter as soon as possible (Grade A). Grade A AGAINST: bladder antiseptic irrigation. Routine surveillance cultures = NOT recommended (identifies ASB → inappropriate antibiotic use). Silver-alloy catheters = modest benefit short-term only."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E1-Q15",
+        "stem": "A 72-year-old woman in a care home presents with confusion (new, mild), temperature 37.6°C, and cloudiness of urine from her long-term indwelling suprapubic catheter. Her urine culture grows E. coli 10⁵ CFU/mL sensitive to all tested antibiotics. What is the most appropriate management?",
+        "options": {
+          "A": "Treat with co-trimoxazole 960 mg BD × 7 days — symptomatic UTI in elderly",
+          "B": "Change the catheter and send a new catheter specimen for culture before making a treatment decision",
+          "C": "Admit to hospital for IV antibiotics — urosepsis in elderly patient",
+          "D": "Do not prescribe antibiotics — ASB in a long-term catheterised elderly patient; assess for other causes of confusion"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "Chronic catheterisation causes universal bacteriuria (ASB) — virtually all patients with long-term indwelling catheters are bacteriuric. Cloudy urine and mild confusion are insufficient to diagnose CAUTI — these non-specific features are commonly attributed to UTI in elderly catheterised patients but are much more often due to catheter biofilm, dehydration, medications, or concurrent illness. IDSA 2019 and EAU 2024 explicitly state: do NOT treat ASB in chronically catheterised elderly patients. A temperature of 37.6°C is not fever (fever defined as ≥38°C). The correct management is to assess for other causes of acute confusion (delirium screen — hydration, medication review, electrolytes, chest infection) before attributing it to UTI.",
+          "wrong": {
+            "A": "Treating this presentation with antibiotics would constitute inappropriate antibiotic prescribing — the patient does not meet criteria for symptomatic CAUTI. Mild confusion + low-grade temperature + bacteriuria in a chronically catheterised elderly patient = ASB + delirium, not CAUTI requiring antibiotics.",
+            "B": "While changing a long-term catheter before culture is a reasonable practice (reduces biofilm contamination), the question presents a low-grade temperature and non-specific confusion without fever — the primary decision is whether to treat, not which culture technique to use. The answer to 'treat or not treat' takes precedence.",
+            "C": "Hospital admission for IV antibiotics is a major overreaction to a clinical picture consistent with ASB + delirium (non-specific) in an elderly care home resident. This would expose the patient to hospital-acquired risks and unnecessary antibiotic-related harm."
+          },
+          "guideline": "IDSA 2019 ASB Guidelines: do NOT treat ASB in chronically catheterised non-pregnant adults; EAU 2024 CAUTI: fever ≥38°C + rigors required for CAUTI diagnosis in long-term catheterised patients",
+          "trial": "Nicolle LE et al. IDSA Clinical Practice Guideline for the Diagnosis and Treatment of Asymptomatic Bacteriuria in Adults. Clin Infect Dis 2019;68:e83: landmark guideline explicitly recommending against treating ASB in catheterised and elderly patients",
+          "pearl": "Elderly catheterised patient + bacteriuria + confusion + mild temperature = ASB + DELIRIUM (not UTI). TEMPERATURE <38°C is NOT fever. Do NOT prescribe antibiotics for confusion + low-grade temperature + bacteriuria in catheterised elderly — investigate other causes of delirium. This is the most over-treated scenario in hospital medicine."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E1-Q16",
+        "stem": "A 40-year-old healthy non-pregnant woman presents with 3 days of lower abdominal discomfort and mild dysuria. Urine dipstick shows leucocytes 1+ and nitrites NEGATIVE. Midstream urine culture: no growth. What is the most likely diagnosis and management?",
+        "options": {
+          "A": "UTI — negative culture is a false negative; start antibiotics empirically",
+          "B": "Interstitial cystitis/bladder pain syndrome — refer to urology for cystoscopy and biopsy",
+          "C": "Urethral syndrome or non-bacterial cystitis — consider STI screen (Chlamydia trachomatis) and NSAIDs for symptom relief",
+          "D": "Vulvovaginal candidiasis — prescribe oral fluconazole 150 mg single dose"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Dysuria with mild lower urinary tract symptoms, negative nitrites, and no growth on urine culture in a sexually active woman should prompt consideration of urethritis from Chlamydia trachomatis (the most common cause of urethral syndrome/pyuria-dysuria syndrome in young women — culture negative because Chlamydia does not grow on standard urine culture media). Approximately 30–40% of women presenting with acute dysuria to general practice have Chlamydia urethritis rather than bacterial cystitis. An STI screen (NAAT for Chlamydia/gonorrhoea from a first-catch urine or endocervical swab) is mandatory. Symptomatic management with NSAIDs for urethral discomfort is appropriate.",
+          "wrong": {
+            "A": "A properly performed midstream urine culture with no growth effectively excludes bacterial UTI. Prescribing antibiotics empirically in this context would be inappropriate antibiotic use. Negative culture is not automatically a false negative.",
+            "B": "Interstitial cystitis/bladder pain syndrome (IC/BPS) causes chronic (>6 weeks) bladder pain with storage symptoms — not acute 3-day presentation. Cystoscopy is not the first investigation for acute dysuria with culture-negative urine.",
+            "D": "Vulvovaginal candidiasis presents with vulvar itch, discharge (cottage-cheese consistency), and external dysuria — not internal bladder-type dysuria and lower abdominal discomfort. The clinical description does not fit candidiasis."
+          },
+          "guideline": "EAU Guidelines on Urological Infections 2024 — Urethral syndrome/dysuria with negative culture: STI screen mandatory (Chlamydia trachomatis); fluoroquinolones inappropriate for Chlamydia (use azithromycin 1 g or doxycycline 100 mg BD × 7 days)",
+          "trial": "Hooton TM et al. Chlamydia trachomatis lower urinary tract infection in women. Ann Intern Med 1986;104:197: 30–40% of women with dysuria have Chlamydia urethritis rather than bacterial cystitis — foundational study establishing STI as cause of culture-negative dysuria",
+          "pearl": "Culture-negative dysuria in a sexually active woman = Chlamydia urethritis (culture-negative — Chlamydia needs NAAT not routine culture). First-catch urine or endocervical NAAT mandatory. Treat confirmed Chlamydia: azithromycin 1 g stat or doxycycline 100 mg BD × 7 days."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E1-Q17",
+        "stem": "D-Mannose for recurrent UTI prevention was evaluated in the Kranjcec et al. RCT (World J Urol 2014). What were the three comparison groups and the key efficacy finding?",
+        "options": {
+          "A": "D-mannose vs ciprofloxacin vs placebo — D-mannose superior to ciprofloxacin",
+          "B": "D-mannose 2 g/day vs nitrofurantoin 50 mg/day vs no treatment — D-mannose non-inferior to nitrofurantoin; both superior to no treatment",
+          "C": "D-mannose vs cranberry vs placebo — D-mannose superior to cranberry",
+          "D": "D-mannose 1 g/day vs D-mannose 2 g/day vs placebo — dose-dependent reduction in UTI"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Kranjcec et al. RCT (World J Urol 2014) randomised 308 women with rUTI to: (1) D-mannose powder 2 g/day in water × 6 months, (2) nitrofurantoin 50 mg nocte × 6 months, or (3) no prophylaxis. UTI recurrence rates: D-mannose 14.6%, nitrofurantoin 20.5%, no treatment 61%. D-mannose was non-inferior to nitrofurantoin and significantly superior to no treatment. Importantly, D-mannose had fewer side effects than nitrofurantoin. This established D-mannose as a Grade B non-antibiotic prophylactic option for rUTI.",
+          "wrong": {
+            "A": "The Kranjcec trial compared D-mannose to nitrofurantoin (not ciprofloxacin), and D-mannose was non-inferior (not superior) to nitrofurantoin. Ciprofloxacin was not part of the study.",
+            "C": "The Kranjcec trial did not compare D-mannose to cranberry — it compared D-mannose to nitrofurantoin and no treatment. Cranberry evidence comes from separate Cochrane reviews.",
+            "D": "The Kranjcec trial did not have a dose-comparison arm — it used a single D-mannose dose (2 g/day). The three arms were D-mannose, nitrofurantoin, and no treatment."
+          },
+          "guideline": "EAU Guidelines on Urological Infections 2024 — D-Mannose: Grade B non-antibiotic rUTI prophylaxis; non-inferior to nitrofurantoin in Kranjcec 2014 RCT",
+          "trial": "Kranjcec B et al. D-mannose powder for prophylaxis of recurrent urinary tract infections in women. World J Urol 2014;32:79–84: D-mannose 14.6% vs nitrofurantoin 20.5% vs no treatment 61% rUTI recurrence — established D-mannose as evidence-based non-antibiotic prophylaxis",
+          "pearl": "Kranjcec (World J Urol 2014): D-mannose 2g/day vs nitrofurantoin 50 mg nocte vs no treatment → rUTI recurrence 14.6% vs 20.5% vs 61%. D-mannose NON-INFERIOR to nitrofurantoin with fewer side effects. Grade B EAU 2024. Mechanism: blocks E. coli FimH type 1 pili from binding uroepithelium."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q18",
+        "stem": "Which of the following is a correct statement about the microbiological diagnosis of UTI in catheterised patients?",
+        "options": {
+          "A": "Urine should be collected from the catheter bag for culture to ensure an uncontaminated sample",
+          "B": "Any growth on catheter specimen urine culture should be treated, regardless of CFU/mL count",
+          "C": "Culture specimens should be collected from the catheter sampling port after disinfecting the port, not from the drainage bag",
+          "D": "A dipstick positive for nitrites on catheter bag urine confirms CAUTI and warrants empirical treatment"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The correct technique for obtaining a catheter specimen for urine culture: aspirate urine from the catheter sampling port (positioned on the drainage tubing just below the catheter junction) after cleaning the port with an alcohol wipe. This provides the freshest, least contaminated specimen. Never collect from the drainage bag — catheter bag urine is stale, may have been sitting for hours, has higher contamination rates with multiple organisms, and does not reflect the current bladder microbiome. In long-term catheter patients, changing the catheter first and collecting the specimen from the new catheter is best practice.",
+          "wrong": {
+            "A": "Urine from the catheter bag is NOT an appropriate microbiological specimen. Bag urine is contaminated by retrograde colonisation of the bag, ambient organisms, and prolonged urine exposure — it does not represent current bladder bacteriology. Always collect from the sampling port.",
+            "B": "Not all catheter specimen growth requires treatment. ASB in catheterised patients (any CFU/mL without symptoms) should NOT be treated (IDSA 2019, EAU 2024). Treatment threshold requires CAUTI criteria: ≥10³ CFU/mL + clinical signs of infection.",
+            "D": "Dipstick nitrites in catheter bag urine are unreliable — gram-positive organisms and yeast do not produce nitrites; the bag may have been open allowing ambient contamination. Dipstick results from bag urine should not drive antibiotic decisions in catheterised patients."
+          },
+          "guideline": "EAU Guidelines on Urological Infections 2024 — CAUTI specimen collection: aspirate from catheter sampling port after disinfection; never from drainage bag; change catheter first in long-term catheterised patients",
+          "trial": "CDC NHSN CAUTI prevention guidelines 2017: correct catheter specimen collection from sampling port essential for accurate bacteriology; drainage bag specimens not acceptable for culture",
+          "pearl": "Catheter specimen for culture = SAMPLING PORT (cleaned with alcohol wipe), NOT drainage bag. Bag urine = unreliable, contaminated. In long-term catheterised patients: change catheter first, then sample from new catheter sampling port."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q19",
+        "stem": "A 45-year-old man with recurrent episodes of the same E. coli UTI presents for evaluation. He is systemically well. Which investigation best localises the source of chronic bacterial infection in the prostate (vs. bladder) to differentiate Category II chronic bacterial prostatitis from simple recurrent cystitis?",
+        "options": {
+          "A": "Transrectal ultrasound-guided prostate biopsy",
+          "B": "The four-glass Meares-Stamey test or simplified two-glass test",
+          "C": "PSA measurement and PSA velocity",
+          "D": "Cystoscopy with bladder biopsy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The four-glass (Meares-Stamey) test is the gold-standard localisation procedure for differentiating the source of UTI in men: (1) first 10 mL voided urine (VB1 — urethral), (2) midstream urine (VB2 — bladder), (3) expressed prostatic secretion (EPS) obtained by vigorous prostate massage, (4) first 10 mL voided urine after massage (VB3 — prostatically contaminated). Prostatic infection (Category II) is diagnosed when EPS or VB3 has ≥10× the CFU/mL count of VB2, with the same organism. The simplified two-glass test (midstream urine before massage vs. first-void after prostate massage) has equivalent diagnostic accuracy with less complexity.",
+          "wrong": {
+            "A": "Prostate biopsy is used for suspected prostate cancer, NOT for diagnosing chronic bacterial prostatitis. It would cause bacteraemia if performed in the presence of active prostatic infection and does not localise infection to the prostate compared with bladder.",
+            "C": "PSA is elevated in prostatitis (as well as BPH and prostate cancer — very non-specific). PSA velocity cannot distinguish Category II chronic bacterial prostatitis from recurrent cystitis.",
+            "D": "Cystoscopy and bladder biopsy evaluate the bladder urothelium — they do not help localise a prostatic source of infection versus a bladder source."
+          },
+          "guideline": "EAU Guidelines on Urological Infections 2024 — Prostatitis localisation: 4-glass Meares-Stamey test or 2-glass pre/post-massage test to distinguish Category II (prostatic) from simple recurrent cystitis",
+          "trial": "Meares EM, Stamey TA. Bacteriologic localization patterns in bacterial prostatitis and urethritis. Invest Urol 1968;5:492: foundational 4-glass localisation test establishing Category II diagnosis criteria — still the gold standard",
+          "pearl": "Prostatitis localisation: 4-glass Meares-Stamey test — Category II = EPS or VB3 has ≥10× CFU/mL vs VB2 (bladder). Simplified 2-glass test (pre/post massage) equivalent. PSA is non-specific, biopsy is NOT indicated for prostatitis diagnosis."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E1-Q20",
+        "stem": "A 35-year-old woman with 4 culture-confirmed E. coli rUTIs in the past 12 months is started on continuous low-dose nitrofurantoin 50 mg nocte prophylaxis. After 3 months she develops symptoms of UTI. Urine culture grows nitrofurantoin-resistant E. coli. What is the most appropriate next step in management?",
+        "options": {
+          "A": "Increase nitrofurantoin dose to 100 mg nocte",
+          "B": "Stop nitrofurantoin; treat the acute UTI with a sensitive antibiotic; switch prophylaxis to trimethoprim 100 mg nocte or co-trimoxazole 240 mg nocte",
+          "C": "Add ciprofloxacin 500 mg nocte to the current nitrofurantoin regimen",
+          "D": "Perform cystoscopy immediately to exclude bladder pathology"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Emergence of resistance to the prophylactic agent during long-term prophylaxis warrants changing the prophylactic antibiotic. First, treat the acute breakthrough UTI with an antibiotic to which the isolate is sensitive (based on culture results). Then, switch to an alternative prophylactic antibiotic class: trimethoprim 100 mg nocte (if local resistance <20%) or co-trimoxazole 240 mg nocte (half-dose) are both Grade A alternatives for continuous UTI prophylaxis.",
+          "wrong": {
+            "A": "Increasing nitrofurantoin dose when the organism is resistant is futile — resistance is not dose-dependent. A resistant organism will not be susceptible at a higher nitrofurantoin concentration if it has developed enzymatic mechanisms to inactivate the drug.",
+            "C": "Adding ciprofloxacin nocte to nitrofurantoin is inappropriate — ciprofloxacin is NOT a first-line prophylactic antibiotic (EAU Grade A against fluoroquinolone use for rUTI prophylaxis due to resistance selection and collateral damage). Using a fluoroquinolone as a prophylactic agent should be avoided.",
+            "D": "Cystoscopy is not indicated for a first breakthrough UTI during prophylaxis without specific indications (haematuria, suspected malignancy, structural abnormality). The clinical picture is straightforward resistance emergence during prophylaxis — change the prophylactic agent."
+          },
+          "guideline": "EAU Guidelines on Urological Infections 2024 — rUTI prophylaxis: resistance emergence warrants prophylaxis switch; trimethoprim 100 mg nocte or co-trimoxazole 240 mg nocte as alternatives to nitrofurantoin; avoid fluoroquinolones as prophylaxis",
+          "trial": "Multiple RCTs on continuous low-dose antibiotic prophylaxis (referenced in EAU 2024): nitrofurantoin, trimethoprim, co-trimoxazole achieve 80–90% reduction in rUTI during prophylaxis; resistance emergence requires prophylaxis class change",
+          "pearl": "Breakthrough UTI on prophylaxis + resistant to prophylactic agent = (1) treat acute episode with sensitive antibiotic, (2) switch prophylactic antibiotic class. Nitrofurantoin → trimethoprim/co-trimoxazole. Do NOT add fluoroquinolones to prophylaxis regimen."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

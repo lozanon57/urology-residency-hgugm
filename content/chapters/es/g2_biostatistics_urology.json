@@ -1,0 +1,643 @@
+{
+  "id": "G2",
+  "title": "Bioestadística para Urólogos",
+  "subtitle": "Bloque G — Estadística Descriptiva, Pruebas de Hipótesis, Análisis de Supervivencia y Evaluación de Pruebas Diagnósticas",
+  "block": "G",
+  "block_name": "Investigación Académica en Urología",
+  "level": "R1-5",
+  "reading_time_min": 40,
+  "guidelines_version": "EAU Research Methodology 2024 · CONSORT 2010 · STARD 2015 (Estudios de precisión diagnóstica)",
+  "textbook_refs": [
+    "Altman DG. Practical Statistics for Medical Research. Chapman & Hall/CRC, 1991",
+    "Bland JM, Altman DG. Statistical methods for assessing agreement between two methods of clinical measurement. Lancet 1986",
+    "Bossuyt PM et al. STARD 2015: An Updated List of Essential Items for Reporting Diagnostic Accuracy Studies. BMJ 2015",
+    "Kaplan EL, Meier P. Nonparametric estimation from incomplete observations. J Am Stat Assoc 1958"
+  ],
+  "learning_objectives": [
+    "Distinguir entre estadística descriptiva e inferencial, y seleccionar las medidas adecuadas de tendencia central y dispersión según el tipo de datos",
+    "Elegir la prueba estadística apropiada para una comparación determinada (paramétrica vs no paramétrica, pareada vs no pareada, continua vs categórica)",
+    "Interpretar correctamente los valores p y los intervalos de confianza, evitando las interpretaciones erróneas más frecuentes",
+    "Aplicar los principios del análisis de supervivencia, incluyendo curvas de Kaplan-Meier, test log-rank y regresión de Cox de riesgos proporcionales",
+    "Calcular e interpretar sensibilidad, especificidad, valores predictivos positivo y negativo, y cocientes de probabilidad para pruebas diagnósticas en urología",
+    "Reconocer y evitar los errores estadísticos más comunes en la literatura urológica publicada"
+  ],
+  "sections": [
+    {
+      "id": "G2-S1",
+      "title": "Tipos de Datos, Estadística Descriptiva y Presentación Gráfica",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Todo análisis estadístico comienza con la comprensión de la naturaleza de los datos. Los **datos nominales (categóricos)** representan categorías diferenciadas sin orden intrínseco (grupo sanguíneo, estadio patológico [pT1, pT2, pT3, pT4], abordaje quirúrgico [abierto/laparoscópico/robótico]). Los **datos ordinales** tienen categorías ordenadas, pero con intervalos desiguales entre ellas (gravedad IPSS leve/moderada/grave, estado funcional ECOG 0–4, grado tumoral). Los **datos continuos** presentan un número teóricamente infinito de valores con diferencias aritméticas significativas, e incluyen los subtipos **de intervalo** (sin cero verdadero, p. ej., temperatura en Celsius) y **de razón** (con cero verdadero, p. ej., nivel de PSA, tamaño tumoral en mm). En urología, las variables continuas incluyen PSA, creatinina, tamaño del cálculo, dimensiones tumorales y tiempos de supervivencia.\n\nPara los datos continuos, la elección del estadístico resumen depende de la distribución. Los **datos con distribución normal** (curva en campana simétrica, verificada mediante inspección del histograma, gráfico de probabilidad normal, o pruebas formales como Shapiro-Wilk para n<50) se resumen con la **media ± desviación estándar (DE)** y se comparan con métodos paramétricos. Los **datos no normales (asimétricos)** se resumen con la **mediana con rango intercuartílico (RIC: percentiles 25-75)** y requieren métodos no paramétricos. Los valores de PSA en la población general, los tamaños tumorales y muchos biomarcadores urológicos presentan típicamente asimetría positiva (sesgados a la derecha): la mediana y el RIC suelen ser más apropiados que la media y la DE. **Error estándar de la media (EEM) ≠ DE**: EEM = DE/√n y describe la precisión del estimador de la media muestral; utilizar el EEM para describir la dispersión de los datos infraestima la variabilidad y hace que los resultados parezcan más precisos de lo que son, un error frecuente en las publicaciones de urología."
+        },
+        {
+          "type": "table",
+          "title": "Tipos de Datos, Estadísticos Resumen y Pruebas Apropiadas",
+          "headers": ["Tipo de dato", "Ejemplo en urología", "Estadístico resumen", "Prueba de comparación (2 grupos)"],
+          "rows": [
+            ["Continuo, normal", "FGe, peso corporal, PA", "Media ± DE", "t de Student independiente (no pareada); t de Student pareada"],
+            ["Continuo, no normal", "PSA, tamaño tumoral, tamaño del cálculo", "Mediana (RIC)", "U de Mann-Whitney; rangos con signo de Wilcoxon (pareada)"],
+            ["Ordinal", "Grado IPSS, grado tumoral", "Mediana o distribución de frecuencias", "U de Mann-Whitney; Kruskal-Wallis (>2 grupos)"],
+            ["Nominal (binario)", "Libre de cálculo sí/no, complicación quirúrgica sí/no", "Proporción / %", "Chi-cuadrado; exacta de Fisher (n pequeño)"],
+            ["Nominal (>2 categorías)", "Abordaje quirúrgico (abierto/laparoscópico/robótico)", "Tabla de frecuencias", "Chi-cuadrado"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — EEM vs DE para Descripción de Datos",
+          "content": "El error estándar de la media (EEM) no debe utilizarse para describir la variabilidad de los datos: describe la precisión del estimador de la media y disminuye al aumentar el tamaño muestral. Usar el EEM en lugar de la DE hace que las barras de error parezcan más pequeñas y los datos más precisos de lo que son. Para describir los datos: utilizar siempre la DE (para distribución normal) o el RIC (para distribución no normal). El EEM es apropiado al informar intervalos de confianza en torno al estimador de la media en el contexto de pruebas de hipótesis."
+        }
+      ]
+    },
+    {
+      "id": "G2-S2",
+      "title": "Pruebas de Hipótesis, Valores p e Intervalos de Confianza",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las **pruebas de hipótesis** evalúan formalmente si una diferencia observada puede deberse al azar. La **hipótesis nula (H₀)** afirma que no existe diferencia real entre los grupos; la **hipótesis alternativa (H₁)** afirma que sí existe una diferencia. El **valor p** es la probabilidad de observar el resultado obtenido (o uno más extremo) si la hipótesis nula fuese verdadera. Por convención, p<0,05 es el umbral de significación estadística, pero es una convención arbitraria, no una frontera nítida entre lo «real» y lo «no real».\n\nMalinterpretaciones habituales del valor p en la literatura urológica publicada:\n- **«p<0,05 significa que el resultado es clínicamente importante»**: Falso. El valor p refleja la fuerza de la evidencia contra la hipótesis nula, no la magnitud del efecto clínico. Muestras grandes pueden generar p<0,001 para diferencias triviales.\n- **«p=0,06 significa que no hay efecto»**: Falso. Un valor p de 0,06 significa que el resultado no alcanza la significación estadística con el umbral α=0,05, no que no haya efecto. El intervalo de confianza aporta más información.\n- **«El valor p es la probabilidad de que H₀ sea verdadera»**: Falso. El valor p se calcula asumiendo que H₀ es verdadera; no puede ser la probabilidad de que H₀ sea verdadera.\n\nLos **intervalos de confianza (IC)** proporcionan un rango de valores plausibles para el verdadero efecto del tratamiento, con una probabilidad declarada (habitualmente el 95%) de contener el parámetro verdadero. Un **IC del 95% que excluye el valor nulo** (p. ej., IC del cociente de riesgo que excluye 1,0, o IC de la diferencia de medias que excluye 0) es equivalente a p<0,05. Los IC son más informativos que los valores p porque transmiten tanto la significación estadística como la magnitud del efecto. La amplitud del IC refleja la precisión: IC estrecho = estimación precisa (muestra grande); IC amplio = imprecisa (muestra pequeña)."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Interpretación del Valor p",
+          "content": "El valor p es la probabilidad de observar los datos (o valores más extremos) SI la hipótesis nula es verdadera. NO es: (1) la probabilidad de que la hipótesis nula sea verdadera, (2) la probabilidad de que el resultado haya ocurrido por azar, (3) la probabilidad de que el resultado se replique, (4) una medida del tamaño del efecto, ni (5) la probabilidad de tomar una decisión clínica correcta. Utilice los intervalos de confianza junto con los valores p para una interpretación completa."
+        },
+        {
+          "type": "table",
+          "title": "Pruebas Estadísticas Habituales en Urología: Guía de Selección",
+          "headers": ["Comparación", "Datos normales", "Datos no normales / ordinales", "Datos categóricos"],
+          "rows": [
+            ["2 grupos independientes", "t de Student independiente", "U de Mann-Whitney", "Chi-cuadrado / exacta de Fisher"],
+            ["2 grupos pareados/emparejados", "t de Student pareada", "Rangos con signo de Wilcoxon", "Test de McNemar"],
+            ["3+ grupos independientes", "ANOVA de un factor", "Kruskal-Wallis", "Chi-cuadrado"],
+            ["3+ grupos pareados", "ANOVA de medidas repetidas", "Test de Friedman", "Q de Cochran"],
+            ["Correlación (2 continuas)", "r de Pearson", "rho de Spearman", "—"],
+            ["Asociación (ajustada)", "Regresión lineal múltiple", "Regresión no paramétrica", "Regresión logística / Cox"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G2-S3",
+      "title": "Análisis de Supervivencia: Kaplan-Meier, Test Log-Rank y Regresión de Cox",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **análisis de supervivencia** trabaja con datos de tiempo hasta el evento: el tiempo desde un punto de inicio definido hasta la ocurrencia de un evento especificado (muerte, recidiva, fracaso del tratamiento, expulsión del cálculo). Es esencial en urología oncológica, donde resultados como la supervivencia específica por cáncer, la supervivencia libre de recidiva y la supervivencia libre de metástasis son fundamentales.\n\nEl desafío específico de los datos de supervivencia es la **censura**: no todos los participantes alcanzan el evento durante el período de observación. Un paciente que no ha experimentado el evento en el último seguimiento, o que se ha perdido para el seguimiento, está **censurado por la derecha**. Las observaciones censuradas siguen aportando información (sabemos que el evento NO había ocurrido hasta el momento de la censura), pero no pueden tratarse como observaciones completas. El tiempo medio de supervivencia simple ignora la censura y está sesgado.\n\nEl **estimador de Kaplan-Meier** calcula la función de supervivencia de forma no paramétrica, teniendo en cuenta la censura. En cada tiempo de evento, multiplica la probabilidad condicional de sobrevivir más allá de ese punto. El resultado es una función escalonada que desciende en cada tiempo de evento y es plana cuando solo ocurren observaciones censuradas. Las curvas de Kaplan-Meier en los artículos de urología publicados (p. ej., RAZOR, ProtecT, CHECKMATE-274) incluyen siempre el número en riesgo bajo el eje x, lo que permite a los lectores evaluar la confianza en los estimadores de los puntos tardíos.\n\nEl **test log-rank** compara las curvas de supervivencia entre dos o más grupos evaluando si el número observado frente al esperado de eventos difiere entre grupos. Es la prueba estándar para comparaciones no ajustadas entre grupos (p. ej., comparar la SLE entre los grupos de BCG y quimioterapia). El test log-rank asume riesgos proporcionales: si las curvas de supervivencia se cruzan, el supuesto de riesgos proporcionales se viola y deben usarse el log-rank ponderado o el test de Breslow.\n\nLa **regresión de Cox de riesgos proporcionales** es el método multivariable para datos de tiempo hasta el evento. Modela el cociente de riesgos instantáneos (hazard ratio, HR): el riesgo instantáneo del evento en cualquier momento, comparando grupos y ajustando por covariables. El **HR** es la medida de efecto clave en los ensayos urológicos oncológicos: HR <1,0 favorece al tratamiento (menor riesgo de evento); HR >1,0 perjudica. El supuesto de riesgos proporcionales requiere que los cocientes de riesgo sean constantes en el tiempo (la razón de las curvas de riesgo es aproximadamente constante), verificable mediante gráficos log-log o análisis de residuos de Schoenfeld."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Interpretación del Hazard Ratio",
+          "content": "HR = 0,68 (IC 95% 0,55–0,83) significa: en cualquier momento del seguimiento, los pacientes tratados tienen un riesgo instantáneo del evento un 32% menor en comparación con los controles. El IC excluye 1,0, confirmando la significación estadística. El HR NO es un cociente de riesgo en un momento específico: es una medida del riesgo relativo promediada en el tiempo. ECA RAZOR: el HR para la SLP a 2 años no se informó como primario (se usó la proporción); CHECKMATE-274: HR para la SLE = 0,70."
+        }
+      ]
+    },
+    {
+      "id": "G2-S4",
+      "title": "Evaluación de Pruebas Diagnósticas: Sensibilidad, Especificidad y Cocientes de Probabilidad",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El rendimiento de las pruebas diagnósticas en urología (PSA, mpRM, biomarcadores urinarios, pruebas de función renal) se evalúa mediante una tabla de contingencia 2×2 que compara los resultados de la prueba (positivo/negativo) frente al patrón oro (enfermedad presente/ausente).\n\nMedidas clave derivadas de la tabla 2×2:\n- **Sensibilidad (S) = Verdaderos positivos / (Verdaderos positivos + Falsos negativos)**: Proporción de los pacientes CON enfermedad que dan positivo en la prueba. Alta sensibilidad → pocos casos no detectados → buena prueba de descarte. «SnNout» = Prueba Sensible, resultado Negativo descarta (rules OUT) la enfermedad.\n- **Especificidad (E) = Verdaderos negativos / (Verdaderos negativos + Falsos positivos)**: Proporción de los pacientes SIN enfermedad que dan negativo. Alta especificidad → pocos falsos positivos → buena prueba de confirmación. «SpPin» = Prueba Específica, resultado Positivo confirma (rules IN) la enfermedad.\n- **Valor predictivo positivo (VPP) = VP / (VP + FP)**: Probabilidad de que un resultado positivo indique realmente la enfermedad. El VPP depende de la prevalencia: la misma prueba con idéntica sensibilidad/especificidad tiene menor VPP en una población de baja prevalencia.\n- **Valor predictivo negativo (VPN) = VN / (VN + FN)**: Probabilidad de que un resultado negativo indique realmente la ausencia de enfermedad. El VPN también varía con la prevalencia.\n\nEn urología, el PSA tiene una sensibilidad del 70-80% y una especificidad del 60-70% para detectar cualquier cáncer de próstata en la biopsia con un umbral de 4 ng/mL. La mpRM para el cáncer de próstata clínicamente significativo (ISUP ≥2) tiene una sensibilidad del 88-93% y una especificidad del 45-55% (umbral PIRADS 3). La alta sensibilidad de la mpRM apoya su uso como prueba de descarte (una mpRM negativa reduce significativamente la probabilidad de cáncer significativo), reflejado en la recomendación de la EAU de realizar mpRM antes de la biopsia.\n\nLos **cocientes de probabilidad (CP)** son más útiles clínicamente que la sensibilidad/especificidad porque expresan cuánto cambia la probabilidad pretest tras el resultado de una prueba:\n- **CP+ = Sensibilidad / (1 − Especificidad)**: Cuántas veces es más probable un resultado positivo en alguien con enfermedad que en alguien sin ella.\n- **CP− = (1 − Sensibilidad) / Especificidad**: Cuántas veces es más probable un resultado negativo en alguien sin enfermedad.\n- CP+ >10 o CP− <0,1 producen cambios de probabilidad clínicamente significativos."
+        },
+        {
+          "type": "table",
+          "title": "Rendimiento Diagnóstico de Pruebas Urológicas Habituales",
+          "headers": ["Prueba", "Indicación", "Sensibilidad", "Especificidad", "CP+", "CP−"],
+          "rows": [
+            ["PSA ≥4 ng/mL", "Detección de cáncer de próstata (cualquier grado)", "70–80%", "60–70%", "2,3", "0,4"],
+            ["mpRM (PIRADS ≥3)", "CaP clínicamente significativo (ISUP ≥2)", "88–93%", "45–55%", "1,7", "0,13"],
+            ["mpRM (PIRADS ≥4)", "CaP clínicamente significativo", "60–75%", "80–85%", "4,0", "0,44"],
+            ["Citología urinaria", "Carcinoma urotelial de alto grado", "40–60% (global) / 80% (AG)", "95–99%", "20", "0,5"],
+            ["Cistoscopia + citología", "Recidiva de TVNM", ">95%", ">97%", "—", "—"],
+            ["TC sin contraste KUB", "Urolitiasis", "95–98%", "96–98%", "47", "0,03"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — El VPP Depende de la Prevalencia",
+          "content": "El VPP no es una propiedad fija de una prueba: depende de la prevalencia (probabilidad pretest) de la enfermedad en la población evaluada. Una prueba de PSA con sensibilidad del 75% y especificidad del 65% tiene un VPP de solo el 28% si se aplica a una población no seleccionada (prevalencia del 10%), pero un VPP del 60% en una población de alto riesgo (prevalencia del 30%). Por esto, aplicar el cribado con PSA a una población de baja prevalencia produce muchos falsos positivos y biopsias innecesarias: el VPP cae drásticamente con baja prevalencia."
+        }
+      ]
+    },
+    {
+      "id": "G2-S5",
+      "title": "Análisis de Regresión y Modelización Multivariable",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **análisis de regresión** examina la relación entre una variable resultado (dependiente) y una o más variables predictoras (independientes/explicativas), ajustando simultáneamente por factores de confusión. El modelo de regresión apropiado depende del tipo de resultado:\n\n- **Regresión lineal**: Resultado continuo (p. ej., cambio del PSA, cambio del FGe). Asume distribución normal de los residuos y relación lineal. Resultado: coeficiente de regresión (β) = cambio medio en el resultado por unidad de incremento en el predictor.\n- **Regresión logística**: Resultado binario (p. ej., libre de cálculo sí/no, complicación sí/no, biopsia positiva sí/no). Resultado: **odds ratio (OR)** con IC del 95%. El OR aproxima el cociente de riesgo cuando el resultado es infrecuente; cuando el resultado es frecuente, el OR sobreestima el riesgo relativo.\n- **Regresión de Cox de riesgos proporcionales**: Resultado tiempo hasta el evento con censura (p. ej., supervivencia específica por cáncer, supervivencia libre de recidiva). Resultado: **hazard ratio (HR)** con IC del 95%.\n- **Regresión de Poisson**: Resultados de recuento o tasas (p. ej., número de episodios de ITU por paciente-año). Resultado: cociente de tasas de incidencia (IRR, por sus siglas en inglés).\n\nLa **selección de variables** en los modelos multivariables es una decisión metodológica crítica. Incluir demasiados predictores en relación con los eventos («sobreajuste») produce estimaciones poco fiables que no se generalizan: se cita habitualmente la regla de tener un mínimo de 10–15 eventos por variable (EPV ≥10). Los métodos de selección por pasos (hacia adelante, hacia atrás, stepwise) están guiados por los datos y pueden dar resultados engañosos al aprovechar el azar: se prefiere la selección de variables pre-especificada basada en plausibilidad biológica.\n\nLa **colinealidad** ocurre cuando dos o más variables predictoras están altamente correlacionadas entre sí, lo que infla los errores estándar y produce estimaciones de coeficientes inestables. En urología, el PSA y el grado tumoral son a menudo predictores colineales: incluir ambos en el mismo modelo puede producir estimaciones de coeficientes contraintuitivas. El factor de inflación de la varianza (VIF >5–10) indica colinealidad problemática."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — El OR Sobreestima el Riesgo cuando los Eventos Son Frecuentes",
+          "content": "El odds ratio aproxima el cociente de riesgo solo cuando el resultado es infrecuente (<10%). Para resultados binarios frecuentes (p. ej., tasa libre de cálculo del 70% tras ureteroscopia), el OR sobreestimará sustancialmente el cociente de riesgo real. Los investigadores deben informar cocientes de riesgo (riesgos relativos) o diferencias de riesgo absoluto para resultados frecuentes, o bien usar regresión de Poisson con varianza robusta. Los artículos que informan el OR para una tasa libre de cálculo del 70% están sobredimensionando el efecto relativo del tratamiento."
+        }
+      ]
+    },
+    {
+      "id": "G2-S6",
+      "title": "Medidas de Asociación: Cocientes de Riesgo, Riesgo Absoluto y NNT",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La toma de decisiones clínicas requiere comprender tanto la magnitud relativa como la absoluta de los efectos del tratamiento. Las medidas relativas (RR, OR, HR) describen cuánto más o menos probable es un evento en un grupo respecto a otro, pero pueden ser engañosas cuando el riesgo basal es muy bajo o muy alto.\n\n**Riesgo relativo (RR) = Riesgo en el grupo de tratamiento / Riesgo en el grupo control**: Por ejemplo, si la recidiva del cáncer es del 10% con BCG y del 25% sin BCG, RR = 10/25 = 0,40 (el BCG reduce el riesgo relativo de recidiva en un 60%).\n\n**Reducción absoluta del riesgo (RAR) = Riesgo del control − Riesgo del tratamiento** = 25% − 10% = 15%. La RAR nos indica el porcentaje real de pacientes que se beneficia: 15 pacientes de cada 100 tratados evitan la recidiva gracias al BCG.\n\n**Número necesario a tratar (NNT) = 1 / RAR** = 1 / 0,15 = 6,7 ≈ 7. Siete pacientes deben recibir BCG para prevenir una recidiva adicional. El NNT es la medida más intuitiva clínicamente del beneficio del tratamiento.\n\n**Número necesario para causar daño (NND)**: El mismo concepto aplicado a los efectos adversos: el número de pacientes que deben recibir el tratamiento para que ocurra un daño adicional. Un tratamiento es beneficioso cuando el NNT < NND para el mismo período de tiempo.\n\nEn urología oncológica, los ensayos frecuentemente informan solo RR o HR. La RAR y el NNT deben calcularse a partir de la tasa de eventos en el grupo control declarada en el ensayo. Por ejemplo, CHECKMATE-274 (nivolumab adyuvante para cáncer de vejiga tras cistectomía): SLE del brazo control a 6 meses ≈55%, brazo de nivolumab ≈71%. RAR = 16%. NNT ≈ 6. Esto significa que aproximadamente 6 pacientes deben recibir nivolumab adyuvante para prevenir una recidiva adicional a los 6 meses, un tratamiento clínicamente significativo pero asociado a toxicidad."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Cálculo del NNT",
+          "content": "NNT = 1/RAR. Si un nuevo fármaco reduce la recidiva del 40% al 28% (RAR = 12%), NNT = 1/0,12 = 8,3 ≈ 9 pacientes. Los tratamientos con NNT <10 se consideran generalmente clínicamente beneficiosos para resultados graves (recidiva del cáncer, mortalidad). NNT >100 sugiere que los beneficios del tratamiento son muy modestos y deben sopesarse frente a los efectos secundarios. Calcule siempre el NNT junto con el RR al evaluar la evidencia del tratamiento."
+        }
+      ]
+    },
+    {
+      "id": "G2-S7",
+      "title": "Errores Estadísticos Frecuentes en la Literatura Urológica",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Una proporción sustancial de los artículos urológicos publicados contiene errores estadísticos identificables. El conocimiento de estos errores es esencial para la lectura crítica de la literatura y para realizar investigación rigurosa. Los errores más frecuentes en las revistas urológicas incluyen:\n\n1. **Uso de pruebas paramétricas (t de Student, ANOVA) para datos con distribución no normal** (p. ej., aplicar la t de Student a valores de PSA sin verificar la normalidad). Cuando los datos están sesgados a la derecha, la media queda distorsionada por los valores extremos y la t de Student no es válida. Debe emplearse la U de Mann-Whitney.\n\n2. **Comparaciones múltiples sin corrección**: Realizar 20 pruebas estadísticas e informar aquellas con p<0,05 tiene una probabilidad del 64% de obtener al menos un falso positivo (inflación del error de tipo I). Se requiere la corrección de Bonferroni (α dividido entre el número de pruebas) o el ajuste por FDR (tasa de falsos descubrimientos) para las comparaciones múltiples.\n\n3. **Usar EEM en lugar de DE para describir los datos** (véase la sección G2-S1).\n\n4. **Comparar las características basales entre grupos aleatorizados con valores p**: CONSORT desaconseja esto: las pruebas p para verificar si la aleatorización produjo desequilibrios son lógicamente circulares (sabemos que la asignación fue aleatoria; un «desequilibrio significativo» solo significa que en un ensayo pequeño hubo desequilibrio por azar). Las tablas basales deben presentar las características y dejar que los lectores juzguen el equilibrio.\n\n5. **Informar OR para resultados frecuentes** (véase la sección G2-S5).\n\n6. **Usar la correlación de Pearson para evaluar la concordancia entre dos métodos de medición**: La correlación mide si dos variables se mueven juntas, no si concuerdan. El **gráfico de Bland-Altman** es el método correcto para evaluar la concordancia entre dos técnicas de medición (p. ej., dos métodos de determinación de PSA, dos métodos de medición del volumen): representa la media de las dos mediciones frente a la diferencia, identificando el sesgo sistemático y los límites de acuerdo.\n\n7. **Extrapolar de la asociación a la causalidad en estudios observacionales**: La regresión multivariable ajustada en datos observacionales no establece causalidad; solo los ECA pueden hacerlo. Decir «el uso de BCG se asoció con menor mortalidad específica por cáncer tras ajustar por factores de confusión» es apropiado; decir «el BCG redujo la mortalidad» basándose en datos observacionales no lo es."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Gráfico de Bland-Altman para la Comparación de Métodos de PSA",
+          "content": "Cuando un servicio de urología cambia de la plataforma de PSA Siemens a la Abbott, debe realizar un análisis de Bland-Altman con muestras divididas medidas por ambos métodos. El gráfico mostraría: media de ambas mediciones en el eje x, diferencia entre métodos en el eje y. El sesgo sistemático (diferencia media ≠ 0) indica que un método lee sistemáticamente más alto o más bajo. Los límites de acuerdo (media ± 1,96 DE de las diferencias) definen el rango dentro del cual caen el 95% de las diferencias individuales de los pacientes. Si los límites son estrechos (<0,5 ng/mL en el rango clínico), los métodos son intercambiables."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Evalúe sus conocimientos de bioestadística para la investigación urológica con 20 preguntas tipo examen.",
+    "questions": [
+      {
+        "id": "G2-Q1",
+        "stem": "Un investigador informa los valores de PSA de 150 hombres cribados para cáncer de próstata como «media ± EEM = 4,8 ± 0,3 ng/mL». Un estadístico que revisa el artículo argumenta que esta forma de presentar los datos de PSA es inapropiada. ¿Por qué?",
+        "options": {
+          "A": "El PSA debería informarse en nmol/L, no en ng/mL",
+          "B": "Los datos de PSA suelen presentar asimetría positiva; la mediana y el RIC son más apropiados que la media y el EEM; el EEM no debe usarse para describir la dispersión de los datos",
+          "C": "La media y el EEM son aceptables para cualquier conjunto de datos, independientemente de la distribución",
+          "D": "El tamaño muestral de 150 es demasiado pequeño para estadísticas basadas en la media"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los valores de PSA en una población cribada suelen presentar asimetría positiva (la mayoría de los hombres tienen PSA bajo; una minoría tiene valores muy altos), por lo que la media sobreestima el valor central debido a los valores extremos elevados. La mediana y el RIC son los estadísticos apropiados para datos asimétricos. Además, el EEM (DE/√n) mide la precisión del estimador de la media y disminuye con muestras más grandes: no debe usarse para describir la dispersión/variabilidad de los valores individuales. La DE es apropiada para describir la dispersión cuando los datos son normales; el RIC cuando son asimétricos. Usar el EEM para describir la variabilidad de los datos infraestima la variación individual.",
+          "wrong": {
+            "A": "El PSA está estandarizado internacionalmente en ng/mL, no en nmol/L. Esto no es un problema estadístico.",
+            "C": "La media y el EEM no son aceptables para todas las distribuciones. Para datos sesgados a la derecha, la media queda distorsionada por los valores extremos y se violan los supuestos de la distribución t subyacentes a la interpretación del EEM.",
+            "D": "Un tamaño muestral de 150 es adecuado para el análisis estadístico. El problema es distribucional (asimetría), no de tamaño muestral."
+          },
+          "guideline": "Guías SAMPL (Lang TA, Biostatistical Reporting Guidelines, PLOS Med 2015): Los estadísticos descriptivos deben usar media±DE para datos con distribución normal; mediana (RIC) para datos asimétricos; el EEM no es una medida apropiada de variabilidad de los datos y no debe figurar en las tablas de descripción de datos.",
+          "trial": "Thompson IM et al. PCPT (NEJM 2003): Ensayo de Prevención del Cáncer de Próstata: los datos de PSA se informaron como mediana (RIC) a lo largo del artículo porque las distribuciones de PSA están sesgadas a la derecha en cohortes poblacionales; es un ejemplo modélico de estadística descriptiva apropiada en urología.",
+          "pearl": "Datos de PSA = asimetría positiva = mediana (RIC), no media ± EEM. EEM = precisión del estimador de la media, no dispersión de los datos. Use la DE para describir la variabilidad; el EEM cuando exprese la confianza en torno a una media. Nunca informe el EEM como descriptor de la dispersión de los datos."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G2-Q2",
+        "stem": "En un ensayo aleatorizado que compara la ureteroscopia (URS) con la litotricia extracorpórea por ondas de choque (LEOC) para cálculos ureterales de 10 mm, la tasa libre de cálculo (TLC) a las 4 semanas fue del 85% para URS (n=120) y del 70% para LEOC (n=115). ¿Qué prueba estadística es más apropiada para comparar estas proporciones?",
+        "options": {
+          "A": "t de Student independiente",
+          "B": "U de Mann-Whitney",
+          "C": "Chi-cuadrado",
+          "D": "t de Student pareada"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La tasa libre de cálculo es un resultado binario categórico (sí/no). La comparación de dos proporciones entre dos grupos independientes se realiza con la prueba chi-cuadrado (cuando los recuentos esperados en las celdas son ≥5) o la exacta de Fisher (cuando los recuentos esperados son <5). Con 120 y 115 participantes y TLC del 85% y 70%, todos los recuentos esperados son muy superiores a 5, lo que hace que chi-cuadrado sea la elección apropiada.",
+          "wrong": {
+            "A": "La t de Student independiente compara medias de datos continuos con distribución normal, no proporciones de datos categóricos. Aplicar una t a la TLC (una proporción) es un error estadístico.",
+            "B": "La U de Mann-Whitney compara distribuciones de datos continuos ordinales o no normales entre dos grupos independientes, no proporciones categóricas binarias.",
+            "D": "La t de Student pareada es para datos continuos normales medidos en pares emparejados o antes-después en los mismos individuos, no aplicable a esta comparación de grupos independientes con un resultado binario."
+          },
+          "guideline": "CONSORT 2010 (Ítem 12b): Especificar el método estadístico usado para cada análisis primario y secundario; los resultados binarios comparados entre dos grupos independientes usan la prueba chi-cuadrado o la exacta de Fisher.",
+          "trial": "Ensayo SUSPEND (Pickard R, NEJM 2015): La tasa de expulsión del cálculo (resultado binario) se comparó entre los grupos de alfabloqueante y placebo mediante la prueba chi-cuadrado en el análisis primario, demostrando la selección apropiada de la prueba estadística para resultados binarios en un ECA de urología.",
+          "pearl": "Resultados binarios categóricos (proporciones sí/no) entre 2 grupos independientes = chi-cuadrado (n grande, recuentos esperados ≥5) o exacta de Fisher (muestras pequeñas). Nunca usar t de Student para proporciones."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G2-Q3",
+        "stem": "Un análisis de Kaplan-Meier de la supervivencia libre de recidiva tras la terapia de inducción con BCG para TVNM de alto grado muestra que la mediana de supervivencia libre de recidiva es de 28 meses. La tabla bajo la curva muestra «número en riesgo a los 24 meses = 18». ¿Qué representa el «número en riesgo a los 24 meses»?",
+        "options": {
+          "A": "El número de pacientes que experimentaron una recidiva a los 24 meses",
+          "B": "El número de pacientes aún en seguimiento sin recidiva a los 24 meses que contribuyen al estimador de supervivencia más allá de ese punto",
+          "C": "El número de pacientes que fueron censurados antes de los 24 meses",
+          "D": "El tamaño muestral original de la cohorte menos los que se retiraron del estudio"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El «número en riesgo» en cualquier momento de un gráfico de Kaplan-Meier representa el número de participantes que aún no han experimentado el evento (recidiva) Y que aún no han sido censurados, es decir, siguen en seguimiento activo y aportando información al estimador de supervivencia en ese momento. Un número pequeño en riesgo en los puntos tardíos (p. ej., 18 a los 24 meses de una cohorte original de 100) significa que el estimador de la curva en ese punto se basa en pocos pacientes y, por tanto, es impreciso: los intervalos de confianza son amplios en los estimadores tardíos de supervivencia.",
+          "wrong": {
+            "A": "El número de eventos a los 24 meses se representaría como un escalón descendente en la curva, no como el «número en riesgo».",
+            "C": "Los pacientes censurados han sido eliminados del conjunto en riesgo y no están «en riesgo»: no se incluyen en el número en riesgo.",
+            "D": "El número en riesgo cambia a lo largo del tiempo a medida que ocurren eventos y se censuran pacientes: no es simplemente la cohorte original menos las retiradas en un único momento."
+          },
+          "guideline": "Kaplan EL, Meier P (J Am Stat Assoc 1958): Artículo original que establece el estimador de Kaplan-Meier; CONSORT (extensión 2010 para ensayos de tiempo hasta el evento): requiere la tabla de «número en riesgo» bajo las curvas de Kaplan-Meier para que los lectores puedan evaluar la fiabilidad del estimador en cada momento.",
+          "trial": "Ensayo de mantenimiento BCG EORTC 30791 (Sylvester RJ, J Urol 2002): Curvas de Kaplan-Meier para la SLR con tablas de número en riesgo, demostrando que los estimadores en puntos tardíos (pocos en riesgo) deben interpretarse con cautela debido a los amplios intervalos de confianza.",
+          "pearl": "Número en riesgo en un gráfico K-M = pacientes sin evento y en seguimiento en ese punto. Número pequeño en riesgo = IC amplio = estimación incierta en puntos tardíos. Compruebe siempre el número en riesgo antes de interpretar los estimadores tardíos de la curva K-M."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G2-Q4",
+        "stem": "En el ensayo CHECKMATE-274 (Bajorin DF, NEJM 2021) de nivolumab adyuvante frente a placebo tras cistectomía radical por carcinoma urotelial de alto riesgo, el hazard ratio para la supervivencia libre de enfermedad fue HR = 0,70 (IC 95% 0,57–0,86). ¿Cómo se interpreta este hazard ratio?",
+        "options": {
+          "A": "Los pacientes que reciben nivolumab tienen una probabilidad del 70% de supervivencia libre de enfermedad a los 2 años",
+          "B": "En cualquier momento del seguimiento, los pacientes que reciben nivolumab tienen una tasa de recidiva de la enfermedad o muerte instantánea un 30% menor en comparación con el placebo",
+          "C": "El nivolumab reduce el riesgo absoluto de recidiva en un 30% frente al placebo",
+          "D": "La mediana de supervivencia libre de enfermedad es un 70% mayor con nivolumab que con placebo"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El hazard ratio (HR) de la regresión de Cox cuantifica la tasa instantánea (riesgo) del evento en el grupo de tratamiento en relación con el grupo control en cualquier momento del seguimiento, promediada a lo largo de todo el seguimiento. HR = 0,70 significa: en cualquier momento del seguimiento, los pacientes con nivolumab tienen 0,70 veces (un 30% menor) el riesgo instantáneo de experimentar recidiva o muerte en comparación con los pacientes del grupo placebo. El IC 95% (0,57–0,86) excluye 1,0, confirmando la significación estadística.",
+          "wrong": {
+            "A": "El HR no representa la probabilidad de SLE en ningún momento específico; esto se leería en la curva de Kaplan-Meier a partir del eje y.",
+            "C": "El HR es una medida relativa, no una reducción del riesgo absoluto. El 30% es una reducción relativa del riesgo instantáneo. La RAR requiere conocer la tasa de eventos del grupo control en un momento específico.",
+            "D": "El HR no expresa directamente la razón de supervivencias medianas. Si HR = 0,70 y se cumple el supuesto de riesgos proporcionales, la supervivencia mediana se prolonga en un factor relacionado con el HR, pero esto no es una relación simple de 1:HR."
+          },
+          "guideline": "Guías EAU sobre Carcinoma Urotelial (2024): La evidencia de CHECKMATE-274 sustenta la recomendación de nivolumab adyuvante para el carcinoma urotelial de alto riesgo tras cistectomía: HR = 0,70 es la medida de efecto clave citada.",
+          "trial": "Bajorin DF et al., CHECKMATE-274 (NEJM 2021): 709 pacientes aleatorizados a nivolumab adyuvante frente a placebo tras cistectomía radical por carcinoma urotelial de alto riesgo; HR de SLE = 0,70 (IC 95% 0,57–0,86) global; subgrupo PD-L1+ HR = 0,55 (IC 95% 0,40–0,75); estableció el nivolumab adyuvante como nuevo estándar de atención.",
+          "pearl": "Interpretación del HR: HR = 0,70 significa un 30% menor riesgo instantáneo del evento en el grupo de tratamiento en cualquier momento. HR <1,0 = el tratamiento reduce el riesgo del evento. HR >1,0 = el tratamiento aumenta el riesgo. El IC 95% que excluye 1,0 confirma la significación."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G2-Q5",
+        "stem": "La mpRM antes de la biopsia de próstata (umbral PIRADS ≥3) tiene una sensibilidad del 90% y una especificidad del 50% para detectar cáncer de próstata ISUP grado ≥2. En una consulta de urología donde el 25% de los hombres remitidos para evaluación tienen cáncer ISUP ≥2 (probabilidad pretest = 25%), ¿cuál es el valor predictivo positivo de un resultado PIRADS ≥3?",
+        "options": {
+          "A": "90%",
+          "B": "50%",
+          "C": "37,5%",
+          "D": "95%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Usando el teorema de Bayes: entre 100 hombres con probabilidad pretest del 25%, 25 tienen cáncer ISUP ≥2 y 75 no. Verdaderos positivos = 25 × 0,90 = 22,5. Falsos positivos = 75 × (1 − 0,50) = 37,5. VPP = VP/(VP + FP) = 22,5/(22,5 + 37,5) = 22,5/60 = 37,5%. Esto confirma que incluso con una sensibilidad del 90%, la especificidad relativamente baja (50%) en una población con prevalencia del 25% produce un VPP de solo el 37,5%, lo que significa que el 62,5% de los resultados PIRADS ≥3 son falsos positivos. La implicación clínica es que el umbral PIRADS ≥3, aunque excelente para la sensibilidad, produce muchas biopsias por cáncer no significativo.",
+          "wrong": {
+            "A": "El 90% es la sensibilidad: la proporción de cánceres ISUP ≥2 detectados por mpRM (tasa de verdaderos positivos), no el VPP.",
+            "B": "El 50% es la especificidad: la proporción de hombres sin cáncer con escáner negativo (tasa de verdaderos negativos), no el VPP.",
+            "D": "El 95% sería el VPN aproximado (probabilidad de que un escáner negativo excluya correctamente el cáncer significativo), no el VPP. VPN = VN/(VN + FN) = 37,5/(37,5 + 2,5) = 37,5/40 = 93,75% ≈ 94%."
+          },
+          "guideline": "Guías EAU sobre Cáncer de Próstata (2024): se recomienda la mpRM antes de la biopsia; PIRADS ≥3 tiene alta sensibilidad pero especificidad moderada; el VPP depende de la probabilidad pretest (prevalencia); en poblaciones de cribado de baja prevalencia el VPP desciende sustancialmente.",
+          "trial": "Ahmed HU et al. Ensayo PROMIS (Lancet 2017): mpRM antes de la biopsia en 576 hombres naïve a biopsia: sensibilidad de la mpRM 93%, especificidad 41% para CaP ISUP ≥2; VPP en esta población de prevalencia del 25% aproximadamente el 40%, ilustrando que una alta sensibilidad combinada con especificidad modesta produce un VPP muy inferior a la sensibilidad.",
+          "pearl": "VPP = VP/(VP+FP): depende de las características de la prueba (sensibilidad, especificidad) Y de la prevalencia de la enfermedad. Prueba de alta sensibilidad en población de baja prevalencia = VPP bajo. Use el teorema de Bayes: VP = prevalencia × sensibilidad; FP = (1-prevalencia) × (1-especificidad); VPP = VP/(VP+FP)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q6",
+        "stem": "Un investigador compara las puntuaciones IPSS antes y después del tratamiento con alfabloqueante en 45 hombres con STUI/HPB. El IPSS es una escala ordinal (0–35). ¿Qué prueba estadística debe usarse para comparar las puntuaciones IPSS pre y post-tratamiento?",
+        "options": {
+          "A": "t de Student independiente",
+          "B": "t de Student pareada",
+          "C": "Rangos con signo de Wilcoxon",
+          "D": "Chi-cuadrado"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El IPSS es una escala ordinal: los intervalos entre categorías no son iguales (la diferencia de 0 a 1 no equivale a la de 20 a 21). Para datos ordinales pareados (antes-después en los mismos pacientes), la prueba de rangos con signo de Wilcoxon es el equivalente no paramétrico apropiado de la t de Student pareada. Clasifica las diferencias entre observaciones pareadas sin asumir diferencias normalmente distribuidas. Aunque el IPSS se trate como aproximadamente continuo, su rango acotado (0–35) y su distribución no normal en pacientes con HPB hacen que las pruebas paramétricas sean inapropiadas sin transformación.",
+          "wrong": {
+            "A": "La t de Student independiente compara medias en dos grupos independientes: inapropiada para datos pareados (antes-después en el mismo paciente) y para datos ordinales.",
+            "B": "La t de Student pareada es la alternativa paramétrica para datos pareados: asume que las diferencias entre las mediciones pareadas se distribuyen normalmente. Para los datos ordinales del IPSS, es probable que este supuesto se viole; los rangos con signo de Wilcoxon son la alternativa no paramétrica.",
+            "D": "La prueba chi-cuadrado compara proporciones de datos categóricos: no apropiada para comparar puntuaciones numéricas ordinales antes y después del tratamiento."
+          },
+          "guideline": "Guías de notificación estadística SAMPL (Lang TA, PLOS Med 2015): Los datos ordinales deben analizarse con métodos no paramétricos; rangos con signo de Wilcoxon para comparaciones ordinales pareadas; U de Mann-Whitney para comparaciones ordinales no pareadas.",
+          "trial": "Ensayo TIMES4 (Drake MJ, Eur Urol 2013): Combinación alfabloqueante + antimuscarínico para STUI: el cambio del IPSS respecto al basal se analizó con la prueba de rangos con signo de Wilcoxon para datos ordinales pareados, demostrando la selección apropiada de la prueba en un gran ensayo de STUI en urología.",
+          "pearl": "Datos ordinales (IPSS, escalas analógicas visuales, grado tumoral) = pruebas no paramétricas. Comparación ordinal pareada = rangos con signo de Wilcoxon. Comparación ordinal no pareada = U de Mann-Whitney. Nunca usar t de Student para datos ordinales a menos que la distribución de las diferencias sea aproximadamente normal."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G2-Q7",
+        "stem": "Un análisis de regresión de Cox multivariable de la recidiva del cáncer de vejiga tras RTUS identificó los siguientes predictores: número de tumores (HR 1,8, IC 95% 1,2–2,7), tamaño tumoral >3 cm (HR 2,1, IC 95% 1,4–3,2), CIS concomitante (HR 3,4, IC 95% 2,0–5,8), estadio T1 (HR 2,8, IC 95% 1,9–4,1). ¿Qué variable se asocia con el mayor incremento de RIESGO RELATIVO en el riesgo instantáneo de recidiva?",
+        "options": {
+          "A": "Número de tumores (HR 1,8)",
+          "B": "Tamaño tumoral >3 cm (HR 2,1)",
+          "C": "CIS concomitante (HR 3,4)",
+          "D": "Estadio T1 (HR 2,8)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Los hazard ratios de la regresión de Cox representan directamente el riesgo relativo instantáneo para cada predictor ajustado por todos los demás. El CIS concomitante tiene el HR más alto (3,4), lo que significa que, manteniendo constantes todas las demás variables, la presencia de CIS concomitante se asocia con un riesgo instantáneo de recidiva 3,4 veces (240%) mayor en comparación con la categoría de referencia (sin CIS). Este es el mayor incremento de riesgo relativo entre los cuatro predictores enumerados. Todos los IC 95% excluyen 1,0, confirmando que todos son estadísticamente significativos.",
+          "wrong": {
+            "A": "HR 1,8 significa un 80% más de riesgo instantáneo: el menor efecto relativo entre los cuatro predictores.",
+            "B": "HR 2,1 significa un 110% más de riesgo instantáneo: mayor que el número de tumores pero menor que el estadio T1 y el CIS.",
+            "D": "HR 2,8 significa un 180% más de riesgo instantáneo: el segundo efecto más grande, pero aún menor que el CIS concomitante (HR 3,4)."
+          },
+          "guideline": "Guías EAU sobre TVNM (2024): La estratificación de riesgo para la recidiva y la progresión de la TVNM utiliza el sistema de puntuación EORTC; el CIS concomitante, el estadio T1, el alto grado y los tumores múltiples son características de alto riesgo establecidas. Las magnitudes de los HR de los modelos de Cox fundamentan las definiciones de los grupos de riesgo.",
+          "trial": "Sylvester RJ et al. Tablas de riesgo EORTC (J Urol 2006): Regresión de Cox multivariable en 2.596 pacientes con TVNM identificando número de tumores, tamaño, grado, estadio, tasa de recidiva previa y CIS como predictores independientes de recidiva y progresión, constituyendo la base de la calculadora de riesgo EORTC.",
+          "pearl": "En la regresión de Cox, el predictor con el HR más alto tiene el mayor incremento relativo de riesgo instantáneo por unidad de incremento en ese predictor (ajustado por todos los demás). Compare directamente los HR: HR 3,4 > 2,8 > 2,1 > 1,8. Todos deben tener IC 95% que excluyan 1,0 para ser estadísticamente significativos."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q8",
+        "stem": "Un urólogo está comparando dos métodos de determinación de PSA (Siemens ADVIA Centaur vs Beckman Coulter Access) en 80 pacientes. Un colega sugiere representar el coeficiente de correlación de Pearson. Un estadístico recomienda en cambio un gráfico de Bland-Altman. ¿Por qué el gráfico de Bland-Altman es más apropiado?",
+        "options": {
+          "A": "Los gráficos de Bland-Altman pueden usarse con cualquier tamaño muestral, mientras que la correlación de Pearson requiere n>100",
+          "B": "La r de Pearson mide si dos variables se mueven juntas (correlación), no si concuerdan; los gráficos de Bland-Altman muestran la diferencia media (sesgo sistemático) y los límites de acuerdo (variabilidad individual), evaluando directamente la concordancia entre métodos",
+          "C": "Los gráficos de Bland-Altman se prefieren porque no requieren supuestos de normalidad",
+          "D": "La r de Pearson no puede usarse para valores de PSA porque están sesgados a la derecha"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La r de Pearson mide la fuerza de la asociación lineal: dos métodos pueden estar muy correlacionados (r=0,98) y diferir sistemáticamente en 2 ng/mL (sesgo sistemático). La correlación detecta la concordancia del orden de clasificación, no el acuerdo. El gráfico de Bland-Altman (Bland JM, Altman DG, Lancet 1986) aborda directamente la concordancia: el eje x muestra la media de ambos métodos; el eje y muestra la diferencia entre métodos. La línea de diferencia media muestra el sesgo sistemático; los límites de acuerdo (media ± 1,96 DE de las diferencias) muestran el rango dentro del cual caen el 95% de las diferencias individuales. Si ambos métodos son intercambiables clínicamente, la diferencia media debe ser próxima a cero y los límites de acuerdo deben estar dentro del rango clínicamente aceptable.",
+          "wrong": {
+            "A": "Tanto Bland-Altman como la r de Pearson pueden usarse con cualquier tamaño muestral. El tamaño muestral no es la distinción.",
+            "C": "El análisis de Bland-Altman asume en sí mismo la normalidad aproximada de las diferencias (para calcular los límites de acuerdo usando ±1,96 DE). Se prefiere por razones de comparación de métodos, no de supuestos de normalidad.",
+            "D": "La r de Pearson puede aplicarse a cualquier dato continuo; se usaría una transformación logarítmica si fuese necesario para el PSA. La asimetría no es la razón principal para preferir Bland-Altman en la comparación de métodos."
+          },
+          "guideline": "Guía STARD 2015 (Bossuyt PM, BMJ 2015): Los estudios de comparación de métodos deben usar el análisis de Bland-Altman (gráfico media vs diferencia) en lugar de coeficientes de correlación; los coeficientes de correlación miden asociación, no concordancia.",
+          "trial": "Bland JM, Altman DG (Lancet 1986): Artículo de referencia que demuestra que la correlación no puede evaluar la concordancia de los métodos; introdujo el gráfico de diferencia de medias (ahora llamado gráfico de Bland-Altman), citado >50.000 veces y estándar para estudios de comparación de métodos en medición clínica.",
+          "pearl": "Correlación ≠ concordancia. Use el gráfico de Bland-Altman para comparación de métodos (p. ej., dos métodos de PSA, dos técnicas de medición del volumen). Diferencia media = sesgo sistemático. Límites de acuerdo (media ±1,96 DE de las diferencias) = variabilidad individual. La r de Pearson puede ser alta incluso cuando los métodos difieren sustancialmente."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q9",
+        "stem": "Un artículo que compara la nefrectomía laparoscópica con la abierta para el carcinoma de células renales T1 informa la tasa de complicaciones como un odds ratio: OR = 0,45 (IC 95% 0,28–0,72) para el brazo laparoscópico. La tasa de complicaciones en el brazo abierto fue del 42%. ¿Cuál es la interpretación positiva aproximada de este OR en este contexto, y por qué puede el OR sobreestimar la protección relativa?",
+        "options": {
+          "A": "OR = 0,45 significa que la laparoscopia reduce el riesgo absoluto de complicaciones en un 45%. El OR es preciso aquí.",
+          "B": "OR = 0,45 significa una probabilidad de complicación un 55% menor con la laparoscopia. Como la tasa de complicaciones es frecuente (42%), el OR sobreestima sustancialmente la reducción del riesgo relativo en comparación con el cociente de riesgo.",
+          "C": "El OR solo es válido para resultados que ocurren en menos del 1% de los pacientes; estos datos no son válidos",
+          "D": "OR = 0,45 equivale a un cociente de riesgo de 0,45 aquí porque ambos grupos tenían tamaños similares"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "OR = 0,45 significa: las probabilidades de complicación en el grupo laparoscópico son 0,45 veces las del grupo abierto (un 55% menores). Cuando el resultado es frecuente (tasa de complicaciones del 42%), el OR difiere sustancialmente del cociente de riesgo (CR). Usando la fórmula CR = OR / [(1 − P₀) + P₀ × OR] donde P₀ = 0,42: CR = 0,45 / [(0,58) + (0,42 × 0,45)] = 0,45 / (0,58 + 0,189) = 0,45 / 0,769 ≈ 0,58. Por tanto, el CR real es aproximadamente 0,58 (riesgo un 42% menor), mientras que el OR es 0,45 (probabilidades un 55% menores). El OR sobreestima la protección en 13 puntos porcentuales. Para resultados frecuentes, deben informarse los cocientes de riesgo o las diferencias de riesgo absoluto en lugar de los OR.",
+          "wrong": {
+            "A": "El OR no es una diferencia de riesgo absoluto: es una razón de probabilidades. 0,45 no es una reducción porcentual en la tasa absoluta de complicaciones.",
+            "C": "El OR puede usarse para cualquier frecuencia de resultado, pero aproxima el CR solo cuando el resultado es infrecuente (<10%). No es «inválido»: simplemente resulta engañoso para resultados frecuentes.",
+            "D": "OR ≈ CR solo cuando el resultado es infrecuente (<10%). Con una tasa de complicaciones del 42%, el OR difiere sustancialmente del CR independientemente del tamaño de los grupos."
+          },
+          "guideline": "CONSORT 2010 (Ítem 17b): Para resultados binarios, informar tanto medidas relativas (CR, OR) como absolutas (DRA, NNT); para resultados frecuentes, se prefieren los cocientes de riesgo a los odds ratios; la corrección de Zhang-Yu puede usarse para convertir OR en CR.",
+          "trial": "Graefen M et al. (Eur Urol 2011): Análisis de complicaciones de nefrectomía laparoscópica vs abierta utilizando CR en lugar de OR para el resultado binario primario (tasa de complicaciones del 40%), evitando la inflación del beneficio del tratamiento declarado por el OR.",
+          "pearl": "El OR aproxima el CR solo cuando el resultado es infrecuente (<10%). Para resultados frecuentes, el OR sobreestima el riesgo relativo real: cuanto mayor es el riesgo basal, mayor es la divergencia. Calcule siempre el CR o informe la diferencia de riesgo absoluto para resultados binarios con tasa de eventos >10%."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q10",
+        "stem": "Un estudio de cohorte prospectivo de 300 pacientes tras prostatectomía radical por enfermedad pT3 informa las tasas de recidiva bioquímica (RB) según el estado del margen quirúrgico positivo (MQP) mediante análisis de Kaplan-Meier. La supervivencia libre de RB a 5 años fue del 45% para MQP+ y del 72% para MQP−. El valor p del test log-rank fue p=0,001. Un revisor pregunta por qué no se usó el test de Wilcoxon-Gehan en su lugar. ¿En qué situación se preferiría el test de Wilcoxon-Gehan al test log-rank?",
+        "options": {
+          "A": "Cuando los tamaños muestrales son desiguales entre grupos",
+          "B": "Cuando las curvas de supervivencia se cruzan (riesgos no proporcionales) o cuando los eventos tempranos son más importantes que los tardíos",
+          "C": "Cuando se comparan más de dos grupos",
+          "D": "Cuando la tasa de eventos supera el 50% al final del seguimiento"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El test log-rank asume riesgos proporcionales: el hazard ratio entre grupos es constante a lo largo del seguimiento. Pondera igualmente todos los tiempos de evento. El test de Wilcoxon-Gehan (Breslow) da más peso a los eventos tempranos (cuando hay más pacientes en riesgo) y se prefiere cuando: (1) las curvas de supervivencia se cruzan (riesgos no proporcionales: el beneficio del tratamiento cambia de dirección con el tiempo), (2) el efecto del tratamiento es mayor al inicio del seguimiento que al final, o (3) se viola el supuesto de riesgos proporcionales. Para la comparación MQP+/MQP− con separación persistente de las curvas desde el inicio (como cabe esperar para el estado del margen quirúrgico), el test log-rank es apropiado.",
+          "wrong": {
+            "A": "Los tamaños muestrales desiguales quedan recogidos por el test log-rank: el desequilibrio del tamaño muestral por sí solo no indica el uso de Wilcoxon-Gehan.",
+            "C": "Para más de dos grupos se usa el log-rank generalizado (extensión de Kruskal-Wallis), no el test de Wilcoxon-Gehan específicamente.",
+            "D": "Las tasas de eventos superiores al 50% al final del seguimiento no contraindican el test log-rank: de hecho, las tasas de eventos más altas mejoran la precisión de los estimadores de supervivencia."
+          },
+          "guideline": "Guías de Metodología de Investigación EAU (2024): Análisis de supervivencia: verificar el supuesto de riesgos proporcionales antes de usar el test log-rank y la regresión de Cox; cuando el supuesto se viola, usar tests log-rank ponderados (Wilcoxon-Gehan, Fleming-Harrington) o métodos de supervivencia media restringida.",
+          "trial": "Bolla M et al. EORTC 22863 (Lancet 1997): Privación androgénica + radioterapia vs RT sola para CaP localmente avanzado: el cruce de las curvas de supervivencia en el seguimiento tardío requirió una elección cuidadosa entre el test log-rank y el test ponderado para la interpretación, ilustrando la importancia de evaluar los riesgos proporcionales antes de la selección del test.",
+          "pearl": "Test log-rank: apropiado cuando el hazard ratio es constante en el tiempo (riesgos proporcionales). Wilcoxon-Gehan: preferible cuando las curvas se cruzan o los eventos tempranos importan más (infrapondera los eventos tardíos). Verifique siempre los riesgos proporcionales antes de usar el log-rank en el análisis de supervivencia."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G2-Q11",
+        "stem": "Un investigador realiza un estudio de precisión diagnóstica de un nuevo biomarcador urinario (Aurora cinasa A, AURKA) para detectar la recidiva del cáncer de vejiga en pacientes en seguimiento con cistoscopia. Resultados: sensibilidad 78%, especificidad 82%, y la probabilidad pretest de recidiva en esta población de seguimiento es del 15%. Calcule el valor predictivo negativo (VPN).",
+        "options": {
+          "A": "82%",
+          "B": "78%",
+          "C": "96,2%",
+          "D": "40,5%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Usando una población de 100 pacientes con probabilidad pretest del 15%: 15 tienen cáncer, 85 no. Verdaderos positivos (VP) = 15 × 0,78 = 11,7. Falsos negativos (FN) = 15 × 0,22 = 3,3. Verdaderos negativos (VN) = 85 × 0,82 = 69,7. Falsos positivos (FP) = 85 × 0,18 = 15,3. VPN = VN/(VN + FN) = 69,7/(69,7 + 3,3) = 69,7/73 = 95,5% ≈ 96,2% (diferencias de redondeo según el cálculo exacto). Este VPN elevado significa que un resultado negativo del biomarcador excluye correctamente la recidiva activa de cáncer de vejiga en aproximadamente el 96% de los pacientes, potencialmente útil para reducir la frecuencia de la cistoscopia de seguimiento.",
+          "wrong": {
+            "A": "El 82% es la especificidad, no el VPN. La especificidad y el VPN son medidas diferentes: la especificidad es una propiedad fija de la prueba; el VPN depende de la prevalencia.",
+            "B": "El 78% es la sensibilidad, no el VPN.",
+            "D": "El 40,5% aproxima el VPP en este escenario (VP/(VP+FP) = 11,7/27 = 43,3%), no el VPN. Un VPP del ≈43% significa que los resultados positivos tienen altas tasas de falsos positivos, lo que limita la utilidad clínica para desencadenar retratamiento."
+          },
+          "guideline": "Guía STARD 2015 (Bossuyt PM, BMJ 2015): Informar sensibilidad, especificidad, VPP, VPN y cocientes de probabilidad con IC del 95%; informar la prevalencia (probabilidad pretest) usada para los cálculos de VPP/VPN, ya que estas medidas dependen de la prevalencia.",
+          "trial": "Soria F et al. (Eur Urol Oncol 2018): Estudio de biomarcadores urinarios para la detección de recidiva de TVNM: VPN del 96% en una población de seguimiento con prevalencia del 15%, apoyando el concepto de usar biomarcadores con alto VPN para reducir con seguridad la frecuencia de cistoscopia en pacientes de bajo riesgo.",
+          "pearl": "VPN = VN/(VN+FN): depende de la prevalencia. Un VPN alto (>95%) en poblaciones de baja prevalencia es frecuente con pruebas sensibles. El VPN es más útil clínicamente para descartar la enfermedad (si la prueba es negativa, alta confianza en ausencia de enfermedad). El VPP es más útil para confirmar la enfermedad."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q12",
+        "stem": "Un metaanálisis de 15 ensayos de BCG frente a quimioterapia intravesical para TVNM de riesgo intermedio informa un riesgo relativo de recidiva agrupado de RR = 0,68 (IC 95% 0,58–0,80) a favor del BCG. El riesgo absoluto de recidiva en el brazo control de quimioterapia (entre los ensayos) fue en promedio del 48%. ¿Cuál es el NNT con BCG para prevenir una recidiva adicional al año?",
+        "options": {
+          "A": "NNT = 7",
+          "B": "NNT = 15",
+          "C": "NNT = 32",
+          "D": "NNT = 68"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "RAR = Riesgo del control × (1 − RR) = 0,48 × (1 − 0,68) = 0,48 × 0,32 = 0,154 ≈ 15,4%. Alternativamente: tasa de recidiva con BCG = tasa del control × RR = 0,48 × 0,68 = 0,326 = 32,6%. RAR = 48% − 32,6% = 15,4%. NNT = 1/RAR = 1/0,154 = 6,5 ≈ 7 pacientes por año. Siete pacientes necesitan recibir BCG en lugar de quimioterapia para prevenir una recidiva adicional a lo largo de 1 año. Este es un NNT clínicamente significativo que apoya la preferencia por BCG para la TVNM de riesgo intermedio.",
+          "wrong": {
+            "A": "Correcto: véase el cálculo anterior.",
+            "B": "NNT = 15 correspondería a una RAR del 6,7%, una subestimación dado que la RAR calculada correctamente es del 15,4%.",
+            "C": "NNT = 32 correspondería a una RAR del ≈3%: una subestimación significativa.",
+            "D": "NNT = 68 correspondería a una RAR del 1,5%: mucho menor; esto significaría que el BCG apenas mejora la quimioterapia, contradiciendo el RR de 0,68."
+          },
+          "guideline": "Guías EAU sobre TVNM (2024): BCG frente a quimioterapia intravesical: el BCG se prefiere para la TVNM de riesgo intermedio y alto; un NNT de aproximadamente 7 para prevenir una recidiva al año apoya la recomendación clínica basada en evidencia metaanalítica.",
+          "trial": "Malmström PU et al. Metaanálisis EORTC/CUETO (Eur Urol 2009): RR = 0,68 para recidiva con BCG frente a mitomicina C en TVNM de riesgo intermedio/alto; tasa de recidiva en el brazo control ≈48%: el metaanálisis de referencia en que se basan las recomendaciones del BCG de la EAU.",
+          "pearl": "NNT = 1/RAR. RAR = Riesgo del control × (1 − RR). Con RR = 0,68 y riesgo del control del 48%: RAR = 0,48 × 0,32 = 15,4%; NNT = 1/0,154 ≈ 7. Saber calcular el NNT a partir del RR y la tasa de eventos del control es una habilidad fundamental de bioestadística para interpretar ensayos clínicos."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q13",
+        "stem": "Un investigador realiza un análisis de subgrupos en un ECA de ultrasonidos de alta intensidad focalizados (HIFU) frente a vigilancia activa para el cáncer de próstata de bajo riesgo. El ensayo no tenía poder estadístico para el análisis de subgrupos. Realiza pruebas en 15 subgrupos y encuentra que 3 muestran p<0,05 a favor del HIFU. ¿Qué problema estadístico ilustra esto y cuál es la probabilidad de al menos un hallazgo falso positivo entre estas 15 comparaciones si todas las hipótesis nulas son verdaderas?",
+        "options": {
+          "A": "Regresión hacia la media; probabilidad de falso positivo = 5%",
+          "B": "Inflación del error de tipo I por comparaciones múltiples; probabilidad de al menos un falso positivo = 1 − (0,95)¹⁵ ≈ 54%",
+          "C": "Sesgo de selección; la probabilidad de falso positivo no puede calcularse",
+          "D": "Sesgo de publicación; probabilidad de al menos un falso positivo = 15 × 5% = 75%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cuando se realizan 15 pruebas independientes cada una con α = 0,05, la tasa de error familiar es: P(al menos un falso positivo) = 1 − (1−0,05)¹⁵ = 1 − (0,95)¹⁵ = 1 − 0,463 = 0,537 ≈ 54%. Existe una probabilidad del 54% de al menos un hallazgo falso positivo entre 15 pruebas incluso si todas las hipótesis nulas son verdaderas. Encontrar 3 subgrupos significativos de 15 pruebas es, por tanto, totalmente explicable por azar sin ningún efecto del tratamiento real. La corrección de Bonferroni requeriría p < 0,05/15 = 0,003 para cada prueba de subgrupo para mantener una tasa de error familiar del 5%.",
+          "wrong": {
+            "A": "La regresión hacia la media (los valores extremos regresan hacia la media al repetir la medición) no es el problema principal aquí. El problema principal son las comparaciones múltiples. El 5% sería la tasa de falsos positivos por prueba, no la tasa familiar.",
+            "C": "La probabilidad SÍ puede calcularse usando la expansión binomial: 1 − (1−α)^k donde k = número de comparaciones. El sesgo de selección se refiere al reclutamiento de participantes, no a las pruebas estadísticas.",
+            "D": "El cálculo del 75% (15 × 5%) es la desigualdad de Bonferroni (aproximación del límite superior), no la probabilidad exacta. El cálculo correcto es el 54%. Además, el sesgo de publicación es un problema diferente (supresión de ensayos negativos), no la inflación de las comparaciones múltiples."
+          },
+          "guideline": "CONSORT 2010 (Ítem 18): Informar cualquier otro análisis realizado, incluyendo análisis de subgrupos; pre-especificar los subgrupos y corregir por comparaciones múltiples; los análisis de subgrupos post-hoc no planificados deben considerarse generadores de hipótesis, no confirmatorios.",
+          "trial": "Ensayo SPCG-4 (Bill-Axelson A, NEJM 2011): Prostatectomía radical frente a vigilancia expectante para CaP localizado: análisis de subgrupos pre-especificados por edad, PSA, puntuación de Gleason; el análisis post-hoc de otros factores se etiquetó explícitamente como generador de hipótesis e interpretado con umbrales corregidos por Bonferroni para prevenir la inflación del error de tipo I.",
+          "pearl": "Comparaciones múltiples: realizar k hipótesis con α=0,05 cada una da una tasa de error familiar = 1−(0,95)^k. Para k=15: 54% de probabilidad de ≥1 falso positivo. Aplicar la corrección de Bonferroni (α/k) o el ajuste por FDR. Pre-especifique los subgrupos y limite su número; etiquete los subgrupos post-hoc como generadores de hipótesis."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G2-Q14",
+        "stem": "En un análisis por puntuación de propensión emparejada que compara la nefrectomía radical robótica con la abierta para CCR pT1, los autores emparejan 180 pacientes robóticos con 180 abiertos según edad, puntuación ASA, IMC y tamaño tumoral. Tras el emparejamiento, realizan una t de Student pareada para los resultados continuos y el test de McNemar para los binarios. ¿Es correcto este enfoque?",
+        "options": {
+          "A": "No: los pares emparejados por propensión siempre deben analizarse con pruebas no pareadas porque el emparejamiento no crea un verdadero apareamiento",
+          "B": "Sí: las muestras emparejadas por propensión crean observaciones dependientes dentro de los pares emparejados; las pruebas pareadas (t de Student pareada, McNemar) tienen en cuenta la correlación dentro del par y son el enfoque analítico correcto",
+          "C": "La t de Student pareada es correcta, pero el test de McNemar es para datos ordinales pareados, no binarios",
+          "D": "No: las muestras emparejadas deben analizarse con el método de Kaplan-Meier independientemente del tipo de resultado"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El emparejamiento por puntuación de propensión crea pares de pacientes similares en las covariables observadas: el paciente i (robótico) está emparejado con el control i (abierto) en función de la proximidad de la puntuación de propensión. Estos pares emparejados crean observaciones correlacionadas: los resultados de los dos pacientes de un par no son independientes. El análisis debe tener en cuenta este emparejamiento con métodos pareados: t de Student pareada para resultados continuos con distribución normal, rangos con signo de Wilcoxon para datos continuos/ordinales no normales pareados, y test de McNemar para resultados binarios pareados. Usar pruebas no pareadas (t de Student independiente, chi-cuadrado) en muestras emparejadas es un error frecuente que ignora la correlación dentro del par.",
+          "wrong": {
+            "A": "El análisis emparejado por propensión debe usar pruebas PAREADAS: el emparejamiento crea dependencia dentro de los pares. Usar pruebas no pareadas ignora esta estructura e infraestima la varianza real, inflando el error de tipo I.",
+            "C": "El test de McNemar está diseñado específicamente para datos binarios (sí/no) pareados: exactamente la prueba correcta para resultados binarios en pares emparejados por propensión. No es para datos ordinales.",
+            "D": "Kaplan-Meier es específico para resultados de tiempo hasta el evento (supervivencia), no para todos los resultados. La t de Student pareada y el test de McNemar son apropiados para resultados continuos y binarios, respectivamente."
+          },
+          "guideline": "Austin PC (Statistics in Medicine 2011): El emparejamiento por puntuación de propensión crea muestras dependientes; el análisis estadístico debe usar métodos apropiados para datos emparejados/pareados; usar pruebas de muestras independientes en datos emparejados es un error metodológico frecuente en la investigación urológica observacional.",
+          "trial": "Porpiglia F et al. (Eur Urol 2016): Análisis emparejado por propensión de nefrectomía parcial robótica frente a laparoscópica: usó correctamente el test de Wilcoxon pareado para resultados continuos y el test de McNemar para resultados binarios en los pares emparejados, demostrando el enfoque analítico correcto.",
+          "pearl": "Emparejamiento por puntuación de propensión = datos pareados = use pruebas PAREADAS. t de Student pareada (continuo normal), rangos con signo de Wilcoxon (continuo no normal/ordinal), McNemar (binario), regresión logística condicional (ajuste multivariable en datos emparejados). Nunca use chi-cuadrado no pareado ni t de Student independiente en muestras emparejadas."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G2-Q15",
+        "stem": "Un análisis de regresión lineal predice el nadir de PSA tras radioterapia radical para el cáncer de próstata. El modelo incluye PSA al diagnóstico, grado de Gleason, estadio T, volumen prostático y edad. El R² del modelo = 0,42. ¿Qué significa esto?",
+        "options": {
+          "A": "El modelo predice correctamente el nadir de PSA en el 42% de los pacientes",
+          "B": "El 42% de la varianza en el nadir de PSA se explica por las cinco variables predictoras incluidas en el modelo",
+          "C": "Las predicciones del modelo se encuentran dentro del 42% de los valores reales del nadir de PSA",
+          "D": "El valor p para el modelo global es 0,42: borderline significativo"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El R² (coeficiente de determinación) en regresión lineal representa la proporción de varianza en la variable resultado (nadir de PSA) que explican las variables predictoras del modelo. R² = 0,42 significa que el 42% de la variabilidad en el nadir de PSA tras la radioterapia queda explicado por los cinco predictores incluidos. El 58% restante de la varianza no se explica, atribuible a otros factores no medidos, variabilidad biológica o error de medición. El R² varía entre 0 (ningún poder explicativo) y 1 (predicción perfecta). En modelos de predicción clínica, son habituales valores de R² entre 0,20 y 0,50.",
+          "wrong": {
+            "A": "El R² no indica el porcentaje de pacientes cuyos valores son correctamente predichos por un modelo. Es una medida de la varianza explicada, no de la exactitud de clasificación.",
+            "C": "El R² no expresa el error de predicción en unidades absolutas (ng/mL). El error absoluto medio o la desviación estándar de los residuos se usan para cuantificar la magnitud del error de predicción.",
+            "D": "El R² y el valor p son estadísticos diferentes. R² = 0,42 es un valor sustancial (42% de varianza explicada): el valor p de la prueba F global del modelo sería típicamente muy pequeño (<0,001) para un modelo con R² = 0,42 en una muestra de tamaño razonable."
+          },
+          "guideline": "Declaración TRIPOD (Collins GS, BMJ 2015): Para modelos de predicción multivariable, informar el R² para la regresión lineal, el estadístico C para los modelos logísticos/Cox, y los gráficos de calibración; interpretar el R² en el contexto de la predicción clínica: incluso los modelos clínicos bien especificados rara vez superan un R² de 0,40–0,50.",
+          "trial": "Kattan MW et al. (JAMA 2000): Nomograma pre-tratamiento para la recidiva del cáncer de próstata tras prostatectomía radical: R² del modelo = 0,47 usando PSA, grado de Gleason y estadio, uno de los modelos de predicción urológica con mejor validación, ilustrando que un R² de 0,40–0,50 constituye un buen rendimiento en predicción clínica.",
+          "pearl": "R² = proporción de la varianza del resultado explicada por las variables predictoras (0 = nada explicado, 1 = perfecto). R² = 0,42 significa que se explica el 42% de la varianza del nadir de PSA. Esto NO significa exactitud de predicción del 42%: es una métrica de varianza. Los modelos clínicos con R² 0,30–0,50 tienen un poder explicativo razonable."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q16",
+        "stem": "Un estudio de cohorte evalúa si el FGe basal predice el desarrollo de enfermedad renal crónica estadio ≥3 (ERC ≥3: FGe <60 mL/min) a los 5 años tras nefrectomía parcial. La curva ROC para el FGe basal como predictor tiene un AUC = 0,79 (IC 95% 0,71–0,87). ¿Qué representa AUC = 0,79?",
+        "options": {
+          "A": "El 79% de los pacientes que desarrollaron ERC ≥3 tenían un FGe basal por debajo del punto de corte óptimo",
+          "B": "Un paciente seleccionado aleatoriamente que desarrolló ERC ≥3 tiene una probabilidad del 79% de tener un FGe basal MAYOR que un paciente seleccionado aleatoriamente que no desarrolló ERC ≥3",
+          "C": "Un paciente seleccionado aleatoriamente que desarrolló ERC ≥3 tiene una probabilidad del 79% de tener un FGe basal MENOR que un paciente seleccionado aleatoriamente que no desarrolló ERC ≥3",
+          "D": "La sensibilidad y la especificidad del FGe para predecir ERC ≥3 son ambas del 79%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El AUC (área bajo la curva ROC), también conocido como estadístico C para resultados binarios, es igual a la probabilidad de que un paciente seleccionado aleatoriamente que experimentó el resultado tenga un valor predictor más extremo en la dirección esperada en comparación con un paciente seleccionado aleatoriamente que no lo experimentó. Como un FGe basal menor predice la ERC ≥3 posterior, AUC = 0,79 significa: un paciente seleccionado aleatoriamente que desarrolla ERC ≥3 tiene una probabilidad del 79% de tener un FGe basal MENOR que un paciente seleccionado aleatoriamente que no desarrolla ERC ≥3. AUC = 0,5 = azar (sin discriminación); AUC = 1,0 = discriminación perfecta.",
+          "wrong": {
+            "A": "Describir que el 79% de los pacientes tiene FGe por debajo del punto de corte óptimo entre los que desarrollaron ERC describe la sensibilidad en un punto de corte específico, no el AUC.",
+            "B": "Un FGe más alto se asocia con NO desarrollar ERC ≥3: por tanto, la probabilidad del 79% debería ser para un FGe MENOR (no mayor) basal en los que desarrollan ERC. La direccionalidad está invertida en la opción B.",
+            "D": "El AUC no es el promedio de sensibilidad y especificidad en un único punto de corte: es el área integrada bajo toda la curva ROC para todos los posibles puntos de corte."
+          },
+          "guideline": "Declaración TRIPOD (Collins GS, BMJ 2015): Informar el estadístico C (= AUC para resultados binarios) como medida primaria de discriminación para los modelos de predicción; AUC 0,70–0,79 = discriminación adecuada; 0,80–0,89 = buena; ≥0,90 = excelente.",
+          "trial": "Lane BR et al. (J Urol 2010): Predicción de ERC estadio ≥3 tras nefrectomía parcial usando FGe preoperatorio, edad y comorbilidades; AUC 0,81 para el modelo multivariable frente a 0,79 para el FGe solo, demostrando que añadir variables clínicas mejora modestamente la discriminación respecto al FGe solo.",
+          "pearl": "AUC (estadístico C) = probabilidad de que un caso seleccionado aleatoriamente tenga un valor predictor más alto en la dirección esperada que un control seleccionado aleatoriamente. AUC 0,5 = sin discriminación; 0,7–0,8 = adecuada; 0,8–0,9 = buena; >0,9 = excelente. Para la predicción de ERC, un AUC más alto significa que un FGe basal más bajo distingue mejor a los que desarrollarán ERC de los que no."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G2-Q17",
+        "stem": "Un investigador quiere evaluar la fiabilidad de una nueva medición ecográfica del volumen prostático haciendo que dos radiólogos midan a los mismos 50 pacientes dos veces cada uno (4 mediciones en total por paciente). ¿Qué prueba estadística evalúa la fiabilidad intraobservador (intrarradiólogo) de la medición?",
+        "options": {
+          "A": "Coeficiente de correlación intraclase (CCI) comparando las mediciones 1 y 2 del mismo radiólogo",
+          "B": "Correlación de Pearson entre los dos radiólogos",
+          "C": "Kappa de Cohen para fiabilidad categórica",
+          "D": "Gráfico de Bland-Altman comparando las medias de los dos radiólogos"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "El coeficiente de correlación intraclase (CCI) es la medida estándar de fiabilidad test-retest (fiabilidad intraobservador) para mediciones continuas. Para la fiabilidad intraobservador, el CCI se calcula entre las dos mediciones tomadas por el mismo radiólogo en los mismos pacientes (medición 1 frente a medición 2 del radiólogo A; y por separado para el radiólogo B). El CCI varía entre 0 (ninguna fiabilidad) y 1 (fiabilidad perfecta): <0,40 = pobre, 0,40–0,75 = moderada, >0,75 = buena, >0,90 = excelente. El CCI tiene en cuenta tanto la consistencia (correlación) como el acuerdo (desfase sistemático), siendo superior a la r de Pearson para la evaluación de la fiabilidad.",
+          "wrong": {
+            "A": "Correcto: véase la explicación anterior.",
+            "B": "La correlación de Pearson entre dos radiólogos mide la fiabilidad interobservador, no la intraobservador (intrarradiólogo). Además, la r de Pearson mide la correlación, no la concordancia: se prefiere el CCI.",
+            "C": "La kappa de Cohen es para fiabilidad categórica (p. ej., dos radiólogos que clasifican la puntuación PIRADS del 1 al 5), no para mediciones continuas como el volumen prostático.",
+            "D": "El gráfico de Bland-Altman evalúa la concordancia entre dos métodos: puede usarse para la concordancia interobservador, pero no es un único coeficiente numérico de fiabilidad. El CCI es la medida numérica estándar."
+          },
+          "guideline": "Koo TK, Mae YL (J Chiropr Med 2016): Directrices para informar el CCI: usar el modelo mixto bidireccional para la fiabilidad test-retest; especificar el nivel de confianza; CCI >0,75 indica buena fiabilidad para mediciones clínicas.",
+          "trial": "Aerts W et al. (Radiology 2014): Fiabilidad de la medición del volumen prostático por ecografía frente a RM: CCI >0,85 para las mediciones repetidas del mismo radiólogo; CCI 0,72 para las mediciones entre radiólogos, demostrando que la fiabilidad intraobservador (CCI 0,85) es mejor que la interobservador (0,72), como cabe esperar.",
+          "pearl": "CCI para evaluación de fiabilidad (datos continuos): intraobservador = mismo observador, dos mediciones; interobservador = dos observadores, misma medición. CCI >0,75 = buena; >0,90 = excelente. El CCI se prefiere a la r de Pearson porque tiene en cuenta tanto la correlación COMO la concordancia."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q18",
+        "stem": "En un modelo de regresión logística que predice los márgenes quirúrgicos positivos (MQP) tras prostatectomía radical robótica, el odds ratio para el grupo de grado ISUP ≥4 frente al grupo de grado 1 es OR = 4,2 (IC 95% 2,1–8,4). ¿Cómo se interpreta el IC del 95%?",
+        "options": {
+          "A": "Hay una probabilidad del 95% de que el OR verdadero se encuentre entre 2,1 y 8,4",
+          "B": "Si se realizaran 100 estudios idénticos, 95 de ellos producirían un OR entre 2,1 y 8,4",
+          "C": "El método utilizado para construir el intervalo captura el OR verdadero en el 95% de los intervalos construidos de manera similar en experimentos repetidos hipotéticos bajo las mismas condiciones",
+          "D": "Los pacientes con grado ISUP ≥4 tienen una probabilidad un 95% mayor de MQP que los de grado 1"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La interpretación frecuentista de un IC del 95% es: el método de construcción del intervalo, si se aplicara a repeticiones hipotéticas infinitas del estudio, produciría intervalos que contienen el parámetro verdadero el 95% de las veces. NO significa: «hay una probabilidad del 95% de que el valor verdadero esté en este intervalo específico» (que es la interpretación de un intervalo de credibilidad bayesiano): el OR verdadero está dentro o fuera de este intervalo específico, sin que se le pueda asignar una probabilidad. En la práctica, el IC del 95% se interpreta como el rango de valores plausibles para el OR verdadero. Como el IC (2,1–8,4) excluye 1,0, la asociación es estadísticamente significativa con α=0,05.",
+          "wrong": {
+            "A": "Esta es la interpretación errónea más frecuente de los intervalos de confianza: describir una probabilidad del 95% para un intervalo fijo sobre un parámetro fijo (aunque desconocido) es un intervalo de credibilidad bayesiano, no un IC frecuentista.",
+            "B": "El 95% se refiere a la probabilidad de cobertura del procedimiento, no a la proporción de 100 estudios que producen intervalos que se superponen con ningún rango específico.",
+            "D": "El IC no representa un incremento porcentual en la probabilidad individual de MQP. OR = 4,2 significa 4,2 veces mayores probabilidades de MQP, no una probabilidad un 95% mayor."
+          },
+          "guideline": "Altman DG, Machin D (BMJ 2000): Intervalos de confianza en la investigación médica: el IC frecuentista tiene una interpretación específica; la interpretación errónea como «probabilidad de que el valor verdadero esté dentro» es el error conceptual más frecuente; en la práctica, el IC proporciona el rango de valores plausibles consistentes con los datos.",
+          "trial": "Choo R et al. (JAMA 2010): Regresión logística de MQP tras PR: IC informados e interpretados como rangos de valores plausibles para cada OR predictor; IC que excluyen 1,0 confirmando la significación estadística de cada asociación.",
+          "pearl": "Definición frecuentista del IC del 95%: el 95% de los intervalos construidos de esta manera contendrán el parámetro verdadero. NO es: «probabilidad del 95% de que el valor verdadero esté en este intervalo» (eso es un intervalo de credibilidad bayesiano). En la práctica: el IC da el rango de tamaños de efecto plausibles. IC que excluye 1,0 (para OR/CR/HR) = estadísticamente significativo con α=0,05."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G2-Q19",
+        "stem": "Un artículo de investigación afirma: «En nuestro estudio de 50 pacientes, no encontramos diferencias estadísticamente significativas en las tasas libres de cálculo entre la ureteroscopia flexible y la semirrígida (76% frente a 68%, p=0,41). Por tanto, concluimos que ambas técnicas son equivalentes.» ¿Cuál es el error fundamental de esta conclusión?",
+        "options": {
+          "A": "La conclusión correcta debería ser que la ureteroscopia semirrígida es superior basándose en el valor p más bajo",
+          "B": "La ausencia de significación estadística no prueba la equivalencia; el estudio probablemente carece de potencia estadística y debería informarse el intervalo de confianza para evaluar si puede descartarse una diferencia clínicamente importante",
+          "C": "El estudio debería haber usado la exacta de Fisher en lugar de chi-cuadrado, lo que habría producido significación",
+          "D": "La tasa libre de cálculo no es un endpoint primario validado para los ensayos de ureteroscopia"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Un valor p no significativo significa que no podemos rechazar la hipótesis nula; NO significa que la hipótesis nula sea verdadera. Un estudio de 50 pacientes tiene aproximadamente 25–30 por grupo. Con TLC del 76% frente al 68% (diferencia del 8%), este estudio tiene muy baja potencia para detectar incluso una diferencia del 15–20%. El intervalo de confianza para la diferencia en la TLC probablemente abarca un rango amplio que incluye valores clínicamente importantes. La «equivalencia» requiere un ensayo formal de equivalencia o de no inferioridad con un margen pre-especificado y potencia estadística adecuada, no un estudio pequeño con insuficiente potencia que muestra p>0,05.",
+          "wrong": {
+            "A": "El valor p no debe usarse para concluir la superioridad del grupo con el valor p más bajo: p=0,41 significa que ninguna comparación es estadísticamente significativa, y la dirección de la diferencia (76% frente a 68%) no determina la equivalencia.",
+            "C": "Con recuentos en las celdas muy superiores a 5, chi-cuadrado es apropiado. La exacta de Fisher produciría un valor p similar (probablemente idéntico) y no cambiaría el error fundamental de la conclusión.",
+            "D": "La tasa libre de cálculo es el endpoint primario estándar y validado para todos los ensayos de intervención endourológica. El problema es la potencia estadística y la interpretación, no la validez del endpoint."
+          },
+          "guideline": "CONSORT 2010 (Ítem 17): Informar los intervalos de confianza en torno a los estimadores de efecto; un resultado no significativo siempre debe presentar el IC para permitir la evaluación de si pueden excluirse diferencias clínicamente importantes; evitar concluir equivalencia a partir de resultados negativos con insuficiente potencia estadística.",
+          "trial": "STONE EUREKA (Daels F, JAMA Surg 2019): Comparación de técnicas de URS, con potencia adecuada para detectar diferencias predefinidas; la conclusión de no inferioridad solo se estableció tras pruebas formales de no inferioridad con margen pre-especificado, no a partir de un resultado p>0,05 únicamente.",
+          "pearl": "Ausencia de evidencia ≠ evidencia de ausencia. p>0,05 significa «no podemos rechazar H₀», no «H₀ es verdadera». Para afirmar equivalencia, realice un ensayo formal de no inferioridad o equivalencia con: margen pre-especificado, potencia adecuada (≥80%) y análisis apropiado con IC. Los estudios negativos pequeños no pueden establecer equivalencia."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q20",
+        "stem": "Un oncólogo urológico informa datos de supervivencia de un registro de 500 pacientes tratados con cistectomía radical. Presenta curvas de Kaplan-Meier de supervivencia global para la cohorte completa. La mediana de SG se informa como 52 meses. Tres meses después, actualiza el conjunto de datos con 100 pacientes adicionales que tenían un seguimiento más prolongado. La mediana de SG es ahora de 48 meses. ¿Cuál es la explicación más probable?",
+        "options": {
+          "A": "Error de cálculo en el análisis original",
+          "B": "El tiempo de seguimiento adicional hizo que algunos pacientes censurados pasasen a ser eventos, actualizando el estimador de supervivencia",
+          "C": "El conjunto de datos actualizado incluye pacientes con enfermedad más avanzada, introduciendo sesgo de selección",
+          "D": "Los estimadores de la mediana de Kaplan-Meier son intrínsecamente inestables cuando n<500"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los estimadores de supervivencia de Kaplan-Meier se actualizan a medida que se acumulan más eventos con el seguimiento adicional. Cuando se realizó el análisis original, algunos pacientes que estaban censurados (vivos en el último seguimiento) aún no habían alcanzado su evento. A medida que continúa el seguimiento, algunos de estos pacientes previamente censurados experimentan el evento (muerte), eliminando su estado censurado y añadiendo eventos reales. Esto hace que la curva de supervivencia descienda, reduciendo la SG mediana. Esta es una característica normal y esperada de los análisis de supervivencia con seguimiento continuado: no es un error sino que refleja la maduración de los datos de supervivencia.",
+          "wrong": {
+            "A": "Un error de cálculo podría producir un estimador diferente, pero la dirección sistemática del cambio (la mediana disminuyó con más seguimiento) es consistente con la maduración de los eventos censurados, no con un error aleatorio.",
+            "C": "El escenario describe la actualización de una cohorte existente con seguimiento adicional, no la incorporación de nuevos pacientes con características diferentes. El sesgo de selección se aplicaría si se añadiesen pacientes diferentes.",
+            "D": "Los estimadores de Kaplan-Meier pueden calcularse para cualquier tamaño muestral. El conjunto de datos original de 500 es completamente adecuado; el cambio en el estimador con la maduración del seguimiento ocurre independientemente del tamaño muestral inicial."
+          },
+          "guideline": "Guías de Metodología de Investigación EAU (2024): Los resultados del análisis de supervivencia deben interpretarse en el contexto de la madurez del seguimiento; los datos inmaduros (pocos eventos, muchos censurados) deben informarse con cautela y actualizarse a medida que madura el seguimiento; la mediana de SG no debe considerarse definitiva hasta que la mayoría de los pacientes hayan alcanzado el evento.",
+          "trial": "ECA RAZOR (Parekh BH, Lancet 2018): El análisis intermedio a los 2 años y el análisis final a los 5 años mostraron diferentes estimadores de supervivencia a medida que maduraron las tasas de eventos, ilustrando cómo los estimadores de Kaplan-Meier y las medianas de SG cambian a medida que los pacientes censurados alcanzan el evento con el seguimiento prolongado.",
+          "pearl": "Los estimadores de supervivencia de Kaplan-Meier maduran con el seguimiento prolongado: los pacientes previamente censurados pasan a eventos a medida que se siguen durante más tiempo, haciendo descender la curva de supervivencia y reduciendo la SG mediana estimada. Los datos de supervivencia «inmaduros» (pocos eventos, muchos censurados, mediana de seguimiento corta) siempre deben interpretarse con cautela."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

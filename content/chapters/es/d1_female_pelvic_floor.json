@@ -1,0 +1,911 @@
+{
+  "id": "D1",
+  "title": "Disfunción del Suelo Pélvico Femenino y Uroginecología",
+  "subtitle": "Bloque D — Uroginecología y Neurourología: Incontinencia de Esfuerzo, Prolapso de Órganos Pélvicos y Complicaciones de la Malla",
+  "block": "D",
+  "block_name": "Uroginecología y Neurourología",
+  "level": "R3-5",
+  "reading_time_min": 45,
+  "guidelines_version": "Guías EAU sobre Incontinencia Urinaria 2024 · Informe Conjunto IUGA/ICS sobre Terminología del Suelo Pélvico Femenino 2022 · Guía NICE NG123 Incontinencia Urinaria en la Mujer 2019 (actualizada 2024)",
+  "textbook_refs": [
+    "Haylen BT et al. An International Urogynecological Association (IUGA)/International Continence Society (ICS) Joint Report on the Terminology for Female Pelvic Floor Dysfunction. Neurourol Urodyn 2010;29:4–20",
+    "Chapple CR et al. EAU Guidelines on Urinary Incontinence. European Association of Urology 2024",
+    "Dmochowski RR et al. Update of AUA Guideline on the Surgical Management of Female SUI. J Urol 2022;208:36–42",
+    "Hilton P, Iyer A. Tension-Free Vaginal Tape (TVT) for female SUI. Neurourol Urodyn 2016;35:788",
+    "Ward KL, Hilton P. UK and Ireland TVT Trial Group. NEJM 2002;348:1199–1207",
+    "Altman D et al. Anterior Colporrhaphy versus Transvaginal Mesh for Pelvic-Organ Prolapse (PROSPECT). NEJM 2011;364:1826–1836",
+    "Brubaker L et al. Burch Colposuspension versus Fascial Sling to Reduce Urinary Stress Incontinence. NEJM 2007;356:2143–2155"
+  ],
+  "learning_objectives": [
+    "Aplicar la terminología estandarizada ICS/IUGA para la disfunción del suelo pélvico femenino incluyendo la estadificación POP-Q",
+    "Diferenciar la incontinencia urinaria de esfuerzo, de urgencia y mixta mediante la historia clínica, la exploración física y las exploraciones complementarias adecuadas",
+    "Describir las opciones quirúrgicas para la IUE femenina incluyendo TVT, TOT, colposuspensión de Burch y bandas de incisión única con su base de evidencia",
+    "Identificar y manejar las complicaciones de las bandas suburetrales sintéticas incluyendo la erosión de malla, la disfunción miccional y la vejiga hiperactiva de novo",
+    "Explicar el manejo quirúrgico del prolapso de órganos pélvicos incluyendo la reparación con tejido nativo y las indicaciones restringidas para la malla transvaginal",
+    "Asesorar adecuadamente a las pacientes sobre el contexto médico-legal de la cirugía con malla y el estado regulatorio en diferentes jurisdicciones"
+  ],
+  "sections": [
+    {
+      "id": "D1-S1",
+      "title": "Anatomía del Suelo Pélvico Femenino y Terminología Estandarizada ICS/IUGA",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Un conocimiento exhaustivo de la terminología estandarizada es la base de la práctica uroginecológica y es esencial para el rendimiento en el examen. El **Informe de Terminología Conjunto ICS/IUGA de 2010** (Haylen et al., Neurourol Urodyn 2010) proporciona la clasificación internacional definitiva para la disfunción del suelo pélvico femenino y reemplaza a todos los sistemas de terminología nacionales previos.\n\nEl suelo pélvico comprende tres compartimentos funcionales: **anterior** (vejiga, uretra, pared vaginal anterior), **medio** (útero/cúpula vaginal, soporte apical vaginal) y **posterior** (pared vaginal posterior, recto). El soporte estructural está proporcionado por tres sistemas integrados: (1) **Soporte de Nivel I** (ligamentos cardinales y uterosacros —suspensión apical/vertical), (2) **Soporte de Nivel II** (fascia pubocervical anteriormente, fascia rectovaginal posteriormente —inserción lateral al arco tendinoso de la fascia pélvica), y (3) **Soporte de Nivel III** (membrana perineal y cuerpo perineal —inserción distal). El modelo de soporte de tres niveles de DeLancey (Am J Obstet Gynecol 1994) es el marco anatómico que subyace a todas las reparaciones quirúrgicas.\n\nEl **prolapso de órganos pélvicos (POP)** se define como el descenso de los órganos pélvicos por debajo de su posición anatómica normal. El sistema **POP-Q (Cuantificación del Prolapso de Órganos Pélvicos)** —estandarizado por la ICS— utiliza seis puntos definidos (Aa, Ba, C, D, Ap, Bp) medidos en centímetros en relación con el anillo himeneal (0 = en el himen; negativo = por encima; positivo = por debajo), más la longitud vaginal total (LVT), el hiato genital (hg) y el cuerpo perineal (cp). Los estadios van del Estadio 0 (sin prolapso) al Estadio IV (eversión vaginal completa). Para la práctica clínica y los exámenes, el Estadio II (punto más dependiente en el anillo himeneal ±1 cm) representa frecuentemente el umbral para el prolapso sintomático que justifica considerar el tratamiento."
+        },
+        {
+          "type": "table",
+          "title": "Sistema POP-Q — Puntos de Referencia y Valores Normales",
+          "headers": [
+            "Punto",
+            "Localización",
+            "Valor Normal",
+            "Compartimento"
+          ],
+          "rows": [
+            [
+              "Aa",
+              "Pared vaginal anterior, 3 cm proximal al himen",
+              "−3 cm",
+              "Anterior"
+            ],
+            [
+              "Ba",
+              "Punto más distal de la pared vaginal anterior por encima de Aa",
+              "−3 cm",
+              "Anterior (cistocele)"
+            ],
+            [
+              "C",
+              "Cérvix o cúpula vaginal",
+              "Negativo (por encima del himen)",
+              "Apical"
+            ],
+            [
+              "D",
+              "Fórnix posterior (si el cérvix está presente)",
+              "Negativo (por encima del himen)",
+              "Apical"
+            ],
+            [
+              "Ap",
+              "Pared vaginal posterior, 3 cm proximal al himen",
+              "−3 cm",
+              "Posterior"
+            ],
+            [
+              "Bp",
+              "Punto más distal de la pared vaginal posterior por encima de Ap",
+              "−3 cm",
+              "Posterior (rectocele)"
+            ],
+            [
+              "LVT",
+              "Longitud vaginal total",
+              "≥8 cm",
+              "General"
+            ],
+            [
+              "hg",
+              "Hiato genital (meato uretral externo hasta himen posterior)",
+              "<4 cm (normal)",
+              "Hiato"
+            ],
+            [
+              "cp",
+              "Cuerpo perineal (himen posterior hasta abertura anal media)",
+              ">3 cm (normal)",
+              "Periné"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Estadificación POP-Q para el Examen",
+          "content": "Estadio II del POP-Q = punto más dependiente entre −1 y +1 cm en relación con el anillo himeneal. Este es el umbral de estadificación más examinado ya que típicamente se correlaciona con el prolapso sintomático. Estadio III = >+1 cm pero sin eversión completa. Estadio IV = eversión vaginal completa (LVT ≤2 cm de diferencia con el borde anterior). Conozca los seis puntos de medición (Aa, Ba, C, D, Ap, Bp) y que los valores negativos = por encima del himen, los positivos = por debajo."
+        }
+      ]
+    },
+    {
+      "id": "D1-S2",
+      "title": "Diagnóstico y Estudio de la Incontinencia Urinaria Femenina",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La incontinencia urinaria (IU) femenina se define por la ICS como cualquier pérdida involuntaria de orina. El enfoque diagnóstico diferencia la incontinencia urinaria de esfuerzo (IUE —pérdida con aumento de la presión intraabdominal), la incontinencia urinaria de urgencia (IUU —pérdida precedida de urgencia) y la incontinencia urinaria mixta (IUM —ambos componentes). La evaluación inicial incluye: historia clínica dirigida (desencadenantes de la pérdida, uso de compresas, ingesta de líquidos), cuestionarios de síntomas validados (ICIQ-UI SF —escala 0–21, con puntuaciones ≥6 que indican impacto moderado a grave), exploración física (prueba de esfuerzo con tos en litotomía y bipedestación, evaluación de POP, valoración de la fuerza del suelo pélvico), análisis de orina y un diario miccional (mínimo 3 días, máximo 7 días).\n\nLa **investigación urodinámica** NO es necesaria antes del tratamiento conservador de primera línea ni del tratamiento mínimamente invasivo para la IUE no complicada. El **ECA VUSIS-2** (Hilton, BJU Int 2012) confirmó que omitir la urodinámica preoperatoria no altera significativamente los resultados quirúrgicos para la IUE clínicamente diagnosticada sin complicaciones. La urodinámica SÍ está indicada en: (1) diagnóstico clínico incierto (cuadro mixto), (2) cirugía de incontinencia previa fallida, (3) sospecha de disfunción neurógena del tracto urinario inferior, (4) residuo postmiccional (RPM) elevado (>150 mL), (5) reparación previa de prolapso de órganos pélvicos y (6) antes de cualquier cirugía con banda o colposuspensión en mujeres con sospecha de disfunción miccional.\n\nParámetros urodinámicos clave para la IUE: **presión de cierre uretral (PCU)** < 20 cmH₂O en la perfilometría de presión uretral (PPU) define la **deficiencia intrínseca del esfínter (DIE)**; la **presión de fuga abdominal (PFA)** < 60 cmH₂O también indica DIE. Estos hallazgos influyen en la elección quirúrgica —la DIE predice mayores tasas de fracaso con TOT/bandas de incisión única en comparación con el TVT retropúbico o la banda de fascia autóloga (consenso guía AUA 2022)."
+        },
+        {
+          "type": "table",
+          "title": "Indicaciones de Urodinámica y Parámetros Clave en la IUE Femenina",
+          "headers": [
+            "Escenario",
+            "¿Se requiere Urodinámica?",
+            "Parámetro Clave",
+            "Implicación Clínica"
+          ],
+          "rows": [
+            [
+              "IUE clínica no complicada, primer tratamiento",
+              "No (VUSIS-2 2012)",
+              "Prueba de esfuerzo con tos",
+              "Proceder al tratamiento sin UDS"
+            ],
+            [
+              "IUE+IUU mixta, síntoma predominante incierto",
+              "Sí",
+              "Hiperactividad del detrusor, compliance vesical",
+              "Orienta la prioridad del tratamiento"
+            ],
+            [
+              "Banda o colposuspensión previa fallida",
+              "Sí",
+              "PCU, PFA, parámetros miccionales",
+              "Evalúa DIE vs fracaso mecánico"
+            ],
+            [
+              "Sospecha de STUI neurógenos",
+              "Sí",
+              "Compliance del detrusor, DDE, PFDE",
+              "Evalúa el riesgo del tracto urinario superior"
+            ],
+            [
+              "RPM elevado (>150 mL)",
+              "Sí",
+              "Pdet Qmax, ICI",
+              "Descarta OBV o DDA antes de la cirugía"
+            ],
+            [
+              "DIE (PFA <60 cmH₂O o PCU <20 cmH₂O)",
+              "Sí (define DIE)",
+              "PFA, PCU",
+              "Favorece TVT retropúbico o banda fascial frente a TOT"
+            ],
+            [
+              "POP-Q Estadio ≥II concomitante",
+              "Sí",
+              "PFA, test de reducción de POP (pesario)",
+              "Descarta IUE oculta enmascarada por el prolapso"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Advertencia Frecuente — IUE Enmascarada en el Prolapso de Órganos Pélvicos",
+          "content": "En las mujeres con prolapso significativo de la pared vaginal anterior (cistocele), el cuello vesical prolapsado puede crear una obstrucción funcional que enmascara la incontinencia urinaria de esfuerzo subyacente. Una prueba de esfuerzo con tos en bipedestación con un test de reducción mediante pesario (o reducción digital del prolapso) revela IUE oculta en el 30–40% de las mujeres con prolapso de Estadio III–IV. El hecho de no cribar la IUE oculta antes de la reparación del prolapso conlleva el riesgo de IUE postoperatoria de novo ('desenmascaramiento') —que puede requerir un segundo procedimiento."
+        }
+      ]
+    },
+    {
+      "id": "D1-S3",
+      "title": "Tratamiento Conservador y Farmacológico de la IUE Femenina",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El tratamiento conservador es el abordaje obligatorio de primera línea para la IUE femenina antes de cualquier intervención quirúrgica. El **entrenamiento de los músculos del suelo pélvico (EMSP)** —supervisado por un fisioterapeuta o enfermera especializada en continencia— es la piedra angular basada en la evidencia del manejo de la IUE. La revisión Cochrane de Dumoulin et al. (2018, 38 ECAs, 4.458 mujeres) confirmó que el EMSP es significativamente más eficaz que la ausencia de tratamiento para la curación de la IUE (RR 8,38, IC 95% 3,68–19,07) y la mejoría (RR 17,33). El EMSP supervisado con biorretroalimentación es superior al ejercicio domiciliario no supervisado. Se recomienda un mínimo de **12 semanas** de EMSP supervisado antes de considerar opciones quirúrgicas (EAU Grado A; NICE NG123 Grado A). Las mujeres que cumplen con el EMSP supervisado alcanzan tasas de curación del 25–60% para la IUE según la gravedad de los síntomas.\n\nLa **duloxetina** —un inhibidor de la recaptación de serotonina y noradrenalina (IRSN)— es el único agente farmacológico con indicación aprobada para la IUE moderada (aprobado en Europa, no aprobado por la FDA). Actúa aumentando la actividad del nervio pudendo durante la fase de almacenamiento, aumentando el tono del esfínter uretral. El ensayo CHORUS (Norton et al., NEJM 2002) demostró una reducción del 50% en los episodios de incontinencia frente al placebo. Sin embargo, las náuseas (25–30% de las mujeres, generalmente transitorias) y una tasa de abandono significativa limitan su aceptabilidad. La duloxetina se recomienda como opción para las mujeres que declinan la cirugía o en quienes la cirugía está contraindicada, o como puente al tratamiento quirúrgico (EAU Grado B). No debe prescribirse a mujeres con ideación suicida, insuficiencia hepática grave o aquellas en tratamiento con IMAO.\n\nLos **estrógenos** (formulación vaginal/tópica) no tratan directamente la IUE pero mejoran la salud del epitelio del tracto urinario inferior, reducen la urgencia y disminuyen el riesgo de ITU —se recomiendan como terapia complementaria en las mujeres postmenopáusicas con atrofia urogenital (EAU Grado A para urgencia; Grado B para complemento en IUE). La **THS sistémica** en realidad empeora la IUE (datos del ensayo WHI —estrógenos ± progestágeno)."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Duración y Eficacia del EMSP",
+          "content": "Tasas de curación del EMSP para IUE: 25–60% con un programa de EMSP supervisado de 12 semanas (Dumoulin Cochrane 2018). Tanto la EAU 2024 como la NICE NG123 asignan una recomendación Grado A al EMSP supervisado ≥12 semanas como tratamiento de primera línea para la IUE antes de cualquier opción quirúrgica. La duloxetina (IRSN) reduce los episodios de IUE en ~50% frente a placebo, pero con mala tolerabilidad (náuseas en el 25–30%) —aprobada en Europa, no por la FDA."
+        }
+      ]
+    },
+    {
+      "id": "D1-S4",
+      "title": "Tratamiento Quirúrgico de la IUE Femenina: Bandas Suburetrales y Colposuspensión",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Cuando el tratamiento conservador fracasa tras al menos 3 meses, se ofrece intervención quirúrgica. La **banda libre de tensión vaginal (TVT)** —una banda suburetral retropúbica introducida por Ulmsten y Petros en 1996 basada en la teoría integral de la continencia— es el tratamiento quirúrgico mínimamente invasivo más estudiado y más eficaz para la IUE femenina. El ensayo **UK TVT Trial** (Ward y Hilton, NEJM 2002) aleatorizó 344 mujeres con IUE urodinámica a TVT frente a colposuspensión abierta (Burch), demostrando tasas de curación equivalentes a los 24 meses (66% frente a 57%, p=0,14) con significativamente menor morbilidad, menor hospitalización y retorno más rápido a la actividad normal con TVT.\n\nLa **banda transobturatriz (TOT/TVT-O)** —introducida por Delorme en 2001— pasa la banda de polipropileno a través del agujero obturador en lugar del espacio retropúbico, evitando el riesgo de perforación vesical (TVT 5–7%) y lesión intestinal. El ECA TOMUS (Richter et al., NEJM 2010) aleatorizó 597 mujeres a banda retropúbica frente a transobturatriz: tasas equivalentes de curación objetiva a los 12 meses (80,8% frente a 77,7%), con tasas significativamente más altas de disfunción miccional temporal con el abordaje retropúbico (2,7% frente a 0%) pero tasas más altas de dolor inguinal/muslo con la transobturatriz (9,4% frente a 4,0%). **Consenso actual**: ambos abordajes tienen eficacia global equivalente; el TVT retropúbico se prefiere para la DIE (PFA <60 cmH₂O), mientras que el TOT se prefiere cuando una cirugía retropúbica previa reduce el espacio retropúbico seguro.\n\nLa **colposuspensión de Burch** —el procedimiento abierto o laparoscópico que eleva el cuello vesical suturando la fascia paravaginal al ligamento de Cooper— fue el estándar de oro para la IUE femenina antes de la era de las bandas suburetrales. Las tasas de curación a 5 años son del 70–85%. Sigue siendo la opción preferida para: mujeres que rechazan los implantes de malla (NICE NG123: ofrecer como alternativa), mujeres con necesidad concurrente de laparotomía/laparoscopia por otra indicación y en algunos casos de DIE. El **ECA SISTER** (Brubaker et al., NEJM 2007) comparó la banda fascial pubovaginal frente a la colposuspensión de Burch: la banda fascial tuvo mejores resultados de continencia a los 2 años (47% frente a 38% de éxito, p=0,01) pero más complicaciones urinarias. Ambas requieren anestesia general/regional a diferencia del TVT, que puede realizarse bajo anestesia local con sedación."
+        },
+        {
+          "type": "table",
+          "title": "Opciones Quirúrgicas para la IUE Femenina — Comparación de Evidencia",
+          "headers": [
+            "Procedimiento",
+            "Tasa de Curación a 5 años",
+            "Complicación Clave",
+            "Indicación Preferida",
+            "Ensayo Clave"
+          ],
+          "rows": [
+            [
+              "TVT retropúbico",
+              "80–85%",
+              "Perforación vesical 5–7%, dificultad miccional 2–7%",
+              "IUE estándar, DIE (PFA <60)",
+              "Ward/Hilton NEJM 2002"
+            ],
+            [
+              "TOT/TVT-O transobturatriz",
+              "77–82%",
+              "Dolor inguinal/muslo 9%, lesión vesical <1%",
+              "IUE estándar, cirugía retropúbica previa",
+              "TOMUS NEJM 2010"
+            ],
+            [
+              "Banda de incisión única (Altis, Ajust)",
+              "75–80%",
+              "Menos datos, mayor fracaso a corto plazo en algunas series",
+              "Bajo riesgo quirúrgico, IUE leve-moderada",
+              "Evidencia en desarrollo"
+            ],
+            [
+              "Colposuspensión de Burch (abierta/lap)",
+              "70–85%",
+              "Disfunción miccional, prolapso de pared vaginal posterior (POP de novo)",
+              "Rechazo de malla, DIE, laparotomía concomitante",
+              "SISTER NEJM 2007"
+            ],
+            [
+              "Banda fascial pubovaginal (autóloga)",
+              "85–90%",
+              "Mayor ITU, retención urinaria (>10%)",
+              "DIE, banda sintética previa fallida",
+              "SISTER NEJM 2007"
+            ],
+            [
+              "Agentes de relleno uretrales (inyectables)",
+              "30–50% (corto plazo)",
+              "Efecto temporal, inyecciones repetidas necesarias",
+              "Pacientes quirúrgicos de alto riesgo, complemento en DIE",
+              "Múltiples ECAs"
+            ],
+            [
+              "Esfínter urinario artificial (EUA)",
+              "70–80% (DIE/radiación)",
+              "Erosión 4–8%, revisión 20–40% a 10 años",
+              "DIE grave, post-radiación, fracaso de otra cirugía",
+              "Consenso de expertos"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Advertencia Frecuente — Cistoscopia Intraoperatoria tras TVT",
+          "content": "Debe realizarse cistoscopia durante CADA procedimiento de TVT para descartar perforación de la vejiga o la uretra por el trócar (incidencia 5–7%). No realizar cistoscopia intraoperatoria es un riesgo de negligencia médico-legal. Si se identifica perforación vesical, retire y vuelva a pasar el trócar, confirme la integridad cistoscópica tras el reposicionamiento e inserte un catéter uretral durante 5–7 días postoperatorios. Una perforación vesical no reconocida que no se detecta intraoperatoriamente puede conducir a la extrusión de la banda hacia la vejiga, causando hematuria intratable, STUI y encrostación litiásica que requiere incisión cistoscópica de la banda."
+        }
+      ]
+    },
+    {
+      "id": "D1-S5",
+      "title": "Complicaciones de la Malla: Erosión, Extrusión y el Panorama Regulatorio",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las complicaciones de la malla de polipropileno representan el desafío contemporáneo más significativo en uroginecología, lo que ha llevado a restricciones regulatorias en todo el mundo. Las complicaciones incluyen: **exposición/erosión vaginal de la malla** (la malla penetra el epitelio vaginal —incidencia 2–7% para las bandas suburetrales, 10–20% para la reparación del POP con malla transvaginal), **erosión uretral o vesical** (la malla penetra la uretra o la vejiga —menos frecuente pero más grave), **vejiga hiperactiva/urgencia de novo** (15–25%), **dispareunia** (5–15%), **dolor pélvico** (3–10%), **disfunción miccional** (2–15%) y **contracción de la malla** (particularmente asociada con malla de tipo 3/multifilamento o de gran peso).\n\nLos factores de riesgo para la exposición de malla incluyen: reparación concomitante del POP con malla (mayor riesgo que la banda suburetral aislada), vagina atrófica (postmenopáusica sin THS), reparación posterior concomitante, tabaquismo, diabetes, irradiación pélvica previa e inmunosupresión. **Los estrógenos tópicos** preoperatorios (6–8 semanas) en las mujeres postmenopáusicas reducen el riesgo de exposición de la malla.\n\nEl contexto regulatorio es crítico: en el **Reino Unido**, NHS England suspendió el uso de malla transvaginal para la reparación del POP en 2018 (la «pausa» sobre la malla, convertida en una política de «uso restringido» en 2024) tras la Revisión Independiente de Seguridad de Medicamentos y Dispositivos Médicos Cumberlege (2020) —que identificó fallos sistémicos en la notificación y el manejo del daño por malla. Las bandas suburetrales sintéticas TVT/TOT permanecen permitidas en el Reino Unido en centros especializados con procesos de consentimiento obligatorios. En **Australia**, la TGA retiró del mercado todos los productos de malla transvaginal para POP en 2017. En los **EE.UU.**, la FDA reclasificó la malla transvaginal para POP como Clase III (alto riesgo) en 2016 y ordenó la retirada del mercado en 2019, mientras que las bandas suburetrales permanecen como Clase II (autorizadas). La guía EAU 2024 establece que la malla transvaginal para el POP solo debe utilizarse en centros especializados con consentimiento específico del paciente y cuando la reparación con tejido nativo ha fallado o se considera inadecuada."
+        },
+        {
+          "type": "table",
+          "title": "Clasificación y Manejo de las Complicaciones de la Malla",
+          "headers": [
+            "Complicación",
+            "Incidencia",
+            "Presentación",
+            "Manejo"
+          ],
+          "rows": [
+            [
+              "Exposición vaginal de malla (Tipo 1 — puntiforme)",
+              "2–7% (BSU); 10–20% (malla POP)",
+              "Flujo vaginal, molestias en la pareja, sangrado vaginal",
+              "Estrógenos tópicos en primera línea; escisión parcial de malla si persiste"
+            ],
+            [
+              "Erosión uretral de malla",
+              "<1% (BSU)",
+              "Hematuria, STUI, infección urinaria",
+              "Cistouretroscopia; incisión/escisión endoscópica o abierta de la malla"
+            ],
+            [
+              "Erosión vesical de malla",
+              "<1% (BSU)",
+              "Hematuria, ITU de repetición, STUI",
+              "Cistoscopia; escisión con láser/endoscópica o abierta"
+            ],
+            [
+              "Vejiga hiperactiva/urgencia de novo post-banda",
+              "15–25%",
+              "Urgencia de novo ± IUU tras TVT/TOT",
+              "Descartar disfunción miccional/retención; antimuscarínicos/mirabegrón"
+            ],
+            [
+              "Disfunción miccional/retención",
+              "2–15%",
+              "Chorro débil, RPM elevado, vaciado incompleto",
+              "Dilatación uretral o incisión de la malla (corte de la banda)"
+            ],
+            [
+              "Dolor pélvico/inguinal (TOT)",
+              "3–10%",
+              "Dolor inguinal/muslo/periné, empeora con el ejercicio",
+              "Fisioterapia; inyección en punto gatillo; escisión parcial de malla"
+            ],
+            [
+              "Contracción de la malla",
+              "5–10% (malla POP)",
+              "Dolor pélvico progresivo, dispareunia, longitud vaginal reducida",
+              "Complejo: escisión parcial o completa de la malla — centro especializado"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Corte del TVT por Disfunción Miccional",
+          "content": "Una mujer de 52 años acude 8 meses tras el TVT con dificultad miccional, chorro débil, RPM 280 mL e ITU de repetición. La uroflometría muestra un patrón plano prolongado (Qmax 8 mL/s). La cistoscopia confirma que la banda TVT es visible en la uretra media sin erosión. Esta presentación —disfunción miccional tardía por una banda demasiado apretada— se maneja con incisión de la banda (corte de la banda uretral). En la mayoría de los casos, la banda uretral puede cortarse por vía transvaginal bajo anestesia local. Tasas de continencia tras la incisión de la banda por disfunción miccional: el 60–70% mantienen una continencia aceptable; el 20–30% desarrollan IUE recurrente que requiere tratamiento adicional."
+        }
+      ]
+    },
+    {
+      "id": "D1-S6",
+      "title": "Prolapso de Órganos Pélvicos: Reparación Quirúrgica y Evidencia",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La reparación quirúrgica del POP se ofrece a las mujeres sintomáticas (típicamente POP-Q Estadio II–IV) que han fracasado o declinado el manejo conservador (la colocación de pesario consigue un control satisfactorio de los síntomas en el 50–70% de las mujeres con POP). La **reparación con tejido nativo** es el abordaje quirúrgico de primera línea recomendado por todas las guías actuales, incluidas la EAU 2024, IUGA, NICE NG123 y la FDA estadounidense. El **ECA PROSPECT** (Altman et al., NEJM 2011) aleatorizó 389 mujeres con cistocele sintomático a colporrafia anterior frente a aumento con malla transvaginal anterior: el aumento con malla produjo una tasa significativamente menor de recurrencia anatómica al año (34,5% frente a 60,8%, p<0,001) pero tasas significativamente más altas de reoperación por complicaciones (8% frente a 4%) incluyendo exposición de malla, disfunción miccional y dispareunia. Este ECA cambió fundamentalmente la base de evidencia en contra del uso rutinario de malla transvaginal para el POP —un mayor éxito anatómico no se traduce en mejores resultados reportados por las pacientes cuando se tienen en cuenta las complicaciones.\n\nLos procedimientos de soporte apical son el componente más importante de la reparación del POP, ya que el fracaso al abordar los defectos apicales conlleva las mayores tasas de recurrencia del prolapso. La **suspensión del ligamento uterosacro (SLU)** y la **fijación al ligamento sacroespinoso (FLSE)** son los dos abordajes vaginales principales para la reparación del prolapso de la cúpula o uterino. El **ECA OPTIMAL** (Barber et al., NEJM 2014) encontró tasas equivalentes de éxito a los 2 años entre SLU y FLSE para la reparación del prolapso apical (71,1% frente a 64,6%, p=0,28) con diferentes perfiles de complicaciones (SLU: mayor riesgo de acodamiento ureteral; FLSE: mayor dolor glúteo postoperatorio). La **sacropexia** (abierta, laparoscópica o asistida por robot) —que suspende el ápice vaginal al promontorio sacro con una malla en Y— alcanza las mayores tasas de curación duraderas (82–95% a los 5 años) con baja exposición de malla (<3%) cuando la malla se coloca extraperitonealmente cubierta por peritoneo. El **ensayo CARE** (Brubaker NEJM 2007) demostró que la colposuspensión de Burch profiláctica en la sacropexia reduce la IUE postoperatoria sin aumentar las complicaciones."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Ensayo PROSPECT y Malla Transvaginal para POP",
+          "content": "ECA PROSPECT (Altman NEJM 2011): la malla transvaginal para el prolapso anterior mejoró la recurrencia anatómica (34,5% frente a 60,8%) pero tuvo una tasa de complicaciones/reoperación significativamente mayor (8% frente a 4%), incluyendo exposición de malla y dispareunia. Este ensayo estableció que la malla transvaginal para el POP NO debe utilizarse de forma rutinaria —reparación con tejido nativo primero, malla solo en centros especializados tras fracaso de la reparación nativa. La sacropexia (vía abdominal con malla) sigue siendo el estándar de oro para el prolapso de la cúpula: curación duradera del 82–95% a los 5 años."
+        },
+        {
+          "type": "table",
+          "title": "Opciones Quirúrgicas para el Prolapso de Órganos Pélvicos por Compartimento",
+          "headers": [
+            "Compartimento",
+            "Procedimiento",
+            "Éxito a 5 años",
+            "Complicación Clave",
+            "Nivel de Evidencia"
+          ],
+          "rows": [
+            [
+              "Anterior (cistocele)",
+              "Colporrafia anterior (tejido nativo)",
+              "60–80% (anatómica)",
+              "Recurrencia, retención urinaria",
+              "Grado A (EAU 2024)"
+            ],
+            [
+              "Anterior",
+              "Reparación paravaginal (abierta/laparoscópica)",
+              "65–75%",
+              "Disfunción miccional",
+              "Grado B"
+            ],
+            [
+              "Apical (cúpula/uterino)",
+              "Suspensión del ligamento uterosacro (SLU)",
+              "71% a 2 años",
+              "Acodamiento ureteral (4%)",
+              "ECA OPTIMAL, Grado A"
+            ],
+            [
+              "Apical",
+              "Fijación al ligamento sacroespinoso (FLSE)",
+              "65% a 2 años",
+              "Dolor glúteo, lesión nervio pudendo",
+              "ECA OPTIMAL, Grado A"
+            ],
+            [
+              "Apical",
+              "Sacropexia (laparoscópica/robótica)",
+              "82–95% a 5 años",
+              "Erosión de malla <3%, íleo",
+              "Grado A — estándar de oro"
+            ],
+            [
+              "Posterior (rectocele)",
+              "Colporrafia posterior",
+              "70–80%",
+              "Dispareunia, estreñimiento",
+              "Grado A"
+            ],
+            [
+              "Posterior",
+              "Reparación transanal (abordaje coloproctológico)",
+              "60–75%",
+              "Riesgo de fístula, dispareunia",
+              "Grado B"
+            ],
+            [
+              "Obliterativa (ancianas)",
+              "Colpocleisis (LeFort)",
+              "90–95%",
+              "Pérdida permanente de la función sexual (consentimiento del paciente)",
+              "Grado A (ancianas con comorbilidades)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D1-S7",
+      "title": "Manejo del Pesario y Alternativas No Quirúrgicas",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los **pesarios** son dispositivos de silicona o goma insertados por vía vaginal para proporcionar soporte mecánico a los órganos pélvicos prolapsados. Son el manejo conservador (no quirúrgico) principal para el POP sintomático y son apropiados en todos los estadios de POP como tratamiento de primera línea o preferido en mujeres que declinan o no pueden tolerar la cirugía, desean preservar la fertilidad (mujeres perimenopáusicas/perimenopáusicas) o que están esperando la cirugía. Los tipos más utilizados son: el **pesario de anillo** (adecuado para el prolapso anterior/posterior de Estadio I–II con soporte apical razonable), el **pesario de Gellhorn** (para el prolapso de Estadio III–IV, requiere destreza manual o extracción por un profesional) y el **pesario cúbico/estante** (para el prolapso de la cúpula tras histerectomía).\n\nSe consigue un ajuste satisfactorio del pesario en aproximadamente el **70% de las mujeres en el primer intento**; los factores que predicen el fracaso incluyen: histerectomía previa, hiato genital amplio (hg ≥4 cm) y longitud vaginal total <6 cm. El autocontrol (autoinserción/extracción) es ideal y debe fomentarse en las mujeres motivadas —permite la actividad sexual, una mejor higiene y menos visitas a la consulta. Las mujeres que no pueden autogestionarse requieren seguimiento clínico cada 3–6 meses. Las complicaciones incluyen erosión de la pared vaginal (particularmente con dispositivos mal ajustados o vagina atrófica), flujo vaginal, mal olor y raramente obstrucción del tracto de salida vesical. **Los estrógenos vaginales tópicos** (en mujeres postmenopáusicas) reducen el riesgo de erosión vaginal asociada al pesario y deben coprescribirse de forma rutinaria.\n\nLas contraindicaciones para el uso de pesario incluyen: infección vaginal activa, enfermedad inflamatoria pélvica, hemorragia vaginal sin diagnosticar, neoplasia cervical o vaginal conocida e incapacidad para cumplir con el seguimiento. Un pesario de Gellhorn olvidado o descuidado puede quedar impactado o causar necrosis por presión —puede ser necesaria la extracción bajo anestesia general para los dispositivos gravemente impactados."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Colocación Inicial del Pesario",
+          "content": "Una mujer de 65 años con prolapso anterior y apical de POP-Q Estadio III (cistocele + descenso uterino) desea evitar la cirugía debido a comorbilidades significativas (insuficiencia cardíaca NYHA III). En consulta se coloca un pesario de anillo con diafragma tras una evaluación digital lateral que confirma una longitud vaginal adecuada (LVT 8 cm) y mínimo ensanchamiento del hiato genital. Se le enseña la autoextracción, se le prescribe estrógeno tópico y se realiza seguimiento a las 6 semanas para confirmar un ajuste satisfactorio y el control de los síntomas. Si el pesario de anillo fracasa, el pesario de Gellhorn es la siguiente opción dada la gravedad del prolapso Estadio III."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Evalúe sus conocimientos sobre la disfunción del suelo pélvico femenino y la uroginecología con 20 preguntas estilo board.",
+    "questions": [
+      {
+        "id": "D1-Q1",
+        "stem": "Una mujer de 58 años refiere pérdida de orina con tos y estornudos (3–4 episodios/día), usando 3 compresas diarias. La puntuación en el ICIQ-UI SF es de 14/21. No presenta componente de urgencia. La prueba de esfuerzo clínica es positiva en bipedestación. El urocultivo es negativo. No ha recibido ningún tratamiento previo. De acuerdo con la EAU 2024 y la NICE NG123, ¿cuál es el manejo de primera línea?",
+        "options": {
+          "A": "Procedimiento TVT retropúbico",
+          "B": "Estudio urodinámico para confirmar la IUE urodinámica antes de cualquier tratamiento",
+          "C": "Entrenamiento de los músculos del suelo pélvico (EMSP) supervisado durante al menos 12 semanas",
+          "D": "Duloxetina 40 mg/12h como tratamiento farmacológico de primera línea"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Tanto la EAU 2024 (Grado A) como la NICE NG123 (Grado A) exigen un EMSP supervisado durante un mínimo de 12 semanas como tratamiento de primera línea para la IUE femenina antes de cualquier intervención quirúrgica o farmacológica. El EMSP supervisado (fisioterapeuta o enfermera especializada en continencia) con biorretroalimentación alcanza tasas de curación del 25–60% para la IUE. La cirugía solo debe ofrecerse después de que se haya probado un ensayo conservador apropiado.",
+          "wrong": {
+            "A": "El TVT es apropiado para la IUE tras el fracaso del tratamiento conservador, no como primera línea. Ofrecer cirugía antes de un ensayo de EMSP va en contra de las guías EAU 2024 y NICE NG123 y representaría un asesoramiento subóptimo.",
+            "B": "El estudio urodinámico NO es necesario antes del tratamiento de primera línea para la IUE clínica no complicada (ECA VUSIS-2, Hilton BJU Int 2012). La urodinámica es necesaria antes de la cirugía, no antes del EMSP.",
+            "D": "La duloxetina es una opción Grado B para las mujeres que declinan la cirugía o que no pueden tolerarla —no es la primera línea antes del EMSP. El EMSP siempre es de primera línea (Grado A) antes de las opciones farmacológicas o quirúrgicas."
+          },
+          "guideline": "NICE NG123 Incontinencia Urinaria en la Mujer 2019 (actualizada 2024) y Guías EAU sobre Incontinencia Urinaria 2024 — Grado A: EMSP supervisado ≥12 semanas como tratamiento de primera línea para la IUE",
+          "trial": "Dumoulin C et al. Entrenamiento de los músculos del suelo pélvico frente a ningún tratamiento o tratamientos de control inactivos para la incontinencia urinaria en mujeres. Cochrane Database Syst Rev 2018: EMSP significativamente superior a la ausencia de tratamiento para la curación de la IUE (RR 8,38)",
+          "pearl": "Primera línea de IUE = EMSP supervisado ≥12 semanas (EAU Grado A, NICE Grado A). Urodinámica NO necesaria antes del EMSP. Cirugía solo tras fracaso del tratamiento conservador."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D1-Q2",
+        "stem": "El UK TVT Trial (Ward y Hilton, NEJM 2002) comparó TVT frente a colposuspensión abierta de Burch para IUE urodinámica (n=344). ¿Cuál de las siguientes opciones describe con precisión el resultado clave a los 24 meses?",
+        "options": {
+          "A": "El TVT fue significativamente superior al Burch en la tasa de curación objetiva (85% frente a 57%)",
+          "B": "Tasas de curación equivalentes, con TVT con significativamente menor morbilidad y menor hospitalización",
+          "C": "La colposuspensión de Burch tuvo una durabilidad a largo plazo superior a los 5 años",
+          "D": "El TVT tuvo una tasa de perforación vesical significativamente mayor, anulando su beneficio"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo Ward y Hilton NEJM 2002 encontró tasas de curación equivalentes a los 24 meses entre TVT (66%) y colposuspensión de Burch (57%, p=0,14 —no estadísticamente significativo), con TVT demostrando significativamente menor morbilidad operatoria, menor estancia hospitalaria y más rápido retorno a la actividad normal. Esta equivalencia con menor morbilidad estableció el TVT como el tratamiento quirúrgico preferido para la IUE femenina, reemplazando a la colposuspensión abierta como estándar de oro.",
+          "wrong": {
+            "A": "El TVT no fue significativamente superior en la tasa de curación —la diferencia (66% frente a 57%) no fue estadísticamente significativa (p=0,14). El ensayo no tenía potencia para detectar superioridad; el hallazgo clave fue la no inferioridad con menor morbilidad.",
+            "C": "Los estudios de seguimiento a largo plazo a 5–10 años muestran una durabilidad comparable entre TVT y colposuspensión de Burch. No hay evidencia de que el Burch proporcione una durabilidad a largo plazo superior.",
+            "D": "Aunque la perforación vesical del TVT ocurre en el 5–7% (frente a <1% del Burch), esta complicación es manejable intraoperatoriamente con cistoscopia y no anula el beneficio del TVT. El perfil global de morbilidad favorece claramente al TVT."
+          },
+          "guideline": "Guías EAU sobre Incontinencia Urinaria 2024 — TVT Grado A para IUE femenina, establecido por Ward/Hilton NEJM 2002",
+          "trial": "Ward KL, Hilton P. UK and Ireland TVT Trial Group. NEJM 2002;348:1199–1207: tasas de curación equivalentes TVT frente a Burch, TVT con significativamente menor morbilidad — ensayo de referencia que establece el TVT como estándar de atención",
+          "pearl": "UK TVT Trial (Ward/Hilton NEJM 2002): TVT frente a Burch = tasas de curación EQUIVALENTES (66% frente a 57%, p=0,14) + TVT tiene significativamente MENOR morbilidad. Esto estableció el TVT como el procedimiento mínimamente invasivo estándar para la IUE femenina."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D1-Q3",
+        "stem": "Una mujer de 55 años presenta IUE y en la urodinámica se encuentra una presión de fuga abdominal (PFA) de 45 cmH₂O y una presión de cierre uretral (PCU) de 15 cmH₂O. No tiene cirugía previa. ¿Qué opción quirúrgica es más adecuada según las guías actuales?",
+        "options": {
+          "A": "Banda TOT transobturatriz — equivalente al TVT y evita el espacio retropúbico",
+          "B": "TVT retropúbico o banda fascial pubovaginal autóloga — preferidos para la deficiencia intrínseca del esfínter",
+          "C": "Banda de incisión única — opción menos invasiva, adecuada para la DIE",
+          "D": "Agentes de relleno uretrales (colágeno/PAHF) como primera opción quirúrgica para la DIE"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PFA <60 cmH₂O y PCU <20 cmH₂O definen la deficiencia intrínseca del esfínter (DIE). La evidencia de estudios comparativos y el consenso AUA 2022 indica que el TVT retropúbico y la banda fascial pubovaginal autóloga alcanzan resultados superiores para la DIE en comparación con las bandas transobturatices. Las bandas TOT/TOT-O son menos eficaces para la DIE porque proporcionan menos compresión uretral y dependen de mecanismos de soporte uretral en hamaca que son inadecuados cuando la función intrínseca del esfínter está gravemente deteriorada.",
+          "wrong": {
+            "A": "Las bandas TOT tienen tasas de éxito menores para la DIE. La Guía AUA 2022 recomienda específicamente el TVT retropúbico o la banda fascial en lugar del TOT para las mujeres con DIE (PFA <60 cmH₂O o PCU <20 cmH₂O).",
+            "C": "Las bandas de incisión única tienen evidencia insuficiente para la DIE y generalmente no se recomiendan como procedimiento de elección para este subgrupo urodinámico específico. Se consideran para IUE leve-moderada sin DIE.",
+            "D": "Los agentes de relleno uretrales (agentes inyectables) alcanzan tasas de curación a corto plazo del 30–50% y requieren inyecciones repetidas —son adecuados para pacientes de alto riesgo quirúrgico o mujeres ancianas donde se prefiere el tratamiento mínimamente invasivo, no para una mujer de 55 años en forma donde el tratamiento quirúrgico duradero es factible y esperado."
+          },
+          "guideline": "Guía AUA sobre Manejo Quirúrgico de la IUE Femenina (Dmochowski 2022): banda retropúbica o banda fascial preferidas frente a banda transobturatriz para la DIE (consenso Grado C)",
+          "trial": "Richter HE et al. ECA TOMUS. NEJM 2010;362:2066: retropúbica y transobturatriz equivalentes para IUE no complicada, pero análisis de subgrupos sugieren superioridad retropúbica para DIE",
+          "pearl": "Criterios de DIE: PFA <60 cmH₂O O PCU <20 cmH₂O. Tratamiento de elección: TVT retropúbico o banda fascial autóloga. La transobturatriz (TOT) es MENOS EFICAZ para la DIE — compresión uretral insuficiente."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q4",
+        "stem": "Durante un procedimiento de TVT para IUE femenina, el cirujano realiza cistoscopia intraoperatoria obligatoria e identifica una perforación por el trócar de la vejiga. La luz vesical muestra la banda pasando por la pared posterior de la vejiga a nivel del trígono. ¿Cuál es el manejo intraoperatorio correcto?",
+        "options": {
+          "A": "Abandonar el procedimiento — la perforación vesical significa que el TVT debe abandonarse",
+          "B": "Retirar el trócar, reintroducirlo bajo visualización cistoscópica para confirmar la posición extravesical, luego cateterizar durante 5–7 días",
+          "C": "Continuar con el TVT ignorando la perforación vesical — se resolverá solo con drenaje por catéter",
+          "D": "Convertir a cistotomía abierta para reparar la perforación antes de continuar con el TVT"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La perforación vesical durante el TVT (incidencia 5–7%) es una complicación intraoperatoria manejable —no requiere el abandono del procedimiento. El manejo correcto es: (1) retirar el trócar perforador, (2) reintroducirlo lateral a la posición original bajo visión cistoscópica directa para asegurar el paso extravesical, (3) confirmar la integridad cistoscópica tras el reposicionamiento (sin banda visible intravesicalmente) e (4) insertar un catéter uretral durante 5–7 días postoperatorios para permitir la cicatrización de la pequeña herida del trócar. El procedimiento puede continuar hasta una finalización exitosa en la gran mayoría de los casos.",
+          "wrong": {
+            "A": "La perforación vesical no requiere el abandono del procedimiento. La retirada y el repaso con confirmación cistoscópica es el protocolo de manejo establecido. Abandonar el procedimiento dejaría al paciente sin tratamiento y requeriría un segundo procedimiento.",
+            "C": "Dejar un trócar a través de la pared vesical y continuar con la banda pasando a través de la vejiga es absolutamente incorrecto. La banda sería intravesical, causando hematuria intratable, encrostación litiásica e ITU recurrentes —esto representa un error quirúrgico grave.",
+            "D": "La cistotomía abierta no es necesaria para una pequeña perforación por trócar —estas heridas cicatrizan con drenaje por catéter solo. La reparación abierta solo se requiere para lesiones grandes o complejas que no pueden manejarse de forma conservadora."
+          },
+          "guideline": "Guías EAU sobre Incontinencia Urinaria 2024 — Cistoscopia intraoperatoria obligatoria durante el TVT; manejo de la perforación vesical: retirar y reintroducir el trócar, cateterizar 5–7 días",
+          "trial": "Ward KL, Hilton P. NEJM 2002;348:1199: perforación vesical en el brazo de TVT 5–7%, todos manejados por reposicionamiento del trócar y cateterización — ningún caso requirió reparación por cistotomía",
+          "pearl": "Perforación vesical por TVT (5–7%): retirar trócar → reintroducir bajo visión cistoscópica → confirmar posición extravesical → cateterizar 5–7 días. La cistoscopia intraoperatoria obligatoria previene la perforación vesical no reconocida — el requisito de calidad más importante para el TVT."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q5",
+        "stem": "El ECA PROSPECT (Altman et al., NEJM 2011) comparó la colporrafia anterior frente al aumento con malla transvaginal anterior para el prolapso de pared vaginal anterior sintomático. ¿Cuál de las siguientes opciones describe con precisión el hallazgo principal?",
+        "options": {
+          "A": "La malla transvaginal tuvo éxito anatómico equivalente y menos complicaciones que la reparación con tejido nativo",
+          "B": "La reparación con tejido nativo tuvo recurrencia anatómica equivalente y significativamente menos complicaciones relacionadas con la malla",
+          "C": "La malla transvaginal tuvo menor recurrencia anatómica (34,5% frente a 60,8%) pero tasas de complicaciones/reoperación significativamente mayores",
+          "D": "La malla transvaginal fue superior en los resultados reportados por las pacientes al año sin diferencias significativas en complicaciones"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "PROSPECT (Altman NEJM 2011) encontró que el aumento con malla transvaginal anterior redujo significativamente la recurrencia anatómica al año (34,5% frente a 60,8%, p<0,001) en comparación con la colporrafia anterior. Sin embargo, el grupo de malla tuvo tasas significativamente más altas de cirugía por complicaciones (8% frente a 4%), incluyendo exposición de malla, disfunción miccional y dispareunia. Los resultados reportados por las pacientes no fueron significativamente diferentes. Este hallazgo estableció que el beneficio anatómico de la malla transvaginal NO se traduce en mejores resultados para las pacientes y tiene el coste de un aumento de complicaciones.",
+          "wrong": {
+            "A": "La malla transvaginal tuvo menos recurrencias pero significativamente MÁS complicaciones que la reparación con tejido nativo. La afirmación sobre menos complicaciones es incorrecta.",
+            "B": "La reparación con tejido nativo tuvo resultados reportados por las pacientes equivalentes pero recurrencia anatómica significativamente MAYOR (60,8% frente a 34,5%). La idea clave es que la recurrencia anatómica no se correlaciona bien con la molestia reportada por las pacientes para el prolapso.",
+            "D": "Los resultados reportados por las pacientes fueron similares entre los grupos (no superiores con la malla) y las complicaciones fueron significativamente mayores con la malla — lo contrario de esta afirmación."
+          },
+          "guideline": "Guías EAU sobre Incontinencia Urinaria 2024 — Malla transvaginal para POP: solo en centros especializados tras fracaso de la reparación nativa, uso restringido debido al ensayo PROSPECT y las restricciones regulatorias",
+          "trial": "Altman D et al. ECA PROSPECT. NEJM 2011;364:1826–1836: recurrencia anatómica de malla transvaginal 34,5% frente a colporrafia 60,8% (p<0,001), pero reoperación por complicaciones de malla 8% frente a 4% — ensayo de referencia que impulsa las restricciones regulatorias sobre la malla transvaginal",
+          "pearl": "Ensayo PROSPECT (Altman NEJM 2011): malla transvaginal = menor recurrencia anatómica PERO mayor tasa de complicaciones. Resultados reportados por pacientes EQUIVALENTES. Por esto la reparación con tejido nativo es de primera línea para el POP, no la malla transvaginal."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q6",
+        "stem": "Una mujer postmenopáusica de 68 años presenta un prolapso anterior de POP-Q Estadio III y un prolapso posterior de Estadio II. Prefiere evitar la cirugía. En la colocación, se coloca un pesario de anillo con soporte y está cómoda. ¿Qué tratamiento complementario debe coprescribirse de forma rutinaria para reducir las complicaciones relacionadas con el pesario?",
+        "options": {
+          "A": "Estrógenos orales (THS sistémica)",
+          "B": "Crema o pesario de estrógenos vaginales tópicos",
+          "C": "Antibióticos orales profilácticos durante 6 meses",
+          "D": "No se requiere complemento si el pesario se ajusta correctamente"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los estrógenos vaginales tópicos (en crema, anillo o pesario) reducen la atrofia de la pared vaginal, mejoran la integridad del epitelio y reducen significativamente el riesgo de erosión y ulceración de la pared vaginal asociada con el uso de pesario en las mujeres postmenopáusicas con atrofia urogenital. Tanto la EAU 2024 como la NICE NG123 recomiendan la coprescripción rutinaria de estrógenos vaginales tópicos en las mujeres postmenopáusicas que usan pesarios. Los estrógenos tópicos tienen una absorción sistémica insignificante y no conllevan el riesgo de cáncer de mama asociado con la THS sistémica.",
+          "wrong": {
+            "A": "La THS sistémica (estrógenos orales ± progestágeno) en realidad EMPEORA la incontinencia urinaria de esfuerzo (datos del ensayo WHI) y conlleva riesgos sistémicos incluido el aumento del riesgo de TEV y cáncer de mama con las preparaciones combinadas. Los estrógenos vaginales tópicos son la formulación adecuada —actúan localmente sin absorción sistémica significativa.",
+            "C": "Los antibióticos profilácticos no se recomiendan para el uso rutinario de pesario. Los antibióticos solo están indicados para la ITU activa diagnosticada por cultivo. Los antibióticos profilácticos a largo plazo promueven la resistencia antibiótica.",
+            "D": "Incluso un pesario correctamente ajustado en una mujer postmenopáusica con atrofia urogenital causará erosión si no se coprescriben estrógenos tópicos. El epitelio atrófico es más susceptible a la presión mecánica del dispositivo."
+          },
+          "guideline": "Guías EAU sobre Incontinencia Urinaria 2024 — Uso de pesario: coprescribir estrógenos vaginales tópicos en mujeres postmenopáusicas para reducir el riesgo de erosión (Grado A)",
+          "trial": "Hagen S et al. Manejo conservador del POP. Revisión Cochrane 2017: los estrógenos tópicos reducen el riesgo de erosión vaginal con el uso de pesario en mujeres postmenopáusicas — complemento basado en la evidencia para el manejo del pesario",
+          "pearl": "Pesario + mujer postmenopáusica = siempre coprescribir estrógenos VAGINALES TÓPICOS (no THS sistémica). Reduce la erosión relacionada con la atrofia. Los estrógenos sistémicos EMPEORAN la IUE (ensayo WHI). Los estrógenos tópicos tienen absorción sistémica insignificante."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D1-Q7",
+        "stem": "Una mujer de 62 años, 6 meses tras TVT por IUE, presenta dispareunia, flujo vaginal y un hilo de malla blanco visible en la pared vaginal anterior. Se confirma como una exposición de malla de Tipo 1 parcial (1 cm). ¿Cuál es el manejo de primera línea adecuado?",
+        "options": {
+          "A": "Extracción completa de la malla (escisión total del TVT) bajo anestesia general urgente",
+          "B": "Estrógenos tópicos durante 6–8 semanas; si no hay mejoría, escisión parcial de la malla",
+          "C": "Biopsia guiada por colposcopia para descartar malignidad, luego escisión de la malla",
+          "D": "Dejar in situ — las exposiciones de malla pequeñas <2 cm se resuelven espontáneamente sin tratamiento"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Una pequeña exposición de malla puntiforme (Tipo 1, <1 cm) en una mujer postmenopáusica puede responder al manejo conservador con estrógenos vaginales tópicos, que mejoran la integridad epitelial y promueven la reepitelización sobre la malla expuesta. La EAU 2024 recomienda los estrógenos tópicos como primera línea para las pequeñas exposiciones de malla. Si esto fracasa tras 6–8 semanas, la escisión parcial de la malla bajo anestesia local o general es adecuada. La extracción completa del TVT es compleja, se asocia con IUE recurrente (40–60% tras la escisión) y se reserva para complicaciones de malla sintomáticas que no responden al manejo conservador.",
+          "wrong": {
+            "A": "La extracción completa de la malla no es el manejo de primera línea para una exposición de malla de 1 cm. La escisión total del TVT es un procedimiento complejo con altas tasas de recurrencia de IUE (40–60%) y se reserva para los casos que fracasan con el manejo conservador, erosión hacia la vejiga/uretra o contracción/dolor grave de la malla.",
+            "C": "La biopsia no es necesaria para una exposición de malla típica post-TVT en el contexto clínico esperado. La malignidad solo debe sospecharse si hay características atípicas (ulceración, masa dura, hemorragia inexplicable) o si la exposición está en una localización inesperada.",
+            "D": "Las pequeñas exposiciones de malla no se resuelven sin tratamiento en mujeres postmenopáusicas con epitelio vaginal atrófico. Se requiere manejo activo (estrógenos tópicos) para promover la reepitelización."
+          },
+          "guideline": "Guías EAU sobre Incontinencia Urinaria 2024 — Manejo de la exposición de malla: estrógenos tópicos en primera línea para pequeñas exposiciones; escisión parcial si fracasa el tratamiento conservador",
+          "trial": "Muir TW, Tulikangas PK, Fidela Paraiso M. Exposición de malla de TVT: resultados tras escisión parcial. Obstet Gynecol 2003;102:974: la escisión parcial fue exitosa en >80% de los casos para exposiciones de malla de pequeño a moderado tamaño",
+          "pearl": "Exposición de malla de TVT: pequeña (<2 cm) → estrógenos tópicos en primera línea (6–8 semanas) → escisión parcial de malla si no hay respuesta. La extracción completa de la malla = último recurso (recurrencia de IUE 40–60%). Exposiciones grandes, erosión vesical/uretral o dolor grave → derivación a centro especializado para escisión."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q8",
+        "stem": "En el sistema POP-Q, una mujer tiene las siguientes medidas en la maniobra de Valsalva máxima: Aa = +1 cm, Ba = +4 cm, C = −3 cm, D = −5 cm, Ap = −2 cm, Bp = −2 cm, LVT = 9 cm. ¿Qué estadio POP-Q representa esto y qué compartimento está principalmente afectado?",
+        "options": {
+          "A": "Estadio II, prolapso apical (descenso uterino)",
+          "B": "Estadio III, prolapso del compartimento anterior (cistocele) con soporte apical y posterior normal",
+          "C": "Estadio IV, eversión vaginal completa",
+          "D": "Estadio II, prolapso del compartimento posterior (rectocele)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El prolapso Estadio III se define como el punto más dependiente entre +1 cm y (LVT − 2 cm) = 7 cm. Ba = +4 cm cumple los criterios del Estadio III (>+1 cm pero <+7 cm). El punto anteriormost Ba representa la pared vaginal anterior (cistocele) y es el punto más dependiente a +4 cm. El soporte apical es normal (C = −3 cm, bien por encima del himen). La pared posterior es normal (Bp = −2 cm). Se trata de un prolapso anterior aislado de Estadio III (cistocele).",
+          "wrong": {
+            "A": "El prolapso apical requeriría que C o D fueran positivos (en el himen o por debajo). Aquí C = −3 cm (por encima del himen = normal). El soporte uterosacro/apical está intacto.",
+            "C": "El Estadio IV requiere que el punto más dependiente sea ≥(LVT − 2 cm) = ≥7 cm. Ba = +4 cm < +7 cm — esto es Estadio III, no Estadio IV. El Estadio IV requeriría Ba ≥ +7 cm.",
+            "D": "El prolapso del compartimento posterior se manifestaría como Bp positivo (por debajo del himen). Aquí Bp = −2 cm — la pared posterior está dentro de los límites normales. El prolapso es aislado del compartimento anterior."
+          },
+          "guideline": "Informe de Terminología ICS/IUGA (Haylen 2010) — Estadificación POP-Q: Estadio 0 = sin descenso; Estadio I = punto más dependiente >1 cm por encima del himen; Estadio II = ±1 cm del himen; Estadio III = >1 cm por debajo del himen pero sin eversión completa; Estadio IV = eversión completa",
+          "trial": "Bump RC et al. La estandarización de la terminología del prolapso de órganos pélvicos femeninos y la disfunción del suelo pélvico. Am J Obstet Gynecol 1996;175:10–17: artículo original del POP-Q que establece el sistema de medición de 9 puntos",
+          "pearl": "POP-Q Ba = pared vaginal anterior más distal = mide la gravedad del cistocele. Ba > +1 cm = prolapso anterior Estadio III (cistocele). Ápice normal (C negativo) = soporte apical intacto. Estadio POP-Q = determinado por el punto MÁS DEPENDIENTE."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D1-Q9",
+        "stem": "El ECA TOMUS (Richter et al., NEJM 2010) aleatorizó 597 mujeres a banda suburetral retropúbica frente a transobturatriz. ¿Cuáles fueron las diferencias clave en los perfiles de complicaciones entre los dos abordajes?",
+        "options": {
+          "A": "Retropúbica: mayor dolor inguinal. Transobturatriz: mayor perforación vesical",
+          "B": "Retropúbica: mayor disfunción miccional (2,7% frente a 0%). Transobturatriz: mayor dolor inguinal/muslo (9,4% frente a 4,0%)",
+          "C": "Tasas de complicaciones equivalentes, con bandas retropúbicas que demuestran mejores tasas de ausencia de litiasis",
+          "D": "Retropúbica: mayor erosión de malla. Transobturatriz: mayor tasa de lesión vesical"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "TOMUS (Richter NEJM 2010) encontró tasas equivalentes de curación objetiva a los 12 meses (80,8% retropúbica frente a 77,7% transobturatriz, p=0,37) con diferentes perfiles de complicaciones: las bandas retropúbicas tuvieron mayor disfunción miccional temporal (2,7% frente a 0%, p=0,01), mientras que las bandas transobturatices tuvieron mayor dolor inguinal/muslo (9,4% frente a 4,0%, p=0,004). La perforación vesical fue mayor con la retropúbica (6,0% frente a 0,3%, p<0,001). Estos datos orientan la selección de la banda específica para cada paciente.",
+          "wrong": {
+            "A": "Está invertido — la retropúbica causa mayor disfunción miccional Y perforación vesical; la transobturatriz causa mayor dolor inguinal, no perforación vesical.",
+            "C": "TOMUS comparó bandas para la incontinencia urinaria, no para la cirugía litiásica. La tasa de ausencia de litiasis no es un resultado relevante. Ambas bandas tuvieron tasas de curación global equivalentes.",
+            "D": "Las tasas de erosión de malla fueron equivalentes entre los dos abordajes en TOMUS. La retropúbica tuvo mayor perforación vesical (6,0% frente a 0,3%); la erosión de malla no fue significativamente diferente entre los grupos."
+          },
+          "guideline": "Guías EAU sobre Incontinencia Urinaria 2024 — TVT frente a TOT: tasas de curación equivalentes, diferentes perfiles de complicaciones según lo establecido por el ECA TOMUS",
+          "trial": "Richter HE et al. ECA TOMUS. NEJM 2010;362:2066–2076: curación a 12 meses: retropúbica 80,8% frente a transobturatriz 77,7% (p=0,37); retropúbica con mayor disfunción miccional y perforación vesical; transobturatriz con mayor dolor inguinal",
+          "pearl": "ECA TOMUS (Richter NEJM 2010): TVT frente a TOT = curación EQUIVALENTE. TVT: mayor perforación vesical (6%) + disfunción miccional. TOT: mayor dolor inguinal/muslo (9,4%). Elegir TVT para DIE; TOT cuando hay cirugía retropúbica previa."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q10",
+        "stem": "Una mujer de 72 años con múltiples comorbilidades (EPOC, insuficiencia cardíaca, IMC 34) presenta un prolapso vaginal completo de POP-Q Estadio IV. Es viuda y confirma que no desea mantener la función sexual. ¿Cuál es la opción quirúrgica más adecuada?",
+        "options": {
+          "A": "Sacropexia laparoscópica — estándar de oro independientemente de la edad o comorbilidad del paciente",
+          "B": "Colpocleisis de Le Fort (reparación obliterativa) — adecuada para mujeres ancianas sin requerimientos de función sexual",
+          "C": "Reparación con malla transvaginal — mayor tasa de éxito que la reparación con tejido nativo",
+          "D": "Solo manejo con pesario — la cirugía es de muy alto riesgo en esta paciente"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La colpocleisis de Le Fort (colpocleisis parcial) o la colpocleisis total es una reparación obliterativa que alcanza tasas de curación anatómica del 90–95% y es adecuada para las mujeres ancianas y frágiles que no desean preservar la función vaginal. Es significativamente menos mórbida que la cirugía reconstructiva del prolapso (menor tiempo de anestesia, menor pérdida de sangre, recuperación más rápida) y alcanza las mayores tasas de curación de cualquier reparación del POP. Condición previa obligatoria: la paciente comprende y consiente la pérdida permanente de la función sexual vaginal penetrante y la pérdida del acceso directo al examen cervical (la citología vaginal sigue siendo posible con canales de drenaje). La paciente confirma explícitamente que no tiene requerimientos de función sexual.",
+          "wrong": {
+            "A": "La sacropexia laparoscópica es el estándar de oro para la reparación del prolapso de la cúpula en mujeres que desean mantener la función sexual, pero conlleva mayor morbilidad operatoria que la colpocleisis. En una paciente anciana con múltiples comorbilidades que no requiere función vaginal, la sacropexia es un sobretratamiento.",
+            "C": "La malla transvaginal está restringida a centros especializados para la reparación nativa fallida (restricciones regulatorias post-ensayo PROSPECT y retiradas de mallas en el Reino Unido/Australia). No es adecuada como tratamiento primario en este contexto.",
+            "D": "El manejo con pesario es adecuado como tratamiento conservador de primera línea, pero la paciente tiene un prolapso vaginal completo de POP-Q Estadio IV — el ajuste del pesario es técnicamente muy difícil (alta tasa de fracaso) en este estadio. La colpocleisis es la opción quirúrgica definitiva de baja morbilidad adecuada dados sus criterios."
+          },
+          "guideline": "Guías EAU sobre Incontinencia Urinaria 2024 — Procedimientos obliterativos (colpocleisis): recomendación Grado A para mujeres ancianas/frágiles con POP Estadio III–IV que no desean mantener la función sexual",
+          "trial": "Barber MD et al. Banda de incisión única comparada con cinta libre de tensión vaginal para la incontinencia urinaria de esfuerzo. NEJM 2014: colpocleisis 90–95% de éxito en mujeres ancianas frágiles — referenciado en múltiples revisiones sistemáticas como estándar de oro para esta población",
+          "pearl": "Colpocleisis (Le Fort/obliterativa) = 90–95% de curación para POP Estadio III–IV en mujeres ancianas sin requerimiento de función sexual. Mucho menos mórbida que los procedimientos reconstructivos. Requisito de CONSENTIMIENTO CRÍTICO: pérdida permanente de la función vaginal penetrante."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q11",
+        "stem": "Una mujer con incontinencia urinaria tiene los siguientes hallazgos urodinámicos: presión máxima del detrusor en el flujo máximo (PdetQmax) 22 cmH₂O, Qmax 12 mL/s, capacidad cistométrica máxima 320 mL, sin contracciones no inhibidas del detrusor y PFA 80 cmH₂O. Calcule el IOBV y el ICD e interprete los hallazgos.",
+        "options": {
+          "A": "IOBV = −2, ICD = 82 — no obstruida con contractilidad normal; diagnosticar IUE como el problema principal",
+          "B": "IOBV = 58, ICD = 145 — obstruida con detrusor fuerte; diagnosticar OBV",
+          "C": "IOBV = −2, ICD = 82 — confirma hipoactividad del detrusor como causa de la incontinencia",
+          "D": "La fórmula IOBV no se aplica a las mujeres"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "IOBV = PdetQmax − 2×Qmax = 22 − (2×12) = 22 − 24 = −2. IOBV < 20 = no obstruida. ICD = PdetQmax + 5×Qmax = 22 + (5×12) = 22 + 60 = 82. ICD 100–150 = contractilidad normal (ICD >150 = fuerte; ICD <100 = DDA). Estos valores confirman: sin obstrucción del tracto de salida vesical (IOBV −2), contractilidad del detrusor normal (ICD 82 — borderline normal/DDA pero dentro del rango normal). PFA 80 cmH₂O (>60 = sin DIE). La paciente tiene incontinencia urinaria de esfuerzo con urodinámica por lo demás normal — adecuada para banda suburetral estándar.",
+          "wrong": {
+            "B": "IOBV 58 e ICD 145 requerirían PdetQmax de 70 y Qmax de 6 — no los valores dados. El cálculo en esta opción es aritméticamente incorrecto para los valores urodinámicos dados.",
+            "C": "ICD 82 está en el extremo inferior del rango normal pero NO en el rango de DDA (<100). La DDA (hipoactividad del detrusor) requeriría ICD <100 con características urodinámicas acompañantes de chorro débil y vaciado incompleto de la vejiga. El cálculo es correcto pero la interpretación de DDA es incorrecta — 82 está en el límite pero dentro del rango normal en contexto.",
+            "D": "El nomograma IOBV fue originalmente derivado y validado en hombres (Abrams, Griffiths). Aunque los puntos de corte (>40 obstruido, <20 no obstruido) están menos validados en mujeres, la fórmula se aplica en la urodinámica femenina para la evaluación de OBV. Esta respuesta es excesivamente excluyente."
+          },
+          "guideline": "Estándares de Urodinámica ICS (Schafer 2002): IOBV = PdetQmax − 2×Qmax (>40 obstruido; <20 no obstruido); ICD = PdetQmax + 5×Qmax (>150 fuerte; 100–150 normal; <100 DDA)",
+          "trial": "Abrams PH, Griffiths DJ. La evaluación de la obstrucción prostática a partir de medidas urodinámicas y de la orina residual. Br J Urol 1979;51:129: derivación original de la fórmula IOBV (número de Abrams-Griffiths)",
+          "pearl": "IOBV = PdetQmax − 2×Qmax (>40 = obstruido; <20 = no obstruido). ICD = PdetQmax + 5×Qmax (>150 = fuerte; 100–150 = normal; <100 = DDA). Memorice ambas fórmulas y sus umbrales — siempre se examinan."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D1-Q12",
+        "stem": "¿En cuál de los siguientes escenarios es OBLIGATORIO el estudio urodinámico antes de proceder al tratamiento quirúrgico de la IUE femenina?",
+        "options": {
+          "A": "Una mujer de 45 años con IUE clínica sencilla confirmada por prueba de esfuerzo con tos en bipedestación positiva y uso de 2 compresas diarias, sin cirugía previa",
+          "B": "Una mujer de 60 años con síntomas mixtos (IUE + urgencia), que ha fracasado en dos ciclos de antimuscarínicos y tiene un RPM elevado de 180 mL en la ecografía vesical",
+          "C": "Una mujer de 50 años con IUE clínica y prueba de esfuerzo negativa en la exploración (pero historia positiva)",
+          "D": "Una mujer de 55 años con IUE clínica que solicita TVT, IMC preoperatorio de 28, sin cirugía pélvica previa"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Esta paciente tiene síntomas mixtos (IUE + IUU), ha fracasado en los antimuscarínicos y tiene un RPM elevado (180 mL) — los tres son indicaciones para el estudio urodinámico antes de la cirugía. El RPM elevado (>150 mL) es particularmente importante: puede indicar disfunción miccional, obstrucción del tracto de salida vesical o hipoactividad del detrusor — condiciones que deben caracterizarse antes de un procedimiento con banda que podría empeorar el vaciado. Los síntomas mixtos con fracaso del tratamiento requieren urodinámica para determinar el mecanismo predominante y orientar el abordaje quirúrgico.",
+          "wrong": {
+            "A": "La IUE clínica sencilla con prueba de esfuerzo con tos positiva, sin cirugía previa y sin síntomas mixtos NO requiere urodinámica antes del tratamiento de primera línea (EMSP) ni antes de la cirugía con banda en la mayoría de los países. El ensayo VUSIS-2 confirmó que omitir la urodinámica no compromete los resultados en este escenario.",
+            "C": "Una prueba de esfuerzo negativa en la exploración a pesar de una historia clara de IUE debe incitar a repetir la prueba posicional (de pie, vejiga llena), no urodinámica obligatoria. Si la prueba de esfuerzo es positiva en una posición alternativa, el diagnóstico clínico es suficiente.",
+            "D": "Una presentación de IUE clínica sencilla con TVT planificado en una mujer de 55 años sin factores complicantes no requiere urodinámica según la EAU 2024 ni la NICE NG123. El diagnóstico clínico con prueba de esfuerzo positiva es suficiente."
+          },
+          "guideline": "Guías EAU sobre Incontinencia Urinaria 2024 — Urodinámica en IUE: NO requerida para IUE no complicada de primera vez; REQUERIDA para síntomas mixtos con fracaso del tratamiento, RPM elevado, STUI neurógenos, cirugía previa fallida",
+          "trial": "Hilton P. ECA VUSIS-2. BJU Int 2012: omitir la urodinámica antes de la cirugía para la IUE clínica sencilla no altera significativamente los resultados quirúrgicos — base validada para la EAU Grado A 'urodinámica no obligatoria para IUE no complicada'",
+          "pearl": "Urodinámica NO requerida antes de cirugía de IUE en casos no complicados (VUSIS-2 2012, EAU Grado A). REQUERIDA cuando: síntomas mixtos + fracaso del tratamiento, RPM >150 mL, STUI neurógenos, cirugía previa fallida, sospecha de DIE, POP concurrente."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q13",
+        "stem": "El ECA OPTIMAL (Barber et al., NEJM 2014) comparó la suspensión del ligamento uterosacro (SLU) frente a la fijación al ligamento sacroespinoso (FLSE) para el prolapso de la cúpula vaginal o uterino. ¿Cuál fue el hallazgo clave?",
+        "options": {
+          "A": "La SLU fue significativamente superior a la FLSE en la tasa de curación apical (85% frente a 64%) a los 2 años",
+          "B": "Tasas de éxito equivalentes a los 2 años, con SLU con mayor acodamiento ureteral y FLSE con mayor dolor glúteo",
+          "C": "La FLSE fue significativamente superior debido a menor riesgo de prolapso recurrente",
+          "D": "Ambos procedimientos tuvieron éxito equivalente y perfiles de complicaciones equivalentes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "OPTIMAL (Barber NEJM 2014) aleatorizó 374 mujeres a SLU frente a FLSE para la reparación del prolapso apical. Las tasas de éxito a los 2 años fueron equivalentes (71,1% SLU frente a 64,6% FLSE, p=0,28). Sin embargo, la SLU tuvo una tasa significativamente mayor de acodamiento/obstrucción ureteral que requirió tutorización ureteral intraoperatoria (4,1% frente a 0%, p<0,001), mientras que la FLSE tuvo mayor dolor glúteo postoperatorio (9,1% frente a 3,7%, p=0,04). La cistoscopia tras la SLU es obligatoria para descartar lesión ureteral.",
+          "wrong": {
+            "A": "El éxito de la SLU a los 2 años fue del 71,1%, no del 85%, y no fue estadísticamente significativamente diferente de la FLSE (64,6%). No hubo superioridad significativa de la SLU frente a la FLSE.",
+            "C": "La FLSE no fue significativamente superior — los dos procedimientos tuvieron tasas de éxito equivalentes. El éxito de la FLSE fue numéricamente menor (64,6%) pero no de forma significativa.",
+            "D": "Los perfiles de complicaciones fueron diferentes: la SLU causó más acodamiento ureteral (4,1% frente a 0%); la FLSE causó más dolor glúteo (9,1% frente a 3,7%). Éxito equivalente + diferentes complicaciones es el resumen correcto."
+          },
+          "guideline": "Guías EAU sobre Incontinencia Urinaria 2024 — Reparación del prolapso apical: SLU y FLSE ambas Grado A, con diferentes perfiles de complicaciones; cistoscopia obligatoria tras SLU para descartar lesión ureteral",
+          "trial": "Barber MD et al. ECA OPTIMAL. NEJM 2014;371:1014–1023: SLU frente a FLSE éxito equivalente a 2 años (71,1% frente a 64,6%, p=0,28); acodamiento ureteral SLU 4,1% frente a FLSE 0%; dolor glúteo FLSE 9,1% frente a SLU 3,7%",
+          "pearl": "ECA OPTIMAL (Barber NEJM 2014): SLU frente a FLSE = éxito apical EQUIVALENTE a 2 años. SLU: mayor acodamiento ureteral (4%) → cistoscopia intraoperatoria obligatoria. FLSE: mayor dolor glúteo (9%) por estiramiento pudendo/ciático."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q14",
+        "stem": "¿Cuál de las siguientes es la descripción más precisa del mecanismo de acción de la banda suburetral TVT (banda libre de tensión vaginal) basada en la teoría integral?",
+        "options": {
+          "A": "El TVT eleva el cuello vesical al espacio retropúbico, restaurando el ángulo uretrovesical posterior",
+          "B": "El TVT comprime la uretra media contra la fascia pubovesical durante los aumentos de presión intraabdominal, proporcionando un soporte dinámico en hamaca",
+          "C": "El TVT aumenta el tono intrínseco del esfínter uretral mediante neuroestimulación del nervio pudendo",
+          "D": "El TVT crea una obstrucción estática en el cuello vesical para prevenir la pérdida"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La teoría integral (Petros y Ulmsten, 1990) propone que la IUE resulta de la laxitud de los ligamentos pubouretlales y la pared vaginal anterior, causando un soporte inadecuado para la uretra media durante los aumentos de presión intraabdominal. El TVT proporciona una 'hamaca' dinámica de soporte debajo de la uretra media —no en el cuello vesical— que comprime la uretra contra la fascia pubovesical durante la tos, los estornudos o el ejercicio. La colocación sin tensión permite la micción normal al no obstruir la uretra en reposo, mientras proporciona soporte dinámico durante el esfuerzo.",
+          "wrong": {
+            "A": "Restaurar el ángulo uretrovesical (UV) posterior es el mecanismo de la colposuspensión de Burch (eleva la fascia paravaginal al ligamento de Cooper, elevando indirectamente el cuello vesical). El TVT actúa en la uretra media, no en el cuello vesical.",
+            "C": "El TVT no estimula la actividad del nervio pudendo. La estimulación del nervio pudendo es un mecanismo propuesto de la duloxetina (IRSN) y la neuromodulación sacra — no del soporte mecánico de la banda.",
+            "D": "El TVT es LIBRE DE TENSIÓN — no proporciona ninguna obstrucción estática en reposo. La micción es normal con un TVT correctamente colocado. La obstrucción estática causaría disfunción miccional y retención, lo que representa una complicación de la colocación de la banda demasiado apretada."
+          },
+          "guideline": "Guías EAU sobre Incontinencia Urinaria 2024 — Mecanismo de la banda suburetral: soporte uretral dinámico basado en la teoría integral (Petros y Ulmsten 1990)",
+          "trial": "Ulmsten U, Petros P. Cabestrillo intravaginal (IVS): un procedimiento quirúrgico ambulatorio para el tratamiento de la incontinencia urinaria femenina. Scand J Urol Nephrol 1995;29:75: artículo fundacional que establece la teoría integral y el mecanismo del TVT",
+          "pearl": "Mecanismo del TVT (teoría integral, Petros/Ulmsten): soporte en hamaca DINÁMICO en la URETRA MEDIA (no en el cuello vesical). Comprime la uretra media durante los aumentos de presión intraabdominal. Sin tensión = sin obstrucción en reposo. Burch = elevación estática del CUELLO VESICAL."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q15",
+        "stem": "Una mujer de 50 años presenta IUE recurrente 4 años tras el TVT inicial con curación de 2 años. En la exploración tiene un prolapso de la pared vaginal anterior de grado 2 y una prueba de esfuerzo con tos levemente positiva. La urodinámica muestra PFA 55 cmH₂O, PCU 18 cmH₂O y sin hiperactividad del detrusor. La prueba de movilidad uretral muestra una uretra fija. ¿Qué sugiere este cuadro urodinámico y cuál es el manejo quirúrgico más adecuado?",
+        "options": {
+          "A": "Hiperactividad del detrusor que causa pseudo-IUE — tratar con antimuscarínicos",
+          "B": "DIE con uretra hipomóvil fija — preferible re-TVT retropúbico o banda fascial autóloga",
+          "C": "Urodinámica normal — ofrecer EMSP antes de considerar la reoperación",
+          "D": "Obstrucción del cuello vesical por el TVT original — incidir la banda original"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PFA 55 cmH₂O (<60) y PCU 18 cmH₂O (<20) confirman DIE. Una uretra hipomóvil fija (evaluación positiva de movilidad uretral que muestra movimiento limitado) tras el TVT previo sugiere que la cicatrización del procedimiento original ha limitado la movilidad uretral —esto hace que las bandas TOT/transobturatices sean menos eficaces (dependen de la movilidad uretral para el mecanismo de hamaca). Para la DIE con una uretra fija y cicatrizada tras una banda previa fallida, la guía AUA 2022 recomienda la banda fascial pubovaginal autóloga o la re-TVT retropúbica (con adhesiolisis cuidadosa) como opciones preferidas. El esfínter urinario artificial (EUA) es una alternativa en la DIE grave.",
+          "wrong": {
+            "A": "No hay hiperactividad del detrusor en la urodinámica — esto es IUE genuina con DIE. Los antimuscarínicos abordan la VH/urgencia, no la IUE, y serían inapropiados.",
+            "C": "El EMSP para IUE recurrente tras fracaso del TVT es poco probable que sea eficaz como tratamiento independiente — el soporte estructural ha fallado. La urodinámica confirma DIE: está indicado un manejo activo, no más tratamiento conservador como recomendación principal.",
+            "D": "La incisión de la banda es el tratamiento para la disfunción miccional (banda demasiado apretada) — no para la IUE recurrente (banda demasiado laxa o fallida). Cortar la banda original empeoraría o restauraría la IUE pre-banda y es el abordaje equivocado."
+          },
+          "guideline": "Guía AUA sobre Manejo Quirúrgico de la IUE Femenina 2022 — IUE recurrente tras banda previa: urodinámica requerida; DIE con uretra fija: banda fascial o TVT retropúbico preferidos frente a TOT",
+          "trial": "Brubaker L et al. ECA SISTER. NEJM 2007;356:2143: banda fascial superior a Burch para IUE (47% frente a 38% de éxito, p=0,01), particularmente en DIE; referencia para la banda fascial autóloga en IUE compleja/recurrente",
+          "pearl": "IUE recurrente post-TVT con DIE (PFA <60, PCU <20) + uretra fija = banda fascial autóloga o re-TVT retropúbico. La banda transobturatriz es ineficaz para DIE + uretra fija. EUA si DIE grave o múltiples bandas fallidas."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D1-Q16",
+        "stem": "Una mujer de 58 años, 8 meses después de una colporrafia anterior por prolapso del compartimento anterior (POP-Q Ba = +4 cm preoperatorio), desarrolla nuevos síntomas de incontinencia urinaria de esfuerzo que no tenía antes de la cirugía. Preoperatoriamente, su prueba de esfuerzo con tos fue negativa incluso con el prolapso totalmente reducido. ¿Cuál es la explicación más probable?",
+        "options": {
+          "A": "La colporrafia anterior causó elevación del cuello vesical, resultando en IUE",
+          "B": "IUE de novo postoperatoria por fracaso al cribar la IUE oculta en la prueba de reducción del prolapso preoperatoria",
+          "C": "La paciente tenía IUE todo el tiempo que estaba enmascarada por urgencia de la VH",
+          "D": "La erosión de malla de la reparación anterior está causando irritación uretral"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este es un escenario clásico de IUE postoperatoria de novo tras la reparación del prolapso, causada por el 'desenmascaramiento' de la IUE oculta. El prolapso de la pared vaginal anterior había creado una unión uretrovesical angulada que proporcionaba una 'obstrucción' funcional que enmascaraba la IUE subyacente. Tras la reducción quirúrgica del prolapso, se alivia esta obstrucción funcional, revelando la IUE subyacente. De forma crítica, la prueba de esfuerzo con tos preoperatoria se realizó SIN reducción del prolapso —fue negativa porque el prolapso enmascaraba la IUE. Una prueba de esfuerzo preoperatoria con pesario o reducción digital habría identificado la IUE oculta en el 30–40% de las mujeres con prolapso anterior Estadio III. A esta paciente se le debería haber informado preoperatoriamente del riesgo de IUE de novo y haberse ofrecido un procedimiento antiincontinencia concurrente o una banda profiláctica.",
+          "wrong": {
+            "A": "La colporrafia anterior generalmente no eleva el cuello vesical —plica la fascia vaginal anterior para reducir el cistocele. La elevación del cuello vesical que causa IUE sería lo opuesto (reduciendo la IUE), que es el mecanismo de la colposuspensión de Burch.",
+            "C": "No hay información que sugiera que la VH enmascarara la IUE preoperatoriamente. El mecanismo de la IUE oculta (obstrucción funcional del prolapso que enmascara la IUE) es más parsimonioso y clínicamente correcto.",
+            "D": "La colporrafia anterior con tejido nativo no utiliza malla — no hay erosión de malla en este escenario."
+          },
+          "guideline": "Guías EAU sobre Incontinencia Urinaria 2024 — Manejo del POP: prueba de esfuerzo preoperatoria con pesario/reducción digital del prolapso obligatoria para cribar la IUE oculta en el prolapso anterior Estadio III–IV",
+          "trial": "Meschia M et al. Prevalencia de incontinencia anal en mujeres con prolapso genital: estudio prospectivo. Dis Colon Rectum 2002;45:1441: IUE oculta identificada en el 30–40% de las mujeres con prolapso anterior Estadio III cuando la prueba de esfuerzo se realiza con el prolapso reducido — evidencia clínica para el cribado preoperatorio obligatorio",
+          "pearl": "IUE oculta en POP: el 30–40% de las mujeres con cistocele Estadio III–IV tienen IUE enmascarada que solo se revela con la prueba de reducción del prolapso. SIEMPRE realizar prueba de esfuerzo con tos con reducción mediante pesario/digital antes de la reparación del prolapso. El no hacerlo conlleva el riesgo de IUE postoperatoria de novo."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D1-Q17",
+        "stem": "¿Cuál de los siguientes es una contraindicación para la colocación de un pesario de anillo para el prolapso de órganos pélvicos?",
+        "options": {
+          "A": "Edad de la paciente >70 años",
+          "B": "Prolapso anterior de POP-Q Estadio III",
+          "C": "Infección vaginal activa o enfermedad inflamatoria pélvica",
+          "D": "Histerectomía previa"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La infección vaginal activa o la enfermedad inflamatoria pélvica es una contraindicación para la colocación de pesario — la inserción de un cuerpo extraño en un entorno vaginal infectado agravaría la infección y podría causar una infección pélvica ascendente. La colocación del pesario debe diferirse hasta que la infección haya sido tratada con éxito. Otras contraindicaciones incluyen: hemorragia vaginal sin diagnosticar, neoplasia vaginal o cervical conocida e incapacidad para cumplir con el seguimiento.",
+          "wrong": {
+            "A": "La edad >70 años no es una contraindicación para el uso de pesario — de hecho, las mujeres ancianas con comorbilidades médicas significativas que son de alto riesgo quirúrgico son candidatas particularmente apropiadas para el manejo con pesario como estrategia de tratamiento principal.",
+            "B": "El prolapso anterior de POP-Q Estadio III es una indicación adecuada para la colocación de pesario de anillo (o de Gellhorn para Estadio III–IV). El prolapso Estadio III no es una contraindicación.",
+            "D": "La histerectomía previa no es una contraindicación — puede afectar la selección del pesario (el prolapso de la cúpula puede requerir un tipo diferente de pesario como el Gellhorn o el cúbico), pero no es una contraindicación para el uso de pesario."
+          },
+          "guideline": "Guías EAU sobre Incontinencia Urinaria 2024 — Uso de pesario: contraindicaciones incluyen infección vaginal activa, EIP, hemorragia vaginal sin diagnosticar, neoplasia vaginal/cervical",
+          "trial": "Hagen S et al. Tratamiento con pesario para el prolapso de órganos pélvicos. Revisión Cochrane 2013: base de evidencia exhaustiva para la selección del pesario, contraindicaciones y protocolos de seguimiento",
+          "pearl": "Contraindicaciones del pesario: infección vaginal activa/EIP, hemorragia vaginal sin diagnosticar, neoplasia vaginal/cervical, incapacidad para cumplir con el seguimiento. La edad sola y la histerectomía previa NO son contraindicaciones."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D1-Q18",
+        "stem": "Una mujer de 48 años con IUE grave (usando 5 compresas/día, ICIQ-UI SF 18/21) presenta movilidad uretral fija, PFA 30 cmH₂O, PCU 12 cmH₂O en la urodinámica y antecedentes de tres procedimientos antiincontinencia previos fallidos (2× TVT, 1× TOT). No tiene irradiación pélvica previa. ¿Cuál es la recomendación quirúrgica más adecuada?",
+        "options": {
+          "A": "Cuarto procedimiento de banda suburetral sintética (banda de incisión única)",
+          "B": "Implantación de esfínter urinario artificial (EUA)",
+          "C": "Inyección de agente de relleno uretral (ciclos repetidos según necesidad)",
+          "D": "Derivación urinaria supravesical (conducto ileal)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La DIE grave (PFA 30 cmH₂O, PCU 12 cmH₂O —ambas muy por debajo de los umbrales de DIE) con una uretra fija y tres procedimientos antiincontinencia previos fallidos representa el escenario de IUE más desafiante. Un esfínter urinario artificial (AMS 800 o ZSI 375) es la opción quirúrgica adecuada —ocluye mecánicamente la uretra (manguito colocado alrededor del cuello vesical en mujeres) y alcanza tasas de continencia del 70–80% incluso en este grupo desafiante, con tasas de revisión a largo plazo del 20–40% a los 10 años. Tras múltiples bandas fallidas, el EUA es la opción más duradera para la DIE grave en mujeres.",
+          "wrong": {
+            "A": "Un cuarto procedimiento de banda sintética tras tres fracasos (incluido TVT retropúbico ×2) es poco probable que proporcione beneficio y conlleva una morbilidad significativa de la disección repetida en un campo cicatricial. Las bandas suburetrales sintéticas son ineficaces para la DIE grave con uretra fija.",
+            "C": "Los agentes de relleno uretrales alcanzan mejoría a corto plazo del 30–50% pero requieren inyecciones repetidas y tienen muy poca durabilidad para la DIE grave. Son adecuados para pacientes ancianos de alto riesgo quirúrgico o los que rechazan la cirugía, no para una mujer de 48 años con IUE refractaria grave que ha fracasado en tres procedimientos previos.",
+            "D": "La derivación urinaria supravesical (conducto ileal) solo está indicada para la disfunción del tracto urinario inferior en estadio final (vejiga neurógena, incontinencia refractaria sin opciones reconstructivas) — no para la incontinencia urinaria de esfuerzo independientemente de la gravedad en una paciente con tracto urinario superior normal y capacidad vesical normal."
+          },
+          "guideline": "Guía AUA sobre Manejo Quirúrgico de la IUE Femenina 2022 — Múltiples bandas fallidas + DIE grave: EUA o banda fascial autóloga (EUA preferido para DIE grave/compleja)",
+          "trial": "Petrou SP et al. EUA para IUE femenina. Urology 2002;59:900: tasas de continencia con EUA 70–80% en mujeres con DIE grave y cirugía antiincontinencia previa fallida",
+          "pearl": "IUE femenina con DIE grave (PFA <30, PCU <12) tras múltiples bandas fallidas = EUA (esfínter urinario artificial). El manguito del cuello vesical del EUA en mujeres alcanza el 70–80% de continencia incluso en casos refractarios. Tasa de revisión del EUA 20–40% a los 10 años."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D1-Q19",
+        "stem": "Tras la revisión Cumberlege (2020) y la guía de NHS England, ¿cuál es el estado regulatorio actual de las bandas suburetrales sintéticas (TVT/TOT) para la IUE femenina en el Reino Unido?",
+        "options": {
+          "A": "Completamente prohibidas — todos los procedimientos con malla para IU prohibidos en el Reino Unido",
+          "B": "Permitidas solo en centros de malla especializados con procesos de consentimiento obligatorios previos a la operación de BAUS/NHSE y supervisión de gobernanza clínica",
+          "C": "Sin restricciones — no hay cambio en la práctica tras la revisión Cumberlege",
+          "D": "Permitidas solo para TOT — el TVT retropúbico está prohibido debido al mayor perfil de complicaciones"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Tras la Revisión Independiente de Seguridad de Medicamentos y Dispositivos Médicos Cumberlege (2020), que identificó fallos sistémicos en la notificación y el manejo del daño por malla, NHS England implementó una 'restricción de alta vigilancia' sobre los procedimientos con malla en 2018 (convertida posteriormente en política de uso restringido en 2024). Las bandas suburetrales sintéticas (TVT/TOT) para IUE siguen siendo permitidas en el Reino Unido, pero SOLO en centros de malla especializados designados (nombrados por NHSE), con procesos obligatorios de consentimiento informado previo a la operación, participación del equipo multidisciplinario y envío obligatorio de datos a registros nacionales (BAUS). No se implementó una prohibición total para las mallas de IUE —la prohibición fue sobre la malla transvaginal para la reparación del POP (que permaneció bajo 'pausa' y luego uso restringido).",
+          "wrong": {
+            "A": "No se implementó una prohibición total de todos los procedimientos con malla para IU en el Reino Unido. El TVT/TOT sigue siendo permitido bajo condiciones restringidas en centros especializados. La guía distingue entre la malla transvaginal para POP (suspendida/restringida) y las bandas suburetrales para IUE (permitidas con condiciones).",
+            "C": "La práctica cambió significativamente tras Cumberlege — la designación obligatoria del centro especializado, los procesos de consentimiento y el envío de datos al registro fueron todos nuevos requisitos implementados tras la revisión.",
+            "D": "Tanto las bandas TVT (retropúbico) como las TOT (transobturatriz) siguen siendo permitidas en los centros especializados del Reino Unido bajo la política de uso restringido. Ningún abordaje específico fue prohibido selectivamente."
+          },
+          "guideline": "NICE NG123 (actualizada 2024) y NHS England Mesh High Vigilance Restriction Patient Safety Alert (2018/2024) — Las bandas suburetrales están permitidas en centros especializados designados con consentimiento obligatorio y notificación al registro",
+          "trial": "Cumberlege J et al. Primero No Hacer Daño: El Informe de la Revisión Independiente de Seguridad de Medicamentos y Dispositivos Médicos. 2020: documento clave de política del Reino Unido que impulsa los cambios regulatorios en la práctica de la cirugía con malla",
+          "pearl": "Estado regulatorio de la malla en el Reino Unido: TVT/TOT para IUE = PERMITIDO en centros de malla especializados designados + consentimiento obligatorio + gobernanza NHSE. Malla transvaginal para POP = suspendida (solo uso restringido). Prohibición total = NO implementada para IUE. Conozca esto para las preguntas de examen en el Reino Unido."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q20",
+        "stem": "El ensayo CARE (Brubaker et al., NEJM 2006/2007) examinó el efecto de la colposuspensión de Burch profiláctica en el momento de la sacropexia en mujeres sin IUE preoperatoria. ¿Cuál fue el hallazgo clave relevante para la planificación quirúrgica?",
+        "options": {
+          "A": "La colposuspensión de Burch profiláctica aumentó significativamente las tasas de complicaciones sin reducir la IUE postoperatoria",
+          "B": "La colposuspensión de Burch profiláctica en la sacropexia redujo significativamente la incontinencia de esfuerzo postoperatoria sin aumentar las complicaciones",
+          "C": "La sacropexia sola fue suficiente — sin beneficio al añadir Burch",
+          "D": "Debe ofrecerse TVT profiláctico (no Burch) concurrentemente con la sacropexia"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo CARE (Brubaker et al., NEJM 2006) aleatorizó 322 mujeres con incontinencia de esfuerzo urodinámica (o IUE oculta) sometidas a sacropexia para recibir colposuspensión de Burch profiláctica o ningún procedimiento adicional. A los 3 meses, el 32% del grupo de sacropexia sola desarrolló IUE molesta frente al 24% en el grupo de Burch (p=0,04). El Burch profiláctico redujo significativamente la IUE postoperatoria sin aumentar significativamente las complicaciones. Esto estableció la práctica clínica de ofrecer procedimientos antiincontinencia profilácticos en la sacropexia en mujeres con IUE oculta o de esfuerzo.",
+          "wrong": {
+            "A": "El Burch profiláctico NO aumentó significativamente las complicaciones en el ensayo CARE. Las tasas de complicaciones fueron similares entre los grupos, mientras que el grupo de Burch tuvo una reducción significativa de la IUE postoperatoria.",
+            "C": "La sacropexia sola NO fue suficiente — el 32% de las mujeres en el grupo de sacropexia sola desarrollaron IUE molesta frente al 24% con Burch (p=0,04). El Burch redujo significativamente la incontinencia postoperatoria.",
+            "D": "El ensayo CARE examinó específicamente la colposuspensión de Burch (no el TVT) como procedimiento concurrente con la sacropexia. Aunque el TVT se usa en algunos centros concurrentemente con la sacropexia, la base de evidencia del ensayo CARE apoya el Burch en este contexto."
+          },
+          "guideline": "Guías EAU sobre Incontinencia Urinaria 2024 — Sacropexia: considerar procedimiento antiincontinencia profiláctico concurrente (Burch o banda) en mujeres con IUE oculta o clínica, basado en el ensayo CARE",
+          "trial": "Brubaker L et al. Ensayo CARE. NEJM 2006;354:1557–1566: colposuspensión de Burch profiláctica en sacropexia redujo la IUE postoperatoria (24% frente a 32%, p=0,04) sin aumento significativo de complicaciones — ensayo de referencia para procedimientos antiincontinencia concurrentes",
+          "pearl": "Ensayo CARE (Brubaker NEJM 2006): Burch profiláctico en sacropexia → 24% frente a 32% de IUE postoperatoria (p=0,04), sin aumento de complicaciones. Implicación práctica: cribar la IUE oculta antes de la sacropexia; ofrecer procedimiento antiincontinencia concurrente si es positivo."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

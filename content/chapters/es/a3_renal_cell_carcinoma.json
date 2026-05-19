@@ -1,0 +1,623 @@
+{
+  "id": "A3",
+  "title": "Carcinoma de Células Renales — Estadificación y Tratamiento Quirúrgico",
+  "subtitle": "Uro-Oncología — Subtipos histológicos, cirugía con preservación de nefronas, nefrectomía citorreductora, terapia sistémica",
+  "block": "A",
+  "block_name": "Uro-Oncología",
+  "level": "R2-4",
+  "reading_time_min": 45,
+  "guidelines_version": "EAU Guidelines on Renal Cell Carcinoma 2024 · NCCN Kidney Cancer v1.2024",
+  "textbook_refs": [
+    "EAU Guidelines on Renal Cell Carcinoma 2024 (Ljungberg B et al.)",
+    "Campbell-Walsh-Wein Urology, 12.ª ed. (2021), cap. 190-193",
+    "NCCN Clinical Practice Guidelines: Kidney Cancer v1.2024"
+  ],
+  "learning_objectives": [
+    "Clasificar los principales subtipos histológicos del carcinoma de células renales y sus implicaciones pronósticas",
+    "Aplicar el sistema de estadificación TNM 2017 para los tumores renales e identificar los umbrales clave del descriptor T",
+    "Seleccionar entre vigilancia activa, ablación térmica, nefrectomía parcial y nefrectomía radical según las características del tumor",
+    "Describir el abordaje quirúrgico y las consideraciones técnicas clave en la nefrectomía parcial y radical",
+    "Resumir el panorama de la terapia sistémica para el carcinoma de células renales metastásico, incluyendo agentes dirigidos contra VEGF e inhibidores de puntos de control inmune",
+    "Identificar las indicaciones de la nefrectomía citorreductora en el carcinoma de células renales metastásico a partir de la evidencia de los ensayos CARMENA y SURTIME"
+  ],
+  "sections": [
+    {
+      "id": "A3-S1",
+      "title": "Epidemiología, Histología y Factores de Riesgo",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**El carcinoma de células renales (CCR)** representa aproximadamente el 2-3% de todas las neoplasias malignas del adulto y es el cáncer urológico más común tras el de próstata y vejiga. En Europa, la incidencia es de aproximadamente 10-15 por 100.000 personas-año, con predominio masculino (proporción 2:1). Más del 50% de los CCR se diagnostican actualmente de forma incidental en imágenes seccionales realizadas por indicaciones no relacionadas. Los factores de riesgo establecidos incluyen el **tabaquismo** (riesgo relativo 1,5-2,0), la **obesidad** (HR por aumento de 5 kg/m² de IMC aproximadamente 1,24), la **hipertensión arterial** y las exposiciones ocupacionales (tricloroetileno). Los síndromes hereditarios representan el 2-4% de todos los casos de CCR.\n\n**Subtipos histológicos**: el **CCR de células claras (ccCCR)** es el subtipo más común (70-75%), caracterizado por la pérdida bialélica del gen supresor tumoral **VHL** (cromosoma 3p25). La inactivación de VHL conduce a la acumulación de HIF-1α y la regulación al alza de VEGF, PDGF y GLUT1 — la base de la terapia dirigida contra VEGF. El ccCCR tiene el peor pronóstico entre los subtipos comunes en el mismo estadio. El **CCR papilar (CCRp)** comprende el 10-15%, dividido en Tipo 1 (bajo grado, pronóstico favorable, mutaciones MET) y Tipo 2 (alto grado, mutaciones FH, síndrome HLRCC). El **CCR cromófobo (CCRc)** comprende el 5%, originado en las células del túbulo colector cortical; pronóstico favorable con supervivencia a 5 años >85% en enfermedad localizada; son características las mutaciones en TP53 y PTEN. El **carcinoma de túbulo colector** y el **carcinoma medular** son raros (1-2%) y agresivos; el carcinoma medular se asocia casi exclusivamente con el rasgo de células falciformes.\n\nLos síndromes genéticos asociados con el CCR incluyen: **enfermedad de Von Hippel-Lindau** (ccCCR bilateral multifocal, hemangioblastomas, feocromocitoma), **CCR papilar hereditario** (mutación MET, CCRp Tipo 1 bilateral), **leiomiomatosis hereditaria y CCR** (HLRCC; mutación FH; CCRp Tipo 2 agresivo), **síndrome de Birt-Hogg-Dubé** (mutación FLCN; CCR cromófobo y oncocitoma) y **complejo de esclerosis tuberosa** (TSC1/TSC2; angiomiolipoma y ccCCR)."
+        },
+        {
+          "type": "table",
+          "title": "Subtipos Histológicos del CCR — Características Clave",
+          "headers": ["Subtipo", "Frecuencia", "Cambio genético clave", "Pronóstico", "Sensibilidad al tratamiento"],
+          "rows": [
+            ["Células claras", "70-75%", "Pérdida VHL (3p25)", "Intermedio-desfavorable en estadio avanzado", "VEGF-TKI + IO; mejor respuesta a terapia sistémica"],
+            ["Papilar Tipo 1", "5-8%", "Mutación MET", "Favorable", "Menos sensible a VEGF-TKI; inhibidores MET emergentes"],
+            ["Papilar Tipo 2", "5-8%", "Mutación FH (HLRCC)", "Desfavorable", "Erlotinib/bevacizumab; biología agresiva"],
+            ["Cromófobo", "5%", "TP53, PTEN", "Favorable (SG a 5 años 80%)", "Menos sensible a VEGF-TKI"],
+            ["Túbulo colector", "1%", "Complejo", "Muy desfavorable", "Quimioterapia basada en cisplatino"],
+            ["Oncocitoma", "3-5%", "No es una malignidad", "Benigno", "Vigilancia o escisión; sin terapia sistémica"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Pearl para Examen — VHL y la Vía VEGF",
+          "content": "La pérdida de VHL en el ccCCR conduce a la activación constitutiva de HIF-1α y sobreexpresión de VEGF — esta es la base molecular de sunitinib, pazopanib y otros VEGF-TKIs. VHL es una ubiquitina ligasa E3 que normalmente marca HIF-1α para la degradación proteosómica en normoxia. Mutación VHL = señalización de hipoxia perpetua = sobreexpresión de VEGF/PDGF/GLUT1 = angiogénesis tumoral. Las histologías de CCR no de células claras típicamente carecen de mutación VHL y responden peor a los VEGF-TKIs."
+        }
+      ]
+    },
+    {
+      "id": "A3-S2",
+      "title": "Estadificación TNM y Modelos Pronósticos",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **TNM AJCC/UICC 2017 (8.ª edición)** es el marco de estadificación actual para los tumores renales. Descriptores T clave: **T1a** — tumor ≤4 cm, confinado al riñón; **T1b** — tumor >4 cm y ≤7 cm, confinado al riñón; **T2a** — tumor >7 cm y ≤10 cm, confinado al riñón; **T2b** — tumor >10 cm, confinado al riñón; **T3a** — el tumor se extiende hacia la vena renal o sus ramas segmentarias (que contienen músculo), o invade el sistema pielo-calicial, o invade la grasa perirrenal y/o del seno renal (pero no más allá de la fascia de Gerota); **T3b** — el tumor se extiende hacia la vena cava inferior por debajo del diafragma; **T3c** — el tumor se extiende hacia la VCI por encima del diafragma o invade la pared de la VCI; **T4** — el tumor invade más allá de la fascia de Gerota (incluida la extensión contigua a la glándula suprarrenal ipsilateral).\n\nEl **descriptor N**: N0 — sin metástasis en ganglios linfáticos regionales; N1 — metástasis en ganglios linfáticos regionales. El **descriptor M**: M0/M1. Estadio I = T1N0M0; Estadio II = T2N0M0; Estadio III = T3N0M0 o T1-3N1M0; Estadio IV = T4 cualquier N M0 o cualquier T cualquier N M1.\n\n**Modelos pronósticos**: el **modelo IMDC (International Metastatic RCC Database Consortium)** (Heng DY et al., Lancet Oncol 2013) utiliza 6 factores clínicos: PS de Karnofsky <80%, <1 año desde el diagnóstico al tratamiento, hemoglobina <LSN, calcio corregido >LSN, neutrófilos >LSN, plaquetas >LSN. 0 factores = riesgo favorable (SG ~43 meses); 1-2 = riesgo intermedio (SG ~23 meses); ≥3 = riesgo desfavorable (SG ~8 meses). El modelo IMDC se utiliza para seleccionar y estratificar pacientes en ensayos de terapia sistémica y orienta la elección del régimen de primera línea."
+        },
+        {
+          "type": "table",
+          "title": "Modelo de Riesgo IMDC — Criterios y Resultados",
+          "headers": ["Factor IMDC", "Umbral", "Grupo de riesgo", "Nº de factores", "SG mediana"],
+          "rows": [
+            ["PS de Karnofsky", "<80%", "Favorable", "0 factores", "~43 meses"],
+            ["Tiempo hasta tratamiento", "<12 meses desde el diagnóstico", "Intermedio", "1-2 factores", "~23 meses"],
+            ["Hemoglobina", "Por debajo del límite inferior de la normalidad", "Desfavorable", "≥3 factores", "~8 meses"],
+            ["Calcio corregido", "Por encima del límite superior de la normalidad", "", "", ""],
+            ["Recuento de neutrófilos", "Por encima del límite superior de la normalidad", "", "", ""],
+            ["Recuento de plaquetas", "Por encima del límite superior de la normalidad", "", "", ""]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A3-S3",
+      "title": "Manejo del CCR Localizado — Cirugía y Ablación",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**La nefrectomía parcial (NP)** es el estándar de atención para los tumores renales localizados T1a y T1b en pacientes con riñón contralateral normal, recomendada para preservar la función renal. La equivalencia oncológica de la NP frente a la nefrectomía radical para los tumores T1 ha sido establecida por metaanálisis y seguimiento a largo plazo. La NP puede realizarse por abordaje abierto, laparoscópico o asistido por robot; la nefrectomía parcial robótica (NPR) se ha convertido en el abordaje dominante en centros de alto volumen. Los pasos quirúrgicos clave incluyen la exposición tumoral, el control hiliar, la minimización del tiempo de isquemia caliente (TIC) (objetivo <25 minutos), la escisión nítida con un margen fino de parénquima sano, la renorrafia y el cierre estanco del sistema colector. Un TIC >25-30 minutos se asocia con pérdida progresiva de la función renal. Las técnicas 'sin clampaje' (sin oclusión hiliar) pueden usarse para tumores periféricos y eliminan el TIC por completo.\n\n**La nefrectomía radical (NR)** está indicada para: tumores T2 (>7 cm), afectación de la grasa del seno renal o del sistema colector, trombo tumoral, tumores T1 anatómicamente complejos no susceptibles de NP (localización central, puntuación baja del remanente renal), casos imperativos donde la NP no es factible, y casos en los que el riñón contralateral es normal y las características tumorales hacen primordial la completitud oncológica. La NR se realiza laparoscópica o robóticamente en la mayoría de los centros. La suprarrenalectomía solo está indicada cuando la TC/RM muestra afectación suprarrenal — la suprarrenalectomía rutinaria no está recomendada.\n\n**La vigilancia activa (VA)** es apropiada para las masas renales pequeñas (MRP, ≤4 cm) en pacientes ancianos o con comorbilidades con bajo riesgo quirúrgico. El registro DISSRM y el estudio REASSURE muestran que la tasa de crecimiento mediana de las MRP en VA es de 0,28 cm/año, y <2% progresan a enfermedad metastásica a los 3 años. La VA implica TC o RM cada 3-6 meses durante 2 años, luego anualmente. Desencadenantes de intervención: crecimiento >5 mm/año, preferencia del paciente o tamaño >4 cm.\n\n**La ablación térmica** (ablación por radiofrecuencia [ARF] o crioablación) es una opción para pequeños tumores renales (T1a, ≤3 cm preferido) en pacientes no aptos para cirugía. Las tasas de recurrencia local son mayores que con la NP (~5-10% vs 1-2%), y la reablación es posible. La crioablación percutánea es la técnica más ampliamente utilizada con supervivencia libre de recurrencia a largo plazo comparable a la ablación en pacientes adecuadamente seleccionados."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Puntuación de Nefrometría R.E.N.A.L.",
+          "content": "La puntuación de nefrometría R.E.N.A.L. (Radio, Exofítico/Endofítico, Proximidad al sistema colector/seno, Anterior/posterior, Localización respecto a las líneas polares) es un sistema validado para cuantificar la complejidad quirúrgica de los tumores renales antes de la NP. Puntuaciones 4-6 (baja), 7-9 (intermedia), 10-12 (alta). Las puntuaciones altas predicen mayor TIC, mayor conversión a NR y mayores tasas de complicaciones. En el HGUGM, todos los tumores renales planificados para NP deben ser puntuados preoperatoriamente para informar la planificación quirúrgica y la discusión del comité multidisciplinar."
+        }
+      ]
+    },
+    {
+      "id": "A3-S4",
+      "title": "Trombo Tumoral en la VCI — Clasificación y Manejo",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El trombo tumoral en la vena cava inferior (VCI) ocurre en aproximadamente el 4-10% de los casos de CCR y representa un reto quirúrgico que influye drásticamente en la planificación operatoria y los resultados. La **clasificación de Neves** (modificada por la Clínica Mayo) divide el trombo tumoral en: Nivel 0 — solo vena renal; Nivel I — VCI por debajo de las venas hepáticas; Nivel II — VCI hasta las venas hepáticas; Nivel III — VCI por encima de las venas hepáticas, por debajo del diafragma; Nivel IV — VCI por encima del diafragma / aurícula derecha.\n\nPara el trombo de Nivel 0-I, la nefrectomía radical laparoscópica o asistida por robot con extracción del trombo es factible en centros con experiencia. El Nivel II requiere movilización hepática cuidadosa y oclusión temporal de la VCI. El Nivel III-IV requiere la intervención de cirugía cardiaca, esternotomía media y potencialmente circulación extracorpórea para la extensión a la aurícula derecha. La supervivencia específica por cáncer a 5 años para la enfermedad N0M0 con trombo en la VCI es del 40-70%, determinada en gran medida por el estado ganglionar, el grado tumoral patológico y la profundidad de la invasión de la pared de la VCI (trombo vs invasión verdadera). La invasión verdadera de la pared de la VCI confiere un pronóstico significativamente peor.\n\nLa evaluación preoperatoria del trombo en la VCI debe incluir RM del abdomen (más precisa que la TC para el nivel del trombo y la anatomía de las venas hepáticas), TC de tórax (estadificación metastásica) y ecocardiografía para los Niveles III-IV. El riesgo de embolia pulmonar tumoral es del 5-10% con el trombo de Nivel III-IV — la colocación profiláctica de filtro en la VCI ya no se recomienda de forma rutinaria pero debe discutirse en casos de alto riesgo."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Trombo vs Invasión Verdadera de la VCI",
+          "content": "La distinción entre el trombo tumoral dentro de la luz de la VCI (sin invasión de la pared) y la invasión verdadera de la pared de la VCI es crítica — el primero es potencialmente curable quirúrgicamente, mientras que el segundo tiene un pronóstico mucho peor y puede afectar a la planificación quirúrgica. La RM con secuencias de eco de gradiente es la herramienta más precisa (la TC infraestima la invasión de la pared). La invasión verdadera de la pared de la VCI requiere resección y reconstrucción del segmento, no una simple trombectomía."
+        }
+      ]
+    },
+    {
+      "id": "A3-S5",
+      "title": "Terapia Sistémica para el CCR Metastásico",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El panorama de la terapia sistémica para el CCR metastásico ha sido transformado por la introducción de los agentes dirigidos contra VEGF (2006) y los inhibidores de puntos de control inmune (2015-2022). Para el **ccCCR** (que representa >85% de los casos metastásicos), el estándar de atención actual de primera línea es la terapia de doblete basada en inmunoterapia combinada.\n\n**Nivolumab + ipilimumab (CheckMate 214)**: Nivolumab (anti-PD-1) + ipilimumab (anti-CTLA-4) vs sunitinib en ccCCR naive al tratamiento. Para riesgo intermedio/desfavorable IMDC: SG a 5 años del 47% vs 27% con sunitinib. CheckMate 214 (Motzer RJ, NEJM 2018) estableció este doblete como el régimen de primera línea preferido para ccCCR de riesgo intermedio/desfavorable.\n\n**Pembrolizumab + axitinib (KEYNOTE-426)**: combinación IO + VEGF-TKI. Pembrolizumab (anti-PD-1) + axitinib vs sunitinib — SG HR 0,68 en todos los grupos de riesgo IMDC. La EAU 2024 recomienda esto como una opción para todos los grupos de riesgo.\n\n**Nivolumab + cabozantinib (CheckMate 9ER)**: Nivolumab + cabozantinib vs sunitinib — SLP 16,4 vs 8,3 meses (HR 0,51); SG HR 0,70. Aprobado y respaldado por la EAU.\n\n**Pembrolizumab + lenvatinib (CLEAR)**: Lenvatinib + pembrolizumab vs sunitinib — SLP 23,9 vs 9,2 meses (HR 0,39), la SLP más larga de cualquier régimen de primera línea. La EAU 2024 recomienda en todos los grupos de riesgo.\n\nPara el **CCR no de células claras**: la evidencia es limitada. Las opciones incluyen sunitinib, everolimus (inhibidor de mTOR), cabozantinib o la inclusión en ensayos clínicos. La monoterapia con pembrolizumab tiene actividad en el CCR no de células claras basándose en el cohorte B de KEYNOTE-427. La monoterapia con VEGF-TKI (sunitinib, pazopanib) sigue siendo la primera línea pragmática en el CCR no de células claras."
+        },
+        {
+          "type": "table",
+          "title": "Terapia Sistémica de Primera Línea para ccCCR Metastásico — Recomendaciones EAU 2024",
+          "headers": ["Régimen", "Ensayo clave", "Recomendación IMDC", "SG HR vs sunitinib", "Estado EAU"],
+          "rows": [
+            ["Nivolumab + ipilimumab", "CheckMate 214 (NEJM 2018)", "Riesgo intermedio/desfavorable", "0,68 (int/desfav)", "Recomendado (int/desfav)"],
+            ["Pembrolizumab + axitinib", "KEYNOTE-426 (NEJM 2019)", "Todos los grupos de riesgo", "0,68", "Recomendado (todos)"],
+            ["Nivolumab + cabozantinib", "CheckMate 9ER (NEJM 2021)", "Todos los grupos de riesgo", "0,70", "Recomendado (todos)"],
+            ["Pembrolizumab + lenvatinib", "CLEAR (NEJM 2021)", "Todos los grupos de riesgo", "0,72", "Recomendado (todos)"],
+            ["Sunitinib en monoterapia", "Múltiples ECA (2006+)", "Riesgo favorable (opción)", "Referencia", "Opción solo riesgo favorable"],
+            ["Pazopanib en monoterapia", "COMPARZ (Lancet 2013)", "Favorable (opción)", "No inferior a sunitinib", "Opción si IO contraindicado"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A3-S6",
+      "title": "Nefrectomía Citorreductora — CARMENA y SURTIME",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**La nefrectomía citorreductora (NC)** extirpa el tumor primario en el contexto de la enfermedad metastásica. En la era de las citocinas, dos ECA (SWOG 8949 y EORTC 30947) demostraron un beneficio en SG con NC + interferón-α frente a interferón-α solo. Sin embargo, con la llegada de la terapia dirigida, dos ensayos de referencia cuestionaron el uso rutinario de la NC.\n\nEl **ensayo CARMENA** (Méjean et al., NEJM 2018) aleatorizó a 450 pacientes con ccCCR metastásico a NC + sunitinib vs sunitinib solo. En pacientes con riesgo intermedio IMDC: SG mediana 23,4 vs 19,0 meses (no inferior, NC no mejor). En pacientes de riesgo desfavorable: NC + sunitinib fue inferior a sunitinib solo (SG 10,3 vs 13,3 meses). Conclusión de CARMENA: la monoterapia con sunitinib **no es inferior** a NC + sunitinib en el ccCCR metastásico de riesgo intermedio/desfavorable — la NC no debe ser rutinaria para todos los pacientes metastásicos.\n\nEl **ensayo SURTIME** (Bex et al., JAMA Oncol 2019) evaluó NC inmediata → sunitinib vs sunitinib → NC diferida. El ensayo tuvo insuficiente potencia estadística pero mostró una tendencia hacia el beneficio con NC diferida (estado libre de progresión a las 28 semanas: 42% vs 43%; SG HR 0,57 favoreciendo la NC diferida). El concepto SURTIME apoya el **inicio con sunitinib** para identificar pacientes que no progresan (que tienen más probabilidad de beneficiarse de la NC posterior).\n\nRecomendación actual de la EAU 2024: la NC está indicada en: (1) Pacientes con riesgo IMDC favorable con tumor primario resecable y carga metastásica limitada; (2) Para paliación de síntomas (hematuria, dolor) independientemente del plan de terapia sistémica; (3) Considerar NC diferida en pacientes de riesgo intermedio que responden a 2-3 ciclos de terapia sistémica sin progresión. La NC **no está recomendada** como manejo rutinario de primera línea en pacientes con riesgo IMDC desfavorable o aquellos con comorbilidades significativas."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Pearl para Examen — Resumen del Ensayo CARMENA",
+          "content": "CARMENA (NEJM 2018): NC + sunitinib vs sunitinib solo en 450 pacientes con ccCCR metastásico. Resultado: sunitinib solo fue no inferior a NC + sunitinib en riesgo intermedio; la NC fue PEOR en pacientes de riesgo desfavorable. Esto cambió fundamentalmente la práctica — la NC ya no es rutinaria para todo el CCR metastásico. Indicación actual: riesgo IMDC favorable con tumor primario resecable, o control paliativo de síntomas."
+        }
+      ]
+    },
+    {
+      "id": "A3-S7",
+      "title": "Seguimiento Tras el Tratamiento del CCR y Síndromes Hereditarios",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**El seguimiento tras el tratamiento del CCR** tiene como objetivo detectar la recurrencia local y la enfermedad metastásica en una etapa tratable. Seguimiento adaptado al riesgo según la EAU 2024:\n\nPara **enfermedad de bajo riesgo** (pT1a, pT1b grado 1-2, R0): TC de tórax/abdomen a los 3-6 meses postoperatorios, luego anualmente durante 3 años, luego cada 2 años hasta los 5 años. Para **riesgo intermedio** (pT2, pT3a grado 1-2): TC de tórax/abdomen a los 3 meses, luego cada 6 meses durante 2 años, luego anualmente durante 3 años. Para **alto riesgo** (pT3b-4, grado 3-4, N+): TC de tórax/abdomen/pelvis a los 3 meses, 6 meses, luego cada 6 meses durante 3 años, luego anualmente. Todos los pacientes deben tener una TC postoperatoria basal a los 3-6 meses para establecer imágenes de referencia.\n\nEl CCR puede recurrir tardíamente — el seguimiento debe mantenerse durante 10 años en pacientes de alto riesgo. Sitios metastásicos comunes: pulmones (75%), ganglios linfáticos (36%), hueso (20%), hígado (18%), suprarrenal (9%), riñón contralateral (2%). Las metástasis pulmonares aisladas en pacientes que han tenido un intervalo libre de enfermedad son potencialmente resecables — la metastasectomía pulmonar mejora la SG en pacientes seleccionados (SG a 5 años del 45-55% vs 15% con sola terapia sistémica).\n\nPara los **síndromes de CCR hereditario** — enfermedad de VHL: RM renal anual desde los 15 años; cirugía cuando el tumor alcanza 3 cm (umbral del tumor sólido por encima del cual aumenta el riesgo metastásico). TSC: los inhibidores de mTOR (everolimus) pueden controlar el crecimiento tumoral y evitar la cirugía en la mayoría de los pacientes. Birt-Hogg-Dubé: TC/RM anual desde los 20 años; vigilar el riesgo de neumotórax (quistes pulmonares). HLRCC (mutación FH): vigilancia activa desde la edad adulta temprana; tratamiento activo a tamaños menores dada la biología agresiva."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Evalúa tus conocimientos sobre el carcinoma de células renales con 20 preguntas tipo examen.",
+    "questions": [
+      {
+        "id": "A3-Q1",
+        "stem": "Un hombre de 58 años presenta una masa renal derecha de 3,2 cm detectada incidentalmente en una TC realizada por dolor abdominal. La masa es heterogénea, realza con contraste (70 UH postcontraste vs 28 UH precontraste) y es completamente endofítica. El riñón izquierdo es normal. Por lo demás está sano con un filtrado glomerular estimado (FGe) de 72 mL/min/1,73m². ¿Cuál es el manejo más apropiado?",
+        "options": {
+          "A": "Nefrectomía radical — el tamaño tumoral y la naturaleza endofítica impiden la nefrectomía parcial",
+          "B": "Nefrectomía parcial (abierta, laparoscópica o robótica) — estándar de atención para tumor T1a con riñón contralateral normal",
+          "C": "Vigilancia activa — la masa realzante de 3,2 cm puede ser observada dado el riñón contralateral normal",
+          "D": "Biopsia guiada por TC seguida de ablación por ARF"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Una masa renal sólida realzante de 3,2 cm en un paciente sano con riñón contralateral normal cumple todos los criterios para la nefrectomía parcial (NP) como estándar de atención según la EAU 2024. La NP para tumores T1a tiene resultados oncológicos equivalentes a la nefrectomía radical mientras preserva la función renal. Los tumores endofíticos son más complejos quirúrgicamente (mayor puntuación R.E.N.A.L.) pero no son una contraindicación para la NP en un centro con experiencia. La NPR es el abordaje preferido en la mayoría de los centros de alto volumen.",
+          "wrong": {
+            "A": "La localización endofítica aumenta la complejidad quirúrgica pero no obliga a la nefrectomía radical cuando la NP es factible en un centro con experiencia.",
+            "C": "La vigilancia activa es una opción para pacientes muy ancianos o con comorbilidades, pero para un paciente sano de 58 años con una masa realzante de 3,2 cm (probablemente maligna), se prefiere el tratamiento.",
+            "D": "La biopsia + ablación es apropiada para pacientes no aptos para cirugía. Este paciente está en forma para NP, que tiene menores tasas de recurrencia que la ablación."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — NP es el estándar de atención para tumores T1; nefrectomía radical solo cuando la NP no es técnicamente factible",
+          "trial": "Van Poppel H et al. (Eur Urol 2011, EORTC 30904): ECA NP vs NR para T1 — supervivencia específica por cáncer equivalente; NP superior para la preservación de la función renal.",
+          "pearl": "La nefrectomía parcial es el estándar para los tumores renales T1 (≤7 cm) con riñón contralateral normal. Indicaciones imperativas de NP: riñón solitario, tumores bilaterales, CCR hereditario, enfermedad renal crónica basal significativa."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q2",
+        "stem": "El ensayo CARMENA cambió fundamentalmente el abordaje de la nefrectomía citorreductora en el CCR metastásico. ¿Cuál afirmación resume mejor el hallazgo de CARMENA?",
+        "options": {
+          "A": "NC + sunitinib fue superior a sunitinib solo en todos los grupos de riesgo IMDC",
+          "B": "Sunitinib solo fue no inferior a NC + sunitinib en riesgo intermedio; NC + sunitinib fue inferior en pacientes de riesgo desfavorable",
+          "C": "La NC debe realizarse en todos los pacientes con CCR metastásico antes de iniciar la terapia sistémica",
+          "D": "CARMENA no mostró diferencias en SG entre NC y sin NC, apoyando la nefrectomía rutinaria"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "CARMENA (Méjean A et al., NEJM 2018) aleatorizó a 450 pacientes con ccCCR metastásico de riesgo IMDC intermedio/desfavorable a NC + sunitinib vs sunitinib solo. El endpoint principal fue la SG: sunitinib solo fue no inferior a NC + sunitinib en riesgo intermedio (SG 23,4 vs 19,0 meses). En pacientes de riesgo desfavorable, la NC en realidad empeoró los resultados. Por tanto, la NC NO es rutinaria para todo el CCR metastásico — se reserva para pacientes de riesgo favorable y paliación.",
+          "wrong": {
+            "A": "NC + sunitinib no fue superior. La no inferioridad de sunitinib solo fue el hallazgo clave.",
+            "C": "CARMENA desafía directamente la NC rutinaria antes de la terapia sistémica.",
+            "D": "CARMENA mostró la no inferioridad de sunitinib solo — lo que significa que la NC no aportó beneficio (y fue perjudicial en el riesgo desfavorable)."
+          },
+          "guideline": "EAU Guidelines on RCC 2024, Sección 7.1 — Indicaciones de NC basadas en CARMENA; decisión adaptada al riesgo IMDC",
+          "trial": "CARMENA (Méjean A et al., N Engl J Med 2018; 379:417-427): ECA NC + sunitinib vs sunitinib. No inferioridad confirmada para sunitinib solo; NC inferior en riesgo desfavorable.",
+          "pearl": "CARMENA = NC no rutinaria para el CCR metastásico. Sunitinib solo no inferior a NC + sunitinib en riesgo intermedio. NC perjudicial en riesgo IMDC desfavorable. Indicaciones actuales: riesgo favorable, paliación, diferida tras respuesta a terapia sistémica."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q3",
+        "stem": "Un paciente de 65 años tiene una masa renal derecha con extensión del trombo tumoral hacia la vena cava inferior al nivel de la confluencia de las venas hepáticas (al nivel de las venas hepáticas). ¿Cuál es la clasificación Neves/Mayo correcta y la principal implicación quirúrgica?",
+        "options": {
+          "A": "Nivel I — por debajo de las venas hepáticas; resección laparoscópica factible",
+          "B": "Nivel II — hasta las venas hepáticas; requiere movilización hepática y oclusión temporal suprahepática de la VCI",
+          "C": "Nivel III — por encima de las venas hepáticas por debajo del diafragma; requiere cirugía cardiaca",
+          "D": "Nivel IV — supradiafragmático; requiere circulación extracorpórea"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La clasificación Neves/Mayo: Nivel I = VCI por debajo de las venas hepáticas; Nivel II = VCI al nivel o hasta las venas hepáticas; Nivel III = VCI por encima de las venas hepáticas, por debajo del diafragma; Nivel IV = VCI por encima del diafragma o aurícula derecha. Trombo hasta la confluencia de las venas hepáticas = Nivel II. El Nivel II requiere movilización hepática (movilizar el lóbulo derecho y controlar las venas hepáticas), considerar la maniobra de Pringle, oclusión temporal suprahepática de la VCI y apoyo quirúrgico de cirugía vascular/hepatobiliar experimentada. No requiere circulación extracorpórea.",
+          "wrong": {
+            "A": "El Nivel I está por debajo de las venas hepáticas. En la confluencia de las venas hepáticas = Nivel II.",
+            "C": "El Nivel III está por encima de las venas hepáticas pero por debajo del diafragma. En la confluencia de las venas hepáticas es Nivel II.",
+            "D": "El Nivel IV requiere circulación extracorpórea. Este trombo no se extiende por encima del diafragma."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — Clasificación del trombo en VCI (Neves/Mayo); planificación quirúrgica basada en el nivel",
+          "trial": "Blute ML et al. (J Urol 2004): Serie de trombo en VCI de la Clínica Mayo — Nivel II requiere movilización hepática; SG específica por cáncer a 5 años del 40-70% para enfermedad N0M0.",
+          "pearl": "Niveles de trombo en VCI: I = por debajo de las venas hepáticas; II = hasta las venas hepáticas; III = por encima de las venas hepáticas/por debajo del diafragma; IV = por encima del diafragma/aurícula derecha. Nivel II = movilización hepática. Nivel III-IV = cirugía cardiaca y/o circulación extracorpórea."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q4",
+        "stem": "¿Qué clasificación de riesgo IMDC y SG mediana esperada corresponde a un paciente con ccCCR metastásico que tiene PS de Karnofsky 60%, hemoglobina por debajo de lo normal y tiempo desde el diagnóstico al tratamiento <12 meses (3 factores pronósticos desfavorables)?",
+        "options": {
+          "A": "Riesgo favorable — SG mediana ~43 meses",
+          "B": "Riesgo intermedio — SG mediana ~23 meses",
+          "C": "Riesgo desfavorable — SG mediana ~8 meses",
+          "D": "Riesgo muy desfavorable — SG mediana ~4 meses"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El modelo IMDC asigna: 0 factores = favorable (SG ~43 meses); 1-2 factores = intermedio (SG ~23 meses); ≥3 factores = riesgo desfavorable (SG ~8 meses). Este paciente tiene 3 factores de riesgo IMDC (KPS <80%, Hgb <LSN, tiempo hasta tratamiento <12 meses) = riesgo desfavorable = SG mediana ~8 meses. En CARMENA, esto situaría al paciente en el grupo donde NC + sunitinib fue inferior a sunitinib solo.",
+          "wrong": {
+            "A": "El riesgo favorable requiere 0 factores IMDC. Este paciente tiene 3.",
+            "B": "El riesgo intermedio = 1-2 factores. Este paciente tiene 3 factores.",
+            "D": "'Riesgo muy desfavorable' no es una categoría oficial IMDC — el sistema utiliza favorable/intermedio/desfavorable."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — Modelo IMDC para la selección del tratamiento y el pronóstico; Sección 7.1.2",
+          "trial": "Heng DY et al. (Lancet Oncol 2013): Validación externa del modelo pronóstico IMDC en 1.791 pacientes en 7 centros internacionales.",
+          "pearl": "Puntuación de riesgo IMDC: 0 = favorable (~43 meses SG); 1-2 = intermedio (~23 meses); ≥3 = desfavorable (~8 meses). Conocer los 6 factores: KPS <80%, tiempo <12 meses, Hgb <LSN, Ca++ >LSN, neutrófilos >LSN, plaquetas >LSN."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q5",
+        "stem": "¿Qué combinación de terapia sistémica mostró la supervivencia libre de progresión mediana más larga en el ensayo CLEAR para el CCR metastásico de primera línea?",
+        "options": {
+          "A": "Nivolumab + ipilimumab vs sunitinib — SLP 11,6 meses",
+          "B": "Pembrolizumab + lenvatinib vs sunitinib — SLP 23,9 meses",
+          "C": "Pembrolizumab + axitinib vs sunitinib — SLP 15,1 meses",
+          "D": "Nivolumab + cabozantinib vs sunitinib — SLP 16,4 meses"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo CLEAR (Motzer RJ et al., NEJM 2021) comparó pembrolizumab + lenvatinib vs sunitinib en el CCR metastásico de primera línea. Pembrolizumab + lenvatinib alcanzó una SLP mediana de 23,9 meses vs 9,2 meses con sunitinib (HR 0,39) — la SLP más larga de cualquier régimen de primera línea para CCR en un ensayo de fase III. La SG también mejoró significativamente (HR 0,72). Esta combinación está respaldada por la EAU 2024 para todos los grupos de riesgo IMDC.",
+          "wrong": {
+            "A": "La SLP de nivolumab + ipilimumab en CheckMate 214 no fue superior a sunitinib en la población por intención de tratar; el beneficio fue en riesgo intermedio/desfavorable.",
+            "C": "La SLP de pembrolizumab + axitinib fue de 15,1 meses en KEYNOTE-426 — significativa pero no 23,9 meses.",
+            "D": "La SLP de nivolumab + cabozantinib (CheckMate 9ER) fue de 16,4 meses — mejor que sunitinib pero no la más larga."
+          },
+          "guideline": "EAU Guidelines on RCC 2024, Sección 7.1 — Ensayo CLEAR; pembrolizumab + lenvatinib recomendado para todos los grupos de riesgo IMDC",
+          "trial": "Ensayo CLEAR (Motzer RJ et al., N Engl J Med 2021; 384:1289-1300): Lenvatinib + pembrolizumab vs sunitinib — SLP 23,9 vs 9,2 meses (HR 0,39); SG HR 0,72.",
+          "pearl": "Ensayo CLEAR: pembrolizumab + lenvatinib logra la SLP mediana más larga (23,9 meses) de cualquier régimen de primera línea para CCR. EAU 2024 recomendado para todos los grupos de riesgo IMDC. Conocer el HR de SLP: 0,39 vs sunitinib."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q6",
+        "stem": "Un paciente de 72 años con riñón derecho único y masas renales pequeñas bilaterales (la mayor de 2,8 cm derecha, 1,5 cm izquierda) presenta múltiples manchas café con leche, hemangioblastomas retinianos y un hemangioblastoma cerebeloso previo. ¿Cuál es el síndrome hereditario más probable y cuál es el umbral para la intervención quirúrgica según las guías?",
+        "options": {
+          "A": "Síndrome de Birt-Hogg-Dubé — operar cuando el tumor más grande sea >3 cm",
+          "B": "Enfermedad de Von Hippel-Lindau — operar cuando el tumor más grande alcance 3 cm (componente sólido)",
+          "C": "Complejo de esclerosis tuberosa — operar inmediatamente dada la enfermedad bilateral",
+          "D": "HLRCC — operar en el momento del diagnóstico independientemente del tamaño dada la biología agresiva"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La enfermedad de Von Hippel-Lindau (VHL) se presenta con ccCCR bilateral multifocal, hemangioblastomas retinianos y del SNC, feocromocitoma y tumores neuroendocrinos pancreáticos. El patrón característico de ccCCR bilateral multifocal combinado con hemangioblastoma retiniano y cerebeloso es diagnóstico. Según las guías de la enfermedad VHL (respaldadas por la EAU 2024), la intervención quirúrgica se recomienda cuando el tumor sólido más grande alcanza 3 cm — por debajo de este umbral, el riesgo metastásico es mínimo (<3%) y las nefrectomías parciales repetidas pueden diferirse. El objetivo es preservar la máxima función renal mediante cirugía con preservación de nefronas.",
+          "wrong": {
+            "A": "El síndrome de Birt-Hogg-Dubé se caracteriza por fibrofoliculomas (piel), quistes pulmonares con neumotórax y CCR cromófobo/oncocitoma — no hemangioblastomas retinianos/del SNC.",
+            "C": "La esclerosis tuberosa causa angiomiolipomas renales y ocasionalmente ccCCR, pero no hemangioblastomas retinianos o del SNC. El TSC se maneja con inhibidores de mTOR para el AML, no con cirugía inmediata.",
+            "D": "HLRCC (mutación de Fumarato Hidratasa) causa CCR papilar tipo 2 agresivo que requiere intervención más temprana, pero el síndrome se presenta con leiomiomas cutáneos y fibromas uterinos, no hemangioblastomas."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — Manejo de la enfermedad VHL: nefrectomía parcial cuando el tumor sólido alcanza 3 cm; RM renal anual desde los 15 años",
+          "trial": "Walther MM et al. (J Urol 1999): Serie de vigilancia VHL — riesgo metastásico <3% para tumores <3 cm; aumento rápido por encima del umbral de 3 cm. Define la 'regla de los 3 cm' para la intervención en VHL.",
+          "pearl": "Enfermedad VHL: umbral de 3 cm para la intervención quirúrgica. Por debajo de 3 cm, el riesgo metastásico es <3% — diferir la cirugía para maximizar la preservación renal mediante menos operaciones totales. Vigilancia por RM renal anual desde los 15 años en portadores de VHL."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q7",
+        "stem": "Una mujer de 65 años tiene una masa renal derecha de 4,5 cm (cT1b) y un antecedente de creatinina de 1,6 mg/dL (FGe 38 mL/min/1,73m²) por nefroesclerosis hipertensiva. El riñón izquierdo está presente y funciona. ¿Cuál es el imperativo quirúrgico en este caso?",
+        "options": {
+          "A": "Nefrectomía radical — estándar de atención para T1b y operación más sencilla",
+          "B": "Nefrectomía parcial — indicación imperativa dado la ERC basal (FGe <45) para preservar la máxima función renal residual",
+          "C": "Vigilancia activa — FGe demasiado bajo para la intervención quirúrgica",
+          "D": "Terapia de ablación — preserva más parénquima que la NP en pacientes con ERC"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cuando el riñón contralateral está presente pero la función renal basal está significativamente deteriorada (FGe <45 mL/min), la nefrectomía parcial se convierte en una indicación 'imperativa' independientemente del tamaño o la complejidad tumoral. La nefrectomía radical en un paciente con FGe 38 dejaría un riñón único y aceleraría la progresión a la enfermedad renal terminal que requeriría diálisis. La EAU 2024 enumera las indicaciones imperativas de NP como: riñón solitario, tumores bilaterales, CCR hereditario y ERC basal significativa. La viabilidad técnica debe maximizarse — NP robótica, minimizar la isquemia caliente, considerar la técnica 'sin clampaje'.",
+          "wrong": {
+            "A": "La nefrectomía radical NO es apropiada cuando el paciente tiene ERC significativa preexistente — causaría una insuficiencia renal acelerada predecible.",
+            "C": "La vigilancia activa para una masa de 4,5 cm en un paciente con ERC es inapropiada — el riesgo de progresión/metástasis justifica el tratamiento a pesar del deterioro renal.",
+            "D": "La ablación térmica es una opción pero logra un control tumoral menos completo que la NP. Para una indicación imperativa con un tumor de 4,5 cm, la NP es preferida sobre la ablación."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — Indicaciones imperativas de NP: riñón solitario, tumores bilaterales, ERC basal (FGe <45 o condiciones predisponentes)",
+          "trial": "Huang WC et al. (Lancet Oncol 2006): Progresión de ERC tras NR vs NP — NR asociada con un riesgo 3 veces mayor de nueva ERC estadio 3 vs NP en cohorte emparejada.",
+          "pearl": "Indicaciones imperativas de nefrectomía parcial: riñón solitario, tumores bilaterales, CCR hereditario, ERC preexistente significativa (FGe <45). Incluso para tumores técnicamente difíciles, la indicación imperativa debe guiar el abordaje quirúrgico."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q8",
+        "stem": "Para una masa renal T1a (3 cm) en un hombre de 82 años con múltiples comorbilidades (insuficiencia cardiaca, EPOC, bypass coronario previo), ¿cuál es el manejo más apropiado según la EAU 2024?",
+        "options": {
+          "A": "Nefrectomía radical inmediata dado el diagnóstico de cáncer",
+          "B": "Vigilancia activa con imágenes seccionales cada 6 meses",
+          "C": "Ablación térmica percutánea (ARF o crioablación)",
+          "D": "Tanto B como C son opciones apropiadas según la preferencia del paciente tras un asesoramiento completo"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "Para pacientes ancianos/con comorbilidades con masas renales pequeñas, la EAU 2024 respalda tanto la vigilancia activa como la ablación térmica como alternativas apropiadas a la cirugía. La vigilancia activa es particularmente apropiada cuando la esperanza de vida del paciente está limitada por comorbilidades competidoras. La ablación térmica (ARF o crioablación) proporciona un control local razonable del tumor con un mínimo impacto fisiológico y es apropiada para tumores ≤3 cm. La decisión entre VA y ablación debe tomarse en el contexto de las preferencias del paciente, la esperanza de vida, la tasa de crecimiento tumoral en las imágenes basales y la viabilidad del acceso percutáneo.",
+          "wrong": {
+            "A": "La nefrectomía radical en un paciente anciano frágil con insuficiencia cardiaca, EPOC y bypass coronario previo conlleva un riesgo perioperatorio inaceptable en relación con el probable beneficio clínico del tratamiento oncológico en un paciente con múltiples riesgos de mortalidad competidores.",
+            "B": "La VA sola es razonable pero la ablación también es una opción — deben ofrecerse ambas.",
+            "C": "La ablación sola es razonable pero la VA también es una opción — las preferencias del paciente y la esperanza de vida deben orientar la decisión."
+          },
+          "guideline": "EAU Guidelines on RCC 2024, Sección 6.2 — VA apropiada para pacientes ancianos/con comorbilidades; ablación para T1a ≤3 cm en pacientes no aptos para cirugía",
+          "trial": "Registro DISSRM (Lane BR et al., J Urol 2015): VA para MRP <4 cm — crecimiento mediano 0,28 cm/año; 1,5% progresó a enfermedad metastásica a los 3 años; la mortalidad por comorbilidades superó la mortalidad por cáncer renal en pacientes con comorbilidades.",
+          "pearl": "Para pacientes ancianos/con comorbilidades con masas renales pequeñas: tanto la vigilancia activa como la ablación térmica son opciones válidas. Las comorbilidades competidoras a menudo superan al cáncer renal como causa de muerte en esta población — evitar el sobretratamiento."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q9",
+        "stem": "¿Cuál de los siguientes se clasifica como T3a en la estadificación TNM 2017 del carcinoma de células renales?",
+        "options": {
+          "A": "Tumor >10 cm completamente confinado al riñón",
+          "B": "Tumor con extensión hacia la VCI por debajo del diafragma",
+          "C": "Tumor que se extiende hacia la grasa del seno renal o las ramas de la vena renal",
+          "D": "Tumor que invade más allá de la fascia de Gerota"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "T3a en la estadificación TNM AJCC 2017 para CCR incluye: tumor que se extiende hacia la vena renal o sus ramas segmentarias (que contienen músculo), O invasión del sistema pielo-calicial (pelvis renal), O invasión de la grasa perirrenal o del seno renal, pero NO más allá de la fascia de Gerota. La invasión de la grasa del seno renal es una característica adversa importante que asciende el estadio del tumor a T3a independientemente del tamaño tumoral.",
+          "wrong": {
+            "A": "Tumor >10 cm confinado al riñón = T2b (no T3a).",
+            "B": "Extensión a VCI por debajo del diafragma = T3b; por encima del diafragma = T3c.",
+            "D": "Invasión más allá de la fascia de Gerota = T4."
+          },
+          "guideline": "AJCC TNM 8.ª edición (2017) — Estadificación T del cáncer renal: T3a = vena renal/ramas segmentarias, sistema pielo-calicial, grasa perirrenal/seno pero no más allá de Gerota",
+          "trial": "Bertini R et al. (Eur Urol 2009): La invasión de la grasa del seno renal es un predictor independiente de SG específica por cáncer tras la NR, validando su clasificación como T3a.",
+          "pearl": "T3a CCR: invasión de la grasa del seno renal o afectación de la vena renal (o ramas segmentarias). T3b: VCI por debajo del diafragma. T3c: VCI por encima del diafragma. T4: más allá de la fascia de Gerota. Grasa del seno renal = T3a independientemente del tamaño tumoral."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q10",
+        "stem": "El objetivo molecular de sunitinib y pazopanib en el ccCCR se describe mejor como:",
+        "options": {
+          "A": "Vía del punto de control PD-1 / PD-L1",
+          "B": "mTOR (diana mecanicista de la rapamicina) complejo 1",
+          "C": "Receptores de VEGF (VEGFR-1, -2, -3) y tirosina quinasas PDGFR",
+          "D": "Enzima CYP17A1 en la vía de esteroidogénesis"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Sunitinib y pazopanib son inhibidores de tirosina quinasa (ITK) multidiana que inhiben VEGFR-1, VEGFR-2, VEGFR-3 y PDGFR-α/β, así como c-KIT y FLT3. En el ccCCR con mutación VHL, HIF-1α impulsa la sobreexpresión de VEGF, lo que conduce a la angiogénesis tumoral patológica que es el principal impulsor del crecimiento. El bloqueo de los receptores de VEGF inhibe la vasculatura tumoral y el crecimiento. Esta es la justificación de la terapia con VEGF-TKI en el ccCCR. Sunitinib fue el estándar de referencia de primera línea para el ccCCR metastásico desde 2006 hasta que fue superado por los regímenes de doblete combinado con IO desde 2018-2021.",
+          "wrong": {
+            "A": "PD-1/PD-L1 es el objetivo de los inhibidores de puntos de control (nivolumab, pembrolizumab, atezolizumab). No es el mecanismo de sunitinib/pazopanib.",
+            "B": "mTOR es el objetivo de everolimus y temsirolimus (agentes de CCR de segunda línea, particularmente en CCR no de células claras). No es el objetivo principal de sunitinib.",
+            "D": "CYP17A1 es el objetivo de abiraterona en el carcinoma de próstata, no en el CCR."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — Mecanismo de los VEGF-TKIs; vía VHL-VEGF como base molecular de la terapia con ITK en el ccCCR",
+          "trial": "Motzer RJ et al. (N Engl J Med 2007): Sunitinib vs interferón-α — SLP 11 vs 5 meses; estableció sunitinib como estándar de primera línea con ITK en el ccCCR metastásico.",
+          "pearl": "Sunitinib/pazopanib = VEGFR-1,2,3 + PDGFR ITK. Base molecular: pérdida VHL → HIF-1α → VEGF → angiogénesis tumoral → VEGF-TKI inhibe esto. Estándar de referencia de primera línea con ITK (2006-2018) ahora sustituido por dobletes IO+TKI o IO+IO."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q11",
+        "stem": "Una mujer de 61 años tiene una masa renal derecha de 9,5 cm (cT2b) en TC sin adenopatías ni metástasis. Tiene un FGe de 78 mL/min. ¿Cuál es el abordaje quirúrgico más apropiado?",
+        "options": {
+          "A": "Nefrectomía parcial — preferida para todos los tumores T2 independientemente de la complejidad",
+          "B": "Nefrectomía radical — preferida para los tumores T2b que técnicamente no son susceptibles de NP",
+          "C": "Suprarrenalectomía bilateral con nefrectomía dado el tamaño tumoral",
+          "D": "Terapia con VEGF-TKI antes de la cirugía para reducir el tamaño tumoral"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Para los tumores T2b (>10 cm confinados al riñón), la nefrectomía radical es el abordaje estándar. Si bien la NP debe considerarse para T2a (7-10 cm) en casos seleccionados, los tumores T2b (>10 cm) casi siempre se benefician mejor de la nefrectomía radical debido a la complejidad técnica y la seguridad oncológica. El riñón contralateral es normal (FGe 78 es tranquilizador antes de la NR). La suprarrenalectomía solo está indicada cuando la TC muestra afectación suprarrenal — la suprarrenalectomía ipsilateral rutinaria no está recomendada para la enfermedad T2 no complicada.",
+          "wrong": {
+            "A": "La NP para T2b (>10 cm) es técnicamente factible en muy pocos casos y conlleva mayor riesgo de resección incompleta y hemorragia. La NR es el estándar.",
+            "C": "La suprarrenalectomía rutinaria no está indicada a menos que las imágenes muestren afectación suprarrenal. Añadir la suprarrenalectomía innecesariamente aumenta el riesgo operatorio.",
+            "D": "La terapia neoadyuvante con VEGF-TKI en el CCR no ha demostrado mejorar los resultados y no es una práctica estándar. Cirugía primero para la enfermedad resecable."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — Nefrectomía radical estándar para T2b; NP para casos seleccionados T2a; suprarrenalectomía solo si las imágenes muestran afectación suprarrenal",
+          "trial": "Blom JHM et al. (Eur Urol 2009, EORTC 30947): Suprarrenalectomía ipsilateral vs sin suprarrenalectomía — sin diferencia en SG; suprarrenalectomía no indicada a menos que haya afectación suprarrenal en imagen.",
+          "pearl": "La suprarrenalectomía ipsilateral rutinaria en la nefrectomía NO está recomendada a menos que la TC/RM muestre afectación suprarrenal. Enfermedad T2b → nefrectomía radical. Suprarrenalectomía solo para invasión suprarrenal confirmada por imagen."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q12",
+        "stem": "¿Cuál de los siguientes diagnósticos de tumor renal es una entidad BENIGNA que no debe tratarse con cirugía con preservación de nefronas a menos que esté creciendo o sea sintomática?",
+        "options": {
+          "A": "Carcinoma de células renales cromófobo",
+          "B": "CCR papilar tipo 1",
+          "C": "Oncocitoma renal",
+          "D": "CCR de células claras con grado Fuhrman 1"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El oncocitoma renal es una neoplasia renal benigna que no metastatiza. Sin embargo, no puede distinguirse de forma fiable del CCR cromófobo solo con imágenes — ambos aparecen como masas renales sólidas que realzan. La biopsia con aguja gruesa puede sugerir oncocitoma (células eosinófilas con citoplasma granular, sin atipia nuclear), pero incluso la biopsia no siempre puede distinguir definitivamente el oncocitoma del CCR cromófobo oncocítico. Por lo tanto, las decisiones de manejo deben tomarse sabiendo que la extirpación quirúrgica es curativa y que la vigilancia sola es aceptable para los oncocitomas pequeños (<3-4 cm) diagnosticados en pacientes con comorbilidades.",
+          "wrong": {
+            "A": "El CCR cromófobo es maligno (aunque con pronóstico favorable). Requiere el mismo abordaje quirúrgico que los otros subtipos de CCR.",
+            "B": "El CCR papilar tipo 1 es maligno. Requiere tratamiento quirúrgico.",
+            "D": "El CCR de células claras de bajo grado es maligno y requiere resección."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — Oncocitoma: benigno; puede observarse si está confirmado por biopsia; la extirpación quirúrgica es curativa cuando se elige el tratamiento",
+          "trial": "Kouba E et al. (J Urol 2007): Serie de oncocitoma renal — sin metástasis en ninguno de los 168 pacientes en el seguimiento a largo plazo; confirma la historia natural benigna.",
+          "pearl": "El oncocitoma renal es benigno y no metastatiza. El reto clínico es distinguirlo del CCR cromófobo en imagen e incluso en biopsia — ambos pueden parecer similares. Cuando se diagnostica con confianza, la observación es aceptable para los oncocitomas pequeños."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q13",
+        "stem": "Un paciente está siendo evaluado para el tratamiento de primera línea del ccCCR metastásico. Tiene riesgo IMDC intermedio (KPS 70%, hemoglobina por debajo de lo normal — 2 factores de riesgo). ¿Qué régimen está recomendado según la EAU 2024 para los pacientes de riesgo intermedio/desfavorable?",
+        "options": {
+          "A": "Sunitinib en monoterapia — preferido en riesgo intermedio",
+          "B": "Nivolumab + ipilimumab — establecido para riesgo intermedio/desfavorable (CheckMate 214)",
+          "C": "Everolimus — inhibidor de mTOR preferido en riesgo intermedio",
+          "D": "Interferón-alfa — estándar histórico; aún preferido en pacientes ancianos"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "CheckMate 214 (Motzer RJ et al., NEJM 2018) demostró que nivolumab + ipilimumab mejoró significativamente la SG vs sunitinib en ccCCR de riesgo intermedio/desfavorable: SG a 5 años del 47% vs 27% (HR 0,68). El beneficio no fue significativo en pacientes de riesgo favorable. La EAU 2024 recomienda nivolumab + ipilimumab como opción preferida para el ccCCR metastásico de riesgo intermedio/desfavorable. Otros dobletes que contienen IO (pembrolizumab + axitinib, pembrolizumab + lenvatinib, nivolumab + cabozantinib) también están respaldados para todos los grupos de riesgo.",
+          "wrong": {
+            "A": "Sunitinib ahora solo es una opción para los pacientes de riesgo favorable que no pueden recibir regímenes basados en IO. No se prefiere para riesgo intermedio/desfavorable en 2024.",
+            "C": "Everolimus es un agente de segunda línea (tras el fracaso de VEGF-TKI). No es de primera línea para ningún subgrupo de CCR metastásico.",
+            "D": "El interferón-alfa ya no se usa en el CCR metastásico — fue superado por los VEGF-TKIs en 2006 y las combinaciones IO en 2018."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — Evidencia de CheckMate 214; nivolumab + ipilimumab recomendado para riesgo IMDC intermedio/desfavorable",
+          "trial": "CheckMate 214 (Motzer RJ et al., N Engl J Med 2018; 378:1277-1290): Nivolumab + ipilimumab vs sunitinib — SG a 5 años del 47% vs 27% (HR 0,68) en riesgo intermedio/desfavorable.",
+          "pearl": "CheckMate 214: nivolumab + ipilimumab recomendado para ccCCR de riesgo IMDC intermedio/desfavorable. No beneficia a los pacientes de riesgo favorable, donde se prefieren los dobletes IO+TKI. Beneficio en SG: 47% vs 27% a los 5 años."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q14",
+        "stem": "¿Cuál es la definición del tiempo de isquemia caliente (TIC) durante la nefrectomía parcial y cuál es la duración máxima recomendada por la EAU 2024?",
+        "options": {
+          "A": "Tiempo desde el clampaje hasta el desclampaje de la arteria renal; máximo 60 minutos",
+          "B": "Tiempo desde el clampaje hasta el desclampaje de la arteria renal; máximo 25 minutos",
+          "C": "Tiempo desde el enfriamiento renal hasta la reperfusión; máximo 45 minutos",
+          "D": "Tiempo desde la incisión hasta la extracción del riñón; máximo 180 minutos"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El tiempo de isquemia caliente (TIC) es la duración desde el clampaje hiliar renal (arresto del flujo sanguíneo caliente al riñón) hasta el desclampaje durante la nefrectomía parcial. Durante el TIC, el riñón está privado de sangre oxigenada y sometido a lesión isquémica. El TIC prolongado se asocia con pérdida postoperatoria de la función renal. La EAU 2024 y la mayoría de las guías principales recomiendan un TIC ≤25 minutos como objetivo, con ≤20 minutos preferido para pacientes con ERC preexistente. La nefrectomía parcial 'sin clampaje' (sin oclusión hiliar) elimina el TIC por completo y se utiliza para tumores exofíticos periféricos.",
+          "wrong": {
+            "A": "60 minutos es demasiado tiempo — se produce un daño isquémico irreversible significativo después de 30 minutos, y se observa una pérdida clínicamente relevante de la función renal después de 25 minutos.",
+            "C": "El 'tiempo de isquemia fría' (riñón enfriado con hielo) permite una isquemia más larga, hasta 35-45 minutos antes del daño funcional. Este no es el TIC.",
+            "D": "El tiempo operatorio total no es el TIC — el TIC se refiere específicamente al intervalo de isquemia con clampaje."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — TIC ≤25 minutos recomendado durante la NP; ≤20 minutos para ERC basal; la técnica sin clampaje elimina el TIC",
+          "trial": "Bhayani SB et al. (J Urol 2004): Resultados funcionales tras NP — TIC >30 min asociado con pérdida significativa del FGe a los 12 meses. Define el umbral clínico de 25 minutos.",
+          "pearl": "Tiempo de isquemia caliente = tiempo con el hilio renal clampado durante la NP. Objetivo ≤25 minutos (preferiblemente ≤20 minutos en ERC). El TIC prolongado causa pérdida irreversible de nefronas. Minimizar mediante una planificación preoperatoria meticulosa, clampaje selectivo o técnica sin clampaje."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q15",
+        "stem": "Un hombre de 55 años con ccCCR que se sometió a nefrectomía radical por enfermedad cT3a hace 3 años, presenta ahora 2 nódulos pulmonares aislados (1,2 cm y 0,9 cm) en TC de vigilancia. Sin otra enfermedad metastásica. Está asintomático con riesgo IMDC favorable. ¿Cuál es el manejo inicial más apropiado?",
+        "options": {
+          "A": "Terapia sistémica inmediata con pembrolizumab + lenvatinib",
+          "B": "Espera vigilante — los nódulos pulmonares pequeños pueden ser benignos",
+          "C": "Resección quirúrgica de ambas metástasis pulmonares (metastasectomía) — enfermedad oligometastásica de riesgo favorable",
+          "D": "Radioterapia ablativa estereotáctica corporal (SABR) en ambas lesiones pulmonares"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El CCR oligometastásico con 2 metástasis pulmonares resecables tras un intervalo libre de enfermedad de 3 años en un paciente con riesgo IMDC favorable es una indicación clásica de metastasectomía pulmonar. Las series retrospectivas y las revisiones sistemáticas muestran una SG a 5 años del 45-55% tras una metastasectomía completa vs aproximadamente el 10-15% con terapia sistémica sola en este contexto. La EAU 2024 establece que la resección quirúrgica completa de toda la enfermedad metastásica mejora los resultados y debe considerarse en pacientes en forma con enfermedad resecable. El riesgo IMDC favorable, el intervalo libre de enfermedad >12 meses y las metástasis limitadas (<5) predicen el beneficio de la metastasectomía.",
+          "wrong": {
+            "A": "La terapia sistémica inmediata para la enfermedad oligometastásica resecable sin intentar primero el control quirúrgico es subóptima — la metastasectomía ofrece la posibilidad de remisión completa.",
+            "B": "En un paciente con CCR conocido y nuevos nódulos pulmonares tras la nefrectomía radical, el diagnóstico más probable es CCR metastásico. La espera vigilante sin confirmación tisular ni plan de tratamiento es inapropiada.",
+            "D": "La SABR es una opción pero está menos validada que la cirugía para las metástasis pulmonares resecables en el CCR y no es de primera línea cuando la cirugía es factible."
+          },
+          "guideline": "EAU Guidelines on RCC 2024, Sección 7.3 — La resección completa de metástasis mejora los resultados; metastasectomía en pacientes en forma con enfermedad metastásica limitada y resecable",
+          "trial": "Kavolius JP et al. (J Clin Oncol 1998): Metastasectomía para metástasis solitaria de CCR — supervivencia a 5 años del 44% con resección completa vs 14% con resección incompleta. Validó el papel de la metastasectomía.",
+          "pearl": "CCR oligometastásico (particularmente pulmonar, intervalo libre de enfermedad >1 año, IMDC favorable) es una indicación de metastasectomía quirúrgica. SG a 5 años ~45-55% con resección completa. La EAU 2024 recomienda considerar la resección de toda la enfermedad metastásica en pacientes en forma."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q16",
+        "stem": "Un informe de biopsia de masa renal muestra 'oncocitoma renal'. El paciente tiene 78 años con comorbilidades cardiacas significativas. El tumor es de 2,8 cm y exofítico en TC. ¿Cuál es el manejo más apropiado?",
+        "options": {
+          "A": "Nefrectomía parcial inmediata para confirmar la naturaleza benigna",
+          "B": "Vigilancia activa con TC anual — el oncocitoma es benigno y es improbable que cause daño",
+          "C": "Terapia sistémica con VEGF-TKI dadas las características de imagen",
+          "D": "Nefrectomía radical inmediata dado que la edad y las comorbilidades impiden la NP"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El oncocitoma renal es una neoplasia benigna sin potencial metastásico. En un paciente anciano con comorbilidades cardiacas significativas y un oncocitoma confirmado por biopsia, la vigilancia activa es apropiada y evita el riesgo quirúrgico. La vigilancia anual con TC monitoriza el crecimiento (que sugeriría que la biopsia pudo haber muestreado un CCR cromófobo adyacente o clasificado incorrectamente). La mayoría de los oncocitomas crecen lentamente o no crecen. La cirugía puede reconsiderarse si el tumor crece rápidamente o si la biopsia no fue diagnóstica.",
+          "wrong": {
+            "A": "La NP para 'confirmar' una lesión benigna ya confirmada por biopsia en un paciente de alto riesgo quirúrgico no está justificada.",
+            "C": "La terapia con VEGF-TKI no tiene ningún papel en el oncocitoma renal benigno.",
+            "D": "La nefrectomía radical para una lesión benigna en un paciente de alto riesgo no es apropiada."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — Oncocitoma: benigno; vigilancia aceptable en pacientes con comorbilidades/ancianos tras confirmación por biopsia",
+          "trial": "Umbehr MH et al. (Eur Urol 2014) revisión sistemática: No se informaron metástasis de oncocitoma renal puro confirmado en ninguna serie publicada. Historia natural benigna establecida.",
+          "pearl": "Oncocitoma renal confirmado por biopsia en un paciente de alto riesgo quirúrgico = vigilancia activa. El oncocitoma es benigno sin potencial metastásico. El reto es distinguirlo del CCR cromófobo — la biopsia es la herramienta, y cuando es concluyente, la observación evita la cirugía innecesaria."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q17",
+        "stem": "¿Qué síndrome hereditario se caracteriza principalmente por angiomiolipomas renales (AML) multifocales bilaterales, quistes renales y ccCCR, y cuál es el tratamiento médico de primera línea para el AML en crecimiento?",
+        "options": {
+          "A": "Enfermedad de Von Hippel-Lindau — inhibidores de mTOR para el AML",
+          "B": "Complejo de esclerosis tuberosa (mutación TSC1/TSC2) — inhibidores de mTOR (everolimus, sirolimus) para el AML",
+          "C": "Síndrome de Birt-Hogg-Dubé — embolización selectiva para el AML",
+          "D": "HLRCC — erlotinib + bevacizumab para el AML"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El complejo de esclerosis tuberosa (TSC, causado por mutaciones en TSC1 o TSC2) se caracteriza por angiomiolipomas renales bilaterales (AML), quistes renales, túberes corticales, astrocitomas de células gigantes subependimarios, rabdomiomas cardiacos y linfangioleiomiomatosis pulmonar (LAM). La vía mTOR está constitutivamente activada en el TSC (mTOR = diana mecanicista de la rapamicina). Los inhibidores de mTOR (everolimus o sirolimus) reducen el tamaño del AML en el 50-90% de los pacientes con TSC y son el tratamiento de primera línea para el AML en crecimiento, reduciendo significativamente la necesidad de intervención quirúrgica y embolización.",
+          "wrong": {
+            "A": "La enfermedad VHL típicamente no causa angiomiolipomas — causa ccCCR y hemangioblastomas. El VHL no se trata con inhibidores de mTOR.",
+            "C": "El síndrome de Birt-Hogg-Dubé causa fibrofoliculomas, quistes pulmonares y CCR cromófobo/oncocitoma — no AML.",
+            "D": "HLRCC causa CCR papilar tipo 2 agresivo — no AML."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — TSC y AML: inhibidores de mTOR (everolimus) de primera línea para AML en crecimiento (>3 cm o sintomático); embolización/cirugía para hemorragia/emergencia",
+          "trial": "Bissler JJ et al. (NEJM 2008): Sirolimus (rapamicina) reduce el tamaño del AML en pacientes con TSC en un 53%; prueba de concepto para la inhibición de mTOR. Confirmado por el ensayo EXIST-2 (everolimus).",
+          "pearl": "Esclerosis tuberosa = enfermedad impulsada por mTOR. AML renal en crecimiento (>3 cm) en TSC → everolimus o sirolimus (inhibidores de mTOR). Reduce el tamaño del AML y previene la hemorragia sin cirugía. AML >3 cm conlleva un riesgo anual de ~3% de hemorragia catastrófica (síndrome de Wunderlich)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q18",
+        "stem": "Un hombre de 67 años tiene ccCCR Estadio IVB (cT3b N1 M1b — óseo) en el diagnóstico. Tiene riesgo IMDC intermedio (2 factores). Está en forma para terapia sistémica y el riesgo quirúrgico es aceptable. ¿Qué debe incluir su plan de tratamiento según la EAU 2024?",
+        "options": {
+          "A": "Nefrectomía citorreductora inmediata seguida de sunitinib",
+          "B": "Terapia sistémica primero (doblete IO preferido); considerar NC diferida si la enfermedad responde sin progresión",
+          "C": "Sunitinib solo — sin papel para la cirugía en enfermedad N1 M1b",
+          "D": "Solo cuidados paliativos dado el estadio N1 M1b"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Para el ccCCR M1 de riesgo IMDC intermedio, el ensayo CARMENA mostró que sunitinib solo fue no inferior a NC + sunitinib; y SURTIME mostró una tendencia hacia el beneficio con la NC diferida (tras la inducción con terapia sistémica). La EAU 2024 recomienda la terapia de doblete IO primero (pembrolizumab + axitinib, nivolumab + ipilimumab, pembrolizumab + lenvatinib o nivolumab + cabozantinib). Si el paciente no progresa a los 2-3 ciclos, puede considerarse la NC diferida para reducir la carga del tumor primario. Esto identifica a los pacientes con buena biología que tienen más probabilidad de beneficiarse de la NC.",
+          "wrong": {
+            "A": "NC inmediata + sunitinib en riesgo intermedio demostró ser no inferior (no superior) a sunitinib solo en CARMENA, y el tratamiento de primera línea contemporáneo es el doblete IO no sunitinib.",
+            "C": "La terapia sistémica está definitivamente indicada. La NC diferida es una opción válida.",
+            "D": "El ccCCR N1M1b es una condición tratable, aunque no curable, con una SG mediana de aproximadamente 23 meses con terapia de doblete IO. Los cuidados paliativos solos son inapropiados para un paciente en forma."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — CCR metastásico: doblete IO de primera línea; NC diferida tras respuesta a terapia sistémica en riesgo intermedio; NC inmediata solo para riesgo favorable",
+          "trial": "CARMENA (NEJM 2018) + SURTIME (JAMA Oncol 2019): Juntos establecen la estrategia de NC diferida para CCR metastásico de riesgo intermedio.",
+          "pearl": "Manejo del CCR metastásico: doblete IO de primera línea (ya no sunitinib). La NC diferida (tras 2-3 ciclos de terapia sistémica) es la estrategia de NC preferida cuando la NC está indicada en pacientes de riesgo intermedio. NC inmediata solo para enfermedad de riesgo favorable resecable."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A3-Q19",
+        "stem": "Una mujer de 52 años tiene una masa renal izquierda (3,8 cm, heterogénea, exofítica, cT1b en TC) confirmada como ccCCR tras nefrectomía parcial. La anatomía patológica muestra pT1b, grado Fuhrman 3 (grado ISUP 3), R0, pN0. ¿Qué seguimiento es apropiado?",
+        "options": {
+          "A": "TC de tórax/abdomen a los 3 meses, luego anualmente durante 3 años (protocolo de bajo riesgo)",
+          "B": "TC de tórax/abdomen a los 3 meses, cada 6 meses durante 2 años, luego anualmente durante 3 años (protocolo de riesgo intermedio)",
+          "C": "Sin seguimiento — la resección R0 de la enfermedad T1b es curativa",
+          "D": "Solo RM de abdomen — la TC no es necesaria para la vigilancia renal"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ccCCR pT1b grado Fuhrman/ISUP 3 se clasifica como riesgo intermedio (características T2 o grado 3). Vigilancia de riesgo intermedio según EAU 2024: TC de tórax/abdomen a los 3 meses (basal postoperatoria), cada 6 meses durante 2 años, luego anualmente durante 3 años. El grado 3 es una característica adversa que sitúa el pT1b en la categoría de vigilancia intermedia, no de bajo riesgo.",
+          "wrong": {
+            "A": "La vigilancia de bajo riesgo es apropiada para la enfermedad pT1a de grado 1-2. El pT1b de grado 3 es de riesgo intermedio y requiere un seguimiento más intensivo.",
+            "C": "El CCR requiere vigilancia a largo plazo incluso tras la resección R0 — la recurrencia puede ocurrir años después, particularmente en la enfermedad de mayor grado. El 30% de los pacientes pT1b de grado 3 recurren.",
+            "D": "La TC es la modalidad preferida para la vigilancia del CCR (metástasis pulmonares). La RM se usa para la resolución de problemas o en pacientes con alergia al contraste/ERC."
+          },
+          "guideline": "EAU Guidelines on RCC 2024, Sección 8 — Vigilancia: T1b grado 3 = riesgo intermedio: TC a los 3 meses, cada 6 meses × 2 años, anual × 3 años",
+          "trial": "Dabestani S et al. (Eur Urol 2019): Validación de vigilancia adaptada al riesgo — CCR de riesgo intermedio (T1b grado 3 o T2) requiere imagen semestral en los primeros 2 años para detectar la recurrencia de forma oportuna.",
+          "pearl": "La vigilancia del CCR depende del grado y estadio. T1a grado 1-2 = bajo riesgo (TC anual). T1b grado 3, T2 = riesgo intermedio (cada 6 meses × 2 años, luego anual). T3+, grado 4, N+ = alto riesgo (cada 6 meses × 3 años). Nunca omitir la vigilancia tras la resección de CCR."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q20",
+        "stem": "¿Cuál es el mecanismo molecular primario que explica por qué el CCR no de células claras (p.ej., cromófobo, papilar tipo 1) responde peor a la terapia con VEGF-TKI en comparación con el ccCCR?",
+        "options": {
+          "A": "El CCR no de células claras tiene menor expresión de PDL-1 y por tanto es menos inmunogénico",
+          "B": "El CCR no de células claras carece de mutación VHL y por tanto no tiene VEGF constitutivamente elevado a través de la activación de la vía HIF-1α",
+          "C": "El CCR no de células claras tiene menor actividad de la vía mTOR, haciendo que la terapia dirigida sea ineficaz",
+          "D": "Las células de CCR no de células claras expresan vías de crecimiento independientes de VEGF que son insensibles al bloqueo con ITK"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ccCCR se caracteriza por la pérdida bialélica de VHL en >75% de los casos. VHL normalmente degrada HIF-1α en normoxia. Sin VHL, HIF-1α se acumula de forma constitutiva, impulsando la transcripción de VEGF, PDGF, GLUT1 y EPO — resultando en una angiogénesis patológica que es el principal impulsor del crecimiento. Los VEGF-TKIs (sunitinib, pazopanib, axitinib) explotan esta dependencia. Los subtipos de CCR no de células claras (cromófobo, papilar tipo 1) generalmente carecen de mutaciones VHL y por tanto no tienen VEGF constitutivamente elevado a través de la vía VHL-HIF, lo que explica la reducida sensibilidad a los ITK.",
+          "wrong": {
+            "A": "La expresión de PD-L1 varía entre los subtipos de CCR y no explica directamente la resistencia a los ITK. PD-L1 es relevante para la respuesta a los inhibidores de puntos de control, no para la respuesta a los ITK.",
+            "C": "El CCR cromófobo tiene actividad alterada de la vía mTOR (pérdida de PTEN), pero esta no es la explicación principal de la resistencia a los ITK.",
+            "D": "Si bien el CCR no de células claras puede tener impulsores de crecimiento alternativos, la explicación fundamental es la ausencia de dependencia del eje VHL-HIF-VEGF."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — CCR no de células claras: menos sensible a VEGF-TKI; base VHL de la sensibilidad de los ITK en ccCCR",
+          "trial": "Escudier B et al. (Eur Urol 2012): Revisión sistemática de VEGF-TKI en CCR no de células claras — TOR y SLP consistentemente menores que en ccCCR; valida la hipótesis de la dependencia de VHL.",
+          "pearl": "Mutación VHL → acumulación de HIF-1α → sobreexpresión de VEGF = la base molecular de la eficacia de los VEGF-TKI en el ccCCR. El CCR no de células claras carece de mutación VHL en la mayoría de los casos → sin dependencia constitutiva de VEGF → sensibilidad reducida a los ITK. Conocer el eje VHL-HIF-VEGF."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

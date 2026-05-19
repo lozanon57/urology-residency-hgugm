@@ -1,0 +1,652 @@
+{
+  "id": "F1",
+  "title": "Laparoscopic and Robot-Assisted Urological Surgery",
+  "subtitle": "Block F — Reconstruction and Minimally Invasive Surgery: Principles, Techniques, and Oncological Outcomes",
+  "block": "F",
+  "block_name": "Reconstruction and Minimally Invasive Surgery",
+  "level": "R3-5",
+  "reading_time_min": 45,
+  "guidelines_version": "EAU Guidelines on Surgical Techniques 2024 · EAU Guidelines on Prostate Cancer 2024 · EAU Guidelines on Non-Muscle-Invasive Bladder Cancer 2024",
+  "textbook_refs": [
+    "Mottet N et al. EAU Guidelines on Prostate Cancer. European Association of Urology 2024",
+    "Babjuk M et al. EAU Guidelines on Non-Muscle-Invasive Bladder Cancer. European Association of Urology 2024",
+    "Ljungberg B et al. EAU Guidelines on Renal Cell Carcinoma. European Association of Urology 2024",
+    "Hasson HM. Open laparoscopy: a report of 150 cases. J Reprod Med 1974;12:234",
+    "Guillonneau B, Vallancien G. Laparoscopic radical prostatectomy. Eur Urol 1999;36:159",
+    "Menon M et al. Robotic radical prostatectomy. BJU Int 2002;90:614",
+    "SEER Database. National Cancer Institute Surveillance, Epidemiology, and End Results (robot-assisted vs open surgery comparative outcomes)"
+  ],
+  "learning_objectives": [
+    "Describe the physiological consequences of pneumoperitoneum and identify patients at elevated cardiorespiratory risk for laparoscopic surgery",
+    "Compare the surgical and oncological outcomes of open, laparoscopic, and robot-assisted radical prostatectomy using current evidence",
+    "Outline the technique and evidence base for robot-assisted partial nephrectomy (RAPN) versus open partial nephrectomy for T1 renal tumours",
+    "Describe the principles of robot-assisted radical cystectomy (RARC) with intracorporeal diversion and the current evidence regarding oncological equivalence to open surgery",
+    "Identify and manage common laparoscopic and robotic complications including port-site complications, vascular injury, and conversion indications",
+    "Apply the Hasson and Veress needle trocar entry techniques and their relative safety profiles"
+  ],
+  "sections": [
+    {
+      "id": "F1-S1",
+      "title": "Principles of Laparoscopy: Pneumoperitoneum and Physiological Effects",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Laparoscopic surgery relies on the creation of a pneumoperitoneum — the insufflation of CO₂ gas into the abdominal cavity to create a working space. Standard pneumoperitoneum pressure is 12–15 mmHg intra-abdominal pressure (IAP); pressures above 20 mmHg carry significant physiological risk. CO₂ is used preferentially because it is rapidly absorbed and exhaled (preventing gas embolism), non-flammable (safe with diathermy), and readily available.\n\n**Physiological effects of pneumoperitoneum**:\n- **Cardiovascular**: elevated IAP compresses the inferior vena cava and aorta, reducing venous return → decreased cardiac preload → reduced cardiac output (typically 20–30% decrease). Heart rate reflexly increases. Systemic vascular resistance increases. These effects are exaggerated in hypovolaemia, cardiac failure, and the Trendelenburg position. For robotic prostatectomy, the steep Trendelenburg (30–40°) position compounds these cardiovascular effects — contraindicated in severe cardiac failure (EF <30%).\n- **Respiratory**: elevated diaphragm from CO₂ insufflation reduces FRC (functional residual capacity) and lung compliance. PEEP ventilation and increased ventilatory pressure are required. CO₂ absorption from the peritoneum increases PaCO₂ → requires increased minute ventilation. Steep Trendelenburg position further impairs pulmonary compliance and increases risk of endobronchial intubation from cephalad tracheal shift.\n- **Renal**: reduced renal cortical blood flow from elevated IAP and vasopressin release → transient oliguria during laparoscopy is expected and does not indicate acute kidney injury. Urine output returns to normal post-desufflation.\n- **Venous thromboembolism**: reverse Trendelenburg (head-up) and prolonged operative time increase venous stasis in lower extremities → elevated DVT risk → mandatory sequential compression devices and LMWH prophylaxis.\n\n**Absolute contraindications to laparoscopy**: uncorrected coagulopathy, haemodynamic instability (active haemorrhage, septic shock), intestinal obstruction with significant distension (risk of bowel injury on access), prior abdominal surgery with extensive adhesions (relative — may attempt but higher conversion risk)."
+        },
+        {
+          "type": "table",
+          "title": "Abdominal Entry Techniques — Veress Needle vs Hasson Open Technique",
+          "headers": ["Technique", "Principle", "Advantages", "Disadvantages", "Preferred Scenario"],
+          "rows": [
+            ["Veress needle (closed)", "Blind needle insufflation through small umbilical incision followed by trocar insertion", "Faster, small incision, no bowel exposure", "Blind — higher vascular/bowel injury risk; contraindicated in prior midline surgery", "Virgin abdomen, no prior midline surgery"],
+            ["Hasson open technique (open)", "Small cutdown, fascia opened under direct vision, blunt trocar inserted", "Direct vision — lower vascular injury risk, safe in prior surgery", "Slower, larger incision, gas leak around trocar", "Prior abdominal surgery, obese patients, colon/bowel distension"],
+            ["Optical trocar", "Trocar with camera — visualises tissue layers as trocar advances", "Minimises blind insertion risk", "Requires coordination; still requires experience", "Experienced surgeons, intermediate risk"],
+            ["Palmer's point entry", "Left upper quadrant entry 3 cm below left costal margin in midclavicular line", "Avoids umbilical adhesions from prior surgery", "Requires care to avoid spleen/stomach", "Prior midline surgery with umbilical adhesions"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Oliguria During Laparoscopy",
+          "content": "Oliguria (urine output <0.5 mL/kg/h) during laparoscopic surgery is expected and does NOT indicate acute kidney injury or volume depletion requiring aggressive fluid resuscitation. Elevated intra-abdominal pressure reduces renal cortical blood flow and increases ADH release — urine output normalises after pneumoperitoneum release. Excess fluid loading to treat laparoscopic oliguria risks post-operative fluid overload. Inform the anaesthetist: oliguria during laparoscopy is physiological, not pathological."
+        }
+      ]
+    },
+    {
+      "id": "F1-S2",
+      "title": "Robotic Surgery Systems and the Da Vinci Platform",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The da Vinci Surgical System (Intuitive Surgical, Sunnyvale, USA) is the dominant robotic surgical platform in urology. The current generation (da Vinci Xi and SP — single-port) consists of three components: (1) the **patient-side cart** with 3–4 robotic arms (one camera arm + 2–3 instrument arms), (2) the **surgeon console** where the operating surgeon is seated and controls the instruments using hand controls and foot pedals, and (3) the **vision cart** with the imaging processor.\n\nKey advantages of robotic surgery over conventional laparoscopy:\n- **EndoWrist® articulation**: 7 degrees of freedom (compared to 4 in rigid laparoscopic instruments) — enables movement in any direction within the body cavity, approximating or exceeding open surgical dexterity\n- **3D stereoscopic HD vision**: magnification ×10, depth perception (vs 2D flat image of conventional laparoscopy)\n- **Tremor filtration**: electronic dampening of physiological hand tremor\n- **Ergonomics**: surgeon seated at console — reduced fatigue during prolonged procedures\n- **Scaling motion**: adjustable motion scaling (1:1 to 1:5) for precise microsurgical dissection\n\nLimitations: no haptic feedback (no tactile sensation of tissue tension/resistance); high capital cost (>$2 million) and per-case cost; large footprint; requires significant training investment. The **da Vinci SP (Single-Port)** system is particularly relevant for confined spaces (retroperitoneal lymph node dissection, inguinal/scrotal procedures).\n\nAlternative robotic platforms gaining clinical foothold include the **Hugo RAS System** (Medtronic), **Versius** (CMR Surgical), and **Senhance** (Asensus) — all seeking to reduce the monopoly of the da Vinci platform and reduce cost barriers."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Robotic vs Laparoscopic Advantages",
+          "content": "The key technical advantages of robotic over conventional laparoscopic surgery are: (1) 7-degree EndoWrist articulation (vs 4 degrees for laparoscopic instruments), (2) 3D HD vision with ×10 magnification (vs 2D flat), (3) tremor filtration. The absence of haptic feedback (no tactile sensation) is the key limitation of robotic surgery compared to open surgery. For the urologist: robotic platforms excel in pelvic surgery (radical prostatectomy, cystectomy) and partial nephrectomy where precision dissection and sutured anastomosis are required."
+        }
+      ]
+    },
+    {
+      "id": "F1-S3",
+      "title": "Robot-Assisted Radical Prostatectomy (RARP): Evidence and Outcomes",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Robot-assisted radical prostatectomy (RARP) is now the dominant approach for surgical treatment of localised prostate cancer worldwide, accounting for >80% of radical prostatectomies in the USA and >60% in Europe. Laparoscopic radical prostatectomy (LRP) was introduced by Guillonneau and Vallancien (Eur Urol 1999) and robotic assistance was first described by Menon et al. (BJU Int 2002) at the Vattikuti Institute of Urology — the Vattikuti Institute prostatectomy (VIP) technique remains foundational.\n\n**Surgical approaches**: Transperitoneal (most common — enters the peritoneal cavity, provides large working space) vs extraperitoneal (enters the Retzius space without entering the peritoneal cavity — faster recovery, less bowel disturbance, preferred by some centres). **Retzius-sparing RARP** (Bocciardi technique) — posterior approach via the pouch of Douglas preserving the retropubic (Retzius) space structures — associated with earlier urinary continence recovery (mechanism: preservation of the pubourethral ligaments and anterior bladder neck suspension).\n\n**Nerve-sparing**: Bilateral nerve sparing (intrafascial dissection preserving the neurovascular bundles lateral to the prostate) is recommended for patients with low-to-intermediate risk prostate cancer who have adequate pre-operative erectile function (IIEF-5 ≥17). Neurovascular bundle (NVB) preservation significantly improves post-operative erectile function recovery. Nerve-sparing is NOT appropriate for high-risk PCa or where NVB is infiltrated by tumour (pT3b disease).\n\n**Evidence for RARP vs open RP (ORP)**:\nThe **ProtecT trial** (Hamdy et al., NEJM 2016) compared active monitoring, RP, and EBRT for localised PCa and assessed multiple outcome metrics, including surgical complications, but did not differentiate robotic from open RP. Comparative evidence from large retrospective registry studies and meta-analyses:\n- **Blood loss and transfusion**: RARP significantly lower (mean blood loss 200–300 mL vs 500–1000 mL for ORP; transfusion rates <2% vs 10–20%)\n- **Hospital stay**: RARP 1–2 days vs ORP 3–5 days\n- **Urinary continence**: RARP shows earlier return to continence (no pad use) but equivalent 12–24 month continence rates to ORP in experienced hands\n- **Erectile function**: Equivalent at 12–24 months in nerve-sparing cases\n- **Positive surgical margin (PSM) rates**: Equivalent or marginally lower with RARP in high-volume centres (approximately 15–25% for pT2 and 40–50% for pT3)\n- **Biochemical recurrence-free survival**: Equivalent between RARP and ORP at 5–10 year follow-up in multiple large series\n\nThe absence of a large prospective RCT comparing RARP to ORP remains a notable evidence gap — ongoing RARP RCTs (LAPPRO, MIRROR trial) are addressing this."
+        },
+        {
+          "type": "table",
+          "title": "RARP vs Open RP — Comparative Outcomes Summary",
+          "headers": ["Outcome", "RARP", "Open RP", "Level of Evidence"],
+          "rows": [
+            ["Estimated blood loss", "200–300 mL", "500–1000 mL", "Multiple meta-analyses (Grade A)"],
+            ["Transfusion rate", "<2%", "10–20%", "Multiple comparative studies"],
+            ["Hospital stay", "1–2 days", "3–5 days", "Grade A"],
+            ["Catheter duration", "7 days", "14 days", "Grade A"],
+            ["30-day complication rate (Clavien ≥III)", "5–8%", "8–12%", "Meta-analysis (Grade B)"],
+            ["12-month continence (pad-free)", "80–90%", "80–90%", "Equivalent (Grade B — no large RCT)"],
+            ["12-month EF (nerve-sparing, IIEF >17 pre-op)", "50–70%", "40–60%", "Favours RARP (Grade B)"],
+            ["Positive surgical margins (pT2)", "15–25%", "15–25%", "Equivalent (Grade B)"],
+            ["10-year BCR-free survival", "Equivalent", "Equivalent", "Large registry studies (Grade B)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Nerve Sparing Decision in RARP",
+          "content": "A 57-year-old man with cT2a Gleason 3+4=7 (Grade Group 2) prostate cancer, PSA 7.2 ng/mL, IIEF-5 score 22 (no erectile dysfunction), proceeds to RARP. According to EAU 2024, bilateral nerve-sparing is appropriate (intermediate-risk PCa, no suspicion of extracapsular extension on mpMRI, good pre-operative erectile function). Counsel that post-operative erectile dysfunction is expected immediately post-surgery (neurapraxia), with gradual recovery over 12–24 months. PDE5i rehabilitation (tadalafil 5 mg daily or sildenafil on-demand) should be started immediately post-catheter removal to promote erectile tissue oxygenation during nerve recovery."
+        }
+      ]
+    },
+    {
+      "id": "F1-S4",
+      "title": "Robotic Partial Nephrectomy and Nephrectomy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Robot-assisted partial nephrectomy (RAPN)** has become the standard minimally invasive approach for organ-sparing surgery for T1 renal tumours (≤7 cm, predominantly T1a ≤4 cm). The technique involves: (1) renal mobilisation and exposure, (2) hilar vessel identification, (3) tumour excision under renal artery clamping (warm ischaemia time — WIT), (4) reconstruction of the renal parenchyma (renorrhaphy) and collecting system. **Warm ischaemia time (WIT)** is the critical parameter — WIT >25 minutes is associated with significant impairment of ipsilateral renal functional recovery. Strategies to minimise WIT include tumour complexity scoring (RENAL, PADUA, C-Index scores), selective arterial clamping (clamping only segmental arteries supplying the tumour), and zero-ischaemia techniques (selective arterial coagulation + tumour excision without hilar clamping).\n\n**Evidence for RAPN vs OPN vs LPN**: The **RENAUT trial** (Minervini et al., Eur Urol 2020) and multiple meta-analyses confirm: RAPN has significantly lower estimated blood loss, shorter operative time (compared to LPN), equivalent 3-month functional outcomes (eGFR change), and equivalent oncological outcomes (R0 resection rates, local recurrence) compared to OPN for T1 renal tumours. The EAU 2024 Grade A recommendation for partial nephrectomy (over radical nephrectomy) for T1 tumours applies equally to open, laparoscopic, or robotic approaches — the technique is operator-dependent.\n\n**Robot-assisted radical nephrectomy (RARN)** for T2–T3 tumours: RARN achieves equivalent oncological outcomes to open radical nephrectomy (ORN) with lower blood loss and shorter hospital stay. For tumours with IVC thrombus extension, open surgical access remains preferred for Level II–IV thrombus (IVC above hepatic veins) — robotic assistance for Level I (infrarenal) thrombus is feasible in experienced centres.\n\n**Robot-assisted retroperitoneal lymph node dissection (RPLND)** for testicular cancer post-chemotherapy: increasingly adopted at specialised centres as an alternative to open RPLND for Stage IIA/B GCTs. Shorter recovery time with equivalent short-term oncological outcomes in carefully selected patients at experienced centres."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Warm Ischaemia Time in Partial Nephrectomy",
+          "content": "WIT >25 minutes during partial nephrectomy is associated with significant impairment of ipsilateral renal function recovery (equivalent to losing 1 functional kidney at >30 minutes). Strategies to minimise WIT: preoperative planning with tumour complexity scoring (RENAL score: tumour Radius, Exophytic/endophytic, Nearness to collecting system, Anterior/posterior, Location relative to polar lines; score ≤4 = low complexity, score ≥10 = high complexity); selective arterial clamping; optimise reconstruction technique. For a solitary kidney, the 25-minute WIT target is critically important — plan to maximise the efficiency of excision and renorrhaphy."
+        }
+      ]
+    },
+    {
+      "id": "F1-S5",
+      "title": "Robot-Assisted Radical Cystectomy and Urinary Diversion",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Robot-assisted radical cystectomy (RARC) was first described in 2003 and has progressively been adopted at major centres. The critical evolution has been the development of **intracorporeal urinary diversion (ICUD)** — constructing the ileal conduit or neobladder entirely within the robot-assisted laparoscopic field, rather than creating a traditional extracorporeal diversion through a small laparotomy incision (ECUD).\n\nThe **RAZOR RCT** (Parekh et al., Lancet 2018) randomised 302 patients with bladder cancer (T1–T4 N0 M0) to RARC or open radical cystectomy (ORC): primary endpoint 2-year progression-free survival was non-inferior for RARC (72.3% vs 71.6%, difference 0.7%, 90% CI −9.6 to 11.1% — non-inferiority margin 15%). Peri-operative outcomes: RARC had significantly lower estimated blood loss (200 vs 516 mL, p<0.001) and comparable complication rates (83% vs 75% with any complication, p=0.11 — no significant difference). Critically, the RAZOR trial used predominantly extracorporeal diversion — ICUD outcomes data are emerging from large observational studies and prospective series.\n\nThe **iROC trial** (Catto et al., JAMA 2022) randomised 338 patients (UK multicentre) to RARC/ICUD vs ORC: RARC showed no difference in 90-day complication rates (Clavien ≥2: 67% RARC vs 72% ORC, p=0.30) but significantly shorter hospital stay (7 vs 9 days, p=0.003) and quicker functional recovery. The quality of lymph node dissection (extended pelvic lymph node dissection — ePLND) is equally achievable with robotic and open technique; lymph node yield is a key quality indicator (median ≥16–20 nodes recommended by EAU for adequate staging).\n\n**Key technical requirement for RARC**: ePLND (extended pelvic lymph node dissection) is mandatory for all muscle-invasive bladder cancer cases — templates include at minimum the obturator, external iliac, internal iliac, and common iliac nodes up to the aortic bifurcation (standard template) or up to the inferior mesenteric artery (extended template). Urinary diversion options: **ileal conduit** (simplest, lowest 30-day complication rate, preferred for high-risk patients), **orthotopic neobladder** (T-pouch, Studer pouch, Hautmann neobladder — for selected patients with negative urethral margin, good renal function, motivated)."
+        },
+        {
+          "type": "table",
+          "title": "RAZOR and iROC Trials — RARC vs ORC Key Findings",
+          "headers": ["Outcome", "RAZOR (Parekh Lancet 2018)", "iROC (Catto JAMA 2022)", "Clinical Implication"],
+          "rows": [
+            ["Study design", "RCT, 302 patients, T1–T4 N0 M0 bladder cancer", "RCT, 338 patients, MIBC, UK multicentre", "Highest-level evidence for RARC"],
+            ["Primary endpoint", "2-year PFS: RARC 72.3% vs ORC 71.6% — NON-INFERIOR", "90-day complications: RARC 67% vs ORC 72% — equivalent", "RARC oncologically non-inferior to ORC"],
+            ["Blood loss", "RARC 200 mL vs ORC 516 mL (p<0.001)", "Not primary endpoint — shorter stay with RARC", "Significant blood loss reduction"],
+            ["Hospital stay", "Similar in RAZOR", "RARC 7d vs ORC 9d (p=0.003)", "Shorter with RARC in iROC"],
+            ["Diversion approach", "Predominantly ECUD in RAZOR", "ICUD predominant in iROC", "ICUD outcomes emerging"],
+            ["Lymph node yield", "Equivalent (both ≥16–18 nodes)", "Equivalent", "ePLND feasible robotically"],
+            ["Overall conclusions", "Oncological non-inferiority confirmed", "Equivalent complications, faster recovery", "RARC is a safe alternative to ORC"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F1-S6",
+      "title": "Complications of Laparoscopic and Robotic Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Complications specific to laparoscopic and robotic urological surgery can be broadly categorised as:\n\n**Access complications**: Vascular injury (most serious access complication — injury to major vessels from Veress needle or trocar insertion; incidence 0.04–0.2%; immediate conversion to open laparotomy and vascular surgical consultation; presacral venous injury during prostatectomy or lymph node dissection). Bowel injury during access (0.05%); conversion to open mandatory. Gas embolism (rare — CO₂ entering an open vessel; sudden cardiovascular collapse; treatment: left lateral decubitus + aspiration of gas from central line + cardioversion if needed).\n\n**Positioning complications**: Steep Trendelenburg position for robotic prostatectomy and cystectomy — risks include: facial oedema (cerebral oedema, conjunctival chemosis — prolonged robotic cases), brachial plexus stretch injury (arm positioning), compartment syndrome (calf compression in leg supports — prolonged lithotomy), rhabdomyolysis (prolonged extreme Trendelenburg with lower limb ischaemia in obese patients).\n\n**Intraoperative complications specific to robotic surgery**: Loss of robotic arm function (rare — manual backup available), instrument malfunction (use laparoscopic backup), arm collision (requires systematic port placement to avoid). Instrument tip inadvertent activation outside field of view (thermal injury to adjacent structures).\n\n**Conversion to open**: Conversion rate for robotic prostatectomy <2% in high-volume centres; for RARC 5–8%; for RAPN 1–5% depending on tumour complexity. Conversion is NOT a complication — it is a surgical safety decision. Common conversion triggers: major vascular injury, inadequate tumour exposure, equipment failure, severe adhesions. Conversion should be performed promptly when indicated without excessive laparoscopic attempts that compound injury.\n\n**Port-site herniation**: Trocar sites ≥10 mm require fascial closure to prevent port-site hernia (1–2% incidence if unclosed). Use fascial closure device (Carter-Thomason, J-needle) for all 10–12 mm ports. 5 mm ports generally do not require closure in adults."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Presacral Venous Plexus Injury During RARP",
+          "content": "During RARP, dissection posterior to the bladder neck and Denonvilliers' fascia carries risk of injury to the presacral venous plexus. Bleeding from small presacral veins can be controlled with bipolar diathermy, haemostatic agents (Surgicel, Floseal), or pressure from a rolled gauze. Major presacral venous haemorrhage (bright red venous bleeding obscuring the operative field) is a rare but potentially fatal complication. Immediate steps: pack the bleeding site with gauze via robotic arm (digital tamponade), abort peritoneal insufflation if haemostasis is not achievable, and convert to open with vascular assistance. Persistent attempts at endoscopic haemostasis in major venous haemorrhage wastes time and is dangerous."
+        }
+      ]
+    },
+    {
+      "id": "F1-S7",
+      "title": "Training, Simulation, and Credentialing in Robotic Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The learning curve for robot-assisted urological surgery is significant. The **RARP learning curve** for proficiency (defined as positive surgical margin rates and complication rates equivalent to experienced surgeons) has been estimated at 150–250 cases for radical prostatectomy in the majority of published series. Operative time plateaus at approximately 50–100 cases; functional outcomes (continence, potency) may require 200+ cases to reach expert levels. This creates challenges for training programmes — residents learning RARP during training will have limited case numbers, necessitating structured simulation and stepwise learning.\n\n**Simulation-based training**: The da Vinci Skills Simulator and other platforms allow trainees to develop psychomotor skills (camera navigation, instrument control, cutting and coagulation, suturing) before performing in patients. Validated simulation curricula (e.g., the Fundamentals of Robotic Surgery — FRS programme) incorporate objective performance metrics. Simulation training before live surgery significantly reduces operative time and error rates in early cases.\n\n**Structured modular training**: The EAU Robotic Urology Section (ERUS) Robotic Prostatectomy Training Curriculum uses a stepwise approach: (1) surgical anatomy and simulation, (2) bedside assistant roles (learning the system), (3) modular task training (specific dissection steps under supervision), (4) supervised complete procedure, (5) unsupervised performance with outcomes monitoring. The ERUS curriculum recommends 30 supervised RARP before independent credentialing.\n\n**Outcome monitoring**: All robotic surgeons should participate in prospective outcome monitoring (PSM rates, 12-month continence, biochemical recurrence rates for prostatectomy). Surgeons with PSM rates >25% for pT2 disease or 12-month continence rates <75% should undergo peer review. Registry participation (EAU Robotic Section database, national registries) is essential for quality assurance."
+        },
+        {
+          "type": "table",
+          "title": "Learning Curves for Robotic Urological Procedures",
+          "headers": ["Procedure", "Proficiency Cases", "Plateau for Functional Outcomes", "Key Quality Metric"],
+          "rows": [
+            ["RARP", "150–250 cases", "200–300 cases for continence/potency", "PSM pT2 <20%; 12-month continence >80%"],
+            ["RAPN", "30–50 cases", "50–100 cases for WIT <25 min", "WIT <25 min; R0 resection >95%; eGFR preservation"],
+            ["RARC + ICUD", "50–100 cases", "100–150 cases", "LN yield ≥16; 90-day complication rate; hospital stay"],
+            ["Robotic RPLND", "20–30 cases (at high-volume centres)", "50 cases", "Complete bilateral template; retroperitoneal recurrence rate"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — RARP vs LRP Advantages",
+          "content": "RARP has replaced LRP as the dominant minimally invasive prostatectomy technique due to: (1) easier suturing (EndoWrist articulation enables vesicourethral anastomosis suturing with less difficulty), (2) shorter learning curve than LRP (150–250 RARP vs 400–500 LRP to proficiency), (3) better ergonomics for surgeons. The oncological outcomes of LRP and RARP are equivalent in high-volume centres. LRP remains more cost-effective where robotic platforms are unavailable."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of laparoscopic and robotic urological surgery with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "F1-Q1",
+        "stem": "During robot-assisted radical prostatectomy in a 62-year-old man, the anaesthetist reports acute haemodynamic instability (BP drop from 130/80 to 70/40 mmHg) and a sudden end-tidal CO₂ rise immediately after trocar insertion. SpO2 drops to 88%. The most likely complication is:",
+        "options": {
+          "A": "Major arterial haemorrhage from the external iliac artery",
+          "B": "CO₂ gas embolism from trocar entry into an abdominal vessel",
+          "C": "Tension pneumothorax from subcutaneous emphysema",
+          "D": "Anaphylactic reaction to the local anaesthetic"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "CO₂ gas embolism presents with: sudden cardiovascular collapse (massive reduction in cardiac output), SpO₂ drop, and an initial rise in EtCO₂ followed by a precipitous fall (as cardiac output fails to perfuse lungs). It occurs when CO₂ is insufflated into a major abdominal vessel during Veress needle or trocar insertion. Treatment: immediately stop CO₂ insufflation, desufflate, place patient in left lateral decubitus position (Durant's manoeuvre — traps gas in right ventricle away from pulmonary outflow), aspirate gas via central venous catheter, CPR if needed.",
+          "wrong": {
+            "A": "Major arterial haemorrhage would cause rapid haemodynamic collapse with visible blood in the operative field (if laparoscope is in place) — not necessarily with EtCO₂ changes. Arterial injury typically presents with bright red blood and rapid blood loss.",
+            "C": "Subcutaneous emphysema/pneumothorax would cause progressive SpO₂ decline and rising ventilatory pressures, not the sudden simultaneous cardiovascular collapse and EtCO₂ changes described. Pneumothorax is typically more gradual in onset.",
+            "D": "Anaphylaxis to local anaesthetic would present with generalised urticaria, bronchospasm, and cardiovascular collapse — not EtCO₂ rise immediately after trocar insertion."
+          },
+          "guideline": "EAU Surgical Techniques Guidelines 2024 — CO₂ gas embolism: rare but life-threatening complication of laparoscopic entry; management: stop insufflation, left lateral decubitus, central line aspiration",
+          "trial": "Derouin M et al. CO₂ venous embolism during laparoscopic surgery. Anesth Analg 1996;82:574: systematic characterisation of CO₂ embolism during laparoscopy — EtCO₂ changes as early marker; management protocol",
+          "pearl": "CO₂ embolism: sudden cardiovascular collapse + EtCO₂ rise then fall immediately after trocar insertion. Treatment: stop insufflation → desufflate → left lateral decubitus (Durant's manoeuvre) → aspirate from CVP line → CPR if needed."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F1-Q2",
+        "stem": "The RAZOR RCT (Parekh et al., Lancet 2018) compared RARC versus open radical cystectomy for bladder cancer. What was the primary endpoint and key finding?",
+        "options": {
+          "A": "30-day complication rate — significantly lower with RARC",
+          "B": "2-year progression-free survival — RARC non-inferior to ORC (72.3% vs 71.6%)",
+          "C": "Lymph node yield — significantly higher with RARC",
+          "D": "5-year overall survival — equivalent between RARC and ORC"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The RAZOR RCT (Parekh et al., Lancet 2018) enrolled 302 patients with bladder cancer (T1–T4 N0 M0) and the primary endpoint was 2-year progression-free survival. RARC was non-inferior to ORC: 72.3% vs 71.6% (difference 0.7%, 90% CI −9.6 to 11.1%, within the pre-specified 15% non-inferiority margin). Secondary outcomes showed RARC had significantly lower blood loss (200 vs 516 mL) with equivalent complication rates.",
+          "wrong": {
+            "A": "30-day complication rate was a secondary endpoint in RAZOR, not the primary endpoint. Complication rates were not significantly different between RARC and ORC (83% vs 75% any complication, p=0.11).",
+            "C": "Lymph node yield was not a primary endpoint in RAZOR and was similar between groups (RARC median 23 vs ORC median 22 nodes). While lymph node yield was assessed, it was not the primary focus.",
+            "D": "5-year overall survival was not the primary endpoint of RAZOR — the follow-up period was 2 years for the primary analysis. Longer-term OS data are being collected."
+          },
+          "guideline": "EAU Guidelines on Muscle-Invasive Bladder Cancer 2024 — RARC: oncologically non-inferior to ORC based on RAZOR RCT; ePLND equivalent with robotic approach",
+          "trial": "Parekh DJ et al. RAZOR RCT. Lancet 2018;391:2525: 2-year PFS RARC 72.3% vs ORC 71.6%, non-inferiority margin 15% — landmark RCT establishing oncological equivalence of RARC to ORC",
+          "pearl": "RAZOR RCT (Parekh Lancet 2018): primary endpoint = 2-year PFS. RARC NON-INFERIOR to ORC (72.3% vs 71.6%). Secondary: lower blood loss with RARC. Equivalent complications. iROC (Catto JAMA 2022): equivalent complications, shorter hospital stay with RARC."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q3",
+        "stem": "During laparoscopic surgery, the anaesthetist reports progressive oliguria (urine output 8 mL in the past 30 minutes). The patient is haemodynamically stable, intra-abdominal pressure is 14 mmHg. What is the most appropriate management?",
+        "options": {
+          "A": "Administer 500 mL IV fluid bolus — oliguria indicates hypovolaemia",
+          "B": "Reduce intra-abdominal pressure to <10 mmHg — oliguria indicates renal hypoperfusion from pneumoperitoneum",
+          "C": "Reassure the anaesthetist — oliguria during laparoscopy is physiological; no intervention required",
+          "D": "Administer IV furosemide 40 mg to promote urine output"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Oliguria during laparoscopy is a well-recognised physiological phenomenon — elevated intra-abdominal pressure (12–15 mmHg) compresses renal cortical vessels and increases ADH release, reducing urine output. It does not indicate acute kidney injury or volume depletion. Urine output normalises after pneumoperitoneum is released. Excessive fluid loading to 'treat' laparoscopic oliguria risks post-operative fluid overload and pulmonary complications. No intervention beyond observation is appropriate in a haemodynamically stable patient.",
+          "wrong": {
+            "A": "A fluid bolus for laparoscopic oliguria would cause post-operative fluid overload without benefit. Laparoscopic oliguria is not caused by hypovolaemia — it is caused by elevated IAP reducing renal cortical blood flow. The patient is haemodynamically stable, confirming adequate circulating volume.",
+            "B": "Reducing IAP to <10 mmHg would reduce the quality of the laparoscopic working space and may compromise the procedure. This is not necessary for physiological laparoscopic oliguria unless the patient has pre-existing renal impairment where sustained pressure may cause harm.",
+            "D": "Furosemide to force urine output during laparoscopy is inappropriate — it would cause diuresis by a different mechanism while dehydrating the patient, without addressing the physiological cause. Post-desufflation, urine output will normalise spontaneously."
+          },
+          "guideline": "EAU Surgical Techniques Guidelines 2024 — Physiological effects of pneumoperitoneum: oliguria is expected and physiological at standard IAP 12–15 mmHg; resolves after desufflation; no intervention required",
+          "trial": "Ost MC, Tan B, Durga P. Renal function during laparoscopic surgery. J Urol 1999;162:337: oliguria during laparoscopy due to elevated IAP — not a marker of volume depletion or AKI; spontaneous recovery after desufflation",
+          "pearl": "Laparoscopic oliguria = PHYSIOLOGICAL (elevated IAP reduces renal perfusion + ADH release). Do NOT give fluid bolus or diuretics. Urine output normalises after pneumoperitoneum release. Reassure the anaesthetist — no intervention required in haemodynamically stable patients."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F1-Q4",
+        "stem": "Which key advantage of the EndoWrist® technology in the da Vinci robotic system differentiates it from conventional laparoscopic instruments?",
+        "options": {
+          "A": "Haptic feedback enabling the surgeon to feel tissue resistance",
+          "B": "Seven degrees of freedom in instrument articulation compared to four degrees for rigid laparoscopic instruments",
+          "C": "Larger instrument diameter enabling better suction-irrigation capacity",
+          "D": "Fully autonomous instrument movement driven by AI navigation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EndoWrist® articulation (Intuitive Surgical) provides 7 degrees of freedom for the robotic instruments — equivalent to the human wrist and hand. Conventional rigid laparoscopic instruments have only 4 degrees of freedom (no articulation at the instrument tip). This enables suturing, knot-tying, and dissection in confined anatomical spaces (e.g., vesicourethral anastomosis in the deep pelvis) that would be extremely difficult with rigid laparoscopic instruments.",
+          "wrong": {
+            "A": "The da Vinci system specifically does NOT provide haptic feedback — the absence of tactile sensation (inability to feel tissue tension or resistance) is one of the principal limitations of robotic surgery compared to open surgery. Some newer platforms are incorporating haptic technology but it is not a current da Vinci feature.",
+            "C": "Instrument diameter is not the defining advantage of robotic systems over laparoscopy — both use instruments in similar size ranges (5–10 mm). Suction-irrigation is available in both laparoscopic and robotic systems.",
+            "D": "The da Vinci system is NOT autonomous — it is a master-slave system where every movement is directly controlled by the surgeon at the console in real time. There is no AI-autonomous movement capability in current clinical robotic surgical systems."
+          },
+          "guideline": "EAU Robotic Urology Guidelines — Da Vinci technical specifications: 7-DoF EndoWrist, 3D HD magnification, tremor filtration, motion scaling; no haptic feedback",
+          "trial": "Menon M et al. Vattikuti Institute robotic prostatectomy. BJU Int 2002;90:614: first detailed description of robotic RARP technique highlighting the advantages of EndoWrist articulation for deep pelvic dissection and anastomosis",
+          "pearl": "Da Vinci advantages: 7-DoF EndoWrist articulation (vs 4 for laparoscopy), 3D HD vision ×10, tremor filtration, motion scaling. Key LIMITATION: NO haptic feedback. This is always examined — lack of tactile sensation is the defining disadvantage of current robotic systems."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F1-Q5",
+        "stem": "Which RENAL nephrometry score category indicates a highly complex renal tumour for which partial nephrectomy carries higher surgical risk and RAPN may not be appropriate as first-line?",
+        "options": {
+          "A": "RENAL score 4 (low complexity)",
+          "B": "RENAL score 7–9 (intermediate complexity)",
+          "C": "RENAL score ≥10 (high complexity)",
+          "D": "RENAL score is not used in clinical decision-making for partial nephrectomy"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The RENAL nephrometry score (Radius, Exophytic/endophytic, Nearness to collecting system, Anterior/posterior, Location relative to polar lines) ranges from 4–12. High-complexity tumours (RENAL score ≥10) are associated with significantly higher rates of conversion from partial to radical nephrectomy, longer warm ischaemia time, higher blood loss, and higher complication rates in partial nephrectomy. For RENAL ≥10 tumours, open partial nephrectomy or radical nephrectomy may be preferable to RAPN, depending on surgeon experience and institutional volume.",
+          "wrong": {
+            "A": "RENAL score ≤4 represents low-complexity tumours — these are ideal candidates for RAPN with excellent outcomes, minimal ischaemia time requirements, and low complication rates.",
+            "B": "RENAL score 7–9 represents intermediate complexity — partial nephrectomy (including RAPN) is appropriate but requires more surgical planning; outcomes are generally good at high-volume centres.",
+            "D": "RENAL score is widely used in clinical decision-making for partial nephrectomy — it guides discussion with patients about procedural complexity, risk of conversion, and feasibility of organ-sparing surgery. Multiple validated studies correlate RENAL score with surgical outcomes."
+          },
+          "guideline": "EAU Guidelines on Renal Cell Carcinoma 2024 — Tumour complexity scoring (RENAL/PADUA/C-Index) guides surgical planning; high-complexity tumours (RENAL ≥10) have higher partial nephrectomy complication rates",
+          "trial": "Kutikov A, Uzzo RG. The RENAL nephrometry score: a comprehensive standardised system for quantitating renal tumour size, location, and depth. J Urol 2009;182:844: original RENAL score paper — validated system for predicting partial nephrectomy complexity and outcomes",
+          "pearl": "RENAL score: 4 = low (ideal RAPN), 7–9 = intermediate (RAPN feasible), ≥10 = high complexity (higher risk, may favour open PN or radical nephrectomy). Warm ischaemia time target: <25 minutes regardless of approach. WIT >30 min = equivalent to losing one kidney's function."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q6",
+        "stem": "The Hasson open technique for laparoscopic port insertion was introduced to address the risks of the Veress needle technique. In which patient group is the Hasson technique particularly recommended?",
+        "options": {
+          "A": "All laparoscopic patients — Hasson is universally safer than Veress",
+          "B": "Patients with prior midline abdominal surgery or suspected periumbilical adhesions",
+          "C": "Obese patients (BMI >35) where Veress is technically easier to advance",
+          "D": "Patients with known bowel obstruction where gas embolism risk is highest"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Hasson open technique (cutdown through a small umbilical incision to identify the peritoneum under direct vision before trocar insertion) is specifically recommended for patients with prior midline abdominal surgery who are at risk of umbilical or peritoneal adhesions — the most common cause of bowel injury during closed Veress entry. In patients with known adhesions, the Hasson technique allows safe peritoneal entry under direct vision. Alternative: Palmer's point entry (left hypochondrium) to avoid adhesions around previous midline incisions.",
+          "wrong": {
+            "A": "Hasson is not universally safer than Veress for all patients — both techniques have similar overall complication rates in non-adherent abdomens. Hasson is preferred in specific high-risk scenarios (prior midline surgery, suspected adhesions). For a virgin abdomen, Veress is faster and equally safe.",
+            "C": "In obese patients, the Hasson technique is actually preferred or Palmer's point is used because the greater abdominal wall thickness makes Veress needle placement more challenging and the risk of inadequate peritoneal entry higher. The question inverts this — Veress is NOT easier in obese patients.",
+            "D": "Patients with known bowel obstruction are a relative contraindication to laparoscopy entirely, not just the Veress technique. Performing any laparoscopy in bowel obstruction risks inadvertent enterotomy with contamination."
+          },
+          "guideline": "EAU Surgical Techniques Guidelines 2024 — Laparoscopic port insertion: Hasson technique for prior midline surgery; Palmer's point as alternative; Veress for virgin abdomen",
+          "trial": "Hasson HM. Open laparoscopy: a report of 150 cases. J Reprod Med 1974;12:234: original description of the open entry technique — foundational paper for laparoscopic access safety",
+          "pearl": "Hasson technique = open cutdown, direct vision entry. Indication: prior midline surgery, suspected adhesions, obese patients. Veress needle = blind closed technique, fine for virgin abdomen. Palmer's point = alternative for umbilical adhesions (left upper quadrant, 3 cm below left costal margin)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q7",
+        "stem": "A 58-year-old man undergoes RARP for cT2b Gleason 4+3=7 (Grade Group 3) prostate cancer. Post-operative pathology shows pT3a (extracapsular extension at the left posterolateral margin), with a positive surgical margin (PSM) at that location. What is the clinical significance and management implication of this PSM?",
+        "options": {
+          "A": "PSM requires immediate radical salvage surgery (exenteration) to remove all positive tissue",
+          "B": "PSM at pT3a is associated with higher biochemical recurrence (BCR) risk — monitor PSA; offer adjuvant RT if PSA detectable at 3 months",
+          "C": "PSM has no clinical significance if the cancer is localised — monitor PSA only",
+          "D": "PSM after RARP indicates surgical failure — the patient should have been treated with radiation therapy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Positive surgical margin (PSM) after radical prostatectomy is associated with an increased risk of biochemical recurrence (BCR — PSA detectable after RP, typically defined as PSA >0.2 ng/mL on two consecutive measurements). pT3a PSM carries a higher BCR risk than pT2 PSM. Management: (1) monitor PSA 3-monthly; (2) if PSA becomes detectable (>0.2 ng/mL), offer **adjuvant or salvage radiotherapy (sRT)** to the prostate bed. The EAU 2024 guideline supports either adjuvant RT (irradiating immediately post-RP without waiting for BCR) or early salvage RT (treating at first PSA rise) — the RADICALS-RT, GETUG-AFU 17, and RAVES RCTs addressed the timing question; early sRT (when PSA <0.1 ng/mL) achieves equivalent outcomes to immediate adjuvant RT.",
+          "wrong": {
+            "A": "Salvage surgery after PSM is not an indication — there is no surgical re-excision procedure for prostate cancer after radical prostatectomy. Salvage RT to the prostate bed is the appropriate management.",
+            "C": "PSM does have clinical significance — it increases BCR risk compared to R0 resection. It cannot be dismissed as clinically irrelevant. Close PSA monitoring and early sRT planning are required.",
+            "D": "PSM after RARP does not mean the operation was wrong or the patient should have had RT instead — PSM occurs in 15–25% of pT2 and 40–50% of pT3 cases even in experienced hands and reflects tumour biology as much as surgical quality."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024 — PSM after RP: adjuvant or salvage RT to prostate bed; RADICALS/RAVES/GETUG-AFU17 RCTs support early sRT when PSA rises vs immediate adjuvant RT (equivalent outcomes)",
+          "trial": "Parker CC et al. RADICALS-RT RCT. Lancet 2020;396:1413: immediate adjuvant RT vs early salvage RT after RP — no significant difference in metastasis-free survival at 5 years; supports deferred sRT strategy (avoiding immediate RT toxicity in those who may never need it)",
+          "pearl": "PSM after RP → higher BCR risk → monitor PSA 3-monthly → early salvage RT when PSA >0.2 ng/mL (or adjuvant RT per RADICALS/RAVES — equivalent outcomes). PSM at pT3a is an important prognostic finding, not a surgical catastrophe — manage with RT, not re-operation."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q8",
+        "stem": "A patient undergoing RARP in the steep Trendelenburg position (30°) for a prolonged 4.5-hour procedure develops post-operative facial and conjunctival oedema, and complains of bilateral visual changes and facial pressure on waking. What is the most likely complication related to positioning?",
+        "options": {
+          "A": "Post-operative nausea and vomiting from CO₂ absorption",
+          "B": "Facial and periorbital oedema from prolonged steep Trendelenburg position causing cephalad fluid redistribution",
+          "C": "Perioperative stroke from cerebral hypoperfusion in the head-down position",
+          "D": "Anaphylactic reaction to the preparation solution"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Prolonged steep Trendelenburg position (30–40°) during robotic prostatectomy or cystectomy causes cephalad redistribution of venous blood and lymphatic fluid, resulting in facial oedema, periorbital (conjunctival) chemosis, and airway oedema (rarely severe enough to require post-operative ventilation). The risk increases with duration (>4 hours), obesity, and high CO₂ insufflation pressure. Visual changes from conjunctival chemosis (uncomfortable but not sight-threatening) typically resolve within 24–48 hours. Severe pharyngeal/laryngeal oedema may delay extubation — the anaesthetist should check for adequate cuff leak before extubation after prolonged Trendelenburg surgery.",
+          "wrong": {
+            "A": "CO₂ absorption causing PONV presents with nausea and vomiting, not facial oedema and visual changes. CO₂ causes headache from hypercapnia but not periorbital swelling.",
+            "C": "Perioperative stroke from Trendelenburg cerebral hypoperfusion is theoretically possible in patients with severe carotid stenosis or auto-regulatory failure but would present with focal neurological deficits — not facial swelling and conjunctival oedema.",
+            "D": "Anaphylaxis from preparation solution would present intraoperatively with cardiovascular collapse, urticaria, and bronchospasm — not post-operative facial swelling localised to head and periorbital regions."
+          },
+          "guideline": "EAU Surgical Techniques Guidelines 2024 — Steep Trendelenburg complications: facial/periorbital oedema and conjunctival chemosis — risks increase with duration >4 hours; post-operative cuff leak test before extubation",
+          "trial": "Phong SW, Koh LK. Anaesthesia for robotic-assisted radical prostatectomy. Singapore Med J 2007;48:259: systematic description of Trendelenburg positioning complications including facial oedema, raised ICP, compartment syndrome risk",
+          "pearl": "Prolonged steep Trendelenburg (>4h) = facial/periorbital oedema + conjunctival chemosis from cephalad fluid redistribution. Visual changes = conjunctival chemosis (not stroke). Check cuff leak before extubation. Resolution within 24–48h. Severe cases: risk of laryngeal oedema."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q9",
+        "stem": "Which of the following is an absolute contraindication to performing elective laparoscopic surgery?",
+        "options": {
+          "A": "Prior laparoscopic appendicectomy with periumbilical adhesions",
+          "B": "Haemodynamic instability from active haemorrhage or septic shock",
+          "C": "Body mass index >40 (class III obesity)",
+          "D": "Previous lower abdominal open surgery (TURP, cystoscopy)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Haemodynamic instability from active haemorrhage or septic shock is an absolute contraindication to elective laparoscopic surgery. Pneumoperitoneum reduces cardiac preload (elevated IAP compresses IVC) and cardiac output — this is tolerated in haemodynamically normal patients but may be fatal in a patient who is already in haemodynamic compromise. Additionally, the steep Trendelenburg positioning required for pelvic robotic surgery would be extremely high-risk in haemodynamic instability.",
+          "wrong": {
+            "A": "Prior laparoscopic appendicectomy with periumbilical adhesions is a relative contraindication — it warrants Hasson open entry or Palmer's point access rather than Veress needle, but is not an absolute contraindication to laparoscopic surgery.",
+            "C": "BMI >40 is a relative contraindication — laparoscopy in obese patients carries higher anaesthetic risk (airway management, Trendelenburg respiratory compromise) and may have reduced visualisation, but it is not an absolute contraindication. RARP in obese patients is performed at high-volume centres with appropriate precautions.",
+            "D": "Previous TURP or cystoscopy involves only the lower urinary tract and does not create significant intraperitoneal adhesions. Previous open lower abdominal surgery may create some adhesions but is a relative, not absolute, contraindication."
+          },
+          "guideline": "EAU Surgical Techniques Guidelines 2024 — Laparoscopic contraindications: absolute: haemodynamic instability, uncorrected coagulopathy, inability to tolerate GA; relative: prior midline surgery, severe COPD, morbid obesity",
+          "trial": "Hopkins J et al. Laparoscopic complications review. Br J Surg 2016;103:1434: absolute contraindications to laparoscopy include haemodynamic instability — pneumoperitoneum reduces cardiac output by 20–30%, fatal in pre-existing compromise",
+          "pearl": "Absolute contraindications to laparoscopy: haemodynamic instability (active bleeding/septic shock), uncorrected coagulopathy (INR >2), inability to tolerate GA, intestinal obstruction with severe distension (relative). BMI >40 = relative contraindication (not absolute)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F1-Q10",
+        "stem": "According to EAU 2024 guidelines and current evidence, what is the recommended warm ischaemia time (WIT) target during robotic partial nephrectomy to minimise impairment of ipsilateral renal function?",
+        "options": {
+          "A": "<15 minutes — any WIT above this causes irreversible renal damage",
+          "B": "<25 minutes — WIT above this is associated with significant renal functional impairment",
+          "C": "<40 minutes — safe warm ischaemia limit for healthy kidneys",
+          "D": "WIT is not clinically relevant — cold ischaemia during RAPN is always used"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "WIT >25 minutes is associated with significant impairment of ipsilateral renal functional recovery after partial nephrectomy. The landmark publication by Thompson et al. (J Urol 2010) analysed WIT impact on renal function — WIT >25 minutes was the critical threshold beyond which the odds of renal function impairment increased substantially. WIT >30 minutes is associated with permanent nephron loss equivalent to radical nephrectomy. Strategies to achieve WIT <25 minutes: careful pre-operative planning, optimised surgical technique, selective arterial clamping.",
+          "wrong": {
+            "A": "<15 minutes is too restrictive — this target is not achievable for all tumours (particularly complex RENAL ≥7 tumours). The evidence-based threshold is <25 minutes, not <15 minutes. Brief ischaemia <15 minutes shows minimal functional impact, but 15–25 minutes is generally acceptable.",
+            "C": "<40 minutes significantly understates the risk. WIT of 30–40 minutes causes substantial permanent renal functional impairment. The evidence-based target is <25 minutes.",
+            "D": "Cold ischaemia is rarely used in robotic or laparoscopic partial nephrectomy (it would require infusion of cold perfusate through the renal artery, which is impractical in minimally invasive surgery). Warm ischaemia is the standard in RAPN."
+          },
+          "guideline": "EAU Guidelines on Renal Cell Carcinoma 2024 — Partial nephrectomy: WIT target <25 minutes; WIT >25 min associated with renal function impairment; zero-ischaemia techniques for complex tumours or solitary kidney",
+          "trial": "Thompson RH et al. Every minute counts when the renal hilum is clamped during partial nephrectomy. Eur Urol 2010;58:340: WIT >25 min associated with significantly higher odds of renal function impairment — foundational WIT target paper",
+          "pearl": "Warm ischaemia target = <25 minutes (Thompson Eur Urol 2010). WIT >25 min = significant renal function impairment. WIT >30 min = equivalent to radical nephrectomy for function. For solitary kidney/pre-existing CKD: consider zero-ischaemia RAPN (selective arterial coagulation)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q11",
+        "stem": "Port-site hernia is a recognised complication of laparoscopic surgery. Which trocar size requires fascial closure to prevent this complication in adults?",
+        "options": {
+          "A": "All trocars ≥5 mm require fascial closure",
+          "B": "Trocars ≥10 mm require fascial closure",
+          "C": "Only trocars ≥15 mm require fascial closure",
+          "D": "No trocars require fascial closure if placed in the midline"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Fascial closure is required for all trocar sites ≥10 mm in adults to prevent port-site hernia (incidence 1–2% if unclosed). Use a fascial closure device (Carter-Thomason suture passer or J-needle) to close the deep fascia at each 10–12 mm port site. 5 mm ports generally do not require fascial closure in adults (port-site hernia at 5 mm is very rare) but should be closed if the 5 mm port was used as an extraction site or if the site was dilated.",
+          "wrong": {
+            "A": "Fascial closure of all 5 mm ports in adults is not routinely required. Port-site hernia through a 5 mm fascial defect is very uncommon in adults. Routine closure of all 5 mm sites is excessive.",
+            "C": "The threshold for fascial closure is ≥10 mm, not ≥15 mm. A 12 mm trocar site will herniate without fascial closure — the threshold should not be raised to 15 mm.",
+            "D": "Location in the midline does not protect against port-site hernia — fascial closure is required at any 10–12 mm port site regardless of position."
+          },
+          "guideline": "EAU Surgical Techniques Guidelines 2024 — Port-site complications: fascial closure mandatory for ≥10 mm trocars; use fascial closure device (Carter-Thomason); 5 mm ports generally do not require closure in adults",
+          "trial": "Tonouchi H et al. Trocar site hernia. Arch Surg 2004;139:1248: systematic review of port-site hernia — ≥10 mm trocars carry significant hernia risk without closure; 5 mm ports rarely herniate in adults",
+          "pearl": "Fascial closure required: all trocars ≥10 mm. 5 mm ports = no closure needed (adults). Use Carter-Thomason suture passer or J-needle for 10–12 mm ports. Failure to close ≥10 mm ports = 1–2% port-site hernia risk."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F1-Q12",
+        "stem": "A 64-year-old man undergoes Retzius-sparing robot-assisted radical prostatectomy (RS-RARP) versus standard RARP. What is the main proposed benefit of the Retzius-sparing technique?",
+        "options": {
+          "A": "Lower positive surgical margin rates for anterior tumours",
+          "B": "Earlier post-operative urinary continence recovery due to preservation of anterior support structures",
+          "C": "Superior visualisation of the apical margin during nerve sparing",
+          "D": "Reduced blood loss from avoiding Santorini's venous plexus"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Retzius-sparing RARP (Bocciardi technique, 2010) approaches the prostate via the pouch of Douglas posteriorly, without disturbing the anterior retropubic (Retzius) space structures — including the pubourethral ligaments, anterior detrusor apron, and puboprostatic ligaments. These anterior support structures contribute to the 'hammock' that supports the bladder neck and urethra. Preservation of these structures is associated with earlier post-operative urinary continence recovery (higher same-day and 1-week continence rates) compared to standard RARP that disrupts these structures. However, 12-month continence rates are equivalent between RS-RARP and standard RARP in most studies.",
+          "wrong": {
+            "A": "RS-RARP may have HIGHER positive surgical margin rates for anterior tumours because the anterior dissection is not performed — the anterior prostate surface is not visualised in the standard RS-RARP approach. Some series show higher PSM for anterior tumours with RS-RARP. This is a recognised limitation.",
+            "C": "Apical margin visualisation in nerve-sparing is similar between standard and Retzius-sparing approaches — the posterior approach provides different but not necessarily superior apical visualisation.",
+            "D": "Santorini's plexus (dorsal venous complex) is still encountered in RS-RARP — the posterior approach does not avoid the DVC, which is ligated anteriorly regardless of the approach (transperitoneally). Blood loss is not significantly different between the two techniques."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024 — Retzius-sparing RARP: earlier continence recovery; equivalent 12-month continence to standard RARP; higher PSM for anterior tumours (caution needed)",
+          "trial": "Bocciardi AM et al. New perspective in the treat of posterior approach to the retro-pubic space during robot-assisted laparoscopic radical prostatectomy. Eur Urol 2016;69:264: Retzius-sparing RARP — earlier continence recovery from preservation of anterior support structures; equivalent functional outcomes at 12 months",
+          "pearl": "Retzius-sparing RARP: preserves pubourethral ligaments + anterior support → EARLIER continence recovery (pad-free rates higher at 1 week/1 month). Equivalent 12-month continence to standard RARP. LIMITATION: potentially higher PSM for anterior tumours (posterior approach limits anterior visualisation)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F1-Q13",
+        "stem": "The iROC RCT (Catto et al., JAMA 2022) compared RARC/intracorporeal urinary diversion with ORC. What was the primary finding regarding 90-day complications?",
+        "options": {
+          "A": "RARC significantly reduced 90-day Clavien ≥2 complications (45% vs 72%)",
+          "B": "RARC had equivalent 90-day complications to ORC (67% vs 72%, p=0.30) with significantly shorter hospital stay",
+          "C": "RARC significantly increased 90-day complications due to intracorporeal diversion anastomotic leaks",
+          "D": "RARC had significantly higher 90-day mortality than ORC"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The iROC RCT (Catto et al., JAMA 2022) enrolled 338 patients in the UK to RARC (predominantly intracorporeal diversion) vs ORC. Primary endpoint: 90-day Clavien ≥2 complications. RARC 67% vs ORC 72% (p=0.30) — no significant difference in 90-day complication rates. Secondary outcomes: RARC had significantly shorter hospital stay (median 7 vs 9 days, p=0.003) and faster functional recovery. The study confirmed that RARC is safe and provides faster recovery without compromising oncological or complication outcomes.",
+          "wrong": {
+            "A": "A 45% vs 72% difference would represent a dramatic superiority for RARC that is not supported by the iROC data. The actual complication rates were 67% vs 72% — equivalent.",
+            "C": "Intracorporeal diversion did NOT significantly increase anastomotic leak rates compared to extracorporeal diversion in the iROC trial. Complication profiles were similar between the approaches.",
+            "D": "iROC showed no significant difference in 90-day mortality between RARC and ORC. There was no evidence of increased mortality with RARC."
+          },
+          "guideline": "EAU Guidelines on Muscle-Invasive Bladder Cancer 2024 — RARC: iROC and RAZOR RCTs confirm oncological non-inferiority to ORC with equivalent complications and faster recovery",
+          "trial": "Catto JWF et al. iROC RCT. JAMA 2022;327:2272: RARC/ICUD vs ORC — 90-day complications equivalent (67% vs 72%, p=0.30), hospital stay shorter (7 vs 9 days, p=0.003) — confirmed RARC safety and efficiency advantage",
+          "pearl": "iROC RCT (Catto JAMA 2022): RARC vs ORC = EQUIVALENT 90-day complications (67% vs 72%). RARC: SHORTER hospital stay (7 vs 9 days). Add to RAZOR (2018) for comprehensive evidence: RARC is oncologically non-inferior + equivalent complications + faster recovery."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q14",
+        "stem": "A 55-year-old man undergoes bilateral nerve-sparing RARP for pT2c Gleason 3+4=7 prostate cancer. Pre-operative IIEF-5 was 23. Post-operatively at 3 months, he has complete erectile dysfunction. What is the most appropriate management for penile rehabilitation?",
+        "options": {
+          "A": "Wait 24 months before any treatment — nerve recovery takes time",
+          "B": "Intracavernosal alprostadil injections as first-line — oral PDE5i are ineffective post-RP",
+          "C": "Daily PDE5i (tadalafil 5 mg OD or sildenafil 50 mg on-demand) started immediately for penile rehabilitation",
+          "D": "Penile prosthesis insertion at 3 months — functional erectile recovery is unlikely after RARP"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Post-RARP erectile dysfunction is primarily neurapraxia (cavernous nerve injury from retraction/dissection) — neurological recovery takes 12–24 months after bilateral nerve-sparing RP. Penile rehabilitation with PDE5 inhibitors (tadalafil 5 mg OD or sildenafil on-demand) started immediately post-catheter removal promotes erectile tissue oxygenation and prevents corporal smooth muscle fibrosis during the recovery period. Multiple RCTs support penile rehabilitation programmes — tadalafil OD vs placebo shows improved erectile function recovery at 12 months. Waiting 24 months without treatment risks corporal fibrosis and permanent loss of erectile capacity.",
+          "wrong": {
+            "A": "Waiting 24 months without any intervention is inappropriate — early PDE5i rehabilitation prevents corporal fibrosis and significantly improves erectile function recovery at 12–24 months compared to no treatment.",
+            "B": "Intracavernosal alprostadil is an escalation option when oral PDE5i fail, not first-line. It requires injection and has a higher side-effect profile. Daily oral PDE5i rehabilitation is the evidence-based first-line approach.",
+            "D": "Penile prosthesis at 3 months is premature — implantation is reserved for patients with permanent erectile dysfunction after failed medical and penile rehabilitation therapy, typically after 12–24 months of attempted rehabilitation with PDE5i and other methods."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024 — Penile rehabilitation after RARP: PDE5i (tadalafil OD or sildenafil on-demand) started immediately post-catheter removal; penile prosthesis for refractory cases after 12–24 months",
+          "trial": "Montorsi F et al. Recovery of spontaneous erectile function after nerve-sparing radical retropubic prostatectomy. J Urol 1997;158:1408: early alprostadil facilitates erectile recovery — extended to PDE5i rehabilitation in multiple subsequent RCTs",
+          "pearl": "Post-RARP penile rehabilitation: start PDE5i IMMEDIATELY after catheter removal (tadalafil 5 mg OD is preferred for daily rehabilitation). Prevents corporal fibrosis during nerve recovery. Recovery timeline: 12–24 months for bilateral nerve-sparing. Penile prosthesis only after 12–24 months of failed rehabilitation."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q15",
+        "stem": "Which of the following complications is specifically associated with the steep Trendelenburg position during prolonged robotic pelvic surgery?",
+        "options": {
+          "A": "Lower limb deep vein thrombosis from venous compression",
+          "B": "Brachial plexus injury from incorrect arm positioning and lateral retraction",
+          "C": "All of the above: facial oedema, brachial plexus injury, and lower limb compartment syndrome",
+          "D": "Spontaneous pneumothorax from elevated peak airway pressures"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Steep Trendelenburg position is associated with multiple complications: (1) facial/periorbital oedema and conjunctival chemosis (cephalad fluid redistribution), (2) brachial plexus injury (from shoulder braces or tucked arms with lateral stretch under Trendelenburg — avoid shoulder padding on the acromioclavicular joint; prefer soft arm sleds and arm tucking), (3) lower limb compartment syndrome (calf compression in leg supports with prolonged ischaemia — particularly in obese patients or cases >4 hours; risk of rhabdomyolysis), (4) raised intraocular pressure (IOP — progressive IOP rise during Trendelenburg → post-operative vision loss in rare cases), (5) endotracheal tube migration cephalad.",
+          "wrong": {
+            "A": "Lower limb DVT is actually LESS common in Trendelenburg (dependent legs) compared to head-up position. However, prolonged leg holder/lithotomy compression does increase DVT risk through different mechanisms (direct vessel compression). DVT is not a primary Trendelenburg positioning complication.",
+            "B": "Brachial plexus injury IS a Trendelenburg complication, but only listing brachial plexus injury and DVT is incomplete. The full range of Trendelenburg complications (facial oedema + brachial plexus + lower limb compartment syndrome) makes option C the correct comprehensive answer.",
+            "D": "Pneumothorax from elevated airway pressures is theoretically possible in patients with lung bullae, but it is not a primary Trendelenburg-specific complication. The raised peak airway pressures from Trendelenburg are physiological and managed with PEEP ventilation strategies."
+          },
+          "guideline": "EAU Surgical Techniques Guidelines 2024 — Steep Trendelenburg complications: facial oedema, brachial plexus injury, lower limb compartment syndrome, raised IOP — all require pre-operative risk assessment and preventive positioning",
+          "trial": "Mills JT et al. Complications of steep Trendelenburg position in robotic prostatectomy. Int J Urol 2013;20:671: systematic review of all Trendelenburg-associated complications during robotic pelvic surgery",
+          "pearl": "Steep Trendelenburg complications: facial/orbital oedema, brachial plexus injury (arm positioning), lower limb compartment syndrome (calf pressure), raised IOP (vision loss), endotracheal tube migration. All increase with duration >4h and BMI >35."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q16",
+        "stem": "What is the minimum lymph node yield recommended by EAU 2024 for an adequate extended pelvic lymph node dissection (ePLND) during radical cystectomy for muscle-invasive bladder cancer?",
+        "options": {
+          "A": "≥8 lymph nodes",
+          "B": "≥16–20 lymph nodes",
+          "C": "≥30 lymph nodes",
+          "D": "There is no minimum lymph node yield requirement"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 recommends a minimum of ≥16–20 lymph nodes as a quality indicator for adequate ePLND during radical cystectomy. Multiple retrospective studies and registry analyses demonstrate a survival benefit associated with higher lymph node yield — both from improved nodal staging accuracy and potential therapeutic effect (removal of micrometastatic deposits). Centres consistently achieving <16 nodes should review their lymph node dissection template and technique.",
+          "wrong": {
+            "A": "≥8 nodes represents a limited dissection that may understagehigh-risk pelvic tumours. The EAU recommended minimum is ≥16–20 nodes for an adequate ePLND.",
+            "C": "≥30 nodes represents a very extensive dissection that may be appropriate at high-volume centres performing super-extended PLND but is not the standard EAU minimum quality indicator.",
+            "D": "There IS a minimum lymph node yield requirement as a quality indicator — ≥16–20 nodes. Centres reporting lower yields should review their dissection template."
+          },
+          "guideline": "EAU Guidelines on Muscle-Invasive Bladder Cancer 2024 — ePLND quality indicator: minimum ≥16–20 lymph nodes; template should include obturator, external iliac, internal iliac, and common iliac nodes",
+          "trial": "Herr HW et al. Impact of the number of lymph nodes retrieved on outcome in patients with muscle invasive bladder cancer. J Urol 2002;167:1295: higher lymph node yield associated with improved survival — basis for minimum yield quality indicator",
+          "pearl": "ePLND quality indicator: ≥16–20 lymph nodes removed (EAU 2024). Template: obturator fossa + external iliac + internal iliac + common iliac up to aortic bifurcation (standard) or IMA (extended). Lower yield = inadequate staging + potentially missed therapeutic benefit."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q17",
+        "stem": "A resident asks whether the oncological outcomes of RARP are equivalent to open radical prostatectomy. What is the most accurate statement about current evidence?",
+        "options": {
+          "A": "RARP has been proven superior to open RP in 5-year biochemical recurrence-free survival in multiple RCTs",
+          "B": "Large retrospective registry studies show equivalent long-term oncological outcomes (BCR-free survival) between RARP and ORP, but no large prospective RCT has yet confirmed this",
+          "C": "RARP has inferior oncological outcomes due to higher positive surgical margin rates in multiple large series",
+          "D": "RARP and ORP have been compared in multiple large RCTs showing equivalent outcomes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The evidence basis for RARP equivalence to ORP comes primarily from large retrospective registry studies and propensity-score matched analyses — not prospective RCTs. Positive surgical margin rates, BCR-free survival, and cancer-specific survival are equivalent in high-quality matched comparisons. The absence of a large prospective RCT comparing RARP to ORP is a significant evidence gap. Ongoing trials (MIRROR) aim to address this. The EAU 2024 guideline acknowledges this evidence gap while supporting RARP as the preferred minimally invasive approach based on superior peri-operative outcomes.",
+          "wrong": {
+            "A": "RARP has NOT been proven superior to ORP in RCTs for oncological outcomes — equivalence is established from registry data, not RCT-proven superiority.",
+            "C": "PSM rates are NOT consistently inferior with RARP — high-volume RARP centres report equivalent or slightly lower PSM rates compared to ORP, attributed to superior visualisation. PSM rates are surgeon and volume-dependent.",
+            "D": "Multiple large RCTs comparing RARP to ORP do NOT exist — this is the key evidence gap in robotic prostatectomy. The RAZOR trial compared RARC (cystectomy), and various smaller trials compared laparoscopic vs open RP, but a large high-quality RARP vs ORP RCT is still awaited."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer 2024 — Evidence for RARP: large retrospective registry and PSM studies show equivalent oncological outcomes; no large prospective RCT; MIRROR trial ongoing",
+          "trial": "Yaxley JW et al. Robot-assisted laparoscopic prostatectomy versus open radical retropubic prostatectomy (RARP vs ORP). Lancet 2016;388:1057: RCT (N=326) — showed equivalent PSM rates; too small to power BCR outcomes — largest available RARP vs ORP RCT",
+          "pearl": "Evidence for RARP oncological equivalence: large registry/PSM studies (not large RCTs). Evidence for RARP peri-operative superiority: well-established (less blood loss, shorter stay). MIRROR trial ongoing for definitive RCT evidence. Boards test: 'what evidence supports RARP over open?' = registry studies, not RCTs."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F1-Q18",
+        "stem": "A 28-year-old woman with Stage IA right-sided ovarian dysgerminoma presents with a 1.1 cm retroperitoneal lymph node on CT. After staging, she undergoes bleomycin, etoposide, cisplatin (BEP) chemotherapy and achieves radiological complete response. A persistent 1.3 cm retroperitoneal lymph node remains. What is the surgical consideration if RPLND is planned?",
+        "options": {
+          "A": "Robotic RPLND is absolutely contraindicated after prior chemotherapy due to dense retroperitoneal fibrosis",
+          "B": "Robotic RPLND at a high-volume centre is a feasible option for post-chemotherapy retroperitoneal masses in selected patients, but open RPLND remains the standard for complex post-chemo cases",
+          "C": "Post-chemotherapy retroperitoneal mass <2 cm in a dysgerminoma patient requires immediate RPLND regardless of approach",
+          "D": "No surgical intervention is required — a 1.3 cm node after complete response to BEP is below the threshold for surgical intervention in dysgerminoma"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Post-chemotherapy retroperitoneal lymph node dissection (PC-RPLND) for GCTs after incomplete radiological response is a complex procedure. Robotic RPLND is increasingly performed at high-volume centres (particularly for post-chemotherapy residual masses in GCT), with comparable oncological outcomes to open PC-RPLND in carefully selected patients. However, open PC-RPLND remains the standard for complex cases with bulky retroperitoneal disease, dense fibrosis from prior chemotherapy, or IVC/aortic involvement. For this specific clinical scenario (post-BEP, 1.3 cm residual, dysgerminoma), the surgical decision requires multidisciplinary input.",
+          "wrong": {
+            "A": "Robotic RPLND is not absolutely contraindicated after chemotherapy. Dense fibrosis does increase technical difficulty, but experienced robotic surgeons at high-volume centres successfully perform robotic PC-RPLND in selected cases.",
+            "C": "A 1.3 cm lymph node after complete clinical/biochemical response to BEP in dysgerminoma may represent residual fibrous tissue, not active disease. In this scenario, close observation with serial CT is often the management — not immediate RPLND. The EAU/ESMO guidelines would consider the AFP/HCG/LDH tumour markers and PET-CT before deciding on surgery.",
+            "D": "While a 1.3 cm post-chemo residual mass may not require immediate surgery in dysgerminoma (given excellent sensitivity to chemotherapy), the option 'no surgical intervention' without specifying the evidence and monitoring plan is too absolute. Serial imaging and marker monitoring are required."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer 2024 — PC-RPLND for GCT residual masses: open RPLND standard for complex post-chemo cases; robotic RPLND at specialised centres for selected patients",
+          "trial": "Pearce SM et al. Robotic RPLND for testicular cancer. J Urol 2017;198:631: robotic RPLND feasible with equivalent lymph node yield and complication rates to open at high-volume centres; endorsed for selected patients",
+          "pearl": "PC-RPLND: open = standard for complex post-chemo retroperitoneal disease. Robotic RPLND = feasible at high-volume centres for selected cases (smaller masses, less fibrosis). Not absolutely contraindicated after chemo. For GCT PC-RPLND decisions: consider PET-CT + tumour markers + institutional expertise."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F1-Q19",
+        "stem": "A 45-year-old woman with right renal T1a (3.5 cm) renal cell carcinoma is planned for RAPN. Intraoperatively, after hilar clamping, the tumour excision and renorrhaphy take 32 minutes of warm ischaemia. At the end of the procedure, the surgeon notes poor reperfusion of the kidney (dusky appearance). Post-operatively, eGFR drops from 85 to 45 mL/min. What is the most likely cause of renal function impairment?",
+        "options": {
+          "A": "Surgical technique error — the ureter was inadvertently ligated",
+          "B": "Warm ischaemia injury from WIT exceeding 25 minutes (WIT 32 min)",
+          "C": "Post-operative haemorrhage causing haematoma compressing the kidney",
+          "D": "Contrast nephropathy from intraoperative contrast used during hilar control"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "WIT of 32 minutes exceeds the 25-minute target associated with significant ipsilateral renal functional impairment. The eGFR drop from 85 to 45 mL/min (47% reduction) is consistent with significant ischaemic renal injury. Thompson et al. (Eur Urol 2010) established that WIT >25 minutes — and particularly >30 minutes — results in nephron loss equivalent to performing a radical nephrectomy. For future partial nephrectomies in this patient, selective arterial clamping or zero-ischaemia techniques should be considered.",
+          "wrong": {
+            "A": "Ureteral ligation would cause immediate post-operative complete anuria ipsilaterally (not a partial eGFR reduction) and would be evident on intraoperative inspection of the ureter.",
+            "C": "Post-operative haematoma compressing the kidney might cause delayed eGFR reduction but would typically present with flank pain, anaemia, and haematoma on post-operative imaging. The WIT of 32 minutes is the more direct and compelling explanation.",
+            "D": "Contrast is not routinely used intraoperatively during RAPN hilar control (ultrasound and Doppler are used for hilar identification). Contrast nephropathy would affect both kidneys and typically requires pre-operative contrast administration."
+          },
+          "guideline": "EAU Guidelines on Renal Cell Carcinoma 2024 — Warm ischaemia >25 minutes: significant renal functional impairment; >30 minutes: equivalent to radical nephrectomy for ipsilateral renal function",
+          "trial": "Thompson RH et al. Every minute counts when the renal hilum is clamped during partial nephrectomy. Eur Urol 2010;58:340: WIT >25 min → significant ipsilateral GFR impairment; WIT >30 min → equivalent to radical nephrectomy",
+          "pearl": "WIT >25 min = significant renal injury. WIT 32 min (this case) → eGFR drop ~47% = ischaemic tubular necrosis/nephron loss. Prevention: plan efficiently, selective arterial clamping, zero-ischaemia for high-risk patients. For solitary kidney: every minute of WIT counts."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F1-Q20",
+        "stem": "According to the EAU Robotic Section (ERUS) training curriculum, what is the minimum number of supervised RARP procedures recommended before independent credentialing for a urology trainee?",
+        "options": {
+          "A": "10 supervised cases",
+          "B": "30 supervised cases",
+          "C": "100 supervised cases",
+          "D": "200 cases — equivalent to the proficiency plateau for RARP"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The ERUS Robotic Prostatectomy Training Curriculum recommends a minimum of 30 supervised RARP procedures as the threshold before independent credentialing (operating as primary surgeon without direct proctorship). This mirrors the EAU YAU standards for PCNL (also 30 supervised cases). The 30-case minimum represents the supervised competency threshold — independent proficiency (PSM rates and functional outcomes equivalent to experts) requires 150–250+ cases.",
+          "wrong": {
+            "A": "10 supervised cases is far below the minimum for RARP credentialing — after 10 cases, a trainee is still on the steep part of the learning curve for all technical steps.",
+            "C": "100 supervised cases would be desirable for independent proficiency but is unrealistic as a credentialing minimum — few programmes would allow 100 supervised cases before credentialing, and the ERUS minimum is 30.",
+            "D": "200 cases represents the proficiency plateau for independent RARP (PSM rates and functional outcomes plateau) but is not the credentialing minimum. Distinction: supervised competency (30 cases) vs independent proficiency plateau (150–250 cases)."
+          },
+          "guideline": "EAU Robotic Urology Section (ERUS) training curriculum 2022 — Minimum 30 supervised RARP cases before independent credentialing; 150–250 cases for independent proficiency plateau",
+          "trial": "Ghani KR et al. Robot-assisted radical prostatectomy learning curve. J Endourol 2014;28:218: RARP learning curve — performance plateau at 150–250 independent cases; supervised minimum 30 cases for credentialing",
+          "pearl": "ERUS RARP credentialing minimum: 30 supervised cases. Proficiency plateau: 150–250 independent cases. This mirrors EAU YAU standard for PCNL (also 30 supervised). Distinction: credentialing threshold ≠ proficiency plateau."
+        },
+        "difficulty": 1
+      }
+    ]
+  }
+}

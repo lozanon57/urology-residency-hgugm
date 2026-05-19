@@ -1,0 +1,665 @@
+{
+  "id": "A5",
+  "title": "Radical Cystectomy",
+  "subtitle": "Block A — Surgical Technique, Complications, and Enhanced Recovery",
+  "block": "A",
+  "block_name": "Urological Oncology",
+  "level": "R3-4",
+  "reading_time_min": 40,
+  "guidelines_version": "EAU Guidelines on MIBC 2024 · EAU Guidelines on Perioperative Care in Urology (ERAS) 2022 · NCCN Bladder Cancer v2.2024",
+  "textbook_refs": [
+    "Campbell-Walsh-Wein Urology, 12th ed. (2021) — Chapter 82: Cystectomy and urinary diversion",
+    "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024)",
+    "Hautmann RE et al. Ileal neobladder — surgical technique and outcomes of 923 patients. J Urol 2006",
+    "Bricker EM. Bladder substitution after pelvic evisceration. Surg Clin North Am 1950",
+    "Karl A et al. Enhanced recovery after surgery (ERAS) protocol for radical cystectomy. Eur Urol 2014"
+  ],
+  "learning_objectives": [
+    "Describe the anatomical boundaries of extended pelvic lymph node dissection and the EAU 2024 minimum node yield quality standard",
+    "Outline the steps of intracorporeal vs extracorporeal ileal conduit construction and orthotopic neobladder formation",
+    "Apply the principles of ERAS protocols for radical cystectomy to reduce major complications and length of stay",
+    "Classify and manage the most common early and late complications of radical cystectomy and urinary diversion",
+    "Identify specific anatomical considerations for female vs male radical cystectomy including nerve-sparing and sexual function preservation",
+    "Apply the EAU 2024 criteria for timing of radical cystectomy after neoadjuvant chemotherapy and define acceptable delay limits"
+  ],
+  "sections": [
+    {
+      "id": "A5-S1",
+      "title": "Pre-operative Assessment and Timing",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Radical cystectomy (RC) is one of the most complex and morbid procedures in urological surgery, with 90-day complication rates of 50-60% and 90-day mortality of 2-3% in contemporary series. Careful pre-operative assessment is essential. Functional capacity should be assessed using validated tools — patients with ECOG PS ≥3 or Duke Activity Status Index (DASI) <4 METs have significantly higher perioperative mortality. Cardiopulmonary exercise testing (CPET) with VO₂ max below 15 mL/kg/min identifies patients at highest risk for major cardiopulmonary complications.\n\nPre-operative nutritional assessment using the Nutritional Risk Screening (NRS-2002) score is mandatory. Malnutrition (NRS ≥3) affects 20-30% of bladder cancer patients and independently predicts wound complications, anastomotic failure, and length of stay. Pre-operative nutritional optimisation with oral nutritional supplements or enteral nutrition for 7-14 days before surgery is recommended when NRS ≥3. Serum albumin below 35 g/L is associated with 3-fold increased risk of major complications.\n\nTiming of radical cystectomy is critical. EAU 2024 recommends surgery within 3 months of diagnosis for MIBC to avoid cancer stage progression. For patients who have received neoadjuvant chemotherapy, surgery must be performed within 90 days of completing NAC — delays beyond 90 days are independently associated with inferior overall survival (Fahmy et al., Eur Urol 2018). The SWOG 8710 and ABC meta-analysis data confirm that the OS benefit of NAC is contingent on proceeding to RC within the planned timeframe."
+        },
+        {
+          "type": "table",
+          "title": "Pre-operative Assessment for Radical Cystectomy",
+          "headers": ["Assessment Domain", "Tool/Criteria", "Threshold for Intervention", "Action"],
+          "rows": [
+            ["Performance status", "ECOG / Karnofsky", "ECOG ≥3 = very high risk", "Optimise/consider alternatives"],
+            ["Cardiopulmonary fitness", "CPET — VO₂ max", "<15 mL/kg/min = high risk", "Cardiology assessment; prehabilitation"],
+            ["Nutritional status", "NRS-2002", "Score ≥3 = malnourished", "Nutritional optimisation 7-14 days"],
+            ["Renal function", "GFR (CKD-EPI)", "<35 mL/min limits neobladder", "Conduit preferred; nephrologist review"],
+            ["Hepatic function", "LFTs, albumin", "Albumin <35 g/L = high risk", "Nutritional support; hepatology review"],
+            ["Urethral margin assessment", "Frozen section intraop", "Positive = no neobladder", "Convert to ileal conduit + urethrectomy"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Timing and Delay Impact",
+          "content": "EAU 2024 mandates radical cystectomy within 90 days of completing neoadjuvant chemotherapy. Delays of >3 months from MIBC diagnosis to cystectomy (without NAC) are associated with pathological upstaging and worse OS in multiple registry analyses. The absolute timing priority is: complete NAC within 3-4 months, then surgery within 90 days of last chemotherapy cycle."
+        }
+      ]
+    },
+    {
+      "id": "A5-S2",
+      "title": "Surgical Technique — Male and Female Radical Cystectomy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "In male patients, standard radical cystectomy removes the bladder, prostate, seminal vesicles, proximal urethra, pelvic peritoneum (anterolateral to the bladder), and bilateral extended pelvic lymph nodes. The approach can be open (midline laparotomy), laparoscopic, or robot-assisted laparoscopic (RARC). The peritoneum is incised, the urachus is divided, and the bladder is dropped from the anterior abdominal wall. The vascular pedicles (superior and lateral vesical vessels from the internal iliac artery) are controlled and divided. Lateral pedicles are clipped or ligated sequentially. The endopelvic fascia is incised, the dorsal venous complex (DVC) is suture-ligated, and the urethra is divided with frozen section margin sampling.\n\nNerve-sparing radical cystectomy aims to preserve the neurovascular bundles (NVBs, lateral prostatic fascia planes) to reduce erectile dysfunction rates. The NVBs course posterolaterally alongside the prostate and are at risk during lateral pedicle control and apical dissection. Nerve-sparing is oncologically appropriate when tumours are anterior, confined to the bladder (without extravesical extension at the posterior bladder neck or base), and when intraoperative frozen sections are negative. Potency preservation rates after nerve-sparing RARC are 40-50% at 12 months vs 5-15% after standard non-nerve-sparing RC.\n\nIn female patients, anterior pelvic exenteration is the standard: removal of the bladder, urethra, uterus, ovaries, Fallopian tubes, and the anterior vaginal wall. For orthotopic neobladder in women, the distal urethra and sphincteric mechanism must be preserved — this requires avoidance of anterior vaginal wall resection near the urethrovesical junction and careful identification of the pubourethral ligaments. EAU 2024 recommends considering ovarian/uterine preservation in young premenopausal women with anterior tumours without posterior involvement and no clinical CIS near the trigone."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Positive Surgical Margins at Cystectomy",
+          "content": "Positive surgical margin (PSM) at radical cystectomy occurs in 4-8% of cases and is the strongest independent predictor of local recurrence and cancer-specific mortality. PSM most commonly occurs at the posterior bladder (rectovesical or rectovaginal tissue) in locally advanced tumours or at the urethra. Intraoperative frozen sections of the urethral margin (mandatory before neobladder construction) and rectal wall representative biopsies in T4 disease are essential quality measures. PSM at cystectomy is associated with 2-3-fold increased cancer-specific mortality in registry data."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Robot-Assisted vs Open Radical Cystectomy",
+          "content": "The RAZOR trial (Parekh et al., Lancet 2018) compared RARC with extracorporeal diversion to open radical cystectomy in a non-inferiority RCT of 302 patients. RARC demonstrated non-inferiority for 2-year progression-free survival (72.3% vs 71.6%) with significantly reduced estimated blood loss (200 vs 600 mL) and shorter length of stay (6 vs 8 days). High-volume centres performing intracorporeal RARC further reduce transfusion rates and length of stay. However, operative time is longer (240 vs 180 min) and costs are higher with RARC — access, volume, and expertise are key selection factors."
+        }
+      ]
+    },
+    {
+      "id": "A5-S3",
+      "title": "Pelvic Lymph Node Dissection",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Extended pelvic lymph node dissection (ePLND) is a critical component of radical cystectomy for staging accuracy and potentially therapeutic benefit. The ePLND template includes: external iliac nodes (lateral and medial chains), internal iliac nodes, obturator fossa nodes, and the common iliac nodes up to the bifurcation of the aorta, plus presacral nodes. This template yields a median of 20-28 nodes. The EAU 2024 quality indicator is a minimum of 10 nodes — counts below this threshold indicate inadequate dissection.\n\nThe SWOG S1011 trial (Gschwend et al., JAMA Surgery 2019) compared super-extended PLND (including nodes up to the inferior mesenteric artery) to extended PLND in 658 patients. Super-extended dissection showed no OS advantage (5-year OS 64% vs 59%, p=0.40) while significantly increasing operative time and complication rates. The therapeutic ceiling of PLND is therefore at the ePLND level — there is no benefit to extending above the aortic bifurcation.\n\nLymph node density (LND = positive nodes / total nodes removed) is a stronger prognostic variable than absolute node count alone. Patients with pN+ disease and LND <20% have significantly better 5-year CSS than those with LND >20% (Stein et al., J Urol 2003). Lymphovascular invasion (LVI) in the cystectomy specimen is an independent adverse prognostic factor even in node-negative patients, influencing adjuvant therapy decisions. The lymph node staging accuracy of CT scan for MIBC is limited (sensitivity 50-70%) — pathological nodal staging at cystectomy provides the most accurate staging information."
+        },
+        {
+          "type": "table",
+          "title": "PLND Templates and Boundaries",
+          "headers": ["Template", "Cranial Boundary", "Nodal Groups Included", "Median Node Yield"],
+          "rows": [
+            ["Limited PLND", "Bifurcation of common iliac", "Obturator fossa, external iliac", "8-12"],
+            ["Standard PLND", "Bifurcation of common iliac", "External, internal iliac, obturator", "12-18"],
+            ["Extended PLND (ePLND)", "Aortic bifurcation", "External, internal, common iliac, obturator, presacral", "20-28"],
+            ["Super-extended PLND", "Inferior mesenteric artery", "ePLND + para-aortic to IMA", ">30"],
+            ["EAU 2024 minimum standard", "Aortic bifurcation (ePLND)", "Minimum 10 nodes quality indicator", "≥10 (quality gate)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A5-S4",
+      "title": "Urinary Diversion — Ileal Conduit and Continent Diversions",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Urinary diversion after radical cystectomy has three main forms: ileal conduit (Bricker), continent cutaneous diversion (Indiana pouch, Kock pouch), and orthotopic neobladder. The ileal conduit, described by Bricker in 1950, uses a 15-20 cm isoperistaltic segment of distal ileum (15-20 cm from the ileocaecal valve) as a non-refluxing conduit from the ureteral anastomoses to a flush cutaneous stoma in the right iliac fossa. It is the simplest, safest, and most widely used form of diversion, preferred in elderly patients, those with significant comorbidity, or when urethral margin is positive.\n\nThe orthotopic neobladder (Hautmann ileal neobladder, Studer pouch, or Padua ileal bladder) creates a low-pressure reservoir from a 50-60 cm detubularised ileal segment, anastomosed to the native urethra. The reservoir must be detubularised to break the peristaltic pressure wave and achieve low-pressure storage (<40 cmH₂O). The Hautmann W-pouch uses four 15 cm limbs arranged in a W, with a median capacity of 400-500 mL. Daytime continence rates (dry at 12 months) are 80-90% for men and 70-85% for women. Night-time incontinence affects 20-30% of patients due to loss of the spinal micturition reflex and reduced awareness of reservoir filling during sleep. Clean intermittent self-catheterisation (CIC) is required in 10-15% of patients for chronic retention, more common in women (neobladder-vaginal fistula risk in females is 5-10%).\n\nThe continent cutaneous Kock pouch or Indiana pouch creates an abdominal reservoir catheterised via a Mitrofanoff-type channel or tapered ileal efferent limb. These are technically more demanding with higher complication and revision rates than ileal conduit. They are preferred when orthotopic neobladder is not possible but the patient strongly desires continence without an external appliance."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Ureteroileal Anastomosis and Late Stricture",
+          "content": "Late ureteroileal anastomotic stricture is the most common late complication of ileal conduit (incidence 5-15% at 10 years, more common on the left side due to tension or ischaemia). It presents as hydronephrosis with deteriorating renal function or recurrent UTI. Diagnosis is by loopogram or CT urogram. Management: endoscopic balloon dilatation (50% long-term success) or open/laparoscopic revision with re-implantation of the ureter into the conduit."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Intracorporeal vs Extracorporeal Diversion in RARC",
+          "content": "Intracorporeal urinary diversion (iRARC) — creating the conduit or neobladder laparoscopically via the robot — is technically demanding but has been shown to further reduce transfusion rates, length of stay, and early complication rates compared to extracorporeal diversion after RARC. High-volume RARC centres performing ≥50 iRARC/year achieve outcomes equivalent to open series. The IRCU (International Robot-assisted Cystectomy Consortium) registry data support iRARC as the preferred approach at experienced centres."
+        }
+      ]
+    },
+    {
+      "id": "A5-S5",
+      "title": "ERAS Protocol for Radical Cystectomy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Enhanced Recovery After Surgery (ERAS) protocols for radical cystectomy have been validated in multiple RCTs and meta-analyses, reducing length of stay by 2-4 days and major complication rates by 25-35% without increasing readmission rates. The EAU 2022 ERAS guidelines for radical cystectomy encompass pre-operative, intraoperative, and postoperative elements.\n\nKey pre-operative ERAS elements include: preoperative counselling (stoma marking by enterostomal therapist), mechanical bowel preparation is NOT recommended (increases dehiscence, ileus — avoided in EAU ERAS 2022), carbohydrate loading (400 mL carbohydrate drink 2 hours pre-operatively reduces insulin resistance and fatigue), and multimodal prehabilitation (exercise, nutritional optimisation, smoking cessation ≥4 weeks pre-op).\n\nIntraoperative ERAS elements: goal-directed fluid therapy (GDT) targeting stroke volume optimisation prevents both hypovolaemia and fluid overload (the latter being the primary cause of ileus and pulmonary complications in cystectomy); epidural anaesthesia or transversus abdominis plane (TAP) block for thoracoabdominal analgesia reduces opioid requirements; temperature management (active warming) prevents hypothermia; nasogastric tube should be removed at end of surgery (not left in situ).\n\nPost-operative ERAS elements: early oral fluid intake (6 hours post-operatively), early mobilisation (first post-operative day), multimodal analgesia (paracetamol + NSAIDs + regional block), bowel stimulation (oral laxatives, gum chewing), bladder catheter care, and deep venous thrombosis prophylaxis (LMWH for 4 weeks post-discharge for pelvic surgery with malignancy). The Karl et al. (Eur Urol 2014) prospective validation demonstrated median LOS of 8 vs 14 days with ERAS vs standard care."
+        },
+        {
+          "type": "table",
+          "title": "Key ERAS Elements for Radical Cystectomy (EAU 2022)",
+          "headers": ["Phase", "Element", "Evidence Grade", "Recommendation"],
+          "rows": [
+            ["Pre-op", "Carbohydrate loading 2h before surgery", "Strong", "Recommend (Grade A)"],
+            ["Pre-op", "Mechanical bowel preparation", "Strong", "Avoid — increases ileus (Grade A)"],
+            ["Pre-op", "Smoking cessation ≥4 weeks", "Moderate", "Recommend (Grade B)"],
+            ["Intra-op", "Goal-directed fluid therapy", "Strong", "Recommend (Grade A)"],
+            ["Intra-op", "Epidural/TAP block for analgesia", "Strong", "Recommend (Grade A)"],
+            ["Intra-op", "Remove NG tube at end of surgery", "Moderate", "Recommend (Grade B)"],
+            ["Post-op", "Early oral feeding 6h post-op", "Strong", "Recommend (Grade A)"],
+            ["Post-op", "Early mobilisation POD1", "Strong", "Recommend (Grade A)"],
+            ["Post-op", "LMWH thromboprophylaxis ×4 weeks", "Strong", "Recommend (Grade A)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Mechanical Bowel Preparation",
+          "content": "Mechanical bowel preparation (MBP) before radical cystectomy is NOT recommended by EAU ERAS 2022 guidelines. Despite historical use, randomised evidence shows MBP increases electrolyte disturbance, patient discomfort, and post-operative ileus rates without reducing anastomotic complications. Oral antibiotics (neomycin + metronidazole or erythromycin) the day before surgery may reduce bowel flora and are recommended. MBP should be avoided in all ERAS-compliant cystectomy programmes."
+        }
+      ]
+    },
+    {
+      "id": "A5-S6",
+      "title": "Complications of Radical Cystectomy and Urinary Diversion",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Radical cystectomy has one of the highest complication rates of any urological operation. The 90-day major complication rate (Clavien-Dindo grade ≥3) is 20-30%, and overall (any grade) complication rate is 50-60% in contemporary open series, with comparable rates for RARC. Mortality within 90 days is 2-3% in high-volume centres but up to 5-8% in low-volume or elderly/comorbid populations.\n\nEarly complications (within 30 days) include: paralytic ileus (most common, 20-30%), wound infection (5-10%), urinary leakage from ureteroileal anastomosis (2-5%), deep vein thrombosis (3-5%), and pulmonary embolism (1-2%). Prolonged ileus is reduced by ERAS protocols, early oral intake, avoiding MBP, and limiting opioid use. Clavien-Dindo grade ≥3 complications include: re-operation for anastomotic leak (2-5%), bowel obstruction requiring surgery (3%), myocardial infarction (1-2%), and pulmonary complications requiring ICU (2-3%).\n\nLate complications of urinary diversion are diversion-specific. Ileal conduit late complications include: parastomal hernia (20-30% at 10 years), stomal stenosis (5-10%), ureteroileal stricture (5-15%), and renal deterioration due to chronic reflux or obstruction (30-40% at 10 years have upper tract changes). Orthotopic neobladder late complications include: daytime incontinence (15-20%), night-time incontinence (25-30%), chronic urinary retention requiring CIC (10-15% men, 15-25% women), metabolic acidosis (hyperchloraemic from ileal ammonium absorption — 15%), and vitamin B12 deficiency from terminal ileum use (requires supplementation after 2 years).\n\nMetabolic complications from ileal reservoirs include hyperchloraemic metabolic acidosis (from ammonium reabsorption by the ileal mucosa — managed with bicarbonate supplementation), vitamin B12 deficiency (terminal ileal resection reduces intrinsic factor receptor — B12 injection every 3 months after 2-3 years), and hypomagnesaemia. Annual metabolic blood tests (electrolytes, bicarbonate, B12, Mg) are mandatory for all patients with ileal diversions."
+        },
+        {
+          "type": "table",
+          "title": "Common Late Complications by Diversion Type",
+          "headers": ["Complication", "Ileal Conduit", "Orthotopic Neobladder", "Management"],
+          "rows": [
+            ["Daytime incontinence", "N/A (stoma)", "15-20%", "Pelvic floor rehab; CIC if retention"],
+            ["Night-time incontinence", "N/A", "25-30%", "Alarm clock voiding; pad use"],
+            ["Ureteroileal stricture", "5-15%", "5-10%", "Endoscopic dilatation or open revision"],
+            ["Parastomal hernia", "20-30%", "N/A", "Surgical repair; prophylactic mesh at creation"],
+            ["Metabolic acidosis", "Rare", "15%", "Oral NaHCO₃ supplementation"],
+            ["Vitamin B12 deficiency", "Uncommon", "After 2-3 years", "IM B12 every 3 months"],
+            ["Neobladder-vaginal fistula", "N/A", "5-10% (females)", "Surgical repair; may require conversion to conduit"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A5-S7",
+      "title": "Oncological Outcomes and Surveillance After Radical Cystectomy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Oncological outcomes after radical cystectomy depend primarily on pathological stage and nodal status. Five-year cancer-specific survival (CSS) by pathological stage in contemporary series: pT0 (pCR after NAC): 85-90%, pT1: 80-85%, pT2: 70-75%, pT3a: 55-60%, pT3b: 45-50%, pT4: 30-35%, pN+: 25-35%. The pCR rate (pT0N0) after NAC is the strongest predictor of long-term survival and argues for high-quality pre-operative imaging and TURBT to select patients most likely to benefit from NAC.\n\nUrethral recurrence after RC occurs in 4-8% of men and 1-3% of women. Risk factors for urethral recurrence include: prostatic urethral involvement (especially stromal invasion), extensive CIS near bladder neck, positive urethral margin at RC, and multifocal CIS. Patients with orthotopic neobladder are at risk for urethral recurrence — annual urethral washings for cytology are recommended. Urethral recurrence confirmed by urethroscopy and biopsy requires urethrectomy; the neobladder can be left in situ if continent diversion is still possible via CIC or converted to ileal conduit.\n\nEAU 2024 surveillance schedule post-RC: CT chest/abdomen/pelvis at 3 months, then every 6 months for 5 years, then annually. Renal function (GFR), electrolytes, and B12 annually. For high-risk pathology (pT3-4 or pN+), more frequent imaging at 3 monthly intervals for the first 2 years is recommended. Upper tract surveillance by CT urogram every 1-2 years to detect new upper tract UC (2-4% cumulative risk) is essential."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Pathological Stage vs Clinical Stage Discordance",
+          "content": "Clinical understaging at TURBT is common for bladder cancer: 30-50% of cT2 tumours are upstaged to pT3 or pT4 at cystectomy. Clinical T1 (muscle-invasive not confirmed) tumours have a 15-20% rate of pathological T3+ at cystectomy. This is why NAC based on TURBT clinical staging (not post-cystectomy pathological staging) is the correct approach — neoadjuvant treatment is given before pathological upstaging is confirmed, precisely to address the high upstaging rate."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Salvage Cystectomy for Trimodal Therapy Failure",
+          "content": "Approximately 25-30% of patients who undergo TMT will require salvage cystectomy for local relapse within 5 years. The feasibility and morbidity of salvage cystectomy after pelvic radiotherapy are significantly higher than primary cystectomy — bowel adhesions, tissue fibrosis, and radiation-induced small bowel injury increase the risk of Clavien-Dindo grade ≥3 complications to 40-50%. A continent neobladder is typically not recommended after pelvic RT due to impaired healing of the ileal anastomosis to the irradiated urethra. Pre-operative counselling for TMT must include explicit discussion of salvage cystectomy risk and morbidity."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of radical cystectomy technique, urinary diversion, ERAS protocols, and complications with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "A5-Q1",
+        "stem": "A 67-year-old male is scheduled for robot-assisted radical cystectomy with ileal conduit for pT2 MIBC after neoadjuvant ddMVAC × 4 cycles. His NAC was completed 8 weeks ago. During the procedure, the intraoperative urethral margin frozen section returns positive for urothelial carcinoma. What is the appropriate next step?",
+        "options": {
+          "A": "Proceed with planned orthotopic neobladder — frozen section can be a false positive",
+          "B": "Abort the cystectomy and reschedule with wider urethral margin resection",
+          "C": "Perform urethrectomy and create an ileal conduit instead of neobladder",
+          "D": "Perform urethrectomy and create a continent cutaneous (Indiana) pouch"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "A positive urethral margin on frozen section is an absolute contraindication to orthotopic neobladder. The correct response is to perform urethrectomy (removing all urethral tumour) and create an ileal conduit as the urinary diversion. The ileal conduit does not require an intact urethra — the ureters are anastomosed to an isoperistaltic ileal segment and brought to a cutaneous stoma. EAU 2024 mandates frozen section of the urethral margin before any neobladder construction; positive margins mandate conversion to an alternative diversion.",
+          "wrong": {
+            "A": "Frozen section of the urethral margin is a mandatory pre-neobladder quality step — its result should not be dismissed as 'false positive' without re-sampling. Constructing a neobladder on a positive urethral margin risks local recurrence, urethral fistula, and tumour in the anastomotic line.",
+            "B": "Aborting the cystectomy is not appropriate. The cystectomy should proceed; only the type of urinary diversion is changed. Rescheduling delays oncological treatment unnecessarily.",
+            "D": "A continent cutaneous pouch (Indiana/Kock) also requires the ureters to be diverted, but unlike an ileal conduit, it creates a continent reservoir — this is a more complex option that may be appropriate but the ileal conduit is the simplest, safest choice when neobladder is excluded."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3.4: Urinary diversion selection criteria",
+          "trial": "Hautmann RE et al. Ileal neobladder — 923 patients: urethral margin is the single most critical factor for neobladder eligibility. J Urol 2006.",
+          "pearl": "Positive urethral margin frozen section = ABSOLUTE contraindication to orthotopic neobladder. Perform urethrectomy + ileal conduit (or continent cutaneous diversion). Never construct a neobladder to a positive urethral margin — the oncological and functional consequences are severe."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A5-Q2",
+        "stem": "Which ERAS element for radical cystectomy has the strongest evidence (Grade A recommendation, EAU ERAS 2022) for reducing post-operative ileus?",
+        "options": {
+          "A": "Mechanical bowel preparation with polyethylene glycol the day before surgery",
+          "B": "Goal-directed intraoperative fluid therapy targeting stroke volume",
+          "C": "Nasogastric tube drainage for the first 48 hours post-operatively",
+          "D": "Total parenteral nutrition for 7 days post-operatively"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Goal-directed fluid therapy (GDT) — using stroke volume optimisation via oesophageal Doppler, arterial line, or FloTrac to guide intraoperative fluid administration — is the single most evidence-based ERAS element for reducing paralytic ileus and pulmonary complications after radical cystectomy. Both under-resuscitation (causing intestinal ischaemia) and over-resuscitation (bowel oedema, ileus) worsen outcomes. GDT is a Grade A recommendation in EAU ERAS 2022 guidelines.",
+          "wrong": {
+            "A": "Mechanical bowel preparation is explicitly NOT recommended by EAU ERAS 2022. Multiple RCTs show MBP increases ileus, electrolyte disturbance, and patient discomfort without reducing anastomotic complications.",
+            "C": "Nasogastric tubes should be removed at the end of surgery — prolonged NG drainage does not reduce ileus and delays return to oral intake. EAU ERAS 2022 recommends early oral feeding from 6 hours post-op.",
+            "D": "Total parenteral nutrition (TPN) is reserved for patients who cannot be enterally fed for >7 days. It is not a routine ERAS component and is associated with catheter-related infections and hyperglycaemia."
+          },
+          "guideline": "EAU Guidelines on Perioperative Care in Urology: ERAS Protocol for Radical Cystectomy (Karl et al., 2022) — Grade A recommendations",
+          "trial": "Karl A et al. A systematic review of level 1 evidence for enhanced recovery pathways in major urological surgery. Eur Urol 2014: ERAS reduced LOS from 14 to 8 days with GDT as key element.",
+          "pearl": "Key ERAS Grade A recommendations for cystectomy: (1) NO mechanical bowel prep, (2) goal-directed fluid therapy, (3) remove NG tube at surgery end, (4) oral feeding from 6h post-op, (5) early mobilisation POD1, (6) LMWH × 4 weeks post-discharge."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q3",
+        "stem": "A 71-year-old male underwent open radical cystectomy with ileal conduit 3 years ago for pT3a N0 MIBC. He now presents with bilateral hydroureteronephrosis and rising creatinine (1.8 mg/dL, baseline 1.0 mg/dL). He has no flank pain. Loopogram shows bilateral narrowing at the ureteroileal anastomoses. What is the most likely diagnosis?",
+        "options": {
+          "A": "Conduit wall tumour recurrence",
+          "B": "Ureteroileal anastomotic strictures",
+          "C": "Parastomal hernia with ureteral kinking",
+          "D": "Retroperitoneal lymph node recurrence causing extrinsic compression"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Ureteroileal anastomotic stricture is the most common late complication of ileal conduit diversion, occurring in 5-15% of cases at 10 years. It is more common on the left side (due to greater tension on the longer left ureteral anastomosis). Presentation is bilateral or unilateral hydronephrosis with gradually rising creatinine and no pain. Loopogram (retrograde contrast injection through the stoma) characteristically shows narrowing at the anastomotic sites. Management: endoscopic balloon dilatation (50% durable success) or surgical revision (re-implantation of the ureter into the conduit).",
+          "wrong": {
+            "A": "Conduit wall UC recurrence is rare (secondary tumour in conduit mucosa), does not cause bilateral ureteral obstruction at the anastomosis sites, and would appear as a filling defect within the conduit rather than stricture at the ureteroileal junction.",
+            "C": "Parastomal hernia causes stoma dysfunction and peristomal bulge but does not typically cause bilateral ureteroileal strictures. The loopogram finding of bilateral anastomotic narrowing points to the anastomosis, not the stoma.",
+            "D": "Retroperitoneal recurrence with bilateral extrinsic ureteral compression is possible but would be seen as extrinsic mass effect on CT, not intrinsic anastomotic narrowing on loopogram."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3.5: Complications of urinary diversion",
+          "trial": "Frazier HA et al. Long-term followup of ileal conduit urinary diversion: complications over 5, 10, and 20 years. J Urol 1993: ureteroileal stricture in 5-15% at 10 years — most common late anastomotic complication.",
+          "pearl": "Ureteroileal anastomotic stricture (5-15% at 10 years) is the most common late complication of ileal conduit. Left-sided predominance due to anastomotic tension. Diagnose with loopogram or CT urogram. Treat with endoscopic dilatation (50% long-term success) or surgical re-implantation."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q4",
+        "stem": "A 58-year-old female undergoes radical cystectomy with orthotopic neobladder for cT2 N0 MIBC. Eighteen months later, she presents with urinary leakage from the vagina. CT confirms a fistulous tract between the neobladder and vagina. What is the most appropriate initial investigation and likely aetiology?",
+        "options": {
+          "A": "Cystoscopy + biopsy — likely tumour recurrence at the neobladder-vaginal junction",
+          "B": "MRI pelvis + cystoscopy — neobladder-vaginal fistula from anterior vaginal wall ischaemia at time of surgery",
+          "C": "PET-CT — likely lymph node recurrence causing fistulation",
+          "D": "Urethral pressure profilometry — urethral sphincter incompetence causing vaginal leakage"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Neobladder-vaginal fistula is a specific complication of orthotopic neobladder in women, occurring in 5-10% of cases. The mechanism is ischaemic necrosis of the anterior vaginal wall during the cystectomy or from tension on the neobladder-vaginal tissue plane during closure. MRI pelvis characterises the fistula anatomy and excludes tumour recurrence. Cystoscopy confirms the fistula opening and allows biopsy to exclude cancer recurrence. Treatment is surgical repair — if tumour recurrence is excluded, primary closure or conversion to ileal conduit is planned.",
+          "wrong": {
+            "A": "While tumour recurrence must be excluded by biopsy, 18 months after cystectomy for pT2 N0 disease, a benign ischaemic fistula is far more likely than recurrence at the neobladder-vaginal junction. Biopsy is part of the work-up but is not the primary investigation — MRI characterises the anatomy first.",
+            "C": "PET-CT would detect distant or nodal recurrence but is not the primary investigation for a vaginal fistula. The fistula must first be characterised anatomically and confirmed as benign or malignant.",
+            "D": "Urethral pressure profilometry assesses sphincteric function for stress urinary incontinence but does not diagnose a fistula. Vaginal leakage after neobladder is a distinct entity from post-cystectomy incontinence."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3.6: Female orthotopic neobladder complications",
+          "trial": "Stenzl A et al. Female orthotopic bladder substitution: a critical update. Eur Urol 2010: neobladder-vaginal fistula in 5-10% — most common specific complication of female orthotopic diversion.",
+          "pearl": "Neobladder-vaginal fistula (5-10% in women) is the most specific complication of female orthotopic neobladder. Caused by anterior vaginal wall ischaemia or tension at the neobladder anastomosis. Investigate with MRI pelvis + cystoscopy. Biopsy to exclude recurrence before repair planning."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q5",
+        "stem": "What is the minimum lymph node yield required to meet the EAU 2024 quality standard for extended pelvic lymph node dissection at radical cystectomy?",
+        "options": {
+          "A": "5 nodes",
+          "B": "10 nodes",
+          "C": "20 nodes",
+          "D": "30 nodes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 guidelines define a minimum lymph node yield of 10 nodes as the quality indicator for extended pelvic lymph node dissection (ePLND) at radical cystectomy. Node counts below 10 indicate an inadequate dissection template or inadequate pathological processing. Higher node yields improve staging accuracy and are associated with improved survival independently of nodal status (therapeutic PLND effect).",
+          "wrong": {
+            "A": "5 nodes is insufficient and indicates either a limited (non-extended) dissection template or poor specimen submission/processing.",
+            "C": "20 nodes is the median yield expected from a high-quality ePLND series but is not the EAU minimum quality threshold. The threshold is 10 nodes.",
+            "D": "30 nodes corresponds to super-extended PLND to the inferior mesenteric artery level — the SWOG S1011 trial showed no OS benefit for this extension over ePLND."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3.2: PLND quality indicator",
+          "trial": "Gschwend JE et al. SWOG S1011: Extended vs super-extended PLND at radical cystectomy. JAMA Surg 2019: no OS benefit for super-extended; minimum 10-node yield is the EAU quality gate.",
+          "pearl": "EAU 2024 ePLND quality indicator: minimum 10 lymph nodes. The ePLND template extends to the aortic bifurcation (common iliac, external/internal iliac, obturator, presacral nodes). Nodal yield <10 = inadequate dissection. Higher yield improves staging and may confer therapeutic benefit."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A5-Q6",
+        "stem": "A 65-year-old male with an orthotopic neobladder presents 3 years post-cystectomy with fatigue, numbness in his fingertips, and a serum B12 level of 95 pg/mL (normal >200 pg/mL). What is the mechanism of B12 deficiency in this patient?",
+        "options": {
+          "A": "Dietary B12 insufficiency due to post-operative anorexia",
+          "B": "Terminal ileum resection for neobladder construction impairing intrinsic factor receptor absorption",
+          "C": "Methotrexate-induced B12 antagonism from prior chemotherapy",
+          "D": "Helicobacter pylori-induced pernicious anaemia as a coincidental finding"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Orthotopic neobladder construction uses 50-60 cm of terminal ileum, which is the exclusive site of vitamin B12 absorption via intrinsic factor (IF) receptors. Resection of the terminal ileum eliminates the absorptive surface for the IF-B12 complex. B12 deficiency manifests as megaloblastic anaemia and subacute combined degeneration (peripheral neuropathy, posterior column involvement) after 2-3 years when body stores are depleted. All patients with ileal neobladder require intramuscular B12 supplementation (1000 mcg IM every 3 months) starting at 2 years post-surgery.",
+          "wrong": {
+            "A": "Dietary B12 deficiency alone does not cause clinical deficiency within 3 years — body stores last 2-5 years in normal adults. The mechanism here is malabsorption from IF receptor loss, not dietary insufficiency.",
+            "C": "MVAC or GC chemotherapy does not include methotrexate at doses that cause clinically significant B12 antagonism. ddMVAC uses low-dose methotrexate (30 mg/m²) — this is not a cause of B12 deficiency at therapeutic doses.",
+            "D": "H. pylori-associated pernicious anaemia is a coincidental possibility but is not the primary mechanism here. The ileal resection is the direct cause — this is a diagnosis-specific complication of neobladder, not a coincidental finding."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3.7: Metabolic complications of urinary diversion",
+          "trial": "Studer UE et al. Orthotopic ileal neobladder — 20-year experience. J Urol 2006: B12 deficiency requiring supplementation develops in 15-20% of patients at 5 years post-construction.",
+          "pearl": "B12 deficiency is a predictable, preventable complication of ileal neobladder and ileal conduit due to terminal ileum resection. Monitor serum B12 annually; supplement with IM B12 (1000 mcg every 3 months) from 2 years post-surgery in all patients with >30 cm ileal resection."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q7",
+        "stem": "The RAZOR trial compared robot-assisted radical cystectomy (RARC) to open radical cystectomy (ORC). What was the primary endpoint and conclusion of this phase III RCT?",
+        "options": {
+          "A": "RARC was superior to ORC for 2-year overall survival",
+          "B": "RARC was non-inferior to ORC for 2-year progression-free survival, with reduced blood loss and LOS",
+          "C": "ORC was superior to RARC for lymph node yield and margin-negative rates",
+          "D": "RARC had significantly higher Clavien-Dindo grade ≥3 complication rates than ORC"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The RAZOR trial (Parekh et al., Lancet 2018) was a phase III non-inferiority RCT of 302 patients randomised to RARC (extracorporeal diversion) vs ORC. The primary endpoint was 2-year progression-free survival — RARC demonstrated non-inferiority (72.3% vs 71.6%). RARC had significantly reduced estimated blood loss (200 vs 600 mL), reduced transfusion rate, and shorter median LOS (6 vs 8 days) with comparable complication rates and lymph node yields.",
+          "wrong": {
+            "A": "RAZOR was a non-inferiority trial for PFS, not a superiority trial for OS. There was no OS difference — this is expected for a surgical approach comparison, as technique does not improve cancer biology.",
+            "C": "RAZOR found no significant difference in lymph node yield or positive margin rates between RARC and ORC — these quality indicators were equivalent.",
+            "D": "RAZOR showed comparable Clavien-Dindo grade ≥3 complication rates between RARC and ORC. RARC had significantly lower EBL and transfusion rates, not higher complication rates."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3.1: Surgical approach (open vs RARC)",
+          "trial": "Parekh DJ et al. RAZOR trial: Robot-assisted vs open radical cystectomy — phase 3 RCT. Lancet 2018: PFS non-inferiority; RARC reduced EBL (200 vs 600 mL) and LOS (6 vs 8 days).",
+          "pearl": "RAZOR trial: RARC is non-inferior to ORC for 2-year PFS with significantly reduced EBL and shorter LOS. Intracorporeal RARC (iRARC) at high-volume centres further improves on these outcomes. Oncological equivalence — technique choice depends on surgeon/centre expertise."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q8",
+        "stem": "A 60-year-old male 2 years post-cystectomy with ileal conduit presents with a bulge around his stoma that increases with Valsalva. He is asymptomatic. What is the most likely diagnosis and the recommended initial management?",
+        "options": {
+          "A": "Stomal prolapse — immediate surgical revision is required",
+          "B": "Parastomal hernia — conservative management with support belt, elective surgical repair when symptomatic or growing",
+          "C": "Conduit recurrence — urgent cystoscopy and biopsy",
+          "D": "Conduit obstruction — nephrostomy placement and CT urogram"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Parastomal hernia is the most common late stomal complication of ileal conduit, occurring in 20-30% of patients by 10 years. It manifests as a peristomal bulge that increases with Valsalva or standing. For asymptomatic small parastomal hernias, conservative management with a fitted support belt and stoma appliance is appropriate. Indications for surgical repair include: pain, appliance leakage, skin complications, incarceration, strangulation, or obstruction. Prophylactic mesh placement at the time of initial conduit creation reduces parastomal hernia risk.",
+          "wrong": {
+            "A": "Stomal prolapse (conduit prolapses through the stoma) is a different entity from parastomal hernia. A peristomal bulge on Valsalva with a normally positioned stoma is classic for parastomal hernia. Immediate repair is not required for an asymptomatic hernia.",
+            "C": "A conduit recurrence would present as haematuria, filling defect on loopogram, or systemic symptoms — not a reducible peristomal bulge. Cystoscopy of the conduit (looposcopy) is not indicated without haematuria or abnormal loopogram.",
+            "D": "Conduit obstruction presents with hydronephrosis, rising creatinine, and possibly pain — not a soft peristomal bulge. CT urogram is appropriate for suspected obstruction, not for a classic parastomal hernia presentation."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3.5: Ileal conduit complications",
+          "trial": "Frazier HA et al. Long-term followup of ileal conduit urinary diversion. J Urol 1993: parastomal hernia in 20-30% at 10 years — most common late stomal complication.",
+          "pearl": "Parastomal hernia (20-30% at 10 years) is the most common late complication of ileal conduit stoma. Asymptomatic: conservative (support belt). Surgical repair for: pain, appliance leak, skin problems, incarceration. Prophylactic mesh reduces incidence — consider at index surgery."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q9",
+        "stem": "A 72-year-old male presents with fatigue, confusion, and Kussmaul breathing 6 months after orthotopic neobladder construction. Blood gas shows pH 7.28, HCO₃ 16 mEq/L, pCO₂ 34 mmHg (compensated). Serum chloride is 115 mEq/L. What metabolic complication is responsible?",
+        "options": {
+          "A": "Hyponatraemic metabolic alkalosis from neobladder mucus secretion",
+          "B": "Hyperchloraemic metabolic acidosis from ileal ammonium reabsorption",
+          "C": "Lactic acidosis from neobladder ischaemia",
+          "D": "Respiratory acidosis from chronic hypoventilation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Hyperchloraemic metabolic acidosis is the most common metabolic complication of ileal urinary reservoirs (neobladder and ileal conduit), occurring in ~15% of patients. The mechanism: urine retained in the ileal reservoir allows reabsorption of ammonium (NH4+) and chloride (Cl-) by the ileal mucosa, with simultaneous secretion of bicarbonate into the reservoir. This results in systemic hyperchloraemia, bicarbonate depletion, and normal anion gap metabolic acidosis. Presentation: fatigue, anorexia, confusion (from central nervous system effects of acidosis), and Kussmaul breathing. Management: oral sodium bicarbonate supplementation (1-2 g TID) with monitoring of serum bicarbonate.",
+          "wrong": {
+            "A": "Metabolic alkalosis would require a different mechanism (chloride loss, hydrogen ion gain). Hyperchloraemia with low bicarbonate indicates metabolic acidosis, not alkalosis.",
+            "C": "Lactic acidosis would show elevated lactate and anion gap, and a cause for ischaemia. Hyperchloraemia with normal anion gap is the hallmark of ammonium reabsorption acidosis, not lactic acidosis.",
+            "D": "Respiratory acidosis shows elevated pCO₂ (>45 mmHg), not low pCO₂ (34 mmHg, which is respiratory compensation for metabolic acidosis). The primary process here is metabolic, not respiratory."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3.7: Metabolic complications of ileal reservoirs",
+          "trial": "Studer UE et al. Orthotopic ileal neobladder — 20-year experience and analysis of metabolic complications. J Urol 2006: hyperchloraemic acidosis in 15%; responds to oral bicarbonate supplementation.",
+          "pearl": "Hyperchloraemic metabolic acidosis (normal anion gap, high Cl-, low HCO₃) is the signature metabolic complication of ileal urinary reservoirs. Caused by ileal reabsorption of NH4+ and Cl- from retained urine. Treat with oral NaHCO₃. Monitor electrolytes + pH annually post-cystectomy."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q10",
+        "stem": "A 55-year-old female with pT3b N2 MIBC at radical cystectomy did not receive neoadjuvant chemotherapy (cisplatin-ineligible at time of surgery, now GFR improved to 62 mL/min post-op). Her PD-L1 expression (combined positive score) is 8%. Which adjuvant therapy is most supported by level 1 evidence for DFS benefit?",
+        "options": {
+          "A": "Gemcitabine-cisplatin × 4 cycles",
+          "B": "Pembrolizumab × 1 year",
+          "C": "Nivolumab × 1 year",
+          "D": "Avelumab × 1 year"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Nivolumab is FDA-approved for adjuvant treatment of high-risk MIBC (pT3-4 or pN+) after radical surgery based on CheckMate 274 (Bajorin et al., NEJM 2021). The trial showed DFS benefit overall (HR 0.70, p<0.001) and in PD-L1 ≥1% patients (HR 0.53). This patient has pT3b N2 disease — a clear CheckMate 274 indication. PD-L1 CPS 8% (< 10) does not exclude benefit; the overall population benefit was demonstrated regardless of PD-L1 status.",
+          "wrong": {
+            "A": "Adjuvant cisplatin-based chemotherapy has level 1 evidence for DFS (EORTC 30994, HR 0.54) but not OS. Nivolumab has been approved based on DFS data and is the preferred adjuvant option per current EAU 2024 and NCCN guidelines. With improved GFR, cisplatin chemotherapy could be offered, but nivolumab is now the preferred option.",
+            "B": "Pembrolizumab has no phase III adjuvant cystectomy data. KEYNOTE-057 is for BCG-unresponsive NMIBC — not the pT3-4/N+ post-cystectomy setting.",
+            "D": "Avelumab maintenance (JAVELIN Bladder 100) applies to metastatic UC non-progressing after platinum chemotherapy — not the adjuvant post-cystectomy setting."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3.8: Adjuvant therapy after radical cystectomy",
+          "trial": "Bajorin DF et al. CheckMate 274: Adjuvant nivolumab vs placebo in high-risk MIBC after radical surgery. NEJM 2021: DFS HR 0.70 (overall), HR 0.53 (PD-L1 ≥1%) — first adjuvant IO approval for MIBC.",
+          "pearl": "Nivolumab adjuvant × 1 year (CheckMate 274) is the standard for pT3-4 or pN+ MIBC post-cystectomy without prior NAC. DFS benefit is seen regardless of PD-L1 status, though largest in PD-L1 ≥1%. This is the only phase III adjuvant therapy trial showing DFS benefit from immunotherapy in MIBC."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q11",
+        "stem": "A 64-year-old male has undergone radical cystectomy for MIBC. The pathological report shows pT4a N0 M0, with invasion of the prostate stroma, negative urethral margin, and 14 lymph nodes removed (all negative). He did not receive neoadjuvant chemotherapy. What is the 5-year cancer-specific survival estimate for pT4a N0 disease?",
+        "options": {
+          "A": "85-90%",
+          "B": "70-75%",
+          "C": "50-55%",
+          "D": "30-35%"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "Contemporary radical cystectomy series consistently report 5-year cancer-specific survival by pathological stage. For pT4 N0 disease (invasion of adjacent organs — prostate stroma, uterus, vagina, abdominal wall, or rectum), the 5-year CSS is approximately 30-40%. pT4a N0 has a slightly better prognosis than pT4b (invasion of the pelvic or abdominal wall), with most series reporting 30-35% CSS at 5 years for pT4a without nodal involvement.",
+          "wrong": {
+            "A": "85-90% corresponds to pT0 (complete pathological response after NAC) or pT1 disease — far better prognosis than pT4a.",
+            "B": "70-75% corresponds to pT2 (organ-confined, muscle-invasive) disease — far better prognosis than pT4a.",
+            "C": "50-55% corresponds to pT3a (microscopic perivesical fat invasion) disease — still substantially better than pT4a."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3.9: Oncological outcomes by pathological stage",
+          "trial": "Stein JP et al. Radical cystectomy in the treatment of invasive bladder cancer: long-term results in 1,054 patients. J Clin Oncol 2001: 5-yr CSS pT4a N0 32-38% in large USC cystectomy series.",
+          "pearl": "5-year CSS by pT-stage after radical cystectomy: pT0=85-90%, pT1=80-85%, pT2=70-75%, pT3a=55-60%, pT3b=45-50%, pT4=30-35%, pN+=25-35%. The steep decline at pT3b and pT4 justifies intensive surveillance and adjuvant therapy in these patients."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q12",
+        "stem": "During creation of an ileal conduit, the surgeon selects the ileal segment. Which of the following correctly describes the minimum distance from the ileocaecal valve that the ileal segment should be harvested?",
+        "options": {
+          "A": "5 cm from the ileocaecal valve",
+          "B": "15-20 cm from the ileocaecal valve",
+          "C": "At the ileocaecal junction (last 15 cm of terminal ileum)",
+          "D": "The site of selection is irrelevant as long as adequate length is obtained"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The ileal conduit uses a 15-20 cm segment of ileum positioned 15-20 cm (minimum 15 cm) proximal to the ileocaecal valve. The terminal 15-20 cm of ileum is preserved to maintain bile salt and B12 absorption (via specific transporters in the terminal ileum). Using the terminal ileum for the conduit would risk bile salt malabsorption (causing diarrhoea and fat-soluble vitamin deficiency) and B12 malabsorption. The selected segment should be at least 15 cm from the ileocaecal valve, isoperistaltic, with an adequate blood supply from the ileocolic or right colic pedicle.",
+          "wrong": {
+            "A": "5 cm from the ileocaecal valve is within the terminal ileum absorptive zone — using this segment risks B12 malabsorption and bile salt malabsorption.",
+            "C": "The last 15 cm of terminal ileum (the true terminal ileum) contains the highest density of intrinsic factor receptors and bile salt transporters — this must be preserved, not used for the conduit.",
+            "D": "The selection site is not irrelevant — it directly determines the risk of B12 deficiency, bile salt malabsorption, and ileocaecal valve competence. Always use mid-ileum ≥15 cm from the valve."
+          },
+          "guideline": "Campbell-Walsh-Wein Urology, 12th ed. (2021) — Chapter 82: Ileal conduit technique",
+          "trial": "Bricker EM. Bladder substitution after pelvic evisceration. Surg Clin North Am 1950 — original description: mid-ileal segment to preserve terminal ileal absorptive function.",
+          "pearl": "Ileal conduit: select a 15-20 cm mid-ileal segment at least 15 cm from the ileocaecal valve. Preserve the terminal ileum for B12 and bile salt absorption. Failure to observe this rule causes preventable B12 deficiency and bile salt malabsorption beyond what neobladder construction already imposes."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q13",
+        "stem": "A 66-year-old male is 8 weeks post-radical cystectomy with ileal conduit. He develops right flank pain, fever 38.8°C, and right hydroureteronephrosis on ultrasound. Urine from the conduit shows pyuria. Serum creatinine has risen from 1.1 to 1.8 mg/dL. What is the most appropriate immediate management?",
+        "options": {
+          "A": "Empirical oral antibiotics and repeat imaging in 2 weeks",
+          "B": "Percutaneous right nephrostomy for drainage, urine cultures, and intravenous antibiotics",
+          "C": "Bilateral ureteric stent insertion via looposcopy",
+          "D": "CT abdomen/pelvis only — await culture results before antibiotics"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has right-sided obstructive pyelonephritis (fever + flank pain + hydronephrosis + rising creatinine) in the early post-cystectomy period. Obstructive uropathy with infection is a urological emergency requiring urgent drainage. Percutaneous nephrostomy (PCN) provides immediate decompression and allows urine culture from the upper tract (more reliable than conduit urine). Intravenous broad-spectrum antibiotics (piperacillin-tazobactam or carbapenems for high-risk patients) should be started immediately. Early post-cystectomy obstructive pyelonephritis most commonly results from ureteroileal anastomotic oedema or early stricture.",
+          "wrong": {
+            "A": "Oral antibiotics without drainage for obstructive pyelonephritis (sepsis + hydronephrosis) is inadequate and dangerous. Drainage is mandatory for infected obstruction.",
+            "C": "Retrograde ureteral stenting via looposcopy (stent placement through the conduit under cystoscopic guidance) is technically feasible but requires specialist endoscopy training and may be difficult in the early post-cystectomy period with oedematous anastomoses. PCN is faster and safer for immediate drainage in sepsis.",
+            "D": "Delaying antibiotics to await cultures in a patient with fever, rising creatinine, and obstructive uropathy risks urosepsis progression. CT confirms the obstruction but antibiotics and drainage must not be delayed."
+          },
+          "guideline": "EAU Guidelines on Urological Infections (Bonkat et al., 2024) — Section on obstructive uropathy and urosepsis management",
+          "trial": "Wagenlehner FM et al. Urological infections and sepsis. Lancet Infect Dis 2020: urgent drainage + IV antibiotics for obstructive pyelonephritis — grade 1C recommendation, PCN is first-line for decompression.",
+          "pearl": "Obstructive pyelonephritis = urological emergency. Urgent drainage (PCN first-line) + IV broad-spectrum antibiotics + blood cultures. In post-cystectomy patients, ureteroileal anastomotic oedema or early stricture is the most common early cause of obstruction."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q14",
+        "stem": "A radical cystectomy patient is being counselled pre-operatively about urinary diversion options. He is 59 years old, ECOG PS 0, GFR 68 mL/min, anterior tumour without CIS near trigone, and urethral sphincteric function is intact. He strongly prefers to avoid an external stoma appliance. Which diversion is most appropriate?",
+        "options": {
+          "A": "Ileal conduit — safest option regardless of patient preference",
+          "B": "Orthotopic neobladder — if intraoperative urethral margin is negative",
+          "C": "Indiana pouch — continent cutaneous diversion",
+          "D": "Ureterocutaneostomy — simplest form of diversion"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient meets all criteria for orthotopic neobladder: age <65 (relative), GFR >45 mL/min, ECOG PS 0, anterior tumour without trigone/bladder neck CIS (low risk of positive urethral margin), intact sphincteric function, and patient preference to avoid stoma. Intraoperative urethral margin frozen section must be confirmed negative before neobladder construction — if negative, the orthotopic neobladder is the preferred diversion for this patient profile. EAU 2024 recommends patient preference be a primary driver of diversion selection in eligible candidates.",
+          "wrong": {
+            "A": "While the ileal conduit is the simplest and safest diversion, patient preference is a key determinant in diversion selection for eligible candidates. A patient with all criteria for neobladder who strongly prefers to avoid a stoma should be offered the neobladder when oncologically safe.",
+            "C": "The Indiana/Kock continent cutaneous pouch achieves continence without a stoma but requires a catheterisable abdominal channel and is more technically complex with higher revision rates than orthotopic neobladder. It is preferred when neobladder is contraindicated (positive urethral margin) but the patient wants continence without an appliance.",
+            "D": "Ureterocutaneostomy (direct cutaneous ureterostomy) is reserved for very frail, elderly patients or palliative situations requiring minimal operative time — not appropriate for an ECOG PS 0 patient with good renal function."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3.4: Diversion selection — patient factors and preference",
+          "trial": "Hautmann RE et al. Neobladder — 923 patients, 20-year experience. J Urol 2006: eligible patients appropriately selected have daytime continence 85-90% — comparable quality of life to conduit in willing patients.",
+          "pearl": "Orthotopic neobladder prerequisites: negative urethral margin (frozen section), GFR >45, ECOG PS 0-1, no CIS at bladder neck/trigone, patient preference and understanding of CIC need. Contraindications: positive urethral margin, prior urethral stricture disease, inability to do CIC."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q15",
+        "stem": "Which of the following correctly describes the ERAS recommendation for mechanical bowel preparation before radical cystectomy?",
+        "options": {
+          "A": "Full mechanical bowel preparation (polyethylene glycol) is required for all patients having ileal conduit to reduce anastomotic contamination",
+          "B": "Mechanical bowel preparation is NOT recommended; oral antibiotics (neomycin + metronidazole) may be used instead",
+          "C": "Mechanical bowel preparation is required for orthotopic neobladder but not for ileal conduit",
+          "D": "Mechanical bowel preparation should be given to all patients >70 years due to higher infectious complication risk"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU ERAS 2022 guidelines for radical cystectomy explicitly recommend against mechanical bowel preparation. Multiple RCTs have shown that MBP increases electrolyte disturbances, patient discomfort, pre-operative dehydration, and post-operative ileus without reducing anastomotic leak or infectious complications. Oral antibiotics (neomycin 1g + metronidazole 1g at 13h, 14h, and 23h pre-operatively, or erythromycin + neomycin) may be used to reduce bowel flora, complementing the systemic IV antibiotic prophylaxis given at induction.",
+          "wrong": {
+            "A": "MBP is contraindicated in ERAS-compliant cystectomy practice. RCT evidence shows it worsens post-operative ileus and electrolyte disturbance.",
+            "C": "There is no distinction in the ERAS guidelines between ileal conduit and neobladder regarding MBP — neither requires it.",
+            "D": "Age is not an indication for MBP. Elderly patients are particularly susceptible to MBP-related electrolyte derangement, dehydration, and aspiration — making MBP potentially more harmful in this group."
+          },
+          "guideline": "EAU Guidelines on Perioperative Care in Urology: ERAS for Radical Cystectomy (Karl et al., 2022) — MBP: Grade A recommendation against",
+          "trial": "Güenaga KF et al. Cochrane review on mechanical bowel preparation before elective colorectal surgery. Cochrane Database 2011: no benefit of MBP; evidence generalises to urological bowel surgery — EAU ERAS adopted this evidence.",
+          "pearl": "ERAS for cystectomy: NO mechanical bowel preparation (Grade A against). Oral antibiotics may complement systemic prophylaxis. MBP causes dehydration, electrolyte disturbance, and worsens post-operative ileus — explicitly contraindicated in EAU ERAS 2022."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A5-Q16",
+        "stem": "Urethral recurrence after radical cystectomy with neobladder occurs in approximately what percentage of male patients, and what is the strongest risk factor?",
+        "options": {
+          "A": "1-2%; multifocal CIS at the time of cystectomy",
+          "B": "4-8%; prostatic urethral involvement (especially stromal invasion)",
+          "C": "15-20%; positive pelvic lymph nodes at cystectomy",
+          "D": "30-40%; prior BCG therapy for NMIBC"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Urethral recurrence after radical cystectomy in men occurs in approximately 4-8%, with the strongest risk factor being prostatic urethral involvement at the time of cystectomy — especially ductal or stromal prostatic invasion (not merely surface urothelial involvement of the prostatic urethra). Other risk factors include CIS at the bladder neck or trigone, multifocal CIS, and positive urethral margin at cystectomy. Annual urethral washings for cytology are recommended for surveillance in patients with orthotopic neobladder.",
+          "wrong": {
+            "A": "1-2% is the urethral recurrence rate in women — lower than in men due to the standard removal of the urethra in female anterior pelvic exenteration (women with neobladder retain only the distal urethra/sphincter).",
+            "C": "15-20% would make urethral recurrence one of the most common complications — this is far too high. pN+ at cystectomy is a risk factor for systemic recurrence, not specifically urethral recurrence.",
+            "D": "Prior BCG therapy is not a risk factor for urethral recurrence. BCG is associated with granulomatous inflammation of the prostatic urethra (BCG prostatitis) but not with increased malignant urethral recurrence risk."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3.10: Urethral recurrence surveillance",
+          "trial": "Stein JP et al. Indications for urethrectomy in patients with bladder cancer. J Urol 1995: urethral recurrence 4-8% in men; prostatic stromal invasion = strongest risk factor; periurethral CIS = additional risk.",
+          "pearl": "Urethral recurrence after cystectomy in men: 4-8%, strongest risk factor = prostatic urethral involvement (stromal > ductal > surface). Surveillance: annual urethral washings for cytology in neobladder patients. Confirmed recurrence: urethrectomy (can retain neobladder with CIC)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q17",
+        "stem": "A 65-year-old male with neobladder complains of difficulty voiding and incomplete emptying 4 years after radical cystectomy. Post-void residual ultrasound shows 350 mL. Urethral calibration confirms no stricture. What is the most appropriate management?",
+        "options": {
+          "A": "Radical urethrectomy — neobladder retention indicates cancer recurrence",
+          "B": "Clean intermittent self-catheterisation (CIC) of the neobladder via the urethra",
+          "C": "Alpha-blocker therapy (tamsulosin) to relax the smooth muscle",
+          "D": "Conversion to ileal conduit — neobladder has failed"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Chronic urinary retention requiring CIC is a recognised complication of orthotopic neobladder, occurring in 10-15% of men (and higher in women). The mechanism is gradual neobladder enlargement and increasing compliance, combined with loss of the voluntary detrusor reflex — patients must void by Valsalva/Credé manoeuvre. When post-void residual exceeds 100-150 mL chronically and voiding symptoms develop, CIC (4-6 times daily) is the standard management. Stricture must be excluded first (urethral calibration, as performed here). CIC is safe, effective, and preserves renal function.",
+          "wrong": {
+            "A": "Chronic retention with large PVR in a neobladder patient is a functional complication, not an indicator of cancer recurrence. Recurrence would present with haematuria, voiding symptoms, or positive cytology — not simply high PVR.",
+            "C": "Alpha-blockers relax the urethral smooth muscle sphincter but do not address the fundamental problem of neobladder overdistension and poor volitional voiding. They are used for benign prostatic hyperplasia, not neobladder hypercompliance.",
+            "D": "Conversion to conduit is a last resort for neobladder dysfunction. CIC is effective, minimally invasive, and the first-line management for neobladder retention. Conversion is considered only after CIC failure or patient refusal."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3.6: Orthotopic neobladder — functional outcomes and CIC",
+          "trial": "Hautmann RE et al. Neobladder — 20-year results. J Urol 2006: CIC required in 10-15% of men, 15-25% of women — first-line management for chronic retention.",
+          "pearl": "Chronic retention (PVR >150 mL) in orthotopic neobladder patients = CIC as first-line management. Exclude urethral stricture before attributing retention to neobladder hypercompliance. CIC 4-6x/day is effective and preferred over surgical conversion in compliant patients."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q18",
+        "stem": "A 63-year-old female with pT4a MIBC (trigone invasion of the vagina) undergoes anterior pelvic exenteration. What additional intraoperative quality step is uniquely important in female radical cystectomy?",
+        "options": {
+          "A": "Frozen section of the distal rectal wall to exclude rectal involvement",
+          "B": "Frozen section of the vaginal margin to confirm adequate margins",
+          "C": "Nerve-sparing dissection to preserve clitoral sensation",
+          "D": "Bilateral salpingo-oophorectomy is optional in postmenopausal women"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In female radical cystectomy for tumours involving the trigone or posterior wall, the vaginal margin must be assessed intraoperatively by frozen section. T4a disease involving the anterior vaginal wall requires adequate margin resection — a positive vaginal margin is a significant oncological risk factor. The vaginal cuff closure must be tension-free, and the vaginal margin is the anatomical boundary most at risk in female RC for posteriorly located or trigone-involving tumours. In orthotopic neobladder candidates, the anterior vaginal wall near the urethrovesical junction must be preserved — making the vaginal margin assessment even more critical to balance oncological clearance and functional outcome.",
+          "wrong": {
+            "A": "Frozen section of the rectal wall is relevant for T4b disease (rectal invasion) — this patient has T4a (vaginal invasion), not T4b. Rectal margin assessment is not the primary quality step here.",
+            "C": "Nerve-sparing in female RC aims to preserve the anterior vaginal wall innervation and pubourethral ligaments for neobladder continence — but this is not a frozen section-based quality step. It is a surgical technique consideration.",
+            "D": "Bilateral salpingo-oophorectomy is standard in female RC for muscle-invasive disease. While ovarian preservation can be considered in young premenopausal women with anterior tumours far from the trigone, this patient has trigone-involving T4a disease — oophorectomy is appropriate, not optional."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3.3: Surgical technique in female patients",
+          "trial": "Stenzl A et al. Female orthotopic bladder substitution. Eur Urol 2010: vaginal margin status is a critical quality step in female anterior pelvic exenteration — positive margins significantly worsen cancer-specific outcomes.",
+          "pearl": "Female radical cystectomy quality steps: (1) frozen section of urethral margin (for neobladder eligibility), (2) frozen section of vaginal margin (for oncological clearance), (3) consider ovarian preservation only in young premenopausal with anterior non-trigone tumours. Positive vaginal margins worsen CSS."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q19",
+        "stem": "What is the recommended deep venous thrombosis (DVT) prophylaxis duration after radical cystectomy for bladder cancer, according to EAU ERAS 2022?",
+        "options": {
+          "A": "24-48 hours post-operatively while in hospital",
+          "B": "7 days post-operatively",
+          "C": "4 weeks (28 days) post-discharge with low molecular weight heparin",
+          "D": "Indefinite anticoagulation with direct oral anticoagulants"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Radical cystectomy for pelvic malignancy carries a high risk of venous thromboembolism (VTE) — pelvic surgery + malignancy + prolonged operative time creates a Caprini risk score of ≥5. EAU ERAS 2022 recommends extended VTE prophylaxis with LMWH for 4 weeks (28 days) after discharge, consistent with NICE NG89 and ACCP guidelines for major cancer surgery. Early mobilisation (POD1) and compression stockings complement pharmacological prophylaxis. The incidence of DVT without extended prophylaxis is 5-8% after radical cystectomy.",
+          "wrong": {
+            "A": "In-hospital only prophylaxis (24-48h) is insufficient for the extended VTE risk after major pelvic cancer surgery. The highest risk period extends beyond hospital discharge.",
+            "B": "7 days of post-operative prophylaxis is adequate for low-to-moderate risk surgery but not for major pelvic cancer surgery. Extended prophylaxis (28 days) is specifically recommended for radical cystectomy.",
+            "D": "Indefinite anticoagulation with DOACs is for patients with recurrent VTE or permanent risk factors (e.g., antiphospholipid syndrome) — not the routine post-cystectomy VTE prevention strategy."
+          },
+          "guideline": "EAU Guidelines on Perioperative Care in Urology: ERAS for Radical Cystectomy (Karl et al., 2022) — VTE prophylaxis: 4 weeks post-discharge LMWH (Grade A)",
+          "trial": "NICE NG89 (2018): Venous thromboembolism in over 16s — 28-day extended LMWH prophylaxis recommended for all patients undergoing major abdominal/pelvic surgery for cancer.",
+          "pearl": "After radical cystectomy for bladder cancer: LMWH prophylaxis for 4 weeks (28 days) post-discharge. Grade A EAU ERAS recommendation. Major pelvic cancer surgery = highest Caprini VTE risk category. Also: early mobilisation POD1 + compression stockings intraoperatively and post-op."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q20",
+        "stem": "A 58-year-old male undergoes radical cystectomy with extended PLND. The surgical pathology reports: pT3b, pN2 (3 of 18 nodes positive), M0, negative surgical margins, lymphovascular invasion present. He received neoadjuvant ddMVAC × 4 cycles pre-operatively. What is the recommended post-operative surveillance imaging schedule per EAU 2024?",
+        "options": {
+          "A": "CT CAP every 3 months for 2 years, then every 6 months for 3 years, then annually",
+          "B": "CT CAP every 6 months for 5 years, then annually",
+          "C": "PET-CT every 3 months for 2 years, then CT CAP annually",
+          "D": "Ultrasound abdomen every 6 months; CT only if ultrasound abnormal"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Per EAU 2024, patients with high-risk pathological features at radical cystectomy (pT3-4, pN+, positive margins, LVI) should undergo CT chest/abdomen/pelvis every 3 months for the first 2 years (highest risk of relapse), then every 6 months until year 5, then annually thereafter. This patient has pT3b N2 with LVI — the highest relapse risk category. Standard surveillance is CT CAP at 3 months, then every 6 months; the more intensive 3-monthly schedule for pN+ disease reflects the high early relapse risk.",
+          "wrong": {
+            "B": "CT CAP every 6 months is the standard interval for intermediate-risk (pT2 N0) disease. For high-risk pN+ disease, 3-monthly imaging for the first 2 years is recommended to detect early, potentially resectable relapse.",
+            "C": "PET-CT provides better nodal staging sensitivity but is not recommended as routine surveillance imaging — cost, radiation, and limited additional benefit over CT in the surveillance setting argue against routine PET-CT.",
+            "D": "Ultrasound is inadequate for follow-up after radical cystectomy — it cannot adequately assess retroperitoneal nodes, lung, or liver metastases. CT CAP is the standard imaging modality for post-cystectomy surveillance."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.5: Follow-up after radical cystectomy",
+          "trial": "Soukup V et al. Follow-up after surgical treatment of bladder cancer — a systematic review. Eur Urol 2012: 3-monthly CT for pN+ disease in first 2 years captures 70% of relapses early enough for potential salvage therapy.",
+          "pearl": "Post-cystectomy surveillance for high-risk (pT3-4/pN+): CT CAP every 3 months × 2 years, then every 6 months × 3 years, then annually. Plus annual metabolic bloods (creatinine, electrolytes, B12) and urethral cytology washing for neobladder patients."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

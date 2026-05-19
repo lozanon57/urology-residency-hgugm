@@ -1,0 +1,651 @@
+{
+  "id": "B1",
+  "title": "Benign Prostatic Hyperplasia",
+  "subtitle": "Block B — LUTS/BPH: Pathophysiology, Diagnosis, and Medical Management",
+  "block": "B",
+  "block_name": "Functional Urology and Benign Disease",
+  "level": "R1-2",
+  "reading_time_min": 40,
+  "guidelines_version": "EAU Guidelines on Non-neurogenic Male LUTS 2024 · AUA/SUFU Benign Prostatic Hyperplasia Guidelines 2022",
+  "textbook_refs": [
+    "Campbell-Walsh-Wein Urology, 12th ed. (2021) — Chapters 143-147: BPH and Male LUTS",
+    "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024)",
+    "Roehrborn CG et al. CombAT trial: Dutasteride-tamsulosin combination for BPH. Eur Urol 2010",
+    "McConnell JD et al. MTOPS trial: Medical therapy of prostatic symptoms. NEJM 2003",
+    "Gilling PJ et al. LASER trial: Holmium laser enucleation vs TURP. J Urol 2000"
+  ],
+  "learning_objectives": [
+    "Distinguish storage (irritative) and voiding (obstructive) LUTS and apply the IPSS to classify severity",
+    "Describe the pathophysiology of BPH and the role of DHT, oestrogen, and alpha-adrenergic receptors in LUTS development",
+    "Outline the evidence-based medical treatment of LUTS/BPH: alpha-blockers, 5-ARIs, PDE5 inhibitors, antimuscarinics, and combination therapy (CombAT/MTOPS trials)",
+    "Identify absolute indications for surgical treatment of BPH including refractory urinary retention, recurrent UTI, renal impairment, and haematuria",
+    "Compare TURP with minimally invasive surgical therapies (HoLEP, laser vaporisation, Urolift, Rezum) using EAU 2024 evidence-based recommendations",
+    "Apply watchful waiting criteria for mild-moderate LUTS with low bother and no absolute surgical indications"
+  ],
+  "sections": [
+    {
+      "id": "B1-S1",
+      "title": "Pathophysiology of BPH and LUTS",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Benign prostatic hyperplasia (BPH) is the most common benign tumour in males and the most prevalent cause of lower urinary tract symptoms (LUTS) in men over 50 years. Histologically, BPH is defined as a non-malignant enlargement of the transition zone of the prostate, characterised by proliferation of smooth muscle, stromal fibrous tissue, and glandular epithelium. The prevalence of histological BPH rises dramatically with age: present in 20% of men at age 40, 50% at age 60, and 90% at age 85.\n\nThe pathogenesis of BPH involves an imbalance between proliferation and apoptosis of prostatic cells, driven by androgenic and oestrogenic hormonal changes with ageing. Dihydrotestosterone (DHT), formed from testosterone by 5-alpha-reductase (5-AR) type 2 in the prostate, is the primary androgen driving prostatic growth — DHT binds to androgen receptors with 5-fold greater affinity than testosterone. 5-alpha-reductase inhibitors (5-ARIs) block DHT production and reduce prostate volume by 20-30% over 6-12 months.\n\nLUTS in men are broadly classified as: storage symptoms (urgency, frequency, nocturia, urgency incontinence — mediated by detrusor overactivity); voiding symptoms (weak stream, hesitancy, straining, incomplete emptying — mediated by bladder outlet obstruction); and post-micturition symptoms (post-void dribble, sensation of incomplete emptying). The dynamic component of BPH (smooth muscle tone at the bladder neck and proximal urethra) is mediated by alpha-1 adrenoceptors (predominantly alpha-1A subtype in the prostate) — alpha-1 blockers reduce this component within days, producing rapid symptomatic relief. The static component (prostatic volume) is addressed by 5-ARIs over months."
+        },
+        {
+          "type": "table",
+          "title": "LUTS Classification and Symptom Characteristics",
+          "headers": ["Category", "Symptoms", "Mechanism", "Primary Treatment Target"],
+          "rows": [
+            ["Storage (irritative)", "Urgency, frequency (>8 voids/day), nocturia (≥2/night), urge incontinence", "Detrusor overactivity; bladder hypersensitivity", "Antimuscarinics; beta-3 agonists; behavioural therapy"],
+            ["Voiding (obstructive)", "Weak stream, hesitancy, straining, intermittency, incomplete emptying", "Bladder outlet obstruction (BOO); poor detrusor contractility", "Alpha-blockers; 5-ARIs; TURP/HoLEP"],
+            ["Post-micturition", "Post-void dribble, feeling of incomplete emptying", "Residual urine in bulbar urethra; BOO", "Urethral milking; pelvic floor; treatment of BOO"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — DHT and 5-Alpha-Reductase",
+          "content": "DHT is formed from testosterone by 5-alpha-reductase type 2 (predominant in prostate) and type 1 (predominant in skin and liver). Finasteride inhibits only type 2; dutasteride inhibits both types 1 and 2 (dual inhibitor), achieving 90% vs 70% DHT suppression respectively. Both reduce prostate volume by 20-30% over 6-12 months but have no effect on the dynamic (smooth muscle) component of obstruction — thus alpha-blockers provide faster symptomatic relief."
+        }
+      ]
+    },
+    {
+      "id": "B1-S2",
+      "title": "Assessment — IPSS, Flowmetry, and Bladder Diary",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Clinical assessment of male LUTS begins with a structured history including symptom characterisation, IPSS score, voiding diary (frequency-volume chart), and physical examination including DRE. The International Prostate Symptom Score (IPSS) is a validated 7-item self-administered questionnaire (plus 1 quality-of-life item) scoring urinary frequency, nocturia, weak stream, hesitancy, incomplete emptying, urgency, and intermittency. IPSS scoring: 0-7 = mild, 8-19 = moderate, 20-35 = severe. IPSS is the primary outcome measure for LUTS trials and treatment response assessment.\n\nObjective assessments include: free uroflowmetry (Qmax — maximum flow rate; normal ≥15 mL/s; significant BOO if <10 mL/s; voided volume must exceed 150 mL for valid measurement), post-void residual (PVR — measured by ultrasound; >300 mL indicates significant urinary retention risk), and urinalysis + urine dipstick (to exclude infection and haematuria). PSA measurement is recommended in all men with LUTS who would benefit from PSA-guided treatment decisions (prostate volume estimation, 5-ARI therapy efficacy prediction, prostate cancer detection).\n\nFrequency-volume chart (bladder diary — 3 days minimum): distinguishes global polyuria (total 24-hour urine volume >3 L), nocturnal polyuria (nocturnal urine production >33% of total 24-hour volume), and pure storage LUTS (normal volumes, frequent voids). Nocturnal polyuria is the most common cause of nocturia in older men (65%) and does not benefit from alpha-blockers — it requires desmopressin, fluid management, or leg elevation if there is fluid redistribution. This distinction is critical for appropriate treatment selection."
+        },
+        {
+          "type": "table",
+          "title": "IPSS Severity Classification and Management Threshold",
+          "headers": ["IPSS Score", "Classification", "EAU 2024 Recommendation", "QoL Score (0-6)"],
+          "rows": [
+            ["0-7", "Mild", "Watchful waiting + lifestyle advice", "QoL 0-2 = delighted/pleased/mostly satisfied"],
+            ["8-19", "Moderate", "Medical therapy if bother score ≥3 or lifestyle impact", "QoL 3 = mixed feelings"],
+            ["20-35", "Severe", "Medical therapy or surgical discussion; urgent if absolute indications", "QoL 4-6 = mostly dissatisfied/unhappy/terrible"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Nocturia Treated with Alpha-Blockers Without Bladder Diary",
+          "content": "Nocturia is the LUTS symptom most impacting quality of life in older men, but its aetiology is multifactorial. Alpha-blockers (for BOO) are effective only when nocturia is caused by BOO. When nocturnal polyuria is the predominant cause (urine production >33% total volume at night — identifiable only with a bladder diary), alpha-blockers provide minimal benefit. Always obtain a 3-day frequency-volume chart before attributing nocturia exclusively to BOO and initiating medical therapy."
+        }
+      ]
+    },
+    {
+      "id": "B1-S3",
+      "title": "Medical Management — Alpha-Blockers and 5-ARIs",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Alpha-1 adrenoceptor antagonists (alpha-blockers) are the first-line pharmacological treatment for moderate-severe LUTS due to BPH. They act by blocking alpha-1A and alpha-1D receptors in the prostate smooth muscle, bladder neck, and urethra, reducing the dynamic component of BOO. Alpha-blockers improve IPSS by 30-40% and Qmax by 20-25% within days to weeks. The available agents are: alfuzosin 10 mg OD (non-selective, uroselective dosing), tamsulosin 0.4 mg OD (most selective for alpha-1A in prostate; low cardiovascular side effects), silodosin 8 mg OD (highest alpha-1A selectivity; retrograde ejaculation in 28%), and doxazosin/terazosin (non-uroselective; effective but more postural hypotension). All alpha-blockers have equivalent efficacy; selection based on tolerability and cardiovascular profile.\n\n5-alpha-reductase inhibitors (5-ARIs) are effective for men with LUTS and significantly enlarged prostates (>40 mL or PSA >1.5 ng/mL as surrogate for large gland). Finasteride (5 mg OD, type 2 inhibitor) and dutasteride (0.5 mg OD, dual inhibitor) reduce prostate volume by 20-30% over 6-12 months, improve IPSS by 15-20%, and — critically — reduce the risk of clinical progression (acute urinary retention and need for BPH surgery) by 50% over 4 years (PLESS trial for finasteride; ARIA3001/ARIA3002 for dutasteride). 5-ARIs also reduce PSA by approximately 50% at 6-12 months — PSA doubling is required for cancer screening interpretation in patients on 5-ARIs.\n\nThe CombAT trial (Roehrborn et al., Eur Urol 2010) randomised 4,844 men with prostate volume >30 mL, PSA 1.5-10 ng/mL, and IPSS ≥12 to dutasteride, tamsulosin, or combination therapy. After 4 years: combination therapy demonstrated superior symptomatic improvement (IPSS -6.3) vs dutasteride (-4.9) or tamsulosin alone (-4.3), and reduced acute urinary retention risk (AUR) by 66% vs monotherapy. The MTOPS trial (McConnell et al., NEJM 2003) confirmed combination alpha-blocker + finasteride superiority for preventing clinical progression in larger gland disease. Combination therapy is recommended for men with large prostates (>40 mL), high PSA, and moderate-severe LUTS at risk of progression."
+        },
+        {
+          "type": "table",
+          "title": "Alpha-Blockers for LUTS/BPH — Comparison",
+          "headers": ["Drug", "Selectivity", "Dose", "Key Side Effects", "Special Considerations"],
+          "rows": [
+            ["Tamsulosin", "Alpha-1A selective (uroselective)", "0.4 mg OD (fasting)", "Retrograde ejaculation (8-18%); dizziness", "Avoid before cataract surgery (IFIS risk); most used"],
+            ["Silodosin", "Highest alpha-1A selectivity", "8 mg OD with food", "Retrograde ejaculation (28%); lowest BP effect", "Preferred if cardiovascular risk"],
+            ["Alfuzosin", "Non-selective (uroselective formulation)", "10 mg OD after meal", "Less ejaculatory dysfunction; mild dizziness", "SR formulation well tolerated"],
+            ["Doxazosin", "Non-selective", "2-8 mg OD", "Postural hypotension (10%); dizziness", "Also treats hypertension; titrate slowly"],
+            ["Naftopidil*", "Alpha-1D selective", "25-75 mg OD", "Minimal ejaculatory dysfunction", "Available in Japan/Asia; storage LUTS benefit"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Intraoperative Floppy Iris Syndrome (IFIS)",
+          "content": "Tamsulosin (and other alpha-1A blockers) cause intraoperative floppy iris syndrome (IFIS) in patients undergoing cataract surgery — the iris dilator muscle loses tone, the iris billows and prolapses toward phacoemulsification instruments. IFIS can cause iris trauma, posterior capsule rupture, and vision loss. The ophthalmologist MUST be informed before cataract surgery if the patient has ever taken any alpha-blocker (even if discontinued years ago — IFIS persists). There is no safe window after stopping tamsulosin before cataract surgery."
+        }
+      ]
+    },
+    {
+      "id": "B1-S4",
+      "title": "PDE5 Inhibitors, Antimuscarinics, and Beta-3 Agonists",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Tadalafil 5 mg OD (PDE5 inhibitor) is approved by both FDA and EMA for male LUTS with or without erectile dysfunction. Its mechanism of action in LUTS involves smooth muscle relaxation in the prostate, urethra, and detrusor via cGMP accumulation — reducing both the dynamic component of BOO and detrusor overactivity. Meta-analysis shows tadalafil improves IPSS by 5-6 points (similar to alpha-blockers), does not significantly improve Qmax (unlike alpha-blockers), and concomitantly improves erectile function (International Index of Erectile Function +5 points). EAU 2024 recommends tadalafil 5 mg OD as a first-line option for men with LUTS + ED, or as an alternative first-line for LUTS alone.\n\nAntimuscarinics (solifenacin, tolterodine, darifenacin, trospium) and beta-3 agonists (mirabegron) target storage LUTS (urgency, frequency, urgency incontinence) by inhibiting detrusor overactivity. They are not effective for voiding symptoms. EAU 2024 recommends adding an antimuscarinic or mirabegron to an alpha-blocker when storage symptoms predominate despite initial alpha-blocker therapy. The TIMES trial (Chapple et al., Eur Urol 2009) demonstrated safety and efficacy of solifenacin 5-10 mg + tamsulosin vs either drug alone for men with combined storage and voiding LUTS — the combination was superior. Key safety consideration: antimuscarinics are traditionally avoided with PVR >200 mL (acute urinary retention risk from detrusor inhibition), but the TIMES-CS trial and subsequent data suggest safety at PVR <300 mL with monitoring.\n\nBeta-3 agonists (mirabegron 50 mg OD) relax the detrusor during the storage phase by stimulating beta-3 adrenoceptors, increasing bladder capacity without the anticholinergic side effects (dry mouth, cognitive impairment, constipation, urinary retention risk) of antimuscarinics. Mirabegron is the preferred agent when anticholinergic side effects are a concern (elderly patients, cognitive impairment, glaucoma). EAU 2024 recommends either mirabegron or antimuscarinics for storage LUTS; mirabegron has a favourable side effect profile but hypertension is a risk in uncontrolled hypertensive patients."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — 5-ARI and PSA Interpretation",
+          "content": "5-alpha-reductase inhibitors (finasteride or dutasteride) reduce serum PSA by approximately 50% after 6-12 months of therapy (and by 25% after 3 months). For PSA-based prostate cancer screening in patients on 5-ARIs, the measured PSA must be doubled to obtain the 'true' equivalent PSA. Failure of PSA to suppress by 50% on 5-ARI, or any PSA rise on 5-ARI, warrants prostate biopsy — this pattern suggests PSA-secreting tumour not responsive to DHT suppression."
+        }
+      ]
+    },
+    {
+      "id": "B1-S5",
+      "title": "Surgical Treatment — TURP and Laser Enucleation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Transurethral resection of the prostate (TURP) has been the 'gold standard' surgical treatment for BPH for over 60 years and remains the most performed operation for male LUTS globally. TURP uses a monopolar or bipolar electrosurgical resectoscope to remove prostatic tissue piecemeal from the transition zone. Bipolar TURP (using saline as irrigation rather than glycine/water) has significantly reduced TUR syndrome (dilutional hyponatraemia from absorption of hypotonic irrigant) — an important safety advancement. Outcomes: IPSS improves by 70-75%, Qmax increases by 125%, and the durability is excellent (10-15% re-operation at 10 years).\n\nHolmium laser enucleation of the prostate (HoLEP) has emerged as the procedure of choice for large glands and is increasingly considered the standard at high-volume centres for all gland sizes. HoLEP uses a holmium:YAG laser to precisely enucleate the entire transition zone along the true surgical capsule, then tissue is morcellated in the bladder and extracted. The LASER trial (Gilling et al., J Urol 2000) and subsequent systematic reviews demonstrate equivalent functional outcomes to TURP for small-moderate glands with lower transfusion rates (1-2% vs 5-7%), shorter catheter time, shorter LOS, and equivalent long-term durability. For large glands (>80-100 mL), HoLEP is superior to TURP with lower reoperation rates and can treat glands of any size (no upper volume limit — unlike TURP, which has a safe limit of ~80-100 mL before open prostatectomy is considered).\n\nGreenlight laser vaporisation (photoselective vaporisation of the prostate, PVP) uses a 532 nm KTP/LBO laser to vaporise prostatic tissue. It is particularly valuable for patients on anticoagulation or antiplatelet therapy due to excellent haemostasis. Functional outcomes are equivalent to TURP at 1-2 years but durability may be slightly inferior at 5+ years. The GOLIATH trial (Thomas et al., Eur Urol 2016) confirmed non-inferiority vs TURP for IPSS and Qmax at 12 months with significantly reduced transfusion and catheterisation time."
+        },
+        {
+          "type": "table",
+          "title": "Surgical Options for BPH by Prostate Volume (EAU 2024)",
+          "headers": ["Procedure", "Optimal Gland Size", "IPSS Improvement", "Key Advantage", "Limitation"],
+          "rows": [
+            ["Bipolar TURP", "<80-100 mL", "70-75%", "Gold standard evidence; widely available", "TUR syndrome (bipolar much reduced); 5-7% transfusion"],
+            ["HoLEP", "Any size (no upper limit)", "70-75%", "Size-independent; low transfusion; durable", "Steep learning curve; requires morcellator"],
+            ["GreenLight PVP", "<80 mL (optimal)", "65-70%", "Excellent haemostasis; safe with anticoagulation", "No tissue specimen; slightly inferior long-term durability"],
+            ["Thulium laser enucleation (ThuLEP)", "Any size", "70-75%", "Equivalent to HoLEP; continuous wave laser", "Less evidence than HoLEP; newer technology"],
+            ["Simple prostatectomy (open/robotic)", ">80-100 mL", "70-75%", "Definitive for very large glands (>150 mL)", "Most invasive; highest morbidity"],
+            ["Urolift (UroLift)", "30-80 mL; no median lobe", "50-55%", "Preserves ejaculation; day-case; immediate results", "Inferior IPSS/Qmax vs resective; reversal possible"],
+            ["Rezum water vapour", "30-80 mL; no large median lobe", "50-55%", "Preserves ejaculation; office-based", "3-6 month catheter needed; inferior vs resective"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B1-S6",
+      "title": "Minimally Invasive Surgical Therapies and Patient Selection",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Minimally invasive surgical therapies (MISTs) have expanded the treatment landscape for BPH, offering alternatives to TURP for patients who prioritise ejaculatory function preservation, wish to avoid general/spinal anaesthesia, or who cannot tolerate conventional surgery. EAU 2024 recognises Urolift (prostatic urethral lift), Rezum (water vapour therapy), and iTind (temporary implantable nitinol device) as evidence-based options for selected patients with LUTS/BPH, with the caveat that their functional outcomes are inferior to TURP/HoLEP.\n\nUrolift places permanent stainless steel implants (2-6 per procedure, depending on lateral lobe size) via a cystoscope under local or general anaesthesia to retract the lateral lobes and open the prostatic urethra. The BPH6 randomised trial demonstrated IPSS improvement of 51% vs 36% for medical therapy at 2 years, with complete preservation of ejaculatory and erectile function. Urolift is NOT suitable for patients with a prominent median lobe (median lobe enlargement >1 cm) — the device cannot treat median lobe obstruction. Prostate volume 30-80 mL is the optimal range.\n\nRezum uses steam (water vapour at 103°C) injected into the transition zone via a transurethral needle to cause cell death by convective energy. Clinical improvement occurs over 3-6 months as the necrotic tissue is reabsorbed, with peak results by 6 months. The WATER trial (McVary et al., J Urol 2016) demonstrated IPSS improvement of 51% vs 11% (sham) at 12 months with ejaculation preservation. Rezum requires a urethral catheter for 3-7 days post-procedure. Both Urolift and Rezum are suitable for sexually active men who wish to preserve ejaculation, but this comes at the cost of inferior IPSS and Qmax outcomes compared to resective procedures."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Ejaculation Preservation in Young BPH Patients",
+          "content": "Retrograde ejaculation is a significant concern for sexually active men undergoing TURP (incidence 65-90%), HoLEP (65-80%), or GreenLight PVP (30-40%). Urolift and Rezum preserve antegrade ejaculation in essentially all patients. For men of reproductive age or those prioritising ejaculatory function, EAU 2024 recommends discussing Urolift or Rezum (if anatomically suitable: prostate 30-80 mL, no prominent median lobe) as ejaculation-preserving alternatives to resective surgery, accepting the trade-off of inferior LUTS improvement."
+        }
+      ]
+    },
+    {
+      "id": "B1-S7",
+      "title": "Absolute Indications for Surgery and Acute Urinary Retention",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Absolute indications for surgical treatment of BPH include: (1) refractory acute urinary retention (AUR) — defined as failed trial without catheter (TWOC) after at least one attempt with alpha-blocker loading; (2) recurrent AUR (≥2 episodes); (3) BPH-related renal impairment (hydronephrosis/obstructive uropathy from prostatic obstruction); (4) recurrent urinary tract infections attributable to BPH and PVR; (5) recurrent haematuria from BPH unresponsive to 5-ARI therapy; and (6) bladder stones secondary to BOO from BPH. In these absolute indications, surgical treatment is mandatory regardless of patient preference — medical therapy alone is insufficient to address these complications.\n\nAcute urinary retention (AUR) is managed initially with urethral catheterisation (or suprapubic catheter if urethral catheterisation fails). A trial without catheter (TWOC) after 48-72 hours with alpha-blocker loading (tamsulosin 0.4 mg OD for 2-3 days before TWOC) is successful in 60-70% of first AUR episodes. Second AUR or failed TWOC mandates definitive surgical treatment. The ALFAUR trial (McNeill et al., BJU Int 2004) demonstrated that alfuzosin starting at catheter insertion significantly improves TWOC success compared to placebo. If surgery is planned, the catheter can remain in situ until the TURP/HoLEP date.\n\nPost-obstructive diuresis is a critical complication after catheterisation for chronic high-volume urinary retention (bladder volumes >1000 mL, bilateral hydronephrosis, elevated creatinine). It results from impaired urea and salt reabsorption in chronically stretched tubules, combined with ANP-mediated diuresis. Management: careful fluid balance monitoring; only replace 50% of urine output hourly (avoid over-replacement driving polyuria); IV fluid if oral intake insufficient; monitor electrolytes; gradually decompress over 24-48 hours rather than immediate complete drainage."
+        },
+        {
+          "type": "table",
+          "title": "Absolute Surgical Indications for BPH (EAU 2024)",
+          "headers": ["Indication", "Definition", "Rationale for Surgery"],
+          "rows": [
+            ["Refractory AUR", "Failed ≥1 TWOC with alpha-blocker", "Irreversible decompensation; medical therapy insufficient"],
+            ["Recurrent AUR", "≥2 episodes of AUR", "High risk of further retention; progressive decompensation"],
+            ["Obstructive renal impairment", "Hydronephrosis/rising creatinine from BPH-BOO", "Prevent permanent renal damage; irreversible if untreated"],
+            ["Recurrent UTI", "≥2 UTIs/year attributable to PVR from BPH", "PVR creates bacterial reservoir; antibiotics cannot cure obstruction"],
+            ["Recurrent haematuria", "Persistent BPH-related haematuria after 5-ARI × 6 months", "5-ARIs reduce glandular vascularity; surgery eliminates source"],
+            ["Bladder stones from BOO", "Calculi forming in a poorly draining bladder from BPH", "Stones indicate chronic stasis; treat obstruction to prevent recurrence"]
+          ]
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of BPH pathophysiology, assessment tools, medical therapy, and surgical indications with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "B1-Q1",
+        "stem": "A 65-year-old male presents with LUTS. IPSS score is 22 (severe). DRE shows a 60 mL smoothly enlarged prostate. PSA is 3.2 ng/mL. Qmax on uroflowmetry is 8 mL/s with a voided volume of 310 mL. PVR is 180 mL. He has no prior prostate cancer workup. What is the most appropriate initial medical management?",
+        "options": {
+          "A": "Tamsulosin 0.4 mg OD alone — first-line for all LUTS",
+          "B": "Combination tamsulosin 0.4 mg + dutasteride 0.5 mg OD — large gland at risk of progression",
+          "C": "Finasteride 5 mg OD alone — PSA >1.5 ng/mL indicates large gland",
+          "D": "Immediate referral for TURP — Qmax <10 mL/s requires surgery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has large-volume BPH (60 mL prostate), severe LUTS (IPSS 22), PSA >1.5 ng/mL (surrogate for prostate volume >40 mL), and significantly reduced Qmax (8 mL/s). He meets all criteria for combination therapy per the CombAT trial: prostate volume >30 mL, PSA 1.5-10 ng/mL, IPSS ≥12. The CombAT trial (Roehrborn et al., Eur Urol 2010) demonstrated that combination dutasteride + tamsulosin is superior to either monotherapy for IPSS improvement and prevention of AUR over 4 years. Combination therapy is the EAU 2024 recommendation for men with moderate-severe LUTS, large prostates, and high risk of progression.",
+          "wrong": {
+            "A": "Tamsulosin alone is appropriate for small glands or low AUR risk. With a 60 mL prostate, tamsulosin monotherapy does not address the static component of obstruction and does not reduce AUR risk as effectively as 5-ARI combination.",
+            "C": "Finasteride monotherapy without an alpha-blocker is slower to produce symptomatic relief (takes 6-12 months for maximum effect) and does not address the dynamic component of obstruction (alpha-blockers act within days). Monotherapy with 5-ARI alone is generally insufficient for severe LUTS in the acute management phase.",
+            "D": "TURP is not the initial management for uncomplicated LUTS — medical therapy is first-line unless absolute surgical indications are present. Qmax <10 mL/s alone is not an absolute surgical indication."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.4: Combination medical therapy for large gland LUTS",
+          "trial": "Roehrborn CG et al. CombAT trial: Dutasteride-tamsulosin combination vs monotherapy in men with LUTS and enlarged prostate. Eur Urol 2010: combination superior IPSS (-6.3 vs -4.9 dutasteride, -4.3 tamsulosin) and 66% AUR risk reduction.",
+          "pearl": "Combination alpha-blocker + 5-ARI (CombAT/MTOPS criteria): prostate >30 mL, PSA >1.5 ng/mL, IPSS ≥12. Combination superior for symptom improvement AND AUR/surgery risk reduction in large gland BPH. 5-ARI reduces PSA by 50% — always double PSA for screening interpretation in patients on 5-ARIs."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q2",
+        "stem": "A 72-year-old male on warfarin for atrial fibrillation has severe LUTS (IPSS 24) and a 70 mL prostate. He has failed maximum medical therapy (combination alpha-blocker + 5-ARI × 18 months). His haematocrit is 38%. He is referred for surgical treatment. Which surgical procedure is most appropriate?",
+        "options": {
+          "A": "Monopolar TURP — gold standard regardless of anticoagulation status",
+          "B": "GreenLight laser vaporisation (PVP) — superior haemostasis for anticoagulated patients",
+          "C": "Urolift — avoids surgical trauma and bleeding risk",
+          "D": "Suprapubic simple prostatectomy — most effective for large glands"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "GreenLight laser vaporisation (photoselective vaporisation of the prostate, PVP) uses the 532 nm wavelength, which is selectively absorbed by oxyhaemoglobin, providing excellent coagulative haemostasis while vaporising prostatic tissue. EAU 2024 recommends GreenLight PVP specifically for patients on anticoagulation or antiplatelet therapy who cannot safely stop their anticoagulant (warfarin cannot be bridged easily in AF). Multiple prospective studies confirm safety of GreenLight PVP without stopping warfarin or heparin. The GOLIATH trial confirmed equivalent LUTS outcomes to TURP.",
+          "wrong": {
+            "A": "Monopolar TURP with a patient on warfarin has unacceptably high bleeding risk — it requires stopping anticoagulation, which poses AF-related thromboembolic risk. Monopolar TURP is also associated with 5-7% transfusion rate even without anticoagulation.",
+            "C": "Urolift provides inferior IPSS and Qmax outcomes compared to resective procedures and is not recommended for 70 mL glands (optimal range 30-80 mL, but the clinical impact at this size may be limited) or patients who have failed medical therapy requiring definitive resection.",
+            "D": "Suprapubic simple prostatectomy is highly effective for large glands (>80-100 mL) but carries the highest surgical morbidity and blood loss of all approaches — particularly problematic for an anticoagulated patient."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.5.4: GreenLight PVP — indication in anticoagulated patients",
+          "trial": "Thomas JA et al. GOLIATH trial: GreenLight PVP vs monopolar TURP. Eur Urol 2016: equivalent IPSS and Qmax outcomes; PVP superior haemostasis — preferred for anticoagulated patients.",
+          "pearl": "GreenLight laser (PVP) is the procedure of choice for BPH in anticoagulated/antiplatelet patients who cannot stop their therapy. The 532 nm wavelength selectively absorbed by oxyhaemoglobin provides haemostatic vaporisation — can be performed without stopping warfarin. GOLIATH trial: non-inferior to TURP at 12 months."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q3",
+        "stem": "The MTOPS trial (McConnell et al., NEJM 2003) evaluated combination finasteride + doxazosin vs monotherapy for men with LUTS/BPH. What was the primary finding regarding clinical progression?",
+        "options": {
+          "A": "Doxazosin alone reduced progression risk by 67% — superior to combination",
+          "B": "Finasteride alone was equivalent to combination therapy for preventing AUR",
+          "C": "Combination therapy reduced the risk of clinical progression by 67% vs placebo, superior to either monotherapy",
+          "D": "Neither monotherapy nor combination therapy reduced the risk of requiring BPH surgery"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The MTOPS trial randomised 3,047 men to doxazosin, finasteride, combination therapy, or placebo over 5.5 years. The primary endpoint was clinical progression (AUR, urinary incontinence, renal insufficiency, recurrent UTI, or need for surgery). Combination therapy reduced clinical progression by 67% vs placebo (HR 0.33), finasteride by 34% (HR 0.66), and doxazosin by 39% (HR 0.61). Importantly, combination therapy was the only arm to significantly reduce the risk of AUR and need for invasive therapy, confirming that 5-ARI is required for progression prevention and alpha-blocker alone does not prevent long-term AUR risk.",
+          "wrong": {
+            "A": "Doxazosin alone reduced progression by 39% — not 67%. The 67% figure applies to combination therapy.",
+            "B": "Finasteride alone reduced progression by 34% and specifically reduced AUR and surgery risk. But it was NOT equivalent to combination therapy for AUR prevention — combination was superior for all endpoints.",
+            "D": "Both combination therapy and finasteride alone significantly reduced the need for invasive surgery (TURP) compared to placebo and doxazosin. This is a key MTOPS finding — 5-ARI is essential for long-term BPH progression prevention."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.4.3: Combination therapy evidence — MTOPS trial",
+          "trial": "McConnell JD et al. MTOPS trial: Medical Therapy of Prostatic Symptoms — combination finasteride + doxazosin vs monotherapy. NEJM 2003: combination therapy reduces clinical progression by 67% vs placebo; superior to either monotherapy.",
+          "pearl": "MTOPS trial key findings: (1) combination alpha-blocker + 5-ARI reduces BPH progression risk by 67% vs placebo; (2) alpha-blocker alone does NOT prevent AUR or need for surgery; (3) 5-ARI is essential for long-term progression prevention. Combination therapy is the standard for large gland BPH at risk of progression."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q4",
+        "stem": "A 68-year-old male on tamsulosin 0.4 mg OD for LUTS develops urgency, frequency, and urgency incontinence despite adequate voiding symptom control. Uroflowmetry shows Qmax 16 mL/s; PVR 45 mL. Bladder diary shows 14 voids in 24 hours with average voided volume of 180 mL. What is the next appropriate step?",
+        "options": {
+          "A": "Increase tamsulosin to 0.8 mg OD — insufficient alpha-blockade",
+          "B": "Stop tamsulosin and substitute finasteride — storage symptoms suggest 5-ARI deficiency",
+          "C": "Add mirabegron 50 mg OD or an antimuscarinic to tamsulosin — storage LUTS unresponsive to alpha-blocker",
+          "D": "Refer for urodynamics before any treatment change — overactive bladder unconfirmed"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This patient's voiding symptoms are well-controlled (Qmax 16, PVR 45 mL, adequate bladder emptying) but storage symptoms (urgency, frequency ×14/day, urgency incontinence) persist. These residual storage symptoms indicate overactive bladder (OAB) component not addressed by alpha-blocker therapy. EAU 2024 recommends adding a beta-3 agonist (mirabegron) or antimuscarinic to the alpha-blocker when storage symptoms predominate despite adequate voiding symptom control. With PVR <200 mL, antimuscarinics are safe. Mirabegron is preferred in elderly patients due to favourable anticholinergic safety profile.",
+          "wrong": {
+            "A": "Tamsulosin does not have a licensed 0.8 mg dose — the standard dose is 0.4 mg OD. Increasing alpha-blockade does not address storage symptoms (detrusor overactivity).",
+            "B": "Finasteride addresses the static component of obstruction (prostate volume) — it has no role in treating storage LUTS or overactive bladder. Stopping tamsulosin would worsen voiding symptoms.",
+            "D": "Urodynamics is not required before initiating medical therapy for storage LUTS in an otherwise well-characterised patient. EAU 2024 reserves urodynamics for diagnostic uncertainty, treatment failure, or pre-surgical assessment — not before adding beta-3 agonist/antimuscarinic."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.4.4: Combination alpha-blocker + antimuscarinic/mirabegron for mixed LUTS",
+          "trial": "Chapple CR et al. TIMES study: Solifenacin + tamsulosin vs monotherapy in men with LUTS including OAB. Eur Urol 2009: combination superior to monotherapy for storage and voiding symptoms with adequate safety (PVR <200 mL).",
+          "pearl": "Mixed LUTS (voiding + storage): add antimuscarinic or mirabegron to alpha-blocker when storage symptoms persist despite adequate voiding symptom control. Safety threshold: PVR <200-300 mL. Mirabegron preferred in elderly (no anticholinergic cognitive effects, constipation, or increased urinary retention risk vs antimuscarinics)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q5",
+        "stem": "A 58-year-old male undergoes an elective cataract extraction 3 months after stopping tamsulosin. Intraoperatively, the ophthalmologist notes iris billowing and prolapse toward the phacoemulsification probe. The pupil constricts despite maximal mydriasis. What syndrome is occurring and what was the preventable risk factor?",
+        "options": {
+          "A": "Posterior capsule rupture from surgical error — unrelated to medication history",
+          "B": "Intraoperative floppy iris syndrome (IFIS) from prior tamsulosin use — even after stopping",
+          "C": "Acute angle-closure glaucoma triggered by mydriatic drops",
+          "D": "Zonular laxity from diabetes mellitus — unrelated to alpha-blockers"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Intraoperative floppy iris syndrome (IFIS) is caused by alpha-1A receptor blockade in the iris dilator smooth muscle. Even after stopping tamsulosin (or other alpha-1 blockers), the IFIS risk persists because alpha-1A receptor blockade causes permanent pharmacodynamic changes to the iris dilator muscle — the receptors do not recover to normal function even years after drug discontinuation. There is NO safe interval after stopping tamsulosin before cataract surgery. The ophthalmologist must be informed of any prior alpha-blocker use to allow IFIS-specific surgical preparation (smaller incisions, iris hooks, viscoelastic support).",
+          "wrong": {
+            "A": "The iris behaviour described (billowing, prolapse, paradoxical miosis despite mydriatics) is pathognomonic of IFIS — not a technical error.",
+            "C": "Acute angle-closure glaucoma presents with ocular pain, corneal oedema, and IOP elevation — not iris prolapse toward phacoemulsification. Mydriatic drops can precipitate angle-closure in predisposed eyes but do not cause iris billowing.",
+            "D": "Diabetes causes lens changes and posterior capsule brittleness — not the iris billowing and prolapse pattern of IFIS."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.3.2: Alpha-blocker side effects — IFIS perioperative consideration",
+          "trial": "Chang DF et al. Prospective multicenter evaluation of cataract surgery in patients taking tamsulosin. Ophthalmology 2007: IFIS occurs even years after tamsulosin discontinuation — no safe withdrawal period exists.",
+          "pearl": "IFIS from alpha-1 blockers (especially tamsulosin) persists indefinitely — there is NO safe period after stopping the drug before cataract surgery. Always inform ophthalmologist of any prior alpha-1 blocker use. IFIS complicates phacoemulsification and increases risk of iris trauma, zonular dialysis, and posterior capsule rupture."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q6",
+        "stem": "An 80-year-old male is found to have bilateral hydronephrosis and serum creatinine of 4.2 mg/dL (baseline 1.1 mg/dL). Ultrasound shows a 120 mL prostate, no renal masses. Bladder is palpable above the pubis. PVR is 1800 mL. What is the most urgent initial intervention?",
+        "options": {
+          "A": "Initiate alpha-blocker and 5-ARI combination therapy — address BPH medically first",
+          "B": "Immediate urethral catheterisation with careful post-obstructive diuresis management",
+          "C": "Emergency TURP — definitive treatment for obstructive renal failure",
+          "D": "Refer to nephrology for haemodialysis — creatinine >4 mg/dL requires dialysis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has obstructive uropathy (bilateral hydronephrosis) from chronic high-volume urinary retention (PVR 1800 mL) causing acute-on-chronic renal impairment (creatinine 4.2 vs baseline 1.1 mg/dL). The most urgent intervention is urethral catheterisation to relieve the obstruction immediately. Post-obstructive diuresis must be anticipated and managed carefully — with PVR >1000 mL and bilateral hydronephrosis, massive post-obstructive diuresis (urine output >200-400 mL/h) may occur and cause electrolyte disturbances and hypovolaemia. Replace only 50% of urinary output per hour; monitor electrolytes 4-6 hourly.",
+          "wrong": {
+            "A": "Medical therapy (alpha-blocker + 5-ARI) cannot rapidly decompress obstructive uropathy causing creatinine 4.2 mg/dL — catheterisation is immediately needed. Medical therapy takes days-weeks to work and cannot reverse established obstructive renal injury acutely.",
+            "C": "Emergency TURP in an uraemic patient with creatinine 4.2 mg/dL carries extremely high anaesthetic and surgical risk. The appropriate sequence is: catheterise first, allow renal function to recover, then plan definitive TURP/HoLEP electively.",
+            "D": "Creatinine 4.2 mg/dL from obstructive uropathy is expected to recover substantially after catheterisation. Dialysis is not indicated unless creatinine does not improve despite adequate drainage, or if electrolyte/acid-base complications are severe."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.2.3: Absolute surgical indications — obstructive renal impairment; management of chronic retention",
+          "trial": "Emberton M et al. Acute urinary retention in men and outcomes of urological intervention. J Urol 1999: catheterisation is the immediate management for obstructive uropathy — allows renal function recovery before definitive surgery.",
+          "pearl": "Chronic high-volume urinary retention (PVR >1000 mL) + bilateral hydronephrosis + rising creatinine = obstructive uropathy. Immediate catheterisation is mandatory. Anticipate post-obstructive diuresis (>200-400 mL/h) — replace ONLY 50% of hourly urine output to avoid perpetuating the diuresis. Definitive surgery (TURP/HoLEP) after renal function recovery."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q7",
+        "stem": "A 63-year-old male undergoes TURP for BPH. Intraoperatively, he develops agitation, confusion, bradycardia, and hyponatraemia (Na 118 mEq/L) 45 minutes into the procedure. What is the most likely diagnosis and management?",
+        "options": {
+          "A": "Vasovagal episode — Trendelenburg positioning and IV atropine",
+          "B": "TUR syndrome from monopolar TURP with glycine irrigant absorption — stop resection, IV hypertonic saline for severe hyponatraemia",
+          "C": "Septicaemia from prostatic bacteraemia — blood cultures and IV antibiotics",
+          "D": "Contrast reaction from imaging — IV antihistamine and corticosteroids"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "TUR syndrome is caused by systemic absorption of large volumes of hypotonic irrigating fluid (glycine 1.5%, sorbitol, or mannitol) used in monopolar TURP — this causes dilutional hyponatraemia, neurological symptoms (confusion, agitation, visual disturbances, seizures), and cardiovascular effects (bradycardia, hypertension then hypotension). Na 118 mEq/L with intraoperative neurological symptoms is diagnostic. Management: immediately stop resection, 12Fr urethral catheter to drain the bladder, restrict IV fluids, and for severe hyponatraemia (Na <120 mEq/L or symptomatic) — cautious correction with hypertonic saline (3% NaCl at 1-2 mL/kg/h) targeting Na increase of 1-2 mEq/L/hour (max 8-10 mEq/L per 24h to avoid osmotic demyelination syndrome). Bipolar TURP (saline irrigant) has largely eliminated TUR syndrome.",
+          "wrong": {
+            "A": "Vasovagal episode under spinal anaesthesia is possible but does not explain hyponatraemia — Na 118 mEq/L confirms a metabolic/dilutional cause, not a vasovagal mechanism.",
+            "C": "Prostatic bacteraemia can occur during TURP but presents with fever, rigors, and tachycardia — not with acute hyponatraemia and neurological symptoms.",
+            "D": "No contrast is used in TURP — contrast reactions are not applicable."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.5: Surgical complications — TUR syndrome",
+          "trial": "Ho HS et al. Bipolar vs monopolar TURP: systematic review and meta-analysis. BJU Int 2007: bipolar TURP virtually eliminates TUR syndrome by using isotonic saline irrigant vs hypotonic glycine in monopolar — strongest safety argument for bipolar TURP.",
+          "pearl": "TUR syndrome = absorption of hypotonic irrigant (glycine) during monopolar TURP causing dilutional hyponatraemia + neurological symptoms + haemodynamic instability. Management: stop resection, restrict fluids, hypertonic saline (3% NaCl) for Na <120 mEq/L or symptoms. Prevention: bipolar TURP with saline irrigant, limit resection time (<60 min, <2L absorption)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q8",
+        "stem": "A 59-year-old male is planning ophthalmological surgery for a cataract. He has been on silodosin 8 mg OD for LUTS for 2 years and wants to stop it before surgery to reduce IFIS risk. What is the most accurate advice regarding IFIS and silodosin discontinuation?",
+        "options": {
+          "A": "Stopping silodosin 2 weeks before surgery eliminates IFIS risk",
+          "B": "IFIS risk persists regardless of how long ago silodosin was stopped — there is no safe window",
+          "C": "Silodosin causes IFIS in only 5% of patients — risk is acceptable without informing the ophthalmologist",
+          "D": "Switching to tamsulosin 2 weeks before surgery reduces IFIS risk compared to silodosin"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "IFIS caused by alpha-1A receptor blockers (tamsulosin, silodosin — the most selective agents with highest IFIS risk) persists indefinitely after drug discontinuation. The iris dilator muscle undergoes irreversible pharmacodynamic changes that do not resolve with drug cessation. Multiple prospective studies confirm IFIS occurrence even when tamsulosin was stopped years prior to surgery. There is no established safe withdrawal period. The ophthalmologist must always be informed of any prior alpha-1A blocker use to implement IFIS-specific surgical precautions (iris hooks, dispersive viscoelastic, pupil expansion ring).",
+          "wrong": {
+            "A": "2-week withdrawal does not eliminate IFIS risk — there is no safe withdrawal period established for any duration.",
+            "C": "IFIS occurs in 43-90% of patients on tamsulosin and in similarly high rates with silodosin — it is not a 5% risk. Failing to inform the ophthalmologist is a significant patient safety issue.",
+            "D": "Both silodosin and tamsulosin cause IFIS. Switching between alpha-1A selective agents provides no protection against IFIS — both drugs cause the same iris dilator dysfunction."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.3.2: IFIS — no safe withdrawal period for any alpha-1A blocker",
+          "trial": "Chang DF et al. Ophthalmology 2007: IFIS prevalence 86% with current tamsulosin; 40% with prior tamsulosin stopped >3 months — confirms persistent risk regardless of cessation timing.",
+          "pearl": "IFIS risk from alpha-1A blockers (especially tamsulosin, silodosin) is permanent — no safe withdrawal period exists. The ophthalmologist MUST know about any alpha-1 blocker use (past or present) before cataract surgery. IFIS risk: tamsulosin > silodosin > alfuzosin > doxazosin/terazosin (non-selective agents have lower IFIS risk)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q9",
+        "stem": "A 70-year-old male complains of waking 4 times per night to void. Frequency-volume chart shows: total 24-hour urine volume 2200 mL; nocturnal urine volume 1050 mL (between 11 PM and 7 AM). Daytime frequency is 7 voids. IPSS voiding subscore is 4 (mild). What is the primary diagnosis and most appropriate initial management?",
+        "options": {
+          "A": "Bladder outlet obstruction — prescribe alpha-blocker",
+          "B": "Nocturnal polyuria — fluid management, leg elevation, and/or desmopressin",
+          "C": "Overactive bladder — prescribe antimuscarinic",
+          "D": "Global polyuria — refer for diabetes insipidus evaluation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Nocturnal polyuria is defined as nocturnal urine production >33% of total 24-hour urine output. This patient produces 1050 of 2200 mL (48%) at night — this is nocturnal polyuria by definition. Total 24-hour volume is 2200 mL (not elevated, so global polyuria is excluded). The cause is fluid redistribution (peripheral oedema, heart failure, venous insufficiency) releasing at night in the supine position, or nocturnal ADH deficiency in elderly men. Management: fluid restriction after 6 PM, leg elevation in the afternoon, treatment of any peripheral oedema, and for refractory cases — low-dose desmopressin (0.1-0.2 mg OD, taken at bedtime; monitor serum sodium for hyponatraemia in elderly). Alpha-blockers do NOT address nocturnal polyuria.",
+          "wrong": {
+            "A": "BOO alpha-blocker therapy is indicated for voiding LUTS — this patient's voiding subscore is 4 (mild), and the primary symptom is nocturia from nocturnal polyuria. Alpha-blockers do not reduce nocturnal urine production.",
+            "C": "Antimuscarinics target detrusor overactivity (urgency, urgency incontinence, frequent small-volume voids). This patient produces large volumes at night (high nocturnal urine volume = nocturnal polyuria), not small-volume urgent voids — antimuscarinics are not the correct therapy.",
+            "D": "Global polyuria requires 24-hour volume >3 L (this patient produces 2200 mL — normal total) or serum osmolality/vasopressin testing. This patient has nocturnal redistribution, not global polyuria."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 4.3: Nocturia — nocturnal polyuria diagnosis and management",
+          "trial": "van Kerrebroeck P et al. Desmopressin in the treatment of nocturia. Eur Urol 2007: desmopressin reduces nocturnal voids by 50% in patients with nocturnal polyuria — monitor serum Na for hyponatraemia (elderly risk).",
+          "pearl": "Nocturnal polyuria diagnosis: nocturnal urine volume >33% of total 24-hour volume (use bladder diary — cannot diagnose without it). Alpha-blockers ineffective for nocturnal polyuria. Treatment: fluid management, leg elevation, treat peripheral oedema. Low-dose desmopressin for refractory cases (CAUTION: hyponatraemia in elderly — check Na 3 days after starting)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q10",
+        "stem": "Which of the following correctly describes the mechanism by which 5-ARIs (finasteride, dutasteride) reduce prostate volume?",
+        "options": {
+          "A": "Blocking testosterone synthesis in the Leydig cells of the testes",
+          "B": "Inhibiting 5-alpha-reductase, preventing conversion of testosterone to DHT in the prostate",
+          "C": "Blocking androgen receptors in prostatic epithelial cells",
+          "D": "Stimulating apoptosis via direct activation of the TGF-beta pathway in prostatic stromal cells"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "5-alpha-reductase inhibitors (5-ARIs) block the enzyme 5-alpha-reductase, which converts testosterone to dihydrotestosterone (DHT) within the prostate (predominantly type 2 enzyme). DHT is the primary androgen driving prostatic epithelial and stromal growth, with 5-fold greater androgen receptor affinity than testosterone. By preventing DHT synthesis, 5-ARIs deprive the prostate of its principal mitogenic stimulus, resulting in increased apoptosis and reduced cell proliferation — achieving a 20-30% reduction in prostate volume over 6-12 months.",
+          "wrong": {
+            "A": "5-ARIs do not block testosterone synthesis — they block DHT synthesis within the prostate. LH remains normal; testosterone levels actually rise slightly (by 10-15%) on 5-ARI therapy because the testosterone-to-DHT conversion pathway is blocked.",
+            "C": "Androgen receptor blockade is the mechanism of antiandrogens (bicalutamide, enzalutamide) used in prostate cancer. 5-ARIs do not block the androgen receptor — they reduce the ligand (DHT) that activates the receptor.",
+            "D": "TGF-beta pathway activation contributes to the apoptosis induced by DHT deficiency, but this is a downstream consequence of DHT reduction — not the direct mechanism of 5-ARI action."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.3.3: 5-ARI mechanism of action",
+          "trial": "McConnell JD et al. The effect of finasteride on the risk of AUR and the need for surgical treatment. NEJM 1998: PLESS trial — finasteride reduces prostate volume 20-30% via DHT suppression; reduces AUR risk 57% and surgery risk 55% at 4 years.",
+          "pearl": "5-ARI mechanism: inhibit 5-alpha-reductase (type 2 in prostate) → block testosterone → DHT conversion → DHT deficiency → apoptosis increases → prostate volume decreases 20-30% over 6-12 months. PSA decreases by 50% — double PSA for cancer screening. 5-ARIs also reduce haematuria from large prostatic vascularity."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q11",
+        "stem": "A 75-year-old male presents with his second episode of acute urinary retention in 8 months, requiring catheterisation. Trial without catheter (TWOC) after 72 hours with tamsulosin 0.4 mg was successful after the first episode. He now presents with the second AUR. According to EAU 2024, what is the appropriate management?",
+        "options": {
+          "A": "Second TWOC with tamsulosin — success rate is similar to the first attempt",
+          "B": "Long-term alpha-blocker + 5-ARI combination and repeat TWOC in 4 weeks",
+          "C": "Surgical treatment (TURP or HoLEP) — recurrent AUR is an absolute surgical indication",
+          "D": "Long-term urethral catheterisation — surgery is too risky at 75 years"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Recurrent acute urinary retention (≥2 episodes of AUR) is an absolute indication for surgical treatment of BPH per EAU 2024. After a second AUR, the risk of further retention is very high (50-70% at 1 year without surgery), and medical management cannot reliably prevent progression. TURP or HoLEP are the standard surgical options depending on prostate size and centre expertise. Age alone (75 years) is not a contraindication to TURP — perioperative mortality is 0.1-0.2% in high-volume centres.",
+          "wrong": {
+            "A": "Second TWOC after recurrent AUR has a much lower success rate (<30%) and is not the recommended approach. EAU 2024 classifies recurrent AUR as an absolute surgical indication.",
+            "B": "Combination medical therapy + TWOC might be considered after a first AUR in selected patients, but recurrent AUR (second episode) mandates surgery — the transition zone decompensation is typically irreversible at this stage.",
+            "D": "Long-term catheterisation is associated with catheter-associated UTI, urethral stricture, bladder dysfunction, and poor quality of life — it is not the appropriate long-term solution for a surgical candidate with an absolute indication for surgery."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.2.3: Absolute indications for surgery — recurrent AUR",
+          "trial": "McNeill SA et al. ALFAUR trial: alfuzosin before TWOC for AUR. BJU Int 2004: alpha-blocker loading improves TWOC success for first AUR, but recurrent AUR has much lower TWOC success rates — surgery is the standard for ≥2 AUR episodes.",
+          "pearl": "AUR management: first episode → catheterise + alpha-blocker loading × 48-72h → TWOC (60-70% success). Recurrent AUR (≥2 episodes) = ABSOLUTE surgical indication → TURP or HoLEP. Never accept long-term catheterisation for a patient with recurrent AUR who is a surgical candidate."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q12",
+        "stem": "HoLEP (holmium laser enucleation of the prostate) is preferred over TURP for which of the following patient scenarios?",
+        "options": {
+          "A": "Small prostate (15 mL) with mild LUTS in a 62-year-old with no comorbidities",
+          "B": "Very large prostate (150 mL) in a 70-year-old who previously failed medical therapy",
+          "C": "Patient on anticoagulation with a 40 mL prostate and moderate LUTS",
+          "D": "Patient with LUTS and sexual activity concerns wanting ejaculatory preservation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "HoLEP has no upper prostate volume limit — it can safely enucleate prostates of 150 mL, 200 mL, or larger, following the same anatomical plane (the surgical capsule). Conventional monopolar TURP has a practical upper limit of approximately 80-100 mL tissue removal (beyond this, extended operative time increases TUR syndrome risk and blood loss). For very large prostates (>100 mL), HoLEP is superior to TURP (avoiding TUR syndrome, lower transfusion rates) and equivalent to open simple prostatectomy with significantly lower morbidity. EAU 2024 recommends HoLEP for large glands as the procedure of choice over open prostatectomy.",
+          "wrong": {
+            "A": "A 15 mL prostate with mild LUTS typically does not require surgical treatment at all — medical therapy or watchful waiting is the appropriate approach. TURP or HoLEP would be over-treatment.",
+            "C": "GreenLight laser vaporisation (PVP) is specifically recommended for anticoagulated patients due to superior haemostasis — not HoLEP (which has similar bleeding rates to TURP). HoLEP does have lower transfusion rates than TURP but is not the specific recommendation for anticoagulation.",
+            "D": "Ejaculatory preservation favours Urolift or Rezum — both HoLEP and TURP cause retrograde ejaculation in 65-90% of cases. HoLEP is not the choice for ejaculatory preservation."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.5.3: HoLEP — indication for large gland BPH",
+          "trial": "Gilling PJ et al. LASER trial: HoLEP vs TURP for BPH. J Urol 2000: equivalent functional outcomes; HoLEP has no upper volume limit — advantage over TURP for large glands (>80-100 mL).",
+          "pearl": "HoLEP advantages over TURP: (1) no upper prostate volume limit (safe for 150+ mL glands), (2) lower transfusion rate (1-2% vs 5-7%), (3) shorter catheterisation time, (4) equivalent long-term durability. Disadvantage: steep learning curve (>50-70 cases to achieve proficiency). Preferred over open prostatectomy for large glands."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q13",
+        "stem": "A 64-year-old sexually active male (in a relationship, prioritises ejaculatory function) has moderate LUTS (IPSS 16), prostate 45 mL on ultrasound, Qmax 10 mL/s. He prefers to avoid general anaesthesia. He has tried and failed two alpha-blockers. What is the most appropriate surgical option?",
+        "options": {
+          "A": "TURP — most proven long-term results",
+          "B": "HoLEP — most effective for large glands",
+          "C": "Urolift (prostatic urethral lift) — ejaculation-preserving, can be done under local anaesthesia",
+          "D": "Rezum (water vapour therapy) — office-based, ejaculation-preserving"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This patient explicitly prioritises ejaculatory function preservation and wants to avoid general anaesthesia. Urolift (prostatic urethral lift, UroLift system) is the most evidence-based option meeting both criteria: it preserves antegrade ejaculation in essentially 100% of patients and can be performed under local anaesthesia/conscious sedation. With a 45 mL prostate (within the 30-80 mL optimal range) and no prominent median lobe, Urolift is anatomically suitable. EAU 2024 recommends Urolift as an option for sexually active men who prioritise ejaculatory preservation and accept that IPSS improvement is inferior to TURP/HoLEP.",
+          "wrong": {
+            "A": "TURP causes retrograde ejaculation in 65-90% of patients — unacceptable for this patient's stated priorities. General/spinal anaesthesia is also required.",
+            "B": "HoLEP also causes retrograde ejaculation in 65-80% — same issue as TURP for ejaculatory preservation.",
+            "D": "Rezum also preserves ejaculation and is office-based — but requires a catheter for 3-7 days post-procedure and has a 3-6 month onset of action. Both Urolift and Rezum are appropriate options; Urolift has more level 1 evidence and immediate results without catheter requirement."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.5.6: MISTs — Urolift for ejaculatory preservation in sexually active men",
+          "trial": "Roehrborn CG et al. BPH6 trial: Urolift vs TURP — 2-year outcomes. J Urol 2013: Urolift preserves ejaculation in 99% vs 0% TURP; IPSS improvement 51% vs 73%; Qmax improvement 44% vs 97% — inferior functional outcomes accepted for ejaculatory preservation.",
+          "pearl": "Urolift (UroLift): ejaculation-preserving BPH surgery (99% preservation), local/conscious sedation, immediate results, no catheter required. Optimal: prostate 30-80 mL, no prominent median lobe (>1 cm). Inferior IPSS/Qmax improvement vs TURP/HoLEP. EAU 2024: recommended for sexually active men prioritising ejaculatory function over maximum symptom relief."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q14",
+        "stem": "A patient on finasteride 5 mg for 12 months has a PSA of 2.8 ng/mL. Before starting finasteride, his PSA was 5.2 ng/mL. Is the expected PSA suppression appropriate, and what action should be taken?",
+        "options": {
+          "A": "PSA has suppressed from 5.2 to 2.8 ng/mL (46% reduction) — this is appropriate, continue finasteride",
+          "B": "PSA should have fallen to <1.3 ng/mL (50% reduction expected) — the residual PSA of 2.8 ng/mL suggests cancer, refer for biopsy",
+          "C": "PSA reduction is incomplete — switch to dutasteride for better DHT suppression",
+          "D": "Stop finasteride — PSA below 3 ng/mL is now acceptable for screening purposes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "5-alpha-reductase inhibitors (finasteride or dutasteride) reduce PSA by approximately 50% after 6-12 months of therapy. In this patient, baseline PSA was 5.2 ng/mL — expected PSA on finasteride should be approximately 2.6 ng/mL (50% reduction). The actual PSA of 2.8 ng/mL is very close to expected (46% reduction), which is within the normal variation. However, the principle being tested is that the adjusted PSA (2.8 × 2 = 5.6 ng/mL) represents the 'true' PSA equivalent — still above the 4 ng/mL threshold for concern. The failure to suppress by >50% OR any PSA rise on 5-ARI warrants biopsy. A PSA of 2.8 (adjusted 5.6) requires clinical judgement; if the nadir was lower and is now rising, biopsy is indicated.",
+          "wrong": {
+            "A": "Stating the suppression is 'appropriate' misses the critical clinical point — even with appropriate suppression, the adjusted PSA (double the measured value) must still be interpreted against normal thresholds for the patient's age. PSA 2.8 → adjusted 5.6 ng/mL still warrants ongoing surveillance.",
+            "C": "Dutasteride achieves 90% DHT suppression vs 70% for finasteride, resulting in slightly greater PSA suppression. However, the switch is not indicated here for incomplete suppression alone — the clinical decision is whether the PSA trajectory warrants biopsy, not which 5-ARI to use.",
+            "D": "PSA below 3 ng/mL on finasteride is NOT automatically acceptable for screening — the 'true' PSA equivalent is 2× the measured value. 3 ng/mL measured = 6 ng/mL equivalent — not reassuring."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer Early Detection (Van Poppel et al., 2024) — PSA interpretation on 5-ARI: double measured value for screening thresholds",
+          "trial": "Thompson IM et al. PCPT trial: Finasteride for prostate cancer prevention. NEJM 2003: PSA on finasteride requires doubling for accurate cancer screening — PSA rising on 5-ARI = biopsy trigger regardless of absolute value.",
+          "pearl": "5-ARI and PSA: finasteride/dutasteride reduce PSA by 50% after 6-12 months. Adjusted PSA = 2× measured value. ANY PSA rise on 5-ARI = biopsy (does not need to cross absolute threshold — the upward trend is the concern). Failure to suppress by ≥40-50% at 12 months = biopsy discussion."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B1-Q15",
+        "stem": "Tadalafil 5 mg OD for LUTS/BPH: compared to alpha-blockers, which of the following is a key pharmacodynamic difference?",
+        "options": {
+          "A": "Tadalafil improves Qmax significantly more than alpha-blockers",
+          "B": "Tadalafil does not significantly improve Qmax but does improve IPSS and ED simultaneously",
+          "C": "Tadalafil causes more retrograde ejaculation than alpha-blockers",
+          "D": "Tadalafil is contraindicated in patients with cardiovascular disease"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Tadalafil 5 mg OD improves IPSS by 5-6 points (comparable to alpha-blockers) but does NOT significantly improve Qmax (maximum urinary flow rate), unlike alpha-blockers which consistently improve Qmax by 20-25%. The proposed mechanism for LUTS benefit involves cGMP-mediated smooth muscle relaxation in the prostate, urethra, and bladder — but the PDE5 pathway is less critical for urinary flow dynamics than alpha-1 adrenoceptors. Tadalafil simultaneously addresses erectile dysfunction (IIEF +5 points), making it the preferred choice for men with concurrent LUTS and ED.",
+          "wrong": {
+            "A": "Tadalafil does NOT improve Qmax significantly — this is the key pharmacodynamic difference from alpha-blockers. Alpha-blockers improve Qmax by 20-25%; tadalafil's effect on Qmax is minimal.",
+            "C": "Tadalafil does not cause retrograde ejaculation. Retrograde ejaculation is specific to alpha-1A blockers (tamsulosin 8-18%, silodosin 28%) from relaxation of the bladder neck smooth muscle.",
+            "D": "Tadalafil 5 mg OD for LUTS has a good cardiovascular safety profile. The contraindication to tadalafil is concomitant use with nitrates (risk of severe hypotension) — cardiovascular disease alone is not a contraindication."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.3.5: Tadalafil for LUTS — mechanism and comparison to alpha-blockers",
+          "trial": "Porst H et al. Tadalafil once daily 5 mg for LUTS associated with BPH — systematic review. Eur Urol 2013: IPSS improvement -4.9 vs placebo; Qmax improvement not significant — key distinction from alpha-blockers.",
+          "pearl": "Tadalafil 5 mg OD for LUTS: IPSS improvement similar to alpha-blockers; NO significant Qmax improvement (unlike alpha-blockers). Ideal for men with concurrent LUTS + ED (addresses both simultaneously). Contraindicated with nitrates. Not for severe cardiovascular disease or PDE5 inhibitor-contraindicated patients."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q16",
+        "stem": "A 67-year-old male reports feeling of incomplete bladder emptying and nocturia ×3/night but minimal urgency or frequency. IPSS is 12. His voiding diary shows a nocturnal urine volume of 950 mL (of 2000 mL total). PVR is 220 mL. What is the most likely cause of his nocturia?",
+        "options": {
+          "A": "Bladder outlet obstruction causing frequent small-volume overnight voids",
+          "B": "Nocturnal polyuria — nocturnal urine volume >33% of total",
+          "C": "Detrusor overactivity causing urgency nocturia",
+          "D": "Nocturnal enuresis from neurogenic bladder"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Nocturnal urine volume: 950 mL of 2000 mL total = 47.5% of total 24-hour urine production occurring at night. This exceeds the nocturnal polyuria threshold of >33%. Nocturnal polyuria is the most common cause of nocturia in older men (present in 60-80% of elderly nocturia patients). The minimal urgency and frequency (IPSS 12 but nocturia predominant, not voiding subscore-driven) and high nocturnal fraction confirm nocturnal polyuria rather than BOO-driven nocturia.",
+          "wrong": {
+            "A": "BOO-driven nocturia would be accompanied by frequent daytime urgency/frequency, poor flow, and high voiding IPSS subscore. This patient has predominantly nocturnal symptoms with a high voided volume at night (950 mL in 3 voids = average 317 mL/void — large volume, not small urgent voids).",
+            "C": "Detrusor overactivity causes small urgent voids (typically <200 mL) day and night. The large nocturnal urine volume here points to nocturnal polyuria, not overactivity.",
+            "D": "Nocturnal enuresis (bedwetting) is incontinence during sleep, not the conscious nocturia (waking to void) described here."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 4.3.2: Nocturnal polyuria — definition (>33% total urine nocturnal) and management",
+          "trial": "Weiss JP et al. Primary nocturnal polyuria presenting as nocturia: a prospective study. J Urol 2011: nocturnal polyuria present in 60-80% of elderly men with nocturia — bladder diary essential for differential diagnosis.",
+          "pearl": "Nocturnal polyuria definition: nocturnal urine volume >33% of total 24-hour output (bladder diary required). Cannot diagnose without a frequency-volume chart. Causes: fluid redistribution (oedema, CCF), nocturnal ADH deficiency, excessive evening fluid intake. Treatment: fluid restriction after 6 PM, leg elevation, treat peripheral oedema, low-dose desmopressin."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q17",
+        "stem": "Which of the following is a contraindication to the use of antimuscarinics (e.g., solifenacin) for storage LUTS in a BPH patient?",
+        "options": {
+          "A": "PSA >4 ng/mL in a 70-year-old male",
+          "B": "Prostate volume >30 mL on ultrasound",
+          "C": "Poorly controlled narrow-angle glaucoma",
+          "D": "Qmax <15 mL/s on uroflowmetry"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Antimuscarinics (solifenacin, tolterodine, darifenacin, trospium) are contraindicated in narrow-angle glaucoma (angle-closure glaucoma) because muscarinic receptor blockade impairs the ciliary muscle and increases aqueous humour outflow resistance, potentially precipitating acute angle-closure. This is a class effect of all antimuscarinics. Open-angle glaucoma (the most common form) is NOT a contraindication. Other absolute contraindications include urinary retention (PVR >300 mL is a relative contraindication; severe retention is absolute), gastric retention, and myasthenia gravis.",
+          "wrong": {
+            "A": "PSA >4 ng/mL warrants prostate cancer evaluation but is not a contraindication to antimuscarinics for OAB symptoms. The two issues are managed independently.",
+            "B": "Prostate volume >30 mL is a consideration for adding 5-ARI but is not a contraindication to antimuscarinics. The urethral outlet obstruction concern is addressed by monitoring PVR on antimuscarinics.",
+            "D": "Qmax <15 mL/s suggests outlet obstruction or poor detrusor contractility — this is a reason for caution with antimuscarinics (monitor PVR), but a moderate Qmax reduction alone is not an absolute contraindication when PVR is <200-300 mL."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.3.4: Antimuscarinics — contraindications: narrow-angle glaucoma",
+          "trial": "Chancellor MB et al. Tolterodine: clinical pharmacology, therapeutics and tolerability. Drugs 2000: narrow-angle glaucoma contraindication — class effect of all muscarinic antagonists due to ciliary muscle inhibition.",
+          "pearl": "Antimuscarinic contraindications for LUTS: (1) narrow-angle (angle-closure) glaucoma — class contraindication; (2) severe urinary retention (PVR >300 mL); (3) gastric retention; (4) myasthenia gravis. Open-angle glaucoma is NOT a contraindication. Monitor PVR when adding antimuscarinics to BOO patients (PVR should stay <300 mL)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q18",
+        "stem": "The ALFAUR trial evaluated the use of alpha-blockers specifically in the context of acute urinary retention. What was the key conclusion that influenced clinical practice?",
+        "options": {
+          "A": "Alpha-blockers should be started after successful TWOC to prevent re-retention",
+          "B": "Alpha-blocker started at the time of catheter insertion for AUR improves TWOC success rate",
+          "C": "Alpha-blockers are ineffective for AUR — catheterisation is the only management",
+          "D": "Alpha-blockers should be given for 6 weeks before any TWOC attempt"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The ALFAUR trial (McNeill et al., BJU Int 2004) randomised 209 men with first-episode AUR to alfuzosin 10 mg OD (extended release) starting at catheter insertion vs placebo. TWOC at 72 hours was successful in 62% of the alfuzosin group vs 48% of the placebo group (p=0.012). The key principle: alpha-blocker loading should begin AT THE TIME OF CATHETER INSERTION for AUR — not after the TWOC attempt, and not for a prolonged 6-week course. This 48-72 hour loading period with an alpha-blocker significantly improves spontaneous void success rates.",
+          "wrong": {
+            "A": "Alpha-blockers are started at catheter insertion (before TWOC), not after successful TWOC. After successful TWOC, alpha-blockers may be continued for ongoing BPH management, but the acute AUR benefit is from pre-TWOC loading.",
+            "C": "Alpha-blockers significantly improve TWOC success rates — they are not ineffective. The ALFAUR trial (62% vs 48% TWOC success) provides level 1 evidence for alpha-blocker use in AUR.",
+            "D": "A 6-week alpha-blocker course is not the ALFAUR protocol — the trial used 72 hours (3 days) of loading before TWOC. Prolonged catheterisation for 6 weeks is not standard practice for uncomplicated first AUR."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.3.1: Alpha-blockers for AUR — start at catheter insertion",
+          "trial": "McNeill SA et al. ALFAUR trial: Alfuzosin 10 mg once daily facilitates TWOC after urinary retention. BJU Int 2004: TWOC success 62% (alfuzosin) vs 48% (placebo) at 72h — alpha-blocker loading at time of catheterisation is standard of care for AUR.",
+          "pearl": "AUR management: catheterise + start alpha-blocker IMMEDIATELY (at catheter insertion, not after removal). ALFAUR trial: alfuzosin for 72h before TWOC → 62% success vs 48% placebo. TWOC success factors: first AUR, smaller prostate, younger age, provoked AUR (e.g., post-op urinary retention)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q19",
+        "stem": "A 71-year-old male has LUTS with IPSS 8 (mild). PSA is 1.8 ng/mL. DRE is normal. Qmax 14 mL/s. PVR 80 mL. He has no bother from his symptoms (QoL score 1 — 'pleased'). He has no absolute surgical indications. What is the most appropriate management?",
+        "options": {
+          "A": "Start tamsulosin 0.4 mg OD immediately to prevent progression",
+          "B": "Watchful waiting with lifestyle advice and reassessment in 6-12 months",
+          "C": "TURP — Qmax <15 mL/s requires surgical correction",
+          "D": "Combination tamsulosin + dutasteride — PSA >1.5 ng/mL indicates large gland"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has mild LUTS (IPSS 8), excellent quality of life (QoL score 1 — 'pleased'), no absolute surgical indications, and is not bothered by his symptoms. EAU 2024 recommends watchful waiting (active surveillance) with lifestyle advice (fluid management, caffeine/alcohol reduction, timed voiding, double voiding) for mild LUTS with low bother, as the risk-benefit ratio of medical therapy does not favour treatment when the patient is satisfied. Annual reassessment to monitor for symptom worsening or development of absolute surgical indications is appropriate.",
+          "wrong": {
+            "A": "Medical therapy for mild, unbothered LUTS is not recommended — it exposes the patient to drug side effects (retrograde ejaculation, postural hypotension, IFIS risk) without meaningful quality-of-life benefit when QoL score is 1.",
+            "C": "Qmax 14 mL/s is mildly reduced from normal (≥15) but is not an absolute surgical indication. Surgery is not indicated for mild LUTS without absolute indications or significant bother.",
+            "D": "Combination therapy is reserved for men with large glands at risk of clinical progression (IPSS ≥12, prostate >30 mL, PSA >1.5 ng/mL). PSA 1.8 ng/mL alone does not mandate combination therapy — the patient's symptom burden (mild, low bother) does not support initiating medical treatment."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.2.1: Watchful waiting — indication for mild LUTS with low bother",
+          "trial": "Emberton M et al. Natural history of BPH: study of 2,000 men with LUTS. BJU Int 1996: men with mild-moderate LUTS and low bother have stable or slowly worsening symptoms — watchful waiting is appropriate for IPSS ≤7 with QoL score ≤2.",
+          "pearl": "Watchful waiting is appropriate for LUTS with: IPSS ≤7 (mild) OR QoL score ≤2 (not bothered) AND no absolute surgical indications. Lifestyle advice: reduce fluid after 6 PM, limit caffeine/alcohol, timed voiding, double voiding. Annual reassessment for progression. Do not over-treat mild unbothered LUTS."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q20",
+        "stem": "A 66-year-old male has been on tamsulosin 0.4 mg for 18 months with good voiding symptom control. He now develops de novo urgency and urge incontinence without haematuria or infection. Bladder diary shows average voided volume 210 mL with 14 voids/day and 4 nocturnal voids. PVR is 85 mL. What is the most appropriate next step?",
+        "options": {
+          "A": "Stop tamsulosin — alpha-blockers cause urgency as a class effect",
+          "B": "Add mirabegron 50 mg OD to tamsulosin for storage LUTS",
+          "C": "Perform urodynamics immediately — urgency may indicate neurological disease",
+          "D": "Refer for urgent TURP — urgency on alpha-blocker indicates BOO failure of medical therapy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has de novo storage symptoms (urgency, urge incontinence, frequency ×14/day, nocturia ×4, average voided volume 210 mL — small capacity suggesting overactive bladder) that developed despite adequate alpha-blocker voiding symptom control (no change in voiding pattern). With PVR 85 mL (safe for adding OAB therapy), the appropriate step is to add a beta-3 agonist (mirabegron 50 mg OD) or antimuscarinic. Mirabegron is preferred in a 66-year-old male to avoid anticholinergic cognitive side effects. EAU 2024 recommends this combination for men with mixed LUTS where storage symptoms develop or persist on alpha-blocker therapy.",
+          "wrong": {
+            "A": "Alpha-blockers do not cause urgency — they primarily address voiding symptoms. Stopping tamsulosin would worsen the controlled voiding symptoms without addressing the storage symptoms.",
+            "C": "Urodynamics is not indicated before empirical OAB therapy in a patient with typical storage LUTS without neurological red flags (no new neurological symptoms, no history of neurological disease, no unexplained incontinence pattern). EAU 2024 reserves urodynamics for diagnostic uncertainty or treatment failure.",
+            "D": "TURP is not indicated for storage symptoms alone, especially when voiding symptoms are well-controlled on tamsulosin. Urgency with adequate Qmax and low PVR suggests primary OAB, not BOO-requiring surgery."
+          },
+          "guideline": "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024) — Section 5.4.4: Alpha-blocker + beta-3 agonist combination for mixed LUTS",
+          "trial": "Chapple CR et al. TIMES study: Tolterodine + tamsulosin combination superior to monotherapy for mixed male LUTS. Eur Urol 2009: combination significantly improves storage scores while maintaining voiding improvement — safe at PVR <200 mL.",
+          "pearl": "Mixed LUTS management: alpha-blocker controls voiding symptoms; add beta-3 agonist (mirabegron) or antimuscarinic for residual storage symptoms. Mirabegron preferred in elderly (no cognitive anticholinergic effects). Monitor PVR: if >300 mL on combined therapy, discontinue anticholinergic/beta-3 component."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

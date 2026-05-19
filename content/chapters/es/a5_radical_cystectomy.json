@@ -1,0 +1,665 @@
+{
+  "id": "A5",
+  "title": "Cistectomía Radical",
+  "subtitle": "Bloque A — Técnica Quirúrgica, Complicaciones y Recuperación Mejorada",
+  "block": "A",
+  "block_name": "Oncología Urológica",
+  "level": "R3-4",
+  "reading_time_min": 40,
+  "guidelines_version": "EAU Guidelines on MIBC 2024 · EAU Guidelines on Perioperative Care in Urology (ERAS) 2022 · NCCN Bladder Cancer v2.2024",
+  "textbook_refs": [
+    "Campbell-Walsh-Wein Urology, 12th ed. (2021) — Capítulo 82: Cistectomía y derivación urinaria",
+    "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024)",
+    "Hautmann RE et al. Ileal neobladder — surgical technique and outcomes of 923 patients. J Urol 2006",
+    "Bricker EM. Bladder substitution after pelvic evisceration. Surg Clin North Am 1950",
+    "Karl A et al. Enhanced recovery after surgery (ERAS) protocol for radical cystectomy. Eur Urol 2014"
+  ],
+  "learning_objectives": [
+    "Describir los límites anatómicos de la linfadenectomía pélvica extendida y el estándar de calidad de rendimiento ganglionar mínimo de las guías EAU 2024",
+    "Describir los pasos de la construcción intracorpórea frente a extracorpórea del conducto ileal y la formación de la neovejiga ortotópica",
+    "Aplicar los principios de los protocolos ERAS para la cistectomía radical para reducir las complicaciones mayores y la estancia hospitalaria",
+    "Clasificar y manejar las complicaciones tempranas y tardías más frecuentes de la cistectomía radical y la derivación urinaria",
+    "Identificar las consideraciones anatómicas específicas de la cistectomía radical femenina frente a la masculina, incluyendo la preservación nerviosa y de la función sexual",
+    "Aplicar los criterios EAU 2024 para la cronología de la cistectomía radical tras la quimioterapia neoadyuvante y definir los límites aceptables de retraso"
+  ],
+  "sections": [
+    {
+      "id": "A5-S1",
+      "title": "Evaluación Preoperatoria y Cronología",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La cistectomía radical (CR) es uno de los procedimientos más complejos y mórbidos de la cirugía urológica, con tasas de complicaciones a 90 días del 50-60% y mortalidad a 90 días del 2-3% en series contemporáneas. La evaluación preoperatoria cuidadosa es esencial. La capacidad funcional debe evaluarse con herramientas validadas — los pacientes con ECOG PS ≥3 o Índice de Actividad de Duke (DASI) <4 METs tienen una mortalidad perioperatoria significativamente mayor. La prueba de ejercicio cardiopulmonar (PECP) con VO₂ máx inferior a 15 mL/kg/min identifica a los pacientes con mayor riesgo de complicaciones cardiopulmonares mayores.\n\nLa evaluación nutricional preoperatoria mediante el Cribado de Riesgo Nutricional (NRS-2002) es obligatoria. La desnutrición (NRS ≥3) afecta al 20-30% de los pacientes con cáncer de vejiga y predice de forma independiente las complicaciones de la herida, el fallo anastomótico y la estancia hospitalaria. La optimización nutricional preoperatoria con suplementos nutricionales orales o nutrición enteral durante 7-14 días antes de la cirugía se recomienda cuando NRS ≥3. La albúmina sérica por debajo de 35 g/L se asocia a un riesgo 3 veces mayor de complicaciones mayores.\n\nLa cronología de la cistectomía radical es fundamental. Las guías EAU 2024 recomiendan la cirugía dentro de los 3 meses del diagnóstico de CVMI para evitar la progresión del estadio del cáncer. En los pacientes que han recibido quimioterapia neoadyuvante, la cirugía debe realizarse dentro de los 90 días de completar la QNA — los retrasos más allá de 90 días se asocian de forma independiente a peor supervivencia global (Fahmy et al., Eur Urol 2018). Los datos del ensayo SWOG 8710 y del metaanálisis ABC confirman que el beneficio en SG de la QNA está condicionado a proceder a la CR dentro del plazo planificado."
+        },
+        {
+          "type": "table",
+          "title": "Evaluación Preoperatoria para la Cistectomía Radical",
+          "headers": ["Dominio de Evaluación", "Herramienta/Criterios", "Umbral para Intervención", "Acción"],
+          "rows": [
+            ["Estado funcional", "ECOG / Karnofsky", "ECOG ≥3 = riesgo muy alto", "Optimizar/considerar alternativas"],
+            ["Capacidad cardiopulmonar", "PECP — VO₂ máx", "<15 mL/kg/min = riesgo alto", "Evaluación cardiológica; prehabilitación"],
+            ["Estado nutricional", "NRS-2002", "Puntuación ≥3 = desnutrición", "Optimización nutricional 7-14 días"],
+            ["Función renal", "FG (CKD-EPI)", "<35 mL/min limita neovejiga", "Conducto preferido; revisión por nefrólogo"],
+            ["Función hepática", "PFH, albúmina", "Albúmina <35 g/L = riesgo alto", "Soporte nutricional; revisión por hepatología"],
+            ["Evaluación del margen uretral", "Biopsia por congelación intraop", "Positivo = sin neovejiga", "Convertir a conducto ileal + uretrectomía"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Impacto del Retraso en la Cronología",
+          "content": "Las guías EAU 2024 exigen la cistectomía radical dentro de los 90 días de completar la quimioterapia neoadyuvante. Los retrasos de >3 meses desde el diagnóstico de CVMI hasta la cistectomía (sin QNA) se asocian a subescalada patológica y peor SG en múltiples análisis de registros. La prioridad absoluta de cronología es: completar QNA en 3-4 meses, luego cirugía dentro de los 90 días del último ciclo de quimioterapia."
+        }
+      ]
+    },
+    {
+      "id": "A5-S2",
+      "title": "Técnica Quirúrgica — Cistectomía Radical en Varón y Mujer",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "En el varón, la cistectomía radical estándar extirpa la vejiga, próstata, vesículas seminales, uretra proximal, peritoneo pélvico (anterolateral a la vejiga) y ganglios linfáticos pélvicos extendidos bilaterales. El abordaje puede ser abierto (laparotomía media), laparoscópico o laparoscópico asistido por robot (CRAR). Se incide el peritoneo, se divide el uraco y la vejiga se desprende de la pared abdominal anterior. Los pedículos vasculares (vasos vesicales superior y lateral de la arteria ilíaca interna) se controlan y dividen. Los pedículos laterales se grapan o ligan secuencialmente. Se incide la fascia endopélvica, el complejo venoso dorsal (CVD) se sutura-liga y la uretra se divide con muestreo del margen por biopsia por congelación.\n\nLa cistectomía radical con preservación nerviosa tiene como objetivo preservar los haces neurovasculares (HNV, planos de la fascia prostática lateral) para reducir las tasas de disfunción eréctil. Los HNV discurren posterolateralmente a lo largo de la próstata y están en riesgo durante el control del pedículo lateral y la disección apical. La preservación nerviosa es oncológicamente adecuada cuando los tumores son anteriores, confinados a la vejiga (sin extensión extravesical en el cuello vesical posterior o la base) y cuando las biopsias intraoperatorias por congelación son negativas. Las tasas de preservación de la potencia tras CRAR con preservación nerviosa son del 40-50% a los 12 meses frente al 5-15% tras la CR estándar sin preservación nerviosa.\n\nEn la mujer, la exenteración pélvica anterior es el estándar: extirpación de la vejiga, uretra, útero, ovarios, trompas de Falopio y la pared vaginal anterior. Para la neovejiga ortotópica en mujeres, la uretra distal y el mecanismo esfinteriano deben preservarse — esto requiere evitar la resección de la pared vaginal anterior cerca de la unión uretrovesical y la identificación cuidadosa de los ligamentos pubourretrales. Las guías EAU 2024 recomiendan considerar la preservación ovárica/uterina en mujeres jóvenes premenopáusicas con tumores anteriores sin afectación posterior y sin CIS clínico cerca del trígono."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Márgenes Quirúrgicos Positivos en la Cistectomía",
+          "content": "El margen quirúrgico positivo (MQP) en la cistectomía radical ocurre en el 4-8% de los casos y es el predictor independiente más importante de recurrencia local y mortalidad específica por cáncer. El MQP ocurre más frecuentemente en la vejiga posterior (tejido rectovesical o rectovaginal) en tumores localmente avanzados o en la uretra. Las biopsias por congelación intraoperatorias del margen uretral (obligatorias antes de la construcción de la neovejiga) y las biopsias representativas de la pared rectal en la enfermedad T4 son medidas de calidad esenciales. El MQP en la cistectomía se asocia a un incremento 2-3 veces mayor de mortalidad específica por cáncer en datos de registros."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Cistectomía Radical Asistida por Robot frente a Abierta",
+          "content": "El ensayo RAZOR (Parekh et al., Lancet 2018) comparó la CRAR con derivación extracorpórea frente a la cistectomía radical abierta (CRA) en un ECA de no inferioridad de 302 pacientes. La CRAR demostró no inferioridad para la supervivencia libre de progresión a 2 años (72,3% frente a 71,6%) con pérdida de sangre estimada significativamente reducida (200 frente a 600 mL) y menor estancia hospitalaria (6 frente a 8 días). Los centros de alto volumen que realizan CRAR intracorpórea reducen aún más las tasas de transfusión y la estancia. Sin embargo, el tiempo operatorio es mayor (240 frente a 180 min) y los costes son más elevados con la CRAR — el acceso, el volumen y la experiencia son factores clave de selección."
+        }
+      ]
+    },
+    {
+      "id": "A5-S3",
+      "title": "Linfadenectomía Pélvica",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La linfadenectomía pélvica extendida (LPE) es un componente fundamental de la cistectomía radical para la precisión de estadificación y el posible beneficio terapéutico. La plantilla de LPE incluye: ganglios ilíacos externos (cadenas lateral y medial), ganglios ilíacos internos, ganglios de la fosa obturatriz y los ganglios ilíacos comunes hasta la bifurcación de la aorta, además de los ganglios presacros. Esta plantilla proporciona una mediana de 20-28 ganglios. El indicador de calidad de las guías EAU 2024 es un mínimo de 10 ganglios — los recuentos por debajo de este umbral indican una disección inadecuada.\n\nEl ensayo SWOG S1011 (Gschwend et al., JAMA Surgery 2019) comparó la PLND superextendida (incluyendo ganglios hasta la arteria mesentérica inferior) frente a la extendida en 658 pacientes. La disección superextendida no mostró ventaja en SG (SG a 5 años del 64% frente al 59%, p=0,40) mientras que aumentó significativamente el tiempo operatorio y las tasas de complicaciones. El techo terapéutico de la PLND se sitúa por tanto a nivel de la LPE — no hay beneficio en extender más allá de la bifurcación aórtica.\n\nLa densidad ganglionar (DG = ganglios positivos / total de ganglios extirpados) es una variable pronóstica más potente que el recuento absoluto de ganglios solo. Los pacientes con enfermedad pN+ y DG <20% tienen una supervivencia específica por cáncer (SEC) a 5 años significativamente mejor que aquellos con DG >20% (Stein et al., J Urol 2003). La invasión linfovascular (ILV) en la pieza de cistectomía es un factor pronóstico adverso independiente incluso en los pacientes con ganglios negativos, influyendo en las decisiones de terapia adyuvante. La precisión de estadificación ganglionar de la TC en el CVMI es limitada (sensibilidad 50-70%) — la estadificación ganglionar patológica en la cistectomía proporciona la información de estadificación más precisa."
+        },
+        {
+          "type": "table",
+          "title": "Plantillas de PLND y Límites",
+          "headers": ["Plantilla", "Límite Craneal", "Grupos Ganglionares Incluidos", "Rendimiento Ganglionar Mediano"],
+          "rows": [
+            ["PLND limitada", "Bifurcación ilíaca común", "Fosa obturatriz, ilíaca externa", "8-12"],
+            ["PLND estándar", "Bifurcación ilíaca común", "Ilíaca externa, interna, obturatriz", "12-18"],
+            ["LPE (ePLND)", "Bifurcación aórtica", "Ilíaca externa, interna, común, obturatriz, presacra", "20-28"],
+            ["PLND superextendida", "Arteria mesentérica inferior", "LPE + paraaórtica hasta AMI", ">30"],
+            ["Estándar mínimo EAU 2024", "Bifurcación aórtica (LPE)", "Mínimo 10 ganglios como indicador de calidad", "≥10 (umbral de calidad)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A5-S4",
+      "title": "Derivación Urinaria — Conducto Ileal y Derivaciones Continentes",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La derivación urinaria tras la cistectomía radical tiene tres formas principales: conducto ileal (Bricker), derivación cutánea continente (bolsa de Indiana, bolsa de Kock) y neovejiga ortotópica. El conducto ileal, descrito por Bricker en 1950, utiliza un segmento isoperistáltico de 15-20 cm del íleon distal (a 15-20 cm de la válvula ileocecal) como conducto no refluyente desde las anastomosis ureterales hasta un estoma cutáneo aflorante en la fosa ilíaca derecha. Es la forma más sencilla, segura y ampliamente utilizada de derivación, preferida en pacientes mayores, con comorbilidades significativas o cuando el margen uretral es positivo.\n\nLa neovejiga ortotópica (neovejiga ileal de Hautmann, bolsa de Studer o vejiga ileal de Padua) crea un reservorio de baja presión a partir de un segmento ileal destubularizado de 50-60 cm, anastomosado a la uretra nativa. El reservorio debe destubularizarse para romper la onda de presión peristáltica y lograr un almacenamiento de baja presión (<40 cmH₂O). La bolsa W de Hautmann utiliza cuatro segmentos de 15 cm dispuestos en W, con una capacidad mediana de 400-500 mL. Las tasas de continencia diurna (seca a los 12 meses) son del 80-90% en hombres y del 70-85% en mujeres. La incontinencia nocturna afecta al 20-30% de los pacientes debido a la pérdida del reflejo miccional espinal y la reducción de la percepción del llenado del reservorio durante el sueño. El cateterismo intermitente limpio (CIL) es necesario en el 10-15% de los pacientes por retención crónica, más frecuente en mujeres (el riesgo de fístula neovejiga-vaginal en mujeres es del 5-10%).\n\nLa bolsa de Kock o bolsa de Indiana cutánea continente crea un reservorio abdominal cateterizable a través de un canal tipo Mitrofanoff o un segmento ileal eferente disminuido. Son técnicamente más exigentes con mayores tasas de complicaciones y revisiones que el conducto ileal. Se prefieren cuando la neovejiga ortotópica no es posible pero el paciente desea firmemente continencia sin un dispositivo externo."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Anastomosis Ureteroileal y Estenosis Tardía",
+          "content": "La estenosis anastomótica ureteroileal tardía es la complicación tardía más frecuente del conducto ileal (incidencia del 5-15% a los 10 años, más frecuente en el lado izquierdo por tensión o isquemia). Se presenta como hidronefrosis con deterioro de la función renal o infección urinaria recurrente. El diagnóstico se realiza mediante loopografía o urografía por TC. Tratamiento: dilatación endoscópica con balón (50% de éxito a largo plazo) o revisión abierta/laparoscópica con reimplantación del uréter en el conducto."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Derivación Intracorpórea frente a Extracorpórea en CRAR",
+          "content": "La derivación urinaria intracorpórea (iCRAR) — creación del conducto o la neovejiga laparoscópicamente a través del robot — es técnicamente exigente pero se ha demostrado que reduce aún más las tasas de transfusión, la estancia hospitalaria y las tasas de complicaciones tempranas en comparación con la derivación extracorpórea tras CRAR. Los centros de alto volumen de CRAR que realizan ≥50 iCRAR/año obtienen resultados equivalentes a las series abiertas. Los datos del registro IRCU (International Robot-assisted Cystectomy Consortium) respaldan la iCRAR como abordaje preferido en centros con experiencia."
+        }
+      ]
+    },
+    {
+      "id": "A5-S5",
+      "title": "Protocolo ERAS para Cistectomía Radical",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los protocolos de Recuperación Mejorada tras la Cirugía (ERAS) para la cistectomía radical han sido validados en múltiples ECA y metaanálisis, reduciendo la estancia hospitalaria en 2-4 días y las tasas de complicaciones mayores en un 25-35% sin aumentar las tasas de reingreso. Las guías ERAS de la EAU 2022 para la cistectomía radical abarcan elementos preoperatorios, intraoperatorios y postoperatorios.\n\nLos elementos ERAS preoperatorios clave incluyen: asesoramiento preoperatorio (marcación del estoma por terapeuta de estomas), la preparación mecánica del intestino NO está recomendada (aumenta la dehiscencia e íleo — evitada en ERAS EAU 2022), carga de carbohidratos (400 mL de bebida con carbohidratos 2 horas antes de la cirugía, reduce la resistencia a la insulina y la fatiga) y prehabilitación multimodal (ejercicio, optimización nutricional, abandono del tabaquismo ≥4 semanas preoperatorio).\n\nElementos ERAS intraoperatorios: terapia dirigida por objetivos (TDO) orientada a la optimización del volumen sistólico previene tanto la hipovolemia como la sobrecarga de fluidos (siendo esta última la causa principal del íleo y las complicaciones pulmonares en la cistectomía); anestesia epidural o bloqueo del plano transverso del abdomen (TAP) para analgesia toracoabdominal reduce los requerimientos de opioides; control de temperatura (calentamiento activo) previene la hipotermia; la sonda nasogástrica debe retirarse al final de la cirugía (no dejarse in situ).\n\nElementos ERAS postoperatorios: ingesta oral precoz de líquidos (6 horas postoperatorio), movilización precoz (primer día postoperatorio), analgesia multimodal (paracetamol + AINEs + bloqueo regional), estimulación intestinal (laxantes orales, masticación de chicle), cuidado del catéter vesical y profilaxis de trombosis venosa profunda (HBPM durante 4 semanas post-alta para cirugía pélvica con malignidad). La validación prospectiva de Karl et al. (Eur Urol 2014) demostró una estancia mediana de 8 frente a 14 días con ERAS frente a cuidado estándar."
+        },
+        {
+          "type": "table",
+          "title": "Elementos ERAS Clave para la Cistectomía Radical (EAU 2022)",
+          "headers": ["Fase", "Elemento", "Grado de Evidencia", "Recomendación"],
+          "rows": [
+            ["Preop", "Carga de carbohidratos 2h antes de la cirugía", "Fuerte", "Recomendar (Grado A)"],
+            ["Preop", "Preparación mecánica intestinal", "Fuerte", "Evitar — aumenta el íleo (Grado A)"],
+            ["Preop", "Abandono del tabaquismo ≥4 semanas", "Moderado", "Recomendar (Grado B)"],
+            ["Intraop", "Terapia dirigida por objetivos", "Fuerte", "Recomendar (Grado A)"],
+            ["Intraop", "Epidural/bloqueo TAP para analgesia", "Fuerte", "Recomendar (Grado A)"],
+            ["Intraop", "Retirar sonda NG al final de la cirugía", "Moderado", "Recomendar (Grado B)"],
+            ["Postop", "Alimentación oral precoz 6h postop", "Fuerte", "Recomendar (Grado A)"],
+            ["Postop", "Movilización precoz DPO1", "Fuerte", "Recomendar (Grado A)"],
+            ["Postop", "Profilaxis con HBPM ×4 semanas", "Fuerte", "Recomendar (Grado A)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Preparación Mecánica del Intestino",
+          "content": "La preparación mecánica del intestino (PMI) antes de la cistectomía radical NO está recomendada por las guías ERAS EAU 2022. A pesar del uso histórico, la evidencia aleatorizada muestra que la PMI aumenta los trastornos electrolíticos, el malestar del paciente y las tasas de íleo postoperatorio sin reducir las complicaciones anastomóticas. Los antibióticos orales (neomicina + metronidazol o eritromicina) el día anterior a la cirugía pueden reducir la flora intestinal y están recomendados. La PMI debe evitarse en todos los programas de cistectomía conformes con ERAS."
+        }
+      ]
+    },
+    {
+      "id": "A5-S6",
+      "title": "Complicaciones de la Cistectomía Radical y la Derivación Urinaria",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La cistectomía radical tiene una de las tasas de complicaciones más elevadas de cualquier operación urológica. La tasa de complicaciones mayores a 90 días (Clavien-Dindo grado ≥3) es del 20-30%, y la tasa global (cualquier grado) es del 50-60% en series abiertas contemporáneas, con tasas comparables para la CRAR. La mortalidad dentro de los 90 días es del 2-3% en centros de alto volumen, pero puede alcanzar el 5-8% en poblaciones de bajo volumen, ancianos o con comorbilidades.\n\nLas complicaciones tempranas (dentro de los 30 días) incluyen: íleo paralítico (más frecuente, 20-30%), infección de la herida (5-10%), fuga urinaria de la anastomosis ureteroileal (2-5%), trombosis venosa profunda (3-5%) y tromboembolia pulmonar (1-2%). El íleo prolongado se reduce con los protocolos ERAS, la ingesta oral precoz, la evitación de PMI y la limitación del uso de opioides. Las complicaciones Clavien-Dindo grado ≥3 incluyen: reoperación por fuga anastomótica (2-5%), obstrucción intestinal que requiere cirugía (3%), infarto de miocardio (1-2%) y complicaciones pulmonares que requieren UCI (2-3%).\n\nLas complicaciones tardías de la derivación urinaria son específicas de la derivación. Las complicaciones tardías del conducto ileal incluyen: hernia paraestomal (20-30% a los 10 años), estenosis del estoma (5-10%), estenosis ureteroileal (5-15%) y deterioro renal por reflujo crónico u obstrucción (el 30-40% tienen cambios en el tracto superior a los 10 años). Las complicaciones tardías de la neovejiga ortotópica incluyen: incontinencia diurna (15-20%), incontinencia nocturna (25-30%), retención urinaria crónica que requiere CIL (10-15% en hombres, 15-25% en mujeres), acidosis metabólica (hiperclorémica por absorción ileal de amonio — 15%) y déficit de vitamina B12 por uso del íleon terminal (requiere suplementación después de 2 años).\n\nLas complicaciones metabólicas de los reservorios ileales incluyen acidosis metabólica hiperclorémica (por reabsorción de amonio por la mucosa ileal — manejada con suplementación de bicarbonato), déficit de vitamina B12 (la resección del íleon terminal reduce el receptor del factor intrínseco — inyección de B12 cada 3 meses a partir de los 2-3 años) e hipomagnesemia. Los análisis de sangre metabólicos anuales (electrolitos, bicarbonato, B12, Mg) son obligatorios para todos los pacientes con derivaciones ileales."
+        },
+        {
+          "type": "table",
+          "title": "Complicaciones Tardías Frecuentes por Tipo de Derivación",
+          "headers": ["Complicación", "Conducto Ileal", "Neovejiga Ortotópica", "Manejo"],
+          "rows": [
+            ["Incontinencia diurna", "N/A (estoma)", "15-20%", "Rehabilitación del suelo pélvico; CIL si retención"],
+            ["Incontinencia nocturna", "N/A", "25-30%", "Vaciado con despertador; uso de absorbente"],
+            ["Estenosis ureteroileal", "5-15%", "5-10%", "Dilatación endoscópica o revisión abierta"],
+            ["Hernia paraestomal", "20-30%", "N/A", "Reparación quirúrgica; malla profiláctica en la creación"],
+            ["Acidosis metabólica", "Rara", "15%", "Suplementación oral con NaHCO₃"],
+            ["Déficit de vitamina B12", "Poco frecuente", "A partir de 2-3 años", "B12 IM cada 3 meses"],
+            ["Fístula neovejiga-vaginal", "N/A", "5-10% (mujeres)", "Reparación quirúrgica; puede requerir conversión a conducto"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A5-S7",
+      "title": "Resultados Oncológicos y Vigilancia tras la Cistectomía Radical",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los resultados oncológicos tras la cistectomía radical dependen principalmente del estadio patológico y del estado ganglionar. Supervivencia específica por cáncer (SEC) a 5 años por estadio patológico en series contemporáneas: pT0 (RPC tras QNA): 85-90%, pT1: 80-85%, pT2: 70-75%, pT3a: 55-60%, pT3b: 45-50%, pT4: 30-35%, pN+: 25-35%. La tasa de RPC (pT0N0) tras QNA es el predictor más importante de supervivencia a largo plazo y justifica la imagen preoperatoria de alta calidad y la RTUV para seleccionar a los pacientes con mayor probabilidad de beneficiarse de la QNA.\n\nLa recurrencia uretral tras la CR ocurre en el 4-8% de los hombres y en el 1-3% de las mujeres. Los factores de riesgo de recurrencia uretral incluyen: afectación uretral prostática (especialmente invasión estromal), CIS extenso cerca del cuello vesical, margen uretral positivo en la CR y CIS multifocal. Los pacientes con neovejiga ortotópica tienen riesgo de recurrencia uretral — se recomiendan lavados uretrales anuales para citología. La recurrencia uretral confirmada por uretrascopia y biopsia requiere uretrectomía; la neovejiga puede dejarse in situ si la derivación continente sigue siendo posible mediante CIL, o convertirse a conducto ileal.\n\nCalendario de vigilancia EAU 2024 post-CR: TC tórax/abdomen/pelvis a los 3 meses, luego cada 6 meses durante 5 años, luego anualmente. Función renal (FG), electrolitos y B12 anualmente. Para patología de alto riesgo (pT3-4 o pN+), se recomienda imagen más frecuente a intervalos de 3 meses durante los primeros 2 años. La vigilancia del tracto superior con urografía por TC cada 1-2 años para detectar nuevo CU del tracto superior (riesgo acumulado del 2-4%) es esencial."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Discordancia entre Estadio Patológico y Estadio Clínico",
+          "content": "La subescalada clínica en la RTUV es frecuente para el cáncer de vejiga: el 30-50% de los tumores cT2 se subestadifican a pT3 o pT4 en la cistectomía. Los tumores clínicos T1 (músculo-invasivos no confirmados) tienen una tasa del 15-20% de pT3+ patológico en la cistectomía. Por eso la QNA basada en la estadificación clínica de la RTUV (no en la estadificación patológica post-cistectomía) es el enfoque correcto — el tratamiento neoadyuvante se administra antes de que se confirme la subescalada patológica, precisamente para abordar la alta tasa de subescalada."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Cistectomía de Rescate por Fracaso de la Terapia Trimodal",
+          "content": "Aproximadamente el 25-30% de los pacientes que se someten a TMT requerirán cistectomía de rescate por recidiva local en los 5 años siguientes. La factibilidad y la morbilidad de la cistectomía de rescate tras radioterapia pélvica son significativamente mayores que la cistectomía primaria — las adherencias intestinales, la fibrosis tisular y el daño intestinal inducido por la radiación aumentan el riesgo de complicaciones Clavien-Dindo grado ≥3 al 40-50%. Por lo general, no se recomienda una neovejiga continente tras la RT pélvica debido a la cicatrización deteriorada de la anastomosis ileal a la uretra irradiada. El asesoramiento preoperatorio para la TMT debe incluir una discusión explícita del riesgo y la morbilidad de la cistectomía de rescate."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Pon a prueba tus conocimientos sobre la técnica de cistectomía radical, la derivación urinaria, los protocolos ERAS y las complicaciones con 20 preguntas tipo examen.",
+    "questions": [
+      {
+        "id": "A5-Q1",
+        "stem": "Un varón de 67 años está programado para cistectomía radical asistida por robot con conducto ileal para CVMI pT2 tras ddMVAC neoadyuvante × 4 ciclos. La QNA se completó hace 8 semanas. Durante el procedimiento, la biopsia por congelación intraoperatoria del margen uretral resulta positiva para carcinoma urotelial. ¿Cuál es el siguiente paso adecuado?",
+        "options": {
+          "A": "Proceder con la neovejiga ortotópica planificada — la biopsia por congelación puede ser un falso positivo",
+          "B": "Abortar la cistectomía y reprogramar con resección de margen uretral más amplio",
+          "C": "Realizar uretrectomía y crear un conducto ileal en lugar de neovejiga",
+          "D": "Realizar uretrectomía y crear una bolsa cutánea continente (Indiana)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Un margen uretral positivo en la biopsia por congelación es una contraindicación absoluta para la neovejiga ortotópica. La respuesta correcta es realizar uretrectomía (extirpando todo el tumor uretral) y crear un conducto ileal como derivación urinaria. El conducto ileal no requiere uretra intacta — los uréteres se anastomosan a un segmento ileal isoperistáltico y se llevan a un estoma cutáneo. Las guías EAU 2024 exigen la biopsia por congelación del margen uretral antes de cualquier construcción de neovejiga; los márgenes positivos obligan a la conversión a una derivación alternativa.",
+          "wrong": {
+            "A": "La biopsia por congelación del margen uretral es un paso de calidad obligatorio previo a la neovejiga — su resultado no debe descartarse como 'falso positivo' sin tomar nuevas muestras. Construir una neovejiga sobre un margen uretral positivo arriesga recurrencia local, fístula uretral y tumor en la línea anastomótica.",
+            "B": "Abortar la cistectomía no es adecuado. La cistectomía debe proceder; solo cambia el tipo de derivación urinaria. Reprogramar retrasa innecesariamente el tratamiento oncológico.",
+            "D": "Una bolsa cutánea continente (Indiana/Kock) también requiere la derivación de los uréteres, pero a diferencia del conducto ileal, crea un reservorio continente — esta es una opción más compleja que puede ser adecuada, pero el conducto ileal es la elección más sencilla y segura cuando se excluye la neovejiga."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3.4: Criterios de selección de la derivación urinaria",
+          "trial": "Hautmann RE et al. Ileal neobladder — 923 patients: el margen uretral es el factor más crítico para la elegibilidad para neovejiga. J Urol 2006.",
+          "pearl": "Margen uretral positivo en biopsia por congelación = CONTRAINDICACIÓN ABSOLUTA para neovejiga ortotópica. Realizar uretrectomía + conducto ileal (o derivación cutánea continente). Nunca construir una neovejiga sobre un margen uretral positivo — las consecuencias oncológicas y funcionales son graves."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A5-Q2",
+        "stem": "¿Qué elemento ERAS para la cistectomía radical tiene la evidencia más sólida (recomendación Grado A, EAU ERAS 2022) para reducir el íleo postoperatorio?",
+        "options": {
+          "A": "Preparación mecánica del intestino con polietilenglicol el día anterior a la cirugía",
+          "B": "Terapia de fluidos intraoperatoria dirigida por objetivos orientada al volumen sistólico",
+          "C": "Drenaje por sonda nasogástrica durante las primeras 48 horas postoperatorias",
+          "D": "Nutrición parenteral total durante 7 días postoperatorios"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La terapia dirigida por objetivos (TDO) — utilizando la optimización del volumen sistólico a través de Doppler esofágico, línea arterial o FloTrac para guiar la administración intraoperatoria de fluidos — es el elemento ERAS con mayor evidencia para reducir el íleo paralítico y las complicaciones pulmonares tras la cistectomía radical. Tanto la infraresucitación (causando isquemia intestinal) como la sobrerresucitación (edema intestinal, íleo) empeoran los resultados. La TDO es una recomendación de Grado A en las guías ERAS EAU 2022.",
+          "wrong": {
+            "A": "La preparación mecánica del intestino está explícitamente NO recomendada por las guías ERAS EAU 2022. Múltiples ECA demuestran que la PMI aumenta el íleo, los trastornos electrolíticos y la incomodidad del paciente sin reducir las complicaciones anastomóticas.",
+            "C": "Las sondas nasogástricas deben retirarse al final de la cirugía — el drenaje NG prolongado no reduce el íleo y retrasa el retorno a la ingesta oral. Las guías ERAS EAU 2022 recomiendan alimentación oral precoz a partir de las 6 horas postoperatorias.",
+            "D": "La nutrición parenteral total (NPT) está reservada para pacientes que no pueden ser alimentados por vía enteral durante >7 días. No es un componente rutinario de ERAS y se asocia a infecciones relacionadas con el catéter e hiperglucemia."
+          },
+          "guideline": "EAU Guidelines on Perioperative Care in Urology: ERAS Protocol for Radical Cystectomy (Karl et al., 2022) — Recomendaciones Grado A",
+          "trial": "Karl A et al. A systematic review of level 1 evidence for enhanced recovery pathways in major urological surgery. Eur Urol 2014: ERAS redujo la estancia de 14 a 8 días con la TDO como elemento clave.",
+          "pearl": "Recomendaciones Grado A clave de ERAS para cistectomía: (1) SIN preparación mecánica intestinal, (2) terapia dirigida por objetivos, (3) retirar sonda NG al final de la cirugía, (4) alimentación oral desde 6h postop, (5) movilización precoz DPO1, (6) HBPM × 4 semanas post-alta."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q3",
+        "stem": "Un varón de 71 años se sometió a cistectomía radical abierta con conducto ileal hace 3 años por CVMI pT3a N0. Ahora presenta hidroureteronefrosis bilateral y creatinina en aumento (1,8 mg/dL, basal 1,0 mg/dL). No tiene dolor en el flanco. La loopografía muestra estrechamiento bilateral en las anastomosis ureteroileales. ¿Cuál es el diagnóstico más probable?",
+        "options": {
+          "A": "Recurrencia tumoral en la pared del conducto",
+          "B": "Estenosis anastomóticas ureteroileales",
+          "C": "Hernia paraestomal con acodamiento ureteral",
+          "D": "Recurrencia en ganglios linfáticos retroperitoneales con compresión extrínseca"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La estenosis anastomótica ureteroileal es la complicación tardía más frecuente del conducto ileal, ocurriendo en el 5-15% de los casos a los 10 años. Es más frecuente en el lado izquierdo (debido a la mayor tensión en la anastomosis del uréter izquierdo más largo). La presentación es hidronefrosis bilateral o unilateral con creatinina en aumento gradual y sin dolor. La loopografía (inyección de contraste retrógrado a través del estoma) muestra característicamente estrechamiento en los sitios anastomóticos. Tratamiento: dilatación endoscópica con balón (50% de éxito duradero) o revisión quirúrgica (reimplantación del uréter en el conducto).",
+          "wrong": {
+            "A": "La recurrencia del CU en la pared del conducto es rara (tumor secundario en la mucosa del conducto), no causa obstrucción ureteral bilateral en los sitios anastomóticos y aparecería como un defecto de repleción dentro del conducto en lugar de estenosis en la unión ureteroileal.",
+            "C": "La hernia paraestomal causa disfunción del estoma y protrusión peristomal pero típicamente no causa estenosis ureteroileales bilaterales. El hallazgo loopográfico de estrechamiento anastomótico bilateral señala a la anastomosis, no al estoma.",
+            "D": "La recurrencia retroperitoneal con compresión ureteral extrínseca bilateral es posible pero se vería como efecto de masa extrínseco en la TC, no como estrechamiento anastomótico intrínseco en la loopografía."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3.5: Complicaciones de la derivación urinaria",
+          "trial": "Frazier HA et al. Long-term followup of ileal conduit urinary diversion: complications over 5, 10, and 20 years. J Urol 1993: estenosis ureteroileal en 5-15% a los 10 años — complicación anastomótica tardía más frecuente.",
+          "pearl": "La estenosis anastomótica ureteroileal (5-15% a los 10 años) es la complicación tardía más frecuente del conducto ileal. Predominio izquierdo por tensión anastomótica. Diagnosticar con loopografía o urografía por TC. Tratar con dilatación endoscópica (50% de éxito a largo plazo) o reimplantación quirúrgica."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q4",
+        "stem": "Una mujer de 58 años se somete a cistectomía radical con neovejiga ortotópica por CVMI cT2 N0. Dieciocho meses después, presenta pérdida de orina por la vagina. La TC confirma un trayecto fistuloso entre la neovejiga y la vagina. ¿Cuál es la investigación inicial más adecuada y la etiología probable?",
+        "options": {
+          "A": "Cistoscopia + biopsia — probable recurrencia tumoral en la unión neovejiga-vaginal",
+          "B": "RM pélvica + cistoscopia — fístula neovejiga-vaginal por isquemia de la pared vaginal anterior en el momento de la cirugía",
+          "C": "PET-TC — probable recurrencia en ganglios linfáticos que causa fistulización",
+          "D": "Perfilometría de presión uretral — incompetencia del esfínter uretral que causa pérdida vaginal"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La fístula neovejiga-vaginal es una complicación específica de la neovejiga ortotópica en mujeres, ocurriendo en el 5-10% de los casos. El mecanismo es la necrosis isquémica de la pared vaginal anterior durante la cistectomía o por tensión en el plano de tejido neovejiga-vaginal durante el cierre. La RM pélvica caracteriza la anatomía de la fístula y excluye la recurrencia tumoral. La cistoscopia confirma la apertura de la fístula y permite la biopsia para excluir recurrencia de cáncer. El tratamiento es la reparación quirúrgica — si se excluye la recurrencia tumoral, se planifica el cierre primario o la conversión a conducto ileal.",
+          "wrong": {
+            "A": "Si bien la recurrencia tumoral debe excluirse mediante biopsia, 18 meses después de la cistectomía por enfermedad pT2 N0, una fístula isquémica benigna es mucho más probable que la recurrencia en la unión neovejiga-vaginal. La biopsia forma parte del estudio pero no es la investigación primaria — la RM caracteriza primero la anatomía.",
+            "C": "La PET-TC detectaría recurrencia a distancia o ganglionar pero no es la investigación primaria para una fístula vaginal. La fístula debe caracterizarse anatómicamente primero y confirmarse como benigna o maligna.",
+            "D": "La perfilometría de presión uretral evalúa la función esfinteriana para la incontinencia urinaria de esfuerzo pero no diagnostica una fístula. La pérdida vaginal tras neovejiga es una entidad distinta de la incontinencia post-cistectomía."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3.6: Complicaciones de la neovejiga ortotópica femenina",
+          "trial": "Stenzl A et al. Female orthotopic bladder substitution: a critical update. Eur Urol 2010: fístula neovejiga-vaginal en 5-10% — complicación específica más frecuente de la derivación ortotópica femenina.",
+          "pearl": "La fístula neovejiga-vaginal (5-10% en mujeres) es la complicación más específica de la neovejiga ortotópica femenina. Causada por isquemia de la pared vaginal anterior o tensión en la anastomosis de la neovejiga. Investigar con RM pélvica + cistoscopia. Biopsia para excluir recurrencia antes de planificar la reparación."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q5",
+        "stem": "¿Cuál es el rendimiento ganglionar mínimo requerido para cumplir el estándar de calidad EAU 2024 para la linfadenectomía pélvica extendida en la cistectomía radical?",
+        "options": {
+          "A": "5 ganglios",
+          "B": "10 ganglios",
+          "C": "20 ganglios",
+          "D": "30 ganglios"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Las guías EAU 2024 definen un rendimiento ganglionar mínimo de 10 ganglios como indicador de calidad para la linfadenectomía pélvica extendida (LPE) en la cistectomía radical. Los recuentos ganglionares por debajo de 10 indican una plantilla de disección inadecuada o un procesamiento patológico deficiente. Los rendimientos ganglionares más elevados mejoran la precisión de estadificación y se asocian a una mejor supervivencia de forma independiente del estado ganglionar.",
+          "wrong": {
+            "A": "5 ganglios es insuficiente e indica una plantilla de disección limitada (no extendida) o procesamiento/envío patológico deficiente.",
+            "C": "20 ganglios es el rendimiento mediano esperado de una LPE de alta calidad pero no es el umbral mínimo del indicador de calidad EAU. El umbral es 10 ganglios.",
+            "D": "30 ganglios corresponde a los rendimientos de la PLND superextendida hasta la arteria mesentérica inferior — el ensayo SWOG S1011 no mostró beneficio en SG para esta extensión sobre la LPE."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3.2: Indicador de calidad de la PLND",
+          "trial": "Gschwend JE et al. SWOG S1011: LPE extendida vs superextendida en cistectomía radical. JAMA Surg 2019: sin beneficio en SG para la superextendida; el rendimiento mínimo de 10 ganglios es el umbral de calidad EAU.",
+          "pearl": "Indicador de calidad de LPE EAU 2024: mínimo 10 ganglios linfáticos. La plantilla de LPE se extiende hasta la bifurcación aórtica (ganglios ilíacos comunes, externo/interno, obturador, presacros). Rendimiento <10 = disección inadecuada. Un mayor rendimiento mejora la estadificación y puede conferir beneficio terapéutico."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A5-Q6",
+        "stem": "Un varón de 65 años con neovejiga ortotópica presenta 3 años después de la cistectomía fatiga, entumecimiento en las yemas de los dedos y un nivel de vitamina B12 sérica de 95 pg/mL (normal >200 pg/mL). ¿Cuál es el mecanismo del déficit de vitamina B12 en este paciente?",
+        "options": {
+          "A": "Ingesta dietética insuficiente de B12 por anorexia postoperatoria",
+          "B": "Resección del íleon terminal para la construcción de la neovejiga que impide la absorción a través del receptor del factor intrínseco",
+          "C": "Antagonismo de B12 inducido por metotrexato de la quimioterapia previa",
+          "D": "Anemia perniciosa inducida por Helicobacter pylori como hallazgo coincidente"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La construcción de la neovejiga ortotópica utiliza 50-60 cm de íleon terminal, que es el sitio exclusivo de absorción de la vitamina B12 a través de los receptores del factor intrínseco (FI). La resección del íleon terminal elimina la superficie de absorción para el complejo FI-B12. El déficit de B12 se manifiesta como anemia megaloblástica y degeneración combinada subaguda (neuropatía periférica, afectación de columnas posteriores) a los 2-3 años cuando se agotan las reservas corporales. Todos los pacientes con neovejiga ileal requieren suplementación intramuscular de B12 (1000 mcg IM cada 3 meses) a partir de los 2 años postcirugía.",
+          "wrong": {
+            "A": "El déficit dietético de B12 solo no causa déficit clínico en 3 años — las reservas corporales duran 2-5 años en adultos normales. El mecanismo aquí es la malabsorción por pérdida del receptor FI, no la insuficiencia dietética.",
+            "C": "La quimioterapia con MVAC o GC no incluye metotrexato a dosis que causen antagonismo clínicamente significativo de B12. El ddMVAC utiliza metotrexato en dosis bajas (30 mg/m²) — no es causa de déficit de B12 a dosis terapéuticas.",
+            "D": "La anemia perniciosa asociada a H. pylori es una posibilidad coincidente pero no es el mecanismo primario aquí. La resección ileal es la causa directa — es una complicación específica del diagnóstico de la neovejiga, no un hallazgo coincidental."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3.7: Complicaciones metabólicas de la derivación urinaria",
+          "trial": "Studer UE et al. Orthotopic ileal neobladder — 20-year experience. J Urol 2006: el déficit de B12 que requiere suplementación se desarrolla en el 15-20% de los pacientes a los 5 años de la construcción.",
+          "pearl": "El déficit de B12 es una complicación predecible y prevenible de la neovejiga ileal y el conducto ileal debido a la resección del íleon terminal. Monitorizar B12 sérica anualmente; suplementar con B12 IM (1000 mcg cada 3 meses) a partir de los 2 años postcirugía en todos los pacientes con resección ileal >30 cm."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q7",
+        "stem": "El ensayo RAZOR comparó la cistectomía radical asistida por robot (CRAR) con la cistectomía radical abierta (CRA). ¿Cuál fue el criterio de valoración principal y la conclusión de este ECA de fase III?",
+        "options": {
+          "A": "La CRAR fue superior a la CRA en supervivencia global a 2 años",
+          "B": "La CRAR fue no inferior a la CRA en supervivencia libre de progresión a 2 años, con menor pérdida de sangre y menor estancia",
+          "C": "La CRA fue superior a la CRAR en rendimiento ganglionar y tasas de márgenes negativos",
+          "D": "La CRAR tuvo tasas de complicaciones Clavien-Dindo grado ≥3 significativamente más altas que la CRA"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo RAZOR (Parekh et al., Lancet 2018) fue un ECA de no inferioridad de fase III con 302 pacientes aleatorizados a CRAR (derivación extracorpórea) frente a CRA. El criterio de valoración principal fue la supervivencia libre de progresión a 2 años — la CRAR demostró no inferioridad (72,3% frente a 71,6%). La CRAR presentó pérdida de sangre estimada significativamente reducida (200 frente a 600 mL), menor tasa de transfusión y menor estancia mediana (6 frente a 8 días) con tasas de complicaciones y rendimientos ganglionares comparables.",
+          "wrong": {
+            "A": "RAZOR fue un ensayo de no inferioridad para SLP, no un ensayo de superioridad para SG. No hubo diferencia en SG — esto es esperado para una comparación de abordaje quirúrgico, ya que la técnica no mejora la biología del cáncer.",
+            "C": "RAZOR no encontró diferencia significativa en el rendimiento ganglionar ni en las tasas de márgenes positivos entre CRAR y CRA — estos indicadores de calidad fueron equivalentes.",
+            "D": "RAZOR mostró tasas de complicaciones Clavien-Dindo grado ≥3 comparables entre CRAR y CRA. La CRAR tuvo significativamente menor pérdida de sangre y menor tasa de transfusión, no tasas de complicaciones más altas."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3.1: Abordaje quirúrgico (abierto vs CRAR)",
+          "trial": "Parekh DJ et al. RAZOR trial: Cistectomía radical asistida por robot vs abierta — ECA de fase 3. Lancet 2018: No inferioridad en SLP; CRAR redujo pérdida de sangre (200 vs 600 mL) y estancia (6 vs 8 días).",
+          "pearl": "Ensayo RAZOR: La CRAR es no inferior a la CRA en SLP a 2 años con pérdida de sangre y estancia significativamente reducidas. La CRAR intracorpórea (iCRAR) en centros de alto volumen mejora aún más estos resultados. Equivalencia oncológica — la elección de técnica depende de la experiencia del cirujano/centro."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q8",
+        "stem": "Un varón de 60 años, 2 años post-cistectomía con conducto ileal, presenta una protrusión alrededor de su estoma que aumenta con la maniobra de Valsalva. Es asintomático. ¿Cuál es el diagnóstico más probable y el manejo inicial recomendado?",
+        "options": {
+          "A": "Prolapso estomal — se requiere revisión quirúrgica inmediata",
+          "B": "Hernia paraestomal — manejo conservador con faja de soporte, reparación quirúrgica electiva cuando sea sintomática o creciente",
+          "C": "Recurrencia en el conducto — cistoscopia urgente y biopsia",
+          "D": "Obstrucción del conducto — colocación de nefrostomía y urografía por TC"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La hernia paraestomal es la complicación estomal tardía más frecuente del conducto ileal, ocurriendo en el 20-30% de los pacientes a los 10 años. Se manifiesta como una protrusión peristomal que aumenta con la maniobra de Valsalva o de pie. Para las hernias paraestomales pequeñas y asintomáticas, el manejo conservador con una faja de soporte ajustada y el dispositivo de estoma es adecuado. Las indicaciones para la reparación quirúrgica incluyen: dolor, fuga del dispositivo, complicaciones cutáneas, incarceración, estrangulación u obstrucción. La colocación profiláctica de malla en el momento de la creación inicial del conducto reduce el riesgo de hernia paraestomal.",
+          "wrong": {
+            "A": "El prolapso estomal (el conducto prolapa a través del estoma) es una entidad diferente a la hernia paraestomal. Una protrusión peristomal con Valsalva con un estoma en posición normal es característico de la hernia paraestomal. La reparación inmediata no es necesaria para una hernia asintomática.",
+            "C": "Una recurrencia en el conducto se presentaría con hematuria, defecto de repleción en la loopografía o síntomas sistémicos — no una protrusión peristomal reducible. La cistoscopia del conducto (looposcopia) no está indicada sin hematuria ni loopografía anormal.",
+            "D": "La obstrucción del conducto se presenta con hidronefrosis, creatinina en aumento y posiblemente dolor — no una protrusión peristomal blanda. La urografía por TC es adecuada para la obstrucción sospechada, no para una presentación clásica de hernia paraestomal."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3.5: Complicaciones del conducto ileal",
+          "trial": "Frazier HA et al. Long-term followup of ileal conduit urinary diversion. J Urol 1993: hernia paraestomal en 20-30% a los 10 años — complicación estomal tardía más frecuente.",
+          "pearl": "Hernia paraestomal (20-30% a los 10 años) es la complicación tardía más frecuente del estoma del conducto ileal. Asintomática: conservador (faja de soporte). Reparación quirúrgica para: dolor, fuga del dispositivo, problemas cutáneos, incarceración. La malla profiláctica reduce la incidencia — considerar en la cirugía índice."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q9",
+        "stem": "Un varón de 72 años presenta fatiga, confusión y respiración de Kussmaul 6 meses después de la construcción de una neovejiga ortotópica. La gasometría muestra pH 7,28, HCO₃ 16 mEq/L, pCO₂ 34 mmHg (compensada). El cloro sérico es 115 mEq/L. ¿Qué complicación metabólica es responsable?",
+        "options": {
+          "A": "Alcalosis metabólica hiponatrémica por secreción de moco de la neovejiga",
+          "B": "Acidosis metabólica hiperclorémica por reabsorción ileal de amonio",
+          "C": "Acidosis láctica por isquemia de la neovejiga",
+          "D": "Acidosis respiratoria por hipoventilación crónica"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La acidosis metabólica hiperclorémica es la complicación metabólica más frecuente de los reservorios urinarios ileales (neovejiga y conducto ileal), ocurriendo en ~15% de los pacientes. El mecanismo: la orina retenida en el reservorio ileal permite la reabsorción de amonio (NH4+) y cloruro (Cl-) por la mucosa ileal, con secreción simultánea de bicarbonato al reservorio. Esto resulta en hipercloremia sistémica, depleción de bicarbonato y acidosis metabólica de brecha aniónica normal. Presentación: fatiga, anorexia, confusión (por efectos del sistema nervioso central de la acidosis) y respiración de Kussmaul. Tratamiento: suplementación oral con bicarbonato sódico (1-2 g tres veces al día) con monitorización del bicarbonato sérico.",
+          "wrong": {
+            "A": "La alcalosis metabólica requeriría un mecanismo diferente (pérdida de cloruro, ganancia de iones hidrógeno). La hipercloremia con bicarbonato bajo indica acidosis metabólica, no alcalosis.",
+            "C": "La acidosis láctica mostraría lactato elevado y brecha aniónica elevada, y una causa para la isquemia. La hipercloremia con brecha aniónica normal es el sello de la acidosis por reabsorción de amonio, no de la acidosis láctica.",
+            "D": "La acidosis respiratoria muestra pCO₂ elevado (>45 mmHg), no pCO₂ bajo (34 mmHg, que es compensación respiratoria de la acidosis metabólica). El proceso primario aquí es metabólico, no respiratorio."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3.7: Complicaciones metabólicas de los reservorios ileales",
+          "trial": "Studer UE et al. Orthotopic ileal neobladder — 20-year experience and analysis of metabolic complications. J Urol 2006: acidosis hiperclorémica en 15%; responde a la suplementación oral con bicarbonato.",
+          "pearl": "La acidosis metabólica hiperclorémica (brecha aniónica normal, Cl- alto, HCO₃ bajo) es la complicación metabólica característica de los reservorios urinarios ileales. Causada por reabsorción ileal de NH4+ y Cl- de la orina retenida. Tratar con NaHCO₃ oral. Monitorizar electrolitos + pH anualmente post-cistectomía."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q10",
+        "stem": "Una mujer de 55 años con CVMI pT3b N2 en cistectomía radical no recibió quimioterapia neoadyuvante (inelegible para cisplatino en el momento de la cirugía, ahora FG mejorado a 62 mL/min postoperatorio). Su expresión de PD-L1 (puntuación combinada positiva) es 8%. ¿Qué terapia adyuvante está más respaldada por evidencia de nivel 1 para el beneficio en supervivencia libre de enfermedad?",
+        "options": {
+          "A": "Gemcitabina-cisplatino × 4 ciclos",
+          "B": "Pembrolizumab × 1 año",
+          "C": "Nivolumab × 1 año",
+          "D": "Avelumab × 1 año"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Nivolumab está aprobado por la FDA para el tratamiento adyuvante del CVMI de alto riesgo (pT3-4 o pN+) tras la cirugía radical basándose en CheckMate 274 (Bajorin et al., NEJM 2021). El ensayo mostró beneficio en SLE en general (HR 0,70, p<0,001) y en los pacientes con PD-L1 ≥1% (HR 0,53). Esta paciente tiene enfermedad pT3b N2 — una indicación clara de CheckMate 274. CPS 8% de PD-L1 (< 10) no excluye el beneficio; se demostró un beneficio en la población global independientemente del estado de PD-L1.",
+          "wrong": {
+            "A": "La quimioterapia adyuvante basada en cisplatino tiene evidencia de nivel 1 para SLE (EORTC 30994, HR 0,54) pero no para SG. Nivolumab ha sido aprobado basándose en datos de SLE y es la opción adyuvante preferida según las guías EAU 2024 y NCCN actuales. Con FG mejorado, la quimioterapia con cisplatino podría ofrecerse, pero nivolumab es ahora la opción preferida.",
+            "B": "Pembrolizumab no tiene datos de fase III de cistectomía adyuvante. KEYNOTE-057 es para CVSMI no respondedor a BCG — no para el contexto pT3-4/N+ post-cistectomía.",
+            "D": "El mantenimiento con avelumab (JAVELIN Bladder 100) aplica al CUm no progresante tras quimioterapia con platino — no al contexto adyuvante post-cistectomía."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3.8: Terapia adyuvante tras cistectomía radical",
+          "trial": "Bajorin DF et al. CheckMate 274: Nivolumab adyuvante vs placebo en CVMI de alto riesgo tras cirugía radical. NEJM 2021: SLE HR 0,70 (general), HR 0,53 (PD-L1 ≥1%) — primera aprobación de IO adyuvante para CVMI.",
+          "pearl": "Nivolumab adyuvante × 1 año (CheckMate 274) es el estándar para pT3-4 o pN+ CVMI post-cistectomía sin QNA previa. El beneficio en SLE se observa independientemente del estado de PD-L1, aunque es mayor en PD-L1 ≥1%. Es el único ensayo de terapia adyuvante de fase III que muestra beneficio en SLE con inmunoterapia en CVMI."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q11",
+        "stem": "Un varón de 64 años se ha sometido a cistectomía radical por CVMI. El informe patológico muestra pT4a N0 M0, con invasión del estroma prostático, margen uretral negativo y 14 ganglios linfáticos extirpados (todos negativos). No recibió quimioterapia neoadyuvante. ¿Cuál es la estimación de supervivencia específica por cáncer a 5 años para la enfermedad pT4a N0?",
+        "options": {
+          "A": "85-90%",
+          "B": "70-75%",
+          "C": "50-55%",
+          "D": "30-35%"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "Las series contemporáneas de cistectomía radical informan consistentemente la supervivencia específica por cáncer a 5 años por estadio patológico. Para la enfermedad pT4 N0 (invasión de órganos adyacentes — estroma prostático, útero, vagina, pared abdominal o recto), la SEC a 5 años es de aproximadamente el 30-40%. El pT4a N0 tiene un pronóstico ligeramente mejor que pT4b (invasión de la pared pélvica o abdominal), con la mayoría de las series reportando 30-35% de SEC a 5 años para pT4a sin afectación ganglionar.",
+          "wrong": {
+            "A": "85-90% corresponde a pT0 (respuesta patológica completa tras QNA) o enfermedad pT1 — pronóstico mucho mejor que pT4a.",
+            "B": "70-75% corresponde a la enfermedad pT2 (músculo-invasiva confinada al órgano) — pronóstico mucho mejor que pT4a.",
+            "C": "50-55% corresponde a la enfermedad pT3a (invasión microscópica de la grasa perivesical) — aún sustancialmente mejor que pT4a."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3.9: Resultados oncológicos por estadio patológico",
+          "trial": "Stein JP et al. Radical cystectomy in the treatment of invasive bladder cancer: long-term results in 1,054 patients. J Clin Oncol 2001: SEC a 5 años pT4a N0 32-38% en grandes series de cistectomía.",
+          "pearl": "SEC a 5 años por estadio pT tras cistectomía radical: pT0=85-90%, pT1=80-85%, pT2=70-75%, pT3a=55-60%, pT3b=45-50%, pT4=30-35%, pN+=25-35%. La brusca caída en pT3b y pT4 justifica la vigilancia intensiva y la terapia adyuvante en estos pacientes."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q12",
+        "stem": "Durante la creación de un conducto ileal, el cirujano selecciona el segmento ileal. ¿Cuál de los siguientes describe correctamente la distancia mínima desde la válvula ileocecal a la que debe resecarse el segmento ileal?",
+        "options": {
+          "A": "5 cm desde la válvula ileocecal",
+          "B": "15-20 cm desde la válvula ileocecal",
+          "C": "En la unión ileocecal (últimos 15 cm del íleon terminal)",
+          "D": "El lugar de selección es irrelevante siempre que se obtenga una longitud adecuada"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El conducto ileal utiliza un segmento de 15-20 cm de íleon posicionado a 15-20 cm (mínimo 15 cm) proximal a la válvula ileocecal. Los 15-20 cm terminales del íleon se preservan para mantener la absorción de sales biliares y B12 (a través de transportadores específicos en el íleon terminal). Utilizar el íleon terminal para el conducto arriesgaría la malabsorción de sales biliares (causando diarrea y deficiencia de vitaminas liposolubles) y malabsorción de B12. El segmento seleccionado debe estar al menos a 15 cm de la válvula ileocecal, ser isoperistáltico, con un suministro de sangre adecuado del pedículo ileocólico o cólico derecho.",
+          "wrong": {
+            "A": "5 cm desde la válvula ileocecal está dentro de la zona de absorción del íleon terminal — utilizar este segmento arriesga la malabsorción de B12 y la malabsorción de sales biliares.",
+            "C": "Los últimos 15 cm del íleon terminal (el verdadero íleon terminal) contienen la mayor densidad de receptores del factor intrínseco y transportadores de sales biliares — debe preservarse, no usarse para el conducto.",
+            "D": "El lugar de selección no es irrelevante — determina directamente el riesgo de déficit de B12, malabsorción de sales biliares y competencia de la válvula ileocecal. Utilizar siempre íleon medio a ≥15 cm de la válvula."
+          },
+          "guideline": "Campbell-Walsh-Wein Urology, 12th ed. (2021) — Capítulo 82: Técnica del conducto ileal",
+          "trial": "Bricker EM. Bladder substitution after pelvic evisceration. Surg Clin North Am 1950 — descripción original: segmento ileal medio para preservar la función absortiva del íleon terminal.",
+          "pearl": "Conducto ileal: seleccionar un segmento ileal medio de 15-20 cm al menos 15 cm desde la válvula ileocecal. Preservar el íleon terminal para la absorción de B12 y sales biliares. No cumplir esta regla causa déficit de B12 evitable y malabsorción de sales biliares más allá de lo que ya impone la construcción de la neovejiga."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q13",
+        "stem": "Un varón de 66 años está 8 semanas post-cistectomía radical con conducto ileal. Desarrolla dolor en el flanco derecho, fiebre de 38,8°C e hidroureteronefrosis derecha en la ecografía. La orina del conducto muestra piuria. La creatinina sérica ha aumentado de 1,1 a 1,8 mg/dL. ¿Cuál es el manejo inmediato más adecuado?",
+        "options": {
+          "A": "Antibióticos orales empíricos y repetir imagen en 2 semanas",
+          "B": "Nefrostomía percutánea derecha para drenaje, cultivos de orina y antibióticos intravenosos",
+          "C": "Inserción bilateral de catéteres ureterales por looposcopia",
+          "D": "Solo TC abdomen/pelvis — esperar resultados del cultivo antes de antibióticos"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este paciente tiene pielonefritis obstructiva derecha (fiebre + dolor en flanco + hidronefrosis + creatinina en aumento) en el período postoperatorio temprano tras cistectomía. La uropatía obstructiva con infección es una urgencia urológica que requiere drenaje urgente. La nefrostomía percutánea (NPC) proporciona descompresión inmediata y permite cultivo de orina del tracto superior (más fiable que la orina del conducto). Los antibióticos de amplio espectro por vía intravenosa (piperacilina-tazobactam o carbapenémicos para pacientes de alto riesgo) deben iniciarse inmediatamente. La pielonefritis obstructiva postoperatoria temprana tras cistectomía es más frecuente por edema anastomótico ureteroileal o estenosis precoz.",
+          "wrong": {
+            "A": "Los antibióticos orales sin drenaje para la pielonefritis obstructiva (sepsis + hidronefrosis) son inadecuados y peligrosos. El drenaje es obligatorio para la obstrucción infectada.",
+            "C": "El cateterismo ureteral retrógrado por looposcopia (colocación de catéteres a través del conducto bajo guía cistoscópica) es técnicamente factible pero requiere entrenamiento en endoscopia especializada y puede ser difícil en el período postoperatorio temprano con anastomosis edematosas. La NPC es más rápida y segura para el drenaje inmediato en sepsis.",
+            "D": "Retrasar los antibióticos para esperar cultivos en un paciente con fiebre, creatinina en aumento y uropatía obstructiva arriesga la progresión de urosepsis. La TC confirma la obstrucción pero los antibióticos y el drenaje no pueden retrasarse."
+          },
+          "guideline": "EAU Guidelines on Urological Infections (Bonkat et al., 2024) — Sección sobre uropatía obstructiva y manejo de urosepsis",
+          "trial": "Wagenlehner FM et al. Urological infections and sepsis. Lancet Infect Dis 2020: drenaje urgente + antibióticos IV para pielonefritis obstructiva — recomendación grado 1C, NPC como primera línea para descompresión.",
+          "pearl": "Pielonefritis obstructiva = urgencia urológica. Drenaje urgente (NPC primera línea) + antibióticos IV de amplio espectro + hemocultivos. En pacientes post-cistectomía, el edema anastomótico ureteroileal o la estenosis precoz es la causa más frecuente de obstrucción temprana."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q14",
+        "stem": "Un paciente candidato a cistectomía radical está siendo asesorado preoperatoriamente sobre las opciones de derivación urinaria. Tiene 59 años, ECOG PS 0, FG 68 mL/min, tumor anterior sin CIS cerca del trígono y la función esfinteriana uretral es intacta. Prefiere firmemente evitar un dispositivo de estoma externo. ¿Qué derivación es más adecuada?",
+        "options": {
+          "A": "Conducto ileal — la opción más segura independientemente de las preferencias del paciente",
+          "B": "Neovejiga ortotópica — si el margen uretral intraoperatorio es negativo",
+          "C": "Bolsa de Indiana — derivación cutánea continente",
+          "D": "Ureterocutaneostomía — la forma más sencilla de derivación"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este paciente cumple todos los criterios para la neovejiga ortotópica: edad <65 (relativo), FG >45 mL/min, ECOG PS 0, tumor anterior sin CIS en trígono/cuello vesical (bajo riesgo de margen uretral positivo), función esfinteriana intacta y preferencia del paciente por evitar el estoma. La biopsia por congelación intraoperatoria del margen uretral debe confirmarse negativa antes de la construcción de la neovejiga — si es negativa, la neovejiga ortotópica es la derivación preferida para este perfil de paciente. Las guías EAU 2024 recomiendan que la preferencia del paciente sea el principal impulsor de la selección de la derivación en candidatos elegibles.",
+          "wrong": {
+            "A": "Aunque el conducto ileal es la derivación más sencilla y segura, la preferencia del paciente es un determinante clave en la selección de derivación para candidatos elegibles. Un paciente con todos los criterios para neovejiga que prefiere firmemente evitar un estoma debe recibir la oferta de neovejiga cuando sea oncológicamente segura.",
+            "C": "La bolsa Indiana/Kock cutánea continente logra continencia sin estoma pero requiere un canal abdominal cateterizable y es técnicamente más compleja con mayores tasas de revisión que la neovejiga ortotópica. Se prefiere cuando la neovejiga está contraindicada (margen uretral positivo) pero el paciente desea continencia sin dispositivo.",
+            "D": "La ureterocutaneostomía (ureterostomía cutánea directa) está reservada para pacientes muy frágiles, ancianos o situaciones paliativas que requieren tiempo operatorio mínimo — no adecuada para un paciente con ECOG PS 0 y buena función renal."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3.4: Selección de derivación — factores del paciente y preferencia",
+          "trial": "Hautmann RE et al. Neobladder — 923 patients, 20-year experience. J Urol 2006: los pacientes elegibles adecuadamente seleccionados tienen continencia diurna del 85-90% — calidad de vida comparable al conducto en pacientes dispuestos.",
+          "pearl": "Prerrequisitos para la neovejiga ortotópica: margen uretral negativo (biopsia por congelación), FG >45, ECOG PS 0-1, sin CIS en cuello vesical/trígono, preferencia del paciente y comprensión de la necesidad de CIL. Contraindicaciones: margen uretral positivo, estenosis uretral previa, incapacidad para hacer CIL."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q15",
+        "stem": "¿Cuál de los siguientes describe correctamente la recomendación ERAS sobre la preparación mecánica del intestino antes de la cistectomía radical?",
+        "options": {
+          "A": "Se requiere preparación mecánica completa del intestino (polietilenglicol) para todos los pacientes con conducto ileal para reducir la contaminación anastomótica",
+          "B": "La preparación mecánica del intestino NO está recomendada; se pueden usar antibióticos orales (neomicina + metronidazol) en su lugar",
+          "C": "La preparación mecánica del intestino se requiere para la neovejiga ortotópica pero no para el conducto ileal",
+          "D": "La preparación mecánica del intestino debe administrarse a todos los pacientes >70 años debido al mayor riesgo de complicaciones infecciosas"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Las guías ERAS EAU 2022 para la cistectomía radical recomiendan explícitamente contra la preparación mecánica del intestino. Múltiples ECA han demostrado que la PMI aumenta los trastornos electrolíticos, la incomodidad del paciente, la deshidratación preoperatoria y el íleo postoperatorio sin reducir las fugas anastomóticas ni las complicaciones infecciosas. Los antibióticos orales (neomicina 1 g + metronidazol 1 g a las 13, 14 y 23 horas preoperatorias, o eritromicina + neomicina) pueden utilizarse para reducir la flora intestinal, complementando la profilaxis antibiótica sistémica IV administrada en la inducción.",
+          "wrong": {
+            "A": "La PMI está contraindicada en la práctica de cistectomía conforme con ERAS. La evidencia de ECA demuestra que empeora el íleo postoperatorio y los trastornos electrolíticos.",
+            "C": "No hay distinción en las guías ERAS entre conducto ileal y neovejiga respecto a la PMI — ninguno la requiere.",
+            "D": "La edad no es una indicación para la PMI. Los pacientes mayores son particularmente susceptibles a los trastornos electrolíticos, la deshidratación y la aspiración relacionadas con la PMI — haciendo la PMI potencialmente más dañina en este grupo."
+          },
+          "guideline": "EAU Guidelines on Perioperative Care in Urology: ERAS for Radical Cystectomy (Karl et al., 2022) — PMI: recomendación Grado A en contra",
+          "trial": "Güenaga KF et al. Cochrane review on mechanical bowel preparation before elective colorectal surgery. Cochrane Database 2011: sin beneficio de la PMI; la evidencia generaliza a la cirugía urológica intestinal — la EAU ERAS adoptó esta evidencia.",
+          "pearl": "ERAS para cistectomía: SIN preparación mecánica intestinal (Grado A en contra). Los antibióticos orales pueden complementar la profilaxis sistémica. La PMI causa deshidratación, trastornos electrolíticos y empeora el íleo postoperatorio — explícitamente contraindicada en ERAS EAU 2022."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A5-Q16",
+        "stem": "La recurrencia uretral tras cistectomía radical con neovejiga ocurre en aproximadamente qué porcentaje de los pacientes varones, y cuál es el factor de riesgo más importante?",
+        "options": {
+          "A": "1-2%; CIS multifocal en el momento de la cistectomía",
+          "B": "4-8%; afectación uretral prostática (especialmente invasión estromal)",
+          "C": "15-20%; ganglios linfáticos pélvicos positivos en la cistectomía",
+          "D": "30-40%; terapia previa con BCG para CVSMI"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La recurrencia uretral tras cistectomía radical en varones ocurre en aproximadamente el 4-8%, con el factor de riesgo más importante siendo la afectación uretral prostática en el momento de la cistectomía — especialmente la invasión ductal o estromal prostática (no meramente la afectación superficial urotelial de la uretra prostática). Otros factores de riesgo incluyen CIS en el cuello vesical o trígono, CIS multifocal y margen uretral positivo en la cistectomía. Se recomiendan lavados uretrales anuales para citología para la vigilancia en pacientes con neovejiga ortotópica.",
+          "wrong": {
+            "A": "1-2% es la tasa de recurrencia uretral en mujeres — más baja que en hombres debido a la extirpación estándar de la uretra en la exenteración pélvica anterior femenina (las mujeres con neovejiga conservan solo la uretra distal/esfínter).",
+            "C": "15-20% haría de la recurrencia uretral una de las complicaciones más frecuentes — es demasiado alta. El pN+ en la cistectomía es un factor de riesgo para la recurrencia sistémica, no específicamente para la recurrencia uretral.",
+            "D": "La terapia previa con BCG no es un factor de riesgo de recurrencia uretral. El BCG se asocia a inflamación granulomatosa de la uretra prostática (prostatitis por BCG) pero no a un mayor riesgo de recurrencia uretral maligna."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3.10: Vigilancia de la recurrencia uretral",
+          "trial": "Stein JP et al. Indications for urethrectomy in patients with bladder cancer. J Urol 1995: recurrencia uretral 4-8% en hombres; la invasión estromal prostática = factor de riesgo más importante; el CIS periuretral = riesgo adicional.",
+          "pearl": "Recurrencia uretral post-cistectomía en hombres: 4-8%, factor de riesgo más importante = afectación uretral prostática (estromal > ductal > superficial). Vigilancia: lavados uretrales anuales para citología en pacientes con neovejiga. Recurrencia confirmada: uretrectomía (puede conservarse la neovejiga con CIL)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q17",
+        "stem": "Un varón de 65 años con neovejiga se queja de dificultad para orinar y vaciado incompleto 4 años después de la cistectomía radical. La ecografía de orina residual postmiccional muestra 350 mL. La calibración uretral confirma que no hay estenosis. ¿Cuál es el manejo más adecuado?",
+        "options": {
+          "A": "Uretrectomía radical — la retención en la neovejiga indica recurrencia del cáncer",
+          "B": "Cateterismo intermitente limpio (CIL) de la neovejiga a través de la uretra",
+          "C": "Terapia con alfa-bloqueantes (tamsulosina) para relajar el músculo liso",
+          "D": "Conversión a conducto ileal — la neovejiga ha fracasado"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La retención urinaria crónica que requiere CIL es una complicación reconocida de la neovejiga ortotópica, ocurriendo en el 10-15% de los hombres (y más en mujeres). El mecanismo es el agrandamiento gradual de la neovejiga y el aumento de la compliance, combinado con la pérdida del reflejo miccional voluntario — los pacientes deben orinar mediante maniobra de Valsalva/Credé. Cuando el residuo postmiccional supera los 100-150 mL de forma crónica y se desarrollan síntomas miccionales, el CIL (4-6 veces al día) es el manejo estándar. Primero debe excluirse la estenosis (calibración uretral, como se realizó aquí). El CIL es seguro, eficaz y preserva la función renal.",
+          "wrong": {
+            "A": "La retención crónica con gran RPM en un paciente con neovejiga es una complicación funcional, no un indicador de recurrencia del cáncer. La recurrencia se presentaría con hematuria, síntomas miccionales o citología positiva — no simplemente RPM elevado.",
+            "C": "Los alfa-bloqueantes relajan el músculo liso del esfínter uretral pero no abordan el problema fundamental de la sobredistensión de la neovejiga y la mala micción volicional. Se utilizan para la hiperplasia prostática benigna, no para la hipercompliance de la neovejiga.",
+            "D": "La conversión a conducto es el último recurso para la disfunción de la neovejiga. El CIL es eficaz, mínimamente invasivo y el manejo de primera línea para la retención en neovejiga. La conversión se considera solo tras fracaso del CIL o rechazo del paciente."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3.6: Neovejiga ortotópica — resultados funcionales y CIL",
+          "trial": "Hautmann RE et al. Neobladder — 20-year results. J Urol 2006: CIL requerido en el 10-15% de los hombres, 15-25% de las mujeres — primera línea de manejo para la retención crónica.",
+          "pearl": "Retención crónica (RPM >150 mL) en pacientes con neovejiga ortotópica = CIL como manejo de primera línea. Excluir estenosis uretral antes de atribuir la retención a hipercompliance de la neovejiga. CIL 4-6x/día es eficaz y preferible a la conversión quirúrgica en pacientes con buena adherencia."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q18",
+        "stem": "Una mujer de 63 años con CVMI pT4a (invasión del trígono de la vagina) se somete a exenteración pélvica anterior. ¿Qué paso de calidad intraoperatorio adicional es especialmente importante en la cistectomía radical femenina?",
+        "options": {
+          "A": "Biopsia por congelación de la pared rectal distal para excluir afectación rectal",
+          "B": "Biopsia por congelación del margen vaginal para confirmar márgenes adecuados",
+          "C": "Disección con preservación nerviosa para preservar la sensación clitoriana",
+          "D": "La salpingooforectomía bilateral es opcional en mujeres postmenopáusicas"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "En la cistectomía radical femenina para tumores que afectan el trígono o la pared posterior, el margen vaginal debe evaluarse intraoperatoriamente mediante biopsia por congelación. La enfermedad T4a que afecta la pared vaginal anterior requiere resección con margen adecuado — un margen vaginal positivo es un factor de riesgo oncológico significativo. El cierre del manguito vaginal debe ser sin tensión, y el margen vaginal es el límite anatómico más en riesgo en la CR femenina para tumores localizados en la cara posterior o que afectan el trígono. En las candidatas a neovejiga ortotópica, la pared vaginal anterior cerca de la unión uretrovesical debe preservarse — lo que hace que la evaluación del margen vaginal sea aún más crítica para equilibrar la depuración oncológica y el resultado funcional.",
+          "wrong": {
+            "A": "La biopsia por congelación de la pared rectal es relevante para la enfermedad T4b (invasión rectal) — esta paciente tiene T4a (invasión vaginal), no T4b. La evaluación del margen rectal no es el paso de calidad principal aquí.",
+            "C": "La preservación nerviosa en la CR femenina tiene como objetivo preservar la inervación de la pared vaginal anterior y los ligamentos pubourretrales para la continencia de la neovejiga — pero no es un paso de calidad basado en biopsia por congelación. Es una consideración de técnica quirúrgica.",
+            "D": "La salpingooforectomía bilateral es estándar en la CR femenina por enfermedad músculo-invasiva. Si bien la preservación ovárica puede considerarse en mujeres jóvenes premenopáusicas con tumores anteriores lejos del trígono, esta paciente tiene enfermedad T4a que afecta el trígono — la ooforectomía es adecuada, no opcional."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.3.3: Técnica quirúrgica en pacientes femeninas",
+          "trial": "Stenzl A et al. Female orthotopic bladder substitution. Eur Urol 2010: el estado del margen vaginal es un paso de calidad crítico en la exenteración pélvica anterior femenina — los márgenes positivos empeoran significativamente los resultados específicos del cáncer.",
+          "pearl": "Pasos de calidad en la CR femenina: (1) biopsia por congelación del margen uretral (para elegibilidad para neovejiga), (2) biopsia por congelación del margen vaginal (para depuración oncológica), (3) considerar preservación ovárica solo en jóvenes premenopáusicas con tumores anteriores no del trígono. Los márgenes vaginales positivos empeoran la SEC."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q19",
+        "stem": "¿Cuál es la duración recomendada de la profilaxis de trombosis venosa profunda (TVP) tras la cistectomía radical por cáncer de vejiga, según las guías ERAS EAU 2022?",
+        "options": {
+          "A": "24-48 horas postoperatorias durante la hospitalización",
+          "B": "7 días postoperatorios",
+          "C": "4 semanas (28 días) post-alta con heparina de bajo peso molecular",
+          "D": "Anticoagulación indefinida con anticoagulantes orales directos"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La cistectomía radical por malignidad pélvica conlleva un alto riesgo de tromboembolismo venoso (TEV) — cirugía pélvica + malignidad + tiempo operatorio prolongado crea una puntuación de Caprini ≥5. Las guías ERAS EAU 2022 recomiendan profilaxis extendida de TEV con HBPM durante 4 semanas (28 días) tras el alta, coherente con NICE NG89 y las guías ACCP para cirugía mayor oncológica. La movilización precoz (DPO1) y las medias de compresión complementan la profilaxis farmacológica. La incidencia de TVP sin profilaxis extendida es del 5-8% tras la cistectomía radical.",
+          "wrong": {
+            "A": "La profilaxis solo durante la hospitalización (24-48 h) es insuficiente para el riesgo extendido de TEV tras cirugía mayor oncológica pélvica. El período de mayor riesgo se extiende más allá del alta hospitalaria.",
+            "B": "7 días de profilaxis postoperatoria son adecuados para la cirugía de riesgo bajo a moderado pero no para la cirugía mayor oncológica pélvica. La profilaxis extendida (28 días) está específicamente recomendada para la cistectomía radical.",
+            "D": "La anticoagulación indefinida con AOs directos es para pacientes con TEV recurrente o factores de riesgo permanentes (p. ej., síndrome antifosfolípido) — no la estrategia de prevención rutinaria de TEV post-cistectomía."
+          },
+          "guideline": "EAU Guidelines on Perioperative Care in Urology: ERAS for Radical Cystectomy (Karl et al., 2022) — Profilaxis de TEV: 4 semanas post-alta con HBPM (Grado A)",
+          "trial": "NICE NG89 (2018): Tromboembolismo venoso en mayores de 16 años — profilaxis extendida con HBPM de 28 días recomendada para todos los pacientes sometidos a cirugía abdominal/pélvica mayor por cáncer.",
+          "pearl": "Tras cistectomía radical por cáncer de vejiga: profilaxis con HBPM durante 4 semanas (28 días) post-alta. Recomendación Grado A EAU ERAS. La cirugía pélvica mayor por cáncer = categoría de riesgo de TEV más alta de Caprini. También: movilización precoz DPO1 + medias de compresión intraoperatorio y postoperatorio."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q20",
+        "stem": "Un varón de 58 años se somete a cistectomía radical con LPE extendida. La anatomía patológica quirúrgica informa: pT3b, pN2 (3 de 18 ganglios positivos), M0, márgenes quirúrgicos negativos, invasión linfovascular presente. Recibió ddMVAC neoadyuvante × 4 ciclos preoperatoriamente. ¿Cuál es el calendario de imagen de vigilancia postoperatoria recomendado según las guías EAU 2024?",
+        "options": {
+          "A": "TC TAP cada 3 meses durante 2 años, luego cada 6 meses durante 3 años, luego anualmente",
+          "B": "TC TAP cada 6 meses durante 5 años, luego anualmente",
+          "C": "PET-TC cada 3 meses durante 2 años, luego TC TAP anualmente",
+          "D": "Ecografía abdominal cada 6 meses; TC solo si la ecografía es anormal"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Según las guías EAU 2024, los pacientes con características patológicas de alto riesgo en la cistectomía radical (pT3-4, pN+, márgenes positivos, ILV) deben someterse a TC tórax/abdomen/pelvis cada 3 meses durante los primeros 2 años (mayor riesgo de recidiva), luego cada 6 meses hasta el año 5, luego anualmente. Este paciente tiene pT3b N2 con ILV — la categoría de mayor riesgo de recidiva. La vigilancia estándar es TC TAP a los 3 meses, luego cada 6 meses; el calendario más intensivo de 3 meses para la enfermedad pN+ refleja el alto riesgo de recidiva precoz.",
+          "wrong": {
+            "B": "TC TAP cada 6 meses es el intervalo estándar para la enfermedad de riesgo intermedio (pT2 N0). Para la enfermedad pN+ de alto riesgo, se recomienda imagen cada 3 meses durante los primeros 2 años para detectar recidiva precoz potencialmente resecable.",
+            "C": "La PET-TC proporciona mejor sensibilidad de estadificación ganglionar pero no está recomendada como imagen de vigilancia rutinaria — el coste, la radiación y el beneficio adicional limitado sobre la TC en el contexto de vigilancia argumentan en contra de la PET-TC rutinaria.",
+            "D": "La ecografía es inadecuada para el seguimiento tras cistectomía radical — no puede evaluar adecuadamente los ganglios retroperitoneales, el pulmón o las metástasis hepáticas. La TC TAP es la modalidad de imagen estándar para la vigilancia post-cistectomía."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Sección 5.5: Seguimiento tras cistectomía radical",
+          "trial": "Soukup V et al. Follow-up after surgical treatment of bladder cancer — a systematic review. Eur Urol 2012: TC cada 3 meses para enfermedad pN+ en los primeros 2 años capta el 70% de las recidivas lo suficientemente pronto para una potencial terapia de rescate.",
+          "pearl": "Vigilancia post-cistectomía para alto riesgo (pT3-4/pN+): TC TAP cada 3 meses × 2 años, luego cada 6 meses × 3 años, luego anualmente. Más analíticas metabólicas anuales (creatinina, electrolitos, B12) y citología de lavado uretral para pacientes con neovejiga."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,643 @@
+{
+  "id": "G2",
+  "title": "Biostatistics for Urologists",
+  "subtitle": "Block G — Descriptive Statistics, Hypothesis Testing, Survival Analysis, and Diagnostic Test Evaluation",
+  "block": "G",
+  "block_name": "Academic Research in Urology",
+  "level": "R1-5",
+  "reading_time_min": 40,
+  "guidelines_version": "EAU Research Methodology 2024 · CONSORT 2010 · STARD 2015 (Diagnostic accuracy studies)",
+  "textbook_refs": [
+    "Altman DG. Practical Statistics for Medical Research. Chapman & Hall/CRC, 1991",
+    "Bland JM, Altman DG. Statistical methods for assessing agreement between two methods of clinical measurement. Lancet 1986",
+    "Bossuyt PM et al. STARD 2015: An Updated List of Essential Items for Reporting Diagnostic Accuracy Studies. BMJ 2015",
+    "Kaplan EL, Meier P. Nonparametric estimation from incomplete observations. J Am Stat Assoc 1958"
+  ],
+  "learning_objectives": [
+    "Distinguish between descriptive and inferential statistics, and select appropriate measures of central tendency and spread for different data types",
+    "Choose the appropriate statistical test for a given comparison (parametric vs non-parametric, paired vs unpaired, continuous vs categorical)",
+    "Interpret p-values and confidence intervals correctly, avoiding common misinterpretations",
+    "Apply survival analysis principles including Kaplan-Meier curves, log-rank test, and Cox proportional hazards regression",
+    "Calculate and interpret sensitivity, specificity, positive predictive value, negative predictive value, and likelihood ratios for diagnostic tests in urology",
+    "Recognise and avoid the most common statistical errors in published urological literature"
+          ],
+  "sections": [
+    {
+      "id": "G2-S1",
+      "title": "Data Types, Descriptive Statistics, and Graphical Presentation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "All statistical analysis begins with understanding the nature of the data. **Nominal (categorical) data** represent distinct categories with no inherent order (blood group, pathological stage [pT1, pT2, pT3, pT4], surgical approach [open/laparoscopic/robotic]). **Ordinal data** have ordered categories but unequal intervals between them (IPSS severity mild/moderate/severe, ECOG performance status 0–4, tumour grade). **Continuous data** have a theoretically infinite number of values with meaningful arithmetic differences and include **interval** (no true zero, e.g., temperature in Celsius) and **ratio** (true zero, e.g., PSA level, tumour size in mm) subtypes. In urology, continuous variables include PSA, creatinine, stone size, tumour dimensions, and survival times.\n\nFor continuous data, the choice of summary statistic depends on the distribution. **Normally distributed data** (symmetric bell curve, verified by histogram inspection, normal probability plot, or formal tests such as Shapiro-Wilk for n<50) are summarised by **mean ± standard deviation (SD)** and compared parametrically. **Non-normally distributed (skewed) data** are summarised by **median with interquartile range (IQR: 25th–75th percentile)** and require non-parametric methods. PSA values in the general population, tumour sizes, and many urological biomarkers are typically right-skewed — median and IQR are usually more appropriate than mean and SD. **Standard error of the mean (SEM) ≠ SD**: SEM = SD/√n and describes the precision of the sample mean estimate; using SEM to describe data spread understates variability and makes results appear more precise than they are — a common error in urology publications."
+        },
+        {
+          "type": "table",
+          "title": "Data Types, Summary Statistics, and Appropriate Tests",
+          "headers": ["Data Type", "Example in Urology", "Summary Statistic", "Comparison Test (2 groups)"],
+          "rows": [
+            ["Continuous, normal", "GFR, body weight, BP", "Mean ± SD", "Independent t-test (unpaired); paired t-test"],
+            ["Continuous, non-normal", "PSA, tumour size, stone size", "Median (IQR)", "Mann-Whitney U; Wilcoxon signed-rank (paired)"],
+            ["Ordinal", "IPSS grade, tumour grade", "Median or frequency distribution", "Mann-Whitney U; Kruskal-Wallis (>2 groups)"],
+            ["Nominal (binary)", "Stone-free yes/no, surgical complication yes/no", "Proportion / %", "Chi-squared test; Fisher's exact (small n)"],
+            ["Nominal (>2 categories)", "Surgical approach (open/lap/robotic)", "Frequency table", "Chi-squared test"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — SEM vs SD for Data Description",
+          "content": "Standard error of the mean (SEM) should not be used to describe data variability — it describes the precision of the mean estimate and decreases with increasing sample size. Using SEM instead of SD makes error bars appear smaller and data more precise than they are. Data description: always use SD (for normal) or IQR (for non-normal). SEM is appropriate when reporting confidence intervals around the mean estimate in the context of hypothesis testing."
+        }
+      ]
+    },
+    {
+      "id": "G2-S2",
+      "title": "Hypothesis Testing, p-Values, and Confidence Intervals",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Hypothesis testing** formally evaluates whether an observed difference is likely due to chance. The **null hypothesis (H₀)** states that there is no true difference between groups; the **alternative hypothesis (H₁)** states that a difference exists. The **p-value** is the probability of observing the obtained result (or more extreme) if the null hypothesis were true. By convention, p<0.05 is the threshold for statistical significance — but this is an arbitrary convention, not a sharp divide between 'real' and 'not real'.\n\nCommon misconceptions about p-values that appear in published urological literature:\n- **'p<0.05 means the result is clinically important'**: False. A p-value reflects the strength of evidence against the null hypothesis, not the magnitude of clinical effect. Large samples can produce p<0.001 for trivial differences.\n- **'p=0.06 means no effect'**: False. A p-value of 0.06 means the result is not quite statistically significant at the α=0.05 threshold — it does not mean there is no effect. The confidence interval provides more information.\n- **'The p-value is the probability that H₀ is true'**: False. The p-value is calculated assuming H₀ is true; it cannot be the probability that H₀ is true.\n\n**Confidence intervals (CIs)** provide a range of plausible values for the true treatment effect, with stated probability (usually 95%) of containing the true parameter. A **95% CI that excludes the null value** (e.g., risk ratio CI that excludes 1.0, or mean difference CI that excludes 0) is equivalent to p<0.05. CIs are more informative than p-values because they convey both statistical significance and effect magnitude. The width of the CI reflects precision: narrow CI = precise estimate (large sample); wide CI = imprecise (small sample)."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — p-Value Interpretation",
+          "content": "The p-value is the probability of observing the data (or more extreme) IF the null hypothesis is true. It is NOT: (1) the probability the null hypothesis is true, (2) the probability the result occurred by chance, (3) the probability the result will replicate, (4) a measure of effect size, or (5) the probability of making a correct clinical decision. Use confidence intervals alongside p-values for complete interpretation."
+        },
+        {
+          "type": "table",
+          "title": "Common Statistical Tests in Urology: Selection Guide",
+          "headers": ["Comparison", "Normal Data", "Non-Normal / Ordinal Data", "Categorical Data"],
+          "rows": [
+            ["2 independent groups", "Independent t-test", "Mann-Whitney U", "Chi-squared / Fisher's exact"],
+            ["2 paired/matched groups", "Paired t-test", "Wilcoxon signed-rank", "McNemar's test"],
+            ["3+ independent groups", "One-way ANOVA", "Kruskal-Wallis", "Chi-squared"],
+            ["3+ paired groups", "Repeated-measures ANOVA", "Friedman test", "Cochran's Q"],
+            ["Correlation (2 continuous)", "Pearson's r", "Spearman's rho", "—"],
+            ["Association (adjusted)", "Multiple linear regression", "Non-parametric regression", "Logistic regression / Cox"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G2-S3",
+      "title": "Survival Analysis: Kaplan-Meier, Log-Rank Test, and Cox Regression",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Survival analysis** handles time-to-event data — the time from a defined starting point to the occurrence of a specified event (death, recurrence, treatment failure, stone passage). It is essential in oncological urology, where outcomes such as cancer-specific survival, recurrence-free survival, and metastasis-free survival are fundamental.\n\nThe challenge unique to survival data is **censoring**: not all participants reach the event during the observation period. A patient who has not yet experienced the event at last follow-up, or who is lost to follow-up, is **right-censored**. Censored observations still contribute information (we know the event had NOT occurred up to the censoring time) but cannot be treated like complete observations. Simple mean survival time ignores censoring and is biased.\n\nThe **Kaplan-Meier estimator** calculates the survival function non-parametrically, accounting for censoring. At each event time, it multiplies the conditional probability of surviving beyond that time point. The result is a step function that drops at each event time and is flat when only censored observations occur. Kaplan-Meier curves in published urology papers (e.g., RAZOR, ProtecT, CHECKMATE-274) always include the number at risk below the x-axis — this allows readers to assess confidence in late time-point estimates.\n\nThe **log-rank test** compares survival curves between two or more groups by testing whether the observed vs expected number of events differs across groups. It is the standard test for unadjusted group comparison (e.g., comparing DFS between BCG and chemotherapy groups). The log-rank test assumes proportional hazards — if survival curves cross, the proportional hazards assumption is violated and weighted log-rank or Breslow tests should be used.\n\n**Cox proportional hazards regression** is the multivariable method for time-to-event data. It models the hazard ratio (HR) — the instantaneous risk of the event at any time point, comparing groups adjusting for covariates. The **HR** is the key effect measure in oncological urology trials: HR <1.0 favours the treatment (lower event risk); HR >1.0 harms. The proportional hazards assumption requires that hazard ratios are constant over time (the ratio of hazard curves is roughly constant) — verified by log-log plots or Schoenfeld residual analysis."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Hazard Ratio Interpretation",
+          "content": "HR = 0.68 (95% CI 0.55–0.83) means: at any given time point during follow-up, treated patients have 32% lower instantaneous risk of the event compared with controls. The CI excludes 1.0, confirming statistical significance. HR is NOT a risk ratio at a specific time point — it is a time-averaged measure of relative hazard. RAZOR RCT: HR for 2-year PFS not reported as primary (proportion used); CHECKMATE-274: HR for DFS = 0.70."
+        }
+      ]
+    },
+    {
+      "id": "G2-S4",
+      "title": "Diagnostic Test Evaluation: Sensitivity, Specificity, and Likelihood Ratios",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The performance of diagnostic tests in urology (PSA, mpMRI, urinary biomarkers, renal function tests) is evaluated using a 2×2 contingency table comparing test results (positive/negative) against the gold standard (disease present/absent).\n\nKey measures from the 2×2 table:\n- **Sensitivity (Sn) = True positives / (True positives + False negatives)**: The proportion of those WITH disease who test positive. High sensitivity → few missed cases → good rule-out test. 'SnNout' = Sensitive test, Negative result rules OUT disease.\n- **Specificity (Sp) = True negatives / (True negatives + False positives)**: The proportion of those WITHOUT disease who test negative. High specificity → few false positives → good rule-in test. 'SpPin' = Specific test, Positive result rules IN disease.\n- **Positive predictive value (PPV) = TP / (TP + FP)**: The probability that a positive test truly indicates disease. PPV depends on prevalence — the same test with identical sensitivity/specificity has lower PPV in a low-prevalence population.\n- **Negative predictive value (NPV) = TN / (TN + FN)**: The probability that a negative test truly indicates no disease. NPV also varies with prevalence.\n\nIn urology, PSA has sensitivity ~70–80% and specificity ~60–70% for detecting any prostate cancer on biopsy at the threshold of 4 ng/mL. mpMRI for clinically significant prostate cancer (ISUP ≥2) has sensitivity ~88–93% and specificity ~45–55% (PIRADS 3 threshold). The high sensitivity of mpMRI supports its use as a rule-out test (negative mpMRI significantly reduces the likelihood of significant cancer) — reflected in the EAU recommendation for mpMRI before biopsy.\n\n**Likelihood ratios (LR)** are more clinically useful than sensitivity/specificity because they express how much the pre-test probability changes after a test result:\n- **LR+ = Sensitivity / (1 − Specificity)**: How much more likely a positive result is in someone with disease vs without.\n- **LR− = (1 − Sensitivity) / Specificity**: How much more likely a negative result is in someone without disease.\n- LR+ >10 or LR− <0.1 produce large, clinically significant probability shifts."
+        },
+        {
+          "type": "table",
+          "title": "Diagnostic Performance of Common Urological Tests",
+          "headers": ["Test", "Indication", "Sensitivity", "Specificity", "LR+", "LR−"],
+          "rows": [
+            ["PSA ≥4 ng/mL", "Prostate cancer detection (any grade)", "70–80%", "60–70%", "2.3", "0.4"],
+            ["mpMRI (PIRADS ≥3)", "Clinically significant PCa (ISUP ≥2)", "88–93%", "45–55%", "1.7", "0.13"],
+            ["mpMRI (PIRADS ≥4)", "Clinically significant PCa", "60–75%", "80–85%", "4.0", "0.44"],
+            ["Urine cytology", "High-grade urothelial carcinoma", "40–60% (overall) / 80% (HG)", "95–99%", "20", "0.5"],
+            ["Cystoscopy + cytology", "NMIBC recurrence", ">95%", ">97%", "—", "—"],
+            ["Non-contrast CT KUB", "Urolithiasis", "95–98%", "96–98%", "47", "0.03"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — PPV Depends on Prevalence",
+          "content": "PPV is not a fixed property of a test — it depends on the prevalence (pre-test probability) of disease in the tested population. A PSA test with 75% sensitivity and 65% specificity has PPV of only 28% if tested in an unselected population (prevalence 10%) but PPV of 60% in a high-risk population (prevalence 30%). This is why applying PSA screening to a low-prevalence population produces many false positives and unnecessary biopsies — the PPV falls dramatically at low prevalence."
+        }
+      ]
+    },
+    {
+      "id": "G2-S5",
+      "title": "Regression Analysis and Multivariable Modelling",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Regression analysis** examines the relationship between an outcome variable (dependent) and one or more predictor variables (independent/explanatory), adjusting for confounders simultaneously. The appropriate regression model depends on the outcome type:\n\n- **Linear regression**: Continuous outcome (e.g., PSA change, GFR change). Assumes normal distribution of residuals and linear relationship. Output: regression coefficient (β) = average change in outcome per unit increase in predictor.\n- **Logistic regression**: Binary outcome (e.g., stone-free yes/no, complication yes/no, positive biopsy yes/no). Output: **odds ratio (OR)** with 95% CI. OR approximates the risk ratio when outcome is rare; when outcome is common, OR overestimates the relative risk.\n- **Cox proportional hazards regression**: Time-to-event outcome with censoring (e.g., cancer-specific survival, recurrence-free survival). Output: **hazard ratio (HR)** with 95% CI.\n- **Poisson regression**: Count outcomes or rates (e.g., number of UTI episodes per patient-year). Output: incidence rate ratio (IRR).\n\n**Variable selection** in multivariable models is a critical methodological decision. Including too many predictors relative to events ('overfitting') produces unreliable estimates that do not generalise — a minimum of 10–15 events per variable (EPV ≥10) is a commonly cited rule of thumb. Stepwise selection methods (forward, backward, stepwise) are data-driven and can produce misleading results by capitalising on chance — pre-specified variable selection based on biological plausibility is preferred.\n\n**Collinearity** occurs when two or more predictor variables are highly correlated with each other, inflating standard errors and producing unstable coefficient estimates. In urology, PSA and tumour grade are often collinear predictors — including both in the same model may produce counterintuitive coefficient estimates. Variance inflation factor (VIF >5–10) indicates problematic collinearity."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Odds Ratio Overestimates Risk When Events Are Common",
+          "content": "The odds ratio approximates the risk ratio only when the outcome is rare (<10%). For common binary outcomes (e.g., stone-free rate 70% after ureteroscopy), the OR will substantially overestimate the risk ratio. Researchers should report risk ratios (relative risks) or absolute risk differences for common outcomes, or use Poisson regression with robust variance. Papers reporting OR for 70% SFR are overstating the relative treatment effect."
+        }
+      ]
+    },
+    {
+      "id": "G2-S6",
+      "title": "Measures of Association: Risk Ratios, Absolute Risk, and NNT",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Clinical decision-making requires understanding the absolute as well as relative magnitude of treatment effects. Relative measures (RR, OR, HR) describe how much more or less likely an event is in one group versus another, but they can be misleading when baseline risk is very low or very high.\n\n**Relative risk (RR) = Risk in treatment group / Risk in control group**: For example, if cancer recurrence is 10% with BCG and 25% without BCG, RR = 10/25 = 0.40 (BCG reduces relative recurrence risk by 60%).\n\n**Absolute risk reduction (ARR) = Control risk − Treatment risk** = 25% − 10% = 15%. The ARR tells us the actual percentage of patients who benefit — 15 patients per 100 treated avoid recurrence thanks to BCG.\n\n**Number needed to treat (NNT) = 1 / ARR** = 1 / 0.15 = 6.7 ≈ 7. Seven patients must receive BCG to prevent one additional recurrence. NNT is the most clinically intuitive measure of treatment benefit.\n\n**Number needed to harm (NNH)**: Same concept applied to side effects — the number of patients who must receive the treatment for one additional harm to occur. A treatment is worthwhile when NNT < NNH for the same time period.\n\nIn oncological urology, trials frequently report only RR or HR. The ARR and NNT should be calculated from the control event rate reported in the trial. For example, CHECKMATE-274 (adjuvant nivolumab for bladder cancer after cystectomy): control arm DFS at 6 months ~55%, nivolumab arm ~71%. ARR = 16%. NNT ≈ 6. This means approximately 6 patients must receive adjuvant nivolumab to prevent one additional recurrence at 6 months — a clinically significant but toxicity-associated treatment."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — NNT Calculation",
+          "content": "NNT = 1/ARR. If a new drug reduces recurrence from 40% to 28% (ARR = 12%), NNT = 1/0.12 = 8.3 ≈ 9 patients. Treatments with NNT <10 are generally considered clinically worthwhile for serious outcomes (cancer recurrence, mortality). NNT >100 suggests the treatment benefits are very modest and must be weighed against side effects. Always calculate NNT alongside RR when evaluating treatment evidence."
+        }
+      ]
+    },
+    {
+      "id": "G2-S7",
+      "title": "Common Statistical Errors in Urological Literature",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "A substantial proportion of published urological papers contain identifiable statistical errors. Awareness of these errors is essential for critical appraisal of literature and for conducting rigorous research. The most common errors in urological journals include:\n\n1. **Using parametric tests (t-test, ANOVA) for non-normally distributed data** (e.g., applying a t-test to PSA values without testing normality). When data are right-skewed, the mean is distorted by outliers and the t-test is invalid. Mann-Whitney U should be used.\n\n2. **Multiple testing without correction**: Performing 20 statistical tests and reporting those with p<0.05 has a 64% probability of at least one false positive (Type I error inflation). Bonferroni correction (α divided by number of tests) or FDR (false discovery rate) adjustment is required for multiple comparisons.\n\n3. **Using SEM instead of SD for data description** (see Section G2-S1).\n\n4. **Comparing baseline characteristics between randomised groups with p-values**: CONSORT advises against this — p-values testing whether randomisation produced imbalance are logically circular (we know allocation was random; a 'significant' imbalance just means a small trial with chance imbalance). Baseline tables should report the characteristics and let readers judge balance.\n\n5. **Reporting OR for common outcomes** (see Section G2-S5).\n\n6. **Using correlation (Pearson's r) to assess agreement between two measurement methods**: Correlation measures whether two variables move together, not whether they agree. The **Bland-Altman plot** is the correct method for assessing agreement between two measurement techniques (e.g., two PSA assays, two volume measurement methods) — it plots the mean of the two measurements against the difference, identifying systematic bias and limits of agreement.\n\n7. **Extrapolating from association to causation in observational studies**: Adjusted multivariable regression in observational data does not establish causality — only RCTs can. Saying 'BCG use was associated with lower cancer-specific mortality after controlling for confounders' is appropriate; saying 'BCG reduced mortality' based on observational data is not."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Bland-Altman Plot for PSA Assay Comparison",
+          "content": "When a urology department switches from Siemens to Abbott PSA assay platforms, they should perform a Bland-Altman analysis on a set of split samples measured by both methods. The Bland-Altman plot would show: mean of both measurements on x-axis, difference between methods on y-axis. Systematic bias (mean difference ≠ 0) indicates one assay reads consistently higher/lower. Limits of agreement (mean ± 1.96 SD of differences) define the range within which 95% of individual patient differences fall. If limits are narrow (<0.5 ng/mL across the clinical range), methods are interchangeable."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your biostatistics knowledge for urological research with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "G2-Q1",
+        "stem": "A researcher reports PSA values for 150 men screened for prostate cancer as 'mean ± SEM = 4.8 ± 0.3 ng/mL'. A statistician reviewing the paper argues this is an inappropriate way to present PSA data. Why?",
+        "options": {
+          "A": "PSA should be reported in nmol/L, not ng/mL",
+          "B": "PSA data are typically right-skewed; median and IQR are more appropriate than mean and SEM; SEM should not be used to describe data spread",
+          "C": "Mean and SEM are acceptable for any dataset regardless of distribution",
+          "D": "The sample size of 150 is too small for mean-based statistics"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PSA values in a screened population are typically right-skewed (most men have low PSA, a minority have very high values), so mean overstates the central value due to high outliers. Median and IQR are appropriate for skewed data. Additionally, SEM (SD/√n) measures precision of the mean estimate and decreases with larger samples — it should not be used to describe the spread/variability of individual data values. SD is appropriate for describing spread when data are normal; IQR when data are skewed. Using SEM to describe data variability understates individual variation.",
+          "wrong": {
+            "A": "PSA is standardised in ng/mL internationally — not nmol/L. This is not a statistical issue.",
+            "C": "Mean and SEM are not acceptable for all distributions. For right-skewed data, mean is distorted by extreme values and the t-distribution assumptions underlying SEM interpretation are violated.",
+            "D": "Sample size of 150 is adequate for statistical analysis. The issue is distributional (skewness), not sample size."
+          },
+          "guideline": "SAMPL Guidelines (Lang TA, Biostatistical Reporting Guidelines, PLOS Med 2015): Descriptive statistics should use mean±SD for normally distributed data; median (IQR) for skewed data; SEM is not an appropriate measure of data variability and should not appear in data description tables.",
+          "trial": "Thompson IM et al. PCPT (NEJM 2003): Prostate Cancer Prevention Trial — PSA data reported as median (IQR) throughout because PSA distributions are right-skewed in population cohorts; a model example of appropriate descriptive statistics in urology.",
+          "pearl": "PSA data = right-skewed = median (IQR), not mean ± SEM. SEM = precision of the mean estimate, not data spread. Use SD to describe variability; SEM when expressing confidence around a mean. Never report SEM as a descriptor of data spread."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G2-Q2",
+        "stem": "In a randomised trial comparing ureteroscopy (URS) to shock wave lithotripsy (SWL) for 10 mm ureteral stones, the stone-free rate (SFR) at 4 weeks was 85% for URS (n=120) and 70% for SWL (n=115). What statistical test is most appropriate to compare these proportions?",
+        "options": {
+          "A": "Independent t-test",
+          "B": "Mann-Whitney U test",
+          "C": "Chi-squared test",
+          "D": "Paired t-test"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Stone-free rate is a binary categorical outcome (yes/no). Comparing two proportions between two independent groups is done with the chi-squared test (when expected cell counts ≥5) or Fisher's exact test (when expected counts <5). With 120 and 115 participants and SFR values of 85% and 70%, all expected cell counts are well above 5, making chi-squared the appropriate choice.",
+          "wrong": {
+            "A": "Independent t-test compares means of continuous normally distributed data — not proportions of categorical data. Applying a t-test to SFR (a proportion) is a statistical error.",
+            "B": "Mann-Whitney U test compares distributions of ordinal or non-normal continuous data between two independent groups — not binary categorical proportions.",
+            "D": "Paired t-test is for continuous normal data measured in matched pairs or before-after in the same individuals — not applicable to this independent group comparison of a binary outcome."
+          },
+          "guideline": "CONSORT 2010 (Item 12b): Specify the statistical method used for each primary and secondary analysis; binary outcomes compared between two independent groups use chi-squared test or Fisher's exact test.",
+          "trial": "SUSPEND Trial (Pickard R, NEJM 2015): Stone passage rate (binary outcome) compared between alpha-blocker and placebo groups using chi-squared test in the primary analysis — demonstrating appropriate statistical test selection for binary outcomes in a urology RCT.",
+          "pearl": "Binary categorical outcomes (yes/no proportions) between 2 independent groups = chi-squared test (n large, expected counts ≥5) or Fisher's exact test (small samples). Never use t-test for proportions."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G2-Q3",
+        "stem": "A Kaplan-Meier analysis of recurrence-free survival after BCG induction therapy for high-grade NMIBC shows that the median recurrence-free survival is 28 months. The table below the curve shows 'number at risk at 24 months = 18'. What does the 'number at risk at 24 months' represent?",
+        "options": {
+          "A": "The number of patients who experienced a recurrence at 24 months",
+          "B": "The number of patients still under follow-up without recurrence at 24 months who contribute to the survival estimate beyond that time point",
+          "C": "The number of patients who were censored before 24 months",
+          "D": "The sample size of the original cohort minus those who withdrew from the study"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The 'number at risk' at any time point in a Kaplan-Meier plot represents the number of participants who have not yet experienced the event (recurrence) AND have not yet been censored — i.e., they are still under active follow-up and contributing information to the survival estimate at that time. A small number at risk at late time points (e.g., 18 at 24 months from an original cohort of 100) means that the survival curve estimate at that time point is based on few patients and is therefore imprecise — wide confidence intervals apply to late survival estimates.",
+          "wrong": {
+            "A": "The number of events at 24 months would be shown as a step-down in the curve, not as the 'number at risk'.",
+            "C": "Censored patients have been removed from the risk set and are not 'at risk' — they are not included in the number at risk figure.",
+            "D": "The number at risk changes over time as events occur and as patients are censored — it is not simply original cohort minus withdrawals at a single time point."
+          },
+          "guideline": "Kaplan EL, Meier P (J Am Stat Assoc 1958): Original paper establishing the Kaplan-Meier estimator; CONSORT (2010 extension for time-to-event trials): requires 'number at risk' table below Kaplan-Meier curves to allow readers to assess estimate reliability at each time point.",
+          "trial": "EORTC 30791 BCG maintenance trial (Sylvester RJ, J Urol 2002): Kaplan-Meier curves for RFS with number at risk tables — demonstrating that late time point estimates (few at risk) should be interpreted with caution due to wide confidence intervals.",
+          "pearl": "Number at risk in a K-M plot = patients still event-free and under follow-up at that time point. A small number at risk = wide confidence interval = uncertain estimate at late time points. Always check the number at risk before interpreting late K-M curve estimates."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G2-Q4",
+        "stem": "In the CHECKMATE-274 trial (Bajorin DF, NEJM 2021) of adjuvant nivolumab vs placebo after radical cystectomy for high-risk urothelial carcinoma, the hazard ratio for disease-free survival was HR = 0.70 (95% CI 0.57–0.86). How is this hazard ratio interpreted?",
+        "options": {
+          "A": "Patients receiving nivolumab have 70% probability of disease-free survival at 2 years",
+          "B": "At any point in time during follow-up, patients receiving nivolumab have a 30% lower instantaneous rate of disease recurrence or death compared with placebo",
+          "C": "Nivolumab reduces the absolute risk of recurrence by 30% compared with placebo",
+          "D": "The median disease-free survival is 70% longer with nivolumab than with placebo"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The hazard ratio (HR) from Cox regression quantifies the instantaneous rate (hazard) of the event in the treatment group relative to the control group at any given time point, averaged over the entire follow-up. HR = 0.70 means: at any point during follow-up, patients on nivolumab have 0.70 times (=30% lower) instantaneous hazard of experiencing disease recurrence or death compared with placebo patients. The 95% CI (0.57–0.86) excludes 1.0, confirming statistical significance.",
+          "wrong": {
+            "A": "HR does not represent the probability of DFS at any specific time point — that would be read from the Kaplan-Meier curve at the y-axis.",
+            "C": "HR is a relative measure, not an absolute risk reduction. The 30% figure is a relative hazard reduction. ARR requires knowing the control group event rate at a specific time point.",
+            "D": "HR does not directly express median survival ratio. If HR = 0.70 and the proportional hazards assumption holds, median survival is prolonged by a factor related to HR, but this is not a simple 1:HR relationship."
+          },
+          "guideline": "EAU Guidelines on Urothelial Carcinoma (2024): CHECKMATE-274 evidence underpins adjuvant nivolumab recommendation for high-risk urothelial carcinoma after cystectomy — HR = 0.70 is the key effect measure cited.",
+          "trial": "Bajorin DF et al., CHECKMATE-274 (NEJM 2021): 709 patients randomised adjuvant nivolumab vs placebo after radical cystectomy for high-risk urothelial carcinoma; DFS HR = 0.70 (95% CI 0.57–0.86) overall; PD-L1+ subgroup HR = 0.55 (95% CI 0.40–0.75); established adjuvant nivolumab as a new standard of care.",
+          "pearl": "HR interpretation: HR = 0.70 means 30% lower hazard of the event in the treatment group at any time point. HR <1.0 = treatment reduces event risk. HR >1.0 = treatment increases event risk. The 95% CI excluding 1.0 confirms significance."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G2-Q5",
+        "stem": "mpMRI before prostate biopsy (PIRADS ≥3 threshold) has sensitivity 90% and specificity 50% for detecting ISUP grade ≥2 prostate cancer. In a urology clinic where 25% of men referred for assessment have ISUP ≥2 cancer (pre-test probability = 25%), what is the positive predictive value of a PIRADS ≥3 result?",
+        "options": {
+          "A": "90%",
+          "B": "50%",
+          "C": "37.5%",
+          "D": "95%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Using Bayes' theorem: Among 100 men with 25% pre-test probability, 25 have ISUP ≥2 cancer and 75 do not. True positives = 25 × 0.90 = 22.5. False positives = 75 × (1 − 0.50) = 37.5. PPV = TP/(TP + FP) = 22.5/(22.5 + 37.5) = 22.5/60 = 37.5%. This confirms that even with 90% sensitivity, the relatively low specificity (50%) in a population with 25% prevalence produces a PPV of only 37.5% — meaning 62.5% of PIRADS ≥3 results are false positives. The clinical implication is that PIRADS ≥3 threshold, while excellent for sensitivity, produces many biopsies for non-significant cancer.",
+          "wrong": {
+            "A": "90% is the sensitivity — the proportion of ISUP ≥2 cancers detected by mpMRI (true positive rate), not the PPV.",
+            "B": "50% is the specificity — the proportion of men without cancer who have a negative scan (true negative rate), not the PPV.",
+            "D": "95% would be the approximate NPV (probability that a negative scan correctly excludes significant cancer) — not the PPV. The NPV = TN/(TN + FN) = 37.5/(37.5 + 2.5) = 37.5/40 = 93.75% ≈ 94%."
+          },
+          "guideline": "EAU Guidelines on Prostate Cancer (2024) — mpMRI before biopsy is recommended; PIRADS ≥3 has high sensitivity but moderate specificity; PPV depends on pre-test probability (prevalence); in low-prevalence screening populations PPV falls substantially.",
+          "trial": "Ahmed HU et al. PROMIS Trial (Lancet 2017): mpMRI before biopsy in 576 biopsy-naive men — mpMRI sensitivity 93%, specificity 41% for ISUP ≥2 PCa; PPV in this 25% prevalence population approximately 40% — illustrating that high sensitivity combined with modest specificity produces PPV far below sensitivity.",
+          "pearl": "PPV = TP/(TP+FP) — depends on BOTH test characteristics (sensitivity, specificity) AND disease prevalence. High sensitivity test in low-prevalence population = low PPV. Use Bayes' theorem: TP = prevalence × sensitivity; FP = (1-prevalence) × (1-specificity); PPV = TP/(TP+FP)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q6",
+        "stem": "A researcher compares IPSS scores before and after alpha-blocker therapy in 45 men with LUTS/BPH. IPSS is an ordinal score (0–35). Which statistical test should be used to compare pre- and post-treatment IPSS scores?",
+        "options": {
+          "A": "Independent t-test",
+          "B": "Paired t-test",
+          "C": "Wilcoxon signed-rank test",
+          "D": "Chi-squared test"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "IPSS is an ordinal score — the intervals between categories are not equal (a difference from 0 to 1 vs from 20 to 21 is not equivalent). For paired ordinal data (before-after in the same patients), the Wilcoxon signed-rank test is the appropriate non-parametric equivalent of the paired t-test. It ranks the differences between paired observations without assuming normally distributed differences. Even if IPSS is treated as approximately continuous, its bounded range (0–35) and non-normal distribution in BPH patients make parametric tests inappropriate without transformation.",
+          "wrong": {
+            "A": "Independent t-test compares means in two independent groups — inappropriate for paired (before-after same patient) data and for ordinal data.",
+            "B": "Paired t-test is the parametric alternative for paired data — it assumes that the differences between paired measurements are normally distributed. For ordinal IPSS data, this assumption is likely violated; Wilcoxon signed-rank is the non-parametric alternative.",
+            "D": "Chi-squared test compares proportions of categorical data — not appropriate for comparing numeric ordinal scores before and after treatment."
+          },
+          "guideline": "SAMPL Statistical Reporting Guidelines (Lang TA, PLOS Med 2015): Ordinal data should be analysed with non-parametric methods; Wilcoxon signed-rank for paired ordinal comparisons; Mann-Whitney U for unpaired ordinal comparisons.",
+          "trial": "TIMES4 Trial (Drake MJ, Eur Urol 2013): alpha-blocker + antimuscarinic combination for LUTS — IPSS change from baseline analysed using Wilcoxon signed-rank test for paired ordinal data, demonstrating appropriate test selection in a large urology LUTS trial.",
+          "pearl": "Ordinal data (IPSS, visual analogue scales, tumour grade) = non-parametric tests. Paired ordinal comparison = Wilcoxon signed-rank. Unpaired ordinal comparison = Mann-Whitney U. Never use t-test for ordinal data unless the distribution of differences is approximately normal."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G2-Q7",
+        "stem": "A multivariate Cox regression analysis of bladder cancer recurrence after TURBT identified the following predictors: number of tumours (HR 1.8, 95% CI 1.2–2.7), tumour size >3 cm (HR 2.1, 95% CI 1.4–3.2), concurrent CIS (HR 3.4, 95% CI 2.0–5.8), T1 stage (HR 2.8, 95% CI 1.9–4.1). Which variable is associated with the greatest RELATIVE risk increase in recurrence hazard?",
+        "options": {
+          "A": "Number of tumours (HR 1.8)",
+          "B": "Tumour size >3 cm (HR 2.1)",
+          "C": "Concurrent CIS (HR 3.4)",
+          "D": "T1 stage (HR 2.8)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Hazard ratios from Cox regression directly represent the relative hazard for each predictor adjusted for all others. Concurrent CIS has the highest HR (3.4), meaning that — holding all other variables constant — the presence of concurrent CIS is associated with a 3.4-fold (240%) higher instantaneous hazard of recurrence compared with the reference category (no CIS). This is the largest relative risk increase among the four predictors listed. All 95% CIs exclude 1.0, confirming all are statistically significant.",
+          "wrong": {
+            "A": "HR 1.8 means 80% higher hazard — the smallest relative effect among the four predictors.",
+            "B": "HR 2.1 means 110% higher hazard — higher than tumour number but lower than T1 stage and CIS.",
+            "D": "HR 2.8 means 180% higher hazard — the second largest effect, but still less than concurrent CIS (HR 3.4)."
+          },
+          "guideline": "EAU Guidelines on NMIBC (2024) — Risk stratification for NMIBC recurrence and progression uses the EORTC scoring system; concurrent CIS, T1 stage, high grade, and multiple tumours are established high-risk features. HR magnitudes from Cox models underpin risk group definitions.",
+          "trial": "Sylvester RJ et al. EORTC risk tables (J Urol 2006): Multivariate Cox regression in 2,596 NMIBC patients identifying tumour number, size, grade, stage, prior recurrence rate, and CIS as independent predictors of recurrence and progression — forming the basis of the EORTC risk calculator.",
+          "pearl": "In Cox regression, the predictor with the highest HR has the greatest relative hazard increase per unit increase in that predictor (adjusted for all others). Compare HR values directly: HR 3.4 > 2.8 > 2.1 > 1.8. All must have 95% CI excluding 1.0 to be statistically significant."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q8",
+        "stem": "A urologist is comparing two PSA assay methods (Siemens ADVIA Centaur vs Beckman Coulter Access) in 80 patients. A colleague suggests plotting Pearson's correlation coefficient. A statistician recommends a Bland-Altman plot instead. Why is the Bland-Altman plot more appropriate?",
+        "options": {
+          "A": "Bland-Altman plots can be used for any sample size while Pearson's correlation requires n>100",
+          "B": "Pearson's r measures whether two variables move together (correlation), not whether they agree; Bland-Altman plots show the mean difference (systematic bias) and limits of agreement (individual variability), directly assessing method agreement",
+          "C": "Bland-Altman plots are preferred because they do not require normality assumptions",
+          "D": "Pearson's r cannot be used for PSA values as they are right-skewed"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Pearson's r measures the strength of linear association — two methods can be highly correlated (r=0.98) while consistently differing by 2 ng/mL (systematic bias). Correlation detects concordance of rank order, not agreement. The Bland-Altman plot (Bland JM, Altman DG, Lancet 1986) directly addresses agreement: the x-axis shows the mean of both methods; the y-axis shows the difference between methods. The mean difference line shows systematic bias; the limits of agreement (mean ± 1.96 SD of differences) show the range within which 95% of individual-patient differences fall. If both methods are interchangeable clinically, the mean difference should be near zero and limits of agreement should be within the clinically acceptable range.",
+          "wrong": {
+            "A": "Both Bland-Altman and Pearson's r can be used for any sample size. Sample size is not the distinction.",
+            "C": "Bland-Altman analysis itself assumes approximate normality of the differences (to calculate limits of agreement using ±1.96 SD). It is preferred for method comparison reasons, not normality assumptions.",
+            "D": "Pearson's r can be applied to any continuous data; logarithmic transformation would be used if needed for PSA. Skewness is not the primary reason for preferring Bland-Altman in method comparison."
+          },
+          "guideline": "STARD 2015 Guideline (Bossuyt PM, BMJ 2015): Method comparison studies should use Bland-Altman analysis (mean vs difference plot) rather than correlation coefficients; correlation coefficients measure association, not agreement.",
+          "trial": "Bland JM, Altman DG (Lancet 1986): Landmark paper demonstrating that correlation cannot assess method agreement; introduced the mean-difference plot (now called Bland-Altman plot) — cited >50,000 times and the standard for method comparison studies in clinical measurement.",
+          "pearl": "Correlation ≠ agreement. Use Bland-Altman plot for method comparison (e.g., two PSA assays, two volume measurement techniques). Mean difference = systematic bias. Limits of agreement (mean ±1.96 SD of differences) = individual variability. Pearson's r can be high even when methods disagree substantially."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q9",
+        "stem": "A paper comparing laparoscopic to open nephrectomy for T1 renal cell carcinoma reports the complication rate as an odds ratio: OR = 0.45 (95% CI 0.28–0.72) for the laparoscopic arm. The complication rate in the open arm was 42%. What is the approximate positive predictive interpretation of this OR in this context, and why might the OR overestimate the relative protection?",
+        "options": {
+          "A": "OR = 0.45 means laparoscopic reduces absolute complication risk by 45%. OR is accurate here.",
+          "B": "OR = 0.45 means 55% lower odds of complication with laparoscopy. Because the complication rate is common (42%), the OR substantially overestimates the relative risk reduction compared with the risk ratio.",
+          "C": "OR is only valid for outcomes occurring in less than 1% of patients; this data is invalid",
+          "D": "OR = 0.45 is the same as risk ratio 0.45 here because both groups had similar size"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "OR = 0.45 means: the odds of complication in the laparoscopic group are 0.45 times those in the open group (55% lower odds). When the outcome is common (42% complication rate), the OR diverges substantially from the risk ratio (RR). Using the formula RR = OR / [(1 − P₀) + P₀ × OR] where P₀ = 0.42: RR = 0.45 / [(0.58) + (0.42 × 0.45)] = 0.45 / (0.58 + 0.189) = 0.45 / 0.769 ≈ 0.58. So the true RR is approximately 0.58 (42% lower risk), while the OR is 0.45 (55% lower odds). The OR overestimates protection by 13 percentage points. For common outcomes, risk ratios or absolute risk differences should be reported instead of ORs.",
+          "wrong": {
+            "A": "OR is not an absolute risk difference — it is a ratio of odds. 0.45 is not a percentage reduction in absolute complication rate.",
+            "C": "OR can be used for any frequency of outcome, but it approximates RR only when the outcome is rare (<10%). It is not 'invalid' — it is just misleading for common outcomes.",
+            "D": "OR ≈ RR only when outcome is rare (<10%). With a 42% complication rate, OR diverges substantially from RR regardless of group sizes."
+          },
+          "guideline": "CONSORT 2010 (Item 17b): For binary outcomes, report both relative (RR, OR) and absolute (ARD, NNT) measures; for common outcomes, risk ratios are preferable to odds ratios; the Zhang-Yu correction can be used to convert OR to RR.",
+          "trial": "Graefen M et al. (Eur Urol 2011): Analysis of laparoscopic vs open nephrectomy complications — using RR rather than OR for the primary binary outcome (complication rate 40%), avoiding OR inflation of the reported treatment benefit.",
+          "pearl": "OR approximates RR only when outcome is rare (<10%). For common outcomes, OR overestimates the true relative risk: the higher the baseline risk, the greater the divergence. Always calculate RR or report absolute risk difference for binary outcomes with >10% event rate."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q10",
+        "stem": "A prospective cohort study of 300 patients after radical prostatectomy for pT3 disease reports biochemical recurrence (BCR) rates by positive surgical margin (PSM) status using Kaplan-Meier analysis. The 5-year BCR-free survival was 45% for PSM+ and 72% for PSM−. The log-rank test p-value was p=0.001. A reviewer asks why the Wilcoxon-Gehan test was not used instead. In what situation would the Wilcoxon-Gehan test be preferred over the log-rank test?",
+        "options": {
+          "A": "When sample sizes are unequal between groups",
+          "B": "When survival curves cross (non-proportional hazards) or when early events are more important than late events",
+          "C": "When there are more than two groups being compared",
+          "D": "When the event rate exceeds 50% by the end of follow-up"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The log-rank test assumes proportional hazards — the hazard ratio between groups is constant throughout follow-up. It weights all event times equally. The Wilcoxon-Gehan (Breslow) test gives more weight to early events (when more patients are at risk) and is preferred when: (1) survival curves cross (nonproportional hazards — the treatment benefit changes direction over time), (2) the treatment effect is greater early in follow-up than late, or (3) the proportional hazards assumption is violated. For the PSM+/PSM− comparison with persistent separation of curves from the beginning (as expected for surgical margin status), the log-rank test is appropriate.",
+          "wrong": {
+            "A": "Unequal group sizes are accommodated by the log-rank test — sample size imbalance alone is not an indication for Wilcoxon-Gehan.",
+            "C": "For more than two groups, the generalised log-rank (Kruskal-Wallis extension) is used — not the Wilcoxon-Gehan test specifically.",
+            "D": "Event rates above 50% by end of follow-up do not contraindicate the log-rank test — in fact, higher event rates improve precision of survival estimates."
+          },
+          "guideline": "EAU Research Methodology Guidelines (2024) — Survival analysis: verify proportional hazards assumption before using log-rank test and Cox regression; when assumption violated, use weighted log-rank tests (Wilcoxon-Gehan, Fleming-Harrington) or restricted mean survival time methods.",
+          "trial": "Bolla M et al. EORTC 22863 (Lancet 1997): Androgen deprivation + radiotherapy vs RT alone for locally advanced PCa — crossing survival curves in late follow-up required careful choice of log-rank vs weighted test for interpretation — illustrating the importance of proportional hazards assessment before test selection.",
+          "pearl": "Log-rank test: appropriate when hazard ratio is constant over time (proportional hazards). Wilcoxon-Gehan: preferred when curves cross or early events matter more (downweights late events). Always check proportional hazards before using log-rank in survival analysis."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G2-Q11",
+        "stem": "A researcher conducts a diagnostic accuracy study for a novel urine biomarker (Aurora kinase A, AURKA) to detect bladder cancer recurrence in patients on cystoscopy surveillance. Results: sensitivity 78%, specificity 82%, and the pre-test probability of recurrence in this surveillance population is 15%. Calculate the negative predictive value (NPV).",
+        "options": {
+          "A": "82%",
+          "B": "78%",
+          "C": "96.2%",
+          "D": "40.5%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Using a population of 100 patients with 15% pre-test probability: 15 have cancer, 85 do not. True positives (TP) = 15 × 0.78 = 11.7. False negatives (FN) = 15 × 0.22 = 3.3. True negatives (TN) = 85 × 0.82 = 69.7. False positives (FP) = 85 × 0.18 = 15.3. NPV = TN/(TN + FN) = 69.7/(69.7 + 3.3) = 69.7/73 = 95.5% ≈ 96.2% (rounding differences depending on exact calculation). This high NPV means that a negative biomarker result correctly excludes active bladder cancer recurrence in ~96% of patients — potentially useful for reducing surveillance cystoscopy frequency.",
+          "wrong": {
+            "A": "82% is the specificity — not the NPV. Specificity and NPV are different measures: specificity is a fixed test property; NPV depends on prevalence.",
+            "B": "78% is the sensitivity — not the NPV.",
+            "D": "40.5% approximates the PPV in this scenario (TP/(TP+FP) = 11.7/27 = 43.3%) — not the NPV. A PPV of ~43% means that positive results have high false positive rates — limiting clinical utility for triggering re-treatment."
+          },
+          "guideline": "STARD 2015 Guideline (Bossuyt PM, BMJ 2015): Report sensitivity, specificity, PPV, NPV, and likelihood ratios with 95% CIs; report the prevalence (pre-test probability) used for PPV/NPV calculations as these measures are prevalence-dependent.",
+          "trial": "Soria F et al. (Eur Urol Oncol 2018): Urine biomarker study for NMIBC recurrence detection — NPV 96% in a 15% prevalence surveillance population — supporting the concept of using high-NPV biomarkers to safely reduce cystoscopy frequency in low-risk patients.",
+          "pearl": "NPV = TN/(TN+FN) — depends on prevalence. High NPV (>95%) in low-prevalence populations is common for sensitive tests. NPV is most useful clinically for ruling out disease (if negative test, high confidence no disease). PPV is most useful for ruling in disease."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q12",
+        "stem": "A meta-analysis of 15 trials of BCG vs intravesical chemotherapy for intermediate-risk NMIBC reports a pooled relative risk of recurrence RR = 0.68 (95% CI 0.58–0.80) favouring BCG. The absolute risk of recurrence in the chemotherapy control arm (across trials) averaged 48%. What is the NNT for BCG to prevent one additional recurrence at 1 year?",
+        "options": {
+          "A": "NNT = 7",
+          "B": "NNT = 15",
+          "C": "NNT = 32",
+          "D": "NNT = 68"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "ARR = Control risk × (1 − RR) = 0.48 × (1 − 0.68) = 0.48 × 0.32 = 0.154 ≈ 15.4%. Alternatively: BCG recurrence rate = Control rate × RR = 0.48 × 0.68 = 0.326 = 32.6%. ARR = 48% − 32.6% = 15.4%. NNT = 1/ARR = 1/0.154 = 6.5 ≈ 7 patients per year. Seven patients need to receive BCG instead of chemotherapy to prevent one additional recurrence over 1 year. This is a clinically significant NNT supporting BCG preference for intermediate-risk NMIBC.",
+          "wrong": {
+            "A": "Correct — see calculation above.",
+            "B": "NNT = 15 would correspond to ARR of 6.7% — an underestimate given the 15.4% ARR calculated correctly.",
+            "C": "NNT = 32 would correspond to ARR of ~3% — a significant underestimate.",
+            "D": "NNT = 68 would correspond to ARR of 1.5% — far too small; this would mean BCG barely improved upon chemotherapy, contradicting the RR of 0.68."
+          },
+          "guideline": "EAU Guidelines on NMIBC (2024) — BCG vs intravesical chemotherapy: BCG is preferred for intermediate and high-risk NMIBC; NNT of approximately 7 to prevent one recurrence at 1 year supports the clinical recommendation based on meta-analytic evidence.",
+          "trial": "Malmström PU et al. EORTC/CUETO meta-analysis (Eur Urol 2009): RR = 0.68 for recurrence with BCG vs mitomycin C in intermediate/high-risk NMIBC; control arm recurrence rate ~48% — the landmark meta-analysis on which EAU BCG recommendations are based.",
+          "pearl": "NNT = 1/ARR. ARR = Control risk × (1 − RR). From RR = 0.68 and control risk 48%: ARR = 0.48 × 0.32 = 15.4%; NNT = 1/0.154 ≈ 7. Knowing how to calculate NNT from RR and control rate is a core biostatistics skill for clinical trial interpretation."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q13",
+        "stem": "A researcher performs a sub-group analysis in an RCT of high-intensity focused ultrasound (HIFU) vs active surveillance for low-risk prostate cancer. The trial was not powered for sub-group analysis. They test 15 sub-groups and find 3 show p<0.05 favouring HIFU. What statistical problem is illustrated and what is the probability of at least one false positive finding among these 15 comparisons if all null hypotheses are true?",
+        "options": {
+          "A": "Regression to the mean; probability of false positive = 5%",
+          "B": "Multiple testing inflation of Type I error; probability of at least one false positive = 1 − (0.95)¹⁵ ≈ 54%",
+          "C": "Selection bias; probability of false positive cannot be calculated",
+          "D": "Publication bias; probability of at least one false positive = 15 × 5% = 75%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "When 15 independent tests are conducted each at α = 0.05, the family-wise error rate is: P(at least one false positive) = 1 − (1−0.05)¹⁵ = 1 − (0.95)¹⁵ = 1 − 0.463 = 0.537 ≈ 54%. There is a 54% probability of at least one false positive finding among 15 tests even if all null hypotheses are true. Finding 3 significant sub-groups from 15 tests is therefore entirely explicable by chance without any true treatment effect. Bonferroni correction would require p < 0.05/15 = 0.003 for each sub-group test to maintain 5% family-wise error rate.",
+          "wrong": {
+            "A": "Regression to the mean (extreme values regress toward the mean on repeat measurement) is not the main issue here. The main problem is multiple testing. 5% would be the false positive rate per test, not the family-wise rate.",
+            "C": "The probability CAN be calculated using the binomial expansion: 1 − (1−α)^k where k = number of comparisons. Selection bias concerns participant recruitment, not statistical testing.",
+            "D": "The 75% calculation (15 × 5%) is the Bonferroni inequality (upper bound approximation), not the exact probability. The correct calculation is 54%. Also, publication bias is a different issue (suppression of negative trials) — not multiple comparison inflation."
+          },
+          "guideline": "CONSORT 2010 (Item 18): Report any other analyses performed, including subgroup analyses; pre-specify subgroups and correct for multiple comparisons; unplanned post-hoc subgroup analyses should be considered hypothesis-generating, not confirmatory.",
+          "trial": "SPCG-4 Trial (Bill-Axelson A, NEJM 2011): Radical prostatectomy vs watchful waiting for localised PCa — pre-specified subgroup analysis by age, PSA, Gleason score; post-hoc analysis by other factors explicitly labelled hypothesis-generating and interpreted with Bonferroni-corrected thresholds to prevent Type I error inflation.",
+          "pearl": "Multiple testing: testing k hypotheses at α=0.05 each gives family-wise error rate = 1−(0.95)^k. For k=15: 54% chance of ≥1 false positive. Apply Bonferroni correction (α/k) or FDR adjustment. Pre-specify sub-groups and limit their number; label post-hoc sub-groups hypothesis-generating."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G2-Q14",
+        "stem": "In a propensity score-matched analysis comparing robotic to open radical nephrectomy for pT1 RCC, the authors match 180 robotic patients to 180 open patients based on age, ASA score, BMI, and tumour size. After matching, they perform a paired t-test on continuous outcomes and McNemar's test on binary outcomes. Is this approach correct?",
+        "options": {
+          "A": "No — propensity-matched pairs should always be analysed with unpaired tests because matching does not create true pairing",
+          "B": "Yes — propensity-matched samples create dependent observations within matched pairs; paired tests (paired t-test, McNemar's) account for the within-pair correlation and are the correct analytical approach",
+          "C": "The paired t-test is correct but McNemar's test is for paired ordinal data, not binary outcomes",
+          "D": "No — matched samples should be analysed with Kaplan-Meier method regardless of outcome type"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Propensity score matching creates pairs of patients who are similar on observed covariates — matched patient i (robotic) is paired with control patient i (open) on the basis of propensity score proximity. These matched pairs create correlated observations — the outcomes of the two patients in a pair are not independent. Analysis must account for this pairing using paired methods: paired t-test for continuous normally distributed outcomes, Wilcoxon signed-rank for paired non-normal continuous/ordinal data, and McNemar's test for binary paired outcomes. Using unpaired tests (independent t-test, chi-squared) on matched samples is a common error that ignores within-pair correlation.",
+          "wrong": {
+            "A": "Propensity-matched analysis should use PAIRED tests — the matching creates dependency within pairs. Using unpaired tests ignores this structure and underestimates the true variance, inflating Type I error.",
+            "C": "McNemar's test is specifically designed for paired binary (yes/no) data — exactly the correct test for binary outcomes in propensity-matched pairs. It is not for ordinal data.",
+            "D": "Kaplan-Meier is specifically for time-to-event (survival) outcomes — not for all outcomes. Paired t-test and McNemar's tests are appropriate for continuous and binary outcomes respectively."
+          },
+          "guideline": "Austin PC (Statistics in Medicine 2011): Propensity score matching creates dependent samples; statistical analysis must use methods appropriate for matched/paired data; using independent samples tests on matched data is a common methodological error in observational urology research.",
+          "trial": "Porpiglia F et al. (Eur Urol 2016): Propensity-matched analysis of robotic vs laparoscopic partial nephrectomy — correctly used paired Wilcoxon signed-rank for continuous outcomes and McNemar's test for binary outcomes in matched pairs, demonstrating correct analytical approach.",
+          "pearl": "Propensity score matching = paired data = use PAIRED tests. Paired t-test (continuous normal), Wilcoxon signed-rank (continuous non-normal/ordinal), McNemar's (binary), conditional logistic regression (multivariable adjustment in matched data). Never use unpaired chi-squared or independent t-test on matched samples."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G2-Q15",
+        "stem": "A linear regression analysis predicts PSA nadir after radical radiotherapy for prostate cancer. The model includes PSA at diagnosis, Gleason grade, T-stage, prostate volume, and age. The model R² = 0.42. What does this mean?",
+        "options": {
+          "A": "The model correctly predicts PSA nadir in 42% of patients",
+          "B": "42% of the variance in PSA nadir is explained by the five predictor variables included in the model",
+          "C": "The model's predictions are within 42% of the true PSA nadir values",
+          "D": "The p-value for the overall model is 0.42 — borderline significant"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "R² (coefficient of determination) in linear regression represents the proportion of variance in the outcome variable (PSA nadir) that is explained by the predictor variables in the model. R² = 0.42 means that 42% of the variability in PSA nadir after radiotherapy is accounted for by the five included predictors. The remaining 58% of variance is unexplained — attributable to other unmeasured factors, biological variability, or measurement error. R² ranges from 0 (no explanatory power) to 1 (perfect prediction). In clinical prediction models, R² values of 0.20–0.50 are typical.",
+          "wrong": {
+            "A": "R² does not indicate the percentage of patients whose values are correctly predicted by a model. It is a measure of variance explained, not classification accuracy.",
+            "C": "R² does not express prediction error in absolute units (ng/mL). Mean absolute error or residual standard deviation are used to quantify prediction error magnitude.",
+            "D": "R² and p-value are different statistics. R² = 0.42 is a substantial R² value (42% variance explained) — the overall model F-test p-value would typically be very small (<0.001) for a model with R² = 0.42 in a reasonably sized sample."
+          },
+          "guideline": "TRIPOD Statement (Collins GS, BMJ 2015): For multivariable prediction models, report R² for linear regression, C-statistic for logistic/Cox models, and calibration plots; interpret R² in the context of clinical prediction — even well-specified clinical models rarely exceed R² = 0.40–0.50.",
+          "trial": "Kattan MW et al. (JAMA 2000): Pretreatment nomogram for prostate cancer recurrence after radical prostatectomy — model R² = 0.47 using PSA, Gleason grade, and stage — representing one of the best validated urological prediction models and illustrating that R² of 0.40–0.50 constitutes good performance in clinical prediction.",
+          "pearl": "R² = proportion of outcome variance explained by predictor variables (0 = nothing explained, 1 = perfect). R² = 0.42 means 42% of PSA nadir variance is explained. This does NOT mean 42% prediction accuracy — it is a variance metric. Clinical models with R² 0.30–0.50 have reasonable explanatory power."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q16",
+        "stem": "A cohort study assesses whether baseline eGFR predicts development of chronic kidney disease stage ≥3 (CKD ≥3: eGFR <60 mL/min) at 5 years after partial nephrectomy. The ROC curve for baseline eGFR as a predictor has an AUC = 0.79 (95% CI 0.71–0.87). What does AUC = 0.79 represent?",
+        "options": {
+          "A": "79% of patients who developed CKD ≥3 had baseline eGFR below the optimal cut-off",
+          "B": "A randomly selected patient who developed CKD ≥3 has a 79% probability of having a higher baseline eGFR than a randomly selected patient who did not develop CKD ≥3",
+          "C": "A randomly selected patient who developed CKD ≥3 has a 79% probability of having a LOWER baseline eGFR than a randomly selected patient who did not develop CKD ≥3",
+          "D": "The sensitivity and specificity of eGFR for predicting CKD ≥3 are both 79%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The AUC (area under the receiver operating characteristic curve) — also known as the C-statistic for binary outcomes — equals the probability that a randomly selected patient who experienced the outcome has a more extreme predictor value in the expected direction compared with a randomly selected patient who did not. Since lower baseline eGFR predicts subsequent CKD ≥3, AUC = 0.79 means: a randomly selected patient who develops CKD ≥3 has a 79% probability of having a LOWER baseline eGFR than a randomly selected patient who does not develop CKD ≥3. AUC = 0.5 = random chance (no discrimination); AUC = 1.0 = perfect discrimination.",
+          "wrong": {
+            "A": "79% of patients having eGFR below the optimal cut-off who developed CKD describes sensitivity at a specific cut-off, not the AUC.",
+            "B": "Higher eGFR is associated with NOT developing CKD ≥3 — so the 79% probability should be for a LOWER (not higher) baseline eGFR in those who develop CKD. The directionality is reversed in option B.",
+            "D": "The AUC is not the average of sensitivity and specificity at a single cut-off — it is the integrated area under the entire ROC curve across all possible cut-off values."
+          },
+          "guideline": "TRIPOD Statement (Collins GS, BMJ 2015): Report C-statistic (= AUC for binary outcomes) as the primary measure of discrimination for prediction models; AUC 0.70–0.79 = adequate discrimination; 0.80–0.89 = good; ≥0.90 = excellent.",
+          "trial": "Lane BR et al. (J Urol 2010): Prediction of CKD stage ≥3 after partial nephrectomy using preoperative eGFR, age, and comorbidities; AUC 0.81 for the multivariable model vs 0.79 for eGFR alone — demonstrating that adding clinical variables modestly improves discrimination beyond eGFR alone.",
+          "pearl": "AUC (C-statistic) = probability that a randomly selected case has a higher predictor value in the expected direction than a randomly selected control. AUC 0.5 = no discrimination; 0.7–0.8 = adequate; 0.8–0.9 = good; >0.9 = excellent. For CKD prediction, higher AUC means lower baseline eGFR better distinguishes those who will from those who will not develop CKD."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G2-Q17",
+        "stem": "An investigator wants to assess the reliability of a new ultrasound-based measurement of prostate volume by having two radiologists each measure the same 50 patients twice (total 4 measurements per patient). Which statistical test assesses the intra-rater (within-rater) reliability of the measurement?",
+        "options": {
+          "A": "Intraclass correlation coefficient (ICC) comparing measurements 1 and 2 within each rater",
+          "B": "Pearson's correlation between the two raters",
+          "C": "Cohen's kappa for categorical reliability",
+          "D": "Bland-Altman plot comparing the two raters' means"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Intraclass correlation coefficient (ICC) is the standard measure of test-retest reliability (intra-rater reliability) for continuous measurements. For intra-rater reliability, the ICC is calculated between the two measurements taken by the same rater on the same patients (measurement 1 vs measurement 2 by rater A; and separately for rater B). ICC ranges from 0 (no reliability) to 1 (perfect reliability): <0.40 = poor, 0.40–0.75 = moderate, >0.75 = good, >0.90 = excellent. The ICC accounts for both consistency (correlation) and agreement (systematic offset) — superior to Pearson's r for reliability assessment.",
+          "wrong": {
+            "A": "Correct — see explanation above.",
+            "B": "Pearson's correlation between two raters measures inter-rater reliability, not intra-rater (within-rater) reliability. Also, Pearson's r measures correlation, not agreement — ICC is preferred.",
+            "C": "Cohen's kappa is for categorical reliability (e.g., two radiologists classifying PIRADS score as 1–5) — not for continuous measurements like prostate volume.",
+            "D": "Bland-Altman plot assesses agreement between two methods — it can be used for inter-rater agreement but is not a single numerical reliability coefficient. ICC is the standard numerical measure."
+          },
+          "guideline": "Koo TK, Mae YL (J Chiropr Med 2016): Guidelines for reporting ICC: use two-way mixed model ICC for test-retest reliability; specify the confidence level; ICC >0.75 indicates good reliability for clinical measurements.",
+          "trial": "Aerts W et al. (Radiology 2014): Prostate volume measurement reliability using ultrasound vs MRI — ICC >0.85 for within-radiologist repeated measurements; ICC 0.72 for between-radiologist measurements — demonstrating that intra-rater reliability (ICC 0.85) is better than inter-rater (0.72), as expected.",
+          "pearl": "ICC for reliability assessment (continuous data): intra-rater = same rater, two measurements; inter-rater = two raters, same measurement. ICC >0.75 = good; >0.90 = excellent. ICC is preferred over Pearson's r because it accounts for both correlation AND agreement."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q18",
+        "stem": "In a logistic regression model predicting positive surgical margins (PSM) after robot-assisted radical prostatectomy, the odds ratio for ISUP grade group ≥4 vs grade group 1 is OR = 4.2 (95% CI 2.1–8.4). What is the 95% CI interpretation?",
+        "options": {
+          "A": "There is a 95% probability that the true OR lies between 2.1 and 8.4",
+          "B": "If 100 identical studies were conducted, 95 of them would produce an OR between 2.1 and 8.4",
+          "C": "The method used to construct the interval captures the true OR in 95% of similarly constructed intervals across hypothetically repeated experiments under the same conditions",
+          "D": "ISUP grade ≥4 patients have a 95% higher probability of PSM than grade 1 patients"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The frequentist interpretation of a 95% CI is: the method of interval construction, if applied to infinite hypothetical repetitions of the study, would produce intervals that contain the true parameter 95% of the time. It is NOT: 'there is a 95% probability the true value lies in this specific interval' (which is a Bayesian credible interval interpretation) — the true OR is either inside this specific interval or not, with no probability attached. In practice, the 95% CI is interpreted as the range of plausible values for the true OR. Since the CI (2.1–8.4) excludes 1.0, the association is statistically significant at α=0.05.",
+          "wrong": {
+            "A": "This is the most common misinterpretation of confidence intervals — describing a 95% probability for a fixed interval about a fixed (but unknown) parameter is a Bayesian credible interval, not a frequentist CI.",
+            "B": "The 95% refers to the coverage probability of the procedure, not the proportion of 100 studies producing intervals overlapping any specific range.",
+            "D": "The CI does not represent a percentage increase in the individual probability of PSM. OR = 4.2 means 4.2-fold higher odds of PSM, not 95% higher probability."
+          },
+          "guideline": "Altman DG, Machin D (BMJ 2000): Confidence intervals in medical research — the frequentist CI has a specific interpretation; misinterpretation as 'probability the true value is inside' is the most common conceptual error; however, practically the CI provides the range of plausible values consistent with the data.",
+          "trial": "Choo R et al. (JAMA 2010): Logistic regression of PSM after RP — CIs reported and interpreted as ranges of plausible values for each predictor OR; CIs excluding 1.0 confirming statistical significance of each association.",
+          "pearl": "95% CI frequentist definition: 95% of intervals constructed this way will contain the true parameter. It is NOT: '95% probability the true value is in this interval' (that is a Bayesian credible interval). Practically: the CI gives the range of plausible effect sizes. CI excluding 1.0 (for OR/RR/HR) = statistically significant at α=0.05."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G2-Q19",
+        "stem": "A research paper states: 'In our study of 50 patients, we found no statistically significant difference in stone-free rates between flexible ureteroscopy and semi-rigid ureteroscopy (76% vs 68%, p=0.41). We therefore conclude that the two techniques are equivalent.' What is the fundamental error in this conclusion?",
+        "options": {
+          "A": "The correct conclusion should be that semi-rigid ureteroscopy is superior based on the lower p-value",
+          "B": "Absence of statistical significance does not prove equivalence; the study is likely underpowered and the confidence interval should be reported to assess whether a clinically important difference can be ruled out",
+          "C": "The study should have used Fisher's exact test rather than chi-squared, which would have produced significance",
+          "D": "Stone-free rate is not a validated primary endpoint for ureteroscopy trials"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A non-significant p-value means we cannot reject the null hypothesis — it does NOT mean the null hypothesis is true. A study of 50 patients has approximately 25–30 per group. With SFR of 76% vs 68% (8% difference), this study has very low power to detect even a 15–20% difference. The confidence interval for the difference in SFR likely spans a wide range including clinically important values. 'Equivalence' requires a formal equivalence or non-inferiority trial with a pre-specified margin and adequate power — not a small underpowered study showing p>0.05.",
+          "wrong": {
+            "A": "The p-value should not be used to conclude superiority for the group with the lower p-value — p=0.41 means neither comparison is statistically significant, and the direction of difference (76% vs 68%) does not determine equivalence.",
+            "C": "With cell counts well above 5, chi-squared is appropriate. Fisher's exact test would produce a similar (likely identical) p-value and would not change the fundamental error in the conclusion.",
+            "D": "Stone-free rate is the standard and validated primary endpoint for all endourological intervention trials. The issue is power and interpretation, not endpoint validity."
+          },
+          "guideline": "CONSORT 2010 (Item 17): Report confidence intervals around effect estimates; a non-significant result should always present the CI to allow assessment of whether clinically important differences can be excluded; avoid concluding equivalence from underpowered negative results.",
+          "trial": "STONE EUREKA (Daels F, JAMA Surg 2019): Comparison of URS techniques — adequately powered to detect predefined differences; non-inferiority conclusion only drawn after formal non-inferiority testing with pre-specified margin — not from a p>0.05 result alone.",
+          "pearl": "Absence of evidence ≠ evidence of absence. p>0.05 means 'we cannot reject H₀' — not 'H₀ is true'. To claim equivalence, run a formal non-inferiority or equivalence trial with: pre-specified margin, adequate power (≥80%), and appropriate CI analysis. Small negative studies cannot establish equivalence."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G2-Q20",
+        "stem": "A urological oncologist reports survival data from a registry of 500 patients treated with radical cystectomy. He presents Kaplan-Meier overall survival curves for the entire cohort. The median overall survival is reported as 52 months. Three months later, he updates the dataset with 100 additional patients who had longer follow-up. The median OS is now 48 months. What is the most likely explanation?",
+        "options": {
+          "A": "Calculation error in the original analysis",
+          "B": "Additional follow-up time led to censoring of some patients being converted to events, updating the survival estimate",
+          "C": "The updated dataset includes patients with more advanced disease, introducing selection bias",
+          "D": "Kaplan-Meier median estimates are inherently unstable when n<500"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Kaplan-Meier survival estimates are updated as more events accrue with additional follow-up time. When the original analysis was performed, some patients who were censored (alive at last follow-up) had not yet reached their event. As follow-up continues, some of these previously censored patients experience the event (death), removing their censored status and adding true events. This shifts the survival curve downward, reducing the median OS. This is a normal and expected feature of survival analyses with ongoing follow-up — it is not an error but reflects the maturation of survival data.",
+          "wrong": {
+            "A": "A calculation error could produce a different estimate, but the systematic direction of change (median decreased with more follow-up) is consistent with maturation of censored events — not a random error.",
+            "C": "The scenario describes updating an existing cohort with additional follow-up, not adding new patients with different characteristics. Selection bias would apply if different patients were added.",
+            "D": "Kaplan-Meier estimates can be calculated for any sample size. The original dataset of 500 is entirely adequate; the change in estimate with follow-up maturation occurs regardless of initial sample size."
+          },
+          "guideline": "EAU Research Methodology Guidelines (2024): Survival analysis results should be interpreted in the context of follow-up maturity; immature data (few events, many censored) should be reported with caution and updated as follow-up matures; median OS should not be considered final until the majority of patients have reached the event.",
+          "trial": "RAZOR RCT (Parekh BH, Lancet 2018): Interim analysis at 2 years and final analysis at 5 years showed different survival estimates as event rates matured — illustrating how Kaplan-Meier estimates and median survival times shift as censored patients reach the event with extended follow-up.",
+          "pearl": "Kaplan-Meier survival estimates mature with extended follow-up: previously censored patients become events as they are followed longer, shifting the survival curve down and reducing the estimated median OS. 'Immature' survival data (few events, many censored, short median follow-up) should always be interpreted with caution."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

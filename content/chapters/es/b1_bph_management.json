@@ -1,0 +1,651 @@
+{
+  "id": "B1",
+  "title": "Hiperplasia Benigna de Próstata",
+  "subtitle": "Bloque B — STUI/HBP: Fisiopatología, Diagnóstico y Tratamiento Médico",
+  "block": "B",
+  "block_name": "Urología Funcional y Patología Benigna",
+  "level": "R1-2",
+  "reading_time_min": 40,
+  "guidelines_version": "Guías EAU sobre STUI masculino no neurogénico 2024 · Guías AUA/SUFU sobre HBP 2022",
+  "textbook_refs": [
+    "Campbell-Walsh-Wein Urology, 12.ª ed. (2021) — Capítulos 143-147: HBP y STUI masculino",
+    "EAU Guidelines on Non-neurogenic Male LUTS (Gravas et al., 2024)",
+    "Roehrborn CG et al. Ensayo CombAT: combinación dutasterida-tamsulosina para HBP. Eur Urol 2010",
+    "McConnell JD et al. Ensayo MTOPS: terapia médica de los síntomas prostáticos. NEJM 2003",
+    "Gilling PJ et al. Ensayo LASER: enucleación prostática con láser de holmio vs RTU-P. J Urol 2000"
+  ],
+  "learning_objectives": [
+    "Distinguir los síntomas de almacenamiento (irritativos) y de vaciado (obstructivos) e interpretar el IPSS para clasificar su gravedad",
+    "Describir la fisiopatología de la HBP y el papel de la DHT, los estrógenos y los receptores alfa-adrenérgicos en el desarrollo de los STUI",
+    "Resumir el tratamiento médico basado en evidencia de los STUI/HBP: alfabloqueantes, inhibidores de la 5-alfa-reductasa (5-ARI), inhibidores de la PDE5, antimuscarínicos y terapia combinada (ensayos CombAT/MTOPS)",
+    "Identificar las indicaciones absolutas de tratamiento quirúrgico de la HBP, incluidas la retención urinaria refractaria, las ITU de repetición, la insuficiencia renal y la hematuria",
+    "Comparar la RTU-P con las terapias quirúrgicas mínimamente invasivas (HoLEP, vaporización láser, Urolift, Rezum) utilizando las recomendaciones basadas en evidencia de las guías EAU 2024",
+    "Aplicar los criterios de vigilancia activa para STUI leves-moderados con escasa repercusión y sin indicaciones quirúrgicas absolutas"
+  ],
+  "sections": [
+    {
+      "id": "B1-S1",
+      "title": "Fisiopatología de la HBP y los STUI",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La hiperplasia benigna de próstata (HBP) es el tumor benigno más frecuente en el varón y la causa más prevalente de síntomas del tracto urinario inferior (STUI) en hombres mayores de 50 años. Histológicamente, la HBP se define como un agrandamiento no maligno de la zona de transición prostática, caracterizado por la proliferación de músculo liso, tejido fibroso estromal y epitelio glandular. La prevalencia de HBP histológica aumenta drásticamente con la edad: presente en el 20% de los hombres a los 40 años, en el 50% a los 60 y en el 90% a los 85 años.\n\nLa patogénesis de la HBP implica un desequilibrio entre la proliferación y la apoptosis de las células prostáticas, impulsado por cambios hormonales androgénicos y estrogénicos con el envejecimiento. La dihidrotestosterona (DHT), formada a partir de la testosterona por la 5-alfa-reductasa (5-AR) tipo 2 en la próstata, es el andrógeno principal que impulsa el crecimiento prostático: la DHT se une a los receptores androgénicos con una afinidad 5 veces mayor que la testosterona. Los inhibidores de la 5-alfa-reductasa (5-ARI) bloquean la producción de DHT y reducen el volumen prostático entre un 20 y un 30% a lo largo de 6-12 meses.\n\nLos STUI en el varón se clasifican ampliamente en: síntomas de almacenamiento (urgencia, frecuencia, nocturia, incontinencia de urgencia — mediados por hiperactividad del detrusor); síntomas de vaciado (chorro débil, vacilación, esfuerzo, vaciado incompleto — mediados por obstrucción del tracto de salida vesical); y síntomas posmiccionales (goteo posmiccional, sensación de vaciado incompleto). El componente dinámico de la HBP (tono muscular liso del cuello vesical y de la uretra proximal) está mediado por los adrenoceptores alfa-1 (subtipo alfa-1A predominante en la próstata) — los alfabloqueantes alfa-1 reducen este componente en días, produciendo alivio sintomático rápido. El componente estático (volumen prostático) es abordado por los 5-ARI a lo largo de meses."
+        },
+        {
+          "type": "table",
+          "title": "Clasificación de los STUI y Características de los Síntomas",
+          "headers": ["Categoría", "Síntomas", "Mecanismo", "Objetivo terapéutico principal"],
+          "rows": [
+            ["Almacenamiento (irritativos)", "Urgencia, frecuencia (>8 micciones/día), nocturia (≥2/noche), incontinencia de urgencia", "Hiperactividad del detrusor; hipersensibilidad vesical", "Antimuscarínicos; agonistas beta-3; terapia conductual"],
+            ["Vaciado (obstructivos)", "Chorro débil, vacilación, esfuerzo, intermitencia, vaciado incompleto", "Obstrucción del tracto de salida vesical (OTSV); escasa contractilidad del detrusor", "Alfabloqueantes; 5-ARI; RTU-P/HoLEP"],
+            ["Posmiccionales", "Goteo posmiccional, sensación de vaciado incompleto", "Orina residual en uretra bulbar; OTSV", "Ordeño uretral; suelo pélvico; tratamiento de la OTSV"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — DHT y 5-Alfa-Reductasa",
+          "content": "La DHT se forma a partir de la testosterona por la 5-alfa-reductasa tipo 2 (predominante en la próstata) y tipo 1 (predominante en piel e hígado). La finasterida inhibe solo el tipo 2; la dutasterida inhibe ambos tipos 1 y 2 (inhibidor dual), logrando una supresión de DHT del 90% frente al 70%, respectivamente. Ambas reducen el volumen prostático entre un 20 y un 30% en 6-12 meses, pero no tienen efecto sobre el componente dinámico (músculo liso) de la obstrucción — por ello, los alfabloqueantes proporcionan un alivio sintomático más rápido."
+        }
+      ]
+    },
+    {
+      "id": "B1-S2",
+      "title": "Evaluación — IPSS, Flujometría y Diario Miccional",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La evaluación clínica de los STUI masculinos comienza con una anamnesis estructurada que incluye la caracterización de los síntomas, la puntuación IPSS, el diario miccional (registro frecuencia-volumen) y la exploración física incluyendo el tacto rectal. El Índice Internacional de Síntomas Prostáticos (IPSS) es un cuestionario validado de 7 ítems autoaplicado (más 1 ítem de calidad de vida) que puntúa frecuencia urinaria, nocturia, chorro débil, vacilación, vaciado incompleto, urgencia e intermitencia. Puntuación IPSS: 0-7 = leve, 8-19 = moderado, 20-35 = grave. El IPSS es la medida de resultado principal en los ensayos sobre STUI y la evaluación de la respuesta al tratamiento.\n\nLas evaluaciones objetivas incluyen: flujometría libre (Qmáx — flujo máximo; normal ≥15 mL/s; OTSV significativa si <10 mL/s; el volumen miccional debe superar los 150 mL para una medición válida), residuo posmiccional (RPM — medido por ecografía; >300 mL indica riesgo significativo de retención urinaria), y análisis de orina + tira reactiva (para excluir infección y hematuria). La determinación del PSA se recomienda en todos los hombres con STUI que se beneficiarían de decisiones terapéuticas guiadas por el PSA (estimación del volumen prostático, predicción de eficacia de los 5-ARI, detección de cáncer de próstata).\n\nRegistro frecuencia-volumen (diario miccional — mínimo 3 días): diferencia la poliuria global (volumen urinario total en 24 horas >3 L), la poliuria nocturna (producción urinaria nocturna >33% del volumen total en 24 horas) y los STUI de almacenamiento puros (volúmenes normales, micciones frecuentes). La poliuria nocturna es la causa más frecuente de nocturia en hombres mayores (65%) y no se beneficia de los alfabloqueantes — requiere desmopresina, manejo hídrico o elevación de extremidades inferiores si hay redistribución de líquidos. Esta distinción es fundamental para la selección adecuada del tratamiento."
+        },
+        {
+          "type": "table",
+          "title": "Clasificación de la Gravedad del IPSS y Umbral de Manejo",
+          "headers": ["Puntuación IPSS", "Clasificación", "Recomendación EAU 2024", "Puntuación CdV (0-6)"],
+          "rows": [
+            ["0-7", "Leve", "Vigilancia activa + consejos de estilo de vida", "CdV 0-2 = encantado/complacido/mayoritariamente satisfecho"],
+            ["8-19", "Moderado", "Tratamiento médico si puntuación de molestia ≥3 o impacto en el estilo de vida", "CdV 3 = sentimientos encontrados"],
+            ["20-35", "Grave", "Tratamiento médico o discusión quirúrgica; urgente si existen indicaciones absolutas", "CdV 4-6 = mayoritariamente insatisfecho/infeliz/terrible"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Nocturia Tratada con Alfabloqueantes sin Diario Miccional",
+          "content": "La nocturia es el síntoma de los STUI que más impacto tiene en la calidad de vida de los hombres mayores, pero su etiología es multifactorial. Los alfabloqueantes (para la OTSV) solo son eficaces cuando la nocturia es causada por la OTSV. Cuando la poliuria nocturna es la causa predominante (producción de orina >33% del volumen total por la noche — identificable únicamente con un diario miccional), los alfabloqueantes aportan un beneficio mínimo. Siempre obtenga un registro frecuencia-volumen de 3 días antes de atribuir la nocturia exclusivamente a la OTSV e iniciar tratamiento médico."
+        }
+      ]
+    },
+    {
+      "id": "B1-S3",
+      "title": "Tratamiento Médico — Alfabloqueantes e Inhibidores de la 5-ARI",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los antagonistas de los adrenoceptores alfa-1 (alfabloqueantes) son el tratamiento farmacológico de primera línea para los STUI moderados-graves debidos a HBP. Actúan bloqueando los receptores alfa-1A y alfa-1D en el músculo liso prostático, el cuello vesical y la uretra, reduciendo el componente dinámico de la OTSV. Los alfabloqueantes mejoran el IPSS en un 30-40% y el Qmáx en un 20-25% en días o semanas. Los agentes disponibles son: alfuzosina 10 mg una vez al día (no selectivo, dosificación uro-selectiva), tamsulosina 0,4 mg una vez al día (mayor selectividad por alfa-1A en la próstata; escasos efectos cardiovasculares), silodosina 8 mg una vez al día (mayor selectividad por alfa-1A; eyaculación retrógrada en el 28%) y doxazosina/terazosina (no uro-selectivos; efectivos pero con mayor hipotensión postural). Todos los alfabloqueantes tienen eficacia equivalente; la selección se basa en la tolerabilidad y el perfil cardiovascular.\n\nLos inhibidores de la 5-alfa-reductasa (5-ARI) son eficaces para hombres con STUI y próstatas significativamente agrandadas (>40 mL o PSA >1,5 ng/mL como sustituto de glándula grande). La finasterida (5 mg una vez al día, inhibidor tipo 2) y la dutasterida (0,5 mg una vez al día, inhibidor dual) reducen el volumen prostático entre un 20 y un 30% en 6-12 meses, mejoran el IPSS en un 15-20% y — de manera crítica — reducen el riesgo de progresión clínica (retención aguda de orina y necesidad de cirugía por HBP) en un 50% a lo largo de 4 años (ensayo PLESS para finasterida; ARIA3001/ARIA3002 para dutasterida). Los 5-ARI también reducen el PSA aproximadamente en un 50% a los 6-12 meses — para la interpretación del cribado de cáncer en pacientes con 5-ARI es necesario duplicar el PSA.\n\nEl ensayo CombAT (Roehrborn et al., Eur Urol 2010) aleatorizó a 4.844 hombres con volumen prostático >30 mL, PSA 1,5-10 ng/mL e IPSS ≥12 a dutasterida, tamsulosina o terapia combinada. Tras 4 años, la terapia combinada demostró una mejoría sintomática superior (IPSS -6,3) frente a dutasterida (-4,9) o tamsulosina sola (-4,3), y redujo el riesgo de retención aguda de orina (RAO) en un 66% frente a la monoterapia. El ensayo MTOPS (McConnell et al., NEJM 2003) confirmó la superioridad de la combinación alfabloqueante + finasterida para prevenir la progresión clínica en enfermedad con glándulas grandes. La terapia combinada está recomendada para hombres con próstatas grandes (>40 mL), PSA elevado y STUI moderados-graves con riesgo de progresión."
+        },
+        {
+          "type": "table",
+          "title": "Alfabloqueantes para STUI/HBP — Comparación",
+          "headers": ["Fármaco", "Selectividad", "Dosis", "Efectos secundarios principales", "Consideraciones especiales"],
+          "rows": [
+            ["Tamsulosina", "Selectivo alfa-1A (uro-selectivo)", "0,4 mg una vez al día (en ayunas)", "Eyaculación retrógrada (8-18%); mareo", "Evitar antes de cirugía de cataratas (riesgo SIFIO); más utilizado"],
+            ["Silodosina", "Mayor selectividad alfa-1A", "8 mg una vez al día con alimentos", "Eyaculación retrógrada (28%); menor efecto sobre TA", "Preferido si riesgo cardiovascular"],
+            ["Alfuzosina", "No selectivo (formulación uro-selectiva)", "10 mg una vez al día tras la comida", "Menor disfunción eyaculatoria; mareo leve", "Formulación de liberación prolongada bien tolerada"],
+            ["Doxazosina", "No selectivo", "2-8 mg una vez al día", "Hipotensión postural (10%); mareo", "También trata la hipertensión; titular lentamente"],
+            ["Naftopidil*", "Selectivo alfa-1D", "25-75 mg una vez al día", "Mínima disfunción eyaculatoria", "Disponible en Japón/Asia; beneficio en síntomas de almacenamiento"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Síndrome del Iris Flácido Intraoperatorio (SIFIO)",
+          "content": "La tamsulosina (y otros alfabloqueantes alfa-1A) causa el síndrome del iris flácido intraoperatorio (SIFIO) en pacientes sometidos a cirugía de cataratas — el músculo dilatador del iris pierde tono, el iris ondula y prolapsa hacia los instrumentos de facoemulsificación. El SIFIO puede causar traumatismo del iris, rotura de la cápsula posterior y pérdida de visión. El oftalmólogo DEBE ser informado antes de la cirugía de cataratas si el paciente ha tomado alguna vez cualquier alfabloqueante (incluso si fue interrumpido hace años — el SIFIO persiste). No existe un periodo seguro tras la interrupción de la tamsulosina antes de la cirugía de cataratas."
+        }
+      ]
+    },
+    {
+      "id": "B1-S4",
+      "title": "Inhibidores de la PDE5, Antimuscarínicos y Agonistas Beta-3",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El tadalafilo 5 mg una vez al día (inhibidor de la PDE5) está aprobado tanto por la FDA como por la EMA para los STUI masculinos con o sin disfunción eréctil. Su mecanismo de acción en los STUI implica la relajación del músculo liso de la próstata, la uretra y el detrusor mediante la acumulación de GMPc — reduciendo tanto el componente dinámico de la OTSV como la hiperactividad del detrusor. El metaanálisis muestra que el tadalafilo mejora el IPSS en 5-6 puntos (similar a los alfabloqueantes), no mejora significativamente el Qmáx (a diferencia de los alfabloqueantes) y mejora concomitantemente la función eréctil (Índice Internacional de Función Eréctil +5 puntos). Las guías EAU 2024 recomiendan el tadalafilo 5 mg una vez al día como opción de primera línea para hombres con STUI + DE, o como alternativa de primera línea para STUI solos.\n\nLos antimuscarínicos (solifenacina, tolterodina, darifenacina, trospio) y los agonistas beta-3 (mirabegrón) actúan sobre los STUI de almacenamiento (urgencia, frecuencia, incontinencia de urgencia) inhibiendo la hiperactividad del detrusor. No son eficaces para los síntomas de vaciado. Las guías EAU 2024 recomiendan añadir un antimuscarínico o mirabegrón a un alfabloqueante cuando predominan los síntomas de almacenamiento a pesar del tratamiento inicial con alfabloqueante. El ensayo TIMES (Chapple et al., Eur Urol 2009) demostró la seguridad y eficacia de solifenacina 5-10 mg + tamsulosina frente a cada fármaco solo en hombres con STUI combinados de almacenamiento y vaciado — la combinación fue superior. Consideración de seguridad clave: los antimuscarínicos se evitan tradicionalmente con RPM >200 mL (riesgo de retención urinaria aguda por inhibición del detrusor), pero el ensayo TIMES-CS y datos posteriores sugieren seguridad con RPM <300 mL con monitorización.\n\nLos agonistas beta-3 (mirabegrón 50 mg una vez al día) relajan el detrusor durante la fase de almacenamiento estimulando los adrenoceptores beta-3, aumentando la capacidad vesical sin los efectos secundarios anticolinérgicos (boca seca, deterioro cognitivo, estreñimiento, riesgo de retención urinaria) de los antimuscarínicos. El mirabegrón es el agente preferido cuando los efectos secundarios anticolinérgicos son una preocupación (pacientes mayores, deterioro cognitivo, glaucoma). Las guías EAU 2024 recomiendan tanto el mirabegrón como los antimuscarínicos para los STUI de almacenamiento; el mirabegrón tiene un perfil favorable de efectos secundarios, pero la hipertensión es un riesgo en pacientes hipertensos no controlados."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — 5-ARI e Interpretación del PSA",
+          "content": "Los inhibidores de la 5-alfa-reductasa (finasterida o dutasterida) reducen el PSA sérico aproximadamente en un 50% tras 6-12 meses de tratamiento (y en un 25% tras 3 meses). Para el cribado de cáncer de próstata basado en PSA en pacientes con 5-ARI, el PSA medido debe duplicarse para obtener el PSA equivalente 'real'. El fracaso del PSA en suprimirse en un 50% con 5-ARI, o cualquier aumento del PSA con 5-ARI, justifica la realización de una biopsia prostática — este patrón sugiere un tumor secretor de PSA no sensible a la supresión de DHT."
+        }
+      ]
+    },
+    {
+      "id": "B1-S5",
+      "title": "Tratamiento Quirúrgico — RTU-P y Enucleación con Láser",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La resección transuretral de la próstata (RTU-P) ha sido el tratamiento quirúrgico de referencia ('gold standard') para la HBP durante más de 60 años y sigue siendo la operación más realizada para los STUI masculinos en todo el mundo. La RTU-P utiliza un resectoscopio electroquirúrgico monopolar o bipolar para resecar tejido prostático en fragmentos de la zona de transición. La RTU-P bipolar (utilizando suero salino como irrigación en lugar de glicina/agua) ha reducido significativamente el síndrome de RTU (hiponatremia dilucional por absorción de irrigante hipotónico) — un avance de seguridad importante. Resultados: el IPSS mejora en un 70-75%, el Qmáx aumenta un 125%, y la durabilidad es excelente (10-15% de reintervención a los 10 años).\n\nLa enucleación prostática con láser de holmio (HoLEP) ha emergido como el procedimiento de elección para glándulas grandes y se considera cada vez más el estándar en centros de alto volumen para cualquier tamaño de glándula. El HoLEP utiliza un láser holmio:YAG para enuclear con precisión toda la zona de transición a lo largo de la verdadera cápsula quirúrgica, y luego el tejido se morcela en la vejiga y se extrae. El ensayo LASER (Gilling et al., J Urol 2000) y revisiones sistemáticas posteriores demuestran resultados funcionales equivalentes a la RTU-P para glándulas pequeñas-moderadas con menores tasas de transfusión (1-2% frente a 5-7%), menor tiempo de catéter, estancia hospitalaria más corta y durabilidad a largo plazo equivalente. Para glándulas grandes (>80-100 mL), el HoLEP es superior a la RTU-P con menores tasas de reintervención y puede tratar glándulas de cualquier tamaño (sin límite superior de volumen — a diferencia de la RTU-P, que tiene un límite seguro de ~80-100 mL antes de considerar la prostatectomía abierta).\n\nLa vaporización láser GreenLight (fotovaporización selectiva de la próstata, PVP) utiliza un láser KTP/LBO de 532 nm para vaporizar tejido prostático. Es especialmente valiosa para pacientes en tratamiento anticoagulante o antiplaquetario gracias a su excelente hemostasia. Los resultados funcionales son equivalentes a la RTU-P a 1-2 años, pero la durabilidad puede ser ligeramente inferior a partir de los 5 años. El ensayo GOLIATH (Thomas et al., Eur Urol 2016) confirmó la no inferioridad frente a la RTU-P para IPSS y Qmáx a los 12 meses con una reducción significativa de la transfusión y el tiempo de cateterismo."
+        },
+        {
+          "type": "table",
+          "title": "Opciones Quirúrgicas para la HBP según el Volumen Prostático (EAU 2024)",
+          "headers": ["Procedimiento", "Tamaño óptimo de la glándula", "Mejoría del IPSS", "Ventaja principal", "Limitación"],
+          "rows": [
+            ["RTU-P bipolar", "<80-100 mL", "70-75%", "Evidencia de referencia; amplia disponibilidad", "Síndrome RTU (muy reducido con bipolar); transfusión 5-7%"],
+            ["HoLEP", "Cualquier tamaño (sin límite superior)", "70-75%", "Independiente del tamaño; baja transfusión; durable", "Curva de aprendizaje pronunciada; requiere morcelador"],
+            ["GreenLight PVP", "<80 mL (óptimo)", "65-70%", "Excelente hemostasia; seguro con anticoagulación", "Sin muestra de tejido; durabilidad a largo plazo ligeramente inferior"],
+            ["Enucleación con láser de tulio (ThuLEP)", "Cualquier tamaño", "70-75%", "Equivalente al HoLEP; láser de onda continua", "Menos evidencia que HoLEP; tecnología más nueva"],
+            ["Prostatectomía simple (abierta/robótica)", ">80-100 mL", "70-75%", "Definitivo para glándulas muy grandes (>150 mL)", "Más invasiva; mayor morbilidad"],
+            ["Urolift", "30-80 mL; sin lóbulo medio", "50-55%", "Preserva la eyaculación; ambulatorio; resultados inmediatos", "Mejoría inferior de IPSS/Qmáx vs resectivo; reversible"],
+            ["Rezum vapor de agua", "30-80 mL; sin lóbulo medio grande", "50-55%", "Preserva la eyaculación; en consulta", "Necesita catéter 3-6 meses; inferior vs resectivo"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B1-S6",
+      "title": "Terapias Quirúrgicas Mínimamente Invasivas y Selección de Pacientes",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las terapias quirúrgicas mínimamente invasivas (TQMI) han ampliado el panorama terapéutico de la HBP, ofreciendo alternativas a la RTU-P para pacientes que priorizan la preservación de la función eyaculatoria, desean evitar la anestesia general o espinal, o que no pueden tolerar la cirugía convencional. Las guías EAU 2024 reconocen el Urolift (elevación uretral prostática), Rezum (terapia con vapor de agua) y el iTind (dispositivo de nitinol implantable temporal) como opciones con evidencia para pacientes seleccionados con STUI/HBP, con la advertencia de que sus resultados funcionales son inferiores a los de la RTU-P/HoLEP.\n\nEl Urolift coloca implantes permanentes de acero inoxidable (2-6 por procedimiento, según el tamaño de los lóbulos laterales) mediante cistoscopio con anestesia local o general para retraer los lóbulos laterales y abrir la uretra prostática. El ensayo aleatorizado BPH6 demostró una mejoría del IPSS del 51% frente al 36% de la terapia médica a los 2 años, con preservación completa de la función eyaculatoria y eréctil. El Urolift NO es adecuado para pacientes con un lóbulo medio prominente (agrandamiento del lóbulo medio >1 cm) — el dispositivo no puede tratar la obstrucción por lóbulo medio. El rango de volumen prostático óptimo es de 30-80 mL.\n\nEl Rezum utiliza vapor (vapor de agua a 103 °C) inyectado en la zona de transición mediante una aguja transuretral para provocar la muerte celular por energía convectiva. La mejoría clínica ocurre a lo largo de 3-6 meses a medida que el tejido necrótico es reabsorbido, con resultados máximos a los 6 meses. El ensayo WATER (McVary et al., J Urol 2016) demostró una mejoría del IPSS del 51% frente al 11% (simulacro) a los 12 meses con preservación de la eyaculación. El Rezum requiere un catéter uretral durante 3-7 días postprocedimiento. Tanto el Urolift como el Rezum son adecuados para hombres sexualmente activos que desean preservar la eyaculación, pero esto tiene el coste de resultados inferiores de IPSS y Qmáx en comparación con los procedimientos resectivos."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Preservación de la Eyaculación en Pacientes Jóvenes con HBP",
+          "content": "La eyaculación retrógrada es una preocupación importante para los hombres sexualmente activos sometidos a RTU-P (incidencia 65-90%), HoLEP (65-80%) o PVP GreenLight (30-40%). El Urolift y el Rezum preservan la eyaculación anterógrada en prácticamente todos los pacientes. Para hombres en edad reproductiva o aquellos que priorizan la función eyaculatoria, las guías EAU 2024 recomiendan discutir el Urolift o el Rezum (si son anatómicamente adecuados: próstata 30-80 mL, sin lóbulo medio prominente) como alternativas preservadoras de la eyaculación a la cirugía resectiva, aceptando la compensación de una mejoría inferior de los STUI."
+        }
+      ]
+    },
+    {
+      "id": "B1-S7",
+      "title": "Indicaciones Absolutas de Cirugía y Retención Aguda de Orina",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las indicaciones absolutas de tratamiento quirúrgico de la HBP incluyen: (1) retención aguda de orina (RAO) refractaria — definida como fracaso de la prueba de micción espontánea (PME) tras al menos un intento con carga de alfabloqueante; (2) RAO recurrente (≥2 episodios); (3) insuficiencia renal relacionada con la HBP (hidronefrosis/uropatía obstructiva por obstrucción prostática); (4) infecciones urinarias de repetición atribuibles a la HBP y al RPM; (5) hematuria recurrente por HBP no respondedora al tratamiento con 5-ARI; y (6) cálculos vesicales secundarios a OTSV por HBP. En estas indicaciones absolutas, el tratamiento quirúrgico es obligatorio independientemente de la preferencia del paciente — el tratamiento médico solo es insuficiente para abordar estas complicaciones.\n\nLa retención aguda de orina (RAO) se maneja inicialmente con cateterización uretral (o catéter suprapúbico si la cateterización uretral fracasa). Una prueba de micción espontánea (PME) tras 48-72 horas con carga de alfabloqueante (tamsulosina 0,4 mg una vez al día durante 2-3 días antes de la PME) tiene éxito en el 60-70% de los primeros episodios de RAO. La segunda RAO o la PME fallida obligan al tratamiento quirúrgico definitivo. El ensayo ALFAUR (McNeill et al., BJU Int 2004) demostró que la alfuzosina iniciada en el momento de la inserción del catéter mejora significativamente el éxito de la PME en comparación con el placebo. Si se planifica cirugía, el catéter puede permanecer in situ hasta la fecha de la RTU-P/HoLEP.\n\nLa diuresis post-obstructiva es una complicación crítica tras la cateterización por retención urinaria crónica de alto volumen (volúmenes vesicales >1000 mL, hidronefrosis bilateral, creatinina elevada). Resulta de la reabsorción tubular deteriorada de urea y sal en túbulos crónicamente distendidos, combinada con diuresis mediada por ANP. Manejo: control cuidadoso del balance hídrico; reemplazar solo el 50% del gasto urinario por hora (evitar la sobrereposición que perpetúa la poliuria); fluidos intravenosos si la ingesta oral es insuficiente; monitorización de electrolitos; descompresión gradual en 24-48 horas en lugar de drenaje completo inmediato."
+        },
+        {
+          "type": "table",
+          "title": "Indicaciones Quirúrgicas Absolutas para la HBP (EAU 2024)",
+          "headers": ["Indicación", "Definición", "Justificación de la cirugía"],
+          "rows": [
+            ["RAO refractaria", "Fracaso de ≥1 PME con alfabloqueante", "Descompensación irreversible; tratamiento médico insuficiente"],
+            ["RAO recurrente", "≥2 episodios de RAO", "Alto riesgo de nueva retención; descompensación progresiva"],
+            ["Insuficiencia renal obstructiva", "Hidronefrosis/creatinina creciente por HBP-OTSV", "Prevenir daño renal permanente; irreversible si no se trata"],
+            ["ITU recurrente", "≥2 ITU/año atribuibles a RPM por HBP", "El RPM crea reservorio bacteriano; los antibióticos no curan la obstrucción"],
+            ["Hematuria recurrente", "Hematuria persistente por HBP tras 5-ARI × 6 meses", "Los 5-ARI reducen la vascularidad glandular; la cirugía elimina la fuente"],
+            ["Cálculos vesicales por OTSV", "Cálculos que se forman en vejiga con mal vaciado por HBP", "Los cálculos indican estasis crónica; tratar la obstrucción para prevenir la recurrencia"]
+          ]
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Compruebe sus conocimientos sobre la fisiopatología de la HBP, las herramientas de evaluación, el tratamiento médico y las indicaciones quirúrgicas con 20 preguntas tipo examen.",
+    "questions": [
+      {
+        "id": "B1-Q1",
+        "stem": "Un varón de 65 años consulta por STUI. La puntuación IPSS es 22 (grave). El tacto rectal muestra una próstata uniformemente agrandada de 60 mL. El PSA es 3,2 ng/mL. El Qmáx en flujometría es 8 mL/s con un volumen miccional de 310 mL. El RPM es de 180 mL. No tiene estudio previo de cáncer de próstata. ¿Cuál es el manejo médico inicial más adecuado?",
+        "options": {
+          "A": "Tamsulosina 0,4 mg una vez al día sola — primera línea para todos los STUI",
+          "B": "Combinación de tamsulosina 0,4 mg + dutasterida 0,5 mg una vez al día — glándula grande con riesgo de progresión",
+          "C": "Finasterida 5 mg una vez al día sola — PSA >1,5 ng/mL indica glándula grande",
+          "D": "Derivación inmediata para RTU-P — Qmáx <10 mL/s requiere cirugía"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este paciente tiene HBP de gran volumen (próstata de 60 mL), STUI graves (IPSS 22), PSA >1,5 ng/mL (sustituto de volumen prostático >40 mL) y Qmáx significativamente reducido (8 mL/s). Cumple todos los criterios para la terapia combinada según el ensayo CombAT: volumen prostático >30 mL, PSA 1,5-10 ng/mL, IPSS ≥12. El ensayo CombAT (Roehrborn et al., Eur Urol 2010) demostró que la combinación dutasterida + tamsulosina es superior a cualquier monoterapia para la mejoría del IPSS y la prevención de la RAO a lo largo de 4 años. La terapia combinada es la recomendación de las guías EAU 2024 para hombres con STUI moderados-graves, próstatas grandes y alto riesgo de progresión.",
+          "wrong": {
+            "A": "La tamsulosina sola es adecuada para glándulas pequeñas o bajo riesgo de RAO. Con una próstata de 60 mL, la monoterapia con tamsulosina no aborda el componente estático de la obstrucción y no reduce el riesgo de RAO tan eficazmente como la combinación con 5-ARI.",
+            "C": "La monoterapia con finasterida sin un alfabloqueante es más lenta en producir alivio sintomático (tarda 6-12 meses para el efecto máximo) y no aborda el componente dinámico de la obstrucción (los alfabloqueantes actúan en días). La monoterapia con 5-ARI solo es generalmente insuficiente para los STUI graves en la fase de manejo agudo.",
+            "D": "La RTU-P no es el manejo inicial para los STUI no complicados — el tratamiento médico es la primera línea a menos que estén presentes indicaciones quirúrgicas absolutas. El Qmáx <10 mL/s por sí solo no es una indicación quirúrgica absoluta."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.4: Terapia médica combinada para STUI con glándula grande",
+          "trial": "Roehrborn CG et al. Ensayo CombAT: combinación dutasterida-tamsulosina vs monoterapia en hombres con STUI y próstata agrandada. Eur Urol 2010: combinación superior IPSS (-6,3 vs -4,9 dutasterida, -4,3 tamsulosina) y reducción del riesgo de RAO del 66%.",
+          "pearl": "Combinación alfabloqueante + 5-ARI (criterios CombAT/MTOPS): próstata >30 mL, PSA >1,5 ng/mL, IPSS ≥12. Combinación superior para mejoría sintomática Y reducción del riesgo de RAO/cirugía en HBP con glándula grande. El 5-ARI reduce el PSA en un 50% — siempre duplicar el PSA para la interpretación del cribado en pacientes con 5-ARI."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q2",
+        "stem": "Un varón de 72 años en tratamiento con warfarina por fibrilación auricular tiene STUI graves (IPSS 24) y una próstata de 70 mL. Ha fracasado con el tratamiento médico máximo (combinación alfabloqueante + 5-ARI × 18 meses). Su hematocrito es del 38%. Se deriva para tratamiento quirúrgico. ¿Qué procedimiento quirúrgico es el más adecuado?",
+        "options": {
+          "A": "RTU-P monopolar — referencia independientemente del estado de anticoagulación",
+          "B": "Vaporización láser GreenLight (PVP) — hemostasia superior para pacientes anticoagulados",
+          "C": "Urolift — evita el traumatismo quirúrgico y el riesgo de sangrado",
+          "D": "Prostatectomía simple suprapúbica — más eficaz para glándulas grandes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La vaporización láser GreenLight (fotovaporización selectiva de la próstata, PVP) utiliza la longitud de onda de 532 nm, que es selectivamente absorbida por la oxihemoglobina, proporcionando una hemostasia coagulativa excelente mientras vaporiza el tejido prostático. Las guías EAU 2024 recomiendan específicamente la PVP GreenLight para pacientes con anticoagulación o terapia antiplaquetaria que no pueden interrumpir de forma segura su anticoagulante (la warfarina no puede ser revertida fácilmente en la FA). Múltiples estudios prospectivos confirman la seguridad de la PVP GreenLight sin interrumpir la warfarina o la heparina. El ensayo GOLIATH confirmó resultados de STUI equivalentes a la RTU-P.",
+          "wrong": {
+            "A": "La RTU-P monopolar en un paciente con warfarina tiene un riesgo de sangrado inaceptablemente alto — requiere interrumpir la anticoagulación, lo que plantea un riesgo tromboembólico relacionado con la FA. La RTU-P monopolar también se asocia a una tasa de transfusión del 5-7% incluso sin anticoagulación.",
+            "C": "El Urolift proporciona mejorías inferiores de IPSS y Qmáx en comparación con los procedimientos resectivos y no está recomendado para glándulas de 70 mL (el rango óptimo es 30-80 mL, pero el impacto clínico a este tamaño puede ser limitado) ni para pacientes que han fracasado con la terapia médica y requieren resección definitiva.",
+            "D": "La prostatectomía simple suprapúbica es muy eficaz para glándulas grandes (>80-100 mL), pero conlleva la mayor morbilidad quirúrgica y pérdida de sangre de todos los enfoques — especialmente problemático para un paciente anticoagulado."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.5.4: PVP GreenLight — indicación en pacientes anticoagulados",
+          "trial": "Thomas JA et al. Ensayo GOLIATH: PVP GreenLight vs RTU-P monopolar. Eur Urol 2016: resultados equivalentes de IPSS y Qmáx; PVP superior hemostasia — preferida para pacientes anticoagulados.",
+          "pearl": "El láser GreenLight (PVP) es el procedimiento de elección para la HBP en pacientes anticoagulados/antiplaquetarios que no pueden interrumpir su tratamiento. La longitud de onda de 532 nm absorbida selectivamente por la oxihemoglobina proporciona vaporización hemostática — puede realizarse sin interrumpir la warfarina. Ensayo GOLIATH: no inferior a la RTU-P a los 12 meses."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q3",
+        "stem": "El ensayo MTOPS (McConnell et al., NEJM 2003) evaluó la combinación finasterida + doxazosina frente a la monoterapia en hombres con STUI/HBP. ¿Cuál fue el hallazgo principal respecto a la progresión clínica?",
+        "options": {
+          "A": "La doxazosina sola redujo el riesgo de progresión en un 67% — superior a la combinación",
+          "B": "La finasterida sola fue equivalente a la terapia combinada para prevenir la RAO",
+          "C": "La terapia combinada redujo el riesgo de progresión clínica en un 67% frente al placebo, superior a cualquier monoterapia",
+          "D": "Ni la monoterapia ni la terapia combinada redujeron el riesgo de necesitar cirugía por HBP"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El ensayo MTOPS aleatorizó a 3.047 hombres a doxazosina, finasterida, terapia combinada o placebo durante 5,5 años. El criterio de valoración principal fue la progresión clínica (RAO, incontinencia urinaria, insuficiencia renal, ITU recurrente o necesidad de cirugía). La terapia combinada redujo la progresión clínica en un 67% frente al placebo (HR 0,33), la finasterida en un 34% (HR 0,66) y la doxazosina en un 39% (HR 0,61). Significativamente, la terapia combinada fue el único brazo que redujo significativamente el riesgo de RAO y la necesidad de terapia invasiva, confirmando que el 5-ARI es necesario para la prevención de la progresión y que el alfabloqueante solo no previene el riesgo de RAO a largo plazo.",
+          "wrong": {
+            "A": "La doxazosina sola redujo la progresión en un 39% — no en un 67%. El 67% corresponde a la terapia combinada.",
+            "B": "La finasterida sola redujo la progresión en un 34% y redujo específicamente el riesgo de RAO y cirugía. Pero NO fue equivalente a la terapia combinada para la prevención de la RAO — la combinación fue superior en todos los criterios.",
+            "D": "Tanto la terapia combinada como la finasterida sola redujeron significativamente la necesidad de cirugía invasiva (RTU-P) en comparación con el placebo y la doxazosina. Este es un hallazgo clave del MTOPS — el 5-ARI es esencial para la prevención de la progresión de la HBP a largo plazo."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.4.3: Evidencia de la terapia combinada — ensayo MTOPS",
+          "trial": "McConnell JD et al. Ensayo MTOPS: Medical Therapy of Prostatic Symptoms — combinación finasterida + doxazosina vs monoterapia. NEJM 2003: la terapia combinada reduce la progresión clínica en un 67% frente al placebo; superior a cualquier monoterapia.",
+          "pearl": "Hallazgos clave del ensayo MTOPS: (1) la combinación alfabloqueante + 5-ARI reduce el riesgo de progresión de HBP en un 67% frente al placebo; (2) el alfabloqueante solo NO previene la RAO ni la necesidad de cirugía; (3) el 5-ARI es esencial para la prevención de la progresión a largo plazo. La terapia combinada es el estándar para la HBP con glándula grande con riesgo de progresión."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q4",
+        "stem": "Un varón de 68 años en tratamiento con tamsulosina 0,4 mg una vez al día por STUI desarrolla urgencia, frecuencia e incontinencia de urgencia a pesar de un control adecuado de los síntomas de vaciado. La flujometría muestra Qmáx 16 mL/s; RPM 45 mL. El diario miccional muestra 14 micciones en 24 horas con un volumen miccional promedio de 180 mL. ¿Cuál es el siguiente paso adecuado?",
+        "options": {
+          "A": "Aumentar la tamsulosina a 0,8 mg una vez al día — bloqueo alfa insuficiente",
+          "B": "Suspender la tamsulosina y sustituirla por finasterida — los síntomas de almacenamiento sugieren deficiencia de 5-ARI",
+          "C": "Añadir mirabegrón 50 mg una vez al día o un antimuscarínico a la tamsulosina — STUI de almacenamiento sin respuesta al alfabloqueante",
+          "D": "Derivar para urodinámica antes de cualquier cambio de tratamiento — vejiga hiperactiva no confirmada"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Los síntomas de vaciado de este paciente están bien controlados (Qmáx 16, RPM 45 mL, vaciado vesical adecuado), pero los síntomas de almacenamiento (urgencia, frecuencia ×14/día, incontinencia de urgencia) persisten. Estos síntomas de almacenamiento residuales indican un componente de vejiga hiperactiva (VH) no abordado por el tratamiento con alfabloqueante. Las guías EAU 2024 recomiendan añadir un agonista beta-3 (mirabegrón) o antimuscarínico al alfabloqueante cuando los síntomas de almacenamiento predominan a pesar de un control adecuado de los síntomas de vaciado. Con RPM <200 mL, los antimuscarínicos son seguros. El mirabegrón se prefiere en pacientes mayores por su perfil favorable de seguridad anticolinérgica.",
+          "wrong": {
+            "A": "La tamsulosina no tiene una dosis autorizada de 0,8 mg — la dosis estándar es 0,4 mg una vez al día. Aumentar el bloqueo alfa no aborda los síntomas de almacenamiento (hiperactividad del detrusor).",
+            "B": "La finasterida aborda el componente estático de la obstrucción (volumen prostático) — no tiene ningún papel en el tratamiento de los STUI de almacenamiento ni de la vejiga hiperactiva. Suspender la tamsulosina empeoraría los síntomas de vaciado.",
+            "D": "La urodinámica no es necesaria antes de iniciar tratamiento médico para los STUI de almacenamiento en un paciente por lo demás bien caracterizado. Las guías EAU 2024 reservan la urodinámica para la incertidumbre diagnóstica, el fracaso del tratamiento o la evaluación prequirúrgica — no antes de añadir un agonista beta-3/antimuscarínico."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.4.4: Combinación alfabloqueante + antimuscarínico/mirabegrón para STUI mixtos",
+          "trial": "Chapple CR et al. Estudio TIMES: solifenacina + tamsulosina vs monoterapia en hombres con STUI incluida VH. Eur Urol 2009: combinación superior a la monoterapia para síntomas de almacenamiento y vaciado con seguridad adecuada (RPM <200 mL).",
+          "pearl": "STUI mixtos (vaciado + almacenamiento): añadir antimuscarínico o mirabegrón al alfabloqueante cuando los síntomas de almacenamiento persisten a pesar de un control adecuado de los síntomas de vaciado. Umbral de seguridad: RPM <200-300 mL. Mirabegrón preferido en mayores (sin efectos cognitivos anticolinérgicos, estreñimiento ni mayor riesgo de retención urinaria vs antimuscarínicos)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q5",
+        "stem": "Un varón de 58 años se somete a cirugía de cataratas de forma programada 3 meses después de suspender la silodosina. Intraoperatoriamente, el oftalmólogo observa ondulación y prolapso del iris hacia la sonda de facoemulsificación. La pupila se contrae a pesar de la midriasis máxima. ¿Qué síndrome está ocurriendo y cuál era el factor de riesgo prevenible?",
+        "options": {
+          "A": "Rotura de la cápsula posterior por error quirúrgico — no relacionado con la historia farmacológica",
+          "B": "Síndrome del iris flácido intraoperatorio (SIFIO) por uso previo de silodosina — incluso después de suspenderla",
+          "C": "Glaucoma agudo de ángulo cerrado desencadenado por colirios midriáticos",
+          "D": "Laxitud zonular por diabetes mellitus — no relacionado con los alfabloqueantes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El síndrome del iris flácido intraoperatorio (SIFIO) es causado por el bloqueo del receptor alfa-1A en el músculo dilatador liso del iris. Incluso después de suspender la silodosina (u otros alfabloqueantes alfa-1), el riesgo de SIFIO persiste porque el bloqueo del receptor alfa-1A causa cambios farmacodinámicos permanentes en el músculo dilatador del iris — los receptores no recuperan su función normal ni siquiera años después de la interrupción del fármaco. No existe un intervalo seguro establecido tras suspender la silodosina antes de la cirugía de cataratas. El oftalmólogo debe ser siempre informado sobre cualquier uso previo de alfabloqueante alfa-1A para permitir la preparación quirúrgica específica para SIFIO (ganchos de iris, viscoelástico, anillo de expansión pupilar).",
+          "wrong": {
+            "A": "El comportamiento del iris descrito (ondulación, prolapso, miosis paradójica a pesar de los midriáticos) es patognomónico del SIFIO — no es un error técnico.",
+            "C": "El glaucoma agudo de ángulo cerrado se presenta con dolor ocular, edema corneal y elevación de la PIO — no con prolapso del iris hacia la facoemulsificación. Los midriáticos pueden precipitar el cierre angular en ojos predispuestos, pero no causan ondulación y prolapso del iris.",
+            "D": "La diabetes causa cambios en el cristalino y fragilidad de la cápsula posterior — no el patrón de ondulación y prolapso del iris del SIFIO."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.3.2: Efectos secundarios de los alfabloqueantes — consideración perioperatoria del SIFIO",
+          "trial": "Chang DF et al. Evaluación multicéntrica prospectiva de la cirugía de cataratas en pacientes que toman tamsulosina. Ophthalmology 2007: el SIFIO ocurre incluso años después de la interrupción de la tamsulosina — no existe un periodo de retirada seguro.",
+          "pearl": "El SIFIO por alfabloqueantes alfa-1A (especialmente tamsulosina, silodosina) es permanente — no existe un periodo seguro tras suspender el fármaco antes de la cirugía de cataratas. Informar siempre al oftalmólogo sobre cualquier uso previo de alfabloqueante alfa-1 (pasado o presente). Riesgo de SIFIO: tamsulosina > silodosina > alfuzosina > doxazosina/terazosina (los agentes no selectivos tienen menor riesgo de SIFIO)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q6",
+        "stem": "Un varón de 80 años presenta hidronefrosis bilateral y creatinina sérica de 4,2 mg/dL (basal 1,1 mg/dL). La ecografía muestra una próstata de 120 mL, sin masas renales. La vejiga es palpable por encima del pubis. El RPM es de 1800 mL. ¿Cuál es la intervención inicial más urgente?",
+        "options": {
+          "A": "Iniciar tratamiento médico con combinación alfabloqueante + 5-ARI — abordar la HBP médicamente primero",
+          "B": "Cateterización uretral inmediata con manejo cuidadoso de la diuresis post-obstructiva",
+          "C": "RTU-P urgente — tratamiento definitivo de la insuficiencia renal obstructiva",
+          "D": "Derivar a nefrología para hemodiálisis — creatinina >4 mg/dL requiere diálisis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este paciente tiene uropatía obstructiva (hidronefrosis bilateral) por retención urinaria crónica de alto volumen (RPM 1800 mL) que causa insuficiencia renal aguda sobre crónica (creatinina 4,2 frente a basal de 1,1 mg/dL). La intervención más urgente es la cateterización uretral para aliviar la obstrucción inmediatamente. La diuresis post-obstructiva debe anticiparse y manejarse cuidadosamente — con RPM >1000 mL e hidronefrosis bilateral, puede producirse una diuresis post-obstructiva masiva (diuresis >200-400 mL/h) y causar alteraciones electrolíticas e hipovolemia. Reemplazar solo el 50% del gasto urinario por hora; monitorizar electrolitos cada 4-6 horas.",
+          "wrong": {
+            "A": "El tratamiento médico (alfabloqueante + 5-ARI) no puede descomprimir rápidamente una uropatía obstructiva que causa creatinina 4,2 mg/dL — la cateterización es inmediatamente necesaria. El tratamiento médico tarda días-semanas en actuar y no puede revertir agudamente la lesión renal obstructiva establecida.",
+            "C": "La RTU-P urgente en un paciente urémico con creatinina 4,2 mg/dL conlleva un riesgo anestésico y quirúrgico extremadamente alto. La secuencia apropiada es: cateterizar primero, permitir que la función renal se recupere y luego planificar la RTU-P/HoLEP definitiva de forma electiva.",
+            "D": "Se espera que la creatinina 4,2 mg/dL por uropatía obstructiva mejore sustancialmente tras la cateterización. La diálisis no está indicada a menos que la creatinina no mejore a pesar de un drenaje adecuado, o si las complicaciones electrolíticas/del equilibrio ácido-base son graves."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.2.3: Indicaciones quirúrgicas absolutas — insuficiencia renal obstructiva; manejo de la retención crónica",
+          "trial": "Emberton M et al. Retención aguda de orina en hombres y resultados de la intervención urológica. J Urol 1999: la cateterización es el manejo inmediato para la uropatía obstructiva — permite la recuperación de la función renal antes de la cirugía definitiva.",
+          "pearl": "Retención urinaria crónica de alto volumen (RPM >1000 mL) + hidronefrosis bilateral + creatinina creciente = uropatía obstructiva. La cateterización inmediata es obligatoria. Anticipar diuresis post-obstructiva (>200-400 mL/h) — reemplazar SOLO el 50% del gasto urinario por hora para evitar perpetuar la diuresis. Cirugía definitiva (RTU-P/HoLEP) tras la recuperación de la función renal."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q7",
+        "stem": "Un paciente se somete a RTU-P por HBP. Intraoperatoriamente, a los 45 minutos del procedimiento desarrolla agitación, confusión, bradicardia e hiponatremia (Na 118 mEq/L). ¿Cuál es el diagnóstico más probable y el manejo?",
+        "options": {
+          "A": "Episodio vasovagal — posición de Trendelenburg y atropina intravenosa",
+          "B": "Síndrome de RTU por RTU-P monopolar con absorción del irrigante de glicina — detener la resección, suero salino hipertónico intravenoso para la hiponatremia grave",
+          "C": "Septicemia por bacteriemia prostática — hemocultivos y antibióticos intravenosos",
+          "D": "Reacción al contraste por imagen — antihistamínico intravenoso y corticosteroides"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El síndrome de RTU es causado por la absorción sistémica de grandes volúmenes de fluido de irrigación hipotónico (glicina al 1,5%, sorbitol o manitol) utilizado en la RTU-P monopolar — esto causa hiponatremia dilucional, síntomas neurológicos (confusión, agitación, alteraciones visuales, convulsiones) y efectos cardiovasculares (bradicardia, hipertensión y luego hipotensión). Na 118 mEq/L con síntomas neurológicos intraoperatorios es diagnóstico. Manejo: detener inmediatamente la resección, catéter uretral de 12 Fr para drenar la vejiga, restringir los fluidos intravenosos y para la hiponatremia grave (Na <120 mEq/L o sintomática) — corrección cautelosa con suero salino hipertónico (NaCl al 3% a 1-2 mL/kg/h) con el objetivo de aumentar el Na en 1-2 mEq/L/hora (máximo 8-10 mEq/L en 24 h para evitar el síndrome de desmielinización osmótica). La RTU-P bipolar (irrigante salino) ha eliminado en gran medida el síndrome de RTU.",
+          "wrong": {
+            "A": "El episodio vasovagal bajo anestesia espinal es posible, pero no explica la hiponatremia — Na 118 mEq/L confirma una causa metabólica/dilucional, no un mecanismo vasovagal.",
+            "C": "La bacteriemia prostática puede ocurrir durante la RTU-P, pero se presenta con fiebre, escalofríos y taquicardia — no con hiponatremia aguda y síntomas neurológicos.",
+            "D": "No se utiliza contraste en la RTU-P — las reacciones al contraste no son aplicables."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.5: Complicaciones quirúrgicas — síndrome de RTU",
+          "trial": "Ho HS et al. RTU-P bipolar vs monopolar: revisión sistemática y metaanálisis. BJU Int 2007: la RTU-P bipolar elimina virtualmente el síndrome de RTU al utilizar suero salino isotónico como irrigante frente a la glicina hipotónica del monopolar — argumento de seguridad más sólido para la RTU-P bipolar.",
+          "pearl": "Síndrome de RTU = absorción de irrigante hipotónico (glicina) durante RTU-P monopolar causando hiponatremia dilucional + síntomas neurológicos + inestabilidad hemodinámica. Manejo: detener resección, restringir fluidos, suero salino hipertónico (NaCl al 3%) para Na <120 mEq/L o síntomas. Prevención: RTU-P bipolar con irrigante salino, limitar tiempo de resección (<60 min, <2 L de absorción)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q8",
+        "stem": "Un varón de 59 años planifica cirugía oftalmológica por cataratas. Ha estado en tratamiento con silodosina 8 mg una vez al día por STUI durante 2 años y quiere suspenderla antes de la cirugía para reducir el riesgo de SIFIO. ¿Cuál es el consejo más preciso sobre el SIFIO y la interrupción de la silodosina?",
+        "options": {
+          "A": "Suspender la silodosina 2 semanas antes de la cirugía elimina el riesgo de SIFIO",
+          "B": "El riesgo de SIFIO persiste independientemente de cuánto tiempo hace que se suspendió la silodosina — no existe un periodo seguro",
+          "C": "La silodosina causa SIFIO solo en el 5% de los pacientes — el riesgo es aceptable sin informar al oftalmólogo",
+          "D": "Cambiar a tamsulosina 2 semanas antes de la cirugía reduce el riesgo de SIFIO en comparación con la silodosina"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El SIFIO causado por bloqueadores del receptor alfa-1A (tamsulosina, silodosina — los agentes más selectivos con mayor riesgo de SIFIO) persiste indefinidamente después de la interrupción del fármaco. El músculo dilatador del iris experimenta cambios farmacodinámicos irreversibles que no se resuelven con el cese del fármaco. Múltiples estudios prospectivos confirman la aparición de SIFIO incluso cuando la tamsulosina se suspendió años antes de la cirugía. No existe un periodo de retirada seguro establecido. El oftalmólogo siempre debe ser informado sobre cualquier uso previo de alfabloqueante alfa-1A para implementar precauciones quirúrgicas específicas para SIFIO (ganchos de iris, viscoelástico dispersivo, anillo de expansión pupilar).",
+          "wrong": {
+            "A": "La retirada de 2 semanas no elimina el riesgo de SIFIO — no existe un periodo de retirada seguro establecido para ninguna duración.",
+            "C": "El SIFIO ocurre en el 43-90% de los pacientes con tamsulosina y en tasas igualmente altas con silodosina — no es un riesgo del 5%. No informar al oftalmólogo es un problema significativo de seguridad del paciente.",
+            "D": "Tanto la silodosina como la tamsulosina causan SIFIO. Cambiar entre agentes selectivos alfa-1A no proporciona protección contra el SIFIO — ambos fármacos causan la misma disfunción del dilatador del iris."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.3.2: SIFIO — sin periodo seguro de retirada para ningún alfabloqueante alfa-1A",
+          "trial": "Chang DF et al. Ophthalmology 2007: prevalencia de SIFIO del 86% con tamsulosina actual; 40% con tamsulosina previa suspendida >3 meses — confirma el riesgo persistente independientemente del momento de interrupción.",
+          "pearl": "El riesgo de SIFIO por alfabloqueantes alfa-1A (especialmente tamsulosina, silodosina) es permanente — no existe un periodo de retirada seguro. El oftalmólogo DEBE conocer cualquier uso de alfabloqueante alfa-1 (pasado o presente) antes de la cirugía de cataratas. Riesgo de SIFIO: tamsulosina > silodosina > alfuzosina > doxazosina/terazosina (los agentes no selectivos tienen menor riesgo de SIFIO)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q9",
+        "stem": "Un varón de 70 años se queja de despertarse 4 veces por noche para orinar. El registro frecuencia-volumen muestra: volumen urinario total en 24 horas 2200 mL; volumen urinario nocturno 1050 mL (entre las 23 h y las 7 h). La frecuencia diurna es de 7 micciones. La puntuación de la subescala de vaciado del IPSS es 4 (leve). ¿Cuál es el diagnóstico principal y el manejo inicial más adecuado?",
+        "options": {
+          "A": "Obstrucción del tracto de salida vesical — prescribir alfabloqueante",
+          "B": "Poliuria nocturna — manejo hídrico, elevación de piernas y/o desmopresina",
+          "C": "Vejiga hiperactiva — prescribir antimuscarínico",
+          "D": "Poliuria global — derivar para evaluación de diabetes insípida"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La poliuria nocturna se define como una producción urinaria nocturna >33% del gasto urinario total en 24 horas. Este paciente produce 1050 de 2200 mL (48%) por la noche — esto es poliuria nocturna por definición. El volumen total en 24 horas es de 2200 mL (no elevado, por lo que se excluye la poliuria global). La causa es la redistribución de líquidos (edema periférico, insuficiencia cardíaca, insuficiencia venosa) liberados por la noche en posición supina, o la deficiencia nocturna de ADH en hombres mayores. Manejo: restricción hídrica después de las 18 h, elevación de piernas por la tarde, tratamiento de cualquier edema periférico y, en casos refractarios — desmopresina a dosis baja (0,1-0,2 mg una vez al día, tomada antes de acostarse; monitorizar sodio sérico para hiponatremia en mayores). Los alfabloqueantes NO abordan la poliuria nocturna.",
+          "wrong": {
+            "A": "El tratamiento con alfabloqueante para la OTSV está indicado para los STUI de vaciado — la puntuación de la subescala de vaciado de este paciente es 4 (leve) y el síntoma principal es nocturia por poliuria nocturna. Los alfabloqueantes no reducen la producción urinaria nocturna.",
+            "C": "Los antimuscarínicos actúan sobre la hiperactividad del detrusor (urgencia, incontinencia de urgencia, micciones frecuentes de pequeño volumen). Este paciente produce grandes volúmenes por la noche (alto volumen urinario nocturno = poliuria nocturna), no micciones urgentes de pequeño volumen — los antimuscarínicos no son la terapia correcta.",
+            "D": "La poliuria global requiere un volumen en 24 horas >3 L (este paciente produce 2200 mL — total normal) o determinación de osmolalidad sérica/vasopresina. Este paciente tiene redistribución nocturna, no poliuria global."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 4.3: Nocturia — diagnóstico y manejo de la poliuria nocturna",
+          "trial": "van Kerrebroeck P et al. Desmopresina en el tratamiento de la nocturia. Eur Urol 2007: la desmopresina reduce las micciones nocturnas en un 50% en pacientes con poliuria nocturna — monitorizar Na sérico para hiponatremia (riesgo en mayores).",
+          "pearl": "Diagnóstico de poliuria nocturna: volumen urinario nocturno >33% del volumen total en 24 horas (requiere diario miccional — no se puede diagnosticar sin él). Los alfabloqueantes son ineficaces para la poliuria nocturna. Tratamiento: manejo hídrico, elevación de piernas, tratar edema periférico. Desmopresina a dosis baja para casos refractarios (PRECAUCIÓN: hiponatremia en mayores — comprobar Na a los 3 días del inicio)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q10",
+        "stem": "¿Cuál de las siguientes opciones describe correctamente el mecanismo por el cual los 5-ARI (finasterida, dutasterida) reducen el volumen prostático?",
+        "options": {
+          "A": "Bloquear la síntesis de testosterona en las células de Leydig del testículo",
+          "B": "Inhibir la 5-alfa-reductasa, previniendo la conversión de testosterona a DHT en la próstata",
+          "C": "Bloquear los receptores androgénicos en las células epiteliales prostáticas",
+          "D": "Estimular la apoptosis mediante la activación directa de la vía TGF-beta en las células estromales prostáticas"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los inhibidores de la 5-alfa-reductasa (5-ARI) bloquean la enzima 5-alfa-reductasa, que convierte la testosterona en dihidrotestosterona (DHT) dentro de la próstata (predominantemente la enzima tipo 2). La DHT es el andrógeno principal que impulsa el crecimiento del epitelio y el estroma prostático, con una afinidad por el receptor androgénico 5 veces mayor que la testosterona. Al impedir la síntesis de DHT, los 5-ARI privan a la próstata de su principal estímulo mitogénico, resultando en un aumento de la apoptosis y una reducción de la proliferación celular — logrando una reducción del volumen prostático del 20-30% en 6-12 meses.",
+          "wrong": {
+            "A": "Los 5-ARI no bloquean la síntesis de testosterona — bloquean la síntesis de DHT dentro de la próstata. La LH permanece normal; los niveles de testosterona en realidad aumentan ligeramente (en un 10-15%) con la terapia con 5-ARI porque la vía de conversión testosterona-DHT está bloqueada.",
+            "C": "El bloqueo del receptor androgénico es el mecanismo de los antiandrógenos (bicalutamida, enzalutamida) utilizados en el cáncer de próstata. Los 5-ARI no bloquean el receptor androgénico — reducen el ligando (DHT) que activa el receptor.",
+            "D": "La activación de la vía TGF-beta contribuye a la apoptosis inducida por la deficiencia de DHT, pero esto es una consecuencia tardía de la reducción de DHT — no el mecanismo directo de acción de los 5-ARI."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.3.3: Mecanismo de acción de los 5-ARI",
+          "trial": "McConnell JD et al. El efecto de la finasterida sobre el riesgo de RAO y la necesidad de tratamiento quirúrgico. NEJM 1998: ensayo PLESS — la finasterida reduce el volumen prostático en un 20-30% mediante la supresión de DHT; reduce el riesgo de RAO en un 57% y el riesgo de cirugía en un 55% a los 4 años.",
+          "pearl": "Mecanismo de los 5-ARI: inhiben la 5-alfa-reductasa (tipo 2 en la próstata) → bloquean la conversión testosterona → DHT → deficiencia de DHT → aumenta la apoptosis → el volumen prostático disminuye un 20-30% en 6-12 meses. El PSA disminuye un 50% — duplicar el PSA para el cribado de cáncer. Los 5-ARI también reducen la hematuria por la gran vascularidad prostática."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q11",
+        "stem": "Un varón de 75 años presenta su segundo episodio de retención aguda de orina en 8 meses, requiriendo cateterización. La prueba de micción espontánea (PME) tras 72 horas con tamsulosina 0,4 mg fue exitosa después del primer episodio. Ahora presenta la segunda RAO. Según las guías EAU 2024, ¿cuál es el manejo adecuado?",
+        "options": {
+          "A": "Segunda PME con tamsulosina — la tasa de éxito es similar al primer intento",
+          "B": "Alfabloqueante + 5-ARI a largo plazo y nueva PME en 4 semanas",
+          "C": "Tratamiento quirúrgico (RTU-P o HoLEP) — la RAO recurrente es una indicación quirúrgica absoluta",
+          "D": "Cateterización uretral a largo plazo — la cirugía es demasiado arriesgada a los 75 años"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La retención aguda de orina recurrente (≥2 episodios de RAO) es una indicación absoluta de tratamiento quirúrgico de la HBP según las guías EAU 2024. Tras una segunda RAO, el riesgo de nueva retención es muy alto (50-70% al año sin cirugía) y el manejo médico no puede prevenir de forma fiable la progresión. La RTU-P o el HoLEP son las opciones quirúrgicas estándar según el tamaño de la próstata y la experiencia del centro. La edad por sí sola (75 años) no es una contraindicación para la RTU-P — la mortalidad perioperatoria es del 0,1-0,2% en centros de alto volumen.",
+          "wrong": {
+            "A": "La segunda PME tras RAO recurrente tiene una tasa de éxito mucho menor (<30%) y no es el enfoque recomendado. Las guías EAU 2024 clasifican la RAO recurrente como una indicación quirúrgica absoluta.",
+            "B": "La terapia médica combinada + PME podría considerarse tras una primera RAO en pacientes seleccionados, pero la RAO recurrente (segundo episodio) obliga a la cirugía — la descompensación de la zona de transición es típicamente irreversible en esta fase.",
+            "D": "La cateterización a largo plazo se asocia a infección urinaria relacionada con el catéter, estenosis uretral, disfunción vesical y mala calidad de vida — no es la solución a largo plazo adecuada para un candidato quirúrgico con indicación absoluta de cirugía."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.2.3: Indicaciones absolutas de cirugía — RAO recurrente",
+          "trial": "McNeill SA et al. Ensayo ALFAUR: alfuzosina antes de la PME para la RAO. BJU Int 2004: la carga de alfabloqueante mejora el éxito de la PME para la primera RAO, pero la RAO recurrente tiene tasas de éxito de PME mucho menores — la cirugía es el estándar para ≥2 episodios de RAO.",
+          "pearl": "Manejo de la RAO: primer episodio → cateterizar + carga de alfabloqueante × 48-72 h → PME (éxito 60-70%). RAO recurrente (≥2 episodios) = indicación quirúrgica ABSOLUTA → RTU-P o HoLEP. Nunca aceptar cateterización a largo plazo para un paciente con RAO recurrente que sea candidato quirúrgico."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q12",
+        "stem": "El HoLEP (enucleación prostática con láser de holmio) se prefiere sobre la RTU-P en cuál de los siguientes escenarios clínicos:",
+        "options": {
+          "A": "Próstata pequeña (15 mL) con STUI leves en un varón de 62 años sin comorbilidades",
+          "B": "Próstata muy grande (150 mL) en un varón de 70 años que ha fracasado con el tratamiento médico",
+          "C": "Paciente anticoagulado con próstata de 40 mL y STUI moderados",
+          "D": "Paciente con STUI y preocupaciones sexuales que desea preservar la eyaculación"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El HoLEP no tiene límite superior de volumen prostático — puede enuclear de forma segura próstatas de 150 mL, 200 mL o más, siguiendo el mismo plano anatómico (la cápsula quirúrgica). La RTU-P monopolar convencional tiene un límite práctico superior de aproximadamente 80-100 mL de tejido resecado (más allá de esto, el tiempo operatorio prolongado aumenta el riesgo de síndrome de RTU y la pérdida de sangre). Para próstatas muy grandes (>100 mL), el HoLEP es superior a la RTU-P (evita el síndrome de RTU, menores tasas de transfusión) y equivalente a la prostatectomía simple abierta con una morbilidad significativamente menor. Las guías EAU 2024 recomiendan el HoLEP para glándulas grandes como el procedimiento de elección frente a la prostatectomía abierta.",
+          "wrong": {
+            "A": "Una próstata de 15 mL con STUI leves típicamente no requiere tratamiento quirúrgico en absoluto — el tratamiento médico o la vigilancia activa son el enfoque adecuado. La RTU-P o el HoLEP serían un tratamiento excesivo.",
+            "C": "La vaporización láser GreenLight (PVP) está específicamente recomendada para pacientes anticoagulados debido a su hemostasia superior — no el HoLEP (que tiene tasas de sangrado similares a la RTU-P). El HoLEP tiene menores tasas de transfusión que la RTU-P pero no es la recomendación específica para la anticoagulación.",
+            "D": "La preservación de la eyaculación favorece el Urolift o el Rezum — tanto el HoLEP como la RTU-P causan eyaculación retrógrada en el 65-90% de los casos. El HoLEP no es la elección para la preservación de la eyaculación."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.5.3: HoLEP — indicación para HBP con glándula grande",
+          "trial": "Gilling PJ et al. Ensayo LASER: HoLEP vs RTU-P para HBP. J Urol 2000: resultados funcionales equivalentes; el HoLEP no tiene límite superior de volumen — ventaja sobre la RTU-P para glándulas grandes (>80-100 mL).",
+          "pearl": "Ventajas del HoLEP sobre la RTU-P: (1) sin límite superior de volumen prostático (seguro para glándulas de 150+ mL), (2) menor tasa de transfusión (1-2% vs 5-7%), (3) menor tiempo de cateterismo, (4) durabilidad a largo plazo equivalente. Desventaja: curva de aprendizaje pronunciada (>50-70 casos para alcanzar la competencia). Preferido sobre la prostatectomía abierta para glándulas grandes."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q13",
+        "stem": "Un varón sexualmente activo de 64 años (en pareja, prioriza la función eyaculatoria) tiene STUI moderados (IPSS 16), próstata de 45 mL en ecografía, Qmáx 10 mL/s. Prefiere evitar la anestesia general. Ha probado y fracasado con dos alfabloqueantes. ¿Cuál es la opción quirúrgica más adecuada?",
+        "options": {
+          "A": "RTU-P — resultados a largo plazo más probados",
+          "B": "HoLEP — más eficaz para glándulas grandes",
+          "C": "Urolift (elevación uretral prostática) — preserva la eyaculación, puede realizarse con anestesia local",
+          "D": "Rezum (terapia con vapor de agua) — en consulta, preserva la eyaculación"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Este paciente prioriza explícitamente la preservación de la función eyaculatoria y desea evitar la anestesia general. El Urolift (elevación uretral prostática, sistema UroLift) es la opción con mayor evidencia que cumple ambos criterios: preserva la eyaculación anterógrada en prácticamente el 100% de los pacientes y puede realizarse con anestesia local/sedación consciente. Con una próstata de 45 mL (dentro del rango óptimo de 30-80 mL) y sin lóbulo medio prominente, el Urolift es anatómicamente adecuado. Las guías EAU 2024 recomiendan el Urolift como opción para hombres sexualmente activos que priorizan la preservación de la eyaculación y aceptan que la mejoría del IPSS es inferior a la de la RTU-P/HoLEP.",
+          "wrong": {
+            "A": "La RTU-P causa eyaculación retrógrada en el 65-90% de los pacientes — inaceptable para las prioridades declaradas de este paciente. También requiere anestesia general/espinal.",
+            "B": "El HoLEP también causa eyaculación retrógrada en el 65-80% — mismo problema que la RTU-P para la preservación de la eyaculación.",
+            "D": "El Rezum también preserva la eyaculación y es ambulatorio — pero requiere un catéter durante 3-7 días postprocedimiento y tiene un tiempo de inicio de acción de 3-6 meses. Tanto el Urolift como el Rezum son opciones apropiadas; el Urolift tiene más evidencia de nivel 1 y resultados inmediatos sin necesidad de catéter."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.5.6: TQMI — Urolift para preservación de la eyaculación en hombres sexualmente activos",
+          "trial": "Roehrborn CG et al. Ensayo BPH6: Urolift vs RTU-P — resultados a 2 años. J Urol 2013: el Urolift preserva la eyaculación en el 99% vs 0% con RTU-P; mejoría del IPSS 51% vs 73%; mejoría del Qmáx 44% vs 97% — resultados funcionales inferiores aceptados por preservación de la eyaculación.",
+          "pearl": "Urolift: cirugía de HBP preservadora de la eyaculación (preservación 99%), anestesia local/sedación consciente, resultados inmediatos, no requiere catéter. Óptimo: próstata 30-80 mL, sin lóbulo medio prominente (>1 cm). Mejoría inferior de IPSS/Qmáx vs RTU-P/HoLEP. EAU 2024: recomendado para hombres sexualmente activos que priorizan la función eyaculatoria sobre el máximo alivio de los síntomas."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q14",
+        "stem": "Un paciente en tratamiento con finasterida 5 mg durante 12 meses tiene un PSA de 2,8 ng/mL. Antes de iniciar la finasterida, su PSA era de 5,2 ng/mL. ¿Es adecuada la supresión esperada del PSA y qué acción se debe tomar?",
+        "options": {
+          "A": "El PSA ha disminuido de 5,2 a 2,8 ng/mL (reducción del 46%) — es adecuado, continuar finasterida",
+          "B": "El PSA debería haber caído por debajo de 1,3 ng/mL (se espera una reducción del 50%) — el PSA residual de 2,8 ng/mL sugiere cáncer, derivar para biopsia",
+          "C": "La reducción del PSA es incompleta — cambiar a dutasterida para una mejor supresión de DHT",
+          "D": "Suspender la finasterida — el PSA por debajo de 3 ng/mL es ahora aceptable para el cribado"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los inhibidores de la 5-alfa-reductasa (finasterida o dutasterida) reducen el PSA aproximadamente un 50% tras 6-12 meses de tratamiento. En este paciente, el PSA basal era de 5,2 ng/mL — el PSA esperado con finasterida debería ser de aproximadamente 2,6 ng/mL (reducción del 50%). El PSA real de 2,8 ng/mL está muy cerca del esperado (reducción del 46%), que se encuentra dentro de la variación normal. Sin embargo, el principio que se evalúa es que el PSA ajustado (2,8 × 2 = 5,6 ng/mL) representa el PSA equivalente 'real' — aún por encima del umbral de preocupación de 4 ng/mL. El fracaso en la supresión del PSA en >50% con 5-ARI, O cualquier aumento del PSA con 5-ARI, justifica la biopsia. Un PSA de 2,8 (ajustado 5,6) requiere juicio clínico; si el nadir fue menor y ahora está aumentando, está indicada la biopsia.",
+          "wrong": {
+            "A": "Afirmar que la supresión es 'adecuada' omite el punto clínico crítico — incluso con una supresión adecuada, el PSA ajustado (doble del valor medido) debe seguir interpretándose con respecto a los umbrales normales para la edad del paciente. PSA 2,8 → ajustado 5,6 ng/mL sigue requiriendo vigilancia continua.",
+            "C": "La dutasterida logra una supresión de DHT del 90% frente al 70% de la finasterida, lo que resulta en una supresión ligeramente mayor del PSA. Sin embargo, el cambio no está indicado aquí por supresión incompleta sola — la decisión clínica es si la trayectoria del PSA justifica la biopsia, no qué 5-ARI utilizar.",
+            "D": "El PSA por debajo de 3 ng/mL con finasterida NO es automáticamente aceptable para el cribado — el PSA equivalente 'real' es 2× el valor medido. 3 ng/mL medido = 6 ng/mL equivalente — no es tranquilizador."
+          },
+          "guideline": "Guías EAU sobre detección precoz del cáncer de próstata (Van Poppel et al., 2024) — interpretación del PSA con 5-ARI: duplicar el valor medido para los umbrales de cribado",
+          "trial": "Thompson IM et al. Ensayo PCPT: finasterida para la prevención del cáncer de próstata. NEJM 2003: el PSA con finasterida requiere duplicarse para un cribado preciso del cáncer — el PSA en aumento con 5-ARI = indicación de biopsia independientemente del valor absoluto.",
+          "pearl": "5-ARI y PSA: finasterida/dutasterida reducen el PSA en un 50% tras 6-12 meses. PSA ajustado = 2× el valor medido. CUALQUIER aumento del PSA con 5-ARI = biopsia (no necesita cruzar el umbral absoluto — la tendencia ascendente es la preocupación). Fracaso en la supresión de ≥40-50% a los 12 meses = discusión sobre biopsia."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "B1-Q15",
+        "stem": "Tadalafilo 5 mg una vez al día para STUI/HBP: en comparación con los alfabloqueantes, ¿cuál es la diferencia farmacodinámica clave?",
+        "options": {
+          "A": "El tadalafilo mejora el Qmáx significativamente más que los alfabloqueantes",
+          "B": "El tadalafilo no mejora significativamente el Qmáx pero sí mejora simultáneamente el IPSS y la DE",
+          "C": "El tadalafilo causa más eyaculación retrógrada que los alfabloqueantes",
+          "D": "El tadalafilo está contraindicado en pacientes con enfermedad cardiovascular"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El tadalafilo 5 mg una vez al día mejora el IPSS en 5-6 puntos (comparable a los alfabloqueantes) pero NO mejora significativamente el Qmáx (velocidad máxima de flujo urinario), a diferencia de los alfabloqueantes que mejoran el Qmáx de manera constante en un 20-25%. El mecanismo propuesto para el beneficio en los STUI implica la relajación del músculo liso mediada por GMPc en la próstata, la uretra y la vejiga — pero la vía PDE5 es menos crítica para la dinámica del flujo urinario que los adrenoceptores alfa-1. El tadalafilo aborda simultáneamente la disfunción eréctil (IIEF +5 puntos), lo que lo convierte en la elección preferida para hombres con STUI y DE concomitante.",
+          "wrong": {
+            "A": "El tadalafilo NO mejora el Qmáx de manera significativa — esta es la diferencia farmacodinámica clave respecto a los alfabloqueantes. Los alfabloqueantes mejoran el Qmáx en un 20-25%; el efecto del tadalafilo sobre el Qmáx es mínimo.",
+            "C": "El tadalafilo no causa eyaculación retrógrada. La eyaculación retrógrada es específica de los alfabloqueantes alfa-1A (tamsulosina 8-18%, silodosina 28%) por relajación del músculo liso del cuello vesical.",
+            "D": "El tadalafilo 5 mg una vez al día para los STUI tiene un buen perfil de seguridad cardiovascular. La contraindicación del tadalafilo es el uso concomitante de nitratos (riesgo de hipotensión grave) — la enfermedad cardiovascular por sí sola no es una contraindicación."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.3.5: Tadalafilo para STUI — mecanismo y comparación con los alfabloqueantes",
+          "trial": "Porst H et al. Tadalafilo una vez al día 5 mg para STUI asociados a HBP — revisión sistemática. Eur Urol 2013: mejoría del IPSS -4,9 vs placebo; mejoría del Qmáx no significativa — distinción clave respecto a los alfabloqueantes.",
+          "pearl": "Tadalafilo 5 mg una vez al día para STUI: mejoría del IPSS similar a los alfabloqueantes; SIN mejoría significativa del Qmáx (a diferencia de los alfabloqueantes). Ideal para hombres con STUI + DE concomitante (aborda ambos simultáneamente). Contraindicado con nitratos. No para enfermedad cardiovascular grave o pacientes con contraindicación para inhibidores de la PDE5."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q16",
+        "stem": "Un varón de 67 años refiere sensación de vaciado incompleto y nocturia ×3/noche pero mínima urgencia o frecuencia. El IPSS es 12. Su diario miccional muestra un volumen urinario nocturno promedio de 950 mL (de 2000 mL totales). El RPM es de 220 mL. ¿Cuál es la causa más probable de su nocturia?",
+        "options": {
+          "A": "Obstrucción del tracto de salida vesical que causa micciones frecuentes de pequeño volumen por la noche",
+          "B": "Poliuria nocturna — volumen urinario nocturno >33% del total",
+          "C": "Hiperactividad del detrusor que causa nocturia de urgencia",
+          "D": "Enuresis nocturna por vejiga neurógena"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Volumen urinario nocturno: 950 mL de 2000 mL totales = 47,5% de la producción total de orina en 24 horas por la noche. Esto supera el umbral de poliuria nocturna de >33%. La poliuria nocturna es la causa más frecuente de nocturia en hombres mayores (presente en el 60-80% de los pacientes ancianos con nocturia). La mínima urgencia y frecuencia (IPSS 12, pero nocturia predominante, no impulsada por la subescala de vaciado) y la alta fracción nocturna confirman la poliuria nocturna más que la nocturia por OTSV.",
+          "wrong": {
+            "A": "La nocturia por OTSV se acompañaría de urgencia/frecuencia diurnas frecuentes, flujo deficiente y alta puntuación en la subescala de vaciado del IPSS. Este paciente tiene síntomas predominantemente nocturnos con un alto volumen miccional nocturno (950 mL en 3 micciones = 317 mL promedio/micción — gran volumen, no micciones urgentes de pequeño volumen).",
+            "C": "La hiperactividad del detrusor causa micciones urgentes de pequeño volumen (típicamente <200 mL) tanto de día como de noche. El gran volumen urinario nocturno aquí apunta a poliuria nocturna, no a hiperactividad.",
+            "D": "La enuresis nocturna (mojar la cama) es incontinencia durante el sueño, no la nocturia consciente (despertarse para orinar) descrita aquí."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 4.3.2: Poliuria nocturna — definición (>33% del total nocturno) y manejo",
+          "trial": "Weiss JP et al. Poliuria nocturna primaria que se presenta como nocturia: un estudio prospectivo. J Urol 2011: poliuria nocturna presente en el 60-80% de los hombres mayores con nocturia — el diario miccional es esencial para el diagnóstico diferencial.",
+          "pearl": "Definición de poliuria nocturna: volumen urinario nocturno >33% del total en 24 horas (requiere diario miccional — no se puede diagnosticar sin él). Causas: redistribución de líquidos (edema, ICC), deficiencia nocturna de ADH, ingesta excesiva de líquidos por la tarde. Tratamiento: restricción hídrica después de las 18 h, elevación de piernas, tratar el edema periférico, desmopresina a dosis baja para casos refractarios."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q17",
+        "stem": "¿Cuál de las siguientes es una contraindicación para el uso de antimuscarínicos (p. ej., solifenacina) para los STUI de almacenamiento en un paciente con HBP?",
+        "options": {
+          "A": "PSA >4 ng/mL en un varón de 70 años",
+          "B": "Volumen prostático >30 mL en ecografía",
+          "C": "Glaucoma de ángulo estrecho mal controlado",
+          "D": "Qmáx <15 mL/s en flujometría"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Los antimuscarínicos (solifenacina, tolterodina, darifenacina, trospio) están contraindicados en el glaucoma de ángulo estrecho (glaucoma de ángulo cerrado) porque el bloqueo del receptor muscarínico deteriora el músculo ciliar y aumenta la resistencia al flujo del humor acuoso, pudiendo precipitar un cierre angular agudo. Este es un efecto de clase de todos los antimuscarínicos. El glaucoma de ángulo abierto (la forma más común) NO es una contraindicación. Otras contraindicaciones absolutas incluyen la retención urinaria (RPM >300 mL es una contraindicación relativa; la retención grave es absoluta), la retención gástrica y la miastenia gravis.",
+          "wrong": {
+            "A": "El PSA >4 ng/mL justifica la evaluación del cáncer de próstata, pero no es una contraindicación para los antimuscarínicos en los síntomas de VH. Los dos problemas se manejan de forma independiente.",
+            "B": "El volumen prostático >30 mL es una consideración para añadir 5-ARI, pero no es una contraindicación para los antimuscarínicos. La preocupación por la obstrucción de la uretra se aborda monitorizando el RPM con antimuscarínicos.",
+            "D": "El Qmáx <15 mL/s sugiere obstrucción de la salida o escasa contractilidad del detrusor — esto es una razón de precaución con los antimuscarínicos (monitorizar el RPM), pero una reducción moderada del Qmáx por sí sola no es una contraindicación absoluta cuando el RPM es <200-300 mL."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.3.4: Antimuscarínicos — contraindicaciones: glaucoma de ángulo estrecho",
+          "trial": "Chancellor MB et al. Tolterodina: farmacología clínica, aspectos terapéuticos y tolerabilidad. Drugs 2000: contraindicación en glaucoma de ángulo estrecho — efecto de clase de todos los antagonistas muscarínicos por inhibición del músculo ciliar.",
+          "pearl": "Contraindicaciones de los antimuscarínicos para los STUI: (1) glaucoma de ángulo estrecho (ángulo cerrado) — contraindicación de clase; (2) retención urinaria grave (RPM >300 mL); (3) retención gástrica; (4) miastenia gravis. El glaucoma de ángulo abierto NO es una contraindicación. Monitorizar el RPM al añadir antimuscarínicos en pacientes con OTSV (el RPM debe mantenerse <300 mL)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q18",
+        "stem": "El ensayo ALFAUR evaluó el uso de alfabloqueantes específicamente en el contexto de la retención aguda de orina. ¿Cuál fue la conclusión clave que influyó en la práctica clínica?",
+        "options": {
+          "A": "Los alfabloqueantes deben iniciarse después de una PME exitosa para prevenir la retención recurrente",
+          "B": "El alfabloqueante iniciado en el momento de la inserción del catéter para la RAO mejora la tasa de éxito de la PME",
+          "C": "Los alfabloqueantes son ineficaces para la RAO — la cateterización es el único manejo",
+          "D": "Los alfabloqueantes deben administrarse durante 6 semanas antes de cualquier intento de PME"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ensayo ALFAUR (McNeill et al., BJU Int 2004) aleatorizó a 209 hombres con primer episodio de RAO a alfuzosina 10 mg una vez al día (liberación prolongada) iniciada en el momento de la inserción del catéter frente a placebo. La PME a las 72 horas fue exitosa en el 62% del grupo de alfuzosina frente al 48% del grupo placebo (p=0,012). El principio clave: la carga de alfabloqueante debe comenzar EN EL MOMENTO DE LA INSERCIÓN DEL CATÉTER para la RAO — no después del intento de PME, y no durante un período prolongado de 6 semanas. Este período de carga de 48-72 horas con un alfabloqueante mejora significativamente las tasas de éxito de la micción espontánea.",
+          "wrong": {
+            "A": "Los alfabloqueantes se inician en el momento de la inserción del catéter (antes de la PME), no después de la PME exitosa. Tras la PME exitosa, los alfabloqueantes pueden continuarse para el manejo continuo de la HBP, pero el beneficio agudo en la RAO proviene de la carga previa a la PME.",
+            "C": "Los alfabloqueantes mejoran significativamente las tasas de éxito de la PME — no son ineficaces. El ensayo ALFAUR (62% vs 48% de éxito en la PME) proporciona evidencia de nivel 1 para el uso de alfabloqueantes en la RAO.",
+            "D": "Una tanda de 6 semanas de alfabloqueante no es el protocolo del ALFAUR — el ensayo utilizó 72 horas (3 días) de carga antes de la PME. La cateterización prolongada durante 6 semanas no es la práctica estándar para la primera RAO no complicada."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.3.1: Alfabloqueantes para RAO — iniciar en el momento de la cateterización",
+          "trial": "McNeill SA et al. Ensayo ALFAUR: alfuzosina 10 mg una vez al día facilita la PME tras la retención urinaria. BJU Int 2004: éxito de la PME 62% (alfuzosina) vs 48% (placebo) a las 72 h — la carga de alfabloqueante en el momento de la cateterización es el estándar de atención para la RAO.",
+          "pearl": "Manejo de la RAO: cateterizar + iniciar alfabloqueante INMEDIATAMENTE (en el momento de la inserción del catéter, no después de la retirada). Ensayo ALFAUR: alfuzosina durante 72 h antes de la PME → 62% de éxito vs 48% placebo. Factores de éxito de la PME: primer episodio de RAO, próstata más pequeña, menor edad, RAO precipitada (p. ej., retención urinaria postoperatoria)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "B1-Q19",
+        "stem": "Un varón de 71 años tiene STUI con IPSS 8 (leve). El PSA es 1,8 ng/mL. El tacto rectal es normal. Qmáx 14 mL/s. RPM 80 mL. No le molestan sus síntomas (puntuación de CdV 1 — 'complacido'). No tiene indicaciones quirúrgicas absolutas. ¿Cuál es el manejo más adecuado?",
+        "options": {
+          "A": "Iniciar tamsulosina 0,4 mg una vez al día inmediatamente para prevenir la progresión",
+          "B": "Vigilancia activa con consejos de estilo de vida y reevaluación en 6-12 meses",
+          "C": "RTU-P — Qmáx <15 mL/s requiere corrección quirúrgica",
+          "D": "Combinación tamsulosina + dutasterida — PSA >1,5 ng/mL indica glándula grande"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este paciente tiene STUI leves (IPSS 8), excelente calidad de vida (puntuación de CdV 1 — 'complacido'), sin indicaciones quirúrgicas absolutas y no está molestado por sus síntomas. Las guías EAU 2024 recomiendan la vigilancia activa (espera vigilada) con consejos de estilo de vida (manejo hídrico, reducción del consumo de cafeína/alcohol, micciones programadas, doble micción) para los STUI leves con escasa repercusión, ya que la relación riesgo-beneficio del tratamiento médico no favorece el tratamiento cuando el paciente está satisfecho. La reevaluación anual para monitorizar el empeoramiento de los síntomas o el desarrollo de indicaciones quirúrgicas absolutas es apropiada.",
+          "wrong": {
+            "A": "El tratamiento médico para los STUI leves sin repercusión no está recomendado — expone al paciente a efectos secundarios del fármaco (eyaculación retrógrada, hipotensión postural, riesgo de SIFIO) sin un beneficio significativo en la calidad de vida cuando la puntuación de CdV es 1.",
+            "C": "El Qmáx 14 mL/s está ligeramente reducido respecto al normal (≥15), pero no es una indicación quirúrgica absoluta. La cirugía no está indicada para STUI leves sin indicaciones absolutas ni repercusión significativa.",
+            "D": "La terapia combinada está reservada para hombres con glándulas grandes con riesgo de progresión clínica (IPSS ≥12, próstata >30 mL, PSA >1,5 ng/mL). El PSA de 1,8 ng/mL por sí solo no impone la terapia combinada — la carga sintomática del paciente (leve, escasa repercusión) no apoya el inicio de tratamiento médico."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.2.1: Vigilancia activa — indicación para STUI leves con escasa repercusión",
+          "trial": "Emberton M et al. Historia natural de la HBP: estudio de 2.000 hombres con STUI. BJU Int 1996: los hombres con STUI leves-moderados y escasa repercusión tienen síntomas estables o con lenta progresión — la vigilancia activa es apropiada para IPSS ≤7 con puntuación de CdV ≤2.",
+          "pearl": "La vigilancia activa es apropiada para STUI con: IPSS ≤7 (leve) O puntuación de CdV ≤2 (no molestado) Y sin indicaciones quirúrgicas absolutas. Consejos de estilo de vida: reducir líquidos después de las 18 h, limitar cafeína/alcohol, micciones programadas, doble micción. Reevaluación anual para la progresión. No tratar en exceso los STUI leves sin repercusión."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "B1-Q20",
+        "stem": "Un varón de 66 años lleva 18 meses con tamsulosina 0,4 mg con buen control de los síntomas de vaciado. Desarrolla de novo urgencia e incontinencia de urgencia sin hematuria ni infección. El diario miccional muestra un volumen miccional promedio de 210 mL con 14 micciones/día y 4 micciones nocturnas. El RPM es de 85 mL. ¿Cuál es el siguiente paso más adecuado?",
+        "options": {
+          "A": "Suspender la tamsulosina — los alfabloqueantes causan urgencia como efecto de clase",
+          "B": "Añadir mirabegrón 50 mg una vez al día a la tamsulosina para los STUI de almacenamiento",
+          "C": "Realizar urodinámica inmediatamente — la urgencia puede indicar enfermedad neurológica",
+          "D": "Derivar para RTU-P urgente — la urgencia con alfabloqueante indica fracaso médico de la OTSV"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Este paciente tiene síntomas de almacenamiento de novo (urgencia, incontinencia de urgencia, frecuencia ×14/día, nocturia ×4, volumen miccional promedio 210 mL — capacidad pequeña que sugiere vejiga hiperactiva) que se han desarrollado a pesar del buen control de los síntomas de vaciado con alfabloqueante (sin cambios en el patrón miccional). Con un RPM de 85 mL (seguro para añadir terapia para la VH), el paso adecuado es añadir un agonista beta-3 (mirabegrón 50 mg una vez al día) o antimuscarínico. El mirabegrón se prefiere en un varón de 66 años para evitar los efectos cognitivos anticolinérgicos secundarios. Las guías EAU 2024 recomiendan esta combinación para hombres con STUI mixtos en los que los síntomas de almacenamiento se desarrollan o persisten con terapia con alfabloqueante.",
+          "wrong": {
+            "A": "Los alfabloqueantes no causan urgencia — actúan principalmente sobre los síntomas de vaciado. Suspender la tamsulosina empeoraría los síntomas de vaciado controlados sin abordar los síntomas de almacenamiento.",
+            "C": "La urodinámica no está indicada antes de la terapia empírica para la VH en un paciente con STUI de almacenamiento típicos sin señales de alerta neurológicas (sin nuevos síntomas neurológicos, sin antecedentes de enfermedad neurológica, sin patrón de incontinencia inexplicable). Las guías EAU 2024 reservan la urodinámica para la incertidumbre diagnóstica o el fracaso del tratamiento.",
+            "D": "La RTU-P no está indicada para los síntomas de almacenamiento solos, especialmente cuando los síntomas de vaciado están bien controlados con tamsulosina. La urgencia con Qmáx adecuado y RPM bajo sugiere VH primaria, no OTSV que requiera cirugía."
+          },
+          "guideline": "Guías EAU sobre STUI masculino no neurogénico (Gravas et al., 2024) — Sección 5.4.4: Combinación alfabloqueante + agonista beta-3 para STUI mixtos",
+          "trial": "Chapple CR et al. Estudio TIMES: combinación tolterodina + tamsulosina superior a la monoterapia para STUI masculinos mixtos. Eur Urol 2009: la combinación mejora significativamente las puntuaciones de almacenamiento mientras mantiene la mejoría del vaciado — seguro con RPM <200 mL.",
+          "pearl": "Manejo de los STUI mixtos: el alfabloqueante controla los síntomas de vaciado; añadir agonista beta-3 (mirabegrón) o antimuscarínico para los síntomas de almacenamiento residuales. Mirabegrón preferido en mayores (sin efectos cognitivos anticolinérgicos). Monitorizar el RPM: si >300 mL con terapia combinada, suspender el componente anticolinérgico/beta-3."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

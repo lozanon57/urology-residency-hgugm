@@ -1,0 +1,629 @@
+{
+  "id": "C3",
+  "title": "Ureterorenoscopy — Advanced Techniques and Complex Cases",
+  "subtitle": "Block C — Retrograde intrarenal surgery, mini-URS, single-use scopes, complex anatomical cases",
+  "block": "C",
+  "block_name": "Urolithiasis and Endourology",
+  "level": "R3-4",
+  "reading_time_min": 38,
+  "guidelines_version": "EAU Guidelines on Urolithiasis 2024 · EAU Guidelines on Endourology 2024",
+  "textbook_refs": [
+    "Türk C et al. EAU Guidelines on Urolithiasis (2024)",
+    "Somani BK et al. Single-Use versus Reusable Flexible Ureterorenoscopes: A Prospective Multicentre Study. Eur Urol 2019",
+    "Giusti G et al. Digital Flexible Ureteroscopes: Features, Performances, and Future Directions. Eur Urol Focus 2020",
+    "Clayman RV et al. Retrograde Intrarenal Surgery for Kidney Stones: Systematic Review. J Endourol 2021"
+  ],
+  "learning_objectives": [
+    "Compare single-use versus reusable flexible ureteroscopes and apply evidence-based selection criteria",
+    "Describe retrograde intrarenal surgery (RIRS) technique for renal stones including dusting versus fragmentation strategies",
+    "Apply ureteroscopic management principles for complex anatomical scenarios including horseshoe kidney, transplant kidney, and calyceal diverticula",
+    "Evaluate second-look ureteroscopy indications and timing after SWL or PCNL",
+    "Explain the role of ureteroscopy in the management of UTUC diagnosis (biopsy) and treatment"
+  ],
+  "sections": [
+    {
+      "id": "C3-S1",
+      "title": "Flexible Ureteroscope Technology: Reusable vs Single-Use",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Flexible ureteroscopes** are the cornerstone of retrograde intrarenal surgery (RIRS). Two principal categories exist: **reusable (conventional) flexible ureteroscopes** (digital or fibreoptic; distal chip or CCD sensor; working channel 3.6 Fr; deflection 270° primary/270° secondary; total scope diameter 7.5–9 Fr) and **single-use (disposable) flexible ureteroscopes** (e.g., LithoVue — Boston Scientific; PolarisONE — Karl Storz; Uscope — Pusen Medical; newer models include integrated camera processor). Single-use scopes have several specific advantages:\n\n1. **Infection control**: reusable scopes require high-level disinfection between cases. Flexible ureteroscopes are heat-sensitive and cannot be autoclaved — they must be endoscopically disinfected with glutaraldehyde or automated endoscope reprocessors (AERs). Reprocessing failures are documented and associated with organism cross-transmission (including Mycobacterium, Pseudomonas, Carbapenem-resistant Enterobacteriaceae). Single-use scopes eliminate reprocessing entirely.\n2. **Always in optimal condition**: reusable scopes degrade with use — deflection decreases, working channel narrows, image quality deteriorates. Single-use scopes always have maximum deflection and a pristine working channel.\n3. **Availability**: single-use scopes can be stocked in quantity; expensive reusable scopes are limited in number per institution.\n4. **Disadvantages of single-use**: higher per-procedure cost; more environmental waste (plastics, rare-earth materials); not all single-use scopes achieve the same performance as premium reusable scopes (though this gap is closing rapidly with newer generations).\n\nThe **Somani et al. prospective multicentre study (Eur Urol 2019)** compared LithoVue single-use vs reusable scopes: equivalent stone-free rates (LithoVue 88.2% vs reusable 82.9% at 1 month); LithoVue achieved better deflection in the lower pole; cost analysis favoured single-use when repair costs and reprocessing costs were factored in for high-volume centres.\n\n**Digital vs fibreoptic flexible ureteroscopes**: digital scopes (distal CCD chip — Flex-XC, URF-V2) produce superior image quality versus fibreoptic (coherent fibre bundle with honeycomb artefact). Digital scopes are more robust as there is no coherent fibre bundle to break. Modern digital single-use scopes (LithoVue Elite) now achieve image quality comparable to premium reusable digital scopes."
+        },
+        {
+          "type": "table",
+          "title": "Reusable vs Single-Use Flexible Ureteroscopes: Comparison",
+          "headers": ["Feature", "Reusable (Digital)", "Single-Use (LithoVue generation)", "Clinical Implication"],
+          "rows": [
+            ["Image quality", "Excellent (distal chip)", "Good-excellent (improving with each generation)", "Equivalent for most cases; reusable marginally superior in complex anatomy"],
+            ["Deflection", "Degrades with use", "Always maximal — pristine", "Single-use: guaranteed access to lower pole on every case"],
+            ["Working channel", "Can narrow with use/damage", "Always full 3.6 Fr capacity", "Single-use: laser fibre passage always reliable"],
+            ["Infection risk", "Risk of inadequate reprocessing", "None — disposable", "Single-use eliminates cross-contamination risk"],
+            ["Per-procedure cost", "Lower (amortised over many uses)", "Higher per procedure", "Breakeven at ~20–30 repairs per reusable scope"],
+            ["Environmental impact", "Lower waste per procedure", "Higher waste per procedure", "Sustainability concern for single-use"],
+            ["Availability", "Limited units per institution", "Unlimited (stockable)", "Single-use: no scheduling conflicts"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Single-Use Scope Evidence",
+          "content": "Somani et al. Eur Urol 2019: single-use vs reusable flexible ureteroscopes — equivalent stone-free rates; single-use better lower-pole access (always full deflection); infection risk eliminated. Cost breakeven: approximately 25–30 repairs per reusable scope. EAU 2024: both approaches are evidence-based; choice depends on institutional context, infection control requirements, and cost analysis."
+        }
+      ]
+    },
+    {
+      "id": "C3-S2",
+      "title": "RIRS — Dusting vs Fragmentation and Extraction Strategies",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The strategic approach to laser stone fragmentation during flexible ureteroscopy (RIRS) has evolved significantly. Two principal strategies exist:\n\n**Fragmentation and extraction (conventional)**: stone is fragmented into 2–4 mm pieces using holmium laser at relatively high energy per pulse (0.8–2.0 J) and moderate frequency (6–12 Hz). Fragments are then actively extracted using nitinol baskets (N-Trap, Dormia) through the working channel. Advantages: confirmed stone removal; immediate stone-free status; specimens available for composition analysis. Disadvantages: time-consuming; basket passage narrows working channel; repeated scope manipulation risks scope damage; laser fibre retraction required for each basket passage.\n\n**Dusting**: stone is vaporised into sub-200 μm dust using low-energy, high-frequency laser settings (0.2–0.5 J, 30–80 Hz). The goal is to produce particles small enough to pass spontaneously without extraction. Advantages: faster; no basket required; fewer scope in-and-out passages. Disadvantages: dust may not clear (particularly from lower pole or in patients with low urine output); stone composition cannot be analysed; stone-free confirmation is challenging (CT may not detect sub-200 μm particles); debris may accumulate in collecting system causing obstruction.\n\nThe **EDGE/DUST RCT** (Humphreys et al. J Urol 2022): dusting vs fragmentation/extraction for renal stones 10–25 mm — no significant difference in stone-free rates at 90 days by NCCT (55% dusting vs 59% fragmentation); lower NCCT-confirmed stone-free rate for dusting likely reflects residual sub-200 μm particles that NCCT cannot detect. Patient-reported outcomes favoured dusting (fewer procedures, shorter operative time).\n\n**Moses technology (Lumenis)**: pulse-modulated holmium laser that shapes the energy pulse to create a 'Moses effect' — water vapour channel precedes the main pulse, reducing the steam bubble impedance and delivering energy more efficiently to the stone surface. Practical benefits: reduced retropulsion, improved fragmentation efficiency at equivalent total energy. Moses mode allows higher efficiency dusting or fragmentation than standard Ho:YAG.\n\n**EAU 2024 recommendation**: no categorical preference for dusting versus fragmentation. Choice based on stone size (<15 mm: dusting reasonable; >15 mm: fragmentation + extraction preferred for higher stone-free rate), stone location (lower pole: extraction preferred given poor spontaneous clearance), and operator preference."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Dusting in Lower-Pole Stones",
+          "content": "Dusting strategy (vaporising to sub-200 μm particles) should be used cautiously for lower-pole renal stones. Dust particles must pass against gravity from the lower pole, which they often do not — accumulation of dust in a lower-pole calyx can cause sand impaction and recurrent colic. For lower-pole stones, active fragmentation and basket extraction of fragments is generally preferred to ensure stone clearance."
+        }
+      ]
+    },
+    {
+      "id": "C3-S3",
+      "title": "Complex Anatomical Scenarios: Horseshoe Kidney, Transplant, and Calyceal Diverticula",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Horseshoe kidney** (HSK) affects 1 in 400–600 people and is the most common renal fusion anomaly. HSK stones occur in 20–60% of patients (higher prevalence than normal population due to impaired drainage from high-insertion ureter, medial ureteropelvic junction, and abnormal rotation). Stone management in HSK requires modification of standard approaches:\n\n- **SWL**: technically possible for renal stones in HSK, but stone-free rates are reduced (50–60% versus 80–90% in normal anatomy) due to impaired fragment drainage from the malrotated, medial collecting system and the isthmus. Prone positioning may improve fragment clearance.\n- **Ureteroscopy (RIRS)**: technically feasible in HSK — the retrograde access route is unaffected by the fusion anomaly. Stone-free rates with RIRS in HSK: 70–85%, comparable to RIRS in normal kidneys. RIRS is increasingly preferred over PCNL in HSK due to the cross-midline isthmus and aberrant blood supply.\n- **PCNL**: technically challenging in HSK — the isthmus and aberrant vasculature complicate percutaneous access; requires careful CT angiography planning. Mini-PCNL and ultrasound-guided access are preferred. Open surgery is now rarely needed even in HSK.\n\n**Transplant kidney** stones (post-transplant urolithiasis) occur in 0.2–1% of renal transplant recipients. Management principles are modified by: (1) The transplant kidney lies in the iliac fossa with a short, anterior ureter — retrograde ureteroscopy accesses the transplant through the neo-ureterovesical anastomosis; (2) There is no pain sensation (denervated allograft) — patients may present with asymptomatic obstruction or graft dysfunction rather than colic; (3) Immunosuppression increases infection risk — aggressive antibiotic prophylaxis and meticulous technique; (4) PCNL in transplant kidney requires ultrasound/CT guidance for access through the anterior iliac approach — anastomotic vasculature must be avoided. RIRS (retrograde) is the preferred approach for transplant kidney stones ≤20 mm.\n\n**Calyceal diverticula** (para-calyceal cysts communicating with the collecting system through a narrow infundibulum) contain stones in 30–50% of cases. Stone removal from calyceal diverticula is technically challenging because the narrow communicating neck limits basket extraction. Approach options: (1) RIRS (flexible ureteroscopy) — laser dusting/fragmentation through the narrow neck; (2) Percutaneous approach through direct puncture of the diverticulum (preferred for posterior-facing diverticula or large stone burden); (3) Calyx-neck widening during ureteroscopy to improve drainage. EAU 2024: percutaneous approach preferred for posterior calyceal diverticula with large stone burden; RIRS for anterior diverticula accessible by flexible scope."
+        },
+        {
+          "type": "table",
+          "title": "Ureteroscopy in Complex Anatomical Scenarios",
+          "headers": ["Anatomy", "Challenge", "Preferred URS Approach", "Stone-Free Rate", "Alternative"],
+          "rows": [
+            ["Horseshoe kidney", "Malrotated collecting system, medial UPJ", "RIRS (retrograde); prone SWL as alternative", "RIRS 70–85%", "Mini-PCNL with careful access planning"],
+            ["Transplant kidney", "Denervated, anterior ureter, immunosuppression", "RIRS via neo-ureteral anastomosis (stones ≤20 mm)", "RIRS 80–90%", "PCNL (anterior access) for large stones"],
+            ["Calyceal diverticulum", "Narrow communicating neck limits extraction", "RIRS (dusting) for anterior; percutaneous for posterior/large", "RIRS 60–75%", "Percutaneous diverticulostomy + stone extraction"],
+            ["Solitary kidney", "No contralateral reserve", "RIRS preferred (less parenchymal risk than PCNL)", "RIRS 80–90%", "Mini-PCNL if stone >20 mm or RIRS fails"],
+            ["Ureteral stricture proximal", "Cannot advance scope past stricture", "Balloon dilation of stricture then RIRS", "Post-dilation RIRS 65–80%", "Laparoscopic/robotic pyeloplasty + concurrent stone removal"],
+            ["Pelvic kidney", "Atypical anatomy, often crossed ureter", "RIRS feasible; CT planning essential", "RIRS 70–80%", "PCNL from anterior/prone approach"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Transplant Kidney Stone Diagnosis",
+          "content": "A renal transplant recipient presenting with rising creatinine, reduced urine output, or graft tenderness (when infection is present) should have urgent renal ultrasound to exclude hydronephrosis from ureteral obstruction. If hydronephrosis is found, immediate drainage (nephrostomy or retrograde stenting through the transplant ureter) is required. Stone diagnosis: NCCT without contrast (does not impair graft function). RIRS through the transplant ureter is technically straightforward when the native ureter has been sutured in a direct Lich-Gregoir (extravesical) anastomosis."
+        }
+      ]
+    },
+    {
+      "id": "C3-S4",
+      "title": "Ureteroscopy for UTUC Diagnosis and Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Ureteroscopy plays a role not only in stone management but also in the diagnosis and staging of **upper tract urothelial carcinoma (UTUC)**. The role of ureteroscopy in UTUC is covered comprehensively in Chapter A7, but the endourological aspects are summarised here.\n\n**Diagnostic ureteroscopy for UTUC**: flexible ureteroscopy (or semirigid for ureteral lesions) allows direct visualisation and biopsy of suspicious upper tract lesions. **Indications for diagnostic ureteroscopy in UTUC**: (1) Positive urinary cytology without bladder lesion and equivocal CT urogram; (2) CT urogram filling defect requiring histological confirmation; (3) To determine low-risk vs high-risk UTUC for kidney-sparing treatment eligibility. Biopsy technique: cup forceps (most common, 3 Fr) or brush cytology through the working channel. Histological yield from URS biopsy: 80–85% diagnostic accuracy for grade; 50–60% for staging (cannot adequately assess muscle invasion endoscopically). **Risk of URS before RNU**: historical concern that URS biopsy increases risk of positive ureteral margin and bladder recurrence through intraluminal seeding. EAU 2024 review: URS biopsy does not significantly increase long-term oncological outcomes if RNU is performed within appropriate timeframe. However, URS DOES necessitate single-dose intravesical chemotherapy after RNU (increased bladder recurrence risk from pyelovenous seeding of tumour cells).\n\n**Ablative/endoscopic treatment of UTUC**: kidney-sparing endoscopic ablation (by ureteroscopy with holmium laser or neodymium laser ablation) is indicated for: (1) Absolute indications — solitary kidney, bilateral UTUC, CKD with eGFR too low for safe post-RNU function; (2) Relative indications — EAU 2024 low-risk UTUC criteria (unifocal tumour ≤1 cm, low-grade cytology/biopsy, no hydronephrosis, no prior radical cystectomy). Endoscopic ablation requires rigorous surveillance (ureteroscopy + CT urogram at 3 months, then every 6 months for 2 years, then annually). Recurrence rates after endoscopic management: 30–50% at 2 years (versus essentially 0% after RNU for organ-confined disease). Patient must accept the surveillance burden and willingness to undergo RNU if recurrence/progression occurs."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Critical Warning — Diagnostic URS Before RNU: Bladder Recurrence Risk",
+          "content": "Diagnostic ureteroscopy before radical nephroureterectomy (RNU) is associated with increased bladder recurrence (approximately 1.5-fold increase versus RNU without prior URS). Mechanism: retrograde irrigation during URS washes tumour cells into the bladder. Management: (1) Perform URS biopsy only when the result will change management; (2) If URS performed before RNU, administer single-dose intravesical chemotherapy (MMC or epirubicin) WITHIN 24 HOURS after RNU — same as after TURBT for bladder cancer. This reduces bladder recurrence from ~50% to ~25% at 2 years (ODMIT-C principle applied to upper tract)."
+        }
+      ]
+    },
+    {
+      "id": "C3-S5",
+      "title": "Second-Look Ureteroscopy and Combination Approaches",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Second-look ureteroscopy** refers to planned repeat ureteroscopy to: (1) complete stone clearance after a primary procedure that achieved incomplete fragmentation; (2) assess stone-free status after SWL; (3) manage residual fragments after PCNL; (4) remove ureteral stent with concurrent stone removal if small residual fragments are present.\n\nIndications for second-look URS: (1) NCCT imaging at 4–6 weeks showing residual fragments >4–5 mm that are unlikely to pass spontaneously; (2) Incomplete stone clearance at primary RIRS (stones >20 mm frequently require multiple sessions — planned staged RIRS); (3) Post-PCNL residual fragments in inaccessible calyx that can be approached retrogradely; (4) SWL non-responders (stone unchanged at 4–6 weeks) who decline or are unsuitable for PCNL.\n\n**Combination approaches**: PCNL + retrograde flexible URS in the same anaesthetic for complex stone burden (EAU 'sandwich' technique for staghorn calculi in selected patients — mini-PCNL for main stone bulk + RIRS for residual fragments in calyces inaccessible from PCNL access tract). This combination achieves higher single-session stone-free rates than PCNL or RIRS alone for large and complex stone burdens.\n\n**Post-SWL residual fragments**: if SWL achieves partial fragmentation but residual fragments >5 mm remain at 4–6 weeks, options are: (1) Repeat SWL (if fragments are SWL-responsive and access sheath size is within limits); (2) Ureteroscopy — if fragments are in the ureter (steinstrasse) or lower pole where RIRS is efficient; (3) Observation with MET if fragments are 4–5 mm and slowly passing. EAU 2024 supports repeat SWL up to 3 sessions for renal stone SWL and 2–3 sessions for ureteral stone SWL before concluding treatment failure and escalating to ureteroscopy or PCNL."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Maximum SWL Sessions",
+          "content": "EAU 2024: maximum 3 SWL sessions for a single renal stone before treatment failure is declared and escalation to RIRS or PCNL is required. For ureteral stones: 2–3 sessions maximum. This avoids cumulative renal parenchymal injury from repeated shock wave exposure and unnecessary delays in definitive treatment. If stone is unchanged after 2 SWL sessions, it is likely SWL-resistant — change treatment strategy."
+        }
+      ]
+    },
+    {
+      "id": "C3-S6",
+      "title": "Mini-URS and Small-Calibre Ureteroscopy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Mini-ureteroscopy (mini-URS)** refers to use of smaller-calibre flexible or semirigid ureteroscopes (3.6–6 Fr tip diameter) designed for cases where conventional 7.5–9 Fr ureteroscopes cannot access the ureter or are too large for paediatric patients. Applications:\n\n1. **Paediatric ureteroscopy**: children have narrower ureters requiring smaller-calibre instruments. Mini-URS (4–5 Fr) allows access to paediatric ureters with minimal dilation. EAU 2024 supports ureteroscopy as the primary stone treatment for children >2 years with ureteral stones, with higher stone-free rates and lower complication rates than SWL in paediatric populations. Important: children should not receive routine ureteral stenting pre-operatively if access is achieved without dilation in the same session.\n\n2. **Tight primary ureteral access**: when a 7.5 Fr scope cannot be advanced, a 6 Fr semirigid scope or a mini-flex scope may succeed. However, the working channel in mini-scopes may be too small for standard 200 μm laser fibres — 150 μm TFL fibres are compatible.\n\n3. **Direct Mini-PCNL (see Chapter C4)**: micro-PCNL (4.85 Fr — renal access via single-use nephroscope) uses even smaller access tracts to minimise parenchymal damage.\n\nThe practical considerations for mini-URS: (1) Limited working channel size restricts laser fibre selection and basket use; (2) Image quality may be reduced in older models; (3) Deflection may be limited in the smallest instruments. Modern digital mini-scopes (e.g., URF-V3 5.4 Fr — Olympus) achieve good image quality and adequate deflection in most cases."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Ureteroscopy in Children",
+          "content": "For a child aged 8 with a 6 mm ureteral stone: mini-ureteroscopy (4–5 Fr) under general anaesthesia is the preferred approach. SWL is an alternative but stone-free rates are lower in children and radiation concerns are greater. PCNL is rarely needed for ureteral stones. Post-operative stent is often avoided (risk of stent-related dysuria and anxiety in children) — EAU recommends stentless URS in children when access was atraumatic. Parents must be counselled about anaesthetic risks and the possibility of requiring a second procedure if access cannot be achieved."
+        }
+      ]
+    },
+    {
+      "id": "C3-S7",
+      "title": "Quality Metrics and Training in Ureteroscopy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Quality indicators for ureteroscopy** in urology training programmes and clinical audit:\n\n1. **Stone-free rate at 3 months (by NCCT)**: target >80% for stones <20 mm in RIRS programmes. Stone-free rate at 1 month (by ultrasound/KUB) is less sensitive.\n2. **Ureteral injury rate**: target <2% (major injury requiring surgical repair <0.1%).\n3. **Post-operative infection rate**: target <3% (symptomatic, culture-confirmed febrile UTI requiring IV antibiotics).\n4. **Ureteral avulsion rate**: target 0% — any ureteral avulsion should trigger a serious incident review.\n5. **Stent symptom management**: proportion of stented patients receiving alpha-blocker prescription on discharge — target >90%.\n\n**Learning curve for flexible ureteroscopy**: published evidence suggests stone-free rates and complication rates stabilise after 30–50 supervised cases. Training should include: basic ureteroscope handling (simulated), navigation of the collecting system in laboratory/simulation, laser fibre handling, basket technique, and management of intraoperative complications (loss of safety guidewire, minor ureteral injury). The EAU YAU (Young Academic Urologists) training curriculum includes minimum case numbers for flexible ureteroscopy (30 supervised cases before independent practice).\n\n**Documentation requirements** for ureteroscopy: operative note must include: pre-procedure urine culture status and antibiotic given; stone size/location/HU on pre-op imaging; stone fragmentation technique and estimated fragment sizes; stone-free status at end of procedure; complications encountered and management; post-operative stent decision and rationale; stent size and removal plan; post-operative metabolic evaluation plan.\n\n**EAU 2024 stone centre quality standard**: centres performing >150 PCNL/year and >200 flexible URS/year per year are classified as high-volume stone centres with demonstrated superior outcomes. Referral of complex cases (horseshoe kidney, transplant, solitary kidney, large staghorn) to high-volume centres is recommended."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — RIRS vs PCNL for 15–20 mm Stones",
+          "content": "EAU 2024 for 15–20 mm renal stones: RIRS and PCNL are both acceptable (no Grade A preference for either). RIRS: less invasive, outpatient, lower bleeding risk. PCNL: higher single-session stone-free rate (85–90% vs 75–85% for RIRS). Multiple RIRS sessions may match PCNL cumulative stone-free rates. Patient factors (anticoagulation, single kidney, obesity, BMI) guide the choice. For > 20 mm: PCNL is Grade A (EAU 2024)."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of advanced ureteroscopy techniques and complex stone cases with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "C3-Q1",
+        "stem": "A 45-year-old man undergoes flexible ureteroscopy (reusable scope) for a 13 mm right renal pelvic stone. During the procedure, the endoscopist notes that the scope will not achieve more than 120° of active deflection despite the handle being at maximum position. Previous cases with this scope had full 270° deflection. What is the most likely cause?",
+        "options": {
+          "A": "The stone is blocking the deflection mechanism",
+          "B": "Deflection wire damage from previous use — the reusable scope has sustained internal damage requiring repair",
+          "C": "The laser fibre is too large for the working channel, restricting deflection",
+          "D": "Inadequate irrigation flow is preventing scope deflection"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Gradual deterioration of deflection capability is a recognised failure mode of reusable flexible ureteroscopes. The deflection wires in the distal tip of the scope experience cumulative mechanical stress with each use — repeated maximum deflection, combined with laser fibre passage and torquing forces, causes microfractures in the tungsten wires. Maximum deflection decreases progressively until a full wire break renders deflection impossible. This scope requires repair (typically costing £2000–5000 per repair), which is part of the cost analysis favouring single-use scopes in high-volume programmes. Pre-procedure quality check of deflection should be performed before every case.",
+          "wrong": {
+            "A": "The stone cannot physically block the deflection mechanism inside the scope shaft — deflection is controlled by an internal wire mechanism unrelated to the stone in the collecting system.",
+            "C": "Laser fibres inserted in the working channel do reduce deflection by approximately 20–30° due to the mechanical friction of the rigid fibre inside the deflecting shaft. However, 150° reduction to 120° from full 270° is far beyond the expected 20–30° loss from a standard 200 μm laser fibre. Scope mechanical failure is the correct diagnosis.",
+            "D": "Irrigation flow does not mechanically affect scope deflection — deflection is a mechanical function of the deflection wires, not fluid pressure within the scope."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Reusable flexible ureteroscopes: systematic deflection degradation with use; pre-use quality check mandatory; average scope lifespan 5–20 cases before repair needed; single-use scopes eliminate this problem",
+          "trial": "Somani BK et al. Eur Urol 2019: Reusable scope deflection — mean maximum deflection decreased from 275° at new to 198° after 20 uses in reusable scopes; single-use scopes maintained full deflection on every use; repair costs averaged £3200 per reusable scope per year",
+          "pearl": "Reusable flexible ureteroscope lifespan: 5–20 cases before repair needed. Deflection degrades with use. Pre-procedure deflection check is mandatory. This is the key argument for single-use scopes: always full deflection, no repair costs. Check the scope before every case."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C3-Q2",
+        "stem": "A 52-year-old man with a horseshoe kidney has a 15 mm stone in the left renal pelvis. He has never had stone surgery before. What is the most appropriate first-line treatment?",
+        "options": {
+          "A": "SWL — first-line for all stones <20 mm",
+          "B": "Flexible ureteroscopy (RIRS) — preferred for horseshoe kidney because retrograde access is unaffected by the fusion anomaly",
+          "C": "PCNL — always first-line for horseshoe kidney to avoid aberrant vasculature",
+          "D": "Open pyelolithotomy — complex anatomy requires open surgery in horseshoe kidney"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In horseshoe kidney, RIRS (flexible ureteroscopy) is increasingly preferred over SWL and PCNL as first-line for stones 10–20 mm. Rationale: (1) Retrograde access through the normal VUJ and ureter is unaffected by the kidney fusion — the collecting system is accessed the same way regardless of anatomical position; (2) SWL achieves poor stone-free rates in HSK (50–60%) due to the malrotated collecting system and medial UPJ impairing fragment drainage; (3) PCNL in HSK is technically challenging due to the isthmus crossing the midline and aberrant posterior vasculature — requires careful CT planning and is associated with higher complication rates than in normal kidneys. RIRS achieves 70–85% stone-free rates for this stone size in HSK.",
+          "wrong": {
+            "A": "SWL is first-line for stones <20 mm in normal anatomy but not in horseshoe kidney. The abnormal collecting system orientation and medial UPJ impair fragment drainage, reducing SWL stone-free rates significantly.",
+            "C": "PCNL is not always first-line for HSK — for stones ≤20 mm, RIRS achieves comparable stone-free rates with lower procedural risk. PCNL may be required for larger stones or failed RIRS, but requires careful pre-operative CT angiography to identify aberrant vessels.",
+            "D": "Open surgery for a 15 mm stone in HSK is not indicated in 2024. All modern stone management in HSK uses minimally invasive approaches (RIRS, mini-PCNL) except in extraordinary circumstances."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Horseshoe kidney stones: RIRS increasingly preferred for stones ≤20 mm; SWL with reduced efficacy (malrotated collecting system); PCNL technically challenging (isthmus, aberrant vasculature) — requires CT planning; stone-free rates with RIRS comparable to normal kidney",
+          "trial": "Molimard B et al. J Urol 2010: RIRS in horseshoe kidney — 82% stone-free rate at 3 months for stones ≤20 mm; no major complications; retrograde access unaffected by fusion anomaly; established RIRS as safe and effective first-line for HSK stones",
+          "pearl": "Horseshoe kidney stones: choose RIRS over SWL (SWL poor outcomes due to malrotated collecting system impeding drainage). PCNL requires careful CT planning due to isthmus and aberrant vessels. RIRS achieves 70–85% stone-free rate — comparable to normal kidney. Retrograde access is unaffected by the fusion."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C3-Q3",
+        "stem": "A 58-year-old man received a renal transplant 3 years ago. He presents with a 6 mm stone in the transplant ureter (mid-ureteral), rising creatinine (from 130 to 185 μmol/L), and mild hydronephrosis on ultrasound. He is afebrile. What is the most appropriate initial management?",
+        "options": {
+          "A": "Observation with oral analgesics — transplant ureteral stones usually pass spontaneously",
+          "B": "SWL for the transplant ureteral stone",
+          "C": "Retrograde ureteral stenting through the transplant anastomosis or nephrostomy + urgent ureteroscopy when stabilised",
+          "D": "Immediate transplant nephrectomy"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "A transplant kidney with ureteral obstruction (rising creatinine, hydronephrosis) requires urgent decompression — the denervated allograft has no pain sensation, so delayed diagnosis is common. Options: (1) Retrograde ureteral stenting through the transplant neo-ureterovesical anastomosis (preferred if technically accessible — transplant ureter runs from the iliac fossa to the bladder anteriorly); (2) Percutaneous nephrostomy if retrograde stenting fails or is technically inaccessible. Once the obstruction is relieved and creatinine stabilises, ureteroscopy through the transplant ureter can be performed for definitive stone treatment.",
+          "wrong": {
+            "A": "Observation is inappropriate for a transplant kidney with rising creatinine and hydronephrosis. Without decompression, progressive graft dysfunction will cause irreversible damage. The transplant kidney is the patient's only functioning kidney — delay risks graft loss.",
+            "B": "SWL is relatively contraindicated in transplant kidneys: (1) the kidney is in an anterior abdominal position (iliac fossa), not posterior, making SWL targeting difficult; (2) the transplant has nearby bowel and abdominal wall without the usual protective posterior anatomy; (3) there is rising creatinine suggesting obstruction. Decompression takes priority over SWL.",
+            "D": "Transplant nephrectomy for a 6 mm ureteral stone causing obstruction is completely inappropriate — the stone is treatable and graft function is potentially salvageable with decompression."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 and EAU Guidelines on Renal Transplantation — Transplant kidney stones with obstruction: urgent decompression (retrograde stent or PCN) first; definitive ureteroscopy after stabilisation; SWL difficult/contraindicated in transplant position; rising creatinine = emergency",
+          "trial": "Traxer O et al. Eur Urol 2010: Ureteroscopy for transplant ureteral stones — 91% stone-free rate with retrograde URS through transplant anastomosis; safe and effective approach for all transplant ureteral stones; retrograde preferred over PCNL for stones ≤20 mm",
+          "pearl": "Transplant kidney stone + rising creatinine = emergency decompression (retrograde stent or PCN). The denervated graft has NO pain sensation — obstruction may be diagnosed late by rising creatinine or ultrasound. Definitive ureteroscopy after stabilisation. SWL is not feasible in transplant kidney position."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C3-Q4",
+        "stem": "During RIRS for an 18 mm right renal stone, the surgeon is using a low-energy, high-frequency laser setting (0.3 J, 60 Hz — dusting mode). After 45 minutes, the stone appears to be reduced to fine powder/dust. However, a CT at 6 weeks shows 'residual stone-like material' in the lower pole. What is the most likely explanation?",
+        "options": {
+          "A": "The laser did not fragment the stone — the CT shows the original stone unchanged",
+          "B": "Dust particles accumulated in the lower pole and have not cleared due to gravity — expected finding with dusting strategy in lower-pole residual position",
+          "C": "The CT findings indicate ureteral stricture development",
+          "D": "Residual dust always means treatment failure — repeat RIRS is mandatory immediately"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The dusting strategy for an 18 mm stone produces large volumes of sub-200 μm particles. Lower-pole calyceal anatomy impairs gravity-dependent clearance — dust accumulates rather than passing. This is the principal limitation of dusting for lower-pole stones and large-volume stones. NCCT may detect this dust accumulation as 'stone material' when individual particles are <200 μm (below standard CT resolution), appearing as a cloud of density in the lower pole. This finding represents a known limitation of dusting strategy in the lower pole — fragmentation with active basket extraction would have been more appropriate for an 18 mm stone in this location.",
+          "wrong": {
+            "A": "If 45 minutes of high-frequency laser (0.3 J × 60 Hz = 18 W average power applied for 45 minutes) had not fragmented the stone at all, it would be clearly visible as an 18 mm intact stone on CT. The 'residual stone-like material' is more likely dust accumulation, not an unchanged stone.",
+            "C": "Ureteral stricture development presents with hydronephrosis on follow-up CT, not with dense material in the lower pole. Strictures appear as ureteral narrowing with proximal ureteral dilatation — a completely different imaging finding.",
+            "D": "Residual dust accumulation after a dusting procedure does not always require immediate repeat RIRS. The appropriate management is: reassess at 3 months; if material is passing (progressively less on serial imaging), continue observation; if stable or growing, plan further RIRS or PCNL."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Dusting strategy limitations: lower-pole accumulation of dust particles is a known challenge; not recommended as primary strategy for lower-pole stones or stones >15 mm; fragmentation + extraction preferred for these scenarios",
+          "trial": "Humphreys MR et al. J Urol 2022 (EDGE/DUST RCT): Dusting vs fragmentation/extraction for renal stones — at 90 days, NCCT stone-free rate 55% dusting vs 59% fragmentation; lower stone-free rate with dusting reflects accumulation of sub-threshold CT particles, especially in lower pole",
+          "pearl": "Dusting: good for upper pole/pelvis <15 mm; problematic for lower pole (gravity prevents dust clearance) and large stones (too much dust volume). Fragmentation + extraction is preferred for: lower-pole stones, stones >15 mm, and when confirmed stone-free status is required."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C3-Q5",
+        "stem": "A 7-year-old boy has a 5 mm distal ureteral stone causing moderate left hydronephrosis and persistent pain for 48 hours. Serum creatinine is normal, no fever, no infection. What is the most appropriate management?",
+        "options": {
+          "A": "Extracorporeal shock wave lithotripsy",
+          "B": "Open ureterolithotomy",
+          "C": "Mini-ureteroscopy with holmium laser lithotripsy",
+          "D": "Observation with tamsulosin for 4 weeks"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "In children with persistent pain and hydronephrosis from a 5 mm distal ureteral stone, ureteroscopy with laser lithotripsy is the preferred definitive treatment. EAU 2024 supports ureteroscopy as the primary treatment for symptomatic ureteral stones in children, with higher stone-free rates than SWL (particularly for distal stones) and lower complication rates. Mini-ureteroscopes (4–5 Fr) allow access to the paediatric ureter without excessive dilation. Post-operative stent may often be avoided after atraumatic access. The stone is too large and symptomatic for continued observation, and open surgery is not indicated for a 5 mm distal ureteral stone.",
+          "wrong": {
+            "A": "SWL is an option for renal stones in children but has lower stone-free rates for distal ureteral stones compared to ureteroscopy. Additionally, SWL in children requires general anaesthesia due to procedural discomfort — the same anaesthetic requirement as ureteroscopy, which has a higher success rate. EAU 2024 does not prefer SWL over URS for paediatric ureteral stones.",
+            "B": "Open ureterolithotomy is not indicated for a 5 mm distal ureteral stone in a child. Minimally invasive endoscopic approaches (URS) are standard of care. Open surgery is reserved for failed endoscopic procedures with significant anatomical abnormality.",
+            "D": "Tamsulosin (alpha-blocker MET) is not licensed for paediatric use and evidence for MET in children is limited. With persistent pain for 48 hours and moderate hydronephrosis, continued observation risks progressive ureteral injury from chronic obstruction. Definitive treatment is appropriate."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Paediatric ureteral stones: ureteroscopy preferred for symptomatic stones with hydronephrosis; higher stone-free rate than SWL for distal stones; mini-URS (4–5 Fr) appropriate for most children; avoid post-operative stent when access atraumatic",
+          "trial": "Smaldone MC et al. J Urol 2007: URS vs SWL in paediatric ureteral stones — URS 94% vs SWL 68% stone-free rate for distal ureteral stones; URS equivalent complication rates; established URS as preferred approach for symptomatic paediatric ureteral stones",
+          "pearl": "Paediatric ureteral stones: URS (mini-scope) > SWL for distal stones (higher stone-free rate). SWL still useful for renal stones in children. Mini-URS (4–5 Fr): appropriate for all ages from ~2 years onwards. Post-op stent often avoidable if access was atraumatic — reduces stent-related anxiety in children."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C3-Q6",
+        "stem": "A 48-year-old woman has a 12 mm right lower-pole renal stone. She is offered RIRS (flexible ureteroscopy). What specific technique modification is most important for maximising stone-free rates in lower-pole renal stones compared to upper-pole or pelvic stones?",
+        "options": {
+          "A": "Use dusting strategy (low-energy, high-frequency) to produce sub-200 μm particles that pass spontaneously from the lower pole",
+          "B": "Fragment the stone to 2–3 mm pieces and actively extract all fragments with a basket rather than relying on spontaneous passage",
+          "C": "Use a higher total laser energy to increase fragmentation speed",
+          "D": "Use pneumatic lithotripsy to maximise fragmentation in the lower pole"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For lower-pole renal stones, active fragmentation and basket extraction of 2–3 mm pieces is the preferred strategy because the lower pole's anatomy prevents gravity-dependent fragment clearance. Fragments must be actively removed through the scope rather than left to pass spontaneously. Repositioning the patient (Trendelenburg or flexion at hip) may temporarily improve fragment movement out of the lower calyx into the pelvis for extraction. Dusting (leaving small particles) is less effective in the lower pole because even fine particles accumulate rather than passing against gravity.",
+          "wrong": {
+            "A": "Dusting produces sub-200 μm particles specifically to avoid basket extraction — but lower-pole anatomy causes these particles to accumulate rather than pass spontaneously. Dusting is a poor strategy for lower-pole stones precisely because clearance depends on gravity, which works against lower-pole drainage.",
+            "C": "Increasing total laser energy increases fragmentation speed but does not address the fundamental lower-pole drainage problem — producing fragments faster does not help if they cannot exit the lower calyx. Efficient fragmentation to small sizes + active extraction is the strategy, not just more energy.",
+            "D": "Pneumatic lithotripsy cannot be used through a flexible ureteroscope — it requires a rigid probe. Using a semirigid ureteroscope in the lower pole is not feasible due to anatomical angulation."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Lower-pole stone RIRS strategy: fragmentation to 2–3 mm + active basket extraction preferred over dusting; Trendelenburg positioning ± mechanical percussion to mobilise fragments from lower calyx to pelvis before extraction; dusting less effective in lower pole",
+          "trial": "Breda A et al. Eur Urol 2009: Lower-pole renal stones treated by RIRS — basket extraction group achieved 91% stone-free rate vs 67% dusting group at 3 months; active extraction critical for lower-pole stone clearance",
+          "pearl": "Lower-pole stone = fragment to 2–3 mm + EXTRACT with basket. Never rely on spontaneous passage from the lower pole — gravity works against clearance. Trendelenburg position helps mobilise fragments to the pelvis. Dusting strategy is contraindicated for lower-pole stones."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C3-Q7",
+        "stem": "A diagnostic flexible ureteroscopy and biopsy are performed for a 1.5 cm filling defect in the left renal pelvis on CT urogram (positive selective urine cytology, low-grade). The biopsy confirms low-grade urothelial carcinoma. The patient subsequently undergoes laparoscopic radical nephroureterectomy (RNU). Should any additional prophylactic measure be taken at the time of RNU or immediately afterwards?",
+        "options": {
+          "A": "Adjuvant EBRT to the retroperitoneum to prevent local recurrence",
+          "B": "Single-dose intravesical chemotherapy (MMC or epirubicin) administered within 24 hours after RNU, to reduce bladder recurrence",
+          "C": "Peri-operative MVAC chemotherapy to reduce systemic recurrence",
+          "D": "No additional measures — RNU alone is curative for low-grade UTUC"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Diagnostic ureteroscopy before RNU increases bladder recurrence risk (from ~25% to ~50% without prophylaxis) through retrograde seeding of tumour cells into the bladder during retrograde irrigation. Single-dose intravesical chemotherapy (mitomycin C 40 mg/20 mL saline or epirubicin 80 mg/50 mL saline) administered immediately after RNU (within 24 hours, before catheter removal) reduces this bladder recurrence risk. This is analogous to single-dose MMC after TURBT for NMI bladder cancer (ODMIT-C principle). EAU 2024 mandates this prophylaxis for all patients who underwent diagnostic URS before RNU.",
+          "wrong": {
+            "A": "EBRT is not part of standard UTUC management after RNU. Adjuvant chemotherapy (cisplatin-based) is indicated for pT2-T4/pN+ disease (POUT trial — see Chapter A7), not radiotherapy.",
+            "C": "Perioperative MVAC is neoadjuvant chemotherapy used before RNU in clinically advanced UTUC (cT3/cT4) — not routinely given for this low-grade, presumably early-stage tumour. Perioperative chemotherapy here refers to neoadjuvant (before) or adjuvant (after RNU for pT2-T4/pN+), not as prophylaxis against bladder recurrence.",
+            "D": "While RNU is curative for organ-confined UTUC, the specific risk of bladder recurrence after diagnostic URS requires prophylaxis. 'RNU alone is sufficient' ignores the well-documented increased bladder recurrence risk from pre-RNU ureteroscopy."
+          },
+          "guideline": "EAU Guidelines on UTUC 2024 — Single-dose intravesical chemotherapy within 24h after RNU is recommended for all patients who underwent diagnostic URS before RNU (Grade A). Reduces bladder recurrence from ~50% to ~25% at 2 years.",
+          "trial": "Ito A et al. J Clin Oncol 2013 (ODMIT-C principle applied to UTUC): Single-dose MMC after RNU with prior URS — bladder recurrence at 2 years reduced from 51% (no MMC) to 26% (MMC); established mandatory single-dose intravesical chemotherapy after RNU in URS-biopsied patients",
+          "pearl": "Pre-RNU diagnostic URS → increased bladder recurrence from tumour seeding → give single-dose intravesical MMC within 24h of RNU. This is EAU Grade A. Do NOT forget this step in any patient who had diagnostic URS before RNU. Apply the ODMIT-C principle to upper tract tumours."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C3-Q8",
+        "stem": "What is the maximum recommended number of SWL sessions for a single renal stone before declaring treatment failure and escalating to ureteroscopy or PCNL?",
+        "options": {
+          "A": "1 session — if the stone does not fragment with first SWL, change modality",
+          "B": "3 sessions",
+          "C": "5 sessions",
+          "D": "10 sessions — SWL can be repeated indefinitely as it is non-invasive"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 recommends a maximum of 3 SWL sessions for a single renal stone before declaring SWL treatment failure. Rationale: (1) More than 3 sessions cause cumulative renal parenchymal injury — each session damages renal microvasculature and tubules; (2) An unchanged stone after 2–3 sessions is almost certainly SWL-resistant (high HU, cystine, brushite composition, or anatomical factors); (3) Continued SWL delays definitive treatment unnecessarily. If the stone is unchanged or minimally reduced after 2 sessions, the management plan should be revised to ureteroscopy or PCNL.",
+          "wrong": {
+            "A": "One session is insufficient to declare SWL failure — some stones require multiple sessions for complete fragmentation (particularly larger stones that need 2–3 sessions to completely clear). However, if there is literally no response (unchanged stone, no fragmentation) after 2 sessions, treatment should be changed.",
+            "C": "5 sessions is excessive — EAU limits are 3 sessions to prevent cumulative renal injury. There is no evidence that 5 sessions achieves better outcomes than 3 + URS.",
+            "D": "SWL is not harmless — repeated sessions cause dose-dependent renal parenchymal injury (haemorrhage, fibrosis, nephron loss, blood pressure effects). There is a maximum recommended session number for this reason."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Maximum SWL sessions: 3 for renal stones; 2–3 for ureteral stones. SWL failure after maximum sessions: escalate to URS or PCNL. More sessions increase renal injury risk without proportional benefit.",
+          "trial": "Chaussy C & Schmiedt E. Eur Urol 1984 (original SWL): Established SWL session limits based on cumulative renal injury data; subsequent EAU guideline incorporation fixed 3-session maximum based on safety evidence from animal and human studies",
+          "pearl": "Maximum 3 SWL sessions per stone — then declare failure and change treatment. After 2 unchanged sessions, strongly consider switching to URS/PCNL rather than a third futile SWL. More sessions = more renal injury, no better outcome."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C3-Q9",
+        "stem": "A 62-year-old woman had flexible ureteroscopy for a 14 mm right upper-pole stone 4 months ago. Repeat NCCT shows a 6 mm residual fragment in the upper calyx. She is asymptomatic and afebrile. What is the most appropriate management?",
+        "options": {
+          "A": "Reassure — any fragment <10 mm can be safely observed indefinitely",
+          "B": "Active surveillance at 6 months with NCCT; if stable, continue annual imaging; if growing or symptomatic, offer second-look flexible ureteroscopy or SWL",
+          "C": "Immediate second-look ureteroscopy — all residual fragments >4 mm require intervention",
+          "D": "PCNL for the residual 6 mm fragment in the upper calyx"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A 6 mm residual fragment (>4 mm, above CIRF threshold) after RIRS warrants active decision-making. The fragment is too large to be considered a CIRF (<4 mm) and has a significant chance of causing colic or growing. However, it is asymptomatic — immediate repeat URS is not mandatory. The appropriate approach: active surveillance with NCCT at 6 months. If the fragment is stable and asymptomatic at 6 months, continue with annual imaging. If it grows, moves to the ureter and causes obstruction, or becomes symptomatic, offer definitive treatment (second-look f-URS preferred — upper calyx access, same modality that treated the primary stone) or SWL (upper pole stones have good SWL outcomes for this size).",
+          "wrong": {
+            "A": "A 6 mm fragment is above the CIRF (<4 mm) threshold and cannot be observed 'indefinitely.' EAU 2024 is clear that fragments >4 mm require active monitoring and planned intervention if they grow or cause symptoms. Indefinite observation without imaging is not appropriate.",
+            "C": "Immediate second-look URS for an asymptomatic 6 mm residual fragment at 4 months post-procedure is not mandatory — it introduces anaesthetic and procedural risk for a stable asymptomatic stone. Active surveillance is appropriate initially; intervention is planned if the fragment progresses.",
+            "D": "PCNL for a single 6 mm fragment in the upper calyx is grossly disproportionate to the stone burden. PCNL is indicated for stones >20 mm or complex staghorn calculi. f-URS or SWL are appropriate for this small residual fragment."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Residual fragments >4 mm after stone surgery: active decision required (not passive observation); 6-month imaging surveillance; intervention planned for growth, obstruction, or symptoms; SWL or repeat f-URS for small upper-pole residuals",
+          "trial": "El-Nahas AR et al. J Urol 2008: Natural history of residual stone fragments after stone surgery — fragments 4–10 mm: 44% required intervention at 5 years; 56% remained stable or passed; supports active surveillance over immediate re-intervention for asymptomatic residuals",
+          "pearl": "Residual fragment >4 mm = NOT clinically insignificant = requires planned management. <4 mm = CIRF (observe but still monitor). 4–10 mm = active surveillance at 6 months; treat if grows/symptomatic. Do NOT offer PCNL for a 6 mm residual fragment — disproportionate."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C3-Q10",
+        "stem": "During endoscopic ablation (holmium laser) for a 0.9 cm low-grade urothelial carcinoma in the right renal pelvis (EAU low-risk UTUC), the urologist discusses surveillance requirements with the patient. What does EAU 2024 require for post-endoscopic treatment surveillance of UTUC?",
+        "options": {
+          "A": "Annual ultrasound only — low-grade UTUC does not require intensive surveillance",
+          "B": "CT urogram at 3 months, then every 6 months for 2 years, then annually; ureteroscopy at 3 months and at 6 months; cytology at each visit",
+          "C": "No surveillance required if the laser ablation was endoscopically complete",
+          "D": "Surveillance can be deferred until symptoms recur"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 mandates intensive surveillance after endoscopic management of UTUC because recurrence rates are 30–50% at 2 years (far higher than after RNU for the same stage). Surveillance protocol: CT urogram at 3 months (first post-treatment imaging), then every 6 months for 2 years, then annually. Ureteroscopy (endoscopic surveillance) at 3 months post-treatment, then every 6 months for 2 years. Urine cytology at each visit. Cystoscopy every 3 months for 2 years (bladder recurrence surveillance — 15–25% risk). Patients must fully understand and accept this surveillance burden before choosing endoscopic treatment over RNU.",
+          "wrong": {
+            "A": "Annual ultrasound is wholly inadequate for UTUC surveillance. Ultrasound is not sensitive for detecting urothelial recurrence in the collecting system. CT urogram and ureteroscopy are required.",
+            "C": "Endoscopic completeness cannot be confirmed without post-treatment surveillance imaging and ureteroscopy. Even apparently complete laser ablation has 30–50% recurrence rates at 2 years — surveillance is mandatory.",
+            "D": "Deferring surveillance until symptoms recur defeats the purpose of endoscopic management — early recurrence detection allows further endoscopic treatment or timely RNU before tumour upstaging. Symptomatic recurrence often means progression beyond low-risk criteria."
+          },
+          "guideline": "EAU Guidelines on UTUC 2024 — Endoscopic management surveillance: CT urogram at 3m, 6m, 12m, then annually; ureteroscopy at 3m and 6m; urine cytology at each visit; cystoscopy every 3 months × 2 years (bladder surveillance). Patients must accept surveillance burden pre-operatively.",
+          "trial": "Cutress ML et al. Eur Urol 2012: Systematic review of endoscopic UTUC management — recurrence rates 30–50% at 2 years; intensive surveillance detects early recurrence amenable to further endoscopic treatment or timely RNU; surveillance adherence critical for acceptable oncological outcomes",
+          "pearl": "Endoscopic UTUC management = intensive surveillance (CT urogram + ureteroscopy every 3–6 months × 2 years). Recurrence rate 30–50% at 2 years vs <5% after RNU. Patient must ACCEPT the surveillance burden and willingness for RNU if recurrence occurs. Never offer endoscopic management to a patient who won't comply with surveillance."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C3-Q11",
+        "stem": "What is the primary advantage of Moses pulse holmium laser technology compared to standard holmium:YAG in flexible ureteroscopy?",
+        "options": {
+          "A": "Moses laser operates at a different wavelength, allowing fragmentation of stone types resistant to standard Ho:YAG",
+          "B": "Moses pulse modulation reduces steam bubble impedance, improving energy delivery efficiency and reducing stone retropulsion",
+          "C": "Moses technology eliminates the need for irrigation fluid during ureteroscopy",
+          "D": "Moses laser has a longer fibre life than standard laser fibres"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Moses technology (Lumenis) modifies the Ho:YAG pulse shape into a two-component pulse: a leading 'prepulse' that creates a narrow water vapour channel through the fluid to the stone surface, followed by the main fragmentation pulse that travels through the pre-cleared channel with minimal impedance. Benefits: (1) Reduced steam bubble formation between the fibre tip and stone — less wasted energy dissipated in bubble dynamics; (2) Energy reaches the stone surface more efficiently — lower total energy needed for equivalent fragmentation; (3) Reduced stone retropulsion because less explosive bubble formation pushes the stone. Moses technology operates at the same wavelength (2140 nm) as standard Ho:YAG — it is the pulse timing, not the wavelength, that is modified.",
+          "wrong": {
+            "A": "Moses technology uses the same 2140 nm wavelength as standard Ho:YAG. It does not change the physics of stone fragmentation (water absorption) and does not add new stone-type efficacy. All Ho:YAG laser types fragment all stone compositions regardless of pulse modulation.",
+            "C": "Irrigation is still required during Moses pulse ureteroscopy — it maintains visualisation, cools the laser fibre, and flushes fragments. No laser technology eliminates irrigation requirements.",
+            "D": "Moses technology affects pulse delivery electronics, not the physical fibre itself. Standard silica laser fibres are used with both Moses and non-Moses Ho:YAG systems — fibre life is not affected by pulse modulation."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Moses pulse technology: reduced retropulsion compared to standard Ho:YAG; improved fragmentation efficiency; particularly useful for flexible URS where retropulsion causes stone migration into difficult-access calyces",
+          "trial": "Keller EX et al. J Urol 2019: Moses vs standard Ho:YAG in flexible URS — Moses achieved equivalent stone-free rates with 34% reduction in total energy used and significantly lower retropulsion events; established Moses as efficiency improvement over standard Ho:YAG",
+          "pearl": "Moses laser: SAME wavelength (2140 nm) as standard Ho:YAG, DIFFERENT pulse shape. Creates a water vapour tunnel → energy reaches stone more efficiently → less retropulsion. Practical benefit in flexible URS: less stone migration during fragmentation. Moses is a refinement of Ho:YAG, not a different laser type."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C3-Q12",
+        "stem": "A 50-year-old man with a calyceal diverticulum containing a 10 mm stone is being planned for treatment. The diverticulum is located in the posterior upper calyx, accessible via the posterior approach. He prefers the least invasive approach. What does EAU 2024 recommend for posterior calyceal diverticulum stones?",
+        "options": {
+          "A": "Observation — calyceal diverticulum stones rarely cause symptoms",
+          "B": "SWL — the diverticulum neck will open after fragmentation",
+          "C": "RIRS (retrograde flexible ureteroscopy) through the narrow diverticulum neck",
+          "D": "Percutaneous approach (direct puncture of the diverticulum) preferred for posterior calyceal diverticula with significant stone burden"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "Calyceal diverticulum stone management is location and stone burden-dependent. Posterior calyceal diverticula are more accessible via percutaneous approach (patient prone, direct puncture of the diverticulum under fluoroscopic/CT guidance). The percutaneous approach for posterior calyceal diverticula allows: complete stone clearance, dilation or fulgurating of the diverticulum neck to reduce recurrence risk, and avoidance of the tight neck that makes retrograde access technically difficult. EAU 2024 recommends percutaneous approach for posterior calyceal diverticulum stones, particularly with stone burden >5 mm.",
+          "wrong": {
+            "A": "Calyceal diverticulum stones cause symptoms in 30–50% of patients (pain, infection, haematuria). An asymptomatic 10 mm stone in a diverticulum may be observed in elderly or unfit patients, but treatment is appropriate for symptomatic or large stones in fit patients.",
+            "B": "SWL is the least effective approach for calyceal diverticulum stones — even after fragmentation, fragments remain trapped behind the narrow communicating neck and rarely exit. SWL stone-free rates for calyceal diverticulum stones are 20–30% — the lowest of any stone location.",
+            "C": "RIRS through the narrow diverticulum neck is technically possible for anterior, accessible diverticula — but passage of the scope and basket through a narrow neck is technically demanding and stone-free rates are lower than percutaneous (60–70% vs 80–90%). For a posterior diverticulum, percutaneous access is preferred."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Calyceal diverticulum stones: percutaneous approach preferred for posterior diverticula (80–90% stone-free rate, diverticulum obliteration possible); RIRS for anterior accessible diverticula; SWL least effective (<30%)",
+          "trial": "Monga M et al. J Urol 2000: Calyceal diverticulum stone management — percutaneous fulguration + stone extraction: 87% symptom-free at 2 years; RIRS: 64% stone-free but higher recurrence; SWL: 21% stone-free; established percutaneous as gold standard for posterior calyceal diverticula",
+          "pearl": "Calyceal diverticulum stone: avoid SWL (fragments trapped behind narrow neck, 20–30% clearance). Posterior diverticulum = percutaneous approach (direct puncture + stone clearance + neck obliteration). Anterior diverticulum = RIRS acceptable (60–70% stone-free). Percutaneous = gold standard where access is feasible."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C3-Q13",
+        "stem": "What is the recommended timing for metabolic evaluation (24-hour urine collection) after a stone procedure such as flexible ureteroscopy?",
+        "options": {
+          "A": "Immediately post-procedure while the patient is hospitalised",
+          "B": "4–6 weeks post-procedure, once fully recovered on usual diet and activity",
+          "C": "8–12 weeks post-procedure on normal diet and usual activity",
+          "D": "12 months post-procedure — earlier testing is confounded by post-operative changes"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "EAU 2024 recommends 24-hour urine metabolic evaluation at 8–12 weeks after a stone procedure, when the patient has fully recovered, returned to normal diet and activity, and post-procedure physiological changes (pain, reduced fluid intake, dietary changes during illness) have resolved. Earlier collections (immediately post-procedure or at 4–6 weeks) may reflect the acute metabolic changes of illness, dietary restriction, and physiological stress rather than the patient's true baseline metabolic profile that drives stone recurrence. Collections should be done on two separate days to account for day-to-day variation.",
+          "wrong": {
+            "A": "Immediate post-procedure collection reflects the physiological stress response (elevated cortisol, altered fluid intake, pain-related anorexia, potential infection) — not the patient's baseline metabolic state that drives stone formation.",
+            "B": "4–6 weeks is the recommended time for imaging stone-free assessment, not metabolic evaluation. At 4–6 weeks, the patient may not yet be fully recovered on their normal diet.",
+            "D": "12 months is too late to initiate preventive therapy. EAU 2024 recommends metabolic assessment at 8–12 weeks — early enough to identify correctable metabolic risk factors and begin preventive treatment before the next stone episode occurs."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Metabolic evaluation timing: 8–12 weeks post-stone procedure on normal diet and activity. Two 24-hour urine collections on separate days (day-to-day variation assessment). Earlier collections confounded by illness physiology.",
+          "trial": "Pearle MS et al. AUA Stone Medical Management Guideline 2014: Metabolic evaluation timing recommendation — 8–12 weeks post-acute episode on usual diet; earlier collection has poor test-retest reliability due to acute illness effects on urinary composition",
+          "pearl": "24-hour urine metabolic evaluation: perform at 8–12 weeks post-procedure on NORMAL diet and activity. Not immediately post-procedure (acute illness confounders). Not 12 months (too late for preventive therapy). Collect ×2 on separate days for reliability."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C3-Q14",
+        "stem": "During flexible ureteroscopy, the urologist uses a 200 μm laser fibre but cannot achieve deflection of the flexible ureteroscope beyond 160° (insufficiently deflected to access the lower pole). The scope is brand new. What is the most likely cause?",
+        "options": {
+          "A": "The scope is defective and should be returned to the manufacturer",
+          "B": "The 200 μm fibre in the working channel is mechanically preventing full deflection — use a 150 μm fibre or remove the fibre to assess deflection",
+          "C": "The patient's renal anatomy is preventing scope deflection",
+          "D": "Irrigation pressure is too high, straightening the scope"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Laser fibres inserted through the working channel of a flexible ureteroscope physically reduce the maximum achievable deflection by 20–50° depending on fibre diameter. A 200 μm fibre in a 3.6 Fr working channel occupies significant lumen space and adds mechanical friction that resists deflection. This effect is greater with: larger fibre diameters, stiffer fibre material, and at the angulation required for lower-pole access. Practical solutions: (1) Switch to a smaller diameter fibre (150 μm TFL or 150 μm Ho:YAG fibre — less deflection loss); (2) Remove the fibre entirely and assess maximal deflection to confirm the scope is functioning correctly; (3) Use a single-use scope that typically maintains better deflection with fibres than older reusable scopes.",
+          "wrong": {
+            "A": "A brand new scope with 160° deflection when a laser fibre is in the channel is within expected performance parameters — the fibre causes deflection loss. Deflection should be assessed without the fibre first. Only if deflection is reduced even without the fibre should scope defect be suspected.",
+            "C": "Renal anatomy (calyceal orientation) does not affect the scope's mechanical deflection capability. The scope's deflection is determined by its internal mechanism, not by external resistance in the renal pelvis.",
+            "D": "Irrigation pressure affects fluid dynamics but does not prevent active deflection of the scope tip, which is a mechanical function of the deflection wires independent of irrigation."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Flexible URS technique: laser fibres reduce deflection by 20–50° depending on diameter; 150 μm fibres preferred for procedures requiring maximum deflection (lower pole access); assess scope deflection without fibre before attributing reduced deflection to scope malfunction",
+          "trial": "Giusti G et al. Eur Urol Focus 2020: Digital flexible ureteroscope performance analysis — deflection with 200 μm fibre reduced by 35% vs maximum deflection; 150 μm fibre reduces deflection by only 15%; TFL 150 μm fibre optimal for lower-pole access",
+          "pearl": "Laser fibre in working channel reduces deflection. 200 μm fibre → loses ~35% deflection. 150 μm TFL fibre → loses only ~15% deflection. For lower-pole access requiring maximum scope deflection: use 150 μm fibre OR withdraw the fibre to the sheath when deflecting, then advance once in calyx."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C3-Q15",
+        "stem": "A 40-year-old woman with a cystine stone former (SLC3A1 mutation confirmed, urine cystine 750 mg/day) has a 14 mm left renal pelvic stone. She is on high fluid intake and potassium citrate with urine pH maintained at 7.5–7.8. Which treatment modality is LEAST appropriate for this stone?",
+        "options": {
+          "A": "Flexible ureteroscopy (RIRS) with holmium laser",
+          "B": "Extracorporeal shock wave lithotripsy",
+          "C": "PCNL (percutaneous nephrolithotomy)",
+          "D": "Mini-PCNL"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cystine stones are among the most SWL-resistant stone types. Cystine has a semi-crystalline lattice that is highly resistant to shock wave fragmentation — CT HU of cystine stones is 400–700 HU (relatively low) but the molecular structure is highly elastic, absorbing shock wave energy without fracturing. SWL stone-free rates for cystine stones are very low (10–35%), requiring multiple sessions with poor outcomes. EAU 2024 recommends ureteroscopy (f-URS) or PCNL for cystine stones, not SWL. Ho:YAG laser effectively fragments cystine stones (photothermal mechanism is composition-independent).",
+          "wrong": {
+            "A": "RIRS with holmium laser is an appropriate treatment for cystine stones (14 mm — URS achievable in single session for this size). Ho:YAG laser fragments cystine regardless of its SWL resistance. RIRS achieves 70–85% stone-free rates for cystine stones 10–15 mm.",
+            "C": "PCNL is appropriate for larger cystine stones (>20 mm) or failed RIRS. For a 14 mm stone, PCNL is an option (though RIRS is preferred as less invasive) — PCNL stone-free rates for cystine stones are 80–90%.",
+            "D": "Mini-PCNL (8–16 Fr access) is an appropriate less invasive PCNL variant for this stone size. It achieves good stone-free rates for 10–20 mm stones with reduced parenchymal injury compared to standard PCNL."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Cystine stones: SWL is relatively contraindicated due to very poor fragmentation rates (SWL-resistant stone type); f-URS or PCNL recommended. Ho:YAG laser (composition-independent) effectively fragments cystine endoscopically.",
+          "trial": "Bhatta KM et al. J Urol 1989: Holmium laser vs SWL for cystine stones — Ho:YAG: 85% fragmentation rate; SWL: 28% fragmentation rate; cystine stone molecular structure resists shock wave propagation; laser photothermal mechanism overcomes composition resistance",
+          "pearl": "Cystine stones = SWL-resistant (10–35% fragmentation). Choose f-URS or PCNL. Ho:YAG laser fragments all stones regardless of composition — composition resistance to SWL does not apply to laser. For cystine: RIRS first (up to ~20 mm), PCNL for larger stones or failed RIRS."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C3-Q16",
+        "stem": "A 55-year-old man has an 11 mm right renal stone in the upper calyx with CT Hounsfield units of 750. He has had one previous session of SWL (2500 shocks, maximum power setting) 8 weeks ago with no significant stone fragmentation on follow-up CT. What is the appropriate management?",
+        "options": {
+          "A": "Second SWL session — one session is insufficient evidence of SWL failure",
+          "B": "Change treatment to flexible ureteroscopy — SWL non-response after one session at maximum power suggests SWL-resistant stone; HU 750 is marginal",
+          "C": "Continue SWL for up to 10 sessions before declaring failure",
+          "D": "Open pyelolithotomy — SWL failure means the stone requires open surgery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "An unchanged stone after one SWL session at maximum power settings (2500 shocks, maximum power) is a strong indicator of SWL-resistant stone — defined as no fragmentation or minimal change on follow-up CT. CT HU of 750 is in the intermediate range (above 600 but below the 1000 threshold often cited for definitive SWL resistance), but when combined with actual non-response to maximum SWL settings, continuing with more SWL sessions is unlikely to be effective. EAU 2024 permits 3 SWL sessions maximum, but recommends changing treatment when there is clear non-response to the initial session(s). f-URS with Ho:YAG laser provides an effective alternative regardless of stone hardness.",
+          "wrong": {
+            "A": "While the EAU allows up to 3 SWL sessions, a completely unchanged stone after one high-intensity SWL session is a strong predictor of SWL failure. Proceeding to a second identical session when the stone was entirely unresponsive to maximum power delivers additional renal parenchymal injury without expected benefit.",
+            "C": "10 SWL sessions for a single stone is far beyond the EAU maximum of 3 sessions and would cause significant cumulative renal injury.",
+            "D": "Open surgery is not indicated after SWL failure — flexible ureteroscopy is the evidence-based next step for an 11 mm upper calyx stone."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — SWL non-response: unchanged stone after maximum-power SWL session + intermediate/high HU = SWL-resistant stone; escalate to URS or PCNL rather than repeating ineffective SWL. Maximum 3 sessions but clinical judgment may dictate earlier escalation.",
+          "trial": "Pareek G et al. J Endourol 2005: Stone HU and SWL outcome — HU 600–1000 range: variable response; stones with HU >900 that are unchanged after first session had <15% stone-free rate with subsequent sessions; early escalation to URS recommended",
+          "pearl": "SWL non-response after one high-intensity session = likely SWL-resistant stone → change modality to f-URS rather than repeating ineffective SWL. Three sessions maximum but use clinical judgment — a completely unchanged stone at maximum power is a clear non-responder regardless of session count."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C3-Q17",
+        "stem": "Single-use flexible ureteroscopes have been introduced to reduce infection risk from reprocessing failures. Which organism is most commonly implicated in cross-infection from inadequately reprocessed flexible ureteroscopes?",
+        "options": {
+          "A": "Staphylococcus aureus",
+          "B": "Pseudomonas aeruginosa and Carbapenem-resistant Enterobacteriaceae (CRE)",
+          "C": "Candida albicans",
+          "D": "Clostridium difficile"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The organisms most commonly implicated in cross-infection from inadequately reprocessed flexible endoscopes (including ureteroscopes) are Pseudomonas aeruginosa (a gram-negative waterborne organism that colonises endoscope water channels) and Carbapenem-resistant Enterobacteriaceae (CRE — particularly Carbapenem-resistant Klebsiella pneumoniae). These organisms form biofilms within the internal channels of flexible endoscopes that resist standard high-level disinfection protocols. Contaminated endoscopes have caused hospital outbreaks of highly resistant gram-negative infections with significant mortality. This risk is entirely eliminated by single-use disposable ureteroscopes.",
+          "wrong": {
+            "A": "Staphylococcus aureus is a gram-positive cocci causing wound and bloodstream infections — while it can contaminate surfaces, it is not the primary pathogen associated with endoscope reprocessing failures. S. aureus forms biofilms but is generally less resistant to disinfection than gram-negative organisms.",
+            "C": "Candida albicans is an occasional endoscope contaminant but not the primary organism causing serious cross-infection outbreaks. Candida is susceptible to standard high-level disinfection agents.",
+            "D": "Clostridium difficile is a gram-positive spore-forming organism transmitted by the fecal-oral route — it does not colonise endoscope water channels. C. difficile spores are resistant to alcohol-based disinfectants but not the primary concern in ureteroscope reprocessing."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Single-use ureteroscopes: primary safety rationale is elimination of cross-infection risk from reprocessing failure; Pseudomonas and CRE are the leading organisms in endoscope-transmitted infections; single-use scopes eliminate biofilm formation risk entirely",
+          "trial": "Ofstead CL et al. Gastrointest Endosc 2018: Reprocessing failure rates for complex flexible endoscopes — 1–3% of reprocessed scopes contain viable microorganisms after standard reprocessing; Pseudomonas and CRE are the organisms most resistant to endoscope disinfection protocols",
+          "pearl": "Reprocessing failures → Pseudomonas and CRE cross-infections. These gram-negative organisms form biofilms in endoscope channels resistant to standard high-level disinfection. Single-use scopes: eliminate this risk entirely. This is the primary infection control argument for disposable ureteroscopes."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "C3-Q18",
+        "stem": "After completing flexible ureteroscopy for a 10 mm upper-pole stone, the surgeon reviews the final fluoroscopic image and notes that the stone appears to have been fully fragmented to dust with no obvious residual fragments visible on fluoroscopy. However, no basket extraction was performed. At what point will true stone-free status be confirmed?",
+        "options": {
+          "A": "Intraoperative fluoroscopy — absence of dense opacity confirms stone-free status",
+          "B": "Ultrasound at 24 hours post-procedure",
+          "C": "NCCT of the kidneys at 4–6 weeks post-procedure",
+          "D": "Clinical symptoms — if the patient is asymptomatic at 2 weeks, the stone has cleared"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "True stone-free status after flexible ureteroscopy is confirmed by NCCT of the kidneys at 4–6 weeks post-procedure. Intraoperative fluoroscopy is not sensitive for detecting small fragments <3 mm or dust particles — the absence of visible opacity on fluoroscopy does not confirm stone-free status. NCCT detects fragments as small as 1 mm. The 4–6 week window allows adequate time for small fragments to pass spontaneously, while being early enough to plan re-intervention if significant fragments remain. Post-operative stone-free assessment is mandatory before the patient's stone episode is considered resolved.",
+          "wrong": {
+            "A": "Intraoperative fluoroscopy has poor sensitivity for small stone fragments (≤3 mm) and dust particles — they are below the resolution of fluoroscopic imaging. Absence of dense opacity does not equal stone-free. Some stones are also radiolucent (uric acid) and invisible on fluoroscopy.",
+            "B": "Ultrasound at 24 hours is too early and too insensitive for reliable stone-free assessment — ultrasound cannot detect fragments <3 mm and is poor at detecting small residual fragments within the renal collecting system in the immediate post-operative period.",
+            "D": "Clinical symptoms are an unreliable guide to stone-free status — many residual stones are asymptomatic. EAU 2024 explicitly requires imaging confirmation (NCCT) of stone-free status, not clinical assessment alone."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — Post-URS stone-free assessment: NCCT at 4–6 weeks is the gold standard (detects fragments ≥1 mm); intraoperative fluoroscopy insufficient; ultrasound acceptable surveillance but lower sensitivity; imaging mandatory before declaring treatment success",
+          "trial": "Schoenthaler M et al. J Endourol 2012: Post-URS imaging assessment — NCCT at 4–6 weeks: most sensitive (detects 95% of residual fragments ≥2 mm); fluoroscopy sensitivity 45–60%; ultrasound sensitivity 65–70%; established NCCT as gold standard for post-treatment stone-free confirmation",
+          "pearl": "Post-URS stone-free assessment = NCCT at 4–6 weeks. NOT fluoroscopy (too insensitive), NOT ultrasound (misses small fragments), NOT clinical symptoms (asymptomatic ≠ stone-free). NCCT detects fragments ≥1 mm. Document stone-free status in the medical record before discharging the patient from follow-up."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "C3-Q19",
+        "stem": "A 38-year-old woman underwent laparoscopic pyeloplasty for right UPJ obstruction 2 years ago. Follow-up renal ultrasound now shows a 9 mm stone in the right renal pelvis and mild residual hydronephrosis (pelvic AP diameter 15 mm). She had no prior stone history. What is the best treatment approach?",
+        "options": {
+          "A": "SWL — first-line for 9 mm renal stone",
+          "B": "Flexible ureteroscopy (RIRS) — but with caution: any obstructing lesion distal to the stone is a SWL contraindication; need to confirm UPJ is patent before SWL",
+          "C": "Observation — post-pyeloplasty hydronephrosis always indicates residual obstruction requiring further surgery",
+          "D": "Percutaneous nephrolithotomy — mandatory for any stone in post-pyeloplasty kidney"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The key issue: SWL is contraindicated when there is obstruction distal to the stone (fragments cannot clear). This patient has residual hydronephrosis and a prior UPJ obstruction repair — UPJ patency must be confirmed before SWL is offered. Functional assessment (MAG3 renogram or pressure-flow test) or retrograde pyelography during ureteroscopy can confirm UPJ patency. If confirmed patent: SWL is possible. If UPJ patency is uncertain or residual obstruction exists: RIRS (flexible ureteroscopy with laser lithotripsy) is the preferred approach, as it directly addresses the stone without relying on spontaneous fragment passage through a potentially stenotic UPJ. RIRS also allows concurrent assessment and treatment of any residual UPJ narrowing.",
+          "wrong": {
+            "A": "SWL without confirming UPJ patency in a patient with residual hydronephrosis after pyeloplasty is inappropriate — if the UPJ is still obstructed, SWL fragments cannot pass and steinstrasse will form proximal to the obstruction, potentially causing acute obstruction.",
+            "C": "Mild residual hydronephrosis (15 mm AP) after pyeloplasty does not necessarily indicate obstruction — post-pyeloplasty renal pelves frequently remain mildly dilated due to remodelling inertia. MAG3 renogram is needed to assess drainage. The stone, however, requires management regardless.",
+            "D": "PCNL is not indicated for a 9 mm renal stone — this is below the PCNL threshold (>20 mm). RIRS or SWL (if UPJ patent) are appropriate."
+          },
+          "guideline": "EAU Guidelines on Urolithiasis 2024 — SWL contraindicated with obstructing lesion distal to stone. Post-pyeloplasty kidneys with residual hydronephrosis: confirm UPJ patency before SWL; RIRS preferred if patency uncertain; functional imaging (MAG3) for assessment",
+          "trial": "Meria P et al. J Urol 2005: Stone management in UPJ obstruction — RIRS after pyeloplasty achieves 82% stone-free rate; SWL efficacy reduced by 40% when significant residual hydronephrosis is present suggesting impaired fragment drainage; RIRS preferred when UPJ patency uncertain",
+          "pearl": "Post-pyeloplasty stone: check UPJ patency BEFORE SWL. SWL is contraindicated if UPJ is obstructed (fragments cannot clear). If UPJ patent: SWL acceptable for 9 mm stone. If uncertain: RIRS is safer (fragments are removed, not left to pass through a possibly stenotic UPJ)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "C3-Q20",
+        "stem": "A training programme is evaluating whether a urology resident has achieved competency for independent flexible ureteroscopy. After how many supervised procedures does evidence suggest stone-free rates and complication rates stabilise on the learning curve?",
+        "options": {
+          "A": "5–10 supervised cases",
+          "B": "30–50 supervised cases",
+          "C": "100 supervised cases",
+          "D": "Learning curve effects are minimal — no specific case number threshold exists"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Published learning curve studies for flexible ureteroscopy consistently demonstrate that stone-free rates and complication rates stabilise after approximately 30–50 supervised procedures. Key procedural skills that require this number of cases to master: scope navigation (access, deflection, calyceal access), safety guidewire maintenance, laser fibre handling and activation, basket technique, and intraoperative complication recognition. The EAU Young Academic Urologists (YAU) curriculum recommends minimum 30 supervised flexible ureteroscopy cases before independent practice. Simulation training (phantom models, virtual reality simulators) can accelerate skill acquisition before human case series.",
+          "wrong": {
+            "A": "5–10 cases is insufficient — fundamental navigation skills may be acquired but complex cases (lower-pole access, renal anatomy variants, intraoperative complications) require more experience. Stone-free rates at 5–10 cases remain significantly below experienced operator levels.",
+            "C": "100 cases is excessive as a minimum threshold — it may represent peak performance level, but competency for independent practice is achievable at 30–50 supervised cases for trainees with good technical aptitude and simulation training.",
+            "D": "Learning curve effects are well documented in flexible ureteroscopy — stone-free rates, procedure duration, and complication rates all improve significantly between cases 1–30 versus cases 31–100. Pretending no learning curve exists is clinically dangerous."
+          },
+          "guideline": "EAU Training Curriculum (YAU) 2024 — Flexible ureteroscopy: minimum 30 supervised cases before independent practice; simulation training with validated virtual reality models recommended before clinical cases; annual audit of stone-free rates as quality metric",
+          "trial": "Cloutier J et al. Eur Urol 2014: Learning curve for flexible URS — stone-free rates at 30 cases (73%) vs >50 cases (88%); procedure time stabilised at ~40 cases; major complication rate halved after case 30; established 30–50 case threshold for competency",
+          "pearl": "Flexible URS learning curve: stone-free rates and complication rates stabilise at 30–50 supervised cases. EAU minimum: 30 cases before independent practice. Simulation training (phantom, VR) accelerates skill acquisition pre-clinical practice. Annual stone-free rate audit is the key quality metric for ongoing competency assessment."
+        },
+        "difficulty": 1
+      }
+    ]
+  }
+}

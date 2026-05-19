@@ -1,0 +1,675 @@
+{
+  "id": "E2",
+  "title": "Male Infertility and Andrology",
+  "subtitle": "Block E — Infections and Male Infertility: Semen Analysis, Azoospermia, and Assisted Reproduction",
+  "block": "E",
+  "block_name": "Infections and Male Infertility",
+  "level": "R2-4",
+  "reading_time_min": 45,
+  "guidelines_version": "EAU Guidelines on Male Infertility 2024 · WHO Laboratory Manual for the Examination and Processing of Human Semen (6th Edition, 2021)",
+  "textbook_refs": [
+    "Krausz C et al. EAU Guidelines on Male Infertility. European Association of Urology 2024",
+    "World Health Organization. WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th edition. 2021",
+    "Tournaye H et al. New European guidelines for the diagnosis and treatment of subfertility. Hum Reprod 2021;36:2401",
+    "Wosnitzer MS, Goldstein M, Hardy MP. Review of Azoospermia. Spermatogenesis 2014;4:e28218",
+    "Palermo G et al. Pregnancies after intracytoplasmic injection of a single spermatozoon into an oocyte. Lancet 1992;340:17",
+    "Krausz C, Chianese C. Genetic testing and counselling for male infertility. Curr Opin Endocrinol Diabetes Obes 2014;21:244"
+  ],
+  "learning_objectives": [
+    "Apply WHO 2021 semen analysis reference values to classify sperm abnormalities and interpret a semen analysis report",
+    "Differentiate obstructive from non-obstructive azoospermia using clinical, hormonal, and genetic criteria",
+    "Identify and counsel patients with common genetic causes of male infertility including Klinefelter syndrome, Y-chromosome microdeletions, and CFTR mutations",
+    "Describe the surgical sperm retrieval techniques (TESA, PESA, micro-TESE) and their indications",
+    "Outline the principles of assisted reproductive technology (ART) relevant to urological practice including IUI, IVF, and ICSI",
+    "Recognise and manage varicocele in the context of male infertility with evidence-based indications for treatment"
+  ],
+  "sections": [
+    {
+      "id": "E2-S1",
+      "title": "Epidemiology, Aetiology, and Initial Assessment",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Infertility is defined as failure to achieve a clinical pregnancy after 12 months of regular unprotected sexual intercourse. It affects approximately 15–20% of couples attempting conception. A **male factor** contributes in approximately 50% of infertile couples (exclusive male factor in 20–30%, combined male and female factor in 20–30%). Despite its prevalence, male infertility is frequently under-investigated — the male partner should be evaluated simultaneously with the female partner from the outset, not only after female assessment is completed.\n\nThe **EAU 2024 classification** of male infertility by cause:\n- **Pre-testicular** (5–10%): hypogonadotrophic hypogonadism, hyperprolactinaemia, thyroid dysfunction, systemic illness, exogenous androgen use, obesity\n- **Testicular** (65–75%): idiopathic (most common — 30–40% of all male infertility, no identifiable cause), Klinefelter syndrome (47,XXY — most common chromosomal cause), Y-chromosome microdeletions (AZFa/AZFb/AZFc), cryptorchidism, orchitis, varicocele, testicular torsion, testicular cancer and its treatment (chemotherapy, radiotherapy), systemic illness (renal failure, liver disease)\n- **Post-testicular/obstructive** (10–20%): obstructive azoospermia from congenital bilateral absence of the vas deferens (CBAVD — associated with CFTR mutations), epididymal obstruction (post-infectious — Chlamydia, gonorrhoea), vas deferens obstruction (post-vasectomy, iatrogenic), ejaculatory duct obstruction\n\n**Initial investigation** of the infertile male: comprehensive history (reproductive history, STI, orchitis, mumps, cryptorchidism, systemic illness, medications, exposure to gonadotoxins), physical examination (secondary sex characteristics, testicular volume by orchidometer — Prader orchidometer, right testis 15–25 mL normal; epididymal/vasal abnormalities, varicocele), and **semen analysis** (minimum 2 samples 2–7 days apart, 2–7 days abstinence, WHO 2021 criteria). Endocrine profile (FSH, LH, testosterone) and karyotype/genetic testing when indicated."
+        },
+        {
+          "type": "table",
+          "title": "WHO 2021 Semen Analysis Reference Values (5th Centile Lower Reference Limits)",
+          "headers": ["Parameter", "WHO 2021 Lower Limit", "WHO 2010 Lower Limit (5th ed.)", "Clinical Significance"],
+          "rows": [
+            ["Ejaculate volume", "≥1.4 mL", "≥1.5 mL", "Low volume: obstruction, ejaculatory dysfunction, retrograde ejaculation"],
+            ["Sperm concentration", "≥16 × 10⁶/mL", "≥15 × 10⁶/mL", "Oligozoospermia: <16 × 10⁶/mL"],
+            ["Total sperm count", "≥39 × 10⁶/ejaculate", "≥39 × 10⁶/ejaculate", "Unchanged from 5th edition"],
+            ["Progressive motility (PR)", "≥30%", "≥32%", "Asthenozoospermia: <30% progressive motility"],
+            ["Total motility (PR+NP)", "≥42%", "≥40%", "Slightly changed in 6th edition"],
+            ["Sperm morphology (Strict Kruger)", "≥4% normal forms", "≥4% normal forms", "Teratozoospermia: <4% normal forms"],
+            ["Vitality (living spermatozoa)", "≥54%", "≥58%", "Necrozoospermia: <54% alive"],
+            ["Leukocytes", "<1 × 10⁶/mL", "<1 × 10⁶/mL", "Leukocytospermia: ≥1 × 10⁶/mL → STI/inflammation screen"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — WHO 2021 vs WHO 2010 Key Changes",
+          "content": "The WHO 2021 (6th edition) reference values are broadly similar to WHO 2010 (5th edition) with minor changes: volume lower limit reduced to 1.4 mL (was 1.5 mL), progressive motility reduced to 30% (was 32%). The key parameters that remain unchanged: total sperm count ≥39 × 10⁶/ejaculate, morphology ≥4% normal forms. Know both editions as exam questions may reference either. When in doubt, use WHO 2021 as current standard."
+        }
+      ]
+    },
+    {
+      "id": "E2-S2",
+      "title": "Azoospermia: Obstructive versus Non-Obstructive",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Azoospermia** — the complete absence of spermatozoa in the ejaculate (on two properly performed centrifuged semen analyses) — is the most severe form of male infertility. It affects approximately 1% of all men and 10–15% of infertile men. The critical clinical distinction is between **obstructive azoospermia (OA)** and **non-obstructive azoospermia (NOA)** — the distinction determines treatment options, prognosis for sperm retrieval, and genetic counselling requirements.\n\n**Obstructive Azoospermia (OA)** (15–20% of azoospermia): Spermatogenesis is normal or near-normal, but physical obstruction prevents sperm reaching the ejaculate. Causes: congenital bilateral absence of the vas deferens (CBAVD — 25% of OA), epididymal obstruction (post-infectious, idiopathic Young's syndrome), vas deferens obstruction (post-vasectomy, iatrogenic post-hernia repair), ejaculatory duct obstruction (Müllerian duct cyst, calcification). **Hormonal profile in OA**: FSH NORMAL (or near-normal — spermatogenesis is intact), testosterone normal. Testicular volume: normal (≥15 mL).\n\n**Non-Obstructive Azoospermia (NOA)** (80–85% of azoospermia): Primary testicular failure — impaired spermatogenesis, ranging from hypospermatogenesis (reduced sperm production) to maturation arrest (spermatogonia or spermatocyte arrest) to Sertoli cell-only syndrome (SCOS — no spermatogenic cells). **Hormonal profile in NOA**: FSH ELEVATED (elevated FSH = elevated negative feedback — lack of spermatogenic inhibin B = primary testicular failure). Testosterone may be low (Klinefelter, late-onset hypogonadism) or normal. Testicular volume: small or normal.\n\n**Distinguishing OA from NOA in clinical practice**:\n\n| Parameter | Obstructive Azoospermia | Non-Obstructive Azoospermia |\n|---|---|---|\n| FSH | Normal (1.5–12.4 IU/L) | Elevated (>12.4 IU/L) |\n| Testicular volume | Normal (≥15 mL) | Small (<15 mL) |\n| Fructose | Present (normal seminal vesicle function) | Present or absent |\n| Inhibin B | Normal | Low |\n| Vas deferens | Absent (CBAVD) or normal | Normal |\n| Testicular biopsy | Normal spermatogenesis | Impaired spermatogenesis |"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Low Ejaculate Volume + Azoospermia",
+          "content": "Low ejaculate volume (<1.5 mL) + azoospermia + fructose absent + absent vas deferens palpation = ejaculatory duct obstruction or CBAVD (congenital bilateral absence of vas deferens). CBAVD is not a structural obstruction in the conventional sense — the vas deferens is simply absent bilaterally from birth. FSH is normal (spermatogenesis intact). Genetic testing for CFTR mutations is MANDATORY in CBAVD — >95% have at least one CFTR mutation; 50% carry two mutations. Post-wash urine for sperm should be performed if low volume azoospermia — to exclude retrograde ejaculation (sperm in post-ejaculatory urine = retrograde ejaculation)."
+        }
+      ]
+    },
+    {
+      "id": "E2-S3",
+      "title": "Genetic Causes of Male Infertility",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Genetic abnormalities are identified in approximately 15–30% of men with severe male infertility (oligozoospermia <5 × 10⁶/mL, azoospermia). Genetic testing is mandatory before any assisted reproductive treatment (ART) that involves the male genome, because many genetic causes of infertility are transmissible to offspring.\n\n**Chromosomal abnormalities** (karyotype):\n- **Klinefelter syndrome (47,XXY)** — most common sex chromosomal abnormality; affects 1 in 660 males; most common identifiable chromosomal cause of azoospermia. Classic features: small firm testes (<6 mL), tall eunuchoid habitus, mild intellectual difficulty, gynaecomastia, hypergonadotrophic hypogonadism (elevated FSH + LH, low testosterone). Diagnosis: karyotype 47,XXY (mosaic 46,XY/47,XXY in 10–15% — better prognosis for sperm retrieval). Sperm retrieval with micro-TESE is possible in 30–65% of men with non-mosaic Klinefelter (Lopez-Jimenez 2014). Testosterone replacement should be avoided until sperm retrieval is attempted — exogenous testosterone suppresses remaining spermatogenesis.\n- **Other chromosomal abnormalities**: 46,XX male (SRY gene translocated to X chromosome — azoospermia), Y-chromosome structural abnormalities, autosomal translocations\n\n**Y-chromosome microdeletions** (AZF regions): Second most common genetic cause of male infertility after Klinefelter.\n- **AZFa deletion** — complete: severe oligo/azoospermia, SCOS on biopsy; sperm retrieval essentially impossible\n- **AZFb deletion** — complete: maturation arrest; sperm retrieval essentially impossible\n- **AZFc deletion** (most common, ~60% of Y deletions): variable phenotype — from severe oligozoospermia to NOA; micro-TESE sperm retrieval possible in ~50%; sons will inherit the deletion and be oligozoospermic/azoospermic\n- **AZFbc combined deletion**: poor prognosis for sperm retrieval (<5%)\n\n**CFTR mutations** (cystic fibrosis transmembrane conductance regulator, chromosome 7q31):\n- CBAVD in >95% of men with homozygous or compound heterozygous CFTR mutations\n- The most common CFTR mutation is ΔF508 (p.Phe508del)\n- Partner screening for CFTR carrier status is essential before ICSI with retrieved sperm — risk of CF in offspring if both partners carry mutations\n- Men with CBAVD should be screened for renal anomalies (unilateral renal agenesis in 10%)\n\n**Androgen receptor mutations** (Kennedy disease/spinobulbar muscular atrophy): X-linked; CAG repeat expansion in AR gene; presents with progressive neuromuscular disease + infertility"
+        },
+        {
+          "type": "table",
+          "title": "Genetic Testing Indications in Male Infertility — EAU 2024",
+          "headers": ["Condition", "Genetic Test", "Key Finding", "Clinical Implication"],
+          "rows": [
+            ["Azoospermia/severe oligozoospermia (<5×10⁶/mL)", "Karyotype (G-banding)", "47,XXY (Klinefelter), translocations", "Counselling; sperm retrieval attempt before testosterone therapy"],
+            ["Azoospermia/severe oligozoospermia", "Y-chromosome microdeletion (AZFa/b/c)", "AZFa/b = poor sperm retrieval; AZFc = possible retrieval", "Counselling: sons inherit AZFc deletion"],
+            ["CBAVD (absent vas deferens)", "CFTR mutation analysis (at least 25 most common mutations)", "ΔF508, R117H, etc.", "Partner CFTR carrier testing mandatory before ICSI"],
+            ["Hypogonadotrophic hypogonadism", "KAL1, FGFR1, GnRHR genes (Kallmann/IHH panel)", "Olfactory bulb agenesis (Kallmann), GnRH receptor defect", "Pulsatile GnRH or gonadotrophins (hCG/rFSH) can restore fertility"],
+            ["Obstructive azoospermia + no obvious cause", "CFTR carrier screen", "May reveal CBAVD-spectrum", "Guides investigation and partner CFTR testing"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Klinefelter and Testosterone Therapy",
+          "content": "In a Klinefelter syndrome patient seeking fertility: DO NOT start testosterone replacement before attempting sperm retrieval with micro-TESE. Exogenous testosterone suppresses endogenous LH and FSH, which further reduces the minimal residual spermatogenesis. Once micro-TESE is completed (regardless of outcome), testosterone replacement therapy for hypogonadism can be initiated. AZFa or AZFb complete deletions = essentially impossible sperm retrieval — advise donor sperm or adoption."
+        }
+      ]
+    },
+    {
+      "id": "E2-S4",
+      "title": "Surgical Sperm Retrieval: Techniques and Indications",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Surgical sperm retrieval enables men with azoospermia to achieve biological parenthood in combination with ICSI (intracytoplasmic sperm injection). The choice of technique depends on the type of azoospermia (OA vs NOA) and the expertise available.\n\n**Techniques for Obstructive Azoospermia (OA):**\n- **PESA (Percutaneous Epididymal Sperm Aspiration)**: percutaneous needle aspiration of the epididymis under local anaesthesia; simple outpatient procedure; suitable for OA where large numbers of sperm are available in the epididymis; sperm can be cryopreserved for future ICSI cycles; failure rate 10–20%\n- **MESA (Microsurgical Epididymal Sperm Aspiration)**: open microsurgical epididymal sperm aspiration under general anaesthesia; higher yield and quality than PESA; preferred when simultaneous reconstruction is planned\n- **TESA (Testicular Sperm Aspiration)**: percutaneous testicular needle biopsy/aspiration under local anaesthesia; used for OA when epididymal approaches have failed or epididymis is inaccessible; also used as first-line in OA by some centres; sperm yield high in OA (normal spermatogenesis)\n- **TESE (Testicular Sperm Extraction — open biopsy)**: open incisional biopsy of the testis under general/local anaesthesia; used for OA and as part of micro-TESE preparation in NOA\n\n**Techniques for Non-Obstructive Azoospermia (NOA):**\n- **Conventional TESE**: multiple random testicular biopsies at different locations; sperm retrieval rate (SRR) in NOA approximately 25–50%; imprecise — may miss focal areas of spermatogenesis\n- **Micro-TESE (Microsurgical Testicular Sperm Extraction)**: gold-standard for NOA, described by Schlegel and Su (J Urol 1997); uses an operating microscope (×16–25 magnification) to identify dilated tubules (which may contain spermatogenic foci) within the seminiferous tubule architecture; higher SRR than conventional TESE for NOA (42–63% vs 25–35%); preserves testicular vasculature — lower post-operative testosterone decline compared to conventional multiple TESE; preferred for all NOA patients; requires general anaesthesia and microsurgical expertise.\n\nFor Klinefelter NOA: micro-TESE success in non-mosaic 47,XXY = approximately 30–65% (Lopez-Jimenez 2014). For AZFc deletion NOA: micro-TESE ~50% sperm retrieval. For maturation arrest NOA: variable 15–40%. For SCOS (Sertoli cell-only) on prior biopsy: micro-TESE still attempted as focal spermatogenesis may exist — approximately 20–30% retrieval even in apparent SCOS on conventional biopsy."
+        },
+        {
+          "type": "table",
+          "title": "Surgical Sperm Retrieval — Technique Comparison",
+          "headers": ["Technique", "Anaesthesia", "Best For", "SRR", "Key Advantage"],
+          "rows": [
+            ["PESA", "Local", "Obstructive azoospermia (OA)", ">80% in OA", "Simple, outpatient, low-cost"],
+            ["MESA", "General/spinal", "OA (± simultaneous reconstruction)", ">90% in OA", "Highest sperm yield in OA; fresh sperm"],
+            ["TESA", "Local", "OA; also NOA as screening", ">90% in OA; 30–50% in NOA", "Minimally invasive, outpatient"],
+            ["Conventional TESE", "General/local", "NOA (when micro-TESE unavailable)", "25–35% in NOA", "Simpler than micro-TESE"],
+            ["Micro-TESE (Schlegel)", "General", "NOA (gold standard)", "42–63% in NOA", "Highest SRR for NOA; preserves testicular tissue; identifies dilated tubules"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Micro-TESE for Klinefelter Syndrome",
+          "content": "A 32-year-old man with 47,XXY Klinefelter syndrome presents with his partner wishing to conceive. Testosterone is 5.8 nmol/L (low), FSH 38 IU/L (elevated), testicular volume 4 mL bilaterally. Karyotype confirms 47,XXY (non-mosaic). Semen analysis: azoospermia on two samples. Management: micro-TESE attempt before initiating testosterone replacement (which would suppress residual spermatogenesis). Sperm retrieval rate approximately 40–50% with micro-TESE in non-mosaic Klinefelter. Cryopreserve retrieved sperm immediately for ICSI. CFTR testing not required (vas deferens palpable). Inform the couple: if micro-TESE fails, donor sperm is the alternative. After micro-TESE (regardless of outcome), initiate testosterone replacement for hypogonadism."
+        }
+      ]
+    },
+    {
+      "id": "E2-S5",
+      "title": "Varicocele and Male Infertility",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Varicocele** — abnormal dilation of the pampiniform venous plexus within the spermatic cord — is the most common surgically correctable cause of male infertility. Prevalence: approximately 15% of the general male population, 35–40% of men with primary infertility, and 80% of men with secondary infertility. The left varicocele is present in the vast majority due to the angulated drainage of the left testicular vein into the left renal vein (vs the right testicular vein draining at an acute angle directly into the IVC). Bilateral varicoceles occur in 10–20% of cases.\n\n**Pathophysiology**: Venous reflux increases scrotal temperature (impairing thermoregulation — testes function optimally 2–4°C below core body temperature), increases reactive oxygen species (oxidative stress on spermatozoa), impairs testicular blood flow and hormone delivery, and may increase venous backpressure affecting the contralateral testis.\n\n**Diagnosis**: Clinical examination in standing position is the gold standard — subclinical varicocele (only Valsalva-detected on ultrasound) should NOT be treated. **Grading system (Dubin and Amelar)**:\n- **Grade 1**: Palpable only on Valsalva\n- **Grade 2**: Palpable at rest without Valsalva\n- **Grade 3**: Visible through scrotal skin at rest (\"bag of worms\")\n\n**Indications for varicocele treatment** in the infertile man (EAU 2024 Grade B):\n1. Clinical varicocele (Grade 1–3, palpable) — not subclinical (ultrasound-only)\n2. Couple trying to conceive\n3. Abnormal semen parameters (at least one of: oligozoospermia, asthenozoospermia, teratozoospermia)\n4. No severe female factor infertility (which would mandate IVF/ICSI regardless)\n5. Couple have been given full information about alternative ART options\n\n**Treatment options**: Microsurgical varicocelectomy (inguinal or subinguinal approach — Marmar/Goldstein technique) is the gold standard for varicocele repair — lowest recurrence rate (0.4–1.3%) and lowest complication rate (hydrocele <1%) compared to open high ligation (Palomo) or laparoscopic approaches. Percutaneous embolisation (interventional radiology) is an outpatient alternative with equivalent recurrence rates to microsurgery in experienced hands.\n\n**Evidence for varicocele repair**: The meta-analyses of varicocele treatment RCTs show significant improvement in semen parameters and natural pregnancy rates after treatment vs expectant management. The **Cochrane Review (Evers 2003, updated 2021)** remains controversial — some trials of poor quality showed no benefit, but higher-quality trials and large meta-analyses support treatment in the defined patient group."
+        },
+        {
+          "type": "table",
+          "title": "Varicocele Management — Surgical Options Comparison",
+          "headers": ["Approach", "Technique", "Recurrence Rate", "Hydrocele Rate", "Evidence Level"],
+          "rows": [
+            ["Microsurgical (subinguinal Marmar)", "Operating microscope, preserves lymphatics and arteries", "0.4–1.3%", "<1%", "Gold standard — EAU Grade A"],
+            ["Microsurgical (inguinal Goldstein)", "Operating microscope, inguinal approach", "1–2%", "1–2%", "Grade A"],
+            ["Open high ligation (Palomo)", "Mass ligation of spermatic vein near internal ring", "15–25%", "5–10%", "Higher recurrence — not first-line"],
+            ["Laparoscopic varicocelectomy", "Laparoscopic clipping of spermatic vein", "3–5%", "3–8%", "Grade B — alternative to open"],
+            ["Percutaneous embolisation", "IR-guided coil embolisation of gonadal vein", "10–15%", "<1%", "Grade B — outpatient alternative; preferred if recurrent after surgery"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Treating Subclinical Varicocele",
+          "content": "Subclinical varicocele detected only on scrotal Doppler ultrasound (no palpable enlargement on clinical examination) should NOT be treated — EAU 2024 Grade A against treatment of subclinical varicocele. There is no evidence that treating subclinical varicocele improves fertility outcomes. Treatment indications require clinical (palpable) varicocele. Ultrasound is not recommended as the primary diagnostic tool for varicocele in the fertility context — clinical examination is the gold standard."
+        }
+      ]
+    },
+    {
+      "id": "E2-S6",
+      "title": "Hypogonadotrophic Hypogonadism and Hormonal Treatment of Male Infertility",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Hypogonadotrophic hypogonadism (HH)** is a pre-testicular cause of male infertility characterised by low/absent gonadotrophins (LH, FSH) with low testosterone and impaired spermatogenesis. The testis itself is normal — it simply lacks gonadotrophin stimulation. This is the only cause of male infertility where **hormonal treatment can restore fertility**, and the distinction from primary testicular failure (NOA with elevated FSH) is critical.\n\n**Causes of HH**:\n- **Kallmann syndrome** — most common congenital HH; X-linked (KAL1/ANOS1 gene) or autosomal (FGFR1, PROKR2, CHD7 genes); characterised by **anosmia** (absent olfactory bulbs on MRI) + hypogonadism; prevalence 1 in 10,000 males; testes prepubertal in size\n- **Idiopathic hypogonadotrophic hypogonadism (IHH)** — same phenotype as Kallmann but with normal sense of smell; mutations in GnRHR, GPR54/KISS1R genes\n- **Secondary HH**: pituitary adenoma (prolactinoma — most common pituitary tumour in young men; high prolactin suppresses GnRH pulse), craniopharyngioma, haemochromatosis, anabolic steroid use (suppresses HPG axis — recovery can take 6–24 months after cessation), obesity (elevated leptin and oestrogen from adipose aromatase)\n\n**Hormonal treatment of HH to restore fertility**:\n- **hCG (human chorionic gonadotrophin)** — LH analogue; stimulates Leydig cell testosterone production; usually started first to normalise testosterone and testicular size (2000–2500 IU SC ×3/week)\n- After 3–6 months hCG: **rFSH or hMG** added to stimulate Sertoli cells and spermatogenesis. rFSH 75–150 IU SC ×3/week. Monitor semen analysis every 3 months.\n- Expected response: spermatogenesis starts in 3–6 months, with sperm in ejaculate by 12–24 months in most patients\n- If pituitary insufficiency: **pulsatile GnRH pump** (GnRH analogue delivered subcutaneously via portable pump at 90-minute intervals) is equally effective and may be preferred in Kallmann/IHH where the defect is hypothalamic\n- **Prolactinoma**: first-line treatment is **dopamine agonist (cabergoline 0.5–1 mg twice weekly)** — reduces prolactin, restores gonadotrophin secretion, shrinks tumour; fertility restores in 70–80% without surgery\n\n**Exogenous androgen users** (anabolic steroid users): testosterone replacement causes profound suppression of FSH and LH → azoospermia. After steroid cessation, full HPG axis recovery may take 6–24 months. Clomiphene citrate (an oestrogen receptor antagonist that increases endogenous LH/FSH) or hCG can accelerate recovery."
+        },
+        {
+          "type": "table",
+          "title": "Hormonal Treatment Protocols for Male Infertility",
+          "headers": ["Indication", "Treatment", "Dose", "Expected Response Time", "Success Rate"],
+          "rows": [
+            ["Hypogonadotrophic hypogonadism (HH)", "hCG + rFSH/hMG", "hCG 2000 IU ×3/wk + rFSH 75 IU ×3/wk", "Sperm in ejaculate: 12–24 months", "70–80% achieve sperm in ejaculate"],
+            ["Kallmann syndrome / IHH", "Pulsatile GnRH pump", "GnRH 5–20 μg/pulse Q90min SC", "12–24 months", "Equivalent to hCG/FSH protocol"],
+            ["Prolactinoma", "Cabergoline", "0.5–1 mg twice weekly", "Fertility: 3–12 months (after PRL normalisation)", "70–80% natural fertility restoration"],
+            ["Post-anabolic steroid azoospermia", "Cessation + clomiphene 25–50 mg/day or hCG", "Clomiphene 25–50 mg OD or hCG 1500 IU ×3/wk", "Recovery 6–24 months", "Variable — dependent on steroid duration/type"],
+            ["Idiopathic oligozoospermia", "FSH supplementation (in selected patients)", "rFSH 75–150 IU ×3/wk", "3–6 months", "Modest benefit — EAU Grade C; not routine"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E2-S7",
+      "title": "Assisted Reproductive Technology (ART): IUI, IVF, and ICSI",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Assisted reproductive technology (ART)** encompasses all procedures that involve the handling of human gametes or embryos. For male infertility, the urologist's role is to optimise sperm quality where possible and to retrieve sperm surgically when required. Understanding the different ART modalities and their indications is essential for appropriate patient counselling.\n\n**Intrauterine Insemination (IUI)**: Prepared (washed/concentrated) sperm deposited directly into the uterine cavity at the time of ovulation (natural or stimulated cycle). Indications: mild male factor (total motile sperm count after processing ≥5 × 10⁶, sperm concentration ≥5 × 10⁶/mL, no severe female factor). Success rate per cycle: 10–15%. Not appropriate when total motile count <5 × 10⁶ — proceed to IVF/ICSI.\n\n**In Vitro Fertilisation (IVF)**: Controlled ovarian stimulation, oocyte retrieval, insemination of oocytes in vitro with prepared sperm (20,000–100,000 sperm/oocyte), embryo culture, and transfer. Conventional IVF requires a minimum total motile sperm count of approximately 100,000. Success rate per cycle: 25–40% (age-dependent). For male factor infertility with sperm counts in this range, IVF is appropriate.\n\n**Intracytoplasmic Sperm Injection (ICSI)**: A single spermatozoon is injected directly into the cytoplasm of each mature oocyte using a microneedle, bypassing all natural sperm selection barriers. First described by Palermo et al. (Lancet 1992) — one of the most transformative developments in reproductive medicine. Indications: severe oligozoospermia (<5 × 10⁶/mL), azoospermia (using surgically retrieved sperm), previous failed fertilisation with IVF, severe teratozoospermia, poor sperm motility, sperm antibodies. ICSI fertilisation rates: 60–70% per oocyte. Clinical pregnancy rates per transfer: 30–40%. ICSI has revolutionised the management of severe male factor infertility — men with azoospermia can now achieve biological fatherhood with micro-TESE + ICSI.\n\nImportant **ICSI considerations**: the natural sperm selection mechanisms (cervical mucus, zona pellucida binding) are bypassed — genetic abnormalities in sperm (including de novo mutations) may be transmitted; genetic testing of embryos (preimplantation genetic testing — PGT) may be recommended for couples where the male carries known genetic causes of infertility (Y-chromosome deletions, CFTR mutations) before embryo transfer."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — ICSI Landmark Paper",
+          "content": "Palermo G et al. (Lancet 1992) first reported successful pregnancies after ICSI in four infertile couples. This single publication transformed the management of male factor infertility — for the first time, men with severe oligozoospermia or azoospermia could achieve biological fatherhood. Before ICSI, severe male factor infertility was essentially untreatable. Today, micro-TESE + ICSI achieves live birth rates of 25–45% for men with NOA from Klinefelter syndrome."
+        },
+        {
+          "type": "table",
+          "title": "ART Modalities — Selection Guide Based on Sperm Count",
+          "headers": ["Total Motile Sperm Count (TMSC) After Processing", "Appropriate ART", "Expected Success/Cycle", "Notes"],
+          "rows": [
+            [">5–10 × 10⁶ TMSC", "IUI (3–6 cycles)", "10–15% per IUI cycle", "Max 3–6 IUI cycles then consider IVF"],
+            ["100,000–5 × 10⁶ TMSC", "IVF (standard insemination)", "25–40% per transfer", "ICSI may be needed if fertilisation fails"],
+            ["<100,000 TMSC or severe morphology defect", "ICSI", "60–70% fertilisation rate per oocyte", "Single sperm sufficient"],
+            ["Azoospermia (OA) — sperm retrieved surgically", "ICSI with PESA/TESA/MESA sperm", "30–40% per transfer (similar to ICSI with ejaculated sperm)", "Fresh or cryopreserved sperm equivalent"],
+            ["Azoospermia (NOA) — micro-TESE success", "ICSI with micro-TESE sperm", "20–35% per transfer", "Lower than OA due to sperm quality; Klinefelter ~25–35%"]
+          ]
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of male infertility and andrology with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "E2-Q1",
+        "stem": "According to WHO 2021 (6th edition) semen analysis reference values, what is the lower reference limit for sperm concentration and progressive motility?",
+        "options": {
+          "A": "Concentration ≥20 × 10⁶/mL; progressive motility ≥50%",
+          "B": "Concentration ≥16 × 10⁶/mL; progressive motility ≥30%",
+          "C": "Concentration ≥15 × 10⁶/mL; progressive motility ≥32%",
+          "D": "Concentration ≥10 × 10⁶/mL; progressive motility ≥25%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "WHO 2021 (6th edition) lower reference limits (5th centile): sperm concentration ≥16 × 10⁶/mL (slightly increased from 15 in 5th edition), progressive motility ≥30% (slightly reduced from 32%). Other key values: ejaculate volume ≥1.4 mL, total sperm count ≥39 × 10⁶/ejaculate, morphology ≥4% normal forms (unchanged from 5th edition).",
+          "wrong": {
+            "A": "≥20 × 10⁶/mL and ≥50% are older pre-WHO 2010 reference values — no longer in use.",
+            "C": "≥15 × 10⁶/mL and ≥32% are the WHO 2010 (5th edition) values — replaced by WHO 2021 6th edition. Know both editions as some questions still reference the 5th edition.",
+            "D": "≥10 × 10⁶/mL and ≥25% are below reference range — these values would represent oligozoospermia and asthenozoospermia, not the lower reference limits."
+          },
+          "guideline": "WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition (2021) — lower reference limits based on fertile men's population at 5th centile",
+          "trial": "Cooper TG et al. WHO reference values for human semen characteristics. Hum Reprod Update 2010;16:231: original derivation study for WHO semen analysis reference limits (5th edition), updated in 2021 6th edition",
+          "pearl": "WHO 2021 (6th ed) semen analysis: concentration ≥16 × 10⁶/mL, progressive motility ≥30%, morphology ≥4%, volume ≥1.4 mL, total count ≥39 × 10⁶/ejaculate. WHO 2010 (5th ed): concentration ≥15, progressive motility ≥32% — minor differences."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E2-Q2",
+        "stem": "A 30-year-old man is investigated for infertility. Semen analysis shows azoospermia on two samples. FSH is 1.8 IU/L (normal), testosterone 14 nmol/L (normal). Examination reveals bilateral absence of the vas deferens. Fructose is absent in the ejaculate. What is the diagnosis and the mandatory next investigation?",
+        "options": {
+          "A": "Non-obstructive azoospermia (Klinefelter) — karyotype analysis",
+          "B": "Congenital bilateral absence of the vas deferens (CBAVD) — CFTR mutation analysis (patient and partner)",
+          "C": "Post-vasectomy azoospermia — vasectomy reversal assessment",
+          "D": "Ejaculatory duct obstruction — transrectal ultrasound"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "CBAVD (congenital bilateral absence of the vas deferens) presents with: bilateral absent vas deferens on examination, azoospermia, normal FSH (spermatogenesis intact), low/absent fructose (absent seminal vesicles/vas deferens contribution to ejaculate), small ejaculate volume. CBAVD is associated with CFTR mutations in >95% of cases. CFTR mutation analysis is mandatory for the patient. Partner CFTR carrier testing is also mandatory — if both partners carry CFTR mutations, each pregnancy has a 25% chance of CF. Sperm retrieval (TESA or PESA) + ICSI enables parenthood.",
+          "wrong": {
+            "A": "Klinefelter syndrome (47,XXY) causes NOA with ELEVATED FSH (primary testicular failure), small testes, and present (but abnormal) vas deferens. This patient has NORMAL FSH and absent vas deferens — not Klinefelter.",
+            "C": "Post-vasectomy azoospermia would have: history of vasectomy, present but ligated vas deferens on examination, normal FSH. This patient has no vas deferens palpable — not post-vasectomy.",
+            "D": "Ejaculatory duct obstruction presents with low-volume azoospermia and absent fructose, but the vas deferens is PRESENT and the obstruction is at the ejaculatory duct level. CBAVD = absent vas deferens. TRUS is appropriate for ejaculatory duct obstruction, not for CBAVD."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — CBAVD: CFTR mutation analysis mandatory for patient and partner before ICSI with retrieved sperm",
+          "trial": "Chillon M et al. Mutations in the cystic fibrosis gene in patients with congenital absence of the vas deferens. NEJM 1995;332:1475: foundational paper establishing CFTR mutations as the cause of CBAVD in >95% of cases",
+          "pearl": "CBAVD = absent vas deferens + azoospermia + normal FSH + absent fructose. Cause: CFTR mutations (>95%). Mandatory tests: CFTR mutation analysis for patient + partner. Management: PESA/TESA + ICSI. Risk: CF in offspring if both partners are CFTR carriers."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q3",
+        "stem": "A 28-year-old man with Kallmann syndrome presents with azoospermia and wishes to have children with his partner. His FSH and LH are both undetectable, testosterone 2.1 nmol/L. He has anosmia from birth. What is the most appropriate fertility treatment?",
+        "options": {
+          "A": "Testosterone replacement therapy + ICSI with donor sperm",
+          "B": "hCG injection (LH analogue) × 6 months followed by rFSH addition to stimulate spermatogenesis",
+          "C": "Micro-TESE to retrieve sperm for ICSI",
+          "D": "Clomiphene citrate 50 mg/day to increase endogenous gonadotrophins"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Kallmann syndrome is hypogonadotrophic hypogonadism (HH) — the testes are normal but lack gonadotrophin stimulation. Hormonal treatment with exogenous gonadotrophins can restore spermatogenesis: hCG (LH analogue, 2000–2500 IU ×3/week SC) first for 3–6 months to normalise testosterone and testicular size, then add rFSH (75–150 IU ×3/week SC) to stimulate Sertoli cells and spermatogenesis. Sperm in ejaculate in 70–80% at 12–24 months. Testosterone replacement alone would worsen infertility by suppressing the HPG axis further.",
+          "wrong": {
+            "A": "Testosterone replacement suppresses FSH and LH further, completely abolishing any residual or stimulable spermatogenesis. It is contraindicated in men seeking fertility with HH. Donor sperm is a valid option if hormonal treatment fails, but is not first-line.",
+            "C": "Micro-TESE is indicated for NOA (primary testicular failure with elevated FSH). In Kallmann HH, the testis has the POTENTIAL for normal spermatogenesis — gonadotrophin treatment should be tried first. Micro-TESE would only be considered if gonadotrophin treatment fails.",
+            "D": "Clomiphene citrate (anti-oestrogen, increases endogenous GnRH/LH/FSH release) requires an intact hypothalamic-pituitary axis to work. In Kallmann syndrome, the hypothalamus does not produce GnRH — clomiphene has no pituitary GnRH to augment. It is appropriate for post-steroid recovery and idiopathic oligozoospermia, not for HH with absent gonadotrophins."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — HH treatment: hCG + rFSH (or pulsatile GnRH) can restore spermatogenesis; testosterone replacement contraindicated when fertility is desired",
+          "trial": "Dwyer AA et al. Restoration of fertility in males with hypogonadotrophic hypogonadism using hCG + FSH. J Clin Endocrinol Metab 2007;92:2748: hCG + FSH protocol achieves sperm in ejaculate in 70–80% of HH patients at 12–24 months",
+          "pearl": "Kallmann/IHH treatment for fertility: hCG (LH analogue) first to stimulate testosterone, then add rFSH to stimulate spermatogenesis. Sperm in ejaculate: 70–80% at 12–24 months. NEVER give testosterone for fertility (suppresses remaining gonadotrophins). Clomiphene only works if HPG axis is INTACT."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q4",
+        "stem": "Y-chromosome microdeletions are classified into AZFa, AZFb, and AZFc regions. Which combination of deletion type and sperm retrieval outcome is CORRECT?",
+        "options": {
+          "A": "AZFa complete deletion — sperm retrieval with micro-TESE possible in ~50%",
+          "B": "AZFb complete deletion — sperm retrieval essentially impossible; maturation arrest",
+          "C": "AZFc deletion — sperm retrieval essentially impossible; SCOS universally present",
+          "D": "AZFbc combined deletion — micro-TESE success in ~40%"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "AZFb complete deletion causes maturation arrest — no post-meiotic spermatogenic cells. Sperm retrieval with micro-TESE is essentially impossible (<5%). This is the same for AZFa complete deletion (Sertoli cell-only syndrome — no germ cells). The prognosis for sperm retrieval differs critically by region: AZFc deletion (most common, ~60%) has a variable phenotype from oligozoospermia to azoospermia, and micro-TESE sperm retrieval is possible in approximately 50%. AZFbc combined deletion = essentially impossible (<5%).",
+          "wrong": {
+            "A": "AZFa complete deletion results in Sertoli cell-only syndrome (SCOS) with essentially zero sperm retrieval — not 50%. AZFa contains the USP9Y and DBY genes essential for germ cell survival. Complete AZFa deletion = no germ cells.",
+            "C": "AZFc deletion has the best prognosis of all AZF deletions — micro-TESE retrieval possible in ~50%, not impossible. AZFc contains the DAZ (deleted in azoospermia) gene cluster. SCOS is NOT universal in AZFc — variable phenotype.",
+            "D": "AZFbc combined deletion has essentially zero sperm retrieval possibility (<5%) — the opposite of 40%. AZFbc combined deletion is the worst prognostic group."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — Y-chromosome microdeletions: AZFa/AZFb complete deletions = no sperm retrieval possible; AZFc = ~50% micro-TESE success; AZFbc = essentially zero",
+          "trial": "Krausz C et al. Y-chromosome microdeletions: prevalence and implications for sperm retrieval. Eur Urol 2014;65:826: systematic review of micro-TESE success rates by AZF deletion region — foundational for genetic counselling",
+          "pearl": "Y-microdeletion sperm retrieval prognosis: AZFa = ZERO (SCOS), AZFb = ZERO (maturation arrest), AZFbc = ZERO, AZFc = ~50% (variable, micro-TESE may succeed). Sons of men with AZFc deletion will inherit the deletion — all will be oligozoospermic/azoospermic."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E2-Q5",
+        "stem": "ICSI (intracytoplasmic sperm injection) was first reported to achieve successful pregnancies by which landmark publication, and what does the technique involve?",
+        "options": {
+          "A": "Steptoe and Edwards (Nature 1978) — first IVF pregnancy; involves placing sperm near the oocyte in vitro",
+          "B": "Palermo et al. (Lancet 1992) — direct injection of a single spermatozoon into the oocyte cytoplasm",
+          "C": "Silber et al. (Lancet 1993) — first MESA sperm retrieval achieving pregnancy via ICSI",
+          "D": "Cohen et al. (Fertil Steril 1992) — partial zona dissection to improve sperm entry into oocyte"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Palermo G et al. (Lancet 1992;340:17) first reported successful pregnancies in four infertile couples using intracytoplasmic sperm injection — direct injection of a single spermatozoon into the cytoplasm of a mature oocyte using a microneedle under microscopic guidance. This technique bypasses all natural sperm selection barriers (cervical mucus, cumulus cells, zona pellucida penetration). It revolutionised treatment of severe male factor infertility and is now the most widely used ART technique worldwide.",
+          "wrong": {
+            "A": "Steptoe and Edwards (Nature 1978) reported the first IVF pregnancy — Louise Brown. Standard IVF involves placing prepared sperm with oocytes in a petri dish (sperm still need to penetrate the zona pellucida naturally) — not direct injection. This predates ICSI by 14 years.",
+            "C": "Silber et al. reported early MESA + ICSI pregnancies — important work but not the first ICSI pregnancy report. Palermo 1992 is the landmark ICSI paper.",
+            "D": "Partial zona dissection (PZD) was a precursor technique to ICSI — mechanical breaching of the zona pellucida to assist sperm entry. It was largely replaced by ICSI after Palermo 1992 demonstrated superior fertilisation rates with direct injection."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — ICSI: recommended for severe oligozoospermia, azoospermia with surgically retrieved sperm, and failed IVF fertilisation",
+          "trial": "Palermo G et al. Pregnancies after intracytoplasmic injection of a single spermatozoon into an oocyte. Lancet 1992;340:17–18: first clinical report of ICSI pregnancies — landmark paper that established ICSI as a viable treatment for severe male factor infertility",
+          "pearl": "ICSI landmark paper: Palermo G et al., Lancet 1992. Single spermatozoon injected directly into oocyte cytoplasm. Fertilisation rate: 60–70% per oocyte. Clinical pregnancy per transfer: 30–40%. Enables fatherhood for men with azoospermia (surgical sperm + ICSI)."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E2-Q6",
+        "stem": "A 35-year-old man with a Grade 3 left varicocele and oligoasthenoteratozoospermia (sperm count 6 × 10⁶/mL, progressive motility 18%, morphology 2% normal forms) is evaluated in the fertility clinic. His female partner (age 32) has regular cycles and a normal HSG. They have been trying to conceive for 18 months. According to EAU 2024, is varicocele repair indicated, and which surgical technique is preferred?",
+        "options": {
+          "A": "Varicocele repair is NOT indicated — proceed directly to IVF/ICSI",
+          "B": "Varicocele repair IS indicated; microsurgical subinguinal varicocelectomy (Marmar technique) is the preferred approach",
+          "C": "Varicocele repair IS indicated; laparoscopic Palomo high ligation is the gold standard",
+          "D": "Subclinical varicocele treatment should be performed first to maximise outcomes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "All EAU 2024 indications for varicocele repair in the infertile male are met: (1) clinical varicocele (Grade 3 = palpable/visible), (2) couple trying to conceive >12 months, (3) abnormal semen parameters (oligozoospermia + asthenozoospermia + teratozoospermia), (4) no severe female factor (normal HSG + regular cycles). Microsurgical subinguinal varicocelectomy (Marmar technique) using an operating microscope achieves the lowest recurrence (0.4–1.3%) and lowest hydrocele rate (<1%) of all techniques — it is the gold standard.",
+          "wrong": {
+            "A": "Varicocele repair is indicated before ART in this scenario — EAU 2024 Grade B supports varicocele treatment in men with clinical varicocele, abnormal semen parameters, and no severe female factor. Varicocele repair may achieve natural conception or improve semen parameters sufficiently to reduce the need for ICSI to IVF or IUI.",
+            "C": "Laparoscopic Palomo high ligation has significantly higher recurrence rates (3–5%) and higher hydrocele rates (3–8%) than microsurgical approaches — it is not the gold standard for varicocele repair in the fertility context.",
+            "D": "The varicocele is Grade 3 (clearly clinical/palpable) — treatment of a subclinical varicocele is NOT recommended (EAU Grade A against). The current scenario involves a clearly clinical varicocele, so the question about subclinical treatment is irrelevant to this case."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — Varicocele: Grade B indication for treatment when clinical varicocele + abnormal semen + couple trying to conceive + no severe female factor; microsurgical technique Gold Standard",
+          "trial": "Baazeem A et al. Varicocele and male factor infertility treatment: a new meta-analysis and review. Eur Urol 2011;60:796: varicocele repair significantly improves spontaneous pregnancy rates vs expectant management in men with clinical varicocele and abnormal semen",
+          "pearl": "Varicocele repair indication (EAU Grade B): clinical (palpable) varicocele + abnormal semen + couple trying to conceive + no severe female factor. Gold standard technique: MICROSURGICAL (subinguinal or inguinal) — lowest recurrence (0.4–1.3%) + hydrocele rate (<1%). NO treatment for subclinical varicocele."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q7",
+        "stem": "A 26-year-old man is found to have a karyotype of 47,XXY (non-mosaic Klinefelter syndrome). He and his partner wish to have children. His testosterone is 4.2 nmol/L (low). FSH 52 IU/L, LH 38 IU/L (both elevated). Testicular volume 4 mL bilaterally. Semen analysis shows azoospermia. What is the correct sequence of management for fertility?",
+        "options": {
+          "A": "Start testosterone replacement therapy immediately, then plan micro-TESE in 12 months",
+          "B": "Perform micro-TESE first; if sperm retrieved, cryopreserve for ICSI; initiate testosterone replacement after the procedure",
+          "C": "Perform conventional TESE under local anaesthesia; testosterone replacement is not needed at this age",
+          "D": "Refer for donor sperm ICSI — Klinefelter syndrome means sperm retrieval is impossible"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The correct sequence for Klinefelter NOA: (1) micro-TESE first, before starting testosterone — exogenous testosterone suppresses already minimal residual spermatogenesis. (2) If sperm retrieved (success rate 30–65% with non-mosaic Klinefelter), cryopreserve for ICSI. (3) After micro-TESE (regardless of retrieval outcome), initiate testosterone replacement for hypogonadism. Micro-TESE (not conventional TESE) is preferred — superior sperm retrieval rates for NOA.",
+          "wrong": {
+            "A": "Starting testosterone BEFORE micro-TESE is the critical error — exogenous testosterone suppresses FSH and LH, further reducing the minimal residual spermatogenesis. This would substantially reduce or eliminate the chance of sperm retrieval at micro-TESE.",
+            "C": "Conventional TESE has lower retrieval rates than micro-TESE for NOA (25–35% vs 42–63%). Micro-TESE is the gold standard for NOA including Klinefelter. Additionally, testosterone replacement IS needed for hypogonadism (testosterone 4.2 nmol/L) — just AFTER the sperm retrieval procedure.",
+            "D": "Sperm retrieval is possible in non-mosaic Klinefelter with micro-TESE (30–65% success) — donor sperm should only be recommended if micro-TESE fails. Premature recommendation of donor sperm without attempting retrieval denies the patient biological fatherhood."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — Klinefelter syndrome: micro-TESE before testosterone replacement; testosterone after procedure; micro-TESE success 30–65% in non-mosaic 47,XXY",
+          "trial": "Lopez-Jimenez MA et al. Sperm retrieval in non-mosaic Klinefelter syndrome: a meta-analysis. Andrology 2014;2:498: systematic review confirming micro-TESE 40–60% success rate in Klinefelter; testosterone must be stopped before or not started before retrieval",
+          "pearl": "Klinefelter (47,XXY) fertility sequence: (1) micro-TESE FIRST (before testosterone) → (2) cryopreserve sperm → (3) start testosterone replacement AFTER retrieval. Testosterone before micro-TESE = reduced sperm retrieval (suppresses FSH/LH). Micro-TESE success: 30–65%."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q8",
+        "stem": "Micro-TESE (microsurgical testicular sperm extraction) was described by Schlegel and Su. What is its key technical advantage over conventional TESE for non-obstructive azoospermia?",
+        "options": {
+          "A": "It can be performed under local anaesthesia as an outpatient procedure",
+          "B": "It uses operating microscope magnification to identify dilated tubules containing spermatogenic foci, achieving higher sperm retrieval rates while preserving testicular vasculature",
+          "C": "It avoids the need for ICSI — retrieved sperm can be used for standard IVF insemination",
+          "D": "It produces larger biopsy volumes than conventional TESE, increasing the chance of finding sperm"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Micro-TESE (Schlegel, J Urol 1997) uses an operating microscope at ×16–25 magnification to examine the seminiferous tubules through a wide incision in the tunica albuginea. Tubules containing active spermatogenesis appear larger (dilated) and more opaque than tubules with Sertoli cell-only appearance. This allows targeted biopsy of the most likely spermatogenic regions, achieving 42–63% sperm retrieval vs 25–35% for conventional TESE in NOA. Additionally, the microsurgical approach preserves testicular vasculature, reducing post-operative testicular atrophy and testosterone decline compared to multiple conventional biopsies.",
+          "wrong": {
+            "A": "Micro-TESE requires general anaesthesia and an operating microscope — it is a hospital surgical procedure, not an outpatient local anaesthesia procedure. Conventional TESE can be done under local or general; PESA can be done under local — but not micro-TESE.",
+            "C": "Sperm retrieved from NOA micro-TESE are always used for ICSI — the number of sperm retrieved is typically very small (often only a few spermatozoa per sample) and they may have impaired motility, making conventional IVF insemination (which requires 20,000–100,000 sperm per oocyte) impossible.",
+            "D": "Micro-TESE actually removes LESS testicular tissue than conventional TESE (which takes multiple large biopsies). The advantage of micro-TESE is TARGETED sampling of likely spermatogenic areas based on tubule morphology — not larger biopsy volumes."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — Micro-TESE: gold standard for NOA sperm retrieval (Grade A); higher SRR than conventional TESE (42–63% vs 25–35%); preserves testicular vasculature",
+          "trial": "Schlegel PN, Su LM. Physiological consequences of testicular sperm extraction. Hum Reprod 1997;12:1688: landmark paper introducing micro-TESE technique showing superior sperm retrieval rates and reduced vasculature damage compared to conventional TESE",
+          "pearl": "Micro-TESE advantage: operating microscope identifies DILATED tubules (spermatogenic foci) → targeted biopsy → higher SRR (42–63%) vs conventional TESE (25–35%) in NOA + less testicular tissue removed + preserves vasculature. Always combined with ICSI (very few sperm retrieved)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q9",
+        "stem": "A patient with non-obstructive azoospermia is found to have a complete AZFa deletion on Y-chromosome microdeletion testing. What is the most appropriate counselling?",
+        "options": {
+          "A": "Proceed with micro-TESE — 50% sperm retrieval rate expected",
+          "B": "Conventional TESE should be tried first before micro-TESE",
+          "C": "Sperm retrieval is essentially impossible with complete AZFa deletion — donor sperm or adoption are the options",
+          "D": "Hormonal stimulation with hCG + FSH may improve spermatogenesis before sperm retrieval attempt"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Complete AZFa deletion results in Sertoli cell-only syndrome (SCOS) — complete absence of germ cells throughout the testis. Testicular biopsy shows only Sertoli cells. Sperm retrieval (conventional TESE or micro-TESE) is essentially impossible (<5% retrieval in large case series). The couple should be counselled: biological fatherhood is extremely unlikely; donor sperm insemination (IUI/IVF/ICSI) or adoption are the realistic options. Performing micro-TESE knowing that retrieval is essentially impossible exposes the patient to surgical risk with near-zero benefit.",
+          "wrong": {
+            "A": "50% sperm retrieval is the expected rate for AZFc deletions, not AZFa. Complete AZFa deletion = SCOS = essentially zero retrieval. Confusing AZFa and AZFc sperm retrieval prognosis is a critical clinical and exam error.",
+            "B": "Whether conventional TESE or micro-TESE is used, complete AZFa deletion has essentially zero retrieval. There is no evidence that micro-TESE improves outcomes over conventional TESE for complete AZFa deletion — the underlying biology (absence of germ cells) cannot be overcome by more sophisticated surgery.",
+            "D": "Hormonal stimulation cannot restore germ cells — AZFa deletion is a permanent genetic deletion of genes essential for germ cell survival. No amount of gonadotrophin stimulation can compensate for the absence of USP9Y and DBY genes in complete AZFa deletion."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — Y-chromosome microdeletions: complete AZFa deletion = Sertoli cell-only, sperm retrieval impossible; counsel for donor sperm or adoption",
+          "trial": "Krausz C et al. Eur Urol 2014;65:826: meta-analysis of sperm retrieval rates by AZF deletion region — AZFa: 0 of 37 cases in systematic review; AZFc: ~50%; AZFbc: 0-3%",
+          "pearl": "AZFa complete deletion = SCOS = NO sperm retrieval. AZFb = maturation arrest = NO retrieval. AZFc = ~50% micro-TESE success. AZFbc = essentially ZERO. Always counsel BEFORE sperm retrieval — avoid unnecessary surgery for AZFa/AZFb/AZFbc."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q10",
+        "stem": "A couple presents with 2-year primary infertility. Semen analysis shows sperm concentration 8 × 10⁶/mL, progressive motility 22%, morphology 3% normal forms. His female partner (age 29) has no identified female factor. After full investigation, a decision is made to proceed with ART. Based on the sperm parameters, what is the most appropriate first ART strategy?",
+        "options": {
+          "A": "IUI (intrauterine insemination) — appropriate for mild male factor",
+          "B": "IVF with standard insemination — concentration 8 × 10⁶/mL is sufficient for conventional IVF",
+          "C": "ICSI — multiple sperm parameter abnormalities (severe oligoasthenoteratozoospermia) mandate ICSI",
+          "D": "Clomiphene citrate 50 mg/day to improve sperm count before ART"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This patient has severe oligoasthenoteratozoospermia (OAT syndrome): concentration 8 × 10⁶/mL (oligozoospermia), motility 22% (asthenozoospermia), morphology 3% (teratozoospermia). The total motile sperm count (TMSC) = 8 × 10⁶ × 0.22 = 1.76 × 10⁶/mL — well below the 5 × 10⁶ threshold for IUI and the 100,000 threshold for standard IVF insemination. ICSI is the appropriate ART for severe OAT syndrome, requiring only a single motile spermatozoon per oocyte regardless of total count.",
+          "wrong": {
+            "A": "IUI requires a post-processing total motile sperm count of ≥5 × 10⁶ motile sperm. With 8 × 10⁶/mL concentration and 22% motility, and accounting for processing losses (~50% recovery), the available TMSC is well below the IUI threshold. IUI would have unacceptably low success rates.",
+            "B": "Standard IVF insemination (dropping prepared sperm onto oocyte in vitro) requires approximately 100,000 motile sperm per oocyte — still well above the available count from this sample (estimated ~880,000/mL processed, but with poor morphology). Given the severe OAT, fertilisation failure with standard IVF is likely — ICSI is recommended.",
+            "D": "Clomiphene citrate for idiopathic oligozoospermia has only Grade C evidence (EAU) with modest effects — it is not a reason to delay ART in a couple with 2 years of infertility and a clearly identified severe male factor requiring ICSI."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — ICSI indications: severe OAT (concentration <5 × 10⁶/mL), failed IVF fertilisation, surgically retrieved sperm, severe morphology defects",
+          "trial": "Palermo G et al. Pregnancies after intracytoplasmic injection of a single spermatozoon into an oocyte. Lancet 1992;340:17: ICSI for severe male factor — single sperm sufficient for fertilisation in severe OAT",
+          "pearl": "TMSC <5 × 10⁶ = ICSI (not IUI, not standard IVF). TMSC 5–100,000 = IUI. TMSC >100,000 = standard IVF. Severe OAT (concentration <5 × 10⁶/mL) → direct to ICSI — bypasses all natural fertilisation barriers."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q11",
+        "stem": "Which hormonal profile best characterises obstructive azoospermia (OA) and differentiates it from non-obstructive azoospermia (NOA)?",
+        "options": {
+          "A": "OA: FSH elevated, LH elevated, testosterone low",
+          "B": "OA: FSH normal, LH normal, testosterone normal",
+          "C": "NOA: FSH normal, LH normal, testosterone low — distinguished from OA only by testicular biopsy",
+          "D": "OA: FSH elevated, testosterone normal — same pattern as mild primary testicular failure"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In obstructive azoospermia, spermatogenesis is intact — the testes produce sperm normally but physical obstruction prevents sperm reaching the ejaculate. Therefore, there is normal negative feedback: inhibin B (from Sertoli cells) suppresses FSH normally, and testosterone production by Leydig cells is normal → FSH NORMAL, LH NORMAL, testosterone NORMAL. Normal gonadotrophins in an azoospermic man strongly suggest OA (or ejaculatory dysfunction) rather than primary testicular failure.",
+          "wrong": {
+            "A": "Elevated FSH + LH + low testosterone describes primary hypogonadism (NOA from testicular failure — e.g., Klinefelter, post-orchitis, severe NOA). This is the NOA pattern, not OA.",
+            "C": "NOA typically shows ELEVATED FSH (impaired spermatogenesis → reduced inhibin B → less FSH suppression → elevated FSH). Normal FSH with NOA would be unusual and suggests mild/partial spermatogenic impairment — biopsy is needed to confirm. Generally, NOA does NOT present with normal FSH.",
+            "D": "Elevated FSH with normal testosterone describes compensated primary hypogonadism — this is an NOA/partial primary testicular failure pattern, not OA. OA has a fully normal hormonal profile."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — OA vs NOA distinction: OA = normal FSH + normal testicular volume + spermatogenesis intact; NOA = elevated FSH + small testes + impaired spermatogenesis",
+          "trial": "Wosnitzer MS, Goldstein M, Hardy MP. Review of Azoospermia. Spermatogenesis 2014;4:e28218: comprehensive review distinguishing OA from NOA using hormonal and clinical criteria",
+          "pearl": "Azoospermia + NORMAL FSH + normal testicular volume = OA (obstructive). Azoospermia + ELEVATED FSH + small testes = NOA (primary testicular failure). This distinction drives the entire management pathway — always check FSH in azoospermia."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "E2-Q12",
+        "stem": "A 32-year-old man presents with progressive bilateral muscle weakness, areflexia, and mild gynecomastia. He has been investigated for infertility and found to be severely oligozoospermic. Karyotype is 46,XY. What genetic test would most likely explain both the neurological and infertility findings?",
+        "options": {
+          "A": "CFTR mutation analysis — for CBAVD",
+          "B": "CAG repeat analysis of the androgen receptor gene (AR) — Kennedy disease (spinobulbar muscular atrophy)",
+          "C": "Y-chromosome microdeletion analysis — AZFc deletion",
+          "D": "Karyotype repeat — mosaicism detection"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Kennedy disease (X-linked spinobulbar muscular atrophy) is caused by a pathological expansion of CAG trinucleotide repeats in the androgen receptor (AR) gene on chromosome Xq11-q12. It presents with: progressive lower motor neurone degeneration (muscle weakness, fasciculations, areflexia, dysphagia), gynaecomastia, and reduced fertility from partial androgen insensitivity (impaired spermatogenesis). Karyotype is 46,XY (normal male). The combination of neuromuscular disease + gynaecomastia + male infertility = Kennedy disease until proven otherwise. Normal CAG repeat = 9–36; pathological expansion = ≥38 repeats.",
+          "wrong": {
+            "A": "CFTR mutations cause CBAVD (absent vas deferens) — not neuromuscular disease or gynaecomastia. The clinical combination described does not fit CBAVD.",
+            "C": "AZFc deletion causes azoospermia/severe oligozoospermia but has no neurological manifestations or gynaecomastia. The neuromuscular component points to Kennedy disease.",
+            "D": "Karyotype repetition for mosaicism would look for mosaic Klinefelter (46,XY/47,XXY). However, Klinefelter presents with azoospermia (not oligozoospermia), hypogonadism, and typically does NOT cause the progressive LMN degeneration described. Kennedy disease is the correct diagnosis."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — Androgen receptor CAG repeat expansion: Kennedy disease; genetic counselling required; X-linked inheritance (maternal carrier → 50% of sons affected)",
+          "trial": "La Spada AR et al. Androgen receptor gene mutations in X-linked spinal and bulbar muscular atrophy. Nature 1991;352:77: foundational paper identifying CAG repeat expansion in AR gene as cause of Kennedy disease",
+          "pearl": "Kennedy disease (spinobulbar muscular atrophy): CAG repeat expansion in AR gene (≥38 repeats). Phenotype: progressive LMN degeneration + gynaecomastia + male infertility (partial androgen insensitivity). Karyotype 46,XY (normal). X-linked inheritance. Test: AR CAG repeat length analysis."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E2-Q13",
+        "stem": "Infertility investigations in a 35-year-old man reveal: sperm concentration 3 × 10⁶/mL, progressive motility 15%, morphology 2% normal forms, volume 3.5 mL, FSH 6.2 IU/L (normal), testosterone 13.5 nmol/L (normal). He has a normal karyotype (46,XY). Y-chromosome microdeletion panel is negative. Which investigation should be performed next to complete the genetic evaluation?",
+        "options": {
+          "A": "Testicular biopsy for histological assessment",
+          "B": "No further genetic tests needed — idiopathic severe oligoasthenoteratozoospermia",
+          "C": "CFTR mutation analysis — severe oligozoospermia spectrum may represent incomplete CBAVD",
+          "D": "Chromosomal microarray for autosomal deletions affecting spermatogenesis"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "In a man with severe oligozoospermia (concentration <5 × 10⁶/mL), normal FSH, normal karyotype, and negative Y-microdeletion, CFTR mutation analysis should be considered. A spectrum of CFTR mutations can cause not only complete CBAVD but also partial epididymal/vasal dysfunction leading to severe oligozoospermia without complete absence of the vas deferens. EAU 2024 recommends CFTR analysis for severe oligozoospermia spectrum where other genetic causes have been excluded. Additionally, CFTR analysis is important before ICSI to counsel about CF risk in offspring.",
+          "wrong": {
+            "A": "Testicular biopsy in severe oligozoospermia (not azoospermia) is not routinely indicated — histological findings (e.g., hypospermatogenesis) would not change the management (ICSI is the treatment regardless). Biopsy is reserved for azoospermia workup (OA vs NOA).",
+            "B": "Labelling this as 'idiopathic' without CFTR testing is premature. EAU 2024 recommends CFTR analysis for severe oligozoospermia spectrum — 'idiopathic' is a diagnosis of exclusion after complete genetic evaluation.",
+            "D": "Chromosomal microarray for autosomal deletions is investigational and not part of standard EAU 2024 genetic evaluation for male infertility. Current standard testing: karyotype + Y-microdeletion + CFTR (for severe oligozoospermia/CBAVD spectrum)."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — Genetic evaluation for severe oligozoospermia: karyotype + Y-chromosome microdeletion + CFTR mutation analysis; CFTR before ICSI for patient counselling about CF risk",
+          "trial": "Krausz C, Chianese C. Curr Opin Endocrinol Diabetes Obes 2014;21:244: CFTR mutation analysis in severe oligozoospermia — partial CFTR mutations may cause reproductive tract dysfunction without complete CBAVD",
+          "pearl": "Severe oligozoospermia genetic workup (EAU 2024): (1) karyotype, (2) Y-chromosome microdeletions, (3) CFTR mutations. CFTR not just for absent vas deferens — partial CFTR mutations can cause oligozoospermia spectrum. Always check CFTR before ICSI (CF risk counselling for offspring)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E2-Q14",
+        "stem": "A 30-year-old man presents with azoospermia. Clinical examination shows a large grade 3 left varicocele. FSH is 5.1 IU/L (normal), testicular volume left 18 mL, right 20 mL. Semen analysis on repeat centrifuged samples: no spermatozoa on both. What additional investigation is needed to classify the azoospermia type before planning treatment?",
+        "options": {
+          "A": "Testicular biopsy — to distinguish OA from NOA in azoospermia with normal FSH and normal testicular volume",
+          "B": "Scrotal Doppler ultrasound — to grade the varicocele more precisely",
+          "C": "Trans-rectal ultrasound (TRUS) — to exclude ejaculatory duct obstruction",
+          "D": "CT abdomen — to assess the spermatic vein anatomy before embolisation"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Normal FSH + normal testicular volume + palpable varicocele + azoospermia represents a situation where OA vs NOA cannot be reliably distinguished clinically. Normal FSH suggests intact spermatogenesis (pointing to OA), but a grade 3 varicocele can cause azoospermia through impaired spermatogenesis (NOA) despite normal FSH. Testicular biopsy (or micro-TESE) would distinguish OA (normal spermatogenesis — dilated tubules with full spermatogenesis) from NOA (impaired spermatogenesis). This differentiation determines whether varicocele repair alone might restore sperm to the ejaculate (in NOA) or whether surgical sperm retrieval is needed alongside ICSI.",
+          "wrong": {
+            "A": "This IS the correct answer — testicular biopsy to distinguish OA from NOA when FSH is normal but azoospermia is confirmed and a varicocele may be causative.",
+            "B": "Scrotal Doppler ultrasound would confirm the varicocele grade, but Grade 3 is already clinically evident (visible). Ultrasound does not determine whether the azoospermia is OA or NOA — which is the clinical question requiring a testicular biopsy.",
+            "C": "TRUS for ejaculatory duct obstruction would be appropriate in low-volume azoospermia with absent fructose. This patient has normal testicular volume and presumably normal ejaculate volume — ejaculatory duct obstruction is not the primary concern.",
+            "D": "CT angiography or venography for spermatic vein anatomy is used before radiological embolisation, but the primary clinical question here is OA vs NOA — not spermatic vein anatomy."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — Normal FSH azoospermia: testicular biopsy to distinguish OA from NOA when hormonal and clinical assessment is inconclusive",
+          "trial": "Wosnitzer MS et al. Spermatogenesis 2014;4:e28218: testicular biopsy remains necessary in normal-FSH azoospermia to exclude OA vs NOA when indirect markers are equivocal",
+          "pearl": "Azoospermia + normal FSH + normal testicular volume = OA suspected BUT testicular biopsy needed to confirm (some NOA can have normal FSH). OA biopsy = normal spermatogenesis. NOA biopsy = hypospermatogenesis/arrest/SCOS. Result determines whether surgical sperm retrieval is needed vs direct treatment."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E2-Q15",
+        "stem": "Which of the following correctly describes the WHO criterion for diagnosing leukocytospermia, and what is its clinical significance?",
+        "options": {
+          "A": "≥5 × 10⁶ WBC/mL — indicates active orchitis requiring systemic antibiotic treatment",
+          "B": "≥1 × 10⁶ WBC/mL — associated with male accessory gland infection; requires STI/infection screen and targeted treatment",
+          "C": "Any WBC visible on microscopy — warrants antibiotic treatment regardless of count",
+          "D": "≥0.5 × 10⁶ WBC/mL — subclinical leukocytospermia; treat empirically with antibiotics"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "WHO defines leukocytospermia (pyospermia) as ≥1 × 10⁶ leukocytes (peroxidase-positive cells) per mL of semen. This may indicate male accessory gland infection (epididymitis, prostatitis, seminal vesiculitis) or STI (Chlamydia, gonorrhoea, mycoplasma). Investigation: culture of urine/semen/urethral swab + STI NAAT screen (Chlamydia/gonorrhoea). Leukocytospermia is associated with increased reactive oxygen species (oxidative stress) damaging spermatozoa. Treatment should be targeted to the identified organism — empirical antibiotic treatment without identified infection is NOT recommended by EAU 2024.",
+          "wrong": {
+            "A": "The WHO threshold is 1 × 10⁶/mL (not 5 × 10⁶). Additionally, active orchitis would present with testicular pain and swelling — leukocytospermia alone does not diagnose orchitis. Systemic antibiotic treatment without microbiological diagnosis is inappropriate.",
+            "C": "Any WBC visible on microscopy does not constitute leukocytospermia — a threshold of ≥1 × 10⁶/mL (using peroxidase staining to identify true leukocytes vs immature germ cells) is required for diagnosis. Treating any WBC without meeting the threshold is over-treatment.",
+            "D": "0.5 × 10⁶/mL is below the WHO threshold — this does not constitute leukocytospermia. Empirical antibiotics below the diagnostic threshold are inappropriate."
+          },
+          "guideline": "WHO Semen Manual 6th Edition 2021 — Leukocytospermia: ≥1 × 10⁶ peroxidase-positive cells/mL; EAU 2024: investigate for infection source; targeted treatment only",
+          "trial": "Comhaire FH et al. WHO Manual for the Standardized Investigation, Diagnosis and Management of the Infertile Male 2000: leukocytospermia definition and clinical investigation protocol — basis for EAU guideline recommendations",
+          "pearl": "Leukocytospermia: ≥1 × 10⁶ WBC/mL (peroxidase staining — NOT just routine microscopy). Investigate: urine/semen culture + STI NAAT (Chlamydia/gonorrhoea). Treatment: targeted to identified organism only. Oxidative stress mechanism → sperm DNA damage."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q16",
+        "stem": "A man with CBAVD and his partner (confirmed CFTR carrier — heterozygous ΔF508) wish to use PESA + ICSI to conceive. What is the risk for each pregnancy that the child will be affected with cystic fibrosis?",
+        "options": {
+          "A": "0% — the male has CBAVD, not classic CF; his children will not inherit CF",
+          "B": "25% (1 in 4) — father likely carries two CFTR mutations (compound heterozygous or homozygous); partner is a carrier; 1 in 4 chance offspring inherit both mutations",
+          "C": "50% — father has one CF gene, partner has one CF gene; 50% of children will be carriers",
+          "D": "100% — father has CBAVD from CFTR mutations; all offspring will be affected"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A man with CBAVD has at least one (and usually two) CFTR mutations. His partner is a confirmed CFTR carrier (one mutation, heterozygous). If the father has two CFTR mutations (compound heterozygous — the most common CBAVD genotype, e.g., ΔF508 + R117H), and the partner has one CFTR mutation, each pregnancy has: 25% chance of CF-affected child (inherits both mutations), 50% chance carrier, 25% unaffected. This is why EAU 2024 mandates partner CFTR testing before ICSI with CBAVD sperm — prenatal genetic testing (PGT-M) should be offered to the couple to avoid CF-affected pregnancies.",
+          "wrong": {
+            "A": "CBAVD is a CFTR-associated condition — the father carries CFTR mutations. His children will inherit his CFTR mutations. The father's mutations can absolutely cause CF in children if the partner also carries a CFTR mutation.",
+            "C": "50% would apply if the father had only ONE CFTR mutation and the partner had ONE mutation — 25% carrier + 25% carrier = 50% carrier, but also 25% affected. The 50% answer is incomplete and does not account for the 25% affected risk.",
+            "D": "100% affected is incorrect — the children will inherit one paternal CFTR mutation but will only be CF-affected if they also inherit the maternal CFTR mutation (probability 50%). Combined probability of being CF-affected = 50% × 50% = 25%."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — CBAVD/CFTR counselling: partner CFTR testing mandatory; if both carry mutations, 25% CF risk per pregnancy; offer PGT-M (preimplantation genetic testing for monogenic disease)",
+          "trial": "Chillon M et al. NEJM 1995;332:1475: CFTR mutations in CBAVD; genetic counselling framework for CFTR-positive couples undergoing ICSI — foundational for current genetic counselling protocols",
+          "pearl": "CBAVD father (2× CFTR mutations) + carrier mother (1× CFTR mutation) = 25% risk CF per pregnancy. Offer PGT-M (preimplantation genetic testing) to select CF-unaffected embryos before transfer. ALWAYS test CFTR in partner before ICSI with CBAVD sperm."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "E2-Q17",
+        "stem": "A 38-year-old man with secondary infertility (had a child 5 years ago) presents with progressive azoospermia. He admits to regular use of anabolic steroids (testosterone enanthate + nandrolone) for 4 years. He stopped all steroids 6 months ago. FSH is 0.4 IU/L (suppressed), LH 0.3 IU/L (suppressed), testosterone 4.1 nmol/L (low). What is the most appropriate management?",
+        "options": {
+          "A": "Micro-TESE immediately — azoospermia from exogenous androgen use requires surgical sperm retrieval",
+          "B": "Start testosterone replacement therapy to normalise levels while HPG axis recovers",
+          "C": "Await spontaneous HPG axis recovery (may take 6–24 months); consider hCG + clomiphene to accelerate recovery if no improvement at 12 months",
+          "D": "Perform testicular biopsy to determine whether spermatogenesis can be restored"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Exogenous androgen use (anabolic steroids) suppresses the hypothalamic-pituitary-gonadal (HPG) axis by negative feedback, resulting in profoundly suppressed FSH and LH → testicular atrophy → azoospermia. After steroid cessation, the HPG axis requires 6–24 months to recover (highly variable depending on duration/dose/type of steroids used). The appropriate management is: (1) wait for spontaneous recovery, (2) if no improvement at 6–12 months, offer hCG (1500 IU ×3/week) + clomiphene citrate (50 mg/day alternating weeks) to stimulate the HPG axis, (3) micro-TESE only if recovery fails completely after 2 years.",
+          "wrong": {
+            "A": "Micro-TESE immediately after steroid cessation is premature — the testis potentially has intact spermatogenic capacity that has been suppressed (not destroyed) by exogenous androgens. Most patients will recover spermatogenesis with time and/or hormonal stimulation. Surgery before awaiting recovery is unnecessary intervention.",
+            "B": "Prescribing testosterone replacement for this patient would perpetuate HPG axis suppression — the same mechanism that caused the azoospermia. Exogenous testosterone is contraindicated when HPG axis recovery and fertility are the goal.",
+            "D": "Testicular biopsy in this scenario would show suppressed spermatogenesis from HPG suppression (not primary testicular failure) — it would not provide actionable information beyond what is already known. Biopsy is reserved for persistent azoospermia after adequate recovery time."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — Exogenous androgen/steroid-induced azoospermia: await HPG recovery 6–24 months; hCG + clomiphene if no recovery at 12 months; testosterone replacement contraindicated",
+          "trial": "Liu PY et al. Hormonal male contraception shoulder to shoulder with the female. J Clin Endocrinol Metab 2009;94:1895: HPG recovery after exogenous androgen cessation — median 3.4 months, range 6–24 months; most recover without intervention",
+          "pearl": "Anabolic steroid azoospermia: HPG axis suppression (low FSH/LH/testosterone). After cessation: await recovery 6–24 months. Accelerate with hCG + clomiphene if no improvement at 12 months. NEVER prescribe testosterone (perpetuates suppression). Micro-TESE only if recovery fails after 2 years."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q18",
+        "stem": "During the clinical examination of an infertile male, a grade 2 left varicocele is detected (palpable at rest without Valsalva). Scrotal ultrasound also shows a small subclinical right varicocele (venous reflux only on Valsalva, not palpable). Should the right subclinical varicocele be treated?",
+        "options": {
+          "A": "Yes — bilateral treatment maximises improvement in semen parameters",
+          "B": "No — only the left clinical grade 2 varicocele should be treated; subclinical right varicocele should NOT be treated",
+          "C": "Yes — subclinical varicocele with Doppler-confirmed reflux has equivalent fertility impact to clinical varicocele",
+          "D": "The subclinical right varicocele should be re-evaluated after left varicocele repair before deciding on treatment"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 Grade A recommendation: subclinical varicocele (detected only by Doppler ultrasound, not clinically palpable) should NOT be treated. There is no evidence that treating subclinical varicocele improves fertility outcomes. Only clinical (palpable) varicoceles meeting the full treatment criteria should be repaired. The left grade 2 varicocele (palpable at rest) meets treatment criteria — the subclinical right varicocele does not.",
+          "wrong": {
+            "A": "Bilateral treatment of a subclinical contralateral varicocele alongside a clinical varicocele is NOT recommended. The evidence supports treating only clinical varicoceles. The right subclinical varicocele does not have demonstrated fertility impact.",
+            "C": "Subclinical varicocele does NOT have equivalent fertility impact to clinical varicocele — this is the opposite of the evidence. Subclinical varicoceles are detected only by imaging and are not associated with the same fertility impairment as clinically palpable varicoceles.",
+            "D": "Reassessment of the subclinical right varicocele after left repair is not standard practice — the EAU 2024 Grade A recommendation is unequivocal: subclinical varicocele should not be treated regardless of what happens with the clinical left varicocele."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — Varicocele treatment: Grade A AGAINST treatment of subclinical varicocele; only clinical (palpable) varicocele with abnormal semen parameters in infertile couple",
+          "trial": "Marmar JL et al. The potential value of subclinical varicocele correction in infertile men. Fertil Steril 2007;87:641: meta-analysis — no significant fertility improvement with treatment of subclinical varicocele — basis for EAU Grade A against treatment",
+          "pearl": "Subclinical varicocele (Doppler-only, not palpable) = DO NOT TREAT (EAU Grade A). Clinical examination remains gold standard. Ultrasound should not drive varicocele treatment decisions. Treat only PALPABLE varicocele (Grade 1–3) in infertile men with abnormal semen."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q19",
+        "stem": "A 40-year-old man with a hyperprolactinaemia (prolactin 3200 mIU/L) and hypogonadism (testosterone 5.2 nmol/L, FSH 1.1 IU/L suppressed) presents with infertility and a pituitary MRI showing a 10 mm macroadenoma. What is the first-line treatment to restore fertility?",
+        "options": {
+          "A": "Trans-sphenoidal surgery for macroadenoma resection",
+          "B": "Cabergoline 0.5 mg twice weekly — dopamine agonist to reduce prolactin and restore HPG axis",
+          "C": "Testosterone replacement therapy to address hypogonadism",
+          "D": "Bromocriptine 1.25 mg BD — non-selective dopamine agonist"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Prolactinoma is the most common pituitary tumour in reproductive-age men. High prolactin suppresses GnRH pulse frequency → suppressed LH/FSH → hypogonadism → impaired spermatogenesis. First-line treatment is a dopamine agonist: **cabergoline** (0.5–1 mg twice weekly) is preferred over bromocriptine due to superior efficacy (>90% prolactin normalisation), longer half-life, once-twice weekly dosing, and better tolerability (less nausea). Cabergoline reduces prolactin, restores LH/FSH secretion, and allows spermatogenesis to recover — fertility restoration in 70–80% of cases. Trans-sphenoidal surgery is reserved for dopamine agonist resistance/intolerance.",
+          "wrong": {
+            "A": "Surgery is not first-line for prolactinoma unless dopamine agonist fails or is contraindicated. Dopamine agonists achieve prolactin normalisation and tumour shrinkage in >90% of cases — surgery is rarely needed and carries risks (CSF leak, hypopituitarism, visual field damage).",
+            "C": "Testosterone replacement for a prolactinoma-induced hypogonadism would suppress the HPG axis further (exogenous testosterone suppresses FSH/LH) — it does not address the primary cause (hyperprolactinaemia) and would worsen infertility. Cabergoline restores the HPG axis; testosterone replacement does not.",
+            "D": "Bromocriptine is a non-selective dopamine agonist with inferior efficacy to cabergoline (fewer patients achieve prolactin normalisation), requires daily dosing, and causes more nausea. Cabergoline is the current first-line preference (EAU 2024, Endocrine Society guidelines)."
+          },
+          "guideline": "EAU Guidelines on Male Infertility 2024 — Prolactinoma: cabergoline first-line; restores fertility in 70–80%; surgery for dopamine agonist failure; testosterone contraindicated when fertility desired",
+          "trial": "Biller BMK et al. Guidelines for diagnosis and treatment of hyperprolactinaemia. J Clin Endocrinol Metab 2011;96:273: cabergoline superior to bromocriptine for prolactinoma — higher prolactin normalisation rates and better tolerability — Endocrine Society guideline",
+          "pearl": "Prolactinoma + male infertility: CABERGOLINE first-line (0.5 mg twice weekly). Restores prolactin + HPG axis → spermatogenesis recovery 70–80%. Surgery = reserved for dopamine agonist failure. NEVER testosterone (suppresses LH/FSH further)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "E2-Q20",
+        "stem": "What is the recommended abstinence period before semen sample collection for analysis according to the WHO 2021 manual, and why is this important?",
+        "options": {
+          "A": "1–2 days abstinence — longer abstinence reduces sperm motility",
+          "B": "2–7 days abstinence — optimises sperm concentration and motility; ensures representative sample",
+          "C": "7–14 days abstinence — maximises sperm count for best sensitivity",
+          "D": "No abstinence required — ejaculation frequency does not affect semen parameters"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "WHO 2021 recommends 2–7 days abstinence before semen sample collection. This range balances: (1) insufficient time with fewer sperm (reduced concentration with <2 days), (2) excessive time with reduced motility and increased DNA fragmentation (>7 days). Two samples 2–7 days apart are required to account for natural intra-individual variation (coefficient of variation for sperm concentration ~40%). Samples should be collected by masturbation into a sterile container and analysed within 60 minutes of ejaculation. Temperature maintenance (body temperature during transport) is also important.",
+          "wrong": {
+            "A": "1–2 days abstinence is below the recommended minimum — sperm concentration may not have recovered fully from the most recent ejaculation, potentially giving a falsely low count.",
+            "C": "7–14 days abstinence leads to significantly impaired sperm motility and increased DNA fragmentation from oxidative stress on stored sperm. The WHO maximum is 7 days for this reason.",
+            "D": "Ejaculation frequency profoundly affects semen parameters — recent ejaculation (<2 days) reduces sperm count; prolonged abstinence (>7 days) reduces motility and increases DNA damage. Standardised abstinence is essential for reproducible semen analysis."
+          },
+          "guideline": "WHO Laboratory Manual for Human Semen Examination, 6th Edition 2021 — Semen collection: 2–7 days abstinence; 2 samples required; collection by masturbation; analysis within 60 minutes",
+          "trial": "WHO 2021 methodological basis: Cooper TG et al. Hum Reprod Update 2010;16:231 — abstinence period validation studies demonstrating 2–7 days as the optimal window for representative semen analysis",
+          "pearl": "WHO semen collection: 2–7 days abstinence. <2 days = reduced sperm count. >7 days = reduced motility + increased DNA fragmentation. Always collect 2 samples (2–7 days apart each) due to high intra-individual variability (~40% coefficient of variation for sperm concentration)."
+        },
+        "difficulty": 1
+      }
+    ]
+  }
+}

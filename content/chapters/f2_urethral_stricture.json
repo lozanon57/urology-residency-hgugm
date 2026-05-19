@@ -1,0 +1,664 @@
+{
+  "id": "F2",
+  "title": "Urethral Stricture Disease and Reconstruction",
+  "subtitle": "Block F — Urethral Anatomy, Diagnosis, Endoscopic Management, and Urethroplasty",
+  "block": "F",
+  "block_name": "Reconstruction and Minimally Invasive Surgery",
+  "level": "R2-4",
+  "reading_time_min": 45,
+  "guidelines_version": "EAU Urethral Strictures Guidelines 2024 · AUA Urethral Stricture Disease Guidelines 2023",
+  "textbook_refs": [
+    "Chapple CR et al. EAU Guidelines on Urethral Strictures (2024)",
+    "Wessells H et al. AUA Guideline: Male Urethral Stricture Disease (J Urol 2023)",
+    "Jordan GH, Schlossberg SM. Surgery of the penis and urethra. In: Campbell-Walsh-Wein Urology (12th ed, 2021)",
+    "Andrich DE, Mundy AR. What is the best technique for urethroplasty? Eur Urol 2008;54:1031–1041",
+    "Barbagli G et al. Dorsal onlay buccal mucosa graft for anterior urethroplasty. J Urol 1996;155:123–126"
+  ],
+  "learning_objectives": [
+    "Classify urethral strictures anatomically and aetiologically, identifying implications for management strategy",
+    "Select appropriate diagnostic investigations including retrograde urethrography, voiding cystourethrography, and sonourethrography",
+    "Determine when direct vision internal urethrotomy is appropriate versus when urethroplasty is indicated",
+    "Describe the principles and patient selection for end-to-end anastomotic urethroplasty versus buccal mucosa graft augmentation",
+    "Recognise lichen sclerosus as a contraindication to penile skin flaps and apply appropriate reconstructive alternatives",
+    "Counsel patients on long-term success rates and recurrence monitoring after various urethral reconstructive procedures"
+  ],
+  "sections": [
+    {
+      "id": "F2-S1",
+      "title": "Anatomy, Aetiology, and Classification of Urethral Strictures",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The male urethra is anatomically divided into anterior and posterior segments by the external urethral sphincter at the perineal membrane. The **anterior urethra** comprises the fossa navicularis (within the glans), the pendulous (penile) urethra, and the bulbar urethra — the most common site for stricture formation. The **posterior urethra** includes the membranous urethra (traversing the pelvic floor), and the prostatic urethra. The distinction matters clinically because anterior strictures arise from pathology within the corpus spongiosum (spongiofibrosis), whereas posterior strictures most commonly result from iatrogenic trauma, pelvic fracture, or prostatic surgery.\n\nUrethral strictures represent fibrotic narrowing of the urethral lumen secondary to spongiofibrosis — replacement of normal corpus spongiosum with avascular fibrous tissue. The depth and density of spongiofibrosis, assessable by high-resolution sonourethrography, directly correlates with recurrence risk after endoscopic treatment and guides surgical planning for urethroplasty.\n\nAetiology varies by anatomical site. **Idiopathic** strictures account for approximately 40% of bulbar strictures and are thought to represent unrecognised minor perineal trauma or subclinical infection. **Inflammatory** causes include gonorrhoeal urethritis (historically significant, now less common with antibiotic therapy) and **lichen sclerosus (LS)** — formerly known as balanitis xerotica obliterans — which preferentially affects the fossa navicularis and anterior urethra, producing pan-urethral strictures in advanced cases. **Iatrogenic** strictures follow urethral instrumentation (urethral catheterisation, cystoscopy, TURP, radical prostatectomy). **Traumatic** strictures follow pelvic fracture urethral injury (PFUI) to the membranous urethra, or straddle injury to the bulbar urethra. Globally, infectious aetiology (gonorrhoea, tuberculosis) remains common in low-income settings."
+        },
+        {
+          "type": "table",
+          "title": "Urethral Stricture: Anatomical Classification and Aetiology",
+          "headers": ["Location", "Common Aetiology", "Typical Length", "Management Implication"],
+          "rows": [
+            ["Fossa navicularis", "Lichen sclerosus, iatrogenic", "Variable", "BMG graft; avoid skin flaps"],
+            ["Penile (pendulous) urethra", "LS, catheterisation, infection", "Often long", "Augmentation BMG; 2-stage if LS"],
+            ["Bulbar urethra", "Idiopathic, straddle trauma, iatrogenic", "Short to moderate", "DVIU if <1.5 cm; anastomotic or BMG urethroplasty"],
+            ["Membranous urethra", "Pelvic fracture urethral injury (PFUI)", "Short gap", "Delayed anastomotic urethroplasty (3+ months post-trauma)"],
+            ["Prostatic/bladder neck", "Post-TURP, post-radical prostatectomy", "Short", "Endoscopic incision; rarely open reconstruction"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Lichen Sclerosus and Skin Flaps",
+          "content": "Lichen sclerosus (LS) is an absolute contraindication to the use of penile skin or scrotal skin flaps for urethral reconstruction, as LS will progress into any genital skin used as graft or flap material. **Buccal mucosa graft (BMG)** harvested from the inner cheek is the tissue of choice for LS-associated strictures."
+        }
+      ]
+    },
+    {
+      "id": "F2-S2",
+      "title": "Clinical Presentation and Diagnostic Evaluation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Urethral strictures present with lower urinary tract symptoms dominated by obstructive features: reduced urinary flow, straining, prolonged micturition, incomplete bladder emptying, and post-void dribbling. Patients may develop urinary retention, recurrent urinary tract infections, epididymo-orchitis, or urinary tract calculi as complications of chronic obstruction. A history of catheterisation, urethral surgery, sexually transmitted infection, perineal trauma, or genital skin disease should be elicited systematically.\n\nFlowmetry with post-void residual measurement is an appropriate screening investigation demonstrating reduced maximum flow rate (Qmax). However, **retrograde urethrography (RUG)** is the cornerstone of urethral stricture imaging, delineating stricture location, length, and number. RUG is performed with contrast injected antegrade through the meatus while voiding cystourethrography (VCUG/MCU) provides complementary information about posterior urethral segments and vesico-urethral anastomosis. The two studies together are sometimes called a 'combined study' and are essential before any reconstructive surgery.\n\n**Sonourethrography (SUG)** uses high-frequency (7.5–10 MHz) ultrasound with urethral saline instillation to image the corpus spongiosum. It provides superior assessment of spongiofibrosis depth — a determinant of stricture recurrence risk — compared with fluoroscopic urethrography alone. Deep spongiofibrosis correlates with higher recurrence after DVIU and may influence the choice between anastomotic excision and augmentation urethroplasty. Urethroscopy directly visualises the urethra and is valuable for assessing mucosal health, stricture calibre, and proximal urethra. It is typically performed at the time of planned intervention rather than as a separate diagnostic procedure."
+        },
+        {
+          "type": "table",
+          "title": "Diagnostic Investigations for Urethral Stricture",
+          "headers": ["Investigation", "Information Provided", "Limitation", "Indication"],
+          "rows": [
+            ["Uroflowmetry + PVR", "Degree of obstruction, functional impact", "Non-specific for stricture", "Initial assessment; monitoring"],
+            ["Retrograde urethrography (RUG)", "Location, length, multiplicity of stricture", "Does not show spongiofibrosis depth", "Standard first-line imaging"],
+            ["Voiding MCU", "Posterior urethra, VUR, bladder neck", "Requires retrograde catheter placement proximal to stricture", "Combined with RUG; posterior strictures"],
+            ["Sonourethrography (SUG)", "Spongiofibrosis depth and extent", "Operator-dependent", "Pre-urethroplasty planning; recurrent cases"],
+            ["Urethroscopy", "Direct mucosal visualisation, calibre", "Invasive; limited to lumen", "At time of planned intervention; ambiguous imaging"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Combined Urethrographic Study",
+          "content": "Before any urethroplasty, both RUG and VCUG/MCU should be performed to characterise the full length of the strictured segment. RUG defines the distal limit; VCUG defines the proximal limit. For posterior urethral disruption injuries, suprapubic tube cystography provides a retrograde study from above. Surgeons who operate without this combined study risk underestimating stricture length intraoperatively."
+        }
+      ]
+    },
+    {
+      "id": "F2-S3",
+      "title": "Endoscopic Management: Dilation and Direct Vision Internal Urethrotomy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Urethral dilation** and **direct vision internal urethrotomy (DVIU)** are the most commonly performed initial treatments for urethral strictures worldwide. However, their long-term effectiveness is limited and heavily dependent on stricture characteristics. Both procedures disrupt the stricture scar transiently but do not address the underlying spongiofibrosis, leading to significant recurrence rates.\n\n**Urethral dilation** is performed with graduated dilators (Clutton dilators, balloon dilators) under local anaesthesia, widening the stricture mechanically. **DVIU (Sachse urethrotomy)** uses a cold knife incised under direct vision (at 12 o'clock) through a rigid urethrotome, cutting the stricture scar radially to allow healing with a wider lumen. Both techniques have equivalent efficacy; DVIU does not offer superior results to careful dilation and has no proven advantage. The EAU 2024 guidelines state that for a **short (<1.5 cm) single bulbar stricture without dense spongiofibrosis**, DVIU/dilation has a ~60% 12-month success rate after the first procedure.\n\nRecurrence rates after DVIU are substantial. The landmark randomised trial by **Steenkamp et al. (Br J Urol 1997)** demonstrated that after a single DVIU, approximately 50% of strictures recurred within 1 year. Repeat DVIU has progressively lower success rates (approximately 0% long-term success after 2 or more procedures for most strictures) and creates additional scarring that complicates subsequent urethroplasty. The EAU and AUA guidelines both recommend that patients who fail two DVIU procedures should be counselled regarding urethroplasty rather than additional endoscopic treatment.\n\nSelf-calibration (intermittent self-dilation/ISD) using a urethral catheter may be offered to patients unfit for or unwilling to undergo urethroplasty as a maintenance strategy, but it does not address the underlying stricture. Post-DVIU ISD can improve success rates modestly."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — DVIU Selection Criteria",
+          "content": "DVIU is most appropriate for a **single, short (<1.5 cm), bulbar stricture without dense spongiofibrosis** occurring for the first time. For strictures >2 cm, multiple strictures, penile location, presence of LS, or recurrence after one prior DVIU, primary urethroplasty offers significantly better long-term outcomes and should be offered."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Repeated DVIU Without Outcome Review",
+          "content": "Performing a third or subsequent DVIU for recurrent stricture is a common pitfall that delays definitive management and worsens the tissue bed for future urethroplasty. The EAU 2024 guideline (Grade B) recommends offering urethroplasty after failure of two endoscopic treatments. Repeated urethrotomy creates dense circumferential scarring (spongiofibrosis) that reduces graft take and anastomotic healing success."
+        }
+      ]
+    },
+    {
+      "id": "F2-S4",
+      "title": "Urethroplasty: Anastomotic Techniques",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Urethroplasty** is the definitive surgical treatment for urethral stricture and provides superior long-term outcomes compared with endoscopic techniques for most strictures. The choice of technique depends on stricture length, location, aetiology, and tissue quality. The two principal categories are **excision and primary anastomosis (EPA)** and **augmentation urethroplasty**.\n\n**Excision and primary anastomosis (EPA)** involves complete excision of the strictured segment including its spongiofibrotic bed, followed by spatulated end-to-end anastomosis of healthy proximal and distal urethral ends. It is the technique of choice for **short bulbar strictures (typically ≤2 cm)**. EPA achieves the best reported success rates in reconstructive urology — **>90% freedom from recurrence at 5 years** in multiple series. Contraindications include long strictures (where excision would cause tension or chordee), anterior penile strictures (where excision produces penile shortening), and posterior membranous strictures requiring perineal approach with separation of the crura. The EPA technique for bulbar strictures is performed through a perineal incision with bulbospongiosus muscle mobilisation, allowing urethral mobilisation of approximately 2–3 cm without tension.\n\nFor **posterior urethral distraction defects (PFUI)**, the anastomotic urethroplasty approach requires a perineal incision with inferior pubectomy (Webster procedure) or a progressive perineal-transpubic-abdominal approach for complex cases. The 'progressive perineal approach' described by Webster and Ramon progressively addresses obturators, inferior pubectomy, and corporal crural separation to achieve tension-free anastomosis for longer posterior defects. Surgery is deferred for a **minimum of 3 months** after pelvic fracture to allow resolution of haematoma and pelvic oedema, maximising tissue quality and enabling accurate stricture length assessment."
+        },
+        {
+          "type": "table",
+          "title": "Urethroplasty Technique Selection by Stricture Characteristics",
+          "headers": ["Technique", "Stricture Length", "Location", "Success Rate (5-yr)", "Key Limitation"],
+          "rows": [
+            ["EPA (bulbar)", "≤2 cm", "Bulbar", ">90%", "Penile shortening if used anteriorly"],
+            ["EPA (posterior — Webster)", "Short gap post-PFUI", "Membranous", "85–95%", "Transpubic extension for long gaps"],
+            ["Dorsal onlay BMG (Barbagli)", "2–12 cm", "Bulbar, penile", "80–85%", "Graft failure if poor spongiosum blood supply"],
+            ["Ventral onlay BMG", "2–8 cm", "Bulbar", "80–85%", "Fistula risk in penile location"],
+            ["Kulkarni pan-urethral BMG", "Long/pan-urethral LS", "Entire anterior urethra", "75–80%", "Requires experience; bleeding risk"],
+            ["2-stage Bracka (Turner-Warwick)", "Complex/LS/failed prior", "Any anterior", "75–85%", "Two operations 6 months apart"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — EPA Success Rate",
+          "content": "Excision and primary anastomosis for short bulbar strictures achieves the highest long-term success rate of any urethroplasty technique — exceeding 90% at 5 years in most series. This is because complete excision removes all spongiofibrosis, and the anastomosis is between two healthy urethral ends with good blood supply."
+        }
+      ]
+    },
+    {
+      "id": "F2-S5",
+      "title": "Buccal Mucosa Graft Urethroplasty",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Buccal mucosa graft (BMG)** has become the gold standard tissue for augmentation urethroplasty since its popularisation by Barbagli and colleagues in the 1990s. The inner cheek mucosa is resilient, hairless, resistant to infection, well-vascularised, easy to harvest, and — critically — unaffected by lichen sclerosus, making it universally applicable regardless of genital skin disease status.\n\nBMG can be placed in **dorsal (Barbagli), ventral, or lateral (quilted)** onlay positions. The **dorsal onlay technique** described by Barbagli (J Urol 1996) beds the graft on the corpus cavernosum, providing excellent vascular support and a stable backing for graft take. It requires 180° urethral rotation to expose the dorsal surface — technically demanding but offering excellent outcomes. The **ventral onlay** approach is technically simpler (no urethral rotation required) but has higher fistula risk in the penile urethra. Many surgeons now use a **dorsolateral** or quilted approach combining benefits of both.\n\nGraft harvest from the inner cheek typically yields 3–5 cm per side; bilateral harvests allow repair of strictures up to 10–12 cm. The **Kulkarni single-sided pan-urethral urethroplasty** uses a single lateral perineal incision with the patient in the Lloyd-Davies position, placing a long BMG graft from the prostatic urethra to the fossa navicularis in one stage — suitable for pan-urethral strictures from LS. For complex cases with dense fibrosis or failed prior urethroplasty, the **2-stage Bracka procedure** places the graft as a free skin substitute in stage 1 (creating a urethral plate), with tubularisation 6 months later after graft maturation. Donor site complications from BMG harvest include transient trismus (mouth opening restriction), numbness, and scar contracture — generally mild and self-limiting."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — BMG Harvest Complications",
+          "content": "Patients should be counselled preoperatively that BMG harvest causes transient trismus and lip numbness lasting 2–6 weeks. Prolonged trismus beyond 3 months affects approximately 5% of patients. These donor site complications are generally well tolerated and do not affect patient satisfaction when compared with the substantial benefit of urethroplasty over repeated endoscopic procedures."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — BMG vs Skin Flaps",
+          "content": "BMG is preferred over penile or scrotal skin flaps in all patients with LS and in most contemporary practices for augmentation urethroplasty. Skin flaps using genital skin are at risk of introducing hair into the urethra (scrotal skin), suffering ischaemia (pedicled penile skin), and — if LS is present — progressive LS disease in the reconstructed segment. BMG avoids all these risks."
+        }
+      ]
+    },
+    {
+      "id": "F2-S6",
+      "title": "Posterior Urethral Stenosis, Lichen Sclerosus, and Special Situations",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Post-TURP bladder neck contracture (BNC)** and **post-radical prostatectomy vesico-urethral anastomotic stenosis (VAS)** are forms of posterior urethral narrowing that differ pathophysiologically from classical urethral strictures — they represent scar formation at a surgical anastomosis rather than spongiofibrosis. Management initially involves endoscopic incision (cold knife or laser); after two endoscopic failures, the **cut for the light procedure** (aggressive 360° incision/resection) or open Y-V plasty may be considered for BNC. Post-prostatectomy VAS in the setting of prior radiotherapy represents the most challenging reconstruction, often requiring formal perineal urethroplasty.\n\n**Lichen sclerosus (LS)** deserves special emphasis. LS is a chronic inflammatory dermatosis of unknown aetiology (autoimmune, genetic, and hormonal factors implicated) that causes white, atrophic plaques on genital skin. In the urethra, LS produces dense fibrosis starting at the fossa navicularis and extending proximally — sometimes affecting the entire anterior urethra. Histologically characterised by lymphocytic infiltration and homogenous dermal sclerosis. LS progresses insidiously; patients require lifelong monitoring as the disease continues to advance even after reconstruction. Topical high-potency corticosteroids (clobetasol propionate) control skin disease but do not reverse established urethral stricture. BMG-based reconstruction with Kulkarni or 2-stage Bracka approach provides the best outcomes for LS-associated strictures.\n\n**Pelvic fracture urethral injury (PFUI)** typically causes complete disruption of the membranous urethra at the level of the perineal membrane. Immediate management is suprapubic catheter insertion — **not** attempted urethral catheterisation (which risks converting a partial tear to complete disruption, introducing infection, and creating false passages). Delayed anastomotic urethroplasty (Webster approach) at 3+ months from injury achieves 85–95% success. The 'rule of 3 S's' in PFUI management: **Suprapubic catheter, Specialist referral, Surgery deferred** until oedema and haematoma resolve."
+        },
+        {
+          "type": "table",
+          "title": "Posterior Urethral Pathology: Comparison",
+          "headers": ["Condition", "Aetiology", "Initial Management", "Definitive Management"],
+          "rows": [
+            ["Post-TURP bladder neck contracture", "Scar at bladder neck, thermal injury", "Cold knife incision ± balloon dilation", "Y-V plasty if 2 endoscopic failures"],
+            ["Post-prostatectomy VAS", "Anastomotic scar, ischaemia", "Cold knife/laser incision", "Perineal urethroplasty if refractory"],
+            ["PFUI (membranous disruption)", "Shear force, pelvic fracture", "Suprapubic catheter (NOT urethral catheter)", "Delayed anastomotic urethroplasty ≥3 months"],
+            ["Posterior LS", "Lichen sclerosus progression", "Topical steroids (disease control only)", "BMG urethroplasty ± 2-stage if extensive"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Urethral Catheterisation in PFUI",
+          "content": "Attempted urethral catheterisation in acute pelvic fracture urethral injury is contraindicated if urethral disruption is suspected. Signs of urethral injury include blood at the meatus, inability to void, perineal/scrotal haematoma, and high-riding prostate on rectal examination. Insert a suprapubic catheter under ultrasound or fluoroscopic guidance and refer to a reconstructive urologist. Blind urethral catheterisation risks false passage creation and infection."
+        }
+      ]
+    },
+    {
+      "id": "F2-S7",
+      "title": "Outcomes, Surveillance, and Patient Counselling",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Outcome reporting in urethral stricture management lacks uniformity. The **Urethroplasty Outcome Score (UROS)** and patient-reported outcome measures (PROMs) including the Urethral Stricture Surgery Patient-Reported Outcome Measure (USS-PROM) are increasingly used alongside objective measures. The standard definition of urethroplasty failure is the need for any postoperative intervention (dilation, DVIU, repeat urethroplasty). By this criterion, **EPA achieves 85–95% success at 5 years**; **BMG augmentation achieves 75–85%**; and **DVIU achieves approximately 50% at 1 year** declining to ~30% at 5 years.\n\nPost-urethroplasty surveillance should include **uroflowmetry at 3 months** and then annually. A Qmax decline below 15 mL/s warrants investigation with RUG. Patients should be counselled that late recurrences (>5 years) occur in approximately 5–10% of cases and that lifelong follow-up is recommended — particularly for LS-associated strictures where ongoing disease activity continues. Urethroplasty complications include wound infection, fistula formation (1–3%), erectile dysfunction (transient in 10–15%, permanent in <5% for bulbar approaches), ejaculatory dysfunction, and chordee. The risk of erectile dysfunction is higher with **excision of the bulbourethral arteries** in long EPA and with posterior approaches near the cavernous neurovascular bundles.\n\nPatient counselling should address realistic expectations: urethroplasty offers the best long-term durability but requires a 1–2 week hospitalisation (or day surgery in some centres), a catheter for 2–3 weeks postoperatively, and 4–6 weeks of recovery. Sexual function recovery and urinary symptoms improve progressively over 6–12 months. The **TURNS (Trauma and Urologic Reconstructive Network of Surgeons) multi-centre registry** has provided important real-world outcome data for stricture surgery, confirming superiority of urethroplasty over endoscopic management for most strictures, and identifying centre volume as a predictor of outcomes."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Urethroplasty vs DVIU Long-Term Outcomes",
+          "content": "For bulbar strictures ≥2 cm, urethroplasty provides 5-year success rates of 80–90% compared with approximately 30% for DVIU. The EAU 2024 guidelines (Grade B, Level 2b evidence) recommend primary urethroplasty for strictures unsuitable for endoscopic management and after failure of two endoscopic procedures. The cumulative cost and morbidity of repeated DVIU procedures exceeds that of a single definitive urethroplasty."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of urethral stricture disease and reconstruction with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "F2-Q1",
+        "stem": "A 34-year-old man undergoes retrograde urethrography for a 6-month history of reduced urinary flow and post-void dribbling. The study demonstrates a 1.2 cm stricture in the bulbar urethra without prior instrumentation history. Sonourethrography shows shallow spongiofibrosis. Which is the most appropriate initial management?",
+        "options": {
+          "A": "Immediate bulbar urethroplasty with excision and primary anastomosis",
+          "B": "Direct vision internal urethrotomy (DVIU)",
+          "C": "Buccal mucosa graft onlay urethroplasty",
+          "D": "Suprapubic catheter insertion and observation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "DVIU is the appropriate initial management for a short (<1.5 cm), single, bulbar stricture with shallow spongiofibrosis occurring for the first time. This clinical scenario satisfies the criteria for endoscopic management: short length, bulbar location, absence of dense fibrosis, and first presentation. EAU 2024 guidelines recommend DVIU or dilation as the first-line approach for such strictures, with approximately 60% success at 12 months. Urethroplasty is reserved for failure of two endoscopic procedures, longer strictures, or dense spongiofibrosis.",
+          "wrong": {
+            "A": "EPA is definitive urethroplasty and is not indicated as initial management for a short bulbar stricture in a first-time presentation. DVIU should be attempted first in appropriate candidates.",
+            "C": "BMG augmentation urethroplasty is indicated for longer strictures (>2 cm), LS-associated strictures, or strictures that have failed prior endoscopic treatment — not as initial management for a short first-time bulbar stricture.",
+            "D": "Suprapubic catheter is indicated for urinary retention or PFUI — not for a patient with LUTS but who is voiding. There is no indication for SPT in this scenario."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Recommendation: Offer DVIU or dilation for short (<1.5 cm), single, bulbar strictures as initial treatment (Grade B)",
+          "trial": "Steenkamp JW et al. (Br J Urol 1997): In an RCT of dilation vs DVIU for bulbar strictures, both achieved ~60% success at 12 months with no significant difference — confirming equivalence and supporting either approach as appropriate initial endoscopic management.",
+          "pearl": "Short (<1.5 cm), single, first-time bulbar stricture = DVIU is appropriate first-line management. Any other combination (long, multiple, recurrent, penile, LS) points toward primary urethroplasty."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F2-Q2",
+        "stem": "A 45-year-old man has undergone three direct vision internal urethrotomies over 5 years for a recurrent 2.5 cm bulbar urethral stricture. His most recent procedure was 8 months ago and he has recurrent obstructive symptoms. Uroflowmetry shows Qmax 6 mL/s. What is the most appropriate next step?",
+        "options": {
+          "A": "Fourth DVIU with postoperative self-dilation",
+          "B": "Laser urethrotomy (holmium or thulium)",
+          "C": "Referral for urethroplasty assessment with combined urethrographic study",
+          "D": "Long-term urethral catheterisation"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This patient has failed three DVIU procedures — well beyond the two-failure threshold at which the EAU 2024 and AUA 2023 guidelines recommend offering urethroplasty. Repeated endoscopic treatment adds spongiofibrosis and worsens the tissue bed for eventual reconstruction. The appropriate next step is referral for urethroplasty assessment with combined RUG and VCUG to plan definitive reconstruction. For a 2.5 cm bulbar stricture, excision and primary anastomosis or BMG augmentation would be considered.",
+          "wrong": {
+            "A": "A fourth DVIU has essentially zero long-term success probability and creates additional scarring that reduces future urethroplasty success. Repeated endoscopic treatment beyond two failures is not supported by guidelines.",
+            "B": "Laser urethrotomy (holmium or thulium) achieves equivalent results to cold-knife DVIU — there is no evidence that switching to laser improves outcomes after multiple cold-knife failures. The mode of energy is not the limiting factor.",
+            "D": "Long-term catheterisation is a palliative option for patients unfit for surgery and represents definitive treatment failure — inappropriate for a 45-year-old otherwise healthy patient who is a urethroplasty candidate."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Recommendation: Offer urethroplasty after failure of two endoscopic procedures (Grade B). AUA Urethral Stricture Guideline (2023): Index Statement 8 — clinicians should offer urethroplasty to patients who have failed two prior endoscopic treatments.",
+          "trial": "Greenwell TJ et al. (BJU Int 2004): Retrospective series demonstrating that success rates after repeat DVIU fall to <30% after two procedures and approach 0% after three or more — supporting the guideline threshold of two procedures before recommending urethroplasty.",
+          "pearl": "After failure of two DVIU procedures, the EAU and AUA guidelines both recommend urethroplasty. This threshold should be memorised: DVIU x2 = offer urethroplasty."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F2-Q3",
+        "stem": "A 28-year-old man presents with haematuria after a road traffic accident. On examination he has blood at the urethral meatus, perineal bruising, and cannot void. Pelvic X-ray shows a pubic symphysis diastasis. What is the immediate management priority for his urological injury?",
+        "options": {
+          "A": "Emergency retrograde urethrography to confirm injury before any catheterisation",
+          "B": "Gentle urethral catheterisation by the most senior clinician",
+          "C": "Suprapubic catheter insertion under ultrasound guidance",
+          "D": "Immediate surgical exploration and primary urethral repair"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Blood at the meatus, inability to void, and perineal haematoma in the context of pelvic fracture are the classic triad of pelvic fracture urethral injury (PFUI). The immediate priority is urinary diversion via suprapubic catheter — NOT urethral catheterisation. Attempted urethral catheterisation risks converting a partial tear to complete disruption, creating false passages, and introducing infection. SPT under ultrasound guidance achieves safe bladder drainage. Definitive urethroplasty is deferred for ≥3 months.",
+          "wrong": {
+            "A": "RUG is an appropriate investigation for stable patients but is not the 'immediate management priority' — bladder drainage cannot be delayed for imaging in a patient in urinary retention.",
+            "B": "Urethral catheterisation is contraindicated in suspected PFUI. Even experienced surgeons risk false passage creation and worsening the injury. SPT is the safe alternative.",
+            "D": "Primary surgical repair of PFUI has been largely abandoned — it is associated with significantly higher rates of impotence (49% vs 19%), stricture recurrence, and incontinence compared with SPT and delayed urethroplasty (Turner-Warwick principle). Immediate repair is not standard of care."
+          },
+          "guideline": "EAU Guidelines on Urethral Trauma (2024) — Recommendation: In suspected PFUI, insert a suprapubic catheter; do not attempt urethral catheterisation (Grade B). Delayed urethroplasty ≥3 months from injury is the definitive treatment.",
+          "trial": "Koraitim MM (J Urol 1996): Meta-analysis of 168 PFUI cases demonstrating that delayed anastomotic urethroplasty (Webster approach) achieves 95% success with significantly lower rates of erectile dysfunction compared with immediate primary surgical repair — establishing the modern management paradigm.",
+          "pearl": "Blood at meatus + pelvic fracture = urethral injury until proven otherwise. Management = SPT, not urethral catheter. Surgery deferred ≥3 months. This is a classic exam scenario."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F2-Q4",
+        "stem": "A 52-year-old man requires urethroplasty for a 3.5 cm bulbar urethral stricture. He has a history of lichen sclerosus affecting the glans and foreskin. Which tissue is most appropriate for augmentation urethroplasty in this patient?",
+        "options": {
+          "A": "Penile skin flap (McAninch fasciocutaneous flap)",
+          "B": "Scrotal skin graft",
+          "C": "Buccal mucosa graft",
+          "D": "Split-thickness skin graft from the thigh"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Lichen sclerosus is an absolute contraindication to the use of any genital skin — penile or scrotal — for urethral reconstruction, as LS disease will progress into transplanted genital skin leading to graft failure and stricture recurrence. Buccal mucosa graft (BMG) from the inner cheek is unaffected by LS, readily available, hairless, resilient, and provides excellent graft take. BMG is the universal tissue of choice for all patients with LS requiring urethral reconstruction.",
+          "wrong": {
+            "A": "Penile skin flaps contain genital skin that is already affected by LS or will become affected by LS progression. Using penile skin in a patient with LS guarantees graft/flap failure.",
+            "B": "Scrotal skin should not be used for urethroplasty in any patient due to the risk of introducing hair into the urethra causing calculus formation and recurrent infection. In LS it is additionally contraindicated.",
+            "D": "Split-thickness skin grafts are a historical option but achieve inferior outcomes compared with BMG (less durable, more graft contraction, rougher surface) and are no longer recommended as primary graft material when BMG is available."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Recommendation: In patients with LS, use buccal mucosa graft for urethral reconstruction; penile and scrotal skin grafts/flaps are contraindicated (Grade A).",
+          "trial": "Barbagli G et al. (J Urol 2006): Long-term follow-up of 153 patients undergoing BMG urethroplasty for LS-associated strictures demonstrating 73% success at 10 years — significantly superior to historical series with penile skin flaps in LS patients, which showed progressive failure due to LS progression into the graft.",
+          "pearl": "Lichen sclerosus = BMG mandatory. Genital skin (penile flap or scrotal graft) is contraindicated in LS because LS disease progresses into the transplanted tissue. This is one of the most tested reconstructive urology principles."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F2-Q5",
+        "stem": "Retrograde urethrography shows a 1.0 cm bulbar stricture in a 38-year-old man. A single DVIU is performed under general anaesthesia. Postoperatively, he asks about the recurrence risk. Based on the best available evidence, what is the approximate recurrence rate within 12 months after a single DVIU for a short bulbar stricture?",
+        "options": {
+          "A": "10–15%",
+          "B": "25–30%",
+          "C": "40–50%",
+          "D": "70–80%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Steenkamp et al. (Br J Urol 1997) demonstrated in an RCT that approximately 40–50% of strictures recur within 12 months after a single DVIU. This recurrence rate is the most cited figure in urethral stricture literature and should be used when counselling patients. By 5 years, success rates decline to approximately 30% or less. Patients should understand this recurrence rate before DVIU and be counselled that urethroplasty will likely be required if recurrence occurs.",
+          "wrong": {
+            "A": "10–15% recurrence would represent highly effective treatment — this is not supported by the evidence and would correspond more to urethroplasty success rates, not DVIU.",
+            "B": "25–30% recurrence (=70–75% success) is overly optimistic for DVIU at 12 months. While early success rates may appear favourable, 12-month recurrence is approximately 40–50%.",
+            "D": "70–80% recurrence would mean only 20–30% success — this is approximately correct for 5-year outcomes or for patients with unfavourable stricture characteristics, but overestimates recurrence at 12 months for appropriate DVIU candidates."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Patient information section: Inform patients that the 12-month recurrence rate after DVIU for short bulbar strictures is approximately 40–50%.",
+          "trial": "Steenkamp JW, Heyns CF, De Kock ML (Br J Urol 1997): RCT of dilation vs DVIU for bulbar strictures — both groups showed approximately 40–50% recurrence at 12 months. This remains the landmark RCT establishing recurrence rates after endoscopic urethral treatment.",
+          "pearl": "DVIU for short bulbar stricture: ~50% recurrence at 12 months, declining to ~30% at 5 years. This figure is essential for patient counselling and board examinations."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F2-Q6",
+        "stem": "A 41-year-old man presents with urinary symptoms and is found to have a 4 cm bulbar urethral stricture on RUG. He has had no previous urethral instrumentation. Sonourethrography demonstrates deep circumferential spongiofibrosis. What is the most appropriate management?",
+        "options": {
+          "A": "DVIU as initial treatment followed by intermittent self-dilation",
+          "B": "Primary urethroplasty with excision and primary anastomosis",
+          "C": "Primary urethroplasty with dorsal onlay buccal mucosa graft",
+          "D": "Long-term alpha-blocker therapy and watchful waiting"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "A 4 cm bulbar stricture with deep spongiofibrosis represents a situation where DVIU is inappropriate (too long for DVIU, deep fibrosis predicts high recurrence) and excision/primary anastomosis is also inappropriate (4 cm is too long for tension-free end-to-end anastomosis in most patients — EPA is limited to approximately ≤2 cm). Dorsal onlay BMG augmentation urethroplasty is the correct approach: the stricture is incised longitudinally, the graft is sutured to the dorsal urethral wall, and the defect is bridged. This achieves 80–85% success at 5 years.",
+          "wrong": {
+            "A": "DVIU for a 4 cm stricture with deep spongiofibrosis is inappropriate — length >2 cm and deep fibrosis predict near-certain failure, and DVIU would add additional scarring without benefit. Primary urethroplasty is indicated.",
+            "B": "EPA is the treatment of choice for short (≤2 cm) strictures where tension-free anastomosis is achievable. A 4 cm stricture cannot be managed with EPA without significant tension, penile shortening, or chordee.",
+            "D": "Watchful waiting with alpha-blockers is not evidence-based for urethral stricture management and does not address the obstructive pathology. Alpha-blockers have no proven benefit for stricture-related LUTS."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Recommendation: For strictures >2 cm or with deep spongiofibrosis unsuitable for DVIU, offer urethroplasty. EPA is preferred for short (≤2 cm) bulbar strictures; augmentation BMG urethroplasty for longer strictures (Grade B).",
+          "trial": "Andrich DE, Mundy AR (Eur Urol 2008): Systematic review demonstrating that for strictures >2 cm, augmentation urethroplasty with BMG achieves 80–85% success at 5 years, superior to EPA (inappropriate for this length) and to endoscopic management.",
+          "pearl": "Stricture length determines EPA vs augmentation: ≤2 cm bulbar = EPA (>90% success); >2 cm bulbar = BMG augmentation (80–85% success). DVIU is appropriate only for first-time, short (<1.5 cm), bulbar strictures."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q7",
+        "stem": "A 58-year-old man underwent radical prostatectomy 2 years ago for pT2 prostate cancer. He now reports progressive difficulty voiding with Qmax 5 mL/s. Cystoscopy shows a tight anastomotic stenosis (vesico-urethral anastomotic stenosis, VAS). He has undergone one cold-knife incision 6 months ago with temporary improvement. What is the next step?",
+        "options": {
+          "A": "Repeat cold-knife incision or laser urethrotomy",
+          "B": "Long-term urethral self-dilation",
+          "C": "Aggressive 360° endoscopic resection ('cut for the light') or consideration of perineal urethroplasty",
+          "D": "Permanent suprapubic catheter"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Post-prostatectomy VAS is distinct from classical spongiofibrosis-based stricture. After failure of a single endoscopic incision, the options include a more aggressive 360° circumferential endoscopic resection (sometimes called 'cut for the light' where the objective is to create a wide enough lumen to see light through) or formal perineal urethroplasty. The latter is particularly important if the patient had adjuvant radiotherapy, which significantly reduces healing capacity. After two endoscopic failures, referral to a reconstructive urologist for perineal urethroplasty assessment is appropriate.",
+          "wrong": {
+            "A": "A simple repeat incision without escalation in technique is unlikely to succeed after previous failure and further delays definitive management. More aggressive endoscopic approach or surgical reconstruction should be planned.",
+            "B": "Self-dilation is a temporising measure that does not treat VAS but maintains patency. It is an option for patients unwilling or unfit for surgery, but is not the 'next step' in a 58-year-old who is a surgical candidate.",
+            "D": "Permanent SPT is appropriate only for patients who have failed all reconstructive options or who have medical contraindications to surgery — not after a single failed endoscopic procedure in an otherwise fit patient."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Bladder neck contracture / VAS section: After failure of single endoscopic treatment, offer aggressive endoscopic resection or reconstruct surgically. Radiotherapy history significantly worsens outcomes (Grade C).",
+          "trial": "Herschorn S et al. (J Urol 2010): Series of 34 post-prostatectomy VAS patients demonstrating that 360° aggressive endoscopic resection achieves 60–70% success at 24 months, and that prior radiotherapy reduces success to <40% — supporting early referral for surgical reconstruction in irradiated patients.",
+          "pearl": "Post-prostatectomy VAS management escalates from simple incision → aggressive 360° endoscopic resection → perineal urethroplasty. Prior radiotherapy is a major negative prognostic factor and should prompt earlier consideration of open reconstruction."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q8",
+        "stem": "A 39-year-old man with a history of gonococcal urethritis at age 22 presents with a 7 cm pan-anterior urethral stricture on combined urethrographic study. He has not undergone previous urethral surgery. Sonourethrography confirms moderate spongiofibrosis throughout. Which urethroplasty technique is most appropriate?",
+        "options": {
+          "A": "Excision and primary anastomosis",
+          "B": "Single-stage pan-urethral BMG urethroplasty (Kulkarni technique)",
+          "C": "Penile skin flap (Orandi technique)",
+          "D": "Permanent Memokath metallic urethral stent"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A 7 cm pan-anterior urethral stricture from prior gonorrhoea (not LS) without prior surgery is best managed with a single-stage pan-urethral BMG urethroplasty using the Kulkarni technique. This approach uses a single perineal incision from fossa navicularis to bulbar urethra in the Lloyd-Davies position, placing a long BMG graft to reconstruct the entire anterior urethra. It avoids the need for a two-stage procedure and is the modern approach for long pan-urethral strictures in patients without LS (where penile skin flaps could theoretically be considered but BMG provides superior long-term outcomes).",
+          "wrong": {
+            "A": "EPA is contraindicated for a 7 cm stricture — the required excision would produce unacceptable penile shortening, chordee, and anastomotic tension. EPA is limited to approximately ≤2 cm bulbar strictures.",
+            "C": "Penile skin flaps (Orandi, Quartey) are viable options in the absence of LS but have been largely superseded by BMG urethroplasty in most high-volume centres due to: risk of hair (less so with penile skin), donor site scarring, and inferior long-term outcomes versus BMG. BMG is preferred.",
+            "D": "Permanent metallic stents (Memokath, Urolume) have been abandoned for urethral stricture management due to high failure rates, encrustation, epithelial ingrowth, and difficult explantation. They are not a management option in contemporary practice for a young patient with pan-urethral stricture."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Recommendation: For long anterior urethral strictures not involving LS, single-stage BMG urethroplasty (Kulkarni technique or similar) is the preferred approach (Grade B).",
+          "trial": "Kulkarni SB et al. (BJU Int 2009): Single-centre series of 325 patients undergoing Kulkarni single-stage pan-urethral urethroplasty demonstrating 79% success at 3 years for complex/long anterior strictures, establishing this technique as the standard for pan-urethral reconstruction.",
+          "pearl": "Long pan-urethral stricture (non-LS) = Kulkarni single-stage BMG urethroplasty. If LS is present, Kulkarni or 2-stage Bracka. EPA is only for ≤2 cm bulbar; never use penile/scrotal skin if LS present."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q9",
+        "stem": "During BMG harvest from the inner cheek for augmentation urethroplasty, the surgeon inadvertently injures Stensen's duct. What is the potential complication of this injury?",
+        "options": {
+          "A": "Permanent lip numbness",
+          "B": "Parotid sialocoele or ductal stenosis causing parotid swelling",
+          "C": "Trismus (restricted mouth opening)",
+          "D": "Taste disturbance affecting the ipsilateral tongue"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Stensen's duct is the parotid salivary duct, which opens into the oral mucosa opposite the upper second molar on each side. If injured during BMG harvest — which should be confined to the inner cheek mucosa well away from Stensen's duct — ductal stenosis or parotid sialocoele can result, causing intermittent parotid swelling (particularly with meals). This is an uncommon but specific complication of BMG harvest. Safe harvest requires identifying and avoiding the Stensen's duct opening before incision.",
+          "wrong": {
+            "A": "Lip numbness results from injury to the mental nerve or buccal branch of the facial nerve — not Stensen's duct specifically. Numbness is a common minor complication of BMG harvest but is not related to ductal injury.",
+            "C": "Trismus (restricted mouth opening) results from masseteric scarring or temporomandibular joint involvement — not Stensen's duct injury. Trismus occurs in approximately 5% of BMG harvests and is related to scar contracture, not ductal complications.",
+            "D": "Taste disturbance to the anterior tongue involves the chorda tympani (a branch of CN VII) — unrelated to Stensen's duct anatomy or BMG harvest site."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Technical note: Identify and avoid Stensen's duct opening (opposite upper second molar) during BMG harvest; inadvertent injury may cause parotid sialocoele.",
+          "trial": "Patterson JM et al. (Eur Urol 2008): Systematic review of BMG harvest complications in 697 patients — major complications (<5%) included Stensen's duct injury in 0.4% of cases; the most common minor complications were trismus (6.4%) and oral numbness (8.1%).",
+          "pearl": "Stensen's duct opens opposite the upper second molar — identify before BMG harvest to avoid parotid sialocoele. The most common donor site complications of BMG are trismus (~5%) and numbness (~8%), both usually self-limiting."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q10",
+        "stem": "A 47-year-old man underwent DVIU for a bulbar stricture 2 years ago. He now has recurrent symptoms. RUG demonstrates a 2 cm recurrent bulbar stricture. Sonourethrography shows moderate spongiofibrosis. He is informed that urethroplasty is indicated. In terms of urethroplasty success rate for a 2 cm bulbar stricture, which figure is most accurate for excision and primary anastomosis at 5 years?",
+        "options": {
+          "A": "50–60%",
+          "B": "65–75%",
+          "C": "85–95%",
+          "D": "95–100%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Excision and primary anastomosis (EPA) for short (≤2 cm) bulbar strictures consistently achieves 85–95% success at 5 years across multiple large series. This is the highest success rate of any urethroplasty technique and reflects the principle that complete removal of spongiofibrosis with anastomosis between two healthy urethral ends removes the disease substrate. This excellent result should be used when counselling patients deciding between further endoscopic treatment and definitive urethroplasty.",
+          "wrong": {
+            "A": "50–60% corresponds to the 12-month success rate of DVIU for appropriately selected short bulbar strictures — not to EPA urethroplasty outcomes.",
+            "B": "65–75% corresponds to 5-year outcomes for longer augmentation urethroplasty techniques or for complex reconstructions — not to EPA for short bulbar strictures.",
+            "D": "95–100% overstates EPA success — while some centres report >90%, the realistic figure is 85–95% at 5 years accounting for recurrence and need for further intervention."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Patient information: EPA for short bulbar strictures achieves approximately 90% success at 5 years (Grade B, Level 2a evidence).",
+          "trial": "Santucci RA et al. (J Urol 2002): Multi-centre series of 168 patients undergoing EPA for bulbar strictures demonstrating 91% success at 5 years, confirming EPA as the highest-success urethroplasty technique for appropriately selected patients.",
+          "pearl": "EPA for short (≤2 cm) bulbar stricture = 85–95% success at 5 years. BMG augmentation for longer strictures = 75–85% at 5 years. These figures are the key counselling numbers for reconstructive urology."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F2-Q11",
+        "stem": "A 55-year-old man with white atrophic plaques on his glans and prepuce is evaluated for poor urinary stream. Urethroscopy shows a tight fossa navicularis stricture with white scarring extending to the penile urethra. He undergoes biopsy. Histology demonstrates: superficial hyperkeratosis, atrophic epidermis, dense homogenous dermis with lymphocytic infiltrate. What is the diagnosis and appropriate management for reconstruction?",
+        "options": {
+          "A": "Squamous cell carcinoma — oncological excision required before reconstruction",
+          "B": "Lichen sclerosus — BMG urethroplasty (Kulkarni or Bracka technique)",
+          "C": "Lichen sclerosus — penile skin flap urethroplasty to preserve BMG for later use",
+          "D": "Condylomata acuminata — topical imiquimod followed by surveillance"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The clinical picture (white plaques on glans and prepuce), urethroscopic findings (fossa navicularis stricture with white scarring), and histology (hyperkeratosis, epidermal atrophy, homogenous dermal sclerosis, lymphocytic infiltrate) are diagnostic of lichen sclerosus (LS). LS affecting the urethra requires BMG urethroplasty — either single-stage Kulkarni for accessible strictures or 2-stage Bracka for complex/pan-urethral disease. Penile or scrotal skin flaps are absolutely contraindicated as LS will progress into any genital skin used.",
+          "wrong": {
+            "A": "While LS carries an approximately 5% lifetime risk of penile squamous cell carcinoma and biopsy is important to exclude SCC, the histological description given is of LS without atypia or invasive features — not SCC. Oncological management before reconstruction is not indicated.",
+            "C": "Penile skin flaps are absolutely contraindicated in LS — disease will progress into the transplanted genital skin leading to graft failure. BMG should not be 'saved' for later use when it is the appropriate material for the current reconstruction.",
+            "D": "Condylomata acuminata are caused by HPV and histologically show koilocytosis (vacuolated keratinocytes with perinuclear halos) — not the features described. The described histology is classical LS."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — LS section: Biopsy confirm LS; use BMG exclusively for reconstruction in LS; penile/scrotal skin is contraindicated; counsel patients that LS is a lifelong progressive condition requiring monitoring (Grade A).",
+          "trial": "Kulkarni SB et al. (J Urol 2017): Series of 90 LS patients undergoing single-stage Kulkarni pan-urethral BMG urethroplasty demonstrating 73% success at 5 years — comparable outcomes to non-LS strictures managed with same technique, confirming BMG as appropriate tissue in LS.",
+          "pearl": "LS histology = hyperkeratosis + epidermal atrophy + homogenous dermal sclerosis + lymphocytic infiltrate. Management = BMG (Kulkarni or Bracka). Never use penile/scrotal skin in LS. LS carries ~5% SCC risk requiring biopsy."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q12",
+        "stem": "When performing a dorsal onlay buccal mucosa graft urethroplasty (Barbagli technique) for a 3 cm bulbar stricture, the urethra is rotated 180° to expose its dorsal surface. The graft is then secured on the corpus cavernosum between the two corpora. What is the principal advantage of the dorsal onlay position compared with ventral onlay?",
+        "options": {
+          "A": "Faster operative time due to simpler exposure",
+          "B": "The corpus cavernosum provides stable vascular backing for the graft, optimising graft take",
+          "C": "Avoidance of the risk of urethral rotation causing torsion",
+          "D": "Better access to the distal bulbar urethra"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The principal advantage of dorsal onlay graft placement (Barbagli technique) is that the graft is quilted directly onto the corpus cavernosum — a highly vascular structure that provides excellent vascular support for graft take (neovascularisation from the dorsal cavernosal surface). This 'biological backing' significantly reduces the risk of graft failure compared with ventral placement, where the graft is supported by the more variable corpus spongiosum blood supply. Dorsal placement also creates a natural bolster against the cavernosal surface maintaining graft position.",
+          "wrong": {
+            "A": "Dorsal onlay actually requires more operative time than ventral onlay because it necessitates 180° urethral rotation, which is technically demanding and adds surgical steps. Ventral onlay is technically simpler.",
+            "C": "Urethral rotation by 180° is a feature of the dorsal technique, not an avoidance. The urethra must be carefully rotated and supported to prevent torsion — it is a technical challenge of the technique, not an advantage.",
+            "D": "Access to the distal bulbar urethra is not the distinguishing feature between dorsal and ventral approaches — both can access the same segments with appropriate patient positioning and retraction."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Technical guidance: Dorsal onlay graft placement utilises the corpus cavernosum as vascular backing; associated with high graft take rates and durable outcomes.",
+          "trial": "Barbagli G et al. (J Urol 1996): Original description of dorsal onlay BMG urethroplasty in 20 patients — all grafts demonstrated successful take with excellent vascularisation from the cavernosal backing, establishing the technique that has since become widely adopted.",
+          "pearl": "Dorsal onlay BMG: graft on corpus cavernosum = excellent vascular backing = high graft take rate. Disadvantage = technically demanding (180° urethral rotation). Ventral onlay = simpler but higher fistula risk in penile urethra."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q13",
+        "stem": "A 29-year-old man sustained a pelvic fracture in a high-speed MVA. He had a suprapubic catheter inserted at the time of injury. He is now 4 months post-injury and has had suprapubic cystography performed showing a 1.5 cm gap in the membranous urethra. He is referred for definitive reconstruction. Which surgical approach is appropriate?",
+        "options": {
+          "A": "DVIU via the suprapubic tract",
+          "B": "Perineal anastomotic urethroplasty (Webster procedure)",
+          "C": "BMG augmentation via a perineal approach",
+          "D": "Continue suprapubic catheter drainage for 12 months before reassessment"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Pelvic fracture urethral injury (PFUI) with a 1.5 cm membranous urethral gap at 4 months post-injury is the classic indication for perineal anastomotic urethroplasty (Webster procedure). By 3–4 months, haematoma has resolved, pelvic anatomy has stabilised, and the distraction defect can be precisely characterised. The Webster approach involves a perineal incision with excision of all scar tissue between the two urethral ends and a tension-free spatulated anastomosis. For a 1.5 cm gap, the standard perineal approach without pubectomy is likely sufficient; for longer gaps, inferior pubectomy or corporal splitting may be required.",
+          "wrong": {
+            "A": "DVIU via the suprapubic tract does not apply to PFUI management — endoscopic re-channelling procedures have been largely abandoned as they produce poor results, create false passages, and have higher stricture recurrence rates compared with delayed anastomotic urethroplasty.",
+            "C": "BMG augmentation is appropriate for spongiofibrosis-based anterior urethral strictures — not for posterior urethral distraction injuries. PFUI management requires EPA with excision of scar tissue between the healthy urethral ends.",
+            "D": "Delay beyond 3 months does not improve outcomes for PFUI and prolongs quality of life impairment from the suprapubic catheter. Surgery at 3–6 months post-injury is standard. Twelve months of SPT drainage without planned surgery is inappropriate management."
+          },
+          "guideline": "EAU Guidelines on Urethral Trauma (2024) — Recommendation: Perform delayed anastomotic urethroplasty for PFUI at ≥3 months post-injury using the perineal approach (Webster); transpubic extension for complex long-gap injuries (Grade B).",
+          "trial": "Webster GD, Ramon J (J Urol 1991): Series of 82 patients undergoing progressive perineal approach for PFUI — 95% patency at 12 months with 15% requiring inferior pubectomy for gap closure, establishing the progressive perineal approach as the standard operative technique for PFUI reconstruction.",
+          "pearl": "PFUI management: SPT immediately → combined cystourethrogram at ≥3 months → perineal anastomotic urethroplasty (Webster). For gap ≤2 cm: perineal only. For gap 2–4 cm: add inferior pubectomy. For gap >4 cm: corporal splitting + transpubic."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q14",
+        "stem": "A 63-year-old man with a history of transurethral resection of the prostate 3 years ago now has progressive LUTS with Qmax 4 mL/s. Flexible cystoscopy shows a tight, circumferential bladder neck contracture (BNC). He undergoes cold-knife bladder neck incision. Six months later he re-presents with recurrence of obstructive symptoms. What is the most appropriate next management step?",
+        "options": {
+          "A": "Repeat cold-knife bladder neck incision",
+          "B": "Aggressive 360° transurethral resection of the bladder neck ('cut for the light')",
+          "C": "Open Y-V plasty of the bladder neck",
+          "D": "Intravesical botulinum toxin A injection"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Post-TURP bladder neck contracture (BNC) that has failed one cold-knife incision should be managed with a more aggressive endoscopic approach — the 360° circumferential resection technique ('cut for the light') in which the bladder neck scar is resected deeply around the full circumference until the point where there is free passage of scope into the bladder (the eponymous 'light' seen from the bladder). This technique creates a wide, well-calibrated bladder neck and achieves good results after single-incision failure. Open Y-V plasty is reserved for failure of two or more endoscopic procedures.",
+          "wrong": {
+            "A": "A repeat simple cold-knife incision is likely to fail again as it uses the same technique that has already failed once. An escalation in endoscopic approach is required.",
+            "C": "Open Y-V plasty is the appropriate surgical escalation after failure of two endoscopic approaches — not after failure of the first. It represents surgical reconstruction for refractory BNC.",
+            "D": "Botulinum toxin A is used for overactive bladder (detrusor overactivity) — not for anatomical bladder neck contracture. It has no role in BNC management."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — BNC section: After failure of single cold-knife incision for post-TURP BNC, offer 360° aggressive endoscopic resection ('cut for the light'); reserve Y-V plasty for failure of two endoscopic procedures (Grade C).",
+          "trial": "Ramchandani P et al. (J Urol 2015): Retrospective series of post-TURP BNC demonstrating that 360° circumferential endoscopic resection achieves 68% success at 24 months after single-incision failure, significantly superior to repeat simple incision (32% success).",
+          "pearl": "Post-TURP BNC management ladder: (1) Cold-knife incision → if recurrence → (2) 360° 'cut for the light' resection → if recurrence → (3) Open Y-V plasty. Do not jump to open surgery after a single endoscopic failure."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q15",
+        "stem": "In the 2-stage Bracka urethroplasty for complex lichen sclerosus-associated pan-urethral stricture, what occurs during the FIRST stage?",
+        "options": {
+          "A": "The strictured urethra is excised and the urethral plate tubularised over a catheter",
+          "B": "The stricture is incised longitudinally, buccal mucosa graft is quilted onto the opened urethral plate, and the patient voids through the perineum",
+          "C": "The BMG graft is placed inside the closed urethra as an onlay without disrupting voiding",
+          "D": "The bladder neck is relocated to the perineum to bypass the strictured anterior urethra"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In the 2-stage Bracka (Turner-Warwick/Bracka) urethroplasty, Stage 1 involves incising the strictured urethra along its length (laying it open), excising scarred tissue, and quilting a wide BMG graft to form a new urethral plate — a flat, well-vascularised surface. The patient is then left to void through this open urethral plate (an intentional hypospadias arrangement) for 6 months while the graft matures and becomes vascularised. Stage 2 involves tubularising the mature graft plate to form a new urethra. This staged approach is used when single-stage reconstruction is not possible due to inadequate tissue, severe LS, or previous failed repairs.",
+          "wrong": {
+            "A": "Tubularising the plate over a catheter occurs in Stage 2 — not Stage 1. Stage 1 deliberately creates an open urethral plate without tubularisation to allow graft take and maturation.",
+            "C": "Placing BMG as a closed onlay without disrupting voiding describes a single-stage augmentation urethroplasty — not the Bracka procedure. The 2-stage technique requires creating an open plate (Stage 1) before tubularisation (Stage 2).",
+            "D": "Relocating the bladder neck is not a procedure in urethral stricture management. Urinary diversion or bladder neck procedures are completely different surgical concepts."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — 2-stage urethroplasty: Stage 1 = incise stricture, quilt BMG to create open urethral plate, patient voids per perineum; Stage 2 = tubularise mature graft plate at 6 months; indicated for complex LS, dense fibrosis, or failed prior reconstruction (Grade B).",
+          "trial": "Bracka A (Br J Plast Surg 1995): Original description of the 2-stage technique in 600+ patients demonstrating 74% success for complex hypospadias and stricture repair — establishing the principle of staged repair for complex cases with insufficient local tissue or LS.",
+          "pearl": "Bracka Stage 1 = open stricture + quilt BMG = intentional perineal voiding for 6 months. Bracka Stage 2 = tubularise the mature graft plate. The 6-month interval allows graft maturation and vascularisation before the structural demands of tubularisation."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q16",
+        "stem": "A 44-year-old man is evaluated for post-urethroplasty surveillance. He underwent bulbar EPA urethroplasty 6 months ago. He is asymptomatic with Qmax 22 mL/s. When should the next surveillance assessment be performed and what should it include?",
+        "options": {
+          "A": "No further follow-up needed as he is asymptomatic with normal flow rate",
+          "B": "Annual uroflowmetry and symptom assessment; RUG only if Qmax <15 mL/s or symptoms develop",
+          "C": "RUG at 6 months post-operatively as a routine baseline regardless of symptoms",
+          "D": "Cystoscopy at 12 months then every 5 years"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Post-urethroplasty surveillance with annual uroflowmetry and symptom assessment is the standard recommendation. RUG is reserved for objective deterioration — a fall in Qmax below 15 mL/s or development of obstructive symptoms — rather than performed routinely. This approach avoids unnecessary invasive investigations while detecting recurrence early. Lifelong follow-up is recommended because late recurrences (>5 years) occur in 5–10% of cases, and early detection allows less invasive management.",
+          "wrong": {
+            "A": "No follow-up is inappropriate — late recurrences occur in 5–10% of cases, and annual monitoring with uroflowmetry is cost-effective and non-invasive. Early detection of recurrence allows less invasive re-treatment.",
+            "C": "Routine RUG at 6 months as a baseline is not recommended in asymptomatic patients with good flow rates — it is invasive, involves radiation, and does not change management if the patient is asymptomatic with Qmax >22 mL/s.",
+            "D": "Cystoscopy every 5 years is the follow-up protocol for post-augmentation cystoplasty (adenocarcinoma surveillance) — not for post-urethroplasty monitoring. Uroflowmetry is the appropriate non-invasive surveillance tool for urethroplasty."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Follow-up: Perform uroflowmetry at 3 months post-urethroplasty, then annually; perform RUG if Qmax <15 mL/s or symptoms develop; lifelong follow-up recommended, particularly for LS-associated reconstruction (Grade C).",
+          "trial": "Meeks JJ et al. (J Urol 2009): Multi-institutional follow-up study of 443 urethroplasties demonstrating 5-year success 85% for EPA and 78% for augmentation; late recurrences (>5 years) occurred in 7% — supporting lifelong annual surveillance.",
+          "pearl": "Post-urethroplasty surveillance: annual uroflowmetry + symptom review. Investigate with RUG if Qmax <15 mL/s or symptoms. Do NOT stop surveillance — 7% late recurrences >5 years, particularly with BMG and LS-associated repairs."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q17",
+        "stem": "A 37-year-old man undergoes sonourethrography (SUG) for a 1.8 cm bulbar stricture prior to planned DVIU. SUG demonstrates that spongiofibrosis extends for 3.5 cm — significantly longer than the radiographic stricture length on RUG. How does this finding change management?",
+        "options": {
+          "A": "No change — DVIU should be performed as planned based on the RUG length",
+          "B": "The extensive spongiofibrosis length on SUG indicates that DVIU is likely to fail; primary urethroplasty should be recommended",
+          "C": "Longer spongiofibrosis requires a two-stage Bracka procedure rather than single-stage DVIU",
+          "D": "SUG findings do not change management as RUG remains the gold standard for surgical planning"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Sonourethrography provides critical information about spongiofibrosis that is not visible on RUG. When spongiofibrosis extends significantly beyond the radiographic stricture length (in this case, 3.5 cm vs 1.8 cm on RUG), it indicates dense fibrotic disease that DVIU — which only incises the mucosal stricture without addressing spongiofibrosis — will predictably fail to cure. The extensive deep fibrosis predicts high DVIU recurrence and supports primary urethroplasty (BMG augmentation for this length) as the more cost-effective, definitive approach.",
+          "wrong": {
+            "A": "Proceeding with DVIU despite extensive spongiofibrosis on SUG ignores important prognostic information. Extensive spongiofibrosis is the key predictor of DVIU failure and should direct management toward primary urethroplasty.",
+            "C": "A 2-stage Bracka procedure is indicated for complex LS-associated or failed prior urethroplasty — not simply for extensive spongiofibrosis in a virgin stricture. Single-stage BMG augmentation is appropriate here.",
+            "D": "SUG provides information about spongiofibrosis depth and extent that RUG cannot — this is precisely why it changes management. RUG defines mucosal lumen; SUG defines the fibrotic disease extent in the corpus spongiosum. Both are complementary and both inform management."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Imaging: Sonourethrography adds information about spongiofibrosis extent; extensive spongiofibrosis beyond the RUG-defined stricture length predicts DVIU failure and should direct management toward urethroplasty (Grade C).",
+          "trial": "Buckley JC, Heyns CF, Gilling PJ et al. (J Urol 2010): Prospective study demonstrating that spongiofibrosis length on SUG >3 cm predicts DVIU failure with 90% sensitivity — establishing SUG as a useful pre-treatment planning tool for identifying patients who should proceed directly to urethroplasty.",
+          "pearl": "Sonourethrography reveals spongiofibrosis extent beyond what RUG shows. Extensive deep spongiofibrosis = high DVIU recurrence risk = primary urethroplasty. The fibrotic disease, not the mucosal stricture length alone, determines the surgical approach."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F2-Q18",
+        "stem": "A 50-year-old man underwent BMG dorsal onlay urethroplasty 8 months ago for a 4 cm bulbar stricture. He now presents with a perineal fistula discharging urine during voiding. Examination confirms a small urethrocutaneous fistula. What is the most appropriate initial management?",
+        "options": {
+          "A": "Immediate surgical fistula repair",
+          "B": "Urethral catheter drainage for 4–6 weeks to allow spontaneous fistula closure",
+          "C": "Cystoscopy to exclude proximal obstruction, followed by catheter drainage; surgical repair only if fistula persists at 3 months",
+          "D": "Suprapubic catheter and antibiotic treatment, reassess at 6 weeks"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Urethrocutaneous fistula after urethroplasty occurs in approximately 1–3% of cases. Before surgical repair, it is essential to exclude a proximal obstruction (recurrent stricture or anastomotic stenosis) as the cause — a distal stricture causing high-pressure voiding will prevent any fistula from closing spontaneously or healing after repair. Cystoscopy (and RUG/VCUG) should be performed to characterise the urethra proximally. If no obstruction is present, urethral catheter drainage for several weeks may allow spontaneous closure of small fistulae. Formal surgical repair is planned only if the fistula persists at 3 months after catheter drainage and exclusion of proximal cause.",
+          "wrong": {
+            "A": "Immediate surgical repair without excluding a proximal stricture or obstruction will fail — the repair will break down under high-pressure voiding through a narrowed urethra. Proximal obstruction must be excluded first.",
+            "B": "Catheter drainage alone without cystoscopy to exclude proximal obstruction risks repair failure if a recurrent stricture is present. Cystoscopy should precede any definitive management.",
+            "D": "Antibiotics alone have no role in fistula closure — they may treat secondary infection but do not close the fistula. SPT could be used instead of urethral catheter but does not add over urethral catheterisation and excludes proximal obstruction assessment."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Complications: Urethrocutaneous fistula after urethroplasty — exclude proximal obstruction before fistula repair; catheter drainage for small fistulae; surgical repair for persistent fistulae at ≥3 months if no proximal obstruction.",
+          "trial": "Andrich DE, Greenwell TJ, Mundy AR (J Urol 2003): Series of post-urethroplasty complications in 432 patients — fistula occurred in 2.3%; all cases with persistent fistula had either proximal obstruction or inadequate initial drainage; fistulae in the absence of obstruction closed spontaneously in 40% with catheter drainage.",
+          "pearl": "Post-urethroplasty fistula: ALWAYS exclude proximal obstruction first (cystoscopy + RUG). If no obstruction, catheter drain for 4–6 weeks — 40% close spontaneously. Surgical repair at ≥3 months if persistent. Repairing a fistula over a downstream obstruction guarantees failure."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F2-Q19",
+        "stem": "A 31-year-old man is referred with a complex pan-anterior urethral stricture from severe gonorrhoeal urethritis at age 18. Previous attempts at DVIU have produced dense spongiofibrosis. RUG and VCUG demonstrate complete obliteration of the anterior urethra from the fossa navicularis to the bulbar-membranous junction — 11 cm length. He has no LS on biopsy. His surgeon is planning a Kulkarni single-stage pan-urethral urethroplasty. What is the maximum yield of buccal mucosa graft from both inner cheeks combined that can typically be expected in a single harvest?",
+        "options": {
+          "A": "3–5 cm total",
+          "B": "6–10 cm total",
+          "C": "10–12 cm total",
+          "D": "15–20 cm total"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Bilateral inner cheek BMG harvest typically yields 4–6 cm per side, giving a combined total of approximately 8–12 cm — effectively up to 10–12 cm of usable graft. For an 11 cm pan-urethral stricture, bilateral harvest is therefore required and just sufficient for a single-stage Kulkarni reconstruction. This is at the limit of what bilateral BMG can provide; surgeons planning pan-urethral reconstruction should discuss with patients that bilateral cheek harvest will be required and that donor site morbidity (bilateral trismus, numbness) will be experienced.",
+          "wrong": {
+            "A": "3–5 cm describes a single-side unilateral harvest yield, which is insufficient for a pan-urethral reconstruction. Bilateral harvest is necessary for lengths >5–6 cm.",
+            "B": "6–10 cm underestimates the yield of bilateral harvest. While conservative estimates are 8 cm, experienced surgeons can routinely harvest 10–12 cm total from bilateral cheeks.",
+            "D": "15–20 cm total is not achievable from bilateral inner cheek BMG harvest — this would require additional graft sources (e.g., lingual mucosa, which can be used as a second donor site for very long strictures). BMG yield from bilateral cheeks is limited to approximately 10–12 cm."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Technical note: Bilateral inner cheek BMG harvest yields approximately 8–12 cm total graft; for strictures >10–12 cm, consider additional graft sources (lingual mucosa) or staged approach.",
+          "trial": "Barbagli G et al. (Eur Urol 2012): Prospective evaluation of BMG harvest yield and donor site morbidity in 250 patients — mean bilateral harvest yielded 10.2 ± 1.4 cm total graft length; bilateral harvest required in all patients needing >5 cm graft material.",
+          "pearl": "BMG bilateral cheek harvest = ~10–12 cm total maximum. Single cheek = ~4–6 cm. For strictures >12 cm, additional lingual mucosa graft or staged reconstruction is required. This BMG yield limit determines feasibility of single-stage Kulkarni reconstruction."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F2-Q20",
+        "stem": "A 52-year-old man underwent perineal anastomotic urethroplasty (Webster procedure) for a post-PFUI membranous urethral distraction defect 18 months ago. He complains of new-onset erectile dysfunction — previously he had normal erections before surgery. He was counselled about this risk preoperatively. What is the mechanism by which perineal urethroplasty for PFUI causes erectile dysfunction?",
+        "options": {
+          "A": "Urethral arterial insufficiency from ligation of the bulbourethral arteries during dissection",
+          "B": "Injury to the cavernous nerves (branches of pelvic plexus) during dissection of the scar at the membranous urethra level",
+          "C": "Venous leakage from the corpus cavernosum during perineal incision",
+          "D": "Pudendal nerve injury during patient positioning in the exaggerated lithotomy position"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The cavernous nerves (autonomic, arising from the pelvic plexus) travel in the lateral pelvic fascia alongside the prostate and converge near the apex of the prostate, traversing the membranous urethra region before entering the corpora cavernosa. In PFUI, the pelvic haematoma and subsequent scar formation at the membranous urethra frequently engulfs these nerves. During perineal anastomotic urethroplasty, dissection to excise this scar and achieve a tension-free anastomosis inevitably risks injury to the already-stretched or entrapped cavernous nerves. This accounts for the 15–25% rate of de novo erectile dysfunction after posterior urethroplasty for PFUI.",
+          "wrong": {
+            "A": "Bulbourethral artery ligation contributes to urethral blood supply concerns and may cause urethral ischaemia in bulbar urethroplasty for anterior strictures, but this is not the mechanism for erectile dysfunction in posterior urethral reconstruction for PFUI.",
+            "C": "Venous leakage (venous outflow failure, not trauma) causes erectile dysfunction through a veno-occlusive mechanism — unrelated to perineal surgical dissection. Surgical trauma does not cause cavernous veno-occlusive dysfunction as a primary mechanism.",
+            "D": "Pudendal nerve injury from exaggerated lithotomy positioning causes perineal numbness and pudendal neuralgia, not specifically erectile dysfunction. The pudendal nerve is sensory/somatic; erectile function is primarily mediated by autonomic cavernous nerves."
+          },
+          "guideline": "EAU Guidelines on Urethral Trauma (2024) — Pre-operative counselling for PFUI reconstruction: Inform patients of 15–25% risk of de novo erectile dysfunction due to cavernous nerve injury during dissection of the membranous urethral scar (Grade B).",
+          "trial": "Koraitim MM (J Urol 1996): Analysis of 168 PFUI patients demonstrating 19% de novo erectile dysfunction after delayed anastomotic urethroplasty — primarily attributed to cavernous nerve injury during scar excision at the membranous urethra, with higher rates correlating with more complex/longer gaps requiring extensive dissection.",
+          "pearl": "Posterior urethroplasty for PFUI carries 15–25% de novo erectile dysfunction risk from cavernous nerve injury during scar dissection at the membranous urethra. Counsel patients preoperatively. Higher risk with longer gaps, previous pelvic radiation, or vascular injury at time of fracture."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

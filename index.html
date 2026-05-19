@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#1A3A5C" />
+  <meta name="description" content="Urología HGUGM — Plataforma de Formación para Residentes MIR · Hospital General Universitario Gregorio Marañón · Madrid" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <title>Urología HGUGM — Curso de Residentes MIR</title>
+
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Google Fonts — Source Serif 4 + DM Sans + DM Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Preconnect for CDN libraries -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+  <!-- ── Skip to Content ──────────────────────────────────── -->
+  <a href="#app" class="skip-link">Skip to content</a>
+
+  <!-- ── Top Navigation ───────────────────────────────────── -->
+  <nav class="top-nav" role="navigation" aria-label="Site navigation">
+    <a href="#/" class="nav-brand" aria-label="HGUGM Urología — Curso de Residentes MIR">
+      <svg class="nav-logo" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <!-- Background -->
+        <rect width="32" height="32" rx="7" fill="white" fill-opacity="0.15"/>
+        <!-- Kidney left -->
+        <path d="M8 10 Q5 12 5 16 Q5 22 8 23 Q11 24 12 20 Q13 16 12 12 Q11 9 8 10 Z" fill="white" opacity="0.85"/>
+        <!-- Kidney right -->
+        <path d="M24 10 Q27 12 27 16 Q27 22 24 23 Q21 24 20 20 Q19 16 20 12 Q21 9 24 10 Z" fill="white" opacity="0.85"/>
+        <!-- Ureter left -->
+        <path d="M10 23 Q10 27 13 28" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <!-- Ureter right -->
+        <path d="M22 23 Q22 27 19 28" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <!-- Bladder dome -->
+        <path d="M13 28 Q16 30 19 28 Q20 26 16 25 Q12 26 13 28 Z" fill="white" opacity="0.9"/>
+        <!-- Aorta hint -->
+        <rect x="15" y="8" width="2" height="10" rx="1" fill="white" opacity="0.7"/>
+        <!-- Accent dot -->
+        <circle cx="16" cy="16" r="1.5" fill="#C8933A"/>
+      </svg>
+      <span>Urología HGUGM</span>
+    </a>
+
+    <div class="nav-links" aria-label="Main navigation">
+      <a href="#/" data-route="home">🏠 Home</a>
+      <a href="#/curriculum" data-route="curriculum">📚 Chapters</a>
+      <a href="#/search" data-route="search">🔍 Search</a>
+      <a href="#/progress" data-route="progress">📊 Progress</a>
+      <a href="#/about" data-route="about">ℹ️ About</a>
+    </div>
+
+    <div class="nav-actions">
+      <button class="lang-toggle" onclick="I18N && I18N.toggle()" aria-label="Switch language" title="Switch language EN / ES">
+        <span id="langFlag">🇬🇧</span>
+        <span id="langCode">EN</span>
+      </button>
+      <button class="btn-icon" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
+      <a href="#/search" class="btn-icon" title="Search" aria-label="Search">🔍</a>
+    </div>
+  </nav>
+
+  <!-- ── Reading Progress Bar ─────────────────────────────── -->
+  <div class="reading-progress-bar" id="readingProgressBar" style="display:none;" role="progressbar" aria-label="Reading progress">
+    <div class="reading-progress-fill" id="readingProgressFill"></div>
+  </div>
+
+  <!-- ── Main App Mount ────────────────────────────────────── -->
+  <main id="app" role="main" tabindex="-1">
+    <div class="flex-center" style="min-height:60vh;">
+      <div class="spinner"></div>
+    </div>
+  </main>
+
+  <!-- ── Bottom Tab Bar (mobile) ──────────────────────────── -->
+  <nav class="bottom-tabs" aria-label="Mobile navigation">
+    <!-- animated pill indicator -->
+    <div class="tab-indicator" id="tabIndicator" aria-hidden="true"></div>
+    <a href="#/" data-route="home">
+      <span class="tab-icon" aria-hidden="true">🏠</span>
+      <span>Home</span>
+    </a>
+    <a href="#/curriculum" data-route="curriculum">
+      <span class="tab-icon" aria-hidden="true">📚</span>
+      <span>Chapters</span>
+    </a>
+    <a href="#/search" data-route="search">
+      <span class="tab-icon" aria-hidden="true">🔍</span>
+      <span>Search</span>
+    </a>
+    <a href="#/progress" data-route="progress">
+      <span class="tab-icon" aria-hidden="true">📊</span>
+      <span>Progress</span>
+    </a>
+    <a href="#/about" data-route="about">
+      <span class="tab-icon" aria-hidden="true">ℹ️</span>
+      <span>About</span>
+    </a>
+  </nav>
+
+  <!-- ── Libraries (CDN) ──────────────────────────────────── -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+
+  <!-- ── App Scripts ───────────────────────────────────────── -->
+  <script src="assets/js/abbreviations.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/progress.js"></script>
+  <script src="assets/js/knowledge.js"></script>
+  <script src="assets/js/reader.js"></script>
+  <script src="assets/js/quiz.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

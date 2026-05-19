@@ -1,0 +1,679 @@
+{
+  "id": "D1",
+  "title": "Female Pelvic Floor Dysfunction and Urogynaecology",
+  "subtitle": "Block D — Urogynaecology and Neurourology: Stress Incontinence, Pelvic Organ Prolapse, and Mesh Complications",
+  "block": "D",
+  "block_name": "Urogynaecology and Neurourology",
+  "level": "R3-5",
+  "reading_time_min": 45,
+  "guidelines_version": "EAU Guidelines on Urinary Incontinence 2024 · IUGA/ICS Joint Report on Female Pelvic Floor Terminology 2022 · NICE Guideline NG123 Urinary Incontinence in Women 2019 (updated 2024)",
+  "textbook_refs": [
+    "Haylen BT et al. An International Urogynecological Association (IUGA)/International Continence Society (ICS) Joint Report on the Terminology for Female Pelvic Floor Dysfunction. Neurourol Urodyn 2010;29:4–20",
+    "Chapple CR et al. EAU Guidelines on Urinary Incontinence. European Association of Urology 2024",
+    "Dmochowski RR et al. Update of AUA Guideline on the Surgical Management of Female SUI. J Urol 2022;208:36–42",
+    "Hilton P, Iyer A. Tension-Free Vaginal Tape (TVT) for female SUI. Neurourol Urodyn 2016;35:788",
+    "Ward KL, Hilton P. UK and Ireland TVT Trial Group. NEJM 2002;348:1199–1207",
+    "Altman D et al. Anterior Colporrhaphy versus Transvaginal Mesh for Pelvic-Organ Prolapse (PROSPECT). NEJM 2011;364:1826–1836",
+    "Brubaker L et al. Burch Colposuspension versus Fascial Sling to Reduce Urinary Stress Incontinence. NEJM 2007;356:2143–2155"
+  ],
+  "learning_objectives": [
+    "Apply the ICS/IUGA standardised terminology for female pelvic floor dysfunction including POP-Q staging",
+    "Differentiate stress, urgency, and mixed urinary incontinence using history, examination, and appropriate investigations",
+    "Describe the surgical options for female SUI including TVT, TOT, Burch colposuspension, and single-incision slings with evidence basis",
+    "Identify and manage complications of mid-urethral synthetic slings including mesh erosion, voiding dysfunction, and de novo OAB",
+    "Explain the surgical management of pelvic organ prolapse including native tissue repair and the restricted indications for transvaginal mesh",
+    "Counsel patients appropriately regarding the medico-legal context of mesh surgery and the regulatory status in different jurisdictions"
+  ],
+  "sections": [
+    {
+      "id": "D1-S1",
+      "title": "Female Pelvic Floor Anatomy and ICS/IUGA Standardised Terminology",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "A thorough understanding of standardised terminology is the foundation of urogynaecology practice and essential for exam performance. The **2010 ICS/IUGA Joint Terminology Report** (Haylen et al., Neurourol Urodyn 2010) provides the definitive international classification for female pelvic floor dysfunction and supersedes all prior national terminology systems.\n\nThe pelvic floor comprises three functional compartments: **anterior** (bladder, urethra, anterior vaginal wall), **middle** (uterus/vaginal vault, apical vaginal support), and **posterior** (posterior vaginal wall, rectum). Structural support is provided by three integrated systems: (1) **Level I support** (cardinal and uterosacral ligaments — apical/vertical suspension), (2) **Level II support** (pubocervical fascia anteriorly, rectovaginal fascia posteriorly — lateral attachment to the arcus tendineus fascia pelvis), and (3) **Level III support** (perineal membrane and body — distal attachment). DeLancey's three-level support model (Am J Obstet Gynecol 1994) is the anatomical framework underlying all surgical repairs.\n\n**Pelvic organ prolapse (POP)** is defined as descent of pelvic organs below their normal anatomical position. The **POP-Q (Pelvic Organ Prolapse Quantification)** system — ICS-standardised — uses six defined points (Aa, Ba, C, D, Ap, Bp) measured in centimetres relative to the hymenal ring (0 = at hymen; negative = above; positive = below), plus total vaginal length (TVL), genital hiatus (gh), and perineal body (pb). Stages range from Stage 0 (no prolapse) to Stage IV (complete vaginal eversion). For clinical practice and exam purposes, Stage II (most dependent point at the hymenal ring ±1 cm) often represents the threshold for symptomatic prolapse warranting consideration of treatment."
+        },
+        {
+          "type": "table",
+          "title": "POP-Q System — Reference Points and Normal Values",
+          "headers": ["Point", "Location", "Normal Value", "Compartment"],
+          "rows": [
+            ["Aa", "Anterior vaginal wall, 3 cm proximal to hymen", "−3 cm", "Anterior"],
+            ["Ba", "Most distal anterior vaginal wall above Aa", "−3 cm", "Anterior (cystocele)"],
+            ["C", "Cervix or vaginal cuff apex", "Negative (above hymen)", "Apical"],
+            ["D", "Posterior fornix (if cervix present)", "Negative (above hymen)", "Apical"],
+            ["Ap", "Posterior vaginal wall, 3 cm proximal to hymen", "−3 cm", "Posterior"],
+            ["Bp", "Most distal posterior vaginal wall above Ap", "−3 cm", "Posterior (rectocele)"],
+            ["TVL", "Total vaginal length", "≥8 cm", "Overall"],
+            ["gh", "Genital hiatus (external urethral meatus to posterior hymen)", "<4 cm (normal)", "Hiatus"],
+            ["pb", "Perineal body (posterior hymen to mid-anal opening)", ">3 cm (normal)", "Perineum"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — POP-Q Staging for Exam",
+          "content": "POP-Q Stage II = most dependent point between −1 and +1 cm relative to the hymenal ring. This is the most commonly examined staging threshold as it typically correlates with symptomatic prolapse. Stage III = >+1 cm but not complete eversion. Stage IV = complete vaginal eversion (TVL ≤2 cm difference from the leading edge). Know the six measurement points (Aa, Ba, C, D, Ap, Bp) and that negative values = above hymen, positive = below."
+        }
+      ]
+    },
+    {
+      "id": "D1-S2",
+      "title": "Diagnosis and Workup of Female Urinary Incontinence",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Female urinary incontinence (UI) is defined by the ICS as any involuntary leakage of urine. The diagnostic approach differentiates stress urinary incontinence (SUI — leakage with increased intra-abdominal pressure), urgency urinary incontinence (UUI — leakage preceded by urgency), and mixed urinary incontinence (MUI — both components). Initial assessment includes a focused history (leakage triggers, pad usage, fluid intake), validated symptom questionnaires (ICIQ-UI SF — 0–21 scale, with scores ≥6 indicating moderate-to-severe impact), physical examination (cough stress test in lithotomy and standing positions, assessment for POP, pelvic floor strength assessment), urinalysis, and a bladder diary (minimum 3 days, maximum 7 days).\n\n**Urodynamic investigation** is NOT required before first-line conservative or minimally invasive treatment for uncomplicated SUI. The **VUSIS-2 RCT** (Hilton, BJU Int 2012) confirmed that omitting pre-operative urodynamics does not significantly alter surgical outcomes for clinically diagnosed straightforward SUI. Urodynamics ARE indicated in: (1) clinical diagnosis unclear (mixed picture), (2) prior failed incontinence surgery, (3) suspected neurogenic lower urinary tract dysfunction, (4) high post-void residual (>150 mL), (5) prior pelvic organ prolapse repair, and (6) before any sling or colposuspension surgery in women with suspected voiding dysfunction.\n\nKey urodynamic parameters for SUI: **urethral closure pressure (UCP)** < 20 cmH₂O on urethral pressure profilometry (UPP) defines **intrinsic sphincter deficiency (ISD)**; **abdominal leak point pressure (ALPP)** < 60 cmH₂O also indicates ISD. These findings influence surgical choice — ISD predicts higher failure rates with TOT/single-incision slings compared to retropubic TVT or fascial sling (AUA Guideline 2022 consensus)."
+        },
+        {
+          "type": "table",
+          "title": "Urodynamic Indications and Key Parameters in Female SUI",
+          "headers": ["Scenario", "Urodynamics Required?", "Key Parameter", "Clinical Implication"],
+          "rows": [
+            ["Uncomplicated clinical SUI, first treatment", "No (VUSIS-2 2012)", "Cough stress test", "Proceed to treatment without UDS"],
+            ["Mixed SUI+UUI, unclear predominant symptom", "Yes", "Detrusor overactivity, bladder compliance", "Guides treatment priority"],
+            ["Prior failed sling or colposuspension", "Yes", "UCP, ALPP, voiding parameters", "Assess ISD vs mechanical failure"],
+            ["Suspected neurogenic LUTS", "Yes", "Detrusor compliance, DSD, DLPP", "Assesses upper tract risk"],
+            ["High PVR (>150 mL)", "Yes", "Pdet Qmax, BCI", "Rules out BOO or DUA before surgery"],
+            ["ISD (ALPP <60 cmH₂O or UCP <20 cmH₂O)", "Yes (defines ISD)", "ALPP, UCP", "Favours retropubic TVT or fascial sling over TOT"],
+            ["POP-Q Stage ≥II concurrent", "Yes", "ALPP, reduce POP test (pessary)", "Excludes occult SUI masked by prolapse"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Masked SUI in Pelvic Organ Prolapse",
+          "content": "In women with significant anterior vaginal wall prolapse (cystocele), the prolapsed bladder neck may create a functional obstruction that masks underlying stress urinary incontinence. A pessary reduction test (or digital reduction of the prolapse) with a cough stress test performed in the standing position reveals occult SUI in 30–40% of women with POP-Q Stage III–IV prolapse. Failure to screen for occult SUI before prolapse repair risks de novo post-operative SUI ('unmasking') — potentially necessitating a second procedure."
+        }
+      ]
+    },
+    {
+      "id": "D1-S3",
+      "title": "Conservative and Pharmacological Treatment of Female SUI",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Conservative treatment is the mandatory first-line approach for female SUI before any surgical intervention. **Pelvic floor muscle training (PFMT)** — supervised by a physiotherapist or continence nurse — is the evidence-based cornerstone of SUI management. The Cochrane Review by Dumoulin et al. (2018, 38 RCTs, 4,458 women) confirmed that PFMT is significantly more effective than no treatment for SUI cure (RR 8.38, 95% CI 3.68–19.07) and improvement (RR 17.33). Supervised PFMT with biofeedback is superior to unsupervised home exercise. A minimum course of **12 weeks** supervised PFMT is recommended before considering surgical options (EAU Grade A; NICE NG123 Grade A). Women who comply with supervised PFMT achieve cure rates of 25–60% for SUI depending on symptom severity.\n\n**Duloxetine** — a serotonin-noradrenaline reuptake inhibitor (SNRI) — is the only pharmacological agent with a licensed indication for moderate SUI (licensed in Europe, not FDA-approved). It acts by increasing pudendal nerve activity during the storage phase, augmenting urethral sphincter tone. The CHORUS trial (Norton et al., NEJM 2002) demonstrated a 50% reduction in incontinence episodes vs placebo. However, nausea (25–30% of women, typically transient) and a significant discontinuation rate limit its acceptability. Duloxetine is recommended as an option for women who decline surgery or in whom surgery is contraindicated, or as a bridge to surgical treatment (EAU Grade B). It should not be prescribed to women with suicidal ideation, severe hepatic impairment, or those taking MAOIs.\n\n**Oestrogen** (vaginal/topical formulation) does not treat SUI directly but improves lower urinary tract epithelial health, reduces urgency, and reduces UTI risk — it is recommended as adjunctive therapy in postmenopausal women with urogenital atrophy (EAU Grade A for urgency; Grade B for SUI adjunct). **Systemic HRT** actually worsens SUI (WHI trial data — oestrogen ± progestogen)."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — PFMT Duration and Efficacy",
+          "content": "PFMT cure rates for SUI: 25–60% with supervised 12-week PFMT programme (Dumoulin Cochrane 2018). EAU 2024 and NICE NG123 both assign Grade A recommendation to supervised PFMT ≥12 weeks as first-line SUI treatment before any surgical option. Duloxetine (SNRI) reduces SUI episodes by ~50% vs placebo but has poor tolerability (nausea in 25–30%) — licensed in Europe, not FDA-approved."
+        }
+      ]
+    },
+    {
+      "id": "D1-S4",
+      "title": "Surgical Treatment of Female SUI: Mid-Urethral Slings and Colposuspension",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "When conservative treatment fails after at least 3 months, surgical intervention is offered. The **tension-free vaginal tape (TVT)** — a retropubic mid-urethral sling introduced by Ulmsten and Petros in 1996 based on the integral theory of continence — is the most studied and most effective minimally invasive surgical treatment for female SUI. The landmark **UK TVT Trial** (Ward and Hilton, NEJM 2002) randomised 344 women with urodynamic SUI to TVT versus open colposuspension (Burch), demonstrating equivalent 24-month cure rates (66% vs 57%, p=0.14) with significantly less morbidity, shorter hospitalisation, and faster return to normal activity with TVT.\n\nThe **transobturator tape (TOT/TVT-O)** — introduced by Delorme in 2001 — passes the polypropylene tape via the obturator foramen rather than the retropubic space, avoiding the risk of bladder perforation (TVT 5–7%) and bowel injury. The TOMUS RCT (Richter et al., NEJM 2010) randomised 597 women to retropubic vs transobturator sling: equivalent 12-month objective cure rates (80.8% vs 77.7%), with significantly higher rates of temporary voiding dysfunction with retropubic approach (2.7% vs 0%) but higher rates of groin/thigh pain with transobturator (9.4% vs 4.0%). **Current consensus**: both approaches have equivalent overall efficacy; retropubic TVT is preferred for ISD (ALPP <60 cmH₂O), while TOT is preferred when prior retropubic surgery reduces the safe retropubic space.\n\n**Burch colposuspension** — the open or laparoscopic procedure that elevates the bladder neck by suturing the paravaginal fascia to Cooper's ligament — was the gold standard for female SUI prior to the mid-urethral sling era. 5-year cure rates are 70–85%. It remains the preferred option for: women refusing mesh implants (NICE NG123: offer as alternative), women with a concurrent need for laparotomy/laparoscopy for another indication, and in some cases of ISD. The **SISTER RCT** (Brubaker et al., NEJM 2007) compared pubovaginal fascial sling versus Burch colposuspension: fascial sling had superior continence outcomes at 2 years (47% vs 38% successful, p=0.01) but higher urinary tract complications. Both require general/regional anaesthesia unlike TVT, which can be performed under local anaesthesia with sedation."
+        },
+        {
+          "type": "table",
+          "title": "Surgical Options for Female SUI — Evidence Comparison",
+          "headers": ["Procedure", "5-yr Cure Rate", "Key Complication", "Preferred Indication", "Key Trial"],
+          "rows": [
+            ["Retropubic TVT", "80–85%", "Bladder perforation 5–7%, voiding difficulty 2–7%", "Standard SUI, ISD (ALPP <60)", "Ward/Hilton NEJM 2002"],
+            ["Transobturator TOT/TVT-O", "77–82%", "Groin/thigh pain 9%, bladder injury <1%", "Standard SUI, prior retropubic surgery", "TOMUS NEJM 2010"],
+            ["Single-incision mini-sling (Altis, Ajust)", "75–80%", "Less data, higher short-term failure in some series", "Low surgical risk, mild-moderate SUI", "Developing evidence"],
+            ["Burch colposuspension (open/lap)", "70–85%", "Voiding dysfunction, posterior vaginal wall prolapse (De novo POP)", "Mesh refusal, ISD, concurrent laparotomy", "SISTER NEJM 2007"],
+            ["Pubovaginal fascial sling (autologous)", "85–90%", "Higher UTI, urinary retention (>10%)", "ISD, prior failed synthetic sling", "SISTER NEJM 2007"],
+            ["Injectable bulking agents (urethral)", "30–50% (short-term)", "Temporary effect, repeated injections needed", "High-risk surgical patients, ISD adjunct", "Multiple RCTs"],
+            ["Artificial urinary sphincter (AUS)", "70–80% (ISD/radiation)", "Erosion 4–8%, revision 20–40% at 10yr", "Severe ISD, post-radiation, failed other surgery", "Expert consensus"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Intraoperative Cystoscopy after TVT",
+          "content": "Cystoscopy must be performed during EVERY TVT procedure to exclude bladder or urethral trocar perforation (incidence 5–7%). Failure to perform intraoperative cystoscopy is a medico-legal negligence risk. If bladder perforation is identified, remove and re-pass the trocar, confirm cystoscopic integrity after repositioning, and insert a urethral catheter for 5–7 days post-operatively. An unrecognised bladder perforation that is not detected intraoperatively may lead to tape extrusion into the bladder, causing intractable haematuria, LUTS, and stone encrustation requiring cystoscopic tape incision."
+        }
+      ]
+    },
+    {
+      "id": "D1-S5",
+      "title": "Mesh Complications: Erosion, Extrusion, and the Regulatory Landscape",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Polypropylene mesh complications represent the most significant contemporary challenge in urogynaecology, leading to regulatory restrictions worldwide. Complications include: **vaginal mesh exposure/erosion** (mesh penetrates the vaginal epithelium — incidence 2–7% for mid-urethral slings, 10–20% for transvaginal mesh POP repair), **urethral or bladder erosion** (mesh penetrates the urethra or bladder — less common but more severe), **de novo OAB/urgency** (15–25%), **dyspareunia** (5–15%), **pelvic pain** (3–10%), **voiding dysfunction** (2–15%), and **mesh contraction** (particularly associated with type 3/multifilament or heavyweight mesh).\n\nRisk factors for mesh exposure include: concurrent POP repair with mesh (higher risk than isolated mid-urethral sling), atrophic vagina (postmenopausal without HRT), concomitant posterior repair, smoking, diabetes, prior pelvic irradiation, and immunosuppression. **Topical oestrogen** pre-operatively (6–8 weeks) in postmenopausal women reduces mesh exposure risk.\n\nThe regulatory context is critical: in the **UK**, NHS England suspended the use of transvaginal mesh for POP repair in 2018 (the \"pause\" on mesh, converted to a \"restricted use\" policy in 2024) following the Cumberlege Independent Medicines and Medical Devices Safety Review (2020) — which identified systemic failures in the reporting and management of mesh harm. TVT/TOT mid-urethral slings remain permitted in the UK in specialist centres with mandatory consent processes. In **Australia**, the TGA withdrew all transvaginal POP mesh products from the market in 2017. In the **USA**, the FDA reclassified transvaginal mesh for POP as Class III (high risk) in 2016 and ordered market withdrawal in 2019, while mid-urethral slings remain Class II (cleared). The EAU 2024 guideline states that transvaginal mesh for POP should only be used in specialist centres with specific patient consent and where native-tissue repair has failed or is deemed unsuitable."
+        },
+        {
+          "type": "table",
+          "title": "Mesh Complication Classification and Management",
+          "headers": ["Complication", "Incidence", "Presentation", "Management"],
+          "rows": [
+            ["Vaginal mesh exposure (Type 1 — punctate)", "2–7% (MUS); 10–20% (POP mesh)", "Vaginal discharge, partner discomfort, vaginal bleeding", "Topical oestrogen first-line; partial mesh excision if persistent"],
+            ["Urethral mesh erosion", "<1% (MUS)", "Haematuria, LUTS, urinary infection", "Cystourethroscopy; endoscopic or open mesh incision/excision"],
+            ["Bladder mesh erosion", "<1% (MUS)", "Haematuria, recurrent UTI, LUTS", "Cystoscopy; laser/endoscopic or open excision"],
+            ["De novo OAB/urgency post-sling", "15–25%", "New onset urgency ± UUI after TVT/TOT", "Exclude voiding dysfunction/retention; antimuscarinics/mirabegron"],
+            ["Voiding dysfunction/retention", "2–15%", "Poor stream, high PVR, incomplete emptying", "Urethral dilation or mesh incision (cut sling)"],
+            ["Pelvic/groin pain (TOT)", "3–10%", "Groin/thigh/perineal pain, worsened with exercise", "Physiotherapy; trigger point injection; partial mesh excision"],
+            ["Mesh contraction", "5–10% (POP mesh)", "Progressive pelvic pain, dyspareunia, reduced vaginal length", "Complex: partial or complete mesh excision — specialist centre"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Cutting the TVT for Voiding Dysfunction",
+          "content": "A 52-year-old woman presents 8 months post-TVT with urinary hesitancy, poor stream, PVR 280 mL, and recurrent UTIs. Uroflowmetry shows a prolonged flat pattern (Qmax 8 mL/s). Cystoscopy confirms the TVT tape is visible at the mid-urethra with no erosion. This presentation — delayed voiding dysfunction from a too-tightly placed sling — is managed by sling incision (urethral tape cut). In most cases, urethral tape can be cut transvaginally under local anaesthesia. Continence rates after sling incision for voiding dysfunction: 60–70% retain acceptable continence; 20–30% develop recurrent SUI requiring further treatment."
+        }
+      ]
+    },
+    {
+      "id": "D1-S6",
+      "title": "Pelvic Organ Prolapse: Surgical Repair and Evidence",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Surgical repair of POP is offered to symptomatic women (typically POP-Q Stage II–IV) who have failed or declined conservative management (pessary fitting achieves satisfactory symptom control in 50–70% of women with POP). **Native tissue repair** is the first-line surgical approach recommended by all current guidelines, including EAU 2024, IUGA, NICE NG123, and the US FDA. The landmark **PROSPECT RCT** (Altman et al., NEJM 2011) randomised 389 women with symptomatic cystocele to anterior colporrhaphy versus transvaginal anterior mesh augmentation: mesh augmentation produced a significantly lower anatomical recurrence rate at 1 year (34.5% vs 60.8%, p<0.001) but significantly higher re-operation rates for complications (8% vs 4%) including mesh exposure, voiding dysfunction, and dyspareunia. This RCT fundamentally shifted the evidence base against routine use of transvaginal mesh for POP — greater anatomical success does not translate to better patient-reported outcomes when complications are factored in.\n\nApical support procedures are the most important component of POP repair, as failure to address apical defects leads to the highest prolapse recurrence rates. **Uterosacral ligament suspension (USLS)** and **sacrospinous ligament fixation (SSLF)** are the two primary vaginal approaches for vault or uterine prolapse repair. The **OPTIMAL RCT** (Barber et al., NEJM 2014) found equivalent 2-year success rates between USLS and SSLF for apical prolapse repair (71.1% vs 64.6%, p=0.28) with different complication profiles (USLS: higher ureteral kinking risk; SSLF: higher post-operative buttock pain). **Sacrocolpopexy** (open, laparoscopic, or robotic-assisted) — which suspends the vaginal apex to the sacral promontory with a Y-shaped mesh — achieves the highest durable cure rates (82–95% at 5 years) with low mesh exposure (<3%) when the mesh is placed extraperitoneally and covered by peritoneum. The **CARE trial** (Brubaker NEJM 2007) demonstrated that prophylactic Burch colposuspension at sacrocolpopexy reduces post-operative SUI without increasing complications."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — PROSPECT Trial and Transvaginal Mesh for POP",
+          "content": "PROSPECT RCT (Altman NEJM 2011): transvaginal mesh for anterior prolapse improved anatomical recurrence (34.5% vs 60.8%) but had significantly higher complication/re-operation rates (8% vs 4%), including mesh exposure and dyspareunia. This trial established that transvaginal mesh for POP should NOT be used routinely — native tissue repair first, mesh only in specialist centres after failed native repair. Sacrocolpopexy (abdominal route with mesh) remains the gold standard for vault prolapse: 82–95% durable cure at 5 years."
+        },
+        {
+          "type": "table",
+          "title": "Surgical Options for Pelvic Organ Prolapse by Compartment",
+          "headers": ["Compartment", "Procedure", "5-yr Success", "Key Complication", "Level of Evidence"],
+          "rows": [
+            ["Anterior (cystocele)", "Anterior colporrhaphy (native tissue)", "60–80% (anatomical)", "Recurrence, urinary retention", "Grade A (EAU 2024)"],
+            ["Anterior", "Paravaginal repair (open/laparoscopic)", "65–75%", "Voiding dysfunction", "Grade B"],
+            ["Apical (vault/uterine)", "Uterosacral ligament suspension (USLS)", "71% at 2yr", "Ureteral kinking (4%)", "OPTIMAL RCT, Grade A"],
+            ["Apical", "Sacrospinous ligament fixation (SSLF)", "65% at 2yr", "Buttock pain, pudendal nerve injury", "OPTIMAL RCT, Grade A"],
+            ["Apical", "Sacrocolpopexy (laparoscopic/robotic)", "82–95% at 5yr", "Mesh erosion <3%, ileus", "Grade A — gold standard"],
+            ["Posterior (rectocele)", "Posterior colporrhaphy", "70–80%", "Dyspareunia, constipation", "Grade A"],
+            ["Posterior", "Transanal repair (colorectal approach)", "60–75%", "Fistula risk, dyspareunia", "Grade B"],
+            ["Obliterative (elderly)", "Colpocleisis (LeFort)", "90–95%", "Permanent loss of sexual function (patient consent)", "Grade A (elderly comorbid)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D1-S7",
+      "title": "Pessary Management and Non-Surgical Alternatives",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Pessaries** are silicone or rubber devices inserted vaginally to provide mechanical support to prolapsed pelvic organs. They are the primary conservative (non-surgical) management for symptomatic POP and are appropriate across all POP stages as first-line or preferred treatment in women who decline or cannot tolerate surgery, wish to preserve fertility (perimetric/perimenopausal women), or who are awaiting surgery. The most commonly used types are: **ring pessary** (suitable for Stage I–II anterior/posterior prolapse with reasonable apical support), **Gellhorn pessary** (for Stage III–IV prolapse, requires manual dexterity or practitioner removal), and **cube/shelf pessary** (for post-hysterectomy vault prolapse).\n\nSatisfactory pessary fitting is achieved in approximately **70% of women at first attempt**; factors predicting failure include prior hysterectomy, wide genital hiatus (gh ≥4 cm), and total vaginal length <6 cm. Self-management (self-insertion/removal) is ideal and should be encouraged in motivated women — it allows sexual activity, improved hygiene, and fewer clinic visits. Women who cannot self-manage require 3–6 monthly clinic follow-up. Complications include vaginal wall erosion (particularly with ill-fitting devices or atrophic vagina), vaginal discharge, odour, and rarely bladder outlet obstruction. **Topical vaginal oestrogen** (in postmenopausal women) reduces pessary-associated vaginal erosion risk and should be co-prescribed routinely.\n\nContraindications to pessary use include: active vaginal infection, pelvic inflammatory disease, undiagnosed vaginal bleeding, known cervical or vaginal malignancy, and inability to comply with follow-up. A forgotten or neglected Gellhorn pessary may become impacted or cause pressure necrosis — removal under general anaesthesia may be required for severely impacted devices."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — First-Line Pessary Fitting",
+          "content": "A 65-year-old woman with POP-Q Stage III anterior and apical prolapse (cystocele + uterine descent) wishes to avoid surgery due to significant comorbidities (NYHA III heart failure). A ring pessary with diaphragm is fitted in clinic after a lateral digital assessment confirms adequate vaginal length (TVL 8 cm) and minimal genital hiatus widening. She is taught self-removal, prescribed topical oestrogen, and followed up at 6 weeks to confirm satisfactory fit and symptom control. If ring pessary fails, a Gellhorn pessary is the next option given Stage III prolapse severity."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of female pelvic floor dysfunction and urogynaecology with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "D1-Q1",
+        "stem": "A 58-year-old woman reports leakage with coughing and sneezing (3–4 episodes/day), using 3 pads per day. ICIQ-UI SF score is 14/21. She has no urgency component. Clinical stress test is positive in standing. Urine culture is negative. She has not had any prior treatment. According to EAU 2024 and NICE NG123, what is the first-line management?",
+        "options": {
+          "A": "Retropubic TVT procedure",
+          "B": "Urodynamic study to confirm USI before any treatment",
+          "C": "Supervised pelvic floor muscle training (PFMT) for at least 12 weeks",
+          "D": "Duloxetine 40 mg BD as first-line pharmacological treatment"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Both EAU 2024 (Grade A) and NICE NG123 (Grade A) mandate supervised PFMT for a minimum of 12 weeks as the first-line treatment for female SUI before any surgical or pharmacological intervention. Supervised PFMT (physiotherapist or continence nurse) with biofeedback achieves cure rates of 25–60% for SUI. Surgery should only be offered after appropriate conservative treatment has been trialled.",
+          "wrong": {
+            "A": "TVT is appropriate for SUI after failed conservative treatment, not as first-line. Offering surgery before a PFMT trial is against both EAU 2024 and NICE NG123 guidelines and would represent suboptimal counselling.",
+            "B": "Urodynamic study is NOT required before first-line treatment for uncomplicated clinical SUI (VUSIS-2 RCT, Hilton BJU Int 2012). Urodynamics are required before surgery, not before PFMT.",
+            "D": "Duloxetine is a Grade B option for women who decline surgery or who cannot tolerate it — not first-line before PFMT. PFMT is always first-line (Grade A) before pharmacological or surgical options."
+          },
+          "guideline": "NICE NG123 Urinary Incontinence in Women 2019 (updated 2024) and EAU Urinary Incontinence Guidelines 2024 — Grade A: Supervised PFMT ≥12 weeks as first-line SUI treatment",
+          "trial": "Dumoulin C et al. Pelvic floor muscle training versus no treatment or inactive control treatments for urinary incontinence in women. Cochrane Database Syst Rev 2018: PFMT significantly superior to no treatment for SUI cure (RR 8.38)",
+          "pearl": "SUI first-line = supervised PFMT ≥12 weeks (EAU Grade A, NICE Grade A). Urodynamics NOT needed before PFMT. Surgery only after failed conservative treatment."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D1-Q2",
+        "stem": "The UK TVT Trial (Ward and Hilton, NEJM 2002) compared TVT versus open Burch colposuspension for urodynamic SUI (n=344). Which of the following accurately describes the key outcome at 24 months?",
+        "options": {
+          "A": "TVT was significantly superior to Burch in objective cure rate (85% vs 57%)",
+          "B": "Equivalent cure rates, with TVT having significantly less morbidity and shorter hospitalisation",
+          "C": "Burch colposuspension had superior long-term durability at 5 years",
+          "D": "TVT had significantly higher bladder perforation rate, negating its benefit"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Ward and Hilton NEJM 2002 trial found equivalent 24-month cure rates between TVT (66%) and Burch colposuspension (57%, p=0.14 — not statistically significant), with TVT demonstrating significantly less operative morbidity, shorter hospital stay, and faster return to normal activity. This equivalence with less morbidity established TVT as the preferred surgical treatment for female SUI, replacing open colposuspension as the gold standard.",
+          "wrong": {
+            "A": "TVT was not significantly superior in cure rate — the difference (66% vs 57%) was not statistically significant (p=0.14). The trial was not powered to detect superiority; the key finding was non-inferiority with less morbidity.",
+            "C": "Long-term follow-up studies at 5–10 years show comparable durability between TVT and Burch colposuspension. There is no evidence that Burch provides superior long-term durability.",
+            "D": "While TVT bladder perforation occurs in 5–7% (vs Burch's <1%), this complication is manageable intraoperatively with cystoscopy and does not negate TVT's benefit. The overall morbidity profile strongly favours TVT."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — TVT Grade A for female SUI, established by Ward/Hilton NEJM 2002",
+          "trial": "Ward KL, Hilton P. UK and Ireland TVT Trial Group. NEJM 2002;348:1199–1207: equivalent cure rates TVT vs Burch, TVT significantly less morbidity — landmark trial establishing TVT as standard of care",
+          "pearl": "UK TVT Trial (Ward/Hilton NEJM 2002): TVT vs Burch = EQUIVALENT cure rates (66% vs 57%, p=0.14) + TVT has significantly LESS morbidity. This established TVT as the standard minimally invasive procedure for female SUI."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D1-Q3",
+        "stem": "A 55-year-old woman presents with SUI and is found on urodynamics to have an abdominal leak point pressure (ALPP) of 45 cmH₂O and urethral closure pressure (UCP) of 15 cmH₂O. She has no prior surgery. Which surgical option is most appropriate according to current guidelines?",
+        "options": {
+          "A": "Transobturator TOT sling — equivalent to TVT and avoids retropubic space",
+          "B": "Retropubic TVT or autologous pubovaginal fascial sling — preferred for intrinsic sphincter deficiency",
+          "C": "Single-incision mini-sling — least invasive option, appropriate for ISD",
+          "D": "Urethral bulking agents (collagen/PAHF) as first-line surgical option for ISD"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ALPP <60 cmH₂O and UCP <20 cmH₂O define intrinsic sphincter deficiency (ISD). Evidence from comparative studies and AUA 2022 consensus indicates that retropubic TVT and autologous pubovaginal fascial sling achieve superior outcomes for ISD compared to transobturator slings. TOT/TOT-O slings are less effective for ISD because they provide less urethral compression and rely on urethral hammocking mechanisms that are inadequate when intrinsic sphincter function is severely impaired.",
+          "wrong": {
+            "A": "TOT slings have lower success rates for ISD. The AUA 2022 Guideline specifically recommends retropubic TVT or fascial sling over TOT for women with ISD (ALPP <60 cmH₂O or UCP <20 cmH₂O).",
+            "C": "Single-incision mini-slings have insufficient evidence for ISD and are generally not recommended as the procedure of choice for this specific urodynamic subgroup. They are considered for mild-moderate SUI without ISD.",
+            "D": "Urethral bulking agents (injectable agents) achieve 30–50% short-term cure rates and require repeated injections — they are appropriate for high surgical risk patients or elderly women where minimally invasive treatment is preferred, not for a fit 55-year-old where durable surgical treatment is feasible and expected."
+          },
+          "guideline": "AUA Guideline on Surgical Management of Female SUI (Dmochowski 2022): Retropubic sling or fascial sling preferred over transobturator sling for ISD (Grade C consensus)",
+          "trial": "Richter HE et al. TOMUS RCT. NEJM 2010;362:2066: retropubic and transobturator equivalent for uncomplicated SUI, but subgroup analyses suggest retropubic superiority for ISD",
+          "pearl": "ISD criteria: ALPP <60 cmH₂O OR UCP <20 cmH₂O. Treatment of choice: retropubic TVT or autologous fascial sling. Transobturator (TOT) is LESS effective for ISD — insufficient urethral compression."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q4",
+        "stem": "During a TVT procedure for female SUI, the surgeon performs mandatory intraoperative cystoscopy and identifies a trocar perforation of the bladder. The bladder lumen shows the tape passing through the posterior bladder wall at the trigone level. What is the correct intraoperative management?",
+        "options": {
+          "A": "Abort the procedure — bladder perforation means TVT must be abandoned",
+          "B": "Remove the trocar, re-pass it under cystoscopic visualisation to confirm extravesical position, then catheterise for 5–7 days",
+          "C": "Proceed with the TVT ignoring the bladder perforation — it will seal with catheter drainage alone",
+          "D": "Convert to open cystotomy to repair the perforation before continuing with the TVT"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Bladder perforation during TVT (incidence 5–7%) is a manageable intraoperative complication — it does not require procedure abandonment. The correct management is: (1) withdraw the perforating trocar, (2) re-pass the trocar lateral to the original position under direct cystoscopic vision to ensure extravesical passage, (3) confirm cystoscopic integrity after repositioning (no tape visible intravesically), and (4) insert a urethral catheter for 5–7 days post-operatively to allow the small trocar wound to heal. The procedure can proceed to a successful completion in the vast majority of cases.",
+          "wrong": {
+            "A": "Bladder perforation does not necessitate procedure abandonment. Withdrawal and re-passage with cystoscopic confirmation is the established management protocol. Abandoning the procedure would leave the patient without treatment and require a second procedure.",
+            "C": "Leaving a trocar through the bladder wall and proceeding with the tape passing through the bladder is absolutely incorrect. The tape would be intravesical, causing intractable haematuria, stone encrustation, and recurrent UTIs — this represents a significant surgical error.",
+            "D": "Open cystotomy repair is not required for a small trocar perforation — these wounds seal with catheter drainage alone. Open repair is only required for large or complex injuries that cannot be managed conservatively."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Intraoperative cystoscopy mandatory during TVT; bladder perforation management: remove and re-pass trocar, catheterise 5–7 days",
+          "trial": "Ward KL, Hilton P. NEJM 2002;348:1199: bladder perforation in TVT arm 5–7%, all managed by trocar repositioning and catheterisation — no case required cystotomy repair",
+          "pearl": "TVT bladder perforation (5–7%): remove trocar → re-pass under cystoscopic view → confirm extravesical position → catheterise 5–7 days. Mandatory intraoperative cystoscopy prevents unrecognised bladder perforation — the most important quality requirement for TVT."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q5",
+        "stem": "The PROSPECT RCT (Altman et al., NEJM 2011) compared anterior colporrhaphy versus transvaginal anterior mesh augmentation for symptomatic anterior vaginal wall prolapse. Which of the following accurately describes the primary finding?",
+        "options": {
+          "A": "Transvaginal mesh had equivalent anatomical success and fewer complications than native tissue repair",
+          "B": "Native tissue repair had equivalent anatomical recurrence and significantly fewer mesh-related complications",
+          "C": "Transvaginal mesh had lower anatomical recurrence (34.5% vs 60.8%) but significantly higher complication/re-operation rates",
+          "D": "Transvaginal mesh was superior in patient-reported outcomes at 1 year with no significant difference in complications"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "PROSPECT (Altman NEJM 2011) found that transvaginal anterior mesh augmentation significantly reduced anatomical recurrence at 1 year (34.5% vs 60.8%, p<0.001) compared to anterior colporrhaphy. However, the mesh group had significantly higher rates of surgery for complications (8% vs 4%), including mesh exposure, voiding dysfunction, and dyspareunia. Patient-reported outcomes were not significantly different. This finding established that the anatomical benefit of transvaginal mesh does NOT translate to better patient outcomes and comes at the cost of increased complications.",
+          "wrong": {
+            "A": "Transvaginal mesh had fewer recurrences but significantly MORE complications than native tissue repair. The statement about fewer complications is factually incorrect.",
+            "B": "Native tissue repair had equivalent patient-reported outcomes but significantly HIGHER anatomical recurrence (60.8% vs 34.5%). The key insight is that anatomical recurrence does not correlate well with patient-reported bother for prolapse.",
+            "D": "Patient-reported outcomes were similar between groups (not superior with mesh) and complications were significantly higher with mesh — the opposite of this statement."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Transvaginal mesh for POP: only in specialist centres after failed native repair, restricted use due to PROSPECT trial and regulatory restrictions",
+          "trial": "Altman D et al. PROSPECT RCT. NEJM 2011;364:1826–1836: Transvaginal mesh anatomical recurrence 34.5% vs colporrhaphy 60.8% (p<0.001), but mesh re-operation for complications 8% vs 4% — landmark trial driving regulatory restrictions on transvaginal mesh",
+          "pearl": "PROSPECT trial (Altman NEJM 2011): transvaginal mesh = lower anatomical recurrence BUT higher complication rate. Patient-reported outcomes EQUIVALENT. This is why native tissue repair is first-line for POP, not transvaginal mesh."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q6",
+        "stem": "A 68-year-old postmenopausal woman presents with a POP-Q Stage III anterior and Stage II posterior prolapse. She prefers to avoid surgery. On fitting, a ring pessary with support is placed and she is comfortable. What adjunctive treatment should routinely be co-prescribed to reduce pessary-related complications?",
+        "options": {
+          "A": "Oral oestrogen (systemic HRT)",
+          "B": "Topical vaginal oestrogen cream or pessary",
+          "C": "Prophylactic oral antibiotics for 6 months",
+          "D": "No adjunct required if pessary fits correctly"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Topical vaginal oestrogen (cream, ring, or pessary formulation) reduces vaginal wall atrophy, improves epithelial integrity, and significantly reduces the risk of vaginal wall erosion and ulceration associated with pessary use in postmenopausal women with urogenital atrophy. EAU 2024 and NICE NG123 both recommend co-prescribing topical vaginal oestrogen routinely in postmenopausal women using pessaries. Topical oestrogen has negligible systemic absorption and does not carry the breast cancer risk associated with systemic HRT.",
+          "wrong": {
+            "A": "Systemic HRT (oral oestrogen ± progestogen) actually WORSENS stress urinary incontinence (WHI trial data) and carries systemic risks including increased VTE and breast cancer with combined preparations. Topical vaginal oestrogen is the appropriate formulation — it acts locally without significant systemic absorption.",
+            "C": "Prophylactic antibiotics are not recommended for routine pessary use. Antibiotics are only indicated for active UTI diagnosed on culture. Long-term prophylactic antibiotics promote antibiotic resistance.",
+            "D": "Even a correctly fitted pessary in a postmenopausal woman with urogenital atrophy will cause erosion if topical oestrogen is not co-prescribed. The atrophic epithelium is more susceptible to mechanical pressure from the device."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Pessary use: co-prescribe topical vaginal oestrogen in postmenopausal women to reduce erosion risk (Grade A)",
+          "trial": "Hagen S et al. Conservative management of POP. Cochrane Review 2017: topical oestrogen reduces vaginal erosion risk with pessary use in postmenopausal women — evidence-based adjunct to pessary management",
+          "pearl": "Pessary + postmenopausal woman = always co-prescribe TOPICAL vaginal oestrogen (not systemic HRT). Reduces atrophy-related erosion. Systemic oestrogen WORSENS SUI (WHI trial). Topical oestrogen has negligible systemic absorption."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D1-Q7",
+        "stem": "A 62-year-old woman, 6 months post-TVT for SUI, presents with dyspareunia, vaginal discharge, and a visible white mesh thread in the anterior vaginal wall. This is confirmed as a Type 1 partial mesh exposure (1 cm). What is the appropriate first-line management?",
+        "options": {
+          "A": "Complete mesh removal (total TVT excision) under general anaesthesia urgently",
+          "B": "Topical oestrogen for 6–8 weeks; if no improvement, partial mesh excision",
+          "C": "Colposcopy-guided biopsy to exclude malignancy, then mesh excision",
+          "D": "Leave in situ — small mesh exposures <2 cm resolve spontaneously without treatment"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A small punctate mesh exposure (Type 1, <1 cm) in a postmenopausal woman may respond to conservative management with topical vaginal oestrogen, which improves epithelial integrity and promotes re-epithelialisation over the exposed mesh. EAU 2024 recommends topical oestrogen as first-line for small mesh exposures. If this fails after 6–8 weeks, partial mesh excision under local or general anaesthesia is appropriate. Complete TVT removal is complex, associated with recurrent SUI (40–60% post-excision), and is reserved for symptomatic mesh complications unresponsive to conservative management.",
+          "wrong": {
+            "A": "Complete mesh removal is not the first-line management for a 1 cm mesh exposure. Total TVT excision is a complex procedure with high SUI recurrence rates (40–60%) and is reserved for cases failing conservative management, erosion into bladder/urethra, or severe mesh contraction/pain.",
+            "C": "Biopsy is not required for a typical post-TVT mesh exposure in the expected clinical context. Malignancy should only be suspected if there are atypical features (ulceration, hard mass, unexplained haemorrhage) or the exposure is in an unexpected location.",
+            "D": "Small mesh exposures do not resolve without treatment in postmenopausal women with atrophic vaginal epithelium. Active management (topical oestrogen) is required to promote re-epithelialisation."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Mesh exposure management: topical oestrogen first-line for small exposures; partial excision if conservative fails",
+          "trial": "Muir TW, Tulikangas PK, Fidela Paraiso M. TVT mesh exposure: outcomes after partial excision. Obstet Gynecol 2003;102:974: partial excision successful in >80% of cases for small-to-moderate mesh exposures",
+          "pearl": "TVT mesh exposure: small (<2 cm) → topical oestrogen first-line (6–8 weeks) → partial mesh excision if no response. Complete mesh removal = last resort (SUI recurrence 40–60%). Large exposures, bladder/urethral erosion, or severe pain → specialist referral for excision."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q8",
+        "stem": "In the POP-Q system, a woman has the following measurements at maximum Valsalva: Aa = +1 cm, Ba = +4 cm, C = −3 cm, D = −5 cm, Ap = −2 cm, Bp = −2 cm, TVL = 9 cm. What POP-Q stage does this represent and which compartment is primarily affected?",
+        "options": {
+          "A": "Stage II, apical prolapse (uterine descent)",
+          "B": "Stage III, anterior compartment prolapse (cystocele) with normal apical and posterior support",
+          "C": "Stage IV, complete vaginal eversion",
+          "D": "Stage II, posterior compartment prolapse (rectocele)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Stage III prolapse is defined as the most dependent point between +1 cm and (TVL − 2 cm) = 7 cm. Ba = +4 cm satisfies Stage III criteria (>+1 cm but <+7 cm). The anteriormost point Ba represents the anterior vaginal wall (cystocele) and is the most dependent point at +4 cm. The apical support is normal (C = −3 cm, well above the hymen). The posterior wall is normal (Bp = −2 cm). This is an isolated anterior Stage III prolapse (cystocele).",
+          "wrong": {
+            "A": "Apical prolapse would require C or D to be positive (at or below the hymen). Here C = −3 cm (above the hymen = normal). The uterosacral/apical support is intact.",
+            "C": "Stage IV requires the most dependent point to be ≥(TVL − 2 cm) = ≥7 cm. Ba = +4 cm < +7 cm — this is Stage III, not Stage IV. Stage IV would require Ba ≥ +7 cm.",
+            "D": "Posterior compartment prolapse would manifest as Bp being positive (below the hymen). Here Bp = −2 cm — the posterior wall is within normal limits. The prolapse is isolated to the anterior compartment."
+          },
+          "guideline": "ICS/IUGA Terminology Report (Haylen 2010) — POP-Q staging: Stage 0 = no descent; Stage I = most dependent point >1 cm above hymen; Stage II = ±1 cm of hymen; Stage III = >1 cm below hymen but not complete eversion; Stage IV = complete eversion",
+          "trial": "Bump RC et al. The standardization of terminology of female pelvic organ prolapse and pelvic floor dysfunction. Am J Obstet Gynecol 1996;175:10–17: original POP-Q paper establishing the 9-point measurement system",
+          "pearl": "POP-Q Ba = most distal anterior vaginal wall = measures cystocele severity. Ba > +1 cm = Stage III anterior prolapse (cystocele). Normal apex (C negative) = apical support intact. POP-Q Stage = determined by the MOST DEPENDENT point."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D1-Q9",
+        "stem": "The TOMUS RCT (Richter et al., NEJM 2010) randomised 597 women to retropubic mid-urethral sling versus transobturator sling. What were the key differences in complication profiles between the two approaches?",
+        "options": {
+          "A": "Retropubic: higher groin pain. Transobturator: higher bladder perforation",
+          "B": "Retropubic: higher voiding dysfunction (2.7% vs 0%). Transobturator: higher groin/thigh pain (9.4% vs 4.0%)",
+          "C": "Equivalent complication rates, with retropubic slings demonstrating superior stone-free rates",
+          "D": "Retropubic: higher mesh erosion. Transobturator: higher bladder injury rate"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "TOMUS (Richter NEJM 2010) found equivalent 12-month objective cure rates (80.8% retropubic vs 77.7% transobturator, p=0.37) with different complication profiles: retropubic slings had higher temporary voiding dysfunction (2.7% vs 0%, p=0.01), while transobturator slings had higher groin/thigh pain (9.4% vs 4.0%, p=0.004). Bladder perforation was higher with retropubic (6.0% vs 0.3%, p<0.001). These data guide patient-specific sling selection.",
+          "wrong": {
+            "A": "This is reversed — retropubic causes higher voiding dysfunction AND bladder perforation; transobturator causes higher groin pain, not bladder perforation.",
+            "C": "TOMUS compared slings for urinary incontinence, not stone surgery. Stone-free rate is not a relevant outcome. Both slings had equivalent overall cure rates.",
+            "D": "Mesh erosion rates were equivalent between the two approaches in TOMUS. Retropubic had higher bladder perforation (6.0% vs 0.3%); mesh erosion was not significantly different between groups."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — TVT vs TOT: equivalent cure rates, different complication profiles as established by TOMUS RCT",
+          "trial": "Richter HE et al. TOMUS RCT. NEJM 2010;362:2066–2076: 12-month cure: retropubic 80.8% vs transobturator 77.7% (p=0.37); retropubic higher voiding dysfunction and bladder perforation; transobturator higher groin pain",
+          "pearl": "TOMUS RCT (Richter NEJM 2010): TVT vs TOT = EQUIVALENT cure. TVT: higher bladder perforation (6%) + voiding dysfunction. TOT: higher groin/thigh pain (9.4%). Choose TVT for ISD; TOT when prior retropubic surgery present."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q10",
+        "stem": "A 72-year-old woman with multiple comorbidities (COPD, heart failure, BMI 34) presents with symptomatic POP-Q Stage IV complete vaginal eversion. She is widowed and confirms she has no desire to maintain sexual function. What is the most appropriate surgical option?",
+        "options": {
+          "A": "Laparoscopic sacrocolpopexy — gold standard regardless of patient age or comorbidity",
+          "B": "Le Fort colpocleisis (obliterative repair) — appropriate for elderly women without sexual function requirements",
+          "C": "Transvaginal mesh repair — higher success rate than native tissue repair",
+          "D": "Pessary management only — surgery too high-risk in this patient"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Le Fort colpocleisis (partial colpocleisis) or total colpocleisis is an obliterative repair that achieves 90–95% anatomical cure rates and is appropriate for elderly, frail women who do not wish to preserve vaginal function. It is significantly less morbid than reconstructive prolapse surgery (shorter anaesthetic time, lower blood loss, faster recovery) and achieves the highest cure rates of any POP repair. Mandatory pre-condition: the patient understands and consents to the permanent loss of vaginal penetrative sexual function and loss of direct cervical examination access (Pap smear still possible with drainage channels). Patient explicitly confirms no sexual function requirement.",
+          "wrong": {
+            "A": "Laparoscopic sacrocolpopexy is the gold standard for vault prolapse repair in women who wish to maintain sexual function, but it carries higher operative morbidity than colpocleisis. In an elderly, multiply comorbid patient who does not require vaginal function, sacrocolpopexy is over-treatment.",
+            "C": "Transvaginal mesh is restricted to specialist centres for failed native tissue repair (regulatory restrictions post-PROSPECT trial and UK/Australian mesh withdrawals). It is not appropriate as primary treatment in this context.",
+            "D": "Pessary management is appropriate as first-line conservative treatment, but the patient has POP-Q Stage IV complete vaginal eversion — pessary fitting is technically very difficult (high failure rate) at this stage. Colpocleisis is the appropriate low-morbidity definitive surgical option given her criteria."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Obliterative procedures (colpocleisis): Grade A recommendation for elderly/frail women with Stage III–IV POP who have no desire to maintain sexual function",
+          "trial": "Barber MD et al. Single-incision mini-sling compared with tension-free vaginal tape for stress urinary incontinence. NEJM 2014: colpocleisis 90–95% success in elderly frail women — referenced in multiple systematic reviews as gold standard for this population",
+          "pearl": "Colpocleisis (Le Fort/obliterative) = 90–95% cure for Stage III–IV POP in elderly women without sexual function requirement. Far less morbid than reconstructive procedures. CRITICAL consent requirement: permanent loss of vaginal penetrative function."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q11",
+        "stem": "A woman with urinary incontinence has the following urodynamic findings: maximum detrusor pressure at maximum flow rate (PdetQmax) 22 cmH₂O, Qmax 12 mL/s, maximum cystometric capacity 320 mL, no uninhibited detrusor contractions, and ALPP 80 cmH₂O. Calculate the BOOI and BCI, and interpret the findings.",
+        "options": {
+          "A": "BOOI = −2, BCI = 82 — unobstructed with normal contractility; diagnose SUI as the primary problem",
+          "B": "BOOI = 58, BCI = 145 — obstructed with strong detrusor; diagnose BOO",
+          "C": "BOOI = −2, BCI = 82 — confirms detrusor underactivity as the cause of incontinence",
+          "D": "The BOOI formula does not apply to women"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "BOOI = PdetQmax − 2×Qmax = 22 − (2×12) = 22 − 24 = −2. BOOI < 20 = unobstructed. BCI = PdetQmax + 5×Qmax = 22 + (5×12) = 22 + 60 = 82. BCI 100–150 = normal contractility (BCI >150 = strong; BCI <100 = DUA). These values confirm: no bladder outlet obstruction (BOOI −2), normal detrusor contractility (BCI 82 — borderline normal/DUA but within normal range). ALPP 80 cmH₂O (>60 = no ISD). The patient has stress urinary incontinence with normal urodynamics otherwise — appropriate for standard mid-urethral sling.",
+          "wrong": {
+            "B": "BOOI 58 and BCI 145 would require PdetQmax of 70 and Qmax of 6 — not the values given. The calculation in this option is arithmetically incorrect for the given urodynamic values.",
+            "C": "BCI 82 is at the lower end of normal but NOT in the DUA range (<100). DUA (detrusor underactivity) would be BCI <100 with accompanying urodynamic features of poor stream and incomplete bladder emptying. The calculation is correct but the interpretation of DUA is incorrect — 82 is borderline but within normal range in context.",
+            "D": "The BOOI nomogram was originally derived and validated in men (Abrams, Griffiths). While the cutoffs (>40 obstructed, <20 unobstructed) are less validated in women, the formula is applied in female urodynamics for BOO evaluation. This response is overly dismissive."
+          },
+          "guideline": "ICS Urodynamics Standards (Schafer 2002): BOOI = PdetQmax − 2×Qmax (>40 obstructed; <20 unobstructed); BCI = PdetQmax + 5×Qmax (>150 strong; 100–150 normal; <100 DUA)",
+          "trial": "Abrams PH, Griffiths DJ. The assessment of prostatic obstruction from urodynamic measurements and from residual urine. Br J Urol 1979;51:129: original BOOI formula derivation (Abrams-Griffiths number)",
+          "pearl": "BOOI = PdetQmax − 2×Qmax (>40 = obstructed; <20 = unobstructed). BCI = PdetQmax + 5×Qmax (>150 = strong; 100–150 = normal; <100 = DUA). Memorise both formulas and thresholds — always examined."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D1-Q12",
+        "stem": "In which of the following scenarios is urodynamic investigation REQUIRED before proceeding to surgical treatment of female SUI?",
+        "options": {
+          "A": "A 45-year-old woman with straightforward clinical SUI confirmed by positive standing cough stress test and 2-pad daily use, no prior surgery",
+          "B": "A 60-year-old woman with mixed symptoms (SUI + urgency), failed two courses of antimuscarinics, and a high PVR of 180 mL on bladder scan",
+          "C": "A 50-year-old woman with clinical SUI and negative cough stress test on examination (but positive history)",
+          "D": "A 55-year-old woman with clinical SUI seeking TVT, pre-operative BMI 28, no prior pelvic surgery"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has mixed symptoms (SUI + UUI), failed antimuscarinics, and a high PVR (180 mL) — all three are indications for urodynamic investigation before surgery. The high PVR (>150 mL) is particularly important: it may indicate voiding dysfunction, bladder outlet obstruction, or detrusor underactivity — conditions that must be characterised before a sling procedure that could worsen voiding. Mixed symptoms with failed treatment require urodynamics to determine the predominant mechanism and guide the surgical approach.",
+          "wrong": {
+            "A": "Straightforward clinical SUI with a positive cough stress test, no prior surgery, and no mixed symptoms does NOT require urodynamics before first-line treatment (PFMT) or before sling surgery in most countries. VUSIS-2 trial confirmed omitting urodynamics does not compromise outcomes in this scenario.",
+            "C": "A negative examination cough stress test despite a clear SUI history should prompt positional retesting (standing, full bladder), not mandatory urodynamics. If stress test is positive in an alternative position, clinical diagnosis is sufficient.",
+            "D": "A straightforward clinical SUI presentation with TVT planned in a 55-year-old with no complicating factors does not require urodynamics in EAU 2024 or NICE NG123 guidance. Clinical diagnosis with positive stress test is sufficient."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Urodynamics in SUI: NOT required for uncomplicated first-time SUI; REQUIRED for mixed symptoms with failed treatment, high PVR, neurogenic LUTS, prior failed surgery",
+          "trial": "Hilton P. VUSIS-2 RCT. BJU Int 2012: omitting urodynamics before surgery for straightforward clinical SUI does not significantly alter surgical outcomes — validated basis for EAU Grade A 'urodynamics not mandatory for uncomplicated SUI'",
+          "pearl": "Urodynamics NOT required before SUI surgery in uncomplicated cases (VUSIS-2 2012, EAU Grade A). REQUIRED when: mixed symptoms + failed treatment, high PVR >150 mL, neurogenic LUTS, prior failed surgery, ISD suspected, concurrent POP."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q13",
+        "stem": "The OPTIMAL RCT (Barber et al., NEJM 2014) compared uterosacral ligament suspension (USLS) versus sacrospinous ligament fixation (SSLF) for vaginal vault or uterine prolapse. Which was the key finding?",
+        "options": {
+          "A": "USLS was significantly superior to SSLF in apical cure rate (85% vs 64%) at 2 years",
+          "B": "Equivalent 2-year success rates, with USLS having higher ureteral kinking and SSLF having higher buttock pain",
+          "C": "SSLF was significantly superior due to lower risk of recurrent prolapse",
+          "D": "Both procedures had equivalent success and equivalent complication profiles"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "OPTIMAL (Barber NEJM 2014) randomised 374 women to USLS vs SSLF for apical prolapse repair. 2-year success rates were equivalent (71.1% USLS vs 64.6% SSLF, p=0.28). However, USLS had a significantly higher rate of ureteral kinking/obstruction requiring intraoperative ureteral stenting (4.1% vs 0%, p<0.001), while SSLF had higher post-operative buttock pain (9.1% vs 3.7%, p=0.04). Cystoscopy after USLS is mandatory to exclude ureteral injury.",
+          "wrong": {
+            "A": "USLS success at 2 years was 71.1%, not 85%, and was not statistically significantly different from SSLF (64.6%). There was no significant superiority of USLS over SSLF.",
+            "C": "SSLF was not significantly superior — the two procedures had equivalent success rates. SSLF success was numerically lower (64.6%) but not significantly so.",
+            "D": "Complication profiles were different: USLS caused more ureteral kinking (4.1% vs 0%); SSLF caused more buttock pain (9.1% vs 3.7%). Equivalent success + different complications is the correct summary."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Apical prolapse repair: USLS and SSLF both Grade A, with different complication profiles; mandatory cystoscopy after USLS to exclude ureteral injury",
+          "trial": "Barber MD et al. OPTIMAL RCT. NEJM 2014;371:1014–1023: USLS vs SSLF equivalent 2-year success (71.1% vs 64.6%, p=0.28); USLS ureteral kinking 4.1% vs SSLF 0%; SSLF buttock pain 9.1% vs USLS 3.7%",
+          "pearl": "OPTIMAL RCT (Barber NEJM 2014): USLS vs SSLF = EQUIVALENT apical repair success at 2 years. USLS: higher ureteral kinking (4%) → mandatory intraoperative cystoscopy. SSLF: higher buttock pain (9%) from pudendal/sciatic stretch."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q14",
+        "stem": "Which of the following is the most accurate description of the mechanism of action of the TVT (tension-free vaginal tape) mid-urethral sling based on the integral theory?",
+        "options": {
+          "A": "TVT elevates the bladder neck to the retropubic space, restoring the posterior urethrovesical angle",
+          "B": "TVT compresses the mid-urethra against the pubovesical fascia during increases in intra-abdominal pressure, providing a dynamic hammock support",
+          "C": "TVT increases intrinsic urethral sphincter tone by neurostimulation of the pudendal nerve",
+          "D": "TVT creates a static obstruction at the bladder neck to prevent leakage"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The integral theory (Petros and Ulmsten, 1990) proposes that SUI results from laxity of the pubourethral ligaments and anterior vaginal wall, causing inadequate support for the mid-urethra during increases in intra-abdominal pressure. The TVT provides a dynamic 'hammock' of support beneath the mid-urethra — not at the bladder neck — that compresses the urethra against the pubovesical fascia during coughing, sneezing, or exercise. The tension-free placement allows normal voiding by not obstructing the urethra at rest, while providing dynamic support during stress.",
+          "wrong": {
+            "A": "Restoring the posterior urethrovesical (UV) angle is the mechanism of the Burch colposuspension (elevates the paravaginal fascia to Cooper's ligament, indirectly elevating the bladder neck). TVT acts at the mid-urethra, not the bladder neck.",
+            "C": "TVT does not stimulate pudendal nerve activity. Pudendal nerve stimulation is a proposed mechanism of duloxetine (SNRI) and sacral neuromodulation — not of mechanical sling support.",
+            "D": "TVT is tension-FREE — it provides no static obstruction at rest. Voiding is normal with a correctly placed TVT. Static obstruction would cause voiding dysfunction and retention, which represents a complication of over-tight sling placement."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Mid-urethral sling mechanism: dynamic urethral support based on integral theory (Petros and Ulmsten 1990)",
+          "trial": "Ulmsten U, Petros P. Intravaginal slingplasty (IVS): an ambulatory surgical procedure for treatment of female urinary incontinence. Scand J Urol Nephrol 1995;29:75: foundational paper establishing integral theory and TVT mechanism",
+          "pearl": "TVT mechanism (integral theory, Petros/Ulmsten): DYNAMIC hammock support at MID-URETHRA (not bladder neck). Compresses mid-urethra during intra-abdominal pressure rises. Tension-free = no obstruction at rest. Burch = static bladder NECK elevation."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q15",
+        "stem": "A 50-year-old woman presents 4 years post-TVT with recurrent SUI after initial 2-year cure. On examination she has grade 2 anterior vaginal wall prolapse and a mild positive cough stress test. Urodynamics show ALPP 55 cmH₂O, UCP 18 cmH₂O, and no detrusor overactivity. Her urethral mobility test shows a fixed urethra. What does this urodynamic picture suggest and what is the most appropriate surgical management?",
+        "options": {
+          "A": "Detrusor overactivity causing pseudo-SUI — treat with antimuscarinics",
+          "B": "ISD with a fixed hypomobile urethra — retropubic TVT re-do or autologous fascial sling preferred",
+          "C": "Normal urodynamics — offer PFMT before considering re-operation",
+          "D": "Bladder neck obstruction from the original TVT — incise the original tape"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ALPP 55 cmH₂O (<60) and UCP 18 cmH₂O (<20) confirm ISD. A fixed hypomobile urethra (positive urethral mobility assessment showing limited movement) after prior TVT suggests scarring from the original procedure has limited urethral mobility — this makes TOT/transobturator slings less effective (they rely on urethral mobility for the hammock mechanism). For ISD with a scarred, fixed urethra after failed prior sling, the AUA 2022 guideline recommends autologous pubovaginal fascial sling or retropubic TVT re-do (with careful adhesiolysis) as the preferred options. Artificial urinary sphincter (AUS) is an alternative in severe ISD.",
+          "wrong": {
+            "A": "There is no detrusor overactivity on urodynamics — this is genuine SUI with ISD. Antimuscarinics address OAB/urgency, not SUI, and would be inappropriate.",
+            "C": "PFMT for recurrent SUI after TVT failure is unlikely to be effective as a stand-alone treatment — the structural support has failed. Urodynamics confirm ISD: active management is indicated, not further conservative treatment as primary recommendation.",
+            "D": "Sling incision is the treatment for voiding dysfunction (too-tight sling) — not for recurrent SUI (too-loose or failed sling). Cutting the original tape would worsen or restore pre-sling SUI and is the wrong approach."
+          },
+          "guideline": "AUA Guideline on Surgical Management of Female SUI 2022 — Recurrent SUI after prior sling: urodynamics required; ISD with fixed urethra: fascial sling or retropubic TVT preferred over TOT",
+          "trial": "Brubaker L et al. SISTER RCT. NEJM 2007;356:2143: fascial sling superior to Burch for SUI (47% vs 38% success, p=0.01), particularly in ISD; reference for autologous fascial sling in complex/recurrent SUI",
+          "pearl": "Recurrent SUI post-TVT with ISD (ALPP <60, UCP <20) + fixed urethra = autologous fascial sling or retropubic TVT re-do. Transobturator sling ineffective for ISD + fixed urethra. AUS if severe ISD or failed multiple slings."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D1-Q16",
+        "stem": "A 58-year-old woman, 8 months after anterior colporrhaphy for anterior compartment prolapse (POP-Q Ba = +4 cm pre-op), develops new-onset symptoms of stress urinary incontinence she did not have before surgery. Pre-operatively, her cough stress test was negative even with prolapse fully reduced. What is the likely explanation?",
+        "options": {
+          "A": "The anterior colporrhaphy caused bladder neck elevation, resulting in SUI",
+          "B": "Post-operative de novo SUI due to failure to screen for occult SUI at pre-operative prolapse reduction testing",
+          "C": "The patient had SUI all along that was masked by OAB urgency",
+          "D": "Mesh erosion from the anterior repair is causing urethral irritation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This is a classic scenario of de novo post-operative SUI following prolapse repair, caused by 'unmasking' of occult SUI. The anterior vaginal wall prolapse had been creating a kinked urethrovesical junction that provided a functional 'obstruction' masking underlying SUI. After surgical reduction of the prolapse, this functional obstruction is relieved, revealing the underlying SUI. Critically, the pre-operative cough stress test was performed WITHOUT prolapse reduction — it was negative because the prolapse was masking the SUI. A pessary or digital reduction stress test pre-operatively would have identified occult SUI in 30–40% of women with Stage III anterior prolapse. This patient should have been counselled pre-operatively about the risk of de novo SUI and a concurrent anti-incontinence procedure or prophylactic sling offered.",
+          "wrong": {
+            "A": "Anterior colporrhaphy does not typically elevate the bladder neck — it plicates the anterior vaginal fascia to reduce the cystocele. Bladder neck elevation causing SUI would be the opposite (reducing SUI), which is the mechanism of Burch colposuspension.",
+            "C": "There is no information suggesting OAB was masking SUI pre-operatively. The mechanism of occult SUI (functional obstruction from prolapse masking SUI) is more parsimonious and clinically correct.",
+            "D": "Native tissue anterior colporrhaphy does not use mesh — there is no mesh erosion in this scenario."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — POP management: pre-operative pessary/digital prolapse reduction stress test mandatory to screen for occult SUI in Stage III–IV anterior prolapse",
+          "trial": "Meschia M et al. Prevalence of anal incontinence in women with genital prolapse: a prospective study. Dis Colon Rectum 2002;45:1441: occult SUI identified in 30–40% of women with Stage III anterior prolapse when stress test performed with prolapse reduced — clinical evidence for mandatory pre-operative screening",
+          "pearl": "Occult SUI in POP: 30–40% of women with Stage III–IV cystocele have masked SUI revealed only with prolapse reduction test. ALWAYS perform cough stress test with pessary/digital reduction before prolapse repair. Failure to do so risks de novo post-operative SUI."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D1-Q17",
+        "stem": "Which of the following is a contraindication to fitting a ring pessary for pelvic organ prolapse?",
+        "options": {
+          "A": "Patient age >70 years",
+          "B": "POP-Q Stage III anterior prolapse",
+          "C": "Active vaginal infection or pelvic inflammatory disease",
+          "D": "Prior hysterectomy"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Active vaginal infection or pelvic inflammatory disease is a contraindication to pessary fitting — insertion of a foreign body into an infected vaginal environment would exacerbate infection and could cause ascending pelvic infection. Pessary fitting should be deferred until the infection has been successfully treated. Other contraindications include undiagnosed vaginal bleeding, known vaginal or cervical malignancy, and inability to comply with follow-up.",
+          "wrong": {
+            "A": "Age >70 years is not a contraindication to pessary use — in fact, elderly women with significant medical comorbidities who are high surgical risk are particularly appropriate candidates for pessary management as the primary treatment strategy.",
+            "B": "POP-Q Stage III anterior prolapse is an appropriate indication for ring pessary fitting (or Gellhorn for Stage III–IV). Stage III prolapse is not a contraindication.",
+            "D": "Prior hysterectomy is not a contraindication — it may affect pessary selection (vault prolapse may require a different pessary type such as Gellhorn or cube), but it is not a contraindication to pessary use."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Pessary use: contraindications include active vaginal infection, PID, undiagnosed vaginal bleeding, vaginal/cervical malignancy",
+          "trial": "Hagen S et al. Pessary treatment for pelvic organ prolapse. Cochrane Review 2013: comprehensive evidence base for pessary selection, contraindications, and follow-up protocols",
+          "pearl": "Pessary contraindications: active vaginal infection/PID, undiagnosed vaginal bleeding, vaginal/cervical malignancy, inability to comply with follow-up. Age alone and prior hysterectomy are NOT contraindications."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "D1-Q18",
+        "stem": "A 48-year-old woman with severe SUI (using 5 pads/day, ICIQ-UI SF 18/21) is found to have fixed urethral mobility, ALPP 30 cmH₂O, UCP 12 cmH₂O on urodynamics, and a history of three prior failed anti-incontinence procedures (2× TVT, 1× TOT). She has no prior pelvic radiation. What is the most appropriate surgical recommendation?",
+        "options": {
+          "A": "Fourth mid-urethral synthetic sling procedure (single-incision mini-sling)",
+          "B": "Artificial urinary sphincter (AUS) implantation",
+          "C": "Urethral bulking agent injection (repeat courses as needed)",
+          "D": "Supravesical urinary diversion (ileal conduit)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Severe ISD (ALPP 30 cmH₂O, UCP 12 cmH₂O — both well below ISD thresholds) with a fixed urethra and three prior failed anti-incontinence procedures represents the most challenging SUI scenario. An artificial urinary sphincter (AMS 800 or ZSI 375) is the appropriate surgical option — it mechanically occludes the urethra (cuff placed around the bladder neck in women) and achieves 70–80% continence rates even in this challenging group, with long-term revision rates of 20–40% at 10 years. After failed multiple slings, the AUS is the most durable option for severe ISD in women.",
+          "wrong": {
+            "A": "A fourth synthetic sling procedure after three failures (including retropubic TVT ×2) is unlikely to provide benefit and carries significant morbidity from repeated dissection in a scarred field. Synthetic mid-urethral slings are ineffective for severe ISD with a fixed urethra.",
+            "C": "Urethral bulking agents achieve 30–50% short-term improvement but require repeated injections and have very poor durability for severe ISD. This is appropriate for elderly high-surgical-risk patients or those refusing surgery, not for a 48-year-old with severe refractory SUI who has failed three prior procedures.",
+            "D": "Supravesical urinary diversion (ileal conduit) is only indicated for end-stage lower urinary tract dysfunction (neurogenic bladder, refractory incontinence with no reconstructive options) — not for stress urinary incontinence regardless of severity in a patient with a normal upper urinary tract and normal bladder capacity."
+          },
+          "guideline": "AUA Guideline on Surgical Management of Female SUI 2022 — Failed multiple slings + severe ISD: AUS or autologous fascial sling (AUS preferred for severe/complex ISD)",
+          "trial": "Petrou SP et al. AUS for female SUI. Urology 2002;59:900: AUS continence rates 70–80% in women with severe ISD and prior failed anti-incontinence surgery",
+          "pearl": "Female SUI with severe ISD (ALPP <30, UCP <12) after multiple failed slings = AUS (artificial urinary sphincter). AUS bladder neck cuff placement in women achieves 70–80% continence even in refractory cases. AUS revision rate 20–40% at 10 years."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "D1-Q19",
+        "stem": "Following the Cumberlege Review (2020) and NHS England guidance, what is the current regulatory status of mid-urethral synthetic slings (TVT/TOT) for female SUI in the UK?",
+        "options": {
+          "A": "Completely banned — all mesh-based procedures for UI prohibited in the UK",
+          "B": "Permitted only in specialist mesh centres with mandatory pre-operative BAUS/NHSE consent processes and clinical governance oversight",
+          "C": "Unrestricted — no change in practice following the Cumberlege Review",
+          "D": "Permitted for TOT only — retropubic TVT prohibited due to higher complication profile"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Following the Cumberlege Independent Medicines and Medical Devices Safety Review (2020), which identified systematic failures in the reporting and management of mesh harm, NHS England implemented a 'high vigilance restriction' on mesh procedures in 2018 (later converted to restricted use policy in 2024). Mid-urethral synthetic slings (TVT/TOT) for SUI remain permitted in the UK but ONLY in designated specialist mesh centres (appointed by NHSE), with mandatory pre-operative informed consent processes, multi-disciplinary team involvement, and mandatory data submission to national registries (BAUS). A complete ban was not implemented for SUI mesh — the ban was on transvaginal mesh for POP repair (which remained under 'pause' and then restricted use).",
+          "wrong": {
+            "A": "A complete ban on all mesh-based UI procedures was not implemented in the UK. TVT/TOT remain permitted under restricted conditions in specialist centres. The guidance distinguishes between transvaginal mesh for POP (suspended/restricted) and mid-urethral slings for SUI (permitted with conditions).",
+            "C": "Practice did change significantly following Cumberlege — mandatory specialist centre designation, consent processes, and registry data submission were all new requirements implemented post-review.",
+            "D": "Both TVT (retropubic) and TOT (transobturator) mid-urethral slings remain permitted in UK specialist centres under the restricted use policy. Neither specific approach was selectively banned."
+          },
+          "guideline": "NICE NG123 (updated 2024) and NHS England Mesh High Vigilance Restriction Patient Safety Alert (2018/2024) — Mid-urethral slings permitted in designated specialist centres with mandatory consent and registry reporting",
+          "trial": "Cumberlege J et al. First Do No Harm: The Report of the Independent Medicines and Medical Devices Safety Review. 2020: landmark UK policy document driving regulatory changes in mesh surgery practice",
+          "pearl": "UK mesh regulatory status: TVT/TOT for SUI = PERMITTED in designated specialist mesh centres + mandatory consent + NHSE governance. Transvaginal mesh for POP = suspended (restricted use only). Complete ban = NOT implemented for SUI. Know this for UK-based exam questions."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "D1-Q20",
+        "stem": "The CARE trial (Brubaker et al., NEJM 2006/2007) examined the effect of prophylactic Burch colposuspension at the time of sacrocolpopexy in women with no pre-operative SUI. What was the key finding relevant to surgical planning?",
+        "options": {
+          "A": "Prophylactic Burch colposuspension significantly increased complication rates without reducing post-operative SUI",
+          "B": "Prophylactic Burch colposuspension at sacrocolpopexy significantly reduced post-operative stress incontinence without increasing complications",
+          "C": "Sacrocolpopexy alone was sufficient — no benefit from adding Burch",
+          "D": "Prophylactic TVT (not Burch) should be offered concurrently with sacrocolpopexy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The CARE trial (Brubaker et al., NEJM 2006) randomised 322 women with urodynamic stress incontinence (or occult SUI) undergoing sacrocolpopexy to receive prophylactic Burch colposuspension or no additional procedure. At 3 months, 32% of the sacrocolpopexy-only group developed bothersome SUI vs 24% in the Burch group (p=0.04). Prophylactic Burch significantly reduced post-operative SUI without significantly increasing complications. This established the clinical practice of offering prophylactic anti-incontinence procedures at sacrocolpopexy in women with occult or stress incontinence.",
+          "wrong": {
+            "A": "Prophylactic Burch did NOT significantly increase complications in the CARE trial. Complication rates were similar between groups, while the Burch group had a significant reduction in post-operative SUI.",
+            "C": "Sacrocolpopexy alone was NOT sufficient — 32% of women in the sacrocolpopexy-only group developed bothersome SUI vs 24% with Burch (p=0.04). The Burch significantly reduced post-operative incontinence.",
+            "D": "The CARE trial specifically examined Burch colposuspension (not TVT) as the concurrent procedure with sacrocolpopexy. While TVT is used in some centres concurrently with sacrocolpopexy, the CARE trial evidence base supports Burch in this context."
+          },
+          "guideline": "EAU Guidelines on Urinary Incontinence 2024 — Sacrocolpopexy: consider concurrent prophylactic anti-incontinence procedure (Burch or sling) in women with occult or clinical SUI, based on CARE trial",
+          "trial": "Brubaker L et al. CARE Trial. NEJM 2006;354:1557–1566: prophylactic Burch colposuspension at sacrocolpopexy reduced post-operative SUI (24% vs 32%, p=0.04) without significant increase in complications — landmark trial for concurrent anti-incontinence procedures",
+          "pearl": "CARE trial (Brubaker NEJM 2006): prophylactic Burch at sacrocolpopexy → 24% vs 32% post-op SUI (p=0.04), no increase in complications. Practice implication: screen for occult SUI before sacrocolpopexy; offer concurrent anti-incontinence procedure if positive."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

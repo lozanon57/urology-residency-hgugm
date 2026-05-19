@@ -1,0 +1,633 @@
+{
+  "id": "G1",
+  "title": "Diseño de Ensayos Clínicos en Urología",
+  "subtitle": "Bloque G — Diseño de Estudios, Aleatorización, Endpoints y Conducción del Ensayo",
+  "block": "G",
+  "block_name": "Investigación Académica en Urología",
+  "level": "R2-5",
+  "reading_time_min": 38,
+  "guidelines_version": "CONSORT 2010 · SPIRIT 2013 · ICH E9(R1) 2019 · EAU Research Methodology Guidelines 2024",
+  "textbook_refs": [
+    "Moher D et al. CONSORT 2010 Statement: Updated Guidelines for Reporting Parallel Group Randomised Trials. BMJ 2010",
+    "Chan AW et al. SPIRIT 2013 Statement: Defining Standard Protocol Items for Clinical Trials. Ann Intern Med 2013",
+    "Schulz KF, Grimes DA. The Lancet Handbook of Essential Concepts in Clinical Research. Elsevier, 2006",
+    "Mottet N et al. EAU Guidelines on the Principles of Clinical Research in Urology (2024)"
+  ],
+  "learning_objectives": [
+    "Clasificar los diseños de estudio en la jerarquía de evidencia e identificar el diseño apropiado para una pregunta de investigación dada",
+    "Explicar los principios de la aleatorización, el ocultamiento de la asignación y el enmascaramiento, y su impacto en la validez interna",
+    "Definir los endpoints primarios y secundarios en ensayos urológicos, incluyendo resultados comunicados por el paciente y endpoints subrogados",
+    "Calcular los requerimientos de tamaño muestral usando principios de análisis de potencia",
+    "Identificar fuentes de sesgo en ensayos clínicos y explicar cómo los elementos del diseño del estudio los mitigan",
+    "Interpretar los análisis por intención de tratar frente a los análisis por protocolo y sus implicaciones clínicas"
+  ],
+  "sections": [
+    {
+      "id": "G1-S1",
+      "title": "La Jerarquía de Evidencia y la Clasificación del Diseño de Estudios",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La investigación clínica sustenta cada recomendación de las guías en urología. Comprender el diseño de estudios es esencial no solo para conducir investigación, sino para evaluar críticamente la base de evidencia sobre la que se toman las decisiones clínicas. La **jerarquía de evidencia** clasifica los diferentes diseños de estudio según su capacidad para establecer causalidad y minimizar el sesgo, con las revisiones sistemáticas y metaanálisis de ECA en el vértice y la opinión de expertos en la base.\n\nLos diseños de estudio se clasifican ampliamente como **experimentales** (el investigador asigna la intervención) y **observacionales** (el investigador observa sin intervenir). Dentro de los diseños experimentales, el **ensayo controlado aleatorizado (ECA)** es el estándar de oro para comparar intervenciones porque la aleatorización, cuando se ejecuta correctamente, distribuye los factores de confusión conocidos y desconocidos por igual entre los grupos, permitiendo la inferencia causal. Los diseños observacionales —estudios de cohortes, estudios de casos y controles, estudios transversales— no pueden establecer causalidad pero son valiosos cuando los ECA no son factibles (limitaciones éticas, resultados raros, historia natural prolongada).\n\nEn urología, ciertas preguntas son especialmente susceptibles de abordarse con ECA: comparar técnicas quirúrgicas (RAZOR, iROC), comparar el manejo médico frente al quirúrgico (STUDD, SUSPEND), o evaluar el tratamiento sistémico en oncología. Otras —como el valor de una curva de aprendizaje, la historia natural del liquen escleroso, o el impacto del volumen del cirujano— se abordan mejor a través de investigación observacional basada en registros. Reconocer qué diseño se adapta a cada pregunta es el primer paso de la metodología de investigación."
+        },
+        {
+          "type": "table",
+          "title": "Jerarquía de Evidencia: Diseños de Estudio y Características",
+          "headers": ["Nivel", "Diseño", "Causalidad", "Fortaleza Principal", "Limitación Principal"],
+          "rows": [
+            ["1a", "Revisión sistemática / metaanálisis de ECA", "Alta", "Combina evidencia, aumenta la potencia", "La calidad está limitada por los ensayos incluidos; heterogeneidad"],
+            ["1b", "ECA individual (bien diseñado)", "Alta", "La aleatorización controla la confusión", "Coste, factibilidad, aplicabilidad"],
+            ["2a", "Revisión sistemática de estudios de cohortes", "Moderada", "Muestras más grandes, resultados más amplios", "Confusión, sesgo de selección"],
+            ["2b", "Estudio de cohorte prospectivo individual", "Moderada", "Sigue a los pacientes en el tiempo", "No se puede aleatorizar; confusión residual"],
+            ["3", "Estudio de casos y controles", "Bajo-moderada", "Bueno para resultados raros", "Sesgo de recuerdo; incertidumbre temporal"],
+            ["4", "Serie de casos / transversal", "Baja", "Generadora de hipótesis", "Sin grupo control; no puede establecer causalidad"],
+            ["5", "Opinión de expertos / editorial", "Ninguna", "Rápido, bajo coste", "Susceptible a sesgo y preferencia"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Niveles CEBM de Oxford",
+          "content": "Los niveles del Centro de Medicina Basada en la Evidencia de Oxford (CEBM) son el marco estándar utilizado en las guías de la EAU. Cuando la EAU indica 'Recomendación de Grado A', se basa en evidencia de Nivel 1 (revisión sistemática o ECA bien diseñado). El 'Grado B' corresponde a evidencia de Nivel 2 (cohorte prospectiva o ECA de menor calidad). El 'Grado C/D' corresponde a datos observacionales u opinión de expertos."
+        }
+      ]
+    },
+    {
+      "id": "G1-S2",
+      "title": "Aleatorización: Principios, Métodos y Ocultamiento de la Asignación",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **aleatorización** es el proceso por el cual los participantes se asignan a los grupos de intervención o control por azar, no por elección del investigador o del participante. Su propósito es distribuir los factores de confusión conocidos y desconocidos por igual entre los grupos, eliminando el sesgo de asignación sistemático. La aleatorización por sí sola no garantiza el equilibrio en ensayos pequeños — se deben reportar las pruebas estadísticas de las características basales para demostrar comparabilidad.\n\nTipos de aleatorización:\n- **Aleatorización simple (sin restricciones)**: Cada participante se asigna independientemente mediante el lanzamiento de una moneda o una tabla de números aleatorios. Propensa a desequilibrios en ensayos pequeños (no se garantizan números iguales).\n- **Aleatorización en bloques**: Los participantes se asignan en bloques (p. ej., bloques de 4 o 6) para garantizar tamaños de grupo iguales a intervalos regulares. Previene el desequilibrio temporal (p. ej., si los pacientes más enfermos se inscriben más tarde).\n- **Aleatorización estratificada**: Los factores pronósticos preespecificados (p. ej., nivel de PSA, estadio de la enfermedad) se utilizan para crear estratos, dentro de los cuales se aplica la aleatorización en bloques. Garantiza el equilibrio de variables pronósticas importantes.\n- **Minimización**: Método adaptativo que asigna a cada nuevo participante para minimizar el desequilibrio en múltiples factores pronósticos simultáneamente — particularmente útil en ensayos pequeños.\n\nEl **ocultamiento de la asignación** es distinto del enmascaramiento y es de importancia crítica. Garantiza que la secuencia de asignación sea desconocida para la persona que recluta a los participantes hasta el momento de la aleatorización, previniendo el sesgo de selección consciente o inconsciente. Los métodos incluyen la aleatorización central (telefónica o por internet), los sobres opacos numerados secuencialmente (SNOSE) y el envasado codificado de fármacos. El ocultamiento inadecuado de la asignación produce de forma consistente efectos del tratamiento inflados en los ensayos. Un ensayo puede ser 'aleatorizado' pero aun así sesgado si la asignación puede predecirse o manipularse."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Ocultamiento de Asignación vs Enmascaramiento",
+          "content": "El ocultamiento de la asignación previene el sesgo de selección ANTES de la aleatorización (el reclutador no puede predecir la próxima asignación). El enmascaramiento previene el sesgo de realización y el sesgo de detección DESPUÉS de la aleatorización (los participantes, clínicos o evaluadores no saben qué tratamiento se recibió). Ambos son esenciales y abordan diferentes fuentes de sesgo. Un ensayo puede tener un ocultamiento de asignación deficiente incluso si está doblemente enmascarado."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Sobres Abiertos y Sesgo de Selección",
+          "content": "El simple uso de sobres sellados no garantiza el ocultamiento de la asignación si los sobres pueden sostenerse ante la luz, abrirse y volver a sellar, o si la secuencia de aleatorización se conoce de antemano. El CONSORT 2010 exige una descripción del mecanismo de ocultamiento de la asignación — si un artículo simplemente indica 'sobres' sin especificar la metodología SNOSE, el ocultamiento debe considerarse subóptimo y el ensayo susceptible de sesgo de selección."
+        }
+      ]
+    },
+    {
+      "id": "G1-S3",
+      "title": "Enmascaramiento, Endpoints y Medidas de Resultado",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **enmascaramiento** (cegamiento) evita que las personas involucradas en el ensayo conozcan la asignación del tratamiento, reduciendo el sesgo de realización (cuidado diferencial basado en la asignación) y el sesgo de detección (evaluación diferencial del resultado). El vocabulario ha evolucionado: en lugar de 'simple ciego', 'doble ciego', 'triple ciego', el CONSORT 2010 recomienda especificar **quién está enmascarado**: participantes, proveedores de atención, evaluadores de resultados, analistas de datos.\n\nEn los ensayos quirúrgicos, enmascarar a los participantes y cirujanos respecto a la operación asignada es a menudo imposible. Sin embargo, el **enmascaramiento del evaluador** (la persona que mide el resultado primario no conoce la asignación) sigue siendo alcanzable y previene el sesgo de detección incluso cuando el enmascaramiento quirúrgico no es factible. Los ensayos quirúrgicos controlados con simulacro (donde el grupo control se somete a un procedimiento idéntico sin el elemento activo) son éticamente controvertidos pero se han llevado a cabo (ensayo de simulacro de RTU, denervación renal SYMPLICITY HTN-3).\n\n**Los endpoints** definen lo que mide el ensayo:\n- **Endpoint primario**: El único resultado preespecificado para el que se ha calculado la potencia del ensayo. Debe ser clínicamente significativo, medido de forma fiable y apropiado para la pregunta de investigación.\n- **Endpoints secundarios**: Resultados adicionales que proporcionan información complementaria — generadores de hipótesis, sin potencia calculada.\n- **Endpoints subrogados**: Marcadores biológicos o mediciones que sustituyen a los resultados clínicos (p. ej., descenso de PSA como sustituto de la supervivencia del cáncer de próstata). Los subrogados son más rápidos y económicos de medir, pero deben validarse como predictores fiables del resultado clínico de interés.\n- **Resultados comunicados por el paciente (PRO)**: Resultados comunicados directamente por los pacientes (puntuaciones de síntomas, calidad de vida, función sexual) utilizando instrumentos validados (IPSS, IIEF, EORTC QLQ-C30). Reconocidos cada vez más como endpoints co-primarios o primarios en ensayos urológicos.\n\nEn los ensayos oncológicos urológicos: la **supervivencia global (SG)** es el endpoint estándar de oro; la **supervivencia libre de progresión (SLP)**, la **supervivencia libre de metástasis (SLM)** y la **supervivencia libre de recidiva bioquímica** son endpoints subrogados habituales. La EAU acepta estos subrogados en la base de evidencia de las guías cuando los datos de SG aún no son maduros."
+        },
+        {
+          "type": "table",
+          "title": "Endpoints Clave en los Ensayos de Oncología Urológica",
+          "headers": ["Endpoint", "Definición", "Validez como Subrogado", "Ensayo Ejemplo"],
+          "rows": [
+            ["Supervivencia global (SG)", "Tiempo desde la aleatorización hasta la muerte por cualquier causa", "Estándar de oro — no es un subrogado", "CHECKMATE-274"],
+            ["Supervivencia específica por cáncer (SEC)", "Muerte por el cáncer en estudio", "Alta — pero requiere adjudicación de la causa de muerte", "TA302 (atezolizumab, vejiga)"],
+            ["Supervivencia libre de progresión (SLP)", "Tiempo hasta la progresión objetiva o muerte", "Moderada — validada en algunos, no todos los cánceres", "KEYNOTE-052 (pembrolizumab)"],
+            ["Supervivencia libre de recidiva bioquímica", "Tiempo hasta elevación de PSA tras PR/RT", "Moderada para cáncer de próstata", "RAVES (RT adyuvante para próstata)"],
+            ["Supervivencia libre de metástasis (SLM)", "Tiempo hasta metástasis a distancia o muerte", "Validada en CPRC no metastásico", "SPARTAN, PROSPER, ARAMIS"],
+            ["Cambio en la puntuación IPSS", "Cambio en la Puntuación Internacional de Síntomas Prostáticos", "Subrogado validado para alivio sintomático del HBP", "Múltiples ensayos STUI/HBP"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G1-S4",
+      "title": "Cálculo del Tamaño Muestral y Potencia Estadística",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El cálculo del tamaño muestral es un elemento crítico preespecificado de cualquier ensayo clínico. Un ensayo con insuficiente potencia es poco ético — expone a los participantes a los riesgos y cargas de la participación en el ensayo sin una probabilidad adecuada de obtener una respuesta significativa. Un ensayo con excesiva potencia desperdicia recursos y puede detectar diferencias estadísticamente significativas que no son clínicamente significativas.\n\nLas entradas clave para un cálculo de tamaño muestral son:\n1. **Error de tipo I (α)**: La probabilidad aceptable de rechazar falsamente la hipótesis nula (falso positivo). Convencionalmente fijado en 0,05 (5%).\n2. **Error de tipo II (β)**: La probabilidad aceptable de no rechazar una hipótesis nula falsa (falso negativo). Convencionalmente fijado en 0,20 (20%), lo que significa que el ensayo tiene una **potencia del 80%** para detectar la diferencia especificada.\n3. **Tamaño del efecto**: La diferencia mínima clínicamente importante (DMCI) que el ensayo está diseñado para detectar. Debe preespecificarse basándose en el juicio clínico, no en la conveniencia estadística.\n4. **Variabilidad**: La desviación estándar esperada (para resultados continuos) o la tasa de eventos (para resultados binarios/tiempo hasta evento) en el grupo control.\n5. **Prueba bilateral vs unilateral**: Las pruebas bilaterales (detección de diferencia en cualquier dirección) son estándar; las pruebas unilaterales requieren una justificación preespecificada sólida.\n\nEn los ensayos de superioridad, un tamaño del efecto mayor es más fácil de detectar (requiere menos participantes). En los **ensayos de no inferioridad** — cada vez más comunes en urología (ECA RAZOR, ECA iROC comparando cistectomía robótica frente a abierta) — la pregunta es si un nuevo tratamiento 'no es peor' por más de un **margen de no inferioridad (δ)** preespecificado. El margen debe fijarse para preservar una fracción clínicamente importante del beneficio establecido del comparador. Los márgenes de no inferioridad incorrectamente amplios pueden llevar a la aprobación de tratamientos inferiores."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Errores de Tipo I y Tipo II",
+          "content": "Error de tipo I (α = 0,05): concluir falsamente que el tratamiento funciona cuando no lo hace (falso positivo). Error de tipo II (β = 0,20): no detectar un efecto real del tratamiento (falso negativo). Potencia = 1 − β = 0,80. Si un ensayo tiene insuficiente potencia y muestra 'ninguna diferencia significativa', esto es un resultado negativo que puede reflejar falta de potencia más que una verdadera equivalencia — una distinción crítica para interpretar los ensayos urológicos 'negativos'."
+        }
+      ]
+    },
+    {
+      "id": "G1-S5",
+      "title": "Sesgo, Confusión y Validez Interna",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El sesgo es cualquier error sistemático en el diseño, la realización, el análisis o la comunicación de un estudio que resulta en una estimación distorsionada del verdadero efecto del tratamiento. A diferencia del error aleatorio (que reduce la precisión pero no la exactitud), el sesgo es direccional — infla o deflacta consistentemente el efecto observado. Sesgos clave en los ensayos urológicos:\n\n**Sesgo de selección**: Ocurre cuando los participantes en los grupos de comparación difieren sistemáticamente en características pronósticas. La aleatorización previene el sesgo de selección; los estudios observacionales requieren ajuste estadístico. En los estudios de cohorte retrospectivos que comparan la cirugía abierta frente a la robótica, los pacientes más sanos pueden seleccionarse para el abordaje laparoscópico (sesgo de espectro/trabajo diagnóstico), confundiendo la comparación de resultados.\n\n**Sesgo de realización**: Cuidado diferencial proporcionado a los participantes basado en el conocimiento de la asignación de grupo. El enmascaramiento previene el sesgo de realización. En los ensayos quirúrgicos donde el enmascaramiento es imposible, la estandarización de las co-intervenciones (p. ej., vías de atención perioperatoria) minimiza el sesgo de realización.\n\n**Sesgo de detección (sesgo de adscripción)**: Los resultados se evalúan de forma diferente según el conocimiento de la asignación. El enmascaramiento del evaluador es la mitigación primaria. En los ensayos de cáncer de próstata que evalúan la recidiva bioquímica, si el médico tratante sabe que el paciente recibió terapia experimental, puede realizar el PSA con mayor o menor frecuencia.\n\n**Sesgo de desgaste**: Pérdida diferencial de seguimiento entre grupos que está relacionada con el tratamiento y/o el resultado. El **análisis por intención de tratar (ITT)** mitiga el sesgo de desgaste analizando a todos los participantes aleatorizados en sus grupos asignados independientemente del tratamiento real recibido o la retirada. Un **análisis por protocolo (PP)** incluye solo a los participantes que completaron el protocolo — susceptible al sesgo de desgaste pero útil para estimar la eficacia biológica.\n\n**Confusión**: Una variable asociada tanto con la exposición como con el resultado, distorsionando la relación aparente. En la investigación observacional urológica (p. ej., comparación de estrategias de cribado con PSA), la edad, la comorbilidad y el nivel socioeconómico son importantes factores de confusión que requieren ajuste mediante regresión multivariante, emparejamiento por puntuación de propensión u otros métodos."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — El Análisis por Protocolo Sobreestima el Beneficio del Tratamiento",
+          "content": "El análisis por protocolo excluye a los participantes que no se adhirieron a su tratamiento asignado. Si la no adherencia está relacionada con los efectos secundarios o la falta de eficacia (es decir, los pacientes más enfermos abandonan el brazo de tratamiento), el análisis por protocolo retiene selectivamente a los respondedores más sanos, inflando el beneficio aparente del tratamiento. El análisis ITT es el análisis de eficacia primario en los ECA. El análisis PP es solo de apoyo."
+        }
+      ]
+    },
+    {
+      "id": "G1-S6",
+      "title": "Ensayos Quirúrgicos: Desafíos Específicos y el Marco IDEAL",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los ensayos quirúrgicos se enfrentan a desafíos metodológicos únicos que no se encuentran en los ensayos farmacológicos. Estos incluyen la **curva de aprendizaje** (un cirujano que realiza una nueva operación mejora con la experiencia, lo que significa que los resultados tempranos y tardíos en un ensayo pueden no ser comparables), la **variabilidad técnica** (la 'misma' operación varía entre cirujanos y centros), la **imposibilidad de enmascarar a los participantes y cirujanos** respecto al procedimiento asignado, y las **limitaciones éticas** (realizar una operación simulada en el grupo control puede no ser aceptable).\n\nEl **marco IDEAL (Idea, Desarrollo, Exploración, Evaluación, Estudio a largo plazo)** proporciona una vía estructurada para evaluar las innovaciones quirúrgicas desde el primer uso en humanos hasta la evidencia a nivel poblacional. Etapa 1 (Idea): primeros informes de casos con técnica innovadora. Etapa 2a (Desarrollo): pequeñas series de casos con refinamiento iterativo de la técnica. Etapa 2b (Exploración): estudios prospectivos multicéntricos con técnica estandarizada. Etapa 3 (Evaluación): ECA que compara la innovación con el estándar de atención. Etapa 4 (Largo plazo): vigilancia basada en registros para resultados a largo plazo y complicaciones raras. La mayoría de las innovaciones quirúrgicas urológicas se evalúan en la Etapa IDEAL 2-3, con pocas que alcanzan la evidencia del ECA de la Etapa 3.\n\nEjemplos de la progresión del marco IDEAL en urología: la prostatectomía radical asistida por robot (PRAR) progresó desde los primeros informes en 2001 (Etapa 1) a través de series de casos de un solo centro (Etapa 2a/b) hasta estudios de efectividad comparativa (Etapa 2b) sin un ECA definitivo de Etapa 3 que comparara con la PR abierta (el ensayo ProtecT reclutó pero con brazos PRAR limitados). La cistectomía radical asistida por robot (CRAR) logró evidencia de Etapa 3 con el ECA RAZOR (Parekh Lancet 2018) y el ECA iROC (Catto JAMA 2022).\n\nLos **ECA en conglomerados** aleatorizan grupos (hospitales, unidades quirúrgicas) en lugar de individuos — útiles cuando la aleatorización individual es impráctica (p. ej., comparar protocolos de recuperación mejorada entre hospitales). La unidad de análisis debe tener en cuenta la agrupación (coeficiente de correlación intraclase, CCI)."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Curva de Aprendizaje en los ECA Quirúrgicos",
+          "content": "La incorporación de los efectos de la curva de aprendizaje en los ECA quirúrgicos requiere criterios de acreditación (volumen mínimo de casos antes de que los cirujanos puedan inscribir pacientes), casos iniciales supervisados y, a veces, un período de rodaje excluido del análisis. El ECA RAZOR requirió que los cirujanos hubieran realizado ≥30 cistectomías radicales asistidas por robot antes de la inscripción — una acreditación que fortaleció la validez interna del ensayo pero limita la generalizabilidad a todos los centros robóticos."
+        }
+      ]
+    },
+    {
+      "id": "G1-S7",
+      "title": "Estándares de Comunicación y Registro de Ensayos",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La comunicación transparente de los ensayos clínicos es una obligación ética y científica obligatoria. La comunicación selectiva de resultados — informar solo de los resultados positivos mientras se suprimen los resultados no significativos — es una fuente importante de sesgo de publicación que distorsiona la base de evidencia y potencialmente daña a los pacientes.\n\nEl **CONSORT 2010 (Consolidated Standards of Reporting Trials)** proporciona una lista de verificación de 25 ítems para comunicar ECA de grupos paralelos, cubriendo: título/resumen, introducción, métodos (participantes, intervenciones, resultados, aleatorización, enmascaramiento, tamaño muestral), resultados (flujo de participantes — el diagrama de flujo CONSORT, reclutamiento, datos basales, resultados) y discusión. Todas las principales revistas de urología (European Urology, BJU International, Journal of Urology) requieren comunicación conforme a CONSORT para los ECA. Existen extensiones para ECA en conglomerados (CONSORT-Cluster), ensayos de no inferioridad/equivalencia (CONSORT-NI) y ensayos pragmáticos (CONSORT-PRCT).\n\nEl **registro del ensayo** en un registro público (ClinicalTrials.gov, ISRCTN, Registro Europeo de Ensayos Clínicos) antes de la inscripción del primer participante es obligatorio para la publicación en revistas miembro del ICMJE y es requerido por la mayoría de las autoridades reguladoras. El registro documenta los endpoints primarios preespecificados, impidiendo el cambio de resultados una vez que se conocen los resultados. El **SPIRIT 2013 (Standard Protocol Items: Recommendations for Interventional Trials)** proporciona una lista de verificación paralela para el documento del protocolo del ensayo, asegurando que los procedimientos preespecificados se documenten antes de que comience el ensayo.\n\nEl **sesgo de publicación** — la tendencia de los ensayos positivos a publicarse con mayor facilidad que los ensayos negativos — infla la eficacia aparente de las intervenciones en las revisiones sistemáticas y metaanálisis. El registro prospectivo de ensayos y los requisitos obligatorios de comunicación de resultados (mandato de la UE desde 2012) pretenden combatir esto, pero persiste la no publicación sustancial de resultados negativos de ensayos en la investigación urológica quirúrgica."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla de Examen — Diagrama de Flujo CONSORT",
+          "content": "El diagrama de flujo CONSORT es un elemento obligatorio de la comunicación de ECA (ítem 13 del CONSORT). Debe mostrar: el número cribado, excluido (con razones), aleatorizado, asignado a cada brazo, pérdida de seguimiento (con razones), interrupción de la intervención (con razones) y analizado (por brazo). Cualquier ECA publicado sin diagrama de flujo CONSORT incumple los estándares mínimos de comunicación."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Pon a prueba tus conocimientos sobre el diseño de ensayos clínicos en urología con 20 preguntas tipo examen.",
+    "questions": [
+      {
+        "id": "G1-Q1",
+        "stem": "Un servicio de urología planifica un ensayo que compara la prostatectomía radical asistida por robot (PRAR) con la prostatectomía radical abierta (PRA) para el cáncer de próstata localizado. Asignan aleatoriamente a 300 pacientes a cada grupo. Sin embargo, el cirujano que realiza la PRAR ha completado 200 casos mientras que el cirujano que realiza la PRA ha completado 1.000 casos. ¿Qué tipo de sesgo tiene más probabilidades de afectar a este ensayo?",
+        "options": {
+          "A": "Sesgo de detección por evaluación de resultados sin enmascaramiento",
+          "B": "Sesgo de selección por ocultamiento inadecuado de la asignación",
+          "C": "Sesgo de realización por diferente experiencia del cirujano (confusión por curva de aprendizaje)",
+          "D": "Sesgo de desgaste por pérdida diferencial de seguimiento"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La curva de aprendizaje confunde los ensayos quirúrgicos cuando los dos cirujanos de comparación tienen niveles muy diferentes de experiencia con sus respectivas técnicas. El cirujano de PRAR con 200 casos todavía está en la curva de aprendizaje (el consenso de ERUS sugiere una meseta de competencia a los 150-250 casos), mientras que el cirujano de PRA con 1.000 casos opera con plena competencia. Cualquier diferencia observada puede reflejar la experiencia del cirujano más que las técnicas en sí mismas — una forma de sesgo de realización. Los ECA quirúrgicos deben acreditar a los cirujanos con umbrales mínimos de experiencia antes de la inscripción para mitigar esto.",
+          "wrong": {
+            "A": "El sesgo de detección requiere que la evaluación de resultados difiera según la asignación de grupo. La aleatorización y la asignación no se describen como defectuosas aquí — el problema es la experiencia del cirujano, no la medición de resultados.",
+            "B": "El sesgo de selección por ocultamiento inadecuado de la asignación significaría que la asignación era predecible, permitiendo la selección de pacientes más sanos o más enfermos para un brazo. La aleatorización se describe como correctamente realizada aquí.",
+            "D": "El sesgo de desgaste requiere abandono diferencial entre grupos — no descrito en este escenario. La preocupación principal es el desequilibrio de experiencia preexistente entre los cirujanos."
+          },
+          "guideline": "Marco IDEAL (Ergina PL, BJU Int 2009) — Requisitos del ECA de Etapa 3: los cirujanos deben estar acreditados (volumen mínimo de casos) y haber superado su curva de aprendizaje individual antes de participar en un ECA quirúrgico; la diferencia de experiencia entre brazos crea sesgo de realización.",
+          "trial": "ECA RAZOR (Parekh et al., Lancet 2018): Requirió un mínimo de 30 cistectomías radicales asistidas por robot por cirujano antes de la participación — demostrando el principio de acreditación que mitiga la confusión por curva de aprendizaje en los ensayos quirúrgicos.",
+          "pearl": "Curva de aprendizaje en ensayos quirúrgicos = sesgo de realización si la experiencia del cirujano difiere entre brazos. El marco IDEAL Etapa 3 del ECA requiere criterios de acreditación. El ECA RAZOR requirió ≥30 casos de CRAR por cirujano participante."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G1-Q2",
+        "stem": "Un ECA multicéntrico informa que un nuevo bloqueante alfa-1 reduce la puntuación IPSS en 4,2 puntos en comparación con placebo (IC 95% 3,1-5,3, p<0,001). La diferencia mínima clínicamente importante (DMCI) para el IPSS en la HBP es de 3 puntos. Un estadístico señala que el ensayo tuvo una potencia del 95% con 2.000 participantes. ¿Qué conclusión es la más precisa?",
+        "options": {
+          "A": "El resultado es estadísticamente significativo pero puede no ser clínicamente relevante porque el límite inferior del IC (3,1) apenas supera la DMCI",
+          "B": "El resultado es estadística y clínicamente significativo; el fármaco debe recomendarse",
+          "C": "El IC del 95% es demasiado estrecho, lo que sugiere sesgo de publicación",
+          "D": "El ensayo tiene excesiva potencia; un ensayo de 500 pacientes habría sido suficiente y más ético"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El resultado es estadísticamente significativo (p<0,001) y todo el IC del 95% (3,1-5,3 puntos) supera la DMCI preespecificada de 3 puntos, lo que significa que el peor efecto verdadero plausible (3,1 puntos en el límite inferior del IC) todavía está por encima del umbral de relevancia clínica. Esto constituye tanto significación estadística como clínica. El fármaco tiene una sólida justificación para la recomendación clínica. La opción A sería correcta si el límite inferior del IC estuviera por debajo de la DMCI.",
+          "wrong": {
+            "A": "Esta sería una preocupación válida si el límite inferior del IC (3,1) estuviera por debajo de la DMCI (3 puntos). Dado que 3,1 > 3,0, todo el IC supera la DMCI — el fármaco cumple los umbrales de significación estadística y clínica.",
+            "C": "Un IC estrecho refleja un tamaño muestral grande (2.000 participantes), proporcionando alta precisión — no sesgo de publicación. El sesgo de publicación afecta a la literatura, no al ancho del IC individual.",
+            "D": "Las consideraciones éticas sobre el tamaño muestral requieren que el ensayo tenga potencia adecuada (no insuficiente) — una potencia del 95% es más alta que el 80% convencional, lo que significa una muestra más grande. Si esto representa 'excesiva potencia' depende de la precisión requerida y el coste de los participantes, pero no es inherentemente poco ético usar una potencia del 95%."
+          },
+          "guideline": "ICH E9 Principios Estadísticos para Ensayos Clínicos (1998, actualizado E9(R1) 2019) — Un resultado es clínicamente relevante cuando el efecto estimado y su intervalo de confianza superan la DMCI preespecificada; la significación estadística sola es insuficiente sin la evaluación de la significación clínica.",
+          "trial": "Ensayo MTOPS (McConnell JW, NEJM 2003): Ensayo de HBP que usó el cambio del IPSS como endpoint primario — demostrando el concepto de DMCI en la práctica urológica; una reducción del IPSS de 3 puntos se considera la mejora mínimamente detectable por los pacientes.",
+          "pearl": "Significación estadística (p<0,05) ≠ significación clínica. La significación clínica requiere que el límite inferior del intervalo de confianza supere la DMCI. Para el IPSS en HBP, DMCI = 3 puntos. Un ensayo grande con p pequeño puede detectar diferencias triviales que no son clínicamente relevantes."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G1-Q3",
+        "stem": "En el ECA RAZOR (Parekh et al. Lancet 2018) que comparó la cistectomía radical asistida por robot (CRAR) con la cistectomía radical abierta (CRA) para el cáncer de vejiga, el endpoint primario fue la supervivencia libre de progresión (SLP) a 2 años. El ensayo informó un 72,3% de SLP para CRAR frente al 71,6% para CRA. Este fue un ensayo de no inferioridad. ¿Qué significa este resultado?",
+        "options": {
+          "A": "La CRAR es significativamente superior a la CRA en la SLP a 2 años",
+          "B": "La CRAR no es inferior a la CRA — es decir, la CRAR no empeora sustancialmente la SLP a 2 años en comparación con la CRA",
+          "C": "El ensayo no es concluyente porque las tasas de SLP son casi idénticas",
+          "D": "La CRA debe abandonarse en favor de la CRAR basándose en este resultado"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "RAZOR fue un ensayo de no inferioridad: la pregunta de investigación era si la CRAR 'no era sustancialmente peor' que la CRA en cuanto a resultados oncológicos (SLP), permitiendo adoptarla sobre la base de otros beneficios (menor pérdida de sangre, menor estancia hospitalaria). Un resultado de no inferioridad no significa superioridad — significa que el nuevo tratamiento se mantiene dentro del margen de no inferioridad preespecificado del tratamiento establecido. La SLP del 72,3% frente al 71,6% está dentro del margen, lo que respalda la no inferioridad. Esto permite adoptar la CRAR sobre la base de un control oncológico equivalente.",
+          "wrong": {
+            "A": "La CRAR NO es significativamente superior — una diferencia del 0,7% en la SLP sin superioridad estadística. Los ensayos de no inferioridad no concluyen superioridad a menos que también se realice y cumpla una prueba formal de superioridad.",
+            "C": "Los resultados casi idénticos son exactamente lo que debería mostrar un ensayo de no inferioridad exitoso — el nuevo tratamiento funciona igual que el establecido. Esto no es no concluyente; es el resultado previsto.",
+            "D": "La no inferioridad significa que la CRAR puede ofrecerse a los pacientes con resultados oncológicos equivalentes; no significa que la CRA deba abandonarse. La selección del paciente, la experiencia del cirujano y los factores institucionales aún determinan la elección."
+          },
+          "guideline": "Extensión CONSORT para Ensayos de No Inferioridad (Piaggio G, JAMA 2006) — En los ensayos de no inferioridad, la hipótesis nula es que el nuevo tratamiento es inferior por más del margen δ. El rechazo de esta nula = no inferioridad demostrada. No implica superioridad.",
+          "trial": "ECA RAZOR (Parekh BH et al., Lancet 2018): 350 pacientes aleatorizados CRAR vs CRA — SLP a 2 años 72,3% vs 71,6% (no inferioridad lograda); menor pérdida de sangre y transfusión con CRAR — estableciendo la CRAR como una opción no inferior oncológicamente.",
+          "pearl": "Resultado de ensayo de no inferioridad significa: el nuevo tratamiento no es sustancialmente peor (dentro del margen) — no que sea equivalente o mejor. RAZOR confirmó que la CRAR no es inferior a la CRA oncológicamente. No inferioridad ≠ superioridad."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G1-Q4",
+        "stem": "Un investigador informa un ensayo en el que los pacientes con obstrucción del tracto de salida vesical por HBP fueron aleatorizados a RTU-P frente a tratamiento médico. El endpoint primario fue la reducción de la puntuación de síntomas a los 12 meses. El ensayo muestra un beneficio estadísticamente significativo para la RTU-P (p=0,02). Sin embargo, los pacientes en el brazo de RTU-P tenían una edad media de 64 años, mientras que los pacientes en el brazo de tratamiento médico tenían una edad media de 71 años — una diferencia surgida por azar a pesar de la aleatorización. Esto es un ejemplo de qué fenómeno?",
+        "options": {
+          "A": "Confusión por indicación",
+          "B": "Desequilibrio por azar en una característica basal — abordable mediante análisis multivariante o aleatorización estratificada en futuros ensayos",
+          "C": "Sesgo de selección por ocultamiento inadecuado de la asignación",
+          "D": "Sesgo de detección por evaluadores de resultados sin enmascaramiento"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Incluso con una aleatorización adecuada, puede producirse un desequilibrio por azar en las características basales — particularmente en ensayos pequeños. Esto no es sesgo (que es sistemático) sino error aleatorio. En este caso, el brazo de RTU-P aleatorizó por azar a pacientes más jóvenes, que pueden tener mejores respuestas sintomáticas. El enfoque apropiado es ajustar por edad en un análisis de regresión multivariante (ajuste de covariables) para estimar el efecto del tratamiento independientemente del desequilibrio de edad. Los futuros ensayos pueden prevenir esto con la aleatorización estratificada por edad.",
+          "wrong": {
+            "A": "La confusión por indicación ocurre en estudios observacionales donde la selección del tratamiento está influida por la indicación (p. ej., los pacientes más enfermos reciben una terapia más intensiva). En un ECA, la asignación no está impulsada por la indicación. El desequilibrio aquí es fortuito, no una confusión sistemática.",
+            "C": "El sesgo de selección por ocultamiento inadecuado de la asignación produciría diferencias sistemáticas (el reclutador asigna preferentemente a pacientes más jóvenes a RTU-P). El desequilibrio por azar a pesar de la aleatorización correcta es un mecanismo diferente.",
+            "D": "El sesgo de detección se refiere a la medición de resultados, no a las características basales. El desequilibrio de edad basal no está relacionado con cómo se miden los resultados."
+          },
+          "guideline": "CONSORT 2010 (Ítem 15): Informar las características basales por grupo en una tabla — permite a los lectores identificar desequilibrios por azar. CONSORT (Ítem 16): Ajustar los desequilibrios basales en el análisis si es probable que afecten a los resultados (ajuste de covariables).",
+          "trial": "Ensayo SUSPEND (Pickard R, NEJM 2015): Bloqueante alfa-1 para síntomas de catéter ureteral — a pesar de la aleatorización, se produjeron algunos desequilibrios basales; los autores realizaron análisis de sensibilidad preespecificados ajustando por tamaño del cálculo y lateralidad del catéter, demostrando cómo se maneja apropiadamente el desequilibrio por azar.",
+          "pearl": "Desequilibrio por azar ≠ sesgo. El sesgo es sistemático; el desequilibrio por azar es aleatorio. Los desequilibrios por azar en ECA pequeños deben abordarse en el análisis mediante ajuste multivariante. Los futuros ensayos usan aleatorización estratificada para prevenir desequilibrios pronósticos clave."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q5",
+        "stem": "Un ECA de oncología urológica informa que un nuevo inhibidor de punto de control mejora la supervivencia libre de progresión (SLP) en 4 meses en comparación con la quimioterapia estándar (HR 0,68, IC 95% 0,55-0,83, p=0,001). Sin embargo, los datos de supervivencia global son inmaduros en el momento de la comunicación (seguimiento medio 18 meses). Un revisor argumenta que la SLP es un sustituto inadecuado de la SG. ¿Qué criterios debe cumplir un endpoint subrogado para considerarse válido para la aprobación regulatoria?",
+        "options": {
+          "A": "El sustituto debe ser biológicamente plausible, fuertemente correlacionado con el endpoint verdadero, y los ensayos que muestran beneficio en el sustituto deben producir consistentemente beneficio en el endpoint verdadero (criterios de Prentice)",
+          "B": "El sustituto debe ser medible a los 12 meses y mostrar p<0,05 en el análisis primario",
+          "C": "El sustituto debe estar respaldado por al menos dos grandes sociedades oncológicas",
+          "D": "El sustituto es válido siempre que el intervalo de confianza excluya 1,0 para el cociente de riesgos"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "La validez del endpoint subrogado se basa en los criterios de Prentice (Prentice RL, Statistics in Medicine 1989): (1) el sustituto está en sí mismo asociado pronósticamente con el endpoint verdadero; (2) el efecto del tratamiento sobre el sustituto captura completamente el efecto del tratamiento sobre el endpoint verdadero (prueba estadística de sustitución). En la práctica, los sustitutos se evalúan mediante metarregresión en múltiples ensayos, evaluando la correlación entre los efectos del tratamiento sobre el sustituto y el endpoint verdadero (método Buyse). La SLP como sustituto de la SG está validada en algunos tipos de cáncer (colorrectal) pero tiene evidencia de sustitución más débil en otros (vejiga, próstata). Las agencias reguladoras (EMA, FDA) evalúan la evidencia de sustitución caso por caso.",
+          "wrong": {
+            "A": "Correcto — véase la explicación anterior.",
+            "B": "La medibilidad a los 12 meses y la significación estadística en el sustituto no constituyen validez — son características del diseño, no de la validación de la sustitución. Un sustituto puede mostrar p<0,05 sin ser un predictor válido de la SG.",
+            "C": "El respaldo de la sociedad es relevante para las recomendaciones de las guías clínicas, pero no es un criterio de definición de sustituto validado. La aprobación regulatoria requiere validación estadística del sustituto, no solo consenso profesional.",
+            "D": "Un IC del 95% del cociente de riesgos que excluye 1,0 significa significación estadística para el endpoint subrogado en sí mismo — no dice nada sobre si el sustituto predice de forma fiable el endpoint verdadero."
+          },
+          "guideline": "Guía EMA sobre la Evaluación de Medicamentos Anticancerosos (2012, actualizado 2023) — Criterios de validación del endpoint subrogado: fuerte asociación estadística con SG, plausibilidad mecanística y evidencia cruzada en ensayos consistente; SLP aceptada para aprobación condicional cuando los datos de SG son inmaduros.",
+          "trial": "Prentice RL (Statistics in Medicine 1989): Criterios formales originales para la validación del endpoint subrogado — proporcionando el marco estadístico para evaluar si los efectos del tratamiento sobre los sustitutos capturan de forma fiable los efectos del tratamiento sobre los endpoints clínicos verdaderos, ahora utilizado en toda la ciencia regulatoria.",
+          "pearl": "La validez del endpoint subrogado requiere: (1) plausibilidad biológica, (2) correlación estadística con el endpoint verdadero, (3) efecto del tratamiento consistente entre ensayos (criterios de Prentice). La SLP como sustituto de la SG es dependiente del contexto — validada en algunos cánceres, no en otros. Esta es la metodología fundamental de los ensayos oncológicos."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q6",
+        "stem": "Un estudio de cohorte compara pacientes tratados con vigilancia activa (VA) frente a prostatectomía radical (PR) para cáncer de próstata de bajo riesgo. Los hombres que eligen la PR tenían menor edad, mayor nivel educativo y menos comorbilidades que los hombres que eligen la VA. Tras el ajuste por estas variables, la PR aún muestra mejor supervivencia específica por cáncer. ¿Qué técnica analítica puede ajustar adicionalmente los factores de confusión no medidos en estos datos observacionales?",
+        "options": {
+          "A": "Emparejamiento o ponderación por puntuación de propensión",
+          "B": "Análisis de supervivencia de Kaplan-Meier",
+          "C": "Regresión logística ajustando solo por el nivel de PSA",
+          "D": "Análisis por intención de tratar"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Los métodos de puntuación de propensión equilibran los factores de confusión medidos entre los grupos de tratamiento en los estudios observacionales. La puntuación de propensión es la probabilidad de recibir un tratamiento dadas las covariables observadas. Al emparejar o ponderar a los pacientes con puntuaciones de propensión similares, los factores de confusión observados quedan equilibrados — imitando, en la medida de lo posible, un experimento aleatorizado. Sin embargo, los métodos de puntuación de propensión no pueden dar cuenta de los factores de confusión no medidos — esta es una limitación fundamental de todos los diseños de estudio observacional. La respuesta se entiende mejor como: la puntuación de propensión equilibra los factores de confusión MEDIDOS de forma más completa que la regresión multivariante en entornos muy desequilibrados.",
+          "wrong": {
+            "A": "Correcto — véase la explicación anterior.",
+            "B": "El análisis de Kaplan-Meier es un método para estimar y mostrar resultados tiempo hasta evento — no ajusta por factores de confusión.",
+            "C": "La regresión logística ajustando solo por PSA aborda parcialmente la confusión — ignora la edad, las comorbilidades y otros factores de confusión medidos. Los métodos de puntuación de propensión incorporan simultáneamente todas las covariables disponibles.",
+            "D": "El análisis por intención de tratar es un concepto de los ECA (analizar a los pacientes en sus grupos asignados independientemente de lo que recibieron). No se aplica a los estudios observacionales donde no hay aleatorización."
+          },
+          "guideline": "Declaración STROBE (von Elm E, Lancet 2007) — Comunicación de estudios observacionales: los métodos de puntuación de propensión deben describirse e implementarse cuando los grupos no aleatorizados tienen diferencias basales sustanciales; debe reconocerse la confusión residual por variables no medidas.",
+          "trial": "Hamdy FC et al. Ensayo ProtecT (NEJM 2016): ECA que compara VA, PR y RT para el cáncer de próstata localizado — esto fue posible como ECA precisamente porque el enfoque observacional alternativo estaría fuertemente confundido por la selección (pacientes más jóvenes y en mejor forma eligiendo PR) — ilustrando por qué los ECA son esenciales para establecer comparaciones causales del tratamiento.",
+          "pearl": "Los métodos de puntuación de propensión equilibran los factores de confusión MEDIDOS en estudios observacionales — pero no pueden eliminar la confusión no medida. Por eso los estudios observacionales nunca pueden sustituir completamente a los ECA para la inferencia causal sobre los efectos del tratamiento."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q7",
+        "stem": "Un investigador realiza un ensayo de biopsia de próstata transperineal frente a transrectal para el diagnóstico de cáncer de próstata. El endpoint primario es la tasa de detección de cáncer. Los pacientes conocen su asignación, pero los patólogos que revisan los cilindros de biopsia están enmascarados respecto a la vía de biopsia. ¿Qué sesgo se mitiga MÁS eficazmente con este diseño?",
+        "options": {
+          "A": "Sesgo de selección",
+          "B": "Sesgo de realización",
+          "C": "Sesgo de detección (sesgo de adscripción)",
+          "D": "Sesgo de comunicación"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El enmascaramiento del patólogo respecto a la vía de biopsia impide que el conocimiento del patólogo sobre la técnica influya en la interpretación del cilindro (sesgo de detección). Si un patólogo supiera que un cilindro proviene de una biopsia transperineal, podría interpretar los cilindros limítrofes con más o menos generosidad que si supiera que era transrectal. El enmascaramiento del patólogo (evaluador del resultado) está diseñado específicamente para prevenir el sesgo de detección — evaluación diferencial basada en el conocimiento de la asignación del tratamiento.",
+          "wrong": {
+            "A": "El sesgo de selección se refiere al reclutamiento y la asignación de participantes, no a la evaluación de resultados. Se previene mediante la aleatorización y el ocultamiento de la asignación — no mediante el enmascaramiento de patólogos.",
+            "B": "El sesgo de realización ocurre cuando se proporciona atención diferencial basada en el conocimiento de la asignación — se previene enmascarando a los proveedores de atención. El patólogo es un evaluador de resultados, no un proveedor de atención en este contexto. El enmascaramiento de los patólogos no previene el sesgo de realización de la atención.",
+            "D": "El sesgo de comunicación es un sesgo a nivel de publicación (comunicación selectiva de resultados) — prevenido por el registro del ensayo y la comunicación completa de resultados, no por el enmascaramiento del evaluador."
+          },
+          "guideline": "CONSORT 2010 (Ítem 11a): Especificar quién está enmascarado y el método de enmascaramiento; el enmascaramiento del evaluador para el endpoint primario es particularmente crítico para resultados subjetivos como la interpretación anatomopatológica.",
+          "trial": "Ensayo PROMIS (Ahmed HU, Lancet 2017): Ensayo multicéntrico del Reino Unido que evaluó la RM multiparamétrica antes de la biopsia de próstata — la revisión anatomopatológica fue centralizada y los patólogos estaban enmascarados respecto a los resultados de imagen para prevenir el sesgo de adscripción en la detección y comunicación del grado del cáncer — ejemplificando el enmascaramiento del evaluador en ensayos urológicos.",
+          "pearl": "Enmascarar al evaluador del resultado (p. ej., patólogo, radiólogo, evaluador de síntomas) previene el sesgo de detección. En los ensayos quirúrgicos donde enmascarar a los participantes y cirujanos es imposible, el enmascaramiento del evaluador sigue siendo alcanzable y es crítico para los endpoints primarios. Especificar QUIÉN está enmascarado — no solo si el ensayo está 'enmascarado'."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q8",
+        "stem": "Un investigador planifica un ECA de fase III para probar un nuevo tratamiento adyuvante para el cáncer de vejiga de alto riesgo tras la cistectomía radical. La diferencia objetivo en la supervivencia libre de enfermedad a 5 años es del 10% (esperado 50% control, 60% tratamiento). Alfa = 0,05, potencia = 80%, prueba bilateral. ¿Aproximadamente cuántos pacientes por brazo se necesitan?",
+        "options": {
+          "A": "50 por brazo",
+          "B": "150 por brazo",
+          "C": "aproximadamente 200-250 por brazo",
+          "D": "Más de 1.000 por brazo"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Para una prueba bilateral que compara dos proporciones (50% vs 60%), alfa = 0,05, potencia = 80%, la fórmula estándar de tamaño muestral para la comparación de dos proporciones produce aproximadamente 200-250 pacientes por brazo. Usando la transformación arcoseno o la fórmula de proporción estándar: n ≈ 2 × (Z_α/2 + Z_β)² × p(1-p) / (p1-p2)². Con Z_0,025 = 1,96, Z_0,20 = 0,84 y varianza agrupada, el resultado cae en el rango de 200-250 por brazo. Este es el rango de estimación más común para ensayos que buscan detectar una diferencia absoluta del 10% en resultados binarios con parámetros estándar.",
+          "wrong": {
+            "A": "50 por brazo estaría groseramente infrapotenciado para detectar una diferencia del 10% en la SLE a 5 años — proporcionaría una potencia <20% para este tamaño del efecto.",
+            "B": "150 por brazo está más cerca pero ligeramente infrapotenciado para los parámetros especificados; el requisito real con suposiciones estándar cae alrededor de 200-250 por brazo.",
+            "D": "Más de 1.000 por brazo serían necesarios para detectar diferencias muy pequeñas (1-2%) o para lograr una potencia muy alta (>95%) — no para una diferencia del 10% con un 80% de potencia."
+          },
+          "guideline": "ICH E9 Principios Estadísticos para Ensayos Clínicos (1998): El tamaño muestral debe preespecificarse basándose en un tamaño del efecto clínicamente importante, tasas de error aceptables y variabilidad del resultado; los ensayos infrapotenciados son científicamente desinformativos y éticamente problemáticos.",
+          "trial": "CHECKMATE-274 (Bajorin DF, NEJM 2021): Nivolumab adyuvante tras cistectomía radical para cáncer de vejiga — reclutó a 709 pacientes (354/355 por brazo) para detectar una diferencia del 10,6% en la SLE a 6 meses, demostrando el tamaño muestral típico de 300-400 por brazo para este tipo de ECA de cáncer de vejiga adyuvante.",
+          "pearl": "Tamaño muestral para detectar una diferencia absoluta del 10% en resultado binario (50% vs 60%), alfa=0,05, potencia=80% ≈ 200-250 por brazo (400-500 en total). Una diferencia menor (5%) o mayor potencia (90%) requieren dramáticamente más participantes. Los cálculos de tamaño muestral siempre se preespecifican."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q9",
+        "stem": "En el ensayo ProtecT (Hamdy FC et al., NEJM 2016) que comparó la vigilancia activa (VA), la prostatectomía radical (PR) y la radioterapia externa (RT) para el cáncer de próstata localizado, se aleatorizaron 1.643 hombres. A los 10 años, la mortalidad específica por cáncer de próstata fue del 1,5% para VA, 0,9% para PR y 0,7% para RT — sin diferencia significativa. Sin embargo, las metástasis fueron más altas en el grupo de VA (6,3% vs 2,4% PR, 3,0% RT). ¿Cuál es la interpretación correcta?",
+        "options": {
+          "A": "La PR y la RT son superiores a la VA y deben recomendarse a todos los pacientes de bajo riesgo",
+          "B": "A los 10 años, la mortalidad específica por cáncer de próstata no difiere significativamente entre tratamientos; la VA conlleva mayor riesgo de metástasis, requiriendo un seguimiento más prolongado para determinar si la mortalidad divergirá",
+          "C": "El ensayo tiene insuficiente potencia porque solo se reclutaron 1.643 hombres",
+          "D": "Las metástasis son un endpoint poco fiable y el resultado del ProtecT confirma la VA como equivalente al tratamiento curativo"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ProtecT a los 10 años de seguimiento no mostró diferencia significativa en la mortalidad específica por cáncer de próstata entre los tres brazos (cada uno aproximadamente 1%). Sin embargo, el brazo de VA tuvo significativamente más metástasis. Dado que la muerte por cáncer de próstata puede tardar 15-20 años desde las metástasis, el seguimiento de 10 años puede ser insuficiente para detectar una diferencia de mortalidad que los datos de metástasis predicen que surgirá más adelante. Los datos de seguimiento a 15 años (publicados en 2023) confirmaron que la mortalidad comenzó a divergir, con la VA mostrando tasas más altas. La interpretación correcta es matizada: sin diferencia de mortalidad a los 10 años, pero mayor riesgo de metástasis en la VA, lo que sugiere que se necesita un seguimiento más prolongado.",
+          "wrong": {
+            "A": "A los 10 años, no hubo ventaja de supervivencia estadísticamente significativa para la PR o RT frente a la VA. Recomendar el tratamiento activo universal basándose únicamente en las tasas de metástasis, sin diferencia de mortalidad, sobreinterpreta la evidencia actual.",
+            "C": "El ProtecT reclutó a 1.643 hombres — un ECA bien potenciado. La falta de diferencia de mortalidad a los 10 años es el resultado verdadero, no un problema de potencia. El ensayo tenía >80% de potencia para detectar una diferencia de supervivencia clínicamente relevante.",
+            "D": "Las metástasis son un endpoint válido y preespecificado secundario. Descartarlas como 'poco fiables' ignora información pronóstica importante. La discordancia entre metástasis y mortalidad a los 10 años refleja la duración del seguimiento, no la invalidez del endpoint."
+          },
+          "guideline": "Guías de la EAU sobre Cáncer de Próstata (2024) — Vigilancia activa: apropiada para CPa de bajo riesgo y riesgo intermedio favorable; el ensayo ProtecT respalda la VA como opción de manejo con mortalidad específica por cáncer equivalente a los 10 años; se requiere un seguimiento más prolongado para conclusiones definitivas.",
+          "trial": "Hamdy FC et al., ProtecT (NEJM 2016): Mortalidad específica por cáncer de próstata a 10 años 1,5% VA, 0,9% PR, 0,7% RT (sin diferencia significativa p=0,48); metástasis 6,3% VA, 2,4% PR, 3,0% RT (p=0,004) — ensayo de referencia para el manejo del cáncer de próstata localizado.",
+          "pearl": "ProtecT a los 10 años: mortalidad por cáncer de próstata equivalente entre VA/PR/RT. La VA tiene más metástasis. Implicación: el CPa de bajo riesgo puede manejarse con VA sin comprometer la supervivencia específica por cáncer a 10 años. Se necesita un seguimiento más prolongado para determinar si la diferencia de metástasis se traduce en diferencia de mortalidad."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G1-Q10",
+        "stem": "Un ECA que compara dos regímenes antibióticos para infecciones urinarias no complicadas informa resultados por análisis por intención de tratar (ITT) (n=400 por brazo) y por análisis por protocolo (PP) (n=310 por brazo para el régimen A, n=340 por brazo para el régimen B). El análisis ITT muestra una curación clínica del 72% vs 68% (p=0,10, no significativo). El análisis PP muestra una curación clínica del 80% vs 71% (p=0,02, significativo). ¿Cómo debe interpretarse esta discordancia?",
+        "options": {
+          "A": "El análisis PP es el resultado definitivo porque incluye solo a los pacientes adherentes",
+          "B": "El análisis ITT es el resultado de eficacia primario; el análisis PP es de apoyo; la discordancia puede indicar no adherencia diferencial o abandono entre grupos que debe investigarse",
+          "C": "El análisis ITT subestima el verdadero efecto del tratamiento porque incluye a pacientes no adherentes",
+          "D": "Ambos análisis son equivalentes; el resultado PP p=0,02 confirma la eficacia del fármaco"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El ITT es el análisis de eficacia primario en los ECA (estándar CONSORT e ICH E9). El análisis PP es de apoyo. La discordancia entre ITT y PP puede indicar: abandono diferencial entre brazos (más pacientes abandonando un brazo, posiblemente debido a efectos secundarios o falta de eficacia), que elimina selectivamente a ciertos participantes del análisis PP y lo sesga. Cuando el análisis PP muestra un resultado significativo mientras el ITT no lo hace, el resultado PP puede estar inflado por la selección de respondedores adherentes. La respuesta apropiada es investigar las razones del abandono e informar ambos análisis de forma transparente.",
+          "wrong": {
+            "A": "El análisis PP es susceptible al sesgo de desgaste — incluir solo a los pacientes adherentes crea una población seleccionada que puede no representar a todos los pacientes aleatorizados. El PP es de apoyo, no definitivo.",
+            "C": "Si bien es cierto que el ITT es conservador (incluye a pacientes no adherentes que pueden no beneficiarse completamente), esto es intencional — el ITT refleja la efectividad en el mundo real donde no todos los pacientes son completamente adherentes. El ITT estima el efecto pragmático; el PP estima la eficacia biológica bajo adherencia ideal.",
+            "D": "Los dos análisis no son equivalentes — abordan preguntas diferentes (efectividad vs eficacia) y son susceptibles a diferentes sesgos. Un resultado PP significativo no puede simplemente confirmar la eficacia cuando el resultado ITT no es significativo."
+          },
+          "guideline": "ICH E9 Principios Estadísticos para Ensayos Clínicos (1998): El ITT es el análisis de eficacia primario preespecificado; el análisis PP es secundario; la discordancia entre los dos debe explicarse y comunicarse de forma transparente.",
+          "trial": "Ensayo STUDD (Pickard R, NEJM 2015 — ensayo de antibióticos para ITU no complicada): Usó el ITT como análisis primario; el análisis PP fue de apoyo; la discordancia explicada por la adherencia diferencial al régimen antibiótico asignado — ilustrando la interpretación ITT/PP en el contexto de un ensayo antibiótico urológico.",
+          "pearl": "ITT = todos los pacientes aleatorizados en sus grupos asignados = análisis primario. PP = solo pacientes adherentes = análisis de apoyo. Cuando el ITT es negativo y el PP es positivo, el resultado PP puede estar inflado por la selección de respondedores adherentes. Investigar el abandono diferencial para explicar la discordancia."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q11",
+        "stem": "Un investigador en una conferencia de urología presenta un análisis de un registro prospectivo de 2.500 pacientes con cistectomía radical. Informa que la cistectomía mínimamente invasiva (laparoscópica/robótica) se asocia con menores tasas de reingreso a 90 días (18% vs 24%, p=0,002) en comparación con la cistectomía abierta, tras el emparejamiento por puntuación de propensión por edad, puntuación ASA y estadio pT. Un colega cuestiona esto afirmando que 'el resultado probablemente se explica por confusión no medida'. ¿Qué significa esto?",
+        "options": {
+          "A": "El modelo de puntuación de propensión fue especificado incorrectamente y debería incluir más variables",
+          "B": "Incluso después de ajustar por las variables medidas, las variables no incluidas en el modelo de puntuación de propensión (como el volumen del cirujano, el estado funcional o los índices de comorbilidad) pueden seguir explicando la asociación",
+          "C": "La tasa de reingreso es un endpoint sesgado que favorece la cirugía mínimamente invasiva",
+          "D": "El tamaño muestral es insuficiente para sacar conclusiones"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La confusión no medida es la limitación fundamental de todos los estudios observacionales, independientemente de lo sofisticado que sea el ajuste estadístico. Incluso después del emparejamiento por puntuación de propensión por edad, ASA y estadio pT, las variables no capturadas en el registro (volumen del cirujano, estado funcional, apoyo social, estado nutricional, protocolos ERAS especializados) pueden diferir entre los pacientes abiertos y mínimamente invasivos y afectar independientemente a las tasas de reingreso. Los ensayos aleatorizados son el único diseño que da cuenta de los factores de confusión tanto medidos como no medidos a través de la asignación por azar.",
+          "wrong": {
+            "A": "Aunque un modelo de puntuación de propensión más completo con variables adicionales podría reducir la confusión medida, no puede eliminar la confusión no medida por definición — las variables no medidas no están en el modelo. La preocupación del colega se refiere específicamente a las variables no medidas.",
+            "C": "La tasa de reingreso es un endpoint válido y objetivo. La cirugía mínimamente invasiva puede genuinamente reducir el reingreso a través de menos complicaciones de la herida, recuperación más rápida. La preocupación no es sobre el sesgo del endpoint sino sobre la confusión.",
+            "D": "2.500 pacientes es una muestra grande que proporciona sustancial potencia estadística. La preocupación es sobre la validez interna (confusión), no la potencia estadística."
+          },
+          "guideline": "Declaración STROBE (von Elm E, Ann Intern Med 2007): Los estudios observacionales deben reconocer la confusión residual y la posibilidad de que las variables no medidas expliquen las asociaciones observadas; solo los ECA pueden controlar los factores de confusión no medidos.",
+          "trial": "ECA iROC (Catto JW, JAMA 2022): Comparación de CRAR vs CRA en un entorno correctamente aleatorizado — logró un mejor control de los factores de confusión tanto medidos como no medidos que los estudios de registro previos, demostrando por qué se necesitan ECA para confirmar las asociaciones observadas en los datos observacionales.",
+          "pearl": "La puntuación de propensión equilibra los factores de confusión MEDIDOS únicamente. Los factores de confusión no medidos (no en el registro) permanecen desequilibrados y pueden explicar las asociaciones observacionales. Solo los ECA equilibran los factores de confusión tanto medidos como no medidos. Por eso los ECA siguen siendo esenciales a pesar de los sofisticados métodos observacionales."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q12",
+        "stem": "Un investigador planifica un ECA con potencia del 90% para detectar una diferencia absoluta del 15% en la tasa libre de cálculos (TLC) a los 3 meses tras ureteroscopia vs litotricia extracorpórea por ondas de choque (LEOC) para cálculos ureterales de 10-15 mm. La TLC esperada es del 70% para ureteroscopia y del 55% para LEOC. Error de tipo I alfa = 0,05 (bilateral). El reclutador propone inscribir a los participantes en una proporción 2:1 (ureteroscopia:LEOC) para evitar que los pacientes rechacen la LEOC. ¿Cuál es la consecuencia de la asignación desigual para la eficiencia estadística?",
+        "options": {
+          "A": "La asignación desigual aumenta la potencia estadística con el mismo tamaño muestral total",
+          "B": "La asignación desigual reduce la eficiencia estadística en comparación con la asignación 1:1; se requiere una muestra total mayor para la misma potencia",
+          "C": "La asignación desigual elimina el sesgo de selección porque más pacientes reciben el tratamiento preferido",
+          "D": "La asignación desigual no tiene ningún efecto sobre la potencia; solo importa el tamaño del brazo más pequeño"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La asignación igual (1:1) es estadísticamente óptima — maximiza la potencia para un tamaño muestral total dado. La asignación desigual (2:1) reduce la eficiencia estadística, requiriendo una muestra total mayor para mantener la misma potencia. La pérdida estadística puede calcularse: para una proporción de 2:1, el total efectivo de la muestra para mantener una potencia del 90% se incrementa en un factor de (r+1)²/(4r) donde r es la proporción de asignación — resultando en aproximadamente un 12,5% más de participantes necesarios en comparación con 1:1. La asignación desigual puede elegirse por razones pragmáticas (preferencia de tratamiento, coste, factibilidad) pero siempre a costa de la eficiencia estadística.",
+          "wrong": {
+            "A": "La asignación desigual REDUCE, no aumenta, la eficiencia estadística. La asignación 1:1 minimiza el tamaño muestral total requerido para cualquier nivel de potencia dado.",
+            "C": "La asignación desigual no elimina el sesgo de selección — cambia la proporción de asignaciones pero no cambia el mecanismo de aleatorización. El ocultamiento de la asignación previene el sesgo de selección independientemente de la proporción.",
+            "D": "Ambos tamaños de brazo contribuyen a la potencia estadística. La asignación desigual reduce la contribución del brazo más pequeño más que proporcionalmente, reduciendo la eficiencia general."
+          },
+          "guideline": "ICH E9 Principios Estadísticos para Ensayos Clínicos (1998): Las proporciones de aleatorización desigual deben preespecificarse con justificación; reducen la eficiencia estadística y requieren muestras totales más grandes; la asignación 1:1 es el diseño más eficiente.",
+          "trial": "Ensayo SUSPEND (Pickard R, NEJM 2015): Utilizó asignación 1:1:1 en tres brazos (bloqueante alfa A, bloqueante alfa B, placebo) para optimizar la eficiencia estadística para detectar diferencias en las tasas de paso del cálculo — demostrando la asignación igual como valor predeterminado para los ensayos de grupos paralelos.",
+          "pearl": "Asignación 1:1 = máxima eficiencia estadística. La asignación desigual reduce la potencia para el mismo tamaño muestral total, o requiere más participantes para mantener la potencia. La asignación desigual a veces se justifica pragmáticamente (preferencia del participante, coste) pero debe preespecificarse con justificación."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G1-Q13",
+        "stem": "El marco IDEAL para evaluar las innovaciones quirúrgicas tiene cinco etapas. Un urólogo ha desarrollado una novedosa técnica de reparación rectal sin estoma con anastomosis única usando asistencia robótica. Ha realizado 5 casos y está preparando su primera publicación. ¿En qué etapa IDEAL se encuentra este trabajo?",
+        "options": {
+          "A": "Etapa 3 (Evaluación — ECA)",
+          "B": "Etapa 2a (Desarrollo — pequeña serie de casos con refinamiento iterativo de la técnica)",
+          "C": "Etapa 4 (Registro de vigilancia a largo plazo)",
+          "D": "Etapa 2b (Exploración — cohorte prospectiva multicéntrica)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La Etapa IDEAL 2a (Desarrollo) corresponde a series de casos tempranos donde un cirujano está aprendiendo y refinando activamente la técnica basándose en los resultados inmediatos. Características clave: pequeños números (típicamente <30 casos), variaciones de técnica descritas y refinadas entre casos, los resultados son preliminares y descriptivos. Las publicaciones de la Etapa 2a son series de casos o pequeñas cohortes de casos que describen la técnica, la curva de aprendizaje y la factibilidad inicial — apropiadas para la serie de 5 casos descrita aquí.",
+          "wrong": {
+            "A": "La Etapa 3 (Evaluación) requiere un ECA formal que compare la innovación con el estándar de atención. Esto requiere que la técnica esté estandarizada, que múltiples cirujanos estén entrenados y que haya suficientes datos preliminares para potenciar un estudio aleatorizado — muy por encima de una experiencia de 5 casos.",
+            "C": "La Etapa 4 (Largo plazo) implica vigilancia mediante registro a nivel poblacional para complicaciones raras y resultados a largo plazo en una innovación madura. Sigue a un ECA de Etapa 3 y representa técnicas establecidas.",
+            "D": "La Etapa 2b (Exploración) implica estudios prospectivos multicéntricos con técnica estandarizada en múltiples sitios — requiriendo múltiples cirujanos, estandarización de la técnica y números más grandes (típicamente 50-200 casos). Esto supera una experiencia de 5 casos."
+          },
+          "guideline": "Marco IDEAL (Ergina PL et al., Lancet 2009): Etapa 1 = primer caso en humanos; Etapa 2a = desarrollo (serie pequeña, refinamiento de técnica); Etapa 2b = exploración (multicéntrica, estandarizada); Etapa 3 = evaluación (ECA); Etapa 4 = largo plazo (registro, vigilancia). Guía el diseño de estudio apropiado en cada etapa de innovación.",
+          "trial": "McCulloch P et al., Colaboración IDEAL (Lancet 2009): Introducción del marco IDEAL a la investigación quirúrgica — proporcionando orientación estructurada para la comunicación de innovaciones quirúrgicas que reconoce la naturaleza escalonada del desarrollo de técnicas quirúrgicas, ahora ampliamente referenciado en la investigación quirúrgica urológica.",
+          "pearl": "Etapas IDEAL: 1=primer caso, 2a=serie pequeña (refinamiento de técnica), 2b=prospectiva multicéntrica, 3=ECA, 4=registro a largo plazo. Una primera experiencia de 5 casos = IDEAL Etapa 2a. Adaptar el diseño del estudio a la etapa de innovación previene la evaluación prematura o la evitación indefinida de la evaluación rigurosa."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q14",
+        "stem": "Un ECA multicéntrico de denervación renal para hipertensión resistente — SYMPLICITY HTN-3 (Bhatt DL, NEJM 2014) — no mostró diferencia significativa en la reducción de la presión arterial sistólica ambulatoria entre la denervación renal y el procedimiento simulado (−14,1 mmHg vs −11,7 mmHg; p=0,26). El procedimiento simulado implicó punción de la arteria femoral y angiografía renal sin denervación. ¿Cuál fue la innovación metodológica de incluir un brazo simulado y qué demostró este ensayo?",
+        "options": {
+          "A": "Los procedimientos simulados proporcionan un control adicional para el efecto placebo; SYMPLICITY HTN-3 mostró que los estudios previos no controlados sobreestimaron el beneficio de la denervación renal debido al efecto placebo",
+          "B": "Los procedimientos simulados son poco éticos y no deben usarse en la investigación quirúrgica",
+          "C": "El brazo simulado controló la confusión por indicación únicamente",
+          "D": "SYMPLICITY HTN-3 confirmó que la denervación renal es superior al tratamiento médico"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "SYMPLICITY HTN-3 introdujo un diseño controlado con simulacro (simulacro = punción de la arteria femoral + angiografía sin ablación) para enmascarar a los participantes y clínicos respecto al tratamiento real, controlando el efecto placebo. Los estudios previos no controlados (SYMPLICITY HTN-1 y HTN-2) mostraron grandes reducciones de PA pero carecían de controles simulados, dejando sin medir la contribución del placebo, la regresión a la media y el efecto Hawthorne. HTN-3 reveló que cuando se controlaron estos sesgos, no había ningún beneficio significativo de la denervación renal sobre el simulacro. Este ensayo negativo de referencia demostró que los procedimientos quirúrgicos sin enmascaramiento son altamente susceptibles a efectos no específicos y que los controles simulados, cuando están éticamente justificados, son necesarios para una evaluación válida.",
+          "wrong": {
+            "A": "Correcto — véase la explicación anterior.",
+            "B": "Los procedimientos simulados son éticamente controvertidos pero no categóricamente poco éticos — deben justificarse por la necesidad clínica de enmascaramiento y deben asociarse con un riesgo adicional mínimo. SYMPLICITY HTN-3 obtuvo la aprobación del IRB/comité de ética. Se han realizado éticamente muchos ensayos quirúrgicos controlados con simulacro.",
+            "C": "La confusión por indicación es un problema de los estudios observacionales relacionado con la selección no aleatoria del tratamiento — no relevante en un ensayo aleatorizado. El brazo simulado controla los efectos placebo/no específicos, no la confusión por indicación.",
+            "D": "SYMPLICITY HTN-3 no encontró ningún beneficio significativo de la denervación renal sobre el simulacro — fue un ensayo NEGATIVO de referencia, no una confirmación de superioridad."
+          },
+          "guideline": "Guías de Metodología de Investigación de la EAU (2024) — Ensayos quirúrgicos controlados con simulacro: justificados cuando el efecto placebo es grande, el enmascaramiento de los participantes es importante para la integridad del resultado primario y el riesgo adicional del procedimiento simulado es mínimo; SYMPLICITY HTN-3 se cita como ejemplo de rigor metodológico en los ensayos quirúrgicos/procedimentales.",
+          "trial": "Bhatt DL et al., SYMPLICITY HTN-3 (NEJM 2014): 535 pacientes aleatorizados 2:1 denervación renal vs simulacro — endpoint primario (PA sistólica ambulatoria a los 6 meses) mostró −14,1 vs −11,7 mmHg, p=0,26 — resultado negativo que revirtió datos previos no controlados prometedores; estableció los ensayos controlados con simulacro como el estándar de oro para las intervenciones procedimentales.",
+          "pearl": "SYMPLICITY HTN-3 = ensayo quirúrgico controlado con simulacro negativo de referencia. Los datos positivos no controlados previos estaban inflados por el efecto placebo. Lección: los ensayos procedimentales/quirúrgicos requieren controles simulados (cuando son éticos) para separar el verdadero efecto del procedimiento de los efectos no específicos. Los ensayos quirúrgicos sin enmascaramiento son susceptibles a grandes efectos placebo."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G1-Q15",
+        "stem": "En un metaanálisis de 10 ECA que compara el Bacillus Calmette-Guérin (BCG) intravesical con la quimioterapia intravesical para el cáncer de vejiga no músculo-invasivo, se detecta heterogeneidad estadística significativa (I² = 68%). ¿Qué significa I² = 68% y cómo debe afectar a la interpretación?",
+        "options": {
+          "A": "El 68% de los estudios mostraron un beneficio significativo para el BCG — el metaanálisis es fiable",
+          "B": "El 68% de la varianza en las estimaciones del efecto entre ensayos se debe a heterogeneidad verdadera (variación en los efectos del tratamiento) más que al azar — esta es una heterogeneidad alta y limita la fiabilidad de una estimación agrupada",
+          "C": "El 68% de los pacientes en el metaanálisis recibieron BCG — indicando desequilibrio en la asignación",
+          "D": "I² es una medida del sesgo de publicación; I² = 68% indica sesgo de publicación significativo que afecta al metaanálisis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El I² (I-cuadrado) cuantifica la proporción de variabilidad en las estimaciones del efecto entre estudios que se atribuye a heterogeneidad verdadera más que al error de muestreo. Valores de I²: <25% = baja, 25-75% = moderada, >75% = alta. I² = 68% indica heterogeneidad verdadera sustancial — es probable que los ensayos estén midiendo efectos del tratamiento significativamente diferentes debido a diferencias en las poblaciones de pacientes, la cepa de BCG, los regímenes de dosificación, los grupos de riesgo o las definiciones de resultados. Una estimación de resumen agrupada de estudios altamente heterogéneos puede ocultar diferencias importantes en subgrupos. La interpretación debe explorar las fuentes de heterogeneidad a través de metarregresión o análisis de subgrupos.",
+          "wrong": {
+            "A": "I² no cuenta la proporción de estudios que muestran un resultado significativo — es una medida estadística de descomposición de varianza entre estudios. El 68% de los estudios que muestran beneficio sería un cálculo diferente.",
+            "C": "I² no tiene nada que ver con las proporciones de asignación o los números de pacientes. Es una estadística basada en varianza que mide la consistencia de las estimaciones del efecto entre estudios.",
+            "D": "El sesgo de publicación se evalúa mediante la asimetría del gráfico de embudo, la prueba de Egger o la prueba de Begg — no mediante I². I² mide la heterogeneidad, no el sesgo de publicación."
+          },
+          "guideline": "Manual Cochrane para Revisiones Sistemáticas de Intervenciones (Higgins JPT, 2022) — Interpretación de I²: <25% = baja heterogeneidad (agrupación apropiada); 25-75% = moderada (explorar fuentes); >75% = alta (estimación agrupada poco fiable, análisis de subgrupos esencial); I² = 68% = moderada-alta, requiriendo exploración de las fuentes de heterogeneidad.",
+          "trial": "Malmström PU et al. Metaanálisis EORTC/CUETO (Eur Urol 2009): Metaanálisis de BCG vs quimioterapia intravesical para CVNMI — heterogeneidad significativa entre ensayos debido a diferentes cepas de BCG, grupos de riesgo y calendarios de mantenimiento; el análisis agrupado mostró superioridad del BCG para CVNMI de riesgo intermedio/alto mientras que el riesgo bajo no mostró ventaja — demostrando cómo el análisis de heterogeneidad revela diferencias de subgrupos clínicamente importantes.",
+          "pearl": "I² mide la heterogeneidad entre estudios en un metaanálisis. I² <25% = baja (agrupación libre), 25-75% = moderada (explorar fuentes), >75% = alta (estimación agrupada poco fiable). I² ≠ sesgo de publicación (evaluado por gráfico de embudo). Cuando I² es alto, explorar las fuentes de heterogeneidad por metarregresión."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G1-Q16",
+        "stem": "Un ensayo aleatorizado de recuperación mejorada tras cirugía (ERAS) versus atención estándar tras cistectomía radical inscribe hospitales en lugar de pacientes individuales. Ocho hospitales son aleatorizados a ERAS (4 hospitales, 120 pacientes en total) o atención estándar (4 hospitales, 115 pacientes en total). ¿Qué diseño de estudio es este y cuál es la principal preocupación analítica?",
+        "options": {
+          "A": "ECA cruzado — los pacientes sirven como sus propios controles",
+          "B": "ECA en conglomerados — la unidad de aleatorización es el hospital; el análisis debe tener en cuenta la agrupación de pacientes dentro de los hospitales (correlación intraclase)",
+          "C": "ECA adaptativo — el tamaño muestral cambia basándose en el análisis intermedio",
+          "D": "ECA escalonado — los hospitales hacen la transición a ERAS en diferentes momentos"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "En este ECA en conglomerados, el hospital (no el paciente individual) es la unidad de aleatorización. Todos los pacientes dentro de un hospital dado reciben la misma intervención, lo que significa que los resultados de los pacientes dentro del mismo conglomerado no son independientes — están correlacionados por los procesos de atención compartidos, la habilidad del cirujano y la cultura institucional. El coeficiente de correlación intraclase (CCI) cuantifica esta correlación. Los métodos estadísticos estándar que asumen independencia a nivel de paciente subestimarán la verdadera varianza, produciendo intervalos de confianza falsamente estrechos y error de tipo I inflado. El análisis debe usar modelos multinivel, ecuaciones de estimación generalizadas (EEG) o tamaños muestrales ajustados que tengan en cuenta el efecto del diseño.",
+          "wrong": {
+            "A": "Los ECA cruzados asignan a cada paciente ambos tratamientos en diferentes momentos — no aplicable aquí donde cada hospital recibe solo una intervención.",
+            "C": "Los ECA adaptativos modifican el protocolo (tamaño muestral, proporción de asignación o brazos de tratamiento) basándose en datos intermedios — no descrito aquí. Este ensayo usa un diseño fijo.",
+            "D": "Los ECA escalonados tienen todos los conglomerados que reciben la intervención en una secuencia escalonada a lo largo del tiempo — útiles para evaluar intervenciones a nivel de servicio pero más complejos que el diseño simple de conglomerados paralelos descrito aquí."
+          },
+          "guideline": "Extensión CONSORT para Ensayos Controlados Aleatorizados en Conglomerados (Campbell MK, BMJ 2004): Los ECA en conglomerados deben informar la unidad de aleatorización, el CCI y usar análisis a nivel de conglomerado o multinivel; no tener en cuenta la agrupación produce falsa precisión y error de tipo I inflado.",
+          "trial": "Ensayo ENRICH (ERAS para cistectomía radical, Cerantola Y, BJU Int 2013): Estudio de implementación de ERAS multicéntrico — aunque no es en sí mismo un ECA en conglomerados, ilustra los desafíos de implementar y evaluar intervenciones a nivel de vía de atención en centros, apoyando la relevancia del diseño de ECA en conglomerados para la evaluación de ERAS en urología.",
+          "pearl": "ECA en conglomerados = hospitales/clínicas aleatorizados, no pacientes. Principal preocupación = correlación intraclase (los pacientes dentro del mismo conglomerado comparten procesos de atención → no independientes). Debe tener en cuenta el CCI en el tamaño muestral y el análisis usando modelos multinivel o EEG. Ignorar la agrupación infla el error de tipo I."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G1-Q17",
+        "stem": "Un investigador descubre a mitad del ensayo que el endpoint primario (tasa libre de cálculos a los 3 meses en radiografía simple) para su ensayo de ureteroscopia vs LEOC puede haberse evaluado de forma diferente en diferentes centros — algunos usaron TC, otros radiografía simple. ¿Qué tipo de requisito de comunicación habría prevenido este problema y qué sesgo está amenazado ahora?",
+        "options": {
+          "A": "Cálculo del tamaño muestral; sesgo de selección",
+          "B": "Procedimientos de evaluación de resultados estandarizados preespecificados en el protocolo del ensayo; sesgo de detección",
+          "C": "Cálculo de potencia; sesgo de desgaste",
+          "D": "Documentación del ocultamiento de la asignación; sesgo de realización"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La preespecificación de procedimientos de evaluación de resultados estandarizados en el protocolo del ensayo (conforme a SPIRIT 2013) habría definido exactamente cómo se evalúa el endpoint primario (tasa libre de cálculos) — especificando la modalidad de imagen (TC vs radiografía simple), el momento y los criterios de interpretación en todos los centros. Sin esto, la evaluación diferencial de resultados entre centros (la TC es más sensible que la radiografía simple para detectar fragmentos residuales) crea detección diferencial: los centros que usan TC detectarán más fragmentos residuales e informarán una TLC más baja. Esto es sesgo de detección (sesgo de adscripción) — los resultados se miden de forma diferente según el centro/evaluador, distorsionando la verdadera comparación del tratamiento.",
+          "wrong": {
+            "A": "El cálculo del tamaño muestral determina el número de participantes necesarios — no especifica los procedimientos de evaluación de resultados. El sesgo de selección se refiere al reclutamiento de participantes.",
+            "C": "El cálculo de potencia está relacionado con el tamaño muestral. El sesgo de desgaste se refiere al abandono diferencial entre grupos — no está relacionado con la metodología de medición de resultados.",
+            "D": "El ocultamiento de la asignación previene el sesgo de selección en el punto de aleatorización. El sesgo de realización ocurre cuando la atención difiere según la asignación. Ninguno previene la evaluación diferencial de resultados entre centros."
+          },
+          "guideline": "SPIRIT 2013 (Chan AW, Ann Intern Med 2013): Ítem 18 — definir claramente todos los resultados, instrumentos de medición, momentos de medición y procedimientos de evaluación; estandarizar la evaluación de resultados en todos los centros del ensayo para prevenir el sesgo de detección diferencial.",
+          "trial": "Ensayo STONE EUREKA (Daels F, JAMA Surg 2019): Ensayo multicéntrico que comparó diferentes modalidades de tratamiento de cálculos — la evaluación por TC preespecificada como medida primaria de resultado libre de cálculos en todos los centros para prevenir el problema de detección diferencial que ha afectado a ensayos previos de LEOC vs URS usando imágenes menos estandarizadas.",
+          "pearl": "La preespecificación de la evaluación de resultados en el protocolo (SPIRIT) previene el sesgo de detección de la medición diferencial entre centros. Para la tasa libre de cálculos, estandarizar la modalidad de imagen (TC vs radiografía simple), el momento y los criterios de comunicación en todos los sitios. Evaluación inconsistente = sesgo de detección."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q18",
+        "stem": "Un urólogo completa un ECA de ureteroscopia semirrígida vs ureteroscopia flexible para cálculos ureterales proximales de 10-15 mm. El ensayo está registrado en ClinicalTrials.gov. El endpoint primario preespecificado fue la tasa libre de cálculos al mes 1. El estudio no muestra ninguna diferencia significativa en TLC. Sin embargo, el manuscrito informa la tasa de complicaciones y el tiempo del procedimiento como resultados primarios, mostrando diferencias significativas que favorecen la ureteroscopia flexible. ¿Qué violación de comunicación ha ocurrido?",
+        "options": {
+          "A": "Sesgo de selección por aleatorización inadecuada",
+          "B": "Cambio de resultado (sesgo de comunicación de resultados) — el endpoint primario preregistrado fue abandonado y los resultados secundarios no registrados se comunicaron como resultados primarios",
+          "C": "Fallo en el ocultamiento de la asignación",
+          "D": "Sesgo de publicación — el resultado negativo de TLC no fue publicado"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El cambio de resultado (también denominado comunicación selectiva de resultados o sesgo de comunicación de resultados) ocurre cuando el endpoint primario preespecificado es abandonado y un resultado más favorable se comunica como el resultado primario. El registro del ensayo crea un registro de preespecificación público; cualquier desviación del endpoint primario registrado debe divulgarse de forma transparente. El cambio de resultado es una violación grave de la integridad de la investigación, infla el error de tipo I (realizando efectivamente múltiples pruebas sin corrección) y engaña a los lectores y a los desarrolladores de guías. El ítem 6a del CONSORT 2010 requiere comunicar todos los resultados preespecificados.",
+          "wrong": {
+            "A": "El sesgo de selección se refiere al reclutamiento y la aleatorización de participantes — no a la comunicación de resultados tras la finalización del ensayo.",
+            "C": "El fallo en el ocultamiento de la asignación se refiere al proceso de aleatorización — no relacionado con el cambio post-hoc de los resultados comunicados.",
+            "D": "El sesgo de publicación se refiere a la supresión de ensayos o manuscritos completos, típicamente los negativos. Este ensayo SÍ se está publicando — es el cambio interno de resultados dentro del manuscrito lo que constituye el sesgo de cambio de resultado, no el fallo en publicar."
+          },
+          "guideline": "CONSORT 2010 (Ítem 6a): Comunicar todos los resultados primarios y secundarios preespecificados según el registro; divulgar cualquier desviación del protocolo registrado; el cambio de resultado es una violación grave de la integridad y motivo de retractación en las revistas miembro del ICMJE.",
+          "trial": "Dwan K et al. (BMJ 2008): Revisión sistemática que demostró el cambio de resultado en el 40-62% de los ensayos publicados cuando se comparó con sus protocolos registrados — fuente importante de sobreestimación de los efectos del tratamiento en las revisiones sistemáticas; la implementación de CONSORT y el registro prospectivo son las principales contramedidas.",
+          "pearl": "Cambio de resultado = abandonar el endpoint primario preregistrado y comunicar un resultado diferente como primario. Esta es una violación de la integridad de la investigación detectable comparando el manuscrito publicado con el registro del ensayo. El ítem 6a del CONSORT requiere comunicar todos los resultados preespecificados independientemente de la dirección del efecto."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G1-Q19",
+        "stem": "Un gráfico de embudo en un metaanálisis de ensayos que comparan la nefrectomía mínimamente invasiva frente a la abierta para el carcinoma de células renales muestra una marcada asimetría — los ensayos pequeños en la parte superior del embudo invertido se agrupan en el lado que muestra beneficio para la cirugía mínimamente invasiva, mientras que los ensayos grandes se agrupan cerca del centro. ¿Cuál es la interpretación más probable?",
+        "options": {
+          "A": "Los ensayos grandes son más sesgados que los pequeños en la investigación quirúrgica",
+          "B": "Sesgo de publicación — es más probable que los ensayos pequeños que muestran beneficio para la cirugía mínimamente invasiva sean publicados, mientras que los ensayos pequeños negativos no lo son, creando asimetría en el gráfico de embudo",
+          "C": "El resultado agrupado sobreestima el beneficio de la cirugía abierta",
+          "D": "La asimetría del gráfico de embudo indica heterogeneidad significativa que requiere análisis de subgrupos"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La asimetría del gráfico de embudo — donde los ensayos pequeños se agrupan asimétricamente en un lado — se interpreta clásicamente como evidencia de sesgo de publicación. Los ensayos pequeños que muestran resultados positivos (beneficio para el nuevo tratamiento — cirugía mínimamente invasiva) se publican preferentemente; los ensayos pequeños negativos permanecen en los archivos. Los ensayos grandes, con suficiente potencia para detectar o refutar efectos de forma definitiva, se trazan cerca del centro independientemente de la dirección. Esto crea un gráfico donde el lado izquierdo (resultados positivos para el nuevo tratamiento) está poblado por ensayos pequeños, produciendo asimetría. La estimación agrupada de un gráfico de embudo asimétrico probablemente sobreestima el verdadero efecto del tratamiento del nuevo tratamiento.",
+          "wrong": {
+            "A": "Los ensayos grandes generalmente son menos susceptibles al sesgo de publicación y al desequilibrio por azar porque tienen más potencia. La asimetría de los ensayos grandes agrupados en un lado no es la interpretación del patrón clásico de asimetría del gráfico de embudo.",
+            "C": "La asimetría del embudo con ensayos pequeños en el lado positivo para la cirugía mínimamente invasiva significaría que la estimación agrupada sobreestima el beneficio para la cirugía MÍNIMAMENTE INVASIVA (no la abierta) — los pequeños ensayos positivos inflan la estimación agrupada hacia el nuevo tratamiento.",
+            "D": "La heterogeneidad se evalúa mediante I² y la prueba Q — no principalmente por la forma del gráfico de embudo. La asimetría del embudo evalúa específicamente el sesgo de publicación (las pruebas de Egger y Begg cuantifican la asimetría estadísticamente)."
+          },
+          "guideline": "Manual Cochrane para Revisiones Sistemáticas (Higgins JPT, 2022) — Asimetría del gráfico de embudo: se interpreta como sesgo de publicación cuando los estudios pequeños se agrupan asimétricamente; evaluar con la prueba estadística de Egger o Begg; también puede reflejar efectos verdaderos en estudios pequeños (los ensayos más pequeños y menos rigurosos producen efectos mayores).",
+          "trial": "Guyot P et al. (BMC Med Res Methodol 2011): Demostración de que la asimetría del gráfico de embudo en los metaanálisis de ECA quirúrgicos comúnmente refleja sesgo de publicación — los resultados positivos de cirugía mínimamente invasiva de pequeñas series se publican mientras los resultados negativos equivalentes no se envían, inflando las estimaciones del efecto agrupadas.",
+          "pearl": "Gráfico de embudo: cada ensayo trazado por tamaño del efecto (eje x) vs tamaño muestral o precisión (eje y). Asimetría (ensayos pequeños agrupados en un lado) = sesgo de publicación. La prueba de Egger cuantifica la asimetría estadísticamente. El sesgo de publicación infla las estimaciones del efecto del tratamiento agrupadas en el metaanálisis."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G1-Q20",
+        "stem": "La guía de la EAU asigna la recomendación de Grado A con evidencia de Nivel 1b al uso de terapia de mantenimiento con BCG para el cáncer de vejiga no músculo-invasivo de alto riesgo (CVNMI). Según los niveles CEBM de Oxford, ¿qué corresponde al Nivel 1b, y qué requeriría el Nivel 1a?",
+        "options": {
+          "A": "Nivel 1b = opinión de expertos; Nivel 1a = ECA individual",
+          "B": "Nivel 1b = un ECA individual bien diseñado; Nivel 1a = revisión sistemática con metaanálisis de múltiples ECA",
+          "C": "Nivel 1b = estudio de cohorte prospectivo; Nivel 1a = estudio de casos y controles",
+          "D": "Nivel 1b = revisión sistemática de ECA; Nivel 1a = datos no publicados"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Niveles CEBM de Oxford: Nivel 1a = revisión sistemática (con homogeneidad) de ECA; Nivel 1b = ECA individual con intervalo de confianza estrecho; Nivel 1c = estudios de todo o nada. Nivel 2a = revisión sistemática de estudios de cohortes; Nivel 2b = estudio de cohorte prospectivo individual. Las recomendaciones de Grado A de la EAU se basan en evidencia de Nivel 1 (ya sea 1a o 1b). Para el mantenimiento con BCG en CVNMI de alto riesgo, la evidencia deriva de múltiples ECA (incluyendo los ensayos aleatorizados CUETO y EORTC de mantenimiento con BCG frente a solo inducción), respaldando el Nivel 1b o superior.",
+          "wrong": {
+            "A": "La opinión de expertos es el nivel más bajo (Nivel 5), no el Nivel 1b. Un ECA individual es el Nivel 1b — descripción correcta, pero las etiquetas están invertidas en esta opción.",
+            "C": "La cohorte prospectiva es el Nivel 2b; el caso-control es el Nivel 3. Ninguno representa evidencia de Nivel 1.",
+            "D": "La revisión sistemática de ECA es el Nivel 1a (correcto para la segunda parte), pero el Nivel 1b es un ECA individual — no una revisión sistemática. Los datos no publicados no son un nivel de evidencia reconocido."
+          },
+          "guideline": "Centro de Medicina Basada en la Evidencia de Oxford (CEBM) Niveles de Evidencia (actualización 2011): 1a = RS de ECA; 1b = ECA individual; 2a = RS de estudios de cohortes; 2b = cohorte individual; 3 = caso-control; 4 = serie de casos; 5 = opinión de expertos. Grado A de la EAU = evidencia de Nivel 1.",
+          "trial": "Sylvester RJ et al. Metaanálisis EORTC (J Urol 2002): Revisión sistemática y metaanálisis del mantenimiento con BCG frente a sin mantenimiento para CVNMI — demostró una reducción del 44% en la recurrencia tumoral con el mantenimiento con BCG; este metaanálisis de ECA (Nivel 1a) forma la base de la recomendación de Grado A de la EAU.",
+          "pearl": "CEBM de Oxford: 1a = RS de ECA (el más alto), 1b = ECA individual, 2b = cohorte, 3 = caso-control, 4 = serie de casos, 5 = opinión de expertos (el más bajo). Grado A de la EAU = evidencia de Nivel 1 (1a o 1b). Conocer este sistema de gradación es esencial para interpretar la fortaleza de las guías."
+        },
+        "difficulty": 1
+      }
+    ]
+  }
+}

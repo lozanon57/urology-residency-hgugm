@@ -1,0 +1,623 @@
+{
+  "id": "A3",
+  "title": "Renal Cell Carcinoma — Staging and Surgical Treatment",
+  "subtitle": "Uro-Oncology — Histological subtypes, nephron-sparing surgery, cytoreductive nephrectomy, systemic therapy",
+  "block": "A",
+  "block_name": "Uro-Oncology",
+  "level": "R2-4",
+  "reading_time_min": 45,
+  "guidelines_version": "EAU Guidelines on Renal Cell Carcinoma 2024 · NCCN Kidney Cancer v1.2024",
+  "textbook_refs": [
+    "EAU Guidelines on Renal Cell Carcinoma 2024 (Ljungberg B et al.)",
+    "Campbell-Walsh-Wein Urology, 12th ed. (2021), Ch. 190-193",
+    "NCCN Clinical Practice Guidelines: Kidney Cancer v1.2024"
+  ],
+  "learning_objectives": [
+    "Classify the major histological subtypes of renal cell carcinoma and their prognostic implications",
+    "Apply the 2017 TNM staging system for renal tumours and identify key T-descriptor thresholds",
+    "Select between active surveillance, thermal ablation, partial nephrectomy, and radical nephrectomy based on tumour characteristics",
+    "Describe the surgical approach and key technical considerations in partial and radical nephrectomy",
+    "Outline the systemic therapy landscape for metastatic RCC including VEGF-targeted agents and immune checkpoint inhibitors",
+    "Identify indications for cytoreductive nephrectomy in metastatic RCC following CARMENA and SURTIME trial evidence"
+  ],
+  "sections": [
+    {
+      "id": "A3-S1",
+      "title": "Epidemiology, Histology and Risk Factors",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Renal cell carcinoma (RCC)** accounts for approximately 2-3% of all adult malignancies and is the most common urological cancer after prostate and bladder cancer. In Europe, incidence is approximately 10-15 per 100,000 person-years, with a male predominance (ratio 2:1). More than 50% of RCCs are now diagnosed incidentally on cross-sectional imaging performed for unrelated indications. Established risk factors include **cigarette smoking** (relative risk 1.5-2.0), **obesity** (HR per 5 kg/m² BMI increase approximately 1.24), **arterial hypertension**, and occupational exposures (trichloroethylene). Hereditary syndromes account for 2-4% of all RCC cases.\n\n**Histological subtypes**: **Clear cell RCC (ccRCC)** is the most common subtype (70-75%), characterised by biallelic loss of the **VHL** tumour suppressor gene (chromosome 3p25). VHL inactivation leads to HIF-1α accumulation and upregulation of VEGF, PDGF, and GLUT1 — the basis for VEGF-targeted therapy. ccRCC has the worst prognosis among common subtypes at equivalent stage. **Papillary RCC (pRCC)** comprises 10-15%, divided into Type 1 (low grade, favourable prognosis, MET mutations) and Type 2 (high grade, FH mutations, HLRCC syndrome). **Chromophobe RCC (chRCC)** comprises 5%, arising from cortical collecting duct cells; favourable prognosis with 5-year survival >85% in localised disease; TP53 and PTEN mutations are characteristic. **Collecting duct carcinoma** and **medullary carcinoma** are rare (1-2%) and aggressive; medullary carcinoma is almost exclusively associated with sickle cell trait.\n\nGenetic syndromes associated with RCC include: **Von Hippel-Lindau disease** (bilateral multifocal ccRCC, haemangioblastomas, phaeochromocytoma), **hereditary papillary RCC** (MET mutation, bilateral pRCC Type 1), **hereditary leiomyomatosis and RCC** (HLRCC; FH mutation; aggressive pRCC Type 2), **Birt-Hogg-Dubé syndrome** (FLCN mutation; chromophobe and oncocytoma), and **tuberous sclerosis complex** (TSC1/TSC2; angiomyolipoma and ccRCC)."
+        },
+        {
+          "type": "table",
+          "title": "RCC Histological Subtypes — Key Features",
+          "headers": ["Subtype", "Frequency", "Key genetic change", "Prognosis", "Treatment sensitivity"],
+          "rows": [
+            ["Clear cell", "70-75%", "VHL loss (3p25)", "Intermediate-poor at advanced stage", "VEGF-TKI + IO; best systemic therapy response"],
+            ["Papillary Type 1", "5-8%", "MET mutation", "Favourable", "Less responsive to VEGF-TKI; MET inhibitors emerging"],
+            ["Papillary Type 2", "5-8%", "FH mutation (HLRCC)", "Poor", "Erlotinib/bevacizumab; aggressive biology"],
+            ["Chromophobe", "5%", "TP53, PTEN", "Favourable (80% 5-yr OS)", "Less responsive to VEGF-TKI"],
+            ["Collecting duct", "1%", "Complex", "Very poor", "Cisplatin-based chemotherapy"],
+            ["Oncocytoma", "3-5%", "Not a malignancy", "Benign", "Surveillance or excision; no systemic therapy"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — VHL and VEGF Pathway",
+          "content": "VHL loss in ccRCC leads to constitutive HIF-1α activation and VEGF overexpression — this is the molecular basis for sunitinib, pazopanib, and other VEGF-TKIs. VHL is a E3 ubiquitin ligase that normally tags HIF-1α for proteasomal degradation in normoxia. VHL mutation = perpetual hypoxia signalling = VEGF/PDGF/GLUT1 overexpression = tumour angiogenesis. Non-ccRCC histologies typically lack VHL mutation and respond less well to VEGF-TKIs."
+        }
+      ]
+    },
+    {
+      "id": "A3-S2",
+      "title": "TNM Staging and Prognostic Models",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **AJCC/UICC TNM 2017 (8th edition)** is the current staging framework for renal tumours. Key T descriptors: **T1a** — tumour ≤4 cm, confined to kidney; **T1b** — tumour >4 cm and ≤7 cm, confined to kidney; **T2a** — tumour >7 cm and ≤10 cm, confined to kidney; **T2b** — tumour >10 cm, confined to kidney; **T3a** — tumour extends into the renal vein or its segmental (muscle-containing) branches, or invades the pelvicalyceal system, or invades perirenal and/or renal sinus fat (but not beyond Gerota's fascia); **T3b** — tumour extends into the inferior vena cava below the diaphragm; **T3c** — tumour extends into the IVC above the diaphragm or invades the wall of the IVC; **T4** — tumour invades beyond Gerota's fascia (including contiguous extension into the ipsilateral adrenal gland).\n\nThe **N descriptor**: N0 — no regional lymph node metastasis; N1 — metastasis in regional lymph nodes. The **M descriptor**: M0/M1. Stage I = T1N0M0; Stage II = T2N0M0; Stage III = T3N0M0 or T1-3N1M0; Stage IV = T4 any N M0 or any T any N M1.\n\n**Prognostic models**: The **IMDC (International Metastatic RCC Database Consortium) model** (Heng DY et al., Lancet Oncol 2013) uses 6 clinical factors: Karnofsky PS <80%, <1 year from diagnosis to treatment, haemoglobin <LLN, corrected calcium >ULN, neutrophils >ULN, platelets >ULN. 0 factors = favourable risk (OS ~43 months); 1-2 = intermediate risk (OS ~23 months); ≥3 = poor risk (OS ~8 months). The IMDC model is used to select and stratify patients for systemic therapy trials and guides choice of front-line regimen."
+        },
+        {
+          "type": "table",
+          "title": "IMDC Risk Model — Criteria and Outcomes",
+          "headers": ["IMDC Factor", "Threshold", "Risk Group", "No. of factors", "Median OS"],
+          "rows": [
+            ["Karnofsky PS", "<80%", "Favourable", "0 factors", "~43 months"],
+            ["Time to treatment", "<12 months from diagnosis", "Intermediate", "1-2 factors", "~23 months"],
+            ["Haemoglobin", "Below lower limit of normal", "Poor", "≥3 factors", "~8 months"],
+            ["Corrected calcium", "Above upper limit of normal", "", "", ""],
+            ["Neutrophil count", "Above upper limit of normal", "", "", ""],
+            ["Platelet count", "Above upper limit of normal", "", "", ""]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A3-S3",
+      "title": "Management of Localised RCC — Surgery and Ablation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Partial nephrectomy (PN)** is the standard of care for localised T1a and T1b renal tumours in patients with a normal contralateral kidney, recommended to preserve renal function. The oncological equivalence of PN to radical nephrectomy for T1 tumours has been established by meta-analysis and long-term follow-up. PN can be performed via open, laparoscopic, or robot-assisted approaches; robotic partial nephrectomy (RAPN) has become the dominant approach in high-volume centres. The key surgical steps include tumour exposure, hilar control, warm ischaemia time (WIT) minimisation (aim <25 minutes), sharp excision with a thin margin of healthy parenchyma, renorrhaphy, and watertight collecting system closure. WIT >25-30 minutes is associated with progressive renal function loss. 'Off-clamp' techniques (no hilar occlusion) can be used for peripheral tumours and eliminate WIT entirely.\n\n**Radical nephrectomy (RN)** is indicated for: T2 tumours (>7 cm), involvement of renal sinus fat or collecting system, tumour thrombus, anatomically complex T1 tumours not amenable to PN (central location, low renal remnant score), imperative cases where PN is not feasible, and cases where contralateral kidney is normal and tumour characteristics make oncological completeness paramount. RN is performed laparoscopically or robotically in most centres. Adrenalectomy is only indicated when CT/MRI shows adrenal involvement — routine adrenalectomy is not recommended.\n\n**Active surveillance (AS)** is appropriate for small renal masses (SRM, ≤4 cm) in elderly or comorbid patients with low surgical risk. The DISSRM registry and REASSURE study show that median growth rate of SRMs on AS is 0.28 cm/year, and <2% progress to metastatic disease at 3 years. AS involves CT or MRI every 3-6 months for 2 years, then annually. Trigger for intervention: growth >5 mm/year, patient preference, or size >4 cm.\n\n**Thermal ablation** (radiofrequency ablation [RFA] or cryoablation) is an option for small renal tumours (T1a, ≤3 cm preferred) in patients not suitable for surgery. Local recurrence rates are higher than PN (~5-10% vs 1-2%), and repeat ablation is possible. Percutaneous cryoablation is the most widely used technique with long-term recurrence-free survival comparable to ablation in appropriately selected patients."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — R.E.N.A.L. Nephrometry Score",
+          "content": "The R.E.N.A.L. (Radius, Exophytic/Endophytic, Nearness to collecting system/sinus, Anterior/posterior, Location relative to polar lines) nephrometry score is a validated system for quantifying surgical complexity of renal tumours before PN. Scores 4-6 (low), 7-9 (intermediate), 10-12 (high). High scores predict longer WIT, higher conversion to RN, and higher complication rates. At HGUGM, all renal tumours planned for PN should be scored pre-operatively to inform operative planning and MDT discussion."
+        }
+      ]
+    },
+    {
+      "id": "A3-S4",
+      "title": "IVC Tumour Thrombus — Classification and Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Inferior vena cava (IVC) tumour thrombus occurs in approximately 4-10% of RCC cases and represents a surgical challenge that dramatically influences operative planning and outcomes. The **Neves classification** (modified by Mayo Clinic) divides tumour thrombus into: Level 0 — renal vein only; Level I — IVC below hepatic veins; Level II — IVC up to hepatic veins; Level III — IVC above hepatic veins, below diaphragm; Level IV — IVC above diaphragm / right atrium.\n\nFor Level 0-I thrombus, laparoscopic or robotic-assisted radical nephrectomy with thrombus extraction is feasible in experienced centres. Level II requires careful hepatic mobilisation and temporary IVC occlusion. Level III-IV thrombus requires cardiac surgery involvement, median sternotomy, and potentially cardiopulmonary bypass for right atrial extension. Five-year cancer-specific survival for N0M0 disease with IVC thrombus is 40-70%, largely determined by lymph node status, pathological tumour grade, and depth of IVC wall invasion (thrombus vs true invasion). True IVC wall invasion confers significantly worse prognosis.\n\nPre-operative evaluation of IVC thrombus should include MRI of the abdomen (more accurate than CT for thrombus level and hepatic vein anatomy), CT chest (metastatic staging), and cardiac echocardiography for Level III-IV. Pulmonary tumour embolism risk is 5-10% with Level III-IV thrombus — pre-operative IVC filter placement is no longer routinely recommended but should be discussed in high-risk cases."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Thrombus vs True IVC Invasion",
+          "content": "The distinction between tumour thrombus within the IVC lumen (no wall invasion) and true invasion of the IVC wall is critical — the former is potentially curable surgically, while the latter has much worse prognosis and may affect surgical planning. MRI with gradient echo sequences is the most accurate tool (CT underestimates wall invasion). True IVC wall invasion requires segment resection and reconstruction, not simple thrombectomy."
+        }
+      ]
+    },
+    {
+      "id": "A3-S5",
+      "title": "Systemic Therapy for Metastatic RCC",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The systemic therapy landscape for metastatic RCC has been transformed by the introduction of VEGF-targeted agents (2006) and immune checkpoint inhibitors (2015-2022). For **clear cell RCC** (which accounts for >85% of metastatic cases), the current first-line standard of care is combination immunotherapy-based doublet therapy.\n\n**Nivolumab + ipilimumab (CheckMate 214)**: Nivolumab (anti-PD-1) + ipilimumab (anti-CTLA-4) vs sunitinib in treatment-naive ccRCC. For intermediate/poor IMDC risk: 5-year OS 47% vs 27% with sunitinib. CheckMate 214 (Motzer RJ, NEJM 2018) established this doublet as the preferred first-line regimen for intermediate/poor risk ccRCC.\n\n**Pembrolizumab + axitinib (KEYNOTE-426)**: IO + VEGF-TKI combination. Pembrolizumab (anti-PD-1) + axitinib vs sunitinib — OS HR 0.68 across all IMDC risk groups. EAU 2024 recommends this as an option for all risk groups.\n\n**Nivolumab + cabozantinib (CheckMate 9ER)**: Nivolumab + cabozantinib vs sunitinib — PFS 16.4 vs 8.3 months (HR 0.51); OS HR 0.70. Approved and EAU-endorsed.\n\n**Pembrolizumab + lenvatinib (CLEAR)**: Lenvatinib + pembrolizumab vs sunitinib — PFS 23.9 vs 9.2 months (HR 0.39), longest PFS of any first-line regimen. EAU 2024 recommends in all risk groups.\n\nFor **non-ccRCC**: Evidence is limited. Sunitinib, everolimus (mTOR inhibitor), cabozantinib, or enrolment in clinical trials are options. Pembrolizumab monotherapy has activity in non-ccRCC based on KEYNOTE-427 cohort B. VEGF-TKI monotherapy (sunitinib, pazopanib) remains the pragmatic first-line in non-ccRCC."
+        },
+        {
+          "type": "table",
+          "title": "First-Line Systemic Therapy for Metastatic ccRCC — EAU 2024 Recommendations",
+          "headers": ["Regimen", "Key trial", "IMDC recommendation", "OS HR vs sunitinib", "EAU status"],
+          "rows": [
+            ["Nivolumab + ipilimumab", "CheckMate 214 (NEJM 2018)", "Intermediate/poor risk", "0.68 (int/poor)", "Recommended (int/poor)"],
+            ["Pembrolizumab + axitinib", "KEYNOTE-426 (NEJM 2019)", "All risk groups", "0.68", "Recommended (all)"],
+            ["Nivolumab + cabozantinib", "CheckMate 9ER (NEJM 2021)", "All risk groups", "0.70", "Recommended (all)"],
+            ["Pembrolizumab + lenvatinib", "CLEAR (NEJM 2021)", "All risk groups", "0.72", "Recommended (all)"],
+            ["Sunitinib monotherapy", "Multiple RCTs (2006+)", "Favourable risk (option)", "Reference", "Option favourable risk only"],
+            ["Pazopanib monotherapy", "COMPARZ (Lancet 2013)", "Favourable (option)", "Non-inferior to sunitinib", "Option if IO contraindicated"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A3-S6",
+      "title": "Cytoreductive Nephrectomy — CARMENA and SURTIME",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Cytoreductive nephrectomy (CN)** removes the primary tumour in the setting of metastatic disease. In the cytokine era, two RCTs (SWOG 8949 and EORTC 30947) demonstrated an OS benefit with CN + interferon-α vs interferon-α alone. However, with the advent of targeted therapy, two landmark trials challenged the routine use of CN.\n\nThe **CARMENA trial** (Méjean et al., NEJM 2018) randomised 450 patients with metastatic ccRCC to CN + sunitinib vs sunitinib alone. In intermediate-risk IMDC patients: median OS 23.4 vs 19.0 months (non-inferior, CN not better). In poor-risk patients: CN + sunitinib was inferior to sunitinib alone (OS 10.3 vs 13.3 months). CARMENA conclusion: sunitinib monotherapy is **non-inferior** to CN + sunitinib in intermediate/poor risk metastatic ccRCC — CN should not be routine for all metastatic patients.\n\nThe **SURTIME trial** (Bex et al., JAMA Oncol 2019) tested immediate CN → sunitinib vs sunitinib → deferred CN. The trial was underpowered but showed a trend toward benefit with deferred CN (progression-free status at 28 weeks: 42% vs 43%; OS HR 0.57 favouring deferred CN). The SURTIME concept supports **sunitinib run-in first** to identify patients who do not progress (these are more likely to benefit from subsequent CN).\n\nCurrent EAU 2024 recommendation: CN is indicated in: (1) Favourable IMDC risk patients with resectable primary tumour and limited metastatic burden; (2) For symptom palliation (haematuria, pain) regardless of systemic therapy plan; (3) Consider deferred CN in intermediate-risk patients who respond to 2-3 cycles of systemic therapy without progression. CN is **not recommended** as routine first-line management in poor IMDC risk patients or those with significant comorbidities."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — CARMENA Trial Summary",
+          "content": "CARMENA (NEJM 2018): CN + sunitinib vs sunitinib alone in 450 metastatic ccRCC patients. Result: sunitinib alone was non-inferior to CN + sunitinib in intermediate risk; CN actually performed WORSE in poor-risk patients. This fundamentally changed practice — CN is no longer routine for all metastatic RCC. Current indication: favourable IMDC risk with resectable primary, or palliative symptom control."
+        }
+      ]
+    },
+    {
+      "id": "A3-S7",
+      "title": "Surveillance After RCC Treatment and Hereditary Syndromes",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Surveillance after RCC treatment** aims to detect local recurrence and metastatic disease at a treatable stage. EAU 2024 risk-adapted surveillance:\n\nFor **low-risk disease** (pT1a, pT1b grade 1-2, R0): CT chest/abdomen at 3-6 months post-op, then annually for 3 years, then every 2 years to 5 years. For **intermediate-risk** (pT2, pT3a grade 1-2): CT chest/abdomen at 3 months, then 6-monthly for 2 years, then annually for 3 years. For **high-risk** (pT3b-4, grade 3-4, N+): CT chest/abdomen/pelvis at 3 months, 6 months, then every 6 months for 3 years, then annually. All patients should have baseline post-operative CT at 3-6 months to establish reference imaging.\n\nRCC can recur late — surveillance should be maintained for 10 years in high-risk patients. Common metastatic sites: lungs (75%), lymph nodes (36%), bone (20%), liver (18%), adrenal (9%), contralateral kidney (2%). Isolated lung metastases in patients who have had a disease-free interval are potentially resectable — pulmonary metastasectomy improves OS in selected patients (5-year OS 45-55% vs 15% with systemic therapy alone).\n\nFor **hereditary RCC syndromes** — VHL disease: annual MRI kidneys from age 15; surgery when tumour reaches 3 cm (solid tumour threshold above which metastatic risk increases). TSC: mTOR inhibitors (everolimus) can control tumour growth and avoid surgery in most patients. Birt-Hogg-Dubé: annual CT/MRI from age 20; watch for pneumothorax risk (lung cysts). HLRCC (FH mutation): aggressive surveillance from early adulthood; active treatment at smaller sizes given aggressive biology."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of renal cell carcinoma with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "A3-Q1",
+        "stem": "A 58-year-old man has an incidentally detected 3.2 cm right renal mass on CT performed for abdominal pain. The mass is heterogeneous, enhances with contrast (70 HU post-contrast vs 28 HU pre-contrast), and is entirely endophytic. Left kidney is normal. He is otherwise healthy with eGFR 72 mL/min/1.73m². What is the most appropriate management?",
+        "options": {
+          "A": "Radical nephrectomy — tumour size and endophytic nature preclude partial nephrectomy",
+          "B": "Partial nephrectomy (open, laparoscopic, or robotic) — standard of care for T1a tumour with normal contralateral kidney",
+          "C": "Active surveillance — 3.2 cm enhancing mass can be observed given normal contralateral kidney",
+          "D": "CT-guided biopsy followed by RFA ablation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A 3.2 cm enhancing solid renal mass in a healthy patient with a normal contralateral kidney meets all criteria for partial nephrectomy (PN) as the standard of care per EAU 2024. PN for T1a tumours has equivalent oncological outcomes to radical nephrectomy while preserving renal function. Endophytic tumours are more surgically complex (higher R.E.N.A.L. score) but not a contraindication to PN in an experienced centre. Robot-assisted PN is the preferred approach in most high-volume centres.",
+          "wrong": {
+            "A": "Endophytic location increases surgical complexity but does not mandate radical nephrectomy when PN is feasible in an experienced centre.",
+            "C": "Active surveillance is an option for very elderly or comorbid patients, but for a healthy 58-year-old with a 3.2 cm enhancing mass (likely malignant), treatment is preferred.",
+            "D": "Biopsy + ablation is appropriate for patients unfit for surgery. This patient is fit for PN, which has lower recurrence rates than ablation."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — PN is standard of care for T1 tumours; radical nephrectomy only when PN not technically feasible",
+          "trial": "Van Poppel H et al. (Eur Urol 2011, EORTC 30904): RCT PN vs RN for T1 — equivalent cancer-specific survival; PN superior for renal function preservation.",
+          "pearl": "Partial nephrectomy is standard for T1 (≤7 cm) renal tumours with normal contralateral kidney. Imperative indications for PN: solitary kidney, bilateral tumours, hereditary RCC, chronic kidney disease."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q2",
+        "stem": "The CARMENA trial fundamentally changed the approach to cytoreductive nephrectomy in metastatic RCC. Which statement best summarises the CARMENA finding?",
+        "options": {
+          "A": "CN + sunitinib was superior to sunitinib alone in all IMDC risk groups",
+          "B": "Sunitinib alone was non-inferior to CN + sunitinib in intermediate risk; CN + sunitinib was inferior in poor-risk patients",
+          "C": "CN should be performed in all metastatic RCC patients before starting systemic therapy",
+          "D": "CARMENA showed no difference in OS between CN and no CN, supporting routine nephrectomy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "CARMENA (Méjean A et al., NEJM 2018) randomised 450 intermediate/poor IMDC risk metastatic ccRCC patients to CN + sunitinib vs sunitinib alone. The primary endpoint was OS: sunitinib alone was non-inferior to CN + sunitinib in intermediate-risk (OS 23.4 vs 19.0 months). In poor-risk patients, CN actually worsened outcomes. CN is therefore NOT routine for all metastatic RCC — it is reserved for favourable-risk patients and palliation.",
+          "wrong": {
+            "A": "CN + sunitinib was not superior. Non-inferiority of sunitinib alone was the key finding.",
+            "C": "CARMENA directly challenges routine CN before systemic therapy.",
+            "D": "CARMENA showed non-inferiority of sunitinib alone — meaning CN provided no benefit (and was harmful in poor risk)."
+          },
+          "guideline": "EAU Guidelines on RCC 2024, Section 7.1 — CN indications based on CARMENA; IMDC risk-adapted decision",
+          "trial": "CARMENA (Méjean A et al., N Engl J Med 2018; 379:417-427): RCT CN + sunitinib vs sunitinib. Non-inferiority confirmed for sunitinib alone; CN inferior in poor-risk.",
+          "pearl": "CARMENA = CN not routine for metastatic RCC. Sunitinib alone non-inferior to CN + sunitinib in intermediate risk. CN harmful in poor IMDC risk. Current indications: favourable risk, palliation, deferred after systemic therapy response."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q3",
+        "stem": "A 65-year-old patient has a right renal mass with extension of tumour thrombus into the inferior vena cava to the level of the hepatic vein confluence (at the level of the hepatic veins). What is the correct Neves/Mayo level classification and the major surgical implication?",
+        "options": {
+          "A": "Level I — below hepatic veins; laparoscopic resection feasible",
+          "B": "Level II — up to hepatic veins; requires hepatic mobilisation and temporary suprahepatic IVC occlusion",
+          "C": "Level III — above hepatic veins below diaphragm; requires cardiac surgery",
+          "D": "Level IV — supradiaphragmatic; requires cardiopulmonary bypass"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Neves/Mayo classification: Level I = IVC below hepatic veins; Level II = IVC at or up to hepatic veins; Level III = IVC above hepatic veins, below diaphragm; Level IV = IVC above diaphragm or right atrium. Thrombus to the hepatic vein confluence = Level II. Level II requires hepatic mobilisation (mobilising the right lobe and controlling hepatic veins), Pringle manoeuvre consideration, temporary suprahepatic IVC occlusion, and experienced vascular/hepatobiliary surgical support. It does not require cardiopulmonary bypass.",
+          "wrong": {
+            "A": "Level I is below the hepatic veins. At the hepatic vein confluence = Level II.",
+            "C": "Level III is above the hepatic veins but below the diaphragm. At the hepatic vein confluence is Level II.",
+            "D": "Level IV requires cardiopulmonary bypass. This thrombus does not extend above the diaphragm."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — IVC thrombus classification (Neves/Mayo); surgical planning based on level",
+          "trial": "Blute ML et al. (J Urol 2004): Mayo Clinic IVC thrombus series — Level II requiring hepatic mobilisation; 5-yr CSS 40-70% for N0M0 disease.",
+          "pearl": "IVC thrombus levels: I = below hepatic veins; II = up to hepatic veins; III = above hepatic veins/below diaphragm; IV = above diaphragm/right atrium. Level II = hepatic mobilisation. Level III-IV = cardiac surgery and/or cardiopulmonary bypass."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q4",
+        "stem": "Which IMDC risk classification and corresponding expected median OS applies to a patient with metastatic ccRCC who has Karnofsky PS 60%, haemoglobin below normal, and time from diagnosis to treatment <12 months (3 poor prognostic factors)?",
+        "options": {
+          "A": "Favourable risk — median OS ~43 months",
+          "B": "Intermediate risk — median OS ~23 months",
+          "C": "Poor risk — median OS ~8 months",
+          "D": "Very poor risk — median OS ~4 months"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The IMDC model assigns: 0 factors = favourable (OS ~43 months); 1-2 factors = intermediate (OS ~23 months); ≥3 factors = poor risk (OS ~8 months). This patient has 3 IMDC risk factors (KPS <80%, Hgb <LLN, time to treatment <12 months) = poor risk = median OS ~8 months. In CARMENA, this would place the patient in the group where CN + sunitinib was inferior to sunitinib alone.",
+          "wrong": {
+            "A": "Favourable risk requires 0 IMDC factors. This patient has 3.",
+            "B": "Intermediate risk = 1-2 factors. This patient has 3 factors.",
+            "D": "'Very poor risk' is not an official IMDC category — the system uses favourable/intermediate/poor."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — IMDC model for treatment selection and prognosis; Section 7.1.2",
+          "trial": "Heng DY et al. (Lancet Oncol 2013): External validation of IMDC prognostic model in 1,791 patients across 7 international centres.",
+          "pearl": "IMDC risk scoring: 0 = favourable (~43 months OS); 1-2 = intermediate (~23 months); ≥3 = poor (~8 months). Know the 6 factors: KPS <80%, time <12 months, Hgb <LLN, Ca++ >ULN, neutrophils >ULN, platelets >ULN."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q5",
+        "stem": "Which systemic therapy combination showed the longest median progression-free survival in the CLEAR trial for first-line metastatic RCC?",
+        "options": {
+          "A": "Nivolumab + ipilimumab vs sunitinib — PFS 11.6 months",
+          "B": "Pembrolizumab + lenvatinib vs sunitinib — PFS 23.9 months",
+          "C": "Pembrolizumab + axitinib vs sunitinib — PFS 15.1 months",
+          "D": "Nivolumab + cabozantinib vs sunitinib — PFS 16.4 months"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The CLEAR trial (Motzer RJ et al., NEJM 2021) compared pembrolizumab + lenvatinib vs sunitinib in first-line metastatic RCC. Pembrolizumab + lenvatinib achieved a median PFS of 23.9 months vs 9.2 months with sunitinib (HR 0.39) — the longest PFS of any first-line RCC regimen in a phase III trial. OS was also significantly improved (HR 0.72). This combination is endorsed by EAU 2024 for all IMDC risk groups.",
+          "wrong": {
+            "A": "Nivolumab + ipilimumab PFS in CheckMate 214 was not superior to sunitinib in the intention-to-treat population; benefit was in intermediate/poor risk.",
+            "C": "Pembrolizumab + axitinib PFS was 15.1 months in KEYNOTE-426 — significant but not 23.9 months.",
+            "D": "Nivolumab + cabozantinib (CheckMate 9ER) PFS was 16.4 months — better than sunitinib but not the longest."
+          },
+          "guideline": "EAU Guidelines on RCC 2024, Section 7.1 — CLEAR trial; pembrolizumab + lenvatinib recommended for all IMDC risk groups",
+          "trial": "CLEAR trial (Motzer RJ et al., N Engl J Med 2021; 384:1289-1300): Lenvatinib + pembrolizumab vs sunitinib — PFS 23.9 vs 9.2 months (HR 0.39); OS HR 0.72.",
+          "pearl": "CLEAR trial: pembrolizumab + lenvatinib achieves longest median PFS (23.9 months) of any first-line RCC regimen. EAU 2024 recommended for all IMDC risk groups. Know the PFS HR: 0.39 vs sunitinib."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q6",
+        "stem": "A 72-year-old patient with single right kidney and bilateral small renal masses (largest 2.8 cm right, 1.5 cm left) is found to have multiple café-au-lait spots, retinal haemangioblastomas, and a prior cerebellar haemangioblastoma. Which hereditary syndrome is most likely and what is the threshold for surgical intervention per guidelines?",
+        "options": {
+          "A": "Birt-Hogg-Dubé syndrome — operate when largest tumour >3 cm",
+          "B": "Von Hippel-Lindau disease — operate when largest tumour reaches 3 cm (solid component)",
+          "C": "Tuberous sclerosis complex — operate immediately given bilateral disease",
+          "D": "HLRCC — operate at diagnosis regardless of size given aggressive biology"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Von Hippel-Lindau (VHL) disease presents with bilateral multifocal clear cell RCC, retinal and CNS haemangioblastomas, phaeochromocytoma, and pancreatic neuroendocrine tumours. The characteristic bilateral multifocal RCC pattern combined with retinal haemangioblastoma and cerebellar haemangioblastoma is diagnostic. Per VHL disease guidelines (endorsed by EAU 2024), surgical intervention is recommended when the largest solid tumour reaches 3 cm — below this threshold, metastatic risk is minimal (<3%) and repeated partial nephrectomies can be deferred. The goal is to preserve maximum renal function through nephron-sparing surgery.",
+          "wrong": {
+            "A": "Birt-Hogg-Dubé syndrome is characterised by fibrofolliculomas (skin), pulmonary cysts with pneumothorax, and chromophobe RCC/oncocytoma — not retinal/CNS haemangioblastomas.",
+            "C": "Tuberous sclerosis causes renal angiomyolipomata and occasionally ccRCC but not retinal or CNS haemangioblastomas. TSC is managed with mTOR inhibitors for AML, not immediate surgery.",
+            "D": "HLRCC (Fumarate Hydratase mutation) causes aggressive papillary type 2 RCC requiring earlier intervention, but the syndrome presents with cutaneous leiomyomas and uterine fibroids, not haemangioblastomas."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — VHL disease management: partial nephrectomy when solid tumour reaches 3 cm; annual renal MRI from age 15",
+          "trial": "Walther MM et al. (J Urol 1999): VHL surveillance series — metastatic risk <3% for tumours <3 cm; rapid increase above 3 cm threshold. Defines the '3 cm rule' for VHL intervention.",
+          "pearl": "VHL disease: 3 cm threshold for surgical intervention. Below 3 cm, metastatic risk is <3% — defer surgery to maximise kidney preservation through fewer total operations. Annual renal MRI surveillance from age 15 in VHL carriers."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q7",
+        "stem": "A 65-year-old woman has a 4.5 cm right renal mass (cT1b) and a history of creatinine 1.6 mg/dL (eGFR 38 mL/min/1.73m²) due to hypertensive nephrosclerosis. Left kidney is present and functioning. What is the surgical imperative here?",
+        "options": {
+          "A": "Radical nephrectomy — standard of care for T1b and simplest operation",
+          "B": "Partial nephrectomy — imperative indication given baseline CKD (eGFR <45) to preserve maximum residual renal function",
+          "C": "Active surveillance — eGFR too low for surgical intervention",
+          "D": "Ablation therapy — preserves more parenchyma than PN in CKD patients"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "When the contralateral kidney is present but baseline renal function is significantly impaired (eGFR <45 mL/min), partial nephrectomy becomes an 'imperative' indication regardless of tumour size or complexity. Radical nephrectomy in a patient with eGFR 38 would leave a single kidney and accelerate progression to end-stage renal disease requiring dialysis. EAU 2024 lists imperative indications for PN as: solitary kidney, bilateral tumours, hereditary RCC, and significant baseline CKD. Technical feasibility should be maximised — robotic PN, minimise warm ischaemia, consider 'off-clamp' technique.",
+          "wrong": {
+            "A": "Radical nephrectomy is NOT appropriate when the patient has significant pre-existing CKD — it would cause predictable accelerated renal failure.",
+            "C": "Active surveillance for a 4.5 cm mass in a patient with CKD is inappropriate — the risk of progression/metastasis justifies treatment despite renal impairment.",
+            "D": "Thermal ablation is an option but achieves less complete tumour control than PN. For an imperative indication with a 4.5 cm tumour, PN is preferred over ablation."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — Imperative PN indications: solitary kidney, bilateral tumours, baseline CKD (eGFR <45 or predisposing conditions)",
+          "trial": "Huang WC et al. (Lancet Oncol 2006): CKD progression after RN vs PN — RN associated with 3x higher risk of new onset CKD stage 3 vs PN in matched cohort.",
+          "pearl": "Imperative indications for partial nephrectomy: solitary kidney, bilateral tumours, hereditary RCC, significant pre-existing CKD (eGFR <45). Even for tumours that are technically difficult, the imperative indication should drive the surgical approach."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q8",
+        "stem": "For a T1a renal mass (3 cm) in an 82-year-old man with multiple comorbidities (heart failure, COPD, CABG), what is the most appropriate management per EAU 2024?",
+        "options": {
+          "A": "Immediate radical nephrectomy given cancer diagnosis",
+          "B": "Active surveillance with cross-sectional imaging every 6 months",
+          "C": "Percutaneous thermal ablation (RFA or cryoablation)",
+          "D": "Both B and C are appropriate options depending on patient preference after full counselling"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "For elderly/comorbid patients with small renal masses, EAU 2024 supports both active surveillance and thermal ablation as appropriate alternatives to surgery. Active surveillance is particularly appropriate when the patient's life expectancy is limited by competing comorbidities. Thermal ablation (RFA or cryoablation) provides reasonable local tumour control with minimal physiological insult and is appropriate for tumours ≤3 cm. The decision between AS and ablation should be made in the context of patient preferences, life expectancy, tumour growth rate on baseline imaging, and feasibility of percutaneous access.",
+          "wrong": {
+            "A": "Radical nephrectomy in a frail elderly patient with heart failure, COPD, and previous CABG carries unacceptable perioperative risk relative to the likely clinical benefit of cancer treatment in a patient with multiple competing mortality risks.",
+            "B": "AS alone is reasonable but ablation is also an option — both should be offered.",
+            "C": "Ablation alone is reasonable but AS is also an option — patient preference and life expectancy should guide."
+          },
+          "guideline": "EAU Guidelines on RCC 2024, Section 6.2 — AS appropriate for elderly/comorbid patients; ablation for T1a ≤3 cm in patients unsuitable for surgery",
+          "trial": "DISSRM registry (Lane BR et al., J Urol 2015): AS for SRM <4 cm — median growth 0.28 cm/yr; 1.5% progressed to metastatic disease at 3 years; competing mortality exceeded cancer mortality in comorbid patients.",
+          "pearl": "For elderly/comorbid patients with small renal masses: both active surveillance and thermal ablation are valid options. Competing comorbidities often exceed renal cancer as the cause of death in this population — avoid overtreatment."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q9",
+        "stem": "Which of the following is classified as T3a in the TNM 2017 staging of renal cell carcinoma?",
+        "options": {
+          "A": "Tumour >10 cm confined entirely within the kidney",
+          "B": "Tumour with extension into the IVC below the diaphragm",
+          "C": "Tumour extending into renal sinus fat or renal vein branches",
+          "D": "Tumour invading beyond Gerota's fascia"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "T3a in the 2017 AJCC TNM staging for RCC includes: tumour extending into the renal vein or its segmental (muscle-containing) branches, OR invasion of the pelvicalyceal system (renal pelvis), OR invasion of perirenal fat or renal sinus fat, but NOT beyond Gerota's fascia. Renal sinus fat invasion is an important adverse feature that upstages the tumour to T3a regardless of tumour size.",
+          "wrong": {
+            "A": "Tumour >10 cm confined to kidney = T2b (not T3a).",
+            "B": "IVC extension below the diaphragm = T3b; above diaphragm = T3c.",
+            "D": "Invasion beyond Gerota's fascia = T4."
+          },
+          "guideline": "AJCC TNM 8th edition (2017) — Renal Cancer T staging: T3a = renal vein/segmental branches, pelvicalyceal system, perirenal/sinus fat but not beyond Gerota's",
+          "trial": "Bertini R et al. (Eur Urol 2009): Renal sinus fat invasion is an independent predictor of CSS after RN, validating its T3a classification.",
+          "pearl": "T3a RCC: renal sinus fat invasion or renal vein involvement (or segmental branches). T3b: IVC below diaphragm. T3c: IVC above diaphragm. T4: beyond Gerota's fascia. Renal sinus fat = T3a regardless of tumour size."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q10",
+        "stem": "The molecular target of sunitinib and pazopanib in clear cell RCC is best described as:",
+        "options": {
+          "A": "PD-1 / PD-L1 checkpoint pathway",
+          "B": "mTOR (mechanistic target of rapamycin) complex 1",
+          "C": "VEGF receptors (VEGFR-1, -2, -3) and PDGFR tyrosine kinases",
+          "D": "CYP17A1 enzyme in the steroidogenesis pathway"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Sunitinib and pazopanib are multi-target tyrosine kinase inhibitors (TKIs) that inhibit VEGFR-1, VEGFR-2, VEGFR-3, and PDGFR-α/β, as well as c-KIT and FLT3. In VHL-mutant ccRCC, HIF-1α drives VEGF overexpression, leading to pathological angiogenesis. Blocking VEGF receptors inhibits tumour vasculature and growth. This is the rationale for VEGF-TKI therapy in ccRCC. Sunitinib was the reference standard for first-line metastatic ccRCC from 2006 until superseded by IO-combination doublet regimens from 2018-2021.",
+          "wrong": {
+            "A": "PD-1/PD-L1 is the target of checkpoint inhibitors (nivolumab, pembrolizumab, atezolizumab). Not the mechanism of sunitinib/pazopanib.",
+            "B": "mTOR is targeted by everolimus and temsirolimus (second-line RCC agents, particularly in non-ccRCC). Not the primary target of sunitinib.",
+            "D": "CYP17A1 is the target of abiraterone in prostate cancer, not RCC."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — Mechanism of VEGF-TKIs; VHL-VEGF pathway as molecular basis for TKI therapy in ccRCC",
+          "trial": "Motzer RJ et al. (N Engl J Med 2007): Sunitinib vs interferon-α — PFS 11 vs 5 months; established sunitinib as first-line TKI standard in metastatic ccRCC.",
+          "pearl": "Sunitinib/pazopanib = VEGFR-1,2,3 + PDGFR TKI. Molecular basis: VHL loss → HIF-1α → VEGF → tumour angiogenesis → VEGF-TKI inhibits this. First-line TKI reference standard (2006-2018) now replaced by IO+TKI or IO+IO doublets."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q11",
+        "stem": "A 61-year-old woman has a 9.5 cm right renal mass (cT2b) on CT with no lymph node enlargement and no metastases. She has an eGFR of 78 mL/min. What is the most appropriate surgical approach?",
+        "options": {
+          "A": "Partial nephrectomy — preferred for all T2 tumours regardless of complexity",
+          "B": "Radical nephrectomy — preferred for T2b tumours that are technically not amenable to PN",
+          "C": "Bilateral adrenalectomy with nephrectomy given tumour size",
+          "D": "VEGF-TKI therapy before surgery to reduce tumour size"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For T2b tumours (>10 cm confined to kidney), radical nephrectomy is the standard approach. While PN should be considered for T2a (7-10 cm) in selected cases, T2b tumours (>10 cm) are almost always better served by radical nephrectomy due to technical complexity and oncological safety. The contralateral kidney is normal (eGFR 78 is reassuring pre-RN). Adrenalectomy is only indicated when CT shows adrenal involvement — routine ipsilateral adrenalectomy is not recommended for uncomplicated T2 disease.",
+          "wrong": {
+            "A": "PN for T2b (>10 cm) is technically feasible in very few cases and carries higher risk of incomplete resection and bleeding. RN is the standard.",
+            "C": "Routine adrenalectomy is not indicated unless imaging shows adrenal involvement. Adding adrenalectomy unnecessarily increases operative risk.",
+            "D": "Neoadjuvant VEGF-TKI therapy in RCC has not been shown to improve outcomes and is not standard practice. Surgery first for resectable disease."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — Radical nephrectomy standard for T2b; PN for T2a selected cases; adrenalectomy only if imaging shows adrenal involvement",
+          "trial": "Blom JHM et al. (Eur Urol 2009, EORTC 30947): Ipsilateral adrenalectomy vs no adrenalectomy — no OS difference; adrenalectomy not indicated unless adrenal involvement on imaging.",
+          "pearl": "Routine ipsilateral adrenalectomy at nephrectomy is NOT recommended unless CT/MRI shows adrenal involvement. T2b disease → radical nephrectomy. Adrenalectomy only for imaging-confirmed adrenal invasion."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q12",
+        "stem": "Which of the following renal tumour diagnoses is a BENIGN entity that should not be treated with nephron-sparing surgery unless growing or symptomatic?",
+        "options": {
+          "A": "Chromophobe renal cell carcinoma",
+          "B": "Papillary RCC type 1",
+          "C": "Renal oncocytoma",
+          "D": "Clear cell RCC with Fuhrman grade 1"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Renal oncocytoma is a benign renal neoplasm that does not metastasise. However, it cannot be reliably distinguished from chromophobe RCC on imaging alone — both appear as solid enhancing renal masses. Core needle biopsy can suggest oncocytoma (eosinophilic cells with granular cytoplasm, no nuclear atypia), but even biopsy cannot always definitively distinguish oncocytoma from oncocytic chromophobe RCC. Therefore, management decisions should be made knowing that surgical removal is curative and surveillance alone is acceptable for small (<3-4 cm) diagnosed oncocytomas in comorbid patients.",
+          "wrong": {
+            "A": "Chromophobe RCC is malignant (though with favourable prognosis). It requires the same surgical approach as other RCC subtypes.",
+            "B": "Papillary RCC type 1 is malignant. It requires surgical treatment.",
+            "D": "Low-grade clear cell RCC is malignant and requires resection."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — Oncocytoma: benign; may observe if biopsy confirmed; surgical removal is curative when treatment elected",
+          "trial": "Kouba E et al. (J Urol 2007): Renal oncocytoma series — no metastases in any of 168 patients at long-term follow-up; confirms benign natural history.",
+          "pearl": "Renal oncocytoma is benign and does not metastasise. The clinical challenge is distinguishing it from chromophobe RCC on imaging and even biopsy — both may appear similar. When confidently diagnosed, observation is acceptable for small oncocytomas."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q13",
+        "stem": "A patient is being assessed for metastatic ccRCC first-line treatment. He has IMDC intermediate risk (KPS 70%, haemoglobin below normal — 2 risk factors). Which regimen is recommended per EAU 2024 for intermediate/poor risk patients?",
+        "options": {
+          "A": "Sunitinib monotherapy — preferred in intermediate risk",
+          "B": "Nivolumab + ipilimumab — established for intermediate/poor risk (CheckMate 214)",
+          "C": "Everolimus — mTOR inhibitor preferred in intermediate risk",
+          "D": "Interferon-alpha — historical standard; still preferred in elderly patients"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "CheckMate 214 (Motzer RJ et al., NEJM 2018) showed nivolumab + ipilimumab significantly improved OS vs sunitinib in intermediate/poor risk ccRCC: 5-year OS 47% vs 27% (HR 0.68). The benefit was not significant in favourable-risk patients. EAU 2024 recommends nivolumab + ipilimumab as a preferred option for intermediate/poor risk metastatic ccRCC. Other IO-containing doublets (pembrolizumab + axitinib, pembrolizumab + lenvatinib, nivolumab + cabozantinib) are also endorsed for all risk groups.",
+          "wrong": {
+            "A": "Sunitinib is now only an option for favourable-risk patients who cannot receive IO-based regimens. It is not preferred for intermediate/poor risk in 2024.",
+            "C": "Everolimus is a second-line agent (after VEGF-TKI failure). It is not first-line for any metastatic RCC subgroup.",
+            "D": "Interferon-alpha is no longer used in metastatic RCC — superseded by VEGF-TKIs in 2006 and IO combinations in 2018."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — CheckMate 214 evidence; nivolumab + ipilimumab recommended for intermediate/poor IMDC risk",
+          "trial": "CheckMate 214 (Motzer RJ et al., N Engl J Med 2018; 378:1277-1290): Nivolumab + ipilimumab vs sunitinib — 5-yr OS 47% vs 27% (HR 0.68) in intermediate/poor risk.",
+          "pearl": "CheckMate 214: nivolumab + ipilimumab recommended for intermediate/poor IMDC risk ccRCC. Does not benefit favourable-risk patients where IO+TKI doublets are preferred. OS benefit: 47% vs 27% at 5 years."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q14",
+        "stem": "What is the definition of warm ischaemia time (WIT) during partial nephrectomy and what is the EAU 2024 recommended maximum duration?",
+        "options": {
+          "A": "Time from renal artery clamping to unclamping; maximum 60 minutes",
+          "B": "Time from renal artery clamping to unclamping; maximum 25 minutes",
+          "C": "Time from renal cooling to reperfusion; maximum 45 minutes",
+          "D": "Time from incision to kidney removal; maximum 180 minutes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Warm ischaemia time (WIT) is the duration from renal hilar clamping (arrest of warm blood flow to the kidney) to unclamping during partial nephrectomy. During WIT, the kidney is deprived of oxygenated blood and subjected to ischaemic injury. Prolonged WIT is associated with postoperative loss of renal function. EAU 2024 and most major guidelines recommend WIT ≤25 minutes as the target, with ≤20 minutes preferred for patients with pre-existing CKD. 'Off-clamp' (no hilar occlusion) partial nephrectomy eliminates WIT entirely and is used for peripheral exophytic tumours.",
+          "wrong": {
+            "A": "60 minutes is far too long — significant irreversible ischaemic damage occurs after 30 minutes, and clinically relevant loss of renal function is seen after 25 minutes.",
+            "C": "'Cold ischaemia time' (kidney cooled with ice slush) allows longer ischaemia up to 35-45 minutes before functional damage. This is not WIT.",
+            "D": "Total operative time is not WIT — WIT refers specifically to the clamped ischaemia interval."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — WIT ≤25 minutes recommended during PN; ≤20 minutes for baseline CKD; off-clamp technique eliminates WIT",
+          "trial": "Bhayani SB et al. (J Urol 2004): Functional outcomes after PN — WIT >30 min associated with significant eGFR loss at 12 months. Defines 25-minute clinical threshold.",
+          "pearl": "Warm ischaemia time = time with renal hilum clamped during PN. Target ≤25 minutes (preferably ≤20 minutes in CKD). Prolonged WIT causes irreversible nephron loss. Minimise by meticulous pre-operative planning, selective clamping, or off-clamp technique."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A3-Q15",
+        "stem": "A 55-year-old man with clear cell RCC, who underwent radical nephrectomy for cT3a disease 3 years ago, now presents with 2 isolated pulmonary nodules (1.2 cm and 0.9 cm) on surveillance CT. No other metastatic disease. He is asymptomatic with IMDC favourable risk. What is the most appropriate initial management?",
+        "options": {
+          "A": "Immediate systemic therapy with pembrolizumab + lenvatinib",
+          "B": "Watchful waiting — small lung nodules may be benign",
+          "C": "Surgical resection of both lung metastases (metastasectomy) — favourable risk oligometastatic disease",
+          "D": "Stereotactic ablative body radiotherapy (SABR) to both lung lesions"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Oligometastatic RCC with 2 resectable lung metastases after a 3-year disease-free interval in a favourable IMDC risk patient is a classic indication for pulmonary metastasectomy. Retrospective series and systematic reviews show 5-year OS of 45-55% after complete metastasectomy vs approximately 10-15% with systemic therapy alone in this setting. EAU 2024 states that complete surgical resection of all metastatic disease improves outcomes and should be considered in fit patients with resectable disease. Favourable IMDC risk, disease-free interval >12 months, and limited (<5) metastases all predict benefit from metastasectomy.",
+          "wrong": {
+            "A": "Immediate systemic therapy for resectable oligometastatic disease without attempting surgical control first is suboptimal — metastasectomy offers potential for complete remission.",
+            "B": "In a patient with known RCC and new pulmonary nodules after radical nephrectomy, the most likely diagnosis is metastatic RCC. Watchful waiting without tissue confirmation or treatment plan is inappropriate.",
+            "D": "SABR is an option but less validated than surgery for resectable lung metastases in RCC and is not first-line when surgery is feasible."
+          },
+          "guideline": "EAU Guidelines on RCC 2024, Section 7.3 — Complete resection of metastases improves outcomes; metastasectomy in fit patients with limited, resectable metastatic disease",
+          "trial": "Kavolius JP et al. (J Clin Oncol 1998): Metastasectomy for solitary RCC metastasis — 5-yr survival 44% complete resection vs 14% incomplete. Validated the role of metastasectomy.",
+          "pearl": "Oligometastatic RCC (particularly pulmonary, disease-free interval >1 year, IMDC favourable) is an indication for surgical metastasectomy. 5-year OS ~45-55% with complete resection. EAU 2024 recommends considering resection of all metastatic disease in fit patients."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q16",
+        "stem": "A renal mass biopsy report returns showing 'renal oncocytoma'. The patient is 78 years old with significant cardiac comorbidities. The tumour is 2.8 cm and exophytic on CT. What is the most appropriate management?",
+        "options": {
+          "A": "Immediate partial nephrectomy to confirm benign nature",
+          "B": "Active surveillance with annual CT — oncocytoma is benign and unlikely to harm",
+          "C": "Systemic VEGF-TKI therapy given imaging features",
+          "D": "Immediate radical nephrectomy given age and comorbidities preclude PN"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Renal oncocytoma is a benign neoplasm with no metastatic potential. In an elderly patient with significant cardiac comorbidities and a biopsy-confirmed oncocytoma, active surveillance is appropriate and avoids surgical risk. Annual CT surveillance monitors for growth (which would suggest the biopsy may have sampled adjacent or misclassified chromophobe RCC). Most oncocytomas grow slowly or not at all. Surgery can be reconsidered if the tumour grows rapidly or the biopsy was non-diagnostic.",
+          "wrong": {
+            "A": "PN to 'confirm' an already biopsy-confirmed benign lesion in a high surgical risk patient is not justified.",
+            "C": "VEGF-TKI therapy has no role in benign renal oncocytoma.",
+            "D": "Radical nephrectomy for a benign lesion in a high-risk patient is not appropriate."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — Oncocytoma: benign; surveillance acceptable in comorbid/elderly patients after biopsy confirmation",
+          "trial": "Umbehr MH et al. (Eur Urol 2014) systematic review: No reported metastases from confirmed pure renal oncocytoma in any published series. Benign natural history established.",
+          "pearl": "Biopsy-confirmed renal oncocytoma in a high-risk surgical patient = active surveillance. Oncocytoma is benign with no metastatic potential. The challenge is distinguishing it from chromophobe RCC — biopsy is the tool, and when confident, observation avoids unnecessary surgery."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q17",
+        "stem": "Which hereditary syndrome is most characterised by bilateral multifocal renal angiomyolipomata (AML), renal cysts, and clear cell RCC, and what is the first-line medical management for growing AML?",
+        "options": {
+          "A": "Von Hippel-Lindau disease — mTOR inhibitors for AML",
+          "B": "Tuberous sclerosis complex (TSC1/TSC2 mutation) — mTOR inhibitors (everolimus, sirolimus) for AML",
+          "C": "Birt-Hogg-Dubé syndrome — selective embolisation for AML",
+          "D": "HLRCC — erlotinib + bevacizumab for AML"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Tuberous sclerosis complex (TSC, caused by TSC1 or TSC2 mutations) is characterised by bilateral renal angiomyolipomata (AML), renal cysts, cortical tubers, subependymal giant cell astrocytomas, cardiac rhabdomyomas, and pulmonary lymphangioleiomyomatosis (LAM). The mTOR pathway is constitutively activated in TSC (mTOR = mechanistic target of rapamycin). mTOR inhibitors (everolimus or sirolimus) reduce AML size in 50-90% of TSC patients and are the first-line treatment for growing AML, significantly reducing the need for surgical intervention and embolisation.",
+          "wrong": {
+            "A": "VHL disease does not typically cause angiomyolipomata — it causes clear cell RCC and haemangioblastomas. VHL is not treated with mTOR inhibitors.",
+            "C": "Birt-Hogg-Dubé syndrome causes fibrofolliculomas, pulmonary cysts, and chromophobe RCC/oncocytoma — not AML.",
+            "D": "HLRCC causes aggressive papillary RCC type 2 — not AML."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — TSC and AML: mTOR inhibitors (everolimus) first-line for growing AML (>3 cm or symptomatic); embolisation/surgery for bleeding/emergency",
+          "trial": "Bissler JJ et al. (NEJM 2008): Sirolimus (rapamycin) reduces AML size in TSC patients by 53%; proof-of-concept for mTOR inhibition. Confirmed by EXIST-2 trial (everolimus).",
+          "pearl": "Tuberous sclerosis = mTOR-driven disease. Growing renal AML (>3 cm) in TSC → everolimus or sirolimus (mTOR inhibitors). Reduces AML size and prevents haemorrhage without surgery. AML >3 cm carries ~3% annual risk of catastrophic haemorrhage (Wunderlich syndrome)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q18",
+        "stem": "A 67-year-old man has Stage IVB (cT3b N1 M1b — bone) clear cell RCC at diagnosis. He is IMDC intermediate risk (2 factors). He is fit for systemic therapy and surgical risk is acceptable. What should his treatment approach include per EAU 2024?",
+        "options": {
+          "A": "Immediate cytoreductive nephrectomy followed by sunitinib",
+          "B": "Systemic therapy first (IO-doublet preferred); consider deferred CN if disease responds without progression",
+          "C": "Sunitinib alone — no role for surgery in N1 M1b disease",
+          "D": "Palliative care only given N1 M1b stage"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For IMDC intermediate risk M1 ccRCC, the CARMENA trial showed sunitinib alone non-inferior to CN + sunitinib; and SURTIME showed a trend toward benefit for deferred CN (after systemic therapy run-in). EAU 2024 recommends systemic IO-doublet therapy first (pembrolizumab + axitinib, nivolumab + ipilimumab, pembrolizumab + lenvatinib, or nivolumab + cabozantinib). If the patient does not progress at 2-3 cycles, deferred CN can be considered to reduce primary tumour burden. This identifies patients with good biology who are most likely to benefit from CN.",
+          "wrong": {
+            "A": "Immediate CN + sunitinib in intermediate risk was shown to be non-inferior (not superior) to sunitinib alone in CARMENA, and the contemporary first-line is IO-doublet not sunitinib.",
+            "C": "Systemic therapy is definitely indicated. Deferred CN is a valid option.",
+            "D": "N1M1b clear cell RCC is a treatable, though not curable, condition with median OS of approximately 23 months on IO-doublet therapy. Palliative care alone is inappropriate for a fit patient."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — Metastatic RCC: IO-doublet first line; CN deferred after systemic therapy response in intermediate risk; immediate CN only for favourable risk",
+          "trial": "CARMENA (NEJM 2018) + SURTIME (JAMA Oncol 2019): Together establish deferred CN strategy for intermediate risk metastatic RCC.",
+          "pearl": "Metastatic RCC management: IO-doublet first-line (not sunitinib anymore). Deferred CN (after 2-3 cycles of systemic therapy) is the preferred CN strategy when CN is indicated in intermediate-risk patients. Immediate CN only for favourable-risk resectable disease."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A3-Q19",
+        "stem": "A 52-year-old woman has a left renal mass (3.8 cm, heterogeneous, exophytic, cT1b on CT) confirmed as clear cell RCC after partial nephrectomy. Pathology shows pT1b, Fuhrman grade 3 (ISUP grade 3), R0, pN0. What follow-up surveillance is appropriate?",
+        "options": {
+          "A": "CT chest/abdomen at 3 months, then annually for 3 years (low risk protocol)",
+          "B": "CT chest/abdomen at 3 months, every 6 months for 2 years, then annually for 3 years (intermediate risk protocol)",
+          "C": "No surveillance — R0 resection of T1b disease is curative",
+          "D": "MRI abdomen only — CT not required for renal surveillance"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "pT1b Fuhrman/ISUP grade 3 clear cell RCC is classified as intermediate risk (T2 or grade 3 features). EAU 2024 intermediate risk surveillance: CT chest/abdomen at 3 months (baseline post-op), every 6 months for 2 years, then annually for 3 years. Grade 3 is an adverse feature that places pT1b in the intermediate, not low-risk, surveillance category.",
+          "wrong": {
+            "A": "Low risk surveillance is appropriate for pT1a grade 1-2 disease. pT1b grade 3 is intermediate risk requiring more intensive follow-up.",
+            "C": "RCC requires long-term surveillance even after R0 resection — recurrence can occur years later, particularly in higher-grade disease. 30% of pT1b grade 3 patients recur.",
+            "D": "CT is the preferred modality for RCC surveillance (lung metastases). MRI is used for problem-solving or in patients with contrast allergy/CKD."
+          },
+          "guideline": "EAU Guidelines on RCC 2024, Section 8 — Surveillance: T1b grade 3 = intermediate risk: CT at 3 months, q6 months × 2 years, annual × 3 years",
+          "trial": "Dabestani S et al. (Eur Urol 2019): Risk-adapted surveillance validation — intermediate risk RCC (T1b grade 3 or T2) requires biannual imaging in first 2 years to detect timely recurrence.",
+          "pearl": "RCC surveillance is grade and stage dependent. T1a grade 1-2 = low risk (annual CT). T1b grade 3, T2 = intermediate risk (6-monthly × 2 years, then annual). T3+, grade 4, N+ = high risk (6-monthly × 3 years). Never omit surveillance after RCC resection."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A3-Q20",
+        "stem": "What is the primary molecular mechanism explaining why non-clear cell RCC (e.g., chromophobe, papillary type 1) responds less well to VEGF-TKI therapy compared to clear cell RCC?",
+        "options": {
+          "A": "Non-ccRCC has lower PDL-1 expression and is therefore less immunogenic",
+          "B": "Non-ccRCC lacks VHL mutation and therefore does not have constitutively elevated VEGF via HIF-1α pathway activation",
+          "C": "Non-ccRCC has lower mTOR pathway activity making targeted therapy ineffective",
+          "D": "Non-ccRCC cells express VEGF-independent growth pathways that are insensitive to TKI blockade"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Clear cell RCC is characterised by biallelic VHL loss in >75% of cases. VHL normally degrades HIF-1α under normoxia. Without VHL, HIF-1α accumulates constitutively, driving transcription of VEGF, PDGF, GLUT1, and EPO — resulting in pathological angiogenesis that is the primary growth driver. VEGF-TKIs (sunitinib, pazopanib, axitinib) exploit this dependency. Non-ccRCC subtypes (chromophobe, papillary type 1) generally lack VHL mutations and therefore do not have constitutively elevated VEGF through the VHL-HIF pathway, explaining reduced TKI sensitivity.",
+          "wrong": {
+            "A": "PD-L1 expression varies across RCC subtypes and does not directly explain TKI resistance. PD-L1 is relevant to checkpoint inhibitor response, not TKI response.",
+            "C": "Chromophobe RCC has altered mTOR pathway activity (PTEN loss), but this is not the primary explanation for TKI resistance.",
+            "D": "While non-ccRCC may have alternative growth drivers, the fundamental explanation is absence of VHL-HIF-VEGF axis dependence."
+          },
+          "guideline": "EAU Guidelines on RCC 2024 — Non-ccRCC: less responsive to VEGF-TKI; VHL pathway basis for ccRCC TKI sensitivity",
+          "trial": "Escudier B et al. (Eur Urol 2012): Systematic review of VEGF-TKI in non-ccRCC — ORR and PFS consistently lower than in ccRCC; validates VHL dependency hypothesis.",
+          "pearl": "VHL mutation → HIF-1α accumulation → VEGF overexpression = the molecular basis for VEGF-TKI efficacy in ccRCC. Non-ccRCC lacks VHL mutation in most cases → no constitutive VEGF dependence → reduced TKI sensitivity. Know the VHL-HIF-VEGF axis."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

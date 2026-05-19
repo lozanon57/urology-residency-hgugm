@@ -1,0 +1,626 @@
+{
+  "id": "G4",
+  "title": "Redacción Científica y Publicación en Urología",
+  "subtitle": "Bloque G — Estructura IMRAD, Preparación del Manuscrito, Revisión por Pares y Ética de la Investigación",
+  "block": "G",
+  "block_name": "Investigación Académica en Urología",
+  "level": "R2-5",
+  "reading_time_min": 32,
+  "guidelines_version": "Recomendaciones ICMJE 2023 · Guías COPE 2023 · CONSORT 2010 · Guías de Reporte Red EQUATOR",
+  "textbook_refs": [
+    "ICMJE. Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals (2023). www.icmje.org",
+    "COPE. Guidelines on Good Publication Practice. Committee on Publication Ethics (2023)",
+    "Strunk W, White EB. The Elements of Style. 4th ed. Allyn & Bacon, 2000",
+    "Gasparyan AY et al. A primer on writing for medical journals. Eur J Intern Med 2011"
+  ],
+  "learning_objectives": [
+    "Estructurar un manuscrito científico utilizando el formato IMRAD con el contenido apropiado en cada sección",
+    "Aplicar las guías de reporte adecuadas (CONSORT, STROBE, PRISMA, STARD) a los manuscritos según el diseño del estudio",
+    "Comprender los criterios de autoría del ICMJE y distinguir la autoría del reconocimiento en agradecimientos",
+    "Navegar el proceso de revisión por pares tanto como autor como revisor",
+    "Identificar y evitar las violaciones habituales de la ética de la investigación, incluyendo el plagio, la fabricación de datos y la publicación duplicada",
+    "Seleccionar la revista objetivo adecuada e interpretar el factor de impacto, el CiteScore y las consideraciones de acceso abierto"
+  ],
+  "sections": [
+    {
+      "id": "G4-S1",
+      "title": "La Estructura IMRAD y la Redacción del Manuscrito Científico",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La gran mayoría de los artículos de investigación original en urología siguen la **estructura IMRAD**: Introducción, Métodos, Resultados (And/Y) Discusión. Esta secuencia lógica refleja el proceso científico y permite a los lectores localizar eficientemente la información específica. Cada sección tiene un propósito diferenciado y requisitos de contenido:\n\n**Introducción**: Contextualiza la pregunta de investigación. Debe ir de lo general (la enfermedad, el problema clínico) a la brecha específica de conocimiento, y concluir con un enunciado claro de los objetivos del estudio o la hipótesis. La Introducción NO debe presentar resultados ni comentar hallazgos. Debe ser concisa (típicamente 3–5 párrafos, 300–500 palabras en la mayoría de las revistas de urología). La frase final de la Introducción suele indicar: «El objetivo de este estudio fue...» o «Planteamos la hipótesis de que...»\n\n**Métodos**: La sección más importante para la integridad científica. Debe proporcionar suficiente detalle para que el estudio pueda ser replicado por un investigador independiente. Elementos clave: diseño y ámbito del estudio, población (criterios de inclusión/exclusión), intervención/exposición, definiciones de los resultados (primarios y secundarios), recogida de datos, análisis estadístico (todos pre-especificados). La declaración de ética (número de aprobación del CEIC/comité de ética, conformidad con la Declaración de Helsinki) y la declaración del consentimiento del paciente son obligatorias en la mayoría de las revistas. La sección de Métodos debe redactarse en tiempo pasado.\n\n**Resultados**: Informa los hallazgos sin interpretación. Tiempo pasado. Los hallazgos se presentan en orden lógico siguiendo los Métodos. Las tablas y figuras deben ser autoexplicativas con leyendas completas. El texto no debe repetir literalmente los datos de las tablas/figuras: resumir los hallazgos clave y remitir al lector a las tablas/figuras para los detalles. Todos los resultados pre-especificados deben informarse (Ítem 15 de CONSORT) independientemente de la dirección del efecto.\n\n**Discusión**: Interpreta los resultados en el contexto de la evidencia existente. Estructura: (1) resumen de los principales hallazgos en 1–2 frases; (2) comparación con la literatura previa; (3) explicación mecanicista; (4) implicaciones clínicas; (5) fortalezas del estudio; (6) limitaciones (honestas y específicas, no descargos genéricos); (7) conclusiones. La Discusión no debe exagerar los hallazgos más allá de lo que los datos apoyan."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Estructura del Resumen",
+          "content": "La mayoría de las revistas de urología requieren resúmenes estructurados: Antecedentes/Objetivo, Métodos, Resultados, Conclusiones. El resumen es la parte más leída de cualquier artículo: debe reflejar con precisión el artículo completo e incluir números específicos (porcentajes, valores p, IC). No debe contener información ausente en el artículo, y no debe exagerar las conclusiones. El límite de palabras es típicamente 250–300. El resumen estructurado de un ECA sigue las indicaciones del resumen de CONSORT."
+        }
+      ]
+    },
+    {
+      "id": "G4-S2",
+      "title": "Guías de Reporte según el Diseño del Estudio",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las guías de reporte son listas de verificación y diagramas de flujo que especifican qué información debe informarse en un manuscrito en función del diseño del estudio. NO prescriben cómo realizar el estudio: garantizan el informe transparente de lo que se hizo. Todas las principales revistas de urología exigen actualmente el cumplimiento de la guía de reporte relevante como condición de la presentación. La Red EQUATOR (Enhancing the QUAlity and Transparency Of health Research) mantiene una base de datos exhaustiva de todas las guías de reporte en equator-network.org.\n\nGuías de reporte clave relevantes para la investigación urológica:\n- **CONSORT 2010**: Ensayos controlados aleatorizados. Lista de verificación de 25 ítems + diagrama de flujo. Obligatorio para todas las presentaciones de ECA. Extensiones para ECA de conglomerados, ensayos de no inferioridad, ensayos pragmáticos, ensayos piloto.\n- **STROBE (Strengthening the Reporting of OBservational studies in Epidemiology)**: Estudios de cohorte, caso-control y transversales. Lista de verificación de 22 ítems.\n- **PRISMA 2020**: Revisiones sistemáticas y metaanálisis. Lista de verificación de 27 ítems + diagrama de flujo. Se requiere el número de registro en PROSPERO.\n- **STARD 2015 (Standards for Reporting Diagnostic accuracy Studies)**: Estudios de precisión diagnóstica. Lista de verificación de 30 ítems + diagrama de flujo.\n- **SPIRIT 2013**: Protocolos de ensayos clínicos. Lista de verificación de 33 ítems. Requerido para publicaciones de protocolos y solicitudes de financiación.\n- **TRIPOD**: Desarrollo y validación de modelos de predicción. Lista de verificación de 22 ítems.\n- **CARE (CAse REports)**: Informes de caso. Lista de verificación de 13 ítems.\n- **SQUIRE 2.0**: Estudios de mejora de la calidad. Lista de verificación de 18 ítems.\n- **AGREE II**: Informe de guías de práctica clínica. Lista de verificación de 23 ítems.\n\nPara las series de casos urológicas (frecuentes en urología quirúrgica), se aplica la guía **PROCESS** (Preferred Reporting Of CasE Series in Surgery). Para los artículos de revisión (no sistemáticos), las guías de revisión narrativa son menos estructuradas, pero las revistas suelen requerir una descripción de la búsqueda bibliográfica."
+        },
+        {
+          "type": "table",
+          "title": "Guías de Reporte para Diseños de Estudio Habituales en Urología",
+          "headers": ["Diseño del estudio", "Guía", "Componentes clave", "Revistas que la exigen"],
+          "rows": [
+            ["ECA", "CONSORT 2010", "Lista de 25 ítems + diagrama de flujo", "European Urology, BJU Int, J Urol"],
+            ["Estudio de cohorte", "STROBE", "Lista de 22 ítems", "European Urology, BJU Int"],
+            ["Estudio caso-control", "STROBE", "Lista de 22 ítems", "European Urology, BJU Int"],
+            ["Revisión sistemática/metaanálisis", "PRISMA 2020", "Lista de 27 ítems + diagrama de flujo + nº PROSPERO", "Todas las principales revistas de urología"],
+            ["Precisión diagnóstica", "STARD 2015", "Lista de 30 ítems + diagrama de flujo", "European Urology"],
+            ["Informe de caso", "CARE", "Lista de 13 ítems + cronología", "Urology Case Reports, BJU Int"],
+            ["Modelo de predicción", "TRIPOD", "Lista de 22 ítems", "European Urology, BJU Int"],
+            ["Serie de casos quirúrgica", "PROCESS", "Reporte estructurado para series quirúrgicas", "Annals of Surgery, BJS"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Confundir las Guías de Reporte con los Estándares de Diseño del Estudio",
+          "content": "Las guías de reporte describen CÓMO informar un estudio, no cómo diseñarlo o realizarlo. Un estudio mal diseñado informado perfectamente según CONSORT sigue siendo un mal estudio. A la inversa, un estudio bien diseñado informado sin cumplir CONSORT será rechazado por la mayoría de las revistas de urología. Son necesarios tanto una buena realización COMO un buen informe. El cumplimiento de CONSORT es evaluado por las revistas como parte del proceso de revisión editorial."
+        }
+      ]
+    },
+    {
+      "id": "G4-S3",
+      "title": "Autoría, Contribución y Agradecimientos",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La autoría tiene implicaciones académicas, financieras y de reputación sustanciales. No es meramente una distinción honorífica: implica responsabilidad y rendición de cuentas sobre el trabajo. Los **criterios de autoría del ICMJE (International Committee of Medical Journal Editors)** definen cuatro requisitos, TODOS los cuales deben cumplirse para la calificación como autor:\n\n1. **Contribución sustancial** a la concepción y el diseño, O a la adquisición de datos, O al análisis e interpretación de los datos.\n2. **Redacción del artículo** o revisión crítica del mismo en cuanto a su contenido intelectual importante.\n3. **Aprobación final** de la versión a publicar.\n4. **Acuerdo para ser responsable** de todos los aspectos del trabajo, incluyendo la investigación y resolución de las preguntas sobre la exactitud o la integridad.\n\nDeben satisfacerse los cuatro criterios. Los colaboradores que cumplan el criterio 1 pero no el 2–4 deben figurar en la sección de **Agradecimientos**, no como autores. Ejemplos habituales de quienes deben aparecer en agradecimientos pero NO como autores: estadísticos que solo analizaron los datos sin contribución intelectual al diseño o la interpretación, personal de laboratorio que solo procesó muestras, financiadores de becas.\n\nLa **autoría fantasma** (una persona que realizó contribuciones intelectuales sustanciales es omitida de la lista de autores) y la **autoría honorífica/de regalo** (una persona se lista como autora sin cumplir los criterios del ICMJE, generalmente para mejorar el prestigio del manuscrito con el nombre de un profesor establecido) son ambas violaciones éticas. El sistema **CRediT (Contributor Roles Taxonomy)** proporciona un vocabulario estandarizado de 14 roles de contribución (conceptualización, metodología, análisis formal, investigación, redacción, supervisión, obtención de financiación, etc.) y es utilizado cada vez más por las revistas para especificar la contribución exacta de cada autor.\n\nEl **autor de correspondencia** asume la responsabilidad de la comunicación con la revista, gestiona la correspondencia de la revisión por pares, y a menudo se le considera responsable de la integridad de los datos. En urología, la convención es que el **primer autor** realiza el trabajo y la escritura principales; el **último autor** es típicamente el investigador supervisor sénior."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Criterios de Autoría del ICMJE",
+          "content": "Los cuatro criterios del ICMJE deben cumplirse para la autoría: (1) contribución sustancial a la concepción/diseño/adquisición/análisis, (2) redacción o revisión crítica, (3) aprobación final, (4) responsabilidad. Un jefe de servicio que aparece como último autor en todos los trabajos de los residentes sin leer ni aprobar el trabajo no ha cumplido los criterios 2–4 y comete autoría honorífica: una violación ética notificable al COPE."
+        }
+      ]
+    },
+    {
+      "id": "G4-S4",
+      "title": "El Proceso de Revisión por Pares y la Selección de Revista",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **revisión por pares** es el mecanismo de control de calidad de la publicación científica. Antes de aceptar un manuscrito, las revistas lo envían a expertos independientes (revisores o árbitros) que evalúan la calidad científica, la validez metodológica y la contribución al campo. La mayoría de las revistas de urología utilizan la **revisión por pares doble ciego** (tanto autores como revisores son anónimos) o **simple ciego** (los revisores son anónimos para los autores). La revisión por pares abierta (se revela la identidad del revisor) es utilizada cada vez más por algunas revistas.\n\nEl proceso editorial estándar: (1) presentación → cribado editorial (rechazo de escritorio por fuera de ámbito, inglés deficiente o defectos metodológicos evidentes, aproximadamente el 50–70% de las presentaciones a European Urology son rechazadas en el escritorio); (2) revisión por pares (típicamente 2–3 revisores independientes, 4–8 semanas); (3) decisión editorial (aceptar, revisión mayor, revisión menor, rechazar); (4) revisión y segunda evaluación; (5) aceptación final y producción.\n\nAl presentar, los autores deben: identificar la revista apropiada según el ámbito e impacto; preparar una **carta de presentación** que destaque la novedad y la significación del estudio; sugerir revisores potenciales (y excluir a los competidores); incluir toda la documentación ética requerida (número de aprobación ética, registro en ClinicalTrials, lista de verificación CONSORT/STROBE); y verificar los requisitos de formato de la revista.\n\nEl **factor de impacto (FI)** de una revista es el número promedio de citas recibidas por artículo publicado en la revista durante 2 años. En urología: European Urology FI ≈ 25, Journal of Urology FI ≈ 7, BJU International FI ≈ 6, Urology FI ≈ 3. El **CiteScore** (Elsevier/Scopus) cubre una ventana de citación de 4 años y proporciona una métrica complementaria. El **índice h** mide el impacto individual del investigador: el número h tal que el investigador ha publicado h artículos cada uno de los cuales ha sido citado al menos h veces. El FI de la revista no debe ser el único criterio de selección: la adecuación al ámbito, los requisitos de acceso abierto y el tiempo hasta la publicación también importan."
+        },
+        {
+          "type": "table",
+          "title": "Principales Revistas de Urología: Métricas Clave y Ámbito",
+          "headers": ["Revista", "FI (aprox.)", "Ámbito", "Opción de acceso abierto"],
+          "rows": [
+            ["European Urology", "~25", "Toda la urología; ensayos clínicos de referencia, guías", "Sí (pago opcional)"],
+            ["European Urology Oncology", "~10", "Urología oncológica", "Sí (pago opcional)"],
+            ["Journal of Urology (AUA)", "~7", "Toda la urología; guías de la AUA", "Sí (pago opcional)"],
+            ["BJU International", "~6", "Toda la urología; enfoque europeo/internacional", "Sí (pago opcional)"],
+            ["Urology", "~3", "Urología amplia; artículos más cortos", "Sí (pago opcional)"],
+            ["Eur Urol Focus", "~5", "Educativa; revisiones sistemáticas, interpretación de guías", "Sí (pago opcional)"],
+            ["Urol Oncol: Seminars & Original Investigations", "~4", "Urología oncológica", "Sí (pago opcional)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G4-S5",
+      "title": "Redacción de las Secciones de Métodos y Resultados: Errores Frecuentes",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La sección de **Métodos** es la columna vertebral científica del manuscrito. Los errores frecuentes que llevan al rechazo o a la crítica postpublicación:\n\n1. **Descripción insuficiente de la población de pacientes**: Los criterios de inclusión y exclusión deben ser específicos. «Pacientes con cáncer de próstata» es insuficiente; «pacientes con cáncer de próstata confirmado histológicamente cT1–cT2, puntuación de Gleason ≤7, PSA ≤20 ng/mL, aptos para prostatectomía radical» es apropiado.\n\n2. **Endpoint primario no especificado**: El endpoint primario debe pre-especificarse, definirse (p. ej., «la recidiva bioquímica se definió como PSA ≥0,2 ng/mL en dos mediciones consecutivas») y distinguirse de los endpoints secundarios.\n\n3. **Plan de análisis estadístico ausente**: Cada prueba estadística debe pre-especificarse o describirse como post-hoc. Deben indicarse la versión del software, el umbral de significación, la corrección para comparaciones múltiples y los métodos para el manejo de los datos faltantes.\n\n4. **Declaración de ética ausente**: Toda investigación en seres humanos debe incluir: aprobación del CEIC/comité de ética (número e institución), conformidad con la Declaración de Helsinki y método de consentimiento del paciente (escrito/verbal/exento). Las revistas exigen cada vez más los identificadores ORCID y las declaraciones de disponibilidad de datos.\n\nErrores frecuentes en la sección de **Resultados**:\n1. **Interpretar en Resultados** (la interpretación corresponde a la Discusión): «Sorprendentemente, la cirugía robótica obtuvo mejores resultados...»: la palabra «sorprendentemente» es interpretación, no un hecho.\n2. **Redundancia entre texto y tablas**: El texto debe resumir los hallazgos clave; las tablas aportan los datos completos. Repetir en el texto todos los valores de la tabla malgasta palabras y resulta redundante.\n3. **No informar todos los resultados pre-especificados**: El informe selectivo de solo los resultados significativos viola CONSORT/STROBE. Deben informarse todos los resultados.\n4. **Redondeo inapropiado**: «El PSA fue de 4,2 ng/mL» cuando la precisión es ±0,1 ng/mL es apropiado; «4,213 ng/mL» implica una precisión inapropiada."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Redacción de la Sección de Limitaciones",
+          "content": "La sección de limitaciones no es un descargo ritual, sino que debe identificar las limitaciones genuinas y específicas y su probable impacto en las conclusiones. Aceptable: «El diseño retrospectivo de este estudio implica que factores de confusión no medidos, como el volumen del cirujano y el cumplimiento del protocolo ERAS institucional, pueden haber influido en los resultados. Esto limita la inferencia causal.» No aceptable: «Nuestro estudio tiene limitaciones por ser retrospectivo y monocéntrico.» El segundo ejemplo es genérico y no informa a los revisores ni a los lectores sobre la magnitud o la dirección del posible sesgo."
+        }
+      ]
+    },
+    {
+      "id": "G4-S6",
+      "title": "Ética de la Investigación: Plagio, Integridad de los Datos y Ética de la Publicación",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La mala conducta en la investigación en urología abarca desde los errores técnicos hasta el fraude deliberado. Las formas más graves son abordadas por las guías de COPE (Committee on Publication Ethics), que proporciona diagramas de flujo para el manejo de las sospechas de mala conducta.\n\nEl **plagio** es la presentación del trabajo o las ideas de otros como propios sin la atribución adecuada. Incluye la copia literal, el plagio en mosaico (reorganización de frases tomadas prestadas) y el autoplagio (reproducir texto sustancial de publicaciones propias previas sin cita). Todos los manuscritos enviados son sistemáticamente cribados con software de detección de plagio (iThenticate, Turnitin) por las principales revistas. El umbral de similitud aceptable es típicamente <15–20% en total, sin que ninguna fuente única supere el 5%. El autoplagio de publicaciones previas de los propios autores debe declararse.\n\nLa **fabricación y la falsificación de datos** son las violaciones más graves: inventar datos que no se recogieron (fabricación) o manipular los datos existentes para cambiar los resultados (falsificación). Conllevan la retractación del artículo publicado, investigación institucional, y pueden tener consecuencias para la carrera y legales. Incluso las manipulaciones menores no declaradas de imágenes (ajuste selectivo del brillo/contraste, duplicación de bandas en Western blots) constituyen falsificación.\n\nLa **publicación duplicada** (enviar el mismo trabajo a dos revistas simultáneamente, o publicar los mismos datos en otro idioma sin declaración) es una violación del ICMJE. La **publicación en salami** (dividir los datos de un único estudio en varios artículos menores para aumentar el recuento de publicaciones) es éticamente problemática. Las publicaciones secundarias (traducidas o adaptadas para un público diferente) son aceptables si son transparentes: se debe informar a la revista secundaria y citar la publicación primaria.\n\nLa **declaración de conflicto de intereses (CDI)** es obligatoria. Las relaciones financieras (becas, honorarios de consultoría, honorarios de conferencias, participación accionarial) y los intereses no financieros (relaciones profesionales, competencia académica) que puedan influir en el diseño del estudio, los resultados o la interpretación deben declararse. La mayoría de las revistas utilizan un formulario de declaración de CDI estandarizado (formulario ICMJE). La CDI no descalifica automáticamente a un estudio: debe declararse y los lectores pueden hacer su propia valoración."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Revistas Depredadoras",
+          "content": "Las revistas depredadoras cobran tasas de publicación de acceso abierto pero no proporcionan una revisión por pares legítima, pueden no estar indexadas en ninguna base de datos de prestigio, y publicarán cualquier manuscrito enviado. Características: invitaciones no solicitadas por correo electrónico para enviar manuscritos, revisión por pares irrealmente rápida (<2 semanas), factor de impacto declarado en la web de la revista pero no verificable en el JCR de Clarivate o Scopus, nombre que imita revistas legítimas (p. ej., «International Journal of Urology Research» clonando un título legítimo). Enviar trabajos a revistas depredadoras daña la credibilidad académica. Verifique las revistas usando el JCR de Clarivate o el CiteScore de Scopus antes de la presentación."
+        }
+      ]
+    },
+    {
+      "id": "G4-S7",
+      "title": "Acceso Abierto, Preprints y el Futuro de la Publicación Urológica",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El panorama de la publicación está evolucionando rápidamente hacia el acceso abierto: disponibilidad inmediata y gratuita de la investigación publicada para cualquier lector. Modalidades de acceso abierto:\n\n- **Acceso abierto dorado**: El artículo se publica inmediatamente en abierto en la web de la revista bajo una licencia Creative Commons. Financiado por una tasa de procesamiento de artículo (APC) pagada por el autor o la institución. APC en European Urology: aproximadamente 4.500–5.000 €. La mayoría de los financiadores de investigación (NIH, Consejo Europeo de Investigación, NIHR) exigen ahora el acceso abierto en un plazo de 12 meses desde la publicación (vías «verde» o «dorada»).\n- **Acceso abierto verde**: Los autores depositan el manuscrito aceptado en un repositorio institucional o temático (p. ej., PubMed Central, Europe PMC) tras un período de embargo (típicamente 6–12 meses). Gratuito para los autores.\n- **Acceso abierto diamante**: Revistas gratuitas para publicar Y para leer, financiadas por instituciones o sociedades científicas. Menos frecuente.\n- **Acceso por suscripción** (tradicional): Los lectores (o sus instituciones) pagan por el acceso. Cada vez más restringido por los mandatos de los financiadores.\n\nLos **preprints** son manuscritos publicados en servidores públicos (medRxiv, bioRxiv, SSRN, Research Square) antes de la revisión por pares y la publicación formal. Ventajas: difusión rápida, retroalimentación de la comunidad antes de la publicación, reclamación de prioridad con fecha de publicación. Desventajas: el contenido no revisado puede ser engañoso o incorrecto; ha generado preocupaciones de salud pública durante la COVID-19 cuando se difundieron ampliamente resultados no validados. La mayoría de las revistas de urología aceptan ahora manuscritos previamente publicados como preprints, siempre que la versión preprint esté claramente etiquetada y se informe a la revista. Los preprints de ECA quirúrgicos deben etiquetarse claramente como «NO REVISADO POR PARES» para evitar la adopción clínica prematura.\n\nLas herramientas de escritura asistida por IA (ChatGPT, Claude, Gemini) son utilizadas cada vez más por los investigadores. La actualización ICMJE 2023 aclara que las herramientas de IA no pueden figurar como autores (no pueden cumplir los criterios 3 y 4 del ICMJE: aprobación final y rendición de cuentas). Su uso debe declararse en la sección de Métodos o en los Agradecimientos. El texto generado por IA que no es verificado y revisado por los autores constituye una vulneración de la responsabilidad: los autores son plenamente responsables de todo el contenido presentado."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — El ICMJE sobre la Autoría de la IA",
+          "content": "Las herramientas de IA (ChatGPT, Claude, etc.) no pueden figurar como autores según los criterios del ICMJE porque no pueden: (1) dar la aprobación final de una versión para publicación, (2) ser consideradas responsables de la exactitud e integridad del trabajo, ni (3) acordar la declaración pública de conflictos de intereses. El uso de IA debe declararse. Los autores son plenamente responsables de todo el contenido generado con IA: las alucinaciones de la IA en el texto del manuscrito son responsabilidad del autor."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Evalúe sus conocimientos de redacción científica y ética de la publicación en urología con 20 preguntas tipo examen.",
+    "questions": [
+      {
+        "id": "G4-Q1",
+        "stem": "Una residente de urología ha completado un estudio de cohorte retrospectivo que compara los resultados a largo plazo de la prostatectomía radical abierta frente a la robótica. Está redactando el manuscrito. ¿En qué sección de la estructura IMRAD debe aparecer la afirmación «Los pacientes con mayor IMC tuvieron tasas de transfusión de sangre significativamente más elevadas en el grupo de cirugía abierta»?",
+        "options": {
+          "A": "Introducción",
+          "B": "Métodos",
+          "C": "Resultados",
+          "D": "Discusión"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Informar un hallazgo específico (mayor IMC asociado con mayores tasas de transfusión en un grupo) es un resultado factual derivado del análisis de los datos: corresponde a la sección de Resultados. Los Resultados presentan hallazgos sin interpretación: valores específicos, comparaciones estadísticas y asociaciones observadas en los datos. La sección de Resultados usa el tiempo pasado y no incluye lenguaje explicativo o interpretativo. Este hallazgo sería posteriormente comentado en la sección de Discusión.",
+          "wrong": {
+            "A": "La Introducción proporciona el contexto y plantea la pregunta de investigación, no informa ningún hallazgo del estudio. El conocimiento previo sobre IMC y resultados quirúrgicos podría referenciarse en la Introducción como contexto, pero el hallazgo real del estudio corresponde a los Resultados.",
+            "B": "La sección de Métodos describe cómo se realizó el estudio: selección de pacientes, recogida de datos, análisis estadístico. No informa ningún hallazgo.",
+            "D": "La Discusión interpreta los resultados en el contexto de la evidencia existente. Aunque los hallazgos sobre el IMC y las transfusiones se comentarían allí, la presentación primaria del hallazgo con su estadística corresponde a los Resultados. La Discusión explicaría por qué ocurrió este hallazgo y lo compararía con la literatura previa."
+          },
+          "guideline": "Recomendaciones ICMJE (2023): Estructura IMRAD: la sección de Resultados informa todos los hallazgos de forma factual sin interpretación; la Discusión interpreta los hallazgos en contexto; un error frecuente es colocar interpretación en los Resultados («sorprendentemente») o hallazgos en la Discusión sin haberlos informado previamente en los Resultados.",
+          "trial": "Gandaglia G et al. (Eur Urol 2014): Comparación emparejada por propensión de PR abierta frente a robótica: la sección de Resultados contenía hallazgos específicos (sangrado, tasas de transfusión, estancia hospitalaria por grupo) como afirmaciones factuales con valores precisos; la Discusión interpretó estos hallazgos y los comparó con la literatura previa: un modelo de estructura IMRAD.",
+          "pearl": "IMRAD: Introducción = contexto y pregunta; Métodos = cómo se realizó el estudio; Resultados = qué se encontró (factual, sin interpretación); Discusión = qué significa. Un hallazgo con estadísticas aparece siempre primero en los Resultados. La interpretación aparece en la Discusión. Colocar resultados en la Discusión sin haberlos informado previamente en los Resultados es un error estructural."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G4-Q2",
+        "stem": "Una residente envía un manuscrito a European Urology comparando TVT frente a TOT para la incontinencia urinaria de esfuerzo. El editor rechaza el manuscrito en la revisión de escritorio y solicita el cumplimiento de la lista de verificación CONSORT. ¿Qué elemento se requiere específicamente en la lista de verificación CONSORT 2010 y que con mayor frecuencia falta en los ECA quirúrgicos?",
+        "options": {
+          "A": "Recuento de palabras del resumen <250",
+          "B": "Diagrama de flujo CONSORT que muestre los números cribados, elegibles, aleatorizados, asignados, perdidos en el seguimiento y analizados en cada brazo",
+          "C": "Umbral de significación estadística declarado como p<0,05",
+          "D": "Fuente de financiación declarada en los Agradecimientos"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El diagrama de flujo CONSORT (Ítem 13b) es uno de los elementos más frecuentemente ausentes o incompletos en las presentaciones de ECA quirúrgicos. Debe mostrar el flujo de participantes a lo largo de cada etapa del ensayo: evaluados para elegibilidad → excluidos (con razones) → aleatorizados → asignados a la intervención (recibieron/no recibieron la intervención) → perdidos en el seguimiento (con razones) → interrumpieron la intervención → analizados (con razones de exclusión del análisis). En los ensayos quirúrgicos, deben documentarse los números que no recibieron el tratamiento asignado (p. ej., los que cruzaron de TVT a TOT por razones técnicas). Este diagrama de flujo permite a los lectores evaluar el posible sesgo de deserción y la integridad del análisis por intención de tratar.",
+          "wrong": {
+            "A": "El recuento de palabras del resumen <250 es un requisito de formato específico de la revista, no un ítem específico de CONSORT. Las diferentes revistas tienen diferentes límites de palabras en el resumen. CONSORT sí tiene una extensión para resúmenes (Ítem 1b), pero se refiere al contenido estructurado del resumen, no a un recuento de palabras específico.",
+            "C": "La declaración del umbral de significación (p<0,05 u otro nivel) es necesaria en la sección de análisis estadístico de los Métodos (Ítem 12a de CONSORT) y suele estar presente. El diagrama de flujo es el elemento visual más frecuentemente ausente.",
+            "D": "La declaración de financiación es obligatoria (Ítem 25 de CONSORT), pero suele estar presente, ya que las revistas la solicitan sistemáticamente. El diagrama de flujo es el elemento más frecuentemente ausente en las presentaciones de ECA quirúrgicos."
+          },
+          "guideline": "CONSORT 2010 (Ítem 13b): Diagrama de flujo que represente el número de participantes en cada etapa del ensayo, incluyendo las razones de no participación; los requisitos de presentación de European Urology especifican el diagrama de flujo CONSORT como obligatorio para las presentaciones de ECA; la razón más frecuente de rechazo en el escritorio es la ausencia del diagrama de flujo o de la lista de verificación CONSORT.",
+          "trial": "Ward KL, Hilton P. UK and Ireland TVT Trial Group (NEJM 2002): ECA de TVT frente a colposuspensión: incluyó un diagrama de flujo CONSORT completo que mostraba 344 cribados, 344 elegibles, 344 aleatorizados (172/172), tasas de seguimiento y números analizados: un modelo de ECA quirúrgico conforme con CONSORT.",
+          "pearl": "Diagrama de flujo CONSORT: obligatorio para todos los manuscritos de ECA. Debe mostrar: cribados → excluidos (con razones) → aleatorizados → asignados por brazo → perdidos en el seguimiento → analizados. Los números deben ser rastreables de arriba a abajo. El diagrama de flujo ausente o incompleto es la razón más frecuente de rechazo por incumplimiento de CONSORT."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G4-Q3",
+        "stem": "Un profesor sénior figura como último autor en un manuscrito de su servicio. No participó en el diseño del estudio, la recogida de datos, el análisis ni la redacción, pero revisó el borrador final y realizó ediciones menores. ¿Cumple los criterios de autoría del ICMJE?",
+        "options": {
+          "A": "Sí: revisar el borrador final satisface el requisito de autoría",
+          "B": "No: cumple los criterios 2 (revisión crítica), 3 (aprobación final) y 4 (responsabilidad), pero NO el criterio 1 (contribución sustancial a la concepción, diseño, adquisición o análisis)",
+          "C": "Sí: como jefe de servicio, su supervisión del equipo de investigación constituye una contribución sustancial",
+          "D": "Los criterios de autoría solo se aplican al primer y al autor de correspondencia"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La autoría del ICMJE requiere el cumplimiento de los CUATRO criterios. Este profesor cumple los criterios 2 (revisó y modificó el borrador), 3 (aprobó la versión final) y 4 (presumiblemente acepta la responsabilidad). Sin embargo, NO cumple el criterio 1: no realizó ninguna contribución sustancial a la concepción/diseño/adquisición/interpretación de los datos. Ser jefe de servicio o supervisor no constituye automáticamente una contribución intelectual sustancial. Se trata de un caso clásico de autoría honorífica (de regalo): una violación ética bajo las guías del ICMJE y el COPE.",
+          "wrong": {
+            "A": "Revisar el borrador final satisface el criterio 2 (redacción o revisión crítica), pero deben cumplirse los cuatro criterios. No se cumple el criterio 1 (contribución sustancial al trabajo científico).",
+            "C": "La supervisión administrativa de un equipo de investigación no constituye una contribución intelectual sustancial a un estudio específico según el criterio 1 del ICMJE. La contribución a la infraestructura del laboratorio, la mentoría general o el liderazgo del servicio deben agradecerse, no figurar como autoría.",
+            "D": "Los criterios de autoría del ICMJE se aplican a TODOS los autores de la lista, no solo al primero y al de correspondencia. Todos los autores deben cumplir individualmente los cuatro criterios."
+          },
+          "guideline": "Recomendaciones ICMJE (2023): Se requieren los CUATRO criterios para la autoría independientemente del rol profesional; los colaboradores que cumplen el criterio 1 pero no el 2–4 deben reconocerse en agradecimientos; los jefes de servicio/supervisores que no contribuyeron sustancialmente al estudio específico no deben figurar como autores: la autoría honorífica es una violación ética notificable al COPE.",
+          "trial": "Wager E, Williams P. COPE (2011): Análisis de disputas de autoría en artículos publicados: los casos COPE más frecuentes involucran autoría honorífica (facultad senior añadida sin cumplimiento del ICMJE) y autoría fantasma (analistas estadísticos o redactores médicos omitidos); ambas son violaciones con diagramas de flujo COPE que orientan a las revistas.",
+          "pearl": "El ICMJE requiere los 4 criterios: (1) contribución sustancial a la concepción/diseño/adquisición/análisis, (2) redacción o revisión crítica, (3) aprobación final, (4) responsabilidad. Falta del criterio 1 = autoría honorífica (violación). Cumplir el 1 pero no el 2–4 = agradecimiento, no autoría."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G4-Q4",
+        "stem": "Una residente de urología usa ChatGPT para redactar el primer borrador de las secciones de Introducción y Discusión de su manuscrito. Edita y revisa sustancialmente el texto generado por IA, comprueba todas las citas y verifica de forma independiente todas las afirmaciones factuales. Según las guías del ICMJE 2023, ¿qué debe hacer?",
+        "options": {
+          "A": "Listar a ChatGPT como coautor por haber generado secciones de texto",
+          "B": "Declarar el uso de ChatGPT en la sección de Métodos o en los Agradecimientos; ella sigue siendo plenamente responsable de todo el contenido",
+          "C": "No utilizar asistencia de IA: el ICMJE prohíbe la IA en la preparación de manuscritos",
+          "D": "Enviar el texto generado por IA a un detector de plagio; si la similitud es <15%, no se requiere declaración"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Guías del ICMJE 2023 sobre IA: las herramientas de IA no pueden figurar como autores (no pueden cumplir los criterios 3 y 4: aprobación final y responsabilidad). Los autores deben declarar el uso de IA en la preparación del manuscrito (típicamente en una afirmación en Métodos o Agradecimientos, como «Usamos ChatGPT-4 (OpenAI, 2023) para generar un primer borrador de la Introducción y la Discusión; el texto generado fue sustancialmente revisado y todas las afirmaciones factuales verificadas de forma independiente por los autores»). Los autores siguen siendo plenamente responsables de todo el contenido, incluidas las partes generadas por IA. No declarar el uso de IA puede constituir una violación de la transparencia.",
+          "wrong": {
+            "A": "Las herramientas de IA no pueden figurar como autores según el ICMJE 2023: no pueden dar la aprobación final de una versión para publicación, no pueden ser responsables de la exactitud del trabajo y no pueden declarar conflictos de intereses. Esto se establece explícitamente en el ICMJE 2023.",
+            "C": "El ICMJE no prohíbe la asistencia de IA: requiere su declaración. Usar IA como ayuda para la redacción está permitido siempre que se declare y los autores asuman plena responsabilidad.",
+            "D": "Los detectores de plagio miden la similitud con el texto existente: el texto generado por IA puede tener bajas puntuaciones de similitud pero igualmente requiere declaración. El requisito de declaración se refiere a la transparencia del proceso de redacción, no a las puntuaciones de similitud."
+          },
+          "guideline": "Recomendaciones ICMJE (actualización 2023): Las herramientas de IA no pueden figurar como autores; su uso debe declararse en los Métodos o los Agradecimientos; los autores son responsables de la exactitud e integridad de todo el contenido, incluido el texto generado por IA; el uso no declarado de IA es una violación de la transparencia.",
+          "trial": "Stokel-Walker C, Van Noorden R (Nature 2023): Análisis de la implementación de la política de IA del ICMJE 2023: las revistas que implementan la política requieren declaraciones que especifiquen la herramienta de IA, la versión y cómo se usó; los autores deben verificar de forma independiente todas las afirmaciones generadas por IA antes de la presentación.",
+          "pearl": "Herramientas de escritura con IA: (1) NO pueden figurar como autores (sin responsabilidad, sin aprobación), (2) DEBEN declararse (Métodos o Agradecimientos con nombre de la herramienta, versión y descripción del uso), (3) los autores son PLENAMENTE RESPONSABLES de todo el contenido incluido el generado por IA. No declarar = violación de la transparencia."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G4-Q5",
+        "stem": "Un manuscrito informa: «El tiempo operatorio medio para la cirugía robótica fue de 185 minutos (DE 42 minutos) frente a 210 minutos para la cirugía abierta (DE 38 minutos), p=0,003. Esto confirma la superioridad de la cirugía robótica.» ¿Qué error de redacción contiene esta afirmación?",
+        "options": {
+          "A": "Se utilizó la prueba estadística incorrecta; debería usarse la U de Mann-Whitney para el tiempo operatorio",
+          "B": "Interpretación («confirma la superioridad») en lo que debería ser una afirmación de la sección de Resultados; los Resultados deben informar los hallazgos de forma factual sin lenguaje interpretativo",
+          "C": "Las desviaciones estándar no deben informarse para el tiempo operatorio",
+          "D": "El valor p no debe informarse sin intervalos de confianza"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La afirmación contiene una afirmación interpretativa («confirma la superioridad de la cirugía robótica») en lo que es presumiblemente un hallazgo de la sección de Resultados. La sección de Resultados debe informar los hallazgos de forma factual: las medias, las DE y los valores p son resultados. Si esto «confirma la superioridad» es un juicio interpretativo que corresponde a la Discusión. Además, «superioridad» es un término técnico en el diseño de ensayos clínicos: usarlo en la comparación de un estudio de cohorte retrospectivo requiere más matización (superioridad frente a significación frente a importancia clínica). El equivalente correcto en la sección de Resultados sería: «El tiempo operatorio medio fue de 185 min (DE 42 min) para robótica frente a 210 min (DE 38 min) para cirugía abierta (p=0,003).»",
+          "wrong": {
+            "A": "El tiempo operatorio es una variable continua. Si su distribución es aproximadamente normal (habitual para los tiempos operatorios), la t de Student es apropiada. La U de Mann-Whitney se usaría si el tiempo operatorio presentara clara no normalidad. La elección de la prueba estadística es secundaria respecto al error de lenguaje interpretativo.",
+            "C": "Las desviaciones estándar son el estadístico de resumen correcto para datos continuos con distribución normal (tiempo operatorio): deben informarse.",
+            "D": "Los intervalos de confianza se recomiendan además de los valores p (Ítem 17 de CONSORT), pero no son obligatorios junto a cada valor p en todos los tipos de estudios. El error principal es el lenguaje interpretativo en la sección de Resultados."
+          },
+          "guideline": "Recomendaciones ICMJE (2023): Los Resultados deben informarse objetivamente sin interpretación; la interpretación se reserva para la Discusión; STROBE/CONSORT especifican que la sección de Resultados informa los hallazgos con sus estadísticas; el lenguaje interpretativo («confirma», «demuestra superioridad», «sorprendentemente») corresponde a la Discusión.",
+          "trial": "Gandaglia G et al. (Eur Urol 2014): Comparación de técnicas de PR: la sección de Resultados indica «La PR robótica se asoció con menor tiempo operatorio (mediana 150 min frente a 180 min, p<0,001)» sin lenguaje interpretativo; la sección de Discusión interpreta luego esta diferencia en el contexto de la literatura previa y la significación clínica.",
+          "pearl": "Sección de Resultados: solo hechos y estadísticas. Sin interpretación. Sin «sorprendentemente», «es importante destacar», «confirma la superioridad». Estas palabras corresponden a la Discusión. Un revisor que encuentre lenguaje interpretativo en los Resultados lo marcará para su corrección: es una violación estructural del IMRAD frecuente en escritores sin experiencia."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G4-Q6",
+        "stem": "Un investigador realiza una serie retrospectiva de 45 pacientes sometidos a nefrectomía parcial robótica de puerto único en su institución. Planea enviarla a European Urology. ¿Qué guía de reporte debe aplicar y cuál es la limitación más importante a declarar?",
+        "options": {
+          "A": "CONSORT 2010: la ausencia de un grupo comparador debe abordarse mediante aleatorización",
+          "B": "Guía PROCESS para series de casos quirúrgicas: el diseño retrospectivo monocéntrico sin grupo comparador limita la inferencia causal y la generalización",
+          "C": "STROBE: este es un estudio de cohorte observacional",
+          "D": "STARD: este es un estudio de precisión diagnóstica"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Una serie de casos (pacientes consecutivos sometidos al mismo procedimiento en una institución) debe informarse según la guía PROCESS (Preferred Reporting Of CasE Series in Surgery). La limitación más importante es la ausencia de un grupo comparador y el diseño retrospectivo monocéntrico: sin un grupo de control (p. ej., nefrectomía parcial robótica convencional o laparoscópica), no pueden extraerse conclusiones sobre la seguridad o la eficacia comparativa. El estudio puede describir la viabilidad, la técnica y los resultados tempranos, pero no puede afirmar superioridad ni equivalencia respecto a los abordajes estándar.",
+          "wrong": {
+            "A": "CONSORT se aplica a los ECA, no a las series de casos. Una serie de casos no tiene grupo de control ni aleatorización; CONSORT es completamente inapropiado. La aleatorización no es una solución a una pregunta sobre guías de reporte.",
+            "C": "STROBE se aplica a los estudios observacionales con grupos de comparación definidos (cohorte o caso-control). Una serie de casos sin grupo de control no es un estudio de cohorte ni de caso-control: es una serie de casos, y PROCESS es más apropiado.",
+            "D": "STARD se aplica a los estudios de precisión diagnóstica que evalúan el rendimiento de una prueba frente a un estándar de referencia: completamente no relacionado con una serie de casos de técnica quirúrgica."
+          },
+          "guideline": "Guía PROCESS (Agha RA, Int J Surg 2016): Preferred Reporting Of CasE Series in Surgery: lista de verificación de 18 ítems para series de casos quirúrgicas; requiere la descripción de la selección de pacientes (consecutivos frente a seleccionados), la integridad del seguimiento, las definiciones de resultados y la declaración explícita de la ausencia de grupo de control; la sección de limitaciones debe reconocer la incapacidad para establecer causalidad.",
+          "trial": "Mottrie A et al. (Eur Urol 2018): Serie de casos monocéntrica de nefrectomía parcial robótica de puerto único: informada según las guías PROCESS; la sección de limitaciones señaló explícitamente la ausencia de brazo comparativo y el diseño monocéntrico como limitaciones clave; la conclusión se restringió a la demostración de viabilidad y seguridad (IDEAL Etapa 2a).",
+          "pearl": "Serie de casos = guía PROCESS (quirúrgica), CARE (informes de caso) o TREND (intervenciones no aleatorizadas). No CONSORT (ECA) ni STROBE (observacional controlado). La limitación más importante a informar en cualquier serie de casos es la ausencia de un grupo comparador, lo que impide cualquier afirmación de superioridad o equivalencia."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q7",
+        "stem": "Un investigador envía el mismo conjunto de datos sobre los resultados de la ureteroscopia a dos revistas diferentes simultáneamente: una a European Urology en inglés y otra a Actas Urológicas Españolas en español. No informa a ninguna de las dos revistas de la presentación dual. ¿Qué violación ética ha ocurrido?",
+        "options": {
+          "A": "Esto es aceptable porque los dos artículos están en idiomas diferentes y sirven a lectores diferentes",
+          "B": "Esto constituye una presentación duplicada: enviar el mismo trabajo a dos revistas simultáneamente sin declaración; ambas revistas deben ser informadas; el ICMJE lo prohíbe sin acuerdo previo",
+          "C": "Esto es solo una violación si ambos artículos son aceptados y publicados simultáneamente",
+          "D": "Las publicaciones en español están exentas de las políticas de presentación duplicada del ICMJE"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La presentación duplicada (enviar el mismo manuscrito a más de una revista simultáneamente sin declaración) viola la política del ICMJE independientemente del idioma de la presentación. Esto malgasta el tiempo de los revisores, puede conducir a una publicación dual (doble contabilización en las revisiones sistemáticas) y es un acto de engaño hacia ambas revistas (cada una recibe implícitamente el manuscrito como presentación exclusiva). El enfoque correcto para una publicación secundaria legítima en otro idioma es: (1) publicar en la revista primaria primero; (2) informar a la revista secundaria de que se trata de una publicación secundaria traducida; (3) citar prominentemente la publicación primaria en el artículo secundario; (4) obtener el permiso de la revista primaria. El ICMJE permite explícitamente las publicaciones secundarias con declaración completa.",
+          "wrong": {
+            "A": "Los idiomas diferentes no eximen de las políticas de presentación duplicada. El ICMJE sí permite las traducciones secundarias, pero solo con declaración completa, publicación secuencial y cita cruzada, no con envío dual simultáneo no declarado.",
+            "C": "La violación ética ocurre en la presentación, no en la publicación. Enviar a dos revistas simultáneamente sin declaración es la violación, incluso si uno de los artículos es rechazado posteriormente, el acto de la presentación dual ya constituye la violación.",
+            "D": "Las políticas del ICMJE se aplican universalmente independientemente del idioma. No existe ninguna exención nacional ni lingüística para las políticas de presentación duplicada."
+          },
+          "guideline": "Recomendaciones ICMJE (2023): Los autores deben declarar todas las publicaciones previas del mismo trabajo o de trabajo estrechamente relacionado; la presentación simultánea a dos revistas está prohibida salvo que se haya realizado un acuerdo previo (p. ej., publicación simultánea de un documento de guías); las publicaciones secundarias legítimas en diferentes idiomas requieren declaración, publicación secuencial y cita cruzada.",
+          "trial": "Wager E, Williams P. COPE Best Practice Guidelines (2011): Serie de casos de presentación duplicada: los diagramas de flujo del COPE orientan a los editores que identifican presentaciones simultáneas; las respuestas apropiadas incluyen el rechazo de uno o ambos artículos y la notificación a las oficinas de integridad de la investigación institucional.",
+          "pearl": "Presentación duplicada = enviar el mismo trabajo a dos revistas simultáneamente sin declaración. Violación independientemente del idioma. La publicación secundaria de traducción ESTÁ PERMITIDA si: (1) el artículo primario se publica primero, (2) la revista secundaria es informada y consiente, (3) el artículo secundario cita prominentemente el artículo primario, (4) el titular de los derechos de autor de la revista primaria aprueba."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q8",
+        "stem": "Al redactar la sección de Discusión de un manuscrito que compara cistectomía abierta frente a robótica, ¿qué estructura sigue mejor la organización recomendada de la Discusión en IMRAD?",
+        "options": {
+          "A": "Listar primero todos los resultados estadísticamente significativos, luego proporcionar valores p estadísticos para cada uno",
+          "B": "Comenzar con un resumen de los principales hallazgos, comparar con la literatura previa, proporcionar una explicación mecanicista, discutir las implicaciones clínicas, declarar fortalezas y limitaciones, y concluir",
+          "C": "Repetir textualmente los hallazgos del resumen, luego añadir especulaciones sobre líneas futuras",
+          "D": "Comenzar con las limitaciones, luego declarar que el estudio es definitivo, luego proponer cambios inmediatos en las guías"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La estructura recomendada de la Discusión es: (1) resumen de los principales hallazgos en 1–2 frases (¿qué encontramos?); (2) comparación con la literatura previa (¿cómo se relacionan estos resultados con el conocimiento existente?); (3) explicación mecanicista (¿por qué pueden ocurrir estos resultados?); (4) implicaciones clínicas (¿qué significan estos hallazgos para la práctica?); (5) fortalezas del estudio; (6) limitaciones específicas y honestas; (7) conclusiones alineadas con los objetivos. Esta estructura asegura que la Discusión fluya lógicamente desde los hallazgos hasta su significado, su impacto, sus advertencias y sus conclusiones.",
+          "wrong": {
+            "A": "Listar valores p en la Discusión repite los Resultados sin añadir interpretación. La Discusión no debe informar estadísticas que no figuren ya en la sección de Resultados.",
+            "C": "Repetir el resumen textualmente malgasta palabras y viola el propósito de la Discusión (interpretación, no repetición). Las líneas futuras pueden aparecer al final de la Discusión, pero no deben dominarla.",
+            "D": "Comenzar con las limitaciones mina la credibilidad de los hallazgos antes de que sean siquiera interpretados. Las limitaciones corresponden después de la interpretación de los resultados. Afirmar que el estudio es «definitivo» es exagerado: los estudios individuales rara vez son definitivos. Proponer cambios inmediatos en las guías basándose en un único estudio sobreestima la evidencia."
+          },
+          "guideline": "Recomendaciones ICMJE (2023): La Discusión debe interpretar (no repetir) los resultados, abordar las limitaciones del estudio de forma honesta, comparar los hallazgos con la literatura relevante y declarar conclusiones consistentes con los objetivos y la evidencia del estudio; evitar afirmaciones que vayan más allá de lo que los datos apoyan.",
+          "trial": "Catto JW et al. iROC (JAMA 2022): La sección de Discusión abrió con un resumen de 2 frases («Este ECA mostró que la CARC no fue inferior a la CRC para las complicaciones a 90 días...»), seguido de comparación con RAZOR y datos observacionales previos, discusión mecanicista de la integración del ERAS con la cirugía robótica, implicaciones clínicas, limitaciones (un solo país, centros con experiencia) y conclusiones: un modelo de estructura de Discusión para un ECA de urología de alto impacto.",
+          "pearl": "Estructura de la Discusión: (1) resumen de los principales hallazgos, (2) comparación con la literatura previa, (3) mecanismos, (4) implicaciones clínicas, (5) fortalezas, (6) limitaciones, (7) conclusiones. Comenzar con lo que encontró (brevemente). Nunca repetir el resumen textualmente. Las limitaciones van antes de las conclusiones, no en primer lugar."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q9",
+        "stem": "Una residente envía un manuscrito sobre la prevención de infecciones del tracto urinario en pacientes con lesión medular. Un revisor devuelve el manuscrito solicitando la cumplimentación de la lista de verificación STROBE. ¿A qué diseño de estudio se aplica STROBE?",
+        "options": {
+          "A": "Ensayos controlados aleatorizados",
+          "B": "Revisiones sistemáticas y metaanálisis",
+          "C": "Estudios epidemiológicos observacionales: estudios de cohorte, caso-control y transversales",
+          "D": "Estudios de precisión diagnóstica"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "STROBE (Strengthening the Reporting of OBservational studies in Epidemiology) es la guía de reporte para los estudios epidemiológicos observacionales: estudios de cohorte prospectivos y retrospectivos, estudios de caso-control y estudios transversales. Contiene una lista de verificación de 22 ítems con una lista básica (ítems aplicables a los tres diseños) e ítems específicos del diseño. Un estudio de prevención de ITU en pacientes con LM que sigue a una cohorte de pacientes a lo largo del tiempo o compara a los pacientes con y sin una intervención de forma observacional usaría STROBE.",
+          "wrong": {
+            "A": "Los ECA usan CONSORT 2010. Los ECA implican asignación aleatorizada: STROBE no se aplica.",
+            "B": "Las revisiones sistemáticas usan PRISMA 2020. STROBE no se aplica a los estudios de síntesis de la literatura.",
+            "D": "Los estudios de precisión diagnóstica usan STARD 2015. STROBE no se aplica a los estudios que evalúan el rendimiento de las pruebas."
+          },
+          "guideline": "Declaración STROBE (von Elm E, Ann Intern Med 2007): Lista de verificación de 22 ítems para estudios de cohorte, caso-control y transversales; ítems 1–12 comunes a los tres diseños; ítems 12–22 con extensiones específicas del diseño; la Red EQUATOR mantiene la lista completa en equator-network.org.",
+          "trial": "Cardenas DD et al. (J Urol 2006): Estudio de cohorte retrospectivo de recurrencia de ITU en pacientes con LM: diseño observacional informado con cumplimiento de STROBE; el diseño de cohorte (pacientes seguidos a lo largo del tiempo sin aleatorización) usa correctamente STROBE en lugar de CONSORT.",
+          "pearl": "Selección de guía de reporte: ECA = CONSORT; observacional (cohorte/caso-control/transversal) = STROBE; revisión sistemática/metaanálisis = PRISMA; precisión diagnóstica = STARD; modelo de predicción = TRIPOD; serie de casos = PROCESS; informe de caso = CARE. Elegir la guía incorrecta es un error de presentación frecuente."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "G4-Q10",
+        "stem": "Un investigador descubre que un artículo publicado previamente de su grupo contiene una figura en la que la misma imagen de microscopía ha sido utilizada dos veces (duplicada) para representar dos experimentos supuestamente diferentes, con diferentes ajustes de brillo. ¿Cuál es el curso de acción apropiado?",
+        "options": {
+          "A": "Ignorar la duplicación ya que fue un error administrativo honesto sin impacto en las conclusiones",
+          "B": "Contactar inmediatamente al editor de la revista para informar del error; la revista puede emitir una corrección (errata) si los resultados son por lo demás válidos, o retratar si la integridad de las conclusiones está comprometida",
+          "C": "Retirar el artículo de la lista de publicaciones de la institución sin informar a la revista",
+          "D": "Enviar una nueva versión del artículo con imágenes corregidas como nueva presentación a una revista diferente"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La duplicación de imágenes, aunque sea inadvertida, constituye un error de informe que debe comunicarse a la revista. La respuesta apropiada es contactar al editor de la revista, explicar la situación y proporcionar las imágenes originales correctas. Si la duplicación fue un error honesto y los resultados son por lo demás válidos, la revista puede emitir una corrección (errata) sin afectar a la validez del artículo. Si la duplicación es falsificación deliberada o las conclusiones dependen de la imagen duplicada, se requiere la retractación. Las guías del COPE proporcionan diagramas de flujo para el manejo de la sospecha de manipulación de imágenes. Los autores tienen la obligación ética de corregir el registro científico.",
+          "wrong": {
+            "A": "Ignorar un error conocido en el registro publicado viola la obligación ética del investigador de mantener la exactitud del registro científico. Incluso los errores «honestos», una vez descubiertos, deben informarse y corregirse por los canales apropiados.",
+            "C": "Retirar el artículo de una lista de publicaciones institucional no corrige el registro científico: el artículo sigue publicado y citado. Debe informarse a la revista para emitir una corrección o retractación.",
+            "D": "Enviar una versión corregida a una revista diferente sin informar a la revista original es tanto una violación de la presentación duplicada como un fracaso en corregir la publicación errónea original. El artículo original incorrecto sigue en la literatura científica."
+          },
+          "guideline": "Guías COPE sobre el Manejo de la Manipulación de Imágenes (2021): Los autores deben declarar los errores conocidos a las revistas; las revistas evalúan si la manipulación es un error honesto (errata) o falsificación deliberada (retractación); los diagramas de flujo del COPE orientan a los editores en las investigaciones; los autores no pueden unilateralmente retraer o reemplazar artículos: el proceso requiere la participación de la revista.",
+          "trial": "Rossner M, Yamada KM (J Cell Biol 2004): Artículo de referencia que demuestra la prevalencia de la manipulación de imágenes en la investigación biomédica: el 25% de los manuscritos tenían alguna manipulación de imágenes en el cribado inicial; el 1% requirió rechazo por falsificación deliberada; estableciendo las políticas de cribado de integridad de imágenes en las revistas.",
+          "pearl": "Duplicación de imágenes descubierta: contactar inmediatamente al editor de la revista. No ignorar, suprimir ni buscar vías alternativas. Los diagramas de flujo del COPE orientan la respuesta. Error honesto = errata; manipulación deliberada = retractación. La obligación del investigador es mantener la exactitud del registro científico."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q11",
+        "stem": "El manuscrito de primer autor de una residente está bajo revisión en European Urology. El revisor solicita una «revisión mayor» y pide específicamente un análisis de subgrupos por estadio tumoral, que no estaba pre-especificado en los Métodos. ¿Deben los autores realizar este análisis?",
+        "options": {
+          "A": "Sí: las peticiones del revisor siempre deben cumplirse; añadir el análisis de subgrupos a los Resultados",
+          "B": "Los autores deben realizar el análisis solicitado, pero etiquetarlo claramente como análisis de subgrupos post-hoc (exploratorio) en los Resultados y la Discusión, señalando que no estaba pre-especificado y que es generador de hipótesis, no confirmatorio",
+          "C": "Rechazar la petición del revisor ya que constituye un cambio de outcome",
+          "D": "Realizar el análisis pero no declarar que no estaba pre-especificado para no debilitar la credibilidad del artículo"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los análisis de subgrupos post-hoc solicitados por revisores por pares son aceptables si se etiquetan claramente como exploratorios/generadores de hipótesis y no pre-especificados. Los autores deben: (1) realizar el análisis solicitado; (2) indicar claramente en los Métodos (o en el encabezado de los Resultados) que este análisis no estaba pre-especificado y se añadió a petición del revisor; (3) interpretar el resultado con la precaución apropiada en la Discusión («este análisis de subgrupos exploratorio sugiere... lo que debería probarse en estudios prospectivos futuros»). Esto mantiene la transparencia sin rechazar una petición razonable del revisor. La clave es la declaración del carácter post-hoc.",
+          "wrong": {
+            "A": "Cumplir ciegamente todas las peticiones del revisor sin declarar el carácter post-hoc sería engañoso: los lectores asumirían que todos los análisis estaban pre-especificados. Cumplimiento sí; ocultamiento del carácter post-hoc no.",
+            "C": "El cambio de outcome se refiere a abandonar un endpoint primario pre-especificado e informar uno diferente sin declaración. Que un revisor solicite un análisis exploratorio adicional no es lo mismo que un cambio de outcome: el endpoint primario original sigue siendo primario. Realizar análisis adicionales es aceptable.",
+            "D": "Ocultar el carácter post-hoc de un análisis es una violación de la transparencia. Todos los análisis post-hoc deben etiquetarse claramente como tales. El Ítem 18 de CONSORT requiere especificar qué análisis estaban pre-especificados y cuáles eran exploratorios."
+          },
+          "guideline": "CONSORT 2010 (Ítem 18): Distinguir claramente los análisis pre-especificados de los post-hoc; los análisis post-hoc pueden presentarse como exploratorios; el ICMJE recomienda la declaración de todos los análisis no pre-especificados con etiquetado explícito como generadores de hipótesis.",
+          "trial": "Schroder FH et al. ERSPC (NEJM 2014): El análisis actualizado añadió análisis de subgrupos pre-planificados y post-hoc por edad e intervalo de cribado: todos claramente etiquetados como pre-especificados o exploratorios; los análisis post-hoc señalados explícitamente como que requieren confirmación en estudios prospectivos futuros: un modelo de manejo transparente de los análisis exploratorios.",
+          "pearl": "Análisis de subgrupos post-hoc: realizar si es clínicamente relevante y lo solicita un revisor, pero SIEMPRE etiquetar como «post-hoc», «exploratorio», «no pre-especificado» y «generador de hipótesis». Interpretar con cautela: los análisis post-hoc pueden generar hipótesis pero no pueden confirmarlas. Ocultar el carácter post-hoc = violación de la transparencia."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q12",
+        "stem": "Un investigador está seleccionando una revista para su estudio que compara dos pautas de instilación intravesical para TVNM. Sus tres opciones principales son: European Urology (FI ~25, muy selectiva, largo tiempo de revisión), European Urology Focus (FI ~5, enfoque educativo, más rápida) y Urology (FI ~3, ámbito amplio). ¿Cuál es el enfoque más racional para la selección de revista?",
+        "options": {
+          "A": "Enviar siempre primero a la revista con mayor factor de impacto y descartar completamente las alternativas de menor nivel",
+          "B": "Seleccionar la revista más apropiada basándose en: adecuación al ámbito de la revista, alcance esperado entre los lectores relevantes, probabilidad realista de aceptación según la novedad y calidad del estudio, requisitos de acceso abierto y consideraciones de tiempo",
+          "C": "Enviar primero a la revista con menor factor de impacto para asegurar la aceptación, luego retirar y reenviar a revistas de mayor nivel",
+          "D": "El factor de impacto es el único criterio relevante; todos los demás criterios son secundarios"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La selección de revista debe basarse en múltiples factores: (1) adecuación al ámbito: ¿la revista publica estudios de este tipo (terapia intravesical para TVNM)? Las tres revistas lo harían; (2) novedad y calidad del estudio: ¿justifica la alta selectividad de European Urology (<15% de aceptación)? Un ECA bien diseñado podría; una serie retrospectiva puede ajustarse mejor a Urology; (3) requisitos de acceso abierto: los mandatos de los financiadores pueden requerir AA total (p. ej., NIH, Wellcome) en plazos específicos; (4) tiempo hasta la decisión: las preguntas clínicas urgentes pueden preferir revistas con revisión más rápida; (5) evaluación realista de la probabilidad de aceptación para evitar rechazos secuenciales prolongados. El factor de impacto importa para el impacto en la carrera, pero no debe ser el único criterio.",
+          "wrong": {
+            "A": "Enviar siempre a la revista con mayor FI malgasta tiempo y recursos si el estudio no tiene la calidad/novedad que European Urology suele publicar. El rechazo en el escritorio retrasa la difusión sin beneficio científico.",
+            "C": "Enviar a una revista de menor nivel con la intención de retirar y reenviar a otra es no ético: malgasta el tiempo de los revisores de la revista de menor nivel y constituye prácticas de presentación engañosas.",
+            "D": "El factor de impacto por sí solo ignora la adecuación al ámbito, las consideraciones de tiempo, los requisitos de acceso abierto y la probabilidad realista de aceptación, todos los cuales afectan a si el estudio llega a su público previsto y cumple los requisitos de los financiadores."
+          },
+          "guideline": "Recomendaciones ICMJE (2023): Los autores deben seleccionar revistas basándose en el ámbito científico, los estándares de calidad y las prácticas de publicación ética; la presentación simultánea a múltiples revistas está prohibida; el rechazo secuencial y la nueva presentación son práctica estándar; los autores no deben enviar a revistas depredadoras.",
+          "trial": "Montironi R et al. (Eur Urol 2022): Editorial sobre la selección de revista para la investigación urológica: los autores deben adaptar la calidad y novedad del estudio al nivel de la revista; serie retrospectiva monocéntrica de TVNM = apropiada para Urology, Urol Oncol; ECA multicéntrico de TVNM = apropiado para European Urology, J Urol.",
+          "pearl": "Criterios de selección de revista: (1) adecuación al ámbito, (2) calidad/novedad del estudio adaptada al nivel de la revista, (3) requisitos de acceso abierto de los financiadores, (4) tiempo hasta la decisión, (5) probabilidad realista de aceptación. El factor de impacto es importante pero no es el único criterio. La presentación secuencial (mayor FI primero, luego niveles inferiores) es práctica estándar."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q13",
+        "stem": "Un investigador está redactando la sección de Métodos de una serie de casos de 30 pacientes sometidos a enucleación prostática con láser de holmio (HoLEP) para HPB. Escribe: «Todos los procedimientos fueron realizados por un único cirujano experimentado según el protocolo institucional.» Un revisor comenta que esto es insuficiente. ¿Qué información adicional se requiere?",
+        "options": {
+          "A": "El número de quirófano del cirujano y el estado de acreditación del hospital",
+          "B": "Volumen de casos del cirujano (número de procedimientos HoLEP realizados antes del estudio), posición en la curva de aprendizaje, ajustes específicos del láser, método de estandarización de la técnica y secuencia de enucleación de los lóbulos",
+          "C": "Medidas de resultado comunicadas por los pacientes de un cuestionario validado",
+          "D": "Documentación de seguros y consentimiento de cada paciente"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La sección de Métodos debe proporcionar suficiente detalle para que un investigador independiente pueda replicar el estudio. Para una serie de casos de técnica quirúrgica, esto requiere: (1) volumen y experiencia del cirujano (cuántos casos de HoLEP antes del inicio del estudio: la posición en la curva de aprendizaje es crítica para interpretar los resultados); (2) parámetros técnicos específicos (longitud de onda del láser [holmio 2100 nm], ajustes de energía [típicamente 2,0–3,5 J por pulso a 40–50 Hz], abordaje de enucleación de lóbulos [técnica estándar de 3 lóbulos frente a 2 lóbulos]); (3) tipo de morcelador; (4) posicionamiento y anestesia; (5) protocolo de cateterización postoperatoria. «Cirujano experimentado según protocolo institucional» no aporta ninguna de esta información y hace imposible la replicación y la lectura crítica.",
+          "wrong": {
+            "A": "El número de quirófano y el estado de acreditación son detalles administrativos no relacionados con la replicabilidad científica de la técnica quirúrgica. No son elementos del IMRAD necesarios para la replicabilidad científica.",
+            "C": "Los resultados comunicados por los pacientes son medidas de resultado: corresponden a la subsección de Resultados de los Métodos (especificando qué cuestionario validado, el momento de administración) y a la sección de Resultados. No son parte de la descripción del procedimiento.",
+            "D": "La documentación de seguros y consentimiento son requisitos éticos verificables por el CEIC, no contenido de la sección de Métodos para fines de replicabilidad científica."
+          },
+          "guideline": "Guía PROCESS (Agha RA, Int J Surg 2016): Para las series de casos quirúrgicas, los Métodos deben especificar: experiencia y volumen del cirujano, posición en la curva de aprendizaje, detalles del procedimiento técnico, ámbito, anestesia y protocolo postoperatorio, con suficiente detalle para la replicación; las descripciones vagas como «cirujano experimentado según protocolo» no cumplen los estándares de PROCESS.",
+          "trial": "Herrmann TR et al. (Eur Urol 2020): Artículo de estandarización de la técnica HoLEP que especificaba los ajustes de energía (3,5 J/50 Hz), la secuencia de enucleación de los lóbulos, el tipo de morcelador (Karl Storz 26 Fr) y los criterios de acreditación del cirujano (>50 HoLEP antes del estudio): un modelo de informe completo de técnica quirúrgica en la sección de Métodos.",
+          "pearl": "La sección de Métodos quirúrgicos debe incluir: volumen/experiencia del cirujano (posición en la curva de aprendizaje), parámetros técnicos específicos (ajustes de energía, especificaciones del instrumental), posición del paciente, tipo de anestesia y protocolo postoperatorio. «Cirujano experimentado según protocolo» es inaceptablemente vago: los revisores requerirán detalles específicos."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q14",
+        "stem": "Un bioestadístico analiza los datos, interpreta los hallazgos, redacta la sección de análisis estadístico y aporta una orientación intelectual esencial a lo largo de un ECA urológico. Según los criterios del ICMJE, ¿este estadístico cumple los requisitos para la autoría?",
+        "options": {
+          "A": "No: los estadísticos nunca son elegibles para la autoría; siempre deben figurar en los Agradecimientos",
+          "B": "Sí: si el estadístico ha realizado contribuciones intelectuales sustanciales (criterio 1), ha participado en la revisión crítica del manuscrito (criterio 2), ha aprobado la versión final (criterio 3) y acepta ser responsable (criterio 4), se cumplen los cuatro criterios del ICMJE y la autoría es apropiada",
+          "C": "Solo si el estadístico tiene un doctorado en estadística; los estadísticos con máster solo deben figurar en agradecimientos",
+          "D": "El estadístico puede figurar como «autor estadístico» en una categoría de autoría separada"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La autoría del ICMJE no restringe quién puede ser autor en función del rol profesional. Si el estadístico ha: (1) contribuido sustancialmente al análisis de datos y la interpretación de los resultados (criterio 1), (2) revisado críticamente el manuscrito en cuanto a su contenido intelectual, incluyendo la sección de análisis estadístico (criterio 2), (3) aprobado la versión final para publicación (criterio 3) y (4) acordado ser responsable de la exactitud del trabajo estadístico (criterio 4), entonces se cumplen los cuatro criterios y la autoría es apropiada y merecida. Los estadísticos que desempeñan un papel intelectualmente formativo en un estudio son autores: los que solo proporcionan un servicio (ejecutar análisis especificados) sin contribución intelectual al diseño o la interpretación deben figurar en los agradecimientos.",
+          "wrong": {
+            "A": "Los estadísticos SÍ pueden y a menudo cumplen los criterios de autoría del ICMJE, especialmente cuando contribuyen al diseño del estudio, la selección de los métodos de análisis, la interpretación y la redacción del manuscrito. «Siempre en Agradecimientos» es incorrecto.",
+            "C": "El nivel de titulación (doctorado frente a máster) no es relevante para los criterios de autoría del ICMJE: los criterios se refieren a la contribución intelectual, no a las credenciales.",
+            "D": "El ICMJE no reconoce categorías de autoría separadas («autor estadístico»). Todos los autores figuran igualmente en la línea de autores; sus contribuciones individuales pueden especificarse en la declaración de contribución según CRediT."
+          },
+          "guideline": "Recomendaciones ICMJE (2023): Los cuatro criterios se requieren para la autoría independientemente del rol profesional; los estadísticos, metodólogos, epidemiólogos y gestores de datos que realizan contribuciones intelectuales sustanciales y participan en la preparación del manuscrito califican para la autoría; los «consultores estadísticos» que solo proporcionan servicios de procesamiento de datos deben figurar en agradecimientos.",
+          "trial": "Schulz KF, Altman DG, Moher D. Grupo CONSORT (BMJ 2010): El artículo de CONSORT 2010 listó a estadísticos como autores cuando realizaron contribuciones sustanciales al diseño de la metodología estadística y la redacción del manuscrito; no todos los estadísticos involucrados en los estudios miembros de CONSORT fueron listados: solo los que cumplían los criterios del ICMJE.",
+          "pearl": "Autoría según el ICMJE = independiente del rol. Los estadísticos, metodólogos, enfermeros o cualquier colaborador que cumpla los 4 criterios del ICMJE califica para la autoría. Los que proporcionan servicios técnicos (trabajo de laboratorio, entrada de datos, solo análisis de datos) sin contribución intelectual deben figurar en agradecimientos. Las credenciales no determinan la autoría: la contribución sí."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q15",
+        "stem": "Un investigador ha redactado la sección de Métodos indicando: «El análisis estadístico se realizó usando SPSS versión 27 (IBM, Armonk, NY).» Un revisor comenta que esta afirmación es incompleta. ¿Qué elementos adicionales se requieren para una sección de análisis estadístico completa?",
+        "options": {
+          "A": "El número de licencia de SPSS y los nombres de todos los operadores que realizaron los análisis",
+          "B": "Endpoint primario pre-especificado, pruebas estadísticas usadas para cada comparación, umbral de significación (alfa), manejo de los datos faltantes, base del cálculo del tamaño muestral y si alguno de los análisis fue post-hoc",
+          "C": "La versión de Windows o macOS en la que se ejecutó SPSS",
+          "D": "Una declaración de que un estadístico profesional aprobó todos los análisis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Una sección de análisis estadístico completa debe incluir: (1) el endpoint primario pre-especificado y la prueba estadística usada para analizarlo; (2) las pruebas usadas para todas las demás comparaciones (resultados secundarios) y su justificación (paramétrica frente a no paramétrica según la distribución); (3) el umbral de significación (p. ej., alfa = 0,05, bilateral); (4) cómo se manejaron los datos faltantes (análisis de casos completos, imputación múltiple, o última observación llevada hacia adelante, con justificación); (5) base del cálculo del tamaño muestral (para estudios prospectivos); (6) cualquier ajuste por comparaciones múltiples; (7) cuáles análisis estaban pre-especificados frente a post-hoc; (8) software con versión y fabricante. La cita del software solo no aporta ninguna información metodológica.",
+          "wrong": {
+            "A": "El número de licencia de SPSS y los nombres de los operadores no son necesarios en la sección de Métodos: son detalles administrativos irrelevantes para la replicación científica.",
+            "C": "El sistema operativo no se requiere en la descripción del análisis estadístico: los resultados de SPSS son independientes de la plataforma.",
+            "D": "Una declaración de que «un estadístico aprobó todos los análisis» no es sustituto de la descripción de los métodos reales usados: los lectores no pueden evaluar la idoneidad metodológica a partir de una declaración genérica de este tipo."
+          },
+          "guideline": "CONSORT 2010 (Ítem 12): Especificar los métodos estadísticos usados para la comparación de los resultados primarios y secundarios; describir los métodos para los análisis adicionales (subgrupos, ajustados); especificar el nombre y la versión del software; STROBE (Ítem 12): requisitos similares para los estudios observacionales; ambos exigen la especificación completa del método estadístico.",
+          "trial": "Antonelli A et al. (Eur Urol 2019): Comparación de nefrectomía parcial frente a radical: la sección de análisis estadístico especificó: endpoint primario (función renal a los 24 meses), prueba (t de Student pareada tras verificar la normalidad con Shapiro-Wilk), umbral alfa (0,05, bilateral), regresión múltiple para comparación ajustada (covariables listadas), datos faltantes (casos completos con análisis de sensibilidad) y software (Stata v14, StataCorp, TX): un modelo de sección de análisis estadístico completa.",
+          "pearl": "Lista de verificación de la sección de Métodos estadísticos: (1) endpoint primario + prueba usada, (2) endpoints secundarios + pruebas, (3) umbral alfa y especificación bilateral, (4) manejo de datos faltantes, (5) base del tamaño muestral, (6) ajuste por comparaciones múltiples, (7) análisis pre-especificados frente a post-hoc, (8) software + versión + fabricante. Solo el nombre del software es insuficiente."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G4-Q16",
+        "stem": "Una carta de rechazo de European Urology indica: «Su manuscrito fue evaluado y se determinó que no cumple nuestros estándares de novedad e impacto. Le animamos a considerar la presentación a una revista más apropiada.» ¿De qué tipo de rechazo se trata?",
+        "options": {
+          "A": "Rechazo post-revisión por pares basado en errores estadísticos",
+          "B": "Rechazo de escritorio: el manuscrito fue rechazado por un editor sin revisión por pares externa por motivos de novedad, ámbito o formato",
+          "C": "Retractación de un artículo previamente aceptado",
+          "D": "Solicitud de revisión mayor"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El rechazo de escritorio (o rechazo editorial) ocurre cuando el editor rechaza un manuscrito sin enviarlo a revisión por pares externa. Esto sucede cuando el manuscrito no cumple los estándares de la revista en cuanto a novedad, impacto científico, relevancia del ámbito, estándares mínimos de reporte o requisitos básicos de calidad. European Urology rechaza en el escritorio aproximadamente el 50–70% de todas las presentaciones. El lenguaje «le animamos a considerar la presentación a una revista más apropiada» es la redacción característica de un rechazo de escritorio, no de una decisión post-revisión por pares. El rechazo de escritorio permite decisiones rápidas (típicamente en 1–2 semanas) y permite a los autores reenviar a una revista más apropiada sin demora.",
+          "wrong": {
+            "A": "El rechazo post-revisión por pares implica revisores que identifican preocupaciones metodológicas o estadísticas específicas: la carta incluiría comentarios del revisor. El rechazo de escritorio típicamente no proporciona retroalimentación detallada del revisor.",
+            "C": "La retractación elimina un artículo previamente publicado de la literatura: es un proceso completamente diferente para un manuscrito que ya ha sido aceptado y publicado, no uno bajo revisión inicial.",
+            "D": "La «solicitud de revisión mayor» incluye comentarios específicos del revisor con los cambios requeridos: no es un rechazo. La palabra «rechazo» en la carta confirma que no se trata de una petición de revisión."
+          },
+          "guideline": "Recomendaciones ICMJE (2023): El rechazo editorial («rechazo de escritorio») es un proceso estándar de las revistas; los editores pueden rechazar sin revisión por pares por motivos de ámbito, novedad o calidad; los autores deben revisar y enviar a una revista alternativa sin reenviar a la misma revista a menos que se invite explícitamente a hacerlo.",
+          "trial": "Hug MJ et al. (Eur Urol 2022): Análisis editorial de los patrones de presentación a European Urology: tasa de rechazo en el escritorio del 55–70%; rechazo post-revisión por pares de los manuscritos restantes aproximadamente del 60%; tasa de aceptación global <15%: demuestra que el rechazo en el escritorio es el resultado editorial más frecuente en las revistas de urología de alto impacto.",
+          "pearl": "Rechazo de escritorio = el editor rechaza sin revisión por pares = sin comentarios del revisor. Razón: ámbito, novedad, calidad o formato. European Urology rechaza en el escritorio ~60% de las presentaciones. Tras el rechazo de escritorio: revisar y reenviar a una revista más apropiada sin demora. No reenviar el mismo manuscrito sin cambios."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "G4-Q17",
+        "stem": "Se pide a una residente de urología que revise como árbitro un manuscrito para el Journal of Urology. El manuscrito es de un grupo de investigación cuyo trabajo compite directamente con el de su supervisor, y su supervisor se beneficiaría si el artículo es rechazado. ¿Qué principios éticos se aplican?",
+        "options": {
+          "A": "Aceptar la revisión: los intereses contrapuestos son normales en la urología académica",
+          "B": "Rechazar la revisión por conflicto de intereses, informando al editor de la naturaleza del conflicto; no compartir el manuscrito con el supervisor",
+          "C": "Aceptar la revisión pero pedirle al supervisor que corevise el manuscrito",
+          "D": "Completar la revisión pero recomendar el rechazo independientemente del mérito científico por la relación competitiva"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los revisores por pares deben rechazar las invitaciones cuando tienen un conflicto de intereses que podría sesgar su evaluación, ya sea el conflicto personal (relación profesional competitiva con los autores), financiero (relación de consultoría) o intelectual (posición pública opuesta al tema del artículo). El revisor debe informar al editor de la naturaleza general del conflicto (p. ej., «trabajo en un área de investigación directamente competidora y mi supervisor se beneficiaría del rechazo de este artículo») y rechazar. El contenido del manuscrito NO debe compartirse con nadie, incluido el supervisor: el manuscrito es confidencial para el revisor.",
+          "wrong": {
+            "A": "Los intereses contrapuestos NO son condiciones normales bajo las que proceder con la revisión por pares. Las guías del COPE requieren explícitamente rechazar la revisión cuando un conflicto de intereses podría razonablemente sesgar la evaluación: la competencia profesional con beneficio directo para el supervisor del revisor es un CDI claro.",
+            "C": "Compartir el manuscrito con el supervisor para la correvisión es una violación de la confidencialidad: el manuscrito fue enviado únicamente al revisor designado. Además, empeora el conflicto de intereses al involucrar a la parte directamente competidora.",
+            "D": "Recomendar el rechazo basándose en intereses competitivos en lugar del mérito científico es una violación de la ética del revisor por pares: una revisión por pares fraudulenta notificable al COPE. Todas las recomendaciones de revisión por pares deben basarse únicamente en el mérito científico."
+          },
+          "guideline": "Directrices Éticas del COPE para Revisores por Pares (2017): Los revisores deben rechazar las invitaciones cuando tengan conflictos de intereses (personales, profesionales, competitivos) que puedan sesgar su evaluación; mantener la confidencialidad del contenido del manuscrito; basar las recomendaciones únicamente en el mérito científico; no compartir los manuscritos con terceros.",
+          "trial": "Wager E, Kleinert S. COPE (2011): Estudios de casos de ética de revisores por pares: un revisor que compartió un manuscrito con un supervisor (que posteriormente usó los datos) fue sometido a una investigación institucional; la revista publicante revocó el acceso del revisor y presentó una denuncia al COPE, ilustrando las consecuencias de las violaciones de la ética de la revisión por pares.",
+          "pearl": "CDI en revisión por pares: rechazar si tiene un conflicto personal, financiero o competitivo que pueda sesgar su evaluación. Informar al editor de la naturaleza general del conflicto. Mantener estricta confidencialidad del manuscrito. Nunca compartir con terceros (incluidos supervisores). Basar las recomendaciones únicamente en el mérito científico."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G4-Q18",
+        "stem": "Un grupo de investigación de tres instituciones publica un artículo en European Urology. El artículo incluye la frase: «Esta investigación no recibió financiación específica de ninguna agencia en los sectores público, comercial o sin fines de lucro.» Un autor declara posteriormente que recibió honorarios personales de consultoría del fabricante del dispositivo evaluado en el estudio, que no se declararon. ¿Qué ha ocurrido y cuáles son las acciones apropiadas?",
+        "options": {
+          "A": "Es una omisión menor; la revista debe añadir una nota a pie de página en el siguiente número",
+          "B": "Esto constituye la omisión de un conflicto de intereses: una violación grave de la ética de la publicación; la revista debe publicar como mínimo una corrección; puede ser apropiada una investigación de integridad de la investigación institucional; si el CDI afectó a la conducta del estudio o las conclusiones, puede requerirse la retractación",
+          "C": "El autor debe corregir la declaración de CDI en su próxima presentación, pero no es necesaria ninguna acción para el artículo publicado",
+          "D": "Solo los conflictos financieros de la financiación directa de la investigación requieren declaración; los honorarios personales de consultoría están exentos"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "No declarar un conflicto de intereses financiero (honorarios de consultoría del fabricante del dispositivo que se evalúa) es una violación grave de la ética de la publicación. Mina la confianza de los lectores y crea la apariencia (o la realidad) de un informe sesgado. Las acciones apropiadas son: (1) se debe informar a la revista, ya sea por el autor u otra parte que descubra la omisión; (2) la revista emite una corrección/errata formal actualizando la declaración de CDI; (3) si el CDI es grave (p. ej., el autor era responsable de la recogida primaria de datos o el análisis a favor del dispositivo) y probablemente afectó a las conclusiones, puede requerirse la retractación; (4) investigación de integridad de la investigación institucional para determinar si el CDI no declarado influyó en la conducta del estudio.",
+          "wrong": {
+            "A": "El CDI no declarado no es una «omisión menor»: es una violación ética clasificada por el COPE que requiere como mínimo una corrección formal. Una nota a pie de página en una revista es insuficiente.",
+            "C": "Los artículos publicados no pueden corregirse por los autores en una presentación futura: el registro publicado debe corregirse formalmente mediante una corrección/errata emitida por la revista vinculada al artículo original.",
+            "D": "Todas las relaciones financieras con entidades que tengan un interés financiero en el tema del estudio, incluyendo los honorarios personales de consultoría, los honorarios de conferencias, la participación accionarial y la membresía en consejos asesores, deben declararse. Solo la financiación directa de la investigación no es la única categoría que requiere declaración."
+          },
+          "guideline": "Recomendaciones ICMJE (2023): Deben declararse todas las relaciones financieras con entidades con un interés financiero en el tema del estudio; el formulario de CDI del ICMJE recoge: intereses financieros (empleo, consultoría, tribuna de ponentes, acciones, testimonio de experto, patentes, becas) y no financieros (personales, políticos, intelectuales, académicos) en los 36 meses precedentes; la no declaración = violación grave que requiere corrección o retractación.",
+          "trial": "Bekelman JE et al. (JAMA 2003): Metaanálisis que demuestra que los estudios patrocinados por la industria son significativamente más propensos a informar resultados positivos para los dispositivos/fármacos patrocinados: estableciendo la base de evidencia de por qué la declaración del CDI es esencial para la interpretación del estudio por parte de los lectores.",
+          "pearl": "Todos los conflictos de intereses financieros con entidades que tengan un interés financiero en el tema del estudio deben declararse, incluyendo honorarios personales de consultoría, honorarios de conferencias, acciones y membresía en consejos asesores (no solo las becas directas de investigación). La no declaración = violación ética = corrección formal o retractación. Los diagramas de flujo del COPE orientan la respuesta de la revista."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G4-Q19",
+        "stem": "Un redactor médico empleado por una compañía farmacéutica ha redactado el primer borrador de un manuscrito que informa un ensayo clínico de un nuevo agente intravesical para TVNM, basándose en el protocolo y los datos del estudio proporcionados por la compañía. El investigador principal (IP) y los coinvestigadores revisaron, modificaron y aprobaron el manuscrito final. El IP envía el manuscrito sin declarar la participación del redactor médico. ¿Qué ejemplo es este y cuál es el enfoque correcto?",
+        "options": {
+          "A": "Práctica aceptable: la redacción médica es un servicio estándar",
+          "B": "Autoría fantasma: el redactor médico realizó contribuciones sustanciales al manuscrito pero no figura en la lista; la participación del redactor médico y el papel de la compañía farmacéutica deben declararse en los Agradecimientos",
+          "C": "El redactor médico debe figurar como primer autor dada su contribución",
+          "D": "La publicación debe rechazarse ya que los ensayos patrocinados por la industria son intrínsecamente sesgados"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La redacción fantasma, en la que una persona realiza contribuciones sustanciales a un manuscrito (en este caso, redactar todo el primer borrador) pero no figura como autor ni se la reconoce, es una violación ética según el ICMJE. El redactor médico debe reconocerse en la sección de Agradecimientos con su rol y empleador especificados (p. ej., «El apoyo de redacción médica fue proporcionado por [nombre], empleado de [compañía], y fue financiado por [compañía]»). Esta declaración permite a los lectores evaluar la posible influencia en el manuscrito. El redactor médico puede o no cumplir los criterios de autoría en función de si cumple los cuatro criterios del ICMJE: típicamente los redactores médicos no cumplen plenamente los criterios 1 y 4, por lo que el reconocimiento en agradecimientos suele ser lo apropiado.",
+          "wrong": {
+            "A": "La redacción médica profesional es aceptable, pero solo si se declara adecuadamente. Redacción médica no declarada = redacción fantasma = violación ética independientemente de la participación de la industria.",
+            "C": "Los redactores médicos normalmente no cumplen todos los criterios de autoría del ICMJE, específicamente, puede que no hayan realizado contribuciones intelectuales sustanciales al diseño o el análisis del estudio (criterio 1) y puede que no acepten ser plenamente responsables de todos los aspectos del trabajo (criterio 4). La atribución de la autoría debe seguir los criterios del ICMJE.",
+            "D": "Los ensayos patrocinados por la industria pueden publicarse: la clave es la transparencia total de la financiación, todos los conflictos de intereses de los autores y el apoyo de redacción médica. El rechazo indiscriminado de los ensayos patrocinados por la industria eliminaría evidencia clínica de alta calidad sustancial."
+          },
+          "guideline": "Recomendaciones ICMJE (2023): El apoyo de redacción médica no declarado constituye redacción fantasma, una violación ética; el apoyo de redacción médica debe declararse en los Agradecimientos con el nombre del redactor, el empleador y el hecho de que el apoyo de redacción fue financiado por la compañía; la redacción fantasma es notificable al COPE.",
+          "trial": "Wislar JS et al. (BMJ 2011): Encuesta de 630 artículos en seis revistas de alto impacto: el 21,4% tenía autoría fantasma (redactor médico no reconocido); el 25,5% tenía autoría de regalo (colaboradores no contribuyentes listados como autores); ambas violaciones son frecuentes y el ICMJE/COPE continúa enfatizando los requisitos de declaración.",
+          "pearl": "Redacción fantasma = contribución sustancial de redacción no declarada. Debe declararse en Agradecimientos: nombre del redactor + empleador + que el apoyo de redacción fue financiado por la compañía. La redacción fantasma sin declaración es una violación ética. La declaración del apoyo de redacción médica profesional es ética y se fomenta para la transparencia."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "G4-Q20",
+        "stem": "Un residente de urología desea enviar su primer artículo de investigación original. Le han aconsejado que use la «Red EQUATOR» para identificar la lista de verificación de reporte apropiada. ¿Qué es la Red EQUATOR y cuál es su propósito principal?",
+        "options": {
+          "A": "Un paquete de software estadístico para calcular el tamaño muestral en la investigación urológica",
+          "B": "Una biblioteca en línea y centro de recursos que recopila y proporciona acceso a todas las guías de reporte de la investigación en salud y sus listas de verificación, indexadas por diseño de estudio",
+          "C": "Una base de datos europea de ensayos controlados aleatorizados en urología",
+          "D": "Un organismo financiador de la investigación urológica europea"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La Red EQUATOR (Enhancing the QUAlity and Transparency Of health Research) es una iniciativa internacional que proporciona una biblioteca exhaustiva de guías de reporte para la investigación en salud en equator-network.org. Indexa >500 guías de reporte por diseño de estudio (ECA, observacional, revisión sistemática, diagnóstico, económico, cualitativo, etc.) y proporciona acceso directo a las listas de verificación, diagramas de flujo, artículos explicativos y las políticas de las revistas sobre los requisitos de reporte. Para un primer remitente: identificar el diseño del estudio → buscar la guía relevante en EQUATOR → descargar la lista de verificación → cumplimentarla y enviarla con el manuscrito.",
+          "wrong": {
+            "A": "El software para el cálculo del tamaño muestral incluye G*Power, PASS y varias calculadoras en línea: ninguno de ellos es la Red EQUATOR. EQUATOR se ocupa del reporte, no del cálculo de la potencia estadística.",
+            "C": "El registro CENTRAL de Cochrane indexa ensayos controlados; ClinicalTrials.gov indexa ensayos registrados. EQUATOR es una biblioteca de guías de reporte, no una base de datos de ensayos.",
+            "D": "La financiación de la investigación europea en urología la proporcionan el Consejo Europeo de Investigación (ERC), HORIZON Europe y la Fundación de Investigación de la EAU: no la Red EQUATOR. EQUATOR proporciona herramientas metodológicas, no financiación."
+          },
+          "guideline": "Red EQUATOR (equator-network.org): La biblioteca indexada exhaustiva de guías de reporte de la investigación en salud; proporciona las publicaciones originales de las guías, las listas de verificación, los diagramas de flujo y las herramientas de implementación; colabora con las principales revistas y financiadores para estandarizar el reporte en todos los diseños de estudio de la investigación en salud.",
+          "trial": "Glasziou P et al. (Lancet 2014): Auditoría de la calidad del reporte en 164 ensayos usando puntuaciones de cumplimiento de las guías EQUATOR: los ensayos que cumplían >80% de los ítems de CONSORT tenían tasas significativamente menores de desperdicio de ensayos en comparación con los ensayos mal reportados; la implementación de EQUATOR por las revistas se asoció con una mejora de la calidad del reporte a lo largo del tiempo.",
+          "pearl": "Red EQUATOR = equator-network.org = biblioteca exhaustiva de todas las guías de reporte de la investigación en salud, indexadas por diseño de estudio. Primer paso para cualquier manuscrito: identificar el diseño del estudio, ir a EQUATOR, encontrar la guía relevante (CONSORT/STROBE/PRISMA etc.), cumplimentar la lista de verificación, enviarla con el manuscrito. Las principales revistas de urología requieren el cumplimiento de la lista de verificación catalogada en EQUATOR."
+        },
+        "difficulty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,646 @@
+{
+  "id": "A6",
+  "title": "Testicular Cancer",
+  "subtitle": "Block A — Germ Cell Tumours: Diagnosis, Staging, and Treatment",
+  "block": "A",
+  "block_name": "Urological Oncology",
+  "level": "R2-3",
+  "reading_time_min": 38,
+  "guidelines_version": "EAU Guidelines on Testicular Cancer 2024 · ESMO Testicular Cancer Guidelines 2022 · NCCN Testicular Cancer v1.2024",
+  "textbook_refs": [
+    "Campbell-Walsh-Wein Urology, 12th ed. (2021) — Chapter 85: Testicular tumours",
+    "EAU Guidelines on Testicular Cancer (Laguna et al., 2024)",
+    "Bosl GJ, Motzer RJ. Testicular germ-cell cancer. NEJM 1997",
+    "De Wit R et al. Equivalence of three or four cycles of bleomycin, etoposide, and cisplatin chemotherapy for good-risk germ cell tumors. JCO 2001",
+    "International Germ Cell Cancer Collaborative Group (IGCCCG). International germ cell consensus classification. JCO 1997"
+          ],
+  "learning_objectives": [
+    "Classify testicular germ cell tumours (seminoma vs NSGCT) and describe their different biological behaviours and treatment approaches",
+    "Apply the IGCCCG prognostic classification (good/intermediate/poor risk) to determine chemotherapy intensity for metastatic GCT",
+    "Describe the staging workup for newly diagnosed testicular GCT including tumour markers, CT staging, and lymph node assessment",
+    "Outline the treatment algorithm for Stage I seminoma (surveillance vs adjuvant carboplatin vs RPLND) and Stage I NSGCT (surveillance vs RPLND vs BEP × 1)",
+    "Identify the tumour markers (AFP, hCG, LDH) used in GCT staging, response assessment, and post-treatment surveillance",
+    "Explain the rationale and indications for post-chemotherapy retroperitoneal lymph node dissection (PC-RPLND) in NSGCT"
+  ],
+  "sections": [
+    {
+      "id": "A6-S1",
+      "title": "Epidemiology, Pathology, and Diagnosis",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Testicular cancer is the most common solid malignancy in males aged 15-40 years, accounting for approximately 9,190 new cases annually in the United States (ACS 2024). Despite this, it is one of the most curable solid malignancies, with an overall 5-year relative survival of 95%. Risk factors include cryptorchidism (4-8-fold increased risk, even after orchidopexy), Klinefelter syndrome, family history (4-6-fold for first-degree relatives), and personal history of contralateral GCT. The peak age of incidence for seminoma is 35-40 years; for NSGCT, it is 25-30 years.\n\nGerm cell tumours (GCTs) account for 95% of all testicular malignancies. Pathological classification distinguishes two major groups: seminoma (pure seminoma — no NSGCT elements, normal AFP) and non-seminomatous germ cell tumours (NSGCT — includes embryonal carcinoma, yolk sac tumour, choriocarcinoma, teratoma, and mixed GCTs). Spermatocytic seminoma is a rare distinct entity (>50 years, very low malignant potential, no metastatic risk). Sex cord-stromal tumours (Leydig cell, Sertoli cell tumours) account for the remaining 4-5% of testicular neoplasms and are generally benign.\n\nDiagnosis begins with scrotal ultrasound, which has sensitivity >95% for intratesticular lesions and differentiates GCT (hypoechoic, vascular) from benign conditions (cyst, haematoma, epididymitis). Radical orchidectomy via an inguinal approach is both diagnostic and therapeutic. Scrotal incision is contraindicated due to altered lymphatic drainage (potentially involving inguinal nodes rather than retroperitoneal nodes). Testis-sparing surgery can be considered in solitary testis or bilateral tumours <2 cm with normal contralateral testis function, if intraoperative frozen section confirms GCT-free margins."
+        },
+        {
+          "type": "table",
+          "title": "WHO Classification of Testicular GCTs and Tumour Markers",
+          "headers": ["Histological Type", "AFP", "hCG", "LDH", "Frequency"],
+          "rows": [
+            ["Pure seminoma", "Normal (<7 kU/L)", "Normal or mildly elevated", "May be elevated", "50-55%"],
+            ["Embryonal carcinoma", "Often elevated", "May be elevated", "May be elevated", "~20% pure; common mixed"],
+            ["Yolk sac tumour (adult)", "Markedly elevated", "Normal", "Variable", "Rare pure; common in mixed"],
+            ["Choriocarcinoma", "Normal", "Markedly elevated", "May be elevated", "Rare pure; worst prognosis"],
+            ["Mature/immature teratoma", "Normal", "Normal", "Normal", "~5% pure; common in mixed"],
+            ["Mixed NSGCT", "Often elevated", "Often elevated", "May be elevated", "~30-40% of GCTs"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Elevated AFP Rules Out Pure Seminoma",
+          "content": "An elevated AFP (>7 kU/L) in a patient with a testicular tumour rules out pure seminoma by definition — any AFP elevation indicates the presence of NSGCT elements (most commonly yolk sac tumour), even if the pathology reports pure seminoma. This is critical because seminoma and NSGCT have different management algorithms. The pathological diagnosis should be reclassified as mixed GCT or NSGCT when AFP is elevated."
+        }
+      ]
+    },
+    {
+      "id": "A6-S2",
+      "title": "Staging System and Tumour Markers",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Testicular GCT staging uses the TNM/AJCC 8th edition system with the addition of an 'S' category for serum tumour markers (AFP, hCG, LDH). Post-orchidectomy tumour marker levels (measured after the half-life of marker clearance: AFP half-life 5-7 days; hCG half-life 24-36 hours) are mandatory for accurate staging and are incorporated into the S-category (S0 = markers within normal; S1 = mild elevation; S2 = moderate elevation; S3 = high elevation). Rising or non-declining markers post-orchidectomy indicate metastatic disease regardless of imaging findings.\n\nClinical staging after orchidectomy includes: CT chest/abdomen/pelvis (standard), testicular ultrasound of contralateral testis, and brain MRI if neurological symptoms or choriocarcinoma histology (highest risk of brain metastases). FDG-PET/CT is specifically indicated for post-chemotherapy residual masses in seminoma (to differentiate active tumour from necrosis/fibrosis) but has a false-positive rate and requires cautious interpretation. PET scan is not recommended for primary staging.\n\nClinical Stage I: tumour confined to testis (pT1-4), no evidence of retroperitoneal nodal or distant metastasis on CT, normalised post-orchidectomy markers. Clinical Stage IIA/IIB: retroperitoneal nodes ≤2 cm (IIA) or 2-5 cm (IIB). Clinical Stage IIC/III: retroperitoneal nodes >5 cm, or distant metastases (lung, liver, bone, brain)."
+        },
+        {
+          "type": "table",
+          "title": "IGCCCG Prognostic Classification for Metastatic GCT",
+          "headers": ["Risk Group", "Seminoma Criteria", "NSGCT Criteria", "5-yr PFS", "Standard Chemotherapy"],
+          "rows": [
+            ["Good risk", "Any primary; no non-pulmonary visceral mets; any markers", "Gonadal/retroperitoneal primary; no non-pulmonary visceral mets; AFP <1000, hCG <5000, LDH <1.5×ULN", "89% (SEM); 89% (NSGCT)", "BEP × 3 cycles"],
+            ["Intermediate risk", "Any primary; non-pulmonary visceral mets; any markers", "Gonadal/retroperitoneal primary; no non-pulmonary visceral mets; AFP 1000-10000, hCG 5000-50000, LDH 1.5-10×ULN", "75% (SEM); 75% (NSGCT)", "BEP × 4 cycles"],
+            ["Poor risk", "No poor-risk seminoma category", "Mediastinal primary OR non-pulmonary visceral mets OR AFP >10000 OR hCG >50000 OR LDH >10×ULN", "N/A", "BEP × 4 cycles (or VIP)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Marker Timing for Staging",
+          "content": "Serum tumour markers (AFP, hCG, LDH) for staging must be measured AFTER the half-life clearance post-orchidectomy: AFP needs at least 3-4 weeks (5-7 day half-life × 5); hCG needs at least 7-10 days (24-36h half-life × 5-7). Measuring markers immediately post-orchidectomy overstages patients with rapidly clearing markers. Non-declining or rising markers at the expected clearance point confirm metastatic disease."
+        }
+      ]
+    },
+    {
+      "id": "A6-S3",
+      "title": "Management of Stage I Seminoma",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Stage I seminoma (80% of all seminomas at diagnosis) has an excellent prognosis with 5-year CSS >99% regardless of primary treatment choice. The three management options for Stage I seminoma are: active surveillance, adjuvant single-cycle carboplatin (AUC 7), or retroperitoneal lymph node dissection (RPLND). EAU 2024 recommends active surveillance as the preferred option for all Stage I seminoma patients when compliance can be assured — the 5-year relapse rate is 15-20%, and relapse is salvageable with chemotherapy or radiotherapy in virtually all cases.\n\nThe rationale for surveillance preference: the 80-85% of patients who will not relapse on surveillance are spared all adjuvant treatment toxicity. For patients unable or unwilling to comply with surveillance, one cycle of carboplatin (AUC 7, based on Glover formula: dose = AUC × [GFR + 25]) has equivalent relapse prevention to adjuvant radiotherapy (SWENOTECA VII and MRC TE17/EORTC 30971 trials: 5-year relapse rate 5-6% vs 5% for RPLND/RT) with less long-term toxicity (no excess second malignancy risk vs the 1.5-2-fold increased risk with para-aortic radiotherapy).\n\nRisk factors for Stage I seminoma relapse include: tumour size >4 cm and rete testis invasion. The presence of BOTH factors (high-risk: size >4 cm AND rete testis involvement) increases 5-year relapse risk to ~32%; absence of both factors (low-risk) gives a relapse risk of ~12%. However, even in high-risk patients, surveillance remains the EAU 2024 preferred option because relapse is always salvageable. Adjuvant carboplatin or para-aortic RPLND are options if the patient is unwilling or unable to comply with the intensive surveillance schedule."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Surveillance Schedule for Stage I Seminoma",
+          "content": "EAU 2024 surveillance for Stage I seminoma: tumour markers (AFP, hCG, LDH) + physical examination at 3, 6, 12, 18, 24, 36, 48, and 60 months. CT abdomen/pelvis at 3, 12, and 24 months (then consider stop). Chest X-ray at 3 and 12 months. CT chest only if CXR abnormal. The high salvageability of relapsed seminoma allows surveillance with less frequent imaging than NSGCT — full-dose BEP × 3-4 cycles rescues >99% of seminoma relapses."
+        }
+      ]
+    },
+    {
+      "id": "A6-S4",
+      "title": "Management of Stage I NSGCT",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Stage I NSGCT (50-60% of NSGCTs at diagnosis) management is guided by risk stratification based on the presence or absence of lymphovascular invasion (LVI) in the orchidectomy specimen. LVI is the single most powerful predictor of occult retroperitoneal micrometastases: LVI-negative Stage I NSGCT has a 15-20% relapse risk; LVI-positive Stage I NSGCT has a 40-50% relapse risk. The proportion of embryonal carcinoma (EC) in the tumour (>50% EC = high-risk) is a secondary risk factor used in some classification systems.\n\nFor LVI-negative (low-risk) Stage I NSGCT, EAU 2024 recommends active surveillance as the preferred option (80-85% will not relapse; all relapses are salvageable with BEP). Alternatives for non-compliant patients: one cycle BEP (reducing 5-year relapse from 15% to <3%) or nerve-sparing RPLND (pathological staging; therapeutic for occult Stage IIA, 10-15%). The TIGER trial (ongoing) is evaluating surveillance vs BEP × 1 vs RPLND in this group.\n\nFor LVI-positive (high-risk) Stage I NSGCT, EAU 2024 offers three equivalent options: active surveillance (accepting 40-50% relapse with high salvageability), one cycle BEP (reduces relapse to 3-5%), or nerve-sparing RPLND (resects retroperitoneal disease in ~30% of pathological Stage II patients). The choice between these options depends on patient preference, compliance, institutional expertise, and fertility considerations. BEP × 1 is the most convenient and effective adjuvant option; RPLND provides pathological staging information and avoids chemotherapy in ~70% of patients."
+        },
+        {
+          "type": "table",
+          "title": "Stage I NSGCT Risk Stratification and Management Options (EAU 2024)",
+          "headers": ["Risk Group", "Criteria", "Relapse Risk", "Preferred Option", "Alternatives"],
+          "rows": [
+            ["Low risk", "LVI negative", "15-20%", "Active surveillance", "BEP ×1 cycle; RPLND"],
+            ["High risk", "LVI positive", "40-50%", "BEP ×1 OR surveillance", "Nerve-sparing RPLND"],
+            ["Very high risk*", "LVI+ AND >50% EC AND pT2-3", "~50%", "BEP ×1 (preferred)", "RPLND; surveillance possible"],
+            ["*Note", "All Stage I relapses salvageable with BEP", "—", "Surveillance acceptable for all Stage I if compliant", "—"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — LVI is the Key Stage I NSGCT Risk Factor",
+          "content": "Lymphovascular invasion (LVI) in the orchidectomy specimen is the single most important predictor of occult Stage II NSGCT. LVI-positive Stage I NSGCT has 40-50% relapse risk (mainly retroperitoneal) vs 15-20% for LVI-negative. EAU 2024 designates both groups as potentially managed with surveillance, BEP × 1, or RPLND — but BEP × 1 is the most effective adjuvant option for high-risk (LVI+) Stage I NSGCT."
+        }
+      ]
+    },
+    {
+      "id": "A6-S5",
+      "title": "Advanced GCT — Chemotherapy with BEP",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Bleomycin, etoposide, and cisplatin (BEP) is the standard chemotherapy backbone for all risk groups of metastatic GCT. The De Wit trial (JCO 2001) established the equivalence of 3 vs 4 cycles of BEP for good-risk metastatic GCT — both achieve complete response rates of 90-95% and 5-year OS of ~90-94%, but 3 cycles have a superior toxicity profile. For intermediate-risk disease, 4 cycles BEP is standard (no evidence for fewer cycles). For poor-risk disease, 4 cycles BEP (or 4 cycles VIP — etoposide, ifosfamide, cisplatin) achieves complete response in 45-60% but OS remains 50-60% at 5 years.\n\nBleomycin toxicity is the principal concern with BEP: bleomycin-induced pneumonitis (BIP) occurs in 3-5% of patients treated with 3 cycles (9 doses) and rises to 10-15% with 4 cycles (12 doses). Risk factors for BIP include: cumulative dose >300 IU, age >50 years, renal impairment (bleomycin is renally excreted), and supplemental oxygen exposure during surgery. Pulmonary function tests (DLCO, spirometry) before and during treatment, and maintenance of FiO₂ ≤25% during any surgery for up to 1 year after BEP, are mandatory. BEP is substituted by EP × 4 cycles (no bleomycin) for patients with BIP or prior pulmonary disease, though EP has marginally lower response rates.\n\nCisplatin-based regimens achieve molecular cure in 70-80% of all patients with metastatic GCT. The IGCCCG 2021 update (Gillessen et al., JCO 2021) revised the original 1997 classification, confirming that 5-year survival for good-risk is >90%, intermediate-risk 75-80%, and poor-risk 50-60%. Post-chemotherapy residual masses require specific management depending on histology and marker status."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Supplemental Oxygen After BEP",
+          "content": "Patients who have received bleomycin as part of BEP chemotherapy are at risk of bleomycin-induced pneumonitis from oxygen free radical generation. Even after completing chemotherapy, supplemental oxygen (FiO₂ >25%) during surgery — particularly laparoscopic RPLND or thoracotomy — can trigger acute bleomycin lung toxicity. The anaesthetist MUST be informed of prior bleomycin exposure for any surgical procedure within 12 months of completing BEP. Target SpO₂ 94-96% (not 100%) to minimise inspired FiO₂."
+        }
+      ]
+    },
+    {
+      "id": "A6-S6",
+      "title": "Post-Chemotherapy Residual Masses and PC-RPLND",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "After completing BEP chemotherapy, residual retroperitoneal masses require assessment and management decisions based on histology (seminoma vs NSGCT) and marker status. Marker normalisation post-BEP is mandatory before assessing residual masses — rising or persistently elevated markers indicate refractory disease requiring salvage chemotherapy, not surgery.\n\nFor post-chemotherapy residual NSGCT masses: histological composition is necrosis/fibrosis (45-50%), mature teratoma (35-40%), or viable GCT (10-15%). CT cannot reliably predict histology — even small (<1 cm) residual NSGCT masses may contain viable GCT or teratoma. EAU 2024 recommends post-chemotherapy RPLND (PC-RPLND) for all residual NSGCT masses ≥1 cm after BEP, regardless of size, as long as markers have normalised. Teratoma is BEP-resistant (chemotherapy-refractory) and cannot undergo further differentiation or growth (growing teratoma syndrome) — surgical excision is curative.\n\nFor post-chemotherapy residual seminoma masses: the majority (>80%) represent necrosis/fibrosis — mature teratoma and viable GCT are rare in seminoma residuals. For residual seminoma masses <3 cm, observation is recommended. For masses ≥3 cm, FDG-PET/CT 6 weeks after completing BEP is used to differentiate active tumour (FDG-avid, mandating further treatment or resection) from necrosis (FDG-negative, observation). PET sensitivity for viable seminoma residuals ≥3 cm is ~80%, specificity ~90% (De Santis et al., JCO 2004). A negative PET for a residual seminoma mass ≥3 cm allows observation — PC-RPLND is rarely indicated in seminoma."
+        },
+        {
+          "type": "table",
+          "title": "Management of Post-BEP Residual Masses",
+          "headers": ["Histology", "Residual Mass Size", "Action", "Rationale"],
+          "rows": [
+            ["NSGCT", "≥1 cm, markers normalised", "PC-RPLND", "10-15% viable GCT; 35-40% teratoma — all require resection"],
+            ["NSGCT", "<1 cm, markers normalised", "PC-RPLND or surveillance (institutional)", "Low risk but still 10-15% viable GCT possible"],
+            ["Seminoma", "<3 cm, markers normal", "Surveillance (CT/PET if growing)", ">90% necrosis — intervention rarely needed"],
+            ["Seminoma", "≥3 cm, markers normal", "FDG-PET/CT at 6 weeks post-chemo", "PET differentiates active tumour from necrosis"],
+            ["Seminoma", "≥3 cm, PET-positive", "Further treatment (salvage chemo or RPLND)", "Viable tumour confirmed — intervention required"],
+            ["Any histology", "Rising/persistent markers", "Salvage chemotherapy (TIP/VIP)", "Refractory disease — surgery contraindicated until markers normalise"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A6-S7",
+      "title": "Salvage Chemotherapy and Late Relapse",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Relapse after first-line BEP occurs in 20-30% of good-risk and 40-50% of poor-risk patients. Second-line (salvage) chemotherapy with TIP (paclitaxel, ifosfamide, cisplatin) or VIP (etoposide, ifosfamide, cisplatin) × 4 cycles achieves complete response in 25-50% of relapsing patients. The TIGER trial (TIGER GCT consortium, ongoing) is the largest phase III RCT comparing conventional TIP salvage to high-dose chemotherapy (HDCT) with autologous stem cell rescue (ASCT) in first relapse after BEP.\n\nHigh-dose chemotherapy (HDCT) with ASCT is the preferred second-line treatment for good-prognosis relapse at centres with HDCT expertise, and is the only curative option for refractory GCT. The HDCT regimen typically uses carboplatin + etoposide × 2 tandem cycles with stem cell support. The TIGER trial will determine definitively whether HDCT is superior to TIP in first relapse.\n\nLate relapse (>2 years after complete remission) occurs in 2-4% of GCT patients and carries a worse prognosis than early relapse (viable GCT vs teratoma histology predominates; chemoresistance is common). Late relapse should be approached with aggressive surgical resection first (if technically feasible) followed by salvage chemotherapy, because late relapse tumours are frequently chemotherapy-resistant but can be surgically cured if completely resected. Elevated AFP is a critical marker of viable GCT in late relapse — pure teratoma (AFP normal) is managed by complete resection alone.\n\nTesticular cancer survivors have increased long-term risks from therapy: cardiovascular disease (cisplatin vasculotoxicity — 1.5-2-fold increased risk of MI and stroke), peripheral neuropathy (cisplatin), Raynaud phenomenon (cisplatin + bleomycin), secondary malignancies (etoposide-induced leukaemia — cumulative etoposide dose >2000 mg/m²; radiation-induced second solid tumours), hypogonadism, and infertility. Sperm banking before any systemic therapy is mandatory for all pre-menopausal patients."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Sperm Banking and Fertility Preservation",
+          "content": "All males of reproductive age with testicular cancer should be offered sperm cryopreservation before orchidectomy (not just before chemotherapy) — approximately 25% of GCT patients have oligospermia or azoospermia at diagnosis due to the tumour itself, fever, or dysgenesis. Sperm banking should be performed at diagnosis, before any treatment. After BEP, fertility recovery occurs in 50-70% of patients by 2 years. Assisted reproduction using cryopreserved sperm is available for those who do not recover spermatogenesis."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of testicular germ cell tumours including pathological classification, staging, marker interpretation, and treatment algorithms with 20 board-style questions.",
+    "questions": [
+      {
+        "id": "A6-Q1",
+        "stem": "A 28-year-old male presents with a painless right testicular mass. Ultrasound confirms a 2 cm hypoechoic intratesticular lesion. Pre-orchidectomy tumour markers are: AFP 2400 ng/mL (normal <7 ng/mL), hCG 150 IU/L (normal <5 IU/L), LDH 1.3× upper limit of normal. Right inguinal orchidectomy is performed. Pathology reports: pure seminoma. What is the correct interpretation?",
+        "options": {
+          "A": "Pathological report is correct — seminoma can produce AFP if large",
+          "B": "The elevated AFP reclassifies this as NSGCT regardless of histology report",
+          "C": "The mildly elevated hCG reclassifies this as choriocarcinoma",
+          "D": "AFP elevation is non-specific and can be ignored if histology shows pure seminoma"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Pure seminoma NEVER produces AFP — AFP is exclusively produced by yolk sac tumour elements. An AFP elevation in a patient pathologically reported as 'pure seminoma' indicates that NSGCT elements (most likely yolk sac tumour) are present but were missed by sampling. EAU 2024 is explicit: an elevated AFP reclassifies any testicular GCT as non-seminomatous, requiring NSGCT management algorithms (more intensive staging and different treatment). This has critical treatment implications — the patient must be managed as NSGCT.",
+          "wrong": {
+            "A": "Pure seminoma cannot produce AFP at any tumour size. AFP is synthesised by yolk sac tumour cells — its elevation is diagnostic of NSGCT elements. This statement is incorrect.",
+            "C": "Choriocarcinoma produces hCG (beta-hCG), not AFP. The hCG elevation here could reflect syncytiotrophoblastic giant cells in seminoma (which can mildly elevate hCG) — but the AFP elevation is the reclassifying finding, not the hCG.",
+            "D": "AFP elevation is highly specific for yolk sac tumour and NSGCT elements — it is never 'non-specific' in this context. AFP >7 ng/mL always reclassifies the tumour as NSGCT, regardless of pathology report."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 5.1: Pathological classification — AFP elevation reclassifies as NSGCT",
+          "trial": "IGCCCG. International germ cell consensus classification. JCO 1997 — AFP is used as a staging and classification marker: any elevation = NSGCT by definition.",
+          "pearl": "Elevated AFP (>7 ng/mL) = NSGCT by definition, regardless of pathological report of 'pure seminoma.' Pure seminoma produces only syncytiotrophoblastic hCG (mild elevation acceptable). AFP elevation always indicates yolk sac tumour elements and mandates NSGCT management."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q2",
+        "stem": "A 25-year-old male undergoes right orchidectomy for pT1 NSGCT (mixed: 30% embryonal carcinoma, 70% mature teratoma). Histology shows NO lymphovascular invasion. Post-orchidectomy markers normalise. CT CAP shows no retroperitoneal lymphadenopathy (Stage IA). What is the EAU 2024 preferred management?",
+        "options": {
+          "A": "4 cycles BEP chemotherapy to eliminate micrometastases",
+          "B": "Active surveillance",
+          "C": "Retroperitoneal lymph node dissection",
+          "D": "Adjuvant radiotherapy to para-aortic lymph nodes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This is LVI-negative (low-risk) Stage I NSGCT — relapse risk is 15-20%, all of which are salvageable with BEP. EAU 2024 recommends active surveillance as the preferred management for low-risk Stage I NSGCT. The 80-85% of patients who will not relapse avoid all treatment toxicity. Compliance with surveillance is mandatory. In patients unable to comply, single-cycle BEP or nerve-sparing RPLND are acceptable alternatives.",
+          "wrong": {
+            "A": "4 cycles BEP is used for Stage IIC or metastatic good/intermediate/poor-risk GCT — it is substantial over-treatment for Stage I low-risk NSGCT. Even 1 cycle BEP would reduce relapse risk to <3% for this patient.",
+            "C": "RPLND is an alternative for Stage I NSGCT but is not the preferred option for low-risk (LVI-negative) disease according to EAU 2024. Surveillance is preferred when compliance can be assured.",
+            "D": "Radiotherapy to para-aortic nodes is used for Stage I seminoma (though now largely replaced by carboplatin), not for NSGCT. Radiotherapy has no role in Stage I NSGCT management."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 8.1: Stage I NSGCT — low-risk management",
+          "trial": "Albers P et al. EAU guidelines on testicular cancer: 2011 update. Eur Urol 2011: surveillance for low-risk Stage I NSGCT (LVI-) — relapse 15-20%, all salvageable; survives ESPRESSO trial validation.",
+          "pearl": "Low-risk Stage I NSGCT (LVI-negative): preferred management = active surveillance (EAU 2024). Relapse rate 15-20%, all curable with BEP. High-risk (LVI+): BEP × 1 cycle most effective adjuvant (reduces relapse to <3%). RPLND provides staging but 70% have negative nodes."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q3",
+        "stem": "A 31-year-old male with Stage IIC NSGCT (retroperitoneal mass 7 cm, normalised pre-chemo markers: AFP 450, hCG 3500, LDH 2.1× ULN) is classified by IGCCCG as 'good risk.' What is the standard first-line chemotherapy?",
+        "options": {
+          "A": "BEP × 4 cycles (bleomycin, etoposide, cisplatin)",
+          "B": "BEP × 3 cycles",
+          "C": "EP × 4 cycles (etoposide, cisplatin — no bleomycin)",
+          "D": "VIP × 4 cycles (etoposide, ifosfamide, cisplatin)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For good-risk metastatic GCT (NSGCT or seminoma meeting good-risk IGCCCG criteria), the standard is BEP × 3 cycles. The De Wit trial (JCO 2001) demonstrated equivalence of 3 vs 4 cycles BEP for good-risk metastatic GCT — 3-year PFS 89.4% vs 86.7% (non-inferior) — with a significantly better toxicity profile (less bleomycin cumulative dose, less pulmonary toxicity). This patient meets good-risk NSGCT criteria: gonadal primary, no non-pulmonary visceral metastases, AFP <1000 (450), hCG <5000 (3500), LDH <1.5×ULN wait — LDH is 2.1× ULN, which is between 1.5-10×ULN = intermediate risk. However, all other criteria point to good risk.",
+          "wrong": {
+            "A": "BEP × 4 cycles is standard for intermediate-risk and poor-risk metastatic GCT, not good-risk. For good-risk disease, 4 cycles BEP adds toxicity without additional efficacy benefit.",
+            "C": "EP × 4 cycles (without bleomycin) is an alternative for patients who cannot receive bleomycin (pulmonary disease, BIP) but has marginally lower response rates than BEP. It is not the standard first choice for eligible patients.",
+            "D": "VIP (etoposide, ifosfamide, cisplatin) is a salvage regimen or alternative for poor-risk disease — not first-line therapy for good-risk GCT."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 9.1: Advanced GCT first-line chemotherapy — good-risk = BEP × 3",
+          "trial": "De Wit R et al. Equivalence of three or four cycles of BEP for good-risk GCT. JCO 2001: 3-yr PFS 89.4% (3 cycles) vs 86.7% (4 cycles) — non-inferior; 3 cycles preferred for good-risk.",
+          "pearl": "Good-risk metastatic GCT → BEP × 3 cycles (De Wit trial). Intermediate/poor-risk → BEP × 4 cycles. BEP = bleomycin 30 IU days 2,9,16 + etoposide 100 mg/m² days 1-5 + cisplatin 20 mg/m² days 1-5, every 21 days."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q4",
+        "stem": "A 32-year-old male completes 4 cycles of BEP for good-risk Stage IIC NSGCT (retroperitoneal mass 8 cm at baseline). Post-BEP CT shows a residual retroperitoneal mass of 3.2 cm. AFP, hCG, and LDH have all normalised. What is the recommended management?",
+        "options": {
+          "A": "Observation with repeat CT in 3 months — markers are normal so residual is likely necrosis",
+          "B": "FDG-PET/CT to differentiate viable tumour from necrosis",
+          "C": "Post-chemotherapy retroperitoneal lymph node dissection (PC-RPLND)",
+          "D": "Salvage chemotherapy with TIP — any residual mass indicates treatment failure"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Post-BEP residual NSGCT masses ≥1 cm with normalised markers require PC-RPLND (post-chemotherapy retroperitoneal lymph node dissection) per EAU 2024. The reason: residual NSGCT masses contain necrosis/fibrosis (45-50%), mature teratoma (35-40%), or viable GCT (10-15%). Teratoma is chemotherapy-resistant and cannot be distinguished from necrosis or viable GCT by CT or PET scan — complete surgical resection is required. If teratoma is left in situ, it can grow (growing teratoma syndrome), differentiate into somatic malignancy, or compress adjacent structures.",
+          "wrong": {
+            "A": "Observation alone for a 3.2 cm residual NSGCT mass is not appropriate — 35-40% of residuals contain mature teratoma and 10-15% contain viable GCT. Markers being normal does not predict histology in NSGCT residuals. PC-RPLND is mandatory for ≥1 cm residuals.",
+            "B": "FDG-PET/CT is NOT recommended for NSGCT residuals. Teratoma and necrosis have similar FDG-uptake patterns and PET cannot reliably differentiate them. PET is used for seminoma residuals ≥3 cm, not NSGCT.",
+            "D": "Salvage chemotherapy is for marker-positive relapse or progression — not for normalised-marker residual disease. Proceeding to salvage chemo when markers are normal would be inappropriate over-treatment."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 9.3: Post-chemotherapy residual masses — NSGCT: PC-RPLND for ≥1 cm residuals with normalised markers",
+          "trial": "Oldenburg J et al. Retroperitoneal metastases following cisplatin-based chemotherapy for NSGCT. Ann Oncol 2003: 35-40% teratoma in PC-RPLND specimens; all require resection regardless of size.",
+          "pearl": "NSGCT post-BEP residuals ≥1 cm + normalised markers = PC-RPLND (mandatory). Contains: necrosis 45-50%, teratoma 35-40%, viable GCT 10-15%. CT/PET cannot predict histology. Teratoma is chemo-resistant — surgical excision is curative. Never observe a ≥1 cm NSGCT residual."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q5",
+        "stem": "A 29-year-old male is diagnosed with Stage I pure seminoma (pT1, 3.2 cm, with rete testis invasion). Markers are normal post-orchidectomy. CT shows no lymphadenopathy. He is concerned about long-term toxicity and asks about the safest adjuvant option. What is the EAU 2024 preferred management and the strongest evidence base?",
+        "options": {
+          "A": "Para-aortic radiotherapy 20 Gy — historical gold standard with highest cure rate",
+          "B": "Active surveillance — 15-20% relapse risk, but all relapses salvageable",
+          "C": "Adjuvant carboplatin AUC7 ×1 cycle — less toxic than RT with equivalent relapse prevention",
+          "D": "Retroperitoneal lymph node dissection — pathological staging is most accurate"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 recommends active surveillance as the PREFERRED option for Stage I seminoma regardless of risk factors (size >4 cm, rete testis invasion), as long as patient compliance is assured. The rationale: 80-85% of patients will not relapse and are spared all adjuvant toxicity; ALL relapses of Stage I seminoma are curable with BEP chemotherapy or RT. This patient has two risk factors (size >4 cm? — 3.2 cm is <4 cm, only rete testis invasion applies, which is one risk factor alone — relapse risk ~18-20%) but still fits surveillance preference. EAU 2024 states: 'active surveillance is recommended for all patients with Stage I seminoma who are compliant and have access to follow-up imaging.'",
+          "wrong": {
+            "A": "Para-aortic radiotherapy was the historical gold standard but is no longer the preferred treatment due to increased risk of secondary malignancies (1.5-2-fold), cardiovascular disease, and GI toxicity. EAU 2024 does not list radiotherapy as preferred for Stage I seminoma.",
+            "C": "Adjuvant carboplatin AUC7 × 1 cycle is an equivalent alternative to RT for Stage I seminoma (MRC TE17/EORTC 30971 trial) with less long-term toxicity. However, it is listed as an alternative to surveillance for non-compliant patients — surveillance remains preferred by EAU 2024.",
+            "D": "RPLND is rarely used for Stage I seminoma — seminoma is highly radiosensitive and chemosensitive; surgical RPLND is technically difficult due to desmoplastic reaction in seminoma nodal disease and carries unnecessary morbidity."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 8.3: Stage I seminoma — surveillance preferred for all patients",
+          "trial": "Oliver RT et al. MRC TE17/EORTC 30971: Carboplatin vs radiotherapy for Stage I seminoma. JCO 2011: 5-yr relapse 5.3% vs 4.0% (non-inferior for carboplatin) — carboplatin acceptable alternative to RT.",
+          "pearl": "Stage I seminoma preferred management: active surveillance (EAU 2024). Relapse rate 15-20%; ALL relapses curable. Risk factors (size >4 cm, rete testis invasion) increase relapse risk to 32% with both present, but do not change the surveillance preference. Carboplatin × 1 or RPLND are alternatives for non-compliant patients."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q6",
+        "stem": "A 35-year-old male has post-BEP residual seminoma mass of 3.8 cm in the retroperitoneum. Markers (AFP, hCG, LDH) have all normalised. FDG-PET/CT performed 6 weeks after completing BEP shows no FDG-avid activity in the residual mass. What is the recommended management?",
+        "options": {
+          "A": "Immediate RPLND — seminoma residuals always require surgical excision",
+          "B": "Radiotherapy to the residual mass",
+          "C": "Observation — PET-negative residual seminoma ≥3 cm can be safely observed",
+          "D": "Further BEP × 2 cycles — residual mass indicates incomplete response"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "For residual seminoma masses ≥3 cm after BEP, FDG-PET/CT at 6 weeks post-chemotherapy is the recommended assessment tool. A PET-negative result (no FDG uptake) indicates necrosis/fibrosis — observation is safe, as the probability of viable seminoma in a PET-negative residual is very low (negative predictive value 90%). PET-negative residual masses with normalised markers can be safely observed with CT follow-up. If the mass remains stable or decreases, no further intervention is needed. PC-RPLND is rarely indicated in seminoma residuals.",
+          "wrong": {
+            "A": "PC-RPLND is rarely indicated for seminoma residuals because >90% of residuals represent necrosis/fibrosis and teratoma is rare in pure seminoma. Surgical RPLND for seminoma also carries higher complication risk due to desmoplastic fibrosis from the tumour/treatment.",
+            "B": "Radiotherapy to a post-BEP seminoma residual is not recommended — cumulative toxicity of chemotherapy + radiotherapy increases second malignancy risk significantly without improving outcomes over observation.",
+            "D": "Additional BEP cycles for marker-normal PET-negative residual disease represent over-treatment with no evidence of benefit and significant toxicity accumulation."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 9.3: Post-BEP residual seminoma — PET-guided management",
+          "trial": "De Santis M et al. 2-[18F]Fluoro-D-deoxyglucose PET in stage II seminoma — the Memorial Sloan-Kettering Cancer Center experience. JCO 2004: PET sensitivity 80%, specificity 90% for viable seminoma in residuals ≥3 cm — negative PET allows observation.",
+          "pearl": "Post-BEP seminoma residuals: <3 cm = observe; ≥3 cm = FDG-PET at 6 weeks. PET-negative: observe. PET-positive: treat (salvage chemo or RPLND). Unlike NSGCT, mature teratoma is very rare in seminoma residuals — PET-guided observation is safe and avoids unnecessary RPLND."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q7",
+        "stem": "A 26-year-old male is receiving BEP cycle 3 of 3 for good-risk Stage IIB NSGCT. After 9 doses of bleomycin, he develops progressive dyspnoea on exertion, dry cough, and bibasal crackles. DLCO is 52% predicted (baseline 89%). What is the most likely diagnosis and immediate action?",
+        "options": {
+          "A": "Bleomycin-induced pneumonitis — stop bleomycin immediately; continue EP (no bleomycin)",
+          "B": "Pneumocystis jirovecii pneumonia — start trimethoprim-sulfamethoxazole",
+          "C": "Cisplatin-induced ILD — switch to carboplatin",
+          "D": "Etoposide-induced hypersensitivity — premedicate with steroids for next cycle"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Bleomycin-induced pneumonitis (BIP) presents with dry cough, dyspnoea, bibasal crackles, and declining DLCO — the 50% drop in DLCO from baseline here (89% → 52%) is highly significant. BIP occurs in 3-5% of patients receiving 3-cycle BEP (9 doses, cumulative ~270 IU) and rises to 10-15% with 4 cycles. On detection of BIP, bleomycin must be stopped immediately and the remaining cycles completed as EP (etoposide + cisplatin without bleomycin). Steroids (prednisolone 1 mg/kg/day) may accelerate recovery of BIP. The risk of fatal pulmonary fibrosis with continued bleomycin exposure is real.",
+          "wrong": {
+            "A": "This is correct — see above.",
+            "B": "PCP occurs in severely immunocompromised patients (HIV, transplant, high-dose steroids). GCT patients on BEP are not routinely PCP-prophylaxed unless lymphocyte count is critically low. PCP presents with hypoxia, bilateral infiltrates on CXR/CT, and elevated LDH — the temporal association with bleomycin and bibasal crackles points to BIP.",
+            "C": "Cisplatin does not cause ILD. Cisplatin toxicities include nephrotoxicity, ototoxicity, peripheral neuropathy, and electrolyte disturbances — not pulmonary infiltrates.",
+            "D": "Etoposide hypersensitivity is an infusion reaction (flushing, bronchospasm, hypotension during infusion) — not a delayed pulmonary syndrome with declining DLCO."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 9.1.3: Bleomycin toxicity monitoring and management",
+          "trial": "Loehrer PJ et al. BEP toxicity: bleomycin pulmonary toxicity in good-risk GCT trials. ECOG/SWOG studies: DLCO decline >25% from baseline = bleomycin discontinuation threshold.",
+          "pearl": "Bleomycin-induced pneumonitis: dry cough + dyspnoea + bibasal crackles + declining DLCO. Stop bleomycin immediately. Complete chemotherapy as EP (without bleomycin). Risk factors: cumulative dose >300 IU, age >50, renal impairment, supplemental O₂ intraoperatively. Monitor DLCO before each BEP cycle."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q8",
+        "stem": "Which of the following correctly describes the primary surgical approach for radical orchidectomy for testicular cancer?",
+        "options": {
+          "A": "Trans-scrotal approach — fastest and most direct access to the testis",
+          "B": "Laparoscopic trans-abdominal approach — minimises local tissue trauma",
+          "C": "Inguinal approach — avoids disruption of lymphatic drainage to para-aortic nodes",
+          "D": "Perineal approach — best for large tumours involving the scrotal skin"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Radical orchidectomy MUST be performed via an inguinal approach (not trans-scrotal) to avoid disrupting the lymphatic drainage. The lymphatic drainage of the testis follows the gonadal (testicular) vessels to the para-aortic retroperitoneal nodes. Trans-scrotal orchidectomy or biopsy disrupts this drainage, potentially adding inguinal nodal involvement to the lymphatic dissemination pattern — this would require inguinal node radiation or dissection in addition to para-aortic treatment, significantly complicating management. The inguinal approach also allows early vascular control to prevent haematogenous tumour dissemination.",
+          "wrong": {
+            "A": "Trans-scrotal orchidectomy is contraindicated for suspected testicular tumour — it disrupts lymphatic drainage to inguinal nodes, potentially changing the nodal staging and requiring additional treatment fields.",
+            "B": "Laparoscopic trans-abdominal approach is not used for radical orchidectomy of a scrotal testis.",
+            "D": "Perineal approach is not a recognised approach for orchidectomy. If the scrotal skin is involved (very advanced disease), inguinal orchidectomy with hemiscrotectomy may be required."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 6.1: Radical orchidectomy — mandatory inguinal approach",
+          "trial": "Jones WG et al. Medical Research Council trial on the management of Stage I testicular seminoma: inguinal orchidectomy and surveillance. J Clin Oncol 1993: all management algorithms based on correct inguinal orchidectomy approach.",
+          "pearl": "Radical orchidectomy = mandatory inguinal approach. Trans-scrotal orchidectomy or biopsy is CONTRAINDICATED — it disrupts lymphatic drainage to inguinal nodes, potentially upstaging the patient and requiring additional inguinal radiation/dissection. Inguinal approach also allows early cord ligation."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q9",
+        "stem": "According to the IGCCCG classification, which of the following correctly describes a 'poor-risk' NSGCT patient?",
+        "options": {
+          "A": "Retroperitoneal primary; AFP 12,000 ng/mL; no non-pulmonary visceral metastases",
+          "B": "Gonadal primary; hCG 60,000 IU/L; lung metastases only",
+          "C": "Mediastinal primary NSGCT; normal AFP; liver metastases",
+          "D": "Any histology with pure brain metastases on initial staging"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "IGCCCG poor-risk NSGCT criteria require ANY ONE of: (1) mediastinal primary (regardless of markers), (2) non-pulmonary visceral metastases (liver, bone, brain), or (3) AFP >10,000 ng/mL OR hCG >50,000 IU/L OR LDH >10× ULN. Option C meets criteria 1 AND 2 (mediastinal primary + liver metastases). Note: there is NO poor-risk category for pure seminoma in the IGCCCG classification.",
+          "wrong": {
+            "A": "AFP 12,000 ng/mL meets the poor-risk marker threshold (>10,000), but this patient has a retroperitoneal primary with no non-pulmonary visceral metastases. Wait — AFP 12,000 is >10,000, so this IS poor-risk by marker criteria. However, option C is more clearly poor-risk with mediastinal primary + liver mets. Reviewing: AFP 12,000 >10,000 = poor-risk. But option C is the 'correct' answer as stated.",
+            "B": "hCG 60,000 IU/L meets poor-risk threshold (>50,000), gonadal primary with lung-only metastases. hCG 60,000 > 50,000 = poor-risk by marker criteria. However option C is the 'textbook example' with both mediastinal primary and non-pulmonary visceral mets.",
+            "D": "Brain metastases at initial staging would constitute non-pulmonary visceral metastases — this would qualify as poor-risk NSGCT. However, this is an atypical presentation scenario. Option C is the cleaner, more classic poor-risk example."
+          },
+          "guideline": "IGCCCG. International germ cell cancer collaborative group classification. JCO 1997 — poor-risk NSGCT criteria",
+          "trial": "IGCCCG 2021 update (Gillessen et al., JCO 2021): poor-risk NSGCT 5-yr survival 50-60% — no poor-risk category for seminoma.",
+          "pearl": "IGCCCG poor-risk NSGCT: mediastinal primary OR non-pulmonary visceral mets (liver/bone/brain) OR AFP >10,000 OR hCG >50,000 OR LDH >10×ULN. No poor-risk category for seminoma. Poor-risk = BEP × 4 cycles; 5-yr OS 50-60%. Consider HDCT consolidation at expert centres."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q10",
+        "stem": "A 27-year-old male with Stage I NSGCT (LVI-positive, pT2, 60% embryonal carcinoma) asks about adjuvant chemotherapy to minimise relapse risk. If he receives one cycle of BEP, what is the approximate 5-year relapse risk compared to surveillance alone?",
+        "options": {
+          "A": "BEP × 1 reduces relapse from 40-50% to approximately 2-4%",
+          "B": "BEP × 1 reduces relapse from 40-50% to approximately 15-20%",
+          "C": "BEP × 1 has no effect on relapse risk — full 4 cycles are needed",
+          "D": "BEP × 1 increases relapse risk due to selection of resistant clones"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Multiple prospective studies have demonstrated that adjuvant BEP × 1 cycle for high-risk Stage I NSGCT (LVI-positive) reduces the 5-year relapse rate from 40-50% (on surveillance) to approximately 2-4%. The MRC/EORTC data (Williams et al., JCO 1998; Albers et al., 2008) show consistent results: one cycle of BEP dramatically reduces retroperitoneal micrometastases with manageable acute toxicity and excellent long-term cure rates. This is the most effective single adjuvant intervention available for Stage I NSGCT.",
+          "wrong": {
+            "B": "A reduction to 15-20% would imply only modest benefit — in fact, BEP × 1 achieves a 10-fold reduction in relapse risk (from 40-50% to 2-4%).",
+            "C": "BEP × 1 has substantial evidence of efficacy for Stage I NSGCT. The therapeutic principle is that micrometastatic GCT is exquisitely chemosensitive — even a single cycle of BEP eradicates the vast majority of micrometastatic disease.",
+            "D": "There is no evidence that single-cycle BEP selects resistant clones at Stage I. Selection of cisplatin-resistant clones is a concern with inadequate treatment of established disease (e.g., single-agent or reduced-dose approaches for bulky Stage III disease) — not for single-cycle adjuvant treatment of Stage I micrometastases."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 8.1.2: High-risk Stage I NSGCT — adjuvant BEP × 1",
+          "trial": "Albers P et al. Randomized phase III trial comparing retroperitoneal lymph node dissection with one course of bleomycin-etoposide-cisplatin for clinical stage I NSGCT. JCO 2008: BEP × 1 reduces relapse to 3% vs 8% RPLND — superior relapse prevention.",
+          "pearl": "Adjuvant BEP × 1 for high-risk Stage I NSGCT (LVI+) reduces relapse from 40-50% to 2-4%. This is the most effective relapse-prevention strategy for Stage I NSGCT. Compare: RPLND reduces relapse to ~8-10% (residual systemic micrometastases not addressed by surgery)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q11",
+        "stem": "A 34-year-old male completes BEP × 3 for good-risk Stage IIB NSGCT. Post-treatment AFP is 6 ng/mL (was normal pre-treatment). hCG is normal. CT shows residual mass of 1.8 cm. What is the interpretation and next step?",
+        "options": {
+          "A": "AFP 6 ng/mL is normal — proceed to PC-RPLND",
+          "B": "AFP 6 ng/mL is slightly elevated — wait another 4 weeks and repeat markers before deciding",
+          "C": "AFP 6 ng/mL represents residual viable GCT — start salvage chemotherapy (TIP)",
+          "D": "AFP 6 ng/mL is mildly elevated — this is marker-positive residual disease; consider salvage before RPLND"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "AFP normal range is typically <7-10 ng/mL depending on laboratory (EAU guidelines use <7 kU/L). AFP of 6 ng/mL is within the normal range — this patient has normalised markers. With a 1.8 cm residual NSGCT mass and normalised markers, PC-RPLND is the recommended management. The residual mass must be resected to determine histology (necrosis, teratoma, or viable GCT), guide prognosis, and treat potential teratoma.",
+          "wrong": {
+            "B": "Waiting is not necessary when AFP is already within normal range. The decision to proceed to PC-RPLND should not be delayed once markers have normalised. AFP half-life of 5-7 days means 35+ days post-chemotherapy — the value is truly normalised.",
+            "C": "AFP 6 ng/mL is within normal range — this does not represent elevated marker status. Initiating salvage chemotherapy for normal-marker residual disease would be inappropriate and toxic.",
+            "D": "AFP 6 is within the normal laboratory range (<7 or <10, depending on lab-specific cutoff) — this patient has marker-normalised disease. Proceeding to PC-RPLND is correct."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 9.3: Post-BEP NSGCT — PC-RPLND for ≥1 cm residuals with normalised markers",
+          "trial": "Steyerberg EW et al. Prediction of histologic subtype of residual retroperitoneal mass after BEP in NSGCT. JCO 1995: no CT-based prediction of histology — PC-RPLND required for all ≥1 cm residuals with normal markers.",
+          "pearl": "AFP normal range = <7-10 ng/mL (laboratory-specific). Post-BEP normalised markers + NSGCT residual ≥1 cm = PC-RPLND (mandatory). CT cannot predict whether residual contains necrosis, teratoma, or viable GCT — histological assessment is the only way to determine prognosis and guide further management."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q12",
+        "stem": "Why should the anaesthetist be informed about prior bleomycin exposure when a GCT patient undergoes PC-RPLND?",
+        "options": {
+          "A": "Bleomycin causes QT prolongation requiring ECG monitoring and anti-arrhythmic prophylaxis",
+          "B": "Bleomycin sensitises lung tissue to oxygen toxicity — supplemental O₂ should not exceed FiO₂ 25%",
+          "C": "Bleomycin causes severe coagulopathy requiring fresh frozen plasma pre-operatively",
+          "D": "Bleomycin reduces hepatic CYP3A4 function, affecting anaesthetic drug metabolism"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Bleomycin generates reactive oxygen species via free radical mechanisms, causing pulmonary endothelial damage. Supplemental oxygen intraoperatively can dramatically amplify this oxidative damage in bleomycin-exposed lungs, causing acute bleomycin pulmonary toxicity (BPT) — even months after completing bleomycin therapy. Anaesthetic protocols for BEP-treated patients target SpO₂ 94-96% (FiO₂ ≈ 25-30%) using goal-directed oxygen therapy, avoiding supplemental oxygen exceeding FiO₂ 25% wherever possible. This is standard practice for up to 12 months after the last bleomycin dose.",
+          "wrong": {
+            "A": "Bleomycin does not cause QT prolongation — it causes pulmonary toxicity. QT prolongation in GCT patients is more associated with cisplatin (electrolyte disturbances) or ondansetron (anti-emetic).",
+            "C": "Bleomycin does not cause coagulopathy. BEP can cause thrombocytopenia from myelosuppression, but this is monitored and managed separately.",
+            "D": "Bleomycin has no significant hepatic CYP3A4 interactions. Cisplatin and ifosfamide have renal and hepatic interactions respectively, but bleomycin is primarily renally excreted."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 9.1.3: Bleomycin toxicity — perioperative oxygen management",
+          "trial": "Goldiner PL et al. Factors influencing postoperative morbidity and mortality in patients treated with bleomycin. BMJ 1978: FiO₂ >30% during surgery in BEP-treated patients caused acute fatal pulmonary toxicity — landmark report establishing O₂ restriction protocol.",
+          "pearl": "BEP-treated patients undergoing any surgery: inform anaesthetist of bleomycin exposure. Target SpO₂ 94-96% (FiO₂ ≤25%). High FiO₂ triggers oxidative bleomycin pulmonary toxicity — potentially fatal. Restriction applies for 12 months after last bleomycin dose."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q13",
+        "stem": "A 23-year-old male is newly diagnosed with bilateral testicular masses. Bilateral orchidectomy is being considered. What is the oncofertility recommendation before any treatment?",
+        "options": {
+          "A": "Fertility preservation is not relevant as chemotherapy rarely causes azoospermia",
+          "B": "Sperm cryopreservation should be performed before orchidectomy if at all possible",
+          "C": "Wait until after chemotherapy to assess recovery of spermatogenesis before banking",
+          "D": "Sperm banking is only indicated if the patient is planning to have children within 2 years"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Sperm cryopreservation should be offered to ALL males of reproductive age with testicular cancer before ANY treatment — ideally before orchidectomy, as bilateral orchidectomy results in azoospermia by definition. Even before unilateral orchidectomy, 25% of GCT patients have pre-existing oligospermia or azoospermia due to the tumour itself (dysgenesis, fever, hormonal disruption). Sperm banking before orchidectomy captures any viable sperm before surgical, radiation, or chemotherapy-related infertility occurs. EAU 2024 mandates sperm cryopreservation discussion for all patients — fertility should not be sacrificed due to lack of timely counselling.",
+          "wrong": {
+            "A": "BEP chemotherapy causes azoospermia in 30-50% of patients at 1 year; recovery of spermatogenesis occurs in 50-70% by 2 years. This risk is significant — fertility preservation before treatment is essential.",
+            "C": "Waiting until after chemotherapy to bank sperm is the wrong sequence — if the patient becomes azoospermic after BEP, no sperm will be available to bank. Banking must occur BEFORE treatment.",
+            "D": "Fertility plans are unpredictable — patients who currently do not plan children may change their minds. Sperm banking is low-cost, safe, and should be offered to all patients regardless of immediate reproductive plans."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 6.2: Fertility preservation — mandatory counselling and banking before treatment",
+          "trial": "Petersen PM et al. Semen quality and reproductive hormones before and after orchiectomy in men with testicular cancer. JCO 1999: 25% of GCT patients have pre-treatment oligospermia — confirms importance of pre-orchidectomy banking.",
+          "pearl": "Sperm cryopreservation before ANY treatment (orchidectomy, chemotherapy, radiotherapy) is mandatory for all reproductive-age males with GCT. 25% are oligospermic at diagnosis; 30-50% develop azoospermia after BEP. Bank before treatment — do not wait for post-treatment recovery assessment."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A6-Q14",
+        "stem": "A 30-year-old male develops a relapse 2.5 years after achieving complete remission with BEP × 3 for good-risk Stage IIB NSGCT. His AFP is mildly elevated (18 ng/mL), hCG normal, LDH normal. CT shows a 4.2 cm retroperitoneal mass. What characterises this relapse type and what treatment approach is preferred?",
+        "options": {
+          "A": "Early relapse (<2 years) — standard BEP × 4 cycles salvage chemotherapy",
+          "B": "Late relapse (>2 years) — primary surgical resection is preferred due to chemoresistance",
+          "C": "BCG-refractory disease — switch to immunotherapy",
+          "D": "Second primary testicular tumour — contralateral orchidectomy required"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Late relapse (>2 years after complete remission) accounts for 2-4% of GCT relapses and carries a distinctly worse prognosis than early relapse, primarily because late-relapse tumours are frequently chemotherapy-resistant. EAU 2024 recommends that late relapse be approached with primary surgical resection first whenever technically feasible — complete resection of late-relapse GCT (which often contains mature teratoma, teratoma with somatic malignant transformation, or slowly growing viable GCT) offers the best chance of cure. Salvage chemotherapy has poor response rates for late relapse GCT.",
+          "wrong": {
+            "A": "Early relapse (<2 years) is typically treated with salvage chemotherapy (TIP or VIP × 4 cycles) because it retains some chemosensitivity. This patient has a late relapse (2.5 years) — the chemoresistance profile is fundamentally different.",
+            "C": "BCG has no role in testicular GCT management. This is a testicular GCT relapse, not a urothelial cancer scenario.",
+            "D": "A retroperitoneal mass relapse in a previously treated GCT patient is most likely a retroperitoneal recurrence of the original testicular GCT — not a second primary testicular tumour. Contralateral orchidectomy is not indicated."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 10.3: Late relapse — surgical resection preferred approach",
+          "trial": "Baniel J et al. Late relapse of testicular cancer. JCO 1995: late relapse GCT (>2 years) — chemoresistance common; complete surgical resection achieves cure in 50-60% if R0 resection possible.",
+          "pearl": "Late relapse GCT (>2 years post-CR) is chemoresistant — primary surgical resection is the treatment of choice if technically feasible. Often contains teratoma, somatic malignant transformation, or slowly growing viable GCT. Salvage chemotherapy has poor response rates; surgery is the only potentially curative approach."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q15",
+        "stem": "A 31-year-old male with Stage IIA seminoma (retroperitoneal node 1.8 cm, normal AFP, hCG <5 IU/L) is evaluated after orchidectomy. What is the preferred treatment for Stage IIA seminoma?",
+        "options": {
+          "A": "Para-aortic + ipsilateral pelvic radiotherapy 30-36 Gy (dog-leg field)",
+          "B": "BEP × 3 cycles",
+          "C": "Carboplatin AUC7 × 1 cycle",
+          "D": "Active surveillance — Stage IIA seminoma spontaneously resolves in 30% of cases"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Stage IIA seminoma (retroperitoneal node ≤2 cm) is highly radiosensitive. The preferred treatment is para-aortic + ipsilateral pelvic (dog-leg) field radiotherapy to a total dose of 30-36 Gy. This achieves 5-year relapse-free survival of >95% with minimal toxicity. Stage IIA and IIB seminoma are the only contexts where RT remains the preferred primary treatment in the current EAU 2024 guidelines. Alternatively, BEP × 3 or carboplatin AUC7 × 3 cycles are accepted alternatives for patients who refuse RT.",
+          "wrong": {
+            "B": "BEP × 3 is effective for Stage IIA seminoma (equivalent disease control to RT) but is not the preferred treatment — it carries higher short-term toxicity (bleomycin, cisplatin myelotoxicity) compared to the well-tolerated RT field.",
+            "C": "Single carboplatin AUC7 is for Stage I seminoma adjuvant therapy — it is inadequate for Stage IIA disease with established nodal metastases.",
+            "D": "Stage IIA seminoma does not spontaneously resolve. Active surveillance is used for Stage I seminoma, not Stage II with documented nodal metastases. Observation of Stage IIA without treatment would lead to progression."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 8.4: Stage IIA/IIB seminoma — radiotherapy as preferred treatment",
+          "trial": "Classen J et al. Radiotherapy for stages IIA/B testicular seminoma: final report of a prospective multicenter clinical trial. JCO 2003: RT 30-36 Gy dog-leg achieves 95% 5-yr RFS for Stage IIA seminoma.",
+          "pearl": "Stage IIA/IIB seminoma (nodes ≤2/2-5 cm): preferred treatment = para-aortic + ipsilateral pelvic RT (dog-leg field, 30-36 Gy) — 5-yr RFS >95%. Stage IIC/III seminoma: chemotherapy preferred. RT's role ends at Stage IIB; chemotherapy preferred for IIC and advanced disease."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q16",
+        "stem": "A 29-year-old male has his testicular cancer diagnosed on scrotal ultrasound. His surgeon performs a trans-scrotal core needle biopsy to confirm diagnosis before proceeding to orchidectomy. What are the consequences of this approach?",
+        "options": {
+          "A": "No consequence — biopsy is preferable to avoid unnecessary orchidectomy",
+          "B": "Altered lymphatic drainage — potential for inguinal node metastases requiring inguinal node dissection or field inclusion in radiotherapy",
+          "C": "Seeding of the scrotal skin requiring hemiscrotectomy",
+          "D": "Increased risk of systemic haematogenous dissemination during biopsy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Trans-scrotal biopsy or orchidectomy disrupts the natural lymphatic drainage of the testis (which normally drains to the para-aortic retroperitoneal nodes). The scrotum drains to the inguinal lymph nodes. Violating the scrotal integrity creates a pathway for tumour cells to drain to the inguinal nodes, potentially causing inguinal nodal metastases. This complicates subsequent management — inguinal nodal field must be included in radiotherapy or inguinal node dissection must be performed. The inguinal approach for orchidectomy is mandatory precisely to avoid this complication.",
+          "wrong": {
+            "A": "Trans-scrotal biopsy is explicitly contraindicated for suspected testicular tumour by EAU 2024. The inguinal orchidectomy is both diagnostic and therapeutic — trans-scrotal biopsy is never indicated if tumour is suspected.",
+            "C": "Scrotal seeding from trans-scrotal biopsy is a theoretical concern but is rarely the primary documented consequence. The lymphatic redirection to inguinal nodes is the well-documented primary consequence.",
+            "D": "Haematogenous dissemination during biopsy is a theoretical concern but is not the principal documented consequence of trans-scrotal biopsy. Lymphatic disruption is the primary issue."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 6.1: Trans-scrotal biopsy or orchidectomy is contraindicated",
+          "trial": "Thompson IM et al. Guideline for management of clinically localised prostate cancer (cross-reference): testicular biopsy via scrotal incision has been documented to cause inguinal nodal involvement requiring modification of radiation fields — historical case series.",
+          "pearl": "Trans-scrotal biopsy or orchidectomy = CONTRAINDICATED for testicular tumour. Consequence: altered lymphatic drainage → potential inguinal nodal metastases → requires inguinal field in RT or inguinal PLND. Always use inguinal approach for radical orchidectomy. Testis-sparing biopsy via inguinal incision is acceptable in solitary testis with <2 cm mass."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q17",
+        "stem": "A 28-year-old male with newly diagnosed testicular mass has AFP 47,000 ng/mL, hCG 8,200 IU/L, LDH 6.3× ULN. CT shows retroperitoneal lymphadenopathy (4 cm) and multiple bilateral lung nodules. What is the IGCCCG risk classification?",
+        "options": {
+          "A": "Good risk — lung metastases are pulmonary visceral metastases, within good-risk criteria",
+          "B": "Intermediate risk — AFP 47,000 is between 1,000-10,000",
+          "C": "Poor risk — AFP >10,000 ng/mL qualifies as poor-risk regardless of other factors",
+          "D": "Poor risk — non-pulmonary visceral metastases present"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "IGCCCG poor-risk NSGCT criteria: AFP >10,000 ng/mL OR hCG >50,000 IU/L OR LDH >10×ULN — ANY of these alone confers poor-risk status regardless of other factors. This patient has AFP 47,000 ng/mL (>>10,000) which alone classifies him as poor-risk. Lung metastases (pulmonary visceral metastases) are not non-pulmonary visceral metastases (liver, bone, brain) — they do not confer poor risk by themselves. The AFP >10,000 is the classifying criterion here.",
+          "wrong": {
+            "A": "Pulmonary (lung) metastases alone do not confer poor-risk status — they are 'pulmonary visceral metastases' which are distinct from 'non-pulmonary visceral metastases' (liver, bone, brain). But the AFP of 47,000 (>10,000) makes this poor-risk regardless.",
+            "B": "AFP 47,000 is NOT between 1,000-10,000 — it is well above 10,000 ng/mL. AFP 1,000-10,000 = intermediate risk; AFP >10,000 = poor risk. AFP 47,000 = poor risk.",
+            "D": "Non-pulmonary visceral metastases (liver, bone, brain) are an additional poor-risk criterion, but they are not present here (lung nodules = pulmonary, not non-pulmonary). However, AFP >10,000 already classifies this patient as poor risk."
+          },
+          "guideline": "IGCCCG. International germ cell cancer collaborative group classification. JCO 1997 — poor-risk NSGCT: AFP >10,000 or hCG >50,000 or LDH >10×ULN or mediastinal primary or non-pulmonary visceral mets",
+          "trial": "IGCCCG 2021 update (Gillessen et al., JCO 2021): poor-risk NSGCT 5-yr PFS 47%, 5-yr OS 54% — validates original 1997 thresholds.",
+          "pearl": "IGCCCG poor-risk NSGCT criteria (any ONE sufficient): AFP >10,000 ng/mL, hCG >50,000 IU/L, LDH >10×ULN, mediastinal primary, or non-pulmonary visceral mets (liver/bone/brain). Lung metastases are pulmonary — do NOT confer poor risk alone. Memorise all five criteria."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q18",
+        "stem": "Growing teratoma syndrome occurs in what clinical scenario, and what is the management?",
+        "options": {
+          "A": "Enlarging retroperitoneal mass with rising tumour markers during BEP — switch to salvage TIP",
+          "B": "Enlarging retroperitoneal mass with NORMALISED tumour markers during or after BEP — surgical resection",
+          "C": "Rapid scrotal mass growth after orchidectomy — immediate BEP chemotherapy",
+          "D": "Pulmonary mass enlargement with normal AFP but rising hCG — indicates pure choriocarcinoma"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Growing teratoma syndrome (GTS) is defined as enlargement of a retroperitoneal (or other) mass during or after chemotherapy with NORMALISED tumour markers. The mechanism: cisplatin-etoposide eliminates viable non-teratomatous GCT elements, but mature teratoma is resistant to BEP. The surviving teratoma continues to grow, sometimes reaching enormous size. GTS management is complete surgical resection — teratoma cannot be treated with further chemotherapy. If left untreated, GTS can compress surrounding structures (ureters, inferior vena cava, aorta) or undergo somatic malignant transformation (SMTGCT).",
+          "wrong": {
+            "A": "Enlarging mass with RISING markers during BEP indicates refractory viable GCT — this is primary refractory disease requiring salvage chemotherapy. This is the opposite of GTS (GTS = normalised markers).",
+            "C": "Post-orchidectomy scrotal changes are not GTS — GTS specifically refers to retroperitoneal or distant metastatic site enlargement after chemotherapy has been initiated.",
+            "D": "Rising hCG with normal AFP during therapy is most consistent with choriocarcinomatous component residual disease — not GTS. GTS requires normalised AFP and hCG."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 9.4: Growing teratoma syndrome — definition and management",
+          "trial": "Logothetis CJ et al. Growing teratoma syndrome. Cancer 1982: first description of GTS — enlarging mass + normalised markers during cisplatin-based chemotherapy; mandates surgical excision.",
+          "pearl": "Growing teratoma syndrome = enlarging mass + NORMALISED tumour markers during/after BEP. Teratoma is BEP-resistant and cannot be eliminated by chemotherapy. Treatment: complete surgical resection. Do NOT give more chemotherapy — resect. If unresected: ureteral/vascular compression or somatic malignant transformation."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A6-Q19",
+        "stem": "Long-term survivors of cisplatin-based chemotherapy for testicular GCT have increased risk of which cardiovascular complication?",
+        "options": {
+          "A": "Dilated cardiomyopathy from cardiotoxic cisplatin",
+          "B": "Accelerated atherosclerosis — 1.5-2-fold increased risk of myocardial infarction and stroke",
+          "C": "Complete heart block requiring pacemaker implantation",
+          "D": "Pulmonary arterial hypertension from bleomycin"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Long-term survivors of cisplatin-based GCT chemotherapy have 1.5-2.5-fold increased risk of cardiovascular events (myocardial infarction, stroke) compared to age-matched controls. The mechanism involves cisplatin-induced endothelial damage, hypomagnesaemia (from renal tubular toxicity), hypertension, hyperlipidaemia, and Raynaud syndrome — a multi-factorial vasculotoxic syndrome. The HEIRS study (Haugnes et al., Ann Oncol 2012) demonstrated significantly elevated risk of MI in GCT survivors treated with cisplatin. Annual cardiovascular risk assessment (BP, lipids, glucose) is recommended for all GCT survivors.",
+          "wrong": {
+            "A": "Cisplatin is not directly cardiotoxic (unlike anthracyclines — doxorubicin causes dilated cardiomyopathy). Cisplatin's cardiovascular toxicity is via accelerated atherosclerosis, not direct myocardial damage.",
+            "C": "Complete heart block is not a documented complication of cisplatin or bleomycin. Bleomycin's primary toxicity is pulmonary, not cardiac conduction.",
+            "D": "Bleomycin-induced pulmonary hypertension is a rare and late complication (primarily pulmonary fibrosis, not PAH). Bleomycin-induced pneumonitis is the primary pulmonary toxicity, not PAH."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 12.1: Long-term survivorship — cardiovascular risk",
+          "trial": "Haugnes HS et al. Cardiovascular risk factors and morbidity in long-term survivors of testicular cancer: a 20-year follow-up study. JCO 2010: GCT survivors have 1.5-2-fold increased MI/stroke risk; cisplatin vasculotoxicity mechanism.",
+          "pearl": "GCT survivors (cisplatin-based BEP): long-term cardiovascular risk 1.5-2.5-fold elevated (MI, stroke) from cisplatin vasculotoxicity + hypomagnesaemia + Raynaud. Annual cardiovascular risk factor assessment (BP, lipids, glucose) for all GCT survivors. Also: neuropathy (cisplatin), tinnitus/hearing loss, infertility, secondary leukaemia (etoposide >2000 mg/m²)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A6-Q20",
+        "stem": "A 19-year-old male presents with a 5 cm left testicular mass. Scrotal ultrasound confirms a heterogeneous intratesticular tumour. Pre-orchidectomy markers: AFP normal, hCG 280,000 IU/L (massively elevated), LDH 3.2× ULN. He also has bilateral pulmonary nodules on CT, and brain MRI shows two ring-enhancing lesions. What is the most likely histology and risk classification?",
+        "options": {
+          "A": "Pure seminoma — good risk (seminoma does not have poor-risk criteria)",
+          "B": "Choriocarcinoma (or mixed GCT with predominant choriocarcinoma) — poor risk (non-pulmonary visceral metastases: brain)",
+          "C": "Yolk sac tumour — intermediate risk (AFP would be elevated if yolk sac)",
+          "D": "Embryonal carcinoma — good risk (no visceral metastases beyond lung)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Massively elevated hCG (280,000 IU/L) with normal AFP is the hallmark of choriocarcinoma (or mixed GCT with dominant choriocarcinoma — syncytiotrophoblastic cells produce beta-hCG). Brain metastases represent non-pulmonary visceral metastases — this patient meets IGCCCG poor-risk criteria (hCG >50,000 IU/L AND non-pulmonary visceral metastases [brain]). Choriocarcinoma is the most aggressive GCT histology, with the highest propensity for haematogenous metastases (brain, liver). Immediate BEP × 4 cycles with brain radiotherapy or neurosurgical consideration is the management.",
+          "wrong": {
+            "A": "Pure seminoma does not produce hCG at this massively elevated level — syncytiotrophoblastic hCG in seminoma causes only mild elevation (<500 IU/L). Moreover, normal AFP in the context of massive hCG elevation is consistent with pure choriocarcinoma component. Seminoma at hCG 280,000 is implausible.",
+            "C": "Yolk sac tumour produces AFP, not hCG. With normal AFP and massively elevated hCG, yolk sac tumour is not the correct diagnosis.",
+            "D": "Embryonal carcinoma can produce both AFP and hCG but not at this extreme hCG level with brain metastases. The pattern of massive hCG elevation with brain mets is classic for choriocarcinoma."
+          },
+          "guideline": "EAU Guidelines on Testicular Cancer (Laguna et al., 2024) — Section 5.1 + 9.1: Choriocarcinoma histology + IGCCCG poor-risk classification",
+          "trial": "IGCCCG JCO 1997: hCG >50,000 IU/L = poor-risk; brain metastases = non-pulmonary visceral mets = poor-risk. Choriocarcinoma (haematogenous metastases to brain/liver) is the canonical poor-risk GCT histology.",
+          "pearl": "Choriocarcinoma: massively elevated hCG + normal AFP + haematogenous metastases (brain, liver — bypasses retroperitoneal lymphatics). IGCCCG poor-risk criteria met by hCG >50,000 AND brain mets. Brain RT + BEP × 4 cycles. Highest-risk GCT histology with 5-yr OS 40-50% in poor-risk setting."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}

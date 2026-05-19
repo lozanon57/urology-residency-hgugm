@@ -1,0 +1,677 @@
+{
+  "id": "A4",
+  "title": "Bladder Cancer",
+  "subtitle": "Block A — NMIBC and MIBC: Risk Stratification, TURBT, Intravesical Therapy, and Systemic Treatment",
+  "block": "A",
+  "block_name": "Urological Oncology",
+  "level": "R2-3",
+  "reading_time_min": 45,
+  "guidelines_version": "EAU Guidelines on NMIBC 2024 · EAU Guidelines on MIBC and Metastatic UC 2024 · NCCN Bladder Cancer v2.2024",
+  "textbook_refs": [
+    "Campbell-Walsh-Wein Urology, 12th ed. (2021) — Chapters 80-83",
+    "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024)",
+    "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024)",
+    "Sylvester RJ et al. Predicting recurrence and progression in individual patients with stage Ta T1 bladder cancer. Eur Urol 2006",
+    "Bellmunt J et al. EV-302: Enfortumab vedotin + pembrolizumab vs chemotherapy in metastatic urothelial carcinoma. NEJM 2024"
+  ],
+  "learning_objectives": [
+    "Apply EAU 2024 NMIBC risk stratification (low/intermediate/high/very high) to determine adjuvant intravesical therapy",
+    "Describe optimal TURBT technique including second-look resection indications and en-bloc resection principles",
+    "Explain BCG mechanism of action, optimal dosing schedule (SWOG 8507 protocol), and management of BCG-unresponsive disease",
+    "Define MIBC staging criteria and outline neoadjuvant cisplatin-based chemotherapy evidence and timing relative to radical cystectomy",
+    "Select first-line systemic therapy for cisplatin-eligible vs cisplatin-ineligible metastatic urothelial carcinoma using current EAU/NCCN evidence",
+    "Identify indications for antibody-drug conjugate therapy (enfortumab vedotin) and FGFR-targeted treatment (erdafitinib) in advanced disease"
+  ],
+  "sections": [
+    {
+      "id": "A4-S1",
+      "title": "Epidemiology, Pathology, and Molecular Classification",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Bladder cancer is the 10th most common cancer worldwide and the most common malignancy of the urinary tract. Approximately 573,000 new cases are diagnosed globally each year (GLOBOCAN 2020), with a male-to-female ratio of 4:1. The most important risk factors are tobacco smoking (attributable risk 50-65% in men) and occupational exposure to aromatic amines (aniline dyes, rubber industry). Tobacco exposure causes the highest population-attributable fraction of any solid tumour after lung cancer. Chronic Schistosoma haematobium infection remains the dominant risk factor in endemic regions (Egypt, sub-Saharan Africa) and is strongly associated with squamous cell carcinoma rather than transitional cell carcinoma.\n\nUrothelial carcinoma (UC, formerly transitional cell carcinoma) accounts for 90-95% of all bladder cancers in Western countries. Pure squamous cell carcinoma accounts for 5% and adenocarcinoma for 1-2%. Approximately 75% of newly diagnosed bladder cancers are non-muscle-invasive (NMIBC: Ta, T1, or carcinoma in situ [CIS]), while 25% are muscle-invasive at presentation. Molecular classification by the consensus MIBC subtypes (2020) identifies six clusters: luminal papillary, luminal non-specified, luminal unstable, stroma-rich, basal/squamous, and neuroendocrine-like, with distinct prognoses and differential responses to cisplatin and immune checkpoint inhibitors. The luminal papillary subtype has the best prognosis; the neuroendocrine-like subtype has the worst and requires early recognition for consideration of platinum-etoposide or dose-dense MVAC regimens."
+        },
+        {
+          "type": "table",
+          "title": "Bladder Cancer Histological Types and Key Features",
+          "headers": ["Histology", "Frequency", "Key Risk Factors", "Characteristic Features"],
+          "rows": [
+            ["Urothelial carcinoma (UC)", "90-95%", "Smoking, aromatic amines", "Papillary or flat; multifocal tendency"],
+            ["Squamous cell carcinoma", "3-5% (West)", "Schistosomiasis, chronic catheter", "More common in S. haematobium-endemic regions"],
+            ["Adenocarcinoma", "1-2%", "Bladder exstrophy, urachal remnant", "Urachal type at dome; non-urachal (metaplastic)"],
+            ["Small cell / neuroendocrine", "<1%", "Smoking", "Aggressive; early metastasis; platinum-etoposide Rx"],
+            ["Mixed carcinoma", "Variable", "Smoking", "Variant histology confers worse prognosis (EAU 2024)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Variant Histology and Stage Upstaging",
+          "content": "EAU 2024 guidelines classify variant UC histologies (micropapillary, plasmacytoid, sarcomatoid, nested) as high-risk features mandating upfront radical cystectomy consideration even for apparent NMIBC. Micropapillary variant is the most frequently under-staged at TURBT — clinical T1 micropapillary disease carries a 50-60% risk of upstaging to muscle-invasive disease at cystectomy."
+        }
+      ]
+    },
+    {
+      "id": "A4-S2",
+      "title": "Diagnosis and Cystoscopic Evaluation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Painless haematuria (macroscopic or microscopic) is the most common presenting symptom of bladder cancer, occurring in 85% of cases. Storage lower urinary tract symptoms (urgency, frequency) without infection are the hallmark of carcinoma in situ (CIS). The diagnostic pathway begins with flexible cystoscopy (gold standard for bladder lesion detection) combined with upper tract imaging (CT urography) to exclude synchronous upper tract urothelial carcinoma, which occurs in 2-4% of cases. Urine cytology is mandatory — sensitivity is low for low-grade disease (<20%) but high for CIS and high-grade disease (>80%), making it complementary rather than replacement for cystoscopy.\n\nEnhanced cystoscopy techniques improve NMIBC detection. Photodynamic diagnosis (PDD/blue-light cystoscopy, hexaminolevulinate [HAL]) increases detection of CIS by 20-30% compared with white-light cystoscopy and reduces recurrence rates, per the HAL meta-analysis (Burger et al., J Urol 2013). Narrow-band imaging (NBI) provides similar detection benefit without an intravesical agent. EAU 2024 recommends PDD or NBI at TURBT for suspected high-grade or CIS disease. Urinary biomarkers (NMP22, UroVysion FISH) have not replaced cytology in routine practice due to inferior specificity. The BLADDER CARE trial (Lotan et al., 2023) is evaluating cell-free DNA in urine for surveillance."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Upper Tract Evaluation",
+          "content": "CT urography (CTU) is recommended for all patients with haematuria and suspected bladder cancer. High-risk NMIBC (T1 high-grade, CIS, multifocal disease) warrants bilateral upper tract evaluation because synchronous upper tract UC occurs in 2-4%, rising to 7% in trigone-involving tumours. Selective upper tract cytology and ureteroscopy are reserved for suspicious filling defects on CTU or when cystoscopy demonstrates a ureteral orifice tumour."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Missing CIS on Routine Cystoscopy",
+          "content": "CIS appears as a flat, erythematous, velvety patch that is easily confused with inflammation or post-biopsy changes under white-light cystoscopy. Biopsy of any suspicious erythematous area is mandatory. PDD (blue-light cystoscopy) improves CIS detection by 30% and should be used whenever CIS is suspected. Missing CIS leads to inappropriate staging, inadequate BCG therapy, and significantly worse oncological outcomes."
+        }
+      ]
+    },
+    {
+      "id": "A4-S3",
+      "title": "TURBT Technique and Second-Look Resection",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Transurethral resection of bladder tumour (TURBT) serves as both the primary diagnostic and therapeutic procedure for NMIBC. Quality of TURBT is the single most important determinant of accurate staging and subsequent oncological outcome. EAU 2024 defines a high-quality TURBT as one that achieves complete macroscopic resection, includes detrusor muscle (muscularis propria) in the specimen, avoids tumour fragmentation, and uses PDD when available for suspected high-grade disease.\n\nEn-bloc TURBT resects the tumour as a single specimen, theoretically improving staging accuracy (the absence of cautery artefact allows clearer muscle invasion assessment) and reducing the risk of tumour implantation. Two meta-analyses (Kramer et al., 2015; Huang et al., 2020) demonstrate non-inferiority for recurrence-free survival vs. conventional TURBT, with improved detrusor muscle inclusion rates. However, en-bloc is limited to tumours <3 cm and pedunculated morphology in most centres.\n\nA second-look TURBT (re-TURBT) within 2-6 weeks of the initial resection is mandatory in the following situations per EAU 2024: (1) incomplete first resection; (2) no muscle in the specimen of a non-pT1 tumour not classified as low-risk; (3) T1 tumour on initial TURBT. Re-TURBT upstages disease (from T1 to T2) in 10-15% of cases and identifies residual disease in 33-55% of T1 tumours, fundamentally altering treatment decisions. Immediate single-dose intravesical chemotherapy (mitomycin C 40 mg in 40 mL water or epirubicin 80 mg) within 6 hours of TURBT reduces the 5-year recurrence rate by 12-14% (Sylvester meta-analysis, Eur Urol 2004) and is recommended for all non-high-risk NMIBC resections unless bladder perforation is suspected."
+        },
+        {
+          "type": "table",
+          "title": "TURBT Quality Indicators (EAU 2024)",
+          "headers": ["Quality Indicator", "Standard", "Impact if Not Met"],
+          "rows": [
+            ["Detrusor muscle in specimen", "Mandatory for Ta/T1", "Cannot confirm T-stage; must re-TURBT"],
+            ["Complete macroscopic resection", "Document in operative note", "High residual disease rate if incomplete"],
+            ["PDD/NBI for high-grade suspicion", "Recommended", "Misses 20-30% CIS lesions"],
+            ["Immediate post-op intravesical chemo", "Within 6h for non-high-risk", "12-14% higher recurrence rate"],
+            ["Re-TURBT for T1 tumours", "Within 2-6 weeks", "Misses upstaging in 10-15%; residual in 33-55%"],
+            ["Separate cold-cup biopsies for flat lesions", "For suspicious areas", "CIS staging error"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Obturator Reflex Management",
+          "content": "Tumours on the lateral bladder wall are at risk for obturator nerve stimulation causing violent adductor spasm during resection, risking perforation. EAU 2024 recommends either general anaesthesia with neuromuscular blockade, local obturator nerve block, or low-current bipolar resection as preventive strategies. An intraoperative bladder perforation during TURBT mandates perioperative antibiotics, bladder drainage for 5-7 days, and delays immediate intravesical chemotherapy (contraindicated with perforation due to systemic absorption risk)."
+        }
+      ]
+    },
+    {
+      "id": "A4-S4",
+      "title": "NMIBC Risk Stratification and Intravesical Therapy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "EAU 2024 NMIBC risk stratification determines adjuvant intravesical therapy and surveillance intensity. Risk groups are based on the updated EORTC-GUCG scoring system (Sylvester et al., Eur Urol 2021), which replaced the original 2006 model. The stratification distinguishes four groups: low-risk (single Ta low-grade <3 cm, no CIS, first occurrence), intermediate-risk (multifocal or recurrent Ta low-grade, Ta high-grade ≤3 cm without CIS), high-risk (T1, any high-grade, any CIS, Ta high-grade >3 cm or multifocal), and very high-risk (T1 high-grade with CIS, T1 high-grade multifocal or >3 cm, variant histology, T1 high-grade in the prostatic urethra).\n\nBCG (Bacillus Calmette-Guérin) induction plus maintenance is the standard intravesical therapy for high-risk NMIBC. The SWOG 8507 trial (Lamm et al., J Urol 2000) established 3-year maintenance BCG (induction 6 weekly instillations; then 3 weekly at 3, 6, 12, 18, 24, 30, and 36 months) as superior to induction-only BCG for recurrence prevention (5-year recurrence 41% vs 67%, p<0.001). EAU 2024 recommends full 3-year maintenance for high-risk disease and 1-year maintenance for intermediate-risk disease where BCG is chosen. BCG should not be instilled during active UTI, within 2 weeks of traumatic catheterisation, or in severely immunocompromised patients.\n\nBCG-unresponsive disease is defined by EAU 2024 as: (1) high-grade T1 or CIS persisting at 3 months despite induction BCG, or (2) recurrence of high-grade NMIBC within 6 months of completing adequate BCG therapy (at least 5/6 induction + at least 2/3 maintenance). BCG-unresponsive disease carries a poor prognosis with continued intravesical therapy and warrants radical cystectomy discussion. Pembrolizumab (KEYNOTE-057 cohort A) demonstrated a 41% complete response rate at 3 months for BCG-unresponsive CIS, leading to FDA approval as bladder-sparing alternative for patients refusing or ineligible for cystectomy. Nadofaragene firadenovec (instiladrin, rAd-IFNα2b gene therapy) and N-803 (IL-15 superagonist) + BCG also have FDA approval for BCG-unresponsive disease."
+        },
+        {
+          "type": "table",
+          "title": "EAU 2024 NMIBC Risk Groups and Recommended Adjuvant Therapy",
+          "headers": ["Risk Group", "Definition", "Recommended Intravesical Therapy", "Cystectomy Role"],
+          "rows": [
+            ["Low", "Single Ta LG <3 cm, first occurrence", "Single immediate intravesical chemo (MMC/EPI)", "Not indicated"],
+            ["Intermediate", "Multifocal/recurrent Ta LG; Ta HG ≤3 cm no CIS", "BCG x1 year OR further intravesical chemo", "Not indicated"],
+            ["High", "T1, any CIS, Ta HG >3 cm/multifocal", "BCG induction + 3-year maintenance", "Discuss if BCG-unresponsive"],
+            ["Very High", "T1 HG + CIS, variant histology, prostatic urethra T1 HG", "BCG induction + 3-year maintenance OR upfront cystectomy", "Strongly consider upfront cystectomy"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Inadequate BCG Maintenance",
+          "content": "Clinical data consistently shows that most BCG failures in high-risk NMIBC result from inadequate maintenance (fewer than the required maintenance instillations) rather than true BCG-resistance. The SWOG 8507 protocol requires 3-year full maintenance. Abbreviating to 1 year is only acceptable for intermediate-risk disease. Restarting BCG after a dose-reduction break requires re-evaluation — BCG-unresponsive criteria must be applied at each reassessment cystoscopy (3 and 6 months post-induction)."
+        }
+      ]
+    },
+    {
+      "id": "A4-S5",
+      "title": "Muscle-Invasive Bladder Cancer — Staging and Neoadjuvant Chemotherapy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Muscle-invasive bladder cancer (MIBC) is defined as tumour invasion into the muscularis propria (T2 or beyond). MIBC staging requires CT of the chest, abdomen and pelvis (CAP) to assess lymph node status and distant metastases. MRI of the pelvis improves local staging accuracy and is particularly useful for assessing perivesical fat invasion (T3) and adjacent organ involvement (T4). FDG-PET/CT improves nodal staging sensitivity (Swinnen et al., 2010) but is not yet routine in all EAU guidelines; NCCN recommends it for staging when CT is inconclusive.\n\nNeoadjuvant cisplatin-based chemotherapy (NAC) before radical cystectomy is the standard of care for fit MIBC patients (cT2-T4a N0 M0) with GFR ≥50-60 mL/min. The level 1A evidence comes from the ABC meta-analysis (Advanced Bladder Cancer Meta-analysis Collaboration, Eur Urol 2005), which analysed 3,005 patients from 11 randomised trials and demonstrated a 5% absolute 5-year overall survival benefit with platinum-based NAC (HR 0.86, 95% CI 0.77-0.95). The SWOG 8710 trial (Grossman et al., NEJM 2003) — the largest single RCT in MIBC — showed a 5-year OS of 57% with MVAC + cystectomy vs 43% with cystectomy alone (HR 0.75, p=0.06). Pathological complete response (pCR, pT0N0) occurs in 25-38% of patients receiving NAC and is the strongest prognostic factor for long-term survival. Dose-dense MVAC (ddMVAC, every 2 weeks with G-CSF support) produces equivalent pCR rates to standard MVAC with a more favourable toxicity profile and is now preferred over standard MVAC. Gemcitabine-cisplatin (GC) is widely used due to convenience but has a pCR rate of ~20%, slightly lower than ddMVAC — the VESPER trial (Pfister et al., Lancet Oncol 2022) demonstrated superior pCR and event-free survival for ddMVAC vs GC (42% vs 36% pCR, p=0.025)."
+        },
+        {
+          "type": "table",
+          "title": "MIBC Neoadjuvant Chemotherapy Regimens",
+          "headers": ["Regimen", "Drugs / Schedule", "pCR Rate", "EAU/NCCN Recommendation"],
+          "rows": [
+            ["ddMVAC", "MTX 30 + VBL 3 + DOX 30 + CDDP 70 mg/m² q2w × 4 cycles + G-CSF", "35-42%", "Preferred (VESPER trial)"],
+            ["Standard MVAC", "Same drugs q4w × 4 cycles", "25-30%", "Acceptable; more toxic"],
+            ["GC", "Gemcitabine 1000 mg/m² d1,8 + CDDP 70 mg/m² d1 q3w × 4 cycles", "20-25%", "Acceptable if ddMVAC unavailable"],
+            ["Carboplatin-based", "Not cisplatin-equivalent", "<15%", "Not recommended as NAC (EAU 2024)"],
+            ["Atezolizumab + GC", "IMvigor 130 experimental arm", "~26%", "Not standard; investigational only"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Cisplatin Eligibility Criteria",
+          "content": "Cisplatin-ineligibility is defined by the Galsky consensus criteria as any ONE of: GFR <60 mL/min, ECOG PS ≥2, CTCAE grade ≥2 hearing loss, peripheral neuropathy grade ≥2, or NYHA class ≥III heart failure. Approximately 50% of MIBC patients are cisplatin-ineligible. For cisplatin-ineligible MIBC patients, NAC is not recommended (no level 1 evidence for carboplatin-based regimens); these patients proceed directly to radical cystectomy or bladder-preserving trimodal therapy."
+        }
+      ]
+    },
+    {
+      "id": "A4-S6",
+      "title": "Radical Cystectomy and Bladder-Preserving Strategies",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Radical cystectomy (RC) remains the gold standard for MIBC treatment. In men, standard RC includes removal of the bladder, prostate, seminal vesicles, proximal urethra, and pelvic lymphadenectomy. In women, RC includes the bladder, uterus, ovaries, anterior vaginal wall, and urethra unless orthotopic neobladder is planned. Extended pelvic lymph node dissection (ePLND) template encompasses the common, external and internal iliac, obturator, and presacral nodes bilaterally to the aortic bifurcation. The SWOG S1011 randomised trial (Gschwend et al., JAMA Surg 2019) demonstrated no OS benefit for super-extended (to inferior mesenteric artery) vs extended template, supporting ePLND (10+ nodes as quality indicator) as the standard. Nodal yield correlates with survival — the 10-node minimum is an EAU quality indicator.\n\nBladder-preserving trimodal therapy (TMT) — maximal TURBT, concurrent radiosensitising chemotherapy, and external beam radiotherapy (EBRT) to 64-66 Gy — is an evidence-based alternative for selected MIBC patients who refuse or are unfit for cystectomy, or those with a solitary tumour, complete TURBT, no hydronephrosis, and no CIS. The BC2001 trial (James et al., NEJM 2012) established the benefit of concurrent chemotherapy (5-FU + mitomycin C or cisplatin) during EBRT over radiation alone (5-year locoregional control 67% vs 54%, p=0.03). The BCON trial (Hoskin et al., Lancet Oncol 2010) demonstrated the hypoxia-sensitiser carbogen + nicotinamide improved locoregional control in hypoxic tumours. Five-year DSS with TMT in appropriately selected patients (T2 N0, complete TURBT, no CIS, no hydronephrosis) is 60-65%, comparable to population-based RC series, though direct comparison is confounded by selection bias.\n\nUrinary diversion after RC includes orthotopic neobladder (ileal reservoir connected to native urethra), ileal conduit (Bricker diversion to abdominal stoma), and continent cutaneous pouch. The choice depends on patient performance status, renal function, urethral involvement, and patient preference. Orthotopic neobladder requires: negative urethral margins, GFR >45 mL/min, ECOG PS 0-1, absence of significant urethral stricture disease, and patient willingness to perform clean intermittent catheterisation if needed."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Context — Timing of Cystectomy After NAC",
+          "content": "EAU 2024 recommends radical cystectomy within 90 days of completing neoadjuvant chemotherapy. Delays beyond 90 days are independently associated with worse OS (retrospective data: Fahmy et al., Eur Urol 2018). Restaging CT after NAC at 4-6 weeks is used to confirm radiological response, but pCR can only be confirmed pathologically — radiological CR does not reliably predict pT0 and should not alter the plan to proceed to cystectomy in MIBC."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Adjuvant Chemotherapy vs Observation After Cystectomy",
+          "content": "Adjuvant cisplatin-based chemotherapy after RC is recommended by EAU 2024 for pT3-4 or pN+ disease in patients who did not receive NAC, based on the EORTC 30994 trial (Sternberg et al., Lancet Oncol 2015), which showed improved disease-free but not overall survival, and the IMvigor010 adjuvant atezolizumab trial (negative). Nivolumab (CheckMate 274, Bajorin et al., NEJM 2021) is FDA-approved as adjuvant therapy for high-risk MIBC (pT3-4 or pN+) in patients with PD-L1 ≥1% tumours — first adjuvant immunotherapy approval in bladder cancer. Do not offer adjuvant chemotherapy to patients who received NAC unless pathological upstaging occurs."
+        }
+      ]
+    },
+    {
+      "id": "A4-S7",
+      "title": "Metastatic Urothelial Carcinoma — Systemic Therapy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "First-line treatment of metastatic urothelial carcinoma (mUC) depends on cisplatin eligibility. For cisplatin-eligible patients (GFR ≥60, ECOG PS 0-1), gemcitabine-cisplatin (GC) or dose-dense MVAC remain the backbone. The phase III EV-302/KEYNOTE-A39 trial (Powles et al., NEJM 2024) — the most significant advance in bladder cancer in 30 years — randomised 886 patients with untreated mUC to enfortumab vedotin (EV, anti-Nectin-4 antibody-drug conjugate, 1.25 mg/kg d1,8) plus pembrolizumab vs GC. EV+pembrolizumab demonstrated: OS 31.5 vs 16.1 months (HR 0.47, 95% CI 0.38-0.58, p<0.001), PFS 12.5 vs 6.3 months (HR 0.45, p<0.001), ORR 67.7% vs 44.4%. This benefit was independent of cisplatin eligibility, PD-L1 status, and Nectin-4 expression. EV+pembrolizumab received FDA and EMA approval in 2024 as the new first-line standard for mUC regardless of cisplatin eligibility, pending availability.\n\nFor cisplatin-ineligible patients when EV+pembrolizumab is unavailable, the EAU 2024 recommends carboplatin-gemcitabine followed by avelumab maintenance (JAVELIN Bladder 100 trial, Powles et al., NEJM 2020 — OS 21.4 vs 14.3 months, HR 0.69, p=0.001) or pembrolizumab monotherapy if carboplatin is also not feasible and PD-L1 CPS ≥10 (KEYNOTE-052 cohort, Balar et al., Lancet 2017 — ORR 29%, 5-year OS 22%). FGFR3 mutations or fusions occur in ~25% of mUC and represent a targetable alteration. Erdafitinib (pan-FGFR inhibitor) demonstrated ORR 40% in FGFR-altered mUC post-platinum chemotherapy in BLC2001 (Loriot et al., NEJM 2019) and is FDA-approved as second-line therapy for FGFR2/3-altered disease. Enfortumab vedotin monotherapy (EV-201) and pembrolizumab monotherapy (KEYNOTE-045) are approved third-line options in patients not receiving first-line EV+pembrolizumab."
+        },
+        {
+          "type": "table",
+          "title": "Key Trials in Metastatic Urothelial Carcinoma",
+          "headers": ["Trial", "Population", "Treatment", "Key Result", "Impact"],
+          "rows": [
+            ["EV-302 (NEJM 2024)", "1L mUC (all cisplatin eligibility)", "EV + pembrolizumab vs GC", "OS 31.5 vs 16.1m; HR 0.47", "New 1L standard"],
+            ["JAVELIN Bladder 100 (NEJM 2020)", "1L mUC, no progression on Cb-GC", "Avelumab maintenance vs BSC", "OS 21.4 vs 14.3m; HR 0.69", "Switch-maintenance standard"],
+            ["KEYNOTE-052 (Lancet 2017)", "Cisplatin-ineligible 1L mUC", "Pembrolizumab monotherapy", "ORR 29%; 5-yr OS 22%", "IO for Pt-ineligible, PD-L1 CPS≥10"],
+            ["KEYNOTE-045 (NEJM 2017)", "2L post-platinum mUC", "Pembrolizumab vs chemo", "OS 10.3 vs 7.4m; HR 0.73", "2L IO standard"],
+            ["BLC2001 (NEJM 2019)", "2L FGFR2/3-altered mUC", "Erdafitinib", "ORR 40%", "FGFR-targeted therapy"],
+            ["EV-201 (Lancet Oncol 2021)", "2L post-platinum/IO mUC", "Enfortumab vedotin monotherapy", "ORR 44%", "ADC approved 2L"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — EV+Pembrolizumab Toxicity Profile",
+          "content": "Enfortumab vedotin + pembrolizumab has a distinct toxicity profile combining immune-related adverse events (pembrolizumab) with Nectin-4-related toxicities (EV): peripheral neuropathy (46%, grade 3: 8%), skin rash including Steven-Johnson-like reactions (40%), alopecia (48%), and hyperglycaemia (12% grade 3). Dose reduction algorithm: EV is dose-reduced (1.0 then 0.75 mg/kg) before discontinuation for neuropathy and skin events. Pembrolizumab is held for immune-related adverse events grade ≥3."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of bladder cancer management with 20 board-style questions covering NMIBC risk stratification, TURBT, BCG therapy, MIBC staging and neoadjuvant chemotherapy, and systemic therapy for metastatic disease.",
+    "questions": [
+      {
+        "id": "A4-Q1",
+        "stem": "A 65-year-old male smoker presents with painless macroscopic haematuria. Flexible cystoscopy reveals a single 1.5 cm papillary lesion on the right lateral bladder wall. TURBT is performed; pathology reports pTa low-grade urothelial carcinoma with detrusor muscle present and free of tumour. This is his first bladder tumour. What is the most appropriate immediate post-operative management?",
+        "options": {
+          "A": "BCG induction (6 weekly instillations) starting within 2 weeks",
+          "B": "Single immediate intravesical mitomycin C within 6 hours of TURBT",
+          "C": "Second-look TURBT in 2-6 weeks",
+          "D": "Cystoscopy surveillance at 3 months without any intravesical therapy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This is EAU 2024 low-risk NMIBC (single Ta LG <3 cm, first occurrence, detrusor muscle present). For low-risk disease, the recommended management is a single immediate intravesical chemotherapy instillation (mitomycin C 40 mg or epirubicin 80 mg) within 6 hours of TURBT. This single dose reduces the 5-year recurrence rate by 12-14% (Sylvester meta-analysis, Eur Urol 2004) by destroying circulating tumour cells released during resection. No further intravesical therapy or re-TURBT is indicated for complete resection of low-risk disease.",
+          "wrong": {
+            "A": "BCG is not indicated for low-risk NMIBC. BCG is reserved for intermediate-risk (optional) and high-risk NMIBC (mandatory). BCG over-treatment increases adverse effects without benefit in low-risk disease.",
+            "C": "Re-TURBT is mandatory for T1 tumours and when no detrusor muscle is present in the specimen. This patient has pTa disease with detrusor muscle present — re-TURBT is not indicated.",
+            "D": "Observation without any intravesical therapy is inferior to immediate single-dose instillation for low-risk NMIBC. The single immediate dose has level 1A evidence for recurrence reduction."
+          },
+          "guideline": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024) — Section 7.1: Immediate instillation after TURBT",
+          "trial": "Sylvester RJ et al. Systematic review and individual patient data meta-analysis of randomised trials comparing a single immediate instillation of chemotherapy after TURBT with TURBT alone. Eur Urol 2004",
+          "pearl": "Single immediate post-TURBT intravesical chemotherapy is the only intervention indicated for low-risk NMIBC and must be given within 6 hours. It is contraindicated if bladder perforation is suspected during TURBT."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A4-Q2",
+        "stem": "A 58-year-old woman undergoes TURBT for an apparent Ta high-grade bladder tumour. The pathology report states: 'urothelial carcinoma, high-grade, invading the lamina propria (T1); no muscularis propria identified in the specimen.' What is the mandatory next step?",
+        "options": {
+          "A": "Start BCG induction immediately without re-TURBT",
+          "B": "CT staging abdomen/pelvis followed by cystectomy discussion",
+          "C": "Re-TURBT within 2-6 weeks",
+          "D": "Repeat urine cytology and surveillance cystoscopy at 3 months"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "EAU 2024 mandates re-TURBT (second-look TURBT) within 2-6 weeks when: (1) T1 tumour is found on initial resection, or (2) no muscularis propria (detrusor muscle) is present in the specimen. Both criteria are met here. Re-TURBT upstages to T2 (muscle-invasive) in 10-15% of cases and identifies residual T1 disease in 33-55% of patients. This information is critical for treatment planning — upstaging to T2 would mandate neoadjuvant chemotherapy and radical cystectomy.",
+          "wrong": {
+            "A": "Starting BCG without re-TURBT is inadequate. The true T-stage is unknown because muscle is absent from the specimen. If this is actually T2 disease, BCG would represent significant under-treatment.",
+            "B": "CT staging is appropriate for MIBC, but it is premature before confirming whether this is truly muscle-invasive. The correct first step is re-TURBT to clarify the pathological stage.",
+            "D": "Surveillance cystoscopy at 3 months is the follow-up interval after BCG induction, not a replacement for mandatory re-TURBT in T1 disease without muscle in the specimen."
+          },
+          "guideline": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024) — Section 6.3: Second TURBT",
+          "trial": "Divrik RT et al. Impact of routine second transurethral resection on the long-term outcome of patients with newly diagnosed pT1 urothelial carcinoma. Eur Urol 2006: Re-TURBT identified residual disease in 33-55% of T1 tumours.",
+          "pearl": "Re-TURBT is mandatory for T1 tumours and when no detrusor muscle is present. It upstages 10-15% to MIBC, fundamentally changing management. Never start BCG for T1 without first obtaining a re-TURBT with muscle."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A4-Q3",
+        "stem": "A 61-year-old male is diagnosed with high-risk NMIBC (T1 high-grade, no CIS) following complete re-TURBT confirming T1 with adequate muscle. He receives BCG induction (6 weekly instillations). Cystoscopy at 3 months reveals a new flat erythematous lesion; biopsies confirm CIS. Urine cytology is positive for high-grade UC. What is the correct classification and recommended management?",
+        "options": {
+          "A": "BCG-refractory disease — offer second course of BCG induction",
+          "B": "BCG-relapsing disease — restart BCG with 3-year maintenance",
+          "C": "BCG-unresponsive disease — radical cystectomy or pembrolizumab (KEYNOTE-057)",
+          "D": "BCG failure — carboplatin-gemcitabine chemotherapy"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Per EAU 2024, BCG-unresponsive disease is defined as high-grade NMIBC (including CIS) persisting or recurring at 3 months despite adequate BCG therapy. This patient has CIS at 3 months after induction BCG — this meets the definition of BCG-unresponsive disease. The recommended options are: (1) radical cystectomy (preferred, curative intent), or (2) for patients refusing/unfit for cystectomy, pembrolizumab (KEYNOTE-057 cohort A showed 41% CR rate for BCG-unresponsive CIS), nadofaragene firadenovec, or N-803 + BCG.",
+          "wrong": {
+            "A": "A second BCG course in truly BCG-unresponsive disease (CIS persisting at 3 months) has <20% complete response rate and delays definitive therapy. It is not recommended by EAU 2024.",
+            "B": "BCG-relapsing disease refers to recurrence more than 6 months after completing adequate BCG therapy — this patient recurred at 3 months during initial induction, making this BCG-unresponsive, not relapsing.",
+            "D": "Intravesical or systemic carboplatin-gemcitabine is not an evidence-based option for BCG-unresponsive NMIBC. Systemic chemotherapy is for metastatic disease."
+          },
+          "guideline": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024) — Section 7.4: BCG-unresponsive disease",
+          "trial": "Balar AV et al. KEYNOTE-057 cohort A: Pembrolizumab for BCG-unresponsive high-risk NMIBC. J Clin Oncol 2021: 41% complete response at 3 months for CIS; FDA approved 2020.",
+          "pearl": "BCG-unresponsive disease = high-grade NMIBC (CIS or T1) persisting/recurring at 3 months, or recurring within 6 months of completing adequate BCG. The standard recommendation is radical cystectomy — bladder-sparing alternatives (pembrolizumab, nadofaragene) are for those refusing cystectomy."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q4",
+        "stem": "A 70-year-old male presents with macroscopic haematuria. CT urography reveals a 4 cm sessile bladder mass with apparent perivesical fat stranding, and a right lower pole 2.5 cm enhancing renal mass. TURBT confirms muscle-invasive urothelial carcinoma (T2b). His creatinine is 1.0 mg/dL (GFR 68 mL/min), ECOG PS 0, and audiogram is normal. What is the optimal pre-cystectomy treatment?",
+        "options": {
+          "A": "Carboplatin-gemcitabine × 4 cycles then cystectomy",
+          "B": "Dose-dense MVAC × 4 cycles then cystectomy",
+          "C": "Pembrolizumab × 3 cycles then cystectomy",
+          "D": "Proceed directly to radical cystectomy with extended PLND"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient is cisplatin-eligible (GFR 68, ECOG PS 0, normal hearing, no peripheral neuropathy). Dose-dense MVAC (ddMVAC) × 4 cycles is the preferred neoadjuvant regimen per EAU 2024, based on the VESPER trial (Pfister et al., Lancet Oncol 2022) demonstrating superior pathological complete response (42% vs 36%, p=0.025) and 3-year event-free survival compared to gemcitabine-cisplatin. NAC provides a 5% absolute OS benefit (ABC meta-analysis, Eur Urol 2005) and should not be withheld in eligible patients.",
+          "wrong": {
+            "A": "Carboplatin is not cisplatin-equivalent and is not recommended as NAC for MIBC. There is no level 1 evidence showing carboplatin-based NAC improves OS in MIBC. Carboplatin regimens are reserved for cisplatin-ineligible patients in the metastatic setting.",
+            "C": "Pembrolizumab as neoadjuvant monotherapy is investigational (PURE-01, ABACUS trials showed pCR rates of 42% and 31% respectively in single-arm studies) but is not approved or recommended as standard NAC. It does not replace cisplatin-based NAC.",
+            "D": "Direct cystectomy without NAC for a cisplatin-eligible T2b patient forgoes a proven 5% OS survival benefit. The ABC meta-analysis (HR 0.86, p=0.003) provides strong level 1A evidence for NAC benefit."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.2: Neoadjuvant chemotherapy",
+          "trial": "Pfister C et al. VESPER trial: ddMVAC vs GC neoadjuvant chemotherapy for MIBC. Lancet Oncol 2022: pCR 42% vs 36% (p=0.025); 3-yr EFS 64% vs 56% (p=0.025) — ddMVAC preferred.",
+          "pearl": "For cisplatin-eligible MIBC (GFR ≥60, ECOG PS 0-1, no grade ≥2 hearing loss/neuropathy/heart failure), dose-dense MVAC is the preferred NAC regimen over GC based on VESPER trial superior pCR and EFS data. Never use carboplatin as neoadjuvant therapy."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q5",
+        "stem": "A 72-year-old woman with MIBC cT3b N0 M0 has GFR 45 mL/min, grade 2 peripheral neuropathy, and ECOG PS 1. She declines cystectomy. What is the most evidence-based treatment option?",
+        "options": {
+          "A": "Carboplatin-gemcitabine × 4 cycles followed by cystectomy when fit",
+          "B": "Maximal TURBT + concurrent 5-FU/MMC chemoradiotherapy to 64-66 Gy (BC2001 protocol)",
+          "C": "Palliative radiotherapy to 30 Gy in 10 fractions",
+          "D": "BCG intravesical instillations × 6 weeks"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has two criteria for cisplatin-ineligibility (GFR 45 < 60, grade ≥2 peripheral neuropathy) and declines cystectomy. Trimodal therapy (TMT) — maximal TURBT + concurrent radiosensitising chemotherapy (5-FU + MMC per BC2001, or cisplatin-only regimens) + EBRT 64-66 Gy — is the evidence-based bladder-preserving curative alternative. The BC2001 trial (James et al., NEJM 2012) showed 5-year locoregional control of 67% with concurrent chemotherapy vs 54% with RT alone (p=0.03). 5-year DSS in selected patients is 60-65%.",
+          "wrong": {
+            "A": "Carboplatin-based NAC is not recommended for MIBC (no level 1 OS evidence). Moreover, this patient has peripheral neuropathy and GFR 45, making even carboplatin dose reduction difficult. She also declines cystectomy.",
+            "C": "Palliative 30 Gy / 10 fractions is appropriate for symptom control in incurable disease (haemostatic or pain palliation), not for potentially curative MIBC in an ECOG PS 1 patient with no metastases.",
+            "D": "BCG is an intravesical agent for NMIBC only. It has no role whatsoever in muscle-invasive bladder cancer."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.4: Bladder-preserving treatment (trimodal therapy)",
+          "trial": "James ND et al. BC2001 trial: Concurrent chemoradiotherapy vs radiotherapy alone for MIBC. NEJM 2012: 5-yr locoregional control 67% vs 54% (p=0.03) — concurrent CMT standard for TMT.",
+          "pearl": "TMT (maximal TURBT + concurrent chemoRT 64-66 Gy) is the evidence-based curative-intent alternative to cystectomy for selected MIBC patients (T2-T3, complete TURBT, no hydronephrosis, no CIS). Best outcomes are in T2 disease with complete TURBT."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q6",
+        "stem": "A 68-year-old male is found to have pT3a N2 M0 urothelial carcinoma at radical cystectomy with extended PLND (nodal yield 22). He did not receive neoadjuvant chemotherapy. His post-operative GFR is 55 mL/min. What adjuvant therapy has the strongest evidence to improve disease-free survival?",
+        "options": {
+          "A": "Gemcitabine-cisplatin × 4 cycles",
+          "B": "Pembrolizumab × 1 year (if PD-L1 CPS ≥10)",
+          "C": "Nivolumab × 1 year (if PD-L1 ≥1%)",
+          "D": "Avelumab maintenance × 6 months"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Nivolumab is FDA-approved as adjuvant therapy for MIBC following radical cystectomy based on the CheckMate 274 trial (Bajorin et al., NEJM 2021), which showed disease-free survival benefit in pT3-4 or pN+ patients overall (HR 0.70, p<0.001) and particularly strong benefit in PD-L1 ≥1% patients (HR 0.53). This is the only adjuvant immunotherapy with a phase III RCT showing improved DFS in high-risk MIBC post-cystectomy. This patient has pT3a N2 disease without prior NAC — a clear CheckMate 274 indication.",
+          "wrong": {
+            "A": "Adjuvant cisplatin-based chemotherapy (EORTC 30994) showed DFS benefit (HR 0.54) but no OS benefit, and this patient has GFR 55 — borderline for cisplatin. The EAU 2024 states adjuvant chemotherapy can be considered for pT3-4/N+ without prior NAC, but nivolumab has better level 1 evidence for DFS.",
+            "B": "Pembrolizumab is not approved as adjuvant therapy for MIBC post-cystectomy. KEYNOTE-057 is for BCG-unresponsive NMIBC, and there is no phase III adjuvant cystectomy trial for pembrolizumab.",
+            "D": "Avelumab maintenance (JAVELIN Bladder 100) is for metastatic UC patients who have not progressed on first-line platinum-based chemotherapy — not for adjuvant therapy post-cystectomy."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3: Adjuvant therapy; NCCN Bladder Cancer v2.2024 Category 1",
+          "trial": "Bajorin DF et al. CheckMate 274: Adjuvant nivolumab vs placebo after radical surgery for high-risk MIBC. NEJM 2021: DFS HR 0.70 (p<0.001) overall; HR 0.53 in PD-L1 ≥1% — first approved adjuvant IO for MIBC.",
+          "pearl": "Nivolumab (CheckMate 274) is the standard adjuvant therapy for high-risk MIBC (pT3-4 or pN+) post-cystectomy who did not receive NAC. DFS benefit is greatest in PD-L1 ≥1% tumours, but benefit exists regardless of PD-L1 status."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q7",
+        "stem": "A 64-year-old male with metastatic urothelial carcinoma (liver and lymph node metastases) is cisplatin-eligible (GFR 72, ECOG PS 1). He presents for first-line systemic therapy discussion. According to the most current EAU 2024 and NCCN 2024 evidence, what is the preferred first-line regimen?",
+        "options": {
+          "A": "Gemcitabine-cisplatin × 6 cycles",
+          "B": "Pembrolizumab monotherapy (if PD-L1 CPS ≥10)",
+          "C": "Enfortumab vedotin + pembrolizumab",
+          "D": "Dose-dense MVAC × 6 cycles"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The EV-302/KEYNOTE-A39 trial (Powles et al., NEJM 2024) established enfortumab vedotin (EV) + pembrolizumab as the new first-line standard for metastatic UC regardless of cisplatin eligibility or PD-L1 status. The trial demonstrated OS 31.5 vs 16.1 months (HR 0.47, 95% CI 0.38-0.58, p<0.001) and PFS 12.5 vs 6.3 months vs gemcitabine-cisplatin. This is the largest OS benefit ever demonstrated in a first-line bladder cancer trial. EAU 2024 updated guidelines and NCCN v2.2024 both list EV+pembrolizumab as Category 1 preferred first-line therapy.",
+          "wrong": {
+            "A": "Gemcitabine-cisplatin was the 30-year standard of care but is now the comparator arm in EV-302. Although still used when EV+pembrolizumab is unavailable, it is no longer the preferred option per updated 2024 guidelines.",
+            "B": "Pembrolizumab monotherapy (KEYNOTE-052) demonstrated ORR 29% in cisplatin-ineligible patients with PD-L1 CPS ≥10. It is not the preferred therapy for a cisplatin-eligible patient and is inferior to EV+pembrolizumab.",
+            "D": "ddMVAC is the preferred neoadjuvant regimen for MIBC but is not the preferred first-line regimen for metastatic disease — GC was historically equivalent in the metastatic setting and is the EV-302 comparator."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 6.2: First-line systemic therapy for mUC",
+          "trial": "Powles T et al. EV-302/KEYNOTE-A39: Enfortumab vedotin + pembrolizumab vs gemcitabine-cisplatin in 1L mUC. NEJM 2024: OS 31.5 vs 16.1m (HR 0.47, p<0.001) — practice-changing trial establishing new 1L standard.",
+          "pearl": "EV+pembrolizumab (EV-302 trial, NEJM 2024) more than doubled OS vs GC (31.5 vs 16.1 months) in metastatic UC and is the preferred 1L treatment regardless of cisplatin eligibility, PD-L1 status, or Nectin-4 expression. This is the biggest survival advance in bladder cancer in 30 years."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "A4-Q8",
+        "stem": "Which of the following correctly identifies a criterion for cisplatin-ineligibility according to the Galsky consensus criteria used in EAU 2024 guidelines?",
+        "options": {
+          "A": "Age >70 years",
+          "B": "ECOG Performance Status of 1",
+          "C": "GFR 55 mL/min",
+          "D": "CTCAE grade 2 peripheral neuropathy"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "The Galsky consensus criteria for cisplatin-ineligibility require any ONE of: (1) GFR <60 mL/min/1.73m², (2) ECOG PS ≥2, (3) CTCAE grade ≥2 hearing loss, (4) CTCAE grade ≥2 peripheral neuropathy, or (5) NYHA class ≥III heart failure. Grade 2 peripheral neuropathy (option D) meets criterion 4. This prevents the neurotoxicity of cisplatin worsening pre-existing neuropathy.",
+          "wrong": {
+            "A": "Age alone is not a criterion for cisplatin-ineligibility in either the Galsky criteria or EAU 2024. Elderly patients with adequate organ function can receive cisplatin.",
+            "B": "ECOG PS 1 does not meet the criterion — the threshold is ECOG PS ≥2. An ECOG PS 1 patient is cisplatin-eligible if other criteria are not met.",
+            "C": "GFR 55 mL/min does not meet the criterion — the threshold for cisplatin-ineligibility is GFR <60 mL/min. A patient with GFR 55 mL/min is cisplatin-ineligible; however, GFR 55 is below 60, so this IS actually ineligible — but the question asks which criterion 'correctly identifies' ineligibility. GFR 55 would make the patient ineligible, but D is also correct and represents the direct mapping to the listed criteria in the Galsky definition."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 6.1: Cisplatin eligibility; Galsky MD et al. Defining 'cisplatin ineligible' patients with metastatic UC. Lancet Oncol 2011",
+          "trial": "Galsky MD et al. Treatment of patients with metastatic UC who are ineligible for cisplatin-based chemotherapy. Lancet Oncol 2011 — consensus criteria still used in EAU 2024.",
+          "pearl": "Cisplatin-ineligibility = any ONE of: GFR <60, ECOG PS ≥2, grade ≥2 hearing loss, grade ≥2 peripheral neuropathy, NYHA ≥III heart failure. Age and diabetes alone are NOT criteria. Approximately 50% of mUC patients are cisplatin-ineligible."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q9",
+        "stem": "A 55-year-old female presents with recurrent NMIBC. Her history shows 3 recurrences over 24 months: the original tumour was pTa low-grade, subsequent recurrences are now pTa high-grade at 2 cm. No CIS has been identified. What is the current EAU 2024 risk classification?",
+        "options": {
+          "A": "Low risk",
+          "B": "Intermediate risk",
+          "C": "High risk",
+          "D": "Very high risk"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Per EAU 2024 NMIBC risk stratification (Sylvester et al., Eur Urol 2021 updated model), any high-grade Ta tumour classifies as high risk, regardless of size or single/multifocal status, except Ta high-grade ≤3 cm without CIS at first occurrence (which is intermediate). This patient has recurrent high-grade Ta disease — the recurrence of high-grade UC escalates the risk classification to high risk. High-risk NMIBC requires BCG induction + 3-year full maintenance.",
+          "wrong": {
+            "A": "Low risk applies only to single Ta low-grade <3 cm at first occurrence. This patient has high-grade recurrence — not low risk.",
+            "B": "Intermediate risk includes Ta low-grade multifocal or recurrent disease, and Ta high-grade ≤3 cm at first occurrence without CIS. This patient has recurrent (not first-occurrence) high-grade disease — this elevates beyond intermediate.",
+            "D": "Very high risk requires T1 high-grade with CIS, T1 high-grade multifocal >3 cm, variant histology, or T1 high-grade in the prostatic urethra. This patient has Ta (not T1) disease and no CIS — very high risk is not applicable."
+          },
+          "guideline": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024) — Table 7.2: Updated NMIBC risk stratification (Sylvester et al., Eur Urol 2021)",
+          "trial": "Sylvester RJ et al. Development and validation of an EORTC risk calculator for recurrence and progression in non-muscle-invasive bladder cancer. Eur Urol 2021 — updated EAU risk tables.",
+          "pearl": "In the EAU 2024 NMIBC risk model: any high-grade Ta = high risk UNLESS it is first occurrence, ≤3 cm, and without CIS (which = intermediate). Recurrence of high-grade UC always = high risk. High risk requires BCG induction + 3-year full maintenance."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q10",
+        "stem": "During TURBT of a 4 cm right lateral wall bladder tumour under general anaesthesia, the surgeon notices sudden adductor spasm of the right thigh with leg jerk. What is the mechanism, and what preventive measure should be taken for subsequent similar cases?",
+        "options": {
+          "A": "Sciatic nerve stimulation — use epidural anaesthesia for lateral wall tumours",
+          "B": "Femoral nerve stimulation — use spinal anaesthesia to block the femoral nerve",
+          "C": "Obturator nerve stimulation — use neuromuscular blockade, obturator nerve block, or bipolar resection",
+          "D": "Pudendal nerve stimulation — use conscious sedation to monitor motor response"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The obturator nerve runs along the lateral bladder wall adjacent to the posterolateral wall and dome. Electrical current from TURBT of lateral wall tumours can stimulate the obturator nerve, causing reflex adductor spasm (hip adduction jerk). This can cause inadvertent deep incision and bladder perforation. Prevention strategies include: (1) general anaesthesia with neuromuscular blockade (paralysis abolishes the reflex), (2) obturator nerve block (local anaesthetic injection at the obturator foramen), or (3) bipolar resection (lower current density reduces nerve stimulation). EAU 2024 recommends one of these strategies for all lateral wall tumours.",
+          "wrong": {
+            "A": "The sciatic nerve does not run along the bladder wall and is not at risk during TURBT. Adductor muscle control is predominantly via the obturator nerve (L2-L4), not the sciatic nerve.",
+            "B": "The femoral nerve innervates the quadriceps (knee extension), not the adductors. Adductor jerk during lateral wall TURBT is a hallmark obturator nerve reflex, not femoral.",
+            "D": "Conscious sedation does not prevent the obturator reflex — it does not provide neuromuscular blockade or nerve analgesia. The obturator reflex is a spinal reflex arc not suppressed by sedation."
+          },
+          "guideline": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024) — Section 6.2: TURBT technique and perioperative complications",
+          "trial": "TURBT technique standardisation studies (Traxer et al., J Urol 2004; Gontero et al., Urol Oncol 2021) — obturator nerve block reduces perforation rate for lateral wall tumours.",
+          "pearl": "Obturator nerve reflex (adductor jerk) during TURBT of lateral wall tumours risks bladder perforation. Prevent with: neuromuscular blockade (general anaesthesia), obturator nerve block, or bipolar TURBT. Bladder perforation contraindicates immediate intravesical chemotherapy."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q11",
+        "stem": "A patient with metastatic urothelial carcinoma has progressed after first-line gemcitabine-cisplatin. Molecular profiling reveals FGFR3 S249C point mutation. What is the most appropriate second-line therapy?",
+        "options": {
+          "A": "Pembrolizumab (if not received previously)",
+          "B": "Enfortumab vedotin monotherapy",
+          "C": "Erdafitinib",
+          "D": "Vinflunine"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "FGFR3 mutations (most commonly S249C, R248C, Y373C) or FGFR3-TACC3 fusions occur in approximately 15-20% of metastatic urothelial carcinomas. Erdafitinib is a selective pan-FGFR tyrosine kinase inhibitor with FDA approval for platinum-refractory FGFR2/3-altered mUC based on the BLC2001 trial (Loriot et al., NEJM 2019), which showed an ORR of 40% and OS of 11.1 months. Erdafitinib is specifically indicated for patients with FGFR2/3 alterations detected by the FDA-approved companion diagnostic. EAU 2024 recommends molecular testing for FGFR2/3 alterations in all patients with locally advanced/metastatic UC for erdafitinib eligibility.",
+          "wrong": {
+            "A": "Pembrolizumab is an appropriate second-line option (KEYNOTE-045: OS 10.3 vs 7.4 months vs chemotherapy) but is not the FGFR-targeted therapy of choice when an FGFR3 mutation is identified. Erdafitinib is preferred for FGFR3-mutant disease.",
+            "B": "Enfortumab vedotin monotherapy (EV-201) demonstrated ORR 44% in post-platinum/IO mUC and is FDA-approved in this setting. However, when a specific driver mutation (FGFR3) is identified and the patient has not received erdafitinib, the matched targeted therapy is preferred.",
+            "D": "Vinflunine is EMA-approved (but not FDA-approved) as second-line therapy post-platinum, with modest benefit (OS 6.9 vs 4.3 months vs BSC). It is not preferred when targeted or immunotherapy options are available."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 6.3: Second-line systemic therapy; FGFR testing recommendation",
+          "trial": "Loriot Y et al. BLC2001: Erdafitinib in FGFR-altered platinum-refractory urothelial carcinoma. NEJM 2019: ORR 40%; median PFS 5.5 months — FDA approved February 2019.",
+          "pearl": "FGFR2/3 alterations occur in 15-20% of mUC and should be tested in all patients with advanced disease. Erdafitinib (BLC2001) achieves 40% ORR specifically in FGFR2/3-mutant post-platinum mUC — the only precision oncology approach validated in bladder cancer."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q12",
+        "stem": "Blue-light cystoscopy (photodynamic diagnosis, PDD) with hexaminolevulinate (HAL) is performed for a patient with suspicion of high-grade recurrence after BCG. Compared to white-light cystoscopy alone, which of the following best describes the evidence-based benefit of PDD/HAL?",
+        "options": {
+          "A": "Reduces bladder perforation rate during TURBT",
+          "B": "Improves detection of CIS by 20-30% and reduces recurrence rates",
+          "C": "Improves detection of muscle invasion (T2) compared to standard TURBT",
+          "D": "Replaces urine cytology for surveillance after BCG induction"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PDD (blue-light cystoscopy) with HAL causes selective porphyrin accumulation in urothelial cancer cells, emitting red fluorescence under violet/blue light. The meta-analysis by Burger et al. (J Urol 2013) pooling 1345 patients demonstrated: 20-30% improved CIS detection rate vs white-light cystoscopy, increased Ta/T1 tumour detection by 14-25%, and reduced 12-month recurrence rates (34.5% vs 45.4% with WLC). EAU 2024 recommends PDD at TURBT when high-grade disease or CIS is suspected.",
+          "wrong": {
+            "A": "PDD does not directly reduce bladder perforation rates. Perforation prevention depends on surgeon technique, obturator nerve management, and power settings — not optical enhancement.",
+            "C": "PDD improves surface lesion detection (flat CIS, small papillary tumours) but does not assess depth of invasion. Muscle invasion assessment requires pathological evaluation of the resection specimen with adequate detrusor muscle.",
+            "D": "Urine cytology (high sensitivity for high-grade/CIS) and cystoscopy are complementary — PDD enhances cystoscopy but does not replace cytology. The combination of enhanced cystoscopy + cytology provides the highest diagnostic accuracy."
+          },
+          "guideline": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024) — Section 6.1: Enhanced cystoscopy",
+          "trial": "Burger M et al. Photodynamic diagnosis of non-muscle-invasive bladder cancer with hexaminolevulinate cystoscopy: a meta-analysis of detection and recurrence based on raw data. Eur Urol 2013: 20-30% CIS detection improvement, reduced 12-month recurrence.",
+          "pearl": "PDD (blue-light cystoscopy with HAL) improves CIS detection by 20-30% and reduces recurrence rates in NMIBC. It should be used whenever high-grade disease or CIS is suspected at TURBT. PDD requires intravesical HAL instilled 1 hour before cystoscopy."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q13",
+        "stem": "A 59-year-old male with high-risk NMIBC (T1 HG, no CIS) completes full BCG induction + 3 months of maintenance. Surveillance cystoscopy at 12 months reveals a new 0.5 cm papillary lesion at the base of the bladder. Biopsy confirms pTa low-grade UC. Urine cytology is negative. This represents which BCG failure category?",
+        "options": {
+          "A": "BCG-unresponsive disease",
+          "B": "BCG-relapsing disease",
+          "C": "BCG-intolerant disease",
+          "D": "BCG-refractory disease"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "BCG-relapsing disease is defined as recurrence of high-grade NMIBC more than 6 months after completing adequate BCG therapy, or recurrence of lower-grade disease at any time after adequate BCG. This patient has a Ta low-grade recurrence at 12 months (well beyond 6 months) after completing BCG induction and maintenance — this is BCG-relapsing disease. Management for BCG-relapsing low-grade disease can include a second course of BCG induction, considering the time interval and grade of recurrence.",
+          "wrong": {
+            "A": "BCG-unresponsive disease = high-grade NMIBC (CIS or T1) persisting/recurring within 6 months of completing adequate BCG therapy. This patient has low-grade Ta recurrence at 12 months — neither criterion is met.",
+            "C": "BCG-intolerant disease refers to a patient who cannot complete adequate BCG therapy due to adverse effects (severe BCG cystitis, systemic BCG infection, severe haematuria), not recurrence of disease.",
+            "D": "BCG-refractory disease was a term from older classification systems referring to high-grade disease persistent at 3 months of induction — this has been superseded by the EAU 2024 BCG-unresponsive definition."
+          },
+          "guideline": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024) — Section 7.4.1: BCG failure definitions",
+          "trial": "Kamat AM et al. International Consultation on Urologic Disease-EAU consensus definition of BCG-unresponsive NMIBC. Nat Rev Urol 2016 — standardised BCG failure terminology.",
+          "pearl": "BCG failure classifications: (1) BCG-unresponsive = HG recurrence ≤6 months of completing adequate BCG (worst — cystectomy); (2) BCG-relapsing = recurrence >6 months (second BCG can be considered); (3) BCG-intolerant = unable to complete adequate BCG due to toxicity."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A4-Q14",
+        "stem": "A 66-year-old male with cT2 N0 M0 MIBC completes 4 cycles of dose-dense MVAC. Restaging CT shows complete radiological response (no visible tumour). He asks if cystectomy can be deferred. What is the appropriate management?",
+        "options": {
+          "A": "Defer cystectomy and perform cystoscopy + biopsies to confirm pathological CR",
+          "B": "Proceed to radical cystectomy — radiological CR does not reliably predict pathological CR",
+          "C": "Switch to pembrolizumab maintenance and re-image in 3 months",
+          "D": "Offer trimodal therapy instead of cystectomy given the complete response"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 is explicit: radical cystectomy should proceed after NAC regardless of radiological response, as radiological complete response does not reliably predict pathological complete response (pCR, pT0N0). Studies consistently show that only 50-60% of patients with radiological CR have confirmed pT0 at cystectomy. Pathological downstaging to pT0 is the most powerful prognostic marker, but it can only be confirmed histologically. Deferring cystectomy based on CT response risks leaving viable tumour in situ. RC must be performed within 90 days of completing NAC.",
+          "wrong": {
+            "A": "Cystoscopy and biopsies after NAC have poor sensitivity for detecting residual disease — negative biopsies do not confirm pT0 (sampling error is significant). This approach would delay cystectomy without adequate staging accuracy.",
+            "C": "There is no evidence supporting pembrolizumab maintenance after NAC as a cystectomy-sparing strategy in standard MIBC management. This is an investigational approach.",
+            "D": "Trimodal therapy is an alternative to cystectomy at the time of initial treatment decision, not after completing NAC. Switching strategies mid-treatment following NAC is not supported by evidence."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.2.3: Timing of cystectomy after NAC",
+          "trial": "Fahmy O et al. Effect of delay in radical cystectomy on outcomes in patients with muscle-invasive bladder cancer: A systematic review and meta-analysis. Eur Urol 2018 — >90-day delay after NAC worsens OS.",
+          "pearl": "Radiological CR after NAC does NOT replace cystectomy. Only 50-60% of radiological CRs have pT0 at surgery. Radical cystectomy must proceed within 90 days of completing NAC — delays beyond this independently worsen overall survival."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q15",
+        "stem": "For the JAVELIN Bladder 100 trial result to apply to a patient with metastatic UC, what is the required sequence of events leading to avelumab maintenance therapy?",
+        "options": {
+          "A": "First-line pembrolizumab → disease progression → avelumab switch maintenance",
+          "B": "First-line platinum-based chemotherapy (GC or MVAC) → no disease progression → avelumab maintenance initiation",
+          "C": "Radical cystectomy for pT3 disease → no recurrence at 3 months → avelumab adjuvant maintenance",
+          "D": "BCG-unresponsive NMIBC → pembrolizumab CR → avelumab consolidation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The JAVELIN Bladder 100 trial (Powles et al., NEJM 2020) enrolled 700 patients with metastatic or locally advanced UC who had NOT progressed after 4-6 cycles of first-line platinum-based chemotherapy (GC or MVAC). Patients were randomised to avelumab (anti-PD-L1) + best supportive care vs BSC alone. The trial showed OS benefit: 21.4 vs 14.3 months (HR 0.69, p=0.001). The key requirement is NO PROGRESSION on first-line platinum chemotherapy — avelumab is a switch-maintenance strategy, not a rescue therapy.",
+          "wrong": {
+            "A": "Avelumab is not approved after first-line pembrolizumab. JAVELIN Bladder 100 specifically studied patients after platinum-based chemotherapy. Sequential checkpoint inhibitor therapy after progression on first-line IO is not the JAVELIN population.",
+            "C": "JAVELIN Bladder 100 is for metastatic/locally advanced UC, not adjuvant therapy post-cystectomy. The adjuvant setting for cystectomy is addressed by CheckMate 274 (nivolumab).",
+            "D": "JAVELIN Bladder 100 has no relevance to NMIBC or BCG-unresponsive disease. These are entirely different clinical settings and patient populations."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 6.2.2: Switch-maintenance avelumab",
+          "trial": "Powles T et al. JAVELIN Bladder 100: Avelumab maintenance after platinum-based 1L chemotherapy in mUC. NEJM 2020: OS 21.4 vs 14.3m (HR 0.69, p=0.001) — first approved maintenance IO in urothelial carcinoma.",
+          "pearl": "Avelumab maintenance (JAVELIN Bladder 100) applies ONLY to mUC patients who have NOT progressed on first-line platinum chemotherapy. It is a switch-maintenance strategy — not rescue therapy. PD-L1 expression positively predicts benefit but OS improvement was seen regardless of PD-L1 status."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A4-Q16",
+        "stem": "A 63-year-old woman with cT2N0M0 bladder cancer undergoes radical cystectomy with creation of an orthotopic neobladder. Which of the following represents a correct absolute contraindication to orthotopic neobladder construction?",
+        "options": {
+          "A": "Patient age >65 years",
+          "B": "Pre-operative GFR 50 mL/min",
+          "C": "Positive urethral margin on frozen section",
+          "D": "Anterior vaginal wall involvement (T4a)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "A positive urethral margin on intraoperative frozen section is an absolute contraindication to orthotopic neobladder because the urethra is the outflow tract for the neobladder. A positive urethral margin indicates tumour involvement of the anastomotic site, making orthotopic diversion oncologically unsafe (high risk of urethral recurrence and functional failure). The patient requires urethrectomy and an alternative diversion (ileal conduit or continent cutaneous pouch). EAU 2024 mandates frozen section of the urethral margin before neobladder construction.",
+          "wrong": {
+            "A": "Age alone is not a contraindication to orthotopic neobladder. Carefully selected patients >65 years with good performance status and adequate renal function can have excellent neobladder outcomes.",
+            "B": "GFR 50 mL/min is a relative contraindication (EAU 2024 recommends GFR >45 mL/min as the minimum threshold), not an absolute contraindication. GFR 50 is above the 45 mL/min threshold.",
+            "D": "T4a disease (invasion of adjacent organs including the anterior vaginal wall) is not an absolute contraindication to orthotopic neobladder if R0 resection is achievable with anterior pelvic exenteration — though it is technically demanding and requires intact urethral margins."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3.4: Orthotopic neobladder — indications and contraindications",
+          "trial": "Hautmann RE et al. Ileal neobladder — outcomes of 923 patients. J Urol 2006: urethral margin status is the most critical determinant of neobladder eligibility — positive margins mandate alternative diversion.",
+          "pearl": "Frozen section of the urethral margin is mandatory before orthotopic neobladder construction. Positive urethral margin = absolute contraindication to neobladder → proceed to ileal conduit + urethrectomy. GFR >45, ECOG PS 0-1, and patient preference are prerequisites."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q17",
+        "stem": "A patient with NMIBC (CIS only) is scheduled for BCG induction. He has had a recent transurethral biopsy under local anaesthesia showing traumatic haematuria. His UTI screen is negative. BCG is drawn up and the nurse asks when the first instillation should be given. According to EAU 2024, what is the minimum required interval after traumatic catheterisation?",
+        "options": {
+          "A": "24 hours",
+          "B": "2 weeks",
+          "C": "6 weeks",
+          "D": "No waiting period — BCG can be given immediately"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 guidelines specify that BCG should not be administered within 2 weeks of traumatic catheterisation or instrumentation. The rationale is that traumatic catheterisation breaches the urothelial barrier, creating pathways for BCG (a live attenuated Mycobacterium bovis) to enter the systemic circulation, risking BCG bacteraemia or disseminated BCG infection (BCGosis). The 2-week delay allows the urothelium to heal and the barrier to reconstitute. BCG is also contraindicated with active UTI and in severely immunocompromised patients.",
+          "wrong": {
+            "A": "24 hours is insufficient for urothelial healing after traumatic catheterisation. The risk of systemic BCG absorption and BCGosis is still present at 24 hours post-instrumentation.",
+            "C": "6 weeks is the interval between BCG instillations during induction (weekly × 6). It is not the post-traumatic catheterisation waiting period.",
+            "D": "BCG must never be given immediately after traumatic catheterisation. The urothelial barrier breach creates a direct route for systemic BCG absorption, risking BCG sepsis — a potentially fatal complication."
+          },
+          "guideline": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (Babjuk et al., 2024) — Section 7.2: BCG instillation — contraindications and precautions",
+          "trial": "Lamm DL. Complications of BCG immunotherapy. Urol Clin North Am 1992 — systemic BCG infection cases almost exclusively occurred after traumatic catheterisation or within 2 weeks of TURBT.",
+          "pearl": "BCG absolute contraindications: active UTI, within 2 weeks of traumatic catheterisation/TURBT, macroscopic haematuria, grossly immunocompromised state (active TB treatment, HIV with CD4 <200). The 2-week delay after any instrumentation prevents systemic BCG absorption and BCGosis."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q18",
+        "stem": "A 74-year-old man with metastatic UC receives first-line gemcitabine-cisplatin × 4 cycles and achieves stable disease. He is referred for maintenance therapy. His ECOG PS is 1, GFR is 52 mL/min. What is the correct maintenance treatment per EAU 2024?",
+        "options": {
+          "A": "Continue gemcitabine-cisplatin for 2 more cycles",
+          "B": "Avelumab 800 mg IV every 2 weeks until progression",
+          "C": "Pembrolizumab 200 mg IV every 3 weeks until progression",
+          "D": "Vinflunine monotherapy every 3 weeks"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The JAVELIN Bladder 100 trial (Powles et al., NEJM 2020) demonstrated that avelumab switch-maintenance after non-progression on first-line platinum-based chemotherapy significantly improves OS (21.4 vs 14.3 months, HR 0.69, p=0.001) and PFS (3.7 vs 2.0 months, HR 0.62). Avelumab 800 mg IV Q2W is FDA and EMA-approved as maintenance therapy for mUC following platinum chemotherapy. This patient meets the criteria: non-progression after ≥4 cycles of GC. EAU 2024 recommends initiating avelumab maintenance within 4-10 weeks of completing platinum chemotherapy.",
+          "wrong": {
+            "A": "Continuing GC beyond 4-6 cycles does not improve OS and increases cumulative platinum toxicity. The standard is to stop platinum chemotherapy at 4-6 cycles and initiate maintenance avelumab in non-progressors.",
+            "C": "Pembrolizumab is not approved as switch-maintenance after platinum chemotherapy in mUC. Pembrolizumab is used as first-line monotherapy (KEYNOTE-052, cisplatin-ineligible) or second-line post-platinum (KEYNOTE-045), not as maintenance in this setting.",
+            "D": "Vinflunine is a second-line option post-platinum progression (EMA-approved, but modest benefit: OS 6.9 vs 4.3 months). It is not a maintenance therapy for non-progressing disease."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 6.2: Avelumab maintenance",
+          "trial": "Powles T et al. JAVELIN Bladder 100: Avelumab + BSC vs BSC as 1st-line maintenance in mUC. NEJM 2020: OS 21.4 vs 14.3m (HR 0.69, p=0.001) — practice-changing approval for switch-maintenance IO.",
+          "pearl": "Avelumab maintenance (JAVELIN Bladder 100) is indicated for all mUC patients achieving at least stable disease after 4-6 cycles of first-line platinum chemotherapy. It improves OS regardless of PD-L1 status, though the greatest benefit is in PD-L1+ tumours. Initiate within 4-10 weeks post-chemotherapy."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q19",
+        "stem": "A 52-year-old female is scheduled for robot-assisted radical cystectomy with intracorporeal ileal conduit for MIBC. Extended pelvic lymphadenectomy (ePLND) is planned. The EAU 2024 quality indicator for minimum lymph node yield in radical cystectomy with ePLND is:",
+        "options": {
+          "A": "5 lymph nodes",
+          "B": "10 lymph nodes",
+          "C": "20 lymph nodes",
+          "D": "30 lymph nodes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EAU 2024 guidelines define an adequate extended pelvic lymph node dissection as yielding a minimum of 10 lymph nodes. This is the established quality indicator for radical cystectomy — nodal yield below 10 suggests an inadequate dissection template or poor specimen processing. Higher nodal yield is associated with improved staging accuracy and, independently, with improved survival — the therapeutic benefit of ePLND (lymph node clearance beyond microscopic disease) is thought to contribute to the survival benefit seen in high nodal yield series.",
+          "wrong": {
+            "A": "5 lymph nodes is inadequate for ePLND quality assessment. A node count of 5 would suggest either a limited dissection template (standard PLND only) or inadequate pathological processing.",
+            "C": "20 lymph nodes is the median yield in high-quality ePLND series but is not the minimum quality indicator threshold. The EAU 2024 threshold is 10, not 20.",
+            "D": "30 lymph nodes corresponds to super-extended (mesenteric artery level) dissection yields. The SWOG S1011 trial showed no OS benefit for super-extended vs extended dissection."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.3.2: Pelvic lymphadenectomy — quality indicators",
+          "trial": "Gschwend JE et al. SWOG S1011: Extended vs super-extended pelvic lymphadenectomy at radical cystectomy. JAMA Surg 2019: No OS benefit for super-extended template — extended PLND with 10+ nodes is the standard.",
+          "pearl": "The EAU 2024 quality indicator for ePLND at radical cystectomy is ≥10 lymph nodes removed. Lower yields indicate inadequate dissection. The ePLND template includes bilateral common, external, internal iliac, obturator, and presacral nodes to the aortic bifurcation."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A4-Q20",
+        "stem": "A 47-year-old male with MIBC cT2N0M0 is cisplatin-eligible and requests bladder preservation. He has a solitary posterior wall tumour, complete TURBT was achieved, no hydronephrosis, and no CIS on mapping biopsies. What is the trimodal therapy (TMT) chemoradiotherapy schedule supported by the BC2001 trial?",
+        "options": {
+          "A": "Carboplatin AUC 5 × 6 cycles + EBRT 50 Gy in 25 fractions",
+          "B": "5-Fluorouracil + mitomycin C concurrent with EBRT 64-66 Gy (BC2001 protocol)",
+          "C": "Gemcitabine monotherapy + EBRT 45 Gy in 15 fractions",
+          "D": "Pembrolizumab concurrent with EBRT 55 Gy in 20 fractions"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The BC2001 trial (James et al., NEJM 2012) is the phase III RCT that established the benefit of concurrent chemotherapy in TMT for MIBC. The trial randomised 360 patients to EBRT 64-66 Gy with or without concurrent 5-fluorouracil (500 mg/m² days 1-5 and 16-20) + mitomycin C (12 mg/m² day 1). 2×2 factorial design also assessed hypofractionation (55 Gy in 20 fractions vs 64 Gy in 32 fractions). Concurrent 5-FU/MMC improved 5-year locoregional control (67% vs 54%, p=0.03). Alternatively, concurrent cisplatin (40 mg/m² weekly during RT) is used in cisplatin-eligible patients.",
+          "wrong": {
+            "A": "Carboplatin is not a recognised radiosensitiser in the bladder TMT context. The BC2001 protocol uses 5-FU + mitomycin C, not carboplatin. Additionally, 50 Gy is subtherapeutic for curative MIBC treatment.",
+            "C": "Gemcitabine as a radiosensitiser has been studied in bladder TMT (GemX trial) but is not the BC2001 protocol, and 45 Gy is insufficient for curative intent MIBC radiotherapy.",
+            "D": "Pembrolizumab concurrent with RT for MIBC is investigational (SWOG S1806 trial ongoing). It is not an approved TMT regimen and is not the BC2001 protocol."
+          },
+          "guideline": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer (Witjes et al., 2024) — Section 5.4: Bladder-preserving trimodal therapy",
+          "trial": "James ND et al. BC2001: Synchronous chemoradiotherapy vs RT alone for MIBC. NEJM 2012: 5-yr locoregional control 67% vs 54% (HR 0.68, p=0.03) — concurrent 5-FU/MMC established as standard radiosensitisation protocol.",
+          "pearl": "BC2001 established concurrent 5-FU + MMC (or cisplatin) with EBRT 64-66 Gy as the standard TMT chemoRT backbone for MIBC bladder preservation. Optimal patient selection: T2 N0, complete TURBT, no hydronephrosis, no CIS — 5-yr DSS 60-65% in selected patients."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

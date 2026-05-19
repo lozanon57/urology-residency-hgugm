@@ -1,0 +1,11 @@
+/* TEAM */
+Institution: Hospital General Universitario Gregorio Marañón (HGUGM), Madrid, Spain
+Department: Medical Education
+
+/* TECHNOLOGY */
+Standards: HTML5, CSS3, JavaScript (ES6+)
+Components: Service Worker (Cache API), Web App Manifest
+
+/* NOTE */
+This educational resource is developed for postgraduate medical training.
+Content is reviewed against current clinical practice guidelines.

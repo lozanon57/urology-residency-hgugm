@@ -1,0 +1,664 @@
+{
+  "id": "F2",
+  "title": "Estenosis Uretral y Reconstrucción",
+  "subtitle": "Bloque F — Anatomía Uretral, Diagnóstico, Tratamiento Endoscópico y Uretroplastia",
+  "block": "F",
+  "block_name": "Cirugía Reconstructiva y Mínimamente Invasiva",
+  "level": "R2-4",
+  "reading_time_min": 45,
+  "guidelines_version": "EAU Urethral Strictures Guidelines 2024 · AUA Urethral Stricture Disease Guidelines 2023",
+  "textbook_refs": [
+    "Chapple CR et al. EAU Guidelines on Urethral Strictures (2024)",
+    "Wessells H et al. AUA Guideline: Male Urethral Stricture Disease (J Urol 2023)",
+    "Jordan GH, Schlossberg SM. Surgery of the penis and urethra. In: Campbell-Walsh-Wein Urology (12th ed, 2021)",
+    "Andrich DE, Mundy AR. What is the best technique for urethroplasty? Eur Urol 2008;54:1031–1041",
+    "Barbagli G et al. Dorsal onlay buccal mucosa graft for anterior urethroplasty. J Urol 1996;155:123–126"
+  ],
+  "learning_objectives": [
+    "Clasificar las estenosis uretrales anatómica y etiológicamente, identificando las implicaciones para la estrategia de tratamiento",
+    "Seleccionar las exploraciones diagnósticas apropiadas, incluyendo la uretrografía retrógrada, la cistouretrografía miccional y la sonoureterografía",
+    "Determinar cuándo es apropiada la ureterotomía interna de visión directa frente a cuándo está indicada la uretroplastia",
+    "Describir los principios y la selección de pacientes para la uretroplastia anastomótica terminoterminal frente a la aumentación con injerto de mucosa bucal",
+    "Reconocer el liquen escleroso como contraindicación para los colgajos de piel peneana y aplicar alternativas reconstructivas apropiadas",
+    "Orientar a los pacientes sobre las tasas de éxito a largo plazo y la vigilancia de recurrencia tras los distintos procedimientos de reconstrucción uretral"
+  ],
+  "sections": [
+    {
+      "id": "F2-S1",
+      "title": "Anatomía, Etiología y Clasificación de las Estenosis Uretrales",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La uretra masculina se divide anatómicamente en segmentos anterior y posterior por el esfínter uretral externo a nivel de la membrana perineal. La **uretra anterior** comprende la fosa navicular (dentro del glande), la uretra peneana (péndula) y la uretra bulbar — el lugar más frecuente de formación de estenosis. La **uretra posterior** incluye la uretra membranosa (que atraviesa el suelo pélvico) y la uretra prostática. La distinción importa clínicamente porque las estenosis anteriores derivan de una patología dentro del cuerpo esponjoso (espongiofribrosis), mientras que las estenosis posteriores son consecuencia más frecuente de traumatismo iatrogénico, fractura de pelvis o cirugía prostática.\n\nLas estenosis uretrales representan un estrechamiento fibrótico de la luz uretral secundario a espongiofribrosis — sustitución del cuerpo esponjoso normal por tejido fibroso avascular. La profundidad y densidad de la espongiofribrosis, evaluable mediante sonourethrografía de alta resolución, se correlaciona directamente con el riesgo de recurrencia tras el tratamiento endoscópico y orienta la planificación quirúrgica de la uretroplastia.\n\nLa etiología varía según el sitio anatómico. Las estenosis **idiopáticas** representan aproximadamente el 40% de las estenosis bulbares y se considera que representan un traumatismo perineal menor no reconocido o una infección subclínica. Las causas **inflamatorias** incluyen la uretritis gonocócica (históricamente significativa, ahora menos frecuente con antibioterapia) y el **liquen escleroso (LE)** — antes conocido como balanitis xerótica obliterante — que afecta preferentemente a la fosa navicular y la uretra anterior, produciendo estenosis pan-uretrales en casos avanzados. Las estenosis **iatrogénicas** se producen tras instrumentación uretral (sondaje uretral, cistoscopia, RTU-P, prostatectomía radical). Las estenosis **traumáticas** siguen a la lesión uretral por fractura de pelvis (PFUI) en la uretra membranosa, o al traumatismo de horcajadas en la uretra bulbar. A nivel mundial, la etiología infecciosa (gonorrea, tuberculosis) sigue siendo frecuente en entornos de bajos ingresos."
+        },
+        {
+          "type": "table",
+          "title": "Estenosis Uretral: Clasificación Anatómica y Etiología",
+          "headers": ["Localización", "Etiología Frecuente", "Longitud Típica", "Implicación para el Tratamiento"],
+          "rows": [
+            ["Fosa navicular", "Liquen escleroso, iatrogénica", "Variable", "Injerto BMG; evitar colgajos cutáneos"],
+            ["Uretra peneana (péndula)", "LE, sondaje, infección", "A menudo larga", "Aumentación con BMG; 2 tiempos si LE"],
+            ["Uretra bulbar", "Idiopática, traumatismo de horcajadas, iatrogénica", "Corta a moderada", "UVID si <1,5 cm; uretroplastia anastomótica o con BMG"],
+            ["Uretra membranosa", "Lesión uretral por fractura de pelvis (PFUI)", "Defecto corto", "Uretroplastia anastomótica diferida (≥3 meses tras traumatismo)"],
+            ["Prostática/cuello vesical", "Post-RTU-P, post-prostatectomía radical", "Corta", "Incisión endoscópica; raramente reconstrucción abierta"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Liquen Escleroso y Colgajos Cutáneos",
+          "content": "El liquen escleroso (LE) es una contraindicación absoluta para el uso de colgajos de piel peneana o escrotal en la reconstrucción uretral, ya que el LE progresará en cualquier piel genital utilizada como material de injerto o colgajo. El **injerto de mucosa bucal (IMB)** obtenido de la mejilla interna es el tejido de elección para las estenosis asociadas a LE."
+        }
+      ]
+    },
+    {
+      "id": "F2-S2",
+      "title": "Presentación Clínica y Evaluación Diagnóstica",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las estenosis uretrales se presentan con síntomas del tracto urinario inferior dominados por características obstructivas: flujo urinario reducido, esfuerzo miccional, micción prolongada, vaciado vesical incompleto y goteo postmiccional. Los pacientes pueden desarrollar retención urinaria, infecciones urinarias recurrentes, epididimo-orquitis o cálculos del tracto urinario como complicaciones de la obstrucción crónica. Deben recogerse sistemáticamente antecedentes de sondaje, cirugía uretral, infección de transmisión sexual, traumatismo perineal o dermatosis genital.\n\nLa flujometría con medición del residuo postmiccional es una exploración de cribado apropiada que demuestra un flujo máximo reducido (Qmáx). Sin embargo, la **uretrografía retrógrada (UGR)** es la piedra angular de la imagen en las estenosis uretrales, delimitando la localización, longitud y número de estenosis. La UGR se realiza con contraste inyectado en sentido anterógrado a través del meato mientras que la cistouretrografía miccional (CUM/UCG) proporciona información complementaria sobre los segmentos uretrales posteriores y la anastomosis vésico-uretral. Los dos estudios combinados se denominan a veces \"estudio combinado\" y son esenciales antes de cualquier cirugía reconstructiva.\n\nLa **sonoureterografía (SUG)** utiliza ultrasonidos de alta frecuencia (7,5–10 MHz) con instilación uretral de suero salino para visualizar el cuerpo esponjoso. Proporciona una evaluación superior de la profundidad de la espongiofribrosis — determinante del riesgo de recurrencia de la estenosis — en comparación con la uretrografía fluoroscópica sola. La espongiofribrosis profunda se correlaciona con mayor recurrencia tras la UVID y puede influir en la elección entre la escisión anastomótica y la uretroplastia de aumentación. La uretroskopía visualiza directamente la uretra y es valiosa para evaluar la salud de la mucosa, el calibre de la estenosis y la uretra proximal. Habitualmente se realiza en el momento de la intervención planificada, en lugar de como procedimiento diagnóstico separado."
+        },
+        {
+          "type": "table",
+          "title": "Exploraciones Diagnósticas para las Estenosis Uretrales",
+          "headers": ["Exploración", "Información Proporcionada", "Limitación", "Indicación"],
+          "rows": [
+            ["Flujometría + RPM", "Grado de obstrucción, impacto funcional", "No específica para estenosis", "Evaluación inicial; seguimiento"],
+            ["Uretrografía retrógrada (UGR)", "Localización, longitud, multiplicidad de la estenosis", "No muestra la profundidad de la espongiofribrosis", "Imagen estándar de primera línea"],
+            ["UCG miccional", "Uretra posterior, RVU, cuello vesical", "Requiere catéter retrógrado proximal a la estenosis", "Combinada con UGR; estenosis posteriores"],
+            ["Sonoureterografía (SUG)", "Profundidad y extensión de la espongiofribrosis", "Dependiente del operador", "Planificación preoperatoria de uretroplastia; casos recurrentes"],
+            ["Uretroskopía", "Visualización directa de la mucosa, calibre", "Invasiva; limitada a la luz", "En el momento de la intervención planificada; imagen ambigua"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Estudio Uretrográfico Combinado",
+          "content": "Antes de cualquier uretroplastia, deben realizarse tanto la UGR como la UCG/CUM para caracterizar la longitud completa del segmento estenosado. La UGR define el límite distal; la UCG define el límite proximal. Para las lesiones de disrupción uretral posterior, la cistografía por sonda suprapúbica proporciona un estudio retrógrado desde arriba. Los cirujanos que operan sin este estudio combinado corren el riesgo de subestimar la longitud de la estenosis intraoperatoriamente."
+        }
+      ]
+    },
+    {
+      "id": "F2-S3",
+      "title": "Tratamiento Endoscópico: Dilatación y Ureterotomía Interna de Visión Directa",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **dilatación uretral** y la **ureterotomía interna de visión directa (UVID)** son los tratamientos iniciales más frecuentemente realizados para las estenosis uretrales en todo el mundo. Sin embargo, su eficacia a largo plazo es limitada y depende enormemente de las características de la estenosis. Ambos procedimientos interrumpen transitoriamente la cicatriz de la estenosis pero no abordan la espongiofribrosis subyacente, lo que conlleva tasas significativas de recurrencia.\n\nLa **dilatación uretral** se realiza con dilatadores graduados (dilatadores de Clutton, dilatadores de balón) bajo anestesia local, ampliando mecánicamente la estenosis. La **UVID (uretrotomía de Sachse)** utiliza un bisturí frío incidido bajo visión directa (a las 12 en punto) a través de un uretrotomo rígido, cortando radialmente la cicatriz de la estenosis para permitir la cicatrización con una luz más amplia. Ambas técnicas tienen eficacia equivalente; la UVID no ofrece resultados superiores a una dilatación cuidadosa y no tiene ninguna ventaja demostrada. Las guías de la EAU 2024 establecen que para una **estenosis bulbar única corta (<1,5 cm) sin espongiofribrosis densa**, la UVID/dilatación tiene una tasa de éxito del ~60% a los 12 meses tras el primer procedimiento.\n\nLas tasas de recurrencia tras la UVID son sustanciales. El ensayo aleatorizado de referencia de **Steenkamp et al. (Br J Urol 1997)** demostró que tras una única UVID, aproximadamente el 50% de las estenosis recurrían en el plazo de 1 año. La UVID repetida tiene tasas de éxito progresivamente menores (aproximadamente 0% de éxito a largo plazo tras 2 o más procedimientos para la mayoría de las estenosis) y crea cicatrices adicionales que complican la uretroplastia posterior. Las guías de la EAU y de la AUA recomiendan que los pacientes que fracasan con dos procedimientos de UVID reciban asesoramiento sobre la uretroplastia en lugar de tratamiento endoscópico adicional.\n\nLa autocalibracion (autodilatación intermitente/ADI) mediante una sonda uretral puede ofrecerse a los pacientes no aptos o que no deseen someterse a uretroplastia como estrategia de mantenimiento, pero no aborda la estenosis subyacente. La ADI post-UVID puede mejorar modestamente las tasas de éxito."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Criterios de Selección para UVID",
+          "content": "La UVID es más apropiada para una **estenosis bulbar única, corta (<1,5 cm) sin espongiofribrosis densa** que se produce por primera vez. Para estenosis >2 cm, múltiples estenosis, localización peneana, presencia de LE o recurrencia tras una UVID previa, la uretroplastia primaria ofrece resultados a largo plazo significativamente mejores y debe ofrecerse."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — UVID Repetida Sin Revisión de Resultados",
+          "content": "Realizar una tercera o posterior UVID para la estenosis recurrente es un error frecuente que retrasa el tratamiento definitivo y empeora el lecho tisular para una futura uretroplastia. La guía de la EAU 2024 (Grado B) recomienda ofrecer uretroplastia tras el fracaso de dos tratamientos endoscópicos. La uretrotomía repetida crea una cicatrización circunferencial densa (espongiofribrosis) que reduce el éxito del injerto y de la cicatrización anastomótica."
+        }
+      ]
+    },
+    {
+      "id": "F2-S4",
+      "title": "Uretroplastia: Técnicas Anastomóticas",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **uretroplastia** es el tratamiento quirúrgico definitivo de la estenosis uretral y proporciona resultados a largo plazo superiores en comparación con las técnicas endoscópicas para la mayoría de las estenosis. La elección de la técnica depende de la longitud de la estenosis, la localización, la etiología y la calidad del tejido. Las dos categorías principales son la **escisión y anastomosis primaria (EAP)** y la **uretroplastia de aumentación**.\n\nLa **escisión y anastomosis primaria (EAP)** implica la escisión completa del segmento estenosado incluyendo su lecho espongiofibrótico, seguida de una anastomosis terminoterminal espatulada entre los extremos uretrales proximal y distal sanos. Es la técnica de elección para **estenosis bulbares cortas (generalmente ≤2 cm)**. La EAP alcanza las mejores tasas de éxito notificadas en urología reconstructiva — **>90% de libertad de recurrencia a 5 años** en múltiples series. Las contraindicaciones incluyen estenosis largas (en las que la escisión produciría tensión o curvatura), estenosis peneanas anteriores (en las que la escisión produce acortamiento del pene) y estenosis membranosas posteriores que requieren un abordaje perineal con separación de los pilares. La técnica de EAP para estenosis bulbares se realiza a través de una incisión perineal con movilización del músculo bulboesponjoso, lo que permite una movilización uretral de aproximadamente 2–3 cm sin tensión.\n\nPara los **defectos de distracción uretral posterior (PFUI)**, el abordaje de uretroplastia anastomótica requiere una incisión perineal con pubectomía inferior (procedimiento de Webster) o un abordaje progresivo perineal-transpúbico-abdominal para casos complejos. El 'abordaje perineal progresivo' descrito por Webster y Ramon aborda progresivamente los obturadores, la pubectomía inferior y la separación de los pilares corporales para lograr una anastomosis sin tensión en defectos posteriores más largos. La cirugía se difiere un **mínimo de 3 meses** tras la fractura de pelvis para permitir la resolución del hematoma y el edema pélvico, maximizando la calidad tisular y posibilitando una evaluación precisa de la longitud de la estenosis."
+        },
+        {
+          "type": "table",
+          "title": "Selección de la Técnica de Uretroplastia Según las Características de la Estenosis",
+          "headers": ["Técnica", "Longitud de la Estenosis", "Localización", "Tasa de Éxito (5 años)", "Limitación Principal"],
+          "rows": [
+            ["EAP (bulbar)", "≤2 cm", "Bulbar", ">90%", "Acortamiento peneano si se usa anteriormente"],
+            ["EAP (posterior — Webster)", "Defecto corto post-PFUI", "Membranosa", "85–95%", "Extensión transpúbica para defectos largos"],
+            ["IMB dorsal (Barbagli)", "2–12 cm", "Bulbar, peneana", "80–85%", "Fracaso del injerto si mala irrigación del esponjoso"],
+            ["IMB ventral", "2–8 cm", "Bulbar", "80–85%", "Riesgo de fístula en localización peneana"],
+            ["IMB pan-uretral de Kulkarni", "Larga/pan-uretral LE", "Uretra anterior completa", "75–80%", "Requiere experiencia; riesgo de sangrado"],
+            ["2 tiempos de Bracka (Turner-Warwick)", "Compleja/LE/fracasos previos", "Cualquier anterior", "75–85%", "Dos operaciones con 6 meses de intervalo"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Tasa de Éxito de la EAP",
+          "content": "La escisión y anastomosis primaria para estenosis bulbares cortas alcanza la tasa de éxito a largo plazo más alta de cualquier técnica de uretroplastia — superando el 90% a 5 años en la mayoría de las series. Esto se debe a que la escisión completa elimina toda la espongiofribrosis, y la anastomosis se realiza entre dos extremos uretrales sanos con buena irrigación sanguínea."
+        }
+      ]
+    },
+    {
+      "id": "F2-S5",
+      "title": "Uretroplastia con Injerto de Mucosa Bucal",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **injerto de mucosa bucal (IMB)** se ha convertido en el tejido de referencia para la uretroplastia de aumentación desde su popularización por Barbagli y colaboradores en la década de 1990. La mucosa de la mejilla interna es resistente, sin pelo, resistente a la infección, bien vascularizada, fácil de obtener y — de forma crítica — no se ve afectada por el liquen escleroso, lo que la hace universalmente aplicable independientemente del estado de la enfermedad cutánea genital.\n\nEl IMB puede colocarse en posición de **onlay dorsal (Barbagli), ventral o lateral (acolchado)**. La **técnica de onlay dorsal** descrita por Barbagli (J Urol 1996) asienta el injerto sobre el cuerpo cavernoso, proporcionando un excelente soporte vascular y un respaldo estable para el prendimiento del injerto. Requiere una rotación uretral de 180° para exponer la superficie dorsal — técnicamente exigente pero con excelentes resultados. El abordaje de **onlay ventral** es técnicamente más sencillo (no requiere rotación uretral) pero tiene mayor riesgo de fístula en la uretra peneana. Muchos cirujanos utilizan actualmente un abordaje **dorsolateral** o acolchado que combina los beneficios de ambos.\n\nLa obtención del injerto de la mejilla interna proporciona habitualmente 3–5 cm por lado; las obtenciones bilaterales permiten la reparación de estenosis de hasta 10–12 cm. La **uretroplastia pan-uretral de un solo lado de Kulkarni** utiliza una única incisión perineal lateral con el paciente en posición de Lloyd-Davies, colocando un injerto IMB largo desde la uretra prostática hasta la fosa navicular en un solo tiempo — adecuada para estenosis pan-uretrales por LE. Para los casos complejos con fibrosis densa o uretroplastia previa fallida, el **procedimiento de Bracka en 2 tiempos** coloca el injerto como sustituto cutáneo libre en el tiempo 1 (creando una placa uretral), con tubularización 6 meses después, una vez madurado el injerto. Las complicaciones del lugar donante por la obtención de IMB incluyen trismo transitorio (restricción de la apertura bucal), entumecimiento y contractura cicatricial — generalmente leves y autolimitadas."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Complicaciones de la Obtención del IMB",
+          "content": "Los pacientes deben ser informados preoperatoriamente de que la obtención de IMB provoca trismo transitorio y entumecimiento labial de 2–6 semanas de duración. El trismo prolongado más allá de los 3 meses afecta aproximadamente al 5% de los pacientes. Estas complicaciones del lugar donante son generalmente bien toleradas y no afectan a la satisfacción del paciente en comparación con el beneficio sustancial de la uretroplastia frente a los procedimientos endoscópicos repetidos."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — IMB frente a Colgajos Cutáneos",
+          "content": "El IMB es preferible a los colgajos de piel peneana o escrotal en todos los pacientes con LE y en la mayoría de las prácticas contemporáneas para la uretroplastia de aumentación. Los colgajos cutáneos con piel genital corren el riesgo de introducir pelo en la uretra (piel escrotal), sufrir isquemia (piel peneana pediculada) y — si está presente el LE — progresión de la enfermedad por LE en el segmento reconstruido. El IMB evita todos estos riesgos."
+        }
+      ]
+    },
+    {
+      "id": "F2-S6",
+      "title": "Estenosis Uretral Posterior, Liquen Escleroso y Situaciones Especiales",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "La **contractura del cuello vesical (CCV) post-RTU-P** y la **estenosis de la anastomosis vésico-uretral (AVU) post-prostatectomía radical** son formas de estrechez uretral posterior que difieren fisiopatológicamente de las estenosis uretrales clásicas — representan la formación de cicatriz en una anastomosis quirúrgica en lugar de espongiofribrosis. El tratamiento inicial implica incisión endoscópica (bisturí frío o láser); tras dos fracasos endoscópicos, el **procedimiento 'corte hacia la luz'** (incisión/resección agresiva de 360°) o la plastia Y-V abierta pueden considerarse para la CCV. La AVU post-prostatectomía en el contexto de radioterapia previa representa la reconstrucción más desafiante, requiriendo a menudo uretroplastia perineal formal.\n\nEl **liquen escleroso (LE)** merece especial énfasis. El LE es una dermatosis inflamatoria crónica de etiología desconocida (implicados factores autoinmunes, genéticos y hormonales) que causa placas blancas atróficas en la piel genital. En la uretra, el LE produce una fibrosis densa que comienza en la fosa navicular y se extiende proximalmente — afectando a veces a toda la uretra anterior. Histológicamente se caracteriza por infiltración linfocítica y esclerosis dérmica homogénea. El LE progresa de forma insidiosa; los pacientes requieren seguimiento de por vida ya que la enfermedad continúa avanzando incluso después de la reconstrucción. Los corticosteroides tópicos de alta potencia (propionato de clobetasol) controlan la enfermedad cutánea pero no revierten la estenosis uretral establecida. La reconstrucción basada en IMB con la técnica de Kulkarni o de Bracka en 2 tiempos proporciona los mejores resultados para las estenosis asociadas a LE.\n\nLa **lesión uretral por fractura de pelvis (PFUI)** suele causar una disrupción completa de la uretra membranosa a nivel de la membrana perineal. El tratamiento inmediato es la inserción de catéter suprapúbico — **no** el intento de sondaje uretral (que arriesga convertir un desgarro parcial en una disrupción completa, introducir infección y crear falsas vías). La uretroplastia anastomótica diferida (abordaje de Webster) a los 3 o más meses de la lesión alcanza un éxito del 85–95%. La 'regla de las 3 S' en el tratamiento del PFUI: **Sonda Suprapúbica, derivación a Servicio especializado, cirugía diferida (Surgery deferred)** hasta que el edema y el hematoma se resuelvan."
+        },
+        {
+          "type": "table",
+          "title": "Patología Uretral Posterior: Comparación",
+          "headers": ["Cuadro", "Etiología", "Tratamiento Inicial", "Tratamiento Definitivo"],
+          "rows": [
+            ["Contractura del cuello vesical post-RTU-P", "Cicatriz en el cuello vesical, lesión térmica", "Incisión con bisturí frío ± dilatación con balón", "Plastia Y-V si 2 fracasos endoscópicos"],
+            ["AVU post-prostatectomía", "Cicatriz anastomótica, isquemia", "Incisión con bisturí frío/láser", "Uretroplastia perineal si refractaria"],
+            ["PFUI (disrupción membranosa)", "Fuerza de cizallamiento, fractura de pelvis", "Catéter suprapúbico (NO sondaje uretral)", "Uretroplastia anastomótica diferida ≥3 meses"],
+            ["LE posterior", "Progresión del liquen escleroso", "Corticosteroides tópicos (solo control de la enfermedad)", "Uretroplastia con IMB ± 2 tiempos si extensa"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Sondaje Uretral en PFUI",
+          "content": "El intento de sondaje uretral en la lesión uretral aguda por fractura de pelvis está contraindicado si se sospecha disrupción uretral. Los signos de lesión uretral incluyen sangre en el meato, incapacidad para orinar, hematoma perineal/escrotal y próstata elevada o no palpable en el tacto rectal. Insertar un catéter suprapúbico bajo guía ecográfica o fluoroscópica y derivar a un urólogo reconstructivo. El sondaje uretral ciego arriesga la creación de falsas vías e infección."
+        }
+      ]
+    },
+    {
+      "id": "F2-S7",
+      "title": "Resultados, Vigilancia y Orientación al Paciente",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El registro de resultados en el tratamiento de la estenosis uretral carece de uniformidad. La **Puntuación de Resultados de Uretroplastia (UROS)** y las medidas de resultados notificadas por los pacientes (PROM), incluyendo la Medida de Resultados Notificados por el Paciente en Cirugía de Estenosis Uretral (USS-PROM), se utilizan cada vez más junto con las medidas objetivas. La definición estándar de fracaso de la uretroplastia es la necesidad de cualquier intervención postoperatoria (dilatación, UVID, uretroplastia repetida). Con este criterio, la **EAP alcanza un éxito del 85–95% a los 5 años**; la **aumentación con IMB alcanza el 75–85%**; y la **UVID alcanza aproximadamente el 50% al año** descendiendo al ~30% a los 5 años.\n\nLa vigilancia post-uretroplastia debe incluir **flujometría a los 3 meses** y después anualmente. Una caída del Qmáx por debajo de 15 mL/s justifica una investigación con UGR. Los pacientes deben ser informados de que las recurrencias tardías (>5 años) se producen en aproximadamente el 5–10% de los casos y de que se recomienda un seguimiento de por vida — especialmente para las estenosis asociadas a LE, donde la actividad continua de la enfermedad persiste. Las complicaciones de la uretroplastia incluyen infección de la herida, formación de fístula (1–3%), disfunción eréctil (transitoria en el 10–15%, permanente en <5% para los abordajes bulbares), disfunción eyaculatoria y curvatura. El riesgo de disfunción eréctil es mayor con la **escisión de las arterias bulbouretrales** en la EAP larga y con los abordajes posteriores cerca de los haces neurovasculares cavernosos.\n\nLa orientación al paciente debe abordar expectativas realistas: la uretroplastia ofrece la mejor durabilidad a largo plazo, pero requiere una hospitalización de 1–2 semanas (o cirugía ambulatoria en algunos centros), una sonda durante 2–3 semanas tras la operación y una recuperación de 4–6 semanas. La recuperación de la función sexual y de los síntomas urinarios mejora progresivamente a lo largo de 6–12 meses. El **registro multicéntrico TURNS (Trauma and Urologic Reconstructive Network of Surgeons)** ha proporcionado importantes datos de resultados del mundo real para la cirugía de estenosis, confirmando la superioridad de la uretroplastia sobre el tratamiento endoscópico para la mayoría de las estenosis, e identificando el volumen del centro como predictor de resultados."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Resultados a Largo Plazo de Uretroplastia frente a UVID",
+          "content": "Para estenosis bulbares ≥2 cm, la uretroplastia proporciona tasas de éxito a 5 años del 80–90% en comparación con aproximadamente el 30% para la UVID. Las guías de la EAU 2024 (Grado B, evidencia de nivel 2b) recomiendan la uretroplastia primaria para las estenosis no aptas para tratamiento endoscópico y tras el fracaso de dos procedimientos endoscópicos. El coste y la morbilidad acumulados de los procedimientos repetidos de UVID supera al de una única uretroplastia definitiva."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Ponga a prueba sus conocimientos sobre la estenosis uretral y la reconstrucción con 20 preguntas al estilo de los exámenes de especialidad.",
+    "questions": [
+      {
+        "id": "F2-Q1",
+        "stem": "Un varón de 34 años se somete a uretrografía retrógrada por un historial de 6 meses de flujo urinario reducido y goteo postmiccional. El estudio demuestra una estenosis de 1,2 cm en la uretra bulbar sin antecedentes previos de instrumentación. La sonoureterografía muestra espongiofribrosis superficial. ¿Cuál es el tratamiento inicial más apropiado?",
+        "options": {
+          "A": "Uretroplastia bulbar inmediata con escisión y anastomosis primaria",
+          "B": "Ureterotomía interna de visión directa (UVID)",
+          "C": "Uretroplastia de onlay con injerto de mucosa bucal",
+          "D": "Inserción de catéter suprapúbico y observación"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La UVID es el tratamiento inicial apropiado para una estenosis bulbar corta (<1,5 cm), única, con espongiofribrosis superficial que se produce por primera vez. Este escenario clínico cumple los criterios para el tratamiento endoscópico: longitud corta, localización bulbar, ausencia de fibrosis densa y primera presentación. Las guías de la EAU 2024 recomiendan la UVID o dilatación como abordaje de primera línea para tales estenosis, con una tasa de éxito aproximada del 60% a los 12 meses. La uretroplastia se reserva para el fracaso de dos procedimientos endoscópicos, estenosis más largas o espongiofribrosis densa.",
+          "wrong": {
+            "A": "La EAP es una uretroplastia definitiva y no está indicada como tratamiento inicial para una estenosis bulbar corta en una primera presentación. La UVID debe intentarse primero en candidatos apropiados.",
+            "C": "La uretroplastia de aumentación con IMB está indicada para estenosis más largas (>2 cm), estenosis asociadas a LE o estenosis que han fracasado con tratamiento endoscópico previo — no como tratamiento inicial para una estenosis bulbar corta por primera vez.",
+            "D": "El catéter suprapúbico está indicado en la retención urinaria o PFUI — no para un paciente con STUI pero que puede orinar. No hay indicación de CSP en este escenario."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Recomendación: Ofrecer UVID o dilatación para estenosis bulbares cortas (<1,5 cm), únicas, como tratamiento inicial (Grado B)",
+          "trial": "Steenkamp JW et al. (Br J Urol 1997): En un ECA de dilatación frente a UVID para estenosis bulbares, ambas lograron ~60% de éxito a los 12 meses sin diferencia significativa — confirmando la equivalencia y apoyando cualquier abordaje como tratamiento endoscópico inicial apropiado.",
+          "pearl": "Estenosis bulbar corta (<1,5 cm), única, por primera vez = la UVID es el tratamiento de primera línea apropiado. Cualquier otra combinación (larga, múltiple, recurrente, peneana, LE) apunta hacia la uretroplastia primaria."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F2-Q2",
+        "stem": "Un varón de 45 años se ha sometido a tres ureterotomías internas de visión directa a lo largo de 5 años por una estenosis uretral bulbar recurrente de 2,5 cm. Su procedimiento más reciente fue hace 8 meses y tiene síntomas obstructivos recurrentes. La flujometría muestra un Qmáx de 6 mL/s. ¿Cuál es el siguiente paso más apropiado?",
+        "options": {
+          "A": "Cuarta UVID con autodilatación postoperatoria",
+          "B": "Uretrotomía con láser (holmio o tulio)",
+          "C": "Derivación para evaluación de uretroplastia con estudio uretrográfico combinado",
+          "D": "Sondaje uretral a largo plazo"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Este paciente ha fracasado con tres procedimientos de UVID — muy por encima del umbral de dos fracasos en el que las guías de la EAU 2024 y la AUA 2023 recomiendan ofrecer uretroplastia. El tratamiento endoscópico repetido añade espongiofribrosis y empeora el lecho tisular para la reconstrucción eventual. El siguiente paso apropiado es la derivación para evaluación de uretroplastia con UGR y UCG combinadas para planificar la reconstrucción definitiva. Para una estenosis bulbar de 2,5 cm, se consideraría la escisión y anastomosis primaria o la aumentación con IMB.",
+          "wrong": {
+            "A": "Una cuarta UVID tiene prácticamente cero probabilidades de éxito a largo plazo y crea cicatrización adicional que reduce el éxito futuro de la uretroplastia. El tratamiento endoscópico repetido más allá de dos fracasos no está respaldado por las guías.",
+            "B": "La uretrotomía con láser (holmio o tulio) logra resultados equivalentes a la UVID con bisturí frío — no hay evidencia de que cambiar al láser mejore los resultados tras múltiples fracasos con bisturí frío. El modo de energía no es el factor limitante.",
+            "D": "El sondaje a largo plazo es una opción paliativa para pacientes no aptos para cirugía y representa un fracaso definitivo del tratamiento — inapropiado para un paciente de 45 años por lo demás sano que es candidato a uretroplastia."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Recomendación: Ofrecer uretroplastia tras el fracaso de dos procedimientos endoscópicos (Grado B). AUA Urethral Stricture Guideline (2023): Declaración índice 8 — los clínicos deben ofrecer uretroplastia a los pacientes que han fracasado con dos tratamientos endoscópicos previos.",
+          "trial": "Greenwell TJ et al. (BJU Int 2004): Serie retrospectiva que demuestra que las tasas de éxito tras la UVID repetida caen al <30% después de dos procedimientos y se aproximan al 0% tras tres o más — apoyando el umbral de las guías de dos procedimientos antes de recomendar la uretroplastia.",
+          "pearl": "Tras el fracaso de dos procedimientos de UVID, las guías de la EAU y la AUA recomiendan uretroplastia. Este umbral debe memorizarse: UVID ×2 = ofrecer uretroplastia."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F2-Q3",
+        "stem": "Un varón de 28 años presenta hematuria tras un accidente de tráfico. En la exploración presenta sangre en el meato uretral, hematoma perineal e incapacidad para orinar. La radiografía pélvica muestra una diástasis de la sínfisis púbica. ¿Cuál es la prioridad del tratamiento inmediato de su lesión urológica?",
+        "options": {
+          "A": "Uretrografía retrógrada de urgencia para confirmar la lesión antes de cualquier sondaje",
+          "B": "Sondaje uretral suave por el clínico de mayor experiencia",
+          "C": "Inserción de catéter suprapúbico bajo guía ecográfica",
+          "D": "Exploración quirúrgica inmediata y reparación uretral primaria"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Sangre en el meato, incapacidad para orinar y hematoma perineal en el contexto de una fractura de pelvis son la tríada clásica de la lesión uretral por fractura de pelvis (PFUI). La prioridad inmediata es la derivación urinaria mediante catéter suprapúbico — NO el sondaje uretral. El intento de sondaje uretral arriesga convertir un desgarro parcial en una disrupción completa, crear falsas vías, introducir infección. El CSP bajo guía ecográfica garantiza un drenaje vesical seguro. La uretroplastia anastomótica definitiva se difiere ≥3 meses.",
+          "wrong": {
+            "A": "La UGR es una exploración apropiada para pacientes estables, pero no es la 'prioridad del tratamiento inmediato' — el drenaje vesical no puede retrasarse para obtener imágenes en un paciente en retención urinaria.",
+            "B": "El sondaje uretral está contraindicado en la PFUI sospechada. Incluso los cirujanos experimentados arriesgan la creación de falsas vías y el empeoramiento de la lesión. El CSP es la alternativa segura.",
+            "D": "La reparación quirúrgica primaria del PFUI ha sido prácticamente abandonada — se asocia a tasas significativamente más altas de impotencia (49% frente a 19%), recurrencia de estenosis e incontinencia en comparación con el CSP y la uretroplastia diferida (principio de Turner-Warwick). La reparación inmediata no es el estándar de cuidado."
+          },
+          "guideline": "EAU Guidelines on Urethral Trauma (2024) — Recomendación: En la PFUI sospechada, insertar un catéter suprapúbico; no intentar el sondaje uretral (Grado B). La uretroplastia anastomótica diferida ≥3 meses desde la lesión es el tratamiento definitivo.",
+          "trial": "Koraitim MM (J Urol 1996): Metaanálisis de 168 casos de PFUI que demuestra que la uretroplastia anastomótica diferida (abordaje de Webster) logra un 95% de éxito con tasas significativamente menores de disfunción eréctil en comparación con la reparación quirúrgica primaria inmediata — estableciendo el paradigma moderno de tratamiento.",
+          "pearl": "Sangre en el meato + fractura de pelvis = lesión uretral hasta que se demuestre lo contrario. Tratamiento = CSP, no sonda uretral. Cirugía diferida ≥3 meses. Este es un escenario clásico de examen."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F2-Q4",
+        "stem": "Un varón de 52 años requiere uretroplastia por una estenosis uretral bulbar de 3,5 cm. Tiene antecedentes de liquen escleroso que afecta al glande y al prepucio. ¿Qué tejido es el más apropiado para la uretroplastia de aumentación en este paciente?",
+        "options": {
+          "A": "Colgajo de piel peneana (colgajo fasciocutáneo de McAninch)",
+          "B": "Injerto de piel escrotal",
+          "C": "Injerto de mucosa bucal",
+          "D": "Injerto de piel de grosor parcial del muslo"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "El liquen escleroso es una contraindicación absoluta para el uso de cualquier piel genital — peneana o escrotal — para la reconstrucción uretral, ya que la enfermedad por LE progresará en la piel genital trasplantada, provocando el fracaso del injerto y la recurrencia de la estenosis. El injerto de mucosa bucal (IMB) de la mejilla interna no se ve afectado por el LE, está fácilmente disponible, no tiene vello, es resistente y proporciona un excelente prendimiento del injerto. El IMB es el tejido de elección universal para todos los pacientes con LE que requieren reconstrucción uretral.",
+          "wrong": {
+            "A": "Los colgajos de piel peneana contienen piel genital que ya está afectada por LE o quedará afectada por la progresión del LE. El uso de piel peneana en un paciente con LE garantiza el fracaso del injerto/colgajo.",
+            "B": "La piel escrotal no debe utilizarse para la uretroplastia en ningún paciente debido al riesgo de introducir pelo en la uretra, causando formación de cálculos e infección recurrente. En el LE está adicionalmente contraindicada.",
+            "D": "Los injertos de piel de grosor parcial son una opción histórica pero logran resultados inferiores en comparación con el IMB (menos duraderos, mayor contracción del injerto, superficie más rugosa) y ya no se recomiendan como material de injerto primario cuando el IMB está disponible."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Recomendación: En pacientes con LE, utilizar injerto de mucosa bucal para la reconstrucción uretral; los injertos/colgajos de piel peneana y escrotal están contraindicados (Grado A).",
+          "trial": "Barbagli G et al. (J Urol 2006): Seguimiento a largo plazo de 153 pacientes sometidos a uretroplastia con IMB por estenosis asociadas a LE que demostró un éxito del 73% a los 10 años — significativamente superior a las series históricas con colgajos de piel peneana en pacientes con LE, que mostraron un fracaso progresivo debido a la progresión del LE en el injerto.",
+          "pearl": "Liquen escleroso = IMB obligatorio. La piel genital (colgajo peneano o injerto escrotal) está contraindicada en el LE porque la enfermedad por LE progresa hacia el tejido trasplantado. Este es uno de los principios de urología reconstructiva más evaluados en los exámenes."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F2-Q5",
+        "stem": "La uretrografía retrógrada muestra una estenosis de 1,0 cm en la uretra bulbar de un varón de 38 años. Se realiza una UVID bajo anestesia general. En el postoperatorio, pregunta sobre el riesgo de recurrencia. Basándose en la mejor evidencia disponible, ¿cuál es la tasa de recurrencia aproximada en los 12 meses siguientes a una única UVID para una estenosis bulbar corta?",
+        "options": {
+          "A": "10–15%",
+          "B": "25–30%",
+          "C": "40–50%",
+          "D": "70–80%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Steenkamp et al. (Br J Urol 1997) demostraron en un ECA que aproximadamente el 40–50% de las estenosis recurren en los 12 meses siguientes a una única UVID. Esta tasa de recurrencia es la cifra más citada en la literatura sobre estenosis uretral y debe utilizarse al orientar a los pacientes. A los 5 años, las tasas de éxito descienden a aproximadamente el 30% o menos. Los pacientes deben entender esta tasa de recurrencia antes de la UVID y ser informados de que probablemente será necesaria la uretroplastia si se produce la recurrencia.",
+          "wrong": {
+            "A": "Una recurrencia del 10–15% representaría un tratamiento muy eficaz — esto no está respaldado por la evidencia y correspondería más a las tasas de éxito de la uretroplastia, no a los resultados de la UVID.",
+            "B": "Una recurrencia del 25–30% (= 70–75% de éxito) es demasiado optimista para la UVID a los 12 meses. Aunque las tasas de éxito tempranas pueden parecer favorables, la recurrencia a los 12 meses es de aproximadamente el 40–50%.",
+            "D": "Una recurrencia del 70–80% significaría solo un 20–30% de éxito — esto es aproximadamente correcto para los resultados a 5 años o para pacientes con características desfavorables de la estenosis, pero sobreestima la recurrencia a los 12 meses para los candidatos apropiados a UVID."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Información al paciente: Informar a los pacientes de que la tasa de recurrencia a los 12 meses tras la UVID para estenosis bulbares cortas es de aproximadamente el 40–50%.",
+          "trial": "Steenkamp JW, Heyns CF, De Kock ML (Br J Urol 1997): ECA de dilatación frente a UVID para estenosis bulbares — ambos grupos mostraron aproximadamente un 40–50% de recurrencia a los 12 meses. Este sigue siendo el ECA de referencia que establece las tasas de recurrencia tras el tratamiento endoscópico uretral.",
+          "pearl": "UVID para estenosis bulbar corta: ~50% de recurrencia a los 12 meses, que desciende al ~30% a los 5 años. Esta cifra es esencial para la orientación al paciente y en los exámenes de especialidad."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F2-Q6",
+        "stem": "Un varón de 41 años presenta síntomas urinarios y se le encuentra una estenosis uretral bulbar de 4 cm en la UGR. No tiene antecedentes de instrumentación uretral previa. La sonoureterografía demuestra espongiofribrosis circunferencial profunda. ¿Cuál es el tratamiento más apropiado?",
+        "options": {
+          "A": "UVID como tratamiento inicial seguida de autodilatación intermitente",
+          "B": "Uretroplastia primaria con escisión y anastomosis primaria",
+          "C": "Uretroplastia primaria con injerto de mucosa bucal de onlay dorsal",
+          "D": "Tratamiento a largo plazo con alfabloqueantes y vigilancia expectante"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Una estenosis bulbar de 4 cm con espongiofribrosis profunda representa una situación en la que la UVID es inapropiada (demasiado larga para la UVID, la fibrosis profunda predice una alta recurrencia) y la EAP también es inapropiada (4 cm es demasiado largo para una anastomosis terminoterminal sin tensión en la mayoría de los pacientes — la EAP se limita a aproximadamente ≤2 cm). La uretroplastia de aumentación con IMB dorsal es el abordaje correcto: la estenosis se incide longitudinalmente, el injerto se sutura en la pared uretral dorsal y el defecto se repara. Esto logra un 80–85% de éxito a 5 años.",
+          "wrong": {
+            "A": "La UVID para una estenosis de 4 cm con espongiofribrosis profunda es inapropiada — la longitud >2 cm y la fibrosis profunda predicen un fracaso casi seguro, y la UVID añadiría cicatrización adicional sin beneficio. Está indicada la uretroplastia primaria.",
+            "B": "La EAP es el tratamiento de elección para las estenosis cortas (≤2 cm) en las que es posible una anastomosis sin tensión. Una estenosis de 4 cm no puede tratarse con EAP sin tensión significativa, acortamiento peneano o curvatura.",
+            "D": "La vigilancia expectante con alfabloqueantes no está basada en la evidencia para el tratamiento de la estenosis uretral y no aborda la patología obstructiva. Los alfabloqueantes no tienen ningún beneficio demostrado para los STUI relacionados con estenosis."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Recomendación: Para estenosis >2 cm o con espongiofribrosis profunda no apta para UVID, ofrecer uretroplastia. La EAP es preferible para estenosis bulbares cortas (≤2 cm); la uretroplastia de aumentación con IMB para estenosis más largas (Grado B).",
+          "trial": "Andrich DE, Mundy AR (Eur Urol 2008): Revisión sistemática que demuestra que para estenosis >2 cm, la uretroplastia de aumentación con IMB logra un 80–85% de éxito a los 5 años, superior a la EAP (inapropiada para esta longitud) y al tratamiento endoscópico.",
+          "pearl": "La longitud de la estenosis determina EAP frente a aumentación: bulbar ≤2 cm = EAP (>90% de éxito); bulbar >2 cm = aumentación con IMB (80–85% de éxito). La UVID es apropiada solo para estenosis bulbares por primera vez, cortas (<1,5 cm)."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q7",
+        "stem": "Un varón de 58 años se sometió a una prostatectomía radical hace 2 años por un cáncer de próstata pT2. Ahora refiere dificultad progresiva para orinar con un Qmáx de 5 mL/s. La cistoscopia muestra una estenosis anastomótica apretada (estenosis de la anastomosis vésico-uretral, AVU). Se le realizó una incisión con bisturí frío hace 6 meses con mejoría temporal. ¿Cuál es el siguiente paso?",
+        "options": {
+          "A": "Repetir la incisión con bisturí frío o uretrotomía con láser",
+          "B": "Autodilatación uretral a largo plazo",
+          "C": "Resección endoscópica agresiva de 360° ('corte hacia la luz') o consideración de uretroplastia perineal",
+          "D": "Catéter suprapúbico permanente"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La AVU post-prostatectomía es distinta de la estenosis clásica basada en espongiofribrosis. Tras el fracaso de una única incisión endoscópica, las opciones incluyen una resección endoscópica circunferencial de 360° más agresiva (denominada a veces 'corte hacia la luz', donde el objetivo es crear una luz lo suficientemente amplia como para ver la luz a través) o una uretroplastia perineal formal. Esta última es especialmente importante si el paciente había recibido radioterapia adyuvante, que reduce significativamente la capacidad de cicatrización. Tras dos fracasos endoscópicos, es apropiada la derivación a un urólogo reconstructivo para la evaluación de la uretroplastia perineal.",
+          "wrong": {
+            "A": "Una simple incisión repetida sin escalada de técnica tiene pocas probabilidades de éxito tras un fracaso previo y retrasa aún más el tratamiento definitivo. Debe planificarse un abordaje endoscópico más agresivo o una reconstrucción quirúrgica.",
+            "B": "La autodilatación es una medida transitoria que no trata la AVU sino que mantiene la permeabilidad. Es una opción para los pacientes que no desean o no pueden someterse a cirugía, pero no es el 'siguiente paso' en un paciente de 58 años que es candidato quirúrgico.",
+            "D": "El CSP permanente es apropiado solo para los pacientes que han fracasado con todas las opciones reconstructivas o que tienen contraindicaciones médicas para la cirugía — no después de un único procedimiento endoscópico fallido en un paciente por lo demás apto."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Sección de contractura del cuello vesical/AVU: Tras el fracaso de un único tratamiento endoscópico, ofrecer resección endoscópica agresiva o reconstrucción quirúrgica. Los antecedentes de radioterapia empeoran significativamente los resultados (Grado C).",
+          "trial": "Herschorn S et al. (J Urol 2010): Serie de 34 pacientes con AVU post-prostatectomía que demuestra que la resección endoscópica agresiva de 360° logra un 60–70% de éxito a los 24 meses, y que la radioterapia previa reduce el éxito a <40% — apoyando la derivación temprana para reconstrucción quirúrgica en los pacientes irradiados.",
+          "pearl": "El tratamiento de la AVU post-prostatectomía escala de incisión simple → resección endoscópica agresiva de 360° → uretroplastia perineal. La radioterapia previa es un factor pronóstico negativo importante y debe impulsar una consideración más temprana de la reconstrucción abierta."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q8",
+        "stem": "Un varón de 39 años con antecedentes de uretritis gonocócica a los 22 años presenta una estenosis uretral anterior pan-anterior de 7 cm en el estudio uretrográfico combinado. No se ha sometido a cirugía uretral previa. La sonoureterografía confirma espongiofribrosis moderada generalizada. ¿Qué técnica de uretroplastia es la más apropiada?",
+        "options": {
+          "A": "Escisión y anastomosis primaria",
+          "B": "Uretroplastia pan-uretral con IMB en un solo tiempo (técnica de Kulkarni)",
+          "C": "Colgajo de piel peneana (técnica de Orandi)",
+          "D": "Endoprótesis uretral metálica permanente Memokath"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Una estenosis uretral anterior pan-anterior de 7 cm por gonorrea previa (no LE) sin cirugía previa se trata mejor con una uretroplastia pan-uretral con IMB en un solo tiempo mediante la técnica de Kulkarni. Este abordaje utiliza una única incisión perineal desde la fosa navicular hasta la uretra bulbar en posición de Lloyd-Davies, colocando un injerto largo de IMB para reconstruir toda la uretra anterior. Evita la necesidad de un procedimiento en dos tiempos y es el abordaje moderno para estenosis pan-uretrales largas en pacientes sin LE (en los que los colgajos de piel peneana podrían teóricamente considerarse, pero el IMB proporciona mejores resultados a largo plazo).",
+          "wrong": {
+            "A": "La EAP está contraindicada para una estenosis de 7 cm — la escisión requerida produciría un acortamiento peneano, curvatura y tensión anastomótica inaceptables. La EAP se limita a estenosis bulbares de aproximadamente ≤2 cm.",
+            "C": "Los colgajos de piel peneana (Orandi, Quartey) son opciones viables en ausencia de LE, pero han sido en gran medida reemplazados por la uretroplastia con IMB en la mayoría de los centros de alto volumen debido al riesgo de vello (menos en la piel peneana), la cicatriz del lugar donante y los resultados a largo plazo inferiores frente al IMB. Se prefiere el IMB.",
+            "D": "Las endoprótesis metálicas permanentes (Memokath, Urolume) han sido abandonadas para el tratamiento de la estenosis uretral debido a las altas tasas de fracaso, incrustaciones, ingrowth epitelial y difícil explantación. No son una opción de tratamiento en la práctica contemporánea para un paciente joven con estenosis pan-uretral."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Recomendación: Para estenosis uretrales anteriores largas que no involucran LE, la uretroplastia con IMB en un solo tiempo (técnica de Kulkarni o similar) es el abordaje preferido (Grado B).",
+          "trial": "Kulkarni SB et al. (BJU Int 2009): Serie de un solo centro de 325 pacientes sometidos a uretroplastia pan-uretral de Kulkarni en un solo tiempo que demuestra un 79% de éxito a los 3 años para estenosis anteriores complejas/largas, estableciendo esta técnica como el estándar para la reconstrucción pan-uretral.",
+          "pearl": "Estenosis pan-uretral larga (no LE) = uretroplastia pan-uretral con IMB de Kulkarni en un solo tiempo. Si hay LE, Kulkarni o Bracka en 2 tiempos. La EAP es solo para bulbares ≤2 cm; nunca usar piel peneana/escrotal si hay LE."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q9",
+        "stem": "Durante la obtención del injerto de mucosa bucal de la mejilla interna para la uretroplastia de aumentación, el cirujano lesiona inadvertidamente el conducto de Stensen. ¿Cuál es la posible complicación de esta lesión?",
+        "options": {
+          "A": "Entumecimiento labial permanente",
+          "B": "Sialocoele parotídeo o estenosis ductal que causa tumefacción parotídea",
+          "C": "Trismo (restricción de la apertura bucal)",
+          "D": "Alteración del gusto que afecta a la lengua ipsilateral"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El conducto de Stensen es el conducto salival parotídeo, que desemboca en la mucosa oral frente al segundo molar superior de cada lado. Si se lesiona durante la obtención del IMB — que debe limitarse a la mucosa de la mejilla interna, bien alejada del conducto de Stensen — puede producirse una estenosis ductal o un sialocoele parotídeo, causando tumefacción parotídea intermitente (especialmente con las comidas). Esta es una complicación poco frecuente pero específica de la obtención del IMB. Una obtención segura requiere identificar y evitar la desembocadura del conducto de Stensen antes de la incisión.",
+          "wrong": {
+            "A": "El entumecimiento labial resulta de la lesión del nervio mentoniano o de la rama bucal del nervio facial — no específicamente del conducto de Stensen. El entumecimiento es una complicación menor frecuente de la obtención del IMB, pero no está relacionada con la lesión ductal.",
+            "C": "El trismo (restricción de la apertura bucal) resulta de la cicatrización masetérica o de la afectación de la articulación temporomandibular — no de la lesión del conducto de Stensen. El trismo se produce en aproximadamente el 5% de las obtenciones de IMB y está relacionado con la contractura cicatricial, no con complicaciones ductales.",
+            "D": "La alteración del gusto en la lengua anterior implica la cuerda del tímpano (una rama del nervio facial, VII par) — no relacionada con la anatomía del conducto de Stensen ni con el lugar de obtención del IMB."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Nota técnica: Identificar y evitar la desembocadura del conducto de Stensen (frente al segundo molar superior) durante la obtención del IMB; la lesión inadvertida puede causar sialocoele parotídeo.",
+          "trial": "Patterson JM et al. (Eur Urol 2008): Revisión sistemática de las complicaciones de la obtención de IMB en 697 pacientes — las complicaciones mayores (<5%) incluyeron la lesión del conducto de Stensen en el 0,4% de los casos; las complicaciones menores más frecuentes fueron el trismo (6,4%) y el entumecimiento oral (8,1%).",
+          "pearl": "El conducto de Stensen desemboca frente al segundo molar superior — identificar antes de la obtención del IMB para evitar el sialocoele parotídeo. Las complicaciones más frecuentes del lugar donante del IMB son el trismo (~5%) y el entumecimiento (~8%), ambos habitualmente autolimitados."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q10",
+        "stem": "Un varón de 47 años se sometió a una UVID por una estenosis bulbar hace 2 años. Ahora presenta síntomas recurrentes. La UGR demuestra una estenosis bulbar recurrente de 2 cm. La sonoureterografía muestra espongiofribrosis moderada. Se le informa de que está indicada la uretroplastia. En cuanto a la tasa de éxito de la uretroplastia para una estenosis bulbar de 2 cm, ¿qué cifra es la más precisa para la escisión y anastomosis primaria a los 5 años?",
+        "options": {
+          "A": "50–60%",
+          "B": "65–75%",
+          "C": "85–95%",
+          "D": "95–100%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La escisión y anastomosis primaria (EAP) para estenosis bulbares cortas (≤2 cm) logra consistentemente un 85–95% de éxito a los 5 años en múltiples series grandes. Esta es la tasa de éxito más alta de cualquier técnica de uretroplastia y refleja el principio de que la eliminación completa de la espongiofribrosis con anastomosis entre dos extremos uretrales sanos elimina el sustrato de la enfermedad. Este excelente resultado debe utilizarse al orientar a los pacientes que deciden entre un tratamiento endoscópico adicional y la uretroplastia definitiva.",
+          "wrong": {
+            "A": "El 50–60% corresponde a la tasa de éxito a los 12 meses de la UVID para estenosis bulbares cortas correctamente seleccionadas — no a los resultados de la uretroplastia EAP.",
+            "B": "El 65–75% corresponde a los resultados a 5 años de técnicas de uretroplastia de aumentación más largas o de reconstrucciones complejas — no a la EAP para estenosis bulbares cortas.",
+            "D": "El 95–100% sobreestima el éxito de la EAP — aunque algunos centros informan de >90%, la cifra realista es del 85–95% a los 5 años teniendo en cuenta la recurrencia y la necesidad de una intervención posterior."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Información al paciente: La EAP para estenosis bulbares cortas logra aproximadamente un 90% de éxito a los 5 años (Grado B, evidencia de nivel 2a).",
+          "trial": "Santucci RA et al. (J Urol 2002): Serie multicéntrica de 168 pacientes sometidos a EAP por estenosis bulbares que demuestra un 91% de éxito a los 5 años, confirmando la EAP como la técnica de uretroplastia de mayor éxito para los pacientes correctamente seleccionados.",
+          "pearl": "EAP para estenosis bulbar corta (≤2 cm) = 85–95% de éxito a los 5 años. Aumentación con IMB para estenosis más largas = 75–85% a los 5 años. Estas cifras son los números clave de orientación para la urología reconstructiva."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F2-Q11",
+        "stem": "Un varón de 55 años con placas atróficas blancas en el glande y el prepucio es evaluado por un flujo urinario débil. La ureteroscopia muestra una estenosis apretada de la fosa navicular con cicatrización blanca que se extiende a la uretra peneana. Se realiza una biopsia. La histología demuestra: hiperqueratosis superficial, epidermis atrófica, dermis homogénea densa con infiltrado linfocítico. ¿Cuál es el diagnóstico y el tratamiento apropiado para la reconstrucción?",
+        "options": {
+          "A": "Carcinoma de células escamosas — se requiere escisión oncológica antes de la reconstrucción",
+          "B": "Liquen escleroso — uretroplastia con IMB (técnica de Kulkarni o Bracka)",
+          "C": "Liquen escleroso — uretroplastia con colgajo de piel peneana para preservar el IMB para un uso posterior",
+          "D": "Condilomas acuminados — imiquimod tópico seguido de vigilancia"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El cuadro clínico (placas blancas en el glande y el prepucio), los hallazgos ureteroscópicos (estenosis de la fosa navicular con cicatrización blanca) y la histología (hiperqueratosis, atrofia epidérmica, esclerosis dérmica homogénea, infiltrado linfocítico) son diagnósticos de liquen escleroso (LE). El LE que afecta a la uretra requiere uretroplastia con IMB — bien de Kulkarni en un solo tiempo para estenosis accesibles, o de Bracka en 2 tiempos para enfermedad compleja/pan-uretral. Los colgajos de piel peneana o escrotal están absolutamente contraindicados ya que el LE progresará en cualquier piel genital utilizada.",
+          "wrong": {
+            "A": "Aunque el LE conlleva un riesgo aproximado del 5% de desarrollar carcinoma de células escamosas de pene a lo largo de la vida y la biopsia es importante para descartar el CCE, la descripción histológica dada es de LE sin atipia ni características invasivas — no CCE. No está indicado el tratamiento oncológico antes de la reconstrucción.",
+            "C": "Los colgajos de piel peneana están absolutamente contraindicados en el LE — la enfermedad progresará en la piel genital trasplantada, provocando el fracaso del injerto. El IMB no debe 'guardarse' para un uso posterior cuando es el material apropiado para la reconstrucción actual.",
+            "D": "Los condilomas acuminados son causados por el VPH y histológicamente muestran coilocitosis (queratinocitos vacuolados con halos perinucleares) — no las características descritas. La histología descrita es la del LE clásico."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Sección de LE: Confirmar el LE con biopsia; utilizar exclusivamente IMB para la reconstrucción en el LE; la piel peneana/escrotal está contraindicada; informar a los pacientes de que el LE es una afección crónica progresiva que requiere seguimiento (Grado A).",
+          "trial": "Kulkarni SB et al. (J Urol 2017): Serie de 90 pacientes con LE sometidos a uretroplastia pan-uretral de Kulkarni con IMB en un solo tiempo que demuestra un 73% de éxito a los 5 años — resultados comparables a las estenosis sin LE tratadas con la misma técnica, confirmando el IMB como tejido apropiado en el LE.",
+          "pearl": "Histología del LE = hiperqueratosis + atrofia epidérmica + esclerosis dérmica homogénea + infiltrado linfocítico. Tratamiento = IMB (Kulkarni o Bracka). Nunca usar piel peneana/escrotal en el LE. El LE conlleva un riesgo de ~5% de CCE que requiere biopsia."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q12",
+        "stem": "Al realizar una uretroplastia de onlay dorsal con injerto de mucosa bucal (técnica de Barbagli) para una estenosis bulbar de 3 cm, la uretra se rota 180° para exponer su superficie dorsal. El injerto se fija entonces en el cuerpo cavernoso entre los dos cuerpos. ¿Cuál es la ventaja principal de la posición de onlay dorsal en comparación con el onlay ventral?",
+        "options": {
+          "A": "Menor tiempo operatorio por la exposición más sencilla",
+          "B": "El cuerpo cavernoso proporciona un respaldo vascular estable para el injerto, optimizando el prendimiento del injerto",
+          "C": "Evitación del riesgo de torsión uretral al girarla",
+          "D": "Mejor acceso a la uretra bulbar distal"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La ventaja principal de la colocación del injerto en onlay dorsal (técnica de Barbagli) es que el injerto se acolcha directamente sobre el cuerpo cavernoso — una estructura muy vascularizada que proporciona un excelente soporte vascular para el prendimiento del injerto (neovascularización desde la superficie cavernosa dorsal). Este 'respaldo biológico' reduce significativamente el riesgo de fracaso del injerto en comparación con la colocación ventral, donde el injerto está respaldado por la irrigación más variable del cuerpo esponjoso. La colocación dorsal también crea un soporte natural contra la superficie cavernosa que mantiene la posición del injerto.",
+          "wrong": {
+            "A": "El onlay dorsal en realidad requiere más tiempo operatorio que el onlay ventral porque necesita una rotación uretral de 180°, que es técnicamente exigente y añade pasos quirúrgicos. El onlay ventral es técnicamente más sencillo.",
+            "C": "La rotación uretral de 180° es una característica de la técnica dorsal, no una evitación. La uretra debe rotarse cuidadosamente y respaldarse para evitar la torsión — es un reto técnico de la técnica, no una ventaja.",
+            "D": "El acceso a la uretra bulbar distal no es la característica diferenciadora entre los abordajes dorsal y ventral — ambos pueden acceder a los mismos segmentos con la posición y tracción adecuadas del paciente."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Guía técnica: La colocación del injerto en onlay dorsal utiliza el cuerpo cavernoso como respaldo vascular; se asocia con altas tasas de prendimiento del injerto y resultados duraderos.",
+          "trial": "Barbagli G et al. (J Urol 1996): Descripción original de la uretroplastia de onlay dorsal con IMB en 20 pacientes — todos los injertos demostraron un prendimiento exitoso con excelente vascularización del respaldo cavernoso, estableciendo la técnica que desde entonces ha sido ampliamente adoptada.",
+          "pearl": "IMB onlay dorsal: injerto sobre cuerpo cavernoso = excelente respaldo vascular = alta tasa de prendimiento del injerto. Desventaja = técnicamente exigente (rotación uretral de 180°). Onlay ventral = más sencillo pero mayor riesgo de fístula en la uretra peneana."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q13",
+        "stem": "Un varón de 29 años sufrió una fractura de pelvis en un accidente de tráfico de alta velocidad. Se le insertó un catéter suprapúbico en el momento de la lesión. Han transcurrido 4 meses desde la lesión y se ha realizado una cistografía suprapúbica que muestra un defecto de 1,5 cm en la uretra membranosa. Es derivado para reconstrucción definitiva. ¿Qué abordaje quirúrgico es el apropiado?",
+        "options": {
+          "A": "UVID a través del trayecto suprapúbico",
+          "B": "Uretroplastia anastomótica perineal (procedimiento de Webster)",
+          "C": "Aumentación con IMB a través de un abordaje perineal",
+          "D": "Continuar el drenaje con catéter suprapúbico durante 12 meses antes de la reevaluación"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La lesión uretral por fractura de pelvis (PFUI) con un defecto uretral membranoso de 1,5 cm a los 4 meses de la lesión es la indicación clásica de uretroplastia anastomótica perineal (procedimiento de Webster). A los 3–4 meses, el hematoma se ha resuelto, la anatomía pélvica se ha estabilizado y el defecto de distracción puede caracterizarse con precisión. El abordaje de Webster implica una incisión perineal con escisión de todo el tejido cicatricial entre los dos extremos uretrales y una anastomosis espatulada sin tensión. Para un defecto de 1,5 cm, el abordaje perineal estándar sin pubectomía probablemente sea suficiente; para defectos más largos, puede ser necesaria la pubectomía inferior o la separación de los pilares corporales.",
+          "wrong": {
+            "A": "La UVID a través del trayecto suprapúbico no se aplica al tratamiento del PFUI — los procedimientos de recanalizacion endoscópica han sido prácticamente abandonados ya que producen malos resultados, crean falsas vías y tienen tasas de recurrencia de estenosis más altas en comparación con la uretroplastia anastomótica diferida.",
+            "C": "La aumentación con IMB es apropiada para las estenosis uretrales anteriores basadas en espongiofribrosis — no para las lesiones de distracción uretral posterior. El tratamiento del PFUI requiere EAP con escisión del tejido cicatricial entre los extremos uretrales sanos.",
+            "D": "El retraso más allá de 3 meses no mejora los resultados para el PFUI y prolonga el deterioro de la calidad de vida por el catéter suprapúbico. La cirugía a los 3–6 meses de la lesión es el estándar. Doce meses de drenaje con CSP sin cirugía planificada es un tratamiento inapropiado."
+          },
+          "guideline": "EAU Guidelines on Urethral Trauma (2024) — Recomendación: Realizar uretroplastia anastomótica diferida para PFUI a los ≥3 meses de la lesión utilizando el abordaje perineal (Webster); extensión transpúbica para lesiones de brecha larga complejas (Grado B).",
+          "trial": "Webster GD, Ramon J (J Urol 1991): Serie de 82 pacientes sometidos al abordaje perineal progresivo para PFUI — 95% de permeabilidad a los 12 meses, con un 15% que requirió pubectomía inferior para el cierre de la brecha, estableciendo el abordaje perineal progresivo como la técnica operatoria estándar para la reconstrucción del PFUI.",
+          "pearl": "Tratamiento del PFUI: CSP inmediatamente → cistouretrografía combinada a los ≥3 meses → uretroplastia anastomótica perineal (Webster). Para brecha ≤2 cm: perineal solo. Para brecha de 2–4 cm: añadir pubectomía inferior. Para brecha >4 cm: separación de pilares + transpúbico."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q14",
+        "stem": "Un varón de 63 años con antecedentes de resección transuretral de próstata hace 3 años ahora presenta STUI progresivos con Qmáx de 4 mL/s. La cistoscopia flexible muestra una contractura del cuello vesical (CCV) apretada y circunferencial. Se le realiza una incisión del cuello vesical con bisturí frío. Seis meses después acude de nuevo con recurrencia de los síntomas obstructivos. ¿Cuál es el siguiente paso de tratamiento más apropiado?",
+        "options": {
+          "A": "Repetir la incisión del cuello vesical con bisturí frío",
+          "B": "Resección transuretral agresiva de 360° del cuello vesical ('corte hacia la luz')",
+          "C": "Plastia Y-V abierta del cuello vesical",
+          "D": "Inyección intravesical de toxina botulínica A"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La contractura del cuello vesical (CCV) post-RTU-P que ha fracasado con una incisión con bisturí frío debe tratarse con un abordaje endoscópico más agresivo — la técnica de resección circunferencial de 360° ('corte hacia la luz') en la que la cicatriz del cuello vesical se reseca profundamente alrededor de toda la circunferencia hasta el punto en que hay un paso libre del instrumento hasta la vejiga (la 'luz' que se ve desde la vejiga epónima de la técnica). Esta técnica crea un cuello vesical amplio y bien calibrado y logra buenos resultados tras el fracaso de la incisión única. La plastia Y-V abierta se reserva para el fracaso de dos o más procedimientos endoscópicos.",
+          "wrong": {
+            "A": "Una simple repetición de la incisión con bisturí frío probablemente vuelva a fracasar ya que utiliza la misma técnica que ya ha fracasado una vez. Es necesaria una escalada en el abordaje endoscópico.",
+            "C": "La plastia Y-V abierta es la escalada quirúrgica apropiada tras el fracaso de dos abordajes endoscópicos — no tras el fracaso del primero. Representa la reconstrucción quirúrgica para la CCV refractaria.",
+            "D": "La toxina botulínica A se usa para la vejiga hiperactiva (hiperactividad del detrusor) — no para la contractura anatómica del cuello vesical. No tiene ningún papel en el tratamiento de la CCV."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Sección de CCV: Tras el fracaso de una única incisión con bisturí frío para CCV post-RTU-P, ofrecer resección endoscópica agresiva de 360° ('corte hacia la luz'); reservar la plastia Y-V para el fracaso de dos procedimientos endoscópicos (Grado C).",
+          "trial": "Ramchandani P et al. (J Urol 2015): Serie retrospectiva de CCV post-RTU-P que demuestra que la resección endoscópica circunferencial de 360° logra un 68% de éxito a los 24 meses tras el fracaso de la incisión única, significativamente superior a la repetición de la incisión simple (32% de éxito).",
+          "pearl": "Escalera de tratamiento de la CCV post-RTU-P: (1) Incisión con bisturí frío → si recurrencia → (2) Resección de 360° 'corte hacia la luz' → si recurrencia → (3) Plastia Y-V abierta. No saltar a la cirugía abierta tras un único fracaso endoscópico."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q15",
+        "stem": "En la uretroplastia de Bracka en 2 tiempos para estenosis pan-uretral compleja asociada a liquen escleroso, ¿qué ocurre durante el PRIMER tiempo?",
+        "options": {
+          "A": "La uretra estenosada se escinde y la placa uretral se tubulariza sobre una sonda",
+          "B": "La estenosis se incide longitudinalmente, el injerto de mucosa bucal se acolcha sobre la placa uretral abierta y el paciente orina por el periné",
+          "C": "El injerto de IMB se coloca dentro de la uretra cerrada como onlay sin interrumpir la micción",
+          "D": "El cuello vesical se reubica en el periné para evitar la uretra anterior estenosada"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "En la uretroplastia de Bracka en 2 tiempos (Turner-Warwick/Bracka), el Tiempo 1 implica incidir la uretra estenosada a lo largo de su longitud (abriéndola), escindir el tejido cicatricial y acolchar un injerto amplio de IMB para formar una nueva placa uretral — una superficie plana y bien vascularizada. A continuación, el paciente queda con esta placa uretral abierta (una disposición de hipospadias intencional) durante 6 meses mientras el injerto madura y se vasculariza. El Tiempo 2 implica tubularizar la placa de injerto madura para formar una nueva uretra. Este abordaje por etapas se utiliza cuando la reconstrucción en un solo tiempo no es posible debido a tejido inadecuado, LE grave o reparaciones previas fallidas.",
+          "wrong": {
+            "A": "La tubularización de la placa sobre una sonda ocurre en el Tiempo 2 — no en el Tiempo 1. El Tiempo 1 crea deliberadamente una placa uretral abierta sin tubularización para permitir el prendimiento y la maduración del injerto.",
+            "C": "Colocar el IMB como onlay cerrado sin interrumpir la micción describe una uretroplastia de aumentación en un solo tiempo — no el procedimiento de Bracka. La técnica en 2 tiempos requiere crear una placa abierta (Tiempo 1) antes de la tubularización (Tiempo 2).",
+            "D": "Reubicar el cuello vesical no es un procedimiento en el tratamiento de la estenosis uretral. La derivación urinaria o los procedimientos del cuello vesical son conceptos quirúrgicos completamente diferentes."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Uretroplastia en 2 tiempos: Tiempo 1 = incidir la estenosis, acolchar el IMB para crear placa uretral abierta, el paciente orina por el periné; Tiempo 2 = tubularizar la placa de injerto madura a los 6 meses; indicado para LE complejo, fibrosis densa o reconstrucción previa fallida (Grado B).",
+          "trial": "Bracka A (Br J Plast Surg 1995): Descripción original de la técnica en 2 tiempos en más de 600 pacientes que demuestra un 74% de éxito para la reparación compleja de hipospadias y estenosis — estableciendo el principio de la reparación en etapas para los casos complejos con tejido local insuficiente o LE.",
+          "pearl": "Tiempo 1 de Bracka = abrir estenosis + acolchar IMB = micción perineal intencional durante 6 meses. Tiempo 2 de Bracka = tubularizar la placa de injerto madura. El intervalo de 6 meses permite la maduración y vascularización del injerto antes de las demandas estructurales de la tubularización."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q16",
+        "stem": "Un varón de 44 años es evaluado para la vigilancia post-uretroplastia. Se sometió a una uretroplastia EAP bulbar hace 6 meses. Está asintomático con un Qmáx de 22 mL/s. ¿Cuándo debe realizarse la próxima evaluación de vigilancia y qué debe incluir?",
+        "options": {
+          "A": "No se necesita más seguimiento ya que está asintomático con una tasa de flujo normal",
+          "B": "Flujometría anual y evaluación de síntomas; UGR solo si el Qmáx <15 mL/s o aparecen síntomas",
+          "C": "UGR a los 6 meses del postoperatorio como línea de base rutinaria independientemente de los síntomas",
+          "D": "Cistoscopia a los 12 meses y luego cada 5 años"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La vigilancia post-uretroplastia con flujometría anual y evaluación de síntomas es la recomendación estándar. La UGR se reserva para el deterioro objetivo — una caída del Qmáx por debajo de 15 mL/s o el desarrollo de síntomas obstructivos — en lugar de realizarse de forma rutinaria. Este abordaje evita exploraciones invasivas innecesarias al tiempo que detecta la recurrencia de forma temprana. Se recomienda el seguimiento de por vida porque las recurrencias tardías (>5 años) se producen en el 5–10% de los casos, y la detección temprana permite un tratamiento menos invasivo.",
+          "wrong": {
+            "A": "No realizar ningún seguimiento es inapropiado — las recurrencias tardías se producen en el 5–10% de los casos, y la monitorización anual con flujometría es coste-efectiva y no invasiva. La detección temprana de la recurrencia permite un retratamiento menos invasivo.",
+            "C": "La UGR rutinaria a los 6 meses como línea de base no se recomienda en pacientes asintomáticos con buenas tasas de flujo — es invasiva, implica radiación y no cambia el tratamiento si el paciente está asintomático con Qmáx >22 mL/s.",
+            "D": "La cistoscopia cada 5 años es el protocolo de seguimiento para la cistoplastia de aumentación (vigilancia de adenocarcinoma) — no para la monitorización post-uretroplastia. La flujometría es la herramienta de vigilancia no invasiva apropiada para la uretroplastia."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Seguimiento: Realizar flujometría a los 3 meses post-uretroplastia, luego anualmente; realizar UGR si Qmáx <15 mL/s o aparecen síntomas; se recomienda seguimiento de por vida, especialmente para la reconstrucción asociada a LE (Grado C).",
+          "trial": "Meeks JJ et al. (J Urol 2009): Estudio de seguimiento multiinstitucional de 443 uretroplastias que demuestra un 85% de éxito a los 5 años para EAP y un 78% para aumentación; las recurrencias tardías (>5 años) se produjeron en el 7% — apoyando la vigilancia anual de por vida.",
+          "pearl": "Vigilancia post-uretroplastia: flujometría anual + revisión de síntomas. Investigar con UGR si Qmáx <15 mL/s o síntomas. NO cesar la vigilancia — 7% de recurrencias tardías >5 años, especialmente con reparaciones con IMB y asociadas a LE."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F2-Q17",
+        "stem": "Un varón de 37 años se somete a sonoureterografía (SUG) para una estenosis bulbar de 1,8 cm antes de la UVID planificada. La SUG demuestra que la espongiofribrosis se extiende por 3,5 cm — significativamente más larga que la longitud de la estenosis radiográfica en la UGR. ¿Cómo cambia este hallazgo el tratamiento?",
+        "options": {
+          "A": "Sin cambios — la UVID debe realizarse según lo planeado en función de la longitud en la UGR",
+          "B": "La longitud extensa de la espongiofribrosis en la SUG indica que la UVID probablemente fracase; se debe recomendar la uretroplastia primaria",
+          "C": "La espongiofribrosis más larga requiere un procedimiento de Bracka en dos tiempos en lugar de UVID en un solo tiempo",
+          "D": "Los hallazgos de la SUG no cambian el tratamiento ya que la UGR sigue siendo el estándar de referencia para la planificación quirúrgica"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La sonoureterografía proporciona información crítica sobre la espongiofribrosis que no es visible en la UGR. Cuando la espongiofribrosis se extiende significativamente más allá de la longitud de la estenosis radiográfica (en este caso, 3,5 cm frente a 1,8 cm en la UGR), indica una enfermedad fibrótica densa que la UVID — que solo incide la estenosis mucosa sin abordar la espongiofribrosis — fracasará predeciblemente en curar. La fibrosis profunda extensa predice una alta recurrencia tras UVID y apoya la uretroplastia primaria (aumentación con IMB para esta longitud) como el abordaje más coste-efectivo y definitivo.",
+          "wrong": {
+            "A": "Proceder con la UVID a pesar de la espongiofribrosis extensa en la SUG ignora información pronóstica importante. La espongiofribrosis extensa es el principal predictor del fracaso de la UVID y debe dirigir el tratamiento hacia la uretroplastia primaria.",
+            "C": "Un procedimiento de Bracka en 2 tiempos está indicado para el LE complejo asociado o la uretroplastia previa fallida — no simplemente por espongiofribrosis extensa en una estenosis virgen. La aumentación con IMB en un solo tiempo es apropiada en este caso.",
+            "D": "La SUG proporciona información sobre la profundidad y extensión de la espongiofribrosis que la UGR no puede — esto es precisamente por qué cambia el tratamiento. La UGR define la luz mucosa; la SUG define la extensión de la enfermedad fibrótica en el cuerpo esponjoso. Ambas son complementarias e informan el tratamiento."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Imagen: La sonoureterografía añade información sobre la extensión de la espongiofribrosis; la espongiofribrosis extensa más allá de la longitud de la estenosis definida por UGR predice el fracaso de la UVID y debe dirigir el tratamiento hacia la uretroplastia (Grado C).",
+          "trial": "Buckley JC, Heyns CF, Gilling PJ et al. (J Urol 2010): Estudio prospectivo que demuestra que la longitud de la espongiofribrosis en la SUG >3 cm predice el fracaso de la UVID con una sensibilidad del 90% — estableciendo la SUG como una herramienta útil de planificación previa al tratamiento para identificar los pacientes que deben proceder directamente a la uretroplastia.",
+          "pearl": "La sonoureterografía revela la extensión de la espongiofribrosis más allá de lo que muestra la UGR. Espongiofribrosis profunda extensa = alto riesgo de recurrencia tras UVID = uretroplastia primaria. La enfermedad fibrótica, no solo la longitud de la estenosis mucosa, determina el abordaje quirúrgico."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F2-Q18",
+        "stem": "Un varón de 50 años se sometió a una uretroplastia de onlay dorsal con IMB hace 8 meses por una estenosis bulbar de 4 cm. Ahora acude con una fístula perineal que drena orina durante la micción. La exploración confirma una pequeña fístula uretrocutánea. ¿Cuál es el tratamiento inicial más apropiado?",
+        "options": {
+          "A": "Reparación quirúrgica inmediata de la fístula",
+          "B": "Drenaje con sonda uretral durante 4–6 semanas para permitir el cierre espontáneo de la fístula",
+          "C": "Cistoscopia para descartar obstrucción proximal, seguida de drenaje con sonda; reparación quirúrgica solo si la fístula persiste a los 3 meses",
+          "D": "Catéter suprapúbico y tratamiento antibiótico, reevaluación a las 6 semanas"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La fístula uretrocutánea tras uretroplastia se produce en aproximadamente el 1–3% de los casos. Antes de la reparación quirúrgica, es esencial descartar una obstrucción proximal (estenosis recurrente o estenosis anastomótica) como causa — una estenosis distal que causa micción de alta presión impedirá que cualquier fístula se cierre espontáneamente o cicatrice después de la reparación. Deben realizarse cistoscopia (y UGR/UCG) para caracterizar la uretra proximalmente. Si no hay obstrucción, el drenaje con sonda uretral durante varias semanas puede permitir el cierre espontáneo de las fístulas pequeñas. La reparación quirúrgica formal se planifica solo si la fístula persiste a los 3 meses después del drenaje con sonda y la exclusión de la causa proximal.",
+          "wrong": {
+            "A": "La reparación quirúrgica inmediata sin descartar una estenosis u obstrucción proximal fracasará — la reparación se romperá bajo la micción de alta presión a través de una uretra estenosada. Primero debe descartarse la obstrucción proximal.",
+            "B": "El drenaje con sonda solo sin cistoscopia para descartar obstrucción proximal arriesga el fracaso de la reparación si hay una estenosis recurrente. La cistoscopia debe preceder a cualquier tratamiento definitivo.",
+            "D": "Los antibióticos solos no tienen ningún papel en el cierre de la fístula — pueden tratar la infección secundaria pero no cierran la fístula. El CSP podría usarse en lugar de la sonda uretral, pero no añade valor sobre el sondaje uretral y excluye la evaluación de la obstrucción proximal."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Complicaciones: Fístula uretrocutánea tras uretroplastia — descartar obstrucción proximal antes de la reparación de la fístula; drenaje con sonda para fístulas pequeñas; reparación quirúrgica para fístulas persistentes a los ≥3 meses si no hay obstrucción proximal.",
+          "trial": "Andrich DE, Greenwell TJ, Mundy AR (J Urol 2003): Serie de complicaciones post-uretroplastia en 432 pacientes — la fístula se produjo en el 2,3%; todos los casos con fístula persistente tenían obstrucción proximal o drenaje inicial inadecuado; las fístulas en ausencia de obstrucción se cerraron espontáneamente en el 40% con drenaje con sonda.",
+          "pearl": "Fístula post-uretroplastia: SIEMPRE descartar primero la obstrucción proximal (cistoscopia + UGR). Si no hay obstrucción, drenaje con sonda durante 4–6 semanas — el 40% se cierra espontáneamente. Reparación quirúrgica a los ≥3 meses si persiste. Reparar una fístula sobre una obstrucción distal garantiza el fracaso."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F2-Q19",
+        "stem": "Un varón de 31 años es derivado con una estenosis uretral anterior compleja y pan-anterior por uretritis gonocócica grave a los 18 años. Los intentos previos de UVID han producido espongiofribrosis densa. La UGR y la UCG demuestran una obliteración completa de la uretra anterior desde la fosa navicular hasta la unión bulbo-membranosa — 11 cm de longitud. No tiene LE en la biopsia. Su cirujano está planificando una uretroplastia pan-uretral de Kulkarni en un solo tiempo. ¿Cuál es el rendimiento máximo de injerto de mucosa bucal de ambas mejillas internas combinadas que puede esperarse habitualmente en una única obtención?",
+        "options": {
+          "A": "3–5 cm en total",
+          "B": "6–10 cm en total",
+          "C": "10–12 cm en total",
+          "D": "15–20 cm en total"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "La obtención bilateral del IMB de la mejilla interna suele rendir 4–6 cm por lado, dando un total combinado de aproximadamente 8–12 cm — efectivamente hasta 10–12 cm de injerto utilizable. Para una estenosis pan-uretral de 11 cm, la obtención bilateral es por tanto necesaria y apenas suficiente para una reconstrucción de Kulkarni en un solo tiempo. Esto está en el límite de lo que el IMB bilateral puede proporcionar; los cirujanos que planifican la reconstrucción pan-uretral deben comentar con los pacientes que será necesaria la obtención bilateral de la mejilla y que se experimentará la morbilidad del lugar donante bilateral (trismo, entumecimiento bilaterales).",
+          "wrong": {
+            "A": "3–5 cm describe el rendimiento de una obtención unilateral de un solo lado, que es insuficiente para una reconstrucción pan-uretral. La obtención bilateral es necesaria para longitudes >5–6 cm.",
+            "B": "6–10 cm subestima el rendimiento de la obtención bilateral. Aunque las estimaciones conservadoras son de 8 cm, los cirujanos experimentados pueden obtener de forma rutinaria 10–12 cm en total de las mejillas bilaterales.",
+            "D": "15–20 cm en total no es alcanzable con la obtención bilateral del IMB de la mejilla interna — esto requeriría fuentes de injerto adicionales (p. ej., mucosa lingual, que puede utilizarse como segundo lugar donante para estenosis muy largas). El rendimiento del IMB de las mejillas bilaterales se limita a aproximadamente 10–12 cm."
+          },
+          "guideline": "EAU Guidelines on Urethral Strictures (2024) — Nota técnica: La obtención bilateral del IMB de la mejilla interna rinde aproximadamente 8–12 cm de injerto total; para estenosis >10–12 cm, considerar fuentes de injerto adicionales (mucosa lingual) o abordaje por etapas.",
+          "trial": "Barbagli G et al. (Eur Urol 2012): Evaluación prospectiva del rendimiento del IMB y la morbilidad del lugar donante en 250 pacientes — la obtención bilateral media rindió 10,2 ± 1,4 cm de longitud de injerto total; se requirió obtención bilateral en todos los pacientes que necesitaban más de 5 cm de material de injerto.",
+          "pearl": "Obtención bilateral del IMB de las mejillas = ~10–12 cm máximo total. Mejilla única = ~4–6 cm. Para estenosis >12 cm, se requiere injerto de mucosa lingual adicional o reconstrucción por etapas. Este límite de rendimiento del IMB determina la viabilidad de la reconstrucción de Kulkarni en un solo tiempo."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F2-Q20",
+        "stem": "Un varón de 52 años se sometió a una uretroplastia anastomótica perineal (procedimiento de Webster) por un defecto de distracción uretral membranoso post-PFUI hace 18 meses. Se queja de disfunción eréctil de nueva aparición — previamente tenía erecciones normales antes de la cirugía. Fue informado de este riesgo preoperatoriamente. ¿Cuál es el mecanismo por el que la uretroplastia perineal para PFUI causa disfunción eréctil?",
+        "options": {
+          "A": "Insuficiencia arterial uretral por ligadura de las arterias bulbouretrales durante la disección",
+          "B": "Lesión de los nervios cavernosos (ramas del plexo pélvico) durante la disección de la cicatriz a nivel de la uretra membranosa",
+          "C": "Fuga venosa del cuerpo cavernoso durante la incisión perineal",
+          "D": "Lesión del nervio pudendo durante la posición del paciente en litotomía exagerada"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Los nervios cavernosos (autónomos, originados en el plexo pélvico) discurren en la fascia pélvica lateral junto a la próstata y convergen cerca del vértice prostático, atravesando la región de la uretra membranosa antes de entrar en los cuerpos cavernosos. En el PFUI, el hematoma pélvico y la posterior formación de cicatriz en la uretra membranosa frecuentemente envuelven estos nervios. Durante la uretroplastia anastomótica perineal, la disección para escindir esta cicatriz y lograr una anastomosis sin tensión inevitablemente arriesga la lesión de los nervios cavernosos ya elongados o atrapados. Esto explica la tasa del 15–25% de disfunción eréctil de nueva aparición después de la uretroplastia posterior para PFUI.",
+          "wrong": {
+            "A": "La ligadura de la arteria bulbouretral contribuye a las preocupaciones sobre el aporte sanguíneo uretral y puede causar isquemia uretral en la uretroplastia bulbar para estenosis anteriores, pero este no es el mecanismo de disfunción eréctil en la reconstrucción uretral posterior para PFUI.",
+            "C": "La fuga venosa (fallo de la oclusión venosa, no traumatismo) causa disfunción eréctil a través de un mecanismo veno-oclusivo — no relacionado con la disección quirúrgica perineal. El traumatismo quirúrgico no causa disfunción veno-oclusiva cavernosa como mecanismo primario.",
+            "D": "La lesión del nervio pudendo por la posición en litotomía exagerada causa entumecimiento perineal y neuralgia pudenda, no específicamente disfunción eréctil. El nervio pudendo es sensitivo/somático; la función eréctil está mediada principalmente por los nervios cavernosos autónomos."
+          },
+          "guideline": "EAU Guidelines on Urethral Trauma (2024) — Orientación preoperatoria para la reconstrucción del PFUI: Informar a los pacientes del riesgo del 15–25% de disfunción eréctil de nueva aparición debido a la lesión de los nervios cavernosos durante la disección de la cicatriz uretral membranosa (Grado B).",
+          "trial": "Koraitim MM (J Urol 1996): Análisis de 168 pacientes con PFUI que demuestra un 19% de disfunción eréctil de nueva aparición tras uretroplastia anastomótica diferida — atribuida principalmente a la lesión de los nervios cavernosos durante la escisión de la cicatriz en la uretra membranosa, con tasas más altas correlacionadas con brechas más complejas/largas que requieren disección más extensa.",
+          "pearl": "La uretroplastia posterior para PFUI conlleva un 15–25% de riesgo de disfunción eréctil de nueva aparición por lesión de los nervios cavernosos durante la disección de la cicatriz en la uretra membranosa. Orientar al paciente preoperatoriamente. Mayor riesgo con brechas más largas, radiación pélvica previa o lesión vascular en el momento de la fractura."
+        },
+        "difficulty": 3
+      }
+    ]
+  }
+}

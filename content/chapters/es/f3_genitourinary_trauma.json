@@ -1,0 +1,654 @@
+{
+  "id": "F3",
+  "title": "Traumatismo Genitourinario",
+  "subtitle": "Bloque F — Lesiones Renales, Ureterales, Vesicales, Uretrales y Genitales",
+  "block": "F",
+  "block_name": "Cirugía Reconstructiva y Mínimamente Invasiva",
+  "level": "R1-3",
+  "reading_time_min": 40,
+  "guidelines_version": "EAU Urological Trauma Guidelines 2024 · AAST Organ Injury Scaling (OIS) · WSES Renal Trauma Classification 2023",
+  "textbook_refs": [
+    "Buckley JC et al. EAU Guidelines on Urological Trauma (2024)",
+    "Moore EE et al. Organ injury scaling: urology. J Trauma 1989",
+    "Santucci RA et al. Evaluation and management of renal injuries: consensus statement of the renal trauma subcommittee. BJU Int 2004",
+    "Brandes SB, McAninch JW. Urban free falls and patterns of renal injury: a 20-year experience with 396 cases. J Trauma 1999"
+  ],
+  "learning_objectives": [
+    "Graduar las lesiones renales mediante la escala de lesión de órganos AAST y determinar el tratamiento apropiado para cada grado",
+    "Identificar las indicaciones para exploración quirúrgica inmediata frente al tratamiento no operatorio selectivo del traumatismo renal",
+    "Tratar las lesiones agudas ureterales, vesicales y uretrales con el tratamiento inmediato apropiado y la cronología de la reparación definitiva",
+    "Reconocer los signos clínicos de lesión genitourinaria tras traumatismo contuso y penetrante",
+    "Aplicar los principios del control de daños a las lesiones genitourinarias en el contexto de inestabilidad hemodinámica o politraumatismo",
+    "Describir el tratamiento del traumatismo genital, incluyendo la fractura de pene y la lesión escrotal/testicular"
+  ],
+  "sections": [
+    {
+      "id": "F3-S1",
+      "title": "Traumatismo Renal: Clasificación y Evaluación Inicial",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El riñón es el órgano genitourinario lesionado con mayor frecuencia, representando aproximadamente el 10% de todos los casos de traumatismo abdominal. Los mecanismos contuso (accidentes de tráfico, caídas, golpes directos) representan el 90% de las lesiones renales en los centros de traumatología occidentales; las lesiones penetrantes (heridas por arma de fuego y arma blanca) constituyen el resto. El riñón derecho está marginalmente menos protegido por las estructuras suprayacentes, aunque ambos riñones están relativamente bien resguardados por las costillas inferiores, los músculos paraespinales y la grasa perirrenal.\n\nLa **Escala de Lesión de Órganos (OIS) AAST para el riñón** clasifica las lesiones en cinco grados, constituyendo la base de las decisiones de tratamiento. El Grado I (contusión o hematoma subcapsular no expansivo) y el Grado II (hematoma perirrenal no expansivo o laceración cortical <1 cm sin extravasación urinaria) son lesiones menores tratadas de forma conservadora con reposo en cama y observación. El Grado III (laceración >1 cm sin afectación del sistema colector) y el Grado IV (laceración a través de la unión corticomedular hacia el sistema colector, o lesión vascular con hematoma contenido) representan lesiones graves que generalmente responden al tratamiento no operatorio selectivo (TNO) en pacientes hemodinámicamente estables. El Grado V (riñón destrozado o avulsión de la arteria/vena renal principal) representa la lesión más grave que requiere intervención quirúrgica en la mayoría de los casos.\n\nLa piedra angular de la evaluación del traumatismo renal es la **TC con contraste (TCC)** de abdomen y pelvis con imágenes en fase tardía (5–10 minutos tras el contraste) para visualizar la extravasación urinaria. La TC ha reemplazado a la UIV para la evaluación aguda. La hematuria — microscópica o macroscópica — es el signo clásico de lesión renal, pero se correlaciona de forma imperfecta con la gravedad de la lesión; las lesiones de alto grado pueden presentarse con hematuria mínima, y las lesiones de bajo grado pueden producir hematuria franca. La **American Urological Association** establece que todo traumatismo penetrante y todo traumatismo contuso con hematuria (de cualquier grado) o mecanismo significativo (accidente de tráfico a alta velocidad, caída >3 metros) requiere imagen por TC para descartar lesión renal significativa."
+        },
+        {
+          "type": "table",
+          "title": "Escala de Lesión de Órganos (OIS) AAST para el Riñón",
+          "headers": ["Grado", "Descripción", "Hallazgos en TC", "Tratamiento"],
+          "rows": [
+            ["I", "Contusión o hematoma subcapsular no expansivo", "Cápsula renal intacta; sin laceración parenquimatosa", "Conservador — reposo en cama, observación"],
+            ["II", "Hematoma perirrenal (no expansivo); laceración cortical <1 cm; sin extravasación urinaria", "Laceración pequeña; hematoma perirrenal confinado al retroperitoneo", "Conservador"],
+            ["III", "Laceración cortical >1 cm; sin lesión del sistema colector ni extravasación urinaria", "Laceración profunda; sin extravasación de contraste en fase tardía", "TNO en hemodinámicamente estable; vigilancia estrecha"],
+            ["IV", "Laceración a través de la unión corticomedular hacia el sistema colector (extravasación urinaria), O lesión vascular segmentaria", "Extravasación de contraste en fase tardía; posible infarto segmentario", "TNO ± angioembolización; quirófano si hemodinámicamente inestable"],
+            ["V", "Riñón destrozado O avulsión o trombosis de la arteria/vena renal principal", "Fragmentación renal; ausencia de nefrograma; devascularización", "Cirugía (reconstrucción o nefrectomía); angioembolización raramente suficiente"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Hematuria y Grado de Lesión",
+          "content": "La hematuria NO se correlaciona de forma fiable con la gravedad de la lesión renal. Hasta el 25% de las lesiones renales de Grado IV–V se presentan con hematuria mínima o ausente (especialmente las lesiones del pedículo renal). Por el contrario, lesiones menores de Grado I–II pueden producir macrohematuria franca. El mecanismo clínico (accidente de tráfico a alta velocidad, impacto en el flanco) y el estado hemodinámico — no el grado de hematuria — determinan la necesidad de imagen por TC."
+        }
+      ]
+    },
+    {
+      "id": "F3-S2",
+      "title": "Traumatismo Renal: Tratamiento No Operatorio y Quirúrgico",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El **tratamiento no operatorio selectivo (TNO)** es el estándar de cuidado para el traumatismo renal en pacientes **hemodinámicamente estables** independientemente del grado de lesión, incluyendo las lesiones de alto grado (III–IV). La tasa de éxito del TNO para el traumatismo renal contuso de Grado IV supera el 80% en los grandes centros de traumatología. El determinante clave del fracaso del TNO es la inestabilidad hemodinámica — un paciente con hemorragia activa por una lesión renal y compromiso hemodinámico requiere intervención urgente. El TNO incluye reposo en cama estricto hasta que desaparezca la hematuria, monitorización seriada de la hemoglobina e imagen repetida si el estado clínico se deteriora.\n\nLa **embolización angiográfica (EA)** es la intervención preferida para los pacientes hemodinámicamente estables con lesiones de Grado IV que muestran extravasación arterial activa ('blush') en la TC, o para los pacientes que fracasan en el TNO con hemorragia secundaria. La EA selectiva logra hemostasia en el 70–90% de los casos, preservando el parénquima renal. La EA también es el tratamiento de primera línea para la complicación más temida de la NCPL — la hemorragia tardía por pseudoaneurisma o fístula arteriovenosa (véase capítulo de NCPL).\n\nLa **exploración quirúrgica** está indicada en: inestabilidad hemodinámica que no responde a la reanimación, hematoma retroperitoneal expansivo o pulsátil encontrado en laparotomía por otras lesiones, lesión penetrante con sospecha de afectación vascular mayor y lesiones de Grado V (avulsión, riñón destrozado). Cuando se requiere exploración, un abordaje transperitoneal por línea media permite el control rápido del hilio renal antes de abrir la fascia de Gerota. La **reconstrucción renal (renorrafia)** se intenta antes de la nefrectomía cuando es factible — el objetivo es la preservación renal. La **cirugía de control de daños** (taponamiento, control vascular temporal, reconstrucción diferida) es apropiada para los pacientes inestables con politraumatismo. La nefrectomía se reserva para las lesiones no susceptibles de reconstrucción, o cuando el paciente no puede tolerar una cirugía prolongada.\n\nLas complicaciones tardías del traumatismo renal incluyen: **urinoma** (extravasación urinaria que no se resuelve — tratada con catéter ureteral ± drenaje percutáneo), **hemorragia tardía** (pseudoaneurisma o FAV — tratada con EA), **hipertensión** (riñón de Page por compresión capsular del hematoma en cicatrización, o estenosis de la arteria renal) y **absceso perirrenal**."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — Hematoma Retroperitoneal No Abierto en Laparotomía",
+          "content": "Si se encuentra un hematoma retroperitoneal no pulsátil y no expansivo durante una laparotomía por lesiones asociadas (p. ej., perforación intestinal), generalmente NO debe abrirse. Abrir la fascia de Gerota libera el taponamiento y convierte una lesión contenida en una hemorragia incontrolable, frecuentemente resultando en nefrectomía. Excepción: traumatismo penetrante en el que se sospecha lesión vascular."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Lesión del Pedículo Renal",
+          "content": "La trombosis de la arteria renal contusa (lesión vascular de Grado V) se presenta con ausencia de nefrograma en la TC (sin perfusión del riñón) pero sin hematoma retroperitoneal. El tiempo de isquemia caliente es crítico — la reconstrucción de la arteria renal tiene escaso éxito cuando se emprende >6 horas tras la lesión. La mayoría de los pacientes con trombosis traumática de la arteria renal se tratan de forma no operatoria (aceptando la pérdida renal) a menos que tengan un riñón único o lesiones bilaterales."
+        }
+      ]
+    },
+    {
+      "id": "F3-S3",
+      "title": "Traumatismo Ureteral",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las lesiones ureterales son poco frecuentes (representan <1% del traumatismo genitourinario) debido a la localización retroperitoneal protegida del uréter y su movilidad. La causa más frecuente es la **lesión iatrogénica** durante cirugía ginecológica, colorrectal o vascular — muy por encima de la etiología traumática. En el traumatismo, las lesiones penetrantes (heridas por arma de fuego) son el mecanismo traumático más frecuente. Las lesiones ureterales contusas son raras y típicamente afectan a la unión pieloureteral (UPU) tras una deceleración brusca, causando avulsión de la UPU.\n\nEl diagnóstico se retrasa frecuentemente — las lesiones ureterales se pasan por alto en la fase aguda en hasta el 30% de los casos. La TC con imagen en fase tardía (fase urográfica) puede mostrar extravasación de contraste o fallo del uréter en rellenarse por debajo del nivel de la lesión. La presentación tardía incluye urinoma, fiebre, dolor en el flanco, íleo prolongado y creatinina elevada (si es bilateral o riñón único).\n\nEl tratamiento depende del momento del diagnóstico y del nivel de la lesión:\n- **Diagnóstico intraoperatorio inmediato**: Reparación primaria sobre un catéter ureteral. Para las laceraciones simples, sutura de reparación primaria (espatulada, interrumpida, absorbible) con catéter doble J y drenaje periureteral. Para la transección completa, ureteroureterostomía (anastomosis terminoterminal sobre catéter, espatulada, sin tensión).\n- **Lesiones del uréter superior/medio**: La ureteroureterostomía (anastomosis primaria) es preferible para defectos cortos; la ureteroureterostomía transureteral o el autotrasplante para defectos más largos.\n- **Lesiones del uréter inferior** (tercio distal): **Reimplantación** (ureteroneocistostomía) en la vejiga — la reparación preferida para las lesiones distales debido a la excelente irrigación sanguínea en el uréter intramural y la vejiga. Las técnicas antirreflujo (Lich-Gregoir o hitch del psoas + colgajo de Boari) amplían el alcance para los defectos del uréter medio.\n- **Control de daños**: Si la reparación definitiva inmediata no es factible (inestabilidad hemodinámica, contaminación), el catéter ureteral externo y la derivación temporal (ligadura ureteral + nefrostomía percutánea) permiten la reconstrucción diferida."
+        },
+        {
+          "type": "table",
+          "title": "Lesión Ureteral: Tratamiento Según Localización y Longitud del Defecto",
+          "headers": ["Localización", "Longitud del Defecto", "Reparación Preferida", "Alternativa"],
+          "rows": [
+            ["Uréter superior (por encima de la VIPII)", "Corto (<2 cm)", "Ureteroureterostomía sobre catéter", "Trans-ureteroureterostomía"],
+            ["Uréter medio", "Corto", "Ureteroureterostomía", "Colgajo de Boari + hitch del psoas"],
+            ["Uréter distal (<5 cm de la vejiga)", "Cualquiera", "Ureteroneocistostomía ± antirreflujo", "Hitch del psoas amplía el alcance 5 cm"],
+            ["Uréter medio (defecto >5 cm)", "Largo", "Hitch del psoas + colgajo de Boari", "Interposición intestinal/autotrasplante"],
+            ["Pérdida ureteral total", "Uréter completo", "Interposición ileal / autotrasplante renal", "Nefrectomía si riñón no funcional"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Lesión Ureteral por Cirugía Ginecológica",
+          "content": "La lesión ureteral iatrogénica se produce más frecuentemente durante la histerectomía en dos puntos: (1) donde el uréter pasa por debajo de la arteria uterina ('agua bajo el puente') — a nivel del ligamento cardinal, y (2) donde el uréter entra en el trígono vesical medialmente. Si se sospecha lesión ureteral intraoperatoriamente, puede administrarse carmín índigo IV o azul de metileno: el colorante azul en la herida o la vejiga confirma la lesión. La cistoscopia con cateterismo ureteral confirma la permeabilidad."
+        }
+      ]
+    },
+    {
+      "id": "F3-S4",
+      "title": "Traumatismo Vesical",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las lesiones vesicales se producen en aproximadamente el 2% de los casos de traumatismo abdominal contuso y se asocian fuertemente con fracturas de pelvis — hasta el 15% de las fracturas de pelvis tienen una lesión vesical asociada. El mecanismo varía: una vejiga distendida en el momento del impacto se rompe en su punto más débil (cúpula), mientras que los fragmentos de fractura de pelvis pueden perforar directamente la pared vesical anterolateral.\n\nLas lesiones vesicales se clasifican como:\n- **Contusión vesical**: Pared vesical intacta con hematuria; tratada de forma conservadora con drenaje con sonda.\n- **Rotura vesical intraperitoneal (RVI)**: Rotura a través de la cúpula (cubierta por peritoneo), permitiendo que la orina escape hacia la cavidad peritoneal. La RVI es casi siempre causada por traumatismo contuso en una vejiga distendida. Se presenta con dolor abdominal difuso, peritonismo, creatinina en aumento por reabsorción peritoneal de orina y hematuria franca. La **RVI requiere reparación quirúrgica inmediata** — la rotura de la cúpula se repara con un cierre hermético de dos capas y se mantiene un catéter uretral durante 10–14 días postoperatoriamente.\n- **Rotura vesical extraperitoneal (RVE)**: El tipo más frecuente (60% de las lesiones vesicales); causada por fragmentos de fractura de pelvis que penetran en la pared vesical anterolateral por debajo del peritoneo de reflexión. La orina se extravasa hacia el espacio perivesical (espacio de Retzius). La RVE simple sin afectación del cuello vesical, lesión rectal ni fragmentos óseos en la vejiga se trata **de forma no operatoria** con drenaje con sonda solo durante 10–14 días. La RVE compleja (afectación del cuello vesical, laceración rectal, fragmentos óseos desplazados dentro de la vejiga o lesión uretral asociada) requiere reparación quirúrgica.\n\nEl diagnóstico se realiza mediante **cistografía retrógrada** (radiografía simple o cistografía por TC): llenar la vejiga con 300–400 mL de contraste por gravedad e imagen en fase de llenado y tras el vaciado (la radiografía postvaciado es esencial para revelar la extravasación posterior enmascarada en las vistas de llenado). La TCC realizada en la evaluación estándar del traumatismo puede pasar por alto la lesión vesical si la vejiga no está adecuadamente llena — la cistografía por TC requiere llenado retrógrado."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Error Frecuente — La TC de Traumatismo Pasa por Alto la Rotura Vesical",
+          "content": "La TC estándar de abdomen/pelvis para traumatismo llena la vejiga pasivamente mediante contraste IV — este llenado pasivo puede no alcanzar el volumen de 300–400 mL necesario para demostrar la rotura vesical. Si se sospecha lesión vesical (fractura de pelvis + hematuria), debe realizarse cistografía por TC dedicada (llenado vesical retrógrado) o cistografía convencional con una radiografía post-vaciado. No confiar en la TC de traumatismo estándar para descartar la rotura vesical."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Tratamiento de RVI frente a RVE",
+          "content": "Rotura vesical intraperitoneal (RVI): SIEMPRE requiere reparación quirúrgica — la orina en la cavidad peritoneal causa peritonitis química y alcalosis metabólica progresiva (pseudoinsuficiencia renal por reabsorción de urea). Rotura vesical extraperitoneal (RVE): la RVE simple se trata con drenaje con sonda solo (no operatoria). Solo la RVE compleja requiere cirugía."
+        }
+      ]
+    },
+    {
+      "id": "F3-S5",
+      "title": "Traumatismo Uretral y Lesiones Genitales",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "El traumatismo uretral se trata en detalle en el Capítulo F2 (estenosis uretral y reconstrucción). Aquí se revisan los principios clave en el contexto del traumatismo. La uretra anterior (bulbar) se lesiona por mecanismos de horcajadas (manillar de bicicleta, caída a horcajadas sobre un objeto rígido) que producen contusión o rotura parcial/completa. La uretra posterior (membranosa) se lesiona por fractura de pelvis — lesión uretral por fractura de pelvis (PFUI) — con un mecanismo de distracción que interrumpe la uretra membranosa en la membrana perineal.\n\nSignos clínicos de lesión uretral: **sangre en el meato** (signo más fiable), **incapacidad para orinar**, **hematoma perineal/escrotal** (distribución en forma de mariposa en la lesión uretral anterior) y **próstata elevada o no palpable** en el tacto rectal (PFUI — aunque este signo tiene baja sensibilidad). El tratamiento del PFUI sospechado es catéter suprapúbico y reconstrucción diferida (véase capítulo F2).\n\nLa **fractura de pene** es la rotura de la túnica albugínea de uno o ambos cuerpos cavernosos, que se produce durante el coito cuando el pene en erección se dobla o desvía bruscamente. El paciente refiere un chasquido o crujido, detumescencia inmediata, dolor intenso y desarrollo rápido de hematoma (la 'deformidad en berenjena' — tumefacción de color morado oscuro). Es una **urgencia urológica** que requiere **reparación quirúrgica inmediata**. El desgarro suele estar en la superficie ventral de un cuerpo. El abordaje quirúrgico mediante una incisión subcoronal de desgantado proporciona excelente acceso a ambos cuerpos y a la uretra (lesión uretral en el 10–20% de las fracturas de pene). La reparación inmediata logra >90% de recuperación de la función eréctil. El tratamiento conservador tiene resultados significativamente peores (mayor fibrosis, disfunción eréctil, formación de enfermedad de Peyronie).\n\nEl **traumatismo escrotal** puede causar rotura testicular — rotura de la túnica albugínea del testículo. La rotura testicular se confirma mediante ecografía escrotal (eco testicular heterogéneo, túnica albugínea interrumpida). La exploración quirúrgica precoz y la reparación de la túnica logran la salvación testicular en >90% de los casos. La exploración diferida más allá de las 72 horas reduce significativamente las tasas de salvación. El principio es: sospecha de rotura testicular = exploración quirúrgica."
+        },
+        {
+          "type": "table",
+          "title": "Traumatismo Genital: Diferenciadores Clínicos Clave",
+          "headers": ["Lesión", "Mecanismo", "Signo Clínico", "Exploración", "Tratamiento"],
+          "rows": [
+            ["Fractura de pene", "Flexión aguda durante el coito en erección", "Chasquido/crujido, detumescencia inmediata, deformidad en berenjena", "Diagnóstico clínico; RMN si dudoso", "Reparación quirúrgica inmediata"],
+            ["Rotura testicular", "Traumatismo escrotal contuso directo", "Dolor escrotal intenso, hematocele, sin transilluminación", "Ecografía escrotal", "Exploración quirúrgica urgente ± reparación"],
+            ["Hematoma perineal (TU anterior)", "Traumatismo de horcajadas", "Hematoma en patrón de mariposa, sangre en el meato", "UGR (si se sospecha lesión uretral)", "CSP si retención; reparación uretral diferida"],
+            ["Degloving peneano", "Atrapamiento por maquinaria/accidente de tráfico", "Ausencia de piel peneana", "Valorar irrigación vascular", "Desbridamiento de urgencia + cobertura cutánea/reimplantación"],
+            ["Lesión por cremallera (prepucio)", "Atrapamiento por cremallera", "Prepucio/foreskin atrapado", "Ninguna", "Aceite mineral + cortacables; circuncisión si recurrente"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — La Fractura de Pene es una Urgencia Quirúrgica",
+          "content": "La fractura de pene requiere reparación quirúrgica inmediata — NO tratamiento conservador. La reparación inmediata logra >90% de recuperación de la función eréctil. El tratamiento conservador (entablillado, hielo, antiinflamatorios) resulta en un 30–50% de disfunción eréctil por fibrosis corporal y deformidad. El 'signo de la berenjena' (tumefacción de color morado oscuro del cuerpo con desviación alejándose del desgarro) es la presentación clínica característica."
+        }
+      ]
+    },
+    {
+      "id": "F3-S6",
+      "title": "Urología de Control de Daños y Situaciones Especiales",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Los principios de **cirugía de control de daños (CCD)** se aplican a las lesiones urológicas en el contexto de politraumatismo con inestabilidad hemodinámica, coagulopatía, hipotermia y acidosis (la 'tríada letal'). En estos pacientes, la reconstrucción urológica prolongada arriesga exacerbar la crisis metabólica. El principio es: **hemostasia y derivación temporal primero; reconstrucción en una segunda intervención planificada en 24–72 horas** tras la reanimación fisiológica en la UCI.\n\nPara las lesiones renales: el taponamiento, los hemostáticos tópicos (surgicel, esponja de gelatina) y el clampaje renal pueden proporcionar hemostasia temporal mientras el paciente se estabiliza. La reconstrucción o nefrectomía procede en la revisión. Para las lesiones ureterales: ligadura ureteral y nefrostomía percutánea (NPC) como derivación, con reconstrucción formal a las 2–6 semanas. Para las lesiones vesicales: drenaje con sonda y cierre vesical temporal (si el tiempo lo permite), con reparación formal una vez estable.\n\nLa **lesión urológica por radiación** es cada vez más relevante a medida que la radioterapia para los cánceres de próstata, cervical y rectal se vuelve más precisa. La **cistitis por radiación** se presenta con hematuria (a veces grave), reducción de la capacidad vesical y, en última instancia, vejiga contraída pequeña. El tratamiento escala desde el conservador (irrigaciones vesicales, ácido hialurónico intravesical) hasta la oxigenoterapia hiperbárica (OHB — promueve la angiogénesis en el tejido irradiado isquémico), hasta la cistectomía con derivación urinaria para los casos refractarios. La **estenosis uretral por radiación** es la estenosis más difícil de tratar debido al tejido hipovascular — las tasas de éxito de la uretroplastia descienden significativamente. En los casos graves, la uretrostomía perineal (permanente) puede ser el tratamiento más apropiado en lugar de la reconstrucción repetidamente fallida.\n\nLa **lesión ureteral iatrogénica durante cirugía pélvica laparoscópica/robótica** se reconoce cada vez más en la era de la cirugía pélvica mínimamente invasiva. Si se identifica intraoperatoriamente, se prefiere la reparación inmediata (sobre un catéter DJ). La obstrucción ureteral postoperatoria o el urinoma pueden representar un reconocimiento tardío — tratado inicialmente con nefrostomía percutánea y catéter ureteral, con reconstrucción definitiva planificada tras 4–6 semanas."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Contexto Clínico — Oxigenoterapia Hiperbárica para la Cistitis por Radiación",
+          "content": "La oxigenoterapia hiperbárica (OHB) a 2,0–2,4 atmósferas absolutas (ATA) administra oxígeno de alta concentración al tejido irradiado hipóxico y mal vascularizado, estimulando la angiogénesis y reduciendo la gravedad de la cistitis hemorrágica por radiación. Habitualmente requiere 20–40 sesiones. La OHB está indicada para la cistitis por radiación de Grado 3–4 antes de considerar la cistectomía. La tasa de respuesta es de aproximadamente el 75–80%."
+        }
+      ]
+    },
+    {
+      "id": "F3-S7",
+      "title": "Complicaciones Urológicas Post-Traumáticas y Perioperatorias",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Las complicaciones urológicas post-traumáticas requieren vigilancia sistemática e intervención precoz para preservar la función orgánica. Las **complicaciones del traumatismo renal** incluyen urinoma (colección perirrenal o retroperitoneal de orina por lesión del sistema colector de Grado IV), hemorragia renal tardía (pseudoaneurisma o FAV), hipertensión (riñón de Page o renovascular) y absceso perirrenal.\n\nEl tratamiento del **urinoma**: si es pequeño y asintomático, puede resolverse espontáneamente con drenaje por nefrostomía proximal a la lesión (descomprimiendo el sistema colector). Si es grande o infectado, se añade drenaje percutáneo. El urinoma persistente a pesar del drenaje por nefrostomía sugiere disrupción ureteral que requiere reparación quirúrgica o tratamiento endoscópico (catéter ureteral a través de la lesión).\n\nLa **hipertensión post-traumática** tras lesión renal tiene dos mecanismos: (1) **Riñón de Page** — compresión externa del parénquima renal por un hematoma perirrenal/cápsula fibrosa, reduciendo la perfusión y activando el sistema renina-angiotensina. Tratado con drenaje del hematoma o, si es crónico, nefrectomía; (2) **Hipertensión renovascular** — estenosis de la arteria renal traumática por lesión de la íntima que provoca hipertensión mediada por renina. Tratada con angioplastia/stenting o revascularización quirúrgica si es resistente a los fármacos.\n\nEl **reconocimiento intraoperatorio del uréter** durante cirugía pélvica debe incluir: imagen preoperatoria para identificar anatomía aberrante, ureteroscopia intraoperatoria con iluminación ureteral (catéter ureteral Lumitec) y prueba con azul de metileno/carmín índigo. Si se identifica lesión ureteral intraoperatoriamente, la reparación inmediata sobre catéter (con colocación de catéter DJ o sutura directa) es superior al tratamiento diferido — los resultados empeoran significativamente con cada hora de reconocimiento tardío."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Perla para el Examen — Hipertensión Post-Traumatismo Renal",
+          "content": "La hipertensión de nueva aparición tras un traumatismo renal debe suscitar sospecha de riñón de Page (compresión por hematoma perirrenal) o estenosis renovascular traumática. Los niveles de renina estarán elevados en ambos casos. La imagen (ecografía, angio-TC) define el mecanismo. El riñón de Page se resuelve con drenaje del hematoma; la estenosis renovascular requiere angioplastia o revascularización quirúrgica."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Ponga a prueba sus conocimientos sobre el tratamiento del traumatismo genitourinario con 20 preguntas al estilo de los exámenes de especialidad.",
+    "questions": [
+      {
+        "id": "F3-Q1",
+        "stem": "Un varón de 25 años es trasladado al servicio de urgencias tras un accidente de moto a alta velocidad. Está hemodinámicamente estable con TA 118/76 mmHg, FC 88. Tiene hematuria franca. La TCC de abdomen/pelvis con contraste y fase tardía muestra una laceración renal profunda que se extiende a través de la unión corticomedular hacia el sistema colector con extravasación de contraste en la fase tardía, y un hematoma perirrenal contenido dentro de la fascia de Gerota. No hay extravasación arterial activa ('blush'). ¿Cuál es el tratamiento más apropiado?",
+        "options": {
+          "A": "Exploración quirúrgica inmediata y reconstrucción renal",
+          "B": "Tratamiento no operatorio selectivo (TNO) con reposo en cama, hemoglobina seriada y vigilancia estrecha",
+          "C": "Embolización angiográfica de urgencia",
+          "D": "Drenaje percutáneo guiado por TC del hematoma perirrenal"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Se trata de una lesión renal de Grado IV (laceración hacia el sistema colector con extravasación urinaria). En un paciente hemodinámicamente estable sin extravasación arterial activa en la TC, el tratamiento no operatorio selectivo es el tratamiento de elección. Las guías de la EAU y la AUA recomiendan el TNO para los pacientes hemodinámicamente estables con traumatismo renal de Grado I–V. Las tasas de éxito del TNO en las lesiones contusos de Grado IV superan el 80%. El paciente requiere monitorización a nivel de UCI o de alta dependencia, controles seriados de hemoglobina, restricción de actividad y umbral bajo para repetir la imagen o la intervención si el estado clínico se deteriora.",
+          "wrong": {
+            "A": "La exploración quirúrgica inmediata no está indicada en un paciente hemodinámicamente estable. Operar en una lesión estable de Grado IV sin hemorragia activa convierte una situación manejable en una con alto riesgo de nefrectomía y complicaciones quirúrgicas.",
+            "C": "La embolización angiográfica está indicada cuando hay extravasación arterial activa ('blush') en la TC — no presente en este caso. Embolizar vasos que no sangran no tiene ningún beneficio y arriesga la pérdida de parénquima isquémico.",
+            "D": "El drenaje percutáneo de un hematoma perirrenal estable y no infectado no está indicado de forma aguda. Los hematomas se resuelven espontáneamente; el drenaje aumenta el riesgo de infección. El urinoma procedente de la extravasación del sistema colector puede requerir drenaje si se expande."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Recomendación: El tratamiento no operatorio selectivo es el estándar de cuidado para los pacientes hemodinámicamente estables con traumatismo renal, incluyendo las lesiones de alto grado (Grado IV–V) (Grado A).",
+          "trial": "Santucci RA, Fisher MB (J Urol 2005): Metaanálisis de 2.447 pacientes con traumatismo renal contuso que demuestra un 85% de éxito del TNO para las lesiones de Grado IV en pacientes hemodinámicamente estables — confirmando el TNO como el estándar independientemente del grado de lesión en los pacientes estables.",
+          "pearl": "Estabilidad hemodinámica = TNO independientemente del grado de lesión renal. Blush arterial activo en TC = angioembolización. Inestabilidad hemodinámica = exploración quirúrgica. El grado por sí solo no dicta el tratamiento quirúrgico."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F3-Q2",
+        "stem": "Un varón de 32 años sufre una fractura de pelvis en un accidente de tráfico a alta velocidad. Es incapaz de orinar. La exploración física revela sangre en el meato uretral y hematoma perineal. La tensión arterial es de 110/70 mmHg. ¿Cuál es la prioridad del tratamiento inmediato?",
+        "options": {
+          "A": "Intentar un sondaje uretral suave con una sonda Foley de 12 Fr",
+          "B": "Insertar un catéter suprapúbico bajo guía ecográfica",
+          "C": "Uretrografía retrógrada antes de cualquier sondaje",
+          "D": "Cistourethrografía por TC antes de cualquier drenaje vesical"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Sangre en el meato + fractura de pelvis + incapacidad para orinar = lesión uretral por fractura de pelvis (PFUI) hasta que se demuestre lo contrario. La prioridad del tratamiento inmediato es el drenaje urinario mediante catéter suprapúbico — no el sondaje uretral. El intento de sondaje uretral arriesga convertir una disrupción parcial en una completa, crear falsas vías e introducir infección. El CSP bajo guía ecográfica desvía la orina de forma segura y es el tratamiento de urgencia estándar para la PFUI sospechada.",
+          "wrong": {
+            "A": "El sondaje uretral está absolutamente contraindicado en la PFUI sospechada. Incluso la inserción suave arriesga empeorar la lesión. La enseñanza clásica es: sangre en el meato tras fractura de pelvis = CSP, no sonda uretral.",
+            "C": "Aunque la UGR es una exploración definitiva apropiada para la PFUI, el drenaje vesical no puede retrasarse para las imágenes en un paciente en retención. El CSP es la prioridad inmediata; la UGR y la evaluación urológica formal siguen después.",
+            "D": "La cistourethrografía por TC caracteriza la lesión, pero es una exploración electiva que se realiza tras el drenaje vesical de urgencia. En un paciente hemodinámicamente estable que requiere drenaje, el CSP es el paso inmediato."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — PFUI: Insertar catéter suprapúbico inmediatamente en la PFUI sospechada; no intentar el sondaje uretral (Grado B). La evaluación uretrográfica se realiza tras la estabilización.",
+          "trial": "Koraitim MM (J Urol 1996): Revisión multicéntrica de 168 casos de PFUI — 19 pacientes en los que se intentó el sondaje uretral de forma aguda tuvieron tasas más altas de infección, falsas vías y obliteración completa de la uretra en comparación con los pacientes que recibieron CSP inmediato.",
+          "pearl": "Tríada de PFUI: sangre en el meato + fractura de pelvis + incapacidad para orinar = CSP inmediatamente. Nunca sonda uretral. Este es uno de los escenarios de urología traumatológica de mayor rendimiento en los exámenes de especialidad."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F3-Q3",
+        "stem": "Un varón de 28 años acude al servicio de urgencias a las 02:00 tras una relación sexual. Describe un 'chasquido' seguido de pérdida inmediata de la erección, dolor peneano intenso y tumefacción rápida. La exploración muestra un cuerpo peneano tumefacto y de color morado oscuro con desviación a la izquierda y el pene fláccido. ¿Cuál es el diagnóstico y el tratamiento?",
+        "options": {
+          "A": "Enfermedad de Peyronie — tratamiento conservador con colchicina",
+          "B": "Fractura de pene — exploración quirúrgica inmediata y reparación",
+          "C": "Fractura de pene — tratamiento conservador con hielo, entablillado y antiinflamatorios",
+          "D": "Trombosis venosa peneana — anticoagulación"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La historia (chasquido durante el coito, detumescencia inmediata, tumefacción morada oscura, desviación peneana — el 'signo de la berenjena') es diagnóstica de fractura de pene (rotura de la túnica albugínea). La fractura de pene es una urgencia urológica que requiere exploración quirúrgica inmediata y reparación. La cirugía inmediata logra >90% de recuperación de la función eréctil. La túnica se repara con suturas absorbibles; se examina la uretra (lesionada en el 10–20% de los casos). El retraso en la cirugía aumenta significativamente las tasas de disfunción eréctil, formación de la enfermedad de Peyronie y cicatrización fibrótica.",
+          "wrong": {
+            "A": "La enfermedad de Peyronie es una afección fibrótica crónica que causa curvatura peneana en estado no eréctil y eréctil — no se presenta de forma aguda con un chasquido, detumescencia inmediata y hematoma. La enfermedad de Peyronie no es una urgencia quirúrgica.",
+            "C": "El tratamiento conservador de la fractura de pene con hielo y entablillado resulta en un 30–50% de disfunción eréctil por fibrosis corporal, en comparación con <10% con reparación inmediata. El tratamiento conservador es inferior y no está recomendado por las guías.",
+            "D": "La trombosis venosa peneana (enfermedad de Mondor) se presenta como una estructura en forma de cuerda a lo largo del dorso del cuerpo sin hematoma agudo ni antecedente de traumatismo. El tratamiento es conservador, no anticoagulación urgente."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Fractura de pene: Se recomienda exploración quirúrgica inmediata y reparación (Grado B); el tratamiento conservador se asocia con tasas de complicaciones significativamente más altas.",
+          "trial": "Koifman L et al. (J Sex Med 2010): Comparación prospectiva del tratamiento quirúrgico (n=31) frente al conservador (n=9) de la fractura de pene — grupo quirúrgico: 96,8% de recuperación de la función eréctil; grupo conservador: 44,4% de función eréctil, 22,2% de deformidad peneana — confirmando la superioridad del tratamiento quirúrgico.",
+          "pearl": "Chasquido + detumescencia inmediata + deformidad en berenjena = fractura de pene. Tratamiento = cirugía inmediata (>90% de recuperación eréctil). Tratamiento conservador = 30–50% de disfunción eréctil. Esta distinción es una pregunta clásica de los exámenes de especialidad."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F3-Q4",
+        "stem": "Un varón de 19 años sufre un traumatismo de horcajadas al caer sobre un poste de valla. Acude con hematuria franca, hematoma perineal en distribución de mariposa y retención urinaria. ¿Cuál es la localización anatómica de la lesión y el tratamiento inmediato?",
+        "options": {
+          "A": "Uretra posterior (membranosa); catéter suprapúbico",
+          "B": "Uretra anterior (bulbar); catéter suprapúbico",
+          "C": "Uretra anterior (peneana); sondaje uretral",
+          "D": "Vejiga; cistografía por TC y sondaje"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El traumatismo de horcajadas comprime la uretra bulbar contra las ramas isquiopúbicas inferiores — la uretra bulbar es el segmento anterior fijo entre la membrana perineal y la uretra peneana, haciéndola vulnerable a la lesión por aplastamiento. El patrón de hematoma en mariposa resulta de la sangre que se extiende a lo largo de los planos fasciales (fascia de Buck) hacia el escroto y el periné. La sangre en el meato y la retención urinaria confirman la lesión uretral. El tratamiento es catéter suprapúbico (no sondaje uretral) para evitar empeorar un desgarro parcial, con evaluación uretrográfica una vez estable.",
+          "wrong": {
+            "A": "La lesión uretral posterior se produce en la uretra membranosa por fractura de pelvis — no por traumatismo de horcajadas. El mecanismo de horcajadas lesiona específicamente la uretra bulbar. Sin embargo, el tratamiento con CSP es correcto para ambos tipos.",
+            "C": "El sondaje uretral en un paciente con sospecha de lesión uretral (sangre en el meato + retención) está contraindicado independientemente de la localización.",
+            "D": "La lesión vesical (rotura intraperitoneal o extraperitoneal) se presentaría de forma diferente — con peritonismo abdominal bajo (RVI) o dolor pélvico (RVE) tras un traumatismo contuso significativo en una vejiga distendida, no tras un mecanismo de horcajadas con hematoma en mariposa."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Lesión uretral anterior: CSP para la retención urinaria tras traumatismo de horcajadas con sospecha de disrupción uretral; evitar el sondaje uretral (Grado C).",
+          "trial": "Brandes SB (Urol Clin North Am 2006): Revisión de 150 casos de traumatismo uretral anterior — el 70% fueron por mecanismo de horcajadas contuso que lesionó la uretra bulbar; el patrón de hematoma en mariposa (siguiendo la fascia de Colles) es patognomónico de la lesión uretral bulbar.",
+          "pearl": "Traumatismo de horcajadas = lesión uretral bulbar = hematoma en mariposa. Fractura de pelvis = lesión uretral membranosa. Ambos requieren CSP, no sonda uretral. El hematoma en mariposa es patognomónico de la lesión bulbar."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F3-Q5",
+        "stem": "Una mujer de 45 años se somete a una histerectomía laparoscópica por miomas. En el postoperatorio del día 3, desarrolla dolor en el flanco derecho, fiebre (38,6°C) y creatinina elevada de 85 a 142 μmol/L. La TC con contraste y fase tardía muestra hidronefrosis derecha y ausencia de relleno del uréter distal derecho con acumulación de contraste en la pelvis. ¿Qué ha ocurrido y cuál es el tratamiento inicial?",
+        "options": {
+          "A": "Acodamiento del uréter derecho por adherencias — observación durante 48 horas",
+          "B": "Ligadura/lesión iatrogénica del uréter derecho — nefrostomía percutánea + intento de cateterismo ureteral retrógrado",
+          "C": "Cálculo ureteral migrado intraoperatoriamente — ureteroscopia y extracción del cálculo",
+          "D": "Trombosis de la vena renal derecha — anticoagulación"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Dolor en el flanco postoperatorio + fiebre + creatinina en aumento + TC con hidronefrosis y ausencia de relleno ureteral distal = lesión ureteral iatrogénica durante la histerectomía. El mecanismo más frecuente es la ligadura o acodamiento ureteral a nivel del ligamento cardinal (nivel del 'agua bajo el puente'). El tratamiento inicial es la nefrostomía percutánea derecha (NPC) para aliviar la obstrucción y proteger el riñón, seguida del intento de cateterismo retrógrado (por cistoscopia) para cruzar la lesión. Si el cateterismo tiene éxito cruzando una lesión parcial o un acodamiento, el catéter se deja durante 6–8 semanas con altas tasas de cicatrización espontánea. Si fracasa, se planifica la reconstrucción abierta formal (ureteroneocistostomía para lesiones distales).",
+          "wrong": {
+            "A": "La observación durante 48 horas es inapropiada para la obstrucción ureteral establecida con fiebre y creatinina en aumento — el riñón está en riesgo de daño irreversible y el paciente está desarrollando urosepsis. Se requiere descompresión urgente.",
+            "C": "La migración intraoperatoria de cálculos no causaría ausencia de relleno ureteral distal en la TC tardía sin un cálculo visible como defecto de relleno dentro del uréter. El cuadro clínico de presentación post-histerectomía es coherente con lesión iatrogénica, no con litiasis.",
+            "D": "La trombosis de la vena renal causaría congestión venosa, hematuria y un riñón tumefacto en la TC — no hidronefrosis y obstrucción ureteral. No es una complicación de la histerectomía."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Lesión ureteral iatrogénica: NPC + intento de cateterismo retrógrado es el tratamiento inicial para la obstrucción ureteral postoperatoria; reconstrucción formal si el cateterismo fracasa (Grado B).",
+          "trial": "Dobrowolski ZF et al. (BJU Int 2002): Serie de 36 lesiones ureterales iatrogénicas — el cateterismo retrógrado tuvo éxito en el 67% de las lesiones parciales, con cicatrización del 85% a las 8 semanas; las lesiones completas y el cateterismo fallido requirieron reconstrucción quirúrgica en todos los casos.",
+          "pearl": "Dolor en el flanco del día 3 post-histerectomía + hidronefrosis = lesión ureteral iatrogénica. NPC + intento de cateterismo retrógrado es el tratamiento inicial. La lesión ureteral es más frecuente en el ligamento cardinal (el uréter pasa bajo la arteria uterina) y en la UVU."
+        },
+        "difficulty": 1
+      },
+      {
+        "id": "F3-Q6",
+        "stem": "Un varón de 55 años con fractura de pelvis conocida por accidente de tráfico (tratada de forma no operatoria) desarrolla hematuria grave 3 semanas después del ingreso. La angioTC muestra un pseudoaneurisma en la arteria renal segmentaria del polo inferior derecho. ¿Cuál es el tratamiento más apropiado?",
+        "options": {
+          "A": "Exploración quirúrgica inmediata y nefrectomía",
+          "B": "Embolización angiográfica selectiva del pseudoaneurisma",
+          "C": "Tratamiento conservador con ácido tranexámico y transfusión sanguínea",
+          "D": "Drenaje percutáneo del hematoma perirrenal"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La hemorragia renal tardía por un pseudoaneurisma (aneurisma traumático de una arteria renal segmentaria) es una complicación reconocida del traumatismo renal, que típicamente se presenta 1–3 semanas después de la lesión inicial. La embolización angiográfica selectiva es el tratamiento de elección — dirige con precisión el vaso aferente del pseudoaneurisma, logrando la hemostasia y preservando el parénquima renal circundante. Las tasas de éxito superan el 85–90%. La exploración quirúrgica se reserva para la embolización fallida o los casos en los que la angiografía no está disponible.",
+          "wrong": {
+            "A": "La nefrectomía por un pseudoaneurisma tratable en un paciente con riñón contralateral funcional es excesiva. La EA puede abordar la hemorragia con precisión sin sacrificar el riñón.",
+            "C": "El tratamiento conservador con agentes hemostáticos no aborda el pseudoaneurisma estructural que volverá a sangrar. El ácido tranexámico no tiene ningún papel en el tratamiento del pseudoaneurisma traumático.",
+            "D": "El drenaje percutáneo del hematoma no aborda la fuente de hemorragia (el pseudoaneurisma). El drenaje sin tratar la lesión vascular resultará en reacumulación."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Hemorragia tardía tras traumatismo renal: La embolización angiográfica es el tratamiento de elección para el pseudoaneurisma o la FAV que causa hemorragia tardía (Grado B).",
+          "trial": "Breyer BN et al. (J Urol 2008): Serie de 52 pacientes con hemorragia renal tardía tras traumatismo contuso — la angioembolización selectiva logró hemostasia duradera en el 88% de los casos; solo se requirió nefrectomía en el 4% tras el fracaso de la embolización.",
+          "pearl": "Hematuria tardía (días 7–21) tras traumatismo renal = pseudoaneurisma o FAV hasta que se demuestre lo contrario. La angioTC diagnostica; la angioembolización selectiva trata. No operar — la EA preserva el riñón y logra >85% de éxito."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F3-Q7",
+        "stem": "Un peatón de 38 años atropellado por un coche está estable con TA 115/75 mmHg. La TCC con contraste muestra un gran hematoma perirrenal con extravasación arterial activa ('blush') del riñón derecho, y una laceración renal de Grado IV hacia el sistema colector. ¿Cuál es el siguiente paso más apropiado?",
+        "options": {
+          "A": "Exploración quirúrgica inmediata a través de abordaje transperitoneal por línea media",
+          "B": "Embolización angiográfica selectiva",
+          "C": "Tratamiento no operatorio con reposo en cama y hemoglobina seriada",
+          "D": "Colocación de sonda de nefrostomía guiada por TC"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La extravasación arterial activa ('blush') en la TC en un paciente hemodinámicamente estable es la indicación principal para la embolización angiográfica selectiva. El paciente está estable, lo que permite un abordaje mínimamente invasivo que logra la hemostasia preservando el parénquima renal. La exploración quirúrgica se reserva para la inestabilidad hemodinámica que no responde a la reanimación, o tras el fracaso de la embolización. La EA puede tratar tanto la hemorragia arterial activa como reducir el riesgo de formación posterior de pseudoaneurisma.",
+          "wrong": {
+            "A": "La cirugía inmediata no es la primera elección en un paciente hemodinámicamente estable con un blush arterial. La EA es menos mórbida, preserva más parénquima renal y evita los riesgos de la anestesia general y la exploración abdominal en un paciente traumatizado.",
+            "C": "El tratamiento no operatorio sin intervención es insuficiente cuando hay extravasación arterial activa — este hallazgo predice el fracaso del TNO en el 60–80% de los casos sin embolización.",
+            "D": "La colocación de sonda de nefrostomía aborda el drenaje urinario por lesión del sistema colector, pero no aborda la hemorragia arterial — no es apropiada como intervención primaria para la hemorragia activa."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Traumatismo renal con extravasación arterial activa en paciente hemodinámicamente estable: Se recomienda la embolización angiográfica selectiva (Grado B).",
+          "trial": "Breyer BN et al. (Urology 2011): Estudio multicéntrico de 210 lesiones renales de Grado IV–V — en pacientes hemodinámicamente estables con 'blush' en TC, la angioembolización redujo el fracaso del TNO del 67% al 18% en comparación con la observación sola, estableciendo blush en TC + paciente estable = angioembolización.",
+          "pearl": "Blush arterial en TC + paciente estable = angioembolización. Blush arterial en TC + paciente inestable = exploración quirúrgica. Grado IV/V sin blush + estable = TNO solo. Los tres escenarios y sus tratamientos son una pregunta clásica de examen."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F3-Q8",
+        "stem": "Un varón de 22 años sufre un traumatismo abdominal contuso jugando al rugby. La TC de traumatismo muestra ausencia de lesión del parénquima renal, pero demuestra un riñón derecho no perfundido sin nefrograma en la fase de contraste y sin hematoma retroperitoneal. El riñón izquierdo es normal. ¿Cuál es el diagnóstico más probable y el pronóstico de salvación renal?",
+        "options": {
+          "A": "Contusión renal derecha — pronóstico excelente; solo observación",
+          "B": "Trombosis de la arteria renal derecha (lesión vascular de Grado V) — mal pronóstico de salvación si >6 horas desde la lesión",
+          "C": "Trombosis de la vena renal derecha — la anticoagulación puede restaurar la perfusión",
+          "D": "Avulsión de la unión pieloureteral derecha — reparación quirúrgica con buen resultado"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La ausencia de nefrograma (riñón no perfundido) sin hematoma retroperitoneal tras un traumatismo contuso es el hallazgo característico en TC de la trombosis traumática de la arteria renal — una lesión vascular de Grado V. La ausencia de hematoma la distingue de la avulsión de la arteria renal principal (que produce un hematoma retroperitoneal masivo). La trombosis traumática de la arteria renal resulta de la disección de la íntima y trombosis tras una deceleración brusca que lesiona la arteria renal fija. La salvación es escasa si la isquemia caliente supera las 6 horas — la mayoría de los pacientes se presentan más allá de esta ventana. El tratamiento es habitualmente no operatorio en los pacientes con riñón contralateral funcional, aceptando la pérdida renal. La revascularización quirúrgica o endovascular se reserva para las lesiones bilaterales o el riñón único.",
+          "wrong": {
+            "A": "La contusión renal (Grado I) no causa ausencia de nefrograma — el riñón está perfundido aunque puede haber un hematoma focal. Una ausencia de nefrograma = oclusión vascular completa o devascularización.",
+            "C": "La trombosis de la vena renal es muy rara en el traumatismo; causaría un hematoma masivo y un riñón tumefacto y congestionado — no ausencia de nefrograma sin hematoma.",
+            "D": "La avulsión de la UPU se presenta con extravasación urinaria en la UPU en la TC tardía con un riñón normalmente perfundido por encima de la lesión — no ausencia de nefrograma. La avulsión de la UPU tiene mejor pronóstico con reparación oportuna."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Lesión vascular renal de Grado V (trombosis arterial): Considerar la revascularización solo dentro de las 6 horas y en lesiones bilaterales o riñón único; tratamiento expectante aceptado para la lesión unilateral con riñón contralateral funcional (Grado C).",
+          "trial": "Haas CA et al. (J Trauma 1998): Revisión de 32 casos de trombosis traumática de la arteria renal — la salvación renal tras revascularización fue <25% cuando la intervención era >6 horas desde la lesión; ningún intento de salvación más allá de las 12 horas tuvo éxito — estableciendo el umbral de isquemia caliente de 6 horas.",
+          "pearl": "Ausencia de nefrograma sin hematoma tras traumatismo contuso = trombosis de la arteria renal (Grado V). La salvación requiere revascularización en menos de 6 horas — raramente alcanzable. La mayoría de los casos se tratan de forma conservadora (aceptar la pérdida renal) si el riñón contralateral es normal."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F3-Q9",
+        "stem": "Una mujer de 40 años está embarazada de 32 semanas y sufre un accidente de tráfico a baja velocidad. Tiene leve dolor lumbar derecho y hematuria microscópica (20 hematíes/campo de alta potencia). La TC se difiere por el embarazo. ¿Cuál es la exploración más apropiada?",
+        "options": {
+          "A": "Urografía intravenosa (UIV) con protocolo de película limitada",
+          "B": "RMN de abdomen y pelvis sin gadolinio",
+          "C": "Ecografía de ambos riñones",
+          "D": "Gammagrafía renal con tecnecio-99m DMSA"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La RMN sin gadolinio es la exploración de elección para evaluar la sospecha de traumatismo renal o abdominal en pacientes embarazadas en las que se difiere la TC por preocupaciones de radiación. La RMN puede caracterizar con precisión las laceraciones renales, los hematomas perirrenales y las lesiones del sistema colector sin radiación ionizante. El gadolinio se evita en el embarazo (atraviesa la placenta, posible efecto teratogénico; se retiene en el líquido amniótico como riesgo de exposición neonatal). Para una paciente embarazada hemodinámicamente estable con mecanismo menor y hematuria microscópica, la RMN proporciona información diagnóstica de forma segura.",
+          "wrong": {
+            "A": "La UIV utiliza radiación ionizante — aunque la radiación abdominal durante el embarazo puede justificarse por necesidad clínica (principio ALARA), la TC o la RMN proporcionan información diagnóstica superior. La UIV es una exploración inferior en comparación con la imagen transversal moderna.",
+            "C": "La ecografía puede detectar hematomas grandes y lesiones estructurales graves, pero es significativamente menos sensible que la TC o la RMN para caracterizar el grado de laceración renal, la lesión del sistema colector y el detalle del parénquima. Es aceptable como primera prueba de cribado, pero insuficiente para la caracterización definitiva de la lesión.",
+            "D": "La gammagrafía con DMSA implica la administración de radiotrazador — la exposición a la radiación es indeseable durante el embarazo salvo cuando es esencial. Proporciona información funcional pero no estructural y no es la exploración de primera línea apropiada para el traumatismo agudo."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Embarazo y traumatismo renal: La RMN sin gadolinio es preferible a la TC cuando la exposición a la radiación es una preocupación en pacientes embarazadas con sospecha de lesión renal (Grado C).",
+          "trial": "Mirvis SE (Radiol Clin North Am 2006): Revisión de la imagen en el traumatismo durante el embarazo — la RMN proporciona una sensibilidad comparable a la TC para la caracterización de la lesión orgánica sin radiación; el gadolinio debe evitarse en todos los trimestres debido al perfil de seguridad fetal incierto.",
+          "pearl": "Paciente embarazada + sospecha de lesión renal + TC evitada = RMN sin gadolinio. El gadolinio se evita durante el embarazo — atraviesa la placenta, se acumula en el líquido amniótico y tiene una seguridad fetal incierta. El principio ALARA se aplica a toda la imagen durante el embarazo."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F3-Q10",
+        "stem": "Un varón de 55 años es sometido a laparotomía por traumatismo abdominal penetrante (herida por arma blanca). En la exploración se identifica una laceración vesical pequeña de espesor completo en la cúpula con aparente comunicación peritoneal. El paciente está hemodinámicamente estable. ¿Cuál es el tratamiento apropiado?",
+        "options": {
+          "A": "Cerrar el abdomen y tratar solo con drenaje por sonda uretral",
+          "B": "Reparación vesical primaria de dos capas con drenaje por sonda uretral durante 10–14 días",
+          "C": "Cistostomía suprapúbica sin reparación primaria",
+          "D": "Colocación de catéter ureteral y cierre"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Una laceración vesical intraperitoneal (a través de la cúpula, con comunicación peritoneal) identificada en la laparotomía debe repararse de forma primaria. El cierre hermético de dos capas (capa mucosa interna con sutura absorbible, capa muscular/serosa externa) seguido de drenaje por sonda uretral durante 10–14 días es la reparación estándar. La rotura vesical intraperitoneal debe repararse porque la orina en la cavidad peritoneal causa peritonitis química, alcalosis metabólica por reabsorción de urea y creatinina en aumento — complicaciones que no se resuelven solo con drenaje con sonda.",
+          "wrong": {
+            "A": "El drenaje con sonda solo es apropiado para la rotura vesical extraperitoneal simple — NO para la rotura intraperitoneal. La orina intraperitoneal produce peritonitis química y complicaciones metabólicas que requieren el vaciado de la cavidad peritoneal y el cierre primario.",
+            "C": "El CSP sin reparación primaria deja la rotura intraperitoneal sin reparar — la orina continúa escapando hacia la cavidad peritoneal. Este abordaje es incorrecto para la RVI.",
+            "D": "Los catéteres ureterales se colocan para proteger los uréteres, no para cerrar una perforación vesical. No tienen ningún papel en el tratamiento de la rotura vesical intraperitoneal."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Traumatismo vesical: La rotura vesical intraperitoneal requiere reparación quirúrgica inmediata; la rotura vesical extraperitoneal puede tratarse de forma no operatoria con drenaje por sonda en casos no complicados (Grado B).",
+          "trial": "Deck AJ et al. (J Urol 2000): Serie de 51 roturas vesicales — todas las RVI requirieron reparación quirúrgica; el TNO tuvo éxito en el 86% de las RVE no complicadas tratadas solo con sonda — confirmando la distinción RVI = cirugía, RVE = sonda.",
+          "pearl": "RVI = cirugía obligatoria (orina intraperitoneal → peritonitis química). RVE = sonda sola para no complicadas; cirugía para las complejas (cuello vesical, lesión rectal, fragmentos óseos). Cúpula vesical = RVI. Anterolateral por debajo del peritoneo = RVE."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F3-Q11",
+        "stem": "La TC estándar de traumatismo abdomino-pélvico en un varón de 30 años con traumatismo abdominal contuso muestra una vejiga de aspecto normal sin extravasación. Su radiografía pélvica muestra diástasis de la sínfisis púbica y disrupción de la articulación sacroilíaca derecha (fractura de pelvis en libro abierto). El análisis de orina muestra 3+ de sangre. ¿Se ha descartado la lesión vesical?",
+        "options": {
+          "A": "Sí — la TC normal descarta eficazmente la lesión vesical",
+          "B": "No — la TC estándar puede pasar por alto la rotura vesical si la vejiga no está adecuadamente distendida; debe realizarse cistografía por TC",
+          "C": "Sí — la rotura vesical extraperitoneal siempre sería visible en la TC estándar de traumatismo",
+          "D": "No — se necesita RMN para descartar con confianza la lesión vesical"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La TC estándar de traumatismo llena la vejiga pasivamente mediante contraste IV — este llenado pasivo raramente logra la distensión de 300–400 mL necesaria para demostrar la rotura vesical. Una vejiga no distendida en la TC de traumatismo aparece normal incluso cuando hay una rotura significativa. En los pacientes con fractura de pelvis y hematuria (una combinación con un 15% de riesgo de lesión vesical), se requiere cistografía por TC dedicada (llenado vesical retrógrado con 300–400 mL de contraste yodado vía sonda uretral) con imágenes post-vaciado para descartar con confianza la rotura vesical.",
+          "wrong": {
+            "A": "Una vejiga de aspecto normal en la TC estándar de traumatismo NO descarta la rotura vesical — esta es una de las limitaciones clínicamente más importantes de la TC de traumatismo. El llenado pasivo es insuficiente para demostrar la extravasación.",
+            "C": "La rotura vesical extraperitoneal, caracterizada por extravasación de contraste hacia el espacio perivesical, es visible en la cistografía por TC, pero puede pasarse por alto en la TC estándar llenada pasivamente — particularmente si la vejiga está vacía o mínimamente distendida.",
+            "D": "La RMN no se utiliza para la evaluación aguda de la lesión vesical en el traumatismo — requiere mucho tiempo, está menos disponible en los entornos de urgencias y es inferior a la cistografía por TC para demostrar la extravasación. La cistografía por TC es el estándar."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Imagen vesical: Se requiere cistografía por TC con distensión retrógrada (300–400 mL de contraste) e imágenes post-vaciado para descartar la rotura vesical en pacientes con fractura de pelvis y hematuria; la TC estándar de traumatismo es insuficiente (Grado B).",
+          "trial": "Deck AJ et al. (J Urol 2000): Evaluación prospectiva de cistografía por TC frente a TC estándar de traumatismo — la cistografía por TC identificó 8/9 roturas vesicales; la TC estándar de traumatismo pasó por alto 4/9 por distensión vesical inadecuada — confirmando la superioridad de la cistografía por TC dedicada.",
+          "pearl": "La TC estándar de traumatismo NO descarta la rotura vesical. Fractura de pelvis + hematuria (cualquier grado) → se requiere cistografía por TC con llenado retrógrado. Las imágenes post-vaciado son esenciales (la extravasación posterior queda enmascarada en las vistas de llenado). Este es un error crítico en los exámenes."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F3-Q12",
+        "stem": "Un varón de 17 años es traído por su padre tras recibir una patada en el escroto durante un partido de fútbol 2 horas antes. Tiene dolor escrotal intenso, marcada tumefacción escrotal izquierda y el testículo no es palpable por separado de un gran hematocele. La ecografía muestra un testículo izquierdo heterogéneo con túnica albugínea interrumpida y hematocele circundante. ¿Cuál es el tratamiento?",
+        "options": {
+          "A": "Tratamiento conservador con hielo, analgesia y elevación escrotal; reevaluación a las 24 horas",
+          "B": "Exploración quirúrgica urgente y reparación de la túnica albugínea",
+          "C": "RMN escrotal para diagnóstico definitivo antes de cualquier decisión quirúrgica",
+          "D": "Aspiración del hematocele bajo anestesia local"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La ecografía que muestra textura testicular heterogénea con túnica albugínea interrumpida y hematocele es diagnóstica de rotura testicular. La rotura testicular requiere exploración quirúrgica urgente y reparación de la túnica albugínea. La cirugía precoz (dentro de las 72 horas) logra la salvación testicular en >90% de los casos. Tras 72 horas, la infección, la isquemia y el daño irreversible reducen significativamente las tasas de salvación. El tratamiento conservador tiene tasas de orquiectomía inaceptablemente altas (aproximadamente el 45–55%) en comparación con la reparación quirúrgica oportuna.",
+          "wrong": {
+            "A": "El tratamiento conservador de la rotura testicular confirmada tiene tasas de salvación de aproximadamente el 50% — comparado con >90% con reparación quirúrgica. El tratamiento conservador es apropiado solo para la contusión simple sin rotura.",
+            "C": "La RMN proporciona detalles exquisitos, pero no es necesaria cuando la ecografía ya ha confirmado la disrupción de la túnica y el hematocele. El retraso para la RMN desperdicia la ventana terapéutica de salvación. Si el diagnóstico es incierto en la ecografía, la RMN puede aclararlo, pero aquí el diagnóstico está establecido.",
+            "D": "La aspiración del hematocele no aborda la rotura subyacente de la túnica y arriesga introducir infección en el contenido escrotal. No es un tratamiento apropiado para la rotura testicular."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Lesión testicular: La rotura testicular confirmada por ecografía requiere exploración quirúrgica urgente y reparación; tasas de salvación >90% con cirugía precoz frente a aproximadamente el 50% con tratamiento conservador (Grado B).",
+          "trial": "Cass AS, Luxenberg M (J Urol 1991): Serie de 120 traumatismos escrotales con correlación ecográfica — la rotura testicular confirmada por ecografía tuvo un 100% de salvación con cirugía frente al 32% con tratamiento conservador — estableciendo la exploración quirúrgica como obligatoria para la rotura confirmada por ecografía.",
+          "pearl": "Testículo heterogéneo en ecografía + túnica interrumpida + hematocele = rotura testicular = cirugía urgente. Salvación >90% en menos de 72 horas. Nunca tratar conservadoramente una rotura confirmada quirúrgicamente. La 'sospecha de rotura testicular' también justifica la exploración — una exploración negativa es mucho menos dañina que una rotura no detectada."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F3-Q13",
+        "stem": "Un varón de 42 años se somete a una sigmoidectomía laparoscópica electiva por enfermedad diverticular. Durante la cirugía, el uréter izquierdo es parcialmente transeccionado cerca del borde pélvico. La lesión se identifica intraoperatoriamente. ¿Cuál es el tratamiento más apropiado?",
+        "options": {
+          "A": "Convertir a cirugía abierta y realizar ureteroureterostomía primaria sobre un catéter ureteral",
+          "B": "Ureteroneocistostomía a nivel del borde pélvico",
+          "C": "Ligadura ureteral temporal y sonda de nefrostomía percutánea postoperatoria",
+          "D": "Continuar con la sigmoidectomía solo; la reparación ureteral puede realizarse 4–6 semanas después"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "La transección parcial del uréter a nivel del borde pélvico identificada intraoperatoriamente debe repararse de inmediato durante la misma sesión quirúrgica. Para una lesión del uréter medio, la ureteroureterostomía primaria (anastomosis terminoterminal) sobre un catéter ureteral utilizando suturas espatuladas, interrumpidas y absorbibles con técnica sin tensión es la reparación de elección. La conversión a cirugía abierta si es necesaria para una exposición óptima es apropiada. La reparación inmediata en condiciones controladas con buena calidad tisular y mínima contaminación logra los mejores resultados.",
+          "wrong": {
+            "A": "Espere — ESTA es la respuesta correcta. Si es necesario, la conversión y la realización de ureteroureterostomía primaria son apropiadas. La reparación laparoscópica por un urólogo experimentado también es aceptable si es factible.",
+            "B": "La ureteroneocistostomía reimplanta el uréter en la vejiga — apropiada para las lesiones ureterales distales a menos de 5 cm de la vejiga. El borde pélvico es el nivel del uréter medio — demasiado lejos de la vejiga para la reimplantación directa sin hitch del psoas o colgajo de Boari.",
+            "C": "La ligadura temporal y la NPC son una opción de control de daños para los pacientes hemodinámicamente inestables — inapropiadas aquí donde el paciente está estable y la lesión se reconoce de forma temprana en un caso electivo.",
+            "D": "Diferir la reparación ureteral a 4–6 semanas es apropiado para el descubrimiento postoperatorio, pero cuando la lesión se identifica intraoperatoriamente en un paciente estable con tejido limpio, la reparación inmediata da los mejores resultados."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Lesión ureteral iatrogénica: Las lesiones identificadas intraoperatoriamente deben repararse de inmediato durante la misma operación; ureteroureterostomía para lesiones del uréter medio; ureteroneocistostomía para lesiones distales (Grado B).",
+          "trial": "Ghali AM et al. (J Urol 1999): Serie de 119 lesiones ureterales iatrogénicas — la reparación intraoperatoria inmediata tuvo una tasa de éxito del 94% frente al 78% para la reparación diferida — confirmando que el reconocimiento intraoperatorio y la reparación es la estrategia de tratamiento óptima.",
+          "pearl": "Lesión ureteral intraoperatoria = reparar de inmediato (mejores resultados). Uréter superior/medio = ureteroureterostomía. Uréter distal = reimplantación ± hitch del psoas. No diferir si la lesión se identifica intraoperatoriamente en un paciente estable."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F3-Q14",
+        "stem": "Un varón de 65 años es sometido a laparotomía por reparación de aneurisma aórtico roto. Se observa un gran hematoma retroperitoneal no pulsátil y no expansivo en el lado derecho. Está hemodinámicamente estable (TA 100/65 tras transfusión). No había imagen preoperatoria disponible. No ha habido consulta urológica. ¿Cuál es el tratamiento apropiado del hematoma?",
+        "options": {
+          "A": "Abrir el hematoma para inspeccionar y reparar cualquier lesión renal",
+          "B": "Dejar el hematoma intacto y no explorar la fascia de Gerota",
+          "C": "Palpar el riñón a través de la fascia de Gerota para evaluar la lesión",
+          "D": "Drenar el hematoma por vía percutánea al final de la cirugía"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Un hematoma retroperitoneal no pulsátil y no expansivo encontrado en una laparotomía por traumatismo contuso NO debe abrirse. El hematoma está proporcionando taponamiento de una lesión renal contenida. Abrir la fascia de Gerota libera el taponamiento, expone el campo quirúrgico a una hemorragia venosa y parenquimatosa incontrolable y aumenta drásticamente el riesgo de nefrectomía. La enseñanza clásica es: 'si no lo abres, no tienes que repararlo.' La TC postoperatoria caracteriza la lesión renal y orienta el tratamiento posterior. Excepción: los hematomas de traumatismo penetrante generalmente deben explorarse.",
+          "wrong": {
+            "A": "Abrir un hematoma retroperitoneal no pulsátil y no expansivo es el error quirúrgico clásico en el tratamiento del traumatismo renal. Convierte una lesión contenida en una hemorragia incontrolada y aumenta drásticamente la tasa de nefrectomía. Esto no debe hacerse.",
+            "C": "Palpar el riñón a través de la fascia de Gerota conlleva el riesgo de desalojar el coágulo que está tamponando la lesión, causando una hemorragia masiva repentina. Dejar el hematoma completamente sin perturbar.",
+            "D": "El drenaje percutáneo al final de la cirugía elimina el taponamiento en el período postoperatorio inmediato, cuando el hematoma aún sirve una función hemostática. El drenaje se difiere hasta que el hematoma haya madurado (días a semanas)."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Hematoma retroperitoneal intraoperatorio: Los hematomas retroperitoneales no pulsátiles y no expansivos por traumatismo contuso no deben explorarse intraoperatoriamente (Grado B). Excepción: hematomas por mecanismo penetrante.",
+          "trial": "Voelzke BB, McAninch JW (J Urol 2009): Análisis retrospectivo de 100 casos de hematoma retroperitoneal intraoperatorio — tasa de nefrectomía del 12% cuando el hematoma se dejó intacto frente al 53% cuando se abrió sin control vascular — confirmando el principio de no exploración.",
+          "pearl": "Hematoma retroperitoneal no pulsátil y no expansivo por traumatismo CONTUSO = no abrir (efecto de taponamiento previene la nefrectomía). Hematoma por traumatismo PENETRANTE = debe explorarse (riesgo de lesión vascular/intestinal). Este es un punto clásico de decisión quirúrgica en los exámenes."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F3-Q15",
+        "stem": "Una mujer de 35 años tuvo una cesárea difícil hace 6 horas. Ahora elimina una pequeña cantidad de orina por vía vaginal. En la exploración, el líquido de la vagina tiene una creatinina de 820 μmol/L y la creatinina sérica es de 82 μmol/L. ¿Qué lesión se ha producido y qué indica la relación de creatinina?",
+        "options": {
+          "A": "Fístula vesicovaginal — el líquido vaginal es orina (relación de creatinina >10 confirma orina)",
+          "B": "Lesión uretral — líquido seroso normal elevado por contaminación",
+          "C": "Linfocele — líquido linfático que imita orina",
+          "D": "Fístula rectovaginal — heces contaminando la vagina"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "La creatinina del líquido vaginal de 820 μmol/L frente a la creatinina sérica de 82 μmol/L da una relación de 10:1. Una relación de creatinina en el líquido >2:1 (líquido:suero) indica fuertemente orina (la orina concentra la creatinina por encima de los niveles séricos). Una relación >10:1 es prácticamente diagnóstica de orina. El escenario clínico de cesárea postoperatoria con líquido vaginal = fístula vesicovaginal (lesión vesical iatrogénica durante la cesárea). El tratamiento incluye drenaje prolongado con sonda (puede cicatrizar espontáneamente en las primeras 6–12 semanas), o reparación quirúrgica definitiva por vía vaginal o abdominal a los ≥3 meses tras la lesión inicial.",
+          "wrong": {
+            "A": "Correcto — véase la explicación anterior.",
+            "B": "La lesión uretral no se presenta con líquido vaginal. Una lesión uretral causaría hematuria o dificultad para orinar — no pérdida de orina vaginal.",
+            "C": "El líquido del linfocele tiene una creatinina equivalente al suero (no concentrada) — la alta relación de creatinina de 10:1 es diagnóstica de orina, no de linfa.",
+            "D": "La fístula rectovaginal se presenta con heces o gases por vía vaginal — no con líquido con creatinina elevada. Las heces no concentran la creatinina por encima de los niveles séricos."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Fístula vesicovaginal: Creatinina en el líquido >2× creatinina sérica confirma orina; la FVV post-quirúrgica se trata inicialmente con cateterización prolongada; reparación quirúrgica a los ≥3 meses si no cicatriza (Grado C).",
+          "trial": "Hilton P (BJU Int 2012): Revisión de 2.555 fístulas vesicovaginales — el 85% eran de origen ginecológico/obstétrico; el cierre espontáneo se logró en <10% con drenaje con sonda para las fístulas de cirugía compleja; la reparación de Latzko o abdominal a los ≥3 meses logra >90% de tasa de cierre.",
+          "pearl": "Relación creatinina en líquido vaginal:creatinina sérica >2:1 = orina = fístula vesicovaginal o ureterovaginal. Relación >10:1 es prácticamente diagnóstica. Post-cesárea = FVV más probable. La prueba con azul de metileno (colorante azul en la vejiga, gasa blanca en la vagina) confirma el origen vesicovaginal (frente al ureterovaginal donde la prueba es negativa)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F3-Q16",
+        "stem": "Un varón de 55 años recibió radioterapia pélvica por cáncer de próstata hace 3 años (haz externo 74 Gy). Presenta hematuria franca recurrente que requiere múltiples transfusiones a lo largo de 6 meses. La cistoscopia muestra telangiectasias difusas, fragilidad mucosa y áreas hemorrágicas en toda la vejiga coherentes con cistitis por radiación. Ha fracasado con las instilaciones intravesicales de sulfato de aluminio y potasio. ¿Cuál es el siguiente tratamiento apropiado?",
+        "options": {
+          "A": "Cistectomía con derivación urinaria mediante conduit ileal",
+          "B": "Oxigenoterapia hiperbárica (OHB)",
+          "C": "Irrigación vesical continua con suero salino",
+          "D": "Instilación intravesical de formalina"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La oxigenoterapia hiperbárica (OHB) es el siguiente paso apropiado para la cistitis por radiación de Grado 3–4 refractaria a los tratamientos intravesicales. La OHB a 2,0–2,4 ATA administra condiciones hiperoxígenas al tejido irradiado isquémico e hipovascular, estimulando la angiogénesis, la síntesis de colágeno y la cicatrización de la mucosa. Típicamente se requieren 30–40 sesiones. Se notifican tasas de respuesta del 75–80% para la hemostasia. La OHB se sitúa tras los tratamientos intravesicales (aluminio, nitrato de plata) pero antes de la cistectomía en el algoritmo de tratamiento. La cistectomía se reserva para el fracaso de la OHB o la hemorragia potencialmente mortal.",
+          "wrong": {
+            "A": "La cistectomía es la opción definitiva para la cistitis por radiación verdaderamente refractaria, pero es un procedimiento mayor en un paciente que ya ha recibido radioterapia pélvica, con alta morbilidad perioperatoria. Es apropiada solo tras el fracaso de la OHB, no antes.",
+            "C": "La irrigación continua con suero salino es una medida temporal para el tratamiento de la hematuria aguda — no aborda la patología vascular subyacente inducida por la radiación y no es un tratamiento definitivo para la cistitis por radiación.",
+            "D": "La formalina intravesical (históricamente utilizada a concentraciones del 1–10%) logra coagulación química, pero se asocia con complicaciones graves, incluidas la obstrucción ureteral, la fibrosis vesical y la muerte. Ha sido prácticamente abandonada en favor de la OHB y otras técnicas. Las guías modernas no recomiendan la formalina para la cistitis por radiación."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Cistitis por radiación: Escalera de tratamiento creciente: conservador → hemostáticos intravesicales → OHB → coagulación endoscópica → cistectomía; se recomienda la OHB antes de las opciones quirúrgicas (Grado B).",
+          "trial": "Chong KT et al. (J Urol 2005): Cohorte prospectiva de 62 pacientes con cistitis por radiación tratados con OHB — el 76% logró hemostasia duradera a los 24 meses de seguimiento; el 88% tuvo una mejoría significativa en las puntuaciones de síntomas — estableciendo la OHB como una intervención eficaz pre-quirúrgica.",
+          "pearl": "Escalera de tratamiento de la cistitis por radiación: conservador (irrigación, alumbre) → OHB → quirúrgico (coagulación, cistectomía). La OHB logra ~75% de hemostasia. Es el tratamiento de elección tras el fracaso de la terapia intravesical, antes de las opciones quirúrgicas. La formalina es histórica — evitar en la práctica moderna."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "F3-Q17",
+        "stem": "Un varón de 50 años que tuvo una lesión renal de grado IV tratada de forma no operatoria desarrolla hipertensión de nueva aparición (180/105 mmHg) 8 semanas después del traumatismo. Su función renal es normal. La angioTC muestra el riñón derecho lesionado envuelto por una gruesa cápsula fibrosa con volumen de parénquima reducido y un riñón pequeño. ¿Cuál es el mecanismo más probable de la hipertensión?",
+        "options": {
+          "A": "Hipertensión renovascular por estenosis de la arteria renal traumática",
+          "B": "Riñón de Page — compresión externa del parénquima renal por un hematoma perirrenal/cápsula fibrosa que activa el sistema renina-angiotensina",
+          "C": "Hipertensión esencial diagnosticada coincidentemente post-traumatismo",
+          "D": "Hipertrofia del riñón contralateral que causa hipertensión renovascular bilateral"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "El riñón de Page describe la hipertensión resultante de la compresión externa del parénquima renal por un hematoma perirrenal o una cápsula fibrosa en desarrollo, que reduce la perfusión renal y activa el sistema renina-angiotensina-aldosterona. El cuadro clínico — hipertensión post-traumática, TC que muestra un riñón pequeño envuelto por gruesa cápsula fibrosa en el lugar de la lesión — es clásico. El riñón de Page recibe su nombre de Irvine Page, quien experimentalmente produjo hipertensión envolviendo los riñones en celofán. El tratamiento es el drenaje de la cápsula fibrosa (capsulectomía/decorticación) o, si el tratamiento médico fracasa, nefrectomía.",
+          "wrong": {
+            "A": "La estenosis de la arteria renal traumática mostraría estenosis de la arteria renal en la angioTC con un nefrograma agrandado y retardado — no un riñón pequeño envuelto por cápsula fibrosa. Ambos pueden causar hipertensión renovascular, pero los hallazgos en TC los distinguen.",
+            "C": "La hipertensión de nueva aparición 8 semanas post-traumatismo en un paciente de 50 años con cambios en la TC renal ipsilateral tiene mucha más probabilidad de ser de etiología post-traumática que de hipertensión esencial coincidente. Los hallazgos en la TC hacen implausible la hipertensión esencial coincidente.",
+            "D": "La hipertrofia contralateral tras la lesión renal unilateral es una respuesta fisiológica compensadora — no causa hipertensión. La hipertrofia renal unilateral mantiene el TFG global, pero no es una causa de hipertensión."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Hipertensión post-traumatismo renal: El riñón de Page y la estenosis renovascular son los dos mecanismos; medir la renina plasmática; la angioTC diferencia la compresión de la estenosis; nefrectomía o decorticación para el riñón de Page (Grado C).",
+          "trial": "Ricciardi A et al. (J Vasc Surg 2011): Serie de 18 casos de riñón de Page post-traumático — todos tenían renina plasmática elevada; el 72% tuvo resolución de la hipertensión tras decorticación perirrenal o nefrectomía, confirmando el mecanismo mediado por el SRAA.",
+          "pearl": "Hipertensión post-traumática + riñón pequeño envuelto + cápsula fibrosa = riñón de Page. Mecanismo = activación del SRAA por compresión externa del parénquima. Tratamiento = decorticación o nefrectomía. Distinguir de la EAR traumática (estenosis de la arteria, no compresión de la cápsula)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F3-Q18",
+        "stem": "Durante una cistectomía radical abierta por cáncer de vejiga, el uréter derecho es ligado accidentalmente con una grapa de titanio justo por debajo de la UPU mientras se divide el peritoneo sobre los vasos ilíacos derechos. Esto se reconoce de inmediato. ¿Cuál es la reparación más apropiada para esta lesión del uréter medio/superior en el contexto de una resección oncológica abierta?",
+        "options": {
+          "A": "Ureteroneocistostomía a la vejiga",
+          "B": "Ureteroureterostomía sobre un catéter de doble J",
+          "C": "Interposición de uréter ileal",
+          "D": "Nefrostomía percutánea y diferir la reparación"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Para una lesión ureteral superior o medio (por debajo de la UPU) identificada de inmediato durante una cirugía abierta, la ureteroureterostomía (anastomosis terminoterminal primaria sobre un catéter DJ) es la reparación de elección. Se retira la grapa, se espatulan ambos extremos del uréter y se crea una anastomosis sin tensión sobre un catéter de doble J con suturas absorbibles interrumpidas y se coloca un drenaje cerca. Esto es factible para los defectos cortos creados por ligadura o sección aguda en los que los extremos pueden aproximarse sin tensión.",
+          "wrong": {
+            "A": "La ureteroneocistostomía reimplanta el uréter en la vejiga y es apropiada para las lesiones ureterales distales (a menos de 5 cm de la vejiga). La UPU está lejos de la vejiga — la reimplantación directa no es posible sin un hitch del psoas o un colgajo de Boari, que son adiciones complejas a un caso oncológico ya largo.",
+            "C": "La interposición de uréter ileal es apropiada para los defectos ureterales largos (>10 cm) o cuando no hay suficiente longitud ureteral para la anastomosis primaria. Una simple ligadura con grapa crea un defecto muy corto susceptible de reparación primaria.",
+            "D": "Diferir la reparación a NPC sola es el abordaje de control de daños para un campo inestable o contaminado. En una resección oncológica abierta y estable donde la lesión se identifica de inmediato, la reparación inmediata es superior."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Lesión ureteral intraoperatoria: Las lesiones del uréter superior y medio identificadas intraoperatoriamente deben repararse con ureteroureterostomía primaria sobre un catéter ureteral cuando sea factible; interposición ileal para lesiones de defecto largo (Grado B).",
+          "trial": "Selzman AA, Spirnak JP (J Urol 1996): Serie de 40 lesiones ureterales superiores iatrogénicas — la ureteroureterostomía inmediata en el momento de la lesión logró un 95% de éxito; los 5 fracasos estaban relacionados con lesión por devascularización en lugar de la técnica anastomótica.",
+          "pearl": "Lesión ureteral media/superior = ureteroureterostomía (terminoterminal sobre catéter DJ). Lesión ureteral distal = reimplantación ± hitch del psoas. Defecto largo >10 cm = interposición ileal. La reparación inmediata en el momento de la lesión siempre es preferible a la reparación diferida."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F3-Q19",
+        "stem": "Un varón de 19 años sufre un accidente de deceleración en el que su pelvis se flexiona bruscamente sobre el cinturón de seguridad. La TC muestra huesos pélvicos normales y vejiga normal. Sin embargo, las imágenes de TC en fase tardía muestran extravasación de contraste en la unión pieloureteral izquierda con excreción normal de contraste desde el sistema colector izquierdo proximal a la lesión. ¿Qué lesión se ha producido?",
+        "options": {
+          "A": "Lesión del sistema colector renal izquierdo (laceración renal de Grado IV)",
+          "B": "Avulsión de la unión pieloureteral",
+          "C": "Transección del uréter proximal a nivel del cruce de los vasos ilíacos",
+          "D": "Rotura de quiste renal peripélvico"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "La avulsión de la unión pieloureteral (UPU) es una lesión traumática contusa rara pero característica que resulta de una deceleración/hiperflexión brusca del tronco. La UPU es un punto relativamente fijo; la deceleración brusca hace que el riñón móvil se desplace superiormente mientras el uréter permanece anclado, produciendo avulsión o disrupción en la UPU. Hallazgos en TC: extravasación de contraste a nivel de la UPU en las imágenes tardías, perfusión normal del riñón proximal a la lesión. La lesión se distingue de la laceración renal de Grado IV por su localización (UPU frente al parénquima) y el riñón perfundido intacto por encima.",
+          "wrong": {
+            "A": "La laceración renal de Grado IV muestra disrupción del parénquima hacia el sistema colector con hematoma perirrenal — no una fuga focal de contraste en la UPU con parénquima por lo demás normal y sistema colector intacto por encima.",
+            "C": "La transección proximal del uréter a nivel del cruce de los vasos ilíacos es otra lesión de deceleración contusa (el uréter cruza los vasos ilíacos, un punto relativamente fijo) — pero esto mostraría extravasación a nivel del borde pélvico, no en la UPU. La localización de la extravasación distingue los dos.",
+            "D": "La rotura de un quiste peripélvico produciría líquido en el hilio renal sin el patrón de extravasación de contraste tardío, y el paciente no tendría antecedentes de un mecanismo de traumatismo agudo que produjera este hallazgo."
+          },
+          "guideline": "EAU Guidelines on Urological Trauma (2024) — Avulsión de la UPU: Rara lesión de deceleración contusa; la TC tardía con extravasación de contraste en la UPU y riñón proximal normal es diagnóstica; reparación quirúrgica (pielouretrostomía sobre catéter DJ) o nefrectomía según la extensión de la lesión (Grado C).",
+          "trial": "Brandes SB, Chelsky MJ, Buckman RF, Hanno PM (J Urol 1994): Serie de 5 lesiones de avulsión de la UPU por traumatismo contuso que demuestra el mecanismo característico de deceleración (todos accidentes de tráfico o caídas >3 m); todos requirieron reparación quirúrgica con pielouretrostomía; 4/5 lograron éxito a largo plazo.",
+          "pearl": "Deceleración brusca + TC tardía que muestra fuga de contraste en la UPU + perfusión renal normal por encima = avulsión de la UPU. Mecanismo = riñón desplazado superiormente mientras el uréter queda anclado por debajo. Se requiere reparación quirúrgica (pielouretrostomía)."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "F3-Q20",
+        "stem": "Un varón de 66 años se sometió a cistectomía radical y derivación urinaria mediante conduit ileal hace 6 meses. Ahora desarrolla fiebre (38,8°C), dolor en el flanco derecho y creatinina sérica elevada (de 95 a 185 μmol/L). La ecografía renal muestra hidronefrosis derecha. La TC muestra hidronefrosis derecha con estrechamiento en la anastomosis uretereoileal derecha. ¿Cuál es el tratamiento inicial más apropiado?",
+        "options": {
+          "A": "Nefrostomía percutánea derecha",
+          "B": "Cistoscopia y cateterismo retrógrado a través del conduit ileal",
+          "C": "Revisión quirúrgica abierta de la anastomosis uretereoileal derecha",
+          "D": "Antibióticos IV y reevaluación a las 48 horas"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "La estenosis de la anastomosis uretereoileal tras la derivación urinaria mediante conduit ileal se presenta con hidronefrosis, creatinina en aumento y dolor en el flanco. El tratamiento inicial es la nefrostomía percutánea para descomprimir el riñón obstruido, tratar la urosepsis y proteger la función renal. Tras la estabilización, puede intentarse el cateterismo ureteral anterógrado o la dilatación con balón de la estenosis a través de la NPC. Si el cateterismo anterógrado fracasa, el cateterismo retrógrado a través del estoma del conduit (looposcopia) es una alternativa. La revisión quirúrgica abierta formal de la anastomosis uretereoileal es el procedimiento definitivo si el tratamiento endoscópico/anterógrado fracasa, pero se planifica de forma electiva tras la resolución aguda.",
+          "wrong": {
+            "A": "Correcto — véase la explicación anterior. La NPC es el paso inicial correcto para la estenosis uretereoileal con urosepsis e insuficiencia renal.",
+            "B": "El cateterismo retrógrado a través del conduit ileal (looposcopia) es técnicamente exigente — el estoma del conduit debe ser intubado y un ureteroscopio flexible avanzado hasta la anastomosis uretereoileal. Esta es una técnica especializada no disponible en todos los centros y es menos apropiada como descompresión de urgencia inicial en comparación con la NPC.",
+            "C": "La revisión quirúrgica abierta es el tratamiento definitivo, pero requiere un entorno electivo una vez que la infección y la inflamación se hayan resuelto. La reconstrucción abierta de urgencia en un paciente séptico con urosepsis fresca tiene altas tasas de complicaciones.",
+            "D": "Los antibióticos IV solos sin descompresión urinaria no pueden tratar adecuadamente la sepsis relacionada con la obstrucción — la fuente (riñón infectado obstruido) debe drenarse. La observación sola es inapropiada."
+          },
+          "guideline": "EAU Guidelines on Complications after Urinary Diversion (2024) — Estenosis de la anastomosis uretereoileal: NPC para descompresión aguda; cateterismo anterógrado o dilatación con balón; revisión quirúrgica para el tratamiento definitivo del fracaso del tratamiento endoscópico (Grado C).",
+          "trial": "Farnham SB et al. (J Urol 2004): Serie de 56 estenosis uretereoileales tras cistectomía radical — NPC + cateterismo anterógrado logró descompresión inicial en el 98%; permeabilidad a largo plazo por dilatación anterógrada en el 44%; se requirió revisión quirúrgica en el 56% para resultados duraderos.",
+          "pearl": "Estenosis uretereoileal post-cistectomía + sepsis = NPC primero (descompresión + tratar sepsis). Luego intento de cateterismo anterógrado. Revisión quirúrgica para el fracaso del tratamiento endoscópico. Nunca cirugía abierta primaria para urosepsis obstructiva aguda."
+        },
+        "difficulty": 2
+      }
+    ]
+  }
+}
